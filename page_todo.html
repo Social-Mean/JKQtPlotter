@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JKQTPlotter: Contributing</title>
+<title>JKQTPlotter: Todo List für Future Releases/Versions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",'Search','.html');
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('md__c_o_n_t_r_i_b_u_t_i_n_g.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('page_todo.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -104,48 +104,42 @@ $(document).ready(function(){initNavTree('md__c_o_n_t_r_i_b_u_t_i_n_g.html','');
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Contributing </div></div>
+  <div class="headertitle"><div class="title">Todo List für Future Releases/Versions </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p >When contributing to this repository, please simply open a new <a href="https://github.com/jkriege2/JKQtPlotter/pulls">PULL REQUEST</a>. If you want to simply report a bug for which you don't have a solution, please simply open a new <a href="https://github.com/jkriege2/JKQtPlotter/issues">ISSUE</a>.</p>
-<p >Please note we have a code of conduct, please follow it in all your interactions with the project.</p>
-<h1><a class="anchor" id="autotoc_md8"></a>
-Pull Request Process</h1>
-<p >Please ensure that your PR follows these guidelines:</p><ul>
-<li>Please describe your changes with enough detail to easily understand them. As a plotting library is a profoundly visual thing, please add screenshots to illustrate your changes.</li>
-<li>Reference <a href="https://github.com/jkriege2/JKQtPlotter/issues">ISSUE</a>s connnected to your PR</li>
-<li>ensure your code changes do compile at least for the most recent supported Qt version (currently Qt 5.15.x, in future also Qt 6). Please look at the results of the CI-builds and code-analysis and fix errors that are noted there.</li>
-<li>ensure that you fix all conflicts, before the PR can be merged</li>
-<li>ideally, please ensure that no new compiler warnings are generated</li>
-<li>ensure that you are happy to comply with the <a href="https://github.com/jkriege2/JKQtPlotter/blob/master/LICENSE">librariy's license</a></li>
+<div class="textblock"><p >This page lists several todos and wishes for future version of <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a></p>
+<ul>
+<li>
+<a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>:<ul>
+<li>
+matrix plots with boxes, labels, ... </li>
+<li>
+text labels at positions/for graphs </li>
+<li>
+secondary axes: independent and dependent (i.e. with transformation function from primary axis) </li>
+<li>
+rounded rectangles for barcharts (also controllable by styles) </li>
+<li>
+matrix plots with symbols: symbol-type, color, size should be parametric, cf. scatter plots </li>
+<li>
+color gradients as fill-styles in style-INIs </li>
+<li>
+style.ini with glowing colors in dark background ("techno" or "cyberpunk") </li>
+<li>
+axis labels above/below/centered around tick </li>
+<li>
+elongated grid to left of tick labels </li>
+<li>
+different styles above/below zeroline for barcharts ... </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md9"></a>
-Our Standards</h1>
-<p >Examples of behavior that contributes to creating a positive environment include:</p><ul>
-<li>Using welcoming and inclusive language</li>
-<li>Being respectful of differing viewpoints and experiences</li>
-<li>Gracefully accepting constructive criticism</li>
-<li>Focusing on what is best for the community</li>
-<li>Showing empathy towards other community members</li>
+</li>
+<li>
+<a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a>:<ul>
+<li>
+new instructions: \cancel, \xcancel, ... </li>
 </ul>
-<p >Examples of unacceptable behavior by participants include:</p><ul>
-<li>The use of sexualized language or imagery and unwelcome sexual attention or advances</li>
-<li>Trolling, insulting/derogatory comments, and personal or political attacks</li>
-<li>Public or private harassment</li>
-<li>Publishing others' private information, such as a physical or electronic address, without explicit permission</li>
-<li>Other conduct which could reasonably be considered inappropriate in a professional setting</li>
+</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md10"></a>
-Our Responsibilities</h1>
-<p >Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.</p>
-<p >Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.</p>
-<h1><a class="anchor" id="autotoc_md11"></a>
-Scope</h1>
-<p >This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.</p>
-<h1><a class="anchor" id="autotoc_md12"></a>
-Enforcement</h1>
-<p >Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at <a href="#" onclick="location.href='mai'+'lto:'+'jan'+'@j'+'kri'+'eg'+'er.'+'de'; return false;">jan@j<span class="obfuscator">.nosp@m.</span>krie<span class="obfuscator">.nosp@m.</span>ger.d<span class="obfuscator">.nosp@m.</span>e</a>. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.</p>
-<p >Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

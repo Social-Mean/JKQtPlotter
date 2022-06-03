@@ -67,6 +67,7 @@ var NAVTREE =
         [ "XITS Fonts for JKQTMathText", "licensepage.html#extlicense_xits", null ]
       ] ]
     ] ],
+    [ "Todo List für Future Releases/Versions", "page_todo.html", null ],
     [ "What's New (Release Notes/Versions)", "page_whatsnew.html", [
       [ "trunk/master", "page_whatsnew.html#page_whatsnew_TRUNK", [
         [ "trunk: Overview", "page_whatsnew.html#page_whatsnew_TRUNK_OVERVIEW", null ],
@@ -158,7 +159,7 @@ var NAVTREEINDEX =
 "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da8e428eb6b3c7a46b8511891b550b44cf",
 "group__jkqtptools__drawing.html#gabd0e8edf2acdfce37eccab000e445c62",
 "group__jkqtptools__math__statistics__adaptors.html#ga8ff37e2bd7bd79311cca2c5cc3b65345",
-"struct_j_k_q_t_math_text_1_1tbr_data.html#ac8094375c4d15d1bcb253cdc12465f22"
+"struct_j_k_q_t_math_text_1_1tbr_data.html#ac0893ce7fa78a1a7c15c6ba73f0ccce2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
