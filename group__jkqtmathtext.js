@@ -28,7 +28,11 @@ var group__jkqtmathtext =
         [ "MTDdoubleoverline", "class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2ad0fd79129d5ef1a360fdf1eed208ecbc", null ],
         [ "MTDunderline", "class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2a5540adc660fc92e1b48c7d0c436a7e7e", null ],
         [ "MTDdoubleunderline", "class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2a812a95310aabee2d2f89a8177ac036c8", null ],
-        [ "MTDtilde", "class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2a1c86e33830e5423beb30ca2931984b73", null ]
+        [ "MTDtilde", "class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2a1c86e33830e5423beb30ca2931984b73", null ],
+        [ "MTDcancel", "class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2a4973bd0c14d28e0826d05a06f5bd3995", null ],
+        [ "MTDbcancel", "class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2aded8dce6b1883b0bb1105e2572976ac1", null ],
+        [ "MTDxcancel", "class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2ac233199d81e0273400126874c3e8e75a", null ],
+        [ "MTDstrike", "class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2a4887cb4127def7515a9db0d792c75c4e", null ]
       ] ],
       [ "MTenvironmentFont", "class_j_k_q_t_math_text.html#a4a820158bf529643a96565a9d6635a1f", [
         [ "MTEroman", "class_j_k_q_t_math_text.html#a4a820158bf529643a96565a9d6635a1fa4b5b911bbd0bb4992de5c9aa84fe1d37", null ],

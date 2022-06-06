@@ -236,6 +236,14 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2a812a95310aabee2d2f89a8177ac036c8">MTDdoubleunderline</a>
 , <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2a1c86e33830e5423beb30ca2931984b73">MTDtilde</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2a4973bd0c14d28e0826d05a06f5bd3995">MTDcancel</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2aded8dce6b1883b0bb1105e2572976ac1">MTDbcancel</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2ac233199d81e0273400126874c3e8e75a">MTDxcancel</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2a4887cb4127def7515a9db0d792c75c4e">MTDstrike</a>
 <br />
  }</td></tr>
 <tr class="separator:a466b8e7fb78a378b3ec4221d74dec6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -634,6 +642,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad7e0f54320036f7270209248ff5efd68"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ad7e0f54320036f7270209248ff5efd68">decorationToString</a> (<a class="el" href="class_j_k_q_t_math_text.html#a466b8e7fb78a378b3ec4221d74dec6e2">MTdecoration</a> mode)</td></tr>
+<tr class="memdesc:ad7e0f54320036f7270209248ff5efd68"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a MTdecoration into a string  <a href="class_j_k_q_t_math_text.html#ad7e0f54320036f7270209248ff5efd68">More...</a><br /></td></tr>
 <tr class="separator:ad7e0f54320036f7270209248ff5efd68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ef12eca3806591c7e69805ec6b6088c"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a2ef12eca3806591c7e69805ec6b6088c">encoding2String</a> (<a class="el" href="class_j_k_q_t_math_text.html#a4b2c79cf1339210db97cc86c11f0f476">MTfontEncoding</a> e)</td></tr>
 <tr class="memdesc:a2ef12eca3806591c7e69805ec6b6088c"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert MTfontEncoding to a string  <a href="class_j_k_q_t_math_text.html#a2ef12eca3806591c7e69805ec6b6088c">More...</a><br /></td></tr>
@@ -813,7 +822,7 @@ Direct Usage</h2>
 <div class="line">painter.begin(&amp;pix);</div>
 <div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#ace4fa59fd6101d2396b150ca2d5acf7b">draw</a>(painter, Qt::AlignCenter, QRectF(0,0,pix.width(), pix.height()), <span class="keyword">false</span>);</div>
 <div class="line">painter.end();</div>
-<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:291</div></div>
+<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:295</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a7e5a8ec55ff08d2dc3375e62407d2beb"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb">JKQTMathText::parse</a></div><div class="ttdeci">bool parse(const QString &amp;text, bool addSpaceBeforeAndAfter=false)</div><div class="ttdoc">parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_ace4fa59fd6101d2396b150ca2d5acf7b"><div class="ttname"><a href="class_j_k_q_t_math_text.html#ace4fa59fd6101d2396b150ca2d5acf7b">JKQTMathText::draw</a></div><div class="ttdeci">void draw(QPainter &amp;painter, double x, double y, bool drawBoxes=false)</div><div class="ttdoc">draw a representation to the QPainter object at the specified position</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_af231fd040caed5040c227dd3748ff899"><div class="ttname"><a href="class_j_k_q_t_math_text.html#af231fd040caed5040c227dd3748ff899">JKQTMathText::setFontSize</a></div><div class="ttdeci">void setFontSize(double __value)</div><div class="ttdoc">base font size in points</div></div>
@@ -870,6 +879,22 @@ Simple Instructions</h2>
 </li>
 <li><code>\ul{</code>...} <code>\underline{</code>...} <code>\underlined{</code>...} : draw the text with underlining<div class="image">
 <img src="jkqtmathtext_ul.png" alt=""/>
+</div>
+</li>
+<li><code>\sout{</code>...} : strike out the text<div class="image">
+<img src="MTDstrike.png" alt=""/>
+</div>
+</li>
+<li><code>\cancel{</code>...} : slanted strike out the text<div class="image">
+<img src="MTDcancel.png" alt=""/>
+</div>
+</li>
+<li><code>\bcancel{</code>...} : back-strike out the text<div class="image">
+<img src="MTDbcancel.png" alt=""/>
+</div>
+</li>
+<li><code>\xcancel{</code>...} : x-strike out the text<div class="image">
+<img src="MTDxcancel.png" alt=""/>
 </div>
 </li>
 <li><code>\ol{</code>...} <code>\overline{</code>...} <code>\overlined{</code>...} : draw the text with overlining<div class="image">
@@ -1183,6 +1208,26 @@ Convert to HTML</h1>
 <tr><td class="fieldname"><a id="a466b8e7fb78a378b3ec4221d74dec6e2a1c86e33830e5423beb30ca2931984b73" name="a466b8e7fb78a378b3ec4221d74dec6e2a1c86e33830e5423beb30ca2931984b73"></a>MTDtilde&#160;</td><td class="fielddoc"><p >tilde over block </p>
 <div class="image">
 <img src="MTDtilde.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a466b8e7fb78a378b3ec4221d74dec6e2a4973bd0c14d28e0826d05a06f5bd3995" name="a466b8e7fb78a378b3ec4221d74dec6e2a4973bd0c14d28e0826d05a06f5bd3995"></a>MTDcancel&#160;</td><td class="fielddoc"><p >cancel text with sloped line </p>
+<div class="image">
+<img src="MTDcancel.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a466b8e7fb78a378b3ec4221d74dec6e2aded8dce6b1883b0bb1105e2572976ac1" name="a466b8e7fb78a378b3ec4221d74dec6e2aded8dce6b1883b0bb1105e2572976ac1"></a>MTDbcancel&#160;</td><td class="fielddoc"><p >cancel text with backward sloped line </p>
+<div class="image">
+<img src="MTDbcancel.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a466b8e7fb78a378b3ec4221d74dec6e2ac233199d81e0273400126874c3e8e75a" name="a466b8e7fb78a378b3ec4221d74dec6e2ac233199d81e0273400126874c3e8e75a"></a>MTDxcancel&#160;</td><td class="fielddoc"><p >cancel text with X </p>
+<div class="image">
+<img src="MTDxcancel.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a466b8e7fb78a378b3ec4221d74dec6e2a4887cb4127def7515a9db0d792c75c4e" name="a466b8e7fb78a378b3ec4221d74dec6e2a4887cb4127def7515a9db0d792c75c4e"></a>MTDstrike&#160;</td><td class="fielddoc"><p >strikethrough text </p>
+<div class="image">
+<img src="MTDstrike.png" alt=""/>
 </div>
  </td></tr>
 </table>
@@ -1504,6 +1549,8 @@ Convert to HTML</h1>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>convert a MTdecoration into a string </p>
 
 </div>
 </div>
@@ -4768,7 +4815,7 @@ Convert to HTML</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Mon Jun 6 2022 08:30:50 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Mon Jun 6 2022 12:20:22 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>
