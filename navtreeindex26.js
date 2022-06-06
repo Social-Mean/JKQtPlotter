@@ -1,5 +1,16 @@
 var NAVTREEINDEX26 =
 {
+"struct_j_k_q_t_math_text_1_1_m_tenvironment.html#adedfea9608b72628318d3ab12e749b5c":[10,1,7,10],
+"struct_j_k_q_t_math_text_1_1_m_tenvironment.html#ae3c1004e2b37300838746771ab837735":[10,1,7,5],
+"struct_j_k_q_t_math_text_1_1_m_tnode_size.html":[10,1,13],
+"struct_j_k_q_t_math_text_1_1_m_tnode_size.html#a0411ba9256ad90b567c5f48878e66cc5":[10,1,13,2],
+"struct_j_k_q_t_math_text_1_1_m_tnode_size.html#a744b0c3889f97043c1a7696c1edc3ea4":[10,1,13,4],
+"struct_j_k_q_t_math_text_1_1_m_tnode_size.html#a8add340c14c0a5e367e5f50d9e4b9d4c":[10,1,13,0],
+"struct_j_k_q_t_math_text_1_1_m_tnode_size.html#a92916db1593595e2e98868979b3f742f":[10,1,13,3],
+"struct_j_k_q_t_math_text_1_1_m_tnode_size.html#ad00f4df812c5724d33a0e2c3b756bdcd":[10,1,13,1],
+"struct_j_k_q_t_math_text_1_1tbr_data.html":[10,1,22],
+"struct_j_k_q_t_math_text_1_1tbr_data.html#a16b3fb0938d46a1137bfcc0061821446":[10,1,22,8],
+"struct_j_k_q_t_math_text_1_1tbr_data.html#a221bcac8b75c9189643e8597b2d71335":[10,1,22,6],
 "struct_j_k_q_t_math_text_1_1tbr_data.html#a22506ac52d1aa21042c8e4fbf1ea9bd9":[10,1,22,7],
 "struct_j_k_q_t_math_text_1_1tbr_data.html#a464634c67beff4f73458c068abdb6ec0":[10,1,22,9],
 "struct_j_k_q_t_math_text_1_1tbr_data.html#a8079b96b7b735e7ca456b8b898e87131":[10,1,22,1],
