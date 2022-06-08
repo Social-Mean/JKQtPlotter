@@ -25,7 +25,7 @@ var searchData=
   ['actzoomall_22',['actZoomAll',['../class_j_k_q_t_base_plotter.html#ac1715cf0b56bc4cdc5c90124bdd09f14',1,'JKQTBasePlotter']]],
   ['actzoomin_23',['actZoomIn',['../class_j_k_q_t_base_plotter.html#a567b1e14d49f54f5331e0e7da150910f',1,'JKQTBasePlotter']]],
   ['actzoomout_24',['actZoomOut',['../class_j_k_q_t_base_plotter.html#a30e866ddc7ac6d20a661adcc675d02ae',1,'JKQTBasePlotter']]],
-  ['addwhitespace_25',['addWhitespace',['../class_j_k_q_t_math_text_1_1_m_tsymbol_node.html#a464a62e6d6ebc97174b5b329a1332752',1,'JKQTMathText::MTsymbolNode']]],
+  ['addwhitespace_25',['addWhitespace',['../class_j_k_q_t_math_text_symbol_node.html#a77c1ba34646be1adc6bbae0d7801f9a2',1,'JKQTMathTextSymbolNode']]],
   ['allocated_26',['allocated',['../class_j_k_q_t_p_datastore_item.html#ac453e44f9cd758a80ed7917bad2f795f',1,'JKQTPDatastoreItem']]],
   ['angle_27',['angle',['../class_j_k_q_t_p_geo_rectangle.html#a509cba23816b871f2db06bdefe4d038e',1,'JKQTPGeoRectangle::angle()'],['../class_j_k_q_t_p_geo_arc.html#a283e50388c74ccaf604cc5d11525a8b1',1,'JKQTPGeoArc::angle()']]],
   ['anglestart_28',['angleStart',['../class_j_k_q_t_p_geo_arc.html#aa65e05b962fe21ea8f955dc5398d10a4',1,'JKQTPGeoArc::angleStart()'],['../class_j_k_q_t_p_geo_pie.html#a593c9e806939addb684f4a24590bad50',1,'JKQTPGeoPie::angleStart()']]],

@@ -6,7 +6,7 @@ var searchData=
   ['updatepreviewlabel_3',['updatePreviewLabel',['../class_j_k_q_t_base_plotter.html#a3da2a53e5d0953eade2d0da7932c5721',1,'JKQTBasePlotter']]],
   ['updatetoolbar_4',['updateToolbar',['../class_j_k_q_t_plotter.html#a6d7279d0afa78921885a5bd212c5c92e',1,'JKQTPlotter']]],
   ['updatetoolbaractions_5',['updateToolbarActions',['../class_j_k_q_t_plotter.html#acd3d7045c370e4c5c29d5904ce4c3484',1,'JKQTPlotter']]],
-  ['useanyunicode_6',['useAnyUnicode',['../class_j_k_q_t_math_text.html#a65e2b0b353ae8398233060928bc6f1f2',1,'JKQTMathText']]],
+  ['useanyunicode_6',['useAnyUnicode',['../class_j_k_q_t_math_text.html#a67928da0f2948476675578780bcf687f',1,'JKQTMathText']]],
   ['useasana_7',['useASANA',['../class_j_k_q_t_math_text.html#a948ebe7d021608d8368fe6d196e98e48',1,'JKQTMathText']]],
   ['useasinternaldatastore_8',['useAsInternalDatastore',['../class_j_k_q_t_base_plotter.html#a074da6418adaaea716665e7def5f7962',1,'JKQTBasePlotter::useAsInternalDatastore()'],['../class_j_k_q_t_plotter.html#ae2611ae03ab11fa2c0f18503f3e7d330',1,'JKQTPlotter::useAsInternalDatastore()']]],
   ['useexternaldatastore_9',['useExternalDatastore',['../class_j_k_q_t_base_plotter.html#a2a501eb9091c333304ce3498771eb3e4',1,'JKQTBasePlotter::useExternalDatastore()'],['../class_j_k_q_t_plotter.html#a1fb46a585905eaf33943bf39f1694ed3',1,'JKQTPlotter::useExternalDatastore()']]],

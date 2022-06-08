@@ -3,7 +3,6 @@ var hierarchy =
     [ "std::exception", null, [
       [ "JKQTPMathParser::jkmpException", "class_j_k_q_t_p_math_parser_1_1jkmp_exception.html", null ]
     ] ],
-    [ "JKQTMathText::FontDefinition", "struct_j_k_q_t_math_text_1_1_font_definition.html", null ],
     [ "JKQTPPlotElement::HitTestLocation", "struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html", null ],
     [ "JKQTPMathParser::jkmpFunctionDescriptor", "group__jkmp.html#struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor", null ],
     [ "JKQTPMathParser::jkmpNode", "class_j_k_q_t_p_math_parser_1_1jkmp_node.html", [
@@ -27,7 +26,28 @@ var hierarchy =
         [ "JKQTAnnotationsSpecificStyleProperties", "class_j_k_q_t_annotations_specific_style_properties.html", null ]
       ] ]
     ] ],
+    [ "JKQTMathTextEnvironment", "struct_j_k_q_t_math_text_environment.html", null ],
+    [ "JKQTMathTextFontDefinition", "struct_j_k_q_t_math_text_font_definition.html", null ],
     [ "JKQTMathTextFontSpecifier", "struct_j_k_q_t_math_text_font_specifier.html", null ],
+    [ "JKQTMathTextNode", "class_j_k_q_t_math_text_node.html", [
+      [ "JKQTMathTextBraceNode", "class_j_k_q_t_math_text_brace_node.html", null ],
+      [ "JKQTMathTextDecoratedNode", "class_j_k_q_t_math_text_decorated_node.html", null ],
+      [ "JKQTMathTextFracNode", "class_j_k_q_t_math_text_frac_node.html", null ],
+      [ "JKQTMathTextInstruction1Node", "class_j_k_q_t_math_text_instruction1_node.html", null ],
+      [ "JKQTMathTextListNode", "class_j_k_q_t_math_text_list_node.html", null ],
+      [ "JKQTMathTextMatrixNode", "class_j_k_q_t_math_text_matrix_node.html", null ],
+      [ "JKQTMathTextSqrtNode", "class_j_k_q_t_math_text_sqrt_node.html", null ],
+      [ "JKQTMathTextSubscriptNode", "class_j_k_q_t_math_text_subscript_node.html", null ],
+      [ "JKQTMathTextSuperscriptNode", "class_j_k_q_t_math_text_superscript_node.html", null ],
+      [ "JKQTMathTextSymbolNode", "class_j_k_q_t_math_text_symbol_node.html", null ],
+      [ "JKQTMathTextTextNode", "class_j_k_q_t_math_text_text_node.html", [
+        [ "JKQTMathTextWhitespaceNode", "class_j_k_q_t_math_text_whitespace_node.html", null ],
+        [ "MTplainTextNode", "class_m_tplain_text_node.html", null ]
+      ] ]
+    ] ],
+    [ "JKQTMathTextNodeSize", "struct_j_k_q_t_math_text_node_size.html", null ],
+    [ "JKQTMathTextTBRData", "struct_j_k_q_t_math_text_t_b_r_data.html", null ],
+    [ "JKQTMathTextTBRDataH", "struct_j_k_q_t_math_text_t_b_r_data_h.html", null ],
     [ "JKQTPAdaptiveFunctionGraphEvaluator", "class_j_k_q_t_p_adaptive_function_graph_evaluator.html", null ],
     [ "JKQTPArrayScopedPointer< T >", "class_j_k_q_t_p_array_scoped_pointer.html", null ],
     [ "JKQTPColorDerivationMode", "struct_j_k_q_t_p_color_derivation_mode.html", null ],
@@ -215,24 +235,6 @@ var hierarchy =
     [ "JKQTPXYParametrizedScatterGraph::MappedSymbolFunctor", "struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html", null ],
     [ "JKQTPlotter::MouseDragAction", "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html", null ],
     [ "JKQTPlotter::MouseDragMarker", "struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html", null ],
-    [ "JKQTMathText::MTenvironment", "struct_j_k_q_t_math_text_1_1_m_tenvironment.html", null ],
-    [ "JKQTMathText::MTnode", "class_j_k_q_t_math_text_1_1_m_tnode.html", [
-      [ "JKQTMathText::MTbraceNode", "class_j_k_q_t_math_text_1_1_m_tbrace_node.html", null ],
-      [ "JKQTMathText::MTdecoratedNode", "class_j_k_q_t_math_text_1_1_m_tdecorated_node.html", null ],
-      [ "JKQTMathText::MTfracNode", "class_j_k_q_t_math_text_1_1_m_tfrac_node.html", null ],
-      [ "JKQTMathText::MTinstruction1Node", "class_j_k_q_t_math_text_1_1_m_tinstruction1_node.html", null ],
-      [ "JKQTMathText::MTlistNode", "class_j_k_q_t_math_text_1_1_m_tlist_node.html", null ],
-      [ "JKQTMathText::MTmatrixNode", "class_j_k_q_t_math_text_1_1_m_tmatrix_node.html", null ],
-      [ "JKQTMathText::MTsqrtNode", "class_j_k_q_t_math_text_1_1_m_tsqrt_node.html", null ],
-      [ "JKQTMathText::MTsubscriptNode", "class_j_k_q_t_math_text_1_1_m_tsubscript_node.html", null ],
-      [ "JKQTMathText::MTsuperscriptNode", "class_j_k_q_t_math_text_1_1_m_tsuperscript_node.html", null ],
-      [ "JKQTMathText::MTsymbolNode", "class_j_k_q_t_math_text_1_1_m_tsymbol_node.html", null ],
-      [ "JKQTMathText::MTtextNode", "class_j_k_q_t_math_text_1_1_m_ttext_node.html", [
-        [ "JKQTMathText::MTplainTextNode", "class_j_k_q_t_math_text_1_1_m_tplain_text_node.html", null ],
-        [ "JKQTMathText::MTwhitespaceNode", "class_j_k_q_t_math_text_1_1_m_twhitespace_node.html", null ]
-      ] ]
-    ] ],
-    [ "JKQTMathText::MTnodeSize", "struct_j_k_q_t_math_text_1_1_m_tnode_size.html", null ],
     [ "JKQTPParsedFunctionLineGraphBase::ParsedFunctionLineGraphFunctionData", "group__jkqtplotter__functiongraphs.html#struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data", null ],
     [ "JKQTPEvaluatedFunctionGraphBase::PlotFunctorSpec", "struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html", null ],
     [ "QAbstractTableModel", null, [
@@ -363,9 +365,7 @@ var hierarchy =
       [ "JKQTPlotter", "class_j_k_q_t_plotter.html", null ]
     ] ],
     [ "JKQTPLinePlotStyleWithSymbolSizeComboBox::styleData", "struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html", null ],
-    [ "JKQTMathText::MTsymbolNode::SymbolProps", "group__jkqtmathtext.html#struct_j_k_q_t_math_text_1_1_m_tsymbol_node_1_1_symbol_props", null ],
-    [ "JKQTMathText::tbrData", "struct_j_k_q_t_math_text_1_1tbr_data.html", null ],
-    [ "JKQTMathText::tbrDataH", "struct_j_k_q_t_math_text_1_1tbr_data_h.html", null ],
+    [ "JKQTMathTextSymbolNode::SymbolProps", "group__jkqtmathtext__items.html#struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props", null ],
     [ "JKQTBasePlotter::textSizeData", "struct_j_k_q_t_base_plotter_1_1text_size_data.html", null ],
     [ "JKQTBasePlotter::textSizeKey", "struct_j_k_q_t_base_plotter_1_1text_size_key.html", null ]
 ];

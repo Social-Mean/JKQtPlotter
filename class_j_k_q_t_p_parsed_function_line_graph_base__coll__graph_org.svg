@@ -408,24 +408,24 @@
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="class_j_k_q_t_math_text_1_1_m_tnode.html" target="_top" xlink:title="subclass representing one node in the syntax tree">
-<polygon fill="none" stroke="black" points="2126,-848.15 2126,-869.15 2275,-869.15 2275,-848.15 2126,-848.15"/>
-<text text-anchor="middle" x="2200.5" y="-855.55" font-family="FreeSans" font-size="12.00">JKQTMathText::MTnode</text>
+<g id="a_node20"><a xlink:href="class_j_k_q_t_math_text_node.html" target="_top" xlink:title="subclass representing one node in the syntax tree">
+<polygon fill="none" stroke="black" points="2136.5,-848.15 2136.5,-869.15 2264.5,-869.15 2264.5,-848.15 2136.5,-848.15"/>
+<text text-anchor="middle" x="2200.5" y="-855.55" font-family="FreeSans" font-size="12.00">JKQTMathTextNode</text>
 </a>
 </g>
 </g>
 <!-- Node19&#45;&gt;Node20 -->
 <g id="edge26" class="edge">
 <title>Node19&#45;&gt;Node20</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1843.21,-872.05C1903.69,-873.13 2001.03,-873.82 2085,-869.65 2098.26,-869 2112.36,-867.94 2125.97,-866.73"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1843.21,-872.05C1903.69,-873.13 2001.03,-873.82 2085,-869.65 2101.65,-868.83 2119.63,-867.37 2136.28,-865.78"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1843.16,-868.55 1833.1,-871.86 1843.03,-875.55 1843.16,-868.55"/>
 <text text-anchor="middle" x="1989" y="-876.05" font-family="FreeSans" font-size="12.00"> parent</text>
 </g>
 <!-- Node20&#45;&gt;Node19 -->
 <g id="edge25" class="edge">
 <title>Node20&#45;&gt;Node19</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2120.68,-846.96C2108.75,-845.59 2096.57,-844.41 2085,-843.65 1999.85,-838.1 1977.69,-833.23 1893,-843.65 1867.49,-846.8 1839.33,-853.96 1818.17,-860.12"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="2120.27,-850.44 2130.62,-848.15 2121.11,-843.49 2120.27,-850.44"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2126.06,-847.59C2112.44,-845.95 2098.31,-844.52 2085,-843.65 1999.85,-838.1 1977.69,-833.23 1893,-843.65 1867.49,-846.8 1839.33,-853.96 1818.17,-860.12"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="2125.99,-851.11 2136.35,-848.89 2126.87,-844.17 2125.99,-851.11"/>
 <text text-anchor="middle" x="1989" y="-860.05" font-family="FreeSans" font-size="12.00"> parsedNode</text>
 <text text-anchor="middle" x="1989" y="-847.05" font-family="FreeSans" font-size="12.00">unparsedNode</text>
 </g>

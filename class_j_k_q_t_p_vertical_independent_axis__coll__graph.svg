@@ -407,24 +407,24 @@ var sectionId = 'dynsection-1';
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="class_j_k_q_t_math_text_1_1_m_tnode.html" target="_top" xlink:title="subclass representing one node in the syntax tree">
-<polygon fill="none" stroke="black" points="1962,-483.5 1962,-504.5 2111,-504.5 2111,-483.5 1962,-483.5"/>
-<text text-anchor="middle" x="2036.5" y="-490.9" font-family="FreeSans" font-size="12.00">JKQTMathText::MTnode</text>
+<g id="a_node17"><a xlink:href="class_j_k_q_t_math_text_node.html" target="_top" xlink:title="subclass representing one node in the syntax tree">
+<polygon fill="none" stroke="black" points="1972.5,-483.5 1972.5,-504.5 2100.5,-504.5 2100.5,-483.5 1972.5,-483.5"/>
+<text text-anchor="middle" x="2036.5" y="-490.9" font-family="FreeSans" font-size="12.00">JKQTMathTextNode</text>
 </a>
 </g>
 </g>
 <!-- Node16&#45;&gt;Node17 -->
 <g id="edge23" class="edge">
 <title>Node16&#45;&gt;Node17</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1820.15,-434.58C1852.94,-433.54 1893.59,-436.64 1926,-453 1936.97,-458.54 1933.45,-467.69 1944,-474 1950.42,-477.84 1957.49,-480.94 1964.76,-483.45"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1820.15,-434.58C1852.94,-433.54 1893.59,-436.64 1926,-453 1936.97,-458.54 1933.45,-467.69 1944,-474 1952.65,-479.17 1962.48,-483.01 1972.41,-485.86"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1819.64,-431.1 1809.81,-435.05 1819.96,-438.09 1819.64,-431.1"/>
 <text text-anchor="middle" x="1886" y="-456.4" font-family="FreeSans" font-size="12.00"> parent</text>
 </g>
 <!-- Node17&#45;&gt;Node16 -->
 <g id="edge22" class="edge">
 <title>Node17&#45;&gt;Node16</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1951.86,-487.13C1918.64,-483.44 1880.25,-477.96 1846,-470 1826.06,-465.37 1804.22,-457.8 1787.73,-451.56"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="1951.68,-490.63 1961.99,-488.22 1952.42,-483.67 1951.68,-490.63"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1961.95,-488.22C1926.59,-484.54 1883.78,-478.78 1846,-470 1826.06,-465.37 1804.22,-457.8 1787.73,-451.56"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="1961.89,-491.73 1972.19,-489.25 1962.59,-484.77 1961.89,-491.73"/>
 <text text-anchor="middle" x="1886" y="-499.4" font-family="FreeSans" font-size="12.00"> parsedNode</text>
 <text text-anchor="middle" x="1886" y="-486.4" font-family="FreeSans" font-size="12.00">unparsedNode</text>
 </g>

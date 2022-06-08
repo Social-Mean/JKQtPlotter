@@ -10,7 +10,7 @@ var searchData=
   ['initfillstyle_7',['initFillStyle',['../class_j_k_q_t_p_graph_fill_style_mixin.html#a37ce23c026a841324377f48aece76417',1,'JKQTPGraphFillStyleMixin']]],
   ['initfillstyleinvertedcolor_8',['initFillStyleInvertedColor',['../class_j_k_q_t_p_graph_fill_style_mixin.html#a28fe55c9266712727b51be418f853a96',1,'JKQTPGraphFillStyleMixin']]],
   ['initjkqtbaseplotterresources_9',['initJKQTBasePlotterResources',['../group__jkqtpplottersupprt.html#gaf28a5a24029cbfd00b14d7c4c99e06b8',1,'jkqtpbaseplotter.h']]],
-  ['initjkqtmathtextresources_10',['initJKQTMathTextResources',['../group__jkqtmathtext.html#gaca567648d8a0ffdba79df3c41e39f1ee',1,'jkqtmathtext.h']]],
+  ['initjkqtmathtextresources_10',['initJKQTMathTextResources',['../group__jkqtmathtext.html#gaca567648d8a0ffdba79df3c41e39f1ee',1,'jkqtmathtexttools.h']]],
   ['initjkqtplotterresources_11',['initJKQTPlotterResources',['../group__jkqtpplottersupprt.html#gae6a6f2b46b6f24e88437d3198295d44a',1,'jkqtplotter.h']]],
   ['initjkqtpmathimage_12',['initJKQTPMathImage',['../class_j_k_q_t_p_math_image.html#ab3650b4a345d71b89fa4526e820c4919',1,'JKQTPMathImage']]],
   ['initlinestyle_13',['initLineStyle',['../class_j_k_q_t_p_graph_line_style_mixin.html#a99464741a9b68766643df9f2e5625576',1,'JKQTPGraphLineStyleMixin']]],

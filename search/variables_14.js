@@ -1,11 +1,11 @@
 var searchData=
 [
   ['underbrace_5ffactor_0',['underbrace_factor',['../class_j_k_q_t_math_text.html#ae8c0f4c722427e3edda62f9c64cc54fe',1,'JKQTMathText']]],
-  ['underlined_1',['underlined',['../struct_j_k_q_t_math_text_1_1_m_tenvironment.html#a9de9126f8c7140e0d0a85476b202def5',1,'JKQTMathText::MTenvironment']]],
+  ['underlined_1',['underlined',['../struct_j_k_q_t_math_text_environment.html#a77d8e4cec5bfb3c1fbb10070395c40a1',1,'JKQTMathTextEnvironment']]],
   ['undersetfactor_2',['undersetFactor',['../class_j_k_q_t_math_text.html#ae5d5bc9bba25675ff05e7d89ffe3d224',1,'JKQTMathText']]],
   ['unlimitedsizemax_3',['unlimitedSizeMax',['../class_j_k_q_t_p_range_base.html#aea5b9cc430c7f43d00726e4fb3ddcb62',1,'JKQTPRangeBase']]],
   ['unlimitedsizemin_4',['unlimitedSizeMin',['../class_j_k_q_t_p_range_base.html#a5799f6963df90d709c90d7d4f0797760',1,'JKQTPRangeBase']]],
-  ['unparsednode_5',['unparsedNode',['../class_j_k_q_t_math_text.html#a2da337f685a55fa779cb50ba0fddb87f',1,'JKQTMathText']]],
+  ['unparsednode_5',['unparsedNode',['../class_j_k_q_t_math_text.html#a59f1dfd9a246f8b79a21cc16c23b3c6b',1,'JKQTMathText']]],
   ['useantialiasingforgraphs_6',['useAntiAliasingForGraphs',['../class_j_k_q_t_graphs_base_style.html#a620fef0b32190cb4e0fbd7a7ca9c5669',1,'JKQTGraphsBaseStyle']]],
   ['useantialiasingforsystem_7',['useAntiAliasingForSystem',['../class_j_k_q_t_base_plotter_style.html#a4bee6c06e328636ede42390b5b416a56',1,'JKQTBasePlotterStyle']]],
   ['useantialiasingfortext_8',['useAntiAliasingForText',['../class_j_k_q_t_base_plotter_style.html#a6ea4a3f27ffa2bfea9b55f926c429284',1,'JKQTBasePlotterStyle']]],
