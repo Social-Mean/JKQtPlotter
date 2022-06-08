@@ -1,5 +1,11 @@
 var NAVTREEINDEX23 =
 {
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da5a674c51d70ecaf9736b9e39113ad531":[10,2,2,1,7,3,3,13],
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da5ac1bc4c9083c934a04b07e5e38a1b3f":[10,2,2,1,7,3,3,80],
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da5c42f92bc30eba9604f53305a6269e67":[10,2,2,1,7,3,3,24],
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da5e698e66c6372535de9817283d8ee0fc":[10,2,2,1,7,3,3,81],
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da5f74b71ee322df5e71afbe6fc269d88a":[10,2,2,1,7,3,3,37],
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da62d1ee4bca4f6e8c8f1fbaec883d82cc":[10,2,2,1,7,3,3,26],
 "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da6bfa6e37462dab97cd704b6f97c8589a":[10,2,2,1,7,3,3,77],
 "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da6ee4d6ae7ec07105bb419a382c8056f3":[10,2,2,1,7,3,3,76],
 "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da7249933aa65a9f2d757aa6a6cb782c1d":[10,2,2,1,7,3,3,55],
@@ -243,11 +249,5 @@ var NAVTREEINDEX23 =
 "group__jkqtptools__codestructuring.html#ga8b9f7b023451bfac73c819eb7bc5f93e":[10,3,2,2],
 "group__jkqtptools__debugging.html":[10,3,3],
 "group__jkqtptools__debugging.html#ga1277618d1f86e84441df576eca388c96":[10,3,3,7],
-"group__jkqtptools__debugging.html#ga299acba0be214f68b0be91fe5f89412b":[10,3,3,8],
-"group__jkqtptools__debugging.html#ga4ccb9f84b0398f2a1a691822a668287d":[10,3,3,5],
-"group__jkqtptools__debugging.html#ga4cfb2491eff999bd4c2765a0d9678d60":[10,3,3,3],
-"group__jkqtptools__debugging.html#ga552dcb779ce319fb3303cb1d93d894a1":[10,3,3,6],
-"group__jkqtptools__debugging.html#ga7936d9f251e6ae31b13fba2bfec93432":[10,3,3,2],
-"group__jkqtptools__debugging.html#gaace7e75bf4116e9cbf90d8c487012cde":[10,3,3,4],
-"group__jkqtptools__drawing.html":[10,3,5]
+"group__jkqtptools__debugging.html#ga299acba0be214f68b0be91fe5f89412b":[10,3,3,8]
 };

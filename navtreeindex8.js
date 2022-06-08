@@ -1,5 +1,11 @@
 var NAVTREEINDEX8 =
 {
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#a238891a79e5c9092181b7df731797f9b":[10,2,2,1,7,3,1,35],
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#a2a3f61ef457213a5be12973106f6f16b":[10,2,2,1,7,3,1,66],
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#a2aaf966fcad4eeca47e76ba0ad5c2b01":[10,2,2,1,7,3,1,63],
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#a32d7f24ad4f1ec704bdff57f1e678757":[10,2,2,1,7,3,1,59],
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#a3393c100e9debbc46995c9f50fb50b52":[10,2,2,1,7,3,1,21],
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#a350eb987d83f33ff9eda5c37f18c5c4f":[10,2,2,1,7,3,1,24],
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#a3b0ae8569a0b26dd5f8f688270a97d2e":[10,2,2,1,7,3,1,25],
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#a3b6c6f01d5d58cf12da468075c535f5c":[10,2,2,1,7,3,1,10],
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#a40c81c4c8532c03751bc399955e37411":[10,2,2,1,7,3,1,31],
@@ -243,11 +249,5 @@ var NAVTREEINDEX8 =
 "class_j_k_q_t_p_column_iterator.html#a301cdc55a1620d7fa8af3f5339a8a583":[10,2,0,4,19],
 "class_j_k_q_t_p_column_iterator.html#a370f7f30585936c5765a94cd73843542":[10,2,0,4,39],
 "class_j_k_q_t_p_column_iterator.html#a38918f3eaa58b6e27f677b0177ac5096":[10,2,0,4,21],
-"class_j_k_q_t_p_column_iterator.html#a38e8022e4e45db1619b8238479388478":[10,2,0,4,37],
-"class_j_k_q_t_p_column_iterator.html#a3c52e919dda9f6a77426120ab403fa6a":[10,2,0,4,1],
-"class_j_k_q_t_p_column_iterator.html#a3e861ceb2907e6b8c9df1c4c56ba907f":[10,2,0,4,33],
-"class_j_k_q_t_p_column_iterator.html#a41205a9088ce6e088e61d8e9c226f223":[10,2,0,4,5],
-"class_j_k_q_t_p_column_iterator.html#a4259309c0296afa6c70ea8ce0b969be1":[10,2,0,4,9],
-"class_j_k_q_t_p_column_iterator.html#a4950caa30980f60cd13c7f349031df97":[10,2,0,4,15],
-"class_j_k_q_t_p_column_iterator.html#a49d295209bd9515b1adc707ecd471b7a":[10,2,0,4,31]
+"class_j_k_q_t_p_column_iterator.html#a38e8022e4e45db1619b8238479388478":[10,2,0,4,37]
 };

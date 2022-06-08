@@ -30,15 +30,19 @@ var hierarchy =
     [ "JKQTMathTextFontDefinition", "struct_j_k_q_t_math_text_font_definition.html", null ],
     [ "JKQTMathTextFontSpecifier", "struct_j_k_q_t_math_text_font_specifier.html", null ],
     [ "JKQTMathTextNode", "class_j_k_q_t_math_text_node.html", [
-      [ "JKQTMathTextBraceNode", "class_j_k_q_t_math_text_brace_node.html", null ],
-      [ "JKQTMathTextDecoratedNode", "class_j_k_q_t_math_text_decorated_node.html", null ],
-      [ "JKQTMathTextFracNode", "class_j_k_q_t_math_text_frac_node.html", null ],
-      [ "JKQTMathTextInstruction1Node", "class_j_k_q_t_math_text_instruction1_node.html", null ],
+      [ "JKQTMathTextDualChildNode", "class_j_k_q_t_math_text_dual_child_node.html", [
+        [ "JKQTMathTextFracNode", "class_j_k_q_t_math_text_frac_node.html", null ]
+      ] ],
       [ "JKQTMathTextListNode", "class_j_k_q_t_math_text_list_node.html", null ],
       [ "JKQTMathTextMatrixNode", "class_j_k_q_t_math_text_matrix_node.html", null ],
-      [ "JKQTMathTextSqrtNode", "class_j_k_q_t_math_text_sqrt_node.html", null ],
-      [ "JKQTMathTextSubscriptNode", "class_j_k_q_t_math_text_subscript_node.html", null ],
-      [ "JKQTMathTextSuperscriptNode", "class_j_k_q_t_math_text_superscript_node.html", null ],
+      [ "JKQTMathTextSingleChildNode", "class_j_k_q_t_math_text_single_child_node.html", [
+        [ "JKQTMathTextBraceNode", "class_j_k_q_t_math_text_brace_node.html", null ],
+        [ "JKQTMathTextDecoratedNode", "class_j_k_q_t_math_text_decorated_node.html", null ],
+        [ "JKQTMathTextInstruction1Node", "class_j_k_q_t_math_text_instruction1_node.html", null ],
+        [ "JKQTMathTextSqrtNode", "class_j_k_q_t_math_text_sqrt_node.html", null ],
+        [ "JKQTMathTextSubscriptNode", "class_j_k_q_t_math_text_subscript_node.html", null ],
+        [ "JKQTMathTextSuperscriptNode", "class_j_k_q_t_math_text_superscript_node.html", null ]
+      ] ],
       [ "JKQTMathTextSymbolNode", "class_j_k_q_t_math_text_symbol_node.html", null ],
       [ "JKQTMathTextTextNode", "class_j_k_q_t_math_text_text_node.html", [
         [ "JKQTMathTextWhitespaceNode", "class_j_k_q_t_math_text_whitespace_node.html", null ],
