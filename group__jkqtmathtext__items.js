@@ -1,19 +1,22 @@
 var group__jkqtmathtext__items =
 [
     [ "JKQTMathTextBraceNode", "class_j_k_q_t_math_text_brace_node.html", [
-      [ "JKQTMathTextBraceNode", "class_j_k_q_t_math_text_brace_node.html#ae8ee5a9c3ca7c80291cbf3309ea15edf", null ],
+      [ "JKQTMathTextBraceNode", "class_j_k_q_t_math_text_brace_node.html#a4ba88958a53f9a0540543815dd18ca43", null ],
       [ "~JKQTMathTextBraceNode", "class_j_k_q_t_math_text_brace_node.html#ae2ef72207f6e204ba235bd7848006316", null ],
       [ "draw", "class_j_k_q_t_math_text_brace_node.html#a4085174425e6a8e0873a3daeee8d9601", null ],
-      [ "getBraceWidth", "class_j_k_q_t_math_text_brace_node.html#a6e265380de38963941aeac4f92c908b6", null ],
+      [ "getBraceSize", "class_j_k_q_t_math_text_brace_node.html#a0cbd262ae7941e826f5c1a422880a07f", null ],
       [ "getClosebrace", "class_j_k_q_t_math_text_brace_node.html#a4559fb8ce7940f1cd73c7f8734317997", null ],
       [ "getOpenbrace", "class_j_k_q_t_math_text_brace_node.html#afa08d1ee5cfcacc0f1230df36c32039c", null ],
-      [ "getShowRightBrace", "class_j_k_q_t_math_text_brace_node.html#ae0d10ad374eb9137edaf3da2e8952e54", null ],
+      [ "getShowClosingBrace", "class_j_k_q_t_math_text_brace_node.html#a4315cf5488883035dc0812f7b26a65db", null ],
+      [ "getShowOpeningBrace", "class_j_k_q_t_math_text_brace_node.html#af25a3a72e50e581e9c3266805a553b9e", null ],
       [ "getSizeInternal", "class_j_k_q_t_math_text_brace_node.html#aa7f3bd0c15c969353acfb64b8caa2097", null ],
+      [ "getSizeInternalAndBrace", "class_j_k_q_t_math_text_brace_node.html#afd4fb7e31576b15e5da1b7abde847958", null ],
       [ "getTypeName", "class_j_k_q_t_math_text_brace_node.html#a655202771beea82949f63785741831fa", null ],
       [ "toHtml", "class_j_k_q_t_math_text_brace_node.html#a74a7d1a449a28b11ad98cb182474778b", null ],
       [ "closebrace", "class_j_k_q_t_math_text_brace_node.html#a9d7379c297982cc75f2d6e453bb8dc70", null ],
       [ "openbrace", "class_j_k_q_t_math_text_brace_node.html#a940e04818d01a2392b48d1d9639cd925", null ],
-      [ "showRightBrace", "class_j_k_q_t_math_text_brace_node.html#a5b7eaea70c7eab72575b6d016a3269aa", null ]
+      [ "showClosingBrace", "class_j_k_q_t_math_text_brace_node.html#ac1afe0a9774aaee0039944ee88fe40c0", null ],
+      [ "showOpeningBrace", "class_j_k_q_t_math_text_brace_node.html#ab3fa9cc73a0a90e1c527b79826940e89", null ]
     ] ],
     [ "JKQTMathTextDecoratedNode", "class_j_k_q_t_math_text_decorated_node.html", [
       [ "JKQTMathTextDecoratedNode", "class_j_k_q_t_math_text_decorated_node.html#ae65fdec3bd8ad2150c92d4a346cbb7eb", null ],
@@ -45,7 +48,6 @@ var group__jkqtmathtext__items =
       [ "getNestingLevel", "class_j_k_q_t_math_text_frac_node.html#ac5dc0b5939c8db33d639ab94d31a6c60", null ],
       [ "getSizeInternal", "class_j_k_q_t_math_text_frac_node.html#a181670aa8a043065bc5a9dec998459d9", null ],
       [ "getTypeName", "class_j_k_q_t_math_text_frac_node.html#a288a40d1636c9b3ab2776cd4c5019420", null ],
-      [ "isBraceParentNearerThanFrac", "class_j_k_q_t_math_text_frac_node.html#a8f98f44c371bc5ba84034fd568b8bd44", null ],
       [ "toHtml", "class_j_k_q_t_math_text_frac_node.html#ae4b9824e94aa460a50a69a69ea05271d", null ],
       [ "mode", "class_j_k_q_t_math_text_frac_node.html#a5d1349c92a7362c2a2fcbadaab28ac97", null ]
     ] ],

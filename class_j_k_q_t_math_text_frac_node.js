@@ -8,7 +8,6 @@ var class_j_k_q_t_math_text_frac_node =
     [ "getNestingLevel", "class_j_k_q_t_math_text_frac_node.html#ac5dc0b5939c8db33d639ab94d31a6c60", null ],
     [ "getSizeInternal", "class_j_k_q_t_math_text_frac_node.html#a181670aa8a043065bc5a9dec998459d9", null ],
     [ "getTypeName", "class_j_k_q_t_math_text_frac_node.html#a288a40d1636c9b3ab2776cd4c5019420", null ],
-    [ "isBraceParentNearerThanFrac", "class_j_k_q_t_math_text_frac_node.html#a8f98f44c371bc5ba84034fd568b8bd44", null ],
     [ "toHtml", "class_j_k_q_t_math_text_frac_node.html#ae4b9824e94aa460a50a69a69ea05271d", null ],
     [ "mode", "class_j_k_q_t_math_text_frac_node.html#a5d1349c92a7362c2a2fcbadaab28ac97", null ]
 ];

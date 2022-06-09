@@ -626,6 +626,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a0d075b11979236874426ae0340af4ca5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a0d075b11979236874426ae0340af4ca5">parsingMathEnvironment</a></td></tr>
 <tr class="memdesc:a0d075b11979236874426ae0340af4ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">used by the parser. indicates whether we are in a math environment  <a href="class_j_k_q_t_math_text.html#a0d075b11979236874426ae0340af4ca5">More...</a><br /></td></tr>
 <tr class="separator:a0d075b11979236874426ae0340af4ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74b9bf27f2658d02ffae6c37b34b8ce5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a74b9bf27f2658d02ffae6c37b34b8ce5">showLeftBrace</a></td></tr>
+<tr class="memdesc:a74b9bf27f2658d02ffae6c37b34b8ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">used by the parser. This is used to implement brace pairs with \left.  <a href="class_j_k_q_t_math_text.html#a74b9bf27f2658d02ffae6c37b34b8ce5">More...</a><br /></td></tr>
+<tr class="separator:a74b9bf27f2658d02ffae6c37b34b8ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a442168f0cbc61ef8cec206a9c60c26fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a442168f0cbc61ef8cec206a9c60c26fa">showRightBrace</a></td></tr>
 <tr class="memdesc:a442168f0cbc61ef8cec206a9c60c26fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">used by the parser. This is used to implement brace pairs with \right.  <a href="class_j_k_q_t_math_text.html#a442168f0cbc61ef8cec206a9c60c26fa">More...</a><br /></td></tr>
 <tr class="separator:a442168f0cbc61ef8cec206a9c60c26fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -954,12 +957,12 @@ using "Comic Sans MS":<div class="image">
 <p >Math-mode is activated by enclosing your equation in <code>$</code>...$ or <code>\</code>[...\] . This mode is optimized for mathematical equations. Here is an example of the difference:</p><ul>
 <li><b>math-mode (XITS fonts are used, whitespaces are mostly not drawn directly, symbol spacing is different)</b> <code>$</code>...$: <br  />
 <div class="image">
-<img src="jkqtmathparser_schreq_mathmode.png" alt=""/>
+<img src="schreq_mathmode.png" alt=""/>
 </div>
 </li>
 <li><b>normal mode (Times new Roman is used, whitespaces are evaluated directly)</b>: <br  />
 <div class="image">
-<img src="jkqtmathparser_schreq_normalmode.png" alt=""/>
+<img src="schreq_normalmode.png" alt=""/>
 </div>
 </li>
 </ul>
@@ -3557,7 +3560,7 @@ Convert to HTML</h1>
 <p>configures the class to use the ASANA fonts in mathmode </p>
 <p >use the ASANA fonts from <a href="https://ctan.org/tex-archive/fonts/Asana-Math/">https://ctan.org/tex-archive/fonts/Asana-Math/</a> in math-mode</p>
 <div class="image">
-<img src="jkqtmathparser_asana.png" alt=""/>
+<img src="jkqtmathtext/asana.png" alt=""/>
 </div>
  
 </div>
@@ -3581,7 +3584,7 @@ Convert to HTML</h1>
 <p>configures the class to use the STIX fonts in mathmode </p>
 <p >use STIX (1.x/2.x) fonts from <a href="https://www.stixfonts.org/">https://www.stixfonts.org/</a> in math-mode</p>
 <div class="image">
-<img src="jkqtmathparser_stix.png" alt=""/>
+<img src="jkqtmathtext/stix.png" alt=""/>
 </div>
  
 </div>
@@ -3605,7 +3608,7 @@ Convert to HTML</h1>
 <p>configures the class to use the XITS fonts in mathmode </p>
 <p >use XITS fonts from <a href="https://github.com/alif-type/xits">https://github.com/alif-type/xits</a> in math-mode. These are included by default in this library and also activated by default.</p>
 <div class="image">
-<img src="jkqtmathparser_xits.png" alt=""/>
+<img src="jkqtmathtext/xits.png" alt=""/>
 </div>
 <dl class="section note"><dt>Note</dt><dd>The XITS fonts can be compiled into <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>, when the CMake-option <code>is</code> set to ON (default: ON). Then the XITS fonts are added as Qt-Ressources to the library binary. If this is not the case, you have to provide the XITS fonts on the target system by other means, if you want to use them. </dd></dl>
 
@@ -4242,6 +4245,30 @@ Convert to HTML</h1>
 
 </div>
 </div>
+<a id="a74b9bf27f2658d02ffae6c37b34b8ce5" name="a74b9bf27f2658d02ffae6c37b34b8ce5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74b9bf27f2658d02ffae6c37b34b8ce5">&#9670;&nbsp;</a></span>showLeftBrace</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool JKQTMathText::showLeftBrace</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>used by the parser. This is used to implement brace pairs with \left. </p>
+
+</div>
+</div>
 <a id="a442168f0cbc61ef8cec206a9c60c26fa" name="a442168f0cbc61ef8cec206a9c60c26fa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a442168f0cbc61ef8cec206a9c60c26fa">&#9670;&nbsp;</a></span>showRightBrace</h2>
 
@@ -4443,7 +4470,7 @@ Convert to HTML</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Thu Jun 9 2022 05:40:35 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Thu Jun 9 2022 12:47:12 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

@@ -150,6 +150,7 @@ var class_j_k_q_t_math_text =
     [ "parsedNode", "class_j_k_q_t_math_text.html#ae7e86126348905c3b61252f902a35051", null ],
     [ "parseString", "class_j_k_q_t_math_text.html#aef41009e7deaf292b9d5a46855919261", null ],
     [ "parsingMathEnvironment", "class_j_k_q_t_math_text.html#a0d075b11979236874426ae0340af4ca5", null ],
+    [ "showLeftBrace", "class_j_k_q_t_math_text.html#a74b9bf27f2658d02ffae6c37b34b8ce5", null ],
     [ "showRightBrace", "class_j_k_q_t_math_text.html#a442168f0cbc61ef8cec206a9c60c26fa", null ],
     [ "sub_shift_factor", "class_j_k_q_t_math_text.html#a7057d40ee5e2de5f9b48ad13f0181396", null ],
     [ "subsuper_size_factor", "class_j_k_q_t_math_text.html#a453f7bb3a508644e7be399a530182f87", null ],
