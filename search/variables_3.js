@@ -21,7 +21,7 @@ var searchData=
   ['debugshowregionboxes_18',['debugShowRegionBoxes',['../class_j_k_q_t_base_plotter_style.html#ad89d7270cfd849aff5fad8822e7dbdb5',1,'JKQTBasePlotterStyle']]],
   ['debugshowtextboxes_19',['debugShowTextBoxes',['../class_j_k_q_t_base_plotter_style.html#a2f9d9fa486078cff72d7a87d939b1cb3',1,'JKQTBasePlotterStyle']]],
   ['debugtextboxlinewidth_20',['debugTextBoxLineWidth',['../class_j_k_q_t_base_plotter_style.html#a5fd8c71bcfb810f70867b71dfb18e597',1,'JKQTBasePlotterStyle']]],
-  ['decoration_21',['decoration',['../class_j_k_q_t_math_text_decorated_node.html#a181ece38a18a8960f481ac315fde16fd',1,'JKQTMathTextDecoratedNode']]],
+  ['decoration_21',['decoration',['../class_j_k_q_t_math_text_decorated_node.html#ab2180b5c569666ab12e2b4ad7b4be29a',1,'JKQTMathTextDecoratedNode']]],
   ['decoration_5fheight_5ffactor_22',['decoration_height_factor',['../class_j_k_q_t_math_text.html#a53ba89b719a1e741a30e32705a1875d1',1,'JKQTMathText']]],
   ['decoration_5fwidth_5freduction_5fxfactor_23',['decoration_width_reduction_Xfactor',['../class_j_k_q_t_math_text.html#ae0f7c8595de8b092b7be7590f50c946b',1,'JKQTMathText']]],
   ['default_5fbackgroundcolor_24',['default_backgroundColor',['../class_j_k_q_t_fast_plotter.html#a52b15ecc325048dadac5b40381685e33',1,'JKQTFastPlotter']]],

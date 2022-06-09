@@ -113,7 +113,9 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_math_text_brace_node.htm
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_j_k_q_t_math_text_brace_node-members.html">List of all members</a>  </div>
@@ -138,21 +140,46 @@ Collaboration diagram for JKQTMathTextBraceNode:</div>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a3bed47e533e84929ab9336f31defd5ec"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a> { <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5eca98ff68349b0fb634cbe429f08e2025d9">MTBTParenthesis</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5eca3ecd81f5178e07300bdb569f22dadc88">MTBTSquareBracket</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5eca15cf3a16d5cc64bbd9cc655283135624">MTBTCurlyBracket</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5eca21f6d20a76e6860511dab3931a12bf09">MTBTAngleBracket</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5eca3663bb646410e90d5feb1b7e60f68fee">MTBTCeilBracket</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ecad6070607d40ef64fe57bd4718a8264bc">MTBTFloorBracket</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ecabf7b8905a3af27c61294fc41c97fcbe1">MTBTDoubleLine</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ecaf70c46232ca8a87f7d26b1dabac4cab3">MTBTSingleLine</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ecaf9fd4e58fbd6c0540ba61829d8671fba">MTBTNone</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a3bed47e533e84929ab9336f31defd5ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">types of available braces  <a href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">More...</a><br /></td></tr>
+<tr class="separator:a3bed47e533e84929ab9336f31defd5ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4ba88958a53f9a0540543815dd18ca43"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a4ba88958a53f9a0540543815dd18ca43">JKQTMathTextBraceNode</a> (<a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent, const QString &amp;<a class="el" href="class_j_k_q_t_math_text_brace_node.html#a940e04818d01a2392b48d1d9639cd925">openbrace</a>, const QString &amp;<a class="el" href="class_j_k_q_t_math_text_brace_node.html#a9d7379c297982cc75f2d6e453bb8dc70">closebrace</a>, <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *<a class="el" href="class_j_k_q_t_math_text_single_child_node.html#adf724ecb9b6d58a81b904424f3d64cd4">child</a>, bool <a class="el" href="class_j_k_q_t_math_text_brace_node.html#ab3fa9cc73a0a90e1c527b79826940e89">showOpeningBrace</a>=true, bool <a class="el" href="class_j_k_q_t_math_text_brace_node.html#ac1afe0a9774aaee0039944ee88fe40c0">showClosingBrace</a>=true)</td></tr>
-<tr class="separator:a4ba88958a53f9a0540543815dd18ca43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e3d30b6dac32536bb7f69510a387d22"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a9e3d30b6dac32536bb7f69510a387d22">JKQTMathTextBraceNode</a> (<a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent, <a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a> <a class="el" href="class_j_k_q_t_math_text_brace_node.html#a5ddb8d8ea196ba2396b3c428ea61eaed">openbrace</a>, <a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a> <a class="el" href="class_j_k_q_t_math_text_brace_node.html#a48c8ae4400ac25c19d1ae3e0ddfcb99c">closebrace</a>, <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *<a class="el" href="class_j_k_q_t_math_text_single_child_node.html#adf724ecb9b6d58a81b904424f3d64cd4">child</a>, bool <a class="el" href="class_j_k_q_t_math_text_brace_node.html#ab3fa9cc73a0a90e1c527b79826940e89">showOpeningBrace</a>=true, bool <a class="el" href="class_j_k_q_t_math_text_brace_node.html#ac1afe0a9774aaee0039944ee88fe40c0">showClosingBrace</a>=true)</td></tr>
+<tr class="separator:a9e3d30b6dac32536bb7f69510a387d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2ef72207f6e204ba235bd7848006316"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#ae2ef72207f6e204ba235bd7848006316">~JKQTMathTextBraceNode</a> () override</td></tr>
 <tr class="separator:ae2ef72207f6e204ba235bd7848006316"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4085174425e6a8e0873a3daeee8d9601"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a4085174425e6a8e0873a3daeee8d9601">draw</a> (QPainter &amp;painter, double x, double y, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr) override</td></tr>
 <tr class="memdesc:a4085174425e6a8e0873a3daeee8d9601"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw the contents at the designated position  <a href="class_j_k_q_t_math_text_brace_node.html#a4085174425e6a8e0873a3daeee8d9601">More...</a><br /></td></tr>
 <tr class="separator:a4085174425e6a8e0873a3daeee8d9601"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4559fb8ce7940f1cd73c7f8734317997"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a4559fb8ce7940f1cd73c7f8734317997">getClosebrace</a> () const</td></tr>
-<tr class="memdesc:a4559fb8ce7940f1cd73c7f8734317997"><td class="mdescLeft">&#160;</td><td class="mdescRight">closing brace  <a href="class_j_k_q_t_math_text_brace_node.html#a4559fb8ce7940f1cd73c7f8734317997">More...</a><br /></td></tr>
-<tr class="separator:a4559fb8ce7940f1cd73c7f8734317997"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa08d1ee5cfcacc0f1230df36c32039c"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#afa08d1ee5cfcacc0f1230df36c32039c">getOpenbrace</a> () const</td></tr>
-<tr class="memdesc:afa08d1ee5cfcacc0f1230df36c32039c"><td class="mdescLeft">&#160;</td><td class="mdescRight">opening brace  <a href="class_j_k_q_t_math_text_brace_node.html#afa08d1ee5cfcacc0f1230df36c32039c">More...</a><br /></td></tr>
-<tr class="separator:afa08d1ee5cfcacc0f1230df36c32039c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a560b37248d7c3f6a1fa94dc8303a0edf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a560b37248d7c3f6a1fa94dc8303a0edf">getClosebrace</a> () const</td></tr>
+<tr class="memdesc:a560b37248d7c3f6a1fa94dc8303a0edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">closing brace  <a href="class_j_k_q_t_math_text_brace_node.html#a560b37248d7c3f6a1fa94dc8303a0edf">More...</a><br /></td></tr>
+<tr class="separator:a560b37248d7c3f6a1fa94dc8303a0edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af978fcacc941042cf2f173de113ec26f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#af978fcacc941042cf2f173de113ec26f">getOpenbrace</a> () const</td></tr>
+<tr class="memdesc:af978fcacc941042cf2f173de113ec26f"><td class="mdescLeft">&#160;</td><td class="mdescRight">opening brace  <a href="class_j_k_q_t_math_text_brace_node.html#af978fcacc941042cf2f173de113ec26f">More...</a><br /></td></tr>
+<tr class="separator:af978fcacc941042cf2f173de113ec26f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4315cf5488883035dc0812f7b26a65db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a4315cf5488883035dc0812f7b26a65db">getShowClosingBrace</a> () const</td></tr>
 <tr class="separator:a4315cf5488883035dc0812f7b26a65db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af25a3a72e50e581e9c3266805a553b9e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#af25a3a72e50e581e9c3266805a553b9e">getShowOpeningBrace</a> () const</td></tr>
@@ -218,6 +245,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2ba14f4c0070bd6e4fbc92b35c15df09 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert node to HTML and returns <code>true</code> on success  <a href="class_j_k_q_t_math_text_node.html#a2ba14f4c0070bd6e4fbc92b35c15df09">More...</a><br /></td></tr>
 <tr class="separator:a2ba14f4c0070bd6e4fbc92b35c15df09 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a2c5257773a8360354ac99fcc453df2c3"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a2c5257773a8360354ac99fcc453df2c3">BraceType2String</a> (<a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a> type)</td></tr>
+<tr class="memdesc:a2c5257773a8360354ac99fcc453df2c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a BraceType into a string  <a href="class_j_k_q_t_math_text_brace_node.html#a2c5257773a8360354ac99fcc453df2c3">More...</a><br /></td></tr>
+<tr class="separator:a2c5257773a8360354ac99fcc453df2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276b0fa3da634a8f2271e68ddba78876"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a276b0fa3da634a8f2271e68ddba78876">TokenNameString2TokenType</a> (const QString &amp;type)</td></tr>
+<tr class="memdesc:a276b0fa3da634a8f2271e68ddba78876"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a string describing a LaTeX Token into a BraceType  <a href="class_j_k_q_t_math_text_brace_node.html#a276b0fa3da634a8f2271e68ddba78876">More...</a><br /></td></tr>
+<tr class="separator:a276b0fa3da634a8f2271e68ddba78876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a0cbd262ae7941e826f5c1a422880a07f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a0cbd262ae7941e826f5c1a422880a07f">getBraceSize</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double baselineHeight, double overallHeight, double &amp;bracewidth, double &amp;braceheight) const</td></tr>
@@ -246,12 +282,12 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a9d7379c297982cc75f2d6e453bb8dc70"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a9d7379c297982cc75f2d6e453bb8dc70">closebrace</a></td></tr>
-<tr class="memdesc:a9d7379c297982cc75f2d6e453bb8dc70"><td class="mdescLeft">&#160;</td><td class="mdescRight">closing brace  <a href="class_j_k_q_t_math_text_brace_node.html#a9d7379c297982cc75f2d6e453bb8dc70">More...</a><br /></td></tr>
-<tr class="separator:a9d7379c297982cc75f2d6e453bb8dc70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a940e04818d01a2392b48d1d9639cd925"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a940e04818d01a2392b48d1d9639cd925">openbrace</a></td></tr>
-<tr class="memdesc:a940e04818d01a2392b48d1d9639cd925"><td class="mdescLeft">&#160;</td><td class="mdescRight">opening brace  <a href="class_j_k_q_t_math_text_brace_node.html#a940e04818d01a2392b48d1d9639cd925">More...</a><br /></td></tr>
-<tr class="separator:a940e04818d01a2392b48d1d9639cd925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48c8ae4400ac25c19d1ae3e0ddfcb99c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a48c8ae4400ac25c19d1ae3e0ddfcb99c">closebrace</a></td></tr>
+<tr class="memdesc:a48c8ae4400ac25c19d1ae3e0ddfcb99c"><td class="mdescLeft">&#160;</td><td class="mdescRight">closing brace  <a href="class_j_k_q_t_math_text_brace_node.html#a48c8ae4400ac25c19d1ae3e0ddfcb99c">More...</a><br /></td></tr>
+<tr class="separator:a48c8ae4400ac25c19d1ae3e0ddfcb99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ddb8d8ea196ba2396b3c428ea61eaed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a5ddb8d8ea196ba2396b3c428ea61eaed">openbrace</a></td></tr>
+<tr class="memdesc:a5ddb8d8ea196ba2396b3c428ea61eaed"><td class="mdescLeft">&#160;</td><td class="mdescRight">opening brace  <a href="class_j_k_q_t_math_text_brace_node.html#a5ddb8d8ea196ba2396b3c428ea61eaed">More...</a><br /></td></tr>
+<tr class="separator:a5ddb8d8ea196ba2396b3c428ea61eaed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1afe0a9774aaee0039944ee88fe40c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#ac1afe0a9774aaee0039944ee88fe40c0">showClosingBrace</a></td></tr>
 <tr class="memdesc:ac1afe0a9774aaee0039944ee88fe40c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <code>true</code>, the closing (right hand side) brace is drawn  <a href="class_j_k_q_t_math_text_brace_node.html#ac1afe0a9774aaee0039944ee88fe40c0">More...</a><br /></td></tr>
 <tr class="separator:ac1afe0a9774aaee0039944ee88fe40c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,9 +314,70 @@ Protected Attributes</h2></td></tr>
 <div class="image">
 <img src="jkqtmathtext_bracenode_geo.png" alt=""/>
 </div>
- </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a4ba88958a53f9a0540543815dd18ca43" name="a4ba88958a53f9a0540543815dd18ca43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ba88958a53f9a0540543815dd18ca43">&#9670;&nbsp;</a></span>JKQTMathTextBraceNode()</h2>
+ </div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a3bed47e533e84929ab9336f31defd5ec" name="a3bed47e533e84929ab9336f31defd5ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bed47e533e84929ab9336f31defd5ec">&#9670;&nbsp;</a></span>BraceType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">JKQTMathTextBraceNode::BraceType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>types of available braces </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3bed47e533e84929ab9336f31defd5eca98ff68349b0fb634cbe429f08e2025d9" name="a3bed47e533e84929ab9336f31defd5eca98ff68349b0fb634cbe429f08e2025d9"></a>MTBTParenthesis&#160;</td><td class="fielddoc"><p >parantheses () </p>
+<div class="image">
+<img src="jkqtmathtext_brace_round.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a3bed47e533e84929ab9336f31defd5eca3ecd81f5178e07300bdb569f22dadc88" name="a3bed47e533e84929ab9336f31defd5eca3ecd81f5178e07300bdb569f22dadc88"></a>MTBTSquareBracket&#160;</td><td class="fielddoc"><p >brackets [] </p>
+<div class="image">
+<img src="jkqtmathtext_brace_rect.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a3bed47e533e84929ab9336f31defd5eca15cf3a16d5cc64bbd9cc655283135624" name="a3bed47e533e84929ab9336f31defd5eca15cf3a16d5cc64bbd9cc655283135624"></a>MTBTCurlyBracket&#160;</td><td class="fielddoc"><p >curly braces {} </p>
+<div class="image">
+<img src="jkqtmathtext_brace_curly.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a3bed47e533e84929ab9336f31defd5eca21f6d20a76e6860511dab3931a12bf09" name="a3bed47e533e84929ab9336f31defd5eca21f6d20a76e6860511dab3931a12bf09"></a>MTBTAngleBracket&#160;</td><td class="fielddoc"><p >angle backets &lt;&gt; </p>
+<div class="image">
+<img src="jkqtmathtext_brace_tri.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a3bed47e533e84929ab9336f31defd5eca3663bb646410e90d5feb1b7e60f68fee" name="a3bed47e533e84929ab9336f31defd5eca3663bb646410e90d5feb1b7e60f68fee"></a>MTBTCeilBracket&#160;</td><td class="fielddoc"><p >ceil brackets </p>
+<div class="image">
+<img src="jkqtmathtext_brace_ceil.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a3bed47e533e84929ab9336f31defd5ecad6070607d40ef64fe57bd4718a8264bc" name="a3bed47e533e84929ab9336f31defd5ecad6070607d40ef64fe57bd4718a8264bc"></a>MTBTFloorBracket&#160;</td><td class="fielddoc"><p >floor brackets </p>
+<div class="image">
+<img src="jkqtmathtext_brace_floor.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a3bed47e533e84929ab9336f31defd5ecabf7b8905a3af27c61294fc41c97fcbe1" name="a3bed47e533e84929ab9336f31defd5ecabf7b8905a3af27c61294fc41c97fcbe1"></a>MTBTDoubleLine&#160;</td><td class="fielddoc"><p >double-line brackets (norm ||...||) </p>
+<div class="image">
+<img src="jkqtmathtext_brace_dblline.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a3bed47e533e84929ab9336f31defd5ecaf70c46232ca8a87f7d26b1dabac4cab3" name="a3bed47e533e84929ab9336f31defd5ecaf70c46232ca8a87f7d26b1dabac4cab3"></a>MTBTSingleLine&#160;</td><td class="fielddoc"><p >single-line brackets (abs |...|) </p>
+<div class="image">
+<img src="jkqtmathtext_brace_oneline.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a3bed47e533e84929ab9336f31defd5ecaf9fd4e58fbd6c0540ba61829d8671fba" name="a3bed47e533e84929ab9336f31defd5ecaf9fd4e58fbd6c0540ba61829d8671fba"></a>MTBTNone&#160;</td><td class="fielddoc"><p >no bracket </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a9e3d30b6dac32536bb7f69510a387d22" name="a9e3d30b6dac32536bb7f69510a387d22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e3d30b6dac32536bb7f69510a387d22">&#9670;&nbsp;</a></span>JKQTMathTextBraceNode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,13 +391,13 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a>&#160;</td>
           <td class="paramname"><em>openbrace</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a>&#160;</td>
           <td class="paramname"><em>closebrace</em>, </td>
         </tr>
         <tr>
@@ -357,6 +454,34 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2c5257773a8360354ac99fcc453df2c3" name="a2c5257773a8360354ac99fcc453df2c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c5257773a8360354ac99fcc453df2c3">&#9670;&nbsp;</a></span>BraceType2String()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString JKQTMathTextBraceNode::BraceType2String </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convert a BraceType into a string </p>
+
+</div>
+</div>
 <a id="a4085174425e6a8e0873a3daeee8d9601" name="a4085174425e6a8e0873a3daeee8d9601"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4085174425e6a8e0873a3daeee8d9601">&#9670;&nbsp;</a></span>draw()</h2>
 
@@ -488,14 +613,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4559fb8ce7940f1cd73c7f8734317997" name="a4559fb8ce7940f1cd73c7f8734317997"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4559fb8ce7940f1cd73c7f8734317997">&#9670;&nbsp;</a></span>getClosebrace()</h2>
+<a id="a560b37248d7c3f6a1fa94dc8303a0edf" name="a560b37248d7c3f6a1fa94dc8303a0edf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a560b37248d7c3f6a1fa94dc8303a0edf">&#9670;&nbsp;</a></span>getClosebrace()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QString JKQTMathTextBraceNode::getClosebrace </td>
+          <td class="memname"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a> JKQTMathTextBraceNode::getClosebrace </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -507,14 +632,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afa08d1ee5cfcacc0f1230df36c32039c" name="afa08d1ee5cfcacc0f1230df36c32039c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa08d1ee5cfcacc0f1230df36c32039c">&#9670;&nbsp;</a></span>getOpenbrace()</h2>
+<a id="af978fcacc941042cf2f173de113ec26f" name="af978fcacc941042cf2f173de113ec26f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af978fcacc941042cf2f173de113ec26f">&#9670;&nbsp;</a></span>getOpenbrace()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QString JKQTMathTextBraceNode::getOpenbrace </td>
+          <td class="memname"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a> JKQTMathTextBraceNode::getOpenbrace </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -810,9 +935,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a9d7379c297982cc75f2d6e453bb8dc70" name="a9d7379c297982cc75f2d6e453bb8dc70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d7379c297982cc75f2d6e453bb8dc70">&#9670;&nbsp;</a></span>closebrace</h2>
+<a id="a276b0fa3da634a8f2271e68ddba78876" name="a276b0fa3da634a8f2271e68ddba78876"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a276b0fa3da634a8f2271e68ddba78876">&#9670;&nbsp;</a></span>TokenNameString2TokenType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -821,7 +945,36 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QString JKQTMathTextBraceNode::closebrace</td>
+          <td class="memname">static <a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a> JKQTMathTextBraceNode::TokenNameString2TokenType </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convert a string describing a LaTeX Token into a BraceType </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a48c8ae4400ac25c19d1ae3e0ddfcb99c" name="a48c8ae4400ac25c19d1ae3e0ddfcb99c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48c8ae4400ac25c19d1ae3e0ddfcb99c">&#9670;&nbsp;</a></span>closebrace</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a> JKQTMathTextBraceNode::closebrace</td>
         </tr>
       </table>
   </td>
@@ -835,8 +988,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a940e04818d01a2392b48d1d9639cd925" name="a940e04818d01a2392b48d1d9639cd925"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a940e04818d01a2392b48d1d9639cd925">&#9670;&nbsp;</a></span>openbrace</h2>
+<a id="a5ddb8d8ea196ba2396b3c428ea61eaed" name="a5ddb8d8ea196ba2396b3c428ea61eaed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ddb8d8ea196ba2396b3c428ea61eaed">&#9670;&nbsp;</a></span>openbrace</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -845,7 +998,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QString JKQTMathTextBraceNode::openbrace</td>
+          <td class="memname"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a3bed47e533e84929ab9336f31defd5ec">BraceType</a> JKQTMathTextBraceNode::openbrace</td>
         </tr>
       </table>
   </td>
@@ -916,7 +1069,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_brace_node.html">JKQTMathTextBraceNode</a></li>
-    <li class="footer">Generated on Thu Jun 9 2022 12:47:12 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Thu Jun 9 2022 19:40:47 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

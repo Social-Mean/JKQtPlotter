@@ -113,7 +113,9 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_math_text_decorated_node
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_j_k_q_t_math_text_decorated_node-members.html">List of all members</a>  </div>
@@ -138,18 +140,67 @@ Collaboration diagram for JKQTMathTextDecoratedNode:</div>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a0807e97e6481b413a0d63fdcf2e3cbc2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">DecorationType</a> { <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2ae286fb9f76c96d7c2d2331f551f2461e">MTDvec</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2ac844030bfd859dd75cddeee4d28a8c06">MTDhat</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a2bd3655e691a8f333e2fe09485597608">MTDwidehat</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a54dcac12174b1fd506017e598eb8c6c2">MTDcheck</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a388218ba30ae0770fa4094b00895452a">MTDwidecheck</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a80897e2d0db5c7a7aff57db261575521">MTDbreve</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2ae6d41d82c2b4e68736791f3652c83378">MTDocirc</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2affa7d64cdd11c066fbf2c0003e4394f5">MTDdot</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2af8f1e8885331048ae46e7121cdee48ec">MTDddot</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a9a0c1e833cea3a869903309ff18d60e4">MTDbar</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2aba6f250911fd32d460f82552f08cb4c7">MTDarrow</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a7e06dd4041387bfeccce6bc499475c31">MTDoverline</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a035c676a44caa8bf3e3640ea5cc4adf6">MTDdoubleoverline</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a44f49b4df764b6fe38f63db16cb4c1e9">MTDunderline</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a490edec626787a5122e7665e9d254ab4">MTDdoubleunderline</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2aa121657690b50dafb57edaf80958b9cd">MTDtilde</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2ad03378e15a87b7a8d1511c798acb9be4">MTDwidetilde</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a10357760954036c744f7868423b4fe87">MTDcancel</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2abd145bcd6484124cbc59487484dbda15">MTDbcancel</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a89b80b4150e8a5e628b1be8d0fbf8437">MTDxcancel</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a11363b4f4cf38ca2d8f740c16c897d65">MTDstrike</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a0807e97e6481b413a0d63fdcf2e3cbc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">types of decoration available in a <a class="el" href="class_j_k_q_t_math_text_decorated_node.html" title="subclass representing a decorated text m (e.g. \vec \hat ...) node">JKQTMathTextDecoratedNode</a>  <a href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">More...</a><br /></td></tr>
+<tr class="separator:a0807e97e6481b413a0d63fdcf2e3cbc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae65fdec3bd8ad2150c92d4a346cbb7eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#ae65fdec3bd8ad2150c92d4a346cbb7eb">JKQTMathTextDecoratedNode</a> (<a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent, <a class="el" href="group__jkqtmathtext.html#ga5fcf8587c25843c18e95c3a34f78c869">JKQTMathTextDecoration</a> <a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a181ece38a18a8960f481ac315fde16fd">decoration</a>, <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *<a class="el" href="class_j_k_q_t_math_text_single_child_node.html#adf724ecb9b6d58a81b904424f3d64cd4">child</a>)</td></tr>
-<tr class="separator:ae65fdec3bd8ad2150c92d4a346cbb7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3081aec265fb311e34d96659fa952b7a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a3081aec265fb311e34d96659fa952b7a">JKQTMathTextDecoratedNode</a> (<a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent, <a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">DecorationType</a> <a class="el" href="class_j_k_q_t_math_text_decorated_node.html#ab2180b5c569666ab12e2b4ad7b4be29a">decoration</a>, <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *<a class="el" href="class_j_k_q_t_math_text_single_child_node.html#adf724ecb9b6d58a81b904424f3d64cd4">child</a>)</td></tr>
+<tr class="separator:a3081aec265fb311e34d96659fa952b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad85cbb88640e621966c8dee1984b5396"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#ad85cbb88640e621966c8dee1984b5396">~JKQTMathTextDecoratedNode</a> () override</td></tr>
 <tr class="separator:ad85cbb88640e621966c8dee1984b5396"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbd6b6b5917ce730728359f883e6f433"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#afbd6b6b5917ce730728359f883e6f433">draw</a> (QPainter &amp;painter, double x, double y, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr) override</td></tr>
 <tr class="memdesc:afbd6b6b5917ce730728359f883e6f433"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw the contents at the designated position  <a href="class_j_k_q_t_math_text_decorated_node.html#afbd6b6b5917ce730728359f883e6f433">More...</a><br /></td></tr>
 <tr class="separator:afbd6b6b5917ce730728359f883e6f433"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaaf6c5d1598f2994dc30fc7a26aa91a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtmathtext.html#ga5fcf8587c25843c18e95c3a34f78c869">JKQTMathTextDecoration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#aaaf6c5d1598f2994dc30fc7a26aa91a1">getDecoration</a> () const</td></tr>
-<tr class="memdesc:aaaf6c5d1598f2994dc30fc7a26aa91a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of decoration that is added to the child node  <a href="class_j_k_q_t_math_text_decorated_node.html#aaaf6c5d1598f2994dc30fc7a26aa91a1">More...</a><br /></td></tr>
-<tr class="separator:aaaf6c5d1598f2994dc30fc7a26aa91a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78a593cb2e0df1fe785463252d52780c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">DecorationType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a78a593cb2e0df1fe785463252d52780c">getDecoration</a> () const</td></tr>
+<tr class="memdesc:a78a593cb2e0df1fe785463252d52780c"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of decoration that is added to the child node  <a href="class_j_k_q_t_math_text_decorated_node.html#a78a593cb2e0df1fe785463252d52780c">More...</a><br /></td></tr>
+<tr class="separator:a78a593cb2e0df1fe785463252d52780c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2f3ccf4819363a14ceb6194d1934a1c"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#aa2f3ccf4819363a14ceb6194d1934a1c">getTypeName</a> () const override</td></tr>
 <tr class="memdesc:aa2f3ccf4819363a14ceb6194d1934a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the name of this class as a string  <a href="class_j_k_q_t_math_text_decorated_node.html#aa2f3ccf4819363a14ceb6194d1934a1c">More...</a><br /></td></tr>
 <tr class="separator:aa2f3ccf4819363a14ceb6194d1934a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -210,6 +261,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2ba14f4c0070bd6e4fbc92b35c15df09 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert node to HTML and returns <code>true</code> on success  <a href="class_j_k_q_t_math_text_node.html#a2ba14f4c0070bd6e4fbc92b35c15df09">More...</a><br /></td></tr>
 <tr class="separator:a2ba14f4c0070bd6e4fbc92b35c15df09 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ad52ecde584000b8ab80ee6a1aae07fd8"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#ad52ecde584000b8ab80ee6a1aae07fd8">DecorationType2String</a> (<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">DecorationType</a> mode)</td></tr>
+<tr class="memdesc:ad52ecde584000b8ab80ee6a1aae07fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a DecorationType into a string  <a href="class_j_k_q_t_math_text_decorated_node.html#ad52ecde584000b8ab80ee6a1aae07fd8">More...</a><br /></td></tr>
+<tr class="separator:ad52ecde584000b8ab80ee6a1aae07fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a89e3368092a1b52ca914ca5281c5ad49"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a89e3368092a1b52ca914ca5281c5ad49">getSizeInternal</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double &amp;width, double &amp;baselineHeight, double &amp;overallHeight, double &amp;strikeoutPos, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr) override</td></tr>
@@ -233,9 +290,9 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a181ece38a18a8960f481ac315fde16fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtmathtext.html#ga5fcf8587c25843c18e95c3a34f78c869">JKQTMathTextDecoration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a181ece38a18a8960f481ac315fde16fd">decoration</a></td></tr>
-<tr class="memdesc:a181ece38a18a8960f481ac315fde16fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of decoration that is added to the child node  <a href="class_j_k_q_t_math_text_decorated_node.html#a181ece38a18a8960f481ac315fde16fd">More...</a><br /></td></tr>
-<tr class="separator:a181ece38a18a8960f481ac315fde16fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2180b5c569666ab12e2b4ad7b4be29a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">DecorationType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#ab2180b5c569666ab12e2b4ad7b4be29a">decoration</a></td></tr>
+<tr class="memdesc:ab2180b5c569666ab12e2b4ad7b4be29a"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of decoration that is added to the child node  <a href="class_j_k_q_t_math_text_decorated_node.html#ab2180b5c569666ab12e2b4ad7b4be29a">More...</a><br /></td></tr>
+<tr class="separator:ab2180b5c569666ab12e2b4ad7b4be29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_j_k_q_t_math_text_single_child_node"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_j_k_q_t_math_text_single_child_node')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_j_k_q_t_math_text_single_child_node.html">JKQTMathTextSingleChildNode</a></td></tr>
 <tr class="memitem:adf724ecb9b6d58a81b904424f3d64cd4 inherit pro_attribs_class_j_k_q_t_math_text_single_child_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_single_child_node.html#adf724ecb9b6d58a81b904424f3d64cd4">child</a></td></tr>
 <tr class="memdesc:adf724ecb9b6d58a81b904424f3d64cd4 inherit pro_attribs_class_j_k_q_t_math_text_single_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">child node of this node  <a href="class_j_k_q_t_math_text_single_child_node.html#adf724ecb9b6d58a81b904424f3d64cd4">More...</a><br /></td></tr>
@@ -256,9 +313,133 @@ Protected Attributes</h2></td></tr>
 <div class="image">
 <img src="decoration_sizing.png" alt=""/>
 </div>
- </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae65fdec3bd8ad2150c92d4a346cbb7eb" name="ae65fdec3bd8ad2150c92d4a346cbb7eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae65fdec3bd8ad2150c92d4a346cbb7eb">&#9670;&nbsp;</a></span>JKQTMathTextDecoratedNode()</h2>
+ </div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a0807e97e6481b413a0d63fdcf2e3cbc2" name="a0807e97e6481b413a0d63fdcf2e3cbc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0807e97e6481b413a0d63fdcf2e3cbc2">&#9670;&nbsp;</a></span>DecorationType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">JKQTMathTextDecoratedNode::DecorationType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>types of decoration available in a <a class="el" href="class_j_k_q_t_math_text_decorated_node.html" title="subclass representing a decorated text m (e.g. \vec \hat ...) node">JKQTMathTextDecoratedNode</a> </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2ae286fb9f76c96d7c2d2331f551f2461e" name="a0807e97e6481b413a0d63fdcf2e3cbc2ae286fb9f76c96d7c2d2331f551f2461e"></a>MTDvec&#160;</td><td class="fielddoc"><p >vector arrow over block </p>
+<div class="image">
+<img src="MTDvec.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2ac844030bfd859dd75cddeee4d28a8c06" name="a0807e97e6481b413a0d63fdcf2e3cbc2ac844030bfd859dd75cddeee4d28a8c06"></a>MTDhat&#160;</td><td class="fielddoc"><p >small hat over block </p>
+<div class="image">
+<img src="MTDhat.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2a2bd3655e691a8f333e2fe09485597608" name="a0807e97e6481b413a0d63fdcf2e3cbc2a2bd3655e691a8f333e2fe09485597608"></a>MTDwidehat&#160;</td><td class="fielddoc"><p >full-width hat over block </p>
+<div class="image">
+<img src="MTDwidehat.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2a54dcac12174b1fd506017e598eb8c6c2" name="a0807e97e6481b413a0d63fdcf2e3cbc2a54dcac12174b1fd506017e598eb8c6c2"></a>MTDcheck&#160;</td><td class="fielddoc"><p >small v over block </p>
+<div class="image">
+<img src="MTDcheck.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2a388218ba30ae0770fa4094b00895452a" name="a0807e97e6481b413a0d63fdcf2e3cbc2a388218ba30ae0770fa4094b00895452a"></a>MTDwidecheck&#160;</td><td class="fielddoc"><p >full-width v over block </p>
+<div class="image">
+<img src="MTDwidecheck.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2a80897e2d0db5c7a7aff57db261575521" name="a0807e97e6481b413a0d63fdcf2e3cbc2a80897e2d0db5c7a7aff57db261575521"></a>MTDbreve&#160;</td><td class="fielddoc"><p >small tilde over block </p>
+<div class="image">
+<img src="MTDbreve.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2ae6d41d82c2b4e68736791f3652c83378" name="a0807e97e6481b413a0d63fdcf2e3cbc2ae6d41d82c2b4e68736791f3652c83378"></a>MTDocirc&#160;</td><td class="fielddoc"><p >single circle over block </p>
+<div class="image">
+<img src="MTDocirc.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2affa7d64cdd11c066fbf2c0003e4394f5" name="a0807e97e6481b413a0d63fdcf2e3cbc2affa7d64cdd11c066fbf2c0003e4394f5"></a>MTDdot&#160;</td><td class="fielddoc"><p >single dot over block </p>
+<div class="image">
+<img src="MTDvec.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2af8f1e8885331048ae46e7121cdee48ec" name="a0807e97e6481b413a0d63fdcf2e3cbc2af8f1e8885331048ae46e7121cdee48ec"></a>MTDddot&#160;</td><td class="fielddoc"><p >double dot over block </p>
+<div class="image">
+<img src="MTDddot.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2a9a0c1e833cea3a869903309ff18d60e4" name="a0807e97e6481b413a0d63fdcf2e3cbc2a9a0c1e833cea3a869903309ff18d60e4"></a>MTDbar&#160;</td><td class="fielddoc"><p >bar over block </p>
+<div class="image">
+<img src="MTDbar.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2aba6f250911fd32d460f82552f08cb4c7" name="a0807e97e6481b413a0d63fdcf2e3cbc2aba6f250911fd32d460f82552f08cb4c7"></a>MTDarrow&#160;</td><td class="fielddoc"><p >arrow over block </p>
+<div class="image">
+<img src="MTDarrow.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2a7e06dd4041387bfeccce6bc499475c31" name="a0807e97e6481b413a0d63fdcf2e3cbc2a7e06dd4041387bfeccce6bc499475c31"></a>MTDoverline&#160;</td><td class="fielddoc"><p >overline over block </p>
+<div class="image">
+<img src="MTDoverline.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2a035c676a44caa8bf3e3640ea5cc4adf6" name="a0807e97e6481b413a0d63fdcf2e3cbc2a035c676a44caa8bf3e3640ea5cc4adf6"></a>MTDdoubleoverline&#160;</td><td class="fielddoc"><p >double overline over block </p>
+<div class="image">
+<img src="MTDdoubleoverline.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2a44f49b4df764b6fe38f63db16cb4c1e9" name="a0807e97e6481b413a0d63fdcf2e3cbc2a44f49b4df764b6fe38f63db16cb4c1e9"></a>MTDunderline&#160;</td><td class="fielddoc"><p >underline under block </p>
+<div class="image">
+<img src="MTDunderline.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2a490edec626787a5122e7665e9d254ab4" name="a0807e97e6481b413a0d63fdcf2e3cbc2a490edec626787a5122e7665e9d254ab4"></a>MTDdoubleunderline&#160;</td><td class="fielddoc"><p >double underline under block </p>
+<div class="image">
+<img src="MTDdoubleunderline.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2aa121657690b50dafb57edaf80958b9cd" name="a0807e97e6481b413a0d63fdcf2e3cbc2aa121657690b50dafb57edaf80958b9cd"></a>MTDtilde&#160;</td><td class="fielddoc"><p >small tilde over block </p>
+<div class="image">
+<img src="MTDtilde.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2ad03378e15a87b7a8d1511c798acb9be4" name="a0807e97e6481b413a0d63fdcf2e3cbc2ad03378e15a87b7a8d1511c798acb9be4"></a>MTDwidetilde&#160;</td><td class="fielddoc"><p >full width tilde over block </p>
+<div class="image">
+<img src="MTDwidetilde.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2a10357760954036c744f7868423b4fe87" name="a0807e97e6481b413a0d63fdcf2e3cbc2a10357760954036c744f7868423b4fe87"></a>MTDcancel&#160;</td><td class="fielddoc"><p >cancel text with sloped line </p>
+<div class="image">
+<img src="MTDcancel.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2abd145bcd6484124cbc59487484dbda15" name="a0807e97e6481b413a0d63fdcf2e3cbc2abd145bcd6484124cbc59487484dbda15"></a>MTDbcancel&#160;</td><td class="fielddoc"><p >cancel text with backward sloped line </p>
+<div class="image">
+<img src="MTDbcancel.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2a89b80b4150e8a5e628b1be8d0fbf8437" name="a0807e97e6481b413a0d63fdcf2e3cbc2a89b80b4150e8a5e628b1be8d0fbf8437"></a>MTDxcancel&#160;</td><td class="fielddoc"><p >cancel text with X </p>
+<div class="image">
+<img src="MTDxcancel.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0807e97e6481b413a0d63fdcf2e3cbc2a11363b4f4cf38ca2d8f740c16c897d65" name="a0807e97e6481b413a0d63fdcf2e3cbc2a11363b4f4cf38ca2d8f740c16c897d65"></a>MTDstrike&#160;</td><td class="fielddoc"><p >strikethrough text </p>
+<div class="image">
+<img src="MTDstrike.png" alt=""/>
+</div>
+ </td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a3081aec265fb311e34d96659fa952b7a" name="a3081aec265fb311e34d96659fa952b7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3081aec265fb311e34d96659fa952b7a">&#9670;&nbsp;</a></span>JKQTMathTextDecoratedNode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,7 +453,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__jkqtmathtext.html#ga5fcf8587c25843c18e95c3a34f78c869">JKQTMathTextDecoration</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">DecorationType</a>&#160;</td>
           <td class="paramname"><em>decoration</em>, </td>
         </tr>
         <tr>
@@ -317,6 +498,34 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad52ecde584000b8ab80ee6a1aae07fd8" name="ad52ecde584000b8ab80ee6a1aae07fd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad52ecde584000b8ab80ee6a1aae07fd8">&#9670;&nbsp;</a></span>DecorationType2String()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString JKQTMathTextDecoratedNode::DecorationType2String </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">DecorationType</a>&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convert a DecorationType into a string </p>
+
+</div>
+</div>
 <a id="afbd6b6b5917ce730728359f883e6f433" name="afbd6b6b5917ce730728359f883e6f433"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afbd6b6b5917ce730728359f883e6f433">&#9670;&nbsp;</a></span>draw()</h2>
 
@@ -386,14 +595,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aaaf6c5d1598f2994dc30fc7a26aa91a1" name="aaaf6c5d1598f2994dc30fc7a26aa91a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaaf6c5d1598f2994dc30fc7a26aa91a1">&#9670;&nbsp;</a></span>getDecoration()</h2>
+<a id="a78a593cb2e0df1fe785463252d52780c" name="a78a593cb2e0df1fe785463252d52780c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78a593cb2e0df1fe785463252d52780c">&#9670;&nbsp;</a></span>getDecoration()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__jkqtmathtext.html#ga5fcf8587c25843c18e95c3a34f78c869">JKQTMathTextDecoration</a> JKQTMathTextDecoratedNode::getDecoration </td>
+          <td class="memname"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">DecorationType</a> JKQTMathTextDecoratedNode::getDecoration </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -572,8 +781,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a181ece38a18a8960f481ac315fde16fd" name="a181ece38a18a8960f481ac315fde16fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a181ece38a18a8960f481ac315fde16fd">&#9670;&nbsp;</a></span>decoration</h2>
+<a id="ab2180b5c569666ab12e2b4ad7b4be29a" name="ab2180b5c569666ab12e2b4ad7b4be29a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2180b5c569666ab12e2b4ad7b4be29a">&#9670;&nbsp;</a></span>decoration</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -582,7 +791,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__jkqtmathtext.html#ga5fcf8587c25843c18e95c3a34f78c869">JKQTMathTextDecoration</a> JKQTMathTextDecoratedNode::decoration</td>
+          <td class="memname"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">DecorationType</a> JKQTMathTextDecoratedNode::decoration</td>
         </tr>
       </table>
   </td>
@@ -605,7 +814,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html">JKQTMathTextDecoratedNode</a></li>
-    <li class="footer">Generated on Thu Jun 9 2022 12:47:12 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Thu Jun 9 2022 19:40:47 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>
