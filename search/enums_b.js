@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['tokentype_0',['tokenType',['../class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532',1,'JKQTMathText']]],
-  ['transparencychangemode_1',['TransparencyChangeMode',['../struct_j_k_q_t_p_color_derivation_mode.html#af8a6135aa916c56b55a801a25a765dce',1,'JKQTPColorDerivationMode']]]
+  ['violinpositionmode_0',['ViolinPositionMode',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5db2729e0ed862123eca2120bbd35921',1,'JKQTPGraphViolinplotStyleMixin']]],
+  ['violinstyle_1',['ViolinStyle',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a04d55d189bef4e81178f65f5b7416034',1,'JKQTPGraphViolinplotStyleMixin']]]
 ];

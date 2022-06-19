@@ -2,7 +2,7 @@ var searchData=
 [
   ['offset_0',['offset',['../class_j_k_q_t_p_coordinate_axis.html#a6751185ad7bd6c874590ccfc1a338d73',1,'JKQTPCoordinateAxis']]],
   ['oldimage_1',['oldImage',['../class_j_k_q_t_fast_plotter.html#a03068bdd5160105fb428f675770a01f2',1,'JKQTFastPlotter::oldImage()'],['../class_j_k_q_t_plotter.html#a93cd76e2f6508d3066e2bccf2935e687',1,'JKQTPlotter::oldImage()']]],
-  ['openbrace_2',['openbrace',['../class_j_k_q_t_math_text_brace_node.html#a5ddb8d8ea196ba2396b3c428ea61eaed',1,'JKQTMathTextBraceNode']]],
+  ['openbrace_2',['openbrace',['../class_j_k_q_t_math_text_brace_node.html#a0f82b600da0455e42e1e31a9c60800cd',1,'JKQTMathTextBraceNode']]],
   ['opencontextmenu_3',['openContextMenu',['../class_j_k_q_t_plotter.html#ab44205710e575ab5ac0e7fd97cbcbf26',1,'JKQTPlotter::openContextMenu()'],['../class_j_k_q_t_plotter.html#a2a0c3624195552d9d8d008a76c4419fd',1,'JKQTPlotter::openContextMenu(int x, int y)']]],
   ['opencv_20interfaceing_20tools_4',['OpenCV Interfaceing Tools',['../group__jkqtpinterfaceopencv.html',1,'']]],
   ['openspecialcontextmenu_5',['openSpecialContextMenu',['../class_j_k_q_t_plotter.html#a16e01747f098f7b3bbf3a5be90af5aa9',1,'JKQTPlotter::openSpecialContextMenu(int x, int y)'],['../class_j_k_q_t_plotter.html#a0a072ba4e8b5540d42099aaaf1256e25',1,'JKQTPlotter::openSpecialContextMenu()']]],

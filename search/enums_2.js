@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['datadirection_0',['DataDirection',['../class_j_k_q_t_p_single_column_graph.html#aa19dda7808d6a4a161e269e47ea61814',1,'JKQTPSingleColumnGraph']]],
-  ['datasortorder_1',['DataSortOrder',['../class_j_k_q_t_p_boxplot_graph_base.html#aad9f14c9278cbcebae6651587df0c2c0',1,'JKQTPBoxplotGraphBase::DataSortOrder()'],['../class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909',1,'JKQTPXYGraph::DataSortOrder()'],['../class_j_k_q_t_p_single_column_graph.html#a7b62a5cedc32ad15abad51cdda426453',1,'JKQTPSingleColumnGraph::DataSortOrder()']]],
-  ['datatype_2',['DataType',['../class_j_k_q_t_f_p_line_plot.html#a063e467ee283b100915a32333940882c',1,'JKQTFPLinePlot']]],
-  ['decorationtype_3',['DecorationType',['../class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2',1,'JKQTMathTextDecoratedNode']]],
-  ['drawmode_4',['DrawMode',['../class_j_k_q_t_p_geometric_plot_element.html#a2947668a58c1c3e9db7b311294dee7d5',1,'JKQTPGeometricPlotElement']]]
+  ['fillmode_0',['FillMode',['../class_j_k_q_t_p_filled_curve_graph_base.html#a1c6ebab82d5a08bd63a0574fc278ff08',1,'JKQTPFilledCurveGraphBase']]],
+  ['fontsubclass_1',['FontSubclass',['../class_j_k_q_t_math_text.html#a5f691db44f9975a2c72141d5bcc9bfdb',1,'JKQTMathText']]],
+  ['fractype_2',['FracType',['../group__jkqtmathtext.html#ga0a8d8328735d0eb568fb7806f1edb969',1,'JKQTMathTextFracNode']]]
 ];

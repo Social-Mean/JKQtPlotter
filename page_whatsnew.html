@@ -168,6 +168,8 @@ FIXED: height-calculation of frac-like instructions: before the ascent and desce
 <li>
 FIXED: strikeoutPos was not correctly calculated in sub-/superscript node </li>
 <li>
+FIXED: symbol spacing in math mode (and text mode) </li>
+<li>
 FIXED/IMPROVED: <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> renders several LaTeX strings better (simple braces in math mode, +-*... as symbols with proper sizes in math mode, added some missing instruction aliases, improved size of \vec and \hat, corrrected fonts usage for mathrm </li>
 <li>
 IMPROVED: high-dpr-support in <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> </li>
@@ -185,6 +187,10 @@ NEW: reworked node class tree: inserted base-class nodes for single-child, dual-
 NEW: improved frac-rendering: font-scaling takes nesting-level into account, overall-rendering, sizes, if a brace surrounds a frac, the heights are equal above and below to center the brace , ... </li>
 <li>
 NEW: shows strikeoutPos when drawing Debug-Boxes </li>
+<li>
+NEW: LaTeX-Parser understands optional instruction parameters in [...] now </li>
+<li>
+NEW: LaTeX-Parser simplifies parrse-tree to increase speed of execution </li>
 </ul>
 </li>
 </ul>
@@ -433,7 +439,7 @@ v2015.10: Download</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jun 9 2022 19:40:46 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Jun 19 2022 21:37:19 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>
