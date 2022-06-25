@@ -52,6 +52,7 @@ var group__jkqtmathtext__tools =
       [ "strikeoutPos", "struct_j_k_q_t_math_text_node_size.html#ab341d0e3832ba7d6b9e133ffefe8f090", null ],
       [ "width", "struct_j_k_q_t_math_text_node_size.html#aca206bdc5f3dd30b5ec2e797ae317a3b", null ]
     ] ],
+    [ "JKQTMATHTEXT_LIB_EXPORT", "group__jkqtmathtext__tools.html#ga057aeda927f4602f5bfa776a658f78ff", null ],
     [ "JKQTMathTextBraceType", "group__jkqtmathtext__tools.html#ga54bb4fa9bb861e0118cfc68de4913472", [
       [ "MTBTParenthesis", "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472ac749f296b6258f5f504ee65270187c30", null ],
       [ "MTBTSquareBracket", "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472a2e6ba74aa7ee394ab9f1e8163d810e3a", null ],

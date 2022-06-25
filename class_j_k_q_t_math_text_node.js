@@ -14,11 +14,14 @@ var class_j_k_q_t_math_text_node =
     [ "getSize", "class_j_k_q_t_math_text_node.html#a64a20dde0c762ee5a20c7b6dbb99eadd", null ],
     [ "getSizeInternal", "class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd", null ],
     [ "getTypeName", "class_j_k_q_t_math_text_node.html#a89840deb78e1d614c74348d7e612549f", null ],
+    [ "isSubSuperscriptAboveBelowNode", "class_j_k_q_t_math_text_node.html#ac4249c7a7d89dbc6796b8b7da590daac", null ],
     [ "operator=", "class_j_k_q_t_math_text_node.html#a7b9a46885a308fa527d93308f9f10bde", null ],
     [ "setDrawBoxes", "class_j_k_q_t_math_text_node.html#a616006320c94d7bcb7546effa9812bee", null ],
     [ "setParentNode", "class_j_k_q_t_math_text_node.html#ae3a2f37826af7cb9f561ce2f147d1e75", null ],
+    [ "setSubSuperscriptAboveBelowNode", "class_j_k_q_t_math_text_node.html#af6753f72f52bad706a4b3e3dc8332985", null ],
     [ "toHtml", "class_j_k_q_t_math_text_node.html#a2ba14f4c0070bd6e4fbc92b35c15df09", null ],
     [ "drawBoxes", "class_j_k_q_t_math_text_node.html#aa81a38802dd63349e3fec37d28e2d73c", null ],
     [ "parentMathText", "class_j_k_q_t_math_text_node.html#a856ae93b058ef1f605b0f2f85f407d64", null ],
-    [ "parentNode", "class_j_k_q_t_math_text_node.html#a8f1b02c2fbf00ca65c0a5df214f14a6b", null ]
+    [ "parentNode", "class_j_k_q_t_math_text_node.html#a8f1b02c2fbf00ca65c0a5df214f14a6b", null ],
+    [ "subSuperscriptAboveBelowNode", "class_j_k_q_t_math_text_node.html#afdec8ae06750ccbc25045c60d0a973e0", null ]
 ];

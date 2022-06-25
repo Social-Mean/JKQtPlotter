@@ -14,7 +14,7 @@ var searchData=
   ['fontname_11',['fontName',['../struct_j_k_q_t_math_text_font_specifier.html#a035624a9e9d7b9aa4b14b4c6250bce26',1,'JKQTMathTextFontSpecifier']]],
   ['forceinternaldatastore_12',['forceInternalDatastore',['../class_j_k_q_t_base_plotter.html#a6bbab200493af62fab5403460f5b726e',1,'JKQTBasePlotter::forceInternalDatastore()'],['../class_j_k_q_t_plotter.html#a97b118afff74ae40929015ac235d4f2d',1,'JKQTPlotter::forceInternalDatastore()']]],
   ['formathittestdefaultlabel_13',['formatHitTestDefaultLabel',['../class_j_k_q_t_p_plot_element.html#acabb25ef081b70ca56e43cbfe1f2f0a8',1,'JKQTPPlotElement']]],
-  ['fractype2string_14',['FracType2String',['../group__jkqtmathtext.html#ga52eb35dcb4d1d8b193b4b79c34d4f013',1,'JKQTMathTextFracNode']]],
+  ['fractype2string_14',['FracType2String',['../class_j_k_q_t_math_text_frac_node.html#a52eb35dcb4d1d8b193b4b79c34d4f013',1,'JKQTMathTextFracNode']]],
   ['fromfontspec_15',['fromFontSpec',['../struct_j_k_q_t_math_text_font_specifier.html#a13d780ab2bbe28aebf8cb0af31e935c3',1,'JKQTMathTextFontSpecifier']]],
   ['fromstring_16',['fromString',['../struct_j_k_q_t_p_color_derivation_mode.html#a5c32fef2a5e7e52830f2565dac2876a4',1,'JKQTPColorDerivationMode']]],
   ['functionexists_17',['functionExists',['../class_j_k_q_t_p_math_parser.html#a6ee437d931ceb448a4f4660e5032fb18',1,'JKQTPMathParser']]]

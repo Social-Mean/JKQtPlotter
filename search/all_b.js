@@ -95,7 +95,7 @@ var searchData=
   ['jkqtmathtext_20render_2dtree_20items_92',['JKQTMathText Render-Tree Items',['../group__jkqtmathtext__items.html',1,'']]],
   ['jkqtmathtext_20tool_20functions_20and_20types_93',['JKQTMathText Tool Functions and Types',['../group__jkqtmathtext__tools.html',1,'']]],
   ['jkqtmathtext_20widgets_94',['JKQTMathText widgets',['../group__jkqtmathtext__widgets.html',1,'']]],
-  ['jkqtmathtext_5flib_5fexport_95',['JKQTMATHTEXT_LIB_EXPORT',['../group__jkqtmathtext.html#ga057aeda927f4602f5bfa776a658f78ff',1,'jkqtmathtext_imexport.h']]],
+  ['jkqtmathtext_5flib_5fexport_95',['JKQTMATHTEXT_LIB_EXPORT',['../group__jkqtmathtext__tools.html#ga057aeda927f4602f5bfa776a658f78ff',1,'jkqtmathtext_imexport.h']]],
   ['jkqtmathtextbracenode_96',['JKQTMathTextBraceNode',['../class_j_k_q_t_math_text_brace_node.html#ae3dd135a75579d59d51408e5e725cd7a',1,'JKQTMathTextBraceNode::JKQTMathTextBraceNode()'],['../class_j_k_q_t_math_text_brace_node.html',1,'JKQTMathTextBraceNode']]],
   ['jkqtmathtextbracetype_97',['JKQTMathTextBraceType',['../group__jkqtmathtext__tools.html#ga54bb4fa9bb861e0118cfc68de4913472',1,'jkqtmathtexttools.h']]],
   ['jkqtmathtextbracetype2string_98',['JKQTMathTextBraceType2String',['../group__jkqtmathtext__tools.html#ga310b65ae67788f04c1b08ba3e0bd0a65',1,'jkqtmathtexttools.h']]],

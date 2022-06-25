@@ -64,22 +64,22 @@ var group__jkqtmathtext__items =
       [ "child2", "class_j_k_q_t_math_text_dual_child_node.html#a78100a54e433934c4ded6b42bae79c99", null ]
     ] ],
     [ "JKQTMathTextFracNode", "class_j_k_q_t_math_text_frac_node.html", [
-      [ "FracType", "group__jkqtmathtext.html#ga0a8d8328735d0eb568fb7806f1edb969", [
-        [ "MTFMfrac", "group__jkqtmathtext.html#gga0a8d8328735d0eb568fb7806f1edb969ac3eb566610021d34d72dff993c91acaa", null ],
-        [ "MTFMdfrac", "group__jkqtmathtext.html#gga0a8d8328735d0eb568fb7806f1edb969a6718999eb6e2630b82a93f536bcacf03", null ],
-        [ "MTFMtfrac", "group__jkqtmathtext.html#gga0a8d8328735d0eb568fb7806f1edb969a59e41fe1ed4b0f5027dbe7d51c848ae7", null ],
-        [ "MTFMsfrac", "group__jkqtmathtext.html#gga0a8d8328735d0eb568fb7806f1edb969a58ae3399b2d3af2484c4e08e57fe8652", null ],
-        [ "MTFMstfrac", "group__jkqtmathtext.html#gga0a8d8328735d0eb568fb7806f1edb969a1b672bece33968cc536aff948f5875a2", null ],
-        [ "MTFMunderbrace", "group__jkqtmathtext.html#gga0a8d8328735d0eb568fb7806f1edb969ae5d479a950dbfd9c7ea3b139b9a5bc12", null ],
-        [ "MTFMoverbrace", "group__jkqtmathtext.html#gga0a8d8328735d0eb568fb7806f1edb969a4dc82be1600bd8c0f6ef9e8eb3bc48ba", null ],
-        [ "MTFMstackrel", "group__jkqtmathtext.html#gga0a8d8328735d0eb568fb7806f1edb969a0f9057168b621a16b5740c8000fb3c17", null ],
-        [ "MTFMunderset", "group__jkqtmathtext.html#gga0a8d8328735d0eb568fb7806f1edb969a285c1cf4f3dac69b8119d80747d7945e", null ],
-        [ "MTFMoverset", "group__jkqtmathtext.html#gga0a8d8328735d0eb568fb7806f1edb969a278c308396f8164ec229e8d35267b829", null ]
+      [ "FracType", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969", [
+        [ "MTFMfrac", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969ac3eb566610021d34d72dff993c91acaa", null ],
+        [ "MTFMdfrac", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a6718999eb6e2630b82a93f536bcacf03", null ],
+        [ "MTFMtfrac", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a59e41fe1ed4b0f5027dbe7d51c848ae7", null ],
+        [ "MTFMsfrac", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a58ae3399b2d3af2484c4e08e57fe8652", null ],
+        [ "MTFMstfrac", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a1b672bece33968cc536aff948f5875a2", null ],
+        [ "MTFMunderbrace", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969ae5d479a950dbfd9c7ea3b139b9a5bc12", null ],
+        [ "MTFMoverbrace", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a4dc82be1600bd8c0f6ef9e8eb3bc48ba", null ],
+        [ "MTFMstackrel", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a0f9057168b621a16b5740c8000fb3c17", null ],
+        [ "MTFMunderset", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a285c1cf4f3dac69b8119d80747d7945e", null ],
+        [ "MTFMoverset", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a278c308396f8164ec229e8d35267b829", null ]
       ] ],
       [ "JKQTMathTextFracNode", "class_j_k_q_t_math_text_frac_node.html#a3b5287e7839bb42e0596c9d3367b2c4d", null ],
       [ "~JKQTMathTextFracNode", "class_j_k_q_t_math_text_frac_node.html#a5301d8c5ee608cffa04c3a1174207e04", null ],
       [ "draw", "class_j_k_q_t_math_text_frac_node.html#a7a7839caabf8d684a793037c6f17d12e", null ],
-      [ "FracType2String", "group__jkqtmathtext.html#ga52eb35dcb4d1d8b193b4b79c34d4f013", null ],
+      [ "FracType2String", "class_j_k_q_t_math_text_frac_node.html#a52eb35dcb4d1d8b193b4b79c34d4f013", null ],
       [ "getFracScalingFactor", "class_j_k_q_t_math_text_frac_node.html#ac9087e2f0cb7afb32c0cb6b43f8bffb3", null ],
       [ "getMode", "class_j_k_q_t_math_text_frac_node.html#a889151aa346d8286137a9c19199f5232", null ],
       [ "getNestingLevel", "class_j_k_q_t_math_text_frac_node.html#ac5dc0b5939c8db33d639ab94d31a6c60", null ],
@@ -107,6 +107,7 @@ var group__jkqtmathtext__items =
       [ "addChild", "class_j_k_q_t_math_text_list_node.html#a26b0f20a0c015968535960f289c46d85", null ],
       [ "childCount", "class_j_k_q_t_math_text_list_node.html#a160a0e0566b10cd7aaffce799a50825b", null ],
       [ "clearChildren", "class_j_k_q_t_math_text_list_node.html#a3e08edee5bcca4187d67ad5d1c1ee3a8", null ],
+      [ "clearChildrenImpl", "class_j_k_q_t_math_text_list_node.html#a72c76240ed3a7669349eb60c6031fae2", null ],
       [ "draw", "class_j_k_q_t_math_text_list_node.html#aaa6611d5d56f6f8528e2b3376609dc75", null ],
       [ "getChild", "class_j_k_q_t_math_text_list_node.html#ae3497631ebbd061d397620adf23b31bf", null ],
       [ "getChild", "class_j_k_q_t_math_text_list_node.html#a7a7dfdb33ff98628e3d20c372a2d97b6", null ],
@@ -115,8 +116,7 @@ var group__jkqtmathtext__items =
       [ "getTypeName", "class_j_k_q_t_math_text_list_node.html#ae34999891cf50ed8ecd2f8587bba16a9", null ],
       [ "replaceChild", "class_j_k_q_t_math_text_list_node.html#a007fd34562efe3c500d9a710e8e9cba4", null ],
       [ "toHtml", "class_j_k_q_t_math_text_list_node.html#a864c54304ca455b1809ff38b1ed451bb", null ],
-      [ "nodes", "class_j_k_q_t_math_text_list_node.html#ad632d41945739b3d431281b9b493ecb1", null ],
-      [ "subsupOperations", "class_j_k_q_t_math_text_list_node.html#aa7fee8b30d3e508e90b6c78f3ba660cf", null ]
+      [ "nodes", "class_j_k_q_t_math_text_list_node.html#ad632d41945739b3d431281b9b493ecb1", null ]
     ] ],
     [ "JKQTMathTextMatrixNode", "class_j_k_q_t_math_text_matrix_node.html", [
       [ "JKQTMathTextMatrixNode", "class_j_k_q_t_math_text_matrix_node.html#a723d272c4af33dcc5cdeaa68aa775e2e", null ],
@@ -142,6 +142,12 @@ var group__jkqtmathtext__items =
       [ "getChild", "class_j_k_q_t_math_text_multi_child_node.html#a8224d99b45f04d2bded34d662c346632", null ],
       [ "getChildren", "class_j_k_q_t_math_text_multi_child_node.html#af890dbc303e6ac0bd8c4c8830a6c9c9f", null ],
       [ "getChildren", "class_j_k_q_t_math_text_multi_child_node.html#a70ebb9b926c2e86836740a0892f6a968", null ],
+      [ "getFirstChild", "class_j_k_q_t_math_text_multi_child_node.html#aff00bcfca23ad7028753b6979d834d6e", null ],
+      [ "getFirstChild", "class_j_k_q_t_math_text_multi_child_node.html#aafdf8919735fd25fae002b6cbd231e31", null ],
+      [ "getLastChild", "class_j_k_q_t_math_text_multi_child_node.html#ad437bb160f462371bf6112cac001a103", null ],
+      [ "getLastChild", "class_j_k_q_t_math_text_multi_child_node.html#a351b4e0dc5fa4362e42086cc7ef64b6b", null ],
+      [ "hasChildren", "class_j_k_q_t_math_text_multi_child_node.html#a51bad840dc30a1cc7221cdf26a61e82b", null ],
+      [ "isEmpty", "class_j_k_q_t_math_text_multi_child_node.html#ae37e2715114f26cc8d19eaeba84b838a", null ],
       [ "replaceAndDeleteChild", "class_j_k_q_t_math_text_multi_child_node.html#ae3692713e574ca182a98ee80569500a3", null ],
       [ "replaceChild", "class_j_k_q_t_math_text_multi_child_node.html#a626e43b15ec95391651c1ff344d731a0", null ],
       [ "setDrawBoxes", "class_j_k_q_t_math_text_multi_child_node.html#a2ed7600e2d634776a7704f9dc3e97181", null ]
@@ -161,13 +167,16 @@ var group__jkqtmathtext__items =
       [ "getSize", "class_j_k_q_t_math_text_node.html#a64a20dde0c762ee5a20c7b6dbb99eadd", null ],
       [ "getSizeInternal", "class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd", null ],
       [ "getTypeName", "class_j_k_q_t_math_text_node.html#a89840deb78e1d614c74348d7e612549f", null ],
+      [ "isSubSuperscriptAboveBelowNode", "class_j_k_q_t_math_text_node.html#ac4249c7a7d89dbc6796b8b7da590daac", null ],
       [ "operator=", "class_j_k_q_t_math_text_node.html#a7b9a46885a308fa527d93308f9f10bde", null ],
       [ "setDrawBoxes", "class_j_k_q_t_math_text_node.html#a616006320c94d7bcb7546effa9812bee", null ],
       [ "setParentNode", "class_j_k_q_t_math_text_node.html#ae3a2f37826af7cb9f561ce2f147d1e75", null ],
+      [ "setSubSuperscriptAboveBelowNode", "class_j_k_q_t_math_text_node.html#af6753f72f52bad706a4b3e3dc8332985", null ],
       [ "toHtml", "class_j_k_q_t_math_text_node.html#a2ba14f4c0070bd6e4fbc92b35c15df09", null ],
       [ "drawBoxes", "class_j_k_q_t_math_text_node.html#aa81a38802dd63349e3fec37d28e2d73c", null ],
       [ "parentMathText", "class_j_k_q_t_math_text_node.html#a856ae93b058ef1f605b0f2f85f407d64", null ],
-      [ "parentNode", "class_j_k_q_t_math_text_node.html#a8f1b02c2fbf00ca65c0a5df214f14a6b", null ]
+      [ "parentNode", "class_j_k_q_t_math_text_node.html#a8f1b02c2fbf00ca65c0a5df214f14a6b", null ],
+      [ "subSuperscriptAboveBelowNode", "class_j_k_q_t_math_text_node.html#afdec8ae06750ccbc25045c60d0a973e0", null ]
     ] ],
     [ "JKQTMathTextSingleChildNode", "class_j_k_q_t_math_text_single_child_node.html", [
       [ "JKQTMathTextSingleChildNode", "class_j_k_q_t_math_text_single_child_node.html#a5d1aa007e09a5138c4decdcdf943200c", null ],

@@ -182,6 +182,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3c1ac78f22080cad1417481c6282cfd9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a3c1ac78f22080cad1417481c6282cfd9">getAscent</a> (QPainter &amp;painter)</td></tr>
 <tr class="memdesc:a3c1ac78f22080cad1417481c6282cfd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the ascentt, i.e. the distance from the baseline to the highest part of the representation  <a href="class_j_k_q_t_math_text.html#a3c1ac78f22080cad1417481c6282cfd9">More...</a><br /></td></tr>
 <tr class="separator:a3c1ac78f22080cad1417481c6282cfd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbd56ed7a97d9e6cc8451aabeb07db24"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#acbd56ed7a97d9e6cc8451aabeb07db24">getBigMathoperatorFontFactor</a> () const</td></tr>
+<tr class="memdesc:acbd56ed7a97d9e6cc8451aabeb07db24"><td class="mdescLeft">&#160;</td><td class="mdescRight">factor, used to increase the font size for big math operators, such as <code>\sum</code> , <code>\prod</code> , ...  <a href="class_j_k_q_t_math_text.html#acbd56ed7a97d9e6cc8451aabeb07db24">More...</a><br /></td></tr>
+<tr class="separator:acbd56ed7a97d9e6cc8451aabeb07db24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b1d66eb05001aa80e8dc700a6a37a60"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a0b1d66eb05001aa80e8dc700a6a37a60">getBraceFactor</a> () const</td></tr>
 <tr class="memdesc:a0b1d66eb05001aa80e8dc700a6a37a60"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizing factor for braces in math mode  <a href="class_j_k_q_t_math_text.html#a0b1d66eb05001aa80e8dc700a6a37a60">More...</a><br /></td></tr>
 <tr class="separator:a0b1d66eb05001aa80e8dc700a6a37a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,9 +206,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a14a7a418442599c0f09e32fe0aff09bc"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a14a7a418442599c0f09e32fe0aff09bc">getErrorList</a> () const</td></tr>
 <tr class="memdesc:a14a7a418442599c0f09e32fe0aff09bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">a list that will be filled with error messages while parsing, if any error occur  <a href="class_j_k_q_t_math_text.html#a14a7a418442599c0f09e32fe0aff09bc">More...</a><br /></td></tr>
 <tr class="separator:a14a7a418442599c0f09e32fe0aff09bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53f7e34eb46c2b15833e2f346d9dec60"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a53f7e34eb46c2b15833e2f346d9dec60">getExpensiveRendering</a> () const</td></tr>
-<tr class="memdesc:a53f7e34eb46c2b15833e2f346d9dec60"><td class="mdescLeft">&#160;</td><td class="mdescRight">switches on some options that will grant better rendering at the expense of higher time consumption  <a href="class_j_k_q_t_math_text.html#a53f7e34eb46c2b15833e2f346d9dec60">More...</a><br /></td></tr>
-<tr class="separator:a53f7e34eb46c2b15833e2f346d9dec60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79d2b4038cd04a487cb9238d3a18ec78"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a79d2b4038cd04a487cb9238d3a18ec78">getFontBlackboard</a> () const</td></tr>
 <tr class="memdesc:a79d2b4038cd04a487cb9238d3a18ec78"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves the font to be used for text in the logical font MTEblackboard <br  />
   <a href="class_j_k_q_t_math_text.html#a79d2b4038cd04a487cb9238d3a18ec78">More...</a><br /></td></tr>
@@ -302,8 +302,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b1ff5178aee593f23491429a6c20235"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a7b1ff5178aee593f23491429a6c20235">getMathoperatorWidthFactor</a> () const</td></tr>
 <tr class="memdesc:a7b1ff5178aee593f23491429a6c20235"><td class="mdescLeft">&#160;</td><td class="mdescRight">factor, used to extend the size of an operator in math mode  <a href="class_j_k_q_t_math_text.html#a7b1ff5178aee593f23491429a6c20235">More...</a><br /></td></tr>
 <tr class="separator:a7b1ff5178aee593f23491429a6c20235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2b8af42374e9078c97b8a3ed0a2008c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ae2b8af42374e9078c97b8a3ed0a2008c">getOperatorsubsuperDistanceFactor</a> () const</td></tr>
+<tr class="memdesc:ae2b8af42374e9078c97b8a3ed0a2008c"><td class="mdescLeft">&#160;</td><td class="mdescRight">for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol, this is the distance between the operator symbol and the sub-/super-text if multiplied by xHeight  <a href="class_j_k_q_t_math_text.html#ae2b8af42374e9078c97b8a3ed0a2008c">More...</a><br /></td></tr>
+<tr class="separator:ae2b8af42374e9078c97b8a3ed0a2008c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0566432eb55fc2988a05d97b499e6698"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a0566432eb55fc2988a05d97b499e6698">getOperatorsubsuperExtraSpaceFactor</a> () const</td></tr>
+<tr class="memdesc:a0566432eb55fc2988a05d97b499e6698"><td class="mdescLeft">&#160;</td><td class="mdescRight">for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol, this is the additional width added to the width of maximum width of the operator, above and below  <a href="class_j_k_q_t_math_text.html#a0566432eb55fc2988a05d97b499e6698">More...</a><br /></td></tr>
+<tr class="separator:a0566432eb55fc2988a05d97b499e6698"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e20527969dd7beea84e23edde307be5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a9e20527969dd7beea84e23edde307be5">getOperatorsubsuperSizeFactor</a> () const</td></tr>
-<tr class="memdesc:a9e20527969dd7beea84e23edde307be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">like subsuper_size_factor, but for operators (\sum, \int) where the text is placed above/below the symbol  <a href="class_j_k_q_t_math_text.html#a9e20527969dd7beea84e23edde307be5">More...</a><br /></td></tr>
+<tr class="memdesc:a9e20527969dd7beea84e23edde307be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">like subsuper_size_factor, but for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol  <a href="class_j_k_q_t_math_text.html#a9e20527969dd7beea84e23edde307be5">More...</a><br /></td></tr>
 <tr class="separator:a9e20527969dd7beea84e23edde307be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7741bbb769525b88317efc73c929c02e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a7741bbb769525b88317efc73c929c02e">getParsedNode</a> () const</td></tr>
 <tr class="memdesc:a7741bbb769525b88317efc73c929c02e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the result of parsing the last string supplied to the object via <a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb" title="parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...">parse()</a>  <a href="class_j_k_q_t_math_text.html#a7741bbb769525b88317efc73c929c02e">More...</a><br /></td></tr>
@@ -317,9 +323,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab1d748ce748a28204a283bf1b98cb75d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ab1d748ce748a28204a283bf1b98cb75d">getSizeDetail</a> (QPainter &amp;painter, double &amp;width, double &amp;ascent, double &amp;descent, double &amp;strikeoutPos)</td></tr>
 <tr class="memdesc:ab1d748ce748a28204a283bf1b98cb75d"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the detailes sizes of the text  <a href="class_j_k_q_t_math_text.html#ab1d748ce748a28204a283bf1b98cb75d">More...</a><br /></td></tr>
 <tr class="separator:ab1d748ce748a28204a283bf1b98cb75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a356563652f8a90bd5dedf6b245067096"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a356563652f8a90bd5dedf6b245067096">getSpecialSubShiftFactor</a> () const</td></tr>
+<tr class="memdesc:a356563652f8a90bd5dedf6b245067096"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative shift of text in subscript to normal text in special superscript mode (after large previous nodes): 0=child's baseline at the descent of the previous node, 1: subscript-node starts at the descent of the previous node  <a href="class_j_k_q_t_math_text.html#a356563652f8a90bd5dedf6b245067096">More...</a><br /></td></tr>
+<tr class="separator:a356563652f8a90bd5dedf6b245067096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46c6f6789dfff834fe21eaf4f05d7ddd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a46c6f6789dfff834fe21eaf4f05d7ddd">getSpecialSuperShiftFactor</a> () const</td></tr>
+<tr class="memdesc:a46c6f6789dfff834fe21eaf4f05d7ddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative shift of text in superscript to normal text in special superscript mode (after large previous nodes): 0= superscript descent coincides with the previous node's baselineHeight, 1: top of previous node and top of the superscript nodes coincide  <a href="class_j_k_q_t_math_text.html#a46c6f6789dfff834fe21eaf4f05d7ddd">More...</a><br /></td></tr>
+<tr class="separator:a46c6f6789dfff834fe21eaf4f05d7ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac557e5e5e8898703813721b49b1539b0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ac557e5e5e8898703813721b49b1539b0">getSubShiftFactor</a> () const</td></tr>
 <tr class="memdesc:ac557e5e5e8898703813721b49b1539b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative shift of text in subscript to normal text: 0= baseline kept, 1: baseline shifted to bottom of normal text  <a href="class_j_k_q_t_math_text.html#ac557e5e5e8898703813721b49b1539b0">More...</a><br /></td></tr>
 <tr class="separator:ac557e5e5e8898703813721b49b1539b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3bddf496b3174d3b433a6fd87c1bec0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ab3bddf496b3174d3b433a6fd87c1bec0">getSubsuperModeSelectionBySizeFactor</a> () const</td></tr>
+<tr class="memdesc:ab3bddf496b3174d3b433a6fd87c1bec0"><td class="mdescLeft">&#160;</td><td class="mdescRight">this factor is used to determine how to typeset sub-/superscript.  <a href="class_j_k_q_t_math_text.html#ab3bddf496b3174d3b433a6fd87c1bec0">More...</a><br /></td></tr>
+<tr class="separator:ab3bddf496b3174d3b433a6fd87c1bec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acab8b8a10f08b7906042760812b32ec3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#acab8b8a10f08b7906042760812b32ec3">getSubsuperSizeFactor</a> () const</td></tr>
 <tr class="memdesc:acab8b8a10f08b7906042760812b32ec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizing factor for font size in sub-/superscript  <a href="class_j_k_q_t_math_text.html#acab8b8a10f08b7906042760812b32ec3">More...</a><br /></td></tr>
 <tr class="separator:acab8b8a10f08b7906042760812b32ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -346,7 +361,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad678c21f9d963aa62584f1803110880b"><td class="mdescLeft">&#160;</td><td class="mdescRight">scaling factor for font of underbrace/overbrace text  <a href="class_j_k_q_t_math_text.html#ad678c21f9d963aa62584f1803110880b">More...</a><br /></td></tr>
 <tr class="separator:ad678c21f9d963aa62584f1803110880b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c53e2ff4689dc9262d7610ac613eb19"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a6c53e2ff4689dc9262d7610ac613eb19">getUndersetFactor</a> () const</td></tr>
-<tr class="memdesc:a6c53e2ff4689dc9262d7610ac613eb19"><td class="mdescLeft">&#160;</td><td class="mdescRight">scaling factor for font of underset/overset text  <a href="class_j_k_q_t_math_text.html#a6c53e2ff4689dc9262d7610ac613eb19">More...</a><br /></td></tr>
 <tr class="separator:a6c53e2ff4689dc9262d7610ac613eb19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af60ac08c5ac3e342e932ef0def6173c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#af60ac08c5ac3e342e932ef0def6173c4">isFontBlackboardSimulated</a> () const</td></tr>
 <tr class="memdesc:af60ac08c5ac3e342e932ef0def6173c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">is blackboard font simulated by using roman with outlines only <br  />
@@ -364,6 +378,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeb2080ea22fda5c3b5e918492441b59d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#aeb2080ea22fda5c3b5e918492441b59d">saveSettings</a> (QSettings &amp;settings, const QString &amp;group=QString(&quot;mathtext/&quot;)) const</td></tr>
 <tr class="memdesc:aeb2080ea22fda5c3b5e918492441b59d"><td class="mdescLeft">&#160;</td><td class="mdescRight">store the object settings to the given QSettings object with the given name prefix  <a href="class_j_k_q_t_math_text.html#aeb2080ea22fda5c3b5e918492441b59d">More...</a><br /></td></tr>
 <tr class="separator:aeb2080ea22fda5c3b5e918492441b59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad85a52d2ba2690f8bbb8166e5dbf28a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ad85a52d2ba2690f8bbb8166e5dbf28a2">setBigMathoperatorFontFactor</a> (double __value)</td></tr>
+<tr class="memdesc:ad85a52d2ba2690f8bbb8166e5dbf28a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">factor, used to increase the font size for big math operators, such as <code>\sum</code> , <code>\prod</code> , ...  <a href="class_j_k_q_t_math_text.html#ad85a52d2ba2690f8bbb8166e5dbf28a2">More...</a><br /></td></tr>
+<tr class="separator:ad85a52d2ba2690f8bbb8166e5dbf28a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b9dcecab274d0a73ab5a9bd58dc20bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a6b9dcecab274d0a73ab5a9bd58dc20bc">setBraceFactor</a> (double __value)</td></tr>
 <tr class="memdesc:a6b9dcecab274d0a73ab5a9bd58dc20bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizing factor for braces in math mode  <a href="class_j_k_q_t_math_text.html#a6b9dcecab274d0a73ab5a9bd58dc20bc">More...</a><br /></td></tr>
 <tr class="separator:a6b9dcecab274d0a73ab5a9bd58dc20bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -379,9 +396,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a42d7db158ecc7e6cef2503a3b1c57820"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a42d7db158ecc7e6cef2503a3b1c57820">setDecorationWidthReductionXFactor</a> (double __value)</td></tr>
 <tr class="memdesc:a42d7db158ecc7e6cef2503a3b1c57820"><td class="mdescLeft">&#160;</td><td class="mdescRight">a decoration has a size, which is slightly smaller than the text- width. the width is reduced by <code>decoration_width_reduction_Xfactor*width</code>("X") and the position is centered around the child-box. Also an italic correction is applied:  <a href="class_j_k_q_t_math_text.html#a42d7db158ecc7e6cef2503a3b1c57820">More...</a><br /></td></tr>
 <tr class="separator:a42d7db158ecc7e6cef2503a3b1c57820"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec0a70de74476447a6f9b5c270d611e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#aec0a70de74476447a6f9b5c270d611e9">setExpensiveRendering</a> (bool __value)</td></tr>
-<tr class="memdesc:aec0a70de74476447a6f9b5c270d611e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">switches on some options that will grant better rendering at the expense of higher time consumption  <a href="class_j_k_q_t_math_text.html#aec0a70de74476447a6f9b5c270d611e9">More...</a><br /></td></tr>
-<tr class="separator:aec0a70de74476447a6f9b5c270d611e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8c503adf27d4134311712a36783fc17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17">setFontBlackboard</a> (const QString &amp;fontName, <a class="el" href="group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201">JKQTMathTextFontEncoding</a> encoding=<a class="el" href="group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201a82f9a6f099935dab75262de880ae63fb">JKQTMathTextFontEncoding::MTFEStandard</a>)</td></tr>
 <tr class="memdesc:ae8c503adf27d4134311712a36783fc17"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the font <em>fontName</em> and it's encoding <em>encoding</em> to be used for text in the logical font MTEblackboard <br  />
   <a href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17">More...</a><br /></td></tr>
@@ -449,12 +463,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab197d3485ddcc1b402926632bd634858"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ab197d3485ddcc1b402926632bd634858">setMathoperatorWidthFactor</a> (double __value)</td></tr>
 <tr class="memdesc:ab197d3485ddcc1b402926632bd634858"><td class="mdescLeft">&#160;</td><td class="mdescRight">factor, used to extend the size of an operator in math mode  <a href="class_j_k_q_t_math_text.html#ab197d3485ddcc1b402926632bd634858">More...</a><br /></td></tr>
 <tr class="separator:ab197d3485ddcc1b402926632bd634858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a031812ddae1643dcfc8b03376df1d0d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a031812ddae1643dcfc8b03376df1d0d8">setOperatorsubsuperDistanceFactor</a> (double __value)</td></tr>
+<tr class="memdesc:a031812ddae1643dcfc8b03376df1d0d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol, this is the distance between the operator symbol and the sub-/super-text if multiplied by xHeight  <a href="class_j_k_q_t_math_text.html#a031812ddae1643dcfc8b03376df1d0d8">More...</a><br /></td></tr>
+<tr class="separator:a031812ddae1643dcfc8b03376df1d0d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ec61b4d505c51041b9b613dc4ee8821"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a6ec61b4d505c51041b9b613dc4ee8821">setOperatorsubsuperExtraSpaceFactor</a> (double __value)</td></tr>
+<tr class="memdesc:a6ec61b4d505c51041b9b613dc4ee8821"><td class="mdescLeft">&#160;</td><td class="mdescRight">for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol, this is the additional width added to the width of maximum width of the operator, above and below  <a href="class_j_k_q_t_math_text.html#a6ec61b4d505c51041b9b613dc4ee8821">More...</a><br /></td></tr>
+<tr class="separator:a6ec61b4d505c51041b9b613dc4ee8821"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55e6fab5ef0b8a0b863f26d4ac1f0c32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a55e6fab5ef0b8a0b863f26d4ac1f0c32">setOperatorsubsuperSizeFactor</a> (double __value)</td></tr>
-<tr class="memdesc:a55e6fab5ef0b8a0b863f26d4ac1f0c32"><td class="mdescLeft">&#160;</td><td class="mdescRight">like subsuper_size_factor, but for operators (\sum, \int) where the text is placed above/below the symbol  <a href="class_j_k_q_t_math_text.html#a55e6fab5ef0b8a0b863f26d4ac1f0c32">More...</a><br /></td></tr>
+<tr class="memdesc:a55e6fab5ef0b8a0b863f26d4ac1f0c32"><td class="mdescLeft">&#160;</td><td class="mdescRight">like subsuper_size_factor, but for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol  <a href="class_j_k_q_t_math_text.html#a55e6fab5ef0b8a0b863f26d4ac1f0c32">More...</a><br /></td></tr>
 <tr class="separator:a55e6fab5ef0b8a0b863f26d4ac1f0c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a681b1761c108ebf502449b033d8e9734"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a681b1761c108ebf502449b033d8e9734">setSpecialSubShiftFactor</a> (double __value)</td></tr>
+<tr class="memdesc:a681b1761c108ebf502449b033d8e9734"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative shift of text in subscript to normal text in special superscript mode (after large previous nodes): 0=child's baseline at the descent of the previous node, 1: subscript-node starts at the descent of the previous node  <a href="class_j_k_q_t_math_text.html#a681b1761c108ebf502449b033d8e9734">More...</a><br /></td></tr>
+<tr class="separator:a681b1761c108ebf502449b033d8e9734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e3c65f2d95abc6fc6a3f71a707d85f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a0e3c65f2d95abc6fc6a3f71a707d85f8">setSpecialSuperShiftFactor</a> (double __value)</td></tr>
+<tr class="memdesc:a0e3c65f2d95abc6fc6a3f71a707d85f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative shift of text in superscript to normal text in special superscript mode (after large previous nodes): 0= superscript descent coincides with the previous node's baselineHeight, 1: top of previous node and top of the superscript nodes coincide  <a href="class_j_k_q_t_math_text.html#a0e3c65f2d95abc6fc6a3f71a707d85f8">More...</a><br /></td></tr>
+<tr class="separator:a0e3c65f2d95abc6fc6a3f71a707d85f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78b92e1d66a70b80236443657f9a1801"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a78b92e1d66a70b80236443657f9a1801">setSubShiftFactor</a> (double __value)</td></tr>
 <tr class="memdesc:a78b92e1d66a70b80236443657f9a1801"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative shift of text in subscript to normal text: 0= baseline kept, 1: baseline shifted to bottom of normal text  <a href="class_j_k_q_t_math_text.html#a78b92e1d66a70b80236443657f9a1801">More...</a><br /></td></tr>
 <tr class="separator:a78b92e1d66a70b80236443657f9a1801"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa70159b134393702d0f139a2cd741ef5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#aa70159b134393702d0f139a2cd741ef5">setSubsuperModeSelectionBySizeFactor</a> (double __value)</td></tr>
+<tr class="memdesc:aa70159b134393702d0f139a2cd741ef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">this factor is used to determine how to typeset sub-/superscript.  <a href="class_j_k_q_t_math_text.html#aa70159b134393702d0f139a2cd741ef5">More...</a><br /></td></tr>
+<tr class="separator:aa70159b134393702d0f139a2cd741ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a784159c0c7edd08d969ae84daf2dec66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a784159c0c7edd08d969ae84daf2dec66">setSubsuperSizeFactor</a> (double __value)</td></tr>
 <tr class="memdesc:a784159c0c7edd08d969ae84daf2dec66"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizing factor for font size in sub-/superscript  <a href="class_j_k_q_t_math_text.html#a784159c0c7edd08d969ae84daf2dec66">More...</a><br /></td></tr>
 <tr class="separator:a784159c0c7edd08d969ae84daf2dec66"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -481,7 +510,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6fb6e547dbcd965e5c76de9aadb6d9b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">scaling factor for font of underbrace/overbrace text  <a href="class_j_k_q_t_math_text.html#a6fb6e547dbcd965e5c76de9aadb6d9b0">More...</a><br /></td></tr>
 <tr class="separator:a6fb6e547dbcd965e5c76de9aadb6d9b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd335938fea6c958e1dd4e0367ce4928"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#abd335938fea6c958e1dd4e0367ce4928">setUndersetFactor</a> (double __value)</td></tr>
-<tr class="memdesc:abd335938fea6c958e1dd4e0367ce4928"><td class="mdescLeft">&#160;</td><td class="mdescRight">scaling factor for font of underset/overset text  <a href="class_j_k_q_t_math_text.html#abd335938fea6c958e1dd4e0367ce4928">More...</a><br /></td></tr>
 <tr class="separator:abd335938fea6c958e1dd4e0367ce4928"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a765986fe318c03c2af5a7a7964410034"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a765986fe318c03c2af5a7a7964410034">setUseUnparsed</a> (bool __value)</td></tr>
 <tr class="memdesc:a765986fe318c03c2af5a7a7964410034"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, the unparsedNode is drawn  <a href="class_j_k_q_t_math_text.html#a765986fe318c03c2af5a7a7964410034">More...</a><br /></td></tr>
@@ -541,11 +569,12 @@ Protected Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a83da9db254294c6889138af63c7866ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a83da9db254294c6889138af63c7866ae">getNodeTree</a> () const</td></tr>
+<tr class="memdesc:a83da9db254294c6889138af63c7866ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the syntax tree of <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a>'s that was created by the last parse call  <a href="class_j_k_q_t_math_text.html#a83da9db254294c6889138af63c7866ae">More...</a><br /></td></tr>
+<tr class="separator:a83da9db254294c6889138af63c7866ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add20421b79c95341f59ae02cbd78661b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532">tokenType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#add20421b79c95341f59ae02cbd78661b">getToken</a> ()</td></tr>
 <tr class="memdesc:add20421b79c95341f59ae02cbd78661b"><td class="mdescLeft">&#160;</td><td class="mdescRight">tokenizer for the LaTeX parser  <a href="class_j_k_q_t_math_text.html#add20421b79c95341f59ae02cbd78661b">More...</a><br /></td></tr>
 <tr class="separator:add20421b79c95341f59ae02cbd78661b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0254600b18dbf1689fa727e1804969a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a0254600b18dbf1689fa727e1804969a2">getTree</a> () const</td></tr>
-<tr class="separator:a0254600b18dbf1689fa727e1804969a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac926999714413107f41691e262bbeffa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ac926999714413107f41691e262bbeffa">parseLatexString</a> (bool get, <a class="el" href="group__jkqtmathtext__tools.html#ga54bb4fa9bb861e0118cfc68de4913472">JKQTMathTextBraceType</a> quitOnClosingBrace=<a class="el" href="group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472a0e3578ed794778ca677dd0df8825462a">JKQTMathTextBraceType::MTBTAny</a>, const QString &amp;quitOnEnvironmentEnd=QString(&quot;&quot;), bool quitOnClosingBracket=false)</td></tr>
 <tr class="memdesc:ac926999714413107f41691e262bbeffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse a LaTeX string  <a href="class_j_k_q_t_math_text.html#ac926999714413107f41691e262bbeffa">More...</a><br /></td></tr>
 <tr class="separator:ac926999714413107f41691e262bbeffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -555,6 +584,9 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a500e7adc51f2836e6bc5be8829b0ccb8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a500e7adc51f2836e6bc5be8829b0ccb8">bigmathoperator_font_factor</a></td></tr>
+<tr class="memdesc:a500e7adc51f2836e6bc5be8829b0ccb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">factor, used to increase the font size for big math operators, such as <code>\sum</code> , <code>\prod</code> , ...  <a href="class_j_k_q_t_math_text.html#a500e7adc51f2836e6bc5be8829b0ccb8">More...</a><br /></td></tr>
+<tr class="separator:a500e7adc51f2836e6bc5be8829b0ccb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abebfc9f1fbf64d5ea08ac3b930faca8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#abebfc9f1fbf64d5ea08ac3b930faca8d">blackboardSimulated</a></td></tr>
 <tr class="memdesc:abebfc9f1fbf64d5ea08ac3b930faca8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">if enabled, the blackboard-characters are simulated by using font outlines only  <a href="class_j_k_q_t_math_text.html#abebfc9f1fbf64d5ea08ac3b930faca8d">More...</a><br /></td></tr>
 <tr class="separator:abebfc9f1fbf64d5ea08ac3b930faca8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -585,9 +617,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:abdae32eb507d57aff91dd8063f362aa3"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#abdae32eb507d57aff91dd8063f362aa3">error_list</a></td></tr>
 <tr class="memdesc:abdae32eb507d57aff91dd8063f362aa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">a list that will be filled with error messages while parsing, if any error occur  <a href="class_j_k_q_t_math_text.html#abdae32eb507d57aff91dd8063f362aa3">More...</a><br /></td></tr>
 <tr class="separator:abdae32eb507d57aff91dd8063f362aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a2ec5e643892731e2e204fdd2a60cef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a8a2ec5e643892731e2e204fdd2a60cef">expensiveRendering</a></td></tr>
-<tr class="memdesc:a8a2ec5e643892731e2e204fdd2a60cef"><td class="mdescLeft">&#160;</td><td class="mdescRight">switches on some options that will grant better rendering at the expense of higher time consumption  <a href="class_j_k_q_t_math_text.html#a8a2ec5e643892731e2e204fdd2a60cef">More...</a><br /></td></tr>
-<tr class="separator:a8a2ec5e643892731e2e204fdd2a60cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0733be901ccdbb8247b507d71fb5287"><td class="memItemLeft" align="right" valign="top">QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ab0733be901ccdbb8247b507d71fb5287">fontColor</a></td></tr>
 <tr class="memdesc:ab0733be901ccdbb8247b507d71fb5287"><td class="mdescLeft">&#160;</td><td class="mdescRight">font color  <a href="class_j_k_q_t_math_text.html#ab0733be901ccdbb8247b507d71fb5287">More...</a><br /></td></tr>
 <tr class="separator:ab0733be901ccdbb8247b507d71fb5287"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -618,8 +647,14 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a705a0b6e8499f5b92274384347f0df14"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a705a0b6e8499f5b92274384347f0df14">mathoperator_width_factor</a></td></tr>
 <tr class="memdesc:a705a0b6e8499f5b92274384347f0df14"><td class="mdescLeft">&#160;</td><td class="mdescRight">factor, used to extend the size of an operator in math mode  <a href="class_j_k_q_t_math_text.html#a705a0b6e8499f5b92274384347f0df14">More...</a><br /></td></tr>
 <tr class="separator:a705a0b6e8499f5b92274384347f0df14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf229081753df0e740010969f5734321"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#aaf229081753df0e740010969f5734321">operatorsubsuper_distance_factor</a></td></tr>
+<tr class="memdesc:aaf229081753df0e740010969f5734321"><td class="mdescLeft">&#160;</td><td class="mdescRight">for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol, this is the distance between the operator symbol and the sub-/super-text if multiplied by xHeight  <a href="class_j_k_q_t_math_text.html#aaf229081753df0e740010969f5734321">More...</a><br /></td></tr>
+<tr class="separator:aaf229081753df0e740010969f5734321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21d927132b21dab1ace2e979894b3322"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a21d927132b21dab1ace2e979894b3322">operatorsubsuper_extraspace_factor</a></td></tr>
+<tr class="memdesc:a21d927132b21dab1ace2e979894b3322"><td class="mdescLeft">&#160;</td><td class="mdescRight">for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol, this is the additional width added to the width of maximum width of the operator, above and below  <a href="class_j_k_q_t_math_text.html#a21d927132b21dab1ace2e979894b3322">More...</a><br /></td></tr>
+<tr class="separator:a21d927132b21dab1ace2e979894b3322"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a779c0daac5085baa0d87e3082785a345"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a779c0daac5085baa0d87e3082785a345">operatorsubsuper_size_factor</a></td></tr>
-<tr class="memdesc:a779c0daac5085baa0d87e3082785a345"><td class="mdescLeft">&#160;</td><td class="mdescRight">like subsuper_size_factor, but for operators (\sum, \int) where the text is placed above/below the symbol  <a href="class_j_k_q_t_math_text.html#a779c0daac5085baa0d87e3082785a345">More...</a><br /></td></tr>
+<tr class="memdesc:a779c0daac5085baa0d87e3082785a345"><td class="mdescLeft">&#160;</td><td class="mdescRight">like subsuper_size_factor, but for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol  <a href="class_j_k_q_t_math_text.html#a779c0daac5085baa0d87e3082785a345">More...</a><br /></td></tr>
 <tr class="separator:a779c0daac5085baa0d87e3082785a345"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7e86126348905c3b61252f902a35051"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ae7e86126348905c3b61252f902a35051">parsedNode</a></td></tr>
 <tr class="memdesc:ae7e86126348905c3b61252f902a35051"><td class="mdescLeft">&#160;</td><td class="mdescRight">the result of parsing the last string supplied to the object via <a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb" title="parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...">parse()</a>  <a href="class_j_k_q_t_math_text.html#ae7e86126348905c3b61252f902a35051">More...</a><br /></td></tr>
@@ -630,15 +665,18 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a0d075b11979236874426ae0340af4ca5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a0d075b11979236874426ae0340af4ca5">parsingMathEnvironment</a></td></tr>
 <tr class="memdesc:a0d075b11979236874426ae0340af4ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">used by the parser. indicates whether we are in a math environment  <a href="class_j_k_q_t_math_text.html#a0d075b11979236874426ae0340af4ca5">More...</a><br /></td></tr>
 <tr class="separator:a0d075b11979236874426ae0340af4ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74b9bf27f2658d02ffae6c37b34b8ce5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a74b9bf27f2658d02ffae6c37b34b8ce5">showLeftBrace</a></td></tr>
-<tr class="memdesc:a74b9bf27f2658d02ffae6c37b34b8ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">used by the parser. This is used to implement brace pairs with \left.  <a href="class_j_k_q_t_math_text.html#a74b9bf27f2658d02ffae6c37b34b8ce5">More...</a><br /></td></tr>
-<tr class="separator:a74b9bf27f2658d02ffae6c37b34b8ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a442168f0cbc61ef8cec206a9c60c26fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a442168f0cbc61ef8cec206a9c60c26fa">showRightBrace</a></td></tr>
-<tr class="memdesc:a442168f0cbc61ef8cec206a9c60c26fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">used by the parser. This is used to implement brace pairs with \right.  <a href="class_j_k_q_t_math_text.html#a442168f0cbc61ef8cec206a9c60c26fa">More...</a><br /></td></tr>
-<tr class="separator:a442168f0cbc61ef8cec206a9c60c26fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac574f42a4dee0243910c5442c8ce3ddb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ac574f42a4dee0243910c5442c8ce3ddb">special_sub_shift_factor</a></td></tr>
+<tr class="memdesc:ac574f42a4dee0243910c5442c8ce3ddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative shift of text in subscript to normal text in special superscript mode (after large previous nodes): 0=child's baseline at the descent of the previous node, 1: subscript-node starts at the descent of the previous node  <a href="class_j_k_q_t_math_text.html#ac574f42a4dee0243910c5442c8ce3ddb">More...</a><br /></td></tr>
+<tr class="separator:ac574f42a4dee0243910c5442c8ce3ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa93103c6d6ee3b764ea4f736dedc88fd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#aa93103c6d6ee3b764ea4f736dedc88fd">special_super_shift_factor</a></td></tr>
+<tr class="memdesc:aa93103c6d6ee3b764ea4f736dedc88fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative shift of text in superscript to normal text in special superscript mode (after large previous nodes): 0= superscript descent coincides with the previous node's baselineHeight, 1: top of previous node and top of the superscript nodes coincide  <a href="class_j_k_q_t_math_text.html#aa93103c6d6ee3b764ea4f736dedc88fd">More...</a><br /></td></tr>
+<tr class="separator:aa93103c6d6ee3b764ea4f736dedc88fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7057d40ee5e2de5f9b48ad13f0181396"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a7057d40ee5e2de5f9b48ad13f0181396">sub_shift_factor</a></td></tr>
 <tr class="memdesc:a7057d40ee5e2de5f9b48ad13f0181396"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative shift of text in subscript to normal text: 0= baseline kept, 1: baseline shifted to bottom of normal text  <a href="class_j_k_q_t_math_text.html#a7057d40ee5e2de5f9b48ad13f0181396">More...</a><br /></td></tr>
 <tr class="separator:a7057d40ee5e2de5f9b48ad13f0181396"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa0718912e496f9df985f0bcd7f5df5b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#aaa0718912e496f9df985f0bcd7f5df5b">subsuper_mode_selection_by_size_factor</a></td></tr>
+<tr class="memdesc:aaa0718912e496f9df985f0bcd7f5df5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">this factor is used to determine how to typeset sub-/superscript.  <a href="class_j_k_q_t_math_text.html#aaa0718912e496f9df985f0bcd7f5df5b">More...</a><br /></td></tr>
+<tr class="separator:aaa0718912e496f9df985f0bcd7f5df5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a453f7bb3a508644e7be399a530182f87"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a453f7bb3a508644e7be399a530182f87">subsuper_size_factor</a></td></tr>
 <tr class="memdesc:a453f7bb3a508644e7be399a530182f87"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizing factor for font size in sub-/superscript  <a href="class_j_k_q_t_math_text.html#a453f7bb3a508644e7be399a530182f87">More...</a><br /></td></tr>
 <tr class="separator:a453f7bb3a508644e7be399a530182f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -648,9 +686,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ae8c0f4c722427e3edda62f9c64cc54fe"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ae8c0f4c722427e3edda62f9c64cc54fe">underbrace_factor</a></td></tr>
 <tr class="memdesc:ae8c0f4c722427e3edda62f9c64cc54fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">scaling factor for font of underbrace/overbrace text  <a href="class_j_k_q_t_math_text.html#ae8c0f4c722427e3edda62f9c64cc54fe">More...</a><br /></td></tr>
 <tr class="separator:ae8c0f4c722427e3edda62f9c64cc54fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5d5bc9bba25675ff05e7d89ffe3d224"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ae5d5bc9bba25675ff05e7d89ffe3d224">undersetFactor</a></td></tr>
-<tr class="memdesc:ae5d5bc9bba25675ff05e7d89ffe3d224"><td class="mdescLeft">&#160;</td><td class="mdescRight">scaling factor for font of underset/overset text  <a href="class_j_k_q_t_math_text.html#ae5d5bc9bba25675ff05e7d89ffe3d224">More...</a><br /></td></tr>
-<tr class="separator:ae5d5bc9bba25675ff05e7d89ffe3d224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbed293e5a80a01d9a640877093274c6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#acbed293e5a80a01d9a640877093274c6">underset_factor</a></td></tr>
+<tr class="memdesc:acbed293e5a80a01d9a640877093274c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">scaling factor for font of underset/overset text  <a href="class_j_k_q_t_math_text.html#acbed293e5a80a01d9a640877093274c6">More...</a><br /></td></tr>
+<tr class="separator:acbed293e5a80a01d9a640877093274c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59f1dfd9a246f8b79a21cc16c23b3c6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a59f1dfd9a246f8b79a21cc16c23b3c6b">unparsedNode</a></td></tr>
 <tr class="memdesc:a59f1dfd9a246f8b79a21cc16c23b3c6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">a tree containing the unparsed text as a single node  <a href="class_j_k_q_t_math_text.html#a59f1dfd9a246f8b79a21cc16c23b3c6b">More...</a><br /></td></tr>
 <tr class="separator:a59f1dfd9a246f8b79a21cc16c23b3c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1030,25 +1068,25 @@ Convert to HTML</h1>
 </td></tr>
 <tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a78ae86e657ead3ff77b26e5fc604a0ac" name="ab2b829bd80180f0c7c6259effc36b532a78ae86e657ead3ff77b26e5fc604a0ac"></a>MTTtext&#160;</td><td class="fielddoc"><p >a piece of general text </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a9a94de64d05d1279ad5bfb59a85021b8" name="ab2b829bd80180f0c7c6259effc36b532a9a94de64d05d1279ad5bfb59a85021b8"></a>MTTinstruction&#160;</td><td class="fielddoc"><p >an instruction, started by "\", e.g. "\textbf", ... </p>
+<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a9a94de64d05d1279ad5bfb59a85021b8" name="ab2b829bd80180f0c7c6259effc36b532a9a94de64d05d1279ad5bfb59a85021b8"></a>MTTinstruction&#160;</td><td class="fielddoc"><p >an instruction, started by <code>"\\", e.g. \c "\textbf</code> ", ... </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a17e8451da405aa4a3a0412760a2a7c77" name="ab2b829bd80180f0c7c6259effc36b532a17e8451da405aa4a3a0412760a2a7c77"></a>MTTunderscore&#160;</td><td class="fielddoc"><p >the character "_" </p>
+<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a17e8451da405aa4a3a0412760a2a7c77" name="ab2b829bd80180f0c7c6259effc36b532a17e8451da405aa4a3a0412760a2a7c77"></a>MTTunderscore&#160;</td><td class="fielddoc"><p >the character <code>"_"</code> </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532ab7e9d877beebe737903b8b4eaa9f1c69" name="ab2b829bd80180f0c7c6259effc36b532ab7e9d877beebe737903b8b4eaa9f1c69"></a>MTThat&#160;</td><td class="fielddoc"><p >the character "^" </p>
+<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532ab7e9d877beebe737903b8b4eaa9f1c69" name="ab2b829bd80180f0c7c6259effc36b532ab7e9d877beebe737903b8b4eaa9f1c69"></a>MTThat&#160;</td><td class="fielddoc"><p >the character <code>"^"</code> </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a64f9d9bcbee44b582b4ee108599de8ad" name="ab2b829bd80180f0c7c6259effc36b532a64f9d9bcbee44b582b4ee108599de8ad"></a>MTTdollar&#160;</td><td class="fielddoc"><p >the character "$" </p>
+<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a64f9d9bcbee44b582b4ee108599de8ad" name="ab2b829bd80180f0c7c6259effc36b532a64f9d9bcbee44b582b4ee108599de8ad"></a>MTTdollar&#160;</td><td class="fielddoc"><p >the character <code>"$"</code> </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a473ca5e545b1387d13ef8081de4005ee" name="ab2b829bd80180f0c7c6259effc36b532a473ca5e545b1387d13ef8081de4005ee"></a>MTTopenbrace&#160;</td><td class="fielddoc"><p >the character "{" </p>
+<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a473ca5e545b1387d13ef8081de4005ee" name="ab2b829bd80180f0c7c6259effc36b532a473ca5e545b1387d13ef8081de4005ee"></a>MTTopenbrace&#160;</td><td class="fielddoc"><p >the character <code>"{"</code> </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532ad009ab575247ea45a270eeb695fe05aa" name="ab2b829bd80180f0c7c6259effc36b532ad009ab575247ea45a270eeb695fe05aa"></a>MTTclosebrace&#160;</td><td class="fielddoc"><p >the character "}" </p>
+<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532ad009ab575247ea45a270eeb695fe05aa" name="ab2b829bd80180f0c7c6259effc36b532ad009ab575247ea45a270eeb695fe05aa"></a>MTTclosebrace&#160;</td><td class="fielddoc"><p >the character <code>"}"</code> </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a577386aeb6afa866070cf59dbde992c1" name="ab2b829bd80180f0c7c6259effc36b532a577386aeb6afa866070cf59dbde992c1"></a>MTTopenbracket&#160;</td><td class="fielddoc"><p >the character "[" </p>
+<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a577386aeb6afa866070cf59dbde992c1" name="ab2b829bd80180f0c7c6259effc36b532a577386aeb6afa866070cf59dbde992c1"></a>MTTopenbracket&#160;</td><td class="fielddoc"><p >the character <code>"["</code> </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a2734acd096563d30a9e034e800904919" name="ab2b829bd80180f0c7c6259effc36b532a2734acd096563d30a9e034e800904919"></a>MTTclosebracket&#160;</td><td class="fielddoc"><p >the character "]" </p>
+<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a2734acd096563d30a9e034e800904919" name="ab2b829bd80180f0c7c6259effc36b532a2734acd096563d30a9e034e800904919"></a>MTTclosebracket&#160;</td><td class="fielddoc"><p >the character <code>"]"</code> </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532acd9e42728b75ec1a0bdb6a757b25ac77" name="ab2b829bd80180f0c7c6259effc36b532acd9e42728b75ec1a0bdb6a757b25ac77"></a>MTTwhitespace&#160;</td><td class="fielddoc"><p >some whitespace </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532ab3b036aa560df5133c313b2dc2c02acf" name="ab2b829bd80180f0c7c6259effc36b532ab3b036aa560df5133c313b2dc2c02acf"></a>MTTampersand&#160;</td><td class="fielddoc"><p >the character "&amp;" </p>
+<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532ab3b036aa560df5133c313b2dc2c02acf" name="ab2b829bd80180f0c7c6259effc36b532ab3b036aa560df5133c313b2dc2c02acf"></a>MTTampersand&#160;</td><td class="fielddoc"><p >the character <code>"&amp;"</code> </p>
 </td></tr>
 </table>
 
@@ -1304,6 +1342,25 @@ Convert to HTML</h1>
 
 </div>
 </div>
+<a id="acbd56ed7a97d9e6cc8451aabeb07db24" name="acbd56ed7a97d9e6cc8451aabeb07db24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbd56ed7a97d9e6cc8451aabeb07db24">&#9670;&nbsp;</a></span>getBigMathoperatorFontFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTMathText::getBigMathoperatorFontFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>factor, used to increase the font size for big math operators, such as <code>\sum</code> , <code>\prod</code> , ... </p>
+
+</div>
+</div>
 <a id="a0b1d66eb05001aa80e8dc700a6a37a60" name="a0b1d66eb05001aa80e8dc700a6a37a60"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0b1d66eb05001aa80e8dc700a6a37a60">&#9670;&nbsp;</a></span>getBraceFactor()</h2>
 
@@ -1441,25 +1498,6 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>a list that will be filled with error messages while parsing, if any error occur </p>
-
-</div>
-</div>
-<a id="a53f7e34eb46c2b15833e2f346d9dec60" name="a53f7e34eb46c2b15833e2f346d9dec60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53f7e34eb46c2b15833e2f346d9dec60">&#9670;&nbsp;</a></span>getExpensiveRendering()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool JKQTMathText::getExpensiveRendering </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>switches on some options that will grant better rendering at the expense of higher time consumption </p>
 
 </div>
 </div>
@@ -1913,7 +1951,10 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>scaling factor for font size of nominator and denominator of a fraction </p>
-
+<div class="image">
+<img src="jkqtmathtext_frac_factor.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="aeca1ca6d6d4d0f27d36aa550049da846" name="aeca1ca6d6d4d0f27d36aa550049da846"></a>
@@ -1932,7 +1973,10 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>scaling factor for font size of nominator and denominator of a nested fraction </p>
-
+<div class="image">
+<img src="jkqtmathtext_frac_factor.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="afe93c18b60547e7f26b9e85086aee02d" name="afe93c18b60547e7f26b9e85086aee02d"></a>
@@ -1951,7 +1995,10 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>shift of denominator/nummerator away from central line of a frac </p>
-
+<div class="image">
+<img src="jkqtmathtext_fracnode_geo.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="af2b9730143e4804e5397f9af59c57f94" name="af2b9730143e4804e5397f9af59c57f94"></a>
@@ -1989,7 +2036,82 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>factor, used to extend the size of an operator in math mode </p>
+<p >The next image demonstrates the effect of this property, which adds extra space around certain math operators in math mode:</p>
+<div class="image">
+<img src="jkqtmathparser_mathoperator_width_factor.png" alt=""/>
+</div>
+ 
+</div>
+</div>
+<a id="a83da9db254294c6889138af63c7866ae" name="a83da9db254294c6889138af63c7866ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83da9db254294c6889138af63c7866ae">&#9670;&nbsp;</a></span>getNodeTree()</h2>
 
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * JKQTMathText::getNodeTree </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the syntax tree of <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a>'s that was created by the last parse call </p>
+
+</div>
+</div>
+<a id="ae2b8af42374e9078c97b8a3ed0a2008c" name="ae2b8af42374e9078c97b8a3ed0a2008c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2b8af42374e9078c97b8a3ed0a2008c">&#9670;&nbsp;</a></span>getOperatorsubsuperDistanceFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTMathText::getOperatorsubsuperDistanceFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol, this is the distance between the operator symbol and the sub-/super-text if multiplied by xHeight </p>
+<div class="image">
+<img src="jkqtmathtext_subsuper_with_limits.png" alt=""/>
+</div>
+ 
+</div>
+</div>
+<a id="a0566432eb55fc2988a05d97b499e6698" name="a0566432eb55fc2988a05d97b499e6698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0566432eb55fc2988a05d97b499e6698">&#9670;&nbsp;</a></span>getOperatorsubsuperExtraSpaceFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTMathText::getOperatorsubsuperExtraSpaceFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol, this is the additional width added to the width of maximum width of the operator, above and below </p>
+<div class="image">
+<img src="jkqtmathtext_subsuper_with_limits.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="a9e20527969dd7beea84e23edde307be5" name="a9e20527969dd7beea84e23edde307be5"></a>
@@ -2007,7 +2129,7 @@ Convert to HTML</h1>
       </table>
 </div><div class="memdoc">
 
-<p>like subsuper_size_factor, but for operators (\sum, \int) where the text is placed above/below the symbol </p>
+<p>like subsuper_size_factor, but for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol </p>
 
 </div>
 </div>
@@ -2134,6 +2256,50 @@ Convert to HTML</h1>
 
 </div>
 </div>
+<a id="a356563652f8a90bd5dedf6b245067096" name="a356563652f8a90bd5dedf6b245067096"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a356563652f8a90bd5dedf6b245067096">&#9670;&nbsp;</a></span>getSpecialSubShiftFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTMathText::getSpecialSubShiftFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>relative shift of text in subscript to normal text in special superscript mode (after large previous nodes): 0=child's baseline at the descent of the previous node, 1: subscript-node starts at the descent of the previous node </p>
+<div class="image">
+<img src="jkqtmathtext_specialsubscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ 
+</div>
+</div>
+<a id="a46c6f6789dfff834fe21eaf4f05d7ddd" name="a46c6f6789dfff834fe21eaf4f05d7ddd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46c6f6789dfff834fe21eaf4f05d7ddd">&#9670;&nbsp;</a></span>getSpecialSuperShiftFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTMathText::getSpecialSuperShiftFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>relative shift of text in superscript to normal text in special superscript mode (after large previous nodes): 0= superscript descent coincides with the previous node's baselineHeight, 1: top of previous node and top of the superscript nodes coincide </p>
+<div class="image">
+<img src="jkqtmathtext_specialsuperscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ 
+</div>
+</div>
 <a id="ac557e5e5e8898703813721b49b1539b0" name="ac557e5e5e8898703813721b49b1539b0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac557e5e5e8898703813721b49b1539b0">&#9670;&nbsp;</a></span>getSubShiftFactor()</h2>
 
@@ -2150,6 +2316,37 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>relative shift of text in subscript to normal text: 0= baseline kept, 1: baseline shifted to bottom of normal text </p>
+<div class="image">
+<img src="jkqtmathtext_subscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ 
+</div>
+</div>
+<a id="ab3bddf496b3174d3b433a6fd87c1bec0" name="ab3bddf496b3174d3b433a6fd87c1bec0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3bddf496b3174d3b433a6fd87c1bec0">&#9670;&nbsp;</a></span>getSubsuperModeSelectionBySizeFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTMathText::getSubsuperModeSelectionBySizeFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this factor is used to determine how to typeset sub-/superscript. </p>
+<p >If the ascent for superscript of descent for subscript of the previous character is <code>&gt;=subsuper_mode_selection_by_size_factor*ascent</code>(currentFont) or <code>&lt;=subsuper_mode_selection_by_size_factor*descent</code>(currentFont) respectively, the sub/superscript is typeset, aligned with the ascent or descent of the previous character. Otherwise it is aligned with the default method:</p>
+<p ><b>Default mode:</b> </p><div class="image">
+<img src="jkqtmathtext_superscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ <div class="image">
+<img src="jkqtmathtext_subscriptnode_getSizeInternal.png" alt=""/>
+</div>
+<p ><b>Special mode:</b></p>
+<p >This method fixes problems with characters that are significantyl larger that normal text character of the fonst, such as generated by <code>\sum</code>,\int,... . </p>
 
 </div>
 </div>
@@ -2188,7 +2385,10 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>relative shift of text in superscript to normal text: 0= baseline kept, 1: baseline shifted to top of normal text </p>
-
+<div class="image">
+<img src="jkqtmathtext_superscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="a4251bf754a3dbf9732b5578fd60ec985" name="a4251bf754a3dbf9732b5578fd60ec985"></a>
@@ -2302,31 +2502,6 @@ Convert to HTML</h1>
 
 </div>
 </div>
-<a id="a0254600b18dbf1689fa727e1804969a2" name="a0254600b18dbf1689fa727e1804969a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0254600b18dbf1689fa727e1804969a2">&#9670;&nbsp;</a></span>getTree()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * JKQTMathText::getTree </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad678c21f9d963aa62584f1803110880b" name="ad678c21f9d963aa62584f1803110880b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad678c21f9d963aa62584f1803110880b">&#9670;&nbsp;</a></span>getUnderbraceFactor()</h2>
 
@@ -2361,7 +2536,7 @@ Convert to HTML</h1>
       </table>
 </div><div class="memdoc">
 
-<p>scaling factor for font of underset/overset text </p>
+<p></p>
 
 </div>
 </div>
@@ -2581,6 +2756,26 @@ Convert to HTML</h1>
 
 </div>
 </div>
+<a id="ad85a52d2ba2690f8bbb8166e5dbf28a2" name="ad85a52d2ba2690f8bbb8166e5dbf28a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad85a52d2ba2690f8bbb8166e5dbf28a2">&#9670;&nbsp;</a></span>setBigMathoperatorFontFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathText::setBigMathoperatorFontFactor </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>__value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>factor, used to increase the font size for big math operators, such as <code>\sum</code> , <code>\prod</code> , ... </p>
+
+</div>
+</div>
 <a id="a6b9dcecab274d0a73ab5a9bd58dc20bc" name="a6b9dcecab274d0a73ab5a9bd58dc20bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6b9dcecab274d0a73ab5a9bd58dc20bc">&#9670;&nbsp;</a></span>setBraceFactor()</h2>
 
@@ -2685,26 +2880,6 @@ Convert to HTML</h1>
 <img src="decoration_sizing.png" alt=""/>
 </div>
  
-</div>
-</div>
-<a id="aec0a70de74476447a6f9b5c270d611e9" name="aec0a70de74476447a6f9b5c270d611e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec0a70de74476447a6f9b5c270d611e9">&#9670;&nbsp;</a></span>setExpensiveRendering()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void JKQTMathText::setExpensiveRendering </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>__value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>switches on some options that will grant better rendering at the expense of higher time consumption </p>
-
 </div>
 </div>
 <a id="ae8c503adf27d4134311712a36783fc17" name="ae8c503adf27d4134311712a36783fc17"></a>
@@ -3126,7 +3301,10 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>scaling factor for font size of nominator and denominator of a fraction </p>
-
+<div class="image">
+<img src="jkqtmathtext_frac_factor.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="aa245adbae5f6e1315086563b04f1cce7" name="aa245adbae5f6e1315086563b04f1cce7"></a>
@@ -3146,7 +3324,10 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>scaling factor for font size of nominator and denominator of a nested fraction </p>
-
+<div class="image">
+<img src="jkqtmathtext_frac_factor.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="a52760cad01cbd93f128e6ea9a785ec6a" name="a52760cad01cbd93f128e6ea9a785ec6a"></a>
@@ -3166,7 +3347,10 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>shift of denominator/nummerator away from central line of a frac </p>
-
+<div class="image">
+<img src="jkqtmathtext_fracnode_geo.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="a38684ac0a5357a295772712108aa9d30" name="a38684ac0a5357a295772712108aa9d30"></a>
@@ -3206,7 +3390,57 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>factor, used to extend the size of an operator in math mode </p>
+<p >The next image demonstrates the effect of this property, which adds extra space around certain math operators in math mode:</p>
+<div class="image">
+<img src="jkqtmathparser_mathoperator_width_factor.png" alt=""/>
+</div>
+ 
+</div>
+</div>
+<a id="a031812ddae1643dcfc8b03376df1d0d8" name="a031812ddae1643dcfc8b03376df1d0d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a031812ddae1643dcfc8b03376df1d0d8">&#9670;&nbsp;</a></span>setOperatorsubsuperDistanceFactor()</h2>
 
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathText::setOperatorsubsuperDistanceFactor </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>__value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol, this is the distance between the operator symbol and the sub-/super-text if multiplied by xHeight </p>
+<div class="image">
+<img src="jkqtmathtext_subsuper_with_limits.png" alt=""/>
+</div>
+ 
+</div>
+</div>
+<a id="a6ec61b4d505c51041b9b613dc4ee8821" name="a6ec61b4d505c51041b9b613dc4ee8821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ec61b4d505c51041b9b613dc4ee8821">&#9670;&nbsp;</a></span>setOperatorsubsuperExtraSpaceFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathText::setOperatorsubsuperExtraSpaceFactor </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>__value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol, this is the additional width added to the width of maximum width of the operator, above and below </p>
+<div class="image">
+<img src="jkqtmathtext_subsuper_with_limits.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="a55e6fab5ef0b8a0b863f26d4ac1f0c32" name="a55e6fab5ef0b8a0b863f26d4ac1f0c32"></a>
@@ -3225,8 +3459,54 @@ Convert to HTML</h1>
       </table>
 </div><div class="memdoc">
 
-<p>like subsuper_size_factor, but for operators (\sum, \int) where the text is placed above/below the symbol </p>
+<p>like subsuper_size_factor, but for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol </p>
 
+</div>
+</div>
+<a id="a681b1761c108ebf502449b033d8e9734" name="a681b1761c108ebf502449b033d8e9734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a681b1761c108ebf502449b033d8e9734">&#9670;&nbsp;</a></span>setSpecialSubShiftFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathText::setSpecialSubShiftFactor </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>__value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>relative shift of text in subscript to normal text in special superscript mode (after large previous nodes): 0=child's baseline at the descent of the previous node, 1: subscript-node starts at the descent of the previous node </p>
+<div class="image">
+<img src="jkqtmathtext_specialsubscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ 
+</div>
+</div>
+<a id="a0e3c65f2d95abc6fc6a3f71a707d85f8" name="a0e3c65f2d95abc6fc6a3f71a707d85f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e3c65f2d95abc6fc6a3f71a707d85f8">&#9670;&nbsp;</a></span>setSpecialSuperShiftFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathText::setSpecialSuperShiftFactor </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>__value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>relative shift of text in superscript to normal text in special superscript mode (after large previous nodes): 0= superscript descent coincides with the previous node's baselineHeight, 1: top of previous node and top of the superscript nodes coincide </p>
+<div class="image">
+<img src="jkqtmathtext_specialsuperscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="a78b92e1d66a70b80236443657f9a1801" name="a78b92e1d66a70b80236443657f9a1801"></a>
@@ -3246,6 +3526,38 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>relative shift of text in subscript to normal text: 0= baseline kept, 1: baseline shifted to bottom of normal text </p>
+<div class="image">
+<img src="jkqtmathtext_subscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ 
+</div>
+</div>
+<a id="aa70159b134393702d0f139a2cd741ef5" name="aa70159b134393702d0f139a2cd741ef5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa70159b134393702d0f139a2cd741ef5">&#9670;&nbsp;</a></span>setSubsuperModeSelectionBySizeFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathText::setSubsuperModeSelectionBySizeFactor </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>__value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this factor is used to determine how to typeset sub-/superscript. </p>
+<p >If the ascent for superscript of descent for subscript of the previous character is <code>&gt;=subsuper_mode_selection_by_size_factor*ascent</code>(currentFont) or <code>&lt;=subsuper_mode_selection_by_size_factor*descent</code>(currentFont) respectively, the sub/superscript is typeset, aligned with the ascent or descent of the previous character. Otherwise it is aligned with the default method:</p>
+<p ><b>Default mode:</b> </p><div class="image">
+<img src="jkqtmathtext_superscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ <div class="image">
+<img src="jkqtmathtext_subscriptnode_getSizeInternal.png" alt=""/>
+</div>
+<p ><b>Special mode:</b></p>
+<p >This method fixes problems with characters that are significantyl larger that normal text character of the fonst, such as generated by <code>\sum</code>,\int,... . </p>
 
 </div>
 </div>
@@ -3286,7 +3598,10 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>relative shift of text in superscript to normal text: 0= baseline kept, 1: baseline shifted to top of normal text </p>
-
+<div class="image">
+<img src="jkqtmathtext_superscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="a787b860b9dfe9c1ab81e78a93b15c7e6" name="a787b860b9dfe9c1ab81e78a93b15c7e6"></a>
@@ -3461,7 +3776,7 @@ Convert to HTML</h1>
       </table>
 </div><div class="memdoc">
 
-<p>scaling factor for font of underset/overset text </p>
+<p></p>
 
 </div>
 </div>
@@ -3555,19 +3870,19 @@ Convert to HTML</h1>
 
 <p>sets <em>timesFont</em> (with its encoding <em>encodingTimes</em> ) for serif-text and <em>sansFont</em> (with its encoding <em>encodingSans</em> ) for both mathmode and textmode fonts </p>
 <p >use generic Unicode fonts, e.g. "Arial" and "Times New Roman" in math-mode. You should use fonts that contain as many of the mathematical symbols as possible to ensure good rendering results.</p>
-<p ><code>setAnyUnicode("Times New Roman", "Times New Roman")</code>:<br  />
+<p ><code>useAnyUnicode("Times New Roman", "Times New Roman")</code>:<br  />
 </p><div class="image">
 <img src="jkqtmathparser_timesnewroman.png" alt=""/>
 </div>
-<p> <code>setAnyUnicode("Arial", "Arial")</code>:<br  />
+<p> <code>useAnyUnicode("Arial", "Arial")</code>:<br  />
 </p><div class="image">
 <img src="jkqtmathparser_arial.png" alt=""/>
 </div>
-<p> <code>setAnyUnicode("Courier New", "Courier New")</code>:<br  />
+<p> <code>useAnyUnicode("Courier New", "Courier New")</code>:<br  />
 </p><div class="image">
 <img src="jkqtmathparser_couriernew.png" alt=""/>
 </div>
-<p> <code>setAnyUnicode("Comic Sans MS", "Comic Sans MS")</code>:<br  />
+<p> <code>useAnyUnicode("Comic Sans MS", "Comic Sans MS")</code>:<br  />
 </p><div class="image">
 <img src="jkqtmathparser_comicsans.png" alt=""/>
 </div>
@@ -3669,6 +3984,30 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>minimum linewidth allowed in a <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> (given in pt) </p>
+
+</div>
+</div>
+<a id="a500e7adc51f2836e6bc5be8829b0ccb8" name="a500e7adc51f2836e6bc5be8829b0ccb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a500e7adc51f2836e6bc5be8829b0ccb8">&#9670;&nbsp;</a></span>bigmathoperator_font_factor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTMathText::bigmathoperator_font_factor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>factor, used to increase the font size for big math operators, such as <code>\sum</code> , <code>\prod</code> , ... </p>
 
 </div>
 </div>
@@ -3918,30 +4257,6 @@ Convert to HTML</h1>
 
 </div>
 </div>
-<a id="a8a2ec5e643892731e2e204fdd2a60cef" name="a8a2ec5e643892731e2e204fdd2a60cef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a2ec5e643892731e2e204fdd2a60cef">&#9670;&nbsp;</a></span>expensiveRendering</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool JKQTMathText::expensiveRendering</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>switches on some options that will grant better rendering at the expense of higher time consumption </p>
-
-</div>
-</div>
 <a id="ab0733be901ccdbb8247b507d71fb5287" name="ab0733be901ccdbb8247b507d71fb5287"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab0733be901ccdbb8247b507d71fb5287">&#9670;&nbsp;</a></span>fontColor</h2>
 
@@ -4083,7 +4398,10 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>scaling factor for font size of nominator and denominator of a fraction </p>
-
+<div class="image">
+<img src="jkqtmathtext_frac_factor.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="a03e200e4779d29e8e27916c4f1b90457" name="a03e200e4779d29e8e27916c4f1b90457"></a>
@@ -4107,7 +4425,10 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>scaling factor for font size of nominator and denominator of a nested fraction </p>
-
+<div class="image">
+<img src="jkqtmathtext_frac_factor.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="a5e451c11a91d912fed020f7ff0914382" name="a5e451c11a91d912fed020f7ff0914382"></a>
@@ -4131,7 +4452,10 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>shift of denominator/nummerator away from central line of a frac </p>
-
+<div class="image">
+<img src="jkqtmathtext_fracnode_geo.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="a5bc54b5f40a70318bd0cf7a40c8d0160" name="a5bc54b5f40a70318bd0cf7a40c8d0160"></a>
@@ -4179,7 +4503,65 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>factor, used to extend the size of an operator in math mode </p>
+<p >The next image demonstrates the effect of this property, which adds extra space around certain math operators in math mode:</p>
+<div class="image">
+<img src="jkqtmathparser_mathoperator_width_factor.png" alt=""/>
+</div>
+ 
+</div>
+</div>
+<a id="aaf229081753df0e740010969f5734321" name="aaf229081753df0e740010969f5734321"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf229081753df0e740010969f5734321">&#9670;&nbsp;</a></span>operatorsubsuper_distance_factor</h2>
 
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTMathText::operatorsubsuper_distance_factor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol, this is the distance between the operator symbol and the sub-/super-text if multiplied by xHeight </p>
+<div class="image">
+<img src="jkqtmathtext_subsuper_with_limits.png" alt=""/>
+</div>
+ 
+</div>
+</div>
+<a id="a21d927132b21dab1ace2e979894b3322" name="a21d927132b21dab1ace2e979894b3322"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21d927132b21dab1ace2e979894b3322">&#9670;&nbsp;</a></span>operatorsubsuper_extraspace_factor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTMathText::operatorsubsuper_extraspace_factor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol, this is the additional width added to the width of maximum width of the operator, above and below </p>
+<div class="image">
+<img src="jkqtmathtext_subsuper_with_limits.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="a779c0daac5085baa0d87e3082785a345" name="a779c0daac5085baa0d87e3082785a345"></a>
@@ -4202,7 +4584,7 @@ Convert to HTML</h1>
 </table>
 </div><div class="memdoc">
 
-<p>like subsuper_size_factor, but for operators (\sum, \int) where the text is placed above/below the symbol </p>
+<p>like subsuper_size_factor, but for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol </p>
 
 </div>
 </div>
@@ -4278,8 +4660,8 @@ Convert to HTML</h1>
 
 </div>
 </div>
-<a id="a74b9bf27f2658d02ffae6c37b34b8ce5" name="a74b9bf27f2658d02ffae6c37b34b8ce5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74b9bf27f2658d02ffae6c37b34b8ce5">&#9670;&nbsp;</a></span>showLeftBrace</h2>
+<a id="ac574f42a4dee0243910c5442c8ce3ddb" name="ac574f42a4dee0243910c5442c8ce3ddb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac574f42a4dee0243910c5442c8ce3ddb">&#9670;&nbsp;</a></span>special_sub_shift_factor</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4288,7 +4670,7 @@ Convert to HTML</h1>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool JKQTMathText::showLeftBrace</td>
+          <td class="memname">double JKQTMathText::special_sub_shift_factor</td>
         </tr>
       </table>
   </td>
@@ -4298,12 +4680,15 @@ Convert to HTML</h1>
 </table>
 </div><div class="memdoc">
 
-<p>used by the parser. This is used to implement brace pairs with \left. </p>
-
+<p>relative shift of text in subscript to normal text in special superscript mode (after large previous nodes): 0=child's baseline at the descent of the previous node, 1: subscript-node starts at the descent of the previous node </p>
+<div class="image">
+<img src="jkqtmathtext_specialsubscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ 
 </div>
 </div>
-<a id="a442168f0cbc61ef8cec206a9c60c26fa" name="a442168f0cbc61ef8cec206a9c60c26fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a442168f0cbc61ef8cec206a9c60c26fa">&#9670;&nbsp;</a></span>showRightBrace</h2>
+<a id="aa93103c6d6ee3b764ea4f736dedc88fd" name="aa93103c6d6ee3b764ea4f736dedc88fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa93103c6d6ee3b764ea4f736dedc88fd">&#9670;&nbsp;</a></span>special_super_shift_factor</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4312,7 +4697,7 @@ Convert to HTML</h1>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool JKQTMathText::showRightBrace</td>
+          <td class="memname">double JKQTMathText::special_super_shift_factor</td>
         </tr>
       </table>
   </td>
@@ -4322,8 +4707,11 @@ Convert to HTML</h1>
 </table>
 </div><div class="memdoc">
 
-<p>used by the parser. This is used to implement brace pairs with \right. </p>
-
+<p>relative shift of text in superscript to normal text in special superscript mode (after large previous nodes): 0= superscript descent coincides with the previous node's baselineHeight, 1: top of previous node and top of the superscript nodes coincide </p>
+<div class="image">
+<img src="jkqtmathtext_specialsuperscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="a7057d40ee5e2de5f9b48ad13f0181396" name="a7057d40ee5e2de5f9b48ad13f0181396"></a>
@@ -4347,6 +4735,42 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>relative shift of text in subscript to normal text: 0= baseline kept, 1: baseline shifted to bottom of normal text </p>
+<div class="image">
+<img src="jkqtmathtext_subscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ 
+</div>
+</div>
+<a id="aaa0718912e496f9df985f0bcd7f5df5b" name="aaa0718912e496f9df985f0bcd7f5df5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa0718912e496f9df985f0bcd7f5df5b">&#9670;&nbsp;</a></span>subsuper_mode_selection_by_size_factor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTMathText::subsuper_mode_selection_by_size_factor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>this factor is used to determine how to typeset sub-/superscript. </p>
+<p >If the ascent for superscript of descent for subscript of the previous character is <code>&gt;=subsuper_mode_selection_by_size_factor*ascent</code>(currentFont) or <code>&lt;=subsuper_mode_selection_by_size_factor*descent</code>(currentFont) respectively, the sub/superscript is typeset, aligned with the ascent or descent of the previous character. Otherwise it is aligned with the default method:</p>
+<p ><b>Default mode:</b> </p><div class="image">
+<img src="jkqtmathtext_superscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ <div class="image">
+<img src="jkqtmathtext_subscriptnode_getSizeInternal.png" alt=""/>
+</div>
+<p ><b>Special mode:</b></p>
+<p >This method fixes problems with characters that are significantyl larger that normal text character of the fonst, such as generated by <code>\sum</code>,\int,... . </p>
 
 </div>
 </div>
@@ -4395,7 +4819,10 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>relative shift of text in superscript to normal text: 0= baseline kept, 1: baseline shifted to top of normal text </p>
-
+<div class="image">
+<img src="jkqtmathtext_superscriptnode_getSizeInternal.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="ae8c0f4c722427e3edda62f9c64cc54fe" name="ae8c0f4c722427e3edda62f9c64cc54fe"></a>
@@ -4422,8 +4849,8 @@ Convert to HTML</h1>
 
 </div>
 </div>
-<a id="ae5d5bc9bba25675ff05e7d89ffe3d224" name="ae5d5bc9bba25675ff05e7d89ffe3d224"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5d5bc9bba25675ff05e7d89ffe3d224">&#9670;&nbsp;</a></span>undersetFactor</h2>
+<a id="acbed293e5a80a01d9a640877093274c6" name="acbed293e5a80a01d9a640877093274c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbed293e5a80a01d9a640877093274c6">&#9670;&nbsp;</a></span>underset_factor</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4432,7 +4859,7 @@ Convert to HTML</h1>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double JKQTMathText::undersetFactor</td>
+          <td class="memname">double JKQTMathText::underset_factor</td>
         </tr>
       </table>
   </td>
@@ -4503,7 +4930,7 @@ Convert to HTML</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Mon Jun 20 2022 07:56:39 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Jun 25 2022 22:31:49 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>
