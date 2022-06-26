@@ -53,7 +53,7 @@ var searchData=
   ['jkqtmathtextlistnode_50',['JKQTMathTextListNode',['../class_j_k_q_t_math_text_list_node.html#ac13b9d1eb2eefdaa003e75b735c557d2',1,'JKQTMathTextListNode']]],
   ['jkqtmathtextmakearrow_51',['JKQTMathTextMakeArrow',['../group__jkqtmathtext__tools.html#gaa6e3ccb2e03e5124ac8dc5149d14c19a',1,'jkqtmathtexttools.h']]],
   ['jkqtmathtextmakedarrow_52',['JKQTMathTextMakeDArrow',['../group__jkqtmathtext__tools.html#ga286e3e9afdcb54e615269d175a6c8fab',1,'jkqtmathtexttools.h']]],
-  ['jkqtmathtextmakehbracepath_53',['JKQTMathTextMakeHBracePath',['../group__jkqtmathtext__tools.html#ga75cc03862a111e69b5265f777497d6d7',1,'jkqtmathtexttools.h']]],
+  ['jkqtmathtextmakehbracepath_53',['JKQTMathTextMakeHBracePath',['../group__jkqtmathtext__tools.html#ga06ffccb2fb6ec12de2349a18b04bdc79',1,'jkqtmathtexttools.h']]],
   ['jkqtmathtextmatrixnode_54',['JKQTMathTextMatrixNode',['../class_j_k_q_t_math_text_matrix_node.html#a723d272c4af33dcc5cdeaa68aa775e2e',1,'JKQTMathTextMatrixNode']]],
   ['jkqtmathtextmultichildnode_55',['JKQTMathTextMultiChildNode',['../class_j_k_q_t_math_text_multi_child_node.html#ad49526ff8fe5a20b705cc3a0924c1d87',1,'JKQTMathTextMultiChildNode']]],
   ['jkqtmathtextnode_56',['JKQTMathTextNode',['../class_j_k_q_t_math_text_node.html#a3ebf243535e42a09dd07a99de9bb4a6f',1,'JKQTMathTextNode::JKQTMathTextNode(const JKQTMathTextNode &amp;)=delete'],['../class_j_k_q_t_math_text_node.html#a29c639b5240e545ddaa0758588f9e9d2',1,'JKQTMathTextNode::JKQTMathTextNode(JKQTMathText *parentMathText)']]],

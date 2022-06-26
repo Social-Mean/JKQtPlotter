@@ -62,6 +62,8 @@ var group__jkqtmathtext__tools =
       [ "MTBTFloorBracket", "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472a2336e00a9c0dac510693c045dccf4e99", null ],
       [ "MTBTDoubleLine", "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472a486b8057f2117a9bab03bfaa1a480543", null ],
       [ "MTBTSingleLine", "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472aad82c1cb4ad2d515b2d1aeb33a12d6a4", null ],
+      [ "MTBTTopCorner", "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472ac84ec3409cb67a07f7261eb15d03d315", null ],
+      [ "MTBTBottomCorner", "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472aaed6ffc0b385876822928a45807db335", null ],
       [ "MTBTNone", "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472a132256e54644eb06a5cdfa4bd1725bbf", null ],
       [ "MTBTAny", "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472a0e3578ed794778ca677dd0df8825462a", null ],
       [ "MTBTUnknown", "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472a366e81426a62b5c823a0be82d3938349", null ]
@@ -95,7 +97,7 @@ var group__jkqtmathtext__tools =
     [ "JKQTMathTextGetTightBoundingRect", "group__jkqtmathtext__tools.html#ga4b92fd59d8a4655d76104acac7053726", null ],
     [ "JKQTMathTextMakeArrow", "group__jkqtmathtext__tools.html#gaa6e3ccb2e03e5124ac8dc5149d14c19a", null ],
     [ "JKQTMathTextMakeDArrow", "group__jkqtmathtext__tools.html#ga286e3e9afdcb54e615269d175a6c8fab", null ],
-    [ "JKQTMathTextMakeHBracePath", "group__jkqtmathtext__tools.html#ga75cc03862a111e69b5265f777497d6d7", null ],
+    [ "JKQTMathTextMakeHBracePath", "group__jkqtmathtext__tools.html#ga06ffccb2fb6ec12de2349a18b04bdc79", null ],
     [ "TokenName2JKQTMathTextBraceType", "group__jkqtmathtext__tools.html#gaf74f8d17b8d1189efe3a3e997cc56ee3", null ],
     [ "TokenNameMatchesJKQTMathTextBraceType", "group__jkqtmathtext__tools.html#gac17cdd9ccc4cc900dddcb9b947953c2f", null ]
 ];

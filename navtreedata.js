@@ -156,11 +156,11 @@ var NAVTREEINDEX =
 "class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909a49028b29bbaaa1c223075c5fbca809ec",
 "class_j_k_q_t_plotter.html#a5b05e29e32b7a783f151bae265ba4e82",
 "functions_j.html",
-"group__jkqtplotter__functiongraphs.html#ga96e3fb13db2ef8ce27e1120630075895",
-"group__jkqtpplottersupprt.html#gga5d43b30f0132d08b8793ceb2533e315fa761112925a6482db20039610c87d6832",
-"group__jkqtptools__math__linalg.html#ga38c91e3f5648e6b68fce05ddeaeba3a1",
-"md_screenshots__r_e_a_d_m_e.html#autotoc_md135",
-"struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html#a4455efe0f8a0ce9a737295ff15174b20"
+"group__jkqtplotter__functiongraphs.html#ga300d3eb6ff40a3504fc32cff2b27540a",
+"group__jkqtpplottersupprt.html#gga5d43b30f0132d08b8793ceb2533e315fa537443686d0ac237535037fb2945398f",
+"group__jkqtptools__math__linalg.html#ga34eac1e10f82c5d67a055a795a51bbed",
+"md_screenshots__r_e_a_d_m_e.html#autotoc_md133",
+"struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html#a013f127660c6b8566607a06634d97ced"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
