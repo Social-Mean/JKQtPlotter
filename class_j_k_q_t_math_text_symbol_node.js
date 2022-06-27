@@ -11,6 +11,8 @@ var class_j_k_q_t_math_text_symbol_node =
     [ "getSymbolName", "class_j_k_q_t_math_text_symbol_node.html#a32cb42c8c861a1ae6ee8fe6e6fd5c93d", null ],
     [ "getSymbolProp", "class_j_k_q_t_math_text_symbol_node.html#a8daec1c32cac5df294d5abb667d6574f", null ],
     [ "getSymbolProp", "class_j_k_q_t_math_text_symbol_node.html#a57dff2258fb27394e31a14145d376e8f", null ],
+    [ "getSymbolSize", "class_j_k_q_t_math_text_symbol_node.html#af4d2f20439e84838b2e00b7da4224d0d", null ],
+    [ "getSymbolSizeInternal", "class_j_k_q_t_math_text_symbol_node.html#a2dc27313af1f863cdad8623d709a08ea", null ],
     [ "getTypeName", "class_j_k_q_t_math_text_symbol_node.html#a2cd93c966be7031ffad99a1117945792", null ],
     [ "getUnicodeBaseSymbolProp", "class_j_k_q_t_math_text_symbol_node.html#a65519bb052116721ae6b732723ef1d01", null ],
     [ "getUnicodeFullSymbolProp", "class_j_k_q_t_math_text_symbol_node.html#af126c0a814c27c76da132c51a00915f8", null ],

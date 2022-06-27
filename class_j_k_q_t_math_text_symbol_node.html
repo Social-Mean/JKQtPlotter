@@ -162,6 +162,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a32cb42c8c861a1ae6ee8fe6e6fd5c93d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a32cb42c8c861a1ae6ee8fe6e6fd5c93d">getSymbolName</a> () const</td></tr>
 <tr class="memdesc:a32cb42c8c861a1ae6ee8fe6e6fd5c93d"><td class="mdescLeft">&#160;</td><td class="mdescRight">this string will be sent to the drawText method with properly set fonts  <a href="class_j_k_q_t_math_text_symbol_node.html#a32cb42c8c861a1ae6ee8fe6e6fd5c93d">More...</a><br /></td></tr>
 <tr class="separator:a32cb42c8c861a1ae6ee8fe6e6fd5c93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4d2f20439e84838b2e00b7da4224d0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#af4d2f20439e84838b2e00b7da4224d0d">getSymbolSize</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double &amp;width, double &amp;baselineHeight, double &amp;overallHeight, double &amp;strikeoutPos, double &amp;subSuperXCorrection, double &amp;subBesidesXCorrection, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr)</td></tr>
+<tr class="memdesc:af4d2f20439e84838b2e00b7da4224d0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, calls <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#af5a6e97635f0f653e350ce2612218b3f" title="determine the size of the node, overwrite this function in derived classes">getSizeInternal()</a> implementation of the actual type  <a href="class_j_k_q_t_math_text_symbol_node.html#af4d2f20439e84838b2e00b7da4224d0d">More...</a><br /></td></tr>
+<tr class="separator:af4d2f20439e84838b2e00b7da4224d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cd93c966be7031ffad99a1117945792"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a2cd93c966be7031ffad99a1117945792">getTypeName</a> () const override</td></tr>
 <tr class="memdesc:a2cd93c966be7031ffad99a1117945792"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the name of this class as a string  <a href="class_j_k_q_t_math_text_symbol_node.html#a2cd93c966be7031ffad99a1117945792">More...</a><br /></td></tr>
 <tr class="separator:a2cd93c966be7031ffad99a1117945792"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,6 +234,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a57dff2258fb27394e31a14145d376e8f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a57dff2258fb27394e31a14145d376e8f">getSymbolProp</a> (<a class="el" href="group__jkqtmathtext__items.html#struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props">JKQTMathTextSymbolNode::SymbolProps</a> &amp;props, const QString &amp;n, const <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> &amp;currentEv, double mathFontFactor) const</td></tr>
 <tr class="memdesc:a57dff2258fb27394e31a14145d376e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill <em>props</em> for the symbol named <em>n</em> in the given environment <em>currentEv</em> and with the given <em>mathFontFactor</em> , returns <code>true</code> if the symbol can be drawn using Unicode font (or WinSymbol as Fallback)  <a href="class_j_k_q_t_math_text_symbol_node.html#a57dff2258fb27394e31a14145d376e8f">More...</a><br /></td></tr>
 <tr class="separator:a57dff2258fb27394e31a14145d376e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dc27313af1f863cdad8623d709a08ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a2dc27313af1f863cdad8623d709a08ea">getSymbolSizeInternal</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double &amp;width, double &amp;baselineHeight, double &amp;overallHeight, double &amp;strikeoutPos, double &amp;subSuperXCorrection, double &amp;subBesidesXCorrection, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr)</td></tr>
+<tr class="memdesc:a2dc27313af1f863cdad8623d709a08ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, overwrite this function in derived classes  <a href="class_j_k_q_t_math_text_symbol_node.html#a2dc27313af1f863cdad8623d709a08ea">More...</a><br /></td></tr>
+<tr class="separator:a2dc27313af1f863cdad8623d709a08ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65519bb052116721ae6b732723ef1d01"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a65519bb052116721ae6b732723ef1d01">getUnicodeBaseSymbolProp</a> (<a class="el" href="group__jkqtmathtext__items.html#struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props">JKQTMathTextSymbolNode::SymbolProps</a> &amp;props, const QString &amp;n) const</td></tr>
 <tr class="memdesc:a65519bb052116721ae6b732723ef1d01"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill <em>props</em> for the symbol named <em>n</em> , returns <code>true</code> if the symbol can be drawn using any unicode font, does not alter the font name!!!  <a href="class_j_k_q_t_math_text_symbol_node.html#a65519bb052116721ae6b732723ef1d01">More...</a><br /></td></tr>
 <tr class="separator:a65519bb052116721ae6b732723ef1d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -733,6 +739,185 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af4d2f20439e84838b2e00b7da4224d0d" name="af4d2f20439e84838b2e00b7da4224d0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4d2f20439e84838b2e00b7da4224d0d">&#9670;&nbsp;</a></span>getSymbolSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathTextSymbolNode::getSymbolSize </td>
+          <td>(</td>
+          <td class="paramtype">QPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a>&#160;</td>
+          <td class="paramname"><em>currentEv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>baselineHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>overallHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>strikeoutPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>subSuperXCorrection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>subBesidesXCorrection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *&#160;</td>
+          <td class="paramname"><em>prevNodeSize</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>determine the size of the node, calls <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#af5a6e97635f0f653e350ce2612218b3f" title="determine the size of the node, overwrite this function in derived classes">getSizeInternal()</a> implementation of the actual type </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#af5a6e97635f0f653e350ce2612218b3f" title="determine the size of the node, overwrite this function in derived classes">getSizeInternal()</a></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">painter</td><td>painter to use for determining the size </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">currentEv</td><td>current environment object </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">width</td><td>width of the block/node </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">baselineHeight</td><td>distance from the bottom of the block/node-box to the baseline </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">overallHeight</td><td>overall height (bottom to top) of the node, the ascent is <code>overallHeight-baselineHeight</code> </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">strikeoutPos</td><td>position of the strikeout-line </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">subSuperXCorrection</td><td>x-correction as described for JKQTMathParser::intsubsuper_xcorrection_factor for placing sub-/superscript below/above the symbol </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">subBesidesXCorrection</td><td>x-correction as described for JKQTMathParser::intsubbesides_xcorrection_xfactor for placing sub-/superscript below/above the symbol </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">prevNodeSize</td><td>optional parameter, describing the size of the previous node (on the left). This may be used for layout of some nodes (e.g. sub/super to move correctly next to large parantheses ...) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2dc27313af1f863cdad8623d709a08ea" name="a2dc27313af1f863cdad8623d709a08ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dc27313af1f863cdad8623d709a08ea">&#9670;&nbsp;</a></span>getSymbolSizeInternal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void JKQTMathTextSymbolNode::getSymbolSizeInternal </td>
+          <td>(</td>
+          <td class="paramtype">QPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a>&#160;</td>
+          <td class="paramname"><em>currentEv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>baselineHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>overallHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>strikeoutPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>subSuperXCorrection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>subBesidesXCorrection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *&#160;</td>
+          <td class="paramname"><em>prevNodeSize</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>determine the size of the node, overwrite this function in derived classes </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">painter</td><td>painter to use for determining the size </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">currentEv</td><td>current environment object </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">width</td><td>width of the block/node </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">baselineHeight</td><td>distance from the bottom of the block/node-box to the baseline </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">overallHeight</td><td>overall height (bottom to top) of the node, the ascent is <code>overallHeight-baselineHeight</code> </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">strikeoutPos</td><td>position of the strikeout-line </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">prevNodeSize</td><td>optional parameter, describing the size of the previous node (on the left). This may be used for layout of some nodes (e.g. sub/super to move correctly next to large parantheses ...) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a2cd93c966be7031ffad99a1117945792" name="a2cd93c966be7031ffad99a1117945792"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2cd93c966be7031ffad99a1117945792">&#9670;&nbsp;</a></span>getTypeName()</h2>
 
@@ -1007,7 +1192,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html">JKQTMathTextSymbolNode</a></li>
-    <li class="footer">Generated on Sun Jun 26 2022 21:49:30 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Mon Jun 27 2022 21:00:53 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>
