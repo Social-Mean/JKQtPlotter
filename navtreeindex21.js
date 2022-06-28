@@ -1,5 +1,8 @@
 var NAVTREEINDEX21 =
 {
+"class_j_k_q_t_plotter.html#a299248a714ee89f5955f6c30684a9f90":[10,2,3,1,247],
+"class_j_k_q_t_plotter.html#a2a0c3624195552d9d8d008a76c4419fd":[10,2,3,1,104],
+"class_j_k_q_t_plotter.html#a2a3a013490fefa3eb082219861ccb991":[10,2,3,1,110],
 "class_j_k_q_t_plotter.html#a2a670f5b70bcd7f99e48d6afdf02ac14":[10,2,3,1,121],
 "class_j_k_q_t_plotter.html#a2ad8a16549e7b4e30fcadce9bb690e16":[10,2,3,1,21],
 "class_j_k_q_t_plotter.html#a2b604064fda95ca588d1421285c90a2d":[10,2,3,1,109],
@@ -246,8 +249,5 @@ var NAVTREEINDEX21 =
 "example_tutorial_projects.html#jkqtp_extut_plotimagedata":[4,0,3],
 "example_tutorial_projects.html#jkqtp_extut_plotstyles":[4,0,0],
 "example_tutorial_projects.html#jkqtp_extut_specialfeatures":[4,0,8],
-"functions.html":[12,3,0,0],
-"functions.html":[12,3,0],
-"functions_b.html":[12,3,0,1],
-"functions_c.html":[12,3,0,2]
+"functions.html":[12,3,0,0]
 };
