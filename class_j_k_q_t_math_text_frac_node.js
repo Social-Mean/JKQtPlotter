@@ -8,6 +8,8 @@ var class_j_k_q_t_math_text_frac_node =
       [ "MTFMstfrac", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a1b672bece33968cc536aff948f5875a2", null ],
       [ "MTFMunderbrace", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969ae5d479a950dbfd9c7ea3b139b9a5bc12", null ],
       [ "MTFMoverbrace", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a4dc82be1600bd8c0f6ef9e8eb3bc48ba", null ],
+      [ "MTFMunderbracket", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a6359938ed811ed333080441c464f093d", null ],
+      [ "MTFMoverbracket", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a68f88ecea998d287f8f26f1d2cb408cf", null ],
       [ "MTFMstackrel", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a0f9057168b621a16b5740c8000fb3c17", null ],
       [ "MTFMunderset", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a285c1cf4f3dac69b8119d80747d7945e", null ],
       [ "MTFMoverset", "class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969a278c308396f8164ec229e8d35267b829", null ]

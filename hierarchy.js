@@ -35,13 +35,13 @@ var hierarchy =
         [ "JKQTMathTextDualChildNode", "class_j_k_q_t_math_text_dual_child_node.html", [
           [ "JKQTMathTextFracNode", "class_j_k_q_t_math_text_frac_node.html", null ]
         ] ],
-        [ "JKQTMathTextListNode", "class_j_k_q_t_math_text_list_node.html", null ]
+        [ "JKQTMathTextListNode", "class_j_k_q_t_math_text_list_node.html", null ],
+        [ "JKQTMathTextSqrtNode", "class_j_k_q_t_math_text_sqrt_node.html", null ]
       ] ],
       [ "JKQTMathTextSingleChildNode", "class_j_k_q_t_math_text_single_child_node.html", [
         [ "JKQTMathTextBraceNode", "class_j_k_q_t_math_text_brace_node.html", null ],
         [ "JKQTMathTextDecoratedNode", "class_j_k_q_t_math_text_decorated_node.html", null ],
         [ "JKQTMathTextInstruction1Node", "class_j_k_q_t_math_text_instruction1_node.html", null ],
-        [ "JKQTMathTextSqrtNode", "class_j_k_q_t_math_text_sqrt_node.html", null ],
         [ "JKQTMathTextSubscriptNode", "class_j_k_q_t_math_text_subscript_node.html", null ],
         [ "JKQTMathTextSuperscriptNode", "class_j_k_q_t_math_text_superscript_node.html", null ]
       ] ],
