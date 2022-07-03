@@ -170,8 +170,15 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_tplain_text_node.html">MTplainTextNode</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">subclass representing one text node in the syntax tree  <a href="class_m_tplain_text_node.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtmathtext__items.html#struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props">JKQTMathTextSymbolNode::SymbolProps</a></td></tr>
-<tr class="separator:struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">JKQTMathTextSymbolNode::SymbolFullProps</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">properties of the symbol, extends <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> with font...  <a href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html">JKQTMathTextSymbolNode::SymbolProps</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">properties of the symbol  <a href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html">JKQTMathTextWhitespaceNode::WhitespaceProps</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes a whitespace  <a href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -180,84 +187,6 @@ Functions</h2></td></tr>
 <tr class="separator:ga045470f6bc901e8127f2bd0e985d6fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props" id="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props">&#9670;&nbsp;</a></span>JKQTMathTextSymbolNode::SymbolProps</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct JKQTMathTextSymbolNode::SymbolProps</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="textblock"></div><table class="fieldtable">
-<tr><th colspan="3">Class Members</th></tr>
-<tr><td class="fieldtype">
-<a id="a273b178f6bb55bd19c991ef4f5d216f3" name="a273b178f6bb55bd19c991ef4f5d216f3"></a>char</td>
-<td class="fieldname">
-bold</td>
-<td class="fielddoc">
-0: leave bold setting as is, &gt;0: set bold, &lt;0 set bold to false </td></tr>
-<tr><td class="fieldtype">
-<a id="ab228062774e08936c0a992e87b7580f6" name="ab228062774e08936c0a992e87b7580f6"></a>bool</td>
-<td class="fieldname">
-drawBar</td>
-<td class="fielddoc">
-indicates whether to draw a bar (like for <code>\hbar</code> ) </td></tr>
-<tr><td class="fieldtype">
-<a id="adaf353d6e1b104aa3d2d54af8ad0908f" name="adaf353d6e1b104aa3d2d54af8ad0908f"></a>bool</td>
-<td class="fieldname">
-exactAscent</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a1f5706639f4045f969162f19f7751213" name="a1f5706639f4045f969162f19f7751213"></a>bool</td>
-<td class="fieldname">
-extendWidthInMathmode</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a16a790c7e391a1e00bed65988bcbc6d1" name="a16a790c7e391a1e00bed65988bcbc6d1"></a>QString</td>
-<td class="fieldname">
-font</td>
-<td class="fielddoc">
-font to use for output </td></tr>
-<tr><td class="fieldtype">
-<a id="acf6b46f06ad7552813d96d592845ec3e" name="acf6b46f06ad7552813d96d592845ec3e"></a>double</td>
-<td class="fieldname">
-fontFactor</td>
-<td class="fielddoc">
-magnification factor for the font size </td></tr>
-<tr><td class="fieldtype">
-<a id="a9a9248a2944093297df7c30596e2399e" name="a9a9248a2944093297df7c30596e2399e"></a>bool</td>
-<td class="fieldname">
-heightIsAscent</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a5038a323e2e64a2effed5cd130272e6c" name="a5038a323e2e64a2effed5cd130272e6c"></a>char</td>
-<td class="fieldname">
-italic</td>
-<td class="fielddoc">
-0: leave italic setting as is, &gt;0: set italic, &lt;0 set italic to false </td></tr>
-<tr><td class="fieldtype">
-<a id="a8c3c688cbcbeea7f63c2989562417f9f" name="a8c3c688cbcbeea7f63c2989562417f9f"></a>QString</td>
-<td class="fieldname">
-symbol</td>
-<td class="fielddoc">
-the symbol name supplied to the constructor </td></tr>
-<tr><td class="fieldtype">
-<a id="ae5a87b862c48bc2d8f66b88cfca3f6d1" name="ae5a87b862c48bc2d8f66b88cfca3f6d1"></a>double</td>
-<td class="fieldname">
-yfactor</td>
-<td class="fielddoc">
-this corrects the y position of a symbol: draws at y &lt;- y+ height*yfactor) </td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga045470f6bc901e8127f2bd0e985d6fc4" name="ga045470f6bc901e8127f2bd0e985d6fc4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga045470f6bc901e8127f2bd0e985d6fc4">&#9670;&nbsp;</a></span>simplifyJKQTMathTextNode()</h2>
@@ -287,7 +216,7 @@ this corrects the y position of a symbol: draws at y &lt;- y+ height*yfactor) </
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jun 28 2022 21:17:21 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Jul 3 2022 19:33:06 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

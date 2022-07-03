@@ -15,6 +15,5 @@ var searchData=
   ['stcircle_12',['stCircle',['../class_j_k_q_t_f_pimage_overlay_plot.html#a282858ecd162907d51cf445386004f11a2eb50b7b0350830c31beaf3d32e433c6',1,'JKQTFPimageOverlayPlot']]],
   ['stepviolin_13',['StepViolin',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a04d55d189bef4e81178f65f5b7416034a4c1d686b642f717a287cfc7e8a545fca',1,'JKQTPGraphViolinplotStyleMixin']]],
   ['strectangle_14',['stRectangle',['../class_j_k_q_t_f_pimage_overlay_plot.html#a282858ecd162907d51cf445386004f11a2d426c61b8e593c9ab7d1c009a93ec7a',1,'JKQTFPimageOverlayPlot']]],
-  ['string_5fdelim_15',['STRING_DELIM',['../group__jkmpultil.html#gga6f3e8a859dbc5724960215d49ae6fc49afbc079b3805cea3a4ba49fcc29bbf1f0',1,'JKQTPMathParser']]],
-  ['symbols_16',['Symbols',['../class_j_k_q_t_math_text.html#a5f691db44f9975a2c72141d5bcc9bfdba5214a8a633c296d1d9d504fc54556692',1,'JKQTMathText']]]
+  ['string_5fdelim_15',['STRING_DELIM',['../group__jkmpultil.html#gga6f3e8a859dbc5724960215d49ae6fc49afbc079b3805cea3a4ba49fcc29bbf1f0',1,'JKQTPMathParser']]]
 ];

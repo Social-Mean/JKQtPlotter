@@ -47,9 +47,9 @@ var hierarchy =
       ] ],
       [ "JKQTMathTextSymbolNode", "class_j_k_q_t_math_text_symbol_node.html", null ],
       [ "JKQTMathTextTextNode", "class_j_k_q_t_math_text_text_node.html", [
-        [ "JKQTMathTextWhitespaceNode", "class_j_k_q_t_math_text_whitespace_node.html", null ],
         [ "MTplainTextNode", "class_m_tplain_text_node.html", null ]
-      ] ]
+      ] ],
+      [ "JKQTMathTextWhitespaceNode", "class_j_k_q_t_math_text_whitespace_node.html", null ]
     ] ],
     [ "JKQTMathTextNodeSize", "struct_j_k_q_t_math_text_node_size.html", null ],
     [ "JKQTMathTextTBRData", "struct_j_k_q_t_math_text_t_b_r_data.html", null ],
@@ -371,7 +371,9 @@ var hierarchy =
       [ "JKQTPlotter", "class_j_k_q_t_plotter.html", null ]
     ] ],
     [ "JKQTPLinePlotStyleWithSymbolSizeComboBox::styleData", "struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html", null ],
-    [ "JKQTMathTextSymbolNode::SymbolProps", "group__jkqtmathtext__items.html#struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props", null ],
+    [ "JKQTMathTextSymbolNode::SymbolFullProps", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html", null ],
+    [ "JKQTMathTextSymbolNode::SymbolProps", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html", null ],
     [ "JKQTBasePlotter::textSizeData", "struct_j_k_q_t_base_plotter_1_1text_size_data.html", null ],
-    [ "JKQTBasePlotter::textSizeKey", "struct_j_k_q_t_base_plotter_1_1text_size_key.html", null ]
+    [ "JKQTBasePlotter::textSizeKey", "struct_j_k_q_t_base_plotter_1_1text_size_key.html", null ],
+    [ "JKQTMathTextWhitespaceNode::WhitespaceProps", "struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html", null ]
 ];

@@ -48,7 +48,7 @@ var searchData=
   ['pntr_45',['pntr',['../class_j_k_q_t_p_array_scoped_pointer.html#a6b8696537f993065efacc31fcd5aa694',1,'JKQTPArrayScopedPointer']]],
   ['points_46',['points',['../class_j_k_q_t_p_geo_poly_lines.html#abe91fcaeb7272d02d2831e4c21ed82e3',1,'JKQTPGeoPolyLines::points()'],['../class_j_k_q_t_p_geo_polygon.html#a1285aa46c91823682cbedb8d9dd12a5a',1,'JKQTPGeoPolygon::points()']]],
   ['pos_47',['pos',['../class_j_k_q_t_p_boxplot_element_base.html#aba26c804088225b779abf306e450234c',1,'JKQTPBoxplotElementBase::pos()'],['../class_j_k_q_t_p_violinplot_element_base.html#a7985376b3bd2357b6464b2fb3d8dafde',1,'JKQTPViolinplotElementBase::pos()'],['../struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html#a013f127660c6b8566607a06634d97ced',1,'JKQTPPlotElement::HitTestLocation::pos()'],['../struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#a3040c7f0b90e093a88ef12ff72e8b1e9',1,'JKQTPlotter::MouseDragMarker::pos()']]],
-  ['pos_5f_48',['pos_',['../class_j_k_q_t_p_column_iterator.html#a97bfa89da5f65ebc48259fcb7de12dc8',1,'JKQTPColumnIterator::pos_()'],['../class_j_k_q_t_p_column_const_iterator.html#a9d7bc035834bd16eaba390b492c5ed42',1,'JKQTPColumnConstIterator::pos_()']]],
+  ['pos_5f_48',['pos_',['../class_j_k_q_t_p_column_const_iterator.html#a9d7bc035834bd16eaba390b492c5ed42',1,'JKQTPColumnConstIterator::pos_()'],['../class_j_k_q_t_p_column_iterator.html#a97bfa89da5f65ebc48259fcb7de12dc8',1,'JKQTPColumnIterator::pos_()']]],
   ['poscolumn_49',['posColumn',['../class_j_k_q_t_p_boxplot_graph_base.html#a1fc1bdad1fabbdd213e3275e548c8f1f',1,'JKQTPBoxplotGraphBase']]],
   ['position_50',['position',['../struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#a6398bd37352d5c19430c3fc014f52b2c',1,'JKQTPColorPaletteSingleColorLinSegment::position()'],['../class_j_k_q_t_f_p_q_scale_bar_x_plot.html#af11a60098c9860717a8977a482fc9986',1,'JKQTFPQScaleBarXPlot::position()'],['../class_j_k_q_t_p_single_column_symbols_graph.html#a2e8fc671b106e455f9e800053a630bb5',1,'JKQTPSingleColumnSymbolsGraph::position()'],['../class_j_k_q_t_p_key_style.html#a5da8552fd27e730f625443f9c625a833',1,'JKQTPKeyStyle::position()']]],
   ['positionscatterstyle_51',['positionScatterStyle',['../class_j_k_q_t_p_single_column_symbols_graph.html#aaec547dab5c93edf97a7fc6265e7ef73',1,'JKQTPSingleColumnSymbolsGraph']]],
@@ -66,5 +66,6 @@ var searchData=
   ['printsizex_5fmillimeter_63',['printSizeX_Millimeter',['../class_j_k_q_t_base_plotter.html#a70d18295f37c090fcce81f387094506a',1,'JKQTBasePlotter']]],
   ['printsizey_5fmillimeter_64',['printSizeY_Millimeter',['../class_j_k_q_t_base_plotter.html#a68550e2874fbc13da91d7b4d9e5e372d',1,'JKQTBasePlotter']]],
   ['printzoomfactor_65',['printZoomFactor',['../class_j_k_q_t_base_plotter.html#ae03b7aa1962fde8073d8fa336d204662',1,'JKQTBasePlotter']]],
-  ['program_66',['program',['../class_j_k_q_t_p_math_parser.html#a0b214de0822fd88d2a31c817d80f03a7',1,'JKQTPMathParser']]]
+  ['program_66',['program',['../class_j_k_q_t_p_math_parser.html#a0b214de0822fd88d2a31c817d80f03a7',1,'JKQTPMathParser']]],
+  ['props_67',['props',['../struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a2348f4052d54419bf52121dd7475636a',1,'JKQTMathTextSymbolNode::SymbolFullProps']]]
 ];

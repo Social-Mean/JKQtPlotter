@@ -6,5 +6,8 @@ var searchData=
   ['int64array_3',['Int64Array',['../group__jkqtplotter__imagelots__tools.html#gga41748f3184681064a61cddade5039b3fab95e6b4cddf9d8e04c47c467511c81f8',1,'jkqtpbasicimagetools.h']]],
   ['int8array_4',['Int8Array',['../group__jkqtplotter__imagelots__tools.html#gga41748f3184681064a61cddade5039b3fa1cd97d9b4dff490000e68585a439d028',1,'jkqtpbasicimagetools.h']]],
   ['internal_5',['Internal',['../class_j_k_q_t_p_datastore_item.html#ad7c3c4cb11ab0b7cf3547bc03586dc36aafbf0897a5a83fdd873dfb032ec695d3',1,'JKQTPDatastoreItem']]],
-  ['invertcolor_6',['InvertColor',['../struct_j_k_q_t_p_color_derivation_mode.html#a4a8889bb9c209ab75c8bb87310431e22a30358877ed7114e97a5574f69022dffb',1,'JKQTPColorDerivationMode']]]
+  ['intlikesymbolcorrection_6',['IntLikeSymbolCorrection',['../class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8a9a82f182bd6a3873bf5ad24d4c15c602',1,'JKQTMathTextSymbolNode']]],
+  ['invertcolor_7',['InvertColor',['../struct_j_k_q_t_p_color_derivation_mode.html#a4a8889bb9c209ab75c8bb87310431e22a30358877ed7114e97a5574f69022dffb',1,'JKQTPColorDerivationMode']]],
+  ['italicoff_8',['ItalicOff',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03cab1d2e733c3d0b5604e10e4591f5acaa5',1,'JKQTMathTextSymbolNode']]],
+  ['italicon_9',['ItalicOn',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03cae9924ceaa2f14a1892b4741bb733383a',1,'JKQTMathTextSymbolNode']]]
 ];

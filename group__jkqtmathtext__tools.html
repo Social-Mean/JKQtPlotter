@@ -190,19 +190,27 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea3aebd9cf2d242c882c76dfc4b7b28c54">MTEfraktur</a>
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ead983ee9407ae6ae5c340044c1c66d55a">MTenvironmentFontCount</a>
+&#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5eab52603383eb76c02b2281ebd77517b59">MTEEnvironmentFontCount</a>
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5eac99dada3f6e07437bb8919268f7dd950">MTECurrentFont</a>
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea2350f8a2f3cae80059fc12933f6bbe39">MTECustomFont</a>
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea46427d83d2029151648c9245356435ad">MTEFallbackSymbols</a>
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5eaca759549889a7f39d290da3bb49923a7">MTEFallbackGreek</a>
 <br />
  }</td></tr>
 <tr class="memdesc:ga50c212be3daed5382824252f58253f5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the available logical fonts (default is MTEroman)  <a href="group__jkqtmathtext__tools.html#ga50c212be3daed5382824252f58253f5e">More...</a><br /></td></tr>
 <tr class="separator:ga50c212be3daed5382824252f58253f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf991d6cf6e7799d32f99ffcae9385201"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201">JKQTMathTextFontEncoding</a> { <br />
-&#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201af37a2e8f60a019ddb493d314e5bf934e">MTFEwinSymbol</a>
+&#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201adee1bf25e177b96b22d9af407393216c">MTFEWinSymbol</a> =0
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201a2a79c5f14df83607ac534a7572558bb6">MTFEunicode</a>
+&#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201aa2a9f78baf94d32c6d9222d2a486e10f">MTFEUnicode</a> =1
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201ab67bc5dea0300b67b371209e640bd5b1">MTFEunicodeLimited</a>
+&#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201a1eec0ed5a9010a41cc7facff3db4c30d">MTFELatin1</a> =2
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201a82f9a6f099935dab75262de880ae63fb">MTFEStandard</a>
+&#160;&#160;<a class="el" href="group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201a82f9a6f099935dab75262de880ae63fb">MTFEStandard</a> =MTFELatin1
 <br />
  }</td></tr>
 <tr class="memdesc:gaf991d6cf6e7799d32f99ffcae9385201"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to specify the font encoding used for drawing  <a href="group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201">More...</a><br /></td></tr>
@@ -210,6 +218,9 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gafdbd7bc8b75fdebc3671c95279753696"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtmathtext__tools.html#ga057aeda927f4602f5bfa776a658f78ff">JKQTMATHTEXT_LIB_EXPORT</a> <a class="el" href="group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201">JKQTMathTextFontEncoding</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtmathtext__tools.html#gafdbd7bc8b75fdebc3671c95279753696">estimateJKQTMathTextFontEncoding</a> (QFont font)</td></tr>
+<tr class="memdesc:gafdbd7bc8b75fdebc3671c95279753696"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function tries to determine the JKQTMathTextFontEncoding of a given font (HEURISTICS!!!)  <a href="group__jkqtmathtext__tools.html#gafdbd7bc8b75fdebc3671c95279753696">More...</a><br /></td></tr>
+<tr class="separator:gafdbd7bc8b75fdebc3671c95279753696"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaca567648d8a0ffdba79df3c41e39f1ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtmathtext__tools.html#ga057aeda927f4602f5bfa776a658f78ff">JKQTMATHTEXT_LIB_EXPORT</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtmathtext__tools.html#gaca567648d8a0ffdba79df3c41e39f1ee">initJKQTMathTextResources</a> ()</td></tr>
 <tr class="memdesc:gaca567648d8a0ffdba79df3c41e39f1ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialized Qt-ressources necessary for <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a>  <a href="group__jkqtmathtext__tools.html#gaca567648d8a0ffdba79df3c41e39f1ee">More...</a><br /></td></tr>
 <tr class="separator:gaca567648d8a0ffdba79df3c41e39f1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -391,7 +402,15 @@ Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="gga50c212be3daed5382824252f58253f5ea3aebd9cf2d242c882c76dfc4b7b28c54" name="gga50c212be3daed5382824252f58253f5ea3aebd9cf2d242c882c76dfc4b7b28c54"></a>MTEfraktur&#160;</td><td class="fielddoc"><p >fraktur font, e.g. <code>\mathfrak{}</code> </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga50c212be3daed5382824252f58253f5ead983ee9407ae6ae5c340044c1c66d55a" name="gga50c212be3daed5382824252f58253f5ead983ee9407ae6ae5c340044c1c66d55a"></a>MTenvironmentFontCount&#160;</td><td class="fielddoc"><p >internal enum value that allows to iterate over MTenvironmentFont </p>
+<tr><td class="fieldname"><a id="gga50c212be3daed5382824252f58253f5eab52603383eb76c02b2281ebd77517b59" name="gga50c212be3daed5382824252f58253f5eab52603383eb76c02b2281ebd77517b59"></a>MTEEnvironmentFontCount&#160;</td><td class="fielddoc"><p >internal enum value that allows to iterate over MTenvironmentFont </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga50c212be3daed5382824252f58253f5eac99dada3f6e07437bb8919268f7dd950" name="gga50c212be3daed5382824252f58253f5eac99dada3f6e07437bb8919268f7dd950"></a>MTECurrentFont&#160;</td><td class="fielddoc"><p >internal enum value that specifies that the currently set font shall be used </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga50c212be3daed5382824252f58253f5ea2350f8a2f3cae80059fc12933f6bbe39" name="gga50c212be3daed5382824252f58253f5ea2350f8a2f3cae80059fc12933f6bbe39"></a>MTECustomFont&#160;</td><td class="fielddoc"><p >internal enum value that specifies that a custom font specified elsewhere shall be used </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga50c212be3daed5382824252f58253f5ea46427d83d2029151648c9245356435ad" name="gga50c212be3daed5382824252f58253f5ea46427d83d2029151648c9245356435ad"></a>MTEFallbackSymbols&#160;</td><td class="fielddoc"><p >symbol font </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga50c212be3daed5382824252f58253f5eaca759549889a7f39d290da3bb49923a7" name="gga50c212be3daed5382824252f58253f5eaca759549889a7f39d290da3bb49923a7"></a>MTEFallbackGreek&#160;</td><td class="fielddoc"><p >greek letters font </p>
 </td></tr>
 </table>
 
@@ -411,19 +430,38 @@ Functions</h2></td></tr>
 
 <p>used to specify the font encoding used for drawing </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaf991d6cf6e7799d32f99ffcae9385201af37a2e8f60a019ddb493d314e5bf934e" name="ggaf991d6cf6e7799d32f99ffcae9385201af37a2e8f60a019ddb493d314e5bf934e"></a>MTFEwinSymbol&#160;</td><td class="fielddoc"><p >This assumes that symbols shall be taken from a MS Windows style Symbol font. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaf991d6cf6e7799d32f99ffcae9385201adee1bf25e177b96b22d9af407393216c" name="ggaf991d6cf6e7799d32f99ffcae9385201adee1bf25e177b96b22d9af407393216c"></a>MTFEWinSymbol&#160;</td><td class="fielddoc"><p >This assumes that symbols shall be taken from a MS Windows style Symbol font. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggaf991d6cf6e7799d32f99ffcae9385201a2a79c5f14df83607ac534a7572558bb6" name="ggaf991d6cf6e7799d32f99ffcae9385201a2a79c5f14df83607ac534a7572558bb6"></a>MTFEunicode&#160;</td><td class="fielddoc"><p >This assumes that symbols shall be taken from a Unicode font (e.g. the STIX fonts from <a href="http://www.stixfonts.org/">http://www.stixfonts.org/</a>) </p>
+<tr><td class="fieldname"><a id="ggaf991d6cf6e7799d32f99ffcae9385201aa2a9f78baf94d32c6d9222d2a486e10f" name="ggaf991d6cf6e7799d32f99ffcae9385201aa2a9f78baf94d32c6d9222d2a486e10f"></a>MTFEUnicode&#160;</td><td class="fielddoc"><p >This assumes that symbols shall be taken from a Unicode font, which ideally offers full symbol support (e.g. the XITS fonts, STIX fonts from <a href="http://www.stixfonts.org/">http://www.stixfonts.org/</a>) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggaf991d6cf6e7799d32f99ffcae9385201ab67bc5dea0300b67b371209e640bd5b1" name="ggaf991d6cf6e7799d32f99ffcae9385201ab67bc5dea0300b67b371209e640bd5b1"></a>MTFEunicodeLimited&#160;</td><td class="fielddoc"><p >This assumes that the fonts used are Unicode, but only offer a limited set of symbols. Especially math symbols are missing from this encoding. </p>
+<tr><td class="fieldname"><a id="ggaf991d6cf6e7799d32f99ffcae9385201a1eec0ed5a9010a41cc7facff3db4c30d" name="ggaf991d6cf6e7799d32f99ffcae9385201a1eec0ed5a9010a41cc7facff3db4c30d"></a>MTFELatin1&#160;</td><td class="fielddoc"><p >the encoding of a standard Latin1 TTF font (i.e. we can only expect letters,number and not many special characters) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggaf991d6cf6e7799d32f99ffcae9385201a82f9a6f099935dab75262de880ae63fb" name="ggaf991d6cf6e7799d32f99ffcae9385201a82f9a6f099935dab75262de880ae63fb"></a>MTFEStandard&#160;</td><td class="fielddoc"><p >the encoding of a standard TTF font (i.e. we can only expect letters,number and not many special characters) </p>
-</td></tr>
+<tr><td class="fieldname"><a id="ggaf991d6cf6e7799d32f99ffcae9385201a82f9a6f099935dab75262de880ae63fb" name="ggaf991d6cf6e7799d32f99ffcae9385201a82f9a6f099935dab75262de880ae63fb"></a>MTFEStandard&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="gafdbd7bc8b75fdebc3671c95279753696" name="gafdbd7bc8b75fdebc3671c95279753696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafdbd7bc8b75fdebc3671c95279753696">&#9670;&nbsp;</a></span>estimateJKQTMathTextFontEncoding()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jkqtmathtext__tools.html#ga057aeda927f4602f5bfa776a658f78ff">JKQTMATHTEXT_LIB_EXPORT</a> <a class="el" href="group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201">JKQTMathTextFontEncoding</a> estimateJKQTMathTextFontEncoding </td>
+          <td>(</td>
+          <td class="paramtype">QFont&#160;</td>
+          <td class="paramname"><em>font</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this function tries to determine the JKQTMathTextFontEncoding of a given font (HEURISTICS!!!) </p>
+
+</div>
+</div>
 <a id="gaca567648d8a0ffdba79df3c41e39f1ee" name="gaca567648d8a0ffdba79df3c41e39f1ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaca567648d8a0ffdba79df3c41e39f1ee">&#9670;&nbsp;</a></span>initJKQTMathTextResources()</h2>
 
@@ -917,7 +955,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jun 28 2022 21:17:21 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Jul 3 2022 19:33:06 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

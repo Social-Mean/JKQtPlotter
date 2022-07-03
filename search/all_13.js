@@ -64,9 +64,10 @@ var searchData=
   ['rgbmode_61',['rgbMode',['../class_j_k_q_t_p_r_g_b_math_image.html#a0f76228d327300dfec5f962244f9e955',1,'JKQTPRGBMathImage']]],
   ['right_62',['right',['../class_j_k_q_t_p_math_parser_1_1jkmp_binary_arithmetic_node.html#a267ae1156555a3f1fc8af3b9e94a4962',1,'JKQTPMathParser::jkmpBinaryArithmeticNode::right()'],['../class_j_k_q_t_p_math_parser_1_1jkmp_binary_bool_node.html#ab8800b54a12f4ea115c32365d8b0a280',1,'JKQTPMathParser::jkmpBinaryBoolNode::right()'],['../class_j_k_q_t_p_math_parser_1_1jkmp_compare_node.html#a12af707875e0a3e24baf08a807c61006',1,'JKQTPMathParser::jkmpCompareNode::right()']]],
   ['rightcolorbaraxisstyle_63',['rightColorbarAxisStyle',['../class_j_k_q_t_base_plotter_style.html#a25650b7d47d94338964d0dd90069d9f9',1,'JKQTBasePlotterStyle']]],
-  ['rotation_64',['rotation',['../class_j_k_q_t_f_pimage_plot.html#ab320255b8e005d4398fc7db91caa92e8',1,'JKQTFPimagePlot::rotation()'],['../class_j_k_q_t_f_p_r_g_b_image_overlay_plot.html#ab441cb4f7d3d0d6c739e8710467e008f',1,'JKQTFPRGBImageOverlayPlot::rotation()'],['../class_j_k_q_t_f_pimage_overlay_plot.html#acbdbaf89e54745ffd18059c460f40a69',1,'JKQTFPimageOverlayPlot::rotation()']]],
-  ['rowcount_65',['rowCount',['../class_j_k_q_t_p_graphs_model.html#add5384cc40ef78eab722797e319ec6de',1,'JKQTPGraphsModel::rowCount()'],['../class_j_k_q_t_p_datastore_model.html#adbb191f9cc0b04563f2586b214d4f782',1,'JKQTPDatastoreModel::rowCount()']]],
-  ['rows_66',['rows',['../class_j_k_q_t_p_datastore_item.html#abb8afa0743093d0cb661dd1ae8deb92a',1,'JKQTPDatastoreItem']]],
-  ['rugplot_67',['RugPlot',['../class_j_k_q_t_p_single_column_symbols_graph.html#a3631b52ee32dceb1418183aefe7f7ce4a60c61271a6e7cdee0c8c8f78e4e55a17',1,'JKQTPSingleColumnSymbolsGraph']]],
-  ['rulerdisplayed_68',['rulerDisplayed',['../class_j_k_q_t_plotter.html#ad539ba834dae8a1dea629afc085ad977',1,'JKQTPlotter']]]
+  ['rotate90_64',['Rotate90',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03cabd1e57fec8e37287cd15d832518a937b',1,'JKQTMathTextSymbolNode']]],
+  ['rotation_65',['rotation',['../class_j_k_q_t_f_pimage_plot.html#ab320255b8e005d4398fc7db91caa92e8',1,'JKQTFPimagePlot::rotation()'],['../class_j_k_q_t_f_p_r_g_b_image_overlay_plot.html#ab441cb4f7d3d0d6c739e8710467e008f',1,'JKQTFPRGBImageOverlayPlot::rotation()'],['../class_j_k_q_t_f_pimage_overlay_plot.html#acbdbaf89e54745ffd18059c460f40a69',1,'JKQTFPimageOverlayPlot::rotation()']]],
+  ['rowcount_66',['rowCount',['../class_j_k_q_t_p_graphs_model.html#add5384cc40ef78eab722797e319ec6de',1,'JKQTPGraphsModel::rowCount()'],['../class_j_k_q_t_p_datastore_model.html#adbb191f9cc0b04563f2586b214d4f782',1,'JKQTPDatastoreModel::rowCount()']]],
+  ['rows_67',['rows',['../class_j_k_q_t_p_datastore_item.html#abb8afa0743093d0cb661dd1ae8deb92a',1,'JKQTPDatastoreItem']]],
+  ['rugplot_68',['RugPlot',['../class_j_k_q_t_p_single_column_symbols_graph.html#a3631b52ee32dceb1418183aefe7f7ce4a60c61271a6e7cdee0c8c8f78e4e55a17',1,'JKQTPSingleColumnSymbolsGraph']]],
+  ['rulerdisplayed_69',['rulerDisplayed',['../class_j_k_q_t_plotter.html#ad539ba834dae8a1dea629afc085ad977',1,'JKQTPlotter']]]
 ];

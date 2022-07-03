@@ -113,7 +113,14 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_math_text_whitespace_nod
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="class_j_k_q_t_math_text_whitespace_node-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">JKQTMathTextWhitespaceNode Class Reference<div class="ingroups"><a class="el" href="group__jkqtmathtext.html">JKQTMathText LaTeX-Renderer for Qt</a> &raquo; <a class="el" href="group__jkqtmathtext__render.html">JKQTMathText Main (Render) Class</a> &raquo; <a class="el" href="group__jkqtmathtext__items.html">JKQTMathText Render-Tree Items</a></div></div></div>
 </div><!--header-->
@@ -122,49 +129,95 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_math_text_whitespace_nod
 <p>subclass representing one whitepsace node in the syntax tree  
  <a href="class_j_k_q_t_math_text_whitespace_node.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="jkqtmathtexttextnode_8h_source.html">jkqtmathtexttextnode.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="jkqtmathtextwhitespacenode_8h_source.html">jkqtmathtextwhitespacenode.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for JKQTMathTextWhitespaceNode:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_math_text_whitespace_node__inherit__graph.svg" width="266" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_math_text_whitespace_node__inherit__graph.svg" width="266" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for JKQTMathTextWhitespaceNode:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_math_text_whitespace_node__coll__graph.svg" width="506" height="231"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_math_text_whitespace_node__coll__graph.svg" width="100%" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html">WhitespaceProps</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes a whitespace  <a href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a5358fe56751560d722a5f3633d79f5d3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">Types</a> { <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a8aaa3fcac287c9fd25fb5a96daa0b9fb">WSTNormal</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3ad40e181f195266e9ddab463261a44334">WSTNonbreaking</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a155deecde40aed5965fa66be95685eaa">WST1en</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a8bcda70a0fa21d68518e28e86040dae6">WST1em</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3af5eca7fa18b5bf11c5b44cab4c6c4c4a">WSTQuad</a> =WST1em
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a05582c753a39daf30ee2457d2a83a863">WSThair</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a9d56a3eb3128ee1795c9509b76c87144">WSTthin</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a3126279c3b0cb10aadb8ed3fedc9e90e">WSTnegthin</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a831ca896d74b802621cc303e34ec77d9">WSTmedium</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a9c288aeccaa04886a2e08331192cf22a">WSTnegmedium</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3af1d47375ca48c41eb6cfe9d107673cb0">WSTthick</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a939231446a48bae2fd886f3383af3ff5">WSTnegthick</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a0a14d2982d8e425fcf73e04fcbaa7a27">WSTthicker</a>
+<br />
+ }</td></tr>
+<tr class="separator:a5358fe56751560d722a5f3633d79f5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a17d4475be53c6fc64bd38e055a46ad89"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a17d4475be53c6fc64bd38e055a46ad89">JKQTMathTextWhitespaceNode</a> (const QString &amp;type, <a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent)</td></tr>
+<tr class="memdesc:a17d4475be53c6fc64bd38e055a46ad89"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a node with count=1 and the width derived from the instruction name <em>type</em>  <a href="class_j_k_q_t_math_text_whitespace_node.html#a17d4475be53c6fc64bd38e055a46ad89">More...</a><br /></td></tr>
+<tr class="separator:a17d4475be53c6fc64bd38e055a46ad89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae39ecd703679717da72126c4bde76260"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#ae39ecd703679717da72126c4bde76260">JKQTMathTextWhitespaceNode</a> (const QString &amp;type, size_t count, <a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent)</td></tr>
+<tr class="memdesc:ae39ecd703679717da72126c4bde76260"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a node with the specified <em>count</em> and the width derived from the instruction name <em>type</em>  <a href="class_j_k_q_t_math_text_whitespace_node.html#ae39ecd703679717da72126c4bde76260">More...</a><br /></td></tr>
+<tr class="separator:ae39ecd703679717da72126c4bde76260"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ab5ff61a9374b278c5e111cbc50565e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a0ab5ff61a9374b278c5e111cbc50565e">JKQTMathTextWhitespaceNode</a> (<a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent)</td></tr>
+<tr class="memdesc:a0ab5ff61a9374b278c5e111cbc50565e"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a node with count=1 and type=WSTNormal  <a href="class_j_k_q_t_math_text_whitespace_node.html#a0ab5ff61a9374b278c5e111cbc50565e">More...</a><br /></td></tr>
 <tr class="separator:a0ab5ff61a9374b278c5e111cbc50565e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb4cc285de7390bc8a7b4fc0a3fb14e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#abb4cc285de7390bc8a7b4fc0a3fb14e7">JKQTMathTextWhitespaceNode</a> (<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">Types</a> type, <a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent)</td></tr>
+<tr class="memdesc:abb4cc285de7390bc8a7b4fc0a3fb14e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a node with count=1 and the given <em>type</em>  <a href="class_j_k_q_t_math_text_whitespace_node.html#abb4cc285de7390bc8a7b4fc0a3fb14e7">More...</a><br /></td></tr>
+<tr class="separator:abb4cc285de7390bc8a7b4fc0a3fb14e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af432718928924c2b4ba5b16d1d7c31cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#af432718928924c2b4ba5b16d1d7c31cb">JKQTMathTextWhitespaceNode</a> (<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">Types</a> type, size_t cound, <a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent)</td></tr>
+<tr class="memdesc:af432718928924c2b4ba5b16d1d7c31cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a node with the given <em>type</em> and <em>count</em>  <a href="class_j_k_q_t_math_text_whitespace_node.html#af432718928924c2b4ba5b16d1d7c31cb">More...</a><br /></td></tr>
+<tr class="separator:af432718928924c2b4ba5b16d1d7c31cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6697d06c4f1452909f83fdaf20393eb3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a6697d06c4f1452909f83fdaf20393eb3">~JKQTMathTextWhitespaceNode</a> () override</td></tr>
 <tr class="separator:a6697d06c4f1452909f83fdaf20393eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ba5972adb6bd4c9e07fa680990047f"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a27ba5972adb6bd4c9e07fa680990047f">draw</a> (QPainter &amp;painter, double x, double y, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr) override</td></tr>
+<tr class="memdesc:a27ba5972adb6bd4c9e07fa680990047f"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw the contents at the designated position  <a href="class_j_k_q_t_math_text_whitespace_node.html#a27ba5972adb6bd4c9e07fa680990047f">More...</a><br /></td></tr>
+<tr class="separator:a27ba5972adb6bd4c9e07fa680990047f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab97c0c0f29ef01e0287ad50be3e0c968"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#ab97c0c0f29ef01e0287ad50be3e0c968">getTypeName</a> () const override</td></tr>
 <tr class="memdesc:ab97c0c0f29ef01e0287ad50be3e0c968"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the name of this class as a string  <a href="class_j_k_q_t_math_text_whitespace_node.html#ab97c0c0f29ef01e0287ad50be3e0c968">More...</a><br /></td></tr>
 <tr class="separator:ab97c0c0f29ef01e0287ad50be3e0c968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc69d33240adc5665fead70f531f249a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#afc69d33240adc5665fead70f531f249a">getWhitespaceCount</a> () const</td></tr>
+<tr class="memdesc:afc69d33240adc5665fead70f531f249a"><td class="mdescLeft">&#160;</td><td class="mdescRight">copydoc <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#a56e2ea00e6f83922a2b418eef8c8f33c" title="number of whitespaces of the given type, represented by this node (default: 1)">WhitespaceProps::count</a>  <a href="class_j_k_q_t_math_text_whitespace_node.html#afc69d33240adc5665fead70f531f249a">More...</a><br /></td></tr>
+<tr class="separator:afc69d33240adc5665fead70f531f249a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04b8763a3bf998632812b372774cb15d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">Types</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a04b8763a3bf998632812b372774cb15d">getWhitespaceType</a> () const</td></tr>
+<tr class="memdesc:a04b8763a3bf998632812b372774cb15d"><td class="mdescLeft">&#160;</td><td class="mdescRight">copydoc <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#a1e69ef3154736d5a4aae89e6e65c2122" title="type of the whitespace represented by this node">WhitespaceProps::type</a>  <a href="class_j_k_q_t_math_text_whitespace_node.html#a04b8763a3bf998632812b372774cb15d">More...</a><br /></td></tr>
+<tr class="separator:a04b8763a3bf998632812b372774cb15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb09c6d341fb07b161cb19f83a0ec3c7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#afb09c6d341fb07b161cb19f83a0ec3c7">toHtml</a> (QString &amp;html, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> defaultEv) override</td></tr>
 <tr class="memdesc:afb09c6d341fb07b161cb19f83a0ec3c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert node to HTML and returns <code>true</code> on success  <a href="class_j_k_q_t_math_text_whitespace_node.html#afb09c6d341fb07b161cb19f83a0ec3c7">More...</a><br /></td></tr>
 <tr class="separator:afb09c6d341fb07b161cb19f83a0ec3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_class_j_k_q_t_math_text_text_node"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_j_k_q_t_math_text_text_node')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_j_k_q_t_math_text_text_node.html">JKQTMathTextTextNode</a></td></tr>
-<tr class="memitem:a57337e14bc4ffcb9d19454a8199c713a inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#a57337e14bc4ffcb9d19454a8199c713a">JKQTMathTextTextNode</a> (<a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent, const QString &amp;<a class="el" href="class_j_k_q_t_math_text_text_node.html#a476729523567671ed8a150df905503fe">text</a>, bool addWhitespace, bool stripInnerWhitepace=false)</td></tr>
-<tr class="separator:a57337e14bc4ffcb9d19454a8199c713a inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa08abcf217b0307b1453cda358c7e816 inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#aa08abcf217b0307b1453cda358c7e816">~JKQTMathTextTextNode</a> () override</td></tr>
-<tr class="separator:aa08abcf217b0307b1453cda358c7e816 inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f82ad48886eedc54e0aac99ed3bd854 inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#a9f82ad48886eedc54e0aac99ed3bd854">draw</a> (QPainter &amp;painter, double x, double y, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr) override</td></tr>
-<tr class="memdesc:a9f82ad48886eedc54e0aac99ed3bd854 inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw the contents at the designated position  <a href="class_j_k_q_t_math_text_text_node.html#a9f82ad48886eedc54e0aac99ed3bd854">More...</a><br /></td></tr>
-<tr class="separator:a9f82ad48886eedc54e0aac99ed3bd854 inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae006d6b9b5a90ede64e454d15e01d642 inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#ae006d6b9b5a90ede64e454d15e01d642">getText</a> () const</td></tr>
-<tr class="memdesc:ae006d6b9b5a90ede64e454d15e01d642 inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">text-contents of the node  <a href="class_j_k_q_t_math_text_text_node.html#ae006d6b9b5a90ede64e454d15e01d642">More...</a><br /></td></tr>
-<tr class="separator:ae006d6b9b5a90ede64e454d15e01d642 inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6e508a866bdd10c85d12ae17e0add95 inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#ac6e508a866bdd10c85d12ae17e0add95">getTypeName</a> () const override</td></tr>
-<tr class="memdesc:ac6e508a866bdd10c85d12ae17e0add95 inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the name of this class as a string  <a href="class_j_k_q_t_math_text_text_node.html#ac6e508a866bdd10c85d12ae17e0add95">More...</a><br /></td></tr>
-<tr class="separator:ac6e508a866bdd10c85d12ae17e0add95 inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f7cf225200647ee4e596d4ae531906d inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#a2f7cf225200647ee4e596d4ae531906d">toHtml</a> (QString &amp;html, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> defaultEv) override</td></tr>
-<tr class="memdesc:a2f7cf225200647ee4e596d4ae531906d inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert node to HTML and returns <code>true</code> on success  <a href="class_j_k_q_t_math_text_text_node.html#a2f7cf225200647ee4e596d4ae531906d">More...</a><br /></td></tr>
-<tr class="separator:a2f7cf225200647ee4e596d4ae531906d inherit pub_methods_class_j_k_q_t_math_text_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f46767dbd89026b412b947dbe6fe176"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a2f46767dbd89026b412b947dbe6fe176">Type2PointWidth</a> (<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">Types</a> type, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv) const</td></tr>
+<tr class="memdesc:a2f46767dbd89026b412b947dbe6fe176"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts Types <em>type</em> into its width in points (pt), based on <em>currentEv</em>  <a href="class_j_k_q_t_math_text_whitespace_node.html#a2f46767dbd89026b412b947dbe6fe176">More...</a><br /></td></tr>
+<tr class="separator:a2f46767dbd89026b412b947dbe6fe176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_j_k_q_t_math_text_node"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_j_k_q_t_math_text_node')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a></td></tr>
 <tr class="memitem:a3ebf243535e42a09dd07a99de9bb4a6f inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a3ebf243535e42a09dd07a99de9bb4a6f">JKQTMathTextNode</a> (const <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> &amp;)=delete</td></tr>
 <tr class="separator:a3ebf243535e42a09dd07a99de9bb4a6f inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,15 +264,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2ba14f4c0070bd6e4fbc92b35c15df09 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert node to HTML and returns <code>true</code> on success  <a href="class_j_k_q_t_math_text_node.html#a2ba14f4c0070bd6e4fbc92b35c15df09">More...</a><br /></td></tr>
 <tr class="separator:a2ba14f4c0070bd6e4fbc92b35c15df09 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_class_j_k_q_t_math_text_text_node"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_math_text_text_node')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_math_text_text_node.html">JKQTMathTextTextNode</a></td></tr>
-<tr class="memitem:a7fa080a6773944e064df2cc3ceebd78a inherit pro_methods_class_j_k_q_t_math_text_text_node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#a7fa080a6773944e064df2cc3ceebd78a">getSizeInternal</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double &amp;width, double &amp;baselineHeight, double &amp;overallHeight, double &amp;strikeoutPos, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr) override</td></tr>
-<tr class="memdesc:a7fa080a6773944e064df2cc3ceebd78a inherit pro_methods_class_j_k_q_t_math_text_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, overwrite this function in derived classes  <a href="class_j_k_q_t_math_text_text_node.html#a7fa080a6773944e064df2cc3ceebd78a">More...</a><br /></td></tr>
-<tr class="separator:a7fa080a6773944e064df2cc3ceebd78a inherit pro_methods_class_j_k_q_t_math_text_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade595a154bddf246e3221fd119dc6f4b inherit pro_methods_class_j_k_q_t_math_text_text_node"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#ade595a154bddf246e3221fd119dc6f4b">textTransform</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_text_node.html#a476729523567671ed8a150df905503fe">text</a>, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, bool forSize=false)</td></tr>
-<tr class="memdesc:ade595a154bddf246e3221fd119dc6f4b inherit pro_methods_class_j_k_q_t_math_text_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">transforms the text before sizing/drawing (may e.g. exchange special letters for other unicode symbols etc.)  <a href="class_j_k_q_t_math_text_text_node.html#ade595a154bddf246e3221fd119dc6f4b">More...</a><br /></td></tr>
-<tr class="separator:ade595a154bddf246e3221fd119dc6f4b inherit pro_methods_class_j_k_q_t_math_text_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a1f18f9665678bbe4cbafb49b5a2522b5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a1f18f9665678bbe4cbafb49b5a2522b5">supportsInstructionName</a> (const QString &amp;instruction)</td></tr>
+<tr class="memdesc:a1f18f9665678bbe4cbafb49b5a2522b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether a given LaTeX instruction name is supported by this node class type  <a href="class_j_k_q_t_math_text_whitespace_node.html#a1f18f9665678bbe4cbafb49b5a2522b5">More...</a><br /></td></tr>
+<tr class="separator:a1f18f9665678bbe4cbafb49b5a2522b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a546fa5ee6611c6d2a93b3e2cd57898a2"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a546fa5ee6611c6d2a93b3e2cd57898a2">Type2String</a> (<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">Types</a> type)</td></tr>
+<tr class="memdesc:a546fa5ee6611c6d2a93b3e2cd57898a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts Types <em>type</em> into a string  <a href="class_j_k_q_t_math_text_whitespace_node.html#a546fa5ee6611c6d2a93b3e2cd57898a2">More...</a><br /></td></tr>
+<tr class="separator:a546fa5ee6611c6d2a93b3e2cd57898a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a69c71a19baf7e2883b47ed9968bdbf82"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a69c71a19baf7e2883b47ed9968bdbf82">getSizeInternal</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double &amp;width, double &amp;baselineHeight, double &amp;overallHeight, double &amp;strikeoutPos, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr) override</td></tr>
+<tr class="memdesc:a69c71a19baf7e2883b47ed9968bdbf82"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, overwrite this function in derived classes  <a href="class_j_k_q_t_math_text_whitespace_node.html#a69c71a19baf7e2883b47ed9968bdbf82">More...</a><br /></td></tr>
+<tr class="separator:a69c71a19baf7e2883b47ed9968bdbf82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_j_k_q_t_math_text_node"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_math_text_node')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a></td></tr>
 <tr class="memitem:a27ac245b5023f7b83aba129ddfc391f0 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a27ac245b5023f7b83aba129ddfc391f0">doDrawBoxes</a> (QPainter &amp;painter, double x, double y, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv)</td></tr>
 <tr class="memdesc:a27ac245b5023f7b83aba129ddfc391f0 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws colored boxes (for DEBUGGING) around the actual output of the node  <a href="class_j_k_q_t_math_text_node.html#a27ac245b5023f7b83aba129ddfc391f0">More...</a><br /></td></tr>
@@ -235,10 +293,21 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a3f89e2519be406551fef640ce77b53fd inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd">getSizeInternal</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double &amp;width, double &amp;baselineHeight, double &amp;overallHeight, double &amp;strikeoutPos, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr)=0</td></tr>
 <tr class="memdesc:a3f89e2519be406551fef640ce77b53fd inherit pro_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, overwrite this function in derived classes  <a href="class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd">More...</a><br /></td></tr>
 <tr class="separator:a3f89e2519be406551fef640ce77b53fd inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_class_j_k_q_t_math_text_text_node"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_j_k_q_t_math_text_text_node')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_j_k_q_t_math_text_text_node.html">JKQTMathTextTextNode</a></td></tr>
-<tr class="memitem:a476729523567671ed8a150df905503fe inherit pro_attribs_class_j_k_q_t_math_text_text_node"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#a476729523567671ed8a150df905503fe">text</a></td></tr>
-<tr class="memdesc:a476729523567671ed8a150df905503fe inherit pro_attribs_class_j_k_q_t_math_text_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">text-contents of the node  <a href="class_j_k_q_t_math_text_text_node.html#a476729523567671ed8a150df905503fe">More...</a><br /></td></tr>
-<tr class="separator:a476729523567671ed8a150df905503fe inherit pro_attribs_class_j_k_q_t_math_text_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:aa84ca6927c6f4c2ed3632c6b63ef80f8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#aa84ca6927c6f4c2ed3632c6b63ef80f8">fillSupportedInstructions</a> ()</td></tr>
+<tr class="memdesc:aa84ca6927c6f4c2ed3632c6b63ef80f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes supportedInstructions  <a href="class_j_k_q_t_math_text_whitespace_node.html#aa84ca6927c6f4c2ed3632c6b63ef80f8">More...</a><br /></td></tr>
+<tr class="separator:aa84ca6927c6f4c2ed3632c6b63ef80f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a623131922646a6f1edf2ad3958a355f6"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a623131922646a6f1edf2ad3958a355f6">Type2HTML</a> (<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">Types</a> type)</td></tr>
+<tr class="memdesc:a623131922646a6f1edf2ad3958a355f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts Types <em>type</em> into its HTML representation  <a href="class_j_k_q_t_math_text_whitespace_node.html#a623131922646a6f1edf2ad3958a355f6">More...</a><br /></td></tr>
+<tr class="separator:a623131922646a6f1edf2ad3958a355f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a1bae4098e39c5deca81450f7507ca706"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html">WhitespaceProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a1bae4098e39c5deca81450f7507ca706">whitespace</a></td></tr>
+<tr class="memdesc:a1bae4098e39c5deca81450f7507ca706"><td class="mdescLeft">&#160;</td><td class="mdescRight">properties of the whitespace represented by this node  <a href="class_j_k_q_t_math_text_whitespace_node.html#a1bae4098e39c5deca81450f7507ca706">More...</a><br /></td></tr>
+<tr class="separator:a1bae4098e39c5deca81450f7507ca706"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_j_k_q_t_math_text_node"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_j_k_q_t_math_text_node')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a></td></tr>
 <tr class="memitem:aa81a38802dd63349e3fec37d28e2d73c inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#aa81a38802dd63349e3fec37d28e2d73c">drawBoxes</a></td></tr>
 <tr class="memdesc:aa81a38802dd63349e3fec37d28e2d73c inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">enables the drawing of colored boxes (for DEBUGGING) around the actual output of the node  <a href="class_j_k_q_t_math_text_node.html#aa81a38802dd63349e3fec37d28e2d73c">More...</a><br /></td></tr>
@@ -252,12 +321,62 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:afdec8ae06750ccbc25045c60d0a973e0 inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#afdec8ae06750ccbc25045c60d0a973e0">subSuperscriptAboveBelowNode</a></td></tr>
 <tr class="memdesc:afdec8ae06750ccbc25045c60d0a973e0 inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <code>true</code> then following sub- and/or superscripts are placed below and above the node, not besides it. This is activated when <code>\sum\limits_{sub}^{sup}</code> is used in LaTeX instead of simply <code>\sum_{sub}^{sup}</code>  <a href="class_j_k_q_t_math_text_node.html#afdec8ae06750ccbc25045c60d0a973e0">More...</a><br /></td></tr>
 <tr class="separator:afdec8ae06750ccbc25045c60d0a973e0 inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a6f1e09617cab909fd9b20bc9abe79340"><td class="memItemLeft" align="right" valign="top">static QHash&lt; QString, <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html">WhitespaceProps</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a6f1e09617cab909fd9b20bc9abe79340">supportedInstructions</a></td></tr>
+<tr class="memdesc:a6f1e09617cab909fd9b20bc9abe79340"><td class="mdescLeft">&#160;</td><td class="mdescRight">translation table between latex instruction and <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html" title="describes a whitespace">WhitespaceProps</a>  <a href="class_j_k_q_t_math_text_whitespace_node.html#a6f1e09617cab909fd9b20bc9abe79340">More...</a><br /></td></tr>
+<tr class="separator:a6f1e09617cab909fd9b20bc9abe79340"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >subclass representing one whitepsace node in the syntax tree </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p >It can represent different types of spaces, see Types and different multiples of that space. so <code><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html" title="subclass representing one whitepsace node in the syntax tree">JKQTMathTextWhitespaceNode(WST1em,2,parent)</a></code> will represent two 1em wide spaces, i.e. a 2em space. </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a5358fe56751560d722a5f3633d79f5d3" name="a5358fe56751560d722a5f3633d79f5d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5358fe56751560d722a5f3633d79f5d3">&#9670;&nbsp;</a></span>Types</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">JKQTMathTextWhitespaceNode::Types</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5358fe56751560d722a5f3633d79f5d3a8aaa3fcac287c9fd25fb5a96daa0b9fb" name="a5358fe56751560d722a5f3633d79f5d3a8aaa3fcac287c9fd25fb5a96daa0b9fb"></a>WSTNormal&#160;</td><td class="fielddoc"><p >a normal-width whitespace </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5358fe56751560d722a5f3633d79f5d3ad40e181f195266e9ddab463261a44334" name="a5358fe56751560d722a5f3633d79f5d3ad40e181f195266e9ddab463261a44334"></a>WSTNonbreaking&#160;</td><td class="fielddoc"><p >a normal-width, non-breaking whitespace </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5358fe56751560d722a5f3633d79f5d3a155deecde40aed5965fa66be95685eaa" name="a5358fe56751560d722a5f3633d79f5d3a155deecde40aed5965fa66be95685eaa"></a>WST1en&#160;</td><td class="fielddoc"><p >1en (= 0.5 * pointsize of the font) whitespace </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5358fe56751560d722a5f3633d79f5d3a8bcda70a0fa21d68518e28e86040dae6" name="a5358fe56751560d722a5f3633d79f5d3a8bcda70a0fa21d68518e28e86040dae6"></a>WST1em&#160;</td><td class="fielddoc"><p >1em (= pointsize of the font) whitespace </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5358fe56751560d722a5f3633d79f5d3af5eca7fa18b5bf11c5b44cab4c6c4c4a" name="a5358fe56751560d722a5f3633d79f5d3af5eca7fa18b5bf11c5b44cab4c6c4c4a"></a>WSTQuad&#160;</td><td class="fielddoc"><p >1em (= pointsize of the font) whitespace </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5358fe56751560d722a5f3633d79f5d3a05582c753a39daf30ee2457d2a83a863" name="a5358fe56751560d722a5f3633d79f5d3a05582c753a39daf30ee2457d2a83a863"></a>WSThair&#160;</td><td class="fielddoc"><p >hair (thinner than thin) whitespace (1/12 em = pointsize/12) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5358fe56751560d722a5f3633d79f5d3a9d56a3eb3128ee1795c9509b76c87144" name="a5358fe56751560d722a5f3633d79f5d3a9d56a3eb3128ee1795c9509b76c87144"></a>WSTthin&#160;</td><td class="fielddoc"><p >thin whitespace (1/6 em = pointsize/6) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5358fe56751560d722a5f3633d79f5d3a3126279c3b0cb10aadb8ed3fedc9e90e" name="a5358fe56751560d722a5f3633d79f5d3a3126279c3b0cb10aadb8ed3fedc9e90e"></a>WSTnegthin&#160;</td><td class="fielddoc"><p >negative thin whitespace (-1/6 em = -pointsize/6) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5358fe56751560d722a5f3633d79f5d3a831ca896d74b802621cc303e34ec77d9" name="a5358fe56751560d722a5f3633d79f5d3a831ca896d74b802621cc303e34ec77d9"></a>WSTmedium&#160;</td><td class="fielddoc"><p >medium whitespace (2/9 em = pointsize*2/9) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5358fe56751560d722a5f3633d79f5d3a9c288aeccaa04886a2e08331192cf22a" name="a5358fe56751560d722a5f3633d79f5d3a9c288aeccaa04886a2e08331192cf22a"></a>WSTnegmedium&#160;</td><td class="fielddoc"><p >negative medium whitespace (-2/9 em = -pointsize*2/9) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5358fe56751560d722a5f3633d79f5d3af1d47375ca48c41eb6cfe9d107673cb0" name="a5358fe56751560d722a5f3633d79f5d3af1d47375ca48c41eb6cfe9d107673cb0"></a>WSTthick&#160;</td><td class="fielddoc"><p >thick whitespace (5/18 em = pointsize*5/18) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5358fe56751560d722a5f3633d79f5d3a939231446a48bae2fd886f3383af3ff5" name="a5358fe56751560d722a5f3633d79f5d3a939231446a48bae2fd886f3383af3ff5"></a>WSTnegthick&#160;</td><td class="fielddoc"><p >negative thick whitespace (-5/18 em = -pointsize*5/18) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5358fe56751560d722a5f3633d79f5d3a0a14d2982d8e425fcf73e04fcbaa7a27" name="a5358fe56751560d722a5f3633d79f5d3a0a14d2982d8e425fcf73e04fcbaa7a27"></a>WSTthicker&#160;</td><td class="fielddoc"><p >thicker whitespace (1/3 em = pointsize/3) </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0ab5ff61a9374b278c5e111cbc50565e" name="a0ab5ff61a9374b278c5e111cbc50565e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ab5ff61a9374b278c5e111cbc50565e">&#9670;&nbsp;</a></span>JKQTMathTextWhitespaceNode()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ab5ff61a9374b278c5e111cbc50565e">&#9670;&nbsp;</a></span>JKQTMathTextWhitespaceNode() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,6 +398,172 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>constructs a node with count=1 and type=WSTNormal </p>
+
+</div>
+</div>
+<a id="a17d4475be53c6fc64bd38e055a46ad89" name="a17d4475be53c6fc64bd38e055a46ad89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17d4475be53c6fc64bd38e055a46ad89">&#9670;&nbsp;</a></span>JKQTMathTextWhitespaceNode() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JKQTMathTextWhitespaceNode::JKQTMathTextWhitespaceNode </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs a node with count=1 and the width derived from the instruction name <em>type</em> </p>
+
+</div>
+</div>
+<a id="ae39ecd703679717da72126c4bde76260" name="ae39ecd703679717da72126c4bde76260"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae39ecd703679717da72126c4bde76260">&#9670;&nbsp;</a></span>JKQTMathTextWhitespaceNode() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JKQTMathTextWhitespaceNode::JKQTMathTextWhitespaceNode </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs a node with the specified <em>count</em> and the width derived from the instruction name <em>type</em> </p>
+
+</div>
+</div>
+<a id="abb4cc285de7390bc8a7b4fc0a3fb14e7" name="abb4cc285de7390bc8a7b4fc0a3fb14e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb4cc285de7390bc8a7b4fc0a3fb14e7">&#9670;&nbsp;</a></span>JKQTMathTextWhitespaceNode() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JKQTMathTextWhitespaceNode::JKQTMathTextWhitespaceNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">Types</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs a node with count=1 and the given <em>type</em> </p>
+
+</div>
+</div>
+<a id="af432718928924c2b4ba5b16d1d7c31cb" name="af432718928924c2b4ba5b16d1d7c31cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af432718928924c2b4ba5b16d1d7c31cb">&#9670;&nbsp;</a></span>JKQTMathTextWhitespaceNode() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JKQTMathTextWhitespaceNode::JKQTMathTextWhitespaceNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">Types</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>cound</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs a node with the given <em>type</em> and <em>count</em> </p>
 
 </div>
 </div>
@@ -308,6 +593,184 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a27ba5972adb6bd4c9e07fa680990047f" name="a27ba5972adb6bd4c9e07fa680990047f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27ba5972adb6bd4c9e07fa680990047f">&#9670;&nbsp;</a></span>draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double JKQTMathTextWhitespaceNode::draw </td>
+          <td>(</td>
+          <td class="paramtype">QPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a>&#160;</td>
+          <td class="paramname"><em>currentEv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *&#160;</td>
+          <td class="paramname"><em>prevNodeSize</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>draw the contents at the designated position </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">painter</td><td>QPainter to use </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">x</td><td>x-position, where the drawing starts [Pixel] </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">y</td><td>Y-position of the baseline, where the drawing starts [Pixel] </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">currentEv</td><td><a class="el" href="struct_j_k_q_t_math_text_environment.html" title="describes the current drawing environment (base fontname ...)">JKQTMathTextEnvironment</a> object describing the current drawing environment/settings </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">prevNodeSize</td><td>optional parameter, describing the size of the previous node (on the left). This may be used for layout of some nodes (e.g. sub/super to move correctly next to large parantheses ...) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the x position which to use for the next part of the text </dd></dl>
+
+<p>Implements <a class="el" href="class_j_k_q_t_math_text_node.html#a23a4a02505cb308f4aa5eca177f030ef">JKQTMathTextNode</a>.</p>
+
+</div>
+</div>
+<a id="aa84ca6927c6f4c2ed3632c6b63ef80f8" name="aa84ca6927c6f4c2ed3632c6b63ef80f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa84ca6927c6f4c2ed3632c6b63ef80f8">&#9670;&nbsp;</a></span>fillSupportedInstructions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void JKQTMathTextWhitespaceNode::fillSupportedInstructions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>initializes supportedInstructions </p>
+
+</div>
+</div>
+<a id="a69c71a19baf7e2883b47ed9968bdbf82" name="a69c71a19baf7e2883b47ed9968bdbf82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c71a19baf7e2883b47ed9968bdbf82">&#9670;&nbsp;</a></span>getSizeInternal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void JKQTMathTextWhitespaceNode::getSizeInternal </td>
+          <td>(</td>
+          <td class="paramtype">QPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a>&#160;</td>
+          <td class="paramname"><em>currentEv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>baselineHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>overallHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>strikeoutPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *&#160;</td>
+          <td class="paramname"><em>prevNodeSize</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>determine the size of the node, overwrite this function in derived classes </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">painter</td><td>painter to use for determining the size </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">currentEv</td><td>current environment object </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">width</td><td>width of the block/node </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">baselineHeight</td><td>distance from the bottom of the block/node-box to the baseline </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">overallHeight</td><td>overall height (bottom to top) of the node, the ascent is <code>overallHeight-baselineHeight</code> </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">strikeoutPos</td><td>position of the strikeout-line </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">prevNodeSize</td><td>optional parameter, describing the size of the previous node (on the left). This may be used for layout of some nodes (e.g. sub/super to move correctly next to large parantheses ...) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd">JKQTMathTextNode</a>.</p>
+
+</div>
+</div>
 <a id="ab97c0c0f29ef01e0287ad50be3e0c968" name="ab97c0c0f29ef01e0287ad50be3e0c968"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab97c0c0f29ef01e0287ad50be3e0c968">&#9670;&nbsp;</a></span>getTypeName()</h2>
 
@@ -333,7 +796,73 @@ Additional Inherited Members</h2></td></tr>
 
 <p>return the name of this class as a string </p>
 
-<p>Reimplemented from <a class="el" href="class_j_k_q_t_math_text_text_node.html#ac6e508a866bdd10c85d12ae17e0add95">JKQTMathTextTextNode</a>.</p>
+<p>Reimplemented from <a class="el" href="class_j_k_q_t_math_text_node.html#a89840deb78e1d614c74348d7e612549f">JKQTMathTextNode</a>.</p>
+
+</div>
+</div>
+<a id="afc69d33240adc5665fead70f531f249a" name="afc69d33240adc5665fead70f531f249a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc69d33240adc5665fead70f531f249a">&#9670;&nbsp;</a></span>getWhitespaceCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t JKQTMathTextWhitespaceNode::getWhitespaceCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>copydoc <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#a56e2ea00e6f83922a2b418eef8c8f33c" title="number of whitespaces of the given type, represented by this node (default: 1)">WhitespaceProps::count</a> </p>
+
+</div>
+</div>
+<a id="a04b8763a3bf998632812b372774cb15d" name="a04b8763a3bf998632812b372774cb15d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04b8763a3bf998632812b372774cb15d">&#9670;&nbsp;</a></span>getWhitespaceType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">Types</a> JKQTMathTextWhitespaceNode::getWhitespaceType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>copydoc <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#a1e69ef3154736d5a4aae89e6e65c2122" title="type of the whitespace represented by this node">WhitespaceProps::type</a> </p>
+
+</div>
+</div>
+<a id="a1f18f9665678bbe4cbafb49b5a2522b5" name="a1f18f9665678bbe4cbafb49b5a2522b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f18f9665678bbe4cbafb49b5a2522b5">&#9670;&nbsp;</a></span>supportsInstructionName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool JKQTMathTextWhitespaceNode::supportsInstructionName </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>instruction</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks whether a given LaTeX instruction name is supported by this node class type </p>
 
 </div>
 </div>
@@ -388,12 +917,147 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> on success </dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_j_k_q_t_math_text_text_node.html#a2f7cf225200647ee4e596d4ae531906d">JKQTMathTextTextNode</a>.</p>
+<p>Reimplemented from <a class="el" href="class_j_k_q_t_math_text_node.html#a2ba14f4c0070bd6e4fbc92b35c15df09">JKQTMathTextNode</a>.</p>
+
+</div>
+</div>
+<a id="a623131922646a6f1edf2ad3958a355f6" name="a623131922646a6f1edf2ad3958a355f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a623131922646a6f1edf2ad3958a355f6">&#9670;&nbsp;</a></span>Type2HTML()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString JKQTMathTextWhitespaceNode::Type2HTML </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">Types</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>converts Types <em>type</em> into its HTML representation </p>
+
+</div>
+</div>
+<a id="a2f46767dbd89026b412b947dbe6fe176" name="a2f46767dbd89026b412b947dbe6fe176"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f46767dbd89026b412b947dbe6fe176">&#9670;&nbsp;</a></span>Type2PointWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTMathTextWhitespaceNode::Type2PointWidth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">Types</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a>&#160;</td>
+          <td class="paramname"><em>currentEv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>converts Types <em>type</em> into its width in points (pt), based on <em>currentEv</em> </p>
+
+</div>
+</div>
+<a id="a546fa5ee6611c6d2a93b3e2cd57898a2" name="a546fa5ee6611c6d2a93b3e2cd57898a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a546fa5ee6611c6d2a93b3e2cd57898a2">&#9670;&nbsp;</a></span>Type2String()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString JKQTMathTextWhitespaceNode::Type2String </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">Types</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>converts Types <em>type</em> into a string </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6f1e09617cab909fd9b20bc9abe79340" name="a6f1e09617cab909fd9b20bc9abe79340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f1e09617cab909fd9b20bc9abe79340">&#9670;&nbsp;</a></span>supportedInstructions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QString, <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html">WhitespaceProps</a>&gt; JKQTMathTextWhitespaceNode::supportedInstructions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>translation table between latex instruction and <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html" title="describes a whitespace">WhitespaceProps</a> </p>
+
+</div>
+</div>
+<a id="a1bae4098e39c5deca81450f7507ca706" name="a1bae4098e39c5deca81450f7507ca706"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bae4098e39c5deca81450f7507ca706">&#9670;&nbsp;</a></span>whitespace</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html">WhitespaceProps</a> JKQTMathTextWhitespaceNode::whitespace</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>properties of the whitespace represented by this node </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="jkqtmathtexttextnode_8h_source.html">jkqtmathtexttextnode.h</a></li>
+<li><a class="el" href="jkqtmathtextwhitespacenode_8h_source.html">jkqtmathtextwhitespacenode.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -401,7 +1065,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html">JKQTMathTextWhitespaceNode</a></li>
-    <li class="footer">Generated on Tue Jun 28 2022 21:17:22 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Jul 3 2022 19:33:06 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

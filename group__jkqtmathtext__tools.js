@@ -3,10 +3,12 @@ var group__jkqtmathtext__tools =
     [ "JKQTMathTextEnvironment", "struct_j_k_q_t_math_text_environment.html", [
       [ "JKQTMathTextEnvironment", "struct_j_k_q_t_math_text_environment.html#a814e30c1617756b6b322e0df223b25c4", null ],
       [ "getFont", "struct_j_k_q_t_math_text_environment.html#adb57f29248d9944956890e85242f472a", null ],
+      [ "getFontEncoding", "struct_j_k_q_t_math_text_environment.html#a73179609b45a50b31979e1ee542bbc98", null ],
       [ "toHtmlAfter", "struct_j_k_q_t_math_text_environment.html#a47535cc8ac7299dd32b9f61c5f1686b8", null ],
       [ "toHtmlStart", "struct_j_k_q_t_math_text_environment.html#a97cb2cc821b27c456a08efc358a5d861", null ],
       [ "bold", "struct_j_k_q_t_math_text_environment.html#a4e41336dbba4c15745d57bdaca62794d", null ],
       [ "color", "struct_j_k_q_t_math_text_environment.html#a18521e06c11f713eb272ee80eacdd4b9", null ],
+      [ "customFontName", "struct_j_k_q_t_math_text_environment.html#ad5e8492e13893975bfa5f402efda6a6e", null ],
       [ "font", "struct_j_k_q_t_math_text_environment.html#abd0b8c816b8f64c42efcf3dc6625da7e", null ],
       [ "fontSize", "struct_j_k_q_t_math_text_environment.html#aeef82a4008a73979296c7d0f7c6f8e65", null ],
       [ "insideMath", "struct_j_k_q_t_math_text_environment.html#ad05fd4e21e1b32e70d3e3164fee713b8", null ],
@@ -19,11 +21,7 @@ var group__jkqtmathtext__tools =
     [ "JKQTMathTextFontDefinition", "struct_j_k_q_t_math_text_font_definition.html", [
       [ "JKQTMathTextFontDefinition", "struct_j_k_q_t_math_text_font_definition.html#a63af3d052d9973f22455ed2d820e8858", null ],
       [ "fontEncoding", "struct_j_k_q_t_math_text_font_definition.html#a17455490db6caa32a050309bf3b7e92a", null ],
-      [ "fontName", "struct_j_k_q_t_math_text_font_definition.html#a65c27c7ae0e97ccb2fe8b34c03306d6a", null ],
-      [ "symbolfontGreek", "struct_j_k_q_t_math_text_font_definition.html#a36d8da9f2a8253618605db235f1f445b", null ],
-      [ "symbolfontGreekEncoding", "struct_j_k_q_t_math_text_font_definition.html#a0c6a86eb60c3b93133d97fb6f2fd0640", null ],
-      [ "symbolfontSymbol", "struct_j_k_q_t_math_text_font_definition.html#a40e6fde1fa1948fc60590262489de6f7", null ],
-      [ "symbolfontSymbolEncoding", "struct_j_k_q_t_math_text_font_definition.html#ad63ba745257930c4bc56ae5e5ed988c3", null ]
+      [ "fontName", "struct_j_k_q_t_math_text_font_definition.html#a65c27c7ae0e97ccb2fe8b34c03306d6a", null ]
     ] ],
     [ "JKQTMathTextFontSpecifier", "struct_j_k_q_t_math_text_font_specifier.html", [
       [ "JKQTMathTextFontSpecifier", "struct_j_k_q_t_math_text_font_specifier.html#a9b72d86b17a54ae7a14060949bd583d2", null ],
@@ -78,14 +76,19 @@ var group__jkqtmathtext__tools =
       [ "MTEblackboard", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea5c3e274133326a5acb381e6898c34847", null ],
       [ "MTEcaligraphic", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea8aace98cbeb7bb5854fc571b4112e680", null ],
       [ "MTEfraktur", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea3aebd9cf2d242c882c76dfc4b7b28c54", null ],
-      [ "MTenvironmentFontCount", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ead983ee9407ae6ae5c340044c1c66d55a", null ]
+      [ "MTEEnvironmentFontCount", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5eab52603383eb76c02b2281ebd77517b59", null ],
+      [ "MTECurrentFont", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5eac99dada3f6e07437bb8919268f7dd950", null ],
+      [ "MTECustomFont", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea2350f8a2f3cae80059fc12933f6bbe39", null ],
+      [ "MTEFallbackSymbols", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea46427d83d2029151648c9245356435ad", null ],
+      [ "MTEFallbackGreek", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5eaca759549889a7f39d290da3bb49923a7", null ]
     ] ],
     [ "JKQTMathTextFontEncoding", "group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201", [
-      [ "MTFEwinSymbol", "group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201af37a2e8f60a019ddb493d314e5bf934e", null ],
-      [ "MTFEunicode", "group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201a2a79c5f14df83607ac534a7572558bb6", null ],
-      [ "MTFEunicodeLimited", "group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201ab67bc5dea0300b67b371209e640bd5b1", null ],
+      [ "MTFEWinSymbol", "group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201adee1bf25e177b96b22d9af407393216c", null ],
+      [ "MTFEUnicode", "group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201aa2a9f78baf94d32c6d9222d2a486e10f", null ],
+      [ "MTFELatin1", "group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201a1eec0ed5a9010a41cc7facff3db4c30d", null ],
       [ "MTFEStandard", "group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201a82f9a6f099935dab75262de880ae63fb", null ]
     ] ],
+    [ "estimateJKQTMathTextFontEncoding", "group__jkqtmathtext__tools.html#gafdbd7bc8b75fdebc3671c95279753696", null ],
     [ "initJKQTMathTextResources", "group__jkqtmathtext__tools.html#gaca567648d8a0ffdba79df3c41e39f1ee", null ],
     [ "InstructionName2JKQTMathTextBraceType", "group__jkqtmathtext__tools.html#ga47b0e1abb2e5cb1c71fab10789b27e5c", null ],
     [ "InstructionName2OpeningJKQTMathTextBraceType", "group__jkqtmathtext__tools.html#gaecb9f393976b4a679f19e73230d589a5", null ],
