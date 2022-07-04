@@ -1,5 +1,12 @@
 var NAVTREEINDEX22 =
 {
+"class_j_k_q_t_plotter.html#aebcc4aac86c36b3960f3891120c1fa07":[10,2,3,1,93],
+"class_j_k_q_t_plotter.html#aebce042360ddc51b50472760ed272f7d":[10,2,3,1,123],
+"class_j_k_q_t_plotter.html#aec50d0820bfff22653cc3730e39b5bd1":[10,2,3,1,22],
+"class_j_k_q_t_plotter.html#aee88d394a2c9aeee61d7d2793fee4729":[10,2,3,1,92],
+"class_j_k_q_t_plotter.html#aeebdda10f562801c167188c9a2fa395e":[10,2,3,1,6],
+"class_j_k_q_t_plotter.html#aefeb870110dc61e7b9efcbe6a3be1c13":[10,2,3,1,225],
+"class_j_k_q_t_plotter.html#aeffd28bfa62b225074ad6ae0a95b6710":[10,2,3,1,46],
 "class_j_k_q_t_plotter.html#af0bece69703f98fe9f11a1ddcb3c0630":[10,2,3,1,2],
 "class_j_k_q_t_plotter.html#af0c0c1b00d172466716d8aee7f063b95":[10,2,3,1,37],
 "class_j_k_q_t_plotter.html#af123747c380400d73a38f8d17814ab9c":[10,2,3,1,91],
@@ -70,8 +77,8 @@ var NAVTREEINDEX22 =
 "example_tutorial_projects.html#jkqtp_extut_plotimagedata":[4,0,3],
 "example_tutorial_projects.html#jkqtp_extut_plotstyles":[4,0,0],
 "example_tutorial_projects.html#jkqtp_extut_specialfeatures":[4,0,8],
-"functions.html":[12,3,0],
 "functions.html":[12,3,0,0],
+"functions.html":[12,3,0],
 "functions_b.html":[12,3,0,1],
 "functions_c.html":[12,3,0,2],
 "functions_d.html":[12,3,0,3],
@@ -98,8 +105,8 @@ var NAVTREEINDEX22 =
 "functions_eval_v.html":[12,3,5,17],
 "functions_eval_w.html":[12,3,5,18],
 "functions_f.html":[12,3,0,5],
-"functions_func.html":[12,3,1],
 "functions_func.html":[12,3,1,0],
+"functions_func.html":[12,3,1],
 "functions_func_b.html":[12,3,1,1],
 "functions_func_c.html":[12,3,1,2],
 "functions_func_d.html":[12,3,1,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX22 =
 "group__jkmpultil.html#ggaddbba2d9c60f8ddf616af0c559e2319aaf58476d20924014959ad9edeae04f820":[8],
 "group__jkqtfastplotter.html":[10,0],
 "group__jkqtfastplotter.html#ga0c5d40ac98f671ca748b48a95864be11":[10,0,16],
-"group__jkqtfastplotter.html#ga2e3a2c2da06679a53ed4fba6812c7c37":[10,0,18],
-"group__jkqtfastplotter.html#gaa6fb10f6ffcbaa769b10bcf2fa69c276":[10,0,19],
-"group__jkqtfastplotter.html#gaa94a0bca376a39f32a47dbd6f08fc594":[10,0,14],
-"group__jkqtfastplotter.html#gadd386bcf668dcc0c0607be6e5ddcbb7e":[10,0,13],
-"group__jkqtfastplotter.html#gae34180cff7f4bcbb90ea3711ca511c15":[10,0,17],
-"group__jkqtfastplotter.html#gae59c718f711fe8e864f90f8647092d55":[10,0,15],
-"group__jkqtfastplotter.html#ggaa94a0bca376a39f32a47dbd6f08fc594a02540a9b1538d3ae89ab37061cac3fc5":[10,0,14,0],
-"group__jkqtfastplotter.html#ggaa94a0bca376a39f32a47dbd6f08fc594a12170f49df159c522ca569cad37ca0b5":[10,0,14,5]
+"group__jkqtfastplotter.html#ga2e3a2c2da06679a53ed4fba6812c7c37":[10,0,18]
 };

@@ -1,5 +1,18 @@
 var NAVTREEINDEX27 =
 {
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a3325899ddf7f6bdc7ea51b6adf3f54d4":[10,1,0,0,17,6],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a42ce541bae73c56271d5e0d3f54efe9c":[10,1,0,0,17,12],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a441f40796e0071bae4050e22e44e4a87":[10,1,0,0,17,20],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a598e6737c0414dc235e208d60ce62a9d":[10,1,0,0,17,31],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a5d80a3e2a139ac382263b52f8152a171":[10,1,0,0,17,25],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a6c4e8a663b2922247d2f9a2907e7dbf1":[10,1,0,0,17,21],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a889e35bebbb8cf25c41b069d46f4d952":[10,1,0,0,17,27],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a8bd59c7ba4d30ce85c66053f9afc2373":[10,1,0,0,17,3],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a8d7dfdafa04f5745626b61b89713030f":[10,1,0,0,17,22],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a8dc638553da629d21a9b5dcfcfa75d49":[10,1,0,0,17,18],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a8f82e22951dcef1c268a9553c726a3b4":[10,1,0,0,17,24],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a988e18cb78169e218e9ab202579f190e":[10,1,0,0,17,9],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#ab4691c45c273982a3a1a749f3a5d14a1":[10,1,0,0,17,23],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#ac2a5268c61a87182d15ad5009bdd7973":[10,1,0,0,17,11],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#acbbbe2126edd79e7310934e379fb9339":[10,1,0,0,17,0],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#acf1aa1bb1b70d9122de0d40dea159c19":[10,1,0,0,17,8],

@@ -1,5 +1,12 @@
 var NAVTREEINDEX17 =
 {
+"class_j_k_q_t_p_math_image_base.html#ad47414cc54736af5905e91bbfbafc194":[10,2,2,1,7,1,5,18],
+"class_j_k_q_t_p_math_image_base.html#ad4a72df8e60e027c4fa0bc4ae582ebad":[10,2,2,1,7,1,5,20],
+"class_j_k_q_t_p_math_image_base.html#addbeafd2e804071d0b7621157ff0b3e0":[10,2,2,1,7,1,5,10],
+"class_j_k_q_t_p_math_image_base.html#af67060977eb747c0539d5d7657d22725":[10,2,2,1,7,1,5,36],
+"class_j_k_q_t_p_math_image_base.html#afc93a67fe8fd073a417eb717d529f4e4":[10,2,2,1,7,1,5,3],
+"class_j_k_q_t_p_math_image_base.html#afe2ab90d04ce3957aa02f1b375f7f76e":[10,2,2,1,7,1,5,30],
+"class_j_k_q_t_p_math_image_color_palette_combo_box.html":[10,2,4,0,9],
 "class_j_k_q_t_p_math_image_color_palette_combo_box.html#a1d63cbb9be016fd30ee50e56ca18bc8b":[10,2,4,0,9,1],
 "class_j_k_q_t_p_math_image_color_palette_combo_box.html#a32cda9650a85354cba07690aee882e95":[10,2,4,0,9,7],
 "class_j_k_q_t_p_math_image_color_palette_combo_box.html#a649786ff7bd54c2ef8832dc9e5edcea4":[10,2,4,0,9,4],
@@ -242,12 +249,5 @@ var NAVTREEINDEX17 =
 "class_j_k_q_t_p_peak_stream_graph.html#ad70a47176074e275b2ca16b3f666b7e2":[10,2,2,1,2,3,16],
 "class_j_k_q_t_p_peak_stream_graph.html#adf9f52f10c3ff771b5727d674407d86a":[10,2,2,1,2,3,11],
 "class_j_k_q_t_p_peak_stream_graph.html#ae10e784d48f0479e4e48f3b16cabc096":[10,2,2,1,2,3,17],
-"class_j_k_q_t_p_peak_stream_graph.html#ae51af0a338b7b5c05268606e9d7648e9":[10,2,2,1,2,3,15],
-"class_j_k_q_t_p_peak_stream_graph.html#ae61feb5c50622b57e53166dd26916013":[10,2,2,1,2,3,9],
-"class_j_k_q_t_p_plot_annotation_element.html":[10,2,2,1,1,5],
-"class_j_k_q_t_p_plot_annotation_element.html#a16924bd5a383846bac90c7d0b3466695":[10,2,2,1,1,5,1],
-"class_j_k_q_t_p_plot_annotation_element.html#ac7de854ee7214d3281bb5f59283878c5":[10,2,2,1,1,5,0],
-"class_j_k_q_t_p_plot_element.html":[10,2,2,1,1,6],
-"class_j_k_q_t_p_plot_element.html#a02a8d7c24cde7768f0134cee1aa1159d":[10,2,2,1,1,6,34],
-"class_j_k_q_t_p_plot_element.html#a04d6326c07180c457a90d10d92cdeb32":[10,2,2,1,1,6,10]
+"class_j_k_q_t_p_peak_stream_graph.html#ae51af0a338b7b5c05268606e9d7648e9":[10,2,2,1,2,3,15]
 };

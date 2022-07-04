@@ -1,5 +1,12 @@
 var NAVTREEINDEX25 =
 {
+"group__jkqtptools__drawing.html#gga212568ec3a08aa8d047bdd11283e2b3ea642525941e05803ac5b3837d9a76c36a":[10,3,5,2,44],
+"group__jkqtptools__drawing.html#gga212568ec3a08aa8d047bdd11283e2b3ea658c610e2de66b474cb1246a8017b503":[10,3,5,2,53],
+"group__jkqtptools__drawing.html#gga212568ec3a08aa8d047bdd11283e2b3ea65f979bf79b9759cdef9c7824cbddcff":[10,3,5,2,9],
+"group__jkqtptools__drawing.html#gga212568ec3a08aa8d047bdd11283e2b3ea696f4434a16ee682f2ca52308e0bb50f":[10,3,5,2,60],
+"group__jkqtptools__drawing.html#gga212568ec3a08aa8d047bdd11283e2b3ea712a5394e0a062eb0dbc310f13fc3449":[10,3,5,2,64],
+"group__jkqtptools__drawing.html#gga212568ec3a08aa8d047bdd11283e2b3ea742c246430bd362c0aa5c4ffdb92e85a":[10,3,5,2,1],
+"group__jkqtptools__drawing.html#gga212568ec3a08aa8d047bdd11283e2b3ea76d14b26f4f5f4b6f2145151cabd0489":[10,3,5,2,29],
 "group__jkqtptools__drawing.html#gga212568ec3a08aa8d047bdd11283e2b3ea7b829a4e2960ca2c541bf58bfabc22ca":[10,3,5,2,62],
 "group__jkqtptools__drawing.html#gga212568ec3a08aa8d047bdd11283e2b3ea7ce6bfc4629e234b67c8857768d20f59":[10,3,5,2,13],
 "group__jkqtptools__drawing.html#gga212568ec3a08aa8d047bdd11283e2b3ea7d1d103c92b5fb6152ddf135315f3449":[10,3,5,2,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX25 =
 "group__jkqtptools__math__statistics__adaptors.html#gaffc04b2246a0cadf14a13c2079181105":[10,3,7,4,8,0],
 "group__jkqtptools__math__statistics__basic.html":[10,3,7,4,4],
 "group__jkqtptools__math__statistics__basic.html#ga0cbd4d4f762fe7c05fa143e643988c21":[10,3,7,4,4,23],
-"group__jkqtptools__math__statistics__basic.html#ga1a5771cf7fcf5dca141cba9c7249b638":[10,3,7,4,4,18],
-"group__jkqtptools__math__statistics__basic.html#ga1bd073c3c990799502c27c9c12c5062c":[10,3,7,4,4,22],
-"group__jkqtptools__math__statistics__basic.html#ga1d09a7d78cf0bd60bf0ab63d77082377":[10,3,7,4,4,11],
-"group__jkqtptools__math__statistics__basic.html#ga22494d739c137964f36c7b076d3d3600":[10,3,7,4,4,10],
-"group__jkqtptools__math__statistics__basic.html#ga3a94379010a5de3e9701122f88bfb6f4":[10,3,7,4,4,1],
-"group__jkqtptools__math__statistics__basic.html#ga3e178db9dd8b3707b95c5787fed644ee":[10,3,7,4,4,15],
-"group__jkqtptools__math__statistics__basic.html#ga427cf53250740ba657af40fed12c9d28":[10,3,7,4,4,25],
-"group__jkqtptools__math__statistics__basic.html#ga496e477dda2d28360b30c53d19ed4d7a":[10,3,7,4,4,27]
+"group__jkqtptools__math__statistics__basic.html#ga1a5771cf7fcf5dca141cba9c7249b638":[10,3,7,4,4,18]
 };

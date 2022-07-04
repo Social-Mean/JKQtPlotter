@@ -1,5 +1,12 @@
 var NAVTREEINDEX7 =
 {
+"class_j_k_q_t_math_text_symbol_node.html":[10,1,0,0,13],
+"class_j_k_q_t_math_text_symbol_node.html#a01e2553209ea5deb257079e4849d0071":[10,1,0,0,13,20],
+"class_j_k_q_t_math_text_symbol_node.html#a05c977906493bff472a28359b7f4a51c":[10,1,0,0,13,8],
+"class_j_k_q_t_math_text_symbol_node.html#a062e84a3c8d33253797036b783d6e434":[10,1,0,0,13,43],
+"class_j_k_q_t_math_text_symbol_node.html#a0be1f266487b3389bca09db761d4fd09":[10,1,0,0,13,27],
+"class_j_k_q_t_math_text_symbol_node.html#a10ab97cb642b441eafdfaac4e2d586d3":[10,1,0,0,13,24],
+"class_j_k_q_t_math_text_symbol_node.html#a156fa49cb37e8e76ad86084eda1cd4a5":[10,1,0,0,13,42],
 "class_j_k_q_t_math_text_symbol_node.html#a20c570f95b33f6b2eb02c87580f07ff1":[10,1,0,0,13,45],
 "class_j_k_q_t_math_text_symbol_node.html#a2534352c23ff3a02f93b7707f6b8d8c8":[10,1,0,0,13,50],
 "class_j_k_q_t_math_text_symbol_node.html#a29d1a2fd461d374ce2680974078065b5":[10,1,0,0,13,4],
@@ -79,7 +86,7 @@ var NAVTREEINDEX7 =
 "class_j_k_q_t_math_text_whitespace_node.html#a1bae4098e39c5deca81450f7507ca706":[10,1,0,0,15,19],
 "class_j_k_q_t_math_text_whitespace_node.html#a1f18f9665678bbe4cbafb49b5a2522b5":[10,1,0,0,15,13],
 "class_j_k_q_t_math_text_whitespace_node.html#a27ba5972adb6bd4c9e07fa680990047f":[10,1,0,0,15,7],
-"class_j_k_q_t_math_text_whitespace_node.html#a2f46767dbd89026b412b947dbe6fe176":[10,1,0,0,15,16],
+"class_j_k_q_t_math_text_whitespace_node.html#a3799814554f2efdcd43525bf59b6c969":[10,1,0,0,15,16],
 "class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3":[10,1,0,0,15,0],
 "class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a05582c753a39daf30ee2457d2a83a863":[10,1,0,0,15,0,5],
 "class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a0a14d2982d8e425fcf73e04fcbaa7a27":[10,1,0,0,15,0,12],
@@ -239,15 +246,8 @@ var NAVTREEINDEX7 =
 "class_j_k_q_t_p_bar_vertical_stackable_graph.html#ac7edbb0e796c4181c58ffcfaa3cca106":[10,2,2,1,0,6,4],
 "class_j_k_q_t_p_boxplot_element_base.html":[10,2,2,1,2,0],
 "class_j_k_q_t_p_boxplot_element_base.html":[10,2,2,1,8,0],
-"class_j_k_q_t_p_boxplot_element_base.html#a0264e0610dc10de2b8d3dc7d2efaa6eb":[10,2,2,1,8,0,31],
 "class_j_k_q_t_p_boxplot_element_base.html#a0264e0610dc10de2b8d3dc7d2efaa6eb":[10,2,2,1,2,0,31],
-"class_j_k_q_t_p_boxplot_element_base.html#a0370a86ad61a3887126f589552d14864":[10,2,2,1,2,0,39],
+"class_j_k_q_t_p_boxplot_element_base.html#a0264e0610dc10de2b8d3dc7d2efaa6eb":[10,2,2,1,8,0,31],
 "class_j_k_q_t_p_boxplot_element_base.html#a0370a86ad61a3887126f589552d14864":[10,2,2,1,8,0,39],
-"class_j_k_q_t_p_boxplot_element_base.html#a0e2ee91bd33173afa435d121715df46e":[10,2,2,1,2,0,2],
-"class_j_k_q_t_p_boxplot_element_base.html#a0e2ee91bd33173afa435d121715df46e":[10,2,2,1,8,0,2],
-"class_j_k_q_t_p_boxplot_element_base.html#a16ca013fa1a323879a4453018c3c20ef":[10,2,2,1,8,0,25],
-"class_j_k_q_t_p_boxplot_element_base.html#a16ca013fa1a323879a4453018c3c20ef":[10,2,2,1,2,0,25],
-"class_j_k_q_t_p_boxplot_element_base.html#a336d28cea2ff542939055863eabcac99":[10,2,2,1,8,0,0],
-"class_j_k_q_t_p_boxplot_element_base.html#a336d28cea2ff542939055863eabcac99":[10,2,2,1,2,0,0],
-"class_j_k_q_t_p_boxplot_element_base.html#a346972b19c091ee4447e8c7e766e3cd6":[10,2,2,1,8,0,24]
+"class_j_k_q_t_p_boxplot_element_base.html#a0370a86ad61a3887126f589552d14864":[10,2,2,1,2,0,39]
 };

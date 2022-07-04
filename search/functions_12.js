@@ -21,6 +21,6 @@ var searchData=
   ['transformx_18',['transformX',['../class_j_k_q_t_p_plot_element.html#a11781d24405477c6458bd584f5a86462',1,'JKQTPPlotElement::transformX(double x) const'],['../class_j_k_q_t_p_plot_element.html#ace3639d04e1fb171eade26f63da03b6d',1,'JKQTPPlotElement::transformX(const QVector&lt; double &gt; &amp;x) const']]],
   ['transformy_19',['transformY',['../class_j_k_q_t_p_plot_element.html#aa4556f29d05fc52d2560592fdba15d8a',1,'JKQTPPlotElement::transformY(double y) const'],['../class_j_k_q_t_p_plot_element.html#a3a805daf91f93ac5ae46af260c44b7b5',1,'JKQTPPlotElement::transformY(const QVector&lt; double &gt; &amp;x) const']]],
   ['type2html_20',['Type2HTML',['../class_j_k_q_t_math_text_whitespace_node.html#a623131922646a6f1edf2ad3958a355f6',1,'JKQTMathTextWhitespaceNode']]],
-  ['type2pointwidth_21',['Type2PointWidth',['../class_j_k_q_t_math_text_whitespace_node.html#a2f46767dbd89026b412b947dbe6fe176',1,'JKQTMathTextWhitespaceNode']]],
+  ['type2pixelwidth_21',['Type2PixelWidth',['../class_j_k_q_t_math_text_whitespace_node.html#a3799814554f2efdcd43525bf59b6c969',1,'JKQTMathTextWhitespaceNode']]],
   ['type2string_22',['Type2String',['../class_j_k_q_t_math_text_whitespace_node.html#a546fa5ee6611c6d2a93b3e2cd57898a2',1,'JKQTMathTextWhitespaceNode']]]
 ];

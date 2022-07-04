@@ -30,7 +30,7 @@ var class_j_k_q_t_math_text_whitespace_node =
     [ "supportsInstructionName", "class_j_k_q_t_math_text_whitespace_node.html#a1f18f9665678bbe4cbafb49b5a2522b5", null ],
     [ "toHtml", "class_j_k_q_t_math_text_whitespace_node.html#afb09c6d341fb07b161cb19f83a0ec3c7", null ],
     [ "Type2HTML", "class_j_k_q_t_math_text_whitespace_node.html#a623131922646a6f1edf2ad3958a355f6", null ],
-    [ "Type2PointWidth", "class_j_k_q_t_math_text_whitespace_node.html#a2f46767dbd89026b412b947dbe6fe176", null ],
+    [ "Type2PixelWidth", "class_j_k_q_t_math_text_whitespace_node.html#a3799814554f2efdcd43525bf59b6c969", null ],
     [ "Type2String", "class_j_k_q_t_math_text_whitespace_node.html#a546fa5ee6611c6d2a93b3e2cd57898a2", null ],
     [ "supportedInstructions", "class_j_k_q_t_math_text_whitespace_node.html#a6f1e09617cab909fd9b20bc9abe79340", null ],
     [ "whitespace", "class_j_k_q_t_math_text_whitespace_node.html#a1bae4098e39c5deca81450f7507ca706", null ]

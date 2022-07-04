@@ -14,10 +14,11 @@ var searchData=
   ['flags_11',['flags',['../class_j_k_q_t_p_graphs_model.html#a56a8e267ce583358ff92b95236e5a3f9',1,'JKQTPGraphsModel::flags()'],['../class_j_k_q_t_p_datastore_model.html#a353be4c60a220d229c59153dffd32869',1,'JKQTPDatastoreModel::flags()']]],
   ['floattolabel_12',['floattolabel',['../class_j_k_q_t_p_coordinate_axis.html#a42d2fdfe7294c0267b05ac9e14c34e00',1,'JKQTPCoordinateAxis::floattolabel(double data) const'],['../class_j_k_q_t_p_coordinate_axis.html#af6231904961fe3ad0ccbe68c896645b4',1,'JKQTPCoordinateAxis::floattolabel(double data, int past_comma) const']]],
   ['fontname_13',['fontName',['../struct_j_k_q_t_math_text_font_specifier.html#a035624a9e9d7b9aa4b14b4c6250bce26',1,'JKQTMathTextFontSpecifier']]],
-  ['forceinternaldatastore_14',['forceInternalDatastore',['../class_j_k_q_t_base_plotter.html#a6bbab200493af62fab5403460f5b726e',1,'JKQTBasePlotter::forceInternalDatastore()'],['../class_j_k_q_t_plotter.html#a97b118afff74ae40929015ac235d4f2d',1,'JKQTPlotter::forceInternalDatastore()']]],
-  ['formathittestdefaultlabel_15',['formatHitTestDefaultLabel',['../class_j_k_q_t_p_plot_element.html#acabb25ef081b70ca56e43cbfe1f2f0a8',1,'JKQTPPlotElement']]],
-  ['fractype2string_16',['FracType2String',['../class_j_k_q_t_math_text_frac_node.html#a52eb35dcb4d1d8b193b4b79c34d4f013',1,'JKQTMathTextFracNode']]],
-  ['fromfontspec_17',['fromFontSpec',['../struct_j_k_q_t_math_text_font_specifier.html#a13d780ab2bbe28aebf8cb0af31e935c3',1,'JKQTMathTextFontSpecifier']]],
-  ['fromstring_18',['fromString',['../struct_j_k_q_t_p_color_derivation_mode.html#a5c32fef2a5e7e52830f2565dac2876a4',1,'JKQTPColorDerivationMode']]],
-  ['functionexists_19',['functionExists',['../class_j_k_q_t_p_math_parser.html#a6ee437d931ceb448a4f4660e5032fb18',1,'JKQTPMathParser']]]
+  ['fontsizeunit2string_14',['FontSizeUnit2String',['../struct_j_k_q_t_math_text_environment.html#acaf99e1b802a2447c1cd2871cca36f28',1,'JKQTMathTextEnvironment']]],
+  ['forceinternaldatastore_15',['forceInternalDatastore',['../class_j_k_q_t_base_plotter.html#a6bbab200493af62fab5403460f5b726e',1,'JKQTBasePlotter::forceInternalDatastore()'],['../class_j_k_q_t_plotter.html#a97b118afff74ae40929015ac235d4f2d',1,'JKQTPlotter::forceInternalDatastore()']]],
+  ['formathittestdefaultlabel_16',['formatHitTestDefaultLabel',['../class_j_k_q_t_p_plot_element.html#acabb25ef081b70ca56e43cbfe1f2f0a8',1,'JKQTPPlotElement']]],
+  ['fractype2string_17',['FracType2String',['../class_j_k_q_t_math_text_frac_node.html#a52eb35dcb4d1d8b193b4b79c34d4f013',1,'JKQTMathTextFracNode']]],
+  ['fromfontspec_18',['fromFontSpec',['../struct_j_k_q_t_math_text_font_specifier.html#a13d780ab2bbe28aebf8cb0af31e935c3',1,'JKQTMathTextFontSpecifier']]],
+  ['fromstring_19',['fromString',['../struct_j_k_q_t_p_color_derivation_mode.html#a5c32fef2a5e7e52830f2565dac2876a4',1,'JKQTPColorDerivationMode']]],
+  ['functionexists_20',['functionExists',['../class_j_k_q_t_p_math_parser.html#a6ee437d931ceb448a4f4660e5032fb18',1,'JKQTPMathParser']]]
 ];

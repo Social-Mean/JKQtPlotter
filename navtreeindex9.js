@@ -1,5 +1,12 @@
 var NAVTREEINDEX9 =
 {
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#adc5bda651eb8145743a8f0571621d6f5":[10,2,2,1,7,3,1,45],
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#ae1bfc9a82f6ac53a00dfab2821662666":[10,2,2,1,7,3,1,12],
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#ae5fc521473f4ed69b0e2e593e34ec217":[10,2,2,1,7,3,1,74],
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#aea6130574e61021ab59fe668c4e87a90":[10,2,2,1,7,3,1,79],
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#aed2845ead3c8c341346afd1bebfe3ea6":[10,2,2,1,7,3,1,22],
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af10bc8164bf7ff7355e3f58d56b1be32":[10,2,2,1,7,3,1,27],
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af2f1ce13121e59179e23feb232985926":[10,2,2,1,7,3,1,57],
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af4d4684e560361e2a31c503a7ddcae61":[10,2,2,1,7,3,1,46],
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af599454b3717aec99a8b3ae8b70c8647":[10,2,2,1,7,3,1,20],
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af70936d9ae0c3911caeb82b060fd4501":[10,2,2,1,7,3,1,39],
@@ -242,12 +249,5 @@ var NAVTREEINDEX9 =
 "class_j_k_q_t_p_column_math_image.html#ab890ae6a84ab98d6d96b1a75050ea5aa":[10,2,2,1,7,1,0,11],
 "class_j_k_q_t_p_column_math_image.html#aca658a306c9933e7875cfb8d2a2977d0":[10,2,2,1,7,1,0,2],
 "class_j_k_q_t_p_column_math_image.html#ad71f2d2eebee0cfa51150cb2ee8e8726":[10,2,2,1,7,1,0,6],
-"class_j_k_q_t_p_column_math_image.html#ae5bf6b0dc2a3f8d79b4ab29c1a6a084f":[10,2,2,1,7,1,0,13],
-"class_j_k_q_t_p_column_overlay_image_enhanced.html":[10,2,2,1,7,2,0],
-"class_j_k_q_t_p_column_overlay_image_enhanced.html#a05f77f5c70eb30e1be58e3ab08287c5d":[10,2,2,1,7,2,0,2],
-"class_j_k_q_t_p_column_overlay_image_enhanced.html#a2665b6add6af152019b6895157b5ed9f":[10,2,2,1,7,2,0,3],
-"class_j_k_q_t_p_column_overlay_image_enhanced.html#a665d802e5f23443e6fe0b8e892b5a10c":[10,2,2,1,7,2,0,4],
-"class_j_k_q_t_p_column_overlay_image_enhanced.html#ab3e99057d1036db2672b314fb7be1a13":[10,2,2,1,7,2,0,1],
-"class_j_k_q_t_p_column_overlay_image_enhanced.html#aba0850ec3ae5385b4e985284795ff2a4":[10,2,2,1,7,2,0,5],
-"class_j_k_q_t_p_column_overlay_image_enhanced.html#abd7d94c27b17e875cc3d6178c18eecb6":[10,2,2,1,7,2,0,0]
+"class_j_k_q_t_p_column_math_image.html#ae5bf6b0dc2a3f8d79b4ab29c1a6a084f":[10,2,2,1,7,1,0,13]
 };

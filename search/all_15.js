@@ -80,7 +80,7 @@ var searchData=
   ['twocolorfilling_77',['TwoColorFilling',['../class_j_k_q_t_p_filled_curve_graph_base.html#a1c6ebab82d5a08bd63a0574fc278ff08a265cdb2a9b566d2b83f0bd2529ab6232',1,'JKQTPFilledCurveGraphBase']]],
   ['type_78',['type',['../struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#a1e69ef3154736d5a4aae89e6e65c2122',1,'JKQTMathTextWhitespaceNode::WhitespaceProps::type()'],['../struct_j_k_q_t_p_math_parser_1_1jkmp_result.html#a77733ea1fac8e37c423baa4a0759389e',1,'JKQTPMathParser::jkmpResult::type()'],['../struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html#a64c057ecc63d250f3a0e6731613b2b07',1,'JKQTPMathParser::jkmpVariable::type()'],['../group__jkmp.html#aa6ace73bb91eb0252b759c7fc34f194b',1,'JKQTPMathParser::jkmpTempVariable::type()']]],
   ['type2html_79',['Type2HTML',['../class_j_k_q_t_math_text_whitespace_node.html#a623131922646a6f1edf2ad3958a355f6',1,'JKQTMathTextWhitespaceNode']]],
-  ['type2pointwidth_80',['Type2PointWidth',['../class_j_k_q_t_math_text_whitespace_node.html#a2f46767dbd89026b412b947dbe6fe176',1,'JKQTMathTextWhitespaceNode']]],
+  ['type2pixelwidth_80',['Type2PixelWidth',['../class_j_k_q_t_math_text_whitespace_node.html#a3799814554f2efdcd43525bf59b6c969',1,'JKQTMathTextWhitespaceNode']]],
   ['type2string_81',['Type2String',['../class_j_k_q_t_math_text_whitespace_node.html#a546fa5ee6611c6d2a93b3e2cd57898a2',1,'JKQTMathTextWhitespaceNode']]],
   ['types_82',['Types',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3',1,'JKQTMathTextWhitespaceNode']]]
 ];
