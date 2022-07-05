@@ -83,11 +83,9 @@ var group__jkqtmathtext__tools =
       [ "MTEblackboard", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea5c3e274133326a5acb381e6898c34847", null ],
       [ "MTEcaligraphic", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea8aace98cbeb7bb5854fc571b4112e680", null ],
       [ "MTEfraktur", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea3aebd9cf2d242c882c76dfc4b7b28c54", null ],
-      [ "MTEEnvironmentFontCount", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5eab52603383eb76c02b2281ebd77517b59", null ],
-      [ "MTECurrentFont", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5eac99dada3f6e07437bb8919268f7dd950", null ],
-      [ "MTECustomFont", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea2350f8a2f3cae80059fc12933f6bbe39", null ],
       [ "MTEFallbackSymbols", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea46427d83d2029151648c9245356435ad", null ],
-      [ "MTEFallbackGreek", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5eaca759549889a7f39d290da3bb49923a7", null ]
+      [ "MTECurrentFont", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5eac99dada3f6e07437bb8919268f7dd950", null ],
+      [ "MTECustomFont", "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea2350f8a2f3cae80059fc12933f6bbe39", null ]
     ] ],
     [ "JKQTMathTextFontEncoding", "group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201", [
       [ "MTFEWinSymbol", "group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201adee1bf25e177b96b22d9af407393216c", null ],

@@ -9,6 +9,9 @@ var searchData=
   ['drawasmathematicalcurve_6',['DrawAsMathematicalCurve',['../class_j_k_q_t_p_geometric_plot_element.html#a2947668a58c1c3e9db7b311294dee7d5a6cdb4458289e95342f0caa9c03765b19',1,'JKQTPGeometricPlotElement']]],
   ['drawasrectangles_7',['DrawAsRectangles',['../class_j_k_q_t_p_overlay_image_enhanced.html#a17236a08ee70303d904e63272019f2e3af7f44c6b854ff19acdad25405492a803',1,'JKQTPOverlayImageEnhanced']]],
   ['drawassymbols_8',['DrawAsSymbols',['../class_j_k_q_t_p_overlay_image_enhanced.html#a17236a08ee70303d904e63272019f2e3a26aff6807b229b3fd29afee6cc0e288f',1,'JKQTPOverlayImageEnhanced']]],
-  ['drawbar_9',['DrawBar',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03caeac949446b1e92cc634751b202740581',1,'JKQTMathTextSymbolNode']]],
-  ['drawslash_10',['DrawSlash',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03caf8e955d7dcda14c03c594e77189d9bea',1,'JKQTMathTextSymbolNode']]]
+  ['drawbackslash_9',['DrawBackSlash',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca6eb128a6d5a83be96b64a158e936b6d2',1,'JKQTMathTextSymbolNode']]],
+  ['drawlefthbar_10',['DrawLeftHBar',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca22503fab3615ab7401a081683f1545e9',1,'JKQTMathTextSymbolNode']]],
+  ['drawrighthbar_11',['DrawRightHBar',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca1a4da602dc9be0546b5cb4e16aa1b385',1,'JKQTMathTextSymbolNode']]],
+  ['drawslash_12',['DrawSlash',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03caf8e955d7dcda14c03c594e77189d9bea',1,'JKQTMathTextSymbolNode']]],
+  ['drawvertline_13',['DrawVertLine',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca94922786b33f7bc7d3658ac83c639a91',1,'JKQTMathTextSymbolNode']]]
 ];

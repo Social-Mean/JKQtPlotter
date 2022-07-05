@@ -155,16 +155,13 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a780f73722281e15dabb7764dcf242bf7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a780f73722281e15dabb7764dcf242bf7">JKQTMathTextSymbolNode</a> (<a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent, const QString &amp;name, bool <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a77c1ba34646be1adc6bbae0d7801f9a2">addWhitespace</a>)</td></tr>
-<tr class="separator:a780f73722281e15dabb7764dcf242bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5991a07dd8084cd0128743c4d22dcca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#aa5991a07dd8084cd0128743c4d22dcca">JKQTMathTextSymbolNode</a> (<a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent, const QString &amp;name)</td></tr>
+<tr class="separator:aa5991a07dd8084cd0128743c4d22dcca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdbf7d0cea272f0822996487ee4715dd"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#afdbf7d0cea272f0822996487ee4715dd">~JKQTMathTextSymbolNode</a> () override</td></tr>
 <tr class="separator:afdbf7d0cea272f0822996487ee4715dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29d1a2fd461d374ce2680974078065b5"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a29d1a2fd461d374ce2680974078065b5">draw</a> (QPainter &amp;painter, double x, double y, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr) override</td></tr>
 <tr class="memdesc:a29d1a2fd461d374ce2680974078065b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw the contents at the designated position  <a href="class_j_k_q_t_math_text_symbol_node.html#a29d1a2fd461d374ce2680974078065b5">More...</a><br /></td></tr>
 <tr class="separator:a29d1a2fd461d374ce2680974078065b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cc21a61337ec47756842018b2f3b6c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a2cc21a61337ec47756842018b2f3b6c0">getAddWhitespace</a> () const</td></tr>
-<tr class="memdesc:a2cc21a61337ec47756842018b2f3b6c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a whitespace to the symbol?  <a href="class_j_k_q_t_math_text_symbol_node.html#a2cc21a61337ec47756842018b2f3b6c0">More...</a><br /></td></tr>
-<tr class="separator:a2cc21a61337ec47756842018b2f3b6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32cb42c8c861a1ae6ee8fe6e6fd5c93d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a32cb42c8c861a1ae6ee8fe6e6fd5c93d">getSymbolName</a> () const</td></tr>
 <tr class="memdesc:a32cb42c8c861a1ae6ee8fe6e6fd5c93d"><td class="mdescLeft">&#160;</td><td class="mdescRight">this string will be sent to the drawText method with properly set fonts  <a href="class_j_k_q_t_math_text_symbol_node.html#a32cb42c8c861a1ae6ee8fe6e6fd5c93d">More...</a><br /></td></tr>
 <tr class="separator:a32cb42c8c861a1ae6ee8fe6e6fd5c93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -254,17 +251,23 @@ Protected Types</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03cab0876ceee497d8fdfc13ddcc9d54b9ea">BoldOff</a> = 1 &lt;&lt; 3
 , <br />
-&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03caeac949446b1e92cc634751b202740581">DrawBar</a> = 1 &lt;&lt; 4
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca22503fab3615ab7401a081683f1545e9">DrawLeftHBar</a> = 1 &lt;&lt; 4
 , <br />
-&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03caa0462fc4613401b7221faa5a953d8f06">FlipUpDown</a> =1 &lt;&lt; 5
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca1a4da602dc9be0546b5cb4e16aa1b385">DrawRightHBar</a> = 1 &lt;&lt; 5
 , <br />
-&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03cafadda4326cafa36e292b69e3a4c40b88">FlipLeftRight</a> =1 &lt;&lt; 6
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca855cba814bf2a1c41f86bfdff7a99b88">FlipSymbolUpDown</a> =1 &lt;&lt; 6
 , <br />
-&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03cabd1e57fec8e37287cd15d832518a937b">Rotate90</a> =1 &lt;&lt; 7
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca7353306a4c6b52282158d61ac1a0d78b">FlipSymbolLeftRight</a> =1 &lt;&lt; 7
 , <br />
-&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03caf8e955d7dcda14c03c594e77189d9bea">DrawSlash</a> =1 &lt;&lt; 8
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca716a09953bef91a5630ec4df756e1b69">RotateSymbol90</a> =1 &lt;&lt; 8
 , <br />
-&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03cab24d11ccae111e2d4ccf82dffee55041">HeightIsAscent</a> = 1 &lt;&lt; 9
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03caf8e955d7dcda14c03c594e77189d9bea">DrawSlash</a> =1 &lt;&lt; 9
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca6eb128a6d5a83be96b64a158e936b6d2">DrawBackSlash</a> =1 &lt;&lt; 10
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca94922786b33f7bc7d3658ac83c639a91">DrawVertLine</a> =1 &lt;&lt; 11
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03cab24d11ccae111e2d4ccf82dffee55041">HeightIsAscent</a> = 1 &lt;&lt; 12
 , <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca8e313737c27cca9d219cc99e0ccbcdb2">Upright</a> =ItalicOff
 , <br />
@@ -303,9 +306,12 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:a640c413809a162c5b1147b362f004f8f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a640c413809a162c5b1147b362f004f8f">drawText</a> (QPainter &amp;p, const QString &amp;text, <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8">GlobalSymbolFlags</a> globalFlags)</td></tr>
-<tr class="memdesc:a640c413809a162c5b1147b362f004f8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw <em>text</em> at (0,0) using QPainter <em>p</em> and taking the flags from <em>globalFlags</em> into account  <a href="class_j_k_q_t_math_text_symbol_node.html#a640c413809a162c5b1147b362f004f8f">More...</a><br /></td></tr>
-<tr class="separator:a640c413809a162c5b1147b362f004f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38169d9a476c473b52f53173aa269f0a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a38169d9a476c473b52f53173aa269f0a">addGreekLetterVariants_WinSymbol_Unicode_Html</a> (const QString &amp;baseInstructionName, const QString &amp;letterWinSymbol, const QString &amp;letterUnicode, const QString &amp;html)</td></tr>
+<tr class="memdesc:a38169d9a476c473b52f53173aa269f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">insert <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#ab61137423e5d250d1cb2db87079ad029" title="constructs a SymbolProps for a greek letter with the symbol in unicode-encoding letterUnicode and in ...">GreekLetter_WinSymbol_Unicode_Html()</a> as <em>baseInstructionName</em> and UprightGreekLetter_WinSymbol_Unicode_Html and "up"+<em>letterWinSymbol</em> into symbols  <a href="class_j_k_q_t_math_text_symbol_node.html#a38169d9a476c473b52f53173aa269f0a">More...</a><br /></td></tr>
+<tr class="separator:a38169d9a476c473b52f53173aa269f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a797cc94bccd660ebf31fbd467ee81e9b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a797cc94bccd660ebf31fbd467ee81e9b">drawText</a> (QPainter &amp;p, const QString &amp;text, <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8">GlobalSymbolFlags</a> globalFlags, <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03c">SymbolFlags</a> symflags)</td></tr>
+<tr class="memdesc:a797cc94bccd660ebf31fbd467ee81e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw <em>text</em> at (0,0) using QPainter <em>p</em> and taking the flags from <em>globalFlags</em> into account  <a href="class_j_k_q_t_math_text_symbol_node.html#a797cc94bccd660ebf31fbd467ee81e9b">More...</a><br /></td></tr>
+<tr class="separator:a797cc94bccd660ebf31fbd467ee81e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e058fa0d0d95806985910ca1133d353"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a2e058fa0d0d95806985910ca1133d353">fillSymbolTables</a> ()</td></tr>
 <tr class="memdesc:a2e058fa0d0d95806985910ca1133d353"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill the symbol tables standardTextSymbols, winSymbolSymbol, ... with contents  <a href="class_j_k_q_t_math_text_symbol_node.html#a2e058fa0d0d95806985910ca1133d353">More...</a><br /></td></tr>
 <tr class="separator:a2e058fa0d0d95806985910ca1133d353"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -316,7 +322,7 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="memdesc:aaf6516d51256f862b7ef21df62708f6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the tight bounding rect of <em>text</em> using <em>fm</em> and taking the flags from <em>globalFlags</em> into account  <a href="class_j_k_q_t_math_text_symbol_node.html#aaf6516d51256f862b7ef21df62708f6d">More...</a><br /></td></tr>
 <tr class="separator:aaf6516d51256f862b7ef21df62708f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab61137423e5d250d1cb2db87079ad029"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#ab61137423e5d250d1cb2db87079ad029">GreekLetter_WinSymbol_Unicode_Html</a> (const QString &amp;letterWinSymbol, const QString &amp;letterUnicode, const QString &amp;html)</td></tr>
-<tr class="memdesc:ab61137423e5d250d1cb2db87079ad029"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for greek letter with the symbol in unicode-encoding <em>letterUnicode</em> and in WinSymbol-encoding letterWinWsymbol  <a href="class_j_k_q_t_math_text_symbol_node.html#ab61137423e5d250d1cb2db87079ad029">More...</a><br /></td></tr>
+<tr class="memdesc:ab61137423e5d250d1cb2db87079ad029"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a greek letter with the symbol in unicode-encoding <em>letterUnicode</em> and in WinSymbol-encoding letterWinWsymbol  <a href="class_j_k_q_t_math_text_symbol_node.html#ab61137423e5d250d1cb2db87079ad029">More...</a><br /></td></tr>
 <tr class="separator:ab61137423e5d250d1cb2db87079ad029"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f2d7e5b769067847defdc43834f4fae"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a3f2d7e5b769067847defdc43834f4fae">MathOperatorSymbol</a> (const QString &amp;op)</td></tr>
 <tr class="memdesc:a3f2d7e5b769067847defdc43834f4fae"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a math-operator like <code>\sin</code> ..., i.e. ItalicOff, BoldOff, ExtendWidthInMathmode  <a href="class_j_k_q_t_math_text_symbol_node.html#a3f2d7e5b769067847defdc43834f4fae">More...</a><br /></td></tr>
@@ -333,24 +339,33 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:a5cf8955c2ce04a229bf34696944fc145"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a5cf8955c2ce04a229bf34696944fc145">MathOperatorText</a> (const QString &amp;op, const QString &amp;ophtml)</td></tr>
 <tr class="memdesc:a5cf8955c2ce04a229bf34696944fc145"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> with explicit HTML for a math-operator like <code>\sin</code> ..., i.e. ItalicOff, BoldOff, HeightIsAscent, ExtendWidthInMathmode  <a href="class_j_k_q_t_math_text_symbol_node.html#a5cf8955c2ce04a229bf34696944fc145">More...</a><br /></td></tr>
 <tr class="separator:a5cf8955c2ce04a229bf34696944fc145"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f7dec81aa271ef3fe1009fdf9ad21c8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a7f7dec81aa271ef3fe1009fdf9ad21c8">SimpleTextSymbol</a> (const QString &amp;symbol)</td></tr>
-<tr class="memdesc:a7f7dec81aa271ef3fe1009fdf9ad21c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html" title="properties of the symbol, extends SymbolProps with font...">SymbolFullProps</a> object for a symbol that can be typeset in any font, for <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a598e6737c0414dc235e208d60ce62a9d" title="HTML entity/text to represent the symbol (empty html.symbol not available)">SymbolFullProps::html</a> the same text as a<em>symbol</em> is used  <a href="class_j_k_q_t_math_text_symbol_node.html#a7f7dec81aa271ef3fe1009fdf9ad21c8">More...</a><br /></td></tr>
-<tr class="separator:a7f7dec81aa271ef3fe1009fdf9ad21c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10ab97cb642b441eafdfaac4e2d586d3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a10ab97cb642b441eafdfaac4e2d586d3">SimpleTextSymbol</a> (const QString &amp;symbol, const QString &amp;html)</td></tr>
 <tr class="memdesc:a10ab97cb642b441eafdfaac4e2d586d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html" title="properties of the symbol, extends SymbolProps with font...">SymbolFullProps</a> object for a symbol that can be typeset in any font, a special html-string is given  <a href="class_j_k_q_t_math_text_symbol_node.html#a10ab97cb642b441eafdfaac4e2d586d3">More...</a><br /></td></tr>
 <tr class="separator:a10ab97cb642b441eafdfaac4e2d586d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22a3271cb02e6db603b2cb7af59ef472"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a22a3271cb02e6db603b2cb7af59ef472">SimpleTextSymbol</a> (const QString &amp;symbol, <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03c">SymbolFlags</a> _flags=<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca250bec0791a7ccec1d6994fdd037ab71">AsOutside</a>, double _fontScalingFactor=1.0, double _yShiftFactor=0.0)</td></tr>
+<tr class="memdesc:a22a3271cb02e6db603b2cb7af59ef472"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html" title="properties of the symbol, extends SymbolProps with font...">SymbolFullProps</a> object for a symbol that can be typeset in any font, for <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a598e6737c0414dc235e208d60ce62a9d" title="HTML entity/text to represent the symbol (empty html.symbol not available)">SymbolFullProps::html</a> the same text as a<em>symbol</em> is used  <a href="class_j_k_q_t_math_text_symbol_node.html#a22a3271cb02e6db603b2cb7af59ef472">More...</a><br /></td></tr>
+<tr class="separator:a22a3271cb02e6db603b2cb7af59ef472"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b0f6b8736d9509433502d9fe6a8dcf9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a3b0f6b8736d9509433502d9fe6a8dcf9">SimpleUprightTextSymbol</a> (const QString &amp;symbol)</td></tr>
 <tr class="memdesc:a3b0f6b8736d9509433502d9fe6a8dcf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html" title="properties of the symbol, extends SymbolProps with font...">SymbolFullProps</a> object for a symbol that can be typeset in any font, for <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a598e6737c0414dc235e208d60ce62a9d" title="HTML entity/text to represent the symbol (empty html.symbol not available)">SymbolFullProps::html</a> the same text as a<em>symbol</em> is used  <a href="class_j_k_q_t_math_text_symbol_node.html#a3b0f6b8736d9509433502d9fe6a8dcf9">More...</a><br /></td></tr>
 <tr class="separator:a3b0f6b8736d9509433502d9fe6a8dcf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4472f75e5c82a45f2582a0b425d92c4e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a4472f75e5c82a45f2582a0b425d92c4e">SimpleUprightTextSymbol</a> (const QString &amp;symbol, const QString &amp;html)</td></tr>
 <tr class="memdesc:a4472f75e5c82a45f2582a0b425d92c4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html" title="properties of the symbol, extends SymbolProps with font...">SymbolFullProps</a> object for a symbol that can be typeset in any font, a special html-string is given  <a href="class_j_k_q_t_math_text_symbol_node.html#a4472f75e5c82a45f2582a0b425d92c4e">More...</a><br /></td></tr>
 <tr class="separator:a4472f75e5c82a45f2582a0b425d92c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0be1f266487b3389bca09db761d4fd09"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a0be1f266487b3389bca09db761d4fd09">SymbolStd</a> (const QString &amp;symbol, const QString &amp;html=QString())</td></tr>
-<tr class="memdesc:a0be1f266487b3389bca09db761d4fd09"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a symbol with encoding in Standard-fonts a  <a href="class_j_k_q_t_math_text_symbol_node.html#a0be1f266487b3389bca09db761d4fd09">More...</a><br /></td></tr>
-<tr class="separator:a0be1f266487b3389bca09db761d4fd09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6b40e87160aa30de5edf424f7dff05c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#ad6b40e87160aa30de5edf424f7dff05c">SymbolUnicode</a> (const QString &amp;symbol, const QString &amp;html=QString())</td></tr>
-<tr class="memdesc:ad6b40e87160aa30de5edf424f7dff05c"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a symbol with encoding in UnicodeFull-fonts a  <a href="class_j_k_q_t_math_text_symbol_node.html#ad6b40e87160aa30de5edf424f7dff05c">More...</a><br /></td></tr>
-<tr class="separator:ad6b40e87160aa30de5edf424f7dff05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa182ab086fff3243f27a49883241b606"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#aa182ab086fff3243f27a49883241b606">SymbolStd</a> (const QString &amp;symbol, const QString &amp;html)</td></tr>
+<tr class="memdesc:aa182ab086fff3243f27a49883241b606"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a symbol with encoding in Standard-fonts a  <a href="class_j_k_q_t_math_text_symbol_node.html#aa182ab086fff3243f27a49883241b606">More...</a><br /></td></tr>
+<tr class="separator:aa182ab086fff3243f27a49883241b606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26656277a12bb3c2671f1692eb025ed6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a26656277a12bb3c2671f1692eb025ed6">SymbolStd</a> (const QString &amp;symbol, <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03c">SymbolFlags</a> _flags=<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca250bec0791a7ccec1d6994fdd037ab71">AsOutside</a>, double _fontScalingFactor=1.0, double _yShiftFactor=0.0)</td></tr>
+<tr class="memdesc:a26656277a12bb3c2671f1692eb025ed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a symbol with encoding in Standard-fonts a  <a href="class_j_k_q_t_math_text_symbol_node.html#a26656277a12bb3c2671f1692eb025ed6">More...</a><br /></td></tr>
+<tr class="separator:a26656277a12bb3c2671f1692eb025ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f76d85703bd64ecc2bf634b2730760d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a6f76d85703bd64ecc2bf634b2730760d">SymbolUnicode</a> (const QString &amp;symbol, const QString &amp;html)</td></tr>
+<tr class="memdesc:a6f76d85703bd64ecc2bf634b2730760d"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a symbol with encoding in UnicodeFull-fonts a  <a href="class_j_k_q_t_math_text_symbol_node.html#a6f76d85703bd64ecc2bf634b2730760d">More...</a><br /></td></tr>
+<tr class="separator:a6f76d85703bd64ecc2bf634b2730760d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6df6b0ac48093a3c4d823bac59a3a256"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a6df6b0ac48093a3c4d823bac59a3a256">SymbolUnicode</a> (const QString &amp;symbol, <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03c">SymbolFlags</a> _flags=<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca250bec0791a7ccec1d6994fdd037ab71">AsOutside</a>, double _fontScalingFactor=1.0, double _yShiftFactor=0.0)</td></tr>
+<tr class="memdesc:a6df6b0ac48093a3c4d823bac59a3a256"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a symbol with encoding in UnicodeFull-fonts a  <a href="class_j_k_q_t_math_text_symbol_node.html#a6df6b0ac48093a3c4d823bac59a3a256">More...</a><br /></td></tr>
+<tr class="separator:a6df6b0ac48093a3c4d823bac59a3a256"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f3a4f8a1e79c0e0d72b0c7771a47a36"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a3f3a4f8a1e79c0e0d72b0c7771a47a36">UprightGreekLetter_WinSymbol_Unicode_Html</a> (const QString &amp;letterWinSymbol, const QString &amp;letterUnicode, const QString &amp;html)</td></tr>
+<tr class="memdesc:a3f3a4f8a1e79c0e0d72b0c7771a47a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for an upright greek letter with the symbol in unicode-encoding <em>letterUnicode</em> and in WinSymbol-encoding letterWinWsymbol  <a href="class_j_k_q_t_math_text_symbol_node.html#a3f3a4f8a1e79c0e0d72b0c7771a47a36">More...</a><br /></td></tr>
+<tr class="separator:a3f3a4f8a1e79c0e0d72b0c7771a47a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8807148c966fc7f441558db64ad41287"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a8807148c966fc7f441558db64ad41287">UprightSymbolStd</a> (const QString &amp;symbol, const QString &amp;html=QString())</td></tr>
 <tr class="memdesc:a8807148c966fc7f441558db64ad41287"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a symbol with encoding in Standard-fonts a  <a href="class_j_k_q_t_math_text_symbol_node.html#a8807148c966fc7f441558db64ad41287">More...</a><br /></td></tr>
 <tr class="separator:a8807148c966fc7f441558db64ad41287"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -360,9 +375,6 @@ Static Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a77c1ba34646be1adc6bbae0d7801f9a2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a77c1ba34646be1adc6bbae0d7801f9a2">addWhitespace</a></td></tr>
-<tr class="memdesc:a77c1ba34646be1adc6bbae0d7801f9a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a whitespace to the symbol?  <a href="class_j_k_q_t_math_text_symbol_node.html#a77c1ba34646be1adc6bbae0d7801f9a2">More...</a><br /></td></tr>
-<tr class="separator:a77c1ba34646be1adc6bbae0d7801f9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a361ad059f7b20d99b9f6179d7ae0b5fb"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a361ad059f7b20d99b9f6179d7ae0b5fb">symbolName</a></td></tr>
 <tr class="memdesc:a361ad059f7b20d99b9f6179d7ae0b5fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">this string will be sent to the drawText method with properly set fonts  <a href="class_j_k_q_t_math_text_symbol_node.html#a361ad059f7b20d99b9f6179d7ae0b5fb">More...</a><br /></td></tr>
 <tr class="separator:a361ad059f7b20d99b9f6179d7ae0b5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -501,15 +513,21 @@ Friends</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03cab0876ceee497d8fdfc13ddcc9d54b9ea" name="a649451b2ed70a5358c14e1c4c3aeb03cab0876ceee497d8fdfc13ddcc9d54b9ea"></a>BoldOff&#160;</td><td class="fielddoc"><p >make font non-bold (i,,e, normal weight) in any case </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03caeac949446b1e92cc634751b202740581" name="a649451b2ed70a5358c14e1c4c3aeb03caeac949446b1e92cc634751b202740581"></a>DrawBar&#160;</td><td class="fielddoc"><p >indicates whether to draw a bar (like for <code>\hbar</code> ) </p>
+<tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03ca22503fab3615ab7401a081683f1545e9" name="a649451b2ed70a5358c14e1c4c3aeb03ca22503fab3615ab7401a081683f1545e9"></a>DrawLeftHBar&#160;</td><td class="fielddoc"><p >indicates whether to draw a bar on the left half of the character, above the xHeight (like for <code>\hbar</code> ), implements an italic-correction </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03caa0462fc4613401b7221faa5a953d8f06" name="a649451b2ed70a5358c14e1c4c3aeb03caa0462fc4613401b7221faa5a953d8f06"></a>FlipUpDown&#160;</td><td class="fielddoc"><p >indicates to flip the given symbol upside-down </p>
+<tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03ca1a4da602dc9be0546b5cb4e16aa1b385" name="a649451b2ed70a5358c14e1c4c3aeb03ca1a4da602dc9be0546b5cb4e16aa1b385"></a>DrawRightHBar&#160;</td><td class="fielddoc"><p >indicates whether to draw a bar on the right half of the character, above the xHeight, implements an italic-correction </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03cafadda4326cafa36e292b69e3a4c40b88" name="a649451b2ed70a5358c14e1c4c3aeb03cafadda4326cafa36e292b69e3a4c40b88"></a>FlipLeftRight&#160;</td><td class="fielddoc"><p >indicates to flip the given symbol left-right </p>
+<tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03ca855cba814bf2a1c41f86bfdff7a99b88" name="a649451b2ed70a5358c14e1c4c3aeb03ca855cba814bf2a1c41f86bfdff7a99b88"></a>FlipSymbolUpDown&#160;</td><td class="fielddoc"><p >indicates to flip the given symbol upside-down </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03cabd1e57fec8e37287cd15d832518a937b" name="a649451b2ed70a5358c14e1c4c3aeb03cabd1e57fec8e37287cd15d832518a937b"></a>Rotate90&#160;</td><td class="fielddoc"><p >indicates to rotate the symbol 90 degree </p>
+<tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03ca7353306a4c6b52282158d61ac1a0d78b" name="a649451b2ed70a5358c14e1c4c3aeb03ca7353306a4c6b52282158d61ac1a0d78b"></a>FlipSymbolLeftRight&#160;</td><td class="fielddoc"><p >indicates to flip the given symbol left-right </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03caf8e955d7dcda14c03c594e77189d9bea" name="a649451b2ed70a5358c14e1c4c3aeb03caf8e955d7dcda14c03c594e77189d9bea"></a>DrawSlash&#160;</td><td class="fielddoc"><p >indicates to overdraw a backslash (e.g. to combine 0 and / to form \varnothing ) </p>
+<tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03ca716a09953bef91a5630ec4df756e1b69" name="a649451b2ed70a5358c14e1c4c3aeb03ca716a09953bef91a5630ec4df756e1b69"></a>RotateSymbol90&#160;</td><td class="fielddoc"><p >indicates to rotate the symbol 90 degree </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03caf8e955d7dcda14c03c594e77189d9bea" name="a649451b2ed70a5358c14e1c4c3aeb03caf8e955d7dcda14c03c594e77189d9bea"></a>DrawSlash&#160;</td><td class="fielddoc"><p >indicates to overdraw a slash (e.g. to combine 0 and / to form \varnothing ) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03ca6eb128a6d5a83be96b64a158e936b6d2" name="a649451b2ed70a5358c14e1c4c3aeb03ca6eb128a6d5a83be96b64a158e936b6d2"></a>DrawBackSlash&#160;</td><td class="fielddoc"><p >indicates to overdraw a backslash </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03ca94922786b33f7bc7d3658ac83c639a91" name="a649451b2ed70a5358c14e1c4c3aeb03ca94922786b33f7bc7d3658ac83c639a91"></a>DrawVertLine&#160;</td><td class="fielddoc"><p >indicates to overdraw a centered vertical line (slightly tilted if italic) </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a649451b2ed70a5358c14e1c4c3aeb03cab24d11ccae111e2d4ccf82dffee55041" name="a649451b2ed70a5358c14e1c4c3aeb03cab24d11ccae111e2d4ccf82dffee55041"></a>HeightIsAscent&#160;</td><td class="fielddoc"><p >if true, the height of the symbol equals the ascent of the font </p>
 </td></tr>
@@ -520,8 +538,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a780f73722281e15dabb7764dcf242bf7" name="a780f73722281e15dabb7764dcf242bf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a780f73722281e15dabb7764dcf242bf7">&#9670;&nbsp;</a></span>JKQTMathTextSymbolNode()</h2>
+<a id="aa5991a07dd8084cd0128743c4d22dcca" name="aa5991a07dd8084cd0128743c4d22dcca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5991a07dd8084cd0128743c4d22dcca">&#9670;&nbsp;</a></span>JKQTMathTextSymbolNode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -539,13 +557,7 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>addWhitespace</em>&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -588,6 +600,56 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a38169d9a476c473b52f53173aa269f0a" name="a38169d9a476c473b52f53173aa269f0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38169d9a476c473b52f53173aa269f0a">&#9670;&nbsp;</a></span>addGreekLetterVariants_WinSymbol_Unicode_Html()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void JKQTMathTextSymbolNode::addGreekLetterVariants_WinSymbol_Unicode_Html </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>baseInstructionName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>letterWinSymbol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>letterUnicode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>html</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>insert <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#ab61137423e5d250d1cb2db87079ad029" title="constructs a SymbolProps for a greek letter with the symbol in unicode-encoding letterUnicode and in ...">GreekLetter_WinSymbol_Unicode_Html()</a> as <em>baseInstructionName</em> and UprightGreekLetter_WinSymbol_Unicode_Html and "up"+<em>letterWinSymbol</em> into symbols </p>
+
+</div>
+</div>
 <a id="a29d1a2fd461d374ce2680974078065b5" name="a29d1a2fd461d374ce2680974078065b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29d1a2fd461d374ce2680974078065b5">&#9670;&nbsp;</a></span>draw()</h2>
 
@@ -657,8 +719,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a640c413809a162c5b1147b362f004f8f" name="a640c413809a162c5b1147b362f004f8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a640c413809a162c5b1147b362f004f8f">&#9670;&nbsp;</a></span>drawText()</h2>
+<a id="a797cc94bccd660ebf31fbd467ee81e9b" name="a797cc94bccd660ebf31fbd467ee81e9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a797cc94bccd660ebf31fbd467ee81e9b">&#9670;&nbsp;</a></span>drawText()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -682,7 +744,13 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8">GlobalSymbolFlags</a>&#160;</td>
-          <td class="paramname"><em>globalFlags</em>&#160;</td>
+          <td class="paramname"><em>globalFlags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03c">SymbolFlags</a>&#160;</td>
+          <td class="paramname"><em>symflags</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -725,25 +793,6 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>fill the symbol tables standardTextSymbols, winSymbolSymbol, ... with contents </p>
-
-</div>
-</div>
-<a id="a2cc21a61337ec47756842018b2f3b6c0" name="a2cc21a61337ec47756842018b2f3b6c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2cc21a61337ec47756842018b2f3b6c0">&#9670;&nbsp;</a></span>getAddWhitespace()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool JKQTMathTextSymbolNode::getAddWhitespace </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>add a whitespace to the symbol? </p>
 
 </div>
 </div>
@@ -1222,7 +1271,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for greek letter with the symbol in unicode-encoding <em>letterUnicode</em> and in WinSymbol-encoding letterWinWsymbol </p>
+<p>constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a greek letter with the symbol in unicode-encoding <em>letterUnicode</em> and in WinSymbol-encoding letterWinWsymbol </p>
 
 </div>
 </div>
@@ -1414,36 +1463,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a7f7dec81aa271ef3fe1009fdf9ad21c8" name="a7f7dec81aa271ef3fe1009fdf9ad21c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f7dec81aa271ef3fe1009fdf9ad21c8">&#9670;&nbsp;</a></span>SimpleTextSymbol() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a> JKQTMathTextSymbolNode::SimpleTextSymbol </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>symbol</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>creates a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html" title="properties of the symbol, extends SymbolProps with font...">SymbolFullProps</a> object for a symbol that can be typeset in any font, for <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a598e6737c0414dc235e208d60ce62a9d" title="HTML entity/text to represent the symbol (empty html.symbol not available)">SymbolFullProps::html</a> the same text as a<em>symbol</em> is used </p>
-
-</div>
-</div>
 <a id="a10ab97cb642b441eafdfaac4e2d586d3" name="a10ab97cb642b441eafdfaac4e2d586d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10ab97cb642b441eafdfaac4e2d586d3">&#9670;&nbsp;</a></span>SimpleTextSymbol() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a10ab97cb642b441eafdfaac4e2d586d3">&#9670;&nbsp;</a></span>SimpleTextSymbol() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1477,6 +1498,56 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>creates a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html" title="properties of the symbol, extends SymbolProps with font...">SymbolFullProps</a> object for a symbol that can be typeset in any font, a special html-string is given </p>
+
+</div>
+</div>
+<a id="a22a3271cb02e6db603b2cb7af59ef472" name="a22a3271cb02e6db603b2cb7af59ef472"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22a3271cb02e6db603b2cb7af59ef472">&#9670;&nbsp;</a></span>SimpleTextSymbol() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a> JKQTMathTextSymbolNode::SimpleTextSymbol </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>symbol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03c">SymbolFlags</a>&#160;</td>
+          <td class="paramname"><em>_flags</em> = <code><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca250bec0791a7ccec1d6994fdd037ab71">AsOutside</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_fontScalingFactor</em> = <code>1.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_yShiftFactor</em> = <code>0.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>creates a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html" title="properties of the symbol, extends SymbolProps with font...">SymbolFullProps</a> object for a symbol that can be typeset in any font, for <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a598e6737c0414dc235e208d60ce62a9d" title="HTML entity/text to represent the symbol (empty html.symbol not available)">SymbolFullProps::html</a> the same text as a<em>symbol</em> is used </p>
 
 </div>
 </div>
@@ -1546,8 +1617,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a0be1f266487b3389bca09db761d4fd09" name="a0be1f266487b3389bca09db761d4fd09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0be1f266487b3389bca09db761d4fd09">&#9670;&nbsp;</a></span>SymbolStd()</h2>
+<a id="aa182ab086fff3243f27a49883241b606" name="aa182ab086fff3243f27a49883241b606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa182ab086fff3243f27a49883241b606">&#9670;&nbsp;</a></span>SymbolStd() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1565,7 +1636,7 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>html</em> = <code>QString()</code>&#160;</td>
+          <td class="paramname"><em>html</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1584,8 +1655,58 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ad6b40e87160aa30de5edf424f7dff05c" name="ad6b40e87160aa30de5edf424f7dff05c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6b40e87160aa30de5edf424f7dff05c">&#9670;&nbsp;</a></span>SymbolUnicode()</h2>
+<a id="a26656277a12bb3c2671f1692eb025ed6" name="a26656277a12bb3c2671f1692eb025ed6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26656277a12bb3c2671f1692eb025ed6">&#9670;&nbsp;</a></span>SymbolStd() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a> JKQTMathTextSymbolNode::SymbolStd </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>symbol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03c">SymbolFlags</a>&#160;</td>
+          <td class="paramname"><em>_flags</em> = <code><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca250bec0791a7ccec1d6994fdd037ab71">AsOutside</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_fontScalingFactor</em> = <code>1.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_yShiftFactor</em> = <code>0.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a symbol with encoding in Standard-fonts a </p>
+
+</div>
+</div>
+<a id="a6f76d85703bd64ecc2bf634b2730760d" name="a6f76d85703bd64ecc2bf634b2730760d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f76d85703bd64ecc2bf634b2730760d">&#9670;&nbsp;</a></span>SymbolUnicode() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1603,7 +1724,57 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>html</em> = <code>QString()</code>&#160;</td>
+          <td class="paramname"><em>html</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a symbol with encoding in UnicodeFull-fonts a </p>
+
+</div>
+</div>
+<a id="a6df6b0ac48093a3c4d823bac59a3a256" name="a6df6b0ac48093a3c4d823bac59a3a256"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6df6b0ac48093a3c4d823bac59a3a256">&#9670;&nbsp;</a></span>SymbolUnicode() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a> JKQTMathTextSymbolNode::SymbolUnicode </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>symbol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03c">SymbolFlags</a>&#160;</td>
+          <td class="paramname"><em>_flags</em> = <code><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca250bec0791a7ccec1d6994fdd037ab71">AsOutside</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_fontScalingFactor</em> = <code>1.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_yShiftFactor</em> = <code>0.0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1674,6 +1845,50 @@ Friends</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> on success </dd></dl>
 
 <p>Reimplemented from <a class="el" href="class_j_k_q_t_math_text_node.html#a2ba14f4c0070bd6e4fbc92b35c15df09">JKQTMathTextNode</a>.</p>
+
+</div>
+</div>
+<a id="a3f3a4f8a1e79c0e0d72b0c7771a47a36" name="a3f3a4f8a1e79c0e0d72b0c7771a47a36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f3a4f8a1e79c0e0d72b0c7771a47a36">&#9670;&nbsp;</a></span>UprightGreekLetter_WinSymbol_Unicode_Html()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a> JKQTMathTextSymbolNode::UprightGreekLetter_WinSymbol_Unicode_Html </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>letterWinSymbol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>letterUnicode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>html</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for an upright greek letter with the symbol in unicode-encoding <em>letterUnicode</em> and in WinSymbol-encoding letterWinWsymbol </p>
 
 </div>
 </div>
@@ -2311,30 +2526,6 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a77c1ba34646be1adc6bbae0d7801f9a2" name="a77c1ba34646be1adc6bbae0d7801f9a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77c1ba34646be1adc6bbae0d7801f9a2">&#9670;&nbsp;</a></span>addWhitespace</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool JKQTMathTextSymbolNode::addWhitespace</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>add a whitespace to the symbol? </p>
-
-</div>
-</div>
 <a id="a361ad059f7b20d99b9f6179d7ae0b5fb" name="a361ad059f7b20d99b9f6179d7ae0b5fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a361ad059f7b20d99b9f6179d7ae0b5fb">&#9670;&nbsp;</a></span>symbolName</h2>
 
@@ -2392,7 +2583,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html">JKQTMathTextSymbolNode</a></li>
-    <li class="footer">Generated on Tue Jul 5 2022 18:18:02 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Tue Jul 5 2022 20:06:39 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

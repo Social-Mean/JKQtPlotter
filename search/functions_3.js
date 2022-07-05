@@ -47,7 +47,7 @@ var searchData=
   ['drawsystemgrid_44',['drawSystemGrid',['../class_j_k_q_t_base_plotter.html#ad39ee41d0733a2bf29afe4e18a30488b',1,'JKQTBasePlotter']]],
   ['drawsystemxaxis_45',['drawSystemXAxis',['../class_j_k_q_t_base_plotter.html#a3207759398625730c027fd1b4300d92e',1,'JKQTBasePlotter']]],
   ['drawsystemyaxis_46',['drawSystemYAxis',['../class_j_k_q_t_base_plotter.html#a29b799276eb0afd1c6a43ff30a056162',1,'JKQTBasePlotter']]],
-  ['drawtext_47',['drawText',['../class_j_k_q_t_math_text_symbol_node.html#a640c413809a162c5b1147b362f004f8f',1,'JKQTMathTextSymbolNode']]],
+  ['drawtext_47',['drawText',['../class_j_k_q_t_math_text_symbol_node.html#a797cc94bccd660ebf31fbd467ee81e9b',1,'JKQTMathTextSymbolNode']]],
   ['drawticklabel1_48',['drawTickLabel1',['../class_j_k_q_t_p_vertical_axis.html#aff4a100dd719db4a949e392fd7b4133c',1,'JKQTPVerticalAxis::drawTickLabel1()'],['../class_j_k_q_t_p_horizontal_axis.html#af30d0c54221589c5b238eaa004bf74a5',1,'JKQTPHorizontalAxis::drawTickLabel1()']]],
   ['drawticklabel2_49',['drawTickLabel2',['../class_j_k_q_t_p_vertical_axis.html#a500d9f5ed36bd6ec59fd098dbd2fd057',1,'JKQTPVerticalAxis::drawTickLabel2()'],['../class_j_k_q_t_p_horizontal_axis.html#a6be8e164b6008cd4234336608d897d05',1,'JKQTPHorizontalAxis::drawTickLabel2()']]],
   ['drawxgraph_50',['drawXGraph',['../class_j_k_q_t_p_evaluated_function_with_errors_graph_drawing_base.html#a3073a50cc17e2ec96312ead72b117350',1,'JKQTPEvaluatedFunctionWithErrorsGraphDrawingBase']]],

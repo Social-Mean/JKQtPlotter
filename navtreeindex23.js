@@ -1,5 +1,7 @@
 var NAVTREEINDEX23 =
 {
+"group__jkqtfastplotter.html#ga0c5d40ac98f671ca748b48a95864be11":[10,0,16],
+"group__jkqtfastplotter.html#ga2e3a2c2da06679a53ed4fba6812c7c37":[10,0,18],
 "group__jkqtfastplotter.html#gaa6fb10f6ffcbaa769b10bcf2fa69c276":[10,0,19],
 "group__jkqtfastplotter.html#gaa94a0bca376a39f32a47dbd6f08fc594":[10,0,14],
 "group__jkqtfastplotter.html#gadd386bcf668dcc0c0607be6e5ddcbb7e":[10,0,13],
@@ -60,14 +62,12 @@ var NAVTREEINDEX23 =
 "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea3aebd9cf2d242c882c76dfc4b7b28c54":[10,1,1,6,8],
 "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea3bf02785e2c4b0639c03483fc5a0abf9":[10,1,1,6,1],
 "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea4077075fa3bc6b3499ff511f4b26e567":[10,1,1,6,0],
-"group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea46427d83d2029151648c9245356435ad":[10,1,1,6,12],
+"group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea46427d83d2029151648c9245356435ad":[10,1,1,6,9],
 "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea5013a2a14e08f82e63568fea5914f333":[10,1,1,6,4],
 "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea5c3e274133326a5acb381e6898c34847":[10,1,1,6,6],
 "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea8aace98cbeb7bb5854fc571b4112e680":[10,1,1,6,7],
 "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5ea9cf52aa96523ee99a88fae7e3c06e604":[10,1,1,6,2],
-"group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5eab52603383eb76c02b2281ebd77517b59":[10,1,1,6,9],
 "group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5eac99dada3f6e07437bb8919268f7dd950":[10,1,1,6,10],
-"group__jkqtmathtext__tools.html#gga50c212be3daed5382824252f58253f5eaca759549889a7f39d290da3bb49923a7":[10,1,1,6,13],
 "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472a0e3578ed794778ca677dd0df8825462a":[10,1,1,5,11],
 "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472a132256e54644eb06a5cdfa4bd1725bbf":[10,1,1,5,10],
 "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472a2336e00a9c0dac510693c045dccf4e99":[10,1,1,5,5],
