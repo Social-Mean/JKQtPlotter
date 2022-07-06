@@ -3,8 +3,10 @@ var class_j_k_q_t_math_text_symbol_node =
     [ "GlobalSymbolFlags", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8", [
       [ "NoGLobalSymbolFlags", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ac095fc6583ac51c40bd7004445c5dda7", null ],
       [ "ExtendWidthInMathmode", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ae19d5cbb3f3c52f08132b3982bf13296", null ],
+      [ "SmallExtendWidthInMathmode", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8a51eac73b930a28f76d6c53d925ffa7fb", null ],
       [ "MakeWhitespaceHalf", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ad7dcf030f559c59ee913253dcbba891a", null ],
-      [ "IntLikeSymbolCorrection", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8a9a82f182bd6a3873bf5ad24d4c15c602", null ]
+      [ "IntLikeSymbolCorrection", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8a9a82f182bd6a3873bf5ad24d4c15c602", null ],
+      [ "SubSuperscriptBelowAboveSymbol", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ade2fa39a07710b82e492afc691b02aa1", null ]
     ] ],
     [ "SymbolFlags", "class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03c", [
       [ "AsOutside", "class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca250bec0791a7ccec1d6994fdd037ab71", null ],
@@ -40,11 +42,13 @@ var class_j_k_q_t_math_text_symbol_node =
     [ "getTypeName", "class_j_k_q_t_math_text_symbol_node.html#a2cd93c966be7031ffad99a1117945792", null ],
     [ "GreekLetter_WinSymbol_Unicode_Html", "class_j_k_q_t_math_text_symbol_node.html#ab61137423e5d250d1cb2db87079ad029", null ],
     [ "hasSymbol", "class_j_k_q_t_math_text_symbol_node.html#a3b9d4b0185538fff523586c981ac254b", null ],
+    [ "isSubSuperscriptBelowAboveSymbol", "class_j_k_q_t_math_text_symbol_node.html#aaddac0b8f5b89eb5a024c098be2e714d", null ],
     [ "MathOperatorSymbol", "class_j_k_q_t_math_text_symbol_node.html#a3f2d7e5b769067847defdc43834f4fae", null ],
     [ "MathOperatorSymbol", "class_j_k_q_t_math_text_symbol_node.html#a443b4eca15083a0cb0389eb9b3e310a0", null ],
     [ "MathOperatorSymbolUnicode", "class_j_k_q_t_math_text_symbol_node.html#a01e2553209ea5deb257079e4849d0071", null ],
     [ "MathOperatorText", "class_j_k_q_t_math_text_symbol_node.html#a6273432ed0b95b601b1915e1ed4857aa", null ],
     [ "MathOperatorText", "class_j_k_q_t_math_text_symbol_node.html#a5cf8955c2ce04a229bf34696944fc145", null ],
+    [ "NarrowMathOperatorSymbolUnicode", "class_j_k_q_t_math_text_symbol_node.html#ad08a1edd0d4ee5491b864c18b2fa3ace", null ],
     [ "SimpleTextSymbol", "class_j_k_q_t_math_text_symbol_node.html#a10ab97cb642b441eafdfaac4e2d586d3", null ],
     [ "SimpleTextSymbol", "class_j_k_q_t_math_text_symbol_node.html#a22a3271cb02e6db603b2cb7af59ef472", null ],
     [ "SimpleUprightTextSymbol", "class_j_k_q_t_math_text_symbol_node.html#a3b0f6b8736d9509433502d9fe6a8dcf9", null ],

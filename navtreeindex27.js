@@ -1,5 +1,19 @@
 var NAVTREEINDEX27 =
 {
+"struct_j_k_q_t_math_text_node_size.html#aca206bdc5f3dd30b5ec2e797ae317a3b":[10,1,1,3,4],
+"struct_j_k_q_t_math_text_node_size.html#ad11f5452e869c7db8feb6cdf15683e79":[10,1,1,3,1],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html":[10,1,0,0,17],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a04d8d0175797f00afc2a93778f94030d":[10,1,0,0,17,29],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a0d50b786f763615e3c767ae390de538f":[10,1,0,0,17,31],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a0d827b2792915184c7750daceb0ae6d8":[10,1,0,0,17,30],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a10709e0d5e6cdc11150fa7eb5e369570":[10,1,0,0,17,6],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a13ceb875df76dc62461ca4a9cb8ab982":[10,1,0,0,17,3],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a14bf777a8f9ec7dc71e6610523237cb9":[10,1,0,0,17,34],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a202d29b1e836098f9e04d62bc39914a4":[10,1,0,0,17,17],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a209eadd187afe4890f0ca9cf1c1afb1c":[10,1,0,0,17,7],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a22e465a0bb5c08091436229058744979":[10,1,0,0,17,19],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a2348f4052d54419bf52121dd7475636a":[10,1,0,0,17,37],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a25c3bb329cf4ce3cabf90a5cf4dce27e":[10,1,0,0,17,21],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a29ac899533a105454f106276d10ff236":[10,1,0,0,17,28],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a2abde3e3f19479a1a5986555076d69eb":[10,1,0,0,17,9],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a32e9c62199689612b9004ed95580706c":[10,1,0,0,17,12],
@@ -235,7 +249,5 @@ var NAVTREEINDEX27 =
 "struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#a7914115b8ba2888e92b06f56bc6ae9dd":[10,2,3,4,6],
 "struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#aaf823d34b71fa0814a9d52c5be3b4dbb":[10,2,3,4,2],
 "struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#ae75d5b0a0258a492bc851b4290caa174":[10,2,3,4,4],
-"struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#aed2637d22057ff67a7430d23dabff771":[10,2,3,4,0],
-"struct_j_k_q_t_plotter_drawing_tools.html":[10,3,5,1],
-"struct_j_k_q_t_plotter_drawing_tools.html#ab2f73282b1b10407fa55fdb2883d70e1":[10,3,5,1,0]
+"struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#aed2637d22057ff67a7430d23dabff771":[10,2,3,4,0]
 };

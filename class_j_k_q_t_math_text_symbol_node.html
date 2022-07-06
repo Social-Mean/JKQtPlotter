@@ -225,6 +225,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a3b9d4b0185538fff523586c981ac254b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a3b9d4b0185538fff523586c981ac254b">hasSymbol</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a361ad059f7b20d99b9f6179d7ae0b5fb">symbolName</a>)</td></tr>
 <tr class="memdesc:a3b9d4b0185538fff523586c981ac254b"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the given symbol name can be prepresented by this type of node  <a href="class_j_k_q_t_math_text_symbol_node.html#a3b9d4b0185538fff523586c981ac254b">More...</a><br /></td></tr>
 <tr class="separator:a3b9d4b0185538fff523586c981ac254b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaddac0b8f5b89eb5a024c098be2e714d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#aaddac0b8f5b89eb5a024c098be2e714d">isSubSuperscriptBelowAboveSymbol</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a361ad059f7b20d99b9f6179d7ae0b5fb">symbolName</a>)</td></tr>
+<tr class="memdesc:aaddac0b8f5b89eb5a024c098be2e714d"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the given symbol name can be prepresented by this type of node  <a href="class_j_k_q_t_math_text_symbol_node.html#aaddac0b8f5b89eb5a024c098be2e714d">More...</a><br /></td></tr>
+<tr class="separator:aaddac0b8f5b89eb5a024c098be2e714d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
 Protected Types</h2></td></tr>
@@ -233,9 +236,13 @@ Protected Types</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ae19d5cbb3f3c52f08132b3982bf13296">ExtendWidthInMathmode</a> = 1 &lt;&lt; 0
 , <br />
-&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ad7dcf030f559c59ee913253dcbba891a">MakeWhitespaceHalf</a> = 1 &lt;&lt; 1
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8a51eac73b930a28f76d6c53d925ffa7fb">SmallExtendWidthInMathmode</a> = 1 &lt;&lt; 1
 , <br />
-&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8a9a82f182bd6a3873bf5ad24d4c15c602">IntLikeSymbolCorrection</a> = 1 &lt;&lt; 2
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ad7dcf030f559c59ee913253dcbba891a">MakeWhitespaceHalf</a> = 1 &lt;&lt; 2
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8a9a82f182bd6a3873bf5ad24d4c15c602">IntLikeSymbolCorrection</a> = 1 &lt;&lt; 3
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ade2fa39a07710b82e492afc691b02aa1">SubSuperscriptBelowAboveSymbol</a> = 1 &lt;&lt; 4
 <br />
  }</td></tr>
 <tr class="memdesc:a40322e868ec31e62ede5212e54bc63a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">flags specifying additional symbol features  <a href="class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8">More...</a><br /></td></tr>
@@ -339,6 +346,9 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:a5cf8955c2ce04a229bf34696944fc145"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a5cf8955c2ce04a229bf34696944fc145">MathOperatorText</a> (const QString &amp;op, const QString &amp;ophtml)</td></tr>
 <tr class="memdesc:a5cf8955c2ce04a229bf34696944fc145"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> with explicit HTML for a math-operator like <code>\sin</code> ..., i.e. ItalicOff, BoldOff, HeightIsAscent, ExtendWidthInMathmode  <a href="class_j_k_q_t_math_text_symbol_node.html#a5cf8955c2ce04a229bf34696944fc145">More...</a><br /></td></tr>
 <tr class="separator:a5cf8955c2ce04a229bf34696944fc145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad08a1edd0d4ee5491b864c18b2fa3ace"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#ad08a1edd0d4ee5491b864c18b2fa3ace">NarrowMathOperatorSymbolUnicode</a> (const QString &amp;unicode)</td></tr>
+<tr class="memdesc:ad08a1edd0d4ee5491b864c18b2fa3ace"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a math-operator symbol like <code>\pm</code> ... in unicode-full-encoding, i.e. ItalicOff, BoldOff, SmallExtendWidthInMathmode  <a href="class_j_k_q_t_math_text_symbol_node.html#ad08a1edd0d4ee5491b864c18b2fa3ace">More...</a><br /></td></tr>
+<tr class="separator:ad08a1edd0d4ee5491b864c18b2fa3ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10ab97cb642b441eafdfaac4e2d586d3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a10ab97cb642b441eafdfaac4e2d586d3">SimpleTextSymbol</a> (const QString &amp;symbol, const QString &amp;html)</td></tr>
 <tr class="memdesc:a10ab97cb642b441eafdfaac4e2d586d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html" title="properties of the symbol, extends SymbolProps with font...">SymbolFullProps</a> object for a symbol that can be typeset in any font, a special html-string is given  <a href="class_j_k_q_t_math_text_symbol_node.html#a10ab97cb642b441eafdfaac4e2d586d3">More...</a><br /></td></tr>
 <tr class="separator:a10ab97cb642b441eafdfaac4e2d586d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -473,9 +483,13 @@ Friends</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a40322e868ec31e62ede5212e54bc63a8ae19d5cbb3f3c52f08132b3982bf13296" name="a40322e868ec31e62ede5212e54bc63a8ae19d5cbb3f3c52f08132b3982bf13296"></a>ExtendWidthInMathmode&#160;</td><td class="fielddoc"><p >this symbol has an extended width, when used within a moth-environment/in math-mode </p>
 </td></tr>
+<tr><td class="fieldname"><a id="a40322e868ec31e62ede5212e54bc63a8a51eac73b930a28f76d6c53d925ffa7fb" name="a40322e868ec31e62ede5212e54bc63a8a51eac73b930a28f76d6c53d925ffa7fb"></a>SmallExtendWidthInMathmode&#160;</td><td class="fielddoc"><p >like ExtendWidthInMathmode but adds a smaller whitespace </p>
+</td></tr>
 <tr><td class="fieldname"><a id="a40322e868ec31e62ede5212e54bc63a8ad7dcf030f559c59ee913253dcbba891a" name="a40322e868ec31e62ede5212e54bc63a8ad7dcf030f559c59ee913253dcbba891a"></a>MakeWhitespaceHalf&#160;</td><td class="fielddoc"><p >symbol uses whitespaces in its text (<a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html#a8c3c688cbcbeea7f63c2989562417f9f" title="the symbol or text used to render the symbol (i.e. not the name, e.g. if the instruction/symbol name ...">SymbolProps::symbol</a>). These should be typeset as half-spaces </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a40322e868ec31e62ede5212e54bc63a8a9a82f182bd6a3873bf5ad24d4c15c602" name="a40322e868ec31e62ede5212e54bc63a8a9a82f182bd6a3873bf5ad24d4c15c602"></a>IntLikeSymbolCorrection&#160;</td><td class="fielddoc"><p >symbols, like <code>\int</code>,\iint,... require a correction in x-direction for subsequent sub-/superscripts ... this flag marks such symbols </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a40322e868ec31e62ede5212e54bc63a8ade2fa39a07710b82e492afc691b02aa1" name="a40322e868ec31e62ede5212e54bc63a8ade2fa39a07710b82e492afc691b02aa1"></a>SubSuperscriptBelowAboveSymbol&#160;</td><td class="fielddoc"><p >symbols, like <code>\int</code>,\iint,... if appearing in math-mode cause typesetting following sub-/superscripts below/above the symbol, not besides it. </p>
 </td></tr>
 </table>
 
@@ -1303,6 +1317,34 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="aaddac0b8f5b89eb5a024c098be2e714d" name="aaddac0b8f5b89eb5a024c098be2e714d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaddac0b8f5b89eb5a024c098be2e714d">&#9670;&nbsp;</a></span>isSubSuperscriptBelowAboveSymbol()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool JKQTMathTextSymbolNode::isSubSuperscriptBelowAboveSymbol </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>symbolName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks whether the given symbol name can be prepresented by this type of node </p>
+
+</div>
+</div>
 <a id="a3f2d7e5b769067847defdc43834f4fae" name="a3f2d7e5b769067847defdc43834f4fae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3f2d7e5b769067847defdc43834f4fae">&#9670;&nbsp;</a></span>MathOperatorSymbol() <span class="overload">[1/2]</span></h2>
 
@@ -1460,6 +1502,34 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> with explicit HTML for a math-operator like <code>\sin</code> ..., i.e. ItalicOff, BoldOff, HeightIsAscent, ExtendWidthInMathmode </p>
+
+</div>
+</div>
+<a id="ad08a1edd0d4ee5491b864c18b2fa3ace" name="ad08a1edd0d4ee5491b864c18b2fa3ace"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad08a1edd0d4ee5491b864c18b2fa3ace">&#9670;&nbsp;</a></span>NarrowMathOperatorSymbolUnicode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a> JKQTMathTextSymbolNode::NarrowMathOperatorSymbolUnicode </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>unicode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a math-operator symbol like <code>\pm</code> ... in unicode-full-encoding, i.e. ItalicOff, BoldOff, SmallExtendWidthInMathmode </p>
 
 </div>
 </div>
@@ -2583,7 +2653,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html">JKQTMathTextSymbolNode</a></li>
-    <li class="footer">Generated on Wed Jul 6 2022 05:24:15 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Wed Jul 6 2022 20:48:21 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

@@ -117,7 +117,9 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_math_text_decorated_node
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="class_j_k_q_t_math_text_decorated_node-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">JKQTMathTextDecoratedNode Class Reference<div class="ingroups"><a class="el" href="group__jkqtmathtext.html">JKQTMathText LaTeX-Renderer for Qt</a> &raquo; <a class="el" href="group__jkqtmathtext__render.html">JKQTMathText Main (Render) Class</a> &raquo; <a class="el" href="group__jkqtmathtext__items.html">JKQTMathText Render-Tree Items</a></div></div></div>
 </div><!--header-->
@@ -281,6 +283,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad52ecde584000b8ab80ee6a1aae07fd8"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#ad52ecde584000b8ab80ee6a1aae07fd8">DecorationType2String</a> (<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">DecorationType</a> mode)</td></tr>
 <tr class="memdesc:ad52ecde584000b8ab80ee6a1aae07fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a DecorationType into a string  <a href="class_j_k_q_t_math_text_decorated_node.html#ad52ecde584000b8ab80ee6a1aae07fd8">More...</a><br /></td></tr>
 <tr class="separator:ad52ecde584000b8ab80ee6a1aae07fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f3d94cc90a9b6062ecedc6d24035527"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">DecorationType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a1f3d94cc90a9b6062ecedc6d24035527">InstructionName2DecorationType</a> (const QString &amp;mode)</td></tr>
+<tr class="memdesc:a1f3d94cc90a9b6062ecedc6d24035527"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the FracType corresponding to <em>instructionName</em>  <a href="class_j_k_q_t_math_text_decorated_node.html#a1f3d94cc90a9b6062ecedc6d24035527">More...</a><br /></td></tr>
+<tr class="separator:a1f3d94cc90a9b6062ecedc6d24035527"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95bed0712ebba98b47a6e97a51ad3dd5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a95bed0712ebba98b47a6e97a51ad3dd5">supportsInstructionName</a> (const QString &amp;instructionName)</td></tr>
+<tr class="memdesc:a95bed0712ebba98b47a6e97a51ad3dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true, if the given <em>instructionName</em> can be converted to a FracType  <a href="class_j_k_q_t_math_text_decorated_node.html#a95bed0712ebba98b47a6e97a51ad3dd5">More...</a><br /></td></tr>
+<tr class="separator:a95bed0712ebba98b47a6e97a51ad3dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -302,6 +310,11 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a3f89e2519be406551fef640ce77b53fd inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd">getSizeInternal</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double &amp;width, double &amp;baselineHeight, double &amp;overallHeight, double &amp;strikeoutPos, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr)=0</td></tr>
 <tr class="memdesc:a3f89e2519be406551fef640ce77b53fd inherit pro_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, overwrite this function in derived classes  <a href="class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd">More...</a><br /></td></tr>
 <tr class="separator:a3f89e2519be406551fef640ce77b53fd inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a2856c47196b761139188a40464e2a83e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a2856c47196b761139188a40464e2a83e">fillInstructions</a> ()</td></tr>
+<tr class="separator:a2856c47196b761139188a40464e2a83e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -325,6 +338,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:afdec8ae06750ccbc25045c60d0a973e0 inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#afdec8ae06750ccbc25045c60d0a973e0">subSuperscriptAboveBelowNode</a></td></tr>
 <tr class="memdesc:afdec8ae06750ccbc25045c60d0a973e0 inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <code>true</code> then following sub- and/or superscripts are placed below and above the node, not besides it. This is activated when <code>\sum\limits_{sub}^{sup}</code> is used in LaTeX instead of simply <code>\sum_{sub}^{sup}</code>  <a href="class_j_k_q_t_math_text_node.html#afdec8ae06750ccbc25045c60d0a973e0">More...</a><br /></td></tr>
 <tr class="separator:afdec8ae06750ccbc25045c60d0a973e0 inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:afd0eacb551da148c1e0aa50892078f81"><td class="memItemLeft" align="right" valign="top">static QHash&lt; QString, <a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">DecorationType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html#afd0eacb551da148c1e0aa50892078f81">instructions</a></td></tr>
+<tr class="memdesc:afd0eacb551da148c1e0aa50892078f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">lists all supported instructions  <a href="class_j_k_q_t_math_text_decorated_node.html#afd0eacb551da148c1e0aa50892078f81">More...</a><br /></td></tr>
+<tr class="separator:afd0eacb551da148c1e0aa50892078f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >subclass representing a decorated text m (e.g. <code>\vec</code> <code>\hat</code> ...) node </p>
@@ -613,6 +632,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a2856c47196b761139188a40464e2a83e" name="a2856c47196b761139188a40464e2a83e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2856c47196b761139188a40464e2a83e">&#9670;&nbsp;</a></span>fillInstructions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void JKQTMathTextDecoratedNode::fillInstructions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >\biref fills instructions </p>
+
+</div>
+</div>
 <a id="a78a593cb2e0df1fe785463252d52780c" name="a78a593cb2e0df1fe785463252d52780c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a78a593cb2e0df1fe785463252d52780c">&#9670;&nbsp;</a></span>getDecoration()</h2>
 
@@ -743,6 +788,64 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1f3d94cc90a9b6062ecedc6d24035527" name="a1f3d94cc90a9b6062ecedc6d24035527"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f3d94cc90a9b6062ecedc6d24035527">&#9670;&nbsp;</a></span>InstructionName2DecorationType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">DecorationType</a> JKQTMathTextDecoratedNode::InstructionName2DecorationType </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the FracType corresponding to <em>instructionName</em> </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969" title="type of ffractions represented by JKQTMathTextFracNode">JKQTMathTextFracNode::FracType</a> </dd></dl>
+
+</div>
+</div>
+<a id="a95bed0712ebba98b47a6e97a51ad3dd5" name="a95bed0712ebba98b47a6e97a51ad3dd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95bed0712ebba98b47a6e97a51ad3dd5">&#9670;&nbsp;</a></span>supportsInstructionName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool JKQTMathTextDecoratedNode::supportsInstructionName </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>instructionName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true, if the given <em>instructionName</em> can be converted to a FracType </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969" title="type of ffractions represented by JKQTMathTextFracNode">JKQTMathTextFracNode::FracType</a> </dd></dl>
+
+</div>
+</div>
 <a id="a9a65105bb04c08c8b2e2051488e4c495" name="a9a65105bb04c08c8b2e2051488e4c495"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9a65105bb04c08c8b2e2051488e4c495">&#9670;&nbsp;</a></span>toHtml()</h2>
 
@@ -823,6 +926,30 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="afd0eacb551da148c1e0aa50892078f81" name="afd0eacb551da148c1e0aa50892078f81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd0eacb551da148c1e0aa50892078f81">&#9670;&nbsp;</a></span>instructions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QString, <a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2">DecorationType</a>&gt; JKQTMathTextDecoratedNode::instructions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>lists all supported instructions </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="jkqtmathtextdecoratednode_8h_source.html">jkqtmathtextdecoratednode.h</a></li>
 </ul>
@@ -832,7 +959,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_decorated_node.html">JKQTMathTextDecoratedNode</a></li>
-    <li class="footer">Generated on Wed Jul 6 2022 05:24:15 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Wed Jul 6 2022 20:48:21 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

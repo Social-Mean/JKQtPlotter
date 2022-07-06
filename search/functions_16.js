@@ -1,4 +1,10 @@
 var searchData=
 [
-  ['x2p_0',['x2p',['../class_j_k_q_t_fast_plotter.html#a74dcb7d34121e36b7f26ac058ef8f302',1,'JKQTFastPlotter::x2p()'],['../class_j_k_q_t_base_plotter.html#a5603b0bfcc2af031a27a25a616df4fb9',1,'JKQTBasePlotter::x2p()'],['../class_j_k_q_t_p_coordinate_axis.html#ad084d2ad812a300b87d8de1452fdab3f',1,'JKQTPCoordinateAxis::x2p()']]]
+  ['what_0',['what',['../class_j_k_q_t_p_math_parser_1_1jkmp_exception.html#aeb2ee6c47d206c716b73625410a56238',1,'JKQTPMathParser::jkmpException']]],
+  ['wheelevent_1',['wheelEvent',['../class_j_k_q_t_plotter.html#a629f1c7f08304d0f27a2eb519da052f9',1,'JKQTPlotter']]],
+  ['whitespaceprops_2',['WhitespaceProps',['../struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#abb1ebab533ebda4f641eacaa93495da4',1,'JKQTMathTextWhitespaceNode::WhitespaceProps']]],
+  ['widgetresized_3',['widgetResized',['../class_j_k_q_t_plotter.html#ac8003d5392d752847385c2741c292d22',1,'JKQTPlotter']]],
+  ['width_4',['width',['../class_j_k_q_t_base_plotter_1_1_j_k_q_t_p_pen.html#a50e3f391c83dbed2d4c56cd01563b14c',1,'JKQTBasePlotter::JKQTPPen']]],
+  ['widthf_5',['widthF',['../class_j_k_q_t_base_plotter_1_1_j_k_q_t_p_pen.html#a8e18529b9b4ef304f3607e8d08a05c2b',1,'JKQTBasePlotter::JKQTPPen']]],
+  ['write_6',['write',['../class_j_k_q_t_p_auto_output_timer.html#ad099bfdb772461e0c33e3d08fcfd9f95',1,'JKQTPAutoOutputTimer']]]
 ];

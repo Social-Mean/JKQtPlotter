@@ -173,6 +173,7 @@ var class_j_k_q_t_math_text =
     [ "intsubbesides_xcorrection_xfactor", "class_j_k_q_t_math_text.html#a918286cd437c04a1ae7096ad67f2c2e6", null ],
     [ "intsubsuper_xcorrection_factor", "class_j_k_q_t_math_text.html#a01e5fe0d923430e1bb2d881883daaf3e", null ],
     [ "italic_correction_factor", "class_j_k_q_t_math_text.html#a5bc54b5f40a70318bd0cf7a40c8d0160", null ],
+    [ "lastRightBraceType", "class_j_k_q_t_math_text.html#ab3bd82d0da3c92c1de8a7af8815c4712", null ],
     [ "mathoperator_width_factor", "class_j_k_q_t_math_text.html#a705a0b6e8499f5b92274384347f0df14", null ],
     [ "operatorsubsuper_distance_factor", "class_j_k_q_t_math_text.html#aaf229081753df0e740010969f5734321", null ],
     [ "operatorsubsuper_extraspace_factor", "class_j_k_q_t_math_text.html#a21d927132b21dab1ace2e979894b3322", null ],
