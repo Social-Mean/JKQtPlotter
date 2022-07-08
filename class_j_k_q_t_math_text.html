@@ -608,12 +608,18 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:add20421b79c95341f59ae02cbd78661b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532">tokenType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#add20421b79c95341f59ae02cbd78661b">getToken</a> ()</td></tr>
 <tr class="memdesc:add20421b79c95341f59ae02cbd78661b"><td class="mdescLeft">&#160;</td><td class="mdescRight">tokenizer for the LaTeX parser  <a href="class_j_k_q_t_math_text.html#add20421b79c95341f59ae02cbd78661b">More...</a><br /></td></tr>
 <tr class="separator:add20421b79c95341f59ae02cbd78661b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42fc9b1493edb700eea12f77784999bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a42fc9b1493edb700eea12f77784999bb">parseInstruction</a> (bool *_foundError=nullptr, bool *getNew=nullptr)</td></tr>
+<tr class="memdesc:a42fc9b1493edb700eea12f77784999bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">parses a single instruction (including it's parameters)  <a href="class_j_k_q_t_math_text.html#a42fc9b1493edb700eea12f77784999bb">More...</a><br /></td></tr>
+<tr class="separator:a42fc9b1493edb700eea12f77784999bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac926999714413107f41691e262bbeffa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ac926999714413107f41691e262bbeffa">parseLatexString</a> (bool get, <a class="el" href="group__jkqtmathtext__tools.html#ga54bb4fa9bb861e0118cfc68de4913472">JKQTMathTextBraceType</a> quitOnClosingBrace=<a class="el" href="group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472a0e3578ed794778ca677dd0df8825462a">JKQTMathTextBraceType::MTBTAny</a>, const QString &amp;quitOnEnvironmentEnd=QString(&quot;&quot;), bool quitOnClosingBracket=false)</td></tr>
 <tr class="memdesc:ac926999714413107f41691e262bbeffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse a LaTeX string  <a href="class_j_k_q_t_math_text.html#ac926999714413107f41691e262bbeffa">More...</a><br /></td></tr>
 <tr class="separator:ac926999714413107f41691e262bbeffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84fb0ccfe736469c7bec002f6bf9fbb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a84fb0ccfe736469c7bec002f6bf9fbb5">parseMath</a> (bool get)</td></tr>
 <tr class="memdesc:a84fb0ccfe736469c7bec002f6bf9fbb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse a LaTeX math environment  <a href="class_j_k_q_t_math_text.html#a84fb0ccfe736469c7bec002f6bf9fbb5">More...</a><br /></td></tr>
 <tr class="separator:a84fb0ccfe736469c7bec002f6bf9fbb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf171e700d7d545b294f2061b47305d9"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#adf171e700d7d545b294f2061b47305d9">parseStringParams</a> (bool get, size_t Nparams, bool *foundError=nullptr)</td></tr>
+<tr class="memdesc:adf171e700d7d545b294f2061b47305d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">parses a list of string-arguments, i.e. <code>{p1}{p2}{</code>...}  <a href="class_j_k_q_t_math_text.html#adf171e700d7d545b294f2061b47305d9">More...</a><br /></td></tr>
+<tr class="separator:adf171e700d7d545b294f2061b47305d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -782,7 +788,7 @@ Direct Usage</h2>
 <div class="line">painter.begin(&amp;pix);</div>
 <div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19">draw</a>(painter, Qt::AlignCenter, QRectF(0,0,pix.width(), pix.height()), <span class="keyword">false</span>);</div>
 <div class="line">painter.end();</div>
-<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:231</div></div>
+<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:238</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a280e7032f66c45b5f3b42664056bee19"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19">JKQTMathText::draw</a></div><div class="ttdeci">void draw(QPainter &amp;painter, QPointF x, bool drawBoxes=false)</div><div class="ttdoc">draw a representation to the object at the specified position x , y</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a7e5a8ec55ff08d2dc3375e62407d2beb"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb">JKQTMathText::parse</a></div><div class="ttdeci">bool parse(const QString &amp;text, bool addSpaceBeforeAndAfter=false)</div><div class="ttdoc">parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_af231fd040caed5040c227dd3748ff899"><div class="ttname"><a href="class_j_k_q_t_math_text.html#af231fd040caed5040c227dd3748ff899">JKQTMathText::setFontSize</a></div><div class="ttdeci">void setFontSize(double __value)</div><div class="ttdoc">set the default font size in points</div></div>
@@ -871,6 +877,34 @@ Simple Instructions</h2>
 </li>
 <li><code>\boxed{</code>...} : draw text with a box around it<div class="image">
 <img src="jkqtmathtext_boxed.png" alt=""/>
+</div>
+</li>
+<li><code>\doublebox{</code>...} : draw text with a rounded box around it<div class="image">
+<img src="jkqtmathtext_doublebox.png" alt=""/>
+</div>
+</li>
+<li><code>\ovalbox{</code>...} : draw text with a rounded box around it<div class="image">
+<img src="jkqtmathtext/jkqtmathtext_ovalbox.png" alt=""/>
+</div>
+</li>
+<li><code>\Ovalbox{</code>...} : draw a thick oval box<div class="image">
+<img src="jkqtmathtext_oovalbox.png" alt=""/>
+</div>
+</li>
+<li><code>\ovaldoublebox{</code>...} : draw a double oval box<div class="image">
+<img src="jkqtmathtext/jkqtmathtext_ovaldoublebox.png" alt=""/>
+</div>
+</li>
+<li><code>\colorbox{bordercolor}{</code>...} : draw a colored box<div class="image">
+<img src="jkqtmathtext_colorbox.png" alt=""/>
+</div>
+</li>
+<li><code>\shaded{backgroundcolor}{</code>...} : draw a filled box<div class="image">
+<img src="jkqtmathtext_shaded.png" alt=""/>
+</div>
+</li>
+<li><code>\fcolorbox{bordercolor}{backgroundcolor}{</code>...} : draw a colored, filled box<div class="image">
+<img src="jkqtmathtext_fcolorbox.png" alt=""/>
 </div>
 </li>
 <li><code>\colorbox{color}{</code>...} : draw a colored box around text<div class="image">
@@ -2930,6 +2964,53 @@ Convert to HTML</h1>
 
 </div>
 </div>
+<a id="a42fc9b1493edb700eea12f77784999bb" name="a42fc9b1493edb700eea12f77784999bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42fc9b1493edb700eea12f77784999bb">&#9670;&nbsp;</a></span>parseInstruction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * JKQTMathText::parseInstruction </td>
+          <td>(</td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>_foundError</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>getNew</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parses a single instruction (including it's parameters) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">_foundError</td><td>will be set to <code>true</code> if an error occured (unexpected token) or <code>false</code> otherwise </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">getNew</td><td>returns <code>true</code> if the parser has to call <a class="el" href="class_j_k_q_t_math_text.html#add20421b79c95341f59ae02cbd78661b" title="tokenizer for the LaTeX parser">getToken()</a> to go on </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the instruction node or <code>nullptr</code> on error (then also <em>_foundError</em> is set <code>true</code> ) </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This method expects the current token currentToken to be MTTinstruction </dd></dl>
+
+</div>
+</div>
 <a id="ac926999714413107f41691e262bbeffa" name="ac926999714413107f41691e262bbeffa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac926999714413107f41691e262bbeffa">&#9670;&nbsp;</a></span>parseLatexString()</h2>
 
@@ -3014,6 +3095,59 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>parse a LaTeX math environment </p>
+
+</div>
+</div>
+<a id="adf171e700d7d545b294f2061b47305d9" name="adf171e700d7d545b294f2061b47305d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf171e700d7d545b294f2061b47305d9">&#9670;&nbsp;</a></span>parseStringParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList JKQTMathText::parseStringParams </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>get</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>Nparams</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>foundError</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parses a list of string-arguments, i.e. <code>{p1}{p2}{</code>...} </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">get</td><td>call <a class="el" href="class_j_k_q_t_math_text.html#add20421b79c95341f59ae02cbd78661b" title="tokenizer for the LaTeX parser">getToken()</a> at the start, otherwise it is expected that currentToken==MTTopenbrace </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">Nparams</td><td>the number of parameters to expect </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">foundError</td><td>will be set to <code>true</code> if an error occured (unexpected token) or <code>false</code> otherwise </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the list of parameter strings with Nparam entries or an empty or partial list on error </dd></dl>
 
 </div>
 </div>
@@ -5673,7 +5807,7 @@ Convert to HTML</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Wed Jul 6 2022 20:48:21 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Jul 8 2022 21:19:31 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['styledata_0',['styleData',['../struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html',1,'JKQTPLinePlotStyleWithSymbolSizeComboBox']]],
-  ['symbolfullprops_1',['SymbolFullProps',['../struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html',1,'JKQTMathTextSymbolNode']]],
-  ['symbolprops_2',['SymbolProps',['../struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html',1,'JKQTMathTextSymbolNode']]]
+  ['parsedfunctionlinegraphfunctiondata_0',['ParsedFunctionLineGraphFunctionData',['../group__jkqtplotter__functiongraphs.html#struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data',1,'JKQTPParsedFunctionLineGraphBase']]],
+  ['plotfunctorspec_1',['PlotFunctorSpec',['../struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html',1,'JKQTPEvaluatedFunctionGraphBase']]]
 ];

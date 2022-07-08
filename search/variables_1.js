@@ -15,5 +15,6 @@ var searchData=
   ['brace_5ffactor_12',['brace_factor',['../class_j_k_q_t_math_text.html#a789296ebe6e466c87aae0bdd009f2743',1,'JKQTMathText']]],
   ['brace_5fshrink_5ffactor_13',['brace_shrink_factor',['../class_j_k_q_t_math_text.html#ac497bc656c1f218f0a47804087352b15',1,'JKQTMathText']]],
   ['brace_5fy_5fshift_5ffactor_14',['brace_y_shift_factor',['../class_j_k_q_t_math_text.html#a6ddbfe67b6ee9ee4a832e1739712c296',1,'JKQTMathText']]],
-  ['buffer_15',['buffer',['../class_j_k_q_t_math_text_label.html#a5a2bf74b499a1ca7212db85f3ee0ce86',1,'JKQTMathTextLabel']]]
+  ['brush_15',['brush',['../struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html#ab7b833c9b7ae0902af25f346dfe61816',1,'JKQTMathTextBoxInstructionNode::InstructionProperties']]],
+  ['buffer_16',['buffer',['../class_j_k_q_t_math_text_label.html#a5a2bf74b499a1ca7212db85f3ee0ce86',1,'JKQTMathTextLabel']]]
 ];

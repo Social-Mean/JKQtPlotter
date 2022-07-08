@@ -58,7 +58,7 @@ var searchData=
   ['resize_55',['resize',['../class_j_k_q_t_p_datastore_item.html#ac9fbf2a6fda1a256d8ebba3283cb450e',1,'JKQTPDatastoreItem']]],
   ['resizecolumn_56',['resizeColumn',['../class_j_k_q_t_p_datastore.html#a6648af1cec252e63e84368179072d21e',1,'JKQTPDatastore']]],
   ['resizecolumns_57',['resizeColumns',['../class_j_k_q_t_p_datastore_item.html#aafa690700972f40864c54d39a3870705',1,'JKQTPDatastoreItem']]],
-  ['resizeevent_58',['resizeEvent',['../class_j_k_q_t_plotter.html#aac9ca452a7d8cd096245c5f634b30960',1,'JKQTPlotter::resizeEvent()'],['../class_j_k_q_t_fast_plotter.html#a7cf1891eb055091ee4a9087ecc4c3f84',1,'JKQTFastPlotter::resizeEvent()']]],
+  ['resizeevent_58',['resizeEvent',['../class_j_k_q_t_fast_plotter.html#a7cf1891eb055091ee4a9087ecc4c3f84',1,'JKQTFastPlotter::resizeEvent()'],['../class_j_k_q_t_plotter.html#aac9ca452a7d8cd096245c5f634b30960',1,'JKQTPlotter::resizeEvent()']]],
   ['resizeimagecolumn_59',['resizeImageColumn',['../class_j_k_q_t_p_datastore.html#ab04565d513a6830dcc58d035b685b3fa',1,'JKQTPDatastore']]],
   ['resizetimer_60',['resizeTimer',['../class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46',1,'JKQTPlotter']]],
   ['rgbmode_61',['rgbMode',['../class_j_k_q_t_p_r_g_b_math_image.html#a0f76228d327300dfec5f962244f9e955',1,'JKQTPRGBMathImage']]],
@@ -66,8 +66,9 @@ var searchData=
   ['rightcolorbaraxisstyle_63',['rightColorbarAxisStyle',['../class_j_k_q_t_base_plotter_style.html#a25650b7d47d94338964d0dd90069d9f9',1,'JKQTBasePlotterStyle']]],
   ['rotatesymbol90_64',['RotateSymbol90',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca716a09953bef91a5630ec4df756e1b69',1,'JKQTMathTextSymbolNode']]],
   ['rotation_65',['rotation',['../class_j_k_q_t_f_pimage_plot.html#ab320255b8e005d4398fc7db91caa92e8',1,'JKQTFPimagePlot::rotation()'],['../class_j_k_q_t_f_p_r_g_b_image_overlay_plot.html#ab441cb4f7d3d0d6c739e8710467e008f',1,'JKQTFPRGBImageOverlayPlot::rotation()'],['../class_j_k_q_t_f_pimage_overlay_plot.html#acbdbaf89e54745ffd18059c460f40a69',1,'JKQTFPimageOverlayPlot::rotation()']]],
-  ['rowcount_66',['rowCount',['../class_j_k_q_t_p_graphs_model.html#add5384cc40ef78eab722797e319ec6de',1,'JKQTPGraphsModel::rowCount()'],['../class_j_k_q_t_p_datastore_model.html#adbb191f9cc0b04563f2586b214d4f782',1,'JKQTPDatastoreModel::rowCount()']]],
-  ['rows_67',['rows',['../class_j_k_q_t_p_datastore_item.html#abb8afa0743093d0cb661dd1ae8deb92a',1,'JKQTPDatastoreItem']]],
-  ['rugplot_68',['RugPlot',['../class_j_k_q_t_p_single_column_symbols_graph.html#a3631b52ee32dceb1418183aefe7f7ce4a60c61271a6e7cdee0c8c8f78e4e55a17',1,'JKQTPSingleColumnSymbolsGraph']]],
-  ['rulerdisplayed_69',['rulerDisplayed',['../class_j_k_q_t_plotter.html#ad539ba834dae8a1dea629afc085ad977',1,'JKQTPlotter']]]
+  ['roundingfactor_66',['roundingFactor',['../struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html#ad4e9f42c6e23de2e892b143cd7b6691d',1,'JKQTMathTextBoxInstructionNode::InstructionProperties']]],
+  ['rowcount_67',['rowCount',['../class_j_k_q_t_p_graphs_model.html#add5384cc40ef78eab722797e319ec6de',1,'JKQTPGraphsModel::rowCount()'],['../class_j_k_q_t_p_datastore_model.html#adbb191f9cc0b04563f2586b214d4f782',1,'JKQTPDatastoreModel::rowCount()']]],
+  ['rows_68',['rows',['../class_j_k_q_t_p_datastore_item.html#abb8afa0743093d0cb661dd1ae8deb92a',1,'JKQTPDatastoreItem']]],
+  ['rugplot_69',['RugPlot',['../class_j_k_q_t_p_single_column_symbols_graph.html#a3631b52ee32dceb1418183aefe7f7ce4a60c61271a6e7cdee0c8c8f78e4e55a17',1,'JKQTPSingleColumnSymbolsGraph']]],
+  ['rulerdisplayed_70',['rulerDisplayed',['../class_j_k_q_t_plotter.html#ad539ba834dae8a1dea629afc085ad977',1,'JKQTPlotter']]]
 ];

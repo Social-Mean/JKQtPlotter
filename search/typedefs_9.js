@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['self_5ftype_0',['self_type',['../class_j_k_q_t_p_column_iterator.html#a41205a9088ce6e088e61d8e9c226f223',1,'JKQTPColumnIterator::self_type()'],['../class_j_k_q_t_p_column_back_inserter.html#ad395314cdc3615dc750a4e4050ef1029',1,'JKQTPColumnBackInserter::self_type()'],['../class_j_k_q_t_p_column_const_iterator.html#afe256f15deb5abaca2e09fabdd370a76',1,'JKQTPColumnConstIterator::self_type()']]]
+  ['pointer_0',['pointer',['../class_j_k_q_t_p_column_iterator.html#a7932943b967487efdc02402084921195',1,'JKQTPColumnIterator::pointer()'],['../class_j_k_q_t_p_column_back_inserter.html#a3a68eefb2c7969a9284156ddc5987d30',1,'JKQTPColumnBackInserter::pointer()'],['../class_j_k_q_t_p_column_const_iterator.html#a7311024b1e61016654073d40b55153d4',1,'JKQTPColumnConstIterator::pointer()']]]
 ];

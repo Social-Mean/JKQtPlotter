@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['reference_0',['reference',['../class_j_k_q_t_p_column_iterator.html#ab3d07d66ac5cfee7406b1c1b028bd5ce',1,'JKQTPColumnIterator::reference()'],['../class_j_k_q_t_p_column_back_inserter.html#aad1abfb9da59e30d3b46b0e558f731ef',1,'JKQTPColumnBackInserter::reference()'],['../class_j_k_q_t_p_column_const_iterator.html#a3037b61d7c0ef9417498c58b9af48026',1,'JKQTPColumnConstIterator::reference()']]]
+  ['modifyenvironmentfunctor_0',['ModifyEnvironmentFunctor',['../struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html#a6baf2f284ae34d48001478706d02d051',1,'JKQTMathTextModifiedTextPropsInstructionNode::InstructionProperties::ModifyEnvironmentFunctor()'],['../struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html#a5da479bcb663477c7f5e282d7a193f9b',1,'JKQTMathTextBoxInstructionNode::InstructionProperties::ModifyEnvironmentFunctor()']]]
 ];

@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['mappedsymbolfunctor_0',['MappedSymbolFunctor',['../struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html',1,'JKQTPXYParametrizedScatterGraph']]],
-  ['mousedragaction_1',['MouseDragAction',['../struct_j_k_q_t_plotter_1_1_mouse_drag_action.html',1,'JKQTPlotter']]],
-  ['mousedragmarker_2',['MouseDragMarker',['../struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html',1,'JKQTPlotter']]],
-  ['mtplaintextnode_3',['MTplainTextNode',['../class_m_tplain_text_node.html',1,'']]]
+  ['lutdata_0',['LUTData',['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html',1,'JKQTPImageTools']]]
 ];
