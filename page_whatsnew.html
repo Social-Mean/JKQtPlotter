@@ -188,6 +188,8 @@ IMPROVED: rendering of sqrt </li>
 <li>
 IMPROVED: rendering and size calculation of decorations </li>
 <li>
+IMPROVED: tokenizing and parsing of text in text-mode: now a lot of accents with commands like "a, \'e and variants (e.g. {"a}, "{a}, ...) are supported now </li>
+<li>
 IMPROVED/breaking: refactored symbol node <a class="el" href="class_j_k_q_t_math_text_symbol_node.html" title="subclass representing one symbol (e.g. \alpha , \cdot ...) node in the syntax tree">JKQTMathTextSymbolNode</a> and changed font-lookup! </li>
 <li>
 IMPROVED/NEW/breaking: refactored whitespace-processing node <a class="el" href="class_j_k_q_t_math_text_whitespace_node.html" title="subclass representing one whitepsace node in the syntax tree">JKQTMathTextWhitespaceNode</a>, now all major LaTeX whitespace commands are supported properly </li>
@@ -219,6 +221,8 @@ NEW: added top-corner (\ulcorner/\urcorner) and bottom-corner brackets (\llcorne
 NEW: added \overbracket and \underbracket </li>
 <li>
 NEW: added \shaded{color}{...} </li>
+<li>
+NEW: added \acute{X}, \grave{X}, \acute{X} </li>
 <li>
 NEW: added functions to set the font-size in pixels (as alternative to the existing functions that set them in points), implements request <a href="https://github.com/jkriege2/JKQtPlotter/issues/76">#76</a> from <a href="https://github.com/igormironchik">user:igormironchik</a>  </li>
 </ul>
@@ -469,7 +473,7 @@ v2015.10: Download</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 9 2022 09:00:51 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Jul 10 2022 20:04:12 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

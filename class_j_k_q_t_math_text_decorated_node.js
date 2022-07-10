@@ -18,6 +18,8 @@ var class_j_k_q_t_math_text_decorated_node =
       [ "MTDdoubleunderline", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a490edec626787a5122e7665e9d254ab4", null ],
       [ "MTDtilde", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2aa121657690b50dafb57edaf80958b9cd", null ],
       [ "MTDwidetilde", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2ad03378e15a87b7a8d1511c798acb9be4", null ],
+      [ "MTDacute", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a9f488546ec01584c814a64c5ecf88eb5", null ],
+      [ "MTDgrave", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a529b62bfa9621a63edb031f0f0da5ed7", null ],
       [ "MTDcancel", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a10357760954036c744f7868423b4fe87", null ],
       [ "MTDbcancel", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2abd145bcd6484124cbc59487484dbda15", null ],
       [ "MTDxcancel", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a89b80b4150e8a5e628b1be8d0fbf8437", null ],

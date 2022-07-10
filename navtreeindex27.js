@@ -1,5 +1,7 @@
 var NAVTREEINDEX27 =
 {
+"struct_j_k_q_t_math_text_environment.html#a29bdf573d817a3da9786e7e81ffd3bbfaf66510326785dd771da336c83e1acdcb":[10,1,1,0,0,1],
+"struct_j_k_q_t_math_text_environment.html#a38fcaa344a5b67badeed84a53011f204":[10,1,1,0,5],
 "struct_j_k_q_t_math_text_environment.html#a3e0833c06452c940ad1694bdf7341231":[10,1,1,0,15],
 "struct_j_k_q_t_math_text_environment.html#a47535cc8ac7299dd32b9f61c5f1686b8":[10,1,1,0,6],
 "struct_j_k_q_t_math_text_environment.html#a498db2d6c359c8bacc1c2c66d8e30997":[10,1,1,0,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html#a50e2f3c786a11518f0006d7a9bcd2fcc":[10,3,7,3,15,1],
 "struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html#a584510c6bf0eae933e9befc30703cfd7":[10,3,7,3,15,3],
 "struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html#a64c057ecc63d250f3a0e6731613b2b07":[10,3,7,3,15,5],
-"struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html#a6a28699f308a8ac890ef8af7753d6f00":[10,3,7,3,15,2],
-"struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html#ac531e98b8b541e1c3de8143da5458457":[10,3,7,3,15,4],
-"struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html":[10,2,2,1,1,2]
+"struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html#a6a28699f308a8ac890ef8af7753d6f00":[10,3,7,3,15,2]
 };

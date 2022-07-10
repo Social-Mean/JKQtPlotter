@@ -1,5 +1,7 @@
 var NAVTREEINDEX26 =
 {
+"group__jkqtptools__math__statistics__adaptors.html#ga7656557490f07e8a33137e5a8e9064a2":[10,3,7,4,8,64],
+"group__jkqtptools__math__statistics__adaptors.html#ga7921c9edeb90d7eba8a36076528db331":[10,3,7,4,8,19],
 "group__jkqtptools__math__statistics__adaptors.html#ga7ae00e7a2fab48ca2197b8b6e3a5b687":[10,3,7,4,8,44],
 "group__jkqtptools__math__statistics__adaptors.html#ga7c22f3a72d77983fdc8a79b92918de6e":[10,3,7,4,8,28],
 "group__jkqtptools__math__statistics__adaptors.html#ga7fb7440f15500946e97af125d6a18205":[10,3,7,4,8,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX26 =
 "struct_j_k_q_t_math_text_environment.html#a1368af420287d68d4f4b34a663ddbaa9":[10,1,1,0,17],
 "struct_j_k_q_t_math_text_environment.html#a18521e06c11f713eb272ee80eacdd4b9":[10,1,1,0,9],
 "struct_j_k_q_t_math_text_environment.html#a29bdf573d817a3da9786e7e81ffd3bbf":[10,1,1,0,0],
-"struct_j_k_q_t_math_text_environment.html#a29bdf573d817a3da9786e7e81ffd3bbfa63b196d5ac20b1e34034f08af6220842":[10,1,1,0,0,0],
-"struct_j_k_q_t_math_text_environment.html#a29bdf573d817a3da9786e7e81ffd3bbfaf66510326785dd771da336c83e1acdcb":[10,1,1,0,0,1],
-"struct_j_k_q_t_math_text_environment.html#a38fcaa344a5b67badeed84a53011f204":[10,1,1,0,5]
+"struct_j_k_q_t_math_text_environment.html#a29bdf573d817a3da9786e7e81ffd3bbfa63b196d5ac20b1e34034f08af6220842":[10,1,1,0,0,0]
 };
