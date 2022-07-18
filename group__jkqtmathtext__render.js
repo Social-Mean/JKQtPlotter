@@ -1,6 +1,5 @@
 var group__jkqtmathtext__render =
 [
-    [ "JKQTMathText Render-Tree Items", "group__jkqtmathtext__items.html", "group__jkqtmathtext__items" ],
     [ "JKQTMathText", "class_j_k_q_t_math_text.html", [
       [ "tokenType", "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532", [
         [ "MTTnone", "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532af58e19d66016b1b2f794a412c1fd09e3", null ],

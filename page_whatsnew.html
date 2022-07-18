@@ -137,6 +137,12 @@ trunk/master</h1>
 trunk: Overview</h2>
 <p >Changes, compared to <a class="el" href="page_whatsnew.html#page_whatsnew_V4_0_0">v4.0.0</a> include: </p><ul>
 <li>
+General:<ul>
+<li>
+CLEANUP (BREAKING) of library structure </li>
+</ul>
+</li>
+<li>
 <p class="startli">JKQtPlotter:</p><ul>
 <li>
 FIXED issue described in <a href="https://github.com/jkriege2/JKQtPlotter/pull/62">#62: Fix custom labels draw, because giving exactly two label-strings did not display all of them</a>, thanks to <a href="https://github.com/FalsinSoft">user:FalsinSoft</a> </li>
@@ -156,6 +162,8 @@ NEW: new "seaborn" style for plots </li>
 NEW/BREAKING CHANGE: changed <a class="el" href="struct_j_k_q_t_p_color_derivation_mode.html" title="Specifies how a fill-color is derived from a given color.">JKQTPColorDerivationMode</a> into a struct, which extends its capabilities above the previously available few enum-items </li>
 <li>
 NEW: added debug-feature to show boxes around text in the plot </li>
+<li>
+BREAKING: Print-Support can now be switched off with a CMAKE-option JKQtPlotter_BUILD_FORCE_NO_PRINTER_SUPPORT=ON. This also switches off PDF and SVG export, partly solves issue <a href="https://github.com/jkriege2/JKQtPlotter/issues/81">#81</a>, many thanks to <a href="https://github.com/sufuk">user:sufuk</a> for contributing part of the code and supplying the idea!  </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -473,7 +481,7 @@ v2015.10: Download</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 18 2022 21:20:03 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Mon Jul 18 2022 21:39:47 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

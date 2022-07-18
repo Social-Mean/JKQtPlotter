@@ -134,8 +134,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_j_k_q_t_c_make_link_example.html",
-"class_j_k_q_t_base_plotter.html#a298ebcf7ff2e472bd93282be8b857553",
-"class_j_k_q_t_base_plotter.html#aad421b636966b68f5e452fd1db14dcc5",
+"class_j_k_q_t_base_plotter.html#a291979eabe3659c4d628f4931bc07201",
+"class_j_k_q_t_base_plotter.html#aad14b15e3845e2bcc85879153419591f",
 "class_j_k_q_t_f_p_line_plot.html#af01980cb978a1389a24c524d6c942e30",
 "class_j_k_q_t_f_pimage_overlay_plot.html#a8bd6d30b59fe915d196ae523626186c2",
 "class_j_k_q_t_fast_plotter.html#adf6134d31e120f85af4580be1a45ff76",
