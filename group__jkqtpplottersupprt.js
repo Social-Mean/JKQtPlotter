@@ -153,7 +153,7 @@ var group__jkqtpplottersupprt =
     [ "JKQTPMouseWheelActions2String", "group__jkqtpplottersupprt.html#ga4dccd3f05759ce4608f8da5c8a70dfb1", null ],
     [ "JKQTPUserActionMarkerType2String", "group__jkqtpplottersupprt.html#ga2e7b0296436e2c23eb36962a4b2ebbf4", null ],
     [ "qHash", "group__jkqtpplottersupprt.html#gaf7f4d2cbc77fa6bb5446221d595c2183", null ],
-    [ "qHash", "group__jkqtpplottersupprt.html#ga34332a72cdc9a4e613bc2a9d1ede3d7c", null ],
+    [ "qHash", "group__jkqtpplottersupprt.html#ga9eb69bab982df82a87cb360af0254c80", null ],
     [ "qHash", "group__jkqtpplottersupprt.html#ga0434e31a1b052389e981dc8fedc06765", null ],
     [ "qHash", "group__jkqtpplottersupprt.html#ga3a969e549641069030f33c0fcc70b0df", null ],
     [ "String2JKQTPCADrawMode", "group__jkqtpplottersupprt.html#gac603dbf7efc50cd04c4c506958ae5b20", null ],
