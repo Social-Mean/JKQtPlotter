@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['enums_20for_20jkqtplotter_20_28including_20string_20conversion_29_0',['Enums for JKQTPlotter (including String Conversion)',['../group__jkqtptools__enums.html',1,'']]]
+  ['filled_20polygon_2farea_20graphs_0',['Filled Polygon/Area Graphs',['../group__jkqtplotter__filledgraphs.html',1,'']]],
+  ['function_20graphs_1',['Function Graphs',['../group__jkqtplotter__functiongraphs.html',1,'']]]
 ];

@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['geometric_20elements_20_28lines_2c_20rectangles_2c_20_2e_2e_2e_29_0',['Geometric Elements (Lines, Rectangles, ...)',['../group__jkqtplotter__geoplots.html',1,'']]],
-  ['graph_20annotations_1',['Graph Annotations',['../group__jkqtplotter__annotations.html',1,'']]],
-  ['graph_20classes_2',['Graph Classes',['../group__jkqtplotter__graphsgroup.html',1,'']]],
-  ['grouped_20statistics_3',['Grouped statistics',['../group__jkqtptools__math__statistics__grouped.html',1,'']]]
+  ['image_20graphs_0',['Image Graphs',['../group__jkqtplotter__imagelots__elements.html',1,'']]],
+  ['image_2fmatrix_20overlay_20graphs_1',['Image/Matrix Overlay Graphs',['../group__jkqtplotter__imagelots__overlays.html',1,'']]],
+  ['interfaces_20to_20other_20libraries_2',['Interfaces To Other Libraries',['../group__jkqtpexternalinterfaces.html',1,'']]]
 ];

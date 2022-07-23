@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('group__jkqtptools__math__statistics__2
   <div class="summary">
 <a href="#groups">Modules</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">2-dimensional Kernel Density Estimates<div class="ingroups"><a class="el" href="group__jkqtptools.html">Support Function library (e.g. for JKQTPlotter)</a> &raquo; <a class="el" href="group__jkqtptools__math.html">Mathematical Computations &amp; Expression Parsing</a> &raquo; <a class="el" href="group__jkqtptools__math__statistics.html">Statistical Computations</a></div></div></div>
+  <div class="headertitle"><div class="title">2-dimensional Kernel Density Estimates<div class="ingroups"><a class="el" href="group__jkqtptools.html">Support Function libraries (e.g. for JKQTPlotter)</a> &raquo; <a class="el" href="group__jkqtcommon__statistics__and__math.html">JKQTCommonStatisticsAndMath: Special Math and Statistics Utilities</a> &raquo; <a class="el" href="group__jkqtptools__math__statistics.html">Statistical Computations</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
@@ -133,7 +133,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga5a942e00c033a0125cbd6991be062e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">evaluates the Kernel Density Estimator (KDE) at a given position  <a href="group__jkqtptools__math__statistics__2dkde.html#ga5a942e00c033a0125cbd6991be062e08">More...</a><br /></td></tr>
 <tr class="separator:ga5a942e00c033a0125cbd6991be062e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabea5faa220697a680179e0460ab6a46d"><td class="memTemplParams" colspan="2">template&lt;class InputItX , class InputItY , class OutputIt &gt; </td></tr>
-<tr class="memitem:gabea5faa220697a680179e0460ab6a46d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__statistics__2dkde.html#gabea5faa220697a680179e0460ab6a46d">jkqtpstatKDE2D</a> (InputItX firstX, InputItX lastX, InputItY firstY, InputItY lastY, OutputIt histogramImgOut, double xmin, double xmax, double ymin, double ymax, size_t xbins, size_t ybins, const std::function&lt; double(double, double)&gt; &amp;kernel=std::function&lt; double(double, double)&gt;(&amp;<a class="el" href="group__jkqtptools__math__statistics__2dkde__kernels.html#gaa5fd00bdfc56e269c20028ad130c37d3">jkqtpstatKernel2DGaussian</a>), double bandwidthX=1.0, double bandwidthY=1.0)</td></tr>
+<tr class="memitem:gabea5faa220697a680179e0460ab6a46d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__statistics__2dkde.html#gabea5faa220697a680179e0460ab6a46d">jkqtpstatKDE2D</a> (InputItX firstX, InputItX lastX, InputItY firstY, InputItY lastY, OutputIt histogramImgOut, double xmin, double xmax, double ymin, double ymax, size_t xbins, size_t ybins, const std::function&lt; double(double, double)&gt; &amp;kernel=std::function&lt; double(double, double)&gt;(&amp;<a class="el" href="group__jkqtptools__math__statistics__2dkde__kernels.html#gab2091afed12d139596ba3b52694e3ed9">jkqtpstatKernel2DGaussian</a>), double bandwidthX=1.0, double bandwidthY=1.0)</td></tr>
 <tr class="memdesc:gabea5faa220697a680179e0460ab6a46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate an autoranged 2-dimensional Kernel Density Estimation (KDE) from the given data range <em>firstX</em> / <em>firstY</em> ... <em>lastY</em> / <em>lastY</em>  <a href="group__jkqtptools__math__statistics__2dkde.html#gabea5faa220697a680179e0460ab6a46d">More...</a><br /></td></tr>
 <tr class="separator:gabea5faa220697a680179e0460ab6a46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -294,7 +294,7 @@ template&lt;class InputItX , class InputItY &gt; </div>
     <tr><td class="paramname">lastX</td><td>iterator pointing behind the last x-position item in the dataset to use <img class="formulaInl" alt="$ X_N $" src="form_51.png" width="26" height="16"/> </td></tr>
     <tr><td class="paramname">firstY</td><td>iterator pointing to the first y-position item in the dataset to use <img class="formulaInl" alt="$ Y_1 $" src="form_79.png" width="16" height="16"/> </td></tr>
     <tr><td class="paramname">lastY</td><td>iterator pointing behind the last y-position item in the dataset to use <img class="formulaInl" alt="$ Y_N $" src="form_105.png" width="23" height="16"/> </td></tr>
-    <tr><td class="paramname">kernel</td><td>the kernel function to use (e.g. <a class="el" href="group__jkqtptools__math__statistics__1dkde__kernels.html#ga68c207e16730ccb9c6ca376143da6272" title="a 1D Gaussian kernel function, e.g. for Kernel Density Estimation">jkqtpstatKernel1DGaussian()</a> ) </td></tr>
+    <tr><td class="paramname">kernel</td><td>the kernel function to use (e.g. <a class="el" href="group__jkqtptools__math__statistics__1dkde__kernels.html#ga887998ff7287847b23d4e151e3380ecf" title="a 1D Gaussian kernel function, e.g. for Kernel Density Estimation">jkqtpstatKernel1DGaussian()</a> ) </td></tr>
     <tr><td class="paramname">bandwidthX</td><td>x-bandwidth used for the KDE </td></tr>
     <tr><td class="paramname">bandwidthY</td><td>y-bandwidth used for the KDE </td></tr>
   </table>
@@ -384,7 +384,7 @@ template&lt;class InputItX , class InputItY , class OutputIt &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::function&lt; double(double, double)&gt; &amp;&#160;</td>
-          <td class="paramname"><em>kernel</em> = <code>std::function&lt;double(double,double)&gt;(&amp;<a class="el" href="group__jkqtptools__math__statistics__2dkde__kernels.html#gaa5fd00bdfc56e269c20028ad130c37d3">jkqtpstatKernel2DGaussian</a>)</code>, </td>
+          <td class="paramname"><em>kernel</em> = <code>std::function&lt;double(double,double)&gt;(&amp;<a class="el" href="group__jkqtptools__math__statistics__2dkde__kernels.html#gab2091afed12d139596ba3b52694e3ed9">jkqtpstatKernel2DGaussian</a>)</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -433,7 +433,7 @@ template&lt;class InputItX , class InputItY , class OutputIt &gt; </div>
     <tr><td class="paramdir"></td><td class="paramname">ymax</td><td>position of the last histogram bin in y-direction </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">xbins</td><td>number of bins in x-direction (i.e. width of the output histogram <em>histogramImgOut</em> ) </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">ybins</td><td>number of bins in y-direction (i.e. height of the output histogram <em>histogramImgOut</em> ) </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">kernel</td><td>the kernel function to use (e.g. <a class="el" href="group__jkqtptools__math__statistics__2dkde__kernels.html#gaa5fd00bdfc56e269c20028ad130c37d3" title="a 1D Gaussian kernel function, e.g. for Kernel Density Estimation">jkqtpstatKernel2DGaussian()</a> ) </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">kernel</td><td>the kernel function to use (e.g. <a class="el" href="group__jkqtptools__math__statistics__2dkde__kernels.html#gab2091afed12d139596ba3b52694e3ed9" title="a 1D Gaussian kernel function, e.g. for Kernel Density Estimation">jkqtpstatKernel2DGaussian()</a> ) </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">bandwidthX</td><td>x-bandwidth used for the KDE </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">bandwidthY</td><td>y-bandwidth used for the KDE</td></tr>
   </table>
@@ -448,7 +448,7 @@ template&lt;class InputItX , class InputItY , class OutputIt &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 23 2022 10:43:14 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Jul 23 2022 14:08:07 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

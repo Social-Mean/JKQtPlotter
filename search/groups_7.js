@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['filled_20polygon_2farea_20graphs_0',['Filled Polygon/Area Graphs',['../group__jkqtplotter__filledgraphs.html',1,'']]],
-  ['function_20graphs_1',['Function Graphs',['../group__jkqtplotter__functiongraphs.html',1,'']]]
+  ['geometric_20elements_20_28lines_2c_20rectangles_2c_20_2e_2e_2e_29_0',['Geometric Elements (Lines, Rectangles, ...)',['../group__jkqtplotter__geoplots.html',1,'']]],
+  ['graph_20annotations_1',['Graph Annotations',['../group__jkqtplotter__annotations.html',1,'']]],
+  ['graph_20classes_2',['Graph Classes',['../group__jkqtplotter__graphsgroup.html',1,'']]],
+  ['grouped_20statistics_3',['Grouped statistics',['../group__jkqtptools__math__statistics__grouped.html',1,'']]]
 ];
