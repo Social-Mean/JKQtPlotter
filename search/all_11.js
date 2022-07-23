@@ -28,7 +28,7 @@ var searchData=
   ['parselatexstring_25',['parseLatexString',['../class_j_k_q_t_math_text.html#ac926999714413107f41691e262bbeffa',1,'JKQTMathText']]],
   ['parsemath_26',['parseMath',['../class_j_k_q_t_math_text.html#a84fb0ccfe736469c7bec002f6bf9fbb5',1,'JKQTMathText']]],
   ['parser_27',['parser',['../class_j_k_q_t_p_math_parser_1_1jkmp_node.html#a22c3c650f4b82b484892aafe86c879cc',1,'JKQTPMathParser::jkmpNode::parser()'],['../group__jkqtplotter__functiongraphs.html#ae4396b45f169af6efb5295c5074cda5c',1,'JKQTPParsedFunctionLineGraphBase::ParsedFunctionLineGraphFunctionData::parser()']]],
-  ['parser_2fevaluator_20for_20mathematical_20expressions_28',['Parser/Evaluator for Mathematical Expressions',['../group__jkmp.html',1,'']]],
+  ['parser_2fevaluator_20for_20mathematical_20expressions_28',['Parser/Evaluator for Mathematical Expressions',['../group__jkqtptools__math__parser.html',1,'']]],
   ['parsestring_29',['parseString',['../class_j_k_q_t_math_text.html#aef41009e7deaf292b9d5a46855919261',1,'JKQTMathText']]],
   ['parsestringparams_30',['parseStringParams',['../class_j_k_q_t_math_text.html#adf171e700d7d545b294f2061b47305d9',1,'JKQTMathText']]],
   ['parsingmathenvironment_31',['parsingMathEnvironment',['../class_j_k_q_t_math_text.html#a0d075b11979236874426ae0340af4ca5',1,'JKQTMathText']]],

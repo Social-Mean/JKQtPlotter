@@ -6,7 +6,7 @@ var hierarchy =
     [ "JKQTPPlotElement::HitTestLocation", "struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html", null ],
     [ "JKQTMathTextBoxInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html", null ],
     [ "JKQTMathTextModifiedTextPropsInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html", null ],
-    [ "JKQTPMathParser::jkmpFunctionDescriptor", "group__jkmp.html#struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor", null ],
+    [ "JKQTPMathParser::jkmpFunctionDescriptor", "group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor", null ],
     [ "JKQTPMathParser::jkmpNode", "class_j_k_q_t_p_math_parser_1_1jkmp_node.html", [
       [ "JKQTPMathParser::jkmpBinaryArithmeticNode", "class_j_k_q_t_p_math_parser_1_1jkmp_binary_arithmetic_node.html", null ],
       [ "JKQTPMathParser::jkmpBinaryBoolNode", "class_j_k_q_t_p_math_parser_1_1jkmp_binary_bool_node.html", null ],
@@ -19,7 +19,7 @@ var hierarchy =
       [ "JKQTPMathParser::jkmpVariableNode", "class_j_k_q_t_p_math_parser_1_1jkmp_variable_node.html", null ]
     ] ],
     [ "JKQTPMathParser::jkmpResult", "struct_j_k_q_t_p_math_parser_1_1jkmp_result.html", null ],
-    [ "JKQTPMathParser::jkmpTempVariable", "group__jkmp.html#struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable", null ],
+    [ "JKQTPMathParser::jkmpTempVariable", "group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable", null ],
     [ "JKQTPMathParser::jkmpVariable", "struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html", null ],
     [ "JKQTBasePlotterStyle", "class_j_k_q_t_base_plotter_style.html", null ],
     [ "JKQTGraphsBaseStyle", "class_j_k_q_t_graphs_base_style.html", null ],

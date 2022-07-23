@@ -62,7 +62,7 @@ var searchData=
   ['fromstring_59',['fromString',['../struct_j_k_q_t_p_color_derivation_mode.html#a5c32fef2a5e7e52830f2565dac2876a4',1,'JKQTPColorDerivationMode']]],
   ['fun_60',['fun',['../class_j_k_q_t_p_math_parser_1_1jkmp_function_node.html#abd84bfb1ed009b31c3f2bbe591505437',1,'JKQTPMathParser::jkmpFunctionNode']]],
   ['func_61',['func',['../struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#a550f8fe67a5ab83e9558a630e4de1760',1,'JKQTPEvaluatedFunctionGraphBase::PlotFunctorSpec']]],
-  ['function_62',['function',['../group__jkmp.html#a2b4d49d6734bb936aca30c03cd26e808',1,'JKQTPMathParser::jkmpFunctionDescriptor::function()'],['../class_j_k_q_t_p_math_parser_1_1jkmp_function_node.html#aece34fb8fcac71abf2c82d0d50a38c00',1,'JKQTPMathParser::jkmpFunctionNode::function()'],['../class_j_k_q_t_p_parsed_function_line_graph_base.html#ab42bef413fbda8fb037a61438df1c0a6',1,'JKQTPParsedFunctionLineGraphBase::function()']]],
+  ['function_62',['function',['../group__jkqtptools__math__parser.html#a2b4d49d6734bb936aca30c03cd26e808',1,'JKQTPMathParser::jkmpFunctionDescriptor::function()'],['../class_j_k_q_t_p_math_parser_1_1jkmp_function_node.html#aece34fb8fcac71abf2c82d0d50a38c00',1,'JKQTPMathParser::jkmpFunctionNode::function()'],['../class_j_k_q_t_p_parsed_function_line_graph_base.html#ab42bef413fbda8fb037a61438df1c0a6',1,'JKQTPParsedFunctionLineGraphBase::function()']]],
   ['function_20graphs_63',['Function Graphs',['../group__jkqtplotter__functiongraphs.html',1,'']]],
   ['functionexists_64',['functionExists',['../class_j_k_q_t_p_math_parser.html#a6ee437d931ceb448a4f4660e5032fb18',1,'JKQTPMathParser']]],
   ['functions_65',['functions',['../class_j_k_q_t_p_math_parser.html#add6f0704e8ddcc5fc83e5c7a070288a9',1,'JKQTPMathParser']]],
