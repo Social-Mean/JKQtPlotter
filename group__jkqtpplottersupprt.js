@@ -24,7 +24,11 @@ var group__jkqtpplottersupprt =
       [ "getFilter", "class_j_k_q_t_p_save_data_adapter.html#af7ccb608f1dcc15caf50ae9c4ad33a77", null ],
       [ "saveJKQTPData", "class_j_k_q_t_p_save_data_adapter.html#af5cf39194f845acec94eba249d5a7391", null ]
     ] ],
+    [ "JKQTPLOTTER_COMPILE_WITHOUT_PRINTSUPPORT", "group__jkqtpplottersupprt.html#ga91f332658964ee09fe91c6431c3b9026", null ],
     [ "JKQTPLOTTER_LIB_EXPORT", "group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488", null ],
+    [ "JKQTPLOTTER_LIB_EXPORT_LIBRARY", "group__jkqtpplottersupprt.html#ga833236bdddc2dbad41b1bb69655c9a3f", null ],
+    [ "JKQTPLOTTER_LIB_IN_DLL", "group__jkqtpplottersupprt.html#ga5031c0729bff9912a5418b596476353e", null ],
+    [ "JKQTPLOTTER_WORKAROUND_QGADGET_BUG", "group__jkqtpplottersupprt.html#ga8a4405ee45ef33ab5074538510f01276", null ],
     [ "JKQTPMouseDoubleClickActionsHashMap", "group__jkqtpplottersupprt.html#ga165742edb759ef5f4db13df33037affa", null ],
     [ "JKQTPMouseDoubleClickActionsHashMapIterator", "group__jkqtpplottersupprt.html#ga1c12366f4b4a2a7022f8f594f1ff646b", null ],
     [ "JKQTPMouseDragActionsHashMap", "group__jkqtpplottersupprt.html#gad8689aecfc37e84c6eec196fd0d8a2b3", null ],

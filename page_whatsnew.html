@@ -147,7 +147,7 @@ NEW/BREAKING: split jkqtcommon into basic tools and jkqtcommon_statistics_and_ma
 </ul>
 </li>
 <li>
-<p class="startli">JKQtPlotter:</p><ul>
+<p class="startli"><a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>:</p><ul>
 <li>
 FIXED issue described in <a href="https://github.com/jkriege2/JKQtPlotter/pull/62">#62: Fix custom labels draw, because giving exactly two label-strings did not display all of them</a>, thanks to <a href="https://github.com/FalsinSoft">user:FalsinSoft</a> </li>
 <li>
@@ -184,9 +184,9 @@ FIXED: strikeoutPos was not correctly calculated in sub-/superscript node </li>
 <li>
 FIXED: symbol spacing in math mode (and text mode) </li>
 <li>
-FIXED/IMPROVED: <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> renders several LaTeX strings better (simple braces in math mode, +-*... as symbols with proper sizes in math mode, added some missing instruction aliases, improved size of \vec and \hat, corrrected fonts usage for mathrm </li>
+FIXED/IMPROVED: <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> renders several LaTeX strings better (simple braces in math mode, <code>+-*</code>... as symbols with proper sizes in math mode, added some missing instruction aliases, improved size of \vec and \hat, corrrected fonts usage for \mathrm </li>
 <li>
-FIXED: \sum and \prod used the wrong symbol in XITS-mode </li>
+FIXED: <code>\sum</code> and <code>\prod</code> used the wrong symbol in XITS-mode </li>
 <li>
 IMPROVED: high-dpr-support in <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> </li>
 <li>
@@ -202,7 +202,7 @@ IMPROVED: rendering of sqrt </li>
 <li>
 IMPROVED: rendering and size calculation of decorations </li>
 <li>
-IMPROVED: tokenizing and parsing of text in text-mode: now a lot of accents with commands like "a, \'e and variants (e.g. {"a}, "{a}, ...) are supported now </li>
+IMPROVED: tokenizing and parsing of text in text-mode: now a lot of accents with commands like <code>\"a</code>, <code>\'e</code> and variants (e.g. <code>{\"a}</code>, <code>\"{a}</code>, ...) are supported now </li>
 <li>
 IMPROVED/breaking: refactored symbol node <a class="el" href="class_j_k_q_t_math_text_symbol_node.html" title="subclass representing one symbol (e.g. \alpha , \cdot ...) node in the syntax tree">JKQTMathTextSymbolNode</a> and changed font-lookup! </li>
 <li>
@@ -210,9 +210,9 @@ IMPROVED/NEW/breaking: refactored whitespace-processing node <a class="el" href=
 <li>
 IMPROVED/NEW/breaking: refactored LaTeX parser in <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> </li>
 <li>
-REMOVED/breaking: \v[a-zA-Z] and shorthand for \vec{a-zA-Z} was removed, implementation of \bbR,\bbC,... changed </li>
+REMOVED/breaking: <code>\v</code>[a-zA-Z] and shorthand for <code>\vec{a-zA-Z}</code> was removed, implementation of <code>\bbR</code>,<code>\bbC</code>,... changed </li>
 <li>
-NEW: now supports new decoration instructions: \cancel, \xcancel, \bcancel, \sout, \ocirc, \widetilde, \widehat, \breve </li>
+NEW: now supports new decoration instructions: <code>\cancel</code>, <code>\xcancel</code>, <code>\bcancel</code>, <code>\sout</code>, <code>\ocirc</code>, <code>\widetilde</code>, <code>\widehat</code>, <code>\breve</code> </li>
 <li>
 NEW: reworked drawing of decorations: improved appearance and positioning! </li>
 <li>
@@ -228,15 +228,15 @@ NEW: LaTeX-Parser understands optional instruction parameters in [...] now </li>
 <li>
 NEW: LaTeX-Parser simplifies parse-tree to increase speed of execution </li>
 <li>
-NEW: \limits and \nolimits works as in LaTeX now (before it was simply removed and the functionality implemented for a fixed list of symbols) </li>
+NEW: <code>\limits</code> and <code>\nolimits</code> works as in LaTeX now (before it was simply removed and the functionality implemented for a fixed list of symbols) </li>
 <li>
-NEW: added top-corner (\ulcorner/\urcorner) and bottom-corner brackets (\llcorner/\lrcorner) </li>
+NEW: added top-corner (<code>\ulcorner/<code>\urcorner</code> </code>) and bottom-corner brackets (<code>\llcorner/<code>\lrcorner</code> </code>) </li>
 <li>
-NEW: added \overbracket and \underbracket </li>
+NEW: added <code>\overbracket</code> and <code>\underbracket</code> </li>
 <li>
-NEW: added \shaded{color}{...} </li>
+NEW: added <code>\shaded{color}{</code>...}  </li>
 <li>
-NEW: added \acute{X}, \grave{X}, \acute{X} </li>
+NEW: added <code>\acute{X}</code>, <code>\grave{X}</code>, <code>\acute{X}</code> </li>
 <li>
 NEW: added functions to set the font-size in pixels (as alternative to the existing functions that set them in points), implements request <a href="https://github.com/jkriege2/JKQtPlotter/issues/76">#76</a> from <a href="https://github.com/igormironchik">user:igormironchik</a>  </li>
 </ul>
@@ -331,7 +331,7 @@ new: added geometric plot objects <a class="el" href="class_j_k_q_t_p_geo_arrow.
 <li>
 new: all geometric objects can either be drawn as graphic element (i.e. lines are straight line, even on non-linear axes), or as mathematical curve (i.e. on non-linear axes, lines become the appropriate curve representing the linear function, connecting the given start/end-points). The only exceptions are ellipses (and the derived arcs,pies,chords), which are always drawn as mathematical curves </li>
 <li>
-new: a new graph class <a class="el" href="class_j_k_q_t_p_x_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function  The function is eva...">JKQTPXYFunctionLineGraph</a> draws parametric 2D curves ( <img class="formulaInl" alt="$ [x,y] = f(t) $" src="form_0.png" width="83" height="18"/> ), see <a class="el" href="_j_k_q_t_plotter_eval_curves.html">Example (JKQTPlotter): Plotting Parametric Mathematical Curves as Line Graphs</a> for an example </li>
+new: a new graph class <a class="el" href="class_j_k_q_t_p_x_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function  The function is eva...">JKQTPXYFunctionLineGraph</a> draws parametric 2D curves ( \f$ [x,y] = f(t) \f$ ), see <a class="el" href="_j_k_q_t_plotter_eval_curves.html">Example (JKQTPlotter): Plotting Parametric Mathematical Curves as Line Graphs</a> for an example </li>
 <li>
 new: added several new copy/set-functions to <a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a> </li>
 <li>
@@ -368,7 +368,7 @@ update: refactoring of the library's directory structure  </li>
 <li>
 update: refactoring/renaming of API, including the function anming scheme and class names  </li>
 <li>
-changed: using static const variables instead of <code>#define</code> for fixed default values (e.g. <a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4" title="size of the lookup tables used by JKQTFPimagePlot_array2image()">JKQTPImageTools::LUTSIZE</a>, <a class="el" href="group__jkqtptools__qt.html#gadff44153c21d7d9b1d3645c08510af7c" title="Width of the Palette-Icons, generated e.g. by JKQTPImageTools::GetPaletteIcon()">JKQTPImageTools::PALETTE_ICON_WIDTH</a>, JKQTPlotterDrawinTools::ABS_MIN_LINEWIDTH, <a class="el" href="class_j_k_q_t_math_text.html#aca215b542930cdec640f87bd2c45ada5" title="minimum linewidth allowed in a JKQTMathText (given in pt)">JKQTMathText::ABS_MIN_LINEWIDTH</a> ...) </li>
+changed: using static const variables instead of <code>#define</code> for fixed default values (e.g. <a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4" title="size of the lookup tables used by JKQTFPimagePlot_array2image()">JKQTPImageTools::LUTSIZE</a>, <a class="el" href="struct_j_k_q_t_p_image_tools.html#adff44153c21d7d9b1d3645c08510af7c" title="Width of the Palette-Icons, generated e.g. by JKQTPImageTools::GetPaletteIcon()">JKQTPImageTools::PALETTE_ICON_WIDTH</a>, JKQTPlotterDrawinTools::ABS_MIN_LINEWIDTH, <a class="el" href="class_j_k_q_t_math_text.html#aca215b542930cdec640f87bd2c45ada5" title="minimum linewidth allowed in a JKQTMathText (given in pt)">JKQTMathText::ABS_MIN_LINEWIDTH</a> ...) </li>
 <li>
 Updates to <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>: <ul>
 <li>
@@ -376,7 +376,7 @@ new: added <a class="el" href="class_j_k_q_t_p_single_column_symbols_graph.html"
 <li>
 new: stacked barcharts with <a class="el" href="class_j_k_q_t_p_bar_vertical_stackable_graph.html" title="This implements a bar graph with bars starting at  to  Optionally several graphs of this type may be ...">JKQTPBarVerticalStackableGraph</a>, <a class="el" href="class_j_k_q_t_p_bar_horizontal_stackable_graph.html" title="This implements a bar graph with bars starting at  to  Optionally several graphs of this type may be ...">JKQTPBarHorizontalStackableGraph</a>  </li>
 <li>
-new: use/support of C++11 features (e.g. <code>std::function&lt;&gt;</code> and lambda functions in <a class="el" href="class_j_k_q_t_p_x_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPXFunctionLineGraph</a> / <a class="el" href="class_j_k_q_t_p_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPYFunctionLineGraph</a> ) </li>
+new: use/support of C++11 features (e.g. \c std::function&lt;&gt; and lambda functions in <a class="el" href="class_j_k_q_t_p_x_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPXFunctionLineGraph</a> / <a class="el" href="class_j_k_q_t_p_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPYFunctionLineGraph</a> ) </li>
 <li>
 new: <a class="el" href="group__jkqtpinterfaceopencv.html">optional OpenCV interface</a>  </li>
 <li>
@@ -487,7 +487,7 @@ v2015.10: Download</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 23 2022 19:31:17 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Jul 24 2022 13:06:48 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

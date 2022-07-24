@@ -132,7 +132,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_plotter.html',''); initR
 <div class="dynheader">
 Inheritance diagram for JKQTPlotter:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_plotter__inherit__graph.svg" width="119" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_plotter__inherit__graph.svg" width="124" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -969,7 +969,7 @@ Basic Usage of JKQTPlotter</h1>
 <div class="line">plot-&gt;<a class="code hl_slot" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28">zoomToFit</a>();</div>
 <div class="line"><span class="comment">// alternatively set the axis dimension by hand:</span></div>
 <div class="line">plot-&gt;<a class="code hl_slot" href="class_j_k_q_t_plotter.html#ab29362d74e9e1a24c4add51815f0ec61">setXY</a>(-10,10,-10,10);</div>
-<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a3d6b9f2649736b08b6731132f86368f6"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6">JKQTPDatastore::addCopiedColumn</a></div><div class="ttdeci">size_t addCopiedColumn(TIterator first, TIterator last, const QString &amp;name=QString(&quot;&quot;))</div><div class="ttdoc">add one column to the datastore. It will be filled with the values from first ... last</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:851</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a3d6b9f2649736b08b6731132f86368f6"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6">JKQTPDatastore::addCopiedColumn</a></div><div class="ttdeci">size_t addCopiedColumn(TIterator first, TIterator last, const QString &amp;name=QString(&quot;&quot;))</div><div class="ttdoc">add one column to the datastore. It will be filled with the values from first ... last</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:853</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_plot_element_html_a02a8d7c24cde7768f0134cee1aa1159d"><div class="ttname"><a href="class_j_k_q_t_p_plot_element.html#a02a8d7c24cde7768f0134cee1aa1159d">JKQTPPlotElement::setTitle</a></div><div class="ttdeci">virtual void setTitle(const QString &amp;__value)</div><div class="ttdoc">sets the title of the plot (for display in key!).</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_graph_html_a462e07fa2a17157b7346d2d993ff2721"><div class="ttname"><a href="class_j_k_q_t_p_x_y_graph.html#a462e07fa2a17157b7346d2d993ff2721">JKQTPXYGraph::setYColumn</a></div><div class="ttdeci">void setYColumn(int __value)</div><div class="ttdoc">the column that contains the y-component of the datapoints</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_graph_html_a48809679e6f1ba587132608b8dfb903d"><div class="ttname"><a href="class_j_k_q_t_p_x_y_graph.html#a48809679e6f1ba587132608b8dfb903d">JKQTPXYGraph::setXColumn</a></div><div class="ttdeci">void setXColumn(int __value)</div><div class="ttdoc">the column that contains the x-component of the datapoints</div></div>
@@ -8228,10 +8228,10 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
   <table class="params">
     <tr><td class="paramname">zoomX</td><td>if set <code>true</code> (default) zooms the x axis </td></tr>
     <tr><td class="paramname">zoomY</td><td>if set <code>true</code> (default) zooms the y axis </td></tr>
-    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ x=0 $" src="form_218.png" width="41" height="11"/> is visible in the plot (only for non-logx plots, default: false) </td></tr>
-    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ y=0 $" src="form_219.png" width="39" height="15"/> is visible in the plot (only for non-logy plots, default: false) </td></tr>
-    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_220.png" width="81" height="13"/> where <img class="formulaInl" alt="$ \Delta x $" src="form_221.png" width="23" height="13"/> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
-    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_222.png" width="88" height="15"/> where <img class="formulaInl" alt="$ \Delta &lt; $" src="form_223.png" width="29" height="15"/> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ x=0 $" src="form_217.png" width="41" height="11"/> is visible in the plot (only for non-logx plots, default: false) </td></tr>
+    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ y=0 $" src="form_218.png" width="39" height="15"/> is visible in the plot (only for non-logy plots, default: false) </td></tr>
+    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_219.png" width="81" height="13"/> where <img class="formulaInl" alt="$ \Delta x $" src="form_220.png" width="23" height="13"/> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_221.png" width="88" height="15"/> where <img class="formulaInl" alt="$ \Delta &lt; $" src="form_222.png" width="29" height="15"/> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
   </table>
   </dd>
 </dl>
@@ -9222,7 +9222,7 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_plotter.html">JKQTPlotter</a></li>
-    <li class="footer">Generated on Sat Jul 23 2022 19:31:19 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Jul 24 2022 13:06:50 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

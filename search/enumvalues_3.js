@@ -2,7 +2,7 @@ var searchData=
 [
   ['darkercolor_0',['DarkerColor',['../struct_j_k_q_t_p_color_derivation_mode.html#a4a8889bb9c209ab75c8bb87310431e22a51e46c10dafff9070a8357dfc43162d2',1,'JKQTPColorDerivationMode']]],
   ['default_1',['Default',['../group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4a7a1920d61156abc05a60135aefe8bc67',1,'jkqtptools.h']]],
-  ['div_2',['DIV',['../group__jkmpultil.html#gga6f3e8a859dbc5724960215d49ae6fc49ae74b3e97a97e68d45f929197258a2d2d',1,'JKQTPMathParser']]],
+  ['div_2',['DIV',['../group__jkqtptools__math__parser__utils.html#gga6f3e8a859dbc5724960215d49ae6fc49ae74b3e97a97e68d45f929197258a2d2d',1,'JKQTPMathParser']]],
   ['doublearray_3',['DoubleArray',['../group__jkqtplotter__imagelots__tools.html#gga41748f3184681064a61cddade5039b3fa5d361c16229fc173f679fcac5a76446f',1,'jkqtpbasicimagetools.h']]],
   ['drawasgraphicelement_4',['DrawAsGraphicElement',['../class_j_k_q_t_p_geometric_plot_element.html#a2947668a58c1c3e9db7b311294dee7d5ae1506fad7fe950a93326c1cf87fff3cd',1,'JKQTPGeometricPlotElement']]],
   ['drawasimage_5',['DrawAsImage',['../class_j_k_q_t_p_overlay_image_enhanced.html#a17236a08ee70303d904e63272019f2e3a5f46eba08d94d2b9707dbb5a00b1c7ff',1,'JKQTPOverlayImageEnhanced']]],

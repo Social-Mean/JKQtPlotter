@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 513;
+var viewWidth = 506;
 var viewHeight = 177;
 var sectionId = 'dynsection-1';
 </script>
@@ -58,8 +58,8 @@ var sectionId = 'dynsection-1';
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="subclass representing a sqrt node">
-<polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-21.5 149,-21.5 149,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="74.5" y="-7.9" font-family="FreeSans" font-size="12.00">JKQTMathTextSqrtNode</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-21.5 155,-21.5 155,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="77.5" y="-7.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextSqrtNode</text>
 </a>
 </g>
 </g>
@@ -67,85 +67,85 @@ var sectionId = 'dynsection-1';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_j_k_q_t_math_text_multi_child_node.html" target="_top" xlink:title="subclass representing a node in the syntax tree, that has two children">
-<polygon fill="none" stroke="black" points="144.5,-61.5 144.5,-82.5 324.5,-82.5 324.5,-61.5 144.5,-61.5"/>
-<text text-anchor="middle" x="234.5" y="-68.9" font-family="FreeSans" font-size="12.00">JKQTMathTextMultiChildNode</text>
+<polygon fill="none" stroke="black" points="115.5,-61.5 115.5,-82.5 303.5,-82.5 303.5,-61.5 115.5,-61.5"/>
+<text text-anchor="middle" x="209.5" y="-68.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextMultiChildNode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M198.8,-57.84C168.92,-46.82 126.99,-31.36 100.29,-21.51"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="197.84,-61.21 208.44,-61.39 200.27,-54.65 197.84,-61.21"/>
+<path fill="none" stroke="midnightblue" d="M178.78,-57.27C154.31,-46.33 120.66,-31.29 98.99,-21.61"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="177.44,-60.5 188,-61.39 180.3,-54.11 177.44,-60.5"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_j_k_q_t_math_text_node.html" target="_top" xlink:title="subclass representing one node in the syntax tree">
-<polygon fill="none" stroke="black" points="186.5,-147.5 186.5,-168.5 314.5,-168.5 314.5,-147.5 186.5,-147.5"/>
-<text text-anchor="middle" x="250.5" y="-154.9" font-family="FreeSans" font-size="12.00">JKQTMathTextNode</text>
+<polygon fill="none" stroke="black" points="161,-147.5 161,-168.5 292,-168.5 292,-147.5 161,-147.5"/>
+<text text-anchor="middle" x="226.5" y="-154.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextNode</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge7" class="edge">
 <title>Node3&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M176.13,-146.95C138.06,-137.63 94.91,-119.65 71.5,-85 58.51,-65.77 65.62,-36.73 70.74,-21.73"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="175.66,-150.44 186.19,-149.25 177.22,-143.61 175.66,-150.44"/>
-<text text-anchor="middle" x="103.5" y="-75.4" font-family="FreeSans" font-size="12.00"> child</text>
-<text text-anchor="middle" x="103.5" y="-62.4" font-family="FreeSans" font-size="12.00">childDegree</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M151.08,-149.32C109.32,-140.77 60.69,-122.79 34.5,-85 19.42,-63.24 46.8,-35.99 64.39,-21.73"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="150.5,-152.77 160.98,-151.2 151.81,-145.9 150.5,-152.77"/>
+<text text-anchor="middle" x="70.5" y="-75.4" font-family="Helvetica,sans-Serif" font-size="12.00"> child</text>
+<text text-anchor="middle" x="70.5" y="-62.4" font-family="Helvetica,sans-Serif" font-size="12.00">childDegree</text>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M246.74,-137.24C243.45,-120.01 238.83,-95.75 236.31,-82.52"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="243.36,-138.2 248.66,-147.36 250.23,-136.89 243.36,-138.2"/>
+<path fill="none" stroke="midnightblue" d="M222.5,-137.24C219.01,-120.01 214.1,-95.75 211.43,-82.52"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="219.14,-138.26 224.55,-147.36 226,-136.87 219.14,-138.26"/>
 </g>
 <!-- Node3&#45;&gt;Node3 -->
 <g id="edge6" class="edge">
 <title>Node3&#45;&gt;Node3</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M324.65,-163.62C329.54,-162.32 332.5,-160.44 332.5,-158 332.5,-154.19 325.29,-151.76 314.79,-150.71"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="324.07,-160.17 314.79,-165.29 325.23,-167.08 324.07,-160.17"/>
-<text text-anchor="middle" x="366" y="-154.9" font-family="FreeSans" font-size="12.00"> parentNode</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M302.17,-163.58C307.05,-162.28 310,-160.42 310,-158 310,-154.23 302.81,-151.81 292.31,-150.75"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="301.58,-160.13 292.31,-165.25 302.75,-167.03 301.58,-160.13"/>
+<text text-anchor="middle" x="347.5" y="-154.9" font-family="Helvetica,sans-Serif" font-size="12.00"> parentNode</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_j_k_q_t_math_text.html" target="_top" xlink:title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">
-<polygon fill="none" stroke="black" points="342.5,-61.5 342.5,-82.5 440.5,-82.5 440.5,-61.5 342.5,-61.5"/>
-<text text-anchor="middle" x="391.5" y="-68.9" font-family="FreeSans" font-size="12.00">JKQTMathText</text>
+<polygon fill="none" stroke="black" points="322,-61.5 322,-82.5 421,-82.5 421,-61.5 322,-61.5"/>
+<text text-anchor="middle" x="371.5" y="-68.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathText</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge5" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M250.79,-137.12C252.01,-125.67 255.48,-111.83 264.5,-103 267.55,-100.02 310.9,-90.17 346.12,-82.57"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="247.29,-136.95 250.19,-147.14 254.28,-137.36 247.29,-136.95"/>
-<text text-anchor="middle" x="304.5" y="-119.4" font-family="FreeSans" font-size="12.00"> parsedNode</text>
-<text text-anchor="middle" x="304.5" y="-106.4" font-family="FreeSans" font-size="12.00">unparsedNode</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M226.36,-137.12C227.35,-125.67 230.56,-111.83 239.5,-103 241.12,-101.4 289.17,-90.74 326.83,-82.58"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="222.86,-137.01 225.97,-147.14 229.85,-137.28 222.86,-137.01"/>
+<text text-anchor="middle" x="283.5" y="-119.4" font-family="Helvetica,sans-Serif" font-size="12.00"> parsedNode</text>
+<text text-anchor="middle" x="283.5" y="-106.4" font-family="Helvetica,sans-Serif" font-size="12.00">unparsedNode</text>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node3</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M377.31,-90.48C374.05,-94.56 370.63,-98.91 367.5,-103 358.81,-114.37 360.24,-120.81 348.5,-129 336.45,-137.4 321.92,-143.3 307.77,-147.43"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="380.07,-92.63 383.61,-82.64 374.61,-88.24 380.07,-92.63"/>
-<text text-anchor="middle" x="411.5" y="-112.9" font-family="FreeSans" font-size="12.00"> parentMathText</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M358.96,-90.85C347.6,-106.99 332.47,-128.33 331.5,-129 319.32,-137.43 304.74,-143.32 290.37,-147.44"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="361.89,-92.78 364.78,-82.59 356.16,-88.75 361.89,-92.78"/>
+<text text-anchor="middle" x="399" y="-112.9" font-family="Helvetica,sans-Serif" font-size="12.00"> parentMathText</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:title=" ">
-<polygon fill="none" stroke="black" points="442.5,-147.5 442.5,-168.5 504.5,-168.5 504.5,-147.5 442.5,-147.5"/>
-<text text-anchor="middle" x="473.5" y="-154.9" font-family="FreeSans" font-size="12.00">QObject</text>
+<polygon fill="none" stroke="black" points="433,-147.5 433,-168.5 498,-168.5 498,-147.5 433,-147.5"/>
+<text text-anchor="middle" x="465.5" y="-154.9" font-family="Helvetica,sans-Serif" font-size="12.00">QObject</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M472.56,-137.34C471.08,-126.16 467.59,-112.52 459.5,-103 451.56,-93.66 440.15,-87.12 428.94,-82.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="469.08,-137.82 473.45,-147.47 476.06,-137.2 469.08,-137.82"/>
+<path fill="none" stroke="midnightblue" d="M464.75,-137.17C463.35,-125.93 459.86,-112.29 451.5,-103 442.97,-93.52 431.14,-87.02 419.19,-82.57"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="461.28,-137.68 465.57,-147.37 468.26,-137.13 461.28,-137.68"/>
 </g>
 </g>
 </svg>

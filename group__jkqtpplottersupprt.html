@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('group__jkqtpplottersupprt.html',''); i
 <div class="dynheader">
 Collaboration diagram for Support Classes and Functions:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="group__jkqtpplottersupprt.svg" width="410" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="group__jkqtpplottersupprt.svg" width="446" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -134,8 +134,20 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga7cc1b67e0aa855571646587b4f0a6488"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a></td></tr>
+<tr class="memitem:ga91f332658964ee09fe91c6431c3b9026"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga91f332658964ee09fe91c6431c3b9026">JKQTPLOTTER_COMPILE_WITHOUT_PRINTSUPPORT</a></td></tr>
+<tr class="memdesc:ga91f332658964ee09fe91c6431c3b9026"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is defined if JKQtPlotter shall be compiled without print-support, or print-support is not available.  <a href="group__jkqtpplottersupprt.html#ga91f332658964ee09fe91c6431c3b9026">More...</a><br /></td></tr>
+<tr class="separator:ga91f332658964ee09fe91c6431c3b9026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7cc1b67e0aa855571646587b4f0a6488"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a>&#160;&#160;&#160;Q_DECL_EXPORT</td></tr>
 <tr class="separator:ga7cc1b67e0aa855571646587b4f0a6488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga833236bdddc2dbad41b1bb69655c9a3f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga833236bdddc2dbad41b1bb69655c9a3f">JKQTPLOTTER_LIB_EXPORT_LIBRARY</a></td></tr>
+<tr class="memdesc:ga833236bdddc2dbad41b1bb69655c9a3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">is only defined while compiling <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> into <code>JKQTPlotterSharedLib_XYZ</code> and ensures thet the symbols are exported. If it is not defined (e.g. while compiling an application), the symbols are imported  <a href="group__jkqtpplottersupprt.html#ga833236bdddc2dbad41b1bb69655c9a3f">More...</a><br /></td></tr>
+<tr class="separator:ga833236bdddc2dbad41b1bb69655c9a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5031c0729bff9912a5418b596476353e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga5031c0729bff9912a5418b596476353e">JKQTPLOTTER_LIB_IN_DLL</a></td></tr>
+<tr class="memdesc:ga5031c0729bff9912a5418b596476353e"><td class="mdescLeft">&#160;</td><td class="mdescRight">declares that the application should link against a shared version of <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>, i.e. <code>JKQTPlotterSharedLib_XYZ</code> . This needs to be defined while compiling the library and while compiling any application linking against <code>JKQTPlotterSharedLib_XYZ</code>.  <a href="group__jkqtpplottersupprt.html#ga5031c0729bff9912a5418b596476353e">More...</a><br /></td></tr>
+<tr class="separator:ga5031c0729bff9912a5418b596476353e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8a4405ee45ef33ab5074538510f01276"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga8a4405ee45ef33ab5074538510f01276">JKQTPLOTTER_WORKAROUND_QGADGET_BUG</a></td></tr>
+<tr class="memdesc:ga8a4405ee45ef33ab5074538510f01276"><td class="mdescLeft">&#160;</td><td class="mdescRight">This <code>#define</code> is used to work around a bug in Qt when compiled with CLANG (see <a href="https://bugreports.qt.io/browse/QTBUG-104874">https://bugreports.qt.io/browse/QTBUG-104874</a>): Multiple inheritance does not work with Q_GADGET in this setup.  <a href="group__jkqtpplottersupprt.html#ga8a4405ee45ef33ab5074538510f01276">More...</a><br /></td></tr>
+<tr class="separator:ga8a4405ee45ef33ab5074538510f01276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -517,6 +529,27 @@ logic y-position of a graph, relative to the current JKQtPlotter </td></tr>
 </div>
 </div>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga91f332658964ee09fe91c6431c3b9026" name="ga91f332658964ee09fe91c6431c3b9026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91f332658964ee09fe91c6431c3b9026">&#9670;&nbsp;</a></span>JKQTPLOTTER_COMPILE_WITHOUT_PRINTSUPPORT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JKQTPLOTTER_COMPILE_WITHOUT_PRINTSUPPORT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This is defined if JKQtPlotter shall be compiled without print-support, or print-support is not available. </p>
+<p >This can be used by surrounding code that requires print-support with </p><div class="fragment"><div class="line"><span class="preprocessor">#ifndef JKQTPLOTTER_COMPILE_WITHOUT_PRINTSUPPORT</span></div>
+<div class="line"><span class="comment">// ...</span></div>
+<div class="line"><span class="comment">// Code that require Print Support</span></div>
+<div class="line"><span class="comment">// ...</span></div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+</div><!-- fragment --> 
+</div>
+</div>
 <a id="ga7cc1b67e0aa855571646587b4f0a6488" name="ga7cc1b67e0aa855571646587b4f0a6488"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga7cc1b67e0aa855571646587b4f0a6488">&#9670;&nbsp;</a></span>JKQTPLOTTER_LIB_EXPORT</h2>
 
@@ -524,7 +557,7 @@ logic y-position of a graph, relative to the current JKQtPlotter </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define JKQTPLOTTER_LIB_EXPORT</td>
+          <td class="memname">#define JKQTPLOTTER_LIB_EXPORT&#160;&#160;&#160;Q_DECL_EXPORT</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -544,6 +577,59 @@ logic y-position of a graph, relative to the current JKQtPlotter </td></tr>
  </li>
 </ul>
 
+</div>
+</div>
+<a id="ga833236bdddc2dbad41b1bb69655c9a3f" name="ga833236bdddc2dbad41b1bb69655c9a3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga833236bdddc2dbad41b1bb69655c9a3f">&#9670;&nbsp;</a></span>JKQTPLOTTER_LIB_EXPORT_LIBRARY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JKQTPLOTTER_LIB_EXPORT_LIBRARY</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>is only defined while compiling <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> into <code>JKQTPlotterSharedLib_XYZ</code> and ensures thet the symbols are exported. If it is not defined (e.g. while compiling an application), the symbols are imported </p>
+
+</div>
+</div>
+<a id="ga5031c0729bff9912a5418b596476353e" name="ga5031c0729bff9912a5418b596476353e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5031c0729bff9912a5418b596476353e">&#9670;&nbsp;</a></span>JKQTPLOTTER_LIB_IN_DLL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JKQTPLOTTER_LIB_IN_DLL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>declares that the application should link against a shared version of <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>, i.e. <code>JKQTPlotterSharedLib_XYZ</code> . This needs to be defined while compiling the library and while compiling any application linking against <code>JKQTPlotterSharedLib_XYZ</code>. </p>
+
+</div>
+</div>
+<a id="ga8a4405ee45ef33ab5074538510f01276" name="ga8a4405ee45ef33ab5074538510f01276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8a4405ee45ef33ab5074538510f01276">&#9670;&nbsp;</a></span>JKQTPLOTTER_WORKAROUND_QGADGET_BUG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JKQTPLOTTER_WORKAROUND_QGADGET_BUG</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This <code>#define</code> is used to work around a bug in Qt when compiled with CLANG (see <a href="https://bugreports.qt.io/browse/QTBUG-104874">https://bugreports.qt.io/browse/QTBUG-104874</a>): Multiple inheritance does not work with Q_GADGET in this setup. </p>
+<p >This can be used by surrounding code that causes compile-errors due to this bug with </p><div class="fragment"><div class="line"><span class="preprocessor">#ifndef JKQTPLOTTER_COMPILE_WITHOUT_PRINTSUPPORT</span></div>
+<div class="line"><span class="comment">// ...</span></div>
+<div class="line"><span class="comment">// Code that require Print Support</span></div>
+<div class="line"><span class="comment">// ...</span></div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -742,10 +828,10 @@ logic y-position of a graph, relative to the current JKQtPlotter </td></tr>
 <img src="JKQTPCALTdefault.png" alt=""/>
 </div>
  </td></tr>
-<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858" name="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858"></a>JKQTPCALTexponentCharacter&#160;</td><td class="fielddoc"><p >print the numbers and show a unit character, i.e. 5&mu; for <img class="formulaInl" alt="$ 5\cdot 10^{-6} $" src="form_248.png" width="52" height="15"/> , <code>3k</code> for <img class="formulaInl" alt="$ 3\cdot 10^3 $" src="form_249.png" width="44" height="15"/> ... <br  />
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858" name="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858"></a>JKQTPCALTexponentCharacter&#160;</td><td class="fielddoc"><p >print the numbers and show a unit character, i.e. 5&mu; for <img class="formulaInl" alt="$ 5\cdot 10^{-6} $" src="form_247.png" width="52" height="15"/> , <code>3k</code> for <img class="formulaInl" alt="$ 3\cdot 10^3 $" src="form_248.png" width="44" height="15"/> ... <br  />
  </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11" name="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11"></a>JKQTPCALTexponent&#160;</td><td class="fielddoc"><p >show numbers in exponential for, e.g. <img class="formulaInl" alt="$ 3\cdot 10^5 $" src="form_250.png" width="44" height="15"/> ... </p>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11" name="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11"></a>JKQTPCALTexponent&#160;</td><td class="fielddoc"><p >show numbers in exponential for, e.g. <img class="formulaInl" alt="$ 3\cdot 10^5 $" src="form_249.png" width="44" height="15"/> ... </p>
 <div class="image">
 <img src="JKQTPCALTexponent.png" alt=""/>
 </div>
@@ -1892,7 +1978,7 @@ Draw Lines User-Action</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 23 2022 19:31:18 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Jul 24 2022 13:06:48 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

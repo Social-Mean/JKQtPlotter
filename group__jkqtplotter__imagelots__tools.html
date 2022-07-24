@@ -132,6 +132,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html">JKQTPColorPaletteWithModifierStyleAndToolsMixin</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">if a class is derived from this class, it may use color bars that have 2 axes (one "data"/color axis and one "modifier" axis)  <a href="class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools.html">JKQTPImageTools</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool structure that summarizes several static properties of JKQTPlotters palette system, also provides functions to work with palettes and register user-defined palettes.  <a href="struct_j_k_q_t_p_image_tools.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html">JKQTPImageTools::LUTData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal datatype, representing a lookup-table and its metadata inside global_jkqtpimagetools_lutstore  <a href="struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -400,16 +406,16 @@ Functions</h2></td></tr>
 <tr class="memitem:ga694cf42623647814dab984c60d472d28"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools.html#ga694cf42623647814dab984c60d472d28">JKQTPImagePlot_getImageMin</a> (const T *dbl, int width, int height)</td></tr>
 <tr class="memdesc:ga694cf42623647814dab984c60d472d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">fin the minimum pixel value in the given image <em>dbl</em> with width <em>width</em> and height <em>height</em>  <a href="group__jkqtplotter__imagelots__tools.html#ga694cf42623647814dab984c60d472d28">More...</a><br /></td></tr>
 <tr class="separator:ga694cf42623647814dab984c60d472d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae9424c4a66d2ae5cc42f15697a152c36"><td class="memItemLeft" align="right" valign="top">void JKQTCOMMON_LIB_EXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools.html#gae9424c4a66d2ae5cc42f15697a152c36">JKQTPModifyImage</a> (QImage &amp;img, <a class="el" href="group__jkqtplotter__imagelots__tools.html#gab8a96386e4f981f6917c20a8f03215bf">JKQTPMathImageModifierMode</a> modifierMode, const void *dataModifier, <a class="el" href="group__jkqtplotter__imagelots__tools.html#ga41748f3184681064a61cddade5039b3f">JKQTPMathImageDataType</a> datatypeModifier, int Nx, int Ny, double internalModifierMin, double internalModifierMax)</td></tr>
+<tr class="memitem:gae9424c4a66d2ae5cc42f15697a152c36"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools.html#gae9424c4a66d2ae5cc42f15697a152c36">JKQTPModifyImage</a> (QImage &amp;img, <a class="el" href="group__jkqtplotter__imagelots__tools.html#gab8a96386e4f981f6917c20a8f03215bf">JKQTPMathImageModifierMode</a> modifierMode, const void *dataModifier, <a class="el" href="group__jkqtplotter__imagelots__tools.html#ga41748f3184681064a61cddade5039b3f">JKQTPMathImageDataType</a> datatypeModifier, int Nx, int Ny, double internalModifierMin, double internalModifierMax)</td></tr>
 <tr class="memdesc:gae9424c4a66d2ae5cc42f15697a152c36"><td class="mdescLeft">&#160;</td><td class="mdescRight">modify the given image <em>img</em>, using modifier image <em>dataModifier</em> (of type <em>datatypeModifier</em> and size <em>Nx</em> * <em>Ny</em>), using values in the range <em>internalModifierMin</em> ... <em>internalModifierMax</em> )  <a href="group__jkqtplotter__imagelots__tools.html#gae9424c4a66d2ae5cc42f15697a152c36">More...</a><br /></td></tr>
 <tr class="separator:gae9424c4a66d2ae5cc42f15697a152c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7cd5fad1d171a30a1063f17d273d36d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools.html#ga7cd5fad1d171a30a1063f17d273d36d7">JKQTPSetColorChannel</a> (QRgb &amp;rgb, int ch, int val)</td></tr>
 <tr class="memdesc:ga7cd5fad1d171a30a1063f17d273d36d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the R/G/B/Alpha (<em>ch</em> == 0/1/2/3) value in the <code>QRgb</code> value <em>rgb</em> to <em>val</em> (0..255!)  <a href="group__jkqtplotter__imagelots__tools.html#ga7cd5fad1d171a30a1063f17d273d36d7">More...</a><br /></td></tr>
 <tr class="separator:ga7cd5fad1d171a30a1063f17d273d36d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3ee9407f74b2f6434857c9583bd99b2b"><td class="memItemLeft" align="right" valign="top">QString JKQTCOMMON_LIB_EXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools.html#ga3ee9407f74b2f6434857c9583bd99b2b">ModifierModeToString</a> (const <a class="el" href="group__jkqtplotter__imagelots__tools.html#gab8a96386e4f981f6917c20a8f03215bf">JKQTPMathImageModifierMode</a> &amp;mode)</td></tr>
+<tr class="memitem:ga3ee9407f74b2f6434857c9583bd99b2b"><td class="memItemLeft" align="right" valign="top">QString <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools.html#ga3ee9407f74b2f6434857c9583bd99b2b">ModifierModeToString</a> (const <a class="el" href="group__jkqtplotter__imagelots__tools.html#gab8a96386e4f981f6917c20a8f03215bf">JKQTPMathImageModifierMode</a> &amp;mode)</td></tr>
 <tr class="memdesc:ga3ee9407f74b2f6434857c9583bd99b2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a string to a ModifierMode  <a href="group__jkqtplotter__imagelots__tools.html#ga3ee9407f74b2f6434857c9583bd99b2b">More...</a><br /></td></tr>
 <tr class="separator:ga3ee9407f74b2f6434857c9583bd99b2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7274fd5c480f7d984f751c475385b4d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtplotter__imagelots__tools.html#gab8a96386e4f981f6917c20a8f03215bf">JKQTPMathImageModifierMode</a> JKQTCOMMON_LIB_EXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools.html#ga7274fd5c480f7d984f751c475385b4d1">StringToModifierMode</a> (const QString &amp;mode)</td></tr>
+<tr class="memitem:ga7274fd5c480f7d984f751c475385b4d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtplotter__imagelots__tools.html#gab8a96386e4f981f6917c20a8f03215bf">JKQTPMathImageModifierMode</a> <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools.html#ga7274fd5c480f7d984f751c475385b4d1">StringToModifierMode</a> (const QString &amp;mode)</td></tr>
 <tr class="memdesc:ga7274fd5c480f7d984f751c475385b4d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a ModifierMode to a string  <a href="group__jkqtplotter__imagelots__tools.html#ga7274fd5c480f7d984f751c475385b4d1">More...</a><br /></td></tr>
 <tr class="separator:ga7274fd5c480f7d984f751c475385b4d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -1224,7 +1230,7 @@ template&lt;class T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void JKQTCOMMON_LIB_EXPORT JKQTPModifyImage </td>
+          <td class="memname">void <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> JKQTPModifyImage </td>
           <td>(</td>
           <td class="paramtype">QImage &amp;&#160;</td>
           <td class="paramname"><em>img</em>, </td>
@@ -1334,7 +1340,7 @@ template&lt;class T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QString JKQTCOMMON_LIB_EXPORT ModifierModeToString </td>
+          <td class="memname">QString <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> ModifierModeToString </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="group__jkqtplotter__imagelots__tools.html#gab8a96386e4f981f6917c20a8f03215bf">JKQTPMathImageModifierMode</a> &amp;&#160;</td>
           <td class="paramname"><em>mode</em></td><td>)</td>
@@ -1355,7 +1361,7 @@ template&lt;class T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__jkqtplotter__imagelots__tools.html#gab8a96386e4f981f6917c20a8f03215bf">JKQTPMathImageModifierMode</a> JKQTCOMMON_LIB_EXPORT StringToModifierMode </td>
+          <td class="memname"><a class="el" href="group__jkqtplotter__imagelots__tools.html#gab8a96386e4f981f6917c20a8f03215bf">JKQTPMathImageModifierMode</a> <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> StringToModifierMode </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;&#160;</td>
           <td class="paramname"><em>mode</em></td><td>)</td>
@@ -1374,7 +1380,7 @@ template&lt;class T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 23 2022 19:31:18 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Jul 24 2022 13:06:48 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

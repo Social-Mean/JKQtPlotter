@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_p_datastore.html',''); i
 <div class="dynheader">
 Collaboration diagram for JKQTPDatastore:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_p_datastore__coll__graph.svg" width="500" height="230"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_p_datastore__coll__graph.svg" width="542" height="230"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -603,7 +603,8 @@ Column Generation/Deletion</h2>
 <li><a class="el" href="class_j_k_q_t_p_datastore.html#ae057eda96c7b754cd42f4380b429a589" title="add a new column to the datastore and return its ID">addColumn()</a> which either generates internally managed (and extensible) columns, or accepts a simple <code>double*</code> pointer to external. In the latter case owner-ship may be transferred to the datastore, but can also retain externally.</li>
 <li><a class="el" href="class_j_k_q_t_p_datastore.html#a3ce797890c214db3794bca76ffefef8e" title="add a new columns with width * height rows to the datastore and return its column ID....">addImageColumn()</a> adds a column that should be interpreted as an image with given width and height (i.e. a row-major matrix with <code>width</code> columns and <code>height</code> rows.</li>
 <li><a class="el" href="class_j_k_q_t_p_datastore.html#af778d52194f6dbb9bc0cb07d07a33ae5" title="copies the given old_column into a new one, reading the data with the given start column and stride">copyColumn()</a> duplicates an existing column</li>
-<li><a class="el" href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6" title="add one column to the datastore. It will be filled with the values from first ... last">addCopiedColumn()</a> copies an external dataset into the datastore. e.g. with code like: <div class="fragment"><div class="line"> QVector&lt;double&gt; X, Y;</div>
+<li><p class="startli"><a class="el" href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6" title="add one column to the datastore. It will be filled with the values from first ... last">addCopiedColumn()</a> copies an external dataset into the datastore. e.g. with code like:</p>
+<div class="fragment"><div class="line"> QVector&lt;double&gt; X, Y;</div>
 <div class="line"> <span class="keyword">const</span> <span class="keywordtype">int</span> Ndata=100;</div>
 <div class="line"> <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;Ndata; i++) {</div>
 <div class="line">    <span class="keyword">const</span> <span class="keywordtype">double</span> x=double(i)/double(Ndata)*8.0*<a class="code hl_define" href="group__jkqtptools__math__basic.html#gae96ac530dff57dae111b641b0c7f4eb4">JKQTPSTATISTICS_PI</a>;</div>
@@ -3730,9 +3731,9 @@ template&lt;class TIterator &gt; </div>
 <div class="line">  <a class="code hl_function" href="class_j_k_q_t_p_datastore.html#a4597feb9ac51c2a717e2028ef73e0e8b">set</a>(newColumn, r, <a class="code hl_function" href="class_j_k_q_t_p_datastore.html#af580d8e0eae7972de1b810b06dfb4a7f">get</a>(old_column, r))</div>
 <div class="line">}</div>
 <div class="line"><span class="keywordflow">return</span> newColumn;</div>
-<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a4597feb9ac51c2a717e2028ef73e0e8b"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a4597feb9ac51c2a717e2028ef73e0e8b">JKQTPDatastore::set</a></div><div class="ttdeci">void set(size_t column, size_t row, double value)</div><div class="ttdoc">sets the value at position (column, row). column is the logical column and will be mapped to the acco...</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:2649</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a4597feb9ac51c2a717e2028ef73e0e8b"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a4597feb9ac51c2a717e2028ef73e0e8b">JKQTPDatastore::set</a></div><div class="ttdeci">void set(size_t column, size_t row, double value)</div><div class="ttdoc">sets the value at position (column, row). column is the logical column and will be mapped to the acco...</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:2651</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_ae057eda96c7b754cd42f4380b429a589"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#ae057eda96c7b754cd42f4380b429a589">JKQTPDatastore::addColumn</a></div><div class="ttdeci">size_t addColumn(JKQTPColumn col)</div><div class="ttdoc">add a new column to the datastore and return its ID</div></div>
-<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_af580d8e0eae7972de1b810b06dfb4a7f"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#af580d8e0eae7972de1b810b06dfb4a7f">JKQTPDatastore::get</a></div><div class="ttdeci">double get(size_t column, size_t row) const</div><div class="ttdoc">returns the value at position (column, row). column is the logical column and will be mapped to the a...</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:2624</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_af580d8e0eae7972de1b810b06dfb4a7f"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#af580d8e0eae7972de1b810b06dfb4a7f">JKQTPDatastore::get</a></div><div class="ttdeci">double get(size_t column, size_t row) const</div><div class="ttdoc">returns the value at position (column, row). column is the logical column and will be mapped to the a...</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:2626</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -6315,7 +6316,7 @@ the iterator <em>pos</em> is rendered invalid by this column, as the in some cas
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a></li>
-    <li class="footer">Generated on Sat Jul 23 2022 19:31:19 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Jul 24 2022 13:06:49 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

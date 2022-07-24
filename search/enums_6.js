@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['jkmpresulttype_0',['jkmpResultType',['../group__jkmpultil.html#ga2c40ad3a3d1312b13064d459e16cf4e3',1,'JKQTPMathParser']]],
-  ['jkmptokentype_1',['jkmpTokenType',['../group__jkmpultil.html#ga6f3e8a859dbc5724960215d49ae6fc49',1,'JKQTPMathParser']]],
-  ['jkqtfpcolorpalette_2',['JKQTFPColorPalette',['../group__jkqtfastplotter.html#gadd386bcf668dcc0c0607be6e5ddcbb7e',1,'jkqtfastplotter.h']]],
-  ['jkqtfpimageformat_3',['JKQTFPImageFormat',['../group__jkqtfastplotter.html#gaa94a0bca376a39f32a47dbd6f08fc594',1,'jkqtfastplotter.h']]],
+  ['jkmpresulttype_0',['jkmpResultType',['../group__jkqtptools__math__parser__utils.html#ga2c40ad3a3d1312b13064d459e16cf4e3',1,'JKQTPMathParser']]],
+  ['jkmptokentype_1',['jkmpTokenType',['../group__jkqtptools__math__parser__utils.html#ga6f3e8a859dbc5724960215d49ae6fc49',1,'JKQTPMathParser']]],
+  ['jkqtfpcolorpalette_2',['JKQTFPColorPalette',['../group__jkqtfastplotter__tools.html#gadd386bcf668dcc0c0607be6e5ddcbb7e',1,'jkqtfastplotter.h']]],
+  ['jkqtfpimageformat_3',['JKQTFPImageFormat',['../group__jkqtfastplotter__tools.html#gaa94a0bca376a39f32a47dbd6f08fc594',1,'jkqtfastplotter.h']]],
   ['jkqtmathtextbracetype_4',['JKQTMathTextBraceType',['../group__jkqtmathtext__tools.html#ga54bb4fa9bb861e0118cfc68de4913472',1,'jkqtmathtexttools.h']]],
   ['jkqtmathtextenvironmentfont_5',['JKQTMathTextEnvironmentFont',['../group__jkqtmathtext__tools.html#ga50c212be3daed5382824252f58253f5e',1,'jkqtmathtexttools.h']]],
   ['jkqtmathtextfontencoding_6',['JKQTMathTextFontEncoding',['../group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201',1,'jkqtmathtexttools.h']]],

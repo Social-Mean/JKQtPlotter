@@ -5,7 +5,7 @@ var searchData=
   ['matrixrow_2',['MatrixRow',['../group__jkqtpdatastorage.html#gga679ecb0cdb6bef6f4e64be37850d2ce3aad92bd709b07ea871da0668bcdfbe819',1,'jkqtpdatastorage.h']]],
   ['meanasline_3',['MeanAsLine',['../class_j_k_q_t_p_graph_boxplot_style_mixin.html#a942c8014f12e558ee519497a5491ac31a9213a71886fa237893b9f49cf5475f5a',1,'JKQTPGraphBoxplotStyleMixin']]],
   ['meanassymbol_4',['MeanAsSymbol',['../class_j_k_q_t_p_graph_boxplot_style_mixin.html#a942c8014f12e558ee519497a5491ac31ab4bc52db8d994b3bb499cf147016634e',1,'JKQTPGraphBoxplotStyleMixin']]],
-  ['minus_5',['MINUS',['../group__jkmpultil.html#gga6f3e8a859dbc5724960215d49ae6fc49ab70d3d98e3a9c3f61f1219999bcea760',1,'JKQTPMathParser']]],
+  ['minus_5',['MINUS',['../group__jkqtptools__math__parser__utils.html#gga6f3e8a859dbc5724960215d49ae6fc49ab70d3d98e3a9c3f61f1219999bcea760',1,'JKQTPMathParser']]],
   ['modifyalpha_6',['ModifyAlpha',['../group__jkqtplotter__imagelots__tools.html#ggab8a96386e4f981f6917c20a8f03215bfa49c33543c919e1d860db92c9c9fa1dc2',1,'jkqtpbasicimagetools.h']]],
   ['modifyhue_7',['ModifyHue',['../group__jkqtplotter__imagelots__tools.html#ggab8a96386e4f981f6917c20a8f03215bfa84e64ef495bbc32ba3fed7aae44c1fb2',1,'jkqtpbasicimagetools.h']]],
   ['modifyluminance_8',['ModifyLuminance',['../group__jkqtplotter__imagelots__tools.html#ggab8a96386e4f981f6917c20a8f03215bfa96a19a07da737e5662a4bdf290b511cc',1,'jkqtpbasicimagetools.h']]],
@@ -13,7 +13,7 @@ var searchData=
   ['modifysaturation_10',['ModifySaturation',['../group__jkqtplotter__imagelots__tools.html#ggab8a96386e4f981f6917c20a8f03215bfa23185b88b103cc57e8d5e1d9a64147e2',1,'jkqtpbasicimagetools.h']]],
   ['modifytransparency_11',['ModifyTransparency',['../group__jkqtplotter__imagelots__tools.html#ggab8a96386e4f981f6917c20a8f03215bfa1657f14a372dd4a0a006e8a829a2bb32',1,'jkqtpbasicimagetools.h']]],
   ['modifyvalue_12',['ModifyValue',['../group__jkqtplotter__imagelots__tools.html#ggab8a96386e4f981f6917c20a8f03215bfac6c9cdb407bd70ee7f38a17fd5714413',1,'jkqtpbasicimagetools.h']]],
-  ['modulo_13',['MODULO',['../group__jkmpultil.html#gga6f3e8a859dbc5724960215d49ae6fc49addc12aabeffdf8c8cb4472a7c7e5cae3',1,'JKQTPMathParser']]],
+  ['modulo_13',['MODULO',['../group__jkqtptools__math__parser__utils.html#gga6f3e8a859dbc5724960215d49ae6fc49addc12aabeffdf8c8cb4472a7c7e5cae3',1,'JKQTPMathParser']]],
   ['moretransparent_14',['MoreTransparent',['../struct_j_k_q_t_p_color_derivation_mode.html#af8a6135aa916c56b55a801a25a765dceae5f7f5c35d095937eb94852a5f0f9795',1,'JKQTPColorDerivationMode']]],
   ['mtbtanglebracket_15',['MTBTAngleBracket',['../group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472a5a68d0ae1c2084936981e0feccf92658',1,'jkqtmathtexttools.h']]],
   ['mtbtany_16',['MTBTAny',['../group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472a0e3578ed794778ca677dd0df8825462a',1,'jkqtmathtexttools.h']]],
@@ -91,5 +91,5 @@ var searchData=
   ['mtttext_88',['MTTtext',['../class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a78ae86e657ead3ff77b26e5fc604a0ac',1,'JKQTMathText']]],
   ['mttunderscore_89',['MTTunderscore',['../class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a17e8451da405aa4a3a0412760a2a7c77',1,'JKQTMathText']]],
   ['mttwhitespace_90',['MTTwhitespace',['../class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532acd9e42728b75ec1a0bdb6a757b25ac77',1,'JKQTMathText']]],
-  ['mul_91',['MUL',['../group__jkmpultil.html#gga6f3e8a859dbc5724960215d49ae6fc49a29132aec5da9788ee1829322b3235e51',1,'JKQTPMathParser']]]
+  ['mul_91',['MUL',['../group__jkqtptools__math__parser__utils.html#gga6f3e8a859dbc5724960215d49ae6fc49a29132aec5da9788ee1829322b3235e51',1,'JKQTPMathParser']]]
 ];

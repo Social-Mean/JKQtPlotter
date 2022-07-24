@@ -1,6 +1,6 @@
 var struct_j_k_q_t_p_image_tools =
 [
-    [ "LUTType", "group__jkqtptools__qt.html#gaf50d2ee768eaece312b5eb4eeba8c6a4", null ],
+    [ "LUTType", "struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4", null ],
     [ "array2image", "struct_j_k_q_t_p_image_tools.html#af096d9448f74499f8a019ae80fb6399e", null ],
     [ "array2image", "struct_j_k_q_t_p_image_tools.html#a4ac28194accce75259977edc9eaeaef1", null ],
     [ "getDefaultLUTs", "struct_j_k_q_t_p_image_tools.html#a2aa8cc4fe00814478baaa5458d49e835", null ],
@@ -21,6 +21,6 @@ var struct_j_k_q_t_p_image_tools =
     [ "global_jkqtpimagetools_lutstore", "struct_j_k_q_t_p_image_tools.html#ae666c1e272c28a5392293d7bab1b94a6", null ],
     [ "global_next_userpalette", "struct_j_k_q_t_p_image_tools.html#ad3ed99bff0339dc4d1fe0fac755dd563", null ],
     [ "LUTSIZE", "struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4", null ],
-    [ "PALETTE_ICON_WIDTH", "group__jkqtptools__qt.html#gadff44153c21d7d9b1d3645c08510af7c", null ],
-    [ "PALETTE_IMAGEICON_HEIGHT", "group__jkqtptools__qt.html#ga94e808013f54024f502784a3ba50d3c4", null ]
+    [ "PALETTE_ICON_WIDTH", "struct_j_k_q_t_p_image_tools.html#adff44153c21d7d9b1d3645c08510af7c", null ],
+    [ "PALETTE_IMAGEICON_HEIGHT", "struct_j_k_q_t_p_image_tools.html#a94e808013f54024f502784a3ba50d3c4", null ]
 ];
