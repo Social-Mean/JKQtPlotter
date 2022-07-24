@@ -36,6 +36,7 @@ var annotated_dup =
     [ "JKQTMathTextMultiChildNode", "class_j_k_q_t_math_text_multi_child_node.html", "class_j_k_q_t_math_text_multi_child_node" ],
     [ "JKQTMathTextNode", "class_j_k_q_t_math_text_node.html", "class_j_k_q_t_math_text_node" ],
     [ "JKQTMathTextNodeSize", "struct_j_k_q_t_math_text_node_size.html", "struct_j_k_q_t_math_text_node_size" ],
+    [ "JKQTMathTextSimpleInstructionNode", "class_j_k_q_t_math_text_simple_instruction_node.html", "class_j_k_q_t_math_text_simple_instruction_node" ],
     [ "JKQTMathTextSingleChildNode", "class_j_k_q_t_math_text_single_child_node.html", "class_j_k_q_t_math_text_single_child_node" ],
     [ "JKQTMathTextSqrtNode", "class_j_k_q_t_math_text_sqrt_node.html", "class_j_k_q_t_math_text_sqrt_node" ],
     [ "JKQTMathTextSubscriptNode", "class_j_k_q_t_math_text_subscript_node.html", "class_j_k_q_t_math_text_subscript_node" ],

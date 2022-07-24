@@ -18,7 +18,8 @@ var searchData=
   ['errorsimpleplotfunction_15',['errorSimplePlotFunction',['../class_j_k_q_t_p_functor_line_graph_base.html#a1861b7dbf5dcf398f79df5d5730ad3d6',1,'JKQTPFunctorLineGraphBase']]],
   ['errorstyle_16',['errorStyle',['../class_j_k_q_t_f_p_line_plot.html#ae19d974ce2ba621387f6ab09f3433de3',1,'JKQTFPLinePlot::errorStyle()'],['../class_j_k_q_t_p_evaluated_function_with_errors_graph_drawing_base.html#a8010948fa6555de723388b2b2af3210d',1,'JKQTPEvaluatedFunctionWithErrorsGraphDrawingBase::errorStyle()']]],
   ['errorwidth_17',['errorWidth',['../class_j_k_q_t_f_p_line_plot.html#a77ea2035e75395927a90b21b6faf01da',1,'JKQTFPLinePlot']]],
-  ['exportbackgroundbrush_18',['exportBackgroundBrush',['../class_j_k_q_t_base_plotter_style.html#aba97bd81d82ab448910544bfe096bb9f',1,'JKQTBasePlotterStyle']]],
-  ['exportpreviewlabel_19',['exportPreviewLabel',['../class_j_k_q_t_base_plotter.html#a740e9dd51e0e23fb2f7fc4c8b757266d',1,'JKQTBasePlotter']]],
-  ['exportunitinmm_20',['exportUnitInMM',['../class_j_k_q_t_base_plotter.html#abfaab64ca79fd3ef2ed5a8c9d48c5016',1,'JKQTBasePlotter']]]
+  ['evaluator_18',['evaluator',['../struct_j_k_q_t_math_text_simple_instruction_node_1_1_instruction_properties.html#a314f0c84a5127a86c27ecb275084bb98',1,'JKQTMathTextSimpleInstructionNode::InstructionProperties']]],
+  ['exportbackgroundbrush_19',['exportBackgroundBrush',['../class_j_k_q_t_base_plotter_style.html#aba97bd81d82ab448910544bfe096bb9f',1,'JKQTBasePlotterStyle']]],
+  ['exportpreviewlabel_20',['exportPreviewLabel',['../class_j_k_q_t_base_plotter.html#a740e9dd51e0e23fb2f7fc4c8b757266d',1,'JKQTBasePlotter']]],
+  ['exportunitinmm_21',['exportUnitInMM',['../class_j_k_q_t_base_plotter.html#abfaab64ca79fd3ef2ed5a8c9d48c5016',1,'JKQTBasePlotter']]]
 ];

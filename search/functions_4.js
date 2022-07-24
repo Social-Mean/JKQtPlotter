@@ -19,7 +19,7 @@ var searchData=
   ['evaluatefunction_16',['evaluateFunction',['../class_j_k_q_t_p_math_parser.html#acba145342a86b6004a1dc5886c09b725',1,'JKQTPMathParser']]],
   ['evaluateparsedfunction_17',['evaluateParsedFunction',['../class_j_k_q_t_p_parsed_function_line_graph_base.html#a29266aba1a2dfd220cbc4699d7aa30d5',1,'JKQTPParsedFunctionLineGraphBase']]],
   ['exchange_18',['exchange',['../class_j_k_q_t_p_column.html#ac12de171713570766d3eef673d2a508f',1,'JKQTPColumn']]],
-  ['executeinstruction_19',['executeInstruction',['../class_j_k_q_t_math_text_modified_text_props_instruction_node.html#aedcbf6a44329b4dc78690274d73eb82c',1,'JKQTMathTextModifiedTextPropsInstructionNode']]],
+  ['executeinstruction_19',['executeInstruction',['../class_j_k_q_t_math_text_simple_instruction_node.html#a4464e15cde1f163561db520a8daccede',1,'JKQTMathTextSimpleInstructionNode::executeInstruction()'],['../class_j_k_q_t_math_text_modified_text_props_instruction_node.html#aedcbf6a44329b4dc78690274d73eb82c',1,'JKQTMathTextModifiedTextPropsInstructionNode::executeInstruction()']]],
   ['exportpreview_20',['exportpreview',['../class_j_k_q_t_base_plotter.html#a30c9bc77b73d055a5fff8b0ab91364ad',1,'JKQTBasePlotter']]],
   ['exportpreviewpaintrequested_21',['exportpreviewPaintRequested',['../class_j_k_q_t_base_plotter.html#a9ce7c3e0702f145793f9175a721f9c95',1,'JKQTBasePlotter']]]
 ];

@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 865;
+var viewWidth = 900;
 var viewHeight = 350;
 var sectionId = 'dynsection-0';
 </script>
@@ -58,8 +58,8 @@ var sectionId = 'dynsection-0';
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="subclass representing one node in the syntax tree">
-<polygon fill="#bfbfbf" stroke="black" points="0,-120.5 0,-141.5 131,-141.5 131,-120.5 0,-120.5"/>
-<text text-anchor="middle" x="65.5" y="-127.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextNode</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-140.5 0,-161.5 131,-161.5 131,-140.5 0,-140.5"/>
+<text text-anchor="middle" x="65.5" y="-147.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextNode</text>
 </a>
 </g>
 </g>
@@ -67,272 +67,287 @@ var sectionId = 'dynsection-0';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_j_k_q_t_math_text_matrix_node.html" target="_top" xlink:title="subclass representing a \begin{matrix} node">
-<polygon fill="none" stroke="black" points="183,-280.5 183,-301.5 351,-301.5 351,-280.5 183,-280.5"/>
-<text text-anchor="middle" x="267" y="-287.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextMatrixNode</text>
+<polygon fill="none" stroke="black" points="200.5,-280.5 200.5,-301.5 368.5,-301.5 368.5,-280.5 200.5,-280.5"/>
+<text text-anchor="middle" x="284.5" y="-287.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextMatrixNode</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M75.07,-151.27C89.32,-182.33 120.94,-241.23 167,-271 172.89,-274.81 179.36,-277.91 186.08,-280.44"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="78.16,-149.6 70.91,-141.88 71.76,-152.44 78.16,-149.6"/>
+<path fill="none" stroke="midnightblue" d="M77.09,-170.86C92.81,-198.22 125.04,-246.87 167,-271 177.23,-276.88 188.74,-281.13 200.44,-284.18"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="79.98,-168.86 72.06,-161.83 73.87,-172.26 79.98,-168.86"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_j_k_q_t_math_text_multi_child_node.html" target="_top" xlink:title="subclass representing a node in the syntax tree, that has two children">
-<polygon fill="none" stroke="black" points="173,-240.5 173,-261.5 361,-261.5 361,-240.5 173,-240.5"/>
-<text text-anchor="middle" x="267" y="-247.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextMultiChildNode</text>
+<polygon fill="none" stroke="black" points="190.5,-240.5 190.5,-261.5 378.5,-261.5 378.5,-240.5 190.5,-240.5"/>
+<text text-anchor="middle" x="284.5" y="-247.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextMultiChildNode</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M92.91,-146.88C134.25,-171.75 213.17,-219.22 248.34,-240.37"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="94.58,-143.8 84.2,-141.65 90.97,-149.8 94.58,-143.8"/>
+<path fill="none" stroke="midnightblue" d="M90.39,-167.19C110.28,-180.19 139.67,-198.32 167,-211 192.8,-222.97 223.24,-233.3 246.53,-240.46"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="92.23,-164.21 81.96,-161.61 88.37,-170.05 92.23,-164.21"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="class_j_k_q_t_math_text_single_child_node.html" target="_top" xlink:title="subclass representing a node in the syntax tree, that has one child">
-<polygon fill="none" stroke="black" points="169,-140.5 169,-161.5 365,-161.5 365,-140.5 169,-140.5"/>
-<text text-anchor="middle" x="267" y="-147.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextSingleChildNode</text>
+<g id="a_node8"><a xlink:href="class_j_k_q_t_math_text_simple_instruction_node.html" target="_top" xlink:title="subclass representing a simple instruction node which only accepts string arguments,...">
+<polygon fill="none" stroke="black" points="167,-180.5 167,-201.5 402,-201.5 402,-180.5 167,-180.5"/>
+<text text-anchor="middle" x="284.5" y="-187.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextSimpleInstructionNode</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M141.32,-138.5C150.35,-139.41 159.67,-140.34 168.96,-141.27"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="141.57,-135.01 131.27,-137.49 140.87,-141.97 141.57,-135.01"/>
+<path fill="none" stroke="midnightblue" d="M128.21,-163.55C141.02,-166.08 154.44,-168.67 167,-171 184.25,-174.2 202.98,-177.49 220.26,-180.46"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="128.58,-160.05 118.09,-161.54 127.22,-166.92 128.58,-160.05"/>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node">
-<title>Node16</title>
-<g id="a_node16"><a xlink:href="class_j_k_q_t_math_text_symbol_node.html" target="_top" xlink:title="subclass representing one symbol (e.g. \alpha , \cdot ...) node in the syntax tree">
-<polygon fill="none" stroke="black" points="179.5,-100.5 179.5,-121.5 354.5,-121.5 354.5,-100.5 179.5,-100.5"/>
-<text text-anchor="middle" x="267" y="-107.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextSymbolNode</text>
+<!-- Node9 -->
+<g id="node9" class="node">
+<title>Node9</title>
+<g id="a_node9"><a xlink:href="class_j_k_q_t_math_text_single_child_node.html" target="_top" xlink:title="subclass representing a node in the syntax tree, that has one child">
+<polygon fill="none" stroke="black" points="186.5,-140.5 186.5,-161.5 382.5,-161.5 382.5,-140.5 186.5,-140.5"/>
+<text text-anchor="middle" x="284.5" y="-147.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextSingleChildNode</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node16 -->
-<g id="edge15" class="edge">
-<title>Node1&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M141.52,-123.48C153.88,-122.24 166.79,-120.95 179.42,-119.68"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="140.87,-120.03 131.27,-124.51 141.57,-126.99 140.87,-120.03"/>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge8" class="edge">
+<title>Node1&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M141.39,-151C155.86,-151 171.22,-151 186.28,-151"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="141.02,-147.5 131.02,-151 141.02,-154.5 141.02,-147.5"/>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="class_j_k_q_t_math_text_text_node.html" target="_top" xlink:title="subclass representing one text node in the syntax tree">
-<polygon fill="none" stroke="black" points="189.5,-60.5 189.5,-81.5 344.5,-81.5 344.5,-60.5 189.5,-60.5"/>
-<text text-anchor="middle" x="267" y="-67.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextTextNode</text>
+<g id="a_node17"><a xlink:href="class_j_k_q_t_math_text_symbol_node.html" target="_top" xlink:title="subclass representing one symbol (e.g. \alpha , \cdot ...) node in the syntax tree">
+<polygon fill="none" stroke="black" points="197,-100.5 197,-121.5 372,-121.5 372,-100.5 197,-100.5"/>
+<text text-anchor="middle" x="284.5" y="-107.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextSymbolNode</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node17 -->
 <g id="edge16" class="edge">
 <title>Node1&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M98.94,-116.37C118.37,-108.04 143.75,-97.91 167,-91 179.19,-87.38 192.41,-84.2 205.11,-81.51"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="97.41,-113.21 89.63,-120.41 100.2,-119.63 97.41,-113.21"/>
+<path fill="none" stroke="midnightblue" d="M128.21,-138.45C141.02,-135.92 154.44,-133.33 167,-131 184.25,-127.8 202.98,-124.51 220.26,-121.54"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="127.22,-135.08 118.09,-140.46 128.58,-141.95 127.22,-135.08"/>
 </g>
-<!-- Node19 -->
-<g id="node19" class="node">
-<title>Node19</title>
-<g id="a_node19"><a xlink:href="class_j_k_q_t_math_text_whitespace_node.html" target="_top" xlink:title="subclass representing one whitepsace node in the syntax tree">
-<polygon fill="none" stroke="black" points="167,-20.5 167,-41.5 367,-41.5 367,-20.5 167,-20.5"/>
-<text text-anchor="middle" x="267" y="-27.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextWhitespaceNode</text>
+<!-- Node18 -->
+<g id="node18" class="node">
+<title>Node18</title>
+<g id="a_node18"><a xlink:href="class_j_k_q_t_math_text_text_node.html" target="_top" xlink:title="subclass representing one text node in the syntax tree">
+<polygon fill="none" stroke="black" points="207,-60.5 207,-81.5 362,-81.5 362,-60.5 207,-60.5"/>
+<text text-anchor="middle" x="284.5" y="-67.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextTextNode</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node19 -->
-<g id="edge18" class="edge">
-<title>Node1&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M83.69,-112.99C102.41,-94.5 134.1,-66.32 167,-51 175.27,-47.15 184.26,-44.04 193.34,-41.53"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="81.05,-110.69 76.5,-120.25 86.02,-115.61 81.05,-110.69"/>
+<!-- Node1&#45;&gt;Node18 -->
+<g id="edge17" class="edge">
+<title>Node1&#45;&gt;Node18</title>
+<path fill="none" stroke="midnightblue" d="M88.53,-134.58C108.13,-120.79 138.07,-101.69 167,-91 179.61,-86.34 193.39,-82.75 206.92,-80"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="86.38,-131.81 80.3,-140.48 90.46,-137.5 86.38,-131.81"/>
+</g>
+<!-- Node20 -->
+<g id="node20" class="node">
+<title>Node20</title>
+<g id="a_node20"><a xlink:href="class_j_k_q_t_math_text_whitespace_node.html" target="_top" xlink:title="subclass representing one whitepsace node in the syntax tree">
+<polygon fill="none" stroke="black" points="184.5,-20.5 184.5,-41.5 384.5,-41.5 384.5,-20.5 184.5,-20.5"/>
+<text text-anchor="middle" x="284.5" y="-27.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextWhitespaceNode</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node20 -->
+<g id="edge19" class="edge">
+<title>Node1&#45;&gt;Node20</title>
+<path fill="none" stroke="midnightblue" d="M79.66,-132.1C96.89,-108.95 129.35,-70.43 167,-51 174.39,-47.19 182.35,-44.08 190.53,-41.55"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="76.67,-130.27 73.63,-140.42 82.34,-134.38 76.67,-130.27"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_j_k_q_t_math_text_dual_child_node.html" target="_top" xlink:title="subclass representing a node in the syntax tree, that has two children">
-<polygon fill="none" stroke="black" points="410.5,-320.5 410.5,-341.5 597.5,-341.5 597.5,-320.5 410.5,-320.5"/>
-<text text-anchor="middle" x="504" y="-327.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextDualChildNode</text>
+<polygon fill="none" stroke="black" points="445.5,-320.5 445.5,-341.5 632.5,-341.5 632.5,-320.5 445.5,-320.5"/>
+<text text-anchor="middle" x="539" y="-327.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextDualChildNode</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M354.84,-265.07C359.04,-266.82 363.13,-268.79 367,-271 387.77,-282.86 382.22,-299.16 403,-311 409.69,-314.81 417,-317.9 424.51,-320.41"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="356.04,-261.78 345.45,-261.56 353.59,-268.34 356.04,-261.78"/>
+<path fill="none" stroke="midnightblue" d="M388.47,-264.63C393.14,-266.5 397.68,-268.62 402,-271 422.94,-282.55 417.22,-299.16 438,-311 444.69,-314.81 452,-317.9 459.51,-320.41"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="389.3,-261.21 378.7,-261.12 386.93,-267.8 389.3,-261.21"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_j_k_q_t_math_text_list_node.html" target="_top" xlink:title="subclass representing a list of nodes in the syntax tree">
-<polygon fill="none" stroke="black" points="428.5,-280.5 428.5,-301.5 579.5,-301.5 579.5,-280.5 428.5,-280.5"/>
-<text text-anchor="middle" x="504" y="-287.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextListNode</text>
+<polygon fill="none" stroke="black" points="463.5,-280.5 463.5,-301.5 614.5,-301.5 614.5,-280.5 463.5,-280.5"/>
+<text text-anchor="middle" x="539" y="-287.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextListNode</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node3&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M339.63,-263.19C372.08,-268.72 410.08,-275.18 441.26,-280.49"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="340.19,-259.74 329.74,-261.51 339.01,-266.64 340.19,-259.74"/>
+<path fill="none" stroke="midnightblue" d="M362.01,-263.12C396.98,-268.66 438.02,-275.16 471.66,-280.49"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="362.27,-259.62 351.84,-261.51 361.17,-266.53 362.27,-259.62"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_j_k_q_t_math_text_sqrt_node.html" target="_top" xlink:title="subclass representing a sqrt node">
-<polygon fill="none" stroke="black" points="426.5,-240.5 426.5,-261.5 581.5,-261.5 581.5,-240.5 426.5,-240.5"/>
-<text text-anchor="middle" x="504" y="-247.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextSqrtNode</text>
+<polygon fill="none" stroke="black" points="461.5,-240.5 461.5,-261.5 616.5,-261.5 616.5,-240.5 461.5,-240.5"/>
+<text text-anchor="middle" x="539" y="-247.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextSqrtNode</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node3&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M371.38,-251C389.78,-251 408.65,-251 426.15,-251"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="371.22,-247.5 361.22,-251 371.22,-254.5 371.22,-247.5"/>
+<path fill="none" stroke="midnightblue" d="M389.06,-251C413.19,-251 438.46,-251 461.19,-251"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="388.8,-247.5 378.8,-251 388.8,-254.5 388.8,-247.5"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_j_k_q_t_math_text_frac_node.html" target="_top" xlink:title="subclass representing a \frac node">
-<polygon fill="none" stroke="black" points="671,-320.5 671,-341.5 827,-341.5 827,-320.5 671,-320.5"/>
-<text text-anchor="middle" x="749" y="-327.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextFracNode</text>
+<polygon fill="none" stroke="black" points="706,-320.5 706,-341.5 862,-341.5 862,-320.5 706,-320.5"/>
+<text text-anchor="middle" x="784" y="-327.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextFracNode</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M607.83,-331C628.9,-331 650.74,-331 670.72,-331"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="607.56,-327.5 597.56,-331 607.56,-334.5 607.56,-327.5"/>
-</g>
-<!-- Node9 -->
-<g id="node9" class="node">
-<title>Node9</title>
-<g id="a_node9"><a xlink:href="class_j_k_q_t_math_text_brace_node.html" target="_top" xlink:title="subclass representing a brace node">
-<polygon fill="none" stroke="black" points="421,-200.5 421,-221.5 587,-221.5 587,-200.5 421,-200.5"/>
-<text text-anchor="middle" x="504" y="-207.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextBraceNode</text>
-</a>
-</g>
-</g>
-<!-- Node8&#45;&gt;Node9 -->
-<g id="edge8" class="edge">
-<title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M310.22,-164.58C336.7,-172.83 371.65,-183.24 403,-191 416.75,-194.4 431.67,-197.63 445.69,-200.47"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="311.1,-161.19 300.51,-161.53 309,-167.87 311.1,-161.19"/>
+<path fill="none" stroke="midnightblue" d="M642.83,-331C663.9,-331 685.74,-331 705.72,-331"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="642.56,-327.5 632.56,-331 642.56,-334.5 642.56,-327.5"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="class_j_k_q_t_math_text_decorated_node.html" target="_top" xlink:title="subclass representing a decorated text m (e.g. \vec \hat ...) node">
-<polygon fill="none" stroke="black" points="407,-160.5 407,-181.5 601,-181.5 601,-160.5 407,-160.5"/>
-<text text-anchor="middle" x="504" y="-167.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextDecoratedNode</text>
+<g id="a_node10"><a xlink:href="class_j_k_q_t_math_text_brace_node.html" target="_top" xlink:title="subclass representing a brace node">
+<polygon fill="none" stroke="black" points="456,-200.5 456,-221.5 622,-221.5 622,-200.5 456,-200.5"/>
+<text text-anchor="middle" x="539" y="-207.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextBraceNode</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node10 -->
+<!-- Node9&#45;&gt;Node10 -->
 <g id="edge9" class="edge">
-<title>Node8&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M375.34,-160.13C385.87,-161.03 396.52,-161.94 406.93,-162.82"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="375.54,-156.64 365.28,-159.28 374.95,-163.61 375.54,-156.64"/>
+<title>Node9&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M377.66,-163.83C385.99,-165.88 394.21,-168.26 402,-171 419.26,-177.08 420.82,-184.69 438,-191 448.3,-194.79 459.48,-197.91 470.51,-200.48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="378.4,-160.4 367.87,-161.56 376.82,-167.22 378.4,-160.4"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="class_j_k_q_t_math_text_instruction1_node.html" target="_top" xlink:title="subclass representing an instruction node with exactly one argument and possibly additional parameter...">
-<polygon fill="none" stroke="black" points="403,-120.5 403,-141.5 605,-141.5 605,-120.5 403,-120.5"/>
-<text text-anchor="middle" x="504" y="-127.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextInstruction1Node</text>
+<g id="a_node11"><a xlink:href="class_j_k_q_t_math_text_decorated_node.html" target="_top" xlink:title="subclass representing a decorated text m (e.g. \vec \hat ...) node">
+<polygon fill="none" stroke="black" points="442,-160.5 442,-181.5 636,-181.5 636,-160.5 442,-160.5"/>
+<text text-anchor="middle" x="539" y="-167.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextDecoratedNode</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node11 -->
+<!-- Node9&#45;&gt;Node11 -->
 <g id="edge10" class="edge">
-<title>Node8&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M375.49,-141.85C384.57,-141.08 393.73,-140.3 402.76,-139.53"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="374.95,-138.39 365.28,-142.72 375.54,-145.36 374.95,-138.39"/>
-</g>
-<!-- Node14 -->
-<g id="node14" class="node">
-<title>Node14</title>
-<g id="a_node14"><a xlink:href="class_j_k_q_t_math_text_subscript_node.html" target="_top" xlink:title="subclass representing an subscript node with exactly one argument in the syntax tree">
-<polygon fill="none" stroke="black" points="411,-80.5 411,-101.5 597,-101.5 597,-80.5 411,-80.5"/>
-<text text-anchor="middle" x="504" y="-87.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextSubscriptNode</text>
-</a>
-</g>
-</g>
-<!-- Node8&#45;&gt;Node14 -->
-<g id="edge13" class="edge">
-<title>Node8&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M344.37,-138.05C352.1,-136.01 359.77,-133.67 367,-131 384.17,-124.67 385.82,-117.31 403,-111 413.3,-107.21 424.48,-104.09 435.51,-101.52"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="343.41,-134.68 334.55,-140.49 345.1,-141.48 343.41,-134.68"/>
-</g>
-<!-- Node15 -->
-<g id="node15" class="node">
-<title>Node15</title>
-<g id="a_node15"><a xlink:href="class_j_k_q_t_math_text_superscript_node.html" target="_top" xlink:title="subclass representing an superscript node with exactly one argument in the syntax tree">
-<polygon fill="none" stroke="black" points="404.5,-40.5 404.5,-61.5 603.5,-61.5 603.5,-40.5 404.5,-40.5"/>
-<text text-anchor="middle" x="504" y="-47.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextSuperscriptNode</text>
-</a>
-</g>
-</g>
-<!-- Node8&#45;&gt;Node15 -->
-<g id="edge14" class="edge">
-<title>Node8&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M358.95,-135.98C361.74,-134.47 364.43,-132.81 367,-131 392.4,-113.06 377.58,-88.91 403,-71 408.35,-67.23 414.25,-64.13 420.42,-61.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="357.29,-132.9 349.76,-140.35 360.29,-139.22 357.29,-132.9"/>
+<title>Node9&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M392.79,-159.5C409.01,-160.78 425.65,-162.1 441.62,-163.37"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="393.01,-156 382.76,-158.7 392.45,-162.98 393.01,-156"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="class_j_k_q_t_math_text_box_instruction_node.html" target="_top" xlink:title="subclass representing an instruction node which draws a (possibly colored) box around it&#39;s contents i...">
-<polygon fill="none" stroke="black" points="641,-143.5 641,-164.5 857,-164.5 857,-143.5 641,-143.5"/>
-<text text-anchor="middle" x="749" y="-150.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextBoxInstructionNode</text>
+<g id="a_node12"><a xlink:href="class_j_k_q_t_math_text_instruction1_node.html" target="_top" xlink:title="subclass representing an instruction node with exactly one argument and possibly additional parameter...">
+<polygon fill="none" stroke="black" points="438,-120.5 438,-141.5 640,-141.5 640,-120.5 438,-120.5"/>
+<text text-anchor="middle" x="539" y="-127.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextInstruction1Node</text>
 </a>
 </g>
 </g>
-<!-- Node11&#45;&gt;Node12 -->
+<!-- Node9&#45;&gt;Node12 -->
 <g id="edge11" class="edge">
-<title>Node11&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M615.22,-141.43C623.76,-142.24 632.38,-143.06 640.9,-143.86"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="615.53,-137.95 605.24,-140.49 614.87,-144.91 615.53,-137.95"/>
+<title>Node9&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M393,-142.49C407.88,-141.31 423.12,-140.1 437.86,-138.93"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="392.45,-139.02 382.76,-143.3 393.01,-146 392.45,-139.02"/>
+</g>
+<!-- Node15 -->
+<g id="node15" class="node">
+<title>Node15</title>
+<g id="a_node15"><a xlink:href="class_j_k_q_t_math_text_subscript_node.html" target="_top" xlink:title="subclass representing an subscript node with exactly one argument in the syntax tree">
+<polygon fill="none" stroke="black" points="446,-80.5 446,-101.5 632,-101.5 632,-80.5 446,-80.5"/>
+<text text-anchor="middle" x="539" y="-87.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextSubscriptNode</text>
+</a>
+</g>
+</g>
+<!-- Node9&#45;&gt;Node15 -->
+<g id="edge14" class="edge">
+<title>Node9&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M377.66,-138.17C385.99,-136.12 394.21,-133.74 402,-131 419.26,-124.92 420.82,-117.31 438,-111 448.3,-107.21 459.48,-104.09 470.51,-101.52"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="376.82,-134.78 367.87,-140.44 378.4,-141.6 376.82,-134.78"/>
+</g>
+<!-- Node16 -->
+<g id="node16" class="node">
+<title>Node16</title>
+<g id="a_node16"><a xlink:href="class_j_k_q_t_math_text_superscript_node.html" target="_top" xlink:title="subclass representing an superscript node with exactly one argument in the syntax tree">
+<polygon fill="none" stroke="black" points="439.5,-40.5 439.5,-61.5 638.5,-61.5 638.5,-40.5 439.5,-40.5"/>
+<text text-anchor="middle" x="539" y="-47.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextSuperscriptNode</text>
+</a>
+</g>
+</g>
+<!-- Node9&#45;&gt;Node16 -->
+<g id="edge15" class="edge">
+<title>Node9&#45;&gt;Node16</title>
+<path fill="none" stroke="midnightblue" d="M391.67,-137.09C395.25,-135.27 398.71,-133.25 402,-131 427.66,-113.44 412.58,-88.91 438,-71 443.35,-67.23 449.25,-64.13 455.42,-61.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="390.21,-133.91 382.52,-141.21 393.08,-140.3 390.21,-133.91"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="class_j_k_q_t_math_text_modified_text_props_instruction_node.html" target="_top" xlink:title="subclass representing an instruction node which modifies the current font (as defined in JKQTMathText...">
-<polygon fill="none" stroke="black" points="662,-90 662,-124 836,-124 836,-90 662,-90"/>
-<text text-anchor="start" x="670" y="-110.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextModifiedText</text>
-<text text-anchor="middle" x="749" y="-97.4" font-family="Helvetica,sans-Serif" font-size="12.00">PropsInstructionNode</text>
+<g id="a_node13"><a xlink:href="class_j_k_q_t_math_text_box_instruction_node.html" target="_top" xlink:title="subclass representing an instruction node which draws a (possibly colored) box around it&#39;s contents i...">
+<polygon fill="none" stroke="black" points="676,-143.5 676,-164.5 892,-164.5 892,-143.5 676,-143.5"/>
+<text text-anchor="middle" x="784" y="-150.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextBoxInstructionNode</text>
 </a>
 </g>
 </g>
-<!-- Node11&#45;&gt;Node13 -->
+<!-- Node12&#45;&gt;Node13 -->
 <g id="edge12" class="edge">
-<title>Node11&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M615.45,-120.09C631.05,-118.55 646.89,-116.99 661.94,-115.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="614.85,-116.63 605.24,-121.1 615.54,-123.6 614.85,-116.63"/>
+<title>Node12&#45;&gt;Node13</title>
+<path fill="none" stroke="midnightblue" d="M650.22,-141.43C658.76,-142.24 667.38,-143.06 675.9,-143.86"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="650.53,-137.95 640.24,-140.49 649.87,-144.91 650.53,-137.95"/>
 </g>
-<!-- Node18 -->
-<g id="node18" class="node">
-<title>Node18</title>
-<g id="a_node18"><a xlink:href="class_m_tplain_text_node.html" target="_top" xlink:title="subclass representing one text node in the syntax tree">
-<polygon fill="none" stroke="black" points="444.5,-0.5 444.5,-21.5 563.5,-21.5 563.5,-0.5 444.5,-0.5"/>
-<text text-anchor="middle" x="504" y="-7.9" font-family="Helvetica,sans-Serif" font-size="12.00">MTplainTextNode</text>
+<!-- Node14 -->
+<g id="node14" class="node">
+<title>Node14</title>
+<g id="a_node14"><a xlink:href="class_j_k_q_t_math_text_modified_text_props_instruction_node.html" target="_top" xlink:title="subclass representing an instruction node which modifies the current font (as defined in JKQTMathText...">
+<polygon fill="none" stroke="black" points="697,-90 697,-124 871,-124 871,-90 697,-90"/>
+<text text-anchor="start" x="705" y="-110.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextModifiedText</text>
+<text text-anchor="middle" x="784" y="-97.4" font-family="Helvetica,sans-Serif" font-size="12.00">PropsInstructionNode</text>
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node18 -->
-<g id="edge17" class="edge">
-<title>Node17&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M344.37,-58.05C352.1,-56.01 359.77,-53.67 367,-51 384.17,-44.67 385.82,-37.31 403,-31 416.05,-26.2 430.49,-22.47 444.26,-19.6"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="343.41,-54.68 334.55,-60.49 345.1,-61.48 343.41,-54.68"/>
+<!-- Node12&#45;&gt;Node14 -->
+<g id="edge13" class="edge">
+<title>Node12&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M650.45,-120.09C666.05,-118.55 681.89,-116.99 696.94,-115.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="649.85,-116.63 640.24,-121.1 650.54,-123.6 649.85,-116.63"/>
+</g>
+<!-- Node19 -->
+<g id="node19" class="node">
+<title>Node19</title>
+<g id="a_node19"><a xlink:href="class_m_tplain_text_node.html" target="_top" xlink:title="subclass representing one text node in the syntax tree">
+<polygon fill="none" stroke="black" points="479.5,-0.5 479.5,-21.5 598.5,-21.5 598.5,-0.5 479.5,-0.5"/>
+<text text-anchor="middle" x="539" y="-7.9" font-family="Helvetica,sans-Serif" font-size="12.00">MTplainTextNode</text>
+</a>
+</g>
+</g>
+<!-- Node18&#45;&gt;Node19 -->
+<g id="edge18" class="edge">
+<title>Node18&#45;&gt;Node19</title>
+<path fill="none" stroke="midnightblue" d="M372.06,-59.51C382.29,-57.16 392.47,-54.36 402,-51 419.26,-44.92 420.82,-37.31 438,-31 451.05,-26.2 465.49,-22.47 479.26,-19.6"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="371.31,-56.09 362.27,-61.61 372.78,-62.93 371.31,-56.09"/>
 </g>
 </g>
 </svg>

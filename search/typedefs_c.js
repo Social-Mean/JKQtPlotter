@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['value_5ftype_0',['value_type',['../class_j_k_q_t_p_column_iterator.html#ab600e0ff973f310562cd4a1c529bcb4c',1,'JKQTPColumnIterator::value_type()'],['../class_j_k_q_t_p_column_back_inserter.html#a4efde1ca7622f6bc15c096a79ac1dcbc',1,'JKQTPColumnBackInserter::value_type()'],['../class_j_k_q_t_p_column_const_iterator.html#a7bc6aa1fa009c8e18391035b01949ae6',1,'JKQTPColumnConstIterator::value_type()']]]
+  ['self_5ftype_0',['self_type',['../class_j_k_q_t_p_column_iterator.html#a41205a9088ce6e088e61d8e9c226f223',1,'JKQTPColumnIterator::self_type()'],['../class_j_k_q_t_p_column_back_inserter.html#ad395314cdc3615dc750a4e4050ef1029',1,'JKQTPColumnBackInserter::self_type()'],['../class_j_k_q_t_p_column_const_iterator.html#afe256f15deb5abaca2e09fabdd370a76',1,'JKQTPColumnConstIterator::self_type()']]]
 ];

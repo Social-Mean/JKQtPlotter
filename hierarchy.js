@@ -6,6 +6,7 @@ var hierarchy =
     [ "JKQTPPlotElement::HitTestLocation", "struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html", null ],
     [ "JKQTMathTextBoxInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html", null ],
     [ "JKQTMathTextModifiedTextPropsInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html", null ],
+    [ "JKQTMathTextSimpleInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_simple_instruction_node_1_1_instruction_properties.html", null ],
     [ "JKQTPMathParser::jkmpFunctionDescriptor", "group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor", null ],
     [ "JKQTPMathParser::jkmpNode", "class_j_k_q_t_p_math_parser_1_1jkmp_node.html", [
       [ "JKQTPMathParser::jkmpBinaryArithmeticNode", "class_j_k_q_t_p_math_parser_1_1jkmp_binary_arithmetic_node.html", null ],
@@ -40,6 +41,7 @@ var hierarchy =
         [ "JKQTMathTextListNode", "class_j_k_q_t_math_text_list_node.html", null ],
         [ "JKQTMathTextSqrtNode", "class_j_k_q_t_math_text_sqrt_node.html", null ]
       ] ],
+      [ "JKQTMathTextSimpleInstructionNode", "class_j_k_q_t_math_text_simple_instruction_node.html", null ],
       [ "JKQTMathTextSingleChildNode", "class_j_k_q_t_math_text_single_child_node.html", [
         [ "JKQTMathTextBraceNode", "class_j_k_q_t_math_text_brace_node.html", null ],
         [ "JKQTMathTextDecoratedNode", "class_j_k_q_t_math_text_decorated_node.html", null ],
