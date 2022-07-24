@@ -26,7 +26,7 @@ var searchData=
   ['reservehittestdata_23',['reserveHitTestData',['../class_j_k_q_t_p_plot_element.html#a0fd8e4d7c0235a5ad48da313adbe134c',1,'JKQTPPlotElement']]],
   ['resetcontextmenu_24',['resetContextMenu',['../class_j_k_q_t_plotter.html#a437dda6cf6f1ae5b662b42a2bd4c0057',1,'JKQTPlotter']]],
   ['resetcurrentmousedragaction_25',['resetCurrentMouseDragAction',['../class_j_k_q_t_plotter.html#a9a4ee8ef43650e8dd350528b4ad20dff',1,'JKQTPlotter']]],
-  ['resetexception_5ffunction_26',['resetException_function',['../group__jkqtptools__math__parser___errorhandling.html#gafe834a471a03603015fb88728c74413d',1,'JKQTPMathParser']]],
+  ['resetexception_5ffunction_26',['resetException_function',['../class_j_k_q_t_p_math_parser.html#afe834a471a03603015fb88728c74413d',1,'JKQTPMathParser']]],
   ['resetmastersynchronization_27',['resetMasterSynchronization',['../class_j_k_q_t_base_plotter.html#aa88947d3b9caeb3778d2e149b00c261f',1,'JKQTBasePlotter::resetMasterSynchronization()'],['../class_j_k_q_t_plotter.html#a029399b189efb220fd2aadf8a5dde7a8',1,'JKQTPlotter::resetMasterSynchronization(JKQTBasePlotter::SynchronizationDirection synchronizeDirection=JKQTBasePlotter::sdXYAxes)']]],
   ['resetmouseleftaction_28',['resetMouseLeftAction',['../class_j_k_q_t_plotter.html#a2df1a4b9a5136c9c2bfe92d5f3c0a3d8',1,'JKQTPlotter']]],
   ['resetoverridemousedragaction_29',['resetOverrideMouseDragAction',['../class_j_k_q_t_plotter.html#acbd299f84bfe890d56e3d44df0ff46c3',1,'JKQTPlotter']]],

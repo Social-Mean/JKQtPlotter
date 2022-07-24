@@ -1,7 +1,7 @@
 var searchData=
 [
   ['jkmpevaluatefunc_0',['jkmpEvaluateFunc',['../class_j_k_q_t_p_math_parser.html#ac1c40abe442d0c20ed92b6a4b8250527',1,'JKQTPMathParser']]],
-  ['jkmpexceptionf_1',['jkmpexceptionf',['../group__jkqtptools__math__parser___errorhandling.html#ga309437e953b9581c0954181909553a32',1,'JKQTPMathParser']]],
+  ['jkmpexceptionf_1',['jkmpexceptionf',['../class_j_k_q_t_p_math_parser.html#a309437e953b9581c0954181909553a32',1,'JKQTPMathParser']]],
   ['jkqtpmousedoubleclickactionshashmap_2',['JKQTPMouseDoubleClickActionsHashMap',['../group__jkqtpplottersupprt.html#ga165742edb759ef5f4db13df33037affa',1,'jkqtptools.h']]],
   ['jkqtpmousedoubleclickactionshashmapiterator_3',['JKQTPMouseDoubleClickActionsHashMapIterator',['../group__jkqtpplottersupprt.html#ga1c12366f4b4a2a7022f8f594f1ff646b',1,'jkqtptools.h']]],
   ['jkqtpmousedragactionshashmap_4',['JKQTPMouseDragActionsHashMap',['../group__jkqtpplottersupprt.html#gad8689aecfc37e84c6eec196fd0d8a2b3',1,'jkqtptools.h']]],
