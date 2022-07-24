@@ -44,22 +44,7 @@ var NAVTREE =
       [ "Scope", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md11", null ],
       [ "Enforcement", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md12", null ]
     ] ],
-    [ "Build Instructions", "page_buildinstructions.html", [
-      [ "Build using CMake", "page_buildinstructions.html#page_buildinstructions_CMAKE", [
-        [ "Running a Build with CMake", "page_buildinstructions.html#page_buildinstructions_CMAKE_RUN", [
-          [ "Building with MinGW/GNU/... Makefiles", "page_buildinstructions.html#page_buildinstructions_CMAKE_MAKEFILE", null ],
-          [ "Building with Visual Studio", "page_buildinstructions.html#page_buildinstructions_CMAKE_VSTUDIO", null ]
-        ] ],
-        [ "Configuring a Build with CMake", "page_buildinstructions.html#page_buildinstructions_CMAKE_CONFIG", null ],
-        [ "Using a built, generated with CMake", "page_buildinstructions.html#page_buildinstructions_CMAKE_USAGE", null ]
-      ] ],
-      [ "Build using QMake", "page_buildinstructions.html#page_buildinstructions_QMAKE", [
-        [ "QMake Include Project", "page_buildinstructions.html#page_buildinstructions_QMAKEINCLUDE", null ],
-        [ "QMake Static Library", "page_buildinstructions.html#page_buildinstructions_QMAKESTATIC", null ],
-        [ "QMake Dynamic Library", "page_buildinstructions.html#page_buildinstructions_QMAKEDYNAMIC", null ],
-        [ "QMake in QTCreator", "page_buildinstructions.html#page_buildinstructions_QMAKEQTCREATOR", null ]
-      ] ]
-    ] ],
+    [ "Build Instructions", "page_buildinstructions.html", "page_buildinstructions" ],
     [ "Example & Tutorial Projects", "example_tutorial_projects.html", "example_tutorial_projects" ],
     [ "Licensing Terms for JKQTPlotter", "licensepage.html", [
       [ "JKQTPlotter/JKQTFastPlotter/JKQTMathText: LGPL >= 2.1", "licensepage.html#licensesec", null ],
