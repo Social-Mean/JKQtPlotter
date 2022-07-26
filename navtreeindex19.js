@@ -247,7 +247,7 @@ var NAVTREEINDEX19 =
 "class_j_k_q_t_p_vertical_range.html#a6e3b7e5f8d0aea840138ed62353edea9":[10,4,2,1,5,4,3],
 "class_j_k_q_t_p_vertical_range.html#a90de8b40035a3c463ccc536dc382c48f":[10,4,2,1,5,4,2],
 "class_j_k_q_t_p_vertical_range.html#aae3458ce63a8a2fa007962f7c36ff8fa":[10,4,2,1,5,4,4],
-"class_j_k_q_t_p_violinplot_element_base.html":[10,4,2,1,8,6],
 "class_j_k_q_t_p_violinplot_element_base.html":[10,4,2,1,2,4],
+"class_j_k_q_t_p_violinplot_element_base.html":[10,4,2,1,8,6],
 "class_j_k_q_t_p_violinplot_element_base.html#a026cf4713bf15513e1351e614225dce0":[10,4,2,1,8,6,14]
 };

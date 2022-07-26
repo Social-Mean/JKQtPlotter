@@ -145,8 +145,8 @@ var NAVTREEINDEX =
 "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da5550c02ad7d4196c2e705ac2f82fa5ae",
 "group__jkqtptools__codestructuring.html#ga1fd47d493fdc866fa9abf6873567ab85",
 "group__jkqtptools__math__statistics__2dhist.html#gad8ab0d1e867375485e2c64743e12ab44",
-"page_whatsnew.html#page_whatsnew_V4_0_0_OVERVIEW",
-"struct_j_k_q_t_p_image_tools.html"
+"page_whatsnew.html#page_whatsnew_V4_0_0_DOWNLOAD",
+"struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#adb31871f724adae238f9d26ffeb522b6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

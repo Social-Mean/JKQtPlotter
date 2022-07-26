@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"page_whatsnew.html#page_whatsnew_V4_0_0_DOWNLOAD":[7,1,1],
 "page_whatsnew.html#page_whatsnew_V4_0_0_OVERVIEW":[7,1,0],
 "pages.html":[],
 "struct_j_k_q_t_base_plotter_1_1text_size_data.html":[10,4,3,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#a135902dc2513cf2b4e53443ee6f7b01a":[10,4,2,1,6,1,10,0],
 "struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#a1e113fb7dd2e3e5d81c82e82577f9b04":[10,4,2,1,6,1,10,4],
 "struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#a550f8fe67a5ab83e9558a630e4de1760":[10,4,2,1,6,1,10,2],
-"struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#aa82a3c373d7364ed975f0d20a121f412":[10,4,2,1,6,1,10,3],
-"struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#adb31871f724adae238f9d26ffeb522b6":[10,4,2,1,6,1,10,1]
+"struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#aa82a3c373d7364ed975f0d20a121f412":[10,4,2,1,6,1,10,3]
 };

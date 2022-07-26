@@ -37,6 +37,7 @@ var group__jkqtptools__string =
     [ "jkqtp_toupper", "group__jkqtptools__string.html#ga1c00a5f666f3200d2934910dcf02bd90", null ],
     [ "jkqtp_toValidVariableName", "group__jkqtptools__string.html#ga551a29ce8436856463b79d77816e61dc", null ],
     [ "jkqtp_uinttostr", "group__jkqtptools__string.html#ga55c658491bac88ffa365c0cf73466382", null ],
+    [ "jkqtp_UnicodeToUTF8", "group__jkqtptools__string.html#ga9dc34e9f35fcaf8127199d3ab109f6cb", null ],
     [ "JKQTPCDoubleToQString", "group__jkqtptools__string.html#ga819536d8ee41b8cf9e758d06f19603b9", null ],
     [ "JKQTPDoubleToQString", "group__jkqtptools__string.html#gae5fbb0a7df6e25108d6c661e292f2d8c", null ],
     [ "jkVariantListToString", "group__jkqtptools__string.html#gaf98c03133ebf9e2619a23018568272e6", null ]
