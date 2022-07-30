@@ -38,8 +38,9 @@ var hierarchy =
         [ "JKQTMathTextDualChildNode", "class_j_k_q_t_math_text_dual_child_node.html", [
           [ "JKQTMathTextFracNode", "class_j_k_q_t_math_text_frac_node.html", null ]
         ] ],
-        [ "JKQTMathTextListNode", "class_j_k_q_t_math_text_list_node.html", null ],
-        [ "JKQTMathTextSqrtNode", "class_j_k_q_t_math_text_sqrt_node.html", null ]
+        [ "JKQTMathTextHorizontalListNode", "class_j_k_q_t_math_text_horizontal_list_node.html", null ],
+        [ "JKQTMathTextSqrtNode", "class_j_k_q_t_math_text_sqrt_node.html", null ],
+        [ "JKQTMathTextVerticalListNode", "class_j_k_q_t_math_text_vertical_list_node.html", null ]
       ] ],
       [ "JKQTMathTextSimpleInstructionNode", "class_j_k_q_t_math_text_simple_instruction_node.html", null ],
       [ "JKQTMathTextSingleChildNode", "class_j_k_q_t_math_text_single_child_node.html", [
@@ -244,6 +245,7 @@ var hierarchy =
       [ "JKQTPXYGraphErrors", "class_j_k_q_t_p_x_y_graph_errors.html", null ],
       [ "JKQTPYGraphErrors", "class_j_k_q_t_p_y_graph_errors.html", null ]
     ] ],
+    [ "JKQTMathTextVerticalListNode::LayoutInfo", "struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html", null ],
     [ "JKQTPImageTools::LUTData", "struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html", null ],
     [ "JKQTPXYParametrizedScatterGraph::MappedSymbolFunctor", "struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html", null ],
     [ "JKQTPlotter::MouseDragAction", "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html", null ],

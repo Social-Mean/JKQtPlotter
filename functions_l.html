@@ -169,6 +169,7 @@ $(document).ready(function(){initNavTree('functions_l.html',''); initResizable()
 <li>lastRightBraceType&#160;:&#160;<a class="el" href="class_j_k_q_t_math_text.html#ab3bd82d0da3c92c1de8a7af8815c4712">JKQTMathText</a></li>
 <li>lastText&#160;:&#160;<a class="el" href="class_j_k_q_t_math_text_label.html#abb47f645b791a36d482583e870bdeaf1">JKQTMathTextLabel</a></li>
 <li>layout&#160;:&#160;<a class="el" href="class_j_k_q_t_p_key_style.html#a6ed2a4c251b8956ffc8405675cd8d5da">JKQTPKeyStyle</a></li>
+<li>LayoutInfo()&#160;:&#160;<a class="el" href="struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#aa40c0a72de3abc9179fad3a088aa0ffe">JKQTMathTextVerticalListNode::LayoutInfo</a></li>
 <li>LBRACKET&#160;:&#160;<a class="el" href="class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49a73993df8894c00981c10be6790d339ed">JKQTPMathParser</a></li>
 <li>ldpiX&#160;:&#160;<a class="el" href="struct_j_k_q_t_base_plotter_1_1text_size_key.html#a0e6bdc7db0111fc3dfd0e02772287f05">JKQTBasePlotter::textSizeKey</a>, <a class="el" href="struct_j_k_q_t_math_text_t_b_r_data.html#a4f587aefa1c21ae90d4f4329c8852bac">JKQTMathTextTBRData</a>, <a class="el" href="struct_j_k_q_t_math_text_t_b_r_data_h.html#afd34a1539d994c3254154893df66dacf">JKQTMathTextTBRDataH</a></li>
 <li>ldpiY&#160;:&#160;<a class="el" href="struct_j_k_q_t_base_plotter_1_1text_size_key.html#adc2a5f8fb133250c894ce4ffc41b38c5">JKQTBasePlotter::textSizeKey</a>, <a class="el" href="struct_j_k_q_t_math_text_t_b_r_data.html#a08aceade9d72da524cdc2f54578ebbde">JKQTMathTextTBRData</a>, <a class="el" href="struct_j_k_q_t_math_text_t_b_r_data_h.html#ae795e2f41701279ade9acdf5a134cbdb">JKQTMathTextTBRDataH</a></li>
@@ -180,6 +181,7 @@ $(document).ready(function(){initNavTree('functions_l.html',''); initResizable()
 <li>line&#160;:&#160;<a class="el" href="struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html#a117e241c52e4d6ff1fe5142a82c61109">JKQTPLinePlotStyleWithSymbolSizeComboBox::styleData</a></li>
 <li>lineColor&#160;:&#160;<a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a790296e38e8e7b9d2c3d7ccab911315e">JKQTPGraphLineStyleMixin</a>, <a class="el" href="class_j_k_q_t_p_grid_style.html#ac2592e3a2467f3f4966698e16198393a">JKQTPGridStyle</a></li>
 <li>lines&#160;:&#160;<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a3bb86c1299d2b2fa5774ae6d5e0f5dca">JKQTMathTextMatrixNode</a></li>
+<li>lineSpacingFactor&#160;:&#160;<a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html#a9f93a9a22a013ff153ffa1b2e70c7a26">JKQTMathTextVerticalListNode</a></li>
 <li>lineStyle&#160;:&#160;<a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a035f57af1de860ecf2aeb66768e715ed">JKQTPGraphLineStyleMixin</a>, <a class="el" href="class_j_k_q_t_p_grid_style.html#a2e31f58acd226b985161749097346f0a">JKQTPGridStyle</a></li>
 <li>linewidth&#160;:&#160;<a class="el" href="class_j_k_q_t_f_pimage_overlay_plot.html#ab12544ac327cdb2c7209c04d6de941fe">JKQTFPimageOverlayPlot</a></li>
 <li>lineWidth&#160;:&#160;<a class="el" href="class_j_k_q_t_f_p_q_overlay_linear_grid_plot.html#afb568ac285e2f182507be3d5d89f75b3">JKQTFPQOverlayLinearGridPlot</a>, <a class="el" href="class_j_k_q_t_f_p_q_scale_bar_x_plot.html#ab6ecd085e8a1bd00c84550d57ecd48ab">JKQTFPQScaleBarXPlot</a>, <a class="el" href="class_j_k_q_t_p_coordinate_axis_style.html#ae25ce819c2453aa4880e980009b17c8a">JKQTPCoordinateAxisStyle</a>, <a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#aad873a47a34b43eeb865c9daddd6d43a">JKQTPGraphLineStyleMixin</a>, <a class="el" href="class_j_k_q_t_p_grid_style.html#a3d83c95e6bf7d4fd9cc63fb813eaa474">JKQTPGridStyle</a></li>
@@ -215,7 +217,7 @@ $(document).ready(function(){initNavTree('functions_l.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jul 29 2022 10:51:22 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Jul 30 2022 21:35:26 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

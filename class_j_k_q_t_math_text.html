@@ -580,6 +580,8 @@ Protected Types</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a9a94de64d05d1279ad5bfb59a85021b8">MTTinstruction</a>
 , <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a69234cc73a1866d7309e66df9e52476b">MTTinstructionNewline</a>
+, <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a17e8451da405aa4a3a0412760a2a7c77">MTTunderscore</a>
 , <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532ab7e9d877beebe737903b8b4eaa9f1c69">MTThat</a>
@@ -619,6 +621,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a84fb0ccfe736469c7bec002f6bf9fbb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a84fb0ccfe736469c7bec002f6bf9fbb5">parseMath</a> (bool get)</td></tr>
 <tr class="memdesc:a84fb0ccfe736469c7bec002f6bf9fbb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse a LaTeX math environment  <a href="class_j_k_q_t_math_text.html#a84fb0ccfe736469c7bec002f6bf9fbb5">More...</a><br /></td></tr>
 <tr class="separator:a84fb0ccfe736469c7bec002f6bf9fbb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f40113fe0a35ad77f7a99b39417c55"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a10f40113fe0a35ad77f7a99b39417c55">parseSingleString</a> (bool get)</td></tr>
+<tr class="memdesc:a10f40113fe0a35ad77f7a99b39417c55"><td class="mdescLeft">&#160;</td><td class="mdescRight">parses a string, i.e. a sequence of text and whitespaces. returns after any other token was found  <a href="class_j_k_q_t_math_text.html#a10f40113fe0a35ad77f7a99b39417c55">More...</a><br /></td></tr>
+<tr class="separator:a10f40113fe0a35ad77f7a99b39417c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf171e700d7d545b294f2061b47305d9"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#adf171e700d7d545b294f2061b47305d9">parseStringParams</a> (bool get, size_t Nparams, bool *foundError=nullptr)</td></tr>
 <tr class="memdesc:adf171e700d7d545b294f2061b47305d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">parses a list of string-arguments, i.e. <code>{p1}{p2}{</code>...}  <a href="class_j_k_q_t_math_text.html#adf171e700d7d545b294f2061b47305d9">More...</a><br /></td></tr>
 <tr class="separator:adf171e700d7d545b294f2061b47305d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1182,6 +1187,8 @@ Convert to HTML</h1>
 <tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a78ae86e657ead3ff77b26e5fc604a0ac" name="ab2b829bd80180f0c7c6259effc36b532a78ae86e657ead3ff77b26e5fc604a0ac"></a>MTTtext&#160;</td><td class="fielddoc"><p >a piece of general text </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a9a94de64d05d1279ad5bfb59a85021b8" name="ab2b829bd80180f0c7c6259effc36b532a9a94de64d05d1279ad5bfb59a85021b8"></a>MTTinstruction&#160;</td><td class="fielddoc"><p >an instruction, started by <code>"\\", e.g. \c "\textbf"</code>, ... </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a69234cc73a1866d7309e66df9e52476b" name="ab2b829bd80180f0c7c6259effc36b532a69234cc73a1866d7309e66df9e52476b"></a>MTTinstructionNewline&#160;</td><td class="fielddoc"><p >a newline instruction <code>"\\\\"</code> </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a17e8451da405aa4a3a0412760a2a7c77" name="ab2b829bd80180f0c7c6259effc36b532a17e8451da405aa4a3a0412760a2a7c77"></a>MTTunderscore&#160;</td><td class="fielddoc"><p >the character <code>"_"</code> </p>
 </td></tr>
@@ -3112,6 +3119,34 @@ Convert to HTML</h1>
 </div><div class="memdoc">
 
 <p>parse a LaTeX math environment </p>
+
+</div>
+</div>
+<a id="a10f40113fe0a35ad77f7a99b39417c55" name="a10f40113fe0a35ad77f7a99b39417c55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f40113fe0a35ad77f7a99b39417c55">&#9670;&nbsp;</a></span>parseSingleString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString JKQTMathText::parseSingleString </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>get</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parses a string, i.e. a sequence of text and whitespaces. returns after any other token was found </p>
 
 </div>
 </div>
@@ -5824,7 +5859,7 @@ Convert to HTML</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Fri Jul 29 2022 10:51:20 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Jul 30 2022 21:35:23 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

@@ -92,6 +92,18 @@ var group__jkqtmathtext__tools =
       [ "MTFELatin1", "group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201a1eec0ed5a9010a41cc7facff3db4c30d", null ],
       [ "MTFEStandard", "group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201a82f9a6f099935dab75262de880ae63fb", null ]
     ] ],
+    [ "JKQTMathTextHorizontalAlignment", "group__jkqtmathtext__tools.html#ga2fab98d9916942d8ee0f29841ed82448", [
+      [ "MTHALeft", "group__jkqtmathtext__tools.html#gga2fab98d9916942d8ee0f29841ed82448a4052333d6bd3026e76f91e87c1ff4683", null ],
+      [ "MTHACentered", "group__jkqtmathtext__tools.html#gga2fab98d9916942d8ee0f29841ed82448a4056d5e66c6d3a82629f6b98e18e5464", null ],
+      [ "MTHARight", "group__jkqtmathtext__tools.html#gga2fab98d9916942d8ee0f29841ed82448ab686f837e9c03b8f7549525e4a9f7d62", null ]
+    ] ],
+    [ "JKQTMathTextVerticalOrientation", "group__jkqtmathtext__tools.html#ga1463950676f064ad0a8feb24fd41db1f", [
+      [ "MTVOTop", "group__jkqtmathtext__tools.html#gga1463950676f064ad0a8feb24fd41db1faa9e914e3aac5871a39e362fd9baa5768", null ],
+      [ "MTVOFirstLine", "group__jkqtmathtext__tools.html#gga1463950676f064ad0a8feb24fd41db1fac36ec1c7fa9480ab5f44822479737961", null ],
+      [ "MTVOCentered", "group__jkqtmathtext__tools.html#gga1463950676f064ad0a8feb24fd41db1fa249740d73c050bfef358f3ed85a471ef", null ],
+      [ "MTVOLastLine", "group__jkqtmathtext__tools.html#gga1463950676f064ad0a8feb24fd41db1fa57dba9058e64d0e2c7d57f964df96f83", null ],
+      [ "MTVOBottom", "group__jkqtmathtext__tools.html#gga1463950676f064ad0a8feb24fd41db1fa5bab3be88b02a8211b16ff8ec4af4a1a", null ]
+    ] ],
     [ "estimateJKQTMathTextFontEncoding", "group__jkqtmathtext__tools.html#gafdbd7bc8b75fdebc3671c95279753696", null ],
     [ "initJKQTMathTextResources", "group__jkqtmathtext__tools.html#gaca567648d8a0ffdba79df3c41e39f1ee", null ],
     [ "InstructionName2JKQTMathTextBraceType", "group__jkqtmathtext__tools.html#ga47b0e1abb2e5cb1c71fab10789b27e5c", null ],
@@ -102,9 +114,13 @@ var group__jkqtmathtext__tools =
     [ "JKQTMathTextFontEncoding2String", "group__jkqtmathtext__tools.html#gacd7415f0496eb64330f80ad50c664f83", null ],
     [ "JKQTMathTextGetNonItalic", "group__jkqtmathtext__tools.html#ga2945436624a52b6b35b3eec07280efbd", null ],
     [ "JKQTMathTextGetTightBoundingRect", "group__jkqtmathtext__tools.html#ga4b92fd59d8a4655d76104acac7053726", null ],
+    [ "JKQTMathTextHorizontalAlignment2String", "group__jkqtmathtext__tools.html#ga4e470a13a35cd35d031ebe58a19ede25", null ],
     [ "JKQTMathTextMakeArrow", "group__jkqtmathtext__tools.html#gaa6e3ccb2e03e5124ac8dc5149d14c19a", null ],
     [ "JKQTMathTextMakeDArrow", "group__jkqtmathtext__tools.html#ga286e3e9afdcb54e615269d175a6c8fab", null ],
     [ "JKQTMathTextMakeHBracePath", "group__jkqtmathtext__tools.html#ga06ffccb2fb6ec12de2349a18b04bdc79", null ],
+    [ "JKQTMathTextVerticalOrientation2String", "group__jkqtmathtext__tools.html#gac5746397bdbb400c3c6df27895a07cb4", null ],
+    [ "String2JKQTMathTextHorizontalAlignment", "group__jkqtmathtext__tools.html#ga61d1f8ce7158e256ca5e9a7f82cdba17", null ],
+    [ "String2JKQTMathTextVerticalOrientation", "group__jkqtmathtext__tools.html#gaf089921f391a60fdb19169271871b4a2", null ],
     [ "TokenName2JKQTMathTextBraceType", "group__jkqtmathtext__tools.html#gaf74f8d17b8d1189efe3a3e997cc56ee3", null ],
     [ "TokenNameMatchesJKQTMathTextBraceType", "group__jkqtmathtext__tools.html#gac17cdd9ccc4cc900dddcb9b947953c2f", null ]
 ];

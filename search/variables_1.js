@@ -4,7 +4,7 @@ var searchData=
   ['backgroundcolor_1',['backgroundColor',['../class_j_k_q_t_fast_plotter.html#a342238f8b8fa4395316cec31f5f7f58e',1,'JKQTFastPlotter']]],
   ['barchartstyle_2',['barchartStyle',['../class_j_k_q_t_graphs_base_style.html#a2f5ebe1ae732584185a3af886aba7081',1,'JKQTGraphsBaseStyle']]],
   ['baseline_3',['baseline',['../class_j_k_q_t_p_peak_stream_graph.html#ad70a47176074e275b2ca16b3f666b7e2',1,'JKQTPPeakStreamGraph']]],
-  ['baselineheight_4',['baselineHeight',['../struct_j_k_q_t_math_text_node_size.html#ad11f5452e869c7db8feb6cdf15683e79',1,'JKQTMathTextNodeSize']]],
+  ['baselineheight_4',['baselineHeight',['../struct_j_k_q_t_math_text_node_size.html#ad11f5452e869c7db8feb6cdf15683e79',1,'JKQTMathTextNodeSize::baselineHeight()'],['../struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a9a5e67b5e7cb0164a38a0d9c79a56dc8',1,'JKQTMathTextVerticalListNode::LayoutInfo::baselineHeight()']]],
   ['bigmathoperator_5ffont_5ffactor_5',['bigmathoperator_font_factor',['../class_j_k_q_t_math_text.html#a500e7adc51f2836e6bc5be8829b0ccb8',1,'JKQTMathText']]],
   ['blackboardsimulated_6',['blackboardSimulated',['../class_j_k_q_t_math_text.html#abebfc9f1fbf64d5ea08ac3b930faca8d',1,'JKQTMathText']]],
   ['bold_7',['bold',['../struct_j_k_q_t_math_text_environment.html#a4e41336dbba4c15745d57bdaca62794d',1,'JKQTMathTextEnvironment']]],
