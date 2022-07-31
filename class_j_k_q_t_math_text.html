@@ -795,7 +795,7 @@ Direct Usage</h2>
 <div class="line">painter.begin(&amp;pix);</div>
 <div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19">draw</a>(painter, Qt::AlignCenter, QRectF(0,0,pix.width(), pix.height()), <span class="keyword">false</span>);</div>
 <div class="line">painter.end();</div>
-<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:241</div></div>
+<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:261</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a280e7032f66c45b5f3b42664056bee19"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19">JKQTMathText::draw</a></div><div class="ttdeci">void draw(QPainter &amp;painter, QPointF x, bool drawBoxes=false)</div><div class="ttdoc">draw a representation to the object at the specified position x , y</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a7e5a8ec55ff08d2dc3375e62407d2beb"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb">JKQTMathText::parse</a></div><div class="ttdeci">bool parse(const QString &amp;text, bool addSpaceBeforeAndAfter=false)</div><div class="ttdoc">parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_af231fd040caed5040c227dd3748ff899"><div class="ttname"><a href="class_j_k_q_t_math_text.html#af231fd040caed5040c227dd3748ff899">JKQTMathText::setFontSize</a></div><div class="ttdeci">void setFontSize(double __value)</div><div class="ttdoc">set the default font size in points</div></div>
@@ -992,8 +992,7 @@ Braces ...</h2>
 <img src="jkqtmathtext_brace_oneline.png" alt=""/>
 </div>
 </li>
-<li><div class="fragment"><div class="line">\left\| \right\| </div>
-</div><!-- fragment --> : norm braces || ||,<div class="image">
+<li><code>\left\</code>| <code>\right\</code>|  : norm braces || ||,<div class="image">
 <img src="jkqtmathtext_brace_dblline.png" alt=""/>
 </div>
 </li>
@@ -1039,11 +1038,19 @@ Undersetting, Oversetting, Underbraces, Overbraces ...</h2>
 </div>
 </li>
 </ul>
-<h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXMatrix"></a>
-Matrix/Array Type Instructions</h2>
+<h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXFrac"></a>
+Fraction Type Instructions</h2>
 <p >Several Matrix/Array-typed LaTeX instructions are supported:</p><ul>
-<li><code>$\frac{...}{...}$</code>, <code>$\tfrac{...}{...}$</code> (70% smaller font), <code>$\dfrac{...}{...}$</code><div class="image">
-<img src="jkqtmathtext_brace_frac.png" alt=""/>
+<li><code>$\frac{...}{...}$</code><div class="image">
+<img src="MTFMfrac.png" alt=""/>
+</div>
+</li>
+<li><code>$\tfrac{...}{...}$</code> (70% smaller font)<div class="image">
+<img src="MTFMtfrac.png" alt=""/>
+</div>
+</li>
+<li><code>$\dfrac{...}{...}$</code><div class="image">
+<img src="MTFMdfrac.png" alt=""/>
 </div>
 </li>
 <li><code>$\sfrac{...}{...}$</code><div class="image">
@@ -1054,6 +1061,10 @@ Matrix/Array Type Instructions</h2>
 <img src="MTFMstfrac.png" alt=""/>
 </div>
 </li>
+</ul>
+<h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXMatrix"></a>
+Matrix/Array Type Instructions</h2>
+<p >Several Matrix/Array-typed LaTeX instructions are supported:</p><ul>
 <li><code>$\stackrel{...}{...}$ $\binom{...}{...}$</code><div class="image">
 <img src="jkqtmathtext_brace_stackrel.png" alt=""/>
 </div>
@@ -1084,6 +1095,50 @@ Matrix/Array Type Instructions</h2>
 </li>
 <li><code>$\begin{Vmatrix} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{Vmatrix}$</code><div class="image">
 <img src="jkqtmathtext_vvmatrix.png" alt=""/>
+</div>
+</li>
+<li><code>$\substack[lrc]{...\\...}$</code><div class="image">
+<img src="jkqtmathtext_substack.png" alt=""/>
+</div>
+</li>
+<li><code>$\lsubstack{...\\...}$</code><div class="image">
+<img src="jkqtmathtext_lsubstack.png" alt=""/>
+</div>
+</li>
+<li><code>$\rsubstack{...\\...}$</code><div class="image">
+<img src="jkqtmathtext_rsubstack.png" alt=""/>
+</div>
+</li>
+</ul>
+<h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXTextAlignment"></a>
+Environments for Multi-line text</h2>
+<p >Several environments are supported that allow to layout text with linebreaks and different alignemnts:</p><ul>
+<li><code>$\begin{document} ... \\ ... \end{document}$</code><div class="image">
+<img src="jkqtmathtext_beginflushleft.png" alt=""/>
+</div>
+</li>
+<li><code>$\begin{flushleft} ... \\ ... \end{flushleft}$</code><div class="image">
+<img src="jkqtmathtext_beginflushleft.png" alt=""/>
+</div>
+</li>
+<li><code>$\begin{flushright} ... \\ ... \end{flushright}$</code><div class="image">
+<img src="jkqtmathtext_beginflushright.png" alt=""/>
+</div>
+</li>
+<li><code>$\begin{center} ... \\ ... \end{center}$</code><div class="image">
+<img src="jkqtmathtext_begincenter.png" alt=""/>
+</div>
+</li>
+<li><code>$\begin{framed} ... \\ ... \end{framed}$</code><div class="image">
+<img src="jkqtmathtext_beginframed.png" alt=""/>
+</div>
+</li>
+<li><code>$\begin{shaded} ... \\ ... \end{shaded}$</code><div class="image">
+<img src="jkqtmathtext_beginshaded.png" alt=""/>
+</div>
+</li>
+<li><code>$\begin{snugshade} ... \\ ... \end{snugshade}$</code><div class="image">
+<img src="jkqtmathtext_beginsnugshade.png" alt=""/>
 </div>
 </li>
 </ul>
@@ -5859,7 +5914,7 @@ Convert to HTML</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Sat Jul 30 2022 21:35:23 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Jul 31 2022 06:21:16 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>
