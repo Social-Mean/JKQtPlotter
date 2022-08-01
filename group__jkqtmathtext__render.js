@@ -14,7 +14,10 @@ var group__jkqtmathtext__render =
         [ "MTTopenbracket", "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a577386aeb6afa866070cf59dbde992c1", null ],
         [ "MTTclosebracket", "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a2734acd096563d30a9e034e800904919", null ],
         [ "MTTwhitespace", "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532acd9e42728b75ec1a0bdb6a757b25ac77", null ],
-        [ "MTTampersand", "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532ab3b036aa560df5133c313b2dc2c02acf", null ]
+        [ "MTTampersand", "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532ab3b036aa560df5133c313b2dc2c02acf", null ],
+        [ "MTThyphen", "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532acadb3f92ff03bbc1ffd22703f481a995", null ],
+        [ "MTTendash", "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532ab4cea26f2ce1b72ac57e92da5b2a2f34", null ],
+        [ "MTTemdash", "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a78dc93e50c135a95ad466d66159274db", null ]
       ] ],
       [ "JKQTMathText", "class_j_k_q_t_math_text.html#a1a2b65bf49e9f1b9f2c99236c8c4df73", null ],
       [ "~JKQTMathText", "class_j_k_q_t_math_text.html#ab69fc471ec76a2adef47066784df0f68", null ],

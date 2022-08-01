@@ -213,9 +213,12 @@ var NAVTREEINDEX5 =
 "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a64f9d9bcbee44b582b4ee108599de8ad":[10,3,1,0,0,6],
 "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a69234cc73a1866d7309e66df9e52476b":[10,3,1,0,0,3],
 "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a78ae86e657ead3ff77b26e5fc604a0ac":[10,3,1,0,0,1],
+"class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a78dc93e50c135a95ad466d66159274db":[10,3,1,0,0,15],
 "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a9a94de64d05d1279ad5bfb59a85021b8":[10,3,1,0,0,2],
 "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532ab3b036aa560df5133c313b2dc2c02acf":[10,3,1,0,0,12],
+"class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532ab4cea26f2ce1b72ac57e92da5b2a2f34":[10,3,1,0,0,14],
 "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532ab7e9d877beebe737903b8b4eaa9f1c69":[10,3,1,0,0,5],
+"class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532acadb3f92ff03bbc1ffd22703f481a995":[10,3,1,0,0,13],
 "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532acd9e42728b75ec1a0bdb6a757b25ac77":[10,3,1,0,0,11],
 "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532ad009ab575247ea45a270eeb695fe05aa":[10,3,1,0,0,8],
 "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532af58e19d66016b1b2f794a412c1fd09e3":[10,3,1,0,0,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX5 =
 "class_j_k_q_t_math_text.html#acead34950a1cab838094e9d88e6dac93":[10,3,1,0,88],
 "class_j_k_q_t_math_text.html#ad145420131f1c80c42f707536030ccdf":[10,3,1,0,92],
 "class_j_k_q_t_math_text.html#ad1ecf17531288f4bedd880754d00a1d2":[10,3,1,0,74],
-"class_j_k_q_t_math_text.html#ad2eec62337aed49ce088e10e87a8ca52":[10,3,1,0,132],
-"class_j_k_q_t_math_text.html#ad678c21f9d963aa62584f1803110880b":[10,3,1,0,70],
-"class_j_k_q_t_math_text.html#ad85a52d2ba2690f8bbb8166e5dbf28a2":[10,3,1,0,83],
-"class_j_k_q_t_math_text.html#adaefe9b61681edf3d10b3ca3a22f65d7":[10,3,1,0,102]
+"class_j_k_q_t_math_text.html#ad2eec62337aed49ce088e10e87a8ca52":[10,3,1,0,132]
 };
