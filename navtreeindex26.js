@@ -1,5 +1,13 @@
 var NAVTREEINDEX26 =
 {
+"group__jkqtptools__math__linalg.html#ga23cca7d08432d92f7402c8e78e15c280":[10,1,3,17],
+"group__jkqtptools__math__linalg.html#ga2554dec876332cc2689da26404c265a4":[10,1,3,18],
+"group__jkqtptools__math__linalg.html#ga34eac1e10f82c5d67a055a795a51bbed":[10,1,3,0],
+"group__jkqtptools__math__linalg.html#ga36e5b138c96b8ae51452dc364c54dd0e":[10,1,3,19],
+"group__jkqtptools__math__linalg.html#ga38c91e3f5648e6b68fce05ddeaeba3a1":[10,1,3,2],
+"group__jkqtptools__math__linalg.html#ga3e196152acbf4f8dfe3c33abb0af62a7":[10,1,3,14],
+"group__jkqtptools__math__linalg.html#ga4e462736a9bb361592fcb3c0832bfa0e":[10,1,3,13],
+"group__jkqtptools__math__linalg.html#ga59e66bc1366f565e5b20d9cbdaa30b6d":[10,1,3,6],
 "group__jkqtptools__math__linalg.html#ga6008a49627493cfcfb21a4124c0c495b":[10,1,3,8],
 "group__jkqtptools__math__linalg.html#ga79a76a555138167366b4618ef9b02cde":[10,1,3,5],
 "group__jkqtptools__math__linalg.html#ga7e7bc5b270ca97a55d0c755caadb5cc1":[10,1,3,9],
@@ -233,21 +241,13 @@ var NAVTREEINDEX26 =
 "group__jkqtptools__string.html#gaf7a35039cf08c3c3bb754b580d979e6c":[10,0,8,29],
 "group__jkqtptools__string.html#gaf98c03133ebf9e2619a23018568272e6":[10,0,8,40],
 "hierarchy.html":[12,2],
-"index.html":[0],
 "index.html":[],
+"index.html":[0],
 "index.html#jkqtp_main_features":[0,0],
 "index.html#jkqtplottertic":[0,1],
 "licensepage.html":[5],
 "licensepage.html#extlicense_sec":[5,1],
 "licensepage.html#extlicense_xits":[5,1,0],
 "licensepage.html#licensesec":[5,0],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html":[1],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md1":[1,0],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2":[1,1],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3":[1,2],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4":[1,3],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5":[1,4],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6":[1,5],
-"md__c_o_n_t_r_i_b_u_t_i_n_g.html":[2],
-"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10":[2,2]
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html":[1]
 };

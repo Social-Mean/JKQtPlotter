@@ -1,8 +1,7 @@
 var group__jkqtmathtext =
 [
-    [ "Library Facilities for JKQTMathText", "group__jkqtmathtext__libfacilities.html", "group__jkqtmathtext__libfacilities" ],
-    [ "Main (Render) Class (JKQTMathText)", "group__jkqtmathtext__render.html", "group__jkqtmathtext__render" ],
-    [ "Render-Tree Items for JKQTMathText", "group__jkqtmathtext__items.html", "group__jkqtmathtext__items" ],
-    [ "Tool Functions and Types for JKQTMathText", "group__jkqtmathtext__tools.html", "group__jkqtmathtext__tools" ],
+    [ "General Information", "group__jkqtmathtext__general.html", "group__jkqtmathtext__general" ],
+    [ "Library-internal Types and Functions", "group__jkqtmathtext__interaltools.html", "group__jkqtmathtext__interaltools" ],
+    [ "Math Renderer Class (JKQTMathText)", "group__jkqtmathtext__render.html", "group__jkqtmathtext__render" ],
     [ "Widgets using JKQTMathText", "group__jkqtmathtext__widgets.html", "group__jkqtmathtext__widgets" ]
 ];

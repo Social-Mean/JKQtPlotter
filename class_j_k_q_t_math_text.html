@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_math_text.html',''); ini
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_j_k_q_t_math_text-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">JKQTMathText Class Reference<div class="ingroups"><a class="el" href="group__jkqtmathtext.html">JKQTMathText LaTeX-Renderer for Qt</a> &raquo; <a class="el" href="group__jkqtmathtext__render.html">Main (Render) Class (JKQTMathText)</a></div></div></div>
+  <div class="headertitle"><div class="title">JKQTMathText Class Reference<div class="ingroups"><a class="el" href="group__jkqtmathtext.html">JKQTMathText LaTeX-Renderer for Qt</a> &raquo; <a class="el" href="group__jkqtmathtext__render.html">Math Renderer Class (JKQTMathText)</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -781,6 +781,7 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >this class parses a LaTeX string and can then draw the contained text/equation onto a <a href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> </p>
 <p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> is a self-contained LaTeX-renderer for Qt. It is used to renderer labels in JKQTPlotter/JKQTBasePlotter, but can be used independently. The class does not depend on any library, except Qt. In particular it actually parses a LaTeX string and draws it in pure C++. It does NOT rely on an installed LaTeX for the rendering!</p>
+<dl class="section see"><dt>See also</dt><dd>See <a class="el" href="group__jkqtmathtext__supportedlatex.html">Supported LaTeX-Subset</a> for a description of the supported LaTeX subset and <a class="el" href="group__jkqtmathtext__renderingmodel.html">JKQTMathText Rendering Model</a> for a description of the rendering model.</dd></dl>
 <h1><a class="anchor" id="JKQTMathTextUsage"></a>
 Usage</h1>
 <h2><a class="anchor" id="JKQTMathTextUsageDirect"></a>
@@ -801,7 +802,7 @@ Direct Usage</h2>
 <div class="line">painter.begin(&amp;pix);</div>
 <div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19">draw</a>(painter, Qt::AlignCenter, QRectF(0,0,pix.width(), pix.height()), <span class="keyword">false</span>);</div>
 <div class="line">painter.end();</div>
-<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:267</div></div>
+<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:154</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a280e7032f66c45b5f3b42664056bee19"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19">JKQTMathText::draw</a></div><div class="ttdeci">void draw(QPainter &amp;painter, QPointF x, bool drawBoxes=false)</div><div class="ttdoc">draw a representation to the object at the specified position x , y</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a7e5a8ec55ff08d2dc3375e62407d2beb"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb">JKQTMathText::parse</a></div><div class="ttdeci">bool parse(const QString &amp;text, bool addSpaceBeforeAndAfter=false)</div><div class="ttdoc">parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_af231fd040caed5040c227dd3748ff899"><div class="ttname"><a href="class_j_k_q_t_math_text.html#af231fd040caed5040c227dd3748ff899">JKQTMathText::setFontSize</a></div><div class="ttdeci">void setFontSize(double __value)</div><div class="ttdoc">set the default font size in points</div></div>
@@ -824,354 +825,7 @@ Usage within a QLabel class JKQTMathTextLabel</h2>
 Examples</h1>
 <p >Examples for the usage of this class can be found here:</p><ul>
 <li><a class="el" href="_j_k_q_t_math_text_simple_example.html">Example (JKQTMathText): A simple usage example</a></li>
-</ul>
-<h1><a class="anchor" id="JKQTMathTextSuppoertedLaTeX"></a>
-Supported LaTeX Subset</h1>
-<h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXSimple"></a>
-Simple Instructions</h2>
-<p >The supported LaTeX subset is listes below. Please note that some commands are used differently than in actual LaTeX. For example <code>\bf</code> is just a renamed form of <code>\textbf</code> and used as <code>\bf{</code>...} and NOT as <code>{\bf</code>...} .</p>
-<ul>
-<li><code>$</code> : enter/leave math mode</li>
-<li><code>\bf{</code>...} <code>\textbf{</code>...} <code>\mathbf{</code>...}: draw the contained text in bold face<div class="image">
-<img src="jkqtmathtext_bold.png" alt=""/>
-</div>
-</li>
-<li><code>\it{</code>...} <code>\textit{</code>...} <code>\mathit{</code>...} : draw the contained text in italic face<div class="image">
-<img src="jkqtmathtext_italic.png" alt=""/>
-</div>
-</li>
-<li><code>\rm{</code>...} <code>\textrm{</code>...} <code>\mathrm{</code>...} <code>\mbox{</code>...} : draw the contained text in normal upright roman font face<div class="image">
-<img src="jkqtmathtext_fonts.png" alt=""/>
-</div>
-</li>
-<li><code>\sf{</code>...} <code>\textsf{</code>...} <code>\mathsf{</code>...} : draw the contained text in normal upright sans-serif font face<div class="image">
-<img src="jkqtmathtext_fonts.png" alt=""/>
-</div>
-</li>
-<li><code>\script{</code>...} <code>\textscript{</code>...} <code>\mathscript{</code>...} : draw the contained text in a script font face<div class="image">
-<img src="jkqtmathtext_fonts.png" alt=""/>
-</div>
-</li>
-<li><code>\sc{</code>...} : draw the text in small caps<div class="image">
-<img src="jkqtmathtext_sc.png" alt=""/>
-</div>
-</li>
-<li><code>\ul{</code>...} <code>\underline{</code>...} <code>\underlined{</code>...} : draw the text with underlining<div class="image">
-<img src="jkqtmathtext_ul.png" alt=""/>
-</div>
-</li>
-<li><code>\sout{</code>...} : strike out the text<div class="image">
-<img src="MTDstrike.png" alt=""/>
-</div>
-</li>
-<li><code>\cancel{</code>...} : slanted strike out the text<div class="image">
-<img src="MTDcancel.png" alt=""/>
-</div>
-</li>
-<li><code>\bcancel{</code>...} : back-strike out the text<div class="image">
-<img src="MTDbcancel.png" alt=""/>
-</div>
-</li>
-<li><code>\xcancel{</code>...} : x-strike out the text<div class="image">
-<img src="MTDxcancel.png" alt=""/>
-</div>
-</li>
-<li><code>\ol{</code>...} <code>\overline{</code>...} <code>\overlined{</code>...} : draw the text with overlining<div class="image">
-<img src="jkqtmathtext_ol.png" alt=""/>
-</div>
-</li>
-<li><code>\tt{</code>...} <code>\texttt{</code>...} <code>\mathtt{</code>...} : draw text in typewriter font<div class="image">
-<img src="jkqtmathtext_fonts.png" alt=""/>
-</div>
-</li>
-<li><code>\textcolor{color}{</code>...} <code>\color{color}</code> <code>\mathcolor{color}{</code>...} : draw colored text<div class="image">
-<img src="jkqtmathtext_colored.png" alt=""/>
-</div>
-</li>
-<li><code>\userfont{font}{</code>...} : draw text in a user-specific font, available on the system<div class="image">
-<img src="jkqtmathtext_userfont.png" alt=""/>
-<div class="caption">
-(generated by default, \userfont{Arial}{Arial}, \userfont{Comic Sans MS}{Comic Sans MS} )</div></div>
-</li>
-<li><code>\boxed{</code>...} : draw text with a box around it<div class="image">
-<img src="jkqtmathtext_boxed.png" alt=""/>
-</div>
-</li>
-<li><code>\doublebox{</code>...} : draw text with a rounded box around it<div class="image">
-<img src="jkqtmathtext_doublebox.png" alt=""/>
-</div>
-</li>
-<li><code>\ovalbox{</code>...} : draw text with a rounded box around it<div class="image">
-<img src="jkqtmathtext_ovalboxed.png" alt=""/>
-</div>
-</li>
-<li><code>\Ovalbox{</code>...} : draw a thick oval box<div class="image">
-<img src="jkqtmathtext_oovalbox.png" alt=""/>
-</div>
-</li>
-<li><code>\dashbox{</code>...} , <code>\dbox{</code>...} : draw a dashed box<div class="image">
-<img src="jkqtmathtext_dashbox.png" alt=""/>
-</div>
-</li>
-<li><code>\dottedbox{</code>...} : draw a dottted box<div class="image">
-<img src="jkqtmathtext_dottedbox.png" alt=""/>
-</div>
-</li>
-<li><code>\ovaldoublebox{</code>...} : draw a double oval box<div class="image">
-<img src="jkqtmathtext_doubleovalbox.png" alt=""/>
-</div>
-</li>
-<li><code>\colorbox{bordercolor}{</code>...} : draw a colored box<div class="image">
-<img src="jkqtmathtext_colorbox.png" alt=""/>
-</div>
-</li>
-<li><code>\shaded{backgroundcolor}{</code>...} : draw a filled box<div class="image">
-<img src="jkqtmathtext_shaded.png" alt=""/>
-</div>
-</li>
-<li><code>\fcolorbox{bordercolor}{backgroundcolor}{</code>...} : draw a colored, filled box<div class="image">
-<img src="jkqtmathtext_fcolorbox.png" alt=""/>
-</div>
-</li>
-<li><code>\colorbox{color}{</code>...} : draw a colored box around text<div class="image">
-<img src="jkqtmathtext_colorbox.png" alt=""/>
-</div>
-</li>
-<li><code>\alpha</code> ... : display the according greek letter<div class="image">
-<img src="jkqtmathtext_greek.png" alt=""/>
-</div>
-</li>
-<li><code>\charDECIMAL</code> and <code>\char"HEX</code> and <code>\char\'OCTAL</code> : draws a unicode character from its 32-bit codepoint <div class="image">
-<img src="jkqtmathtext_char.png" alt=""/>
-<div class="caption">
-(generated by A: \char65, circonflex: \char"109 accent: \char\'351)</div></div>
-</li>
-<li><code>\unicode{HEX}</code> and <code>\usym{HEX}</code> : draws a unicode character from its 32-bit codepoint<div class="image">
-<img src="jkqtmathtext_unicode.png" alt=""/>
-<div class="caption">
-(generated by star: \unicode{2605}, circonflex: \unicode{109} emoticons: \usym{1F440} \usym{1F929})</div></div>
-</li>
-<li><code>\utfeight{HEX}</code> : draws a unicode character from its UTF-8 encoding<div class="image">
-<img src="jkqtmathtext_utf8.png" alt=""/>
-<div class="caption">
-(generated by star: \utfeight{e29885} emoticons \utfeight{F09F9881} \utfeight{f09f98bb})</div></div>
-</li>
-<li><code>^{</code>...} <code>_{</code>...} : display the contents of braces in superscript/subscript<div class="image">
-<img src="jkqtmathtext_supersub.png" alt=""/>
-</div>
- <br  />
-Special subscript/superscript typesetting applies, when the sub/super follows <code>\sum</code> <code>\Prod</code> ...:<div class="image">
-<img src="jkqtmathtext_specialsubsuper.png" alt=""/>
-</div>
-</li>
-<li><code>\{</code> / \} : display opening/closing brace</li>
-<li><code>\_</code> : display underscore</li>
-<li><code>\sum</code> <code>\prod</code> <code>\int</code> ... : plot special symbol. Note that depending on the fontEncoding the available symbols may differ (there are not all symbols defined in the MS Windows Symbol font!). Best coverage should be given by Unicode font encoding with a good unicode font installed!<br  />
-<div class="image">
-<img src="jkqtmathtext_symbols.png" alt=""/>
-</div>
-</li>
-<li><code>-</code> : draw a hyphen<div class="image">
-<img src="jkqtmathtext_hyphen.png" alt=""/>
-</div>
-</li>
-<li><code>--</code> : draw an en-dash<div class="image">
-<img src="jkqtmathtext_endash.png" alt=""/>
-</div>
-</li>
-<li><code>---</code> : draw an em-dash<div class="image">
-<img src="jkqtmathtext_emdash.png" alt=""/>
-</div>
-</li>
-<li><code>\vec{x} \dot{x} \ddot{x} \overline{x} \underline{x} \hat{x} \tilde{x} \uul{x} \ool{x} \bar{x} \arrow{x} \widehat{x} \widetilde{x} ...</code>: Decorations over/under symbols<div class="image">
-<img src="jkqtmathtext_mathdeco.png" alt=""/>
-</div>
-</li>
-<li><code>\verb{don't parse this _aaa\LaTeX} </code>: interpret enclosed text as verbose<div class="image">
-<img src="jkqtmathtext_verb.png" alt=""/>
-</div>
-</li>
-</ul>
-<h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXBraces"></a>
-Braces ...</h2>
-<p >Braces in math mode are adjusted in size, so they are a small bit (factor <code>brace_factor</code> ) larger than the contents. To enable this you have to write braces with <code>\left</code> and <code>\right</code>. These types of braces are defined (slight differences to LaTeX standard):</p><ul>
-<li><code>\left</code>( <code>\right</code>) : default meaning (),<div class="image">
-<img src="jkqtmathtext_brace_round.png" alt=""/>
-</div>
-</li>
-<li><code>\left</code>[ <code>\right</code>] : default meaning [],<div class="image">
-<img src="jkqtmathtext_brace_rect.png" alt=""/>
-</div>
-</li>
-<li><code>\left\{</code> <code>\right\}</code> : default meaning {},<div class="image">
-<img src="jkqtmathtext_brace_curly.png" alt=""/>
-</div>
-</li>
-<li><code>\left&lt;</code> <code>\right&gt;</code> : "averaging" braces ,<div class="image">
-<img src="jkqtmathtext_brace_tri.png" alt=""/>
-</div>
-</li>
-<li><code><code>\left\lfloor</code> <code>\right\rfloor</code> </code>: floor braces ,<div class="image">
-<img src="jkqtmathtext_brace_floor.png" alt=""/>
-</div>
-</li>
-<li><code>\left~</code> <code>\right~</code> <code>\left\lceil</code> <code>\right\rceil</code> : ceil braces ,<div class="image">
-<img src="jkqtmathtext_brace_ceil.png" alt=""/>
-</div>
-</li>
-<li><code>\left|</code> <code>\right|</code> : absolute value braces | |,<div class="image">
-<img src="jkqtmathtext_brace_oneline.png" alt=""/>
-</div>
-</li>
-<li><code>\left\</code>| <code>\right\</code>|  : norm braces || ||,<div class="image">
-<img src="jkqtmathtext_brace_dblline.png" alt=""/>
-</div>
-</li>
-<li>You can use <code>\left</code>. or <code>\right</code>. to have only right or only left brace</li>
-</ul>
-<h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXRoots"></a>
-Roots</h2>
-<p >There are also instructions that allow to write roots:</p><ul>
-<li><code>$\sqrt{1+\sqrt{1+x}}$</code><div class="image">
-<img src="jkqtmathtext_sqrt.png" alt=""/>
-</div>
-</li>
-<li><code>$\sqrt[3]{1+\sqrt[3]{1+x}}$</code><div class="image">
-<img src="jkqtmathtext_cbrt.png" alt=""/>
-</div>
-</li>
-</ul>
-<h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXUnderOver"></a>
-Undersetting, Oversetting, Underbraces, Overbraces ...</h2>
-<p >There are also instructions that allow to under/overset braces, arrows, ...:</p><ul>
-<li><code>$\underbrace{x+x+...+x}{k\ \mathrm{times}}$</code><div class="image">
-<img src="jkqtmathtext_brace_underbrace.png" alt=""/>
-</div>
-</li>
-<li><code>$\overbrace{x+x+...+x}{k\ \mathrm{times}}$</code><div class="image">
-<img src="jkqtmathtext_brace_overbrace.png" alt=""/>
-</div>
-</li>
-<li><code>$\underbracket{x+x+...+x}{k\ \mathrm{times}}$</code><div class="image">
-<img src="MTFMunderbracket.png" alt=""/>
-</div>
-</li>
-<li><code>$\overbracket{x+x+...+x}{k\ \mathrm{times}}$</code><div class="image">
-<img src="MTFMoverbracket.png" alt=""/>
-</div>
-</li>
-<li><code>$\overset{main}{over}$</code><div class="image">
-<img src="jkqtmathtext_brace_overset.png" alt=""/>
-</div>
-</li>
-<li><code>$\underset{main}{under}$</code><div class="image">
-<img src="jkqtmathtext_brace_underset.png" alt=""/>
-</div>
-</li>
-</ul>
-<h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXFrac"></a>
-Fraction Type Instructions</h2>
-<p >Several Matrix/Array-typed LaTeX instructions are supported:</p><ul>
-<li><code>$\frac{...}{...}$</code><div class="image">
-<img src="MTFMfrac.png" alt=""/>
-</div>
-</li>
-<li><code>$\tfrac{...}{...}$</code> (70% smaller font)<div class="image">
-<img src="MTFMtfrac.png" alt=""/>
-</div>
-</li>
-<li><code>$\dfrac{...}{...}$</code><div class="image">
-<img src="MTFMdfrac.png" alt=""/>
-</div>
-</li>
-<li><code>$\sfrac{...}{...}$</code><div class="image">
-<img src="MTFMsfrac.png" alt=""/>
-</div>
-</li>
-<li><code>$\stfrac{...}{...}$</code> (70% smaller font)<div class="image">
-<img src="MTFMstfrac.png" alt=""/>
-</div>
-</li>
-</ul>
-<h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXMatrix"></a>
-Matrix/Array Type Instructions</h2>
-<p >Several Matrix/Array-typed LaTeX instructions are supported:</p><ul>
-<li><code>$\stackrel{...}{...}$ $\binom{...}{...}$</code><div class="image">
-<img src="jkqtmathtext_brace_stackrel.png" alt=""/>
-</div>
-</li>
-<li><code>$\begin{cases} ... &amp; ... \\ ... &amp; ... \end{cases}$</code><div class="image">
-<img src="jkqtmathtext_brace_begincases.png" alt=""/>
-</div>
-</li>
-<li><code>$\begin{array} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{array}$</code> <code>$\begin{matrix} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{matrix}$</code><div class="image">
-<img src="jkqtmathtext_array.png" alt=""/>
-</div>
-</li>
-<li><code>$\begin{pmatrix} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{pmatrix}$</code><div class="image">
-<img src="jkqtmathtext_pmatrix.png" alt=""/>
-</div>
-</li>
-<li><code>$\begin{bmatrix} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{bmatrix}$</code><div class="image">
-<img src="jkqtmathtext_bmatrix.png" alt=""/>
-</div>
-</li>
-<li><code>$\begin{Bmatrix} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{Bmatrix}$</code><div class="image">
-<img src="jkqtmathtext_bbmatrix.png" alt=""/>
-</div>
-</li>
-<li><code>$\begin{vmatrix} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{vmatrix}$</code><div class="image">
-<img src="jkqtmathtext_vmatrix.png" alt=""/>
-</div>
-</li>
-<li><code>$\begin{Vmatrix} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{Vmatrix}$</code><div class="image">
-<img src="jkqtmathtext_vvmatrix.png" alt=""/>
-</div>
-</li>
-<li><code>$\substack[lrc]{...\\...}$</code><div class="image">
-<img src="jkqtmathtext_substack.png" alt=""/>
-</div>
-</li>
-<li><code>$\lsubstack{...\\...}$</code><div class="image">
-<img src="jkqtmathtext_lsubstack.png" alt=""/>
-</div>
-</li>
-<li><code>$\rsubstack{...\\...}$</code><div class="image">
-<img src="jkqtmathtext_rsubstack.png" alt=""/>
-</div>
-</li>
-</ul>
-<h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXTextAlignment"></a>
-Environments for Multi-line text</h2>
-<p >Several environments are supported that allow to layout text with linebreaks and different alignemnts:</p><ul>
-<li><code>$\begin{document} ... \\ ... \end{document}$</code><div class="image">
-<img src="jkqtmathtext_beginflushleft.png" alt=""/>
-</div>
-</li>
-<li><code>$\begin{flushleft} ... \\ ... \end{flushleft}$</code><div class="image">
-<img src="jkqtmathtext_beginflushleft.png" alt=""/>
-</div>
-</li>
-<li><code>$\begin{flushright} ... \\ ... \end{flushright}$</code><div class="image">
-<img src="jkqtmathtext_beginflushright.png" alt=""/>
-</div>
-</li>
-<li><code>$\begin{center} ... \\ ... \end{center}$</code><div class="image">
-<img src="jkqtmathtext_begincenter.png" alt=""/>
-</div>
-</li>
-<li><code>$\begin{framed} ... \\ ... \end{framed}$</code><div class="image">
-<img src="jkqtmathtext_beginframed.png" alt=""/>
-</div>
-</li>
-<li><code>$\begin{shaded} ... \\ ... \end{shaded}$</code><div class="image">
-<img src="jkqtmathtext_beginshaded.png" alt=""/>
-</div>
-</li>
-<li><code>$\begin{snugshade} ... \\ ... \end{snugshade}$</code><div class="image">
-<img src="jkqtmathtext_beginsnugshade.png" alt=""/>
-</div>
-</li>
+<li><a class="el" href="_j_k_q_t_math_text_test_app.html">Example (JKQTMathText): A test application</a></li>
 </ul>
 <h1><a class="anchor" id="JKQTMathTextSuppoertedFonts"></a>
 Font Handling</h1>
@@ -5953,7 +5607,7 @@ Convert to HTML</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Mon Aug 1 2022 13:20:32 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Tue Aug 2 2022 10:23:41 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

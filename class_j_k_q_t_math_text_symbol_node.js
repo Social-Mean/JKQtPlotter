@@ -48,6 +48,8 @@ var class_j_k_q_t_math_text_symbol_node =
     [ "MathOperatorSymbolUnicode", "class_j_k_q_t_math_text_symbol_node.html#a01e2553209ea5deb257079e4849d0071", null ],
     [ "MathOperatorText", "class_j_k_q_t_math_text_symbol_node.html#a6273432ed0b95b601b1915e1ed4857aa", null ],
     [ "MathOperatorText", "class_j_k_q_t_math_text_symbol_node.html#a5cf8955c2ce04a229bf34696944fc145", null ],
+    [ "NarrowMathOperatorSymbolStd", "class_j_k_q_t_math_text_symbol_node.html#a959467a92bf2e875beb1758323f1cc6e", null ],
+    [ "NarrowMathOperatorSymbolStd", "class_j_k_q_t_math_text_symbol_node.html#ac960bd33e98052086d9b4c221ab0e42a", null ],
     [ "NarrowMathOperatorSymbolUnicode", "class_j_k_q_t_math_text_symbol_node.html#ad08a1edd0d4ee5491b864c18b2fa3ace", null ],
     [ "SimpleTextSymbol", "class_j_k_q_t_math_text_symbol_node.html#a10ab97cb642b441eafdfaac4e2d586d3", null ],
     [ "SimpleTextSymbol", "class_j_k_q_t_math_text_symbol_node.html#a22a3271cb02e6db603b2cb7af59ef472", null ],

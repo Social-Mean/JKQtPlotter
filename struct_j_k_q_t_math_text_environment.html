@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('struct_j_k_q_t_math_text_environment.h
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="struct_j_k_q_t_math_text_environment-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">JKQTMathTextEnvironment Struct Reference<div class="ingroups"><a class="el" href="group__jkqtmathtext.html">JKQTMathText LaTeX-Renderer for Qt</a> &raquo; <a class="el" href="group__jkqtmathtext__tools.html">Tool Functions and Types for JKQTMathText</a></div></div></div>
+  <div class="headertitle"><div class="title">JKQTMathTextEnvironment Struct Reference<div class="ingroups"><a class="el" href="group__jkqtmathtext.html">JKQTMathText LaTeX-Renderer for Qt</a> &raquo; <a class="el" href="group__jkqtmathtext__interaltools.html">Library-internal Types and Functions</a> &raquo; <a class="el" href="group__jkqtmathtext__tools.html">Tool Functions and Types for JKQTMathText</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -142,18 +142,24 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a814e30c1617756b6b322e0df223b25c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_environment.html#a814e30c1617756b6b322e0df223b25c4">JKQTMathTextEnvironment</a> ()</td></tr>
 <tr class="separator:a814e30c1617756b6b322e0df223b25c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7965ac0f030992f6f9784c9ebbd203e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_environment.html#a7965ac0f030992f6f9784c9ebbd203e2">beginMathMode</a> ()</td></tr>
+<tr class="memdesc:a7965ac0f030992f6f9784c9ebbd203e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets insideMath <code>=true</code> and insideMathForceDigitsUpright <code>=true</code>  <a href="struct_j_k_q_t_math_text_environment.html#a7965ac0f030992f6f9784c9ebbd203e2">More...</a><br /></td></tr>
+<tr class="separator:a7965ac0f030992f6f9784c9ebbd203e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b9893a44e77a9a4e3ce56172d53b02e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_environment.html#a8b9893a44e77a9a4e3ce56172d53b02e">endMathMode</a> ()</td></tr>
+<tr class="memdesc:a8b9893a44e77a9a4e3ce56172d53b02e"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets insideMath <code>=false</code> and insideMathForceDigitsUpright <code>=true</code>  <a href="struct_j_k_q_t_math_text_environment.html#a8b9893a44e77a9a4e3ce56172d53b02e">More...</a><br /></td></tr>
+<tr class="separator:a8b9893a44e77a9a4e3ce56172d53b02e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb57f29248d9944956890e85242f472a"><td class="memItemLeft" align="right" valign="top">QFont&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_environment.html#adb57f29248d9944956890e85242f472a">getFont</a> (<a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent) const</td></tr>
 <tr class="memdesc:adb57f29248d9944956890e85242f472a"><td class="mdescLeft">&#160;</td><td class="mdescRight">build a QFont object from the settings in this object  <a href="struct_j_k_q_t_math_text_environment.html#adb57f29248d9944956890e85242f472a">More...</a><br /></td></tr>
 <tr class="separator:adb57f29248d9944956890e85242f472a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73179609b45a50b31979e1ee542bbc98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201">JKQTMathTextFontEncoding</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_environment.html#a73179609b45a50b31979e1ee542bbc98">getFontEncoding</a> (<a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent) const</td></tr>
 <tr class="memdesc:a73179609b45a50b31979e1ee542bbc98"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the encoding of the given Font  <a href="struct_j_k_q_t_math_text_environment.html#a73179609b45a50b31979e1ee542bbc98">More...</a><br /></td></tr>
 <tr class="separator:a73179609b45a50b31979e1ee542bbc98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47535cc8ac7299dd32b9f61c5f1686b8"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_environment.html#a47535cc8ac7299dd32b9f61c5f1686b8">toHtmlAfter</a> (<a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> defaultEv) const</td></tr>
-<tr class="memdesc:a47535cc8ac7299dd32b9f61c5f1686b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">generate a HTML postfix that formats the text in front of it according to the settings in this object  <a href="struct_j_k_q_t_math_text_environment.html#a47535cc8ac7299dd32b9f61c5f1686b8">More...</a><br /></td></tr>
-<tr class="separator:a47535cc8ac7299dd32b9f61c5f1686b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97cb2cc821b27c456a08efc358a5d861"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_environment.html#a97cb2cc821b27c456a08efc358a5d861">toHtmlStart</a> (<a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> defaultEv) const</td></tr>
-<tr class="memdesc:a97cb2cc821b27c456a08efc358a5d861"><td class="mdescLeft">&#160;</td><td class="mdescRight">generate a HTML prefix that formats the text after it according to the settings in this object  <a href="struct_j_k_q_t_math_text_environment.html#a97cb2cc821b27c456a08efc358a5d861">More...</a><br /></td></tr>
-<tr class="separator:a97cb2cc821b27c456a08efc358a5d861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8409d0e65c01a0a99fe70da3aa056fa0"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_environment.html#a8409d0e65c01a0a99fe70da3aa056fa0">toHtmlAfter</a> (<a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> defaultEv, <a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parentMathText) const</td></tr>
+<tr class="memdesc:a8409d0e65c01a0a99fe70da3aa056fa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">generate a HTML postfix that formats the text in front of it according to the settings in this object  <a href="struct_j_k_q_t_math_text_environment.html#a8409d0e65c01a0a99fe70da3aa056fa0">More...</a><br /></td></tr>
+<tr class="separator:a8409d0e65c01a0a99fe70da3aa056fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76a16a975e8b25d1840257dc831bfa3d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_environment.html#a76a16a975e8b25d1840257dc831bfa3d">toHtmlStart</a> (<a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> defaultEv, <a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parentMathText) const</td></tr>
+<tr class="memdesc:a76a16a975e8b25d1840257dc831bfa3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">generate a HTML prefix that formats the text after it according to the settings in this object  <a href="struct_j_k_q_t_math_text_environment.html#a76a16a975e8b25d1840257dc831bfa3d">More...</a><br /></td></tr>
+<tr class="separator:a76a16a975e8b25d1840257dc831bfa3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -187,6 +193,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad05fd4e21e1b32e70d3e3164fee713b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_environment.html#ad05fd4e21e1b32e70d3e3164fee713b8">insideMath</a></td></tr>
 <tr class="memdesc:ad05fd4e21e1b32e70d3e3164fee713b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">is the text currently are we inside a math environment?  <a href="struct_j_k_q_t_math_text_environment.html#ad05fd4e21e1b32e70d3e3164fee713b8">More...</a><br /></td></tr>
 <tr class="separator:ad05fd4e21e1b32e70d3e3164fee713b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5737aabd406749982823c7e52f1da06c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_environment.html#a5737aabd406749982823c7e52f1da06c">insideMathForceDigitsUpright</a></td></tr>
+<tr class="memdesc:a5737aabd406749982823c7e52f1da06c"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <em>insideMath</em> <code>==true</code> and this is <code>true</code> (the default), then digits are forced to be typeset in upright, otherwise they are typeset as defined by the other properties  <a href="struct_j_k_q_t_math_text_environment.html#a5737aabd406749982823c7e52f1da06c">More...</a><br /></td></tr>
+<tr class="separator:a5737aabd406749982823c7e52f1da06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e0833c06452c940ad1694bdf7341231"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_environment.html#a3e0833c06452c940ad1694bdf7341231">italic</a></td></tr>
 <tr class="memdesc:a3e0833c06452c940ad1694bdf7341231"><td class="mdescLeft">&#160;</td><td class="mdescRight">is the text currently italic?  <a href="struct_j_k_q_t_math_text_environment.html#a3e0833c06452c940ad1694bdf7341231">More...</a><br /></td></tr>
 <tr class="separator:a3e0833c06452c940ad1694bdf7341231"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -245,6 +254,44 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7965ac0f030992f6f9784c9ebbd203e2" name="a7965ac0f030992f6f9784c9ebbd203e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7965ac0f030992f6f9784c9ebbd203e2">&#9670;&nbsp;</a></span>beginMathMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathTextEnvironment::beginMathMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sets insideMath <code>=true</code> and insideMathForceDigitsUpright <code>=true</code> </p>
+
+</div>
+</div>
+<a id="a8b9893a44e77a9a4e3ce56172d53b02e" name="a8b9893a44e77a9a4e3ce56172d53b02e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b9893a44e77a9a4e3ce56172d53b02e">&#9670;&nbsp;</a></span>endMathMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathTextEnvironment::endMathMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sets insideMath <code>=false</code> and insideMathForceDigitsUpright <code>=true</code> </p>
+
+</div>
+</div>
 <a id="acaf99e1b802a2447c1cd2871cca36f28" name="acaf99e1b802a2447c1cd2871cca36f28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acaf99e1b802a2447c1cd2871cca36f28">&#9670;&nbsp;</a></span>FontSizeUnit2String()</h2>
 
@@ -344,8 +391,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a47535cc8ac7299dd32b9f61c5f1686b8" name="a47535cc8ac7299dd32b9f61c5f1686b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47535cc8ac7299dd32b9f61c5f1686b8">&#9670;&nbsp;</a></span>toHtmlAfter()</h2>
+<a id="a8409d0e65c01a0a99fe70da3aa056fa0" name="a8409d0e65c01a0a99fe70da3aa056fa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8409d0e65c01a0a99fe70da3aa056fa0">&#9670;&nbsp;</a></span>toHtmlAfter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -354,8 +401,18 @@ Public Attributes</h2></td></tr>
           <td class="memname">QString JKQTMathTextEnvironment::toHtmlAfter </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a>&#160;</td>
-          <td class="paramname"><em>defaultEv</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>defaultEv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *&#160;</td>
+          <td class="paramname"><em>parentMathText</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -367,12 +424,12 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_j_k_q_t_math_text_environment.html#a47535cc8ac7299dd32b9f61c5f1686b8" title="generate a HTML postfix that formats the text in front of it according to the settings in this object">toHtmlAfter()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_j_k_q_t_math_text_environment.html#a8409d0e65c01a0a99fe70da3aa056fa0" title="generate a HTML postfix that formats the text in front of it according to the settings in this object">toHtmlAfter()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a97cb2cc821b27c456a08efc358a5d861" name="a97cb2cc821b27c456a08efc358a5d861"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97cb2cc821b27c456a08efc358a5d861">&#9670;&nbsp;</a></span>toHtmlStart()</h2>
+<a id="a76a16a975e8b25d1840257dc831bfa3d" name="a76a16a975e8b25d1840257dc831bfa3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76a16a975e8b25d1840257dc831bfa3d">&#9670;&nbsp;</a></span>toHtmlStart()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -381,8 +438,18 @@ Public Attributes</h2></td></tr>
           <td class="memname">QString JKQTMathTextEnvironment::toHtmlStart </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a>&#160;</td>
-          <td class="paramname"><em>defaultEv</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>defaultEv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *&#160;</td>
+          <td class="paramname"><em>parentMathText</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -394,7 +461,7 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_j_k_q_t_math_text_environment.html#a47535cc8ac7299dd32b9f61c5f1686b8" title="generate a HTML postfix that formats the text in front of it according to the settings in this object">toHtmlAfter()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_j_k_q_t_math_text_environment.html#a8409d0e65c01a0a99fe70da3aa056fa0" title="generate a HTML postfix that formats the text in front of it according to the settings in this object">toHtmlAfter()</a> </dd></dl>
 
 </div>
 </div>
@@ -511,6 +578,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5737aabd406749982823c7e52f1da06c" name="a5737aabd406749982823c7e52f1da06c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5737aabd406749982823c7e52f1da06c">&#9670;&nbsp;</a></span>insideMathForceDigitsUpright</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool JKQTMathTextEnvironment::insideMathForceDigitsUpright</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if <em>insideMath</em> <code>==true</code> and this is <code>true</code> (the default), then digits are forced to be typeset in upright, otherwise they are typeset as defined by the other properties </p>
+
+</div>
+</div>
 <a id="a3e0833c06452c940ad1694bdf7341231" name="a3e0833c06452c940ad1694bdf7341231"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e0833c06452c940ad1694bdf7341231">&#9670;&nbsp;</a></span>italic</h2>
 
@@ -600,7 +683,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a></li>
-    <li class="footer">Generated on Mon Aug 1 2022 13:20:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Tue Aug 2 2022 10:23:41 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

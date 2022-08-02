@@ -1,5 +1,9 @@
 var NAVTREEINDEX22 =
 {
+"class_j_k_q_t_plotter.html#a49b0b515a300e951a8798de761583d46":[10,4,3,1,71],
+"class_j_k_q_t_plotter.html#a4ac495d0c0d9860379e5f507cf31a33d":[10,4,3,1,42],
+"class_j_k_q_t_plotter.html#a4e3cc6f1ec6138a97bcd29299cb76894":[10,4,3,1,20],
+"class_j_k_q_t_plotter.html#a4e46bc61144299169cfb96e786dab301":[10,4,3,1,100],
 "class_j_k_q_t_plotter.html#a5006a00c7eae6c881d4359b79bef906a":[10,4,3,1,136],
 "class_j_k_q_t_plotter.html#a5017afb96878ce033d3dcca3e0a9aa8d":[10,4,3,1,34],
 "class_j_k_q_t_plotter.html#a52fd134db23ccf74a2efcd4f4ff0bc43":[10,4,3,1,222],
@@ -202,10 +206,10 @@ var NAVTREEINDEX22 =
 "class_j_k_vanish_q_tool_bar.html#a6a0b740f3eb74c9a7ea628f8334b668c":[10,0,0,3,2],
 "class_j_k_vanish_q_tool_bar.html#a74d45bc2b6bba0bed86844d17ac64b11":[10,0,0,3,1],
 "class_j_k_vanish_q_tool_bar.html#af74b4b4d9674c333d37585d076411f3e":[10,0,0,3,3],
-"class_m_tplain_text_node.html":[10,3,2,24],
-"class_m_tplain_text_node.html#a8beb3b30eddf33ebd60af19174d5e366":[10,3,2,24,2],
-"class_m_tplain_text_node.html#a9cc048fbbbfee6d2eaba728dc67e8b4d":[10,3,2,24,0],
-"class_m_tplain_text_node.html#aa019877f4f0e7b5982eae8a270590b47":[10,3,2,24,1],
+"class_m_tplain_text_node.html":[10,3,1,1,24],
+"class_m_tplain_text_node.html#a8beb3b30eddf33ebd60af19174d5e366":[10,3,1,1,24,2],
+"class_m_tplain_text_node.html#a9cc048fbbbfee6d2eaba728dc67e8b4d":[10,3,1,1,24,0],
+"class_m_tplain_text_node.html#aa019877f4f0e7b5982eae8a270590b47":[10,3,1,1,24,1],
 "classes.html":[12,1],
 "example_tutorial_projects.html":[4],
 "example_tutorial_projects.html#jkqtp_extut":[4,0],
@@ -219,8 +223,8 @@ var NAVTREEINDEX22 =
 "example_tutorial_projects.html#jkqtp_extut_plotimagedata":[4,0,3],
 "example_tutorial_projects.html#jkqtp_extut_plotstyles":[4,0,0],
 "example_tutorial_projects.html#jkqtp_extut_specialfeatures":[4,0,8],
-"functions.html":[12,3,0,0],
 "functions.html":[12,3,0],
+"functions.html":[12,3,0,0],
 "functions_b.html":[12,3,0,1],
 "functions_c.html":[12,3,0,2],
 "functions_d.html":[12,3,0,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX22 =
 "functions_eval_t.html":[12,3,5,15],
 "functions_eval_u.html":[12,3,5,16],
 "functions_eval_v.html":[12,3,5,17],
-"functions_eval_w.html":[12,3,5,18],
-"functions_f.html":[12,3,0,5],
-"functions_func.html":[12,3,1,0],
-"functions_func.html":[12,3,1],
-"functions_func_b.html":[12,3,1,1]
+"functions_eval_w.html":[12,3,5,18]
 };
