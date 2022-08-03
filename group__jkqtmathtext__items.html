@@ -182,8 +182,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html">JKQTMathTextSymbolNode</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">subclass representing one symbol (e.g. <code>\alpha</code> , <code>\cdot</code> ...) node in the syntax tree  <a href="class_j_k_q_t_math_text_symbol_node.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_base_node.html">JKQTMathTextTextBaseNode</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for nodes representing text in the syntax tree  <a href="class_j_k_q_t_math_text_text_base_node.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html">JKQTMathTextTextNode</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">subclass representing one text node in the syntax tree  <a href="class_j_k_q_t_math_text_text_node.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_verbatim_node.html">JKQTMathTextVerbatimNode</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">subclass representing a verbatim (plain-text) node with support for line-breaks in the syntax tree  <a href="class_j_k_q_t_math_text_verbatim_node.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html">JKQTMathTextVerticalListNode</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">subclass representing a list of nodes in the syntax tree, layed out vertically  <a href="class_j_k_q_t_math_text_vertical_list_node.html#details">More...</a><br /></td></tr>
@@ -194,8 +200,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html">JKQTMathTextVerticalListNode::LayoutInfo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes the layout of the whole node  <a href="struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_tplain_text_node.html">MTplainTextNode</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">subclass representing one text node in the syntax tree  <a href="class_m_tplain_text_node.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html">JKQTMathTextVerbatimNode::LayoutInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes the layout of the whole node  <a href="struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">JKQTMathTextSymbolNode::SymbolFullProps</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">properties of the symbol, extends <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> with font...  <a href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#details">More...</a><br /></td></tr>
@@ -244,7 +250,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Aug 3 2022 07:59:38 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Wed Aug 3 2022 13:27:01 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

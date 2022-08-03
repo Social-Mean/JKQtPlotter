@@ -55,12 +55,16 @@ var hierarchy =
         [ "JKQTMathTextSuperscriptNode", "class_j_k_q_t_math_text_superscript_node.html", null ]
       ] ],
       [ "JKQTMathTextSymbolNode", "class_j_k_q_t_math_text_symbol_node.html", null ],
-      [ "JKQTMathTextTextNode", "class_j_k_q_t_math_text_text_node.html", [
-        [ "MTplainTextNode", "class_m_tplain_text_node.html", null ]
+      [ "JKQTMathTextTextBaseNode", "class_j_k_q_t_math_text_text_base_node.html", [
+        [ "JKQTMathTextTextNode", "class_j_k_q_t_math_text_text_node.html", null ],
+        [ "JKQTMathTextVerbatimNode", "class_j_k_q_t_math_text_verbatim_node.html", null ]
       ] ],
       [ "JKQTMathTextWhitespaceNode", "class_j_k_q_t_math_text_whitespace_node.html", null ]
     ] ],
-    [ "JKQTMathTextNodeSize", "struct_j_k_q_t_math_text_node_size.html", null ],
+    [ "JKQTMathTextNodeSize", "struct_j_k_q_t_math_text_node_size.html", [
+      [ "JKQTMathTextVerbatimNode::LayoutInfo", "struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html", null ],
+      [ "JKQTMathTextVerticalListNode::LayoutInfo", "struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html", null ]
+    ] ],
     [ "JKQTMathTextTBRData", "struct_j_k_q_t_math_text_t_b_r_data.html", null ],
     [ "JKQTMathTextTBRDataH", "struct_j_k_q_t_math_text_t_b_r_data_h.html", null ],
     [ "JKQTPAdaptiveFunctionGraphEvaluator", "class_j_k_q_t_p_adaptive_function_graph_evaluator.html", null ],
@@ -246,7 +250,6 @@ var hierarchy =
       [ "JKQTPXYGraphErrors", "class_j_k_q_t_p_x_y_graph_errors.html", null ],
       [ "JKQTPYGraphErrors", "class_j_k_q_t_p_y_graph_errors.html", null ]
     ] ],
-    [ "JKQTMathTextVerticalListNode::LayoutInfo", "struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html", null ],
     [ "JKQTPImageTools::LUTData", "struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html", null ],
     [ "JKQTPXYParametrizedScatterGraph::MappedSymbolFunctor", "struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html", null ],
     [ "JKQTPlotter::MouseDragAction", "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html", null ],

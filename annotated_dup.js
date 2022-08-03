@@ -45,7 +45,9 @@ var annotated_dup =
     [ "JKQTMathTextSymbolNode", "class_j_k_q_t_math_text_symbol_node.html", "class_j_k_q_t_math_text_symbol_node" ],
     [ "JKQTMathTextTBRData", "struct_j_k_q_t_math_text_t_b_r_data.html", "struct_j_k_q_t_math_text_t_b_r_data" ],
     [ "JKQTMathTextTBRDataH", "struct_j_k_q_t_math_text_t_b_r_data_h.html", "struct_j_k_q_t_math_text_t_b_r_data_h" ],
+    [ "JKQTMathTextTextBaseNode", "class_j_k_q_t_math_text_text_base_node.html", "class_j_k_q_t_math_text_text_base_node" ],
     [ "JKQTMathTextTextNode", "class_j_k_q_t_math_text_text_node.html", "class_j_k_q_t_math_text_text_node" ],
+    [ "JKQTMathTextVerbatimNode", "class_j_k_q_t_math_text_verbatim_node.html", "class_j_k_q_t_math_text_verbatim_node" ],
     [ "JKQTMathTextVerticalListNode", "class_j_k_q_t_math_text_vertical_list_node.html", "class_j_k_q_t_math_text_vertical_list_node" ],
     [ "JKQTMathTextWhitespaceNode", "class_j_k_q_t_math_text_whitespace_node.html", "class_j_k_q_t_math_text_whitespace_node" ],
     [ "JKQTPAdaptiveFunctionGraphEvaluator", "class_j_k_q_t_p_adaptive_function_graph_evaluator.html", "class_j_k_q_t_p_adaptive_function_graph_evaluator" ],
@@ -203,6 +205,5 @@ var annotated_dup =
     [ "JKQTPYGraphErrorData", "class_j_k_q_t_p_y_graph_error_data.html", "class_j_k_q_t_p_y_graph_error_data" ],
     [ "JKQTPYGraphErrors", "class_j_k_q_t_p_y_graph_errors.html", "class_j_k_q_t_p_y_graph_errors" ],
     [ "JKQTPYParsedFunctionLineGraph", "class_j_k_q_t_p_y_parsed_function_line_graph.html", "class_j_k_q_t_p_y_parsed_function_line_graph" ],
-    [ "JKVanishQToolBar", "class_j_k_vanish_q_tool_bar.html", "class_j_k_vanish_q_tool_bar" ],
-    [ "MTplainTextNode", "class_m_tplain_text_node.html", "class_m_tplain_text_node" ]
+    [ "JKVanishQToolBar", "class_j_k_vanish_q_tool_bar.html", "class_j_k_vanish_q_tool_bar" ]
 ];

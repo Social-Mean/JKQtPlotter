@@ -583,6 +583,14 @@ Protected Types</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a69234cc73a1866d7309e66df9e52476b">MTTinstructionNewline</a>
 , <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a5a1cabd379c276ab627d55524f9d61e3">MTTinstructionVerbatim</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a1ba53ebc004bfeacf0c0fe439ac198a2">MTTinstructionVerbatimVisibleSpace</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532af210123cd1bba8ad56f3aedddd44f64c">MTTinstructionBegin</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a972718f8956fb6fad152bf7f8c4dd8d6">MTTinstructionEnd</a>
+, <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a17e8451da405aa4a3a0412760a2a7c77">MTTunderscore</a>
 , <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532ab7e9d877beebe737903b8b4eaa9f1c69">MTThat</a>
@@ -637,6 +645,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:adf171e700d7d545b294f2061b47305d9"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#adf171e700d7d545b294f2061b47305d9">parseStringParams</a> (bool get, size_t Nparams, bool *foundError=nullptr)</td></tr>
 <tr class="memdesc:adf171e700d7d545b294f2061b47305d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">parses a list of string-arguments, i.e. <code>{p1}{p2}{</code>...}  <a href="class_j_k_q_t_math_text.html#adf171e700d7d545b294f2061b47305d9">More...</a><br /></td></tr>
 <tr class="separator:adf171e700d7d545b294f2061b47305d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eff3c96d4b7126866c76cb37a0c56e2"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a3eff3c96d4b7126866c76cb37a0c56e2">readUntil</a> (bool get, const QString &amp;endsequence)</td></tr>
+<tr class="memdesc:a3eff3c96d4b7126866c76cb37a0c56e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">read all text without tokenizing, until the sequence <em>endsequence</em> is found.  <a href="class_j_k_q_t_math_text.html#a3eff3c96d4b7126866c76cb37a0c56e2">More...</a><br /></td></tr>
+<tr class="separator:a3eff3c96d4b7126866c76cb37a0c56e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
@@ -938,6 +949,14 @@ Convert to HTML</h1>
 <tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a9a94de64d05d1279ad5bfb59a85021b8" name="ab2b829bd80180f0c7c6259effc36b532a9a94de64d05d1279ad5bfb59a85021b8"></a>MTTinstruction&#160;</td><td class="fielddoc"><p >an instruction, started by <code>"\", e.g. \c "\textbf"</code>, ... </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a69234cc73a1866d7309e66df9e52476b" name="ab2b829bd80180f0c7c6259effc36b532a69234cc73a1866d7309e66df9e52476b"></a>MTTinstructionNewline&#160;</td><td class="fielddoc"><p >a newline instruction <code>"\\"</code> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a5a1cabd379c276ab627d55524f9d61e3" name="ab2b829bd80180f0c7c6259effc36b532a5a1cabd379c276ab627d55524f9d61e3"></a>MTTinstructionVerbatim&#160;</td><td class="fielddoc"><p >a verbatim instruction, e.g. <code>\verb!verbatimtext!</code> was found: currentTokenName will contain the text enclode by the verbatim delimiters </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a1ba53ebc004bfeacf0c0fe439ac198a2" name="ab2b829bd80180f0c7c6259effc36b532a1ba53ebc004bfeacf0c0fe439ac198a2"></a>MTTinstructionVerbatimVisibleSpace&#160;</td><td class="fielddoc"><p >a verbatim instruction that generates visible whitespaces, e.g. <code>\begin{verbatim}</code>...\end{verbatim} was found: currentTokenName will contain the text enclode by the verbatim delimiters </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532af210123cd1bba8ad56f3aedddd44f64c" name="ab2b829bd80180f0c7c6259effc36b532af210123cd1bba8ad56f3aedddd44f64c"></a>MTTinstructionBegin&#160;</td><td class="fielddoc"><p >a <code>'\begin{</code>...}' instruction, currentTokenName is the name of the environment </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a972718f8956fb6fad152bf7f8c4dd8d6" name="ab2b829bd80180f0c7c6259effc36b532a972718f8956fb6fad152bf7f8c4dd8d6"></a>MTTinstructionEnd&#160;</td><td class="fielddoc"><p >a <code>'\end{</code>...}' instruction, currentTokenName is the name of the environment </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ab2b829bd80180f0c7c6259effc36b532a17e8451da405aa4a3a0412760a2a7c77" name="ab2b829bd80180f0c7c6259effc36b532a17e8451da405aa4a3a0412760a2a7c77"></a>MTTunderscore&#160;</td><td class="fielddoc"><p >the character <code>"_"</code> </p>
 </td></tr>
@@ -2985,6 +3004,52 @@ Convert to HTML</h1>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the list of parameter strings with Nparam entries or an empty or partial list on error </dd></dl>
+
+</div>
+</div>
+<a id="a3eff3c96d4b7126866c76cb37a0c56e2" name="a3eff3c96d4b7126866c76cb37a0c56e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eff3c96d4b7126866c76cb37a0c56e2">&#9670;&nbsp;</a></span>readUntil()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString JKQTMathText::readUntil </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>get</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>endsequence</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read all text without tokenizing, until the sequence <em>endsequence</em> is found. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">get</td><td>if <code>true</code> the functions begins by reading a new character, otherwise the current character is used as first character </td></tr>
+    <tr><td class="paramname">endsequence</td><td>the sequence, ending the read </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the read string, excluding the <em>endsequence</em> </dd></dl>
 
 </div>
 </div>
@@ -5671,7 +5736,7 @@ Convert to HTML</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Wed Aug 3 2022 07:59:38 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Wed Aug 3 2022 13:27:02 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

@@ -26,6 +26,5 @@ var searchData=
   ['mousepressevent_23',['mousePressEvent',['../class_j_k_q_t_fast_plotter.html#ae29810f4d4b8abb351a7db5ee579cf34',1,'JKQTFastPlotter::mousePressEvent()'],['../class_j_k_q_t_plotter.html#a31993574cd9bb6395039af705ee5d8a1',1,'JKQTPlotter::mousePressEvent()']]],
   ['mousereleaseevent_24',['mouseReleaseEvent',['../class_j_k_q_t_fast_plotter.html#a7a45da0591454649f02ac708741f740c',1,'JKQTFastPlotter::mouseReleaseEvent()'],['../class_j_k_q_t_plotter.html#a4e46bc61144299169cfb96e786dab301',1,'JKQTPlotter::mouseReleaseEvent()']]],
   ['movegraphbottom_25',['moveGraphBottom',['../class_j_k_q_t_base_plotter.html#ab7cd38efa5c76b232081ec8849875d13',1,'JKQTBasePlotter::moveGraphBottom()'],['../class_j_k_q_t_plotter.html#a86ec8b38d833a0dc2750f13d13f7d247',1,'JKQTPlotter::moveGraphBottom()']]],
-  ['movegraphtop_26',['moveGraphTop',['../class_j_k_q_t_base_plotter.html#a6d35efa9751518357c7122ce14444cae',1,'JKQTBasePlotter::moveGraphTop()'],['../class_j_k_q_t_plotter.html#a0169b092c61271fee7f75e30501c5ba4',1,'JKQTPlotter::moveGraphTop()']]],
-  ['mtplaintextnode_27',['MTplainTextNode',['../class_m_tplain_text_node.html#a9cc048fbbbfee6d2eaba728dc67e8b4d',1,'MTplainTextNode']]]
+  ['movegraphtop_26',['moveGraphTop',['../class_j_k_q_t_base_plotter.html#a6d35efa9751518357c7122ce14444cae',1,'JKQTBasePlotter::moveGraphTop()'],['../class_j_k_q_t_plotter.html#a0169b092c61271fee7f75e30501c5ba4',1,'JKQTPlotter::moveGraphTop()']]]
 ];

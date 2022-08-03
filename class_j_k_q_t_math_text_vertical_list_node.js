@@ -7,7 +7,7 @@ var class_j_k_q_t_math_text_vertical_list_node =
     [ "JKQTMathTextVerticalListNode", "class_j_k_q_t_math_text_vertical_list_node.html#a46f3f34a57271b25f5c73511ebc5c333", null ],
     [ "~JKQTMathTextVerticalListNode", "class_j_k_q_t_math_text_vertical_list_node.html#aa89ef80aa571e1fac9754f8e8521fb96", null ],
     [ "addChild", "class_j_k_q_t_math_text_vertical_list_node.html#abdcff4aa1226ecc4deec1e65050c36d0", null ],
-    [ "calcLayout", "class_j_k_q_t_math_text_vertical_list_node.html#a6d33d06de2726b6d56a2d1f02d0cbcf2", null ],
+    [ "calcLayout", "class_j_k_q_t_math_text_vertical_list_node.html#ad4930d196899ba37f95643f336147e41", null ],
     [ "childCount", "class_j_k_q_t_math_text_vertical_list_node.html#af510b70ef51e59e1e2b060bb168c35b5", null ],
     [ "clearChildren", "class_j_k_q_t_math_text_vertical_list_node.html#ace0d44c6bbc8af524bd3800eaea35140", null ],
     [ "clearChildrenImpl", "class_j_k_q_t_math_text_vertical_list_node.html#a52b19bc8f49162472f3ed7221374375d", null ],

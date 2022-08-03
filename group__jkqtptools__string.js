@@ -1,5 +1,6 @@
 var group__jkqtptools__string =
 [
+    [ "jkqtp_backslashEscape", "group__jkqtptools__string.html#ga2aa5f2981f1a54797a71764a56fa7836", null ],
     [ "jkqtp_booltostr", "group__jkqtptools__string.html#gaae419a0cc3e1c3101dde658530bded79", null ],
     [ "jkqtp_bytestostr", "group__jkqtptools__string.html#gad02a7828b0edadba25cd7c2812765f3c", null ],
     [ "jkqtp_chartostr", "group__jkqtptools__string.html#ga42081780d7fd718670e3f354a488bd97", null ],
