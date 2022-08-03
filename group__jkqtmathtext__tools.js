@@ -124,6 +124,6 @@ var group__jkqtmathtext__tools =
     [ "JKQTMathTextVerticalOrientation2String", "group__jkqtmathtext__tools.html#gac5746397bdbb400c3c6df27895a07cb4", null ],
     [ "String2JKQTMathTextHorizontalAlignment", "group__jkqtmathtext__tools.html#ga61d1f8ce7158e256ca5e9a7f82cdba17", null ],
     [ "String2JKQTMathTextVerticalOrientation", "group__jkqtmathtext__tools.html#gaf089921f391a60fdb19169271871b4a2", null ],
-    [ "TokenName2JKQTMathTextBraceType", "group__jkqtmathtext__tools.html#gaf74f8d17b8d1189efe3a3e997cc56ee3", null ],
+    [ "TokenName2JKQTMathTextBraceType", "group__jkqtmathtext__tools.html#ga9b674cbd93b908ea43043682959e2789", null ],
     [ "TokenNameMatchesJKQTMathTextBraceType", "group__jkqtmathtext__tools.html#gac17cdd9ccc4cc900dddcb9b947953c2f", null ]
 ];

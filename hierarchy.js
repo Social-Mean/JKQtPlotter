@@ -33,6 +33,7 @@ var hierarchy =
     [ "JKQTMathTextFontDefinition", "struct_j_k_q_t_math_text_font_definition.html", null ],
     [ "JKQTMathTextFontSpecifier", "struct_j_k_q_t_math_text_font_specifier.html", null ],
     [ "JKQTMathTextNode", "class_j_k_q_t_math_text_node.html", [
+      [ "JKQTMathTextEmptyBoxNode", "class_j_k_q_t_math_text_empty_box_node.html", null ],
       [ "JKQTMathTextMatrixNode", "class_j_k_q_t_math_text_matrix_node.html", null ],
       [ "JKQTMathTextMultiChildNode", "class_j_k_q_t_math_text_multi_child_node.html", [
         [ "JKQTMathTextDualChildNode", "class_j_k_q_t_math_text_dual_child_node.html", [

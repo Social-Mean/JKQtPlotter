@@ -24,6 +24,7 @@ var annotated_dup =
     [ "JKQTMathTextBraceNode", "class_j_k_q_t_math_text_brace_node.html", "class_j_k_q_t_math_text_brace_node" ],
     [ "JKQTMathTextDecoratedNode", "class_j_k_q_t_math_text_decorated_node.html", "class_j_k_q_t_math_text_decorated_node" ],
     [ "JKQTMathTextDualChildNode", "class_j_k_q_t_math_text_dual_child_node.html", "class_j_k_q_t_math_text_dual_child_node" ],
+    [ "JKQTMathTextEmptyBoxNode", "class_j_k_q_t_math_text_empty_box_node.html", "class_j_k_q_t_math_text_empty_box_node" ],
     [ "JKQTMathTextEnvironment", "struct_j_k_q_t_math_text_environment.html", "struct_j_k_q_t_math_text_environment" ],
     [ "JKQTMathTextFontDefinition", "struct_j_k_q_t_math_text_font_definition.html", "struct_j_k_q_t_math_text_font_definition" ],
     [ "JKQTMathTextFontSpecifier", "struct_j_k_q_t_math_text_font_specifier.html", "struct_j_k_q_t_math_text_font_specifier" ],

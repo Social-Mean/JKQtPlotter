@@ -283,9 +283,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf089921f391a60fdb19169271871b4a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtmathtext__libfacilities.html#ga057aeda927f4602f5bfa776a658f78ff">JKQTMATHTEXT_LIB_EXPORT</a> <a class="el" href="group__jkqtmathtext__tools.html#ga1463950676f064ad0a8feb24fd41db1f">JKQTMathTextVerticalOrientation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtmathtext__tools.html#gaf089921f391a60fdb19169271871b4a2">String2JKQTMathTextVerticalOrientation</a> (QString mode)</td></tr>
 <tr class="memdesc:gaf089921f391a60fdb19169271871b4a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the JKQTMathTextVerticalOrientation corresponding to <em>instructionName</em>  <a href="group__jkqtmathtext__tools.html#gaf089921f391a60fdb19169271871b4a2">More...</a><br /></td></tr>
 <tr class="separator:gaf089921f391a60fdb19169271871b4a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf74f8d17b8d1189efe3a3e997cc56ee3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtmathtext__libfacilities.html#ga057aeda927f4602f5bfa776a658f78ff">JKQTMATHTEXT_LIB_EXPORT</a> <a class="el" href="group__jkqtmathtext__tools.html#ga54bb4fa9bb861e0118cfc68de4913472">JKQTMathTextBraceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtmathtext__tools.html#gaf74f8d17b8d1189efe3a3e997cc56ee3">TokenName2JKQTMathTextBraceType</a> (const QString &amp;tokenName)</td></tr>
-<tr class="memdesc:gaf74f8d17b8d1189efe3a3e997cc56ee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a string <em>tokenName</em> describing a LaTeX Token or Instruction into an opening or closing JKQTMathTextBraceType  <a href="group__jkqtmathtext__tools.html#gaf74f8d17b8d1189efe3a3e997cc56ee3">More...</a><br /></td></tr>
-<tr class="separator:gaf74f8d17b8d1189efe3a3e997cc56ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9b674cbd93b908ea43043682959e2789"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtmathtext__libfacilities.html#ga057aeda927f4602f5bfa776a658f78ff">JKQTMATHTEXT_LIB_EXPORT</a> <a class="el" href="group__jkqtmathtext__tools.html#ga54bb4fa9bb861e0118cfc68de4913472">JKQTMathTextBraceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtmathtext__tools.html#ga9b674cbd93b908ea43043682959e2789">TokenName2JKQTMathTextBraceType</a> (const QString &amp;tokenName, bool *isOpening=nullptr)</td></tr>
+<tr class="memdesc:ga9b674cbd93b908ea43043682959e2789"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a string <em>tokenName</em> describing a LaTeX Token or Instruction into an opening or closing JKQTMathTextBraceType  <a href="group__jkqtmathtext__tools.html#ga9b674cbd93b908ea43043682959e2789">More...</a><br /></td></tr>
+<tr class="separator:ga9b674cbd93b908ea43043682959e2789"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac17cdd9ccc4cc900dddcb9b947953c2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtmathtext__libfacilities.html#ga057aeda927f4602f5bfa776a658f78ff">JKQTMATHTEXT_LIB_EXPORT</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtmathtext__tools.html#gac17cdd9ccc4cc900dddcb9b947953c2f">TokenNameMatchesJKQTMathTextBraceType</a> (const QString &amp;token, <a class="el" href="group__jkqtmathtext__tools.html#ga54bb4fa9bb861e0118cfc68de4913472">JKQTMathTextBraceType</a> type, bool acceptMTBTNone, bool *tokenEqualsNone=nullptr)</td></tr>
 <tr class="memdesc:gac17cdd9ccc4cc900dddcb9b947953c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true, if the given token/instruction-Name <em>token</em> ("{", "(", ..., "lceil", ".", ...) matches the given <em>type</em> (returns true, when <em>type</em> == MTBTAny )  <a href="group__jkqtmathtext__tools.html#gac17cdd9ccc4cc900dddcb9b947953c2f">More...</a><br /></td></tr>
 <tr class="separator:gac17cdd9ccc4cc900dddcb9b947953c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -360,7 +360,7 @@ Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="gga54bb4fa9bb861e0118cfc68de4913472a0e3578ed794778ca677dd0df8825462a" name="gga54bb4fa9bb861e0118cfc68de4913472a0e3578ed794778ca677dd0df8825462a"></a>MTBTAny&#160;</td><td class="fielddoc"><p >any bracket, used by <a class="el" href="class_j_k_q_t_math_text.html#ac926999714413107f41691e262bbeffa" title="parse a LaTeX string">JKQTMathText::parseLatexString()</a> </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga54bb4fa9bb861e0118cfc68de4913472a366e81426a62b5c823a0be82d3938349" name="gga54bb4fa9bb861e0118cfc68de4913472a366e81426a62b5c823a0be82d3938349"></a>MTBTUnknown&#160;</td><td class="fielddoc"><p >an unknown tokenName presented to <a class="el" href="group__jkqtmathtext__tools.html#gaf74f8d17b8d1189efe3a3e997cc56ee3" title="convert a string tokenName describing a LaTeX Token or Instruction into an opening or closing JKQTMat...">TokenName2JKQTMathTextBraceType()</a> </p>
+<tr><td class="fieldname"><a id="gga54bb4fa9bb861e0118cfc68de4913472a366e81426a62b5c823a0be82d3938349" name="gga54bb4fa9bb861e0118cfc68de4913472a366e81426a62b5c823a0be82d3938349"></a>MTBTUnknown&#160;</td><td class="fielddoc"><p >an unknown tokenName presented to <a class="el" href="group__jkqtmathtext__tools.html#ga9b674cbd93b908ea43043682959e2789" title="convert a string tokenName describing a LaTeX Token or Instruction into an opening or closing JKQTMat...">TokenName2JKQTMathTextBraceType()</a> </p>
 </td></tr>
 </table>
 
@@ -1018,8 +1018,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gaf74f8d17b8d1189efe3a3e997cc56ee3" name="gaf74f8d17b8d1189efe3a3e997cc56ee3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf74f8d17b8d1189efe3a3e997cc56ee3">&#9670;&nbsp;</a></span>TokenName2JKQTMathTextBraceType()</h2>
+<a id="ga9b674cbd93b908ea43043682959e2789" name="ga9b674cbd93b908ea43043682959e2789"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9b674cbd93b908ea43043682959e2789">&#9670;&nbsp;</a></span>TokenName2JKQTMathTextBraceType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1028,8 +1028,18 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="group__jkqtmathtext__libfacilities.html#ga057aeda927f4602f5bfa776a658f78ff">JKQTMATHTEXT_LIB_EXPORT</a> <a class="el" href="group__jkqtmathtext__tools.html#ga54bb4fa9bb861e0118cfc68de4913472">JKQTMathTextBraceType</a> TokenName2JKQTMathTextBraceType </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>tokenName</em></td><td>)</td>
+          <td class="paramname"><em>tokenName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>isOpening</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1087,7 +1097,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Aug 2 2022 10:23:41 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Wed Aug 3 2022 07:59:38 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>
