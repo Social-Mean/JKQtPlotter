@@ -55,6 +55,9 @@ var group__jkqtmathtext__tools =
     ] ],
     [ "JKQTMathTextNodeSize", "struct_j_k_q_t_math_text_node_size.html", [
       [ "JKQTMathTextNodeSize", "struct_j_k_q_t_math_text_node_size.html#aaa7f54157287a94f3b6ae58aaf9fea7b", null ],
+      [ "getDescent", "struct_j_k_q_t_math_text_node_size.html#a8b44c6f556526d71ccdb01dcccfc9924", null ],
+      [ "getIntSize", "struct_j_k_q_t_math_text_node_size.html#a47735318eeca62ca90c2e03a1e7b6928", null ],
+      [ "getSize", "struct_j_k_q_t_math_text_node_size.html#a3a70ff64a563f76dbd7dd3cc6a83f677", null ],
       [ "baselineHeight", "struct_j_k_q_t_math_text_node_size.html#ad11f5452e869c7db8feb6cdf15683e79", null ],
       [ "overallHeight", "struct_j_k_q_t_math_text_node_size.html#aae466e56e2dc81e2850c4306c6058766", null ],
       [ "strikeoutPos", "struct_j_k_q_t_math_text_node_size.html#ab341d0e3832ba7d6b9e133ffefe8f090", null ],
@@ -120,7 +123,7 @@ var group__jkqtmathtext__tools =
     [ "JKQTMathTextHorizontalAlignment2String", "group__jkqtmathtext__tools.html#ga4e470a13a35cd35d031ebe58a19ede25", null ],
     [ "JKQTMathTextMakeArrow", "group__jkqtmathtext__tools.html#gaa6e3ccb2e03e5124ac8dc5149d14c19a", null ],
     [ "JKQTMathTextMakeDArrow", "group__jkqtmathtext__tools.html#ga286e3e9afdcb54e615269d175a6c8fab", null ],
-    [ "JKQTMathTextMakeHBracePath", "group__jkqtmathtext__tools.html#ga06ffccb2fb6ec12de2349a18b04bdc79", null ],
+    [ "JKQTMathTextMakeHBracePath", "group__jkqtmathtext__tools.html#ga1de2fa773e11ef058b440aa18bb8c6a5", null ],
     [ "JKQTMathTextVerticalOrientation2String", "group__jkqtmathtext__tools.html#gac5746397bdbb400c3c6df27895a07cb4", null ],
     [ "String2JKQTMathTextHorizontalAlignment", "group__jkqtmathtext__tools.html#ga61d1f8ce7158e256ca5e9a7f82cdba17", null ],
     [ "String2JKQTMathTextVerticalOrientation", "group__jkqtmathtext__tools.html#gaf089921f391a60fdb19169271871b4a2", null ],

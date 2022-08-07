@@ -1,5 +1,16 @@
 var NAVTREEINDEX25 =
 {
+"group__jkqtpplottersupprt.html#ga6cb5c7e72efa604416b2ac1ac3fc55cd":[10,4,5,21],
+"group__jkqtpplottersupprt.html#ga6debbfe141c8d3b2f713abd7e0244353":[10,4,5,60],
+"group__jkqtpplottersupprt.html#ga6e5e21b68f1e647bf7e8a8cf8ccecd0f":[10,4,5,35],
+"group__jkqtpplottersupprt.html#ga7aa3b51b32b5602ee44763590bc22bdd":[10,4,5,14],
+"group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488":[10,4,5,4],
+"group__jkqtpplottersupprt.html#ga80d2235c912ead563f404f4e7f331137":[10,4,5,18],
+"group__jkqtpplottersupprt.html#ga833236bdddc2dbad41b1bb69655c9a3f":[10,4,5,5],
+"group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c":[10,4,5,16],
+"group__jkqtpplottersupprt.html#ga8a4405ee45ef33ab5074538510f01276":[10,4,5,7],
+"group__jkqtpplottersupprt.html#ga919c1476f937c878ae6c39b8de048e6c":[10,4,5,56],
+"group__jkqtpplottersupprt.html#ga91f332658964ee09fe91c6431c3b9026":[10,4,5,3],
 "group__jkqtpplottersupprt.html#ga99655ad5a819b4fbef4350854e1919c7":[10,4,5,44],
 "group__jkqtpplottersupprt.html#ga9eb69bab982df82a87cb360af0254c80":[10,4,5,48],
 "group__jkqtpplottersupprt.html#gaa58494567a006b1c1cebbd0723f26238":[10,4,5,12],
@@ -238,16 +249,5 @@ var NAVTREEINDEX25 =
 "group__jkqtptools__icons.html#ga0e4de552001b4e5f04e6b0afd150b311":[10,0,7,1],
 "group__jkqtptools__icons.html#ga1cb208cb135ca102503ac3eb396de524":[10,0,7,2],
 "group__jkqtptools__icons.html#ga6b630a47637c554621fb6c8f4f32886b":[10,0,7,3],
-"group__jkqtptools__icons.html#ga79830bedad13c4b8a2a409f04ebb51c8":[10,0,7,4],
-"group__jkqtptools__icons.html#gabb9a62c04d124fde00d41aca31c6395e":[10,0,7,0],
-"group__jkqtptools__jkqtcommon.html":[10,0],
-"group__jkqtptools__libfacilities.html":[10,0,5],
-"group__jkqtptools__libfacilities.html#ga0a7b6197aadcbc18b24437fcad131926":[10,0,5,2],
-"group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1":[10,0,5,0],
-"group__jkqtptools__libfacilities.html#ga982f85933a167ca783c6657f791f3c11":[10,0,5,1],
-"group__jkqtptools__math__array.html":[10,1,0],
-"group__jkqtptools__math__array.html#ga3e8ffdc0989b2c229973cab00543825d":[10,1,0,2],
-"group__jkqtptools__math__array.html#ga3ee1bf982092f55f4e1d1f684aa20ea5":[10,1,0,1],
-"group__jkqtptools__math__array.html#gacb781bc72ede36ac0aa29bdb803b5043":[10,1,0,3],
-"group__jkqtptools__math__basic.html":[10,0,6]
+"group__jkqtptools__icons.html#ga79830bedad13c4b8a2a409f04ebb51c8":[10,0,7,4]
 };

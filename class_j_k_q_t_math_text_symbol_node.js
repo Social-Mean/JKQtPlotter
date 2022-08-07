@@ -36,6 +36,7 @@ var class_j_k_q_t_math_text_symbol_node =
     [ "getSizeInternal", "class_j_k_q_t_math_text_symbol_node.html#af5a6e97635f0f653e350ce2612218b3f", null ],
     [ "getSymbolName", "class_j_k_q_t_math_text_symbol_node.html#a32cb42c8c861a1ae6ee8fe6e6fd5c93d", null ],
     [ "getSymbolProp", "class_j_k_q_t_math_text_symbol_node.html#a624670a68a9dad8048b102b7164bc032", null ],
+    [ "getSymbols", "class_j_k_q_t_math_text_symbol_node.html#a52ecaf9a8ffdef94455ab068fcd76080", null ],
     [ "getSymbolSize", "class_j_k_q_t_math_text_symbol_node.html#af4d2f20439e84838b2e00b7da4224d0d", null ],
     [ "getSymbolSizeInternal", "class_j_k_q_t_math_text_symbol_node.html#a2dc27313af1f863cdad8623d709a08ea", null ],
     [ "getTightBoundingRect", "class_j_k_q_t_math_text_symbol_node.html#aaf6516d51256f862b7ef21df62708f6d", null ],

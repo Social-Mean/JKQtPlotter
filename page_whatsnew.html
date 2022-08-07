@@ -267,6 +267,12 @@ NEW: added support for <code>\char"HEX</code> , <code>\char\'OCTAL</code> and <c
 NEW: added support for \bigl,\bigr,\Bigr,... commands for fixed-size but enlarged paramtheses </li>
 <li>
 NEW: added support for \begin{verbatim}...\end{verbatim}, \begin{verbatim*}...\end{verbatim*} </li>
+<li>
+NEW: additional method JKQTMathtext::getSizeDetail() that returns all size-properties as a convenient struct, also added matching varinat <a class="el" href="class_j_k_q_t_math_text_node.html#a64a20dde0c762ee5a20c7b6dbb99eadd" title="determine the size of the node, calls getSizeInternal() implementation of the actual type">JKQTMathTextNode::getSize()</a>  </li>
+<li>
+NEW: additional method JKQTMathtext::drawIntoPixmap(), JKQTMathtext::drawIntoPicture(), JKQTMathtext::drawIntoImage() which returns a QPixmap, QPicture and QImage respectively that contains the render result of the currently parsed markup </li>
+<li>
+NEW: added command line tool <a class="el" href="_j_k_q_t_math_text_render_cmd_line_tool.html">Example (JKQTMathText): Command-Line Utility jkqtmathtext_render</a> that renders LaTeX into images, using it to generate the documentation images for <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> </li>
 </ul>
 </li>
 </ul>
@@ -515,7 +521,7 @@ v2015.10: Download</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Aug 3 2022 14:20:46 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Aug 7 2022 20:28:11 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,16 @@
 var NAVTREEINDEX26 =
 {
+"group__jkqtptools__icons.html#gabb9a62c04d124fde00d41aca31c6395e":[10,0,7,0],
+"group__jkqtptools__jkqtcommon.html":[10,0],
+"group__jkqtptools__libfacilities.html":[10,0,5],
+"group__jkqtptools__libfacilities.html#ga0a7b6197aadcbc18b24437fcad131926":[10,0,5,2],
+"group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1":[10,0,5,0],
+"group__jkqtptools__libfacilities.html#ga982f85933a167ca783c6657f791f3c11":[10,0,5,1],
+"group__jkqtptools__math__array.html":[10,1,0],
+"group__jkqtptools__math__array.html#ga3e8ffdc0989b2c229973cab00543825d":[10,1,0,2],
+"group__jkqtptools__math__array.html#ga3ee1bf982092f55f4e1d1f684aa20ea5":[10,1,0,1],
+"group__jkqtptools__math__array.html#gacb781bc72ede36ac0aa29bdb803b5043":[10,1,0,3],
+"group__jkqtptools__math__basic.html":[10,0,6],
 "group__jkqtptools__math__basic.html#ga0629d281d3475efc82eff234f61e0ca2":[10,0,6,42],
 "group__jkqtptools__math__basic.html#ga0c2ac6f473c7e1b64259a7adf983878a":[10,0,6,22],
 "group__jkqtptools__math__basic.html#ga1e30d7dc20adc2baa6dbfcdf67d780fa":[10,0,6,5],
@@ -238,16 +249,5 @@ var NAVTREEINDEX26 =
 "group__jkqtptools__math__statistics__regression.html#gab5c23e5d003ffde1fbf9a089ea454659":[10,1,5,7,8],
 "group__jkqtptools__math__statistics__regression.html#gab6d59116cf0142c3a1921b2aa2b52a56":[10,1,5,7,3],
 "group__jkqtptools__math__statistics__regression.html#gaf06c7da956ec353a2ce4de010f83a777":[10,1,5,7,13],
-"group__jkqtptools__math__statistics__regression.html#gaf81a452c8e0798f6bb4b8764dd5a2f89":[10,1,5,7,7],
-"group__jkqtptools__math__statistics__regression.html#ggaa798f2573e7f03cb328b15ff76dda335a0421fde669f1f6a68f34f112af7c8809":[10,1,5,7,0,1],
-"group__jkqtptools__math__statistics__regression.html#ggaa798f2573e7f03cb328b15ff76dda335a1e62c0f2dbc49df5365500269be663e0":[10,1,5,7,0,3],
-"group__jkqtptools__math__statistics__regression.html#ggaa798f2573e7f03cb328b15ff76dda335a32a843da6ea40ab3b17a3421ccdf671b":[10,1,5,7,0,0],
-"group__jkqtptools__math__statistics__regression.html#ggaa798f2573e7f03cb328b15ff76dda335ac1e19c09f700938f0ff7f1fd4722a3ac":[10,1,5,7,0,2],
-"group__jkqtptools__qt.html":[10,0,9],
-"group__jkqtptools__qtwidgets.html":[10,0,0],
-"group__jkqtptools__string.html":[10,0,8],
-"group__jkqtptools__string.html#ga020bc1849dd12dd3246e44e2e0013a3e":[10,0,8,15],
-"group__jkqtptools__string.html#ga1c00a5f666f3200d2934910dcf02bd90":[10,0,8,35],
-"group__jkqtptools__string.html#ga229ace1d0aba4eaf38b94f5dec06b841":[10,0,8,14],
-"group__jkqtptools__string.html#ga25069128d19d112ba61d6fad739f6379":[10,0,8,18]
+"group__jkqtptools__math__statistics__regression.html#gaf81a452c8e0798f6bb4b8764dd5a2f89":[10,1,5,7,7]
 };

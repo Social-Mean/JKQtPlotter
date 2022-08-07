@@ -11,6 +11,7 @@ var class_j_k_q_t_math_text_node =
     [ "getParentNode", "class_j_k_q_t_math_text_node.html#ad3b370409bf6cbaa05a5627c9f6929d4", null ],
     [ "getParents", "class_j_k_q_t_math_text_node.html#ad3c81a6c676219160c37f4b5d89d19e9", null ],
     [ "getParents", "class_j_k_q_t_math_text_node.html#a3d4627d305165c28363944821d76efbc", null ],
+    [ "getSize", "class_j_k_q_t_math_text_node.html#afd24772ce8e5dc1b9ae5e3cf1f24b4e3", null ],
     [ "getSize", "class_j_k_q_t_math_text_node.html#a64a20dde0c762ee5a20c7b6dbb99eadd", null ],
     [ "getSizeInternal", "class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd", null ],
     [ "getTypeName", "class_j_k_q_t_math_text_node.html#a89840deb78e1d614c74348d7e612549f", null ],

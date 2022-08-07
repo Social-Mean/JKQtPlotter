@@ -1,6 +1,6 @@
 var example_tutorial_projects =
 [
-    [ "Overview of Examples&Tutorials", "example_tutorial_projects.html#jkqtp_extut", [
+    [ "Examples&Tutorials for JKQTPlotter", "example_tutorial_projects.html#jkqtp_extut_jkqtplotter", [
       [ "Different Plot Data Styles", "example_tutorial_projects.html#jkqtp_extut_plotstyles", null ],
       [ "Geometric Forms, Arrows, Annotaions ...", "example_tutorial_projects.html#jkqtp_extut_geometric", null ],
       [ "Styling the Plot, Keys, Axes, ...", "example_tutorial_projects.html#jkqtp_extut_keyaxesstyles", null ],
@@ -9,9 +9,11 @@ var example_tutorial_projects =
       [ "Layout & Styling", "example_tutorial_projects.html#jkqtp_extut_guitoolslayout", null ],
       [ "Data Management & Statistics", "example_tutorial_projects.html#jkqtp_extut_datamanagement", null ],
       [ "More Complex Examples", "example_tutorial_projects.html#jkqtp_extut_complexexamples", null ],
-      [ "Tools and Special Features", "example_tutorial_projects.html#jkqtp_extut_specialfeatures", null ],
       [ "CMake Build System", "example_tutorial_projects.html#jkqtp_extut_cmake_build", null ]
     ] ],
+    [ "Examples for JKQTMathText", "example_tutorial_projects.html#jkqtp_extut_jkqtmathtext", null ],
+    [ "Examples for JKQTFastPlotter", "example_tutorial_projects.html#jkqtp_extut_jkqtfastplotter", null ],
+    [ "Tool Programs", "example_tutorial_projects.html#jkqtp_extut_tools", null ],
     [ "Example (JKQTPlotter): Very simple line-graph", "_j_k_q_t_plotter_simple_test.html", null ],
     [ "Example (JKQTPlotter): Simple line-graph with live-data (speed test)", "_j_k_q_t_plotter_speed_test.html", null ],
     [ "Example (JKQTPlotter): Line Graph with Different Symbols and Line Styles", "_j_k_q_t_plotter_symbols_and_styles.html", null ],
@@ -199,8 +201,9 @@ var example_tutorial_projects =
       [ "Introduction and Usage", "_j_k_q_t_plotter_mandelbrot.html#autotoc_md83", null ],
       [ "How it works", "_j_k_q_t_plotter_mandelbrot.html#autotoc_md84", null ]
     ] ],
+    [ "Example (JKQTPlotter): CMake Example", "_j_k_q_t_c_make_link_example.html", null ],
     [ "Example (JKQTMathText): A simple usage example", "_j_k_q_t_math_text_simple_example.html", null ],
+    [ "Example (JKQTMathText): Command-Line Utility jkqtmathtext_render", "_j_k_q_t_math_text_render_cmd_line_tool.html", null ],
     [ "Example (JKQTMathText): A test application", "_j_k_q_t_math_text_test_app.html", null ],
-    [ "Example (JKQTFastPlotter)", "_j_k_q_t_fast_plotter_test.html", null ],
-    [ "Example (JKQTPlotter): CMake Example", "_j_k_q_t_c_make_link_example.html", null ]
+    [ "Example (JKQTFastPlotter)", "_j_k_q_t_fast_plotter_test.html", null ]
 ];
