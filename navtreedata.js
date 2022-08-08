@@ -124,7 +124,7 @@ var NAVTREEINDEX =
 "class_j_k_q_t_f_p_line_plot.html#aee9dcc6aa1f4ccb10816401375ec4699",
 "class_j_k_q_t_f_pimage_overlay_plot.html#a8948aad49689089f28a1fe4175a96ee8",
 "class_j_k_q_t_fast_plotter.html#adb0336d16d46d301216d89fdfb71c678",
-"class_j_k_q_t_math_text.html#aca215b542930cdec640f87bd2c45ada5",
+"class_j_k_q_t_math_text.html#ac926999714413107f41691e262bbeffa",
 "class_j_k_q_t_math_text_multi_child_node.html#ae37e2715114f26cc8d19eaeba84b838a",
 "class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a939231446a48bae2fd886f3383af3ff5",
 "class_j_k_q_t_p_boxplot_graph_base.html#a3bc9d05fc2319e8317d280bce25dfde7",

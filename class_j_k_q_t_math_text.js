@@ -27,7 +27,7 @@ var class_j_k_q_t_math_text =
     [ "addReplacementFont", "class_j_k_q_t_math_text.html#a9a6aaa1d799f775e13256ba58d4f6aaa", null ],
     [ "addReplacementFont", "class_j_k_q_t_math_text.html#a58a6212d2660e50d6ce824e690050f9c", null ],
     [ "addToErrorList", "class_j_k_q_t_math_text.html#a32a69b6feb42510f57d8d20daab385d5", null ],
-    [ "draw", "class_j_k_q_t_math_text.html#ace4fa59fd6101d2396b150ca2d5acf7b", null ],
+    [ "draw", "class_j_k_q_t_math_text.html#a3fc1a926c2c38692a1763ae176389f42", null ],
     [ "draw", "class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19", null ],
     [ "draw", "class_j_k_q_t_math_text.html#a749387fdbf03167d5670f673d2505d19", null ],
     [ "drawIntoImage", "class_j_k_q_t_math_text.html#a957367069dbd6d05b0e5a8902fa90d77", null ],
