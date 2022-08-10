@@ -8,6 +8,8 @@ var group__jkqtmathtext__tools =
       [ "JKQTMathTextEnvironment", "struct_j_k_q_t_math_text_environment.html#a814e30c1617756b6b322e0df223b25c4", null ],
       [ "beginMathMode", "struct_j_k_q_t_math_text_environment.html#a7965ac0f030992f6f9784c9ebbd203e2", null ],
       [ "endMathMode", "struct_j_k_q_t_math_text_environment.html#a8b9893a44e77a9a4e3ce56172d53b02e", null ],
+      [ "exchangedFontFor", "struct_j_k_q_t_math_text_environment.html#aa727de10f2d34de5522144c5ca55474d", null ],
+      [ "exchangedFontForRoman", "struct_j_k_q_t_math_text_environment.html#afa11ac7967fb7a4d1f7466a70700817d", null ],
       [ "FontSizeUnit2String", "struct_j_k_q_t_math_text_environment.html#acaf99e1b802a2447c1cd2871cca36f28", null ],
       [ "getFont", "struct_j_k_q_t_math_text_environment.html#adb57f29248d9944956890e85242f472a", null ],
       [ "getFontEncoding", "struct_j_k_q_t_math_text_environment.html#a73179609b45a50b31979e1ee542bbc98", null ],
@@ -63,6 +65,13 @@ var group__jkqtmathtext__tools =
       [ "strikeoutPos", "struct_j_k_q_t_math_text_node_size.html#ab341d0e3832ba7d6b9e133ffefe8f090", null ],
       [ "width", "struct_j_k_q_t_math_text_node_size.html#aca206bdc5f3dd30b5ec2e797ae317a3b", null ]
     ] ],
+    [ "JKQTMathTextBlackboradDrawingMode", "group__jkqtmathtext__tools.html#gaa56e33b15e6ec1c707e8f96c7b3eeef4", [
+      [ "MTBBDMfontDirectly", "group__jkqtmathtext__tools.html#ggaa56e33b15e6ec1c707e8f96c7b3eeef4a88bdafdb668d79189b931b958f9f4159", null ],
+      [ "MTBBDMsimulate", "group__jkqtmathtext__tools.html#ggaa56e33b15e6ec1c707e8f96c7b3eeef4a673b289c87afa85dd80b77341f4c3124", null ],
+      [ "MTBBDMunicodeCharactersOrFontDirectly", "group__jkqtmathtext__tools.html#ggaa56e33b15e6ec1c707e8f96c7b3eeef4acd188b4a9a83e9b944a8e01784b2debe", null ],
+      [ "MTBBDMunicodeCharactersOrSimulate", "group__jkqtmathtext__tools.html#ggaa56e33b15e6ec1c707e8f96c7b3eeef4a756bd0e49d1c7d5336d6a46b245ce241", null ],
+      [ "MTBBDMdefault", "group__jkqtmathtext__tools.html#ggaa56e33b15e6ec1c707e8f96c7b3eeef4ad91d9f36cb1468526c9b063cd8c53872", null ]
+    ] ],
     [ "JKQTMathTextBraceType", "group__jkqtmathtext__tools.html#ga54bb4fa9bb861e0118cfc68de4913472", [
       [ "MTBTParenthesis", "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472ac749f296b6258f5f504ee65270187c30", null ],
       [ "MTBTSquareBracket", "group__jkqtmathtext__tools.html#gga54bb4fa9bb861e0118cfc68de4913472a2e6ba74aa7ee394ab9f1e8163d810e3a", null ],
@@ -116,6 +125,7 @@ var group__jkqtmathtext__tools =
     [ "InstructionName2OpeningJKQTMathTextBraceType", "group__jkqtmathtext__tools.html#gaecb9f393976b4a679f19e73230d589a5", null ],
     [ "InstructionNameMatchesJKQTMathTextBraceType", "group__jkqtmathtext__tools.html#gace4c736a69fe3ceb1e8775c2b94ff16d", null ],
     [ "isPrintableJKQTMathTextBraceType", "group__jkqtmathtext__tools.html#ga24edc7e7400050069c2e66f177321fe2", null ],
+    [ "JKQTMathTextBlackboradDrawingMode2String", "group__jkqtmathtext__tools.html#ga6d19ee8d7639cfa594de68e48987bfc1", null ],
     [ "JKQTMathTextBraceType2String", "group__jkqtmathtext__tools.html#ga310b65ae67788f04c1b08ba3e0bd0a65", null ],
     [ "JKQTMathTextFontEncoding2String", "group__jkqtmathtext__tools.html#gacd7415f0496eb64330f80ad50c664f83", null ],
     [ "JKQTMathTextGetNonItalic", "group__jkqtmathtext__tools.html#ga2945436624a52b6b35b3eec07280efbd", null ],
@@ -125,6 +135,7 @@ var group__jkqtmathtext__tools =
     [ "JKQTMathTextMakeDArrow", "group__jkqtmathtext__tools.html#ga286e3e9afdcb54e615269d175a6c8fab", null ],
     [ "JKQTMathTextMakeHBracePath", "group__jkqtmathtext__tools.html#ga1de2fa773e11ef058b440aa18bb8c6a5", null ],
     [ "JKQTMathTextVerticalOrientation2String", "group__jkqtmathtext__tools.html#gac5746397bdbb400c3c6df27895a07cb4", null ],
+    [ "String2JKQTMathTextBlackboradDrawingMode", "group__jkqtmathtext__tools.html#ga14f42e4772246c0844db3a444b22cc9a", null ],
     [ "String2JKQTMathTextHorizontalAlignment", "group__jkqtmathtext__tools.html#ga61d1f8ce7158e256ca5e9a7f82cdba17", null ],
     [ "String2JKQTMathTextVerticalOrientation", "group__jkqtmathtext__tools.html#gaf089921f391a60fdb19169271871b4a2", null ],
     [ "TokenName2JKQTMathTextBraceType", "group__jkqtmathtext__tools.html#ga9b674cbd93b908ea43043682959e2789", null ],

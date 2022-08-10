@@ -213,6 +213,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a79d2b4038cd04a487cb9238d3a18ec78"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a79d2b4038cd04a487cb9238d3a18ec78">getFontBlackboard</a> () const</td></tr>
 <tr class="memdesc:a79d2b4038cd04a487cb9238d3a18ec78"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves the font to be used for text in the logical font MTEblackboard  <a href="class_j_k_q_t_math_text.html#a79d2b4038cd04a487cb9238d3a18ec78">More...</a><br /></td></tr>
 <tr class="separator:a79d2b4038cd04a487cb9238d3a18ec78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac6dbd1ffdbd85dbb094327ec08bdf5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtmathtext__tools.html#gaa56e33b15e6ec1c707e8f96c7b3eeef4">JKQTMathTextBlackboradDrawingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#aac6dbd1ffdbd85dbb094327ec08bdf5b">getFontBlackboradMode</a> () const</td></tr>
+<tr class="memdesc:aac6dbd1ffdbd85dbb094327ec08bdf5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">specifies how to draw blackboard font characters (i.e. <code>\mathbb{N}</code> )  <a href="class_j_k_q_t_math_text.html#aac6dbd1ffdbd85dbb094327ec08bdf5b">More...</a><br /></td></tr>
+<tr class="separator:aac6dbd1ffdbd85dbb094327ec08bdf5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb0fc7701eede5097f20f21c192cd287"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#adb0fc7701eede5097f20f21c192cd287">getFontCaligraphic</a> () const</td></tr>
 <tr class="memdesc:adb0fc7701eede5097f20f21c192cd287"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves the font to be used for text in the logical font MTEcaligraphic <br  />
   <a href="class_j_k_q_t_math_text.html#adb0fc7701eede5097f20f21c192cd287">More...</a><br /></td></tr>
@@ -387,11 +390,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a25ffa56294dabd127143c23076bddce3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a25ffa56294dabd127143c23076bddce3">hadErrors</a> () const</td></tr>
 <tr class="memdesc:a25ffa56294dabd127143c23076bddce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <code>true</code> when errors were registered in the system  <a href="class_j_k_q_t_math_text.html#a25ffa56294dabd127143c23076bddce3">More...</a><br /></td></tr>
 <tr class="separator:a25ffa56294dabd127143c23076bddce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af60ac08c5ac3e342e932ef0def6173c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#af60ac08c5ac3e342e932ef0def6173c4">isFontBlackboardSimulated</a> () const</td></tr>
-<tr class="memdesc:af60ac08c5ac3e342e932ef0def6173c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">if enabled, the blackboard-characters are simulated by using font outlines only </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#ad145420131f1c80c42f707536030ccdf" title="if enabled, the blackboard-characters are simulated by using font outlines only">setFontBlackboardSimulated()</a> <br  />
- </dd></dl>
- <a href="class_j_k_q_t_math_text.html#af60ac08c5ac3e342e932ef0def6173c4">More...</a><br /></td></tr>
-<tr class="separator:af60ac08c5ac3e342e932ef0def6173c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1ecf17531288f4bedd880754d00a1d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ad1ecf17531288f4bedd880754d00a1d2">isUsingUnparsed</a> () const</td></tr>
 <tr class="memdesc:ad1ecf17531288f4bedd880754d00a1d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, the unparsedNode is drawn  <a href="class_j_k_q_t_math_text.html#ad1ecf17531288f4bedd880754d00a1d2">More...</a><br /></td></tr>
 <tr class="separator:ad1ecf17531288f4bedd880754d00a1d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -432,10 +430,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae8c503adf27d4134311712a36783fc17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17">setFontBlackboard</a> (const QString &amp;fontName, <a class="el" href="group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201">JKQTMathTextFontEncoding</a> encoding=<a class="el" href="group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201a82f9a6f099935dab75262de880ae63fb">JKQTMathTextFontEncoding::MTFEStandard</a>)</td></tr>
 <tr class="memdesc:ae8c503adf27d4134311712a36783fc17"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the font <em>fontName</em> and it's encoding <em>encoding</em> to be used for text in the logical font MTEblackboard  <a href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17">More...</a><br /></td></tr>
 <tr class="separator:ae8c503adf27d4134311712a36783fc17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad145420131f1c80c42f707536030ccdf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ad145420131f1c80c42f707536030ccdf">setFontBlackboardSimulated</a> (bool doSimulate)</td></tr>
-<tr class="memdesc:ad145420131f1c80c42f707536030ccdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">if enabled, the blackboard-characters are simulated by using font outlines only <br  />
-  <a href="class_j_k_q_t_math_text.html#ad145420131f1c80c42f707536030ccdf">More...</a><br /></td></tr>
-<tr class="separator:ad145420131f1c80c42f707536030ccdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9b124c9bcebfc5a1ff14f9e2d8096b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#af9b124c9bcebfc5a1ff14f9e2d8096b4">setFontBlackboradMode</a> (<a class="el" href="group__jkqtmathtext__tools.html#gaa56e33b15e6ec1c707e8f96c7b3eeef4">JKQTMathTextBlackboradDrawingMode</a> mode)</td></tr>
+<tr class="memdesc:af9b124c9bcebfc5a1ff14f9e2d8096b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">specifies how to draw blackboard font characters (i.e. <code>\mathbb{N}</code> )  <a href="class_j_k_q_t_math_text.html#af9b124c9bcebfc5a1ff14f9e2d8096b4">More...</a><br /></td></tr>
+<tr class="separator:af9b124c9bcebfc5a1ff14f9e2d8096b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64460a318c1ef4028ff9e804c161473f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a64460a318c1ef4028ff9e804c161473f">setFontCaligraphic</a> (const QString &amp;fontName, <a class="el" href="group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201">JKQTMathTextFontEncoding</a> encoding=<a class="el" href="group__jkqtmathtext__tools.html#ggaf991d6cf6e7799d32f99ffcae9385201a82f9a6f099935dab75262de880ae63fb">JKQTMathTextFontEncoding::MTFEStandard</a>)</td></tr>
 <tr class="memdesc:a64460a318c1ef4028ff9e804c161473f"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the font <em>fontName</em> and it's encoding <em>encoding</em> to be used for text in the logical font MTEcaligraphic <br  />
   <a href="class_j_k_q_t_math_text.html#a64460a318c1ef4028ff9e804c161473f">More...</a><br /></td></tr>
@@ -674,9 +671,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a500e7adc51f2836e6bc5be8829b0ccb8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a500e7adc51f2836e6bc5be8829b0ccb8">bigmathoperator_font_factor</a></td></tr>
 <tr class="memdesc:a500e7adc51f2836e6bc5be8829b0ccb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">factor, used to increase the font size for big math operators, such as <code>\sum</code> , <code>\prod</code> , ...  <a href="class_j_k_q_t_math_text.html#a500e7adc51f2836e6bc5be8829b0ccb8">More...</a><br /></td></tr>
 <tr class="separator:a500e7adc51f2836e6bc5be8829b0ccb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abebfc9f1fbf64d5ea08ac3b930faca8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#abebfc9f1fbf64d5ea08ac3b930faca8d">blackboardSimulated</a></td></tr>
-<tr class="memdesc:abebfc9f1fbf64d5ea08ac3b930faca8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">if enabled, the blackboard-characters are simulated by using font outlines only  <a href="class_j_k_q_t_math_text.html#abebfc9f1fbf64d5ea08ac3b930faca8d">More...</a><br /></td></tr>
-<tr class="separator:abebfc9f1fbf64d5ea08ac3b930faca8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b8e7dcb5eb0a16a11ff998c2288ce1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtmathtext__tools.html#gaa56e33b15e6ec1c707e8f96c7b3eeef4">JKQTMathTextBlackboradDrawingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a8b8e7dcb5eb0a16a11ff998c2288ce1d">blackboradFontMode</a></td></tr>
+<tr class="memdesc:a8b8e7dcb5eb0a16a11ff998c2288ce1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">specifies how to draw blackboard font characters (i.e. <code>\mathbb{N}</code> )  <a href="class_j_k_q_t_math_text.html#a8b8e7dcb5eb0a16a11ff998c2288ce1d">More...</a><br /></td></tr>
+<tr class="separator:a8b8e7dcb5eb0a16a11ff998c2288ce1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a789296ebe6e466c87aae0bdd009f2743"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a789296ebe6e466c87aae0bdd009f2743">brace_factor</a></td></tr>
 <tr class="memdesc:a789296ebe6e466c87aae0bdd009f2743"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizing factor for braces in math mode  <a href="class_j_k_q_t_math_text.html#a789296ebe6e466c87aae0bdd009f2743">More...</a><br /></td></tr>
 <tr class="separator:a789296ebe6e466c87aae0bdd009f2743"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -861,7 +858,7 @@ Example Code</h2>
 <div class="line"> </div>
 <div class="line"><span class="comment">// draw the result into a QPixmap</span></div>
 <div class="line">QPixmap result=mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#ad79581429daab9714ab9ed4a1fd834d0">drawIntoPixmap</a>();</div>
-<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:199</div></div>
+<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:201</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a7e5a8ec55ff08d2dc3375e62407d2beb"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb">JKQTMathText::parse</a></div><div class="ttdeci">bool parse(const QString &amp;text, bool addSpaceBeforeAndAfter=false)</div><div class="ttdoc">parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_ad79581429daab9714ab9ed4a1fd834d0"><div class="ttname"><a href="class_j_k_q_t_math_text.html#ad79581429daab9714ab9ed4a1fd834d0">JKQTMathText::drawIntoPixmap</a></div><div class="ttdeci">QPixmap drawIntoPixmap(bool drawBoxes=false, QColor backgroundColor=QColor(Qt::white), int sizeincrease=0, qreal devicePixelRatio=1.0)</div><div class="ttdoc">render the last parse result into a QPixmap</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_af231fd040caed5040c227dd3748ff899"><div class="ttname"><a href="class_j_k_q_t_math_text.html#af231fd040caed5040c227dd3748ff899">JKQTMathText::setFontSize</a></div><div class="ttdeci">void setFontSize(double __value)</div><div class="ttdoc">set the default font size in points</div></div>
@@ -877,7 +874,7 @@ Example Code</h2>
 <div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19">draw</a>(painter, Qt::AlignCenter, QRectF(0,0,pix.width(), pix.height()), <span class="keyword">false</span>);</div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a280e7032f66c45b5f3b42664056bee19"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19">JKQTMathText::draw</a></div><div class="ttdeci">void draw(QPainter &amp;painter, QPointF x, bool drawBoxes=false)</div><div class="ttdoc">draw a representation to the object at the specified position x , y</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_ab1d748ce748a28204a283bf1b98cb75d"><div class="ttname"><a href="class_j_k_q_t_math_text.html#ab1d748ce748a28204a283bf1b98cb75d">JKQTMathText::getSizeDetail</a></div><div class="ttdeci">void getSizeDetail(QPainter &amp;painter, double &amp;width, double &amp;ascent, double &amp;descent, double &amp;strikeoutPos)</div><div class="ttdoc">return the detailes sizes of the text</div></div>
-<div class="ttc" id="astruct_j_k_q_t_math_text_node_size_html"><div class="ttname"><a href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a></div><div class="ttdoc">beschreibt die Größe(n) eines Knotens</div><div class="ttdef"><b>Definition:</b> jkqtmathtexttools.h:303</div></div>
+<div class="ttc" id="astruct_j_k_q_t_math_text_node_size_html"><div class="ttname"><a href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a></div><div class="ttdoc">beschreibt die Größe(n) eines Knotens</div><div class="ttdef"><b>Definition:</b> jkqtmathtexttools.h:332</div></div>
 </div><!-- fragment --><h1><a class="anchor" id="JKQTMathTextToHTML"></a>
 Convert to HTML</h1>
 <p >The method <a class="el" href="class_j_k_q_t_math_text.html#a4fd28699b36009ec0177f78c6b4545f7" title="convert LaTeX to HTML. returns ok=true on success and ok=false else.">toHtml()</a> may be used to get a HTML representation of the LaTeX string, if possible (only for simple LaTeX equations!). Whether the transformation was possible is returned as a call by value argument!</p>
@@ -951,6 +948,14 @@ using "Fira":<div class="image">
  <br  />
 using "MS Segoe UI":<div class="image">
 <img src="jkqtmathtext_mssegoeui.png" alt=""/>
+</div>
+ <br  />
+using "DejaVu Sans":<div class="image">
+<img src="jkqtmathtext_DejaVuSans.png" alt=""/>
+</div>
+ <br  />
+using "DejaVu Serif":<div class="image">
+<img src="jkqtmathtext_DejaVuSerif.png" alt=""/>
 </div>
 </li>
 </ul>
@@ -1737,8 +1742,51 @@ using "MS Segoe UI":<div class="image">
 </div><div class="memdoc">
 
 <p>retrieves the font to be used for text in the logical font MTEblackboard </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#ad145420131f1c80c42f707536030ccdf" title="if enabled, the blackboard-characters are simulated by using font outlines only">setFontBlackboardSimulated()</a> <br  />
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#a8b8e7dcb5eb0a16a11ff998c2288ce1d" title="specifies how to draw blackboard font characters (i.e. \mathbb{N} )">blackboradFontMode</a> <br  />
  </dd></dl>
+
+</div>
+</div>
+<a id="aac6dbd1ffdbd85dbb094327ec08bdf5b" name="aac6dbd1ffdbd85dbb094327ec08bdf5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac6dbd1ffdbd85dbb094327ec08bdf5b">&#9670;&nbsp;</a></span>getFontBlackboradMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jkqtmathtext__tools.html#gaa56e33b15e6ec1c707e8f96c7b3eeef4">JKQTMathTextBlackboradDrawingMode</a> JKQTMathText::getFontBlackboradMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>specifies how to draw blackboard font characters (i.e. <code>\mathbb{N}</code> ) </p>
+<p >Blackboard fonts are not widely available on target systems (viable fonts are e.g. <code>"Double Stroke", "CloisterOpenFace BT", "GoudyHandtooled BT", "Castellar", "MathJax_AMS", "Castellar Standard", "MathJax_AMS Standard", "Colonna MT"</code>). But the most important blackboard characters are usually available in the higher unicode codepoints of Fonts specialized for math (e.g. XIST, STIX, ASANA).</p>
+<p >Therefore <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> supports using these characters, or simulating a blackboard font in addition to using one of the fonts above. You can set that by setting <a class="el" href="class_j_k_q_t_math_text.html#af9b124c9bcebfc5a1ff14f9e2d8096b4" title="specifies how to draw blackboard font characters (i.e. \mathbb{N} )">JKQTMathText::setFontBlackboradMode()</a> with one of the options from JKQTMathTextBlackboradDrawingMode:</p><ul>
+<li>MTBBDMfontDirectly: use a blackboard font specified by <a class="el" href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17" title="set the font fontName and it&#39;s encoding encoding to be used for text in the logical font MTEblackboar...">JKQTMathText::setFontBlackboard()</a><div class="image">
+<img src="jkqtmathtext_bb_font_directly.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Castellar")</div></div>
+</li>
+<li>MTBBDMsimulate:<div class="image">
+<img src="jkqtmathtext_bb_simulate.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
+</li>
+<li>MTBBDMunicodeCharactersOrFontDirectly:<div class="image">
+<img src="jkqtmathtext_bb_unicode_or_font_directly.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Castellar")</div></div>
+</li>
+<li>MTBBDMunicodeCharactersOrSimulate:<div class="image">
+<img src="jkqtmathtext_bb_unicode_or_simulate.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
+</li>
+</ul>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17" title="set the font fontName and it&#39;s encoding encoding to be used for text in the logical font MTEblackboar...">setFontBlackboard()</a> setBlackboardFontMode() </dd></dl>
 
 </div>
 </div>
@@ -2937,37 +2985,6 @@ using "MS Segoe UI":<div class="image">
 
 </div>
 </div>
-<a id="af60ac08c5ac3e342e932ef0def6173c4" name="af60ac08c5ac3e342e932ef0def6173c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af60ac08c5ac3e342e932ef0def6173c4">&#9670;&nbsp;</a></span>isFontBlackboardSimulated()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool JKQTMathText::isFontBlackboardSimulated </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>if enabled, the blackboard-characters are simulated by using font outlines only </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#ad145420131f1c80c42f707536030ccdf" title="if enabled, the blackboard-characters are simulated by using font outlines only">setFontBlackboardSimulated()</a> <br  />
- </dd></dl>
-</p>
-<p >A possible choice for a blackboard font (Castellar) looks like this: </p><div class="image">
-<img src="jkqtmathtext_bb.png" alt=""/>
-</div>
-<p> If such a font is not available, you can set this property blackboardSimulated to <code>true</code> and chose a font, like e.g. Arial to output blackboard-letters as: </p><div class="image">
-<img src="jkqtmathtext_bb_sim.png" alt=""/>
-</div>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17" title="set the font fontName and it&#39;s encoding encoding to be used for text in the logical font MTEblackboar...">setFontBlackboard()</a> <a class="el" href="class_j_k_q_t_math_text.html#ad145420131f1c80c42f707536030ccdf" title="if enabled, the blackboard-characters are simulated by using font outlines only">setFontBlackboardSimulated()</a> </dd>
-<dd>
-<a class="el" href="class_j_k_q_t_math_text.html#ad145420131f1c80c42f707536030ccdf" title="if enabled, the blackboard-characters are simulated by using font outlines only">setFontBlackboardSimulated()</a> <br  />
- </dd></dl>
-
-</div>
-</div>
 <a id="ad1ecf17531288f4bedd880754d00a1d2" name="ad1ecf17531288f4bedd880754d00a1d2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad1ecf17531288f4bedd880754d00a1d2">&#9670;&nbsp;</a></span>isUsingUnparsed()</h2>
 
@@ -3546,36 +3563,51 @@ using "MS Segoe UI":<div class="image">
 </div><div class="memdoc">
 
 <p>set the font <em>fontName</em> and it's encoding <em>encoding</em> to be used for text in the logical font MTEblackboard </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#ad145420131f1c80c42f707536030ccdf" title="if enabled, the blackboard-characters are simulated by using font outlines only">setFontBlackboardSimulated()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>setFontBlackboardSimulated() </dd></dl>
 
 </div>
 </div>
-<a id="ad145420131f1c80c42f707536030ccdf" name="ad145420131f1c80c42f707536030ccdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad145420131f1c80c42f707536030ccdf">&#9670;&nbsp;</a></span>setFontBlackboardSimulated()</h2>
+<a id="af9b124c9bcebfc5a1ff14f9e2d8096b4" name="af9b124c9bcebfc5a1ff14f9e2d8096b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9b124c9bcebfc5a1ff14f9e2d8096b4">&#9670;&nbsp;</a></span>setFontBlackboradMode()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void JKQTMathText::setFontBlackboardSimulated </td>
+          <td class="memname">void JKQTMathText::setFontBlackboradMode </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>doSimulate</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="group__jkqtmathtext__tools.html#gaa56e33b15e6ec1c707e8f96c7b3eeef4">JKQTMathTextBlackboradDrawingMode</a>&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>if enabled, the blackboard-characters are simulated by using font outlines only <br  />
- </p>
-<p >A possible choice for a blackboard font (Castellar) looks like this: </p><div class="image">
-<img src="jkqtmathtext_bb.png" alt=""/>
-</div>
-<p> If such a font is not available, you can set this property blackboardSimulated to <code>true</code> and chose a font, like e.g. Arial to output blackboard-letters as: </p><div class="image">
-<img src="jkqtmathtext_bb_sim.png" alt=""/>
-</div>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17" title="set the font fontName and it&#39;s encoding encoding to be used for text in the logical font MTEblackboar...">setFontBlackboard()</a> <a class="el" href="class_j_k_q_t_math_text.html#ad145420131f1c80c42f707536030ccdf" title="if enabled, the blackboard-characters are simulated by using font outlines only">setFontBlackboardSimulated()</a> <br  />
- </dd></dl>
+<p>specifies how to draw blackboard font characters (i.e. <code>\mathbb{N}</code> ) </p>
+<p >Blackboard fonts are not widely available on target systems (viable fonts are e.g. <code>"Double Stroke", "CloisterOpenFace BT", "GoudyHandtooled BT", "Castellar", "MathJax_AMS", "Castellar Standard", "MathJax_AMS Standard", "Colonna MT"</code>). But the most important blackboard characters are usually available in the higher unicode codepoints of Fonts specialized for math (e.g. XIST, STIX, ASANA).</p>
+<p >Therefore <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> supports using these characters, or simulating a blackboard font in addition to using one of the fonts above. You can set that by setting <a class="el" href="class_j_k_q_t_math_text.html#af9b124c9bcebfc5a1ff14f9e2d8096b4" title="specifies how to draw blackboard font characters (i.e. \mathbb{N} )">JKQTMathText::setFontBlackboradMode()</a> with one of the options from JKQTMathTextBlackboradDrawingMode:</p><ul>
+<li>MTBBDMfontDirectly: use a blackboard font specified by <a class="el" href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17" title="set the font fontName and it&#39;s encoding encoding to be used for text in the logical font MTEblackboar...">JKQTMathText::setFontBlackboard()</a><div class="image">
+<img src="jkqtmathtext_bb_font_directly.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Castellar")</div></div>
+</li>
+<li>MTBBDMsimulate:<div class="image">
+<img src="jkqtmathtext_bb_simulate.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
+</li>
+<li>MTBBDMunicodeCharactersOrFontDirectly:<div class="image">
+<img src="jkqtmathtext_bb_unicode_or_font_directly.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Castellar")</div></div>
+</li>
+<li>MTBBDMunicodeCharactersOrSimulate:<div class="image">
+<img src="jkqtmathtext_bb_unicode_or_simulate.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
+</li>
+</ul>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17" title="set the font fontName and it&#39;s encoding encoding to be used for text in the logical font MTEblackboar...">setFontBlackboard()</a> setBlackboardFontMode() </dd></dl>
 
 </div>
 </div>
@@ -4835,8 +4867,8 @@ using "MS Segoe UI":<div class="image">
 
 </div>
 </div>
-<a id="abebfc9f1fbf64d5ea08ac3b930faca8d" name="abebfc9f1fbf64d5ea08ac3b930faca8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abebfc9f1fbf64d5ea08ac3b930faca8d">&#9670;&nbsp;</a></span>blackboardSimulated</h2>
+<a id="a8b8e7dcb5eb0a16a11ff998c2288ce1d" name="a8b8e7dcb5eb0a16a11ff998c2288ce1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b8e7dcb5eb0a16a11ff998c2288ce1d">&#9670;&nbsp;</a></span>blackboradFontMode</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4845,7 +4877,7 @@ using "MS Segoe UI":<div class="image">
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool JKQTMathText::blackboardSimulated</td>
+          <td class="memname"><a class="el" href="group__jkqtmathtext__tools.html#gaa56e33b15e6ec1c707e8f96c7b3eeef4">JKQTMathTextBlackboradDrawingMode</a> JKQTMathText::blackboradFontMode</td>
         </tr>
       </table>
   </td>
@@ -4855,14 +4887,31 @@ using "MS Segoe UI":<div class="image">
 </table>
 </div><div class="memdoc">
 
-<p>if enabled, the blackboard-characters are simulated by using font outlines only </p>
-<p >A possible choice for a blackboard font (Castellar) looks like this: </p><div class="image">
-<img src="jkqtmathtext_bb.png" alt=""/>
-</div>
-<p> If such a font is not available, you can set this property blackboardSimulated to <code>true</code> and chose a font, like e.g. Arial to output blackboard-letters as: </p><div class="image">
-<img src="jkqtmathtext_bb_sim.png" alt=""/>
-</div>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17" title="set the font fontName and it&#39;s encoding encoding to be used for text in the logical font MTEblackboar...">setFontBlackboard()</a> <a class="el" href="class_j_k_q_t_math_text.html#ad145420131f1c80c42f707536030ccdf" title="if enabled, the blackboard-characters are simulated by using font outlines only">setFontBlackboardSimulated()</a> </dd></dl>
+<p>specifies how to draw blackboard font characters (i.e. <code>\mathbb{N}</code> ) </p>
+<p >Blackboard fonts are not widely available on target systems (viable fonts are e.g. <code>"Double Stroke", "CloisterOpenFace BT", "GoudyHandtooled BT", "Castellar", "MathJax_AMS", "Castellar Standard", "MathJax_AMS Standard", "Colonna MT"</code>). But the most important blackboard characters are usually available in the higher unicode codepoints of Fonts specialized for math (e.g. XIST, STIX, ASANA).</p>
+<p >Therefore <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> supports using these characters, or simulating a blackboard font in addition to using one of the fonts above. You can set that by setting <a class="el" href="class_j_k_q_t_math_text.html#af9b124c9bcebfc5a1ff14f9e2d8096b4" title="specifies how to draw blackboard font characters (i.e. \mathbb{N} )">JKQTMathText::setFontBlackboradMode()</a> with one of the options from JKQTMathTextBlackboradDrawingMode:</p><ul>
+<li>MTBBDMfontDirectly: use a blackboard font specified by <a class="el" href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17" title="set the font fontName and it&#39;s encoding encoding to be used for text in the logical font MTEblackboar...">JKQTMathText::setFontBlackboard()</a><div class="image">
+<img src="jkqtmathtext_bb_font_directly.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Castellar")</div></div>
+</li>
+<li>MTBBDMsimulate:<div class="image">
+<img src="jkqtmathtext_bb_simulate.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
+</li>
+<li>MTBBDMunicodeCharactersOrFontDirectly:<div class="image">
+<img src="jkqtmathtext_bb_unicode_or_font_directly.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Castellar")</div></div>
+</li>
+<li>MTBBDMunicodeCharactersOrSimulate:<div class="image">
+<img src="jkqtmathtext_bb_unicode_or_simulate.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
+</li>
+</ul>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17" title="set the font fontName and it&#39;s encoding encoding to be used for text in the logical font MTEblackboar...">setFontBlackboard()</a> setBlackboardFontMode() </dd></dl>
 
 </div>
 </div>
@@ -6013,7 +6062,7 @@ using "MS Segoe UI":<div class="image">
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Mon Aug 8 2022 08:42:52 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Wed Aug 10 2022 12:45:07 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

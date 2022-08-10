@@ -49,7 +49,8 @@ var hierarchy =
         [ "JKQTMathTextDecoratedNode", "class_j_k_q_t_math_text_decorated_node.html", null ],
         [ "JKQTMathTextInstruction1Node", "class_j_k_q_t_math_text_instruction1_node.html", [
           [ "JKQTMathTextBoxInstructionNode", "class_j_k_q_t_math_text_box_instruction_node.html", null ],
-          [ "JKQTMathTextModifiedTextPropsInstructionNode", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html", null ]
+          [ "JKQTMathTextModifiedTextPropsInstructionNode", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html", null ],
+          [ "JKQTMathTextPhantomNode", "class_j_k_q_t_math_text_phantom_node.html", null ]
         ] ],
         [ "JKQTMathTextSubscriptNode", "class_j_k_q_t_math_text_subscript_node.html", null ],
         [ "JKQTMathTextSuperscriptNode", "class_j_k_q_t_math_text_superscript_node.html", null ]

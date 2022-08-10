@@ -163,10 +163,31 @@ Font Properties</h1>
 <li><code>\textbb{</code>...} <code>\mathbb{</code>...} : draw the contained text in blackboard font face<div class="image">
 <img src="jkqtmathtext_bb.png" alt=""/>
 </div>
- The class <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> also supports simulating blackboard fonts, if they are not available as an actual font on the system. Then the example would look like this:<div class="image">
-<img src="jkqtmathtext_bb_sim.png" alt=""/>
-</div>
+ Blackboard fonts are not widely available on target systems (viable fonts are e.g. <code>"Double Stroke", "CloisterOpenFace BT", "GoudyHandtooled BT", "Castellar", "MathJax_AMS", "Castellar Standard", "MathJax_AMS Standard", "Colonna MT"</code>). But the most important blackboard characters are usually available in the higher unicode codepoints of Fonts specialized for math (e.g. XIST, STIX, ASANA). Therefore <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> supports using these characters, or simulating a blackboard font in addition to using one of the fonts above. You can set that by setting <a class="el" href="class_j_k_q_t_math_text.html#af9b124c9bcebfc5a1ff14f9e2d8096b4" title="specifies how to draw blackboard font characters (i.e. \mathbb{N} )">JKQTMathText::setFontBlackboradMode()</a> with one of the options from JKQTMathTextBlackboradDrawingMode:<ul>
+<li>MTBBDMfontDirectly: use a blackboard font specified by <a class="el" href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17" title="set the font fontName and it&#39;s encoding encoding to be used for text in the logical font MTEblackboar...">JKQTMathText::setFontBlackboard()</a><div class="image">
+<img src="jkqtmathtext_bb_font_directly.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Castellar")</div></div>
 </li>
+<li>MTBBDMsimulate:<div class="image">
+<img src="jkqtmathtext_bb_simulate.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
+</li>
+<li>MTBBDMunicodeCharactersOrFontDirectly:<div class="image">
+<img src="jkqtmathtext_bb_unicode_or_font_directly.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Castellar")</div></div>
+</li>
+<li>MTBBDMunicodeCharactersOrSimulate:<div class="image">
+<img src="jkqtmathtext_bb_unicode_or_simulate.png" alt=""/>
+<div class="caption">
+using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
 <li><code>\script{</code>...} <code>\textscript{</code>...} <code>\mathscript{</code>...} : draw the contained text in a script font face<div class="image">
 <img src="jkqtmathtext_fonts.png" alt=""/>
 </div>
@@ -228,6 +249,10 @@ Boxes</h1>
 <img src="jkqtmathtext_boxed.png" alt=""/>
 </div>
 </li>
+<li><code>\snugbox{</code>...} : draw text with a snug box around it<div class="image">
+<img src="jkqtmathtext_snugbox.png" alt=""/>
+</div>
+</li>
 <li><code>\doublebox{</code>...} : draw text with a rounded box around it<div class="image">
 <img src="jkqtmathtext_doublebox.png" alt=""/>
 </div>
@@ -258,6 +283,10 @@ Boxes</h1>
 </li>
 <li><code>\shaded{backgroundcolor}{</code>...} : draw a filled box<div class="image">
 <img src="jkqtmathtext_shaded.png" alt=""/>
+</div>
+</li>
+<li><code>\snugshade{</code>...} : draw text with a snug shade around it<div class="image">
+<img src="jkqtmathtext_snugshade.png" alt=""/>
 </div>
 </li>
 <li><code>\fcolorbox{bordercolor}{backgroundcolor}{</code>...} : draw a colored, filled box<div class="image">
@@ -398,6 +427,21 @@ Explicit Whitespaces</h1>
 <tr>
 <td>"&lt;code&gt;\\negthickspace&lt;/code&gt;" </td><td>negative thick whitespace </td><td><div class="image">
 <img src="jkqtmathtext_whitespace_negthickspace.png" alt=""/>
+</div>
+ </td></tr>
+<tr>
+<td>"&lt;code&gt;\\phantom{XXX}&lt;/code&gt;" </td><td>whitespace with the width and height of <code>XXX</code> (may contain LaTeX instructions) </td><td><div class="image">
+<img src="jkqtmathtext_whitespace_phantom.png" alt=""/>
+</div>
+ </td></tr>
+<tr>
+<td>"&lt;code&gt;\\vphantom{XXX}&lt;/code&gt;" </td><td>whitespace with the height of <code>XXX</code> (may contain LaTeX instructions) and width 0 </td><td><div class="image">
+<img src="jkqtmathtext_whitespace_vphantom.png" alt=""/>
+</div>
+ </td></tr>
+<tr>
+<td>"&lt;code&gt;\\hphantom{XXX}&lt;/code&gt;" </td><td>whitespace with the width of <code>XXX</code> (may contain LaTeX instructions) and height 0 </td><td><div class="image">
+<img src="jkqtmathtext_whitespace_hphantom.png" alt=""/>
 </div>
  </td></tr>
 </table>
@@ -635,7 +679,7 @@ Matrix/Array Type Instructions</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Aug 8 2022 08:42:52 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Wed Aug 10 2022 12:45:07 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

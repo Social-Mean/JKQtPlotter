@@ -114,8 +114,10 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_math_text_text_node.html
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="class_j_k_q_t_math_text_text_node-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">JKQTMathTextTextNode Class Reference<div class="ingroups"><a class="el" href="group__jkqtmathtext.html">JKQTMathText LaTeX-Renderer for Qt</a> &raquo; <a class="el" href="group__jkqtmathtext__interaltools.html">Library-internal Types and Functions</a> &raquo; <a class="el" href="group__jkqtmathtext__items.html">Render-Tree Items for JKQTMathText</a></div></div></div>
 </div><!--header-->
@@ -210,27 +212,40 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2ba14f4c0070bd6e4fbc92b35c15df09 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert node to HTML and returns <code>true</code> on success  <a href="class_j_k_q_t_math_text_node.html#a2ba14f4c0070bd6e4fbc92b35c15df09">More...</a><br /></td></tr>
 <tr class="separator:a2ba14f4c0070bd6e4fbc92b35c15df09 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
+Protected Types</h2></td></tr>
+<tr class="memitem:a3779d7d0bbf01d30898fe135f5536fbe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#a3779d7d0bbf01d30898fe135f5536fbe">FontMode</a> { <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_text_node.html#a3779d7d0bbf01d30898fe135f5536fbea1a72c23ea7aac647708fda9d20350e5b">FMasDefined</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_text_node.html#a3779d7d0bbf01d30898fe135f5536fbead8991bfe4f9627a2310ebfe75f79103e">FMasDefinedForceUpright</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_text_node.html#a3779d7d0bbf01d30898fe135f5536fbea51457a4c5ded7b79ce7e63e15bc214b0">FMasDefinedOutline</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_text_node.html#a3779d7d0bbf01d30898fe135f5536fbea63f552344fdb6957e4a3eadf41127816">FMroman</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_text_node.html#a3779d7d0bbf01d30898fe135f5536fbea22be69337f336605cfdb849fbaf81a79">FMfallbackSymbol</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a3779d7d0bbf01d30898fe135f5536fbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines how a character shold be drawn, used by splitTextForLayout  <a href="class_j_k_q_t_math_text_text_node.html#a3779d7d0bbf01d30898fe135f5536fbe">More...</a><br /></td></tr>
+<tr class="separator:a3779d7d0bbf01d30898fe135f5536fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a7fa080a6773944e064df2cc3ceebd78a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#a7fa080a6773944e064df2cc3ceebd78a">getSizeInternal</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double &amp;width, double &amp;baselineHeight, double &amp;overallHeight, double &amp;strikeoutPos, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr) override</td></tr>
 <tr class="memdesc:a7fa080a6773944e064df2cc3ceebd78a"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, overwrite this function in derived classes  <a href="class_j_k_q_t_math_text_text_node.html#a7fa080a6773944e064df2cc3ceebd78a">More...</a><br /></td></tr>
 <tr class="separator:a7fa080a6773944e064df2cc3ceebd78a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6eb05fa5a82b41367d74732700abd966"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#a6eb05fa5a82b41367d74732700abd966">getSizeInternalAndData</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double &amp;width, double &amp;baselineHeight, double &amp;overallHeight, double &amp;strikeoutPos, QStringList &amp;textpart, QList&lt; bool &gt; &amp;fontForcedUpright, QList&lt; double &gt; &amp;textpartXPos)</td></tr>
-<tr class="memdesc:a6eb05fa5a82b41367d74732700abd966"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the size of the node, much like <a class="el" href="class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd" title="determine the size of the node, overwrite this function in derived classes">JKQTMathTextNode::getSizeInternal()</a>, but returns additional properties that can be reused for drawing  <a href="class_j_k_q_t_math_text_text_node.html#a6eb05fa5a82b41367d74732700abd966">More...</a><br /></td></tr>
-<tr class="separator:a6eb05fa5a82b41367d74732700abd966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f8804e607660e7eca02dccc77ee0ff1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#a2f8804e607660e7eca02dccc77ee0ff1">getSizeInternalAndData</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double &amp;width, double &amp;baselineHeight, double &amp;overallHeight, double &amp;strikeoutPos, QStringList &amp;textpart, QList&lt; <a class="el" href="class_j_k_q_t_math_text_text_node.html#a3779d7d0bbf01d30898fe135f5536fbe">FontMode</a> &gt; &amp;fontMode, QList&lt; double &gt; &amp;textpartXPos)</td></tr>
+<tr class="memdesc:a2f8804e607660e7eca02dccc77ee0ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the size of the node, much like <a class="el" href="class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd" title="determine the size of the node, overwrite this function in derived classes">JKQTMathTextNode::getSizeInternal()</a>, but returns additional properties that can be reused for drawing  <a href="class_j_k_q_t_math_text_text_node.html#a2f8804e607660e7eca02dccc77ee0ff1">More...</a><br /></td></tr>
+<tr class="separator:a2f8804e607660e7eca02dccc77ee0ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20628880fb468a147551808f3124705c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#a20628880fb468a147551808f3124705c">splitTextForLayout</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, const QString &amp;txt, QStringList &amp;textpart, QList&lt; <a class="el" href="class_j_k_q_t_math_text_text_node.html#a3779d7d0bbf01d30898fe135f5536fbe">FontMode</a> &gt; &amp;fontMode) const</td></tr>
+<tr class="memdesc:a20628880fb468a147551808f3124705c"><td class="mdescLeft">&#160;</td><td class="mdescRight">split text for Math-Modelayout into sections, where each section has a defined way of output  <a href="class_j_k_q_t_math_text_text_node.html#a20628880fb468a147551808f3124705c">More...</a><br /></td></tr>
+<tr class="separator:a20628880fb468a147551808f3124705c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e7ff485be51b4f7385de9f54af89a5e"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#a4e7ff485be51b4f7385de9f54af89a5e">textTransform</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_text_base_node.html#a4fd573fc75c6d6a8fdedb597b6415d59">text</a>, const <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> &amp;currentEv) const override</td></tr>
 <tr class="memdesc:a4e7ff485be51b4f7385de9f54af89a5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">transforms the <em>text</em> before sizing/drawing (may e.g. exchange special letters for other unicode symbols etc.)  <a href="class_j_k_q_t_math_text_text_node.html#a4e7ff485be51b4f7385de9f54af89a5e">More...</a><br /></td></tr>
 <tr class="separator:a4e7ff485be51b4f7385de9f54af89a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_class_j_k_q_t_math_text_text_base_node"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_math_text_text_base_node')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_math_text_text_base_node.html">JKQTMathTextTextBaseNode</a></td></tr>
-<tr class="memitem:acd36d1383543c43603abd5ddec796976 inherit pro_methods_class_j_k_q_t_math_text_text_base_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_base_node.html#acd36d1383543c43603abd5ddec796976">drawString</a> (QPainter &amp;painter, const <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> &amp;currentEv, const QFont &amp;f, double x, double y, const QString &amp;txt) const</td></tr>
-<tr class="memdesc:acd36d1383543c43603abd5ddec796976 inherit pro_methods_class_j_k_q_t_math_text_text_base_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw a given <em>txt</em> in the font <em>f</em> using additional informaion (but not currentEv::getFont() ) from <em>currentEv</em> at (<em>x</em> , <em>y</em> ) using the given <em>painter</em>  <a href="class_j_k_q_t_math_text_text_base_node.html#acd36d1383543c43603abd5ddec796976">More...</a><br /></td></tr>
-<tr class="separator:acd36d1383543c43603abd5ddec796976 inherit pro_methods_class_j_k_q_t_math_text_text_base_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10ddb46fe85a42c3818e0718e4d472a0 inherit pro_methods_class_j_k_q_t_math_text_text_base_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_base_node.html#a10ddb46fe85a42c3818e0718e4d472a0">drawString</a> (QPainter &amp;painter, const <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> &amp;currentEv, double x, double y, const QString &amp;txt) const</td></tr>
-<tr class="memdesc:a10ddb46fe85a42c3818e0718e4d472a0 inherit pro_methods_class_j_k_q_t_math_text_text_base_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw a given <em>txt</em> in the font defined by <em>currentEv</em> at (<em>x</em> , <em>y</em> ) using the given <em>painter</em>  <a href="class_j_k_q_t_math_text_text_base_node.html#a10ddb46fe85a42c3818e0718e4d472a0">More...</a><br /></td></tr>
-<tr class="separator:a10ddb46fe85a42c3818e0718e4d472a0 inherit pro_methods_class_j_k_q_t_math_text_text_base_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30ef1e6decd6af4d55c8b061d5e4857a inherit pro_methods_class_j_k_q_t_math_text_text_base_node"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_base_node.html#a30ef1e6decd6af4d55c8b061d5e4857a">textTransform</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_text_base_node.html#a4fd573fc75c6d6a8fdedb597b6415d59">text</a>, const <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> &amp;currentEv) const</td></tr>
-<tr class="memdesc:a30ef1e6decd6af4d55c8b061d5e4857a inherit pro_methods_class_j_k_q_t_math_text_text_base_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">transforms the <em>text</em> before sizing/drawing (may e.g. exchange special letters for other unicode symbols etc.)  <a href="class_j_k_q_t_math_text_text_base_node.html#a30ef1e6decd6af4d55c8b061d5e4857a">More...</a><br /></td></tr>
-<tr class="separator:a30ef1e6decd6af4d55c8b061d5e4857a inherit pro_methods_class_j_k_q_t_math_text_text_base_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30ef1e6decd6af4d55c8b061d5e4857a"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_base_node.html#a30ef1e6decd6af4d55c8b061d5e4857a">textTransform</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_text_base_node.html#a4fd573fc75c6d6a8fdedb597b6415d59">text</a>, const <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> &amp;currentEv) const</td></tr>
+<tr class="memdesc:a30ef1e6decd6af4d55c8b061d5e4857a"><td class="mdescLeft">&#160;</td><td class="mdescRight">transforms the <em>text</em> before sizing/drawing (may e.g. exchange special letters for other unicode symbols etc.)  <a href="class_j_k_q_t_math_text_text_base_node.html#a30ef1e6decd6af4d55c8b061d5e4857a">More...</a><br /></td></tr>
+<tr class="separator:a30ef1e6decd6af4d55c8b061d5e4857a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_j_k_q_t_math_text_node"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_math_text_node')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a></td></tr>
 <tr class="memitem:a27ac245b5023f7b83aba129ddfc391f0 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a27ac245b5023f7b83aba129ddfc391f0">doDrawBoxes</a> (QPainter &amp;painter, double x, double y, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv)</td></tr>
 <tr class="memdesc:a27ac245b5023f7b83aba129ddfc391f0 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws colored boxes (for DEBUGGING) around the actual output of the node  <a href="class_j_k_q_t_math_text_node.html#a27ac245b5023f7b83aba129ddfc391f0">More...</a><br /></td></tr>
@@ -249,9 +264,15 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:a237f21acaf7ba3648d66089ddd416821"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#a237f21acaf7ba3648d66089ddd416821">splitTextForMathMode</a> (const QString &amp;txt, QStringList &amp;textpart, QList&lt; bool &gt; &amp;fontForcedUpright)</td></tr>
-<tr class="memdesc:a237f21acaf7ba3648d66089ddd416821"><td class="mdescLeft">&#160;</td><td class="mdescRight">split text for Math-Mode into section with "normal" text and "forced upright" text  <a href="class_j_k_q_t_math_text_text_node.html#a237f21acaf7ba3648d66089ddd416821">More...</a><br /></td></tr>
-<tr class="separator:a237f21acaf7ba3648d66089ddd416821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae6924c6d1767816db2beb4ebf7cdb00"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#aae6924c6d1767816db2beb4ebf7cdb00">fillStaticTables</a> ()</td></tr>
+<tr class="memdesc:aae6924c6d1767816db2beb4ebf7cdb00"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill static data  <a href="class_j_k_q_t_math_text_text_node.html#aae6924c6d1767816db2beb4ebf7cdb00">More...</a><br /></td></tr>
+<tr class="separator:aae6924c6d1767816db2beb4ebf7cdb00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:afabc53b79778030a3b6bbc83ecb08934"><td class="memItemLeft" align="right" valign="top">static QHash&lt; QChar, uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_text_node.html#afabc53b79778030a3b6bbc83ecb08934">blackboardUnicodeTable</a></td></tr>
+<tr class="memdesc:afabc53b79778030a3b6bbc83ecb08934"><td class="mdescLeft">&#160;</td><td class="mdescRight">translation table for blackboard-font characters from "normal" Latin-1 encoding to unicode-encoding of blackboards  <a href="class_j_k_q_t_math_text_text_node.html#afabc53b79778030a3b6bbc83ecb08934">More...</a><br /></td></tr>
+<tr class="separator:afabc53b79778030a3b6bbc83ecb08934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -275,7 +296,39 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >subclass representing one text node in the syntax tree </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a3779d7d0bbf01d30898fe135f5536fbe" name="a3779d7d0bbf01d30898fe135f5536fbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3779d7d0bbf01d30898fe135f5536fbe">&#9670;&nbsp;</a></span>FontMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_j_k_q_t_math_text_text_node.html#a3779d7d0bbf01d30898fe135f5536fbe">JKQTMathTextTextNode::FontMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>defines how a character shold be drawn, used by splitTextForLayout </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3779d7d0bbf01d30898fe135f5536fbea1a72c23ea7aac647708fda9d20350e5b" name="a3779d7d0bbf01d30898fe135f5536fbea1a72c23ea7aac647708fda9d20350e5b"></a>FMasDefined&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3779d7d0bbf01d30898fe135f5536fbead8991bfe4f9627a2310ebfe75f79103e" name="a3779d7d0bbf01d30898fe135f5536fbead8991bfe4f9627a2310ebfe75f79103e"></a>FMasDefinedForceUpright&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3779d7d0bbf01d30898fe135f5536fbea51457a4c5ded7b79ce7e63e15bc214b0" name="a3779d7d0bbf01d30898fe135f5536fbea51457a4c5ded7b79ce7e63e15bc214b0"></a>FMasDefinedOutline&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3779d7d0bbf01d30898fe135f5536fbea63f552344fdb6957e4a3eadf41127816" name="a3779d7d0bbf01d30898fe135f5536fbea63f552344fdb6957e4a3eadf41127816"></a>FMroman&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3779d7d0bbf01d30898fe135f5536fbea22be69337f336605cfdb849fbaf81a79" name="a3779d7d0bbf01d30898fe135f5536fbea22be69337f336605cfdb849fbaf81a79"></a>FMfallbackSymbol&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a57337e14bc4ffcb9d19454a8199c713a" name="a57337e14bc4ffcb9d19454a8199c713a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57337e14bc4ffcb9d19454a8199c713a">&#9670;&nbsp;</a></span>JKQTMathTextTextNode()</h2>
 
@@ -419,6 +472,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aae6924c6d1767816db2beb4ebf7cdb00" name="aae6924c6d1767816db2beb4ebf7cdb00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae6924c6d1767816db2beb4ebf7cdb00">&#9670;&nbsp;</a></span>fillStaticTables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void JKQTMathTextTextNode::fillStaticTables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>fill static data </p>
+
+</div>
+</div>
 <a id="a7fa080a6773944e064df2cc3ceebd78a" name="a7fa080a6773944e064df2cc3ceebd78a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7fa080a6773944e064df2cc3ceebd78a">&#9670;&nbsp;</a></span>getSizeInternal()</h2>
 
@@ -501,8 +581,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a6eb05fa5a82b41367d74732700abd966" name="a6eb05fa5a82b41367d74732700abd966"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6eb05fa5a82b41367d74732700abd966">&#9670;&nbsp;</a></span>getSizeInternalAndData()</h2>
+<a id="a2f8804e607660e7eca02dccc77ee0ff1" name="a2f8804e607660e7eca02dccc77ee0ff1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f8804e607660e7eca02dccc77ee0ff1">&#9670;&nbsp;</a></span>getSizeInternalAndData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -555,8 +635,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QList&lt; bool &gt; &amp;&#160;</td>
-          <td class="paramname"><em>fontForcedUpright</em>, </td>
+          <td class="paramtype">QList&lt; <a class="el" href="class_j_k_q_t_math_text_text_node.html#a3779d7d0bbf01d30898fe135f5536fbe">FontMode</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fontMode</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -610,8 +690,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a237f21acaf7ba3648d66089ddd416821" name="a237f21acaf7ba3648d66089ddd416821"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a237f21acaf7ba3648d66089ddd416821">&#9670;&nbsp;</a></span>splitTextForMathMode()</h2>
+<a id="a20628880fb468a147551808f3124705c" name="a20628880fb468a147551808f3124705c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20628880fb468a147551808f3124705c">&#9670;&nbsp;</a></span>splitTextForLayout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -620,8 +700,20 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void JKQTMathTextTextNode::splitTextForMathMode </td>
+          <td class="memname">void JKQTMathTextTextNode::splitTextForLayout </td>
           <td>(</td>
+          <td class="paramtype">QPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a>&#160;</td>
+          <td class="paramname"><em>currentEv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const QString &amp;&#160;</td>
           <td class="paramname"><em>txt</em>, </td>
         </tr>
@@ -634,23 +726,33 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QList&lt; bool &gt; &amp;&#160;</td>
-          <td class="paramname"><em>fontForcedUpright</em>&#160;</td>
+          <td class="paramtype">QList&lt; <a class="el" href="class_j_k_q_t_math_text_text_node.html#a3779d7d0bbf01d30898fe135f5536fbe">FontMode</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fontMode</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>split text for Math-Mode into section with "normal" text and "forced upright" text </p>
+<p>split text for Math-Modelayout into sections, where each section has a defined way of output </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">painter</td><td>the QPainter to use for sizing/drawing </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">currentEv</td><td>the environment that defines the formatting of the text </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">txt</td><td>the text to split up </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">textpart</td><td>the input \A txt split up into sections </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">fontMode</td><td>formating of each section in <em>textpart</em> </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -694,6 +796,31 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="afabc53b79778030a3b6bbc83ecb08934" name="afabc53b79778030a3b6bbc83ecb08934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afabc53b79778030a3b6bbc83ecb08934">&#9670;&nbsp;</a></span>blackboardUnicodeTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QChar, uint32_t&gt; JKQTMathTextTextNode::blackboardUnicodeTable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>translation table for blackboard-font characters from "normal" Latin-1 encoding to unicode-encoding of blackboards </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="jkqtmathtexttextnode_8h_source.html">jkqtmathtexttextnode.h</a></li>
 </ul>
@@ -703,7 +830,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_text_node.html">JKQTMathTextTextNode</a></li>
-    <li class="footer">Generated on Mon Aug 8 2022 08:42:53 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Wed Aug 10 2022 12:45:07 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>
