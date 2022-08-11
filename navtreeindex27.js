@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"group__jkqtptools__math__statistics__basic.html#gafc723ba91ee70e37765f209b453ab51c":[10,1,5,4,26],
 "group__jkqtptools__math__statistics__grouped.html":[10,1,5,5],
 "group__jkqtptools__math__statistics__grouped.html#ga0c29d3bfa60e2ef5c71b9e8f2b6311b2":[10,1,5,5,1],
 "group__jkqtptools__math__statistics__grouped.html#ga476886dd312e548933a283190cebb978":[10,1,5,5,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "struct_j_k_q_t_math_text_node_size.html#aaa7f54157287a94f3b6ae58aaf9fea7b":[10,3,1,2,3,0],
 "struct_j_k_q_t_math_text_node_size.html#aae466e56e2dc81e2850c4306c6058766":[10,3,1,2,3,5],
 "struct_j_k_q_t_math_text_node_size.html#ab341d0e3832ba7d6b9e133ffefe8f090":[10,3,1,2,3,6],
-"struct_j_k_q_t_math_text_node_size.html#aca206bdc5f3dd30b5ec2e797ae317a3b":[10,3,1,2,3,7],
-"struct_j_k_q_t_math_text_node_size.html#ad11f5452e869c7db8feb6cdf15683e79":[10,3,1,2,3,4]
+"struct_j_k_q_t_math_text_node_size.html#aca206bdc5f3dd30b5ec2e797ae317a3b":[10,3,1,2,3,7]
 };

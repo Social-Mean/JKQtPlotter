@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"class_j_k_q_t_p_geo_infinite_line.html#a92dc0dac91104345d7181fb2f3114b8c":[10,4,2,1,4,8,2],
 "class_j_k_q_t_p_geo_infinite_line.html#ab827a42c86c48d4e3b906007f28fd8b5":[10,4,2,1,4,8,16],
 "class_j_k_q_t_p_geo_infinite_line.html#acdf0001ef1bb39ce4da162a7292016e6":[10,4,2,1,4,8,6],
 "class_j_k_q_t_p_geo_infinite_line.html#ad19e01cea6cd451b98041983f5c92859":[10,4,2,1,4,8,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "class_j_k_q_t_p_graph_boxplot_style_mixin.html#a8386c147c908034616fa222f9ad8bc7b":[10,4,2,1,1,1,0,59],
 "class_j_k_q_t_p_graph_boxplot_style_mixin.html#a877a0ae01811e5cde1a17376b62eb552":[10,4,2,1,1,1,0,9],
 "class_j_k_q_t_p_graph_boxplot_style_mixin.html#a91774015302ed6bb726b29e94dfc8474":[10,4,2,1,1,1,0,100],
-"class_j_k_q_t_p_graph_boxplot_style_mixin.html#a91d7d96658bae4a650e2348ddac1b52c":[10,4,2,1,1,1,0,46],
-"class_j_k_q_t_p_graph_boxplot_style_mixin.html#a942c8014f12e558ee519497a5491ac31":[10,4,2,1,1,1,0,0]
+"class_j_k_q_t_p_graph_boxplot_style_mixin.html#a91d7d96658bae4a650e2348ddac1b52c":[10,4,2,1,1,1,0,46]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#a0846aa412860f99815e49889dd4149c4":[10,4,3,3,5],
 "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#ac030ede096bfc4dae73d558f3aa24a01":[10,4,3,3,6],
 "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#ad2ae3cd05a3f3bf9c5a7f84677bebb90":[10,4,3,3,3],
 "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#ad8d4e73ce2bbe465d3a262dfe938ec0f":[10,4,3,3,7],

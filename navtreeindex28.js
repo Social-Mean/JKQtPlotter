@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"struct_j_k_q_t_math_text_node_size.html#ad11f5452e869c7db8feb6cdf15683e79":[10,3,1,2,3,4],
 "struct_j_k_q_t_math_text_simple_instruction_node_1_1_instruction_properties.html":[10,3,1,1,0],
 "struct_j_k_q_t_math_text_simple_instruction_node_1_1_instruction_properties.html#a269c39c814b6ec62d140e732eddeb93e":[10,3,1,1,0,0],
 "struct_j_k_q_t_math_text_simple_instruction_node_1_1_instruction_properties.html#a314f0c84a5127a86c27ecb275084bb98":[10,3,1,1,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#adb2121af0bceda0abbab68d6b5f04911":[10,4,2,1,6,2,2,0],
 "struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#af24f3414bcd5a87c676e36924d59e3e0":[10,4,2,1,6,2,2,2],
 "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html":[10,4,3,3],
-"struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#a01f5e1b7ca04cd58e5b17de31fd65c29":[10,4,3,3,0],
-"struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#a0846aa412860f99815e49889dd4149c4":[10,4,3,3,5]
+"struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#a01f5e1b7ca04cd58e5b17de31fd65c29":[10,4,3,3,0]
 };

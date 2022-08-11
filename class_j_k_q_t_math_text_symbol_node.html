@@ -320,8 +320,11 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:a38169d9a476c473b52f53173aa269f0a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a38169d9a476c473b52f53173aa269f0a">addGreekLetterVariants_WinSymbol_Unicode_Html</a> (const QString &amp;baseInstructionName, const QString &amp;letterWinSymbol, const QString &amp;letterUnicode, const QString &amp;html)</td></tr>
-<tr class="memdesc:a38169d9a476c473b52f53173aa269f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">insert <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#ab61137423e5d250d1cb2db87079ad029" title="constructs a SymbolProps for a greek letter with the symbol in unicode-encoding letterUnicode and in ...">GreekLetter_WinSymbol_Unicode_Html()</a> as <em>baseInstructionName</em> and UprightGreekLetter_WinSymbol_Unicode_Html and "up"+<em>letterWinSymbol</em> into symbols  <a href="class_j_k_q_t_math_text_symbol_node.html#a38169d9a476c473b52f53173aa269f0a">More...</a><br /></td></tr>
+<tr class="memdesc:a38169d9a476c473b52f53173aa269f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">insert GreekLetter_WinSymbol_Unicode_Html() as <em>baseInstructionName</em> and UprightGreekLetter_WinSymbol_Unicode_Html and "up"+<em>letterWinSymbol</em> into symbols  <a href="class_j_k_q_t_math_text_symbol_node.html#a38169d9a476c473b52f53173aa269f0a">More...</a><br /></td></tr>
 <tr class="separator:a38169d9a476c473b52f53173aa269f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0858994b1a39b8188b48f490baa03cfa"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a0858994b1a39b8188b48f490baa03cfa">AsOutsiudeGreekLetter_WinSymbol_Unicode_Html</a> (const QString &amp;letterWinSymbol, const QString &amp;letterUnicode, const QString &amp;html)</td></tr>
+<tr class="memdesc:a0858994b1a39b8188b48f490baa03cfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a greek letter with the format from outside with the symbol in unicode-encoding <em>letterUnicode</em> and in WinSymbol-encoding letterWinWsymbol  <a href="class_j_k_q_t_math_text_symbol_node.html#a0858994b1a39b8188b48f490baa03cfa">More...</a><br /></td></tr>
+<tr class="separator:a0858994b1a39b8188b48f490baa03cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a797cc94bccd660ebf31fbd467ee81e9b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a797cc94bccd660ebf31fbd467ee81e9b">drawText</a> (QPainter &amp;p, const QString &amp;text, <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8">GlobalSymbolFlags</a> globalFlags, <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03c">SymbolFlags</a> symflags)</td></tr>
 <tr class="memdesc:a797cc94bccd660ebf31fbd467ee81e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw <em>text</em> at (0,0) using QPainter <em>p</em> and taking the flags from <em>globalFlags</em> into account  <a href="class_j_k_q_t_math_text_symbol_node.html#a797cc94bccd660ebf31fbd467ee81e9b">More...</a><br /></td></tr>
 <tr class="separator:a797cc94bccd660ebf31fbd467ee81e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -334,9 +337,9 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:aaf6516d51256f862b7ef21df62708f6d"><td class="memItemLeft" align="right" valign="top">static QRectF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#aaf6516d51256f862b7ef21df62708f6d">getTightBoundingRect</a> (const QFontMetricsF &amp;fm, const QString &amp;text, <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8">GlobalSymbolFlags</a> globalFlags)</td></tr>
 <tr class="memdesc:aaf6516d51256f862b7ef21df62708f6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the tight bounding rect of <em>text</em> using <em>fm</em> and taking the flags from <em>globalFlags</em> into account  <a href="class_j_k_q_t_math_text_symbol_node.html#aaf6516d51256f862b7ef21df62708f6d">More...</a><br /></td></tr>
 <tr class="separator:aaf6516d51256f862b7ef21df62708f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab61137423e5d250d1cb2db87079ad029"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#ab61137423e5d250d1cb2db87079ad029">GreekLetter_WinSymbol_Unicode_Html</a> (const QString &amp;letterWinSymbol, const QString &amp;letterUnicode, const QString &amp;html)</td></tr>
-<tr class="memdesc:ab61137423e5d250d1cb2db87079ad029"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a greek letter with the symbol in unicode-encoding <em>letterUnicode</em> and in WinSymbol-encoding letterWinWsymbol  <a href="class_j_k_q_t_math_text_symbol_node.html#ab61137423e5d250d1cb2db87079ad029">More...</a><br /></td></tr>
-<tr class="separator:ab61137423e5d250d1cb2db87079ad029"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1c296003a384e0e27582e7d9aacf5f8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#aa1c296003a384e0e27582e7d9aacf5f8">MathGreekLetter_WinSymbol_Unicode_Html</a> (const QString &amp;letterWinSymbol, const QString &amp;letterUnicode, const QString &amp;html)</td></tr>
+<tr class="memdesc:aa1c296003a384e0e27582e7d9aacf5f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for an italic greek letter with the symbol in unicode-encoding <em>letterUnicode</em> and in WinSymbol-encoding letterWinWsymbol  <a href="class_j_k_q_t_math_text_symbol_node.html#aa1c296003a384e0e27582e7d9aacf5f8">More...</a><br /></td></tr>
+<tr class="separator:aa1c296003a384e0e27582e7d9aacf5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f2d7e5b769067847defdc43834f4fae"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a3f2d7e5b769067847defdc43834f4fae">MathOperatorSymbol</a> (const QString &amp;op)</td></tr>
 <tr class="memdesc:a3f2d7e5b769067847defdc43834f4fae"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a math-operator like <code>\sin</code> ..., i.e. ItalicOff, BoldOff, ExtendWidthInMathmode  <a href="class_j_k_q_t_math_text_symbol_node.html#a3f2d7e5b769067847defdc43834f4fae">More...</a><br /></td></tr>
 <tr class="separator:a3f2d7e5b769067847defdc43834f4fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -672,7 +675,51 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>insert <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#ab61137423e5d250d1cb2db87079ad029" title="constructs a SymbolProps for a greek letter with the symbol in unicode-encoding letterUnicode and in ...">GreekLetter_WinSymbol_Unicode_Html()</a> as <em>baseInstructionName</em> and UprightGreekLetter_WinSymbol_Unicode_Html and "up"+<em>letterWinSymbol</em> into symbols </p>
+<p>insert GreekLetter_WinSymbol_Unicode_Html() as <em>baseInstructionName</em> and UprightGreekLetter_WinSymbol_Unicode_Html and "up"+<em>letterWinSymbol</em> into symbols </p>
+
+</div>
+</div>
+<a id="a0858994b1a39b8188b48f490baa03cfa" name="a0858994b1a39b8188b48f490baa03cfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0858994b1a39b8188b48f490baa03cfa">&#9670;&nbsp;</a></span>AsOutsiudeGreekLetter_WinSymbol_Unicode_Html()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a> JKQTMathTextSymbolNode::AsOutsiudeGreekLetter_WinSymbol_Unicode_Html </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>letterWinSymbol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>letterUnicode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>html</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a greek letter with the format from outside with the symbol in unicode-encoding <em>letterUnicode</em> and in WinSymbol-encoding letterWinWsymbol </p>
 
 </div>
 </div>
@@ -1287,50 +1334,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ab61137423e5d250d1cb2db87079ad029" name="ab61137423e5d250d1cb2db87079ad029"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab61137423e5d250d1cb2db87079ad029">&#9670;&nbsp;</a></span>GreekLetter_WinSymbol_Unicode_Html()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a> JKQTMathTextSymbolNode::GreekLetter_WinSymbol_Unicode_Html </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>letterWinSymbol</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>letterUnicode</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>html</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for a greek letter with the symbol in unicode-encoding <em>letterUnicode</em> and in WinSymbol-encoding letterWinWsymbol </p>
-
-</div>
-</div>
 <a id="a3b9d4b0185538fff523586c981ac254b" name="a3b9d4b0185538fff523586c981ac254b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3b9d4b0185538fff523586c981ac254b">&#9670;&nbsp;</a></span>hasSymbol()</h2>
 
@@ -1384,6 +1387,50 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>checks whether the given symbol name can be prepresented by this type of node </p>
+
+</div>
+</div>
+<a id="aa1c296003a384e0e27582e7d9aacf5f8" name="aa1c296003a384e0e27582e7d9aacf5f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1c296003a384e0e27582e7d9aacf5f8">&#9670;&nbsp;</a></span>MathGreekLetter_WinSymbol_Unicode_Html()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a> JKQTMathTextSymbolNode::MathGreekLetter_WinSymbol_Unicode_Html </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>letterWinSymbol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>letterUnicode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>html</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs a <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html" title="properties of the symbol">SymbolProps</a> for an italic greek letter with the symbol in unicode-encoding <em>letterUnicode</em> and in WinSymbol-encoding letterWinWsymbol </p>
 
 </div>
 </div>
@@ -2761,7 +2808,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html">JKQTMathTextSymbolNode</a></li>
-    <li class="footer">Generated on Wed Aug 10 2022 17:26:02 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Thu Aug 11 2022 07:09:52 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>
