@@ -225,14 +225,20 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:acf6e16d1d06aae218fd69faac8445434"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#acf6e16d1d06aae218fd69faac8445434">getSymbolLength</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a361ad059f7b20d99b9f6179d7ae0b5fb">symbolName</a>)</td></tr>
+<tr class="memdesc:acf6e16d1d06aae218fd69faac8445434"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the length of the symbol string for the given symbol  <a href="class_j_k_q_t_math_text_symbol_node.html#acf6e16d1d06aae218fd69faac8445434">More...</a><br /></td></tr>
+<tr class="separator:acf6e16d1d06aae218fd69faac8445434"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52ecaf9a8ffdef94455ab068fcd76080"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a52ecaf9a8ffdef94455ab068fcd76080">getSymbols</a> ()</td></tr>
 <tr class="memdesc:a52ecaf9a8ffdef94455ab068fcd76080"><td class="mdescLeft">&#160;</td><td class="mdescRight">return a list of all defined symbols  <a href="class_j_k_q_t_math_text_symbol_node.html#a52ecaf9a8ffdef94455ab068fcd76080">More...</a><br /></td></tr>
 <tr class="separator:a52ecaf9a8ffdef94455ab068fcd76080"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b9d4b0185538fff523586c981ac254b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a3b9d4b0185538fff523586c981ac254b">hasSymbol</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a361ad059f7b20d99b9f6179d7ae0b5fb">symbolName</a>)</td></tr>
 <tr class="memdesc:a3b9d4b0185538fff523586c981ac254b"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the given symbol name can be prepresented by this type of node  <a href="class_j_k_q_t_math_text_symbol_node.html#a3b9d4b0185538fff523586c981ac254b">More...</a><br /></td></tr>
 <tr class="separator:a3b9d4b0185538fff523586c981ac254b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66634309f67489cff7b9f617383c245f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a66634309f67489cff7b9f617383c245f">isExtendedWidthSymbol</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a361ad059f7b20d99b9f6179d7ae0b5fb">symbolName</a>)</td></tr>
+<tr class="memdesc:a66634309f67489cff7b9f617383c245f"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the given symbol has global flags SymbolFullProps::ExtendWidthInMathmode or SymbolFullProps::SmallExtendWidthInMathmode defined  <a href="class_j_k_q_t_math_text_symbol_node.html#a66634309f67489cff7b9f617383c245f">More...</a><br /></td></tr>
+<tr class="separator:a66634309f67489cff7b9f617383c245f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaddac0b8f5b89eb5a024c098be2e714d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html#aaddac0b8f5b89eb5a024c098be2e714d">isSubSuperscriptBelowAboveSymbol</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a361ad059f7b20d99b9f6179d7ae0b5fb">symbolName</a>)</td></tr>
-<tr class="memdesc:aaddac0b8f5b89eb5a024c098be2e714d"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the given symbol name can be prepresented by this type of node  <a href="class_j_k_q_t_math_text_symbol_node.html#aaddac0b8f5b89eb5a024c098be2e714d">More...</a><br /></td></tr>
+<tr class="memdesc:aaddac0b8f5b89eb5a024c098be2e714d"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the given symbol name codes for an instruction that has SymbolFullProps::SubSuperscriptBelowAboveSymbol , i.e. <a class="el" href="class_j_k_q_t_math_text_node.html#ac4249c7a7d89dbc6796b8b7da590daac" title="if true then following sub- and/or superscripts are placed below and above the node,...">JKQTMathTextNode::isSubSuperscriptAboveBelowNode()</a> <code>==true</code>  <a href="class_j_k_q_t_math_text_symbol_node.html#aaddac0b8f5b89eb5a024c098be2e714d">More...</a><br /></td></tr>
 <tr class="separator:aaddac0b8f5b89eb5a024c098be2e714d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
@@ -995,6 +1001,34 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="acf6e16d1d06aae218fd69faac8445434" name="acf6e16d1d06aae218fd69faac8445434"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf6e16d1d06aae218fd69faac8445434">&#9670;&nbsp;</a></span>getSymbolLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int JKQTMathTextSymbolNode::getSymbolLength </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>symbolName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the length of the symbol string for the given symbol </p>
+
+</div>
+</div>
 <a id="a32cb42c8c861a1ae6ee8fe6e6fd5c93d" name="a32cb42c8c861a1ae6ee8fe6e6fd5c93d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a32cb42c8c861a1ae6ee8fe6e6fd5c93d">&#9670;&nbsp;</a></span>getSymbolName()</h2>
 
@@ -1362,6 +1396,34 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a66634309f67489cff7b9f617383c245f" name="a66634309f67489cff7b9f617383c245f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66634309f67489cff7b9f617383c245f">&#9670;&nbsp;</a></span>isExtendedWidthSymbol()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool JKQTMathTextSymbolNode::isExtendedWidthSymbol </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>symbolName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks whether the given symbol has global flags SymbolFullProps::ExtendWidthInMathmode or SymbolFullProps::SmallExtendWidthInMathmode defined </p>
+
+</div>
+</div>
 <a id="aaddac0b8f5b89eb5a024c098be2e714d" name="aaddac0b8f5b89eb5a024c098be2e714d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaddac0b8f5b89eb5a024c098be2e714d">&#9670;&nbsp;</a></span>isSubSuperscriptBelowAboveSymbol()</h2>
 
@@ -1386,7 +1448,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>checks whether the given symbol name can be prepresented by this type of node </p>
+<p>checks whether the given symbol name codes for an instruction that has SymbolFullProps::SubSuperscriptBelowAboveSymbol , i.e. <a class="el" href="class_j_k_q_t_math_text_node.html#ac4249c7a7d89dbc6796b8b7da590daac" title="if true then following sub- and/or superscripts are placed below and above the node,...">JKQTMathTextNode::isSubSuperscriptAboveBelowNode()</a> <code>==true</code> </p>
 
 </div>
 </div>
@@ -2808,7 +2870,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html">JKQTMathTextSymbolNode</a></li>
-    <li class="footer">Generated on Thu Aug 11 2022 07:09:52 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Thu Aug 11 2022 12:21:25 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

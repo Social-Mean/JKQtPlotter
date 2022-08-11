@@ -1,5 +1,15 @@
 var NAVTREEINDEX27 =
 {
+"group__jkqtptools__math__statistics__basic.html#ga88686b7d786896c704659dc8fe4c1e7f":[10,1,5,4,17],
+"group__jkqtptools__math__statistics__basic.html#ga88fd1f99cd6703268c3065d69ba6b65d":[10,1,5,4,13],
+"group__jkqtptools__math__statistics__basic.html#ga964efee196e2d587b30037421cdda22a":[10,1,5,4,16],
+"group__jkqtptools__math__statistics__basic.html#gaa36f983ab456720de3df86faa509afb3":[10,1,5,4,8],
+"group__jkqtptools__math__statistics__basic.html#gaac8934aa1adf6cc3e90a74002dcd5576":[10,1,5,4,3],
+"group__jkqtptools__math__statistics__basic.html#gac5dddaa1510f3cfb272819ee26d21aeb":[10,1,5,4,29],
+"group__jkqtptools__math__statistics__basic.html#gac7efa1ae9c52a2457180398451ddb955":[10,1,5,4,7],
+"group__jkqtptools__math__statistics__basic.html#gaeaaf7b88154c651bbb0d2d99c03e12f4":[10,1,5,4,20],
+"group__jkqtptools__math__statistics__basic.html#gaf660113f79ff8483ed9825b3a19eaebb":[10,1,5,4,2],
+"group__jkqtptools__math__statistics__basic.html#gafbafc72c766fe9c85cc9217b64ce1acb":[10,1,5,4,24],
 "group__jkqtptools__math__statistics__basic.html#gafc723ba91ee70e37765f209b453ab51c":[10,1,5,4,26],
 "group__jkqtptools__math__statistics__grouped.html":[10,1,5,5],
 "group__jkqtptools__math__statistics__grouped.html#ga0c29d3bfa60e2ef5c71b9e8f2b6311b2":[10,1,5,5,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX27 =
 "struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html":[10,3,1,1,1],
 "struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html#a01417071725ec62efa984672c011914f":[10,3,1,1,1,3],
 "struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html#a05212dbbc4c103694b54902c8014438c":[10,3,1,1,1,2],
-"struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html#a6baf2f284ae34d48001478706d02d051":[10,3,1,1,1,0],
-"struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html#abb01fa09d2990371e60af174ffcb4bad":[10,3,1,1,1,4],
-"struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html#ae01f500135fbed72cbd3208e3efd036a":[10,3,1,1,1,1],
-"struct_j_k_q_t_math_text_node_size.html":[10,3,1,2,3],
-"struct_j_k_q_t_math_text_node_size.html#a3a70ff64a563f76dbd7dd3cc6a83f677":[10,3,1,2,3,3],
-"struct_j_k_q_t_math_text_node_size.html#a47735318eeca62ca90c2e03a1e7b6928":[10,3,1,2,3,2],
-"struct_j_k_q_t_math_text_node_size.html#a8b44c6f556526d71ccdb01dcccfc9924":[10,3,1,2,3,1],
-"struct_j_k_q_t_math_text_node_size.html#aaa7f54157287a94f3b6ae58aaf9fea7b":[10,3,1,2,3,0],
-"struct_j_k_q_t_math_text_node_size.html#aae466e56e2dc81e2850c4306c6058766":[10,3,1,2,3,5],
-"struct_j_k_q_t_math_text_node_size.html#ab341d0e3832ba7d6b9e133ffefe8f090":[10,3,1,2,3,6],
-"struct_j_k_q_t_math_text_node_size.html#aca206bdc5f3dd30b5ec2e797ae317a3b":[10,3,1,2,3,7]
+"struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html#a6baf2f284ae34d48001478706d02d051":[10,3,1,1,1,0]
 };

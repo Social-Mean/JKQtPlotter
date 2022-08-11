@@ -15,6 +15,8 @@ var class_j_k_q_t_math_text_decorated_node =
       [ "MTDoverline", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a7e06dd4041387bfeccce6bc499475c31", null ],
       [ "MTDdoubleoverline", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a035c676a44caa8bf3e3640ea5cc4adf6", null ],
       [ "MTDunderline", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a44f49b4df764b6fe38f63db16cb4c1e9", null ],
+      [ "MTDunderlineDashed", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a41c0207244e1585a40abd77ebf918318", null ],
+      [ "MTDunderlineDotted", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a5c42d8a02034a08c232094a17182745c", null ],
       [ "MTDdoubleunderline", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a490edec626787a5122e7665e9d254ab4", null ],
       [ "MTDtilde", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2aa121657690b50dafb57edaf80958b9cd", null ],
       [ "MTDwidetilde", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2ad03378e15a87b7a8d1511c798acb9be4", null ],
@@ -23,7 +25,13 @@ var class_j_k_q_t_math_text_decorated_node =
       [ "MTDcancel", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a10357760954036c744f7868423b4fe87", null ],
       [ "MTDbcancel", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2abd145bcd6484124cbc59487484dbda15", null ],
       [ "MTDxcancel", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a89b80b4150e8a5e628b1be8d0fbf8437", null ],
-      [ "MTDstrike", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a11363b4f4cf38ca2d8f740c16c897d65", null ]
+      [ "MTDstrike", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a11363b4f4cf38ca2d8f740c16c897d65", null ],
+      [ "MTDoverleftarrow", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2ad9f6097e7e398afbe3dd1f3a53da9695", null ],
+      [ "MTDoverrightarrow", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a21ac61fe4130ca43e5f7f3d813f90946", null ],
+      [ "MTDoverleftrightarrow", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2af59ea03f10cf34d4a9aaa4307ebb5ec6", null ],
+      [ "MTDunderleftarrow", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2aa58cf1e1d9fd92aed9a43f7fbce7b5c3", null ],
+      [ "MTDunderrightarrow", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a58839bc3764a5337b2f91363899a808c", null ],
+      [ "MTDunderleftrightarrow", "class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a6bff109723d6d744ef6689698efdb0d0", null ]
     ] ],
     [ "JKQTMathTextDecoratedNode", "class_j_k_q_t_math_text_decorated_node.html#a3081aec265fb311e34d96659fa952b7a", null ],
     [ "~JKQTMathTextDecoratedNode", "class_j_k_q_t_math_text_decorated_node.html#ad85cbb88640e621966c8dee1984b5396", null ],

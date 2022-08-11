@@ -1,5 +1,15 @@
 var NAVTREEINDEX8 =
 {
+"class_j_k_q_t_math_text_vertical_list_node.html#a94010ac1e5480e323a53f9a6180499e3":[10,3,1,1,25,14],
+"class_j_k_q_t_math_text_vertical_list_node.html#a9f93a9a22a013ff153ffa1b2e70c7a26":[10,3,1,1,25,23],
+"class_j_k_q_t_math_text_vertical_list_node.html#aa89ef80aa571e1fac9754f8e8521fb96":[10,3,1,1,25,2],
+"class_j_k_q_t_math_text_vertical_list_node.html#ab766a0cd3f3cc537efa8e794e52fb7e0":[10,3,1,1,25,25],
+"class_j_k_q_t_math_text_vertical_list_node.html#abdcff4aa1226ecc4deec1e65050c36d0":[10,3,1,1,25,3],
+"class_j_k_q_t_math_text_vertical_list_node.html#ace0d44c6bbc8af524bd3800eaea35140":[10,3,1,1,25,6],
+"class_j_k_q_t_math_text_vertical_list_node.html#ace8981ef6500cb9bed8876636505231d":[10,3,1,1,25,8],
+"class_j_k_q_t_math_text_vertical_list_node.html#ad4930d196899ba37f95643f336147e41":[10,3,1,1,25,4],
+"class_j_k_q_t_math_text_vertical_list_node.html#ae40a19c8f2fb20c9ead29fdf8c87adba":[10,3,1,1,25,9],
+"class_j_k_q_t_math_text_vertical_list_node.html#ae534b664d2444b3931315ac022eb6328":[10,3,1,1,25,18],
 "class_j_k_q_t_math_text_vertical_list_node.html#ae832fa94edec5f14e294a1ee400bc86d":[10,3,1,1,25,12],
 "class_j_k_q_t_math_text_vertical_list_node.html#af3482d4174626bebbdec0f58ce30ff70":[10,3,1,1,25,0],
 "class_j_k_q_t_math_text_vertical_list_node.html#af3482d4174626bebbdec0f58ce30ff70a79dc0ef8a778525bc1b62398db5c24af":[10,3,1,1,25,0,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX8 =
 "class_j_k_q_t_p_boxplot_element_base.html#ab3a943778f9a4712902abbd23f8eebd7":[10,4,2,1,2,0,27],
 "class_j_k_q_t_p_boxplot_element_base.html#ab3a943778f9a4712902abbd23f8eebd7":[10,4,2,1,8,0,27],
 "class_j_k_q_t_p_boxplot_element_base.html#ab9e8762e6d777516c8e382273aceafb4":[10,4,2,1,2,0,3],
-"class_j_k_q_t_p_boxplot_element_base.html#ab9e8762e6d777516c8e382273aceafb4":[10,4,2,1,8,0,3],
-"class_j_k_q_t_p_boxplot_element_base.html#aba0e3ab72ec06ea801b1381d32102cef":[10,4,2,1,2,0,14],
-"class_j_k_q_t_p_boxplot_element_base.html#aba0e3ab72ec06ea801b1381d32102cef":[10,4,2,1,8,0,14],
-"class_j_k_q_t_p_boxplot_element_base.html#aba26c804088225b779abf306e450234c":[10,4,2,1,2,0,40],
-"class_j_k_q_t_p_boxplot_element_base.html#aba26c804088225b779abf306e450234c":[10,4,2,1,8,0,40],
-"class_j_k_q_t_p_boxplot_element_base.html#ac5cceb162356d956ab964bf10f3a7991":[10,4,2,1,2,0,29],
-"class_j_k_q_t_p_boxplot_element_base.html#ac5cceb162356d956ab964bf10f3a7991":[10,4,2,1,8,0,29],
-"class_j_k_q_t_p_boxplot_element_base.html#adb5767c2c2080d5b4d5a99818fdcad25":[10,4,2,1,8,0,26],
-"class_j_k_q_t_p_boxplot_element_base.html#adb5767c2c2080d5b4d5a99818fdcad25":[10,4,2,1,2,0,26],
-"class_j_k_q_t_p_boxplot_element_base.html#adcea32482acbdb8ec42bb7f531537eb8":[10,4,2,1,2,0,38],
-"class_j_k_q_t_p_boxplot_element_base.html#adcea32482acbdb8ec42bb7f531537eb8":[10,4,2,1,8,0,38]
+"class_j_k_q_t_p_boxplot_element_base.html#ab9e8762e6d777516c8e382273aceafb4":[10,4,2,1,8,0,3]
 };

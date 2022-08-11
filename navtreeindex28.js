@@ -1,5 +1,15 @@
 var NAVTREEINDEX28 =
 {
+"struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html#abb01fa09d2990371e60af174ffcb4bad":[10,3,1,1,1,4],
+"struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html#ae01f500135fbed72cbd3208e3efd036a":[10,3,1,1,1,1],
+"struct_j_k_q_t_math_text_node_size.html":[10,3,1,2,3],
+"struct_j_k_q_t_math_text_node_size.html#a3a70ff64a563f76dbd7dd3cc6a83f677":[10,3,1,2,3,3],
+"struct_j_k_q_t_math_text_node_size.html#a47735318eeca62ca90c2e03a1e7b6928":[10,3,1,2,3,2],
+"struct_j_k_q_t_math_text_node_size.html#a8b44c6f556526d71ccdb01dcccfc9924":[10,3,1,2,3,1],
+"struct_j_k_q_t_math_text_node_size.html#aaa7f54157287a94f3b6ae58aaf9fea7b":[10,3,1,2,3,0],
+"struct_j_k_q_t_math_text_node_size.html#aae466e56e2dc81e2850c4306c6058766":[10,3,1,2,3,5],
+"struct_j_k_q_t_math_text_node_size.html#ab341d0e3832ba7d6b9e133ffefe8f090":[10,3,1,2,3,6],
+"struct_j_k_q_t_math_text_node_size.html#aca206bdc5f3dd30b5ec2e797ae317a3b":[10,3,1,2,3,7],
 "struct_j_k_q_t_math_text_node_size.html#ad11f5452e869c7db8feb6cdf15683e79":[10,3,1,2,3,4],
 "struct_j_k_q_t_math_text_simple_instruction_node_1_1_instruction_properties.html":[10,3,1,1,0],
 "struct_j_k_q_t_math_text_simple_instruction_node_1_1_instruction_properties.html#a269c39c814b6ec62d140e732eddeb93e":[10,3,1,1,0,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX28 =
 "struct_j_k_q_t_p_stat5_number_statistics.html#abaedae734db94b2775743d3e95cddd9c":[10,1,5,4,0,5],
 "struct_j_k_q_t_p_stat5_number_statistics.html#ae7ebc60cc78aa4e8a9dd5393663ff6a9":[10,1,5,4,0,8],
 "struct_j_k_q_t_p_stat5_number_statistics.html#ae82dc5f7141bfe375520645128729448":[10,1,5,4,0,4],
-"struct_j_k_q_t_p_stat5_number_statistics.html#ae9eb38c2b3afa108410ba3252ec033e2":[10,1,5,4,0,13],
-"struct_j_k_q_t_p_stat5_number_statistics.html#af008b5b9d9bcdadd35c0953e1fbb5163":[10,1,5,4,0,11],
-"struct_j_k_q_t_p_stat5_number_statistics.html#af25ad45a97e7f83af0601ba082aaa41f":[10,1,5,4,0,3],
-"struct_j_k_q_t_p_stat5_number_statistics.html#af41a17eaff104500035613ad38293471":[10,1,5,4,0,1],
-"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html":[10,4,2,1,6,2,2],
-"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#a360d4f08ec544909faf88a1db1a0b2e5":[10,4,2,1,6,2,2,1],
-"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#ad19ca7a60b6452c0ce532f2cb5d2d062":[10,4,2,1,6,2,2,3],
-"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#adb2121af0bceda0abbab68d6b5f04911":[10,4,2,1,6,2,2,0],
-"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#af24f3414bcd5a87c676e36924d59e3e0":[10,4,2,1,6,2,2,2],
-"struct_j_k_q_t_plotter_1_1_mouse_drag_action.html":[10,4,3,3],
-"struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#a01f5e1b7ca04cd58e5b17de31fd65c29":[10,4,3,3,0]
+"struct_j_k_q_t_p_stat5_number_statistics.html#ae9eb38c2b3afa108410ba3252ec033e2":[10,1,5,4,0,13]
 };
