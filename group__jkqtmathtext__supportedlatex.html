@@ -535,12 +535,20 @@ Special subscript/superscript typesetting applies, when the sub/super follows <c
 <img src="jkqtmathtext_specialsubsuper.png" alt=""/>
 </div>
 </li>
+<li><code>\limits</code> , <code>\nolimits</code> : Several special symbols, like <code>\sum</code> , <code>\lim</code> , ... cause sub-/superscripts to be positioned below/above the symbol, not besides it. This behaviour can be altered by using <code>\limits</code> and <code>\nolimits</code> :<div class="image">
+<img src="jkqtmathtext_limits.png" alt=""/>
+</div>
+</li>
 <li><code>$\substack[lrc]{...\\...}$</code> allows to e.g. subset several lines below a <code>\sum</code> using <code>\sum\limits_\substack{a&lt;5\\b&lt;100}</code>:<div class="image">
 <img src="jkqtmathtext_substack.png" alt=""/>
 </div>
 </li>
-<li><code>\limits</code> , <code>\nolimits</code> : Several special symbols, like <code>\sum</code> , <code>\lim</code> , ... cause sub-/superscripts to be positioned below/above the symbol, not besides it. This behaviour can be altered by using <code>\limits</code> and <code>\nolimits</code> :<div class="image">
-<img src="jkqtmathtext_limits.png" alt=""/>
+<li><code>$\lsubstack{...\\...}$</code><div class="image">
+<img src="jkqtmathtext_lsubstack.png" alt=""/>
+</div>
+</li>
+<li><code>$\rsubstack{...\\...}$</code><div class="image">
+<img src="jkqtmathtext_rsubstack.png" alt=""/>
 </div>
 </li>
 </ul>
@@ -720,14 +728,6 @@ Matrix/Array Type Instructions</h2>
 <img src="jkqtmathtext_vvmatrix.png" alt=""/>
 </div>
 </li>
-<li><code>$\lsubstack{...\\...}$</code><div class="image">
-<img src="jkqtmathtext_lsubstack.png" alt=""/>
-</div>
-</li>
-<li><code>$\rsubstack{...\\...}$</code><div class="image">
-<img src="jkqtmathtext_rsubstack.png" alt=""/>
-</div>
-</li>
 <li><code>$\begin{array}{COLSPEC} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{array}$</code><div class="image">
 <img src="jkqtmathtext_array.png" alt=""/>
 </div>
@@ -756,7 +756,7 @@ Matrix/Array Type Instructions</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 12 2022 11:31:24 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Aug 12 2022 11:39:16 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>
