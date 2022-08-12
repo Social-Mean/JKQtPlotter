@@ -33,9 +33,10 @@ var searchData=
   ['toolbariconsize_30',['toolbarIconSize',['../class_j_k_q_t_plotter_style.html#a70668027a58c54970431c8eade1c2408',1,'JKQTPlotterStyle']]],
   ['toolbarvanishes_31',['toolbarVanishes',['../class_j_k_vanish_q_tool_bar.html#a48f58a565b32206fc7fd10c4560a0850',1,'JKVanishQToolBar']]],
   ['topcolorbaraxisstyle_32',['topColorbarAxisStyle',['../class_j_k_q_t_base_plotter_style.html#af20cb1c6fc3ca6ef259ad8fca0660572',1,'JKQTBasePlotterStyle']]],
-  ['transparencymodficationstrength_33',['transparencyModficationStrength',['../struct_j_k_q_t_p_color_derivation_mode.html#a04beb5f1daef77c207a8f2baf4c2bc44',1,'JKQTPColorDerivationMode']]],
-  ['transparencymodification_34',['transparencyModification',['../struct_j_k_q_t_p_color_derivation_mode.html#a9add16da19ce9cf9cc75988de609557e',1,'JKQTPColorDerivationMode']]],
-  ['truecolor_35',['trueColor',['../class_j_k_q_t_p_overlay_image.html#ae7ce5b759ad96414de868a3d26f42805',1,'JKQTPOverlayImage']]],
-  ['two_5fsided_36',['two_sided',['../class_j_k_q_t_p_geo_infinite_line.html#a68218937cd881bfe888df9a8f6edc8df',1,'JKQTPGeoInfiniteLine']]],
-  ['type_37',['type',['../struct_j_k_q_t_p_math_parser_1_1jkmp_result.html#a77733ea1fac8e37c423baa4a0759389e',1,'JKQTPMathParser::jkmpResult::type()'],['../struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html#a64c057ecc63d250f3a0e6731613b2b07',1,'JKQTPMathParser::jkmpVariable::type()'],['../group__jkqtptools__math__parser.html#aa6ace73bb91eb0252b759c7fc34f194b',1,'JKQTPMathParser::jkmpTempVariable::type()'],['../struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#a1e69ef3154736d5a4aae89e6e65c2122',1,'JKQTMathTextWhitespaceNode::WhitespaceProps::type()']]]
+  ['toppadding_33',['topPadding',['../struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html#a541ddb7ded1235896839e098d82e12f8',1,'JKQTMathTextMatrixNode::LayoutInfo']]],
+  ['transparencymodficationstrength_34',['transparencyModficationStrength',['../struct_j_k_q_t_p_color_derivation_mode.html#a04beb5f1daef77c207a8f2baf4c2bc44',1,'JKQTPColorDerivationMode']]],
+  ['transparencymodification_35',['transparencyModification',['../struct_j_k_q_t_p_color_derivation_mode.html#a9add16da19ce9cf9cc75988de609557e',1,'JKQTPColorDerivationMode']]],
+  ['truecolor_36',['trueColor',['../class_j_k_q_t_p_overlay_image.html#ae7ce5b759ad96414de868a3d26f42805',1,'JKQTPOverlayImage']]],
+  ['two_5fsided_37',['two_sided',['../class_j_k_q_t_p_geo_infinite_line.html#a68218937cd881bfe888df9a8f6edc8df',1,'JKQTPGeoInfiniteLine']]],
+  ['type_38',['type',['../struct_j_k_q_t_p_math_parser_1_1jkmp_result.html#a77733ea1fac8e37c423baa4a0759389e',1,'JKQTPMathParser::jkmpResult::type()'],['../struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html#a64c057ecc63d250f3a0e6731613b2b07',1,'JKQTPMathParser::jkmpVariable::type()'],['../group__jkqtptools__math__parser.html#aa6ace73bb91eb0252b759c7fc34f194b',1,'JKQTPMathParser::jkmpTempVariable::type()'],['../struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#a1e69ef3154736d5a4aae89e6e65c2122',1,'JKQTMathTextWhitespaceNode::WhitespaceProps::type()']]]
 ];

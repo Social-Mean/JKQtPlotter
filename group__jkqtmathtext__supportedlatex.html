@@ -485,6 +485,43 @@ Environments for Multi-line text</h1>
 </div>
 </li>
 </ul>
+<h1><a class="anchor" id="JKQTMathTextSuppoertedLaTeXTabular"></a>
+Tabular Environments</h1>
+<dl class="section see"><dt>See also</dt><dd>Additional matrix-environments are listed in  For text-mode tables, the <code>tabular</code> -environment is supported:<ul>
+<li><code>$\begin{tabular}{COLSPEC} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{tabular}$</code> <code>COLSPEC</code> is a LaTeX column specifier, i.e. a sequence composed of these parts:<ul>
+<li><code>l</code> : left-aligned column</li>
+<li><code>c</code> : centered column</li>
+<li><code>r</code> : right-aligned column</li>
+<li><code></code>| : single line</li>
+<li><code>||</code> : double line</li>
+<li><code></code>: : single dashed line</li>
+<li><code>::</code> : double dashed line</li>
+</ul>
+</li>
+</ul>
+In all these environments, you can use the following instructions to draw lines above/below a row in the matrix:<ul>
+<li><code>\hline</code> or <code>\midrule:</code> a single line <br  />
+</li>
+<li><code>\hline\hline</code> : a double line <br  />
+</li>
+<li><code>\toprule</code> or <code>\bottomrule</code> : a heavy line</li>
+<li><code>\hdashline</code> : a single dashed line</li>
+<li><code>\hdashline\hdashline</code> : a double dashed line</li>
+</ul>
+</dd></dl>
+<p>Here is an example: </p><div class="fragment"><div class="line">\begin{tabular}{:l|cr||}</div>
+<div class="line">  \hdashline </div>
+<div class="line">  a1--- &amp; b1--- &amp; c1---\\ </div>
+<div class="line">  a2- &amp; b2- &amp; c2-\\</div>
+<div class="line">  \hline </div>
+<div class="line">  a3 &amp; b3 &amp; c3\\</div>
+<div class="line">  \hline\hline </div>
+<div class="line">  a4 &amp; b4 &amp; c4\\</div>
+<div class="line">  \bottomrule</div>
+<div class="line">\end{tabular}</div>
+</div><!-- fragment --><div class="image">
+<img src="jkqtmathtext_tabular.png" alt=""/>
+</div>
 <h1><a class="anchor" id="JKQTMathTextSuppoertedLaTeXMathSupport"></a>
 Supported Mathematical Constructs</h1>
 <h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXSubSuper"></a>
@@ -496,6 +533,14 @@ Sub- and Superscript</h2>
  <br  />
 Special subscript/superscript typesetting applies, when the sub/super follows <code>\sum</code> <code>\Prod</code> ...:<div class="image">
 <img src="jkqtmathtext_specialsubsuper.png" alt=""/>
+</div>
+</li>
+<li><code>$\substack[lrc]{...\\...}$</code> allows to e.g. subset several lines below a <code>\sum</code> using <code>\sum\limits_\substack{a&lt;5\\b&lt;100}</code>:<div class="image">
+<img src="jkqtmathtext_substack.png" alt=""/>
+</div>
+</li>
+<li><code>\limits</code> , <code>\nolimits</code> : Several special symbols, like <code>\sum</code> , <code>\lim</code> , ... cause sub-/superscripts to be positioned below/above the symbol, not besides it. This behaviour can be altered by using <code>\limits</code> and <code>\nolimits</code> :<div class="image">
+<img src="jkqtmathtext_limits.png" alt=""/>
 </div>
 </li>
 </ul>
@@ -612,7 +657,7 @@ Undersetting, Oversetting, Underbraces, Overbraces ...</h2>
 </ul>
 <h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXFrac"></a>
 Fraction Type Instructions</h2>
-<p >Several Matrix/Array-typed LaTeX instructions are supported:</p><ul>
+<p >Several fraction-typed LaTeX instructions are supported:</p><ul>
 <li><code>$\frac{...}{...}$</code><div class="image">
 <img src="MTFMfrac.png" alt=""/>
 </div>
@@ -633,20 +678,26 @@ Fraction Type Instructions</h2>
 <img src="MTFMstfrac.png" alt=""/>
 </div>
 </li>
-</ul>
-<h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXMatrix"></a>
-Matrix/Array Type Instructions</h2>
-<p >Several Matrix/Array-typed LaTeX instructions are supported:</p><ul>
 <li><code>$\stackrel{...}{...}$ $\binom{...}{...}$</code><div class="image">
 <img src="jkqtmathtext_brace_stackrel.png" alt=""/>
 </div>
 </li>
+</ul>
+<h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXMatrix"></a>
+Matrix/Array Type Instructions</h2>
+<p >Simple instructions are:</p><ul>
+<li><code>$\stackrel{...}{...}$ $\binom{...}{...}$</code><div class="image">
+<img src="jkqtmathtext_brace_stackrel.png" alt=""/>
+</div>
+</li>
+</ul>
+<p >Several Matrix/Array-typed LaTeX instructions are supported:</p><ul>
 <li><code>$\begin{cases} ... &amp; ... \\ ... &amp; ... \end{cases}$</code><div class="image">
 <img src="jkqtmathtext_brace_begincases.png" alt=""/>
 </div>
 </li>
-<li><code>$\begin{array} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{array}$</code> <code>$\begin{matrix} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{matrix}$</code><div class="image">
-<img src="jkqtmathtext_array.png" alt=""/>
+<li><code>$\begin{matrix} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{matrix}$</code><div class="image">
+<img src="jkqtmathtext_matrix.png" alt=""/>
 </div>
 </li>
 <li><code>$\begin{pmatrix} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{pmatrix}$</code><div class="image">
@@ -669,10 +720,6 @@ Matrix/Array Type Instructions</h2>
 <img src="jkqtmathtext_vvmatrix.png" alt=""/>
 </div>
 </li>
-<li><code>$\substack[lrc]{...\\...}$</code><div class="image">
-<img src="jkqtmathtext_substack.png" alt=""/>
-</div>
-</li>
 <li><code>$\lsubstack{...\\...}$</code><div class="image">
 <img src="jkqtmathtext_lsubstack.png" alt=""/>
 </div>
@@ -681,13 +728,35 @@ Matrix/Array Type Instructions</h2>
 <img src="jkqtmathtext_rsubstack.png" alt=""/>
 </div>
 </li>
+<li><code>$\begin{array}{COLSPEC} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{array}$</code><div class="image">
+<img src="jkqtmathtext_array.png" alt=""/>
+</div>
+ <code>COLSPEC</code> is a LaTeX column specifier, i.e. a sequence composed of these parts:<ul>
+<li><code>l</code> : left-aligned column</li>
+<li><code>c</code> : centered column</li>
+<li><code>r</code> : right-aligned column</li>
+<li><code></code>| : single line</li>
+<li><code>||</code> : double line</li>
+<li><code></code>: : single dashed line</li>
+<li><code>::</code> : double dashed line</li>
+</ul>
+</li>
+</ul>
+<p>In all these environments, you can use the following instructions to draw lines above/below a row in the matrix:</p><ul>
+<li><code>\hline</code> or <code>\midrule:</code> a single line <br  />
+</li>
+<li><code>\hline\hline</code> : a double line <br  />
+</li>
+<li><code>\toprule</code> or <code>\bottomrule</code> : a heavy line</li>
+<li><code>\hdashline</code> : a single dashed line</li>
+<li><code>\hdashline\hdashline</code> : a double dashed line</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Aug 11 2022 15:30:04 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Aug 12 2022 10:57:23 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

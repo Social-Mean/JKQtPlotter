@@ -4,6 +4,7 @@ var class_j_k_q_t_math_text_sqrt_node =
     [ "~JKQTMathTextSqrtNode", "class_j_k_q_t_math_text_sqrt_node.html#af5f3f7d1070c217ad92212d844f164ff", null ],
     [ "childCount", "class_j_k_q_t_math_text_sqrt_node.html#affd49dd673d8d12d617a821d378290a1", null ],
     [ "clearChildren", "class_j_k_q_t_math_text_sqrt_node.html#a703fbe16832095310f287d92bbbcf4c2", null ],
+    [ "deleteChild", "class_j_k_q_t_math_text_sqrt_node.html#af9fb9a2a7c5a1187c120c53e6a52596d", null ],
     [ "draw", "class_j_k_q_t_math_text_sqrt_node.html#ae556d9d1705b999b84f9589deb536718", null ],
     [ "getChild", "class_j_k_q_t_math_text_sqrt_node.html#aff9c84dd6150907be38b597db3b6a04a", null ],
     [ "getChild", "class_j_k_q_t_math_text_sqrt_node.html#a6c5352f545db674f826d985a0e1bed08", null ],

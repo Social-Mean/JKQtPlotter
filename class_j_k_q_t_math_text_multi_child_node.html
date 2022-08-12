@@ -148,6 +148,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afc514f6ff14e84d85c0c251fd9a1cef4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#afc514f6ff14e84d85c0c251fd9a1cef4">clearChildren</a> (bool deleteChildren=true)=0</td></tr>
 <tr class="memdesc:afc514f6ff14e84d85c0c251fd9a1cef4"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear all children, deleting them if <em>deleteChildren==true</em>  <a href="class_j_k_q_t_math_text_multi_child_node.html#afc514f6ff14e84d85c0c251fd9a1cef4">More...</a><br /></td></tr>
 <tr class="separator:afc514f6ff14e84d85c0c251fd9a1cef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae11b31c20f8fcd797f76b222c9e7c2c7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#ae11b31c20f8fcd797f76b222c9e7c2c7">deleteChild</a> (int i)=0</td></tr>
+<tr class="memdesc:ae11b31c20f8fcd797f76b222c9e7c2c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">delete the i-th child  <a href="class_j_k_q_t_math_text_multi_child_node.html#ae11b31c20f8fcd797f76b222c9e7c2c7">More...</a><br /></td></tr>
+<tr class="separator:ae11b31c20f8fcd797f76b222c9e7c2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcafce6e3311ed238730d5616288d89d"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#abcafce6e3311ed238730d5616288d89d">getChild</a> (int i) const =0</td></tr>
 <tr class="memdesc:abcafce6e3311ed238730d5616288d89d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the i-th child node  <a href="class_j_k_q_t_math_text_multi_child_node.html#abcafce6e3311ed238730d5616288d89d">More...</a><br /></td></tr>
 <tr class="separator:abcafce6e3311ed238730d5616288d89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -378,6 +381,36 @@ Additional Inherited Members</h2></td></tr>
 <p>clear all children, deleting them if <em>deleteChildren==true</em> </p>
 
 <p>Implemented in <a class="el" href="class_j_k_q_t_math_text_horizontal_list_node.html#a4cc5996627639cfdefe26bc689f734e2">JKQTMathTextHorizontalListNode</a>, <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html#ace0d44c6bbc8af524bd3800eaea35140">JKQTMathTextVerticalListNode</a>, <a class="el" href="class_j_k_q_t_math_text_dual_child_node.html#a09b8a417e66f6b81c2fd525b94942b20">JKQTMathTextDualChildNode</a>, and <a class="el" href="class_j_k_q_t_math_text_sqrt_node.html#a703fbe16832095310f287d92bbbcf4c2">JKQTMathTextSqrtNode</a>.</p>
+
+</div>
+</div>
+<a id="ae11b31c20f8fcd797f76b222c9e7c2c7" name="ae11b31c20f8fcd797f76b222c9e7c2c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae11b31c20f8fcd797f76b222c9e7c2c7">&#9670;&nbsp;</a></span>deleteChild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void JKQTMathTextMultiChildNode::deleteChild </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>delete the i-th child </p>
+
+<p>Implemented in <a class="el" href="class_j_k_q_t_math_text_horizontal_list_node.html#a37a1f2bf3ae70e0bd5c824915763d362">JKQTMathTextHorizontalListNode</a>, <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html#a981578b2c694e3f2b583edd6ce1f5e09">JKQTMathTextVerticalListNode</a>, <a class="el" href="class_j_k_q_t_math_text_dual_child_node.html#a11d8433cb07937a94ca06c10d42db187">JKQTMathTextDualChildNode</a>, and <a class="el" href="class_j_k_q_t_math_text_sqrt_node.html#af9fb9a2a7c5a1187c120c53e6a52596d">JKQTMathTextSqrtNode</a>.</p>
 
 </div>
 </div>
@@ -760,7 +793,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html">JKQTMathTextMultiChildNode</a></li>
-    <li class="footer">Generated on Thu Aug 11 2022 15:30:04 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Aug 12 2022 10:57:23 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

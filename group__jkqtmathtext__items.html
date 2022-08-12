@@ -153,7 +153,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">subclass representing an instruction node with exactly one argument and possibly additional parameters in the syntax tree This is a base-class without concrete implementations ... Implementations can be found in derived classes!  <a href="class_j_k_q_t_math_text_instruction1_node.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html">JKQTMathTextMatrixNode</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">subclass representing a \begin{matrix} node  <a href="class_j_k_q_t_math_text_matrix_node.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">subclass representing a <code>\begin{matrix}</code> , <code>\begin{tabular}</code> , <code>\begin{array}</code> , ... node  <a href="class_j_k_q_t_math_text_matrix_node.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_modified_text_props_instruction_node.html">JKQTMathTextModifiedTextPropsInstructionNode</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">subclass representing an instruction node which modifies the current font (as defined in <a class="el" href="struct_j_k_q_t_math_text_environment.html" title="describes the current drawing environment (base fontname ...)">JKQTMathTextEnvironment</a>), i.e. it represents instructions like <code>\textbf{</code>...}, <code>\ul{underlinedText}</code>, ...  <a href="class_j_k_q_t_math_text_modified_text_props_instruction_node.html#details">More...</a><br /></td></tr>
@@ -200,6 +200,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html">JKQTMathTextWhitespaceNode</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">subclass representing one whitepsace node in the syntax tree  <a href="class_j_k_q_t_math_text_whitespace_node.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html">JKQTMathTextMatrixNode::LayoutInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes the layout of the whole node  <a href="struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html">JKQTMathTextVerbatimNode::LayoutInfo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes the layout of the whole node  <a href="struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -218,6 +221,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gacd06e9f35ecebb5318e89ca047602c8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtmathtext__libfacilities.html#ga057aeda927f4602f5bfa776a658f78ff">JKQTMATHTEXT_LIB_EXPORT</a> <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtmathtext__items.html#gacd06e9f35ecebb5318e89ca047602c8a">simplifyAndTrimJKQTMathTextNode</a> (<a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *node)</td></tr>
+<tr class="memdesc:gacd06e9f35ecebb5318e89ca047602c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="group__jkqtmathtext__items.html#ga045470f6bc901e8127f2bd0e985d6fc4" title="simplifies the node node and the tree below it. You can put the return value in place of node after t...">simplifyJKQTMathTextNode()</a>. In addition it tries to clear whitespace at the start and end of the tree  <a href="group__jkqtmathtext__items.html#gacd06e9f35ecebb5318e89ca047602c8a">More...</a><br /></td></tr>
+<tr class="separator:gacd06e9f35ecebb5318e89ca047602c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga045470f6bc901e8127f2bd0e985d6fc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtmathtext__libfacilities.html#ga057aeda927f4602f5bfa776a658f78ff">JKQTMATHTEXT_LIB_EXPORT</a> <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtmathtext__items.html#ga045470f6bc901e8127f2bd0e985d6fc4">simplifyJKQTMathTextNode</a> (<a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *node)</td></tr>
 <tr class="memdesc:ga045470f6bc901e8127f2bd0e985d6fc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">simplifies the node <em>node</em> and the tree below it. You can put the return value in place of <em>node</em> after the call  <a href="group__jkqtmathtext__items.html#ga045470f6bc901e8127f2bd0e985d6fc4">More...</a><br /></td></tr>
 <tr class="separator:ga045470f6bc901e8127f2bd0e985d6fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,6 +231,27 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p >This group contains all classes that are used to build a memory-representation of the math to be rendered. They form a tree in memory. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="gacd06e9f35ecebb5318e89ca047602c8a" name="gacd06e9f35ecebb5318e89ca047602c8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd06e9f35ecebb5318e89ca047602c8a">&#9670;&nbsp;</a></span>simplifyAndTrimJKQTMathTextNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jkqtmathtext__libfacilities.html#ga057aeda927f4602f5bfa776a658f78ff">JKQTMATHTEXT_LIB_EXPORT</a> <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * simplifyAndTrimJKQTMathTextNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>calls <a class="el" href="group__jkqtmathtext__items.html#ga045470f6bc901e8127f2bd0e985d6fc4" title="simplifies the node node and the tree below it. You can put the return value in place of node after t...">simplifyJKQTMathTextNode()</a>. In addition it tries to clear whitespace at the start and end of the tree </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtmathtext__items.html#ga045470f6bc901e8127f2bd0e985d6fc4" title="simplifies the node node and the tree below it. You can put the return value in place of node after t...">simplifyJKQTMathTextNode()</a> </dd></dl>
+
+</div>
+</div>
 <a id="ga045470f6bc901e8127f2bd0e985d6fc4" name="ga045470f6bc901e8127f2bd0e985d6fc4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga045470f6bc901e8127f2bd0e985d6fc4">&#9670;&nbsp;</a></span>simplifyJKQTMathTextNode()</h2>
 
@@ -253,7 +280,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Aug 11 2022 15:30:04 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Aug 12 2022 10:57:23 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

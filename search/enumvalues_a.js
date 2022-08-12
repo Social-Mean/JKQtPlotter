@@ -20,5 +20,12 @@ var searchData=
   ['lopnand_17',['LOPnand',['../class_j_k_q_t_p_math_parser.html#a0aa84cc9ecff7511ed20547c505d3d18ab1c85b2c2e3eb499587d968ffa22d59a',1,'JKQTPMathParser']]],
   ['lopnor_18',['LOPnor',['../class_j_k_q_t_p_math_parser.html#a0aa84cc9ecff7511ed20547c505d3d18a5446e23a669876d610a8bf9fbfdbc4c4',1,'JKQTPMathParser']]],
   ['lopor_19',['LOPor',['../class_j_k_q_t_p_math_parser.html#a0aa84cc9ecff7511ed20547c505d3d18a12de114a5e69cbf42c000e04e5a700eb',1,'JKQTPMathParser']]],
-  ['lopxor_20',['LOPxor',['../class_j_k_q_t_p_math_parser.html#a0aa84cc9ecff7511ed20547c505d3d18aa46b0334de32766108eae0b9c0f6ccc8',1,'JKQTPMathParser']]]
+  ['lopxor_20',['LOPxor',['../class_j_k_q_t_p_math_parser.html#a0aa84cc9ecff7511ed20547c505d3d18aa46b0334de32766108eae0b9c0f6ccc8',1,'JKQTPMathParser']]],
+  ['ltdashed_21',['LTdashed',['../class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74ad1bf08a781c88e76bb4381efba1b80fd',1,'JKQTMathTextMatrixNode']]],
+  ['ltdefault_22',['LTdefault',['../class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74a40de50c8f70a6936e56a133a1e1d5af8',1,'JKQTMathTextMatrixNode']]],
+  ['ltdoubledashed_23',['LTdoubleDashed',['../class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74ac24f1a6e21b1927cea0df60a666913aa',1,'JKQTMathTextMatrixNode']]],
+  ['ltdoubleline_24',['LTdoubleline',['../class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74ae5a81c52fe1c2cf3c0cac759ff215db6',1,'JKQTMathTextMatrixNode']]],
+  ['ltheavyline_25',['LTheavyline',['../class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74a57260dbae0b73d34ec9c613fbc10fa87',1,'JKQTMathTextMatrixNode']]],
+  ['ltline_26',['LTline',['../class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74a64f497a96efb5a692f1b2343958ca63f',1,'JKQTMathTextMatrixNode']]],
+  ['ltnone_27',['LTnone',['../class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74a520c5558791a7397f9b7ba5a92d14c19',1,'JKQTMathTextMatrixNode']]]
 ];

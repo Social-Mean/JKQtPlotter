@@ -14,6 +14,8 @@ var class_j_k_q_t_math_text_text_node =
     [ "getSizeInternal", "class_j_k_q_t_math_text_text_node.html#a7fa080a6773944e064df2cc3ceebd78a", null ],
     [ "getSizeInternalAndData", "class_j_k_q_t_math_text_text_node.html#a2f8804e607660e7eca02dccc77ee0ff1", null ],
     [ "getTypeName", "class_j_k_q_t_math_text_text_node.html#ac6e508a866bdd10c85d12ae17e0add95", null ],
+    [ "removeLeadingWhitespace", "class_j_k_q_t_math_text_text_node.html#a6421c8cfa577d7a208106fd4133f0b92", null ],
+    [ "removeTrailingWhitespace", "class_j_k_q_t_math_text_text_node.html#a89b617450dbf3dc362fee6c385ad9217", null ],
     [ "splitTextForLayout", "class_j_k_q_t_math_text_text_node.html#a20628880fb468a147551808f3124705c", null ],
     [ "textTransform", "class_j_k_q_t_math_text_text_node.html#a4e7ff485be51b4f7385de9f54af89a5e", null ],
     [ "blackboardUnicodeTable", "class_j_k_q_t_math_text_text_node.html#afabc53b79778030a3b6bbc83ecb08934", null ]

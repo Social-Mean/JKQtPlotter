@@ -113,15 +113,18 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_math_text_matrix_node.ht
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_j_k_q_t_math_text_matrix_node-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">JKQTMathTextMatrixNode Class Reference<div class="ingroups"><a class="el" href="group__jkqtmathtext.html">JKQTMathText LaTeX-Renderer for Qt</a> &raquo; <a class="el" href="group__jkqtmathtext__interaltools.html">Library-internal Types and Functions</a> &raquo; <a class="el" href="group__jkqtmathtext__items.html">Render-Tree Items for JKQTMathText</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>subclass representing a \begin{matrix} node  
+<p>subclass representing a <code>\begin{matrix}</code> , <code>\begin{tabular}</code> , <code>\begin{array}</code> , ... node  
  <a href="class_j_k_q_t_math_text_matrix_node.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="jkqtmathtextmatrixnode_8h_source.html">jkqtmathtextmatrixnode.h</a>&gt;</code></p>
@@ -138,10 +141,39 @@ Collaboration diagram for JKQTMathTextMatrixNode:</div>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html">LayoutInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes the layout of the whole node  <a href="struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a5229daaabd8f57ac4e32bd6b441c2a74"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a> { <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74a520c5558791a7397f9b7ba5a92d14c19">LTnone</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74a64f497a96efb5a692f1b2343958ca63f">LTline</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74ae5a81c52fe1c2cf3c0cac759ff215db6">LTdoubleline</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74a57260dbae0b73d34ec9c613fbc10fa87">LTheavyline</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74ad1bf08a781c88e76bb4381efba1b80fd">LTdashed</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74ac24f1a6e21b1927cea0df60a666913aa">LTdoubleDashed</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74a40de50c8f70a6936e56a133a1e1d5af8">LTdefault</a> =LTnone
+<br />
+ }</td></tr>
+<tr class="memdesc:a5229daaabd8f57ac4e32bd6b441c2a74"><td class="mdescLeft">&#160;</td><td class="mdescRight">types of lines  <a href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">More...</a><br /></td></tr>
+<tr class="separator:a5229daaabd8f57ac4e32bd6b441c2a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a723d272c4af33dcc5cdeaa68aa775e2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a723d272c4af33dcc5cdeaa68aa775e2e">JKQTMathTextMatrixNode</a> (<a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent, QVector&lt; QVector&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt; &gt; <a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a1b4e473dd36d33f04984ab891bb5f97d">children</a>)</td></tr>
-<tr class="separator:a723d272c4af33dcc5cdeaa68aa775e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a203a7e7c687f73242701d3f22217bbbb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a203a7e7c687f73242701d3f22217bbbb">JKQTMathTextMatrixNode</a> (<a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent, const QString &amp;columnSpec=QString())</td></tr>
+<tr class="separator:a203a7e7c687f73242701d3f22217bbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69ac80bbec009bdc0e5d9d46b5f2107"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#ad69ac80bbec009bdc0e5d9d46b5f2107">JKQTMathTextMatrixNode</a> (<a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent, const QVector&lt; QVector&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt; &gt; &amp;<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a1b4e473dd36d33f04984ab891bb5f97d">children</a>, const QString &amp;columnSpec=QString())</td></tr>
+<tr class="separator:ad69ac80bbec009bdc0e5d9d46b5f2107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87b5efbbf7df86e1ff841ef400126779"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a87b5efbbf7df86e1ff841ef400126779">~JKQTMathTextMatrixNode</a> () override</td></tr>
 <tr class="separator:a87b5efbbf7df86e1ff841ef400126779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab03716cb4284b46fedbbc06c404929c7"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#ab03716cb4284b46fedbbc06c404929c7">draw</a> (QPainter &amp;painter, double x, double y, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr) override</td></tr>
@@ -160,6 +192,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1c618ace443251e4b89975d91d37e3d7"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a1c618ace443251e4b89975d91d37e3d7">getTypeName</a> () const override</td></tr>
 <tr class="memdesc:a1c618ace443251e4b89975d91d37e3d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the name of this class as a string  <a href="class_j_k_q_t_math_text_matrix_node.html#a1c618ace443251e4b89975d91d37e3d7">More...</a><br /></td></tr>
 <tr class="separator:a1c618ace443251e4b89975d91d37e3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc28bf7709a30d960fef24e421bd94cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#abc28bf7709a30d960fef24e421bd94cf">setChildren</a> (const QVector&lt; QVector&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt; &gt; &amp;<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a1b4e473dd36d33f04984ab891bb5f97d">children</a>)</td></tr>
+<tr class="memdesc:abc28bf7709a30d960fef24e421bd94cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the child nodes <br  />
+  <a href="class_j_k_q_t_math_text_matrix_node.html#abc28bf7709a30d960fef24e421bd94cf">More...</a><br /></td></tr>
+<tr class="separator:abc28bf7709a30d960fef24e421bd94cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5be0e5bebc0cc8b87b93128946a8fa3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5be0e5bebc0cc8b87b93128946a8fa3e">setRowBottomLine</a> (int col, <a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a> line)</td></tr>
+<tr class="memdesc:a5be0e5bebc0cc8b87b93128946a8fa3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">lines to the bottom of each row  <a href="class_j_k_q_t_math_text_matrix_node.html#a5be0e5bebc0cc8b87b93128946a8fa3e">More...</a><br /></td></tr>
+<tr class="separator:a5be0e5bebc0cc8b87b93128946a8fa3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a017bc77f84028c78147f8158fa2b1971"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a017bc77f84028c78147f8158fa2b1971">setTopLine</a> (<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a> line)</td></tr>
+<tr class="memdesc:a017bc77f84028c78147f8158fa2b1971"><td class="mdescLeft">&#160;</td><td class="mdescRight">line at the top of the table  <a href="class_j_k_q_t_math_text_matrix_node.html#a017bc77f84028c78147f8158fa2b1971">More...</a><br /></td></tr>
+<tr class="separator:a017bc77f84028c78147f8158fa2b1971"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b886a997a51a221cb48410eb163727d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a2b886a997a51a221cb48410eb163727d">toHtml</a> (QString &amp;html, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> defaultEv) override</td></tr>
 <tr class="memdesc:a2b886a997a51a221cb48410eb163727d"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert node to HTML and returns <code>true</code> on success  <a href="class_j_k_q_t_math_text_matrix_node.html#a2b886a997a51a221cb48410eb163727d">More...</a><br /></td></tr>
 <tr class="separator:a2b886a997a51a221cb48410eb163727d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,9 +256,15 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a114c86ac7726cf68e5ee661e96ab85d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html">LayoutInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a114c86ac7726cf68e5ee661e96ab85d7">calcLayout</a> (QPainter &amp;painter, const <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> &amp;currentEv) const</td></tr>
+<tr class="memdesc:a114c86ac7726cf68e5ee661e96ab85d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">calclates the layout of the whole block/node  <a href="class_j_k_q_t_math_text_matrix_node.html#a114c86ac7726cf68e5ee661e96ab85d7">More...</a><br /></td></tr>
+<tr class="separator:a114c86ac7726cf68e5ee661e96ab85d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a73963021816fe96c603679361e6955"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a0a73963021816fe96c603679361e6955">getSizeInternal</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double &amp;width, double &amp;baselineHeight, double &amp;overallHeight, double &amp;strikeoutPos, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr) override</td></tr>
 <tr class="memdesc:a0a73963021816fe96c603679361e6955"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, overwrite this function in derived classes  <a href="class_j_k_q_t_math_text_matrix_node.html#a0a73963021816fe96c603679361e6955">More...</a><br /></td></tr>
 <tr class="separator:a0a73963021816fe96c603679361e6955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ad2860a44b439fd7bc0f614292912be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a0ad2860a44b439fd7bc0f614292912be">parseColumnSpec</a> (const QString &amp;columnspec)</td></tr>
+<tr class="memdesc:a0ad2860a44b439fd7bc0f614292912be"><td class="mdescLeft">&#160;</td><td class="mdescRight">parses a column specifier  <a href="class_j_k_q_t_math_text_matrix_node.html#a0ad2860a44b439fd7bc0f614292912be">More...</a><br /></td></tr>
+<tr class="separator:a0ad2860a44b439fd7bc0f614292912be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a455cb3082fe69e57327a2641ed938397"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a455cb3082fe69e57327a2641ed938397">setDrawBoxes</a> (bool <a class="el" href="class_j_k_q_t_math_text_matrix_node.html#ab03716cb4284b46fedbbc06c404929c7">draw</a>) override</td></tr>
 <tr class="memdesc:a455cb3082fe69e57327a2641ed938397"><td class="mdescLeft">&#160;</td><td class="mdescRight">enables the drawing of colored boxes (for DEBUGGING) around the actual output of the node  <a href="class_j_k_q_t_math_text_matrix_node.html#a455cb3082fe69e57327a2641ed938397">More...</a><br /></td></tr>
 <tr class="separator:a455cb3082fe69e57327a2641ed938397"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,17 +284,41 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a3f89e2519be406551fef640ce77b53fd inherit pro_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, overwrite this function in derived classes  <a href="class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd">More...</a><br /></td></tr>
 <tr class="separator:a3f89e2519be406551fef640ce77b53fd inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a877baa095b537190b20bbd8a06832153"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a877baa095b537190b20bbd8a06832153">drawHLine</a> (QPainter &amp;painter, double x, double y, double width, <a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a> lt, double linewidth, double linewidthHeavy, QColor color, double doublelineseparation)</td></tr>
+<tr class="memdesc:a877baa095b537190b20bbd8a06832153"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw a horizontal line starting at pixel position (<em>x</em>, <em>y</em> ) with length <em>width</em>, using linetype <em>lt</em>, width <em>linewidth</em> and <em>color</em>  <a href="class_j_k_q_t_math_text_matrix_node.html#a877baa095b537190b20bbd8a06832153">More...</a><br /></td></tr>
+<tr class="separator:a877baa095b537190b20bbd8a06832153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f2e813522215d5a0f4947da795fb62c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5f2e813522215d5a0f4947da795fb62c">drawVLine</a> (QPainter &amp;painter, double x, double y, double height, <a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a> lt, double linewidth, double linewidthHeavy, QColor color, double doublelineseparation)</td></tr>
+<tr class="memdesc:a5f2e813522215d5a0f4947da795fb62c"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw a vertical line starting at pixel position (<em>x</em>, <em>y</em> ) with length <em>height</em>, using linetype <em>lt</em>, width <em>linewidth</em> and <em>color</em>  <a href="class_j_k_q_t_math_text_matrix_node.html#a5f2e813522215d5a0f4947da795fb62c">More...</a><br /></td></tr>
+<tr class="separator:a5f2e813522215d5a0f4947da795fb62c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a1b4e473dd36d33f04984ab891bb5f97d"><td class="memItemLeft" align="right" valign="top">QVector&lt; QVector&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a1b4e473dd36d33f04984ab891bb5f97d">children</a></td></tr>
 <tr class="memdesc:a1b4e473dd36d33f04984ab891bb5f97d"><td class="mdescLeft">&#160;</td><td class="mdescRight">child nodes making up the matrix, vector of rows  <a href="class_j_k_q_t_math_text_matrix_node.html#a1b4e473dd36d33f04984ab891bb5f97d">More...</a><br /></td></tr>
 <tr class="separator:a1b4e473dd36d33f04984ab891bb5f97d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae91008f609513a777dcc9f83d0e96fc"><td class="memItemLeft" align="right" valign="top">QVector&lt; <a class="el" href="group__jkqtmathtext__tools.html#ga2fab98d9916942d8ee0f29841ed82448">JKQTMathTextHorizontalAlignment</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#aae91008f609513a777dcc9f83d0e96fc">columnAlignment</a></td></tr>
+<tr class="memdesc:aae91008f609513a777dcc9f83d0e96fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">alignment of the columns  <a href="class_j_k_q_t_math_text_matrix_node.html#aae91008f609513a777dcc9f83d0e96fc">More...</a><br /></td></tr>
+<tr class="separator:aae91008f609513a777dcc9f83d0e96fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dbcc00556a9a941523ee439439c6f30"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a8dbcc00556a9a941523ee439439c6f30">columns</a></td></tr>
 <tr class="memdesc:a8dbcc00556a9a941523ee439439c6f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of columns in the matrix  <a href="class_j_k_q_t_math_text_matrix_node.html#a8dbcc00556a9a941523ee439439c6f30">More...</a><br /></td></tr>
 <tr class="separator:a8dbcc00556a9a941523ee439439c6f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdc918ca7eb040ecc115960557944096"><td class="memItemLeft" align="right" valign="top">QMap&lt; int, <a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#abdc918ca7eb040ecc115960557944096">horizontalLineBottomRow</a></td></tr>
+<tr class="memdesc:abdc918ca7eb040ecc115960557944096"><td class="mdescLeft">&#160;</td><td class="mdescRight">lines to the bottom of each row  <a href="class_j_k_q_t_math_text_matrix_node.html#abdc918ca7eb040ecc115960557944096">More...</a><br /></td></tr>
+<tr class="separator:abdc918ca7eb040ecc115960557944096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20ac9bc031184edc3a333ed55ef8d200"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a20ac9bc031184edc3a333ed55ef8d200">horizontalLineTop</a></td></tr>
+<tr class="memdesc:a20ac9bc031184edc3a333ed55ef8d200"><td class="mdescLeft">&#160;</td><td class="mdescRight">line at the top of the table  <a href="class_j_k_q_t_math_text_matrix_node.html#a20ac9bc031184edc3a333ed55ef8d200">More...</a><br /></td></tr>
+<tr class="separator:a20ac9bc031184edc3a333ed55ef8d200"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bb86c1299d2b2fa5774ae6d5e0f5dca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a3bb86c1299d2b2fa5774ae6d5e0f5dca">lines</a></td></tr>
 <tr class="memdesc:a3bb86c1299d2b2fa5774ae6d5e0f5dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of rows in the matrix  <a href="class_j_k_q_t_math_text_matrix_node.html#a3bb86c1299d2b2fa5774ae6d5e0f5dca">More...</a><br /></td></tr>
 <tr class="separator:a3bb86c1299d2b2fa5774ae6d5e0f5dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea379a8e4278cdd4d55bdfbda34912c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5ea379a8e4278cdd4d55bdfbda34912c">verticalLineLeft</a></td></tr>
+<tr class="memdesc:a5ea379a8e4278cdd4d55bdfbda34912c"><td class="mdescLeft">&#160;</td><td class="mdescRight">line at the left of the table  <a href="class_j_k_q_t_math_text_matrix_node.html#a5ea379a8e4278cdd4d55bdfbda34912c">More...</a><br /></td></tr>
+<tr class="separator:a5ea379a8e4278cdd4d55bdfbda34912c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6820bf110092398980c9f456b012ef6b"><td class="memItemLeft" align="right" valign="top">QMap&lt; int, <a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a6820bf110092398980c9f456b012ef6b">verticalLineRHSColumn</a></td></tr>
+<tr class="memdesc:a6820bf110092398980c9f456b012ef6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">lines to the right of each column  <a href="class_j_k_q_t_math_text_matrix_node.html#a6820bf110092398980c9f456b012ef6b">More...</a><br /></td></tr>
+<tr class="separator:a6820bf110092398980c9f456b012ef6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_j_k_q_t_math_text_node"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_j_k_q_t_math_text_node')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a></td></tr>
 <tr class="memitem:aa81a38802dd63349e3fec37d28e2d73c inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#aa81a38802dd63349e3fec37d28e2d73c">drawBoxes</a></td></tr>
 <tr class="memdesc:aa81a38802dd63349e3fec37d28e2d73c inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">enables the drawing of colored boxes (for DEBUGGING) around the actual output of the node  <a href="class_j_k_q_t_math_text_node.html#aa81a38802dd63349e3fec37d28e2d73c">More...</a><br /></td></tr>
@@ -262,10 +334,51 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:afdec8ae06750ccbc25045c60d0a973e0 inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >subclass representing a \begin{matrix} node </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a723d272c4af33dcc5cdeaa68aa775e2e" name="a723d272c4af33dcc5cdeaa68aa775e2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a723d272c4af33dcc5cdeaa68aa775e2e">&#9670;&nbsp;</a></span>JKQTMathTextMatrixNode()</h2>
+<div class="textblock"><p >subclass representing a <code>\begin{matrix}</code> , <code>\begin{tabular}</code> , <code>\begin{array}</code> , ... node </p>
+<p >Definition of the matrix geometry </p><div class="image">
+<img src="jkqtmathtext_matrix_geometry.png" alt=""/>
+</div>
+<p >Two examples: </p><div class="image">
+<img src="jkqtmathtext_tabular.png" alt=""/>
+</div>
+<div class="image">
+<img src="jkqtmathtext_array.png" alt=""/>
+</div>
+ </div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a5229daaabd8f57ac4e32bd6b441c2a74" name="a5229daaabd8f57ac4e32bd6b441c2a74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5229daaabd8f57ac4e32bd6b441c2a74">&#9670;&nbsp;</a></span>LineType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">JKQTMathTextMatrixNode::LineType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>types of lines </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5229daaabd8f57ac4e32bd6b441c2a74a520c5558791a7397f9b7ba5a92d14c19" name="a5229daaabd8f57ac4e32bd6b441c2a74a520c5558791a7397f9b7ba5a92d14c19"></a>LTnone&#160;</td><td class="fielddoc"><p >noline </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5229daaabd8f57ac4e32bd6b441c2a74a64f497a96efb5a692f1b2343958ca63f" name="a5229daaabd8f57ac4e32bd6b441c2a74a64f497a96efb5a692f1b2343958ca63f"></a>LTline&#160;</td><td class="fielddoc"><p >single line </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5229daaabd8f57ac4e32bd6b441c2a74ae5a81c52fe1c2cf3c0cac759ff215db6" name="a5229daaabd8f57ac4e32bd6b441c2a74ae5a81c52fe1c2cf3c0cac759ff215db6"></a>LTdoubleline&#160;</td><td class="fielddoc"><p >double line </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5229daaabd8f57ac4e32bd6b441c2a74a57260dbae0b73d34ec9c613fbc10fa87" name="a5229daaabd8f57ac4e32bd6b441c2a74a57260dbae0b73d34ec9c613fbc10fa87"></a>LTheavyline&#160;</td><td class="fielddoc"><p >heavier/thick line </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5229daaabd8f57ac4e32bd6b441c2a74ad1bf08a781c88e76bb4381efba1b80fd" name="a5229daaabd8f57ac4e32bd6b441c2a74ad1bf08a781c88e76bb4381efba1b80fd"></a>LTdashed&#160;</td><td class="fielddoc"><p >single dashed line </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5229daaabd8f57ac4e32bd6b441c2a74ac24f1a6e21b1927cea0df60a666913aa" name="a5229daaabd8f57ac4e32bd6b441c2a74ac24f1a6e21b1927cea0df60a666913aa"></a>LTdoubleDashed&#160;</td><td class="fielddoc"><p >double dashed line </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5229daaabd8f57ac4e32bd6b441c2a74a40de50c8f70a6936e56a133a1e1d5af8" name="a5229daaabd8f57ac4e32bd6b441c2a74a40de50c8f70a6936e56a133a1e1d5af8"></a>LTdefault&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ad69ac80bbec009bdc0e5d9d46b5f2107" name="ad69ac80bbec009bdc0e5d9d46b5f2107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad69ac80bbec009bdc0e5d9d46b5f2107">&#9670;&nbsp;</a></span>JKQTMathTextMatrixNode() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,8 +392,42 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QVector&lt; QVector&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt; &gt;&#160;</td>
-          <td class="paramname"><em>children</em>&#160;</td>
+          <td class="paramtype">const QVector&lt; QVector&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>children</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>columnSpec</em> = <code>QString()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a203a7e7c687f73242701d3f22217bbbb" name="a203a7e7c687f73242701d3f22217bbbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a203a7e7c687f73242701d3f22217bbbb">&#9670;&nbsp;</a></span>JKQTMathTextMatrixNode() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">JKQTMathTextMatrixNode::JKQTMathTextMatrixNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>columnSpec</em> = <code>QString()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -318,6 +465,45 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a114c86ac7726cf68e5ee661e96ab85d7" name="a114c86ac7726cf68e5ee661e96ab85d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a114c86ac7726cf68e5ee661e96ab85d7">&#9670;&nbsp;</a></span>calcLayout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html">LayoutInfo</a> JKQTMathTextMatrixNode::calcLayout </td>
+          <td>(</td>
+          <td class="paramtype">QPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> &amp;&#160;</td>
+          <td class="paramname"><em>currentEv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>calclates the layout of the whole block/node </p>
+<dl class="section note"><dt>Note</dt><dd>This function does NOT call transformEnvironment(); it has to be called before calling this! </dd></dl>
+
+</div>
+</div>
 <a id="ab03716cb4284b46fedbbc06c404929c7" name="ab03716cb4284b46fedbbc06c404929c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab03716cb4284b46fedbbc06c404929c7">&#9670;&nbsp;</a></span>draw()</h2>
 
@@ -384,6 +570,166 @@ Protected Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>the x position which to use for the next part of the text </dd></dl>
 
 <p>Implements <a class="el" href="class_j_k_q_t_math_text_node.html#a23a4a02505cb308f4aa5eca177f030ef">JKQTMathTextNode</a>.</p>
+
+</div>
+</div>
+<a id="a877baa095b537190b20bbd8a06832153" name="a877baa095b537190b20bbd8a06832153"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a877baa095b537190b20bbd8a06832153">&#9670;&nbsp;</a></span>drawHLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void JKQTMathTextMatrixNode::drawHLine </td>
+          <td>(</td>
+          <td class="paramtype">QPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a>&#160;</td>
+          <td class="paramname"><em>lt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>linewidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>linewidthHeavy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QColor&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>doublelineseparation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>draw a horizontal line starting at pixel position (<em>x</em>, <em>y</em> ) with length <em>width</em>, using linetype <em>lt</em>, width <em>linewidth</em> and <em>color</em> </p>
+
+</div>
+</div>
+<a id="a5f2e813522215d5a0f4947da795fb62c" name="a5f2e813522215d5a0f4947da795fb62c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f2e813522215d5a0f4947da795fb62c">&#9670;&nbsp;</a></span>drawVLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void JKQTMathTextMatrixNode::drawVLine </td>
+          <td>(</td>
+          <td class="paramtype">QPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a>&#160;</td>
+          <td class="paramname"><em>lt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>linewidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>linewidthHeavy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QColor&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>doublelineseparation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>draw a vertical line starting at pixel position (<em>x</em>, <em>y</em> ) with length <em>height</em>, using linetype <em>lt</em>, width <em>linewidth</em> and <em>color</em> </p>
 
 </div>
 </div>
@@ -556,6 +902,55 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a0ad2860a44b439fd7bc0f614292912be" name="a0ad2860a44b439fd7bc0f614292912be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ad2860a44b439fd7bc0f614292912be">&#9670;&nbsp;</a></span>parseColumnSpec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathTextMatrixNode::parseColumnSpec </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>columnspec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parses a column specifier </p>
+
+</div>
+</div>
+<a id="abc28bf7709a30d960fef24e421bd94cf" name="abc28bf7709a30d960fef24e421bd94cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc28bf7709a30d960fef24e421bd94cf">&#9670;&nbsp;</a></span>setChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathTextMatrixNode::setChildren </td>
+          <td>(</td>
+          <td class="paramtype">const QVector&lt; QVector&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>children</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sets the child nodes <br  />
+ </p>
+
+</div>
+</div>
 <a id="a455cb3082fe69e57327a2641ed938397" name="a455cb3082fe69e57327a2641ed938397"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a455cb3082fe69e57327a2641ed938397">&#9670;&nbsp;</a></span>setDrawBoxes()</h2>
 
@@ -583,6 +978,56 @@ Protected Attributes</h2></td></tr>
 <p>enables the drawing of colored boxes (for DEBUGGING) around the actual output of the node </p>
 
 <p>Reimplemented from <a class="el" href="class_j_k_q_t_math_text_node.html#a616006320c94d7bcb7546effa9812bee">JKQTMathTextNode</a>.</p>
+
+</div>
+</div>
+<a id="a5be0e5bebc0cc8b87b93128946a8fa3e" name="a5be0e5bebc0cc8b87b93128946a8fa3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5be0e5bebc0cc8b87b93128946a8fa3e">&#9670;&nbsp;</a></span>setRowBottomLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathTextMatrixNode::setRowBottomLine </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>col</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a>&#160;</td>
+          <td class="paramname"><em>line</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>lines to the bottom of each row </p>
+
+</div>
+</div>
+<a id="a017bc77f84028c78147f8158fa2b1971" name="a017bc77f84028c78147f8158fa2b1971"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a017bc77f84028c78147f8158fa2b1971">&#9670;&nbsp;</a></span>setTopLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathTextMatrixNode::setTopLine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a>&#160;</td>
+          <td class="paramname"><em>line</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>line at the top of the table </p>
 
 </div>
 </div>
@@ -666,6 +1111,30 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aae91008f609513a777dcc9f83d0e96fc" name="aae91008f609513a777dcc9f83d0e96fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae91008f609513a777dcc9f83d0e96fc">&#9670;&nbsp;</a></span>columnAlignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt;<a class="el" href="group__jkqtmathtext__tools.html#ga2fab98d9916942d8ee0f29841ed82448">JKQTMathTextHorizontalAlignment</a>&gt; JKQTMathTextMatrixNode::columnAlignment</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>alignment of the columns </p>
+
+</div>
+</div>
 <a id="a8dbcc00556a9a941523ee439439c6f30" name="a8dbcc00556a9a941523ee439439c6f30"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8dbcc00556a9a941523ee439439c6f30">&#9670;&nbsp;</a></span>columns</h2>
 
@@ -687,6 +1156,54 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>number of columns in the matrix </p>
+
+</div>
+</div>
+<a id="abdc918ca7eb040ecc115960557944096" name="abdc918ca7eb040ecc115960557944096"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc918ca7eb040ecc115960557944096">&#9670;&nbsp;</a></span>horizontalLineBottomRow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;int,<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a>&gt; JKQTMathTextMatrixNode::horizontalLineBottomRow</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>lines to the bottom of each row </p>
+
+</div>
+</div>
+<a id="a20ac9bc031184edc3a333ed55ef8d200" name="a20ac9bc031184edc3a333ed55ef8d200"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20ac9bc031184edc3a333ed55ef8d200">&#9670;&nbsp;</a></span>horizontalLineTop</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a> JKQTMathTextMatrixNode::horizontalLineTop</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>line at the top of the table </p>
 
 </div>
 </div>
@@ -714,6 +1231,54 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5ea379a8e4278cdd4d55bdfbda34912c" name="a5ea379a8e4278cdd4d55bdfbda34912c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ea379a8e4278cdd4d55bdfbda34912c">&#9670;&nbsp;</a></span>verticalLineLeft</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a> JKQTMathTextMatrixNode::verticalLineLeft</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>line at the left of the table </p>
+
+</div>
+</div>
+<a id="a6820bf110092398980c9f456b012ef6b" name="a6820bf110092398980c9f456b012ef6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6820bf110092398980c9f456b012ef6b">&#9670;&nbsp;</a></span>verticalLineRHSColumn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;int,<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a>&gt; JKQTMathTextMatrixNode::verticalLineRHSColumn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>lines to the right of each column </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="jkqtmathtextmatrixnode_8h_source.html">jkqtmathtextmatrixnode.h</a></li>
 </ul>
@@ -723,7 +1288,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html">JKQTMathTextMatrixNode</a></li>
-    <li class="footer">Generated on Thu Aug 11 2022 15:30:04 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Aug 12 2022 10:57:23 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

@@ -63,6 +63,7 @@ var hierarchy =
       [ "JKQTMathTextWhitespaceNode", "class_j_k_q_t_math_text_whitespace_node.html", null ]
     ] ],
     [ "JKQTMathTextNodeSize", "struct_j_k_q_t_math_text_node_size.html", [
+      [ "JKQTMathTextMatrixNode::LayoutInfo", "struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html", null ],
       [ "JKQTMathTextVerbatimNode::LayoutInfo", "struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html", null ],
       [ "JKQTMathTextVerticalListNode::LayoutInfo", "struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html", null ]
     ] ],

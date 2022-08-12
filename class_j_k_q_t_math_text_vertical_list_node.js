@@ -11,6 +11,7 @@ var class_j_k_q_t_math_text_vertical_list_node =
     [ "childCount", "class_j_k_q_t_math_text_vertical_list_node.html#af510b70ef51e59e1e2b060bb168c35b5", null ],
     [ "clearChildren", "class_j_k_q_t_math_text_vertical_list_node.html#ace0d44c6bbc8af524bd3800eaea35140", null ],
     [ "clearChildrenImpl", "class_j_k_q_t_math_text_vertical_list_node.html#a52b19bc8f49162472f3ed7221374375d", null ],
+    [ "deleteChild", "class_j_k_q_t_math_text_vertical_list_node.html#a981578b2c694e3f2b583edd6ce1f5e09", null ],
     [ "draw", "class_j_k_q_t_math_text_vertical_list_node.html#ace8981ef6500cb9bed8876636505231d", null ],
     [ "getAlignment", "class_j_k_q_t_math_text_vertical_list_node.html#ae40a19c8f2fb20c9ead29fdf8c87adba", null ],
     [ "getChild", "class_j_k_q_t_math_text_vertical_list_node.html#a0cc345287ba54ea74a6b00239c35b6ce", null ],

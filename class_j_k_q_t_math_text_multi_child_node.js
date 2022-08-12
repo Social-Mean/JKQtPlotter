@@ -4,6 +4,7 @@ var class_j_k_q_t_math_text_multi_child_node =
     [ "~JKQTMathTextMultiChildNode", "class_j_k_q_t_math_text_multi_child_node.html#a545a4d3c98d17c3d281821dab9a33b8a", null ],
     [ "childCount", "class_j_k_q_t_math_text_multi_child_node.html#a745458e25f4b51bcbec322675d1f6e0f", null ],
     [ "clearChildren", "class_j_k_q_t_math_text_multi_child_node.html#afc514f6ff14e84d85c0c251fd9a1cef4", null ],
+    [ "deleteChild", "class_j_k_q_t_math_text_multi_child_node.html#ae11b31c20f8fcd797f76b222c9e7c2c7", null ],
     [ "getChild", "class_j_k_q_t_math_text_multi_child_node.html#abcafce6e3311ed238730d5616288d89d", null ],
     [ "getChild", "class_j_k_q_t_math_text_multi_child_node.html#a8224d99b45f04d2bded34d662c346632", null ],
     [ "getChildren", "class_j_k_q_t_math_text_multi_child_node.html#af890dbc303e6ac0bd8c4c8830a6c9c9f", null ],
