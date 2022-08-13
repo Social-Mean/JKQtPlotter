@@ -1,5 +1,11 @@
 var class_j_k_q_t_math_text =
 [
+    [ "ParseOption", "class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30", [
+      [ "AddSpaceBeforeAndAfter", "class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30a5a7ef5698c0a6ed28aff2d31c13f7e3f", null ],
+      [ "StartWithMathMode", "class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30a2447bb819a93b7726d4b1fa9327874bb", null ],
+      [ "AllowLinebreaks", "class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30a08b1ec6f90914c2e2af2f9839db0394f", null ],
+      [ "DefaultParseOptions", "class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30a62db27c19a447e00687625c54d2b3245", null ]
+    ] ],
     [ "tokenType", "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532", [
       [ "MTTnone", "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532af58e19d66016b1b2f794a412c1fd09e3", null ],
       [ "MTTtext", "class_j_k_q_t_math_text.html#ab2b829bd80180f0c7c6259effc36b532a78ae86e657ead3ff77b26e5fc604a0ac", null ],
@@ -108,9 +114,8 @@ var class_j_k_q_t_math_text =
     [ "getUndersetFactor", "class_j_k_q_t_math_text.html#a6c53e2ff4689dc9262d7610ac613eb19", null ],
     [ "giveBackToTokenizer", "class_j_k_q_t_math_text.html#a386fa4db289a922ac9614061ee0cccd7", null ],
     [ "hadErrors", "class_j_k_q_t_math_text.html#a25ffa56294dabd127143c23076bddce3", null ],
-    [ "isUsingUnparsed", "class_j_k_q_t_math_text.html#ad1ecf17531288f4bedd880754d00a1d2", null ],
     [ "loadSettings", "class_j_k_q_t_math_text.html#a8862f932173da3044cf4b34b260f7256", null ],
-    [ "parse", "class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07", null ],
+    [ "parse", "class_j_k_q_t_math_text.html#ac566479ebedf116b701fe05818fb7e1b", null ],
     [ "parseInstruction", "class_j_k_q_t_math_text.html#a42fc9b1493edb700eea12f77784999bb", null ],
     [ "parseLatexString", "class_j_k_q_t_math_text.html#ac926999714413107f41691e262bbeffa", null ],
     [ "parseMath", "class_j_k_q_t_math_text.html#a84fb0ccfe736469c7bec002f6bf9fbb5", null ],
@@ -173,7 +178,6 @@ var class_j_k_q_t_math_text =
     [ "setUnderbraceFactor", "class_j_k_q_t_math_text.html#a6fb6e547dbcd965e5c76de9aadb6d9b0", null ],
     [ "setUnderbraceSeparationXFactor", "class_j_k_q_t_math_text.html#a898f6f7e058aea29b2763fb1deb1cf23", null ],
     [ "setUndersetFactor", "class_j_k_q_t_math_text.html#abd335938fea6c958e1dd4e0367ce4928", null ],
-    [ "setUseUnparsed", "class_j_k_q_t_math_text.html#a765986fe318c03c2af5a7a7964410034", null ],
     [ "toHtml", "class_j_k_q_t_math_text.html#a4fd28699b36009ec0177f78c6b4545f7", null ],
     [ "tokenType2String", "class_j_k_q_t_math_text.html#a0900d8e1ee781c49889190ca4c46c139", null ],
     [ "useAnyUnicode", "class_j_k_q_t_math_text.html#ad2eec62337aed49ce088e10e87a8ca52", null ],
@@ -235,7 +239,5 @@ var class_j_k_q_t_math_text =
     [ "underbrace_bracesize_xfactor", "class_j_k_q_t_math_text.html#af709eb2eba85fccaa96538e54eb36c0b", null ],
     [ "underbrace_factor", "class_j_k_q_t_math_text.html#ae8c0f4c722427e3edda62f9c64cc54fe", null ],
     [ "underbrace_separation_xfactor", "class_j_k_q_t_math_text.html#a3ebf6c6354b7ff74bf948e7c70bd9115", null ],
-    [ "underset_factor", "class_j_k_q_t_math_text.html#acbed293e5a80a01d9a640877093274c6", null ],
-    [ "unparsedNode", "class_j_k_q_t_math_text.html#a59f1dfd9a246f8b79a21cc16c23b3c6b", null ],
-    [ "useUnparsed", "class_j_k_q_t_math_text.html#a978e42e5710e7b15406da7f0020d0aea", null ]
+    [ "underset_factor", "class_j_k_q_t_math_text.html#acbed293e5a80a01d9a640877093274c6", null ]
 ];

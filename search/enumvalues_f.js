@@ -13,9 +13,10 @@ var searchData=
   ['sorted_10',['Sorted',['../class_j_k_q_t_p_boxplot_graph_base.html#aad9f14c9278cbcebae6651587df0c2c0a91790ff883cb1e333048223060c58545',1,'JKQTPBoxplotGraphBase::Sorted()'],['../class_j_k_q_t_p_single_column_graph.html#a7b62a5cedc32ad15abad51cdda426453acdc73d7d8015d5444b7bc175edb46692',1,'JKQTPSingleColumnGraph::Sorted()']]],
   ['sortedx_11',['SortedX',['../class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909a49028b29bbaaa1c223075c5fbca809ec',1,'JKQTPXYGraph']]],
   ['sortedy_12',['SortedY',['../class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909a2016d1112c09a22048f24be6c3879f57',1,'JKQTPXYGraph']]],
-  ['stcircle_13',['stCircle',['../class_j_k_q_t_f_pimage_overlay_plot.html#a282858ecd162907d51cf445386004f11a2eb50b7b0350830c31beaf3d32e433c6',1,'JKQTFPimageOverlayPlot']]],
-  ['stepviolin_14',['StepViolin',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a04d55d189bef4e81178f65f5b7416034a4c1d686b642f717a287cfc7e8a545fca',1,'JKQTPGraphViolinplotStyleMixin']]],
-  ['strectangle_15',['stRectangle',['../class_j_k_q_t_f_pimage_overlay_plot.html#a282858ecd162907d51cf445386004f11a2d426c61b8e593c9ab7d1c009a93ec7a',1,'JKQTFPimageOverlayPlot']]],
-  ['string_5fdelim_16',['STRING_DELIM',['../class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49afbc079b3805cea3a4ba49fcc29bbf1f0',1,'JKQTPMathParser']]],
-  ['subsuperscriptbelowabovesymbol_17',['SubSuperscriptBelowAboveSymbol',['../class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ade2fa39a07710b82e492afc691b02aa1',1,'JKQTMathTextSymbolNode']]]
+  ['startwithmathmode_13',['StartWithMathMode',['../class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30a2447bb819a93b7726d4b1fa9327874bb',1,'JKQTMathText']]],
+  ['stcircle_14',['stCircle',['../class_j_k_q_t_f_pimage_overlay_plot.html#a282858ecd162907d51cf445386004f11a2eb50b7b0350830c31beaf3d32e433c6',1,'JKQTFPimageOverlayPlot']]],
+  ['stepviolin_15',['StepViolin',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a04d55d189bef4e81178f65f5b7416034a4c1d686b642f717a287cfc7e8a545fca',1,'JKQTPGraphViolinplotStyleMixin']]],
+  ['strectangle_16',['stRectangle',['../class_j_k_q_t_f_pimage_overlay_plot.html#a282858ecd162907d51cf445386004f11a2d426c61b8e593c9ab7d1c009a93ec7a',1,'JKQTFPimageOverlayPlot']]],
+  ['string_5fdelim_17',['STRING_DELIM',['../class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49afbc079b3805cea3a4ba49fcc29bbf1f0',1,'JKQTPMathParser']]],
+  ['subsuperscriptbelowabovesymbol_18',['SubSuperscriptBelowAboveSymbol',['../class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ade2fa39a07710b82e492afc691b02aa1',1,'JKQTMathTextSymbolNode']]]
 ];

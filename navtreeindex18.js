@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"class_j_k_q_t_p_math_image_color_palette_combo_box.html#a1d63cbb9be016fd30ee50e56ca18bc8b":[10,4,4,0,9,1],
 "class_j_k_q_t_p_math_image_color_palette_combo_box.html#a32cda9650a85354cba07690aee882e95":[10,4,4,0,9,7],
 "class_j_k_q_t_p_math_image_color_palette_combo_box.html#a649786ff7bd54c2ef8832dc9e5edcea4":[10,4,4,0,9,4],
 "class_j_k_q_t_p_math_image_color_palette_combo_box.html#a8631f9c0d198079e22f65528cd9b2067":[10,4,4,0,9,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "class_j_k_q_t_p_paint_device_adapter.html#a3034dcb3342b2501576b33f302cbadae":[10,4,5,1,6],
 "class_j_k_q_t_p_paint_device_adapter.html#a67e3a79f82a548311378457dc76f3234":[10,4,5,1,0],
 "class_j_k_q_t_p_paint_device_adapter.html#a74f182b3d4215497a59add328273394b":[10,4,5,1,8],
-"class_j_k_q_t_p_paint_device_adapter.html#a77c586b60165321555f10e582e42973f":[10,4,5,1,5],
-"class_j_k_q_t_p_paint_device_adapter.html#a8bfc80e46759c357a5828b55c998370f":[10,4,5,1,3]
+"class_j_k_q_t_p_paint_device_adapter.html#a77c586b60165321555f10e582e42973f":[10,4,5,1,5]
 };

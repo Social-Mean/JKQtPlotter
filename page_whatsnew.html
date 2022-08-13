@@ -204,13 +204,17 @@ IMPROVED: rendering and size calculation of decorations </li>
 <li>
 IMPROVED: tokenizing and parsing of text in text-mode: now a lot of accents with commands like <code>\"a</code>, <code>\'e</code> and variants (e.g. <code>{\"a}</code>, <code>\"{a}</code>, ...) are supported now </li>
 <li>
-IMPROVED/breaking: refactored symbol node <a class="el" href="class_j_k_q_t_math_text_symbol_node.html" title="subclass representing one symbol (e.g. \alpha , \cdot ...) node in the syntax tree">JKQTMathTextSymbolNode</a> and changed font-lookup! </li>
+IMPROVED/BREAKING: refactored symbol node <a class="el" href="class_j_k_q_t_math_text_symbol_node.html" title="subclass representing one symbol (e.g. \alpha , \cdot ...) node in the syntax tree">JKQTMathTextSymbolNode</a> and changed font-lookup! </li>
 <li>
-IMPROVED/NEW/breaking: refactored whitespace-processing node <a class="el" href="class_j_k_q_t_math_text_whitespace_node.html" title="subclass representing one whitepsace node in the syntax tree">JKQTMathTextWhitespaceNode</a>, now all major LaTeX whitespace commands are supported properly </li>
+IMPROVED/NEW/BREAKING: refactored whitespace-processing node <a class="el" href="class_j_k_q_t_math_text_whitespace_node.html" title="subclass representing one whitepsace node in the syntax tree">JKQTMathTextWhitespaceNode</a>, now all major LaTeX whitespace commands are supported properly </li>
 <li>
-IMPROVED/NEW/breaking: refactored LaTeX parser in <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> </li>
+IMPROVED/NEW/BREAKING: refactored LaTeX parser in <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> </li>
 <li>
-REMOVED/breaking: <code>\v</code>[a-zA-Z] and shorthand for <code>\vec{a-zA-Z}</code> was removed, implementation of <code>\bbR</code>,<code>\bbC</code>,... changed </li>
+REMOVED/BREAKING: <code>\v</code>[a-zA-Z] and shorthand for <code>\vec{a-zA-Z}</code> was removed, implementation of <code>\bbR</code>,<code>\bbC</code>,... changed </li>
+<li>
+MODIFIED/BREAKING: new options interface for <a class="el" href="class_j_k_q_t_math_text.html#ac566479ebedf116b701fe05818fb7e1b" title="parse the given LaTeX string.">JKQTMathText::parse()</a> </li>
+<li>
+EMOVED/BREAKING: removed JKQTMathtext::unparsedNode </li>
 <li>
 IMPROVED/REWORKED rendering of text in text- and math-mode. Now it is more consistent with the output of LaTeX itself </li>
 <li>
@@ -220,7 +224,7 @@ BREAKING/REWORKED: The \verb!...!-command now works the same as in LaTeX </li>
 <li>
 NEW: <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> allows to typeset a vertical list of lines </li>
 <li>
-NEW: <a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07" title="parse the given LaTeX string.">JKQTMathText::parse()</a> by default allows linebreaks in the LaTeX string to be parsed. This can be switched off by a parameter </li>
+NEW: <a class="el" href="class_j_k_q_t_math_text.html#ac566479ebedf116b701fe05818fb7e1b" title="parse the given LaTeX string.">JKQTMathText::parse()</a> by default allows linebreaks in the LaTeX string to be parsed. This can be switched off by a parameter </li>
 <li>
 NEW: added functions to set the font-size in pixels (as alternative to the existing functions that set them in points), implements request <a href="https://github.com/jkriege2/JKQtPlotter/issues/76">#76</a> from <a href="https://github.com/igormironchik">user:igormironchik</a>  </li>
 <li>
@@ -331,43 +335,43 @@ fixed issue <a href="https://github.com/jkriege2/JKQtPlotter/issues/56">#56: Log
 <li>
 merged PR <a href="https://github.com/jkriege2/JKQtPlotter/pull/51">#51: Bug: JKMathParser exception return local variable </a>, thanks to <a href="https://github.com/StephanOostveen">user:StephanOostveen</a> </li>
 <li>
-renamed/breaking change: renamed JKQTPPlotObject-&gt;<a class="el" href="class_j_k_q_t_p_geometric_plot_element.html" title="this is the virtual base class of all JKQTPPlotElement&#39;s in a JKQTPlotter plot that represent geometr...">JKQTPGeometricPlotElement</a> and added new base class <a class="el" href="class_j_k_q_t_p_plot_annotation_element.html" title="this is the virtual base class of all JKQTPPlotElement&#39;s in a JKQTPlotter plot that represent annotat...">JKQTPPlotAnnotationElement</a> </li>
+renamed/BREAKING change: renamed JKQTPPlotObject-&gt;<a class="el" href="class_j_k_q_t_p_geometric_plot_element.html" title="this is the virtual base class of all JKQTPPlotElement&#39;s in a JKQTPlotter plot that represent geometr...">JKQTPGeometricPlotElement</a> and added new base class <a class="el" href="class_j_k_q_t_p_plot_annotation_element.html" title="this is the virtual base class of all JKQTPPlotElement&#39;s in a JKQTPlotter plot that represent annotat...">JKQTPPlotAnnotationElement</a> </li>
 <li>
-renamed/breaking change: renamed JKQTPColorPaletteStyleAndToolsMixin::setPalette() -&gt; <a class="el" href="class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af4d4684e560361e2a31c503a7ddcae61" title="palette for plotting an image">JKQTPColorPaletteStyleAndToolsMixin::setColorPalette()</a> </li>
+renamed/BREAKING change: renamed JKQTPColorPaletteStyleAndToolsMixin::setPalette() -&gt; <a class="el" href="class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af4d4684e560361e2a31c503a7ddcae61" title="palette for plotting an image">JKQTPColorPaletteStyleAndToolsMixin::setColorPalette()</a> </li>
 <li>
-removed/breaking change: removed the usage of some deprecated functions and objects (e.g. QMatrix) </li>
+removed/BREAKING change: removed the usage of some deprecated functions and objects (e.g. QMatrix) </li>
 <li>
-removed/breaking change: removed the overlay elements (derived from JKQTPOverlayElement), which were not very well set up and are more confusing than useful. </li>
+removed/BREAKING change: removed the overlay elements (derived from JKQTPOverlayElement), which were not very well set up and are more confusing than useful. </li>
 <li>
-improved/breaking change: geometric objects now use an adaptive drawing algorithm to represent curves (before e.g. ellipses were always separated into a fixed number of line-segments) </li>
+improved/BREAKING change: geometric objects now use an adaptive drawing algorithm to represent curves (before e.g. ellipses were always separated into a fixed number of line-segments) </li>
 <li>
-improved/breaking change: geometric elements constructor: removed all styling properties, added setStyle()-functions to replace them. This is necessary to better work with the extended Styling system </li>
+improved/BREAKING change: geometric elements constructor: removed all styling properties, added setStyle()-functions to replace them. This is necessary to better work with the extended Styling system </li>
 <li>
 improved: constructors and access functions for several geometric objects (e.g. more constructors, additional functions to retrieve parameters in diferent forms, iterators for polygons, ...) </li>
 <li>
-improved/breaking change: reworked class hierarchy of parsed function plots and declared several setters as slots. </li>
+improved/BREAKING change: reworked class hierarchy of parsed function plots and declared several setters as slots. </li>
 <li>
-improved/breaking change: reworked class hierarchy of bar &amp; impulse charts. </li>
+improved/BREAKING change: reworked class hierarchy of bar &amp; impulse charts. </li>
 <li>
-improved/breaking change: reworked class hierarchy of range charts. </li>
+improved/BREAKING change: reworked class hierarchy of range charts. </li>
 <li>
-improved/breaking change: reworked class hierarchy of special line (step) graphs. </li>
+improved/BREAKING change: reworked class hierarchy of special line (step) graphs. </li>
 <li>
-improved/breaking change: reworked class hierarchy of filled line graphs. </li>
+improved/BREAKING change: reworked class hierarchy of filled line graphs. </li>
 <li>
-improved/breaking change: reworked class hierarchy of range plot elements (<a class="el" href="class_j_k_q_t_p_vertical_range.html" title="simply marks a range (and possibly a centerline) in a plot. This may be used to display e....">JKQTPVerticalRange</a> and <a class="el" href="class_j_k_q_t_p_horizontal_range.html" title="simply marks a range (and possibly a centerline) in a plot. This may be used to display e....">JKQTPHorizontalRange</a>). </li>
+improved/BREAKING change: reworked class hierarchy of range plot elements (<a class="el" href="class_j_k_q_t_p_vertical_range.html" title="simply marks a range (and possibly a centerline) in a plot. This may be used to display e....">JKQTPVerticalRange</a> and <a class="el" href="class_j_k_q_t_p_horizontal_range.html" title="simply marks a range (and possibly a centerline) in a plot. This may be used to display e....">JKQTPHorizontalRange</a>). </li>
 <li>
-improved/breaking change: reworked class hierarchy of boxplots. </li>
+improved/BREAKING change: reworked class hierarchy of boxplots. </li>
 <li>
-improved/breaking change: reworked class hierarchy of violin plots. </li>
+improved/BREAKING change: reworked class hierarchy of violin plots. </li>
 <li>
-improved/breaking change: extended styling system for graphs. </li>
+improved/BREAKING change: extended styling system for graphs. </li>
 <li>
-improved/breaking change: reworked graph Base-Classes (promoted several setters to slots, added Q_PROPERTY- and Q_ENUM-declarations...) </li>
+improved/BREAKING change: reworked graph Base-Classes (promoted several setters to slots, added Q_PROPERTY- and Q_ENUM-declarations...) </li>
 <li>
-improved/breaking change: made more functions and function parameters const </li>
+improved/BREAKING change: made more functions and function parameters const </li>
 <li>
-improved/breaking change: image plots now manage CONST-data, not plain pointer arrays... This is OK, since the raw data is never owned nor modified by the plot, only referenced!. </li>
+improved/BREAKING change: image plots now manage CONST-data, not plain pointer arrays... This is OK, since the raw data is never owned nor modified by the plot, only referenced!. </li>
 <li>
 bugfixed/improved: aspect ratio handling in <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>. </li>
 <li>
@@ -537,7 +541,7 @@ v2015.10: Download</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Aug 13 2022 12:40:14 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Aug 13 2022 13:35:21 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>
