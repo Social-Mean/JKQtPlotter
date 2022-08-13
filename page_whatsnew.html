@@ -218,9 +218,19 @@ IMPROVED/REWORKED rendering of blackboard font: now several different rendering 
 <li>
 BREAKING/REWORKED: The \verb!...!-command now works the same as in LaTeX </li>
 <li>
-NEW: now supports new decoration instructions: <code>\cancel</code>, <code>\xcancel</code>, <code>\bcancel</code>, <code>\sout</code>, <code>\ocirc</code>, <code>\widetilde</code>, <code>\widehat</code>, <code>\breve</code> </li>
+NEW: <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> allows to typeset a vertical list of lines </li>
+<li>
+NEW: <a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07" title="parse the given LaTeX string.">JKQTMathText::parse()</a> by default allows linebreaks in the LaTeX string to be parsed. This can be switched off by a parameter </li>
+<li>
+NEW: added functions to set the font-size in pixels (as alternative to the existing functions that set them in points), implements request <a href="https://github.com/jkriege2/JKQtPlotter/issues/76">#76</a> from <a href="https://github.com/igormironchik">user:igormironchik</a>  </li>
 <li>
 NEW: reworked drawing of decorations: improved appearance and positioning! </li>
+<li>
+NEW: additional method JKQTMathtext::getSizeDetail() that returns all size-properties as a convenient struct, also added matching varinat <a class="el" href="class_j_k_q_t_math_text_node.html#a64a20dde0c762ee5a20c7b6dbb99eadd" title="determine the size of the node, calls getSizeInternal() implementation of the actual type">JKQTMathTextNode::getSize()</a>  </li>
+<li>
+NEW: additional method JKQTMathtext::drawIntoPixmap(), JKQTMathtext::drawIntoPicture(), JKQTMathtext::drawIntoImage() which returns a QPixmap, QPicture and QImage respectively that contains the render result of the currently parsed markup </li>
+<li>
+NEW: array/tabular-environments have limited support for formatting string like <code>l|r|c</code> and for <code>\hline</code> , <code>\hdashline</code> , <code>\toprule</code> , <code>\midrule</code> , <code>\bottomrule</code> </li>
 <li>
 NEW: reworked code structure: broke up large, single CPP-files into several smaller files! </li>
 <li>
@@ -233,6 +243,8 @@ NEW: shows strikeoutPos when drawing Debug-Boxes </li>
 NEW: LaTeX-Parser understands optional instruction parameters in [...] now </li>
 <li>
 NEW: LaTeX-Parser simplifies parse-tree to increase speed of execution </li>
+<li>
+NEW: added new decoration instructions: <code>\cancel</code>, <code>\xcancel</code>, <code>\bcancel</code>, <code>\sout</code>, <code>\ocirc</code>, <code>\widetilde</code>, <code>\widehat</code>, <code>\breve</code> </li>
 <li>
 NEW: <code>\limits</code> and <code>\nolimits</code> works as in LaTeX now (before it was simply removed and the functionality implemented for a fixed list of symbols) </li>
 <li>
@@ -256,13 +268,9 @@ NEW: added <code>\dashuline{X}</code>, <code>\dotuline{X}</code> </li>
 <li>
 NEW: added <code>\underleftarrow{X}</code>, <code>\underrightarrow{X}</code>, <code>\underleftrightarrow{X}</code>, <code>\overleftarrow{X}</code>, <code>\overrightarrow{X}</code>, <code>\overleftrightarrow{X}</code> </li>
 <li>
-NEW: added functions to set the font-size in pixels (as alternative to the existing functions that set them in points), implements request <a href="https://github.com/jkriege2/JKQtPlotter/issues/76">#76</a> from <a href="https://github.com/igormironchik">user:igormironchik</a>  </li>
-<li>
 NEW: added <code>\userfont{SystemFontName}{Text}</code> instruction </li>
 <li>
 NEW: added <code>\unicode{HEX}</code> and <code>\utfeight{HEX}</code> instruction to draw unicide characters by code </li>
-<li>
-NEW: <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> allows to typeset a vertical list of lines </li>
 <li>
 NEW: added <code>\substack</code>[lcr]{...\\...} , <code>\lsubstack{</code>...\\...} , <code>\rsubstack{</code>...\\...} instructions </li>
 <li>
@@ -280,13 +288,7 @@ NEW: added support for \bigl,\bigr,\Bigr,... commands for fixed-size but enlarge
 <li>
 NEW: added support for \begin{verbatim}...\end{verbatim}, \begin{verbatim*}...\end{verbatim*} </li>
 <li>
-NEW: additional method JKQTMathtext::getSizeDetail() that returns all size-properties as a convenient struct, also added matching varinat <a class="el" href="class_j_k_q_t_math_text_node.html#a64a20dde0c762ee5a20c7b6dbb99eadd" title="determine the size of the node, calls getSizeInternal() implementation of the actual type">JKQTMathTextNode::getSize()</a>  </li>
-<li>
-NEW: additional method JKQTMathtext::drawIntoPixmap(), JKQTMathtext::drawIntoPicture(), JKQTMathtext::drawIntoImage() which returns a QPixmap, QPicture and QImage respectively that contains the render result of the currently parsed markup </li>
-<li>
 NEW: added command line tool <a class="el" href="_j_k_q_t_math_text_render_cmd_line_tool.html">Example (JKQTMathText): Command-Line Utility jkqtmathtext_render</a> that renders LaTeX into images, using it to generate the documentation images for <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> </li>
-<li>
-NEW: array/tabular-environments have limited support for formatting string like <code>l|r|c</code> and for <code>\hline</code> , <code>\hdashline</code> , <code>\toprule</code> , <code>\midrule</code> , <code>\bottomrule</code> </li>
 </ul>
 </li>
 </ul>
@@ -535,7 +537,7 @@ v2015.10: Download</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 12 2022 14:53:43 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Aug 13 2022 12:40:14 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

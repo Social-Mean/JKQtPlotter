@@ -355,7 +355,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9e20527969dd7beea84e23edde307be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">like subsuper_size_factor, but for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol  <a href="class_j_k_q_t_math_text.html#a9e20527969dd7beea84e23edde307be5">More...</a><br /></td></tr>
 <tr class="separator:a9e20527969dd7beea84e23edde307be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7741bbb769525b88317efc73c929c02e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a7741bbb769525b88317efc73c929c02e">getParsedNode</a> () const</td></tr>
-<tr class="memdesc:a7741bbb769525b88317efc73c929c02e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the result of parsing the last string supplied to the object via <a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb" title="parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...">parse()</a>  <a href="class_j_k_q_t_math_text.html#a7741bbb769525b88317efc73c929c02e">More...</a><br /></td></tr>
+<tr class="memdesc:a7741bbb769525b88317efc73c929c02e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the result of parsing the last string supplied to the object via <a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07" title="parse the given LaTeX string.">parse()</a>  <a href="class_j_k_q_t_math_text.html#a7741bbb769525b88317efc73c929c02e">More...</a><br /></td></tr>
 <tr class="separator:a7741bbb769525b88317efc73c929c02e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0828e308d254a21400fe369fb2df0e66"><td class="memItemLeft" align="right" valign="top">QPair&lt; QString, <a class="el" href="group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201">JKQTMathTextFontEncoding</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a0828e308d254a21400fe369fb2df0e66">getReplacementFont</a> (const QString &amp;nonUseFont, const QString &amp;defaultFont, <a class="el" href="group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201">JKQTMathTextFontEncoding</a> defaultFontEncoding) const</td></tr>
 <tr class="memdesc:a0828e308d254a21400fe369fb2df0e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves a replacement for the given font name <em>nonUseFont</em>, including its encoding. Returns the given default values <em>defaultFont</em> and/or <em>defaultFontEncoding</em> if one of the two is not found  <a href="class_j_k_q_t_math_text.html#a0828e308d254a21400fe369fb2df0e66">More...</a><br /></td></tr>
@@ -417,9 +417,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8862f932173da3044cf4b34b260f7256"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a8862f932173da3044cf4b34b260f7256">loadSettings</a> (const QSettings &amp;settings, const QString &amp;group=QString(&quot;mathtext/&quot;))</td></tr>
 <tr class="memdesc:a8862f932173da3044cf4b34b260f7256"><td class="mdescLeft">&#160;</td><td class="mdescRight">load the object settings from the given QSettings object with the given name prefix  <a href="class_j_k_q_t_math_text.html#a8862f932173da3044cf4b34b260f7256">More...</a><br /></td></tr>
 <tr class="separator:a8862f932173da3044cf4b34b260f7256"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e5a8ec55ff08d2dc3375e62407d2beb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb">parse</a> (const QString &amp;text, bool addSpaceBeforeAndAfter=false)</td></tr>
-<tr class="memdesc:a7e5a8ec55ff08d2dc3375e62407d2beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse the given enhanced string. If <code>addSpaceBeforeAndAfter==true</code> a little bit of space is added before and after the text. Returns <code>true</code> on success.  <a href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb">More...</a><br /></td></tr>
-<tr class="separator:a7e5a8ec55ff08d2dc3375e62407d2beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa954d833865dcdf7592917cc12696a07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07">parse</a> (const QString &amp;text, bool addSpaceBeforeAndAfter=false, bool allowLinebreaks=true)</td></tr>
+<tr class="memdesc:aa954d833865dcdf7592917cc12696a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse the given LaTeX string.  <a href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07">More...</a><br /></td></tr>
+<tr class="separator:aa954d833865dcdf7592917cc12696a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb2080ea22fda5c3b5e918492441b59d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#aeb2080ea22fda5c3b5e918492441b59d">saveSettings</a> (QSettings &amp;settings, const QString &amp;group=QString(&quot;mathtext/&quot;)) const</td></tr>
 <tr class="memdesc:aeb2080ea22fda5c3b5e918492441b59d"><td class="mdescLeft">&#160;</td><td class="mdescRight">store the object settings to the given QSettings object with the given name prefix  <a href="class_j_k_q_t_math_text.html#aeb2080ea22fda5c3b5e918492441b59d">More...</a><br /></td></tr>
 <tr class="separator:aeb2080ea22fda5c3b5e918492441b59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -692,15 +692,18 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a84fb0ccfe736469c7bec002f6bf9fbb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a84fb0ccfe736469c7bec002f6bf9fbb5">parseMath</a> (bool get)</td></tr>
 <tr class="memdesc:a84fb0ccfe736469c7bec002f6bf9fbb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse a LaTeX math environment  <a href="class_j_k_q_t_math_text.html#a84fb0ccfe736469c7bec002f6bf9fbb5">More...</a><br /></td></tr>
 <tr class="separator:a84fb0ccfe736469c7bec002f6bf9fbb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade60ffed713cebeec7c14007cf74da55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html">JKQTMathTextVerticalListNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ade60ffed713cebeec7c14007cf74da55">parseMultilineLatexString</a> (bool get, const QString &amp;quitOnEnvironmentEnd=QString(&quot;&quot;), <a class="el" href="group__jkqtmathtext__tools.html#ga2fab98d9916942d8ee0f29841ed82448">JKQTMathTextHorizontalAlignment</a> _alignment=<a class="el" href="group__jkqtmathtext__tools.html#gga2fab98d9916942d8ee0f29841ed82448a4052333d6bd3026e76f91e87c1ff4683">MTHALeft</a>, double _linespacingFactor=1.0, JKQTMathTextLineSpacingMode spacingMode_=MTSMDefaultSpacing, <a class="el" href="group__jkqtmathtext__tools.html#ga1463950676f064ad0a8feb24fd41db1f">JKQTMathTextVerticalOrientation</a> _verticalOrientation=<a class="el" href="group__jkqtmathtext__tools.html#gga1463950676f064ad0a8feb24fd41db1fac36ec1c7fa9480ab5f44822479737961">MTVOFirstLine</a>)</td></tr>
+<tr class="memdesc:ade60ffed713cebeec7c14007cf74da55"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse a LaTeX string with linebreaks  <a href="class_j_k_q_t_math_text.html#ade60ffed713cebeec7c14007cf74da55">More...</a><br /></td></tr>
+<tr class="separator:ade60ffed713cebeec7c14007cf74da55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10f40113fe0a35ad77f7a99b39417c55"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a10f40113fe0a35ad77f7a99b39417c55">parseSingleString</a> (bool get)</td></tr>
 <tr class="memdesc:a10f40113fe0a35ad77f7a99b39417c55"><td class="mdescLeft">&#160;</td><td class="mdescRight">parses a string, i.e. a sequence of text and whitespaces. returns after any other token was found  <a href="class_j_k_q_t_math_text.html#a10f40113fe0a35ad77f7a99b39417c55">More...</a><br /></td></tr>
 <tr class="separator:a10f40113fe0a35ad77f7a99b39417c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf171e700d7d545b294f2061b47305d9"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#adf171e700d7d545b294f2061b47305d9">parseStringParams</a> (bool get, size_t Nparams, bool *foundError=nullptr)</td></tr>
 <tr class="memdesc:adf171e700d7d545b294f2061b47305d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">parses a list of string-arguments, i.e. <code>{p1}{p2}{</code>...}  <a href="class_j_k_q_t_math_text.html#adf171e700d7d545b294f2061b47305d9">More...</a><br /></td></tr>
 <tr class="separator:adf171e700d7d545b294f2061b47305d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3eff3c96d4b7126866c76cb37a0c56e2"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a3eff3c96d4b7126866c76cb37a0c56e2">readUntil</a> (bool get, const QString &amp;endsequence)</td></tr>
-<tr class="memdesc:a3eff3c96d4b7126866c76cb37a0c56e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">read all text without tokenizing, until the sequence <em>endsequence</em> is found.  <a href="class_j_k_q_t_math_text.html#a3eff3c96d4b7126866c76cb37a0c56e2">More...</a><br /></td></tr>
-<tr class="separator:a3eff3c96d4b7126866c76cb37a0c56e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d7cd40563391532c1cbebf58b7e24f2"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a9d7cd40563391532c1cbebf58b7e24f2">readUntil</a> (bool get, const QString &amp;endsequence, bool removeFirstlineWhitespace=false)</td></tr>
+<tr class="memdesc:a9d7cd40563391532c1cbebf58b7e24f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">read all text without tokenizing, until the sequence <em>endsequence</em> is found.  <a href="class_j_k_q_t_math_text.html#a9d7cd40563391532c1cbebf58b7e24f2">More...</a><br /></td></tr>
+<tr class="separator:a9d7cd40563391532c1cbebf58b7e24f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
@@ -822,7 +825,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:a779c0daac5085baa0d87e3082785a345"><td class="mdescLeft">&#160;</td><td class="mdescRight">like subsuper_size_factor, but for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol  <a href="class_j_k_q_t_math_text.html#a779c0daac5085baa0d87e3082785a345">More...</a><br /></td></tr>
 <tr class="separator:a779c0daac5085baa0d87e3082785a345"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7e86126348905c3b61252f902a35051"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ae7e86126348905c3b61252f902a35051">parsedNode</a></td></tr>
-<tr class="memdesc:ae7e86126348905c3b61252f902a35051"><td class="mdescLeft">&#160;</td><td class="mdescRight">the result of parsing the last string supplied to the object via <a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb" title="parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...">parse()</a>  <a href="class_j_k_q_t_math_text.html#ae7e86126348905c3b61252f902a35051">More...</a><br /></td></tr>
+<tr class="memdesc:ae7e86126348905c3b61252f902a35051"><td class="mdescLeft">&#160;</td><td class="mdescRight">the result of parsing the last string supplied to the object via <a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07" title="parse the given LaTeX string.">parse()</a>  <a href="class_j_k_q_t_math_text.html#ae7e86126348905c3b61252f902a35051">More...</a><br /></td></tr>
 <tr class="separator:ae7e86126348905c3b61252f902a35051"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef41009e7deaf292b9d5a46855919261"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#aef41009e7deaf292b9d5a46855919261">parseString</a></td></tr>
 <tr class="memdesc:aef41009e7deaf292b9d5a46855919261"><td class="mdescLeft">&#160;</td><td class="mdescRight">used by the tokenizer. The string to be parsed  <a href="class_j_k_q_t_math_text.html#aef41009e7deaf292b9d5a46855919261">More...</a><br /></td></tr>
@@ -909,7 +912,7 @@ Usage within a QLabel class JKQTMathTextLabel</h2>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text_label.html" title="A QLabel-derived class that draws an equation with LaTeX markup using JKQTMathText.">JKQTMathTextLabel</a></dd></dl>
 <h2><a class="anchor" id="JKQTMathTextErrorHandling"></a>
 Error Handling</h2>
-<p >The class is designed to be as robust as possible and will still return some output, even if the equation contains some errors. Nevertheless, several errors are detected while parsing. You can get a list of error messages using <a class="el" href="class_j_k_q_t_math_text.html#a14a7a418442599c0f09e32fe0aff09bc" title="a list that will be filled with error messages while parsing, if any error occur">getErrorList()</a> after calling <a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb" title="parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...">parse()</a>. Also <a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb" title="parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...">parse()</a> will return <code>false</code> if an error occured while parsing.</p>
+<p >The class is designed to be as robust as possible and will still return some output, even if the equation contains some errors. Nevertheless, several errors are detected while parsing. You can get a list of error messages using <a class="el" href="class_j_k_q_t_math_text.html#a14a7a418442599c0f09e32fe0aff09bc" title="a list that will be filled with error messages while parsing, if any error occur">getErrorList()</a> after calling <a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07" title="parse the given LaTeX string.">parse()</a>. Also <a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07" title="parse the given LaTeX string.">parse()</a> will return <code>false</code> if an error occured while parsing.</p>
 <h2><a class="anchor" id="JKQTMathTextUsageExample"></a>
 Example Code</h2>
 <p >This small piece of C++ code may serve as an example of the usage and capabilities of the class: </p><div class="fragment"><div class="line"><span class="comment">// create a JKQTMathText object.</span></div>
@@ -920,12 +923,12 @@ Example Code</h2>
 <div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#af231fd040caed5040c227dd3748ff899">setFontSize</a>(20);</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// parse some LaTeX code (the Schroedinger&#39;s equation)</span></div>
-<div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb">parse</a>(<span class="stringliteral">&quot;$\\left[-\\frac{\\hbar^2}{2m}\\frac{\\partial^2}{\\partial x^2}+V(x)\\right]\\Psi(x)=\\mathrm{i}\\hbar\\frac{\\partial}{\\partial t}\\Psi(x)$&quot;</span>);</div>
+<div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07">parse</a>(<span class="stringliteral">&quot;$\\left[-\\frac{\\hbar^2}{2m}\\frac{\\partial^2}{\\partial x^2}+V(x)\\right]\\Psi(x)=\\mathrm{i}\\hbar\\frac{\\partial}{\\partial t}\\Psi(x)$&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// draw the result into a QPixmap</span></div>
 <div class="line">QPixmap result=mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#ad79581429daab9714ab9ed4a1fd834d0">drawIntoPixmap</a>();</div>
-<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:201</div></div>
-<div class="ttc" id="aclass_j_k_q_t_math_text_html_a7e5a8ec55ff08d2dc3375e62407d2beb"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb">JKQTMathText::parse</a></div><div class="ttdeci">bool parse(const QString &amp;text, bool addSpaceBeforeAndAfter=false)</div><div class="ttdoc">parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...</div></div>
+<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:202</div></div>
+<div class="ttc" id="aclass_j_k_q_t_math_text_html_aa954d833865dcdf7592917cc12696a07"><div class="ttname"><a href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07">JKQTMathText::parse</a></div><div class="ttdeci">bool parse(const QString &amp;text, bool addSpaceBeforeAndAfter=false, bool allowLinebreaks=true)</div><div class="ttdoc">parse the given LaTeX string.</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_ad79581429daab9714ab9ed4a1fd834d0"><div class="ttname"><a href="class_j_k_q_t_math_text.html#ad79581429daab9714ab9ed4a1fd834d0">JKQTMathText::drawIntoPixmap</a></div><div class="ttdeci">QPixmap drawIntoPixmap(bool drawBoxes=false, QColor backgroundColor=QColor(Qt::white), int sizeincrease=0, qreal devicePixelRatio=1.0)</div><div class="ttdoc">render the last parse result into a QPixmap</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_af231fd040caed5040c227dd3748ff899"><div class="ttname"><a href="class_j_k_q_t_math_text.html#af231fd040caed5040c227dd3748ff899">JKQTMathText::setFontSize</a></div><div class="ttdeci">void setFontSize(double __value)</div><div class="ttdoc">set the default font size in points</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_af7d28d367b075afe9a0d3155d20b4581"><div class="ttname"><a href="class_j_k_q_t_math_text.html#af7d28d367b075afe9a0d3155d20b4581">JKQTMathText::useXITS</a></div><div class="ttdeci">bool useXITS(bool mathModeOnly=true)</div><div class="ttdoc">configures the class to use the XITS fonts in mathmode</div></div>
@@ -1253,8 +1256,8 @@ using "DejaVu Serif":<div class="image">
 </div><div class="memdoc">
 
 <p>a list that will be filled with error messages while parsing, if any error occur </p>
-<p >This list of errors is (mostly) filled during a call to <a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb" title="parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...">parse()</a>. During rendering (e.g. with <a class="el" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19" title="draw a representation to the object at the specified position x , y">draw()</a> ) only very few errors will be detected, as most errors are caused by wrong markup.</p>
-<p >A call to <a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb" title="parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...">parse()</a> also clears this list.</p>
+<p >This list of errors is (mostly) filled during a call to <a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07" title="parse the given LaTeX string.">parse()</a>. During rendering (e.g. with <a class="el" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19" title="draw a representation to the object at the specified position x , y">draw()</a> ) only very few errors will be detected, as most errors are caused by wrong markup.</p>
+<p >A call to <a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07" title="parse the given LaTeX string.">parse()</a> also clears this list.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#a14a7a418442599c0f09e32fe0aff09bc" title="a list that will be filled with error messages while parsing, if any error occur">getErrorList()</a>, <a class="el" href="class_j_k_q_t_math_text.html#a25ffa56294dabd127143c23076bddce3" title="returns true when errors were registered in the system">hadErrors()</a> and <a class="el" href="class_j_k_q_t_math_text.html#a32a69b6feb42510f57d8d20daab385d5" title="a list that will be filled with error messages while parsing, if any error occur">addToErrorList()</a> </dd></dl>
 
 </div>
@@ -1766,8 +1769,8 @@ using "DejaVu Serif":<div class="image">
 </div><div class="memdoc">
 
 <p>a list that will be filled with error messages while parsing, if any error occur </p>
-<p >This list of errors is (mostly) filled during a call to <a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb" title="parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...">parse()</a>. During rendering (e.g. with <a class="el" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19" title="draw a representation to the object at the specified position x , y">draw()</a> ) only very few errors will be detected, as most errors are caused by wrong markup.</p>
-<p >A call to <a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb" title="parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...">parse()</a> also clears this list.</p>
+<p >This list of errors is (mostly) filled during a call to <a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07" title="parse the given LaTeX string.">parse()</a>. During rendering (e.g. with <a class="el" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19" title="draw a representation to the object at the specified position x , y">draw()</a> ) only very few errors will be detected, as most errors are caused by wrong markup.</p>
+<p >A call to <a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07" title="parse the given LaTeX string.">parse()</a> also clears this list.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#a14a7a418442599c0f09e32fe0aff09bc" title="a list that will be filled with error messages while parsing, if any error occur">getErrorList()</a>, <a class="el" href="class_j_k_q_t_math_text.html#a25ffa56294dabd127143c23076bddce3" title="returns true when errors were registered in the system">hadErrors()</a> and <a class="el" href="class_j_k_q_t_math_text.html#a32a69b6feb42510f57d8d20daab385d5" title="a list that will be filled with error messages while parsing, if any error occur">addToErrorList()</a> </dd></dl>
 
 </div>
@@ -2734,7 +2737,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
       </table>
 </div><div class="memdoc">
 
-<p>the result of parsing the last string supplied to the object via <a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb" title="parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...">parse()</a> </p>
+<p>the result of parsing the last string supplied to the object via <a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07" title="parse the given LaTeX string.">parse()</a> </p>
 
 </div>
 </div>
@@ -3255,8 +3258,8 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 
 </div>
 </div>
-<a id="a7e5a8ec55ff08d2dc3375e62407d2beb" name="a7e5a8ec55ff08d2dc3375e62407d2beb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e5a8ec55ff08d2dc3375e62407d2beb">&#9670;&nbsp;</a></span>parse()</h2>
+<a id="aa954d833865dcdf7592917cc12696a07" name="aa954d833865dcdf7592917cc12696a07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa954d833865dcdf7592917cc12696a07">&#9670;&nbsp;</a></span>parse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3271,7 +3274,13 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>addSpaceBeforeAndAfter</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>addSpaceBeforeAndAfter</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>allowLinebreaks</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3281,7 +3290,15 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
       </table>
 </div><div class="memdoc">
 
-<p>parse the given enhanced string. If <code>addSpaceBeforeAndAfter==true</code> a little bit of space is added before and after the text. Returns <code>true</code> on success. </p>
+<p>parse the given LaTeX string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">addSpaceBeforeAndAfter</td><td>If \ctrue a little bit of space is added before and after the text. </td></tr>
+    <tr><td class="paramname">allowLinebreaks</td><td>If <code>true</code> , linebreak (i.e. <code>\</code> or <code>\newline</code> ) are allowed, otherwise a single line wihtout such linebreak commands is expected</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> on success. </dd></dl>
 
 </div>
 </div>
@@ -3419,6 +3436,98 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 
 </div>
 </div>
+<a id="ade60ffed713cebeec7c14007cf74da55" name="ade60ffed713cebeec7c14007cf74da55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade60ffed713cebeec7c14007cf74da55">&#9670;&nbsp;</a></span>parseMultilineLatexString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html">JKQTMathTextVerticalListNode</a> * JKQTMathText::parseMultilineLatexString </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>get</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>quitOnEnvironmentEnd</em> = <code>QString(&quot;&quot;)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__jkqtmathtext__tools.html#ga2fab98d9916942d8ee0f29841ed82448">JKQTMathTextHorizontalAlignment</a>&#160;</td>
+          <td class="paramname"><em>_alignment</em> = <code><a class="el" href="group__jkqtmathtext__tools.html#gga2fab98d9916942d8ee0f29841ed82448a4052333d6bd3026e76f91e87c1ff4683">MTHALeft</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_linespacingFactor</em> = <code>1.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JKQTMathTextLineSpacingMode&#160;</td>
+          <td class="paramname"><em>spacingMode_</em> = <code>MTSMDefaultSpacing</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__jkqtmathtext__tools.html#ga1463950676f064ad0a8feb24fd41db1f">JKQTMathTextVerticalOrientation</a>&#160;</td>
+          <td class="paramname"><em>_verticalOrientation</em> = <code><a class="el" href="group__jkqtmathtext__tools.html#gga1463950676f064ad0a8feb24fd41db1fac36ec1c7fa9480ab5f44822479737961">MTVOFirstLine</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parse a LaTeX string with linebreaks </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">get</td><td>if <code>true</code> this calls <a class="el" href="class_j_k_q_t_math_text.html#add20421b79c95341f59ae02cbd78661b" title="tokenizer for the LaTeX parser">getToken()</a> </td></tr>
+    <tr><td class="paramname">quitOnEnvironmentEnd</td><td>wuit if <code>\end{quitOnEnvironmentEnd}</code> is found </td></tr>
+    <tr><td class="paramname">_alignment</td><td>horizontal alignment of the <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html#a7dddf76df497c0594c0180b338ed89d2" title="alignment scheme used to lay out all lines">JKQTMathTextVerticalListNode::alignment</a> and <a class="el" href="group__jkqtmathtext__tools.html#ga2fab98d9916942d8ee0f29841ed82448" title="types of horizontal alignment">JKQTMathTextHorizontalAlignment</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_linespacingFactor</td><td>line spacing factor of the lines </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd>JKQTMathTextVerticalListNode::linespacingFactor </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">spacingMode_</td><td>spacing mode/algorithm for the lines </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd>JKQTMathTextLineSpacingMode and JKQTMathTextLineSpacingMode </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_verticalOrientation</td><td>vertical orientation of the block of all lines, see <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html#a05659e7a37f1a7cfa4a04ea90421b33b" title="vertical orientation of the baseline of the whole block (with respect to the single lines)">JKQTMathTextVerticalListNode::verticalOrientation</a> and JKQTMathTextVerticalOrientation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> with the lines as children </dd></dl>
+
+</div>
+</div>
 <a id="a10f40113fe0a35ad77f7a99b39417c55" name="a10f40113fe0a35ad77f7a99b39417c55"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a10f40113fe0a35ad77f7a99b39417c55">&#9670;&nbsp;</a></span>parseSingleString()</h2>
 
@@ -3500,8 +3609,8 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 
 </div>
 </div>
-<a id="a3eff3c96d4b7126866c76cb37a0c56e2" name="a3eff3c96d4b7126866c76cb37a0c56e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3eff3c96d4b7126866c76cb37a0c56e2">&#9670;&nbsp;</a></span>readUntil()</h2>
+<a id="a9d7cd40563391532c1cbebf58b7e24f2" name="a9d7cd40563391532c1cbebf58b7e24f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d7cd40563391532c1cbebf58b7e24f2">&#9670;&nbsp;</a></span>readUntil()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3519,7 +3628,13 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>endsequence</em>&#160;</td>
+          <td class="paramname"><em>endsequence</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>removeFirstlineWhitespace</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3539,6 +3654,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
   <table class="params">
     <tr><td class="paramname">get</td><td>if <code>true</code> the functions begins by reading a new character, otherwise the current character is used as first character </td></tr>
     <tr><td class="paramname">endsequence</td><td>the sequence, ending the read </td></tr>
+    <tr><td class="paramname">removeFirstlineWhitespace</td><td>if <code>true</code> the returned string does not contain the first whitespace-line and a possible trailing whitespace line </td></tr>
   </table>
   </dd>
 </dl>
@@ -5542,8 +5658,8 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </div><div class="memdoc">
 
 <p>a list that will be filled with error messages while parsing, if any error occur </p>
-<p >This list of errors is (mostly) filled during a call to <a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb" title="parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...">parse()</a>. During rendering (e.g. with <a class="el" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19" title="draw a representation to the object at the specified position x , y">draw()</a> ) only very few errors will be detected, as most errors are caused by wrong markup.</p>
-<p >A call to <a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb" title="parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...">parse()</a> also clears this list.</p>
+<p >This list of errors is (mostly) filled during a call to <a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07" title="parse the given LaTeX string.">parse()</a>. During rendering (e.g. with <a class="el" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19" title="draw a representation to the object at the specified position x , y">draw()</a> ) only very few errors will be detected, as most errors are caused by wrong markup.</p>
+<p >A call to <a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07" title="parse the given LaTeX string.">parse()</a> also clears this list.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#a14a7a418442599c0f09e32fe0aff09bc" title="a list that will be filled with error messages while parsing, if any error occur">getErrorList()</a>, <a class="el" href="class_j_k_q_t_math_text.html#a25ffa56294dabd127143c23076bddce3" title="returns true when errors were registered in the system">hadErrors()</a> and <a class="el" href="class_j_k_q_t_math_text.html#a32a69b6feb42510f57d8d20daab385d5" title="a list that will be filled with error messages while parsing, if any error occur">addToErrorList()</a> </dd></dl>
 
 </div>
@@ -6213,7 +6329,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>the result of parsing the last string supplied to the object via <a class="el" href="class_j_k_q_t_math_text.html#a7e5a8ec55ff08d2dc3375e62407d2beb" title="parse the given enhanced string. If addSpaceBeforeAndAfter==true a little bit of space is added befor...">parse()</a> </p>
+<p>the result of parsing the last string supplied to the object via <a class="el" href="class_j_k_q_t_math_text.html#aa954d833865dcdf7592917cc12696a07" title="parse the given LaTeX string.">parse()</a> </p>
 
 </div>
 </div>
@@ -6656,7 +6772,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Fri Aug 12 2022 14:53:43 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Aug 13 2022 12:40:14 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"class_j_k_q_t_p_graph_fill_style_mixin.html#a2eb14667a3f9a4c8d84dc04448f7d020":[10,4,2,1,1,1,4,1],
+"class_j_k_q_t_p_graph_fill_style_mixin.html#a3281a7fad05f07acc4f2fe80a93b29bf":[10,4,2,1,1,1,4,11],
 "class_j_k_q_t_p_graph_fill_style_mixin.html#a37ce23c026a841324377f48aece76417":[10,4,2,1,1,1,4,8],
 "class_j_k_q_t_p_graph_fill_style_mixin.html#a4458eeaf49907ac8ae94a89c68c5c516":[10,4,2,1,1,1,4,14],
 "class_j_k_q_t_p_graph_fill_style_mixin.html#a6464668a98b9794f72bffdd337ec22ce":[10,4,2,1,1,1,4,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "class_j_k_q_t_p_horizontal_axis.html#a361f9b507f901d5416c959b2a456c8c3":[10,4,2,0,1,7],
 "class_j_k_q_t_p_horizontal_axis.html#a44ba34374879b321aee3b9da7f0b0380":[10,4,2,0,1,1],
 "class_j_k_q_t_p_horizontal_axis.html#a54cdc7e54ea24affdf386775713d714a":[10,4,2,0,1,2],
-"class_j_k_q_t_p_horizontal_axis.html#a66eb5793929f70b904dd731b0a94213e":[10,4,2,0,1,5],
-"class_j_k_q_t_p_horizontal_axis.html#a6834e009801b8e54aa6276bba43a9df5":[10,4,2,0,1,8],
-"class_j_k_q_t_p_horizontal_axis.html#a6be8e164b6008cd4234336608d897d05":[10,4,2,0,1,4]
+"class_j_k_q_t_p_horizontal_axis.html#a66eb5793929f70b904dd731b0a94213e":[10,4,2,0,1,5]
 };

@@ -2,7 +2,7 @@ var searchData=
 [
   ['reactgraphvisible_0',['reactGraphVisible',['../class_j_k_q_t_plotter.html#a0b241c3cebe392da85faccce8a0844dd',1,'JKQTPlotter']]],
   ['readdelim_1',['readDelim',['../class_j_k_q_t_p_math_parser.html#a428e3bbbb7b91d8b11a89d49a22763b1',1,'JKQTPMathParser']]],
-  ['readuntil_2',['readUntil',['../class_j_k_q_t_math_text.html#a3eff3c96d4b7126866c76cb37a0c56e2',1,'JKQTMathText']]],
+  ['readuntil_2',['readUntil',['../class_j_k_q_t_math_text.html#a9d7cd40563391532c1cbebf58b7e24f2',1,'JKQTMathText']]],
   ['redrawplot_3',['redrawPlot',['../class_j_k_q_t_fast_plotter.html#aaebcc44f7cd80c7f762dcacd40d9bb99',1,'JKQTFastPlotter::redrawPlot()'],['../class_j_k_q_t_base_plotter.html#ac725ccd1780435f95a429468bde5978d',1,'JKQTBasePlotter::redrawPlot()'],['../class_j_k_q_t_p_coordinate_axis.html#a025dffd728cb558f39dd5601af56a994',1,'JKQTPCoordinateAxis::redrawPlot()'],['../class_j_k_q_t_plotter.html#aebce042360ddc51b50472760ed272f7d',1,'JKQTPlotter::redrawPlot()']]],
   ['redrawplotimmediate_4',['redrawPlotImmediate',['../class_j_k_q_t_fast_plotter.html#a8522d7b0fd0cb4884c3dd6c70545cc58',1,'JKQTFastPlotter']]],
   ['refill_5',['refill',['../class_j_k_q_t_p_line_plot_style_combo_box.html#a5f61debf3626f4154f764bacaef68943',1,'JKQTPLinePlotStyleComboBox::refill()'],['../class_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box.html#a177523654634c89719f74cd4a42ae24a',1,'JKQTPLinePlotStyleWithSymbolSizeComboBox::refill()']]],

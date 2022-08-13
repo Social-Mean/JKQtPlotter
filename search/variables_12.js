@@ -18,7 +18,7 @@ var searchData=
   ['smallcaps_15',['smallCaps',['../struct_j_k_q_t_math_text_environment.html#a1368af420287d68d4f4b34a663ddbaa9',1,'JKQTMathTextEnvironment']]],
   ['sortdata_16',['sortData',['../class_j_k_q_t_p_boxplot_graph_base.html#a072e48ed5b68ada1b067b340d0991107',1,'JKQTPBoxplotGraphBase']]],
   ['sortedindices_17',['sortedIndices',['../class_j_k_q_t_p_boxplot_graph_base.html#a5ca6548742da5108015d62cefa5f17d4',1,'JKQTPBoxplotGraphBase::sortedIndices()'],['../class_j_k_q_t_p_x_y_graph.html#a3d4cdab4a709d064684381ab925e4e03',1,'JKQTPXYGraph::sortedIndices()'],['../class_j_k_q_t_p_single_column_graph.html#ac6e6a9ed817ea44c32b6e675b32214b3',1,'JKQTPSingleColumnGraph::sortedIndices()']]],
-  ['spacingmode_18',['spacingMode',['../class_j_k_q_t_math_text_vertical_list_node.html#ab766a0cd3f3cc537efa8e794e52fb7e0',1,'JKQTMathTextVerticalListNode']]],
+  ['spacingmode_18',['spacingMode',['../class_j_k_q_t_math_text_vertical_list_node.html#a542cf544a3719b8981e1a06a7a595f0b',1,'JKQTMathTextVerticalListNode']]],
   ['special_5fsub_5fshift_5ffactor_19',['special_sub_shift_factor',['../class_j_k_q_t_math_text.html#ac574f42a4dee0243910c5442c8ce3ddb',1,'JKQTMathText']]],
   ['special_5fsuper_5fshift_5ffactor_20',['special_super_shift_factor',['../class_j_k_q_t_math_text.html#aa93103c6d6ee3b764ea4f736dedc88fd',1,'JKQTMathText']]],
   ['spinmagnification_21',['spinMagnification',['../class_j_k_q_t_base_plotter.html#a481bc0f55c38dc3f6985fd6b83449e2b',1,'JKQTBasePlotter']]],
