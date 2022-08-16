@@ -131,13 +131,13 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_math_text_matrix_node.ht
 <div class="dynheader">
 Inheritance diagram for JKQTMathTextMatrixNode:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_math_text_matrix_node__inherit__graph.svg" width="235" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_math_text_matrix_node__inherit__graph.svg" width="262" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for JKQTMathTextMatrixNode:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_math_text_matrix_node__coll__graph.svg" width="506" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_math_text_matrix_node__coll__graph.svg" width="535" height="214"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -176,13 +176,31 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad69ac80bbec009bdc0e5d9d46b5f2107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87b5efbbf7df86e1ff841ef400126779"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a87b5efbbf7df86e1ff841ef400126779">~JKQTMathTextMatrixNode</a> () override</td></tr>
 <tr class="separator:a87b5efbbf7df86e1ff841ef400126779"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab03716cb4284b46fedbbc06c404929c7"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#ab03716cb4284b46fedbbc06c404929c7">draw</a> (QPainter &amp;painter, double x, double y, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr) override</td></tr>
-<tr class="memdesc:ab03716cb4284b46fedbbc06c404929c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw the contents at the designated position  <a href="class_j_k_q_t_math_text_matrix_node.html#ab03716cb4284b46fedbbc06c404929c7">More...</a><br /></td></tr>
-<tr class="separator:ab03716cb4284b46fedbbc06c404929c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f2c63a5feafd5ba5752ef98216c89c8"><td class="memItemLeft" align="right" valign="top">QVector&lt; QVector&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a7f2c63a5feafd5ba5752ef98216c89c8">getChildren</a> () const</td></tr>
-<tr class="memdesc:a7f2c63a5feafd5ba5752ef98216c89c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the child nodes <br  />
-  <a href="class_j_k_q_t_math_text_matrix_node.html#a7f2c63a5feafd5ba5752ef98216c89c8">More...</a><br /></td></tr>
-<tr class="separator:a7f2c63a5feafd5ba5752ef98216c89c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66fa8c9a4043861a9bc85335a945e3f9"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a66fa8c9a4043861a9bc85335a945e3f9">childCount</a> () const override</td></tr>
+<tr class="memdesc:a66fa8c9a4043861a9bc85335a945e3f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of child nodes  <a href="class_j_k_q_t_math_text_matrix_node.html#a66fa8c9a4043861a9bc85335a945e3f9">More...</a><br /></td></tr>
+<tr class="separator:a66fa8c9a4043861a9bc85335a945e3f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b7af9f39f840afa0e2c34663923bc47"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a0b7af9f39f840afa0e2c34663923bc47">clearChildren</a> (bool deleteChildren=true) override</td></tr>
+<tr class="memdesc:a0b7af9f39f840afa0e2c34663923bc47"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear all children, deleting them if <em>deleteChildren==true</em>  <a href="class_j_k_q_t_math_text_matrix_node.html#a0b7af9f39f840afa0e2c34663923bc47">More...</a><br /></td></tr>
+<tr class="separator:a0b7af9f39f840afa0e2c34663923bc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48dd47c40de1bf0e11a6100d826f4922"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a48dd47c40de1bf0e11a6100d826f4922">deleteChild</a> (int i) override</td></tr>
+<tr class="memdesc:a48dd47c40de1bf0e11a6100d826f4922"><td class="mdescLeft">&#160;</td><td class="mdescRight">delete the i-th child  <a href="class_j_k_q_t_math_text_matrix_node.html#a48dd47c40de1bf0e11a6100d826f4922">More...</a><br /></td></tr>
+<tr class="separator:a48dd47c40de1bf0e11a6100d826f4922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e4743dd6faef3da890fea6def35d7fd"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a3e4743dd6faef3da890fea6def35d7fd">draw</a> (QPainter &amp;painter, double x, double y, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv) const override</td></tr>
+<tr class="memdesc:a3e4743dd6faef3da890fea6def35d7fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw the contents at the designated position  <a href="class_j_k_q_t_math_text_matrix_node.html#a3e4743dd6faef3da890fea6def35d7fd">More...</a><br /></td></tr>
+<tr class="separator:a3e4743dd6faef3da890fea6def35d7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada37ab9f6feed26c392b934353db72e4"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#ada37ab9f6feed26c392b934353db72e4">getChild</a> (int i) const override</td></tr>
+<tr class="memdesc:ada37ab9f6feed26c392b934353db72e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the i-th child node  <a href="class_j_k_q_t_math_text_matrix_node.html#ada37ab9f6feed26c392b934353db72e4">More...</a><br /></td></tr>
+<tr class="separator:ada37ab9f6feed26c392b934353db72e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa60c57bc209045bfa136511555349f09"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#aa60c57bc209045bfa136511555349f09">getChild</a> (int i) override</td></tr>
+<tr class="memdesc:aa60c57bc209045bfa136511555349f09"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the i-th child node  <a href="class_j_k_q_t_math_text_matrix_node.html#aa60c57bc209045bfa136511555349f09">More...</a><br /></td></tr>
+<tr class="separator:aa60c57bc209045bfa136511555349f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af96acf60a1ca1a3d3e174fa1050c941d"><td class="memItemLeft" align="right" valign="top">virtual QList&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#af96acf60a1ca1a3d3e174fa1050c941d">getChildren</a> () override</td></tr>
+<tr class="memdesc:af96acf60a1ca1a3d3e174fa1050c941d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a list of all child node  <a href="class_j_k_q_t_math_text_matrix_node.html#af96acf60a1ca1a3d3e174fa1050c941d">More...</a><br /></td></tr>
+<tr class="separator:af96acf60a1ca1a3d3e174fa1050c941d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48087c7c0e381be50b52d6f75a42ce36"><td class="memItemLeft" align="right" valign="top">QVector&lt; QVector&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a48087c7c0e381be50b52d6f75a42ce36">getChildrenMatrix</a> () const</td></tr>
+<tr class="memdesc:a48087c7c0e381be50b52d6f75a42ce36"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the child nodes <br  />
+  <a href="class_j_k_q_t_math_text_matrix_node.html#a48087c7c0e381be50b52d6f75a42ce36">More...</a><br /></td></tr>
+<tr class="separator:a48087c7c0e381be50b52d6f75a42ce36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af797fb2a44f532925f9ce29c1974aaa3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#af797fb2a44f532925f9ce29c1974aaa3">getColumns</a> () const</td></tr>
 <tr class="memdesc:af797fb2a44f532925f9ce29c1974aaa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of columns in the matrix  <a href="class_j_k_q_t_math_text_matrix_node.html#af797fb2a44f532925f9ce29c1974aaa3">More...</a><br /></td></tr>
 <tr class="separator:af797fb2a44f532925f9ce29c1974aaa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,6 +210,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1c618ace443251e4b89975d91d37e3d7"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a1c618ace443251e4b89975d91d37e3d7">getTypeName</a> () const override</td></tr>
 <tr class="memdesc:a1c618ace443251e4b89975d91d37e3d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the name of this class as a string  <a href="class_j_k_q_t_math_text_matrix_node.html#a1c618ace443251e4b89975d91d37e3d7">More...</a><br /></td></tr>
 <tr class="separator:a1c618ace443251e4b89975d91d37e3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8df09ed996b8d4dbe8c345c10c9f7237"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a8df09ed996b8d4dbe8c345c10c9f7237">replaceChild</a> (int i, <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *newChild) override</td></tr>
+<tr class="memdesc:a8df09ed996b8d4dbe8c345c10c9f7237"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the i-th child node  <a href="class_j_k_q_t_math_text_matrix_node.html#a8df09ed996b8d4dbe8c345c10c9f7237">More...</a><br /></td></tr>
+<tr class="separator:a8df09ed996b8d4dbe8c345c10c9f7237"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc28bf7709a30d960fef24e421bd94cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#abc28bf7709a30d960fef24e421bd94cf">setChildren</a> (const QVector&lt; QVector&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt; &gt; &amp;<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a1b4e473dd36d33f04984ab891bb5f97d">children</a>)</td></tr>
 <tr class="memdesc:abc28bf7709a30d960fef24e421bd94cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the child nodes <br  />
   <a href="class_j_k_q_t_math_text_matrix_node.html#abc28bf7709a30d960fef24e421bd94cf">More...</a><br /></td></tr>
@@ -202,9 +223,62 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a017bc77f84028c78147f8158fa2b1971"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a017bc77f84028c78147f8158fa2b1971">setTopLine</a> (<a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74">LineType</a> line)</td></tr>
 <tr class="memdesc:a017bc77f84028c78147f8158fa2b1971"><td class="mdescLeft">&#160;</td><td class="mdescRight">line at the top of the table  <a href="class_j_k_q_t_math_text_matrix_node.html#a017bc77f84028c78147f8158fa2b1971">More...</a><br /></td></tr>
 <tr class="separator:a017bc77f84028c78147f8158fa2b1971"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b886a997a51a221cb48410eb163727d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a2b886a997a51a221cb48410eb163727d">toHtml</a> (QString &amp;html, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> defaultEv) override</td></tr>
-<tr class="memdesc:a2b886a997a51a221cb48410eb163727d"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert node to HTML and returns <code>true</code> on success  <a href="class_j_k_q_t_math_text_matrix_node.html#a2b886a997a51a221cb48410eb163727d">More...</a><br /></td></tr>
-<tr class="separator:a2b886a997a51a221cb48410eb163727d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b95dba94a683abc6d6e959c1315d66c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a2b95dba94a683abc6d6e959c1315d66c">toHtml</a> (QString &amp;html, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> defaultEv) const override</td></tr>
+<tr class="memdesc:a2b95dba94a683abc6d6e959c1315d66c"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert node to HTML and returns <code>true</code> on success  <a href="class_j_k_q_t_math_text_matrix_node.html#a2b95dba94a683abc6d6e959c1315d66c">More...</a><br /></td></tr>
+<tr class="separator:a2b95dba94a683abc6d6e959c1315d66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_j_k_q_t_math_text_multi_child_node"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_j_k_q_t_math_text_multi_child_node')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_j_k_q_t_math_text_multi_child_node.html">JKQTMathTextMultiChildNode</a></td></tr>
+<tr class="memitem:ad49526ff8fe5a20b705cc3a0924c1d87 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#ad49526ff8fe5a20b705cc3a0924c1d87">JKQTMathTextMultiChildNode</a> (<a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *<a class="el" href="class_j_k_q_t_math_text_node.html#a856ae93b058ef1f605b0f2f85f407d64">parentMathText</a>)</td></tr>
+<tr class="separator:ad49526ff8fe5a20b705cc3a0924c1d87 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a545a4d3c98d17c3d281821dab9a33b8a inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#a545a4d3c98d17c3d281821dab9a33b8a">~JKQTMathTextMultiChildNode</a> () override</td></tr>
+<tr class="separator:a545a4d3c98d17c3d281821dab9a33b8a inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a745458e25f4b51bcbec322675d1f6e0f inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#a745458e25f4b51bcbec322675d1f6e0f">childCount</a> () const =0</td></tr>
+<tr class="memdesc:a745458e25f4b51bcbec322675d1f6e0f inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of child nodes  <a href="class_j_k_q_t_math_text_multi_child_node.html#a745458e25f4b51bcbec322675d1f6e0f">More...</a><br /></td></tr>
+<tr class="separator:a745458e25f4b51bcbec322675d1f6e0f inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc514f6ff14e84d85c0c251fd9a1cef4 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#afc514f6ff14e84d85c0c251fd9a1cef4">clearChildren</a> (bool deleteChildren=true)=0</td></tr>
+<tr class="memdesc:afc514f6ff14e84d85c0c251fd9a1cef4 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear all children, deleting them if <em>deleteChildren==true</em>  <a href="class_j_k_q_t_math_text_multi_child_node.html#afc514f6ff14e84d85c0c251fd9a1cef4">More...</a><br /></td></tr>
+<tr class="separator:afc514f6ff14e84d85c0c251fd9a1cef4 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae11b31c20f8fcd797f76b222c9e7c2c7 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#ae11b31c20f8fcd797f76b222c9e7c2c7">deleteChild</a> (int i)=0</td></tr>
+<tr class="memdesc:ae11b31c20f8fcd797f76b222c9e7c2c7 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">delete the i-th child  <a href="class_j_k_q_t_math_text_multi_child_node.html#ae11b31c20f8fcd797f76b222c9e7c2c7">More...</a><br /></td></tr>
+<tr class="separator:ae11b31c20f8fcd797f76b222c9e7c2c7 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcafce6e3311ed238730d5616288d89d inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#abcafce6e3311ed238730d5616288d89d">getChild</a> (int i) const =0</td></tr>
+<tr class="memdesc:abcafce6e3311ed238730d5616288d89d inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the i-th child node  <a href="class_j_k_q_t_math_text_multi_child_node.html#abcafce6e3311ed238730d5616288d89d">More...</a><br /></td></tr>
+<tr class="separator:abcafce6e3311ed238730d5616288d89d inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8224d99b45f04d2bded34d662c346632 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#a8224d99b45f04d2bded34d662c346632">getChild</a> (int i)=0</td></tr>
+<tr class="memdesc:a8224d99b45f04d2bded34d662c346632 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the i-th child node  <a href="class_j_k_q_t_math_text_multi_child_node.html#a8224d99b45f04d2bded34d662c346632">More...</a><br /></td></tr>
+<tr class="separator:a8224d99b45f04d2bded34d662c346632 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af890dbc303e6ac0bd8c4c8830a6c9c9f inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual QList&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#af890dbc303e6ac0bd8c4c8830a6c9c9f">getChildren</a> ()</td></tr>
+<tr class="memdesc:af890dbc303e6ac0bd8c4c8830a6c9c9f inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a list of all child node  <a href="class_j_k_q_t_math_text_multi_child_node.html#af890dbc303e6ac0bd8c4c8830a6c9c9f">More...</a><br /></td></tr>
+<tr class="separator:af890dbc303e6ac0bd8c4c8830a6c9c9f inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70ebb9b926c2e86836740a0892f6a968 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual QList&lt; const <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#a70ebb9b926c2e86836740a0892f6a968">getChildren</a> () const</td></tr>
+<tr class="memdesc:a70ebb9b926c2e86836740a0892f6a968 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a list of all child node  <a href="class_j_k_q_t_math_text_multi_child_node.html#a70ebb9b926c2e86836740a0892f6a968">More...</a><br /></td></tr>
+<tr class="separator:a70ebb9b926c2e86836740a0892f6a968 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff00bcfca23ad7028753b6979d834d6e inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#aff00bcfca23ad7028753b6979d834d6e">getFirstChild</a> ()</td></tr>
+<tr class="memdesc:aff00bcfca23ad7028753b6979d834d6e inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the first child node  <a href="class_j_k_q_t_math_text_multi_child_node.html#aff00bcfca23ad7028753b6979d834d6e">More...</a><br /></td></tr>
+<tr class="separator:aff00bcfca23ad7028753b6979d834d6e inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafdf8919735fd25fae002b6cbd231e31 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#aafdf8919735fd25fae002b6cbd231e31">getFirstChild</a> () const</td></tr>
+<tr class="memdesc:aafdf8919735fd25fae002b6cbd231e31 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the first child node  <a href="class_j_k_q_t_math_text_multi_child_node.html#aafdf8919735fd25fae002b6cbd231e31">More...</a><br /></td></tr>
+<tr class="separator:aafdf8919735fd25fae002b6cbd231e31 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad437bb160f462371bf6112cac001a103 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#ad437bb160f462371bf6112cac001a103">getLastChild</a> ()</td></tr>
+<tr class="memdesc:ad437bb160f462371bf6112cac001a103 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the last child node  <a href="class_j_k_q_t_math_text_multi_child_node.html#ad437bb160f462371bf6112cac001a103">More...</a><br /></td></tr>
+<tr class="separator:ad437bb160f462371bf6112cac001a103 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a351b4e0dc5fa4362e42086cc7ef64b6b inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#a351b4e0dc5fa4362e42086cc7ef64b6b">getLastChild</a> () const</td></tr>
+<tr class="memdesc:a351b4e0dc5fa4362e42086cc7ef64b6b inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the last child node  <a href="class_j_k_q_t_math_text_multi_child_node.html#a351b4e0dc5fa4362e42086cc7ef64b6b">More...</a><br /></td></tr>
+<tr class="separator:a351b4e0dc5fa4362e42086cc7ef64b6b inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51bad840dc30a1cc7221cdf26a61e82b inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#a51bad840dc30a1cc7221cdf26a61e82b">hasChildren</a> () const</td></tr>
+<tr class="memdesc:a51bad840dc30a1cc7221cdf26a61e82b inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <code>true</code> if children exist  <a href="class_j_k_q_t_math_text_multi_child_node.html#a51bad840dc30a1cc7221cdf26a61e82b">More...</a><br /></td></tr>
+<tr class="separator:a51bad840dc30a1cc7221cdf26a61e82b inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae37e2715114f26cc8d19eaeba84b838a inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#ae37e2715114f26cc8d19eaeba84b838a">isEmpty</a> () const</td></tr>
+<tr class="memdesc:ae37e2715114f26cc8d19eaeba84b838a inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <code>true</code> if there are no children  <a href="class_j_k_q_t_math_text_multi_child_node.html#ae37e2715114f26cc8d19eaeba84b838a">More...</a><br /></td></tr>
+<tr class="separator:ae37e2715114f26cc8d19eaeba84b838a inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3692713e574ca182a98ee80569500a3 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#ae3692713e574ca182a98ee80569500a3">replaceAndDeleteChild</a> (int i, <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *newChild)</td></tr>
+<tr class="memdesc:ae3692713e574ca182a98ee80569500a3 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the i-th child node with the node <em>newChild</em> , deletes the replaced old node  <a href="class_j_k_q_t_math_text_multi_child_node.html#ae3692713e574ca182a98ee80569500a3">More...</a><br /></td></tr>
+<tr class="separator:ae3692713e574ca182a98ee80569500a3 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a626e43b15ec95391651c1ff344d731a0 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#a626e43b15ec95391651c1ff344d731a0">replaceChild</a> (int i, <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *newChild)=0</td></tr>
+<tr class="memdesc:a626e43b15ec95391651c1ff344d731a0 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the i-th child node with the node <em>newChild</em> , returns the replaced old node  <a href="class_j_k_q_t_math_text_multi_child_node.html#a626e43b15ec95391651c1ff344d731a0">More...</a><br /></td></tr>
+<tr class="separator:a626e43b15ec95391651c1ff344d731a0 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ed7600e2d634776a7704f9dc3e97181 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#a2ed7600e2d634776a7704f9dc3e97181">setDrawBoxes</a> (bool <a class="el" href="class_j_k_q_t_math_text_node.html#aa4ec0fd6ced64f73c383297a52160909">draw</a>) override</td></tr>
+<tr class="memdesc:a2ed7600e2d634776a7704f9dc3e97181 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">enables the drawing of colored boxes (for DEBUGGING) around the actual output of the node  <a href="class_j_k_q_t_math_text_multi_child_node.html#a2ed7600e2d634776a7704f9dc3e97181">More...</a><br /></td></tr>
+<tr class="separator:a2ed7600e2d634776a7704f9dc3e97181 inherit pub_methods_class_j_k_q_t_math_text_multi_child_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_j_k_q_t_math_text_node"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_j_k_q_t_math_text_node')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a></td></tr>
 <tr class="memitem:a3ebf243535e42a09dd07a99de9bb4a6f inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a3ebf243535e42a09dd07a99de9bb4a6f">JKQTMathTextNode</a> (const <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> &amp;)=delete</td></tr>
 <tr class="separator:a3ebf243535e42a09dd07a99de9bb4a6f inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,27 +286,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a29c639b5240e545ddaa0758588f9e9d2 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2d8a2f2f4a2510088f7fbefcbc2c88d inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#ae2d8a2f2f4a2510088f7fbefcbc2c88d">~JKQTMathTextNode</a> ()</td></tr>
 <tr class="separator:ae2d8a2f2f4a2510088f7fbefcbc2c88d inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23a4a02505cb308f4aa5eca177f030ef inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a23a4a02505cb308f4aa5eca177f030ef">draw</a> (QPainter &amp;painter, double x, double y, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr)=0</td></tr>
-<tr class="memdesc:a23a4a02505cb308f4aa5eca177f030ef inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw the contents at the designated position  <a href="class_j_k_q_t_math_text_node.html#a23a4a02505cb308f4aa5eca177f030ef">More...</a><br /></td></tr>
-<tr class="separator:a23a4a02505cb308f4aa5eca177f030ef inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4ec0fd6ced64f73c383297a52160909 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#aa4ec0fd6ced64f73c383297a52160909">draw</a> (QPainter &amp;painter, double x, double y, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv) const =0</td></tr>
+<tr class="memdesc:aa4ec0fd6ced64f73c383297a52160909 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw the contents at the designated position  <a href="class_j_k_q_t_math_text_node.html#aa4ec0fd6ced64f73c383297a52160909">More...</a><br /></td></tr>
+<tr class="separator:aa4ec0fd6ced64f73c383297a52160909 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1a753315cb8de723bc12406a6eec4d0 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#ac1a753315cb8de723bc12406a6eec4d0">getDrawBoxes</a> () const</td></tr>
 <tr class="memdesc:ac1a753315cb8de723bc12406a6eec4d0 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the drawing of colored boxes (for DEBUGGING) around the actual output of the node is enabled  <a href="class_j_k_q_t_math_text_node.html#ac1a753315cb8de723bc12406a6eec4d0">More...</a><br /></td></tr>
 <tr class="separator:ac1a753315cb8de723bc12406a6eec4d0 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae99cfc3c38020ad0d8b053f50fbf0935 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#ae99cfc3c38020ad0d8b053f50fbf0935">getNonItalicXCorretion</a> (QPainter &amp;painter, double width_potentiallyitalic, const <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> &amp;ev_potentiallyitalic, <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *child) const</td></tr>
-<tr class="memdesc:ae99cfc3c38020ad0d8b053f50fbf0935 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the x-size-difference between the given (probably) italic (width externally calculated: <em>width_potentiallyitalic</em>, <em>ev_potentiallyitalic</em>) and the non-italic version of <em>child</em>  <a href="class_j_k_q_t_math_text_node.html#ae99cfc3c38020ad0d8b053f50fbf0935">More...</a><br /></td></tr>
-<tr class="separator:ae99cfc3c38020ad0d8b053f50fbf0935 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac813ee40020b26fd75c43c0e21bb97a6 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#ac813ee40020b26fd75c43c0e21bb97a6">getParentNode</a> ()</td></tr>
 <tr class="memdesc:ac813ee40020b26fd75c43c0e21bb97a6 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">parent node of this node (i.e. one level up, ode <code>nullptr</code> )  <a href="class_j_k_q_t_math_text_node.html#ac813ee40020b26fd75c43c0e21bb97a6">More...</a><br /></td></tr>
 <tr class="separator:ac813ee40020b26fd75c43c0e21bb97a6 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3b370409bf6cbaa05a5627c9f6929d4 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#ad3b370409bf6cbaa05a5627c9f6929d4">getParentNode</a> () const</td></tr>
 <tr class="memdesc:ad3b370409bf6cbaa05a5627c9f6929d4 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">parent node of this node (i.e. one level up, ode <code>nullptr</code> )  <a href="class_j_k_q_t_math_text_node.html#ad3b370409bf6cbaa05a5627c9f6929d4">More...</a><br /></td></tr>
 <tr class="separator:ad3b370409bf6cbaa05a5627c9f6929d4 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd24772ce8e5dc1b9ae5e3cf1f24b4e3 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#afd24772ce8e5dc1b9ae5e3cf1f24b4e3">getSize</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr)</td></tr>
-<tr class="memdesc:afd24772ce8e5dc1b9ae5e3cf1f24b4e3 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, calls <a class="el" href="class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd" title="determine the size of the node, overwrite this function in derived classes">getSizeInternal()</a> implementation of the actual type  <a href="class_j_k_q_t_math_text_node.html#afd24772ce8e5dc1b9ae5e3cf1f24b4e3">More...</a><br /></td></tr>
-<tr class="separator:afd24772ce8e5dc1b9ae5e3cf1f24b4e3 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64a20dde0c762ee5a20c7b6dbb99eadd inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a64a20dde0c762ee5a20c7b6dbb99eadd">getSize</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double &amp;width, double &amp;baselineHeight, double &amp;overallHeight, double &amp;strikeoutPos, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr)</td></tr>
-<tr class="memdesc:a64a20dde0c762ee5a20c7b6dbb99eadd inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, calls <a class="el" href="class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd" title="determine the size of the node, overwrite this function in derived classes">getSizeInternal()</a> implementation of the actual type  <a href="class_j_k_q_t_math_text_node.html#a64a20dde0c762ee5a20c7b6dbb99eadd">More...</a><br /></td></tr>
-<tr class="separator:a64a20dde0c762ee5a20c7b6dbb99eadd inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af26f91923648b4a06693cd4255ff91af inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#af26f91923648b4a06693cd4255ff91af">getSize</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv) const</td></tr>
+<tr class="memdesc:af26f91923648b4a06693cd4255ff91af inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, calls <a class="el" href="class_j_k_q_t_math_text_node.html#a25bd5b2aa426b612027e8e2d71bff00e" title="determine the size of the node, overwrite this function in derived classes">getSizeInternal()</a> implementation of the actual type  <a href="class_j_k_q_t_math_text_node.html#af26f91923648b4a06693cd4255ff91af">More...</a><br /></td></tr>
+<tr class="separator:af26f91923648b4a06693cd4255ff91af inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89840deb78e1d614c74348d7e612549f inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a89840deb78e1d614c74348d7e612549f">getTypeName</a> () const</td></tr>
 <tr class="memdesc:a89840deb78e1d614c74348d7e612549f inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the name of this class as a string  <a href="class_j_k_q_t_math_text_node.html#a89840deb78e1d614c74348d7e612549f">More...</a><br /></td></tr>
 <tr class="separator:a89840deb78e1d614c74348d7e612549f inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,7 +309,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac4249c7a7d89dbc6796b8b7da590daac inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b9a46885a308fa527d93308f9f10bde inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a7b9a46885a308fa527d93308f9f10bde">operator=</a> (const <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> &amp;)=delete</td></tr>
 <tr class="separator:a7b9a46885a308fa527d93308f9f10bde inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a616006320c94d7bcb7546effa9812bee inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a616006320c94d7bcb7546effa9812bee">setDrawBoxes</a> (bool <a class="el" href="class_j_k_q_t_math_text_node.html#a23a4a02505cb308f4aa5eca177f030ef">draw</a>)</td></tr>
+<tr class="memitem:a616006320c94d7bcb7546effa9812bee inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a616006320c94d7bcb7546effa9812bee">setDrawBoxes</a> (bool <a class="el" href="class_j_k_q_t_math_text_node.html#aa4ec0fd6ced64f73c383297a52160909">draw</a>)</td></tr>
 <tr class="memdesc:a616006320c94d7bcb7546effa9812bee inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">enables the drawing of colored boxes (for DEBUGGING) around the actual output of the node  <a href="class_j_k_q_t_math_text_node.html#a616006320c94d7bcb7546effa9812bee">More...</a><br /></td></tr>
 <tr class="separator:a616006320c94d7bcb7546effa9812bee inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3a2f37826af7cb9f561ce2f147d1e75 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#ae3a2f37826af7cb9f561ce2f147d1e75">setParentNode</a> (<a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *node)</td></tr>
@@ -250,28 +318,34 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af6753f72f52bad706a4b3e3dc8332985 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#af6753f72f52bad706a4b3e3dc8332985">setSubSuperscriptAboveBelowNode</a> (bool __value)</td></tr>
 <tr class="memdesc:af6753f72f52bad706a4b3e3dc8332985 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <code>true</code> then following sub- and/or superscripts are placed below and above the node, not besides it. This is activated when <code>\sum\limits_{sub}^{sup}</code> is used in LaTeX instead of simply <code>\sum_{sub}^{sup}</code>  <a href="class_j_k_q_t_math_text_node.html#af6753f72f52bad706a4b3e3dc8332985">More...</a><br /></td></tr>
 <tr class="separator:af6753f72f52bad706a4b3e3dc8332985 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ba14f4c0070bd6e4fbc92b35c15df09 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a2ba14f4c0070bd6e4fbc92b35c15df09">toHtml</a> (QString &amp;html, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> defaultEv)</td></tr>
-<tr class="memdesc:a2ba14f4c0070bd6e4fbc92b35c15df09 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert node to HTML and returns <code>true</code> on success  <a href="class_j_k_q_t_math_text_node.html#a2ba14f4c0070bd6e4fbc92b35c15df09">More...</a><br /></td></tr>
-<tr class="separator:a2ba14f4c0070bd6e4fbc92b35c15df09 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89769496af5e37ec1b63634c2dd8c531 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a89769496af5e37ec1b63634c2dd8c531">toHtml</a> (QString &amp;html, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> defaultEv) const</td></tr>
+<tr class="memdesc:a89769496af5e37ec1b63634c2dd8c531 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert node to HTML and returns <code>true</code> on success  <a href="class_j_k_q_t_math_text_node.html#a89769496af5e37ec1b63634c2dd8c531">More...</a><br /></td></tr>
+<tr class="separator:a89769496af5e37ec1b63634c2dd8c531 inherit pub_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a114c86ac7726cf68e5ee661e96ab85d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html">LayoutInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a114c86ac7726cf68e5ee661e96ab85d7">calcLayout</a> (QPainter &amp;painter, const <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> &amp;currentEv) const</td></tr>
 <tr class="memdesc:a114c86ac7726cf68e5ee661e96ab85d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">calclates the layout of the whole block/node  <a href="class_j_k_q_t_math_text_matrix_node.html#a114c86ac7726cf68e5ee661e96ab85d7">More...</a><br /></td></tr>
 <tr class="separator:a114c86ac7726cf68e5ee661e96ab85d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a73963021816fe96c603679361e6955"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a0a73963021816fe96c603679361e6955">getSizeInternal</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double &amp;width, double &amp;baselineHeight, double &amp;overallHeight, double &amp;strikeoutPos, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr) override</td></tr>
-<tr class="memdesc:a0a73963021816fe96c603679361e6955"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, overwrite this function in derived classes  <a href="class_j_k_q_t_math_text_matrix_node.html#a0a73963021816fe96c603679361e6955">More...</a><br /></td></tr>
-<tr class="separator:a0a73963021816fe96c603679361e6955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a224b50097940b5ae60b4b72d4e922f4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a224b50097940b5ae60b4b72d4e922f4f">clearChildrenImpl</a> (bool deleteChildren)</td></tr>
+<tr class="memdesc:a224b50097940b5ae60b4b72d4e922f4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear all children, deleting them if <em>deleteChildren==true</em>  <a href="class_j_k_q_t_math_text_matrix_node.html#a224b50097940b5ae60b4b72d4e922f4f">More...</a><br /></td></tr>
+<tr class="separator:a224b50097940b5ae60b4b72d4e922f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b48e3414c7bae46951bf58b22c97793"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a6b48e3414c7bae46951bf58b22c97793">getSizeInternal</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv) const override</td></tr>
+<tr class="memdesc:a6b48e3414c7bae46951bf58b22c97793"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, overwrite this function in derived classes  <a href="class_j_k_q_t_math_text_matrix_node.html#a6b48e3414c7bae46951bf58b22c97793">More...</a><br /></td></tr>
+<tr class="separator:a6b48e3414c7bae46951bf58b22c97793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ad2860a44b439fd7bc0f614292912be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a0ad2860a44b439fd7bc0f614292912be">parseColumnSpec</a> (const QString &amp;columnspec)</td></tr>
 <tr class="memdesc:a0ad2860a44b439fd7bc0f614292912be"><td class="mdescLeft">&#160;</td><td class="mdescRight">parses a column specifier  <a href="class_j_k_q_t_math_text_matrix_node.html#a0ad2860a44b439fd7bc0f614292912be">More...</a><br /></td></tr>
 <tr class="separator:a0ad2860a44b439fd7bc0f614292912be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a455cb3082fe69e57327a2641ed938397"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a455cb3082fe69e57327a2641ed938397">setDrawBoxes</a> (bool <a class="el" href="class_j_k_q_t_math_text_matrix_node.html#ab03716cb4284b46fedbbc06c404929c7">draw</a>) override</td></tr>
+<tr class="memitem:a455cb3082fe69e57327a2641ed938397"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a455cb3082fe69e57327a2641ed938397">setDrawBoxes</a> (bool <a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a3e4743dd6faef3da890fea6def35d7fd">draw</a>) override</td></tr>
 <tr class="memdesc:a455cb3082fe69e57327a2641ed938397"><td class="mdescLeft">&#160;</td><td class="mdescRight">enables the drawing of colored boxes (for DEBUGGING) around the actual output of the node  <a href="class_j_k_q_t_math_text_matrix_node.html#a455cb3082fe69e57327a2641ed938397">More...</a><br /></td></tr>
 <tr class="separator:a455cb3082fe69e57327a2641ed938397"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_j_k_q_t_math_text_node"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_math_text_node')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a></td></tr>
-<tr class="memitem:a27ac245b5023f7b83aba129ddfc391f0 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a27ac245b5023f7b83aba129ddfc391f0">doDrawBoxes</a> (QPainter &amp;painter, double x, double y, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv)</td></tr>
-<tr class="memdesc:a27ac245b5023f7b83aba129ddfc391f0 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws colored boxes (for DEBUGGING) around the actual output of the node  <a href="class_j_k_q_t_math_text_node.html#a27ac245b5023f7b83aba129ddfc391f0">More...</a><br /></td></tr>
-<tr class="separator:a27ac245b5023f7b83aba129ddfc391f0 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac72399e3dd08ef5b01b275d62fde0827 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#ac72399e3dd08ef5b01b275d62fde0827">doDrawBoxes</a> (QPainter &amp;painter, double x, double y, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> &amp;size) const</td></tr>
+<tr class="memdesc:ac72399e3dd08ef5b01b275d62fde0827 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws colored boxes (for DEBUGGING) around the actual output of the node  <a href="class_j_k_q_t_math_text_node.html#ac72399e3dd08ef5b01b275d62fde0827">More...</a><br /></td></tr>
+<tr class="separator:ac72399e3dd08ef5b01b275d62fde0827 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a577f174ffc1ad1f92831f152d6241437 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a577f174ffc1ad1f92831f152d6241437">doDrawBoxes</a> (QPainter &amp;painter, double x, double y, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv) const</td></tr>
+<tr class="memdesc:a577f174ffc1ad1f92831f152d6241437 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws colored boxes (for DEBUGGING) around the actual output of the node  <a href="class_j_k_q_t_math_text_node.html#a577f174ffc1ad1f92831f152d6241437">More...</a><br /></td></tr>
+<tr class="separator:a577f174ffc1ad1f92831f152d6241437 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3c81a6c676219160c37f4b5d89d19e9 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ad3c81a6c676219160c37f4b5d89d19e9 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memTemplItemLeft" align="right" valign="top">QList&lt; T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#ad3c81a6c676219160c37f4b5d89d19e9">getParents</a> ()</td></tr>
 <tr class="memdesc:ad3c81a6c676219160c37f4b5d89d19e9 inherit pro_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the list of parent, parent-of-parent, ... that can be cast to type <em>T</em>  <a href="class_j_k_q_t_math_text_node.html#ad3c81a6c676219160c37f4b5d89d19e9">More...</a><br /></td></tr>
@@ -280,9 +354,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a3d4627d305165c28363944821d76efbc inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memTemplItemLeft" align="right" valign="top">QList&lt; const T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a3d4627d305165c28363944821d76efbc">getParents</a> () const</td></tr>
 <tr class="memdesc:a3d4627d305165c28363944821d76efbc inherit pro_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the list of parent, parent-of-parent, ... that can be cast to type <em>T</em>  <a href="class_j_k_q_t_math_text_node.html#a3d4627d305165c28363944821d76efbc">More...</a><br /></td></tr>
 <tr class="separator:a3d4627d305165c28363944821d76efbc inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f89e2519be406551fef640ce77b53fd inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd">getSizeInternal</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, double &amp;width, double &amp;baselineHeight, double &amp;overallHeight, double &amp;strikeoutPos, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *prevNodeSize=nullptr)=0</td></tr>
-<tr class="memdesc:a3f89e2519be406551fef640ce77b53fd inherit pro_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, overwrite this function in derived classes  <a href="class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd">More...</a><br /></td></tr>
-<tr class="separator:a3f89e2519be406551fef640ce77b53fd inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25bd5b2aa426b612027e8e2d71bff00e inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a25bd5b2aa426b612027e8e2d71bff00e">getSizeInternal</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv) const =0</td></tr>
+<tr class="memdesc:a25bd5b2aa426b612027e8e2d71bff00e inherit pro_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, overwrite this function in derived classes  <a href="class_j_k_q_t_math_text_node.html#a25bd5b2aa426b612027e8e2d71bff00e">More...</a><br /></td></tr>
+<tr class="separator:a25bd5b2aa426b612027e8e2d71bff00e inherit pro_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
@@ -332,6 +406,13 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:afdec8ae06750ccbc25045c60d0a973e0 inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#afdec8ae06750ccbc25045c60d0a973e0">subSuperscriptAboveBelowNode</a></td></tr>
 <tr class="memdesc:afdec8ae06750ccbc25045c60d0a973e0 inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <code>true</code> then following sub- and/or superscripts are placed below and above the node, not besides it. This is activated when <code>\sum\limits_{sub}^{sup}</code> is used in LaTeX instead of simply <code>\sum_{sub}^{sup}</code>  <a href="class_j_k_q_t_math_text_node.html#afdec8ae06750ccbc25045c60d0a973e0">More...</a><br /></td></tr>
 <tr class="separator:afdec8ae06750ccbc25045c60d0a973e0 inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_class_j_k_q_t_math_text_node"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_j_k_q_t_math_text_node')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a></td></tr>
+<tr class="memitem:ad543c465b7c79cbea280442c326a2c53 inherit pub_static_methods_class_j_k_q_t_math_text_node"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#ad543c465b7c79cbea280442c326a2c53">getNonItalicXCorretion</a> (QPainter &amp;painter, double width_potentiallyitalic, const <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> &amp;ev_potentiallyitalic, const <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *child)</td></tr>
+<tr class="memdesc:ad543c465b7c79cbea280442c326a2c53 inherit pub_static_methods_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the x-size-difference between the given (probably) italic (width externally calculated: <em>width_potentiallyitalic</em>, <em>ev_potentiallyitalic</em>) and the non-italic version of <em>child</em>  <a href="class_j_k_q_t_math_text_node.html#ad543c465b7c79cbea280442c326a2c53">More...</a><br /></td></tr>
+<tr class="separator:ad543c465b7c79cbea280442c326a2c53 inherit pub_static_methods_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >subclass representing a <code>\begin{matrix}</code> , <code>\begin{tabular}</code> , <code>\begin{array}</code> , ... node </p>
@@ -504,8 +585,125 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab03716cb4284b46fedbbc06c404929c7" name="ab03716cb4284b46fedbbc06c404929c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab03716cb4284b46fedbbc06c404929c7">&#9670;&nbsp;</a></span>draw()</h2>
+<a id="a66fa8c9a4043861a9bc85335a945e3f9" name="a66fa8c9a4043861a9bc85335a945e3f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66fa8c9a4043861a9bc85335a945e3f9">&#9670;&nbsp;</a></span>childCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int JKQTMathTextMatrixNode::childCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the number of child nodes </p>
+
+<p>Implements <a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#a745458e25f4b51bcbec322675d1f6e0f">JKQTMathTextMultiChildNode</a>.</p>
+
+</div>
+</div>
+<a id="a0b7af9f39f840afa0e2c34663923bc47" name="a0b7af9f39f840afa0e2c34663923bc47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b7af9f39f840afa0e2c34663923bc47">&#9670;&nbsp;</a></span>clearChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void JKQTMathTextMatrixNode::clearChildren </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>deleteChildren</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>clear all children, deleting them if <em>deleteChildren==true</em> </p>
+
+<p>Implements <a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#afc514f6ff14e84d85c0c251fd9a1cef4">JKQTMathTextMultiChildNode</a>.</p>
+
+</div>
+</div>
+<a id="a224b50097940b5ae60b4b72d4e922f4f" name="a224b50097940b5ae60b4b72d4e922f4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a224b50097940b5ae60b4b72d4e922f4f">&#9670;&nbsp;</a></span>clearChildrenImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathTextMatrixNode::clearChildrenImpl </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>deleteChildren</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>clear all children, deleting them if <em>deleteChildren==true</em> </p>
+
+</div>
+</div>
+<a id="a48dd47c40de1bf0e11a6100d826f4922" name="a48dd47c40de1bf0e11a6100d826f4922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48dd47c40de1bf0e11a6100d826f4922">&#9670;&nbsp;</a></span>deleteChild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void JKQTMathTextMatrixNode::deleteChild </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>delete the i-th child </p>
+
+<p>Implements <a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#ae11b31c20f8fcd797f76b222c9e7c2c7">JKQTMathTextMultiChildNode</a>.</p>
+
+</div>
+</div>
+<a id="a3e4743dd6faef3da890fea6def35d7fd" name="a3e4743dd6faef3da890fea6def35d7fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e4743dd6faef3da890fea6def35d7fd">&#9670;&nbsp;</a></span>draw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -535,18 +733,12 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a>&#160;</td>
-          <td class="paramname"><em>currentEv</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *&#160;</td>
-          <td class="paramname"><em>prevNodeSize</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>currentEv</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -559,17 +751,16 @@ Protected Attributes</h2></td></tr>
 <p>draw the contents at the designated position </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir"></td><td class="paramname">painter</td><td>QPainter to use </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">x</td><td>x-position, where the drawing starts [Pixel] </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">y</td><td>Y-position of the baseline, where the drawing starts [Pixel] </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">currentEv</td><td><a class="el" href="struct_j_k_q_t_math_text_environment.html" title="describes the current drawing environment (base fontname ...)">JKQTMathTextEnvironment</a> object describing the current drawing environment/settings </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">prevNodeSize</td><td>optional parameter, describing the size of the previous node (on the left). This may be used for layout of some nodes (e.g. sub/super to move correctly next to large parantheses ...) </td></tr>
+    <tr><td class="paramname">painter</td><td>QPainter to use </td></tr>
+    <tr><td class="paramname">x</td><td>x-position, where the drawing starts [Pixel] </td></tr>
+    <tr><td class="paramname">y</td><td>Y-position of the baseline, where the drawing starts [Pixel] </td></tr>
+    <tr><td class="paramname">currentEv</td><td><a class="el" href="struct_j_k_q_t_math_text_environment.html" title="describes the current drawing environment (base fontname ...)">JKQTMathTextEnvironment</a> object describing the current drawing environment/settings</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the x position which to use for the next part of the text </dd></dl>
 
-<p>Implements <a class="el" href="class_j_k_q_t_math_text_node.html#a23a4a02505cb308f4aa5eca177f030ef">JKQTMathTextNode</a>.</p>
+<p>Implements <a class="el" href="class_j_k_q_t_math_text_node.html#aa4ec0fd6ced64f73c383297a52160909">JKQTMathTextNode</a>.</p>
 
 </div>
 </div>
@@ -733,14 +924,103 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7f2c63a5feafd5ba5752ef98216c89c8" name="a7f2c63a5feafd5ba5752ef98216c89c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f2c63a5feafd5ba5752ef98216c89c8">&#9670;&nbsp;</a></span>getChildren()</h2>
+<a id="ada37ab9f6feed26c392b934353db72e4" name="ada37ab9f6feed26c392b934353db72e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada37ab9f6feed26c392b934353db72e4">&#9670;&nbsp;</a></span>getChild() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * JKQTMathTextMatrixNode::getChild </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the i-th child node </p>
+
+<p>Implements <a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#abcafce6e3311ed238730d5616288d89d">JKQTMathTextMultiChildNode</a>.</p>
+
+</div>
+</div>
+<a id="aa60c57bc209045bfa136511555349f09" name="aa60c57bc209045bfa136511555349f09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa60c57bc209045bfa136511555349f09">&#9670;&nbsp;</a></span>getChild() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * JKQTMathTextMatrixNode::getChild </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the i-th child node </p>
+
+<p>Implements <a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#a8224d99b45f04d2bded34d662c346632">JKQTMathTextMultiChildNode</a>.</p>
+
+</div>
+</div>
+<a id="af96acf60a1ca1a3d3e174fa1050c941d" name="af96acf60a1ca1a3d3e174fa1050c941d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af96acf60a1ca1a3d3e174fa1050c941d">&#9670;&nbsp;</a></span>getChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual QList&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt; JKQTMathTextMatrixNode::getChildren </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns a list of all child node </p>
+
+<p>Reimplemented from <a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#af890dbc303e6ac0bd8c4c8830a6c9c9f">JKQTMathTextMultiChildNode</a>.</p>
+
+</div>
+</div>
+<a id="a48087c7c0e381be50b52d6f75a42ce36" name="a48087c7c0e381be50b52d6f75a42ce36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48087c7c0e381be50b52d6f75a42ce36">&#9670;&nbsp;</a></span>getChildrenMatrix()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QVector&lt; QVector&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt; &gt; JKQTMathTextMatrixNode::getChildren </td>
+          <td class="memname">QVector&lt; QVector&lt; <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * &gt; &gt; JKQTMathTextMatrixNode::getChildrenMatrix </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -791,8 +1071,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0a73963021816fe96c603679361e6955" name="a0a73963021816fe96c603679361e6955"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a73963021816fe96c603679361e6955">&#9670;&nbsp;</a></span>getSizeInternal()</h2>
+<a id="a6b48e3414c7bae46951bf58b22c97793" name="a6b48e3414c7bae46951bf58b22c97793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b48e3414c7bae46951bf58b22c97793">&#9670;&nbsp;</a></span>getSizeInternal()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -801,7 +1081,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void JKQTMathTextMatrixNode::getSizeInternal </td>
+          <td class="memname">virtual <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> JKQTMathTextMatrixNode::getSizeInternal </td>
           <td>(</td>
           <td class="paramtype">QPainter &amp;&#160;</td>
           <td class="paramname"><em>painter</em>, </td>
@@ -810,42 +1090,12 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a>&#160;</td>
-          <td class="paramname"><em>currentEv</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>baselineHeight</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>overallHeight</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>strikeoutPos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> *&#160;</td>
-          <td class="paramname"><em>prevNodeSize</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>currentEv</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -864,12 +1114,11 @@ Protected Attributes</h2></td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">baselineHeight</td><td>distance from the bottom of the block/node-box to the baseline </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">overallHeight</td><td>overall height (bottom to top) of the node, the ascent is <code>overallHeight-baselineHeight</code> </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">strikeoutPos</td><td>position of the strikeout-line </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">prevNodeSize</td><td>optional parameter, describing the size of the previous node (on the left). This may be used for layout of some nodes (e.g. sub/super to move correctly next to large parantheses ...) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="class_j_k_q_t_math_text_node.html#a3f89e2519be406551fef640ce77b53fd">JKQTMathTextNode</a>.</p>
+<p>Implements <a class="el" href="class_j_k_q_t_math_text_node.html#a25bd5b2aa426b612027e8e2d71bff00e">JKQTMathTextNode</a>.</p>
 
 </div>
 </div>
@@ -930,6 +1179,46 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8df09ed996b8d4dbe8c345c10c9f7237" name="a8df09ed996b8d4dbe8c345c10c9f7237"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8df09ed996b8d4dbe8c345c10c9f7237">&#9670;&nbsp;</a></span>replaceChild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> * JKQTMathTextMatrixNode::replaceChild </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td>
+          <td class="paramname"><em>newChild</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the i-th child node </p>
+
+<p>Implements <a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#a626e43b15ec95391651c1ff344d731a0">JKQTMathTextMultiChildNode</a>.</p>
+
+</div>
+</div>
 <a id="abc28bf7709a30d960fef24e421bd94cf" name="abc28bf7709a30d960fef24e421bd94cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc28bf7709a30d960fef24e421bd94cf">&#9670;&nbsp;</a></span>setChildren()</h2>
 
@@ -977,7 +1266,7 @@ Protected Attributes</h2></td></tr>
 
 <p>enables the drawing of colored boxes (for DEBUGGING) around the actual output of the node </p>
 
-<p>Reimplemented from <a class="el" href="class_j_k_q_t_math_text_node.html#a616006320c94d7bcb7546effa9812bee">JKQTMathTextNode</a>.</p>
+<p>Reimplemented from <a class="el" href="class_j_k_q_t_math_text_multi_child_node.html#a2ed7600e2d634776a7704f9dc3e97181">JKQTMathTextMultiChildNode</a>.</p>
 
 </div>
 </div>
@@ -1031,8 +1320,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2b886a997a51a221cb48410eb163727d" name="a2b886a997a51a221cb48410eb163727d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b886a997a51a221cb48410eb163727d">&#9670;&nbsp;</a></span>toHtml()</h2>
+<a id="a2b95dba94a683abc6d6e959c1315d66c" name="a2b95dba94a683abc6d6e959c1315d66c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b95dba94a683abc6d6e959c1315d66c">&#9670;&nbsp;</a></span>toHtml()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1061,7 +1350,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -1082,7 +1371,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> on success </dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_j_k_q_t_math_text_node.html#a2ba14f4c0070bd6e4fbc92b35c15df09">JKQTMathTextNode</a>.</p>
+<p>Reimplemented from <a class="el" href="class_j_k_q_t_math_text_node.html#a89769496af5e37ec1b63634c2dd8c531">JKQTMathTextNode</a>.</p>
 
 </div>
 </div>
@@ -1288,7 +1577,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_matrix_node.html">JKQTMathTextMatrixNode</a></li>
-    <li class="footer">Generated on Sat Aug 13 2022 13:35:22 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Tue Aug 16 2022 21:15:40 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

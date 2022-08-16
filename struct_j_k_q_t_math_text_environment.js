@@ -10,7 +10,7 @@ var struct_j_k_q_t_math_text_environment =
     [ "exchangedFontFor", "struct_j_k_q_t_math_text_environment.html#aa727de10f2d34de5522144c5ca55474d", null ],
     [ "exchangedFontForRoman", "struct_j_k_q_t_math_text_environment.html#afa11ac7967fb7a4d1f7466a70700817d", null ],
     [ "FontSizeUnit2String", "struct_j_k_q_t_math_text_environment.html#acaf99e1b802a2447c1cd2871cca36f28", null ],
-    [ "getFont", "struct_j_k_q_t_math_text_environment.html#adb57f29248d9944956890e85242f472a", null ],
+    [ "getFont", "struct_j_k_q_t_math_text_environment.html#abaccee3c4737f606eccc3e05e9ac0855", null ],
     [ "getFontEncoding", "struct_j_k_q_t_math_text_environment.html#a73179609b45a50b31979e1ee542bbc98", null ],
     [ "String2FontSizeUnit", "struct_j_k_q_t_math_text_environment.html#a38fcaa344a5b67badeed84a53011f204", null ],
     [ "toHtmlAfter", "struct_j_k_q_t_math_text_environment.html#a8409d0e65c01a0a99fe70da3aa056fa0", null ],

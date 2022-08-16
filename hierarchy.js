@@ -34,15 +34,16 @@ var hierarchy =
     [ "JKQTMathTextFontSpecifier", "struct_j_k_q_t_math_text_font_specifier.html", null ],
     [ "JKQTMathTextNode", "class_j_k_q_t_math_text_node.html", [
       [ "JKQTMathTextEmptyBoxNode", "class_j_k_q_t_math_text_empty_box_node.html", null ],
-      [ "JKQTMathTextMatrixNode", "class_j_k_q_t_math_text_matrix_node.html", null ],
       [ "JKQTMathTextMultiChildNode", "class_j_k_q_t_math_text_multi_child_node.html", [
         [ "JKQTMathTextDualChildNode", "class_j_k_q_t_math_text_dual_child_node.html", [
           [ "JKQTMathTextFracNode", "class_j_k_q_t_math_text_frac_node.html", null ]
         ] ],
         [ "JKQTMathTextHorizontalListNode", "class_j_k_q_t_math_text_horizontal_list_node.html", null ],
+        [ "JKQTMathTextMatrixNode", "class_j_k_q_t_math_text_matrix_node.html", null ],
         [ "JKQTMathTextSqrtNode", "class_j_k_q_t_math_text_sqrt_node.html", null ],
         [ "JKQTMathTextVerticalListNode", "class_j_k_q_t_math_text_vertical_list_node.html", null ]
       ] ],
+      [ "JKQTMathTextNoopNode", "class_j_k_q_t_math_text_noop_node.html", null ],
       [ "JKQTMathTextSimpleInstructionNode", "class_j_k_q_t_math_text_simple_instruction_node.html", null ],
       [ "JKQTMathTextSingleChildNode", "class_j_k_q_t_math_text_single_child_node.html", [
         [ "JKQTMathTextBraceNode", "class_j_k_q_t_math_text_brace_node.html", null ],
@@ -63,7 +64,10 @@ var hierarchy =
       [ "JKQTMathTextWhitespaceNode", "class_j_k_q_t_math_text_whitespace_node.html", null ]
     ] ],
     [ "JKQTMathTextNodeSize", "struct_j_k_q_t_math_text_node_size.html", [
+      [ "JKQTMathTextBraceNode::NodeSize", "struct_j_k_q_t_math_text_brace_node_1_1_node_size.html", null ],
       [ "JKQTMathTextMatrixNode::LayoutInfo", "struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html", null ],
+      [ "JKQTMathTextSymbolNode::NodeSize", "struct_j_k_q_t_math_text_symbol_node_1_1_node_size.html", null ],
+      [ "JKQTMathTextTextNode::LayoutInfo", "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html", null ],
       [ "JKQTMathTextVerbatimNode::LayoutInfo", "struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html", null ],
       [ "JKQTMathTextVerticalListNode::LayoutInfo", "struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html", null ]
     ] ],

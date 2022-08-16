@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['whitespaceprops_0',['WhitespaceProps',['../struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html',1,'JKQTMathTextWhitespaceNode']]]
+  ['textsizedata_0',['textSizeData',['../struct_j_k_q_t_base_plotter_1_1text_size_data.html',1,'JKQTBasePlotter']]],
+  ['textsizekey_1',['textSizeKey',['../struct_j_k_q_t_base_plotter_1_1text_size_key.html',1,'JKQTBasePlotter']]]
 ];

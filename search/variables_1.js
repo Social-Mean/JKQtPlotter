@@ -15,8 +15,7 @@ var searchData=
   ['boxwidthabsolute_12',['boxWidthAbsolute',['../class_j_k_q_t_p_graph_boxplot_style_mixin.html#a6b1226b0857af18efdf333e3740cee8d',1,'JKQTPGraphBoxplotStyleMixin']]],
   ['boxwidthrelative_13',['boxWidthRelative',['../class_j_k_q_t_p_boxplot_graph_base.html#a9e477b1d9cb2253ac1ef96d9e0631ff1',1,'JKQTPBoxplotGraphBase']]],
   ['brace_5ffactor_14',['brace_factor',['../class_j_k_q_t_math_text.html#a789296ebe6e466c87aae0bdd009f2743',1,'JKQTMathText']]],
-  ['brace_5fshrink_5ffactor_15',['brace_shrink_factor',['../class_j_k_q_t_math_text.html#ac497bc656c1f218f0a47804087352b15',1,'JKQTMathText']]],
-  ['brace_5fy_5fshift_5ffactor_16',['brace_y_shift_factor',['../class_j_k_q_t_math_text.html#a6ddbfe67b6ee9ee4a832e1739712c296',1,'JKQTMathText']]],
-  ['brush_17',['brush',['../struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html#ab7b833c9b7ae0902af25f346dfe61816',1,'JKQTMathTextBoxInstructionNode::InstructionProperties']]],
-  ['buffer_18',['buffer',['../class_j_k_q_t_math_text_label.html#a5a2bf74b499a1ca7212db85f3ee0ce86',1,'JKQTMathTextLabel']]]
+  ['brace_5fy_5fshift_5ffactor_15',['brace_y_shift_factor',['../class_j_k_q_t_math_text.html#a6ddbfe67b6ee9ee4a832e1739712c296',1,'JKQTMathText']]],
+  ['brush_16',['brush',['../struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html#ab7b833c9b7ae0902af25f346dfe61816',1,'JKQTMathTextBoxInstructionNode::InstructionProperties']]],
+  ['buffer_17',['buffer',['../class_j_k_q_t_math_text_label.html#a5a2bf74b499a1ca7212db85f3ee0ce86',1,'JKQTMathTextLabel']]]
 ];

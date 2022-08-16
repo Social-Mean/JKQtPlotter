@@ -222,6 +222,10 @@ IMPROVED/REWORKED rendering of blackboard font: now several different rendering 
 <li>
 BREAKING/REWORKED: The \verb!...!-command now works the same as in LaTeX </li>
 <li>
+BREAKING/CLEANUP: cleanup: Removed Parameter prevNodeSize from <a class="el" href="class_j_k_q_t_math_text_node.html#aa4ec0fd6ced64f73c383297a52160909" title="draw the contents at the designated position">JKQTMathTextNode::draw()</a> and <a class="el" href="class_j_k_q_t_math_text_node.html#af26f91923648b4a06693cd4255ff91af" title="determine the size of the node, calls getSizeInternal() implementation of the actual type">JKQTMathTextNode::getSize()</a>/JKQTMathTextNode::getSizeInternal(), since it is only really necessary for <a class="el" href="class_j_k_q_t_math_text_subscript_node.html" title="subclass representing an subscript node with exactly one argument in the syntax tree">JKQTMathTextSubscriptNode</a> and <a class="el" href="class_j_k_q_t_math_text_superscript_node.html" title="subclass representing an superscript node with exactly one argument in the syntax tree">JKQTMathTextSuperscriptNode</a> </li>
+<li>
+BREAKING/CLEANUP: using <a class="el" href="struct_j_k_q_t_math_text_node_size.html" title="beschreibt die Größe(n) eines Knotens">JKQTMathTextNodeSize</a> for all size-calculation functions and got rid of all functions that take the output parameters with call-by-reference, additional information can be outut by local size-classes that derive from <a class="el" href="struct_j_k_q_t_math_text_node_size.html" title="beschreibt die Größe(n) eines Knotens">JKQTMathTextNodeSize</a>, see e.g. <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_node_size.html" title="return type for getSymbolSize(), extends JKQTMathTextNodeSize with information about x-correction for...">JKQTMathTextSymbolNode::NodeSize</a> and <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a22f1950a96e49e20ef5840a55365a4b2" title="determine the size of the node, calls getSizeInternal() implementation of the actual type">JKQTMathTextSymbolNode::getSymbolSize()</a> </li>
+<li>
 NEW: <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> allows to typeset a vertical list of lines </li>
 <li>
 NEW: <a class="el" href="class_j_k_q_t_math_text.html#ac566479ebedf116b701fe05818fb7e1b" title="parse the given LaTeX string.">JKQTMathText::parse()</a> by default allows linebreaks in the LaTeX string to be parsed. This can be switched off by a parameter </li>
@@ -230,7 +234,7 @@ NEW: added functions to set the font-size in pixels (as alternative to the exist
 <li>
 NEW: reworked drawing of decorations: improved appearance and positioning! </li>
 <li>
-NEW: additional method JKQTMathtext::getSizeDetail() that returns all size-properties as a convenient struct, also added matching varinat <a class="el" href="class_j_k_q_t_math_text_node.html#a64a20dde0c762ee5a20c7b6dbb99eadd" title="determine the size of the node, calls getSizeInternal() implementation of the actual type">JKQTMathTextNode::getSize()</a>  </li>
+NEW: additional method JKQTMathtext::getSizeDetail() that returns all size-properties as a convenient struct, also added matching varinat <a class="el" href="class_j_k_q_t_math_text_node.html#af26f91923648b4a06693cd4255ff91af" title="determine the size of the node, calls getSizeInternal() implementation of the actual type">JKQTMathTextNode::getSize()</a>  </li>
 <li>
 NEW: additional method JKQTMathtext::drawIntoPixmap(), JKQTMathtext::drawIntoPicture(), JKQTMathtext::drawIntoImage() which returns a QPixmap, QPicture and QImage respectively that contains the render result of the currently parsed markup </li>
 <li>
@@ -541,7 +545,7 @@ v2015.10: Download</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Aug 13 2022 13:35:21 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Tue Aug 16 2022 21:15:39 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

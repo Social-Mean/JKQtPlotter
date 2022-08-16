@@ -199,11 +199,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acbd56ed7a97d9e6cc8451aabeb07db24"><td class="mdescLeft">&#160;</td><td class="mdescRight">factor, used to increase the font size for big math operators, such as <code>\sum</code> , <code>\prod</code> , ...  <a href="class_j_k_q_t_math_text.html#acbd56ed7a97d9e6cc8451aabeb07db24">More...</a><br /></td></tr>
 <tr class="separator:acbd56ed7a97d9e6cc8451aabeb07db24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b1d66eb05001aa80e8dc700a6a37a60"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a0b1d66eb05001aa80e8dc700a6a37a60">getBraceFactor</a> () const</td></tr>
-<tr class="memdesc:a0b1d66eb05001aa80e8dc700a6a37a60"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizing factor for braces in math mode  <a href="class_j_k_q_t_math_text.html#a0b1d66eb05001aa80e8dc700a6a37a60">More...</a><br /></td></tr>
+<tr class="memdesc:a0b1d66eb05001aa80e8dc700a6a37a60"><td class="mdescLeft">&#160;</td><td class="mdescRight">for <code>\left</code> / <code>\right</code> braces: The brace is this factor higher than the child block it surrounds  <a href="class_j_k_q_t_math_text.html#a0b1d66eb05001aa80e8dc700a6a37a60">More...</a><br /></td></tr>
 <tr class="separator:a0b1d66eb05001aa80e8dc700a6a37a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00f1f4129184a991952efcc44bccceca"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a00f1f4129184a991952efcc44bccceca">getBraceShrinkFactor</a> () const</td></tr>
-<tr class="memdesc:a00f1f4129184a991952efcc44bccceca"><td class="mdescLeft">&#160;</td><td class="mdescRight">shrinking the width of braces in math mode 0: reduce to 0 pixel width, 1: leave unchanged  <a href="class_j_k_q_t_math_text.html#a00f1f4129184a991952efcc44bccceca">More...</a><br /></td></tr>
-<tr class="separator:a00f1f4129184a991952efcc44bccceca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f9928bba9901fc53d7245469f0927d1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a7f9928bba9901fc53d7245469f0927d1">getBraceYShiftFactor</a> () const</td></tr>
 <tr class="memdesc:a7f9928bba9901fc53d7245469f0927d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">fraction of the brace ascent that the brace is shifted downwards, when scaled  <a href="class_j_k_q_t_math_text.html#a7f9928bba9901fc53d7245469f0927d1">More...</a><br /></td></tr>
 <tr class="separator:a7f9928bba9901fc53d7245469f0927d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -328,6 +325,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afe93c18b60547e7f26b9e85086aee02d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#afe93c18b60547e7f26b9e85086aee02d">getFracShiftFactor</a> () const</td></tr>
 <tr class="memdesc:afe93c18b60547e7f26b9e85086aee02d"><td class="mdescLeft">&#160;</td><td class="mdescRight">shift of denominator/nummerator away from central line of a frac  <a href="class_j_k_q_t_math_text.html#afe93c18b60547e7f26b9e85086aee02d">More...</a><br /></td></tr>
 <tr class="separator:afe93c18b60547e7f26b9e85086aee02d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8cbc6083ff6811bf0ec8251eaa93464"><td class="memItemLeft" align="right" valign="top">QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ab8cbc6083ff6811bf0ec8251eaa93464">getIntSize</a> (QPainter &amp;painter)</td></tr>
+<tr class="memdesc:ab8cbc6083ff6811bf0ec8251eaa93464"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the rounded (using ceil) to an integer size of the drawn representation. returns <code>QSize(0,0)</code> if no text has been parsed.  <a href="class_j_k_q_t_math_text.html#ab8cbc6083ff6811bf0ec8251eaa93464">More...</a><br /></td></tr>
+<tr class="separator:ab8cbc6083ff6811bf0ec8251eaa93464"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87091f7f5fc4e55e06de0cff1184c22c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a87091f7f5fc4e55e06de0cff1184c22c">getIntSubBesidesXCorrectionXFactor</a> () const</td></tr>
 <tr class="memdesc:a87091f7f5fc4e55e06de0cff1184c22c"><td class="mdescLeft">&#160;</td><td class="mdescRight">for integrals (<code>\int</code> , <code>\oint</code> , ...) the subscripts besides the symbol have to be shifted to the left a bit to the left to accomodate the shape of the operator symbol (i.e. some free space at the bottom-right)  <a href="class_j_k_q_t_math_text.html#a87091f7f5fc4e55e06de0cff1184c22c">More...</a><br /></td></tr>
 <tr class="separator:a87091f7f5fc4e55e06de0cff1184c22c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -440,11 +440,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad85a52d2ba2690f8bbb8166e5dbf28a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">factor, used to increase the font size for big math operators, such as <code>\sum</code> , <code>\prod</code> , ...  <a href="class_j_k_q_t_math_text.html#ad85a52d2ba2690f8bbb8166e5dbf28a2">More...</a><br /></td></tr>
 <tr class="separator:ad85a52d2ba2690f8bbb8166e5dbf28a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b9dcecab274d0a73ab5a9bd58dc20bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a6b9dcecab274d0a73ab5a9bd58dc20bc">setBraceFactor</a> (double __value)</td></tr>
-<tr class="memdesc:a6b9dcecab274d0a73ab5a9bd58dc20bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizing factor for braces in math mode  <a href="class_j_k_q_t_math_text.html#a6b9dcecab274d0a73ab5a9bd58dc20bc">More...</a><br /></td></tr>
+<tr class="memdesc:a6b9dcecab274d0a73ab5a9bd58dc20bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">for <code>\left</code> / <code>\right</code> braces: The brace is this factor higher than the child block it surrounds  <a href="class_j_k_q_t_math_text.html#a6b9dcecab274d0a73ab5a9bd58dc20bc">More...</a><br /></td></tr>
 <tr class="separator:a6b9dcecab274d0a73ab5a9bd58dc20bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a80f6d0d7a28c4b4adbd415f04f036f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a1a80f6d0d7a28c4b4adbd415f04f036f">setBraceShrinkFactor</a> (double __value)</td></tr>
-<tr class="memdesc:a1a80f6d0d7a28c4b4adbd415f04f036f"><td class="mdescLeft">&#160;</td><td class="mdescRight">shrinking the width of braces in math mode 0: reduce to 0 pixel width, 1: leave unchanged  <a href="class_j_k_q_t_math_text.html#a1a80f6d0d7a28c4b4adbd415f04f036f">More...</a><br /></td></tr>
-<tr class="separator:a1a80f6d0d7a28c4b4adbd415f04f036f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee7379a12e0192bbe93a460b8af51e88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#aee7379a12e0192bbe93a460b8af51e88">setBraceYShiftFactor</a> (double __value)</td></tr>
 <tr class="memdesc:aee7379a12e0192bbe93a460b8af51e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">fraction of the brace ascent that the brace is shifted downwards, when scaled  <a href="class_j_k_q_t_math_text.html#aee7379a12e0192bbe93a460b8af51e88">More...</a><br /></td></tr>
 <tr class="separator:aee7379a12e0192bbe93a460b8af51e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -730,11 +727,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:a8b8e7dcb5eb0a16a11ff998c2288ce1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">specifies how to draw blackboard font characters (i.e. <code>\mathbb{N}</code> )  <a href="class_j_k_q_t_math_text.html#a8b8e7dcb5eb0a16a11ff998c2288ce1d">More...</a><br /></td></tr>
 <tr class="separator:a8b8e7dcb5eb0a16a11ff998c2288ce1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a789296ebe6e466c87aae0bdd009f2743"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a789296ebe6e466c87aae0bdd009f2743">brace_factor</a></td></tr>
-<tr class="memdesc:a789296ebe6e466c87aae0bdd009f2743"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizing factor for braces in math mode  <a href="class_j_k_q_t_math_text.html#a789296ebe6e466c87aae0bdd009f2743">More...</a><br /></td></tr>
+<tr class="memdesc:a789296ebe6e466c87aae0bdd009f2743"><td class="mdescLeft">&#160;</td><td class="mdescRight">for <code>\left</code> / <code>\right</code> braces: The brace is this factor higher than the child block it surrounds  <a href="class_j_k_q_t_math_text.html#a789296ebe6e466c87aae0bdd009f2743">More...</a><br /></td></tr>
 <tr class="separator:a789296ebe6e466c87aae0bdd009f2743"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac497bc656c1f218f0a47804087352b15"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ac497bc656c1f218f0a47804087352b15">brace_shrink_factor</a></td></tr>
-<tr class="memdesc:ac497bc656c1f218f0a47804087352b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">shrinking the width of braces in math mode 0: reduce to 0 pixel width, 1: leave unchanged  <a href="class_j_k_q_t_math_text.html#ac497bc656c1f218f0a47804087352b15">More...</a><br /></td></tr>
-<tr class="separator:ac497bc656c1f218f0a47804087352b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ddbfe67b6ee9ee4a832e1739712c296"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a6ddbfe67b6ee9ee4a832e1739712c296">brace_y_shift_factor</a></td></tr>
 <tr class="memdesc:a6ddbfe67b6ee9ee4a832e1739712c296"><td class="mdescLeft">&#160;</td><td class="mdescRight">fraction of the brace ascent that the brace is shifted downwards, when scaled  <a href="class_j_k_q_t_math_text.html#a6ddbfe67b6ee9ee4a832e1739712c296">More...</a><br /></td></tr>
 <tr class="separator:a6ddbfe67b6ee9ee4a832e1739712c296"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1654,26 +1648,7 @@ using "DejaVu Serif":<div class="image">
       </table>
 </div><div class="memdoc">
 
-<p>resizing factor for braces in math mode </p>
-
-</div>
-</div>
-<a id="a00f1f4129184a991952efcc44bccceca" name="a00f1f4129184a991952efcc44bccceca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00f1f4129184a991952efcc44bccceca">&#9670;&nbsp;</a></span>getBraceShrinkFactor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double JKQTMathText::getBraceShrinkFactor </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>shrinking the width of braces in math mode 0: reduce to 0 pixel width, 1: leave unchanged </p>
+<p>for <code>\left</code> / <code>\right</code> braces: The brace is this factor higher than the child block it surrounds </p>
 
 </div>
 </div>
@@ -2423,6 +2398,26 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
  
 </div>
 </div>
+<a id="ab8cbc6083ff6811bf0ec8251eaa93464" name="ab8cbc6083ff6811bf0ec8251eaa93464"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8cbc6083ff6811bf0ec8251eaa93464">&#9670;&nbsp;</a></span>getIntSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize JKQTMathText::getIntSize </td>
+          <td>(</td>
+          <td class="paramtype">QPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get the rounded (using ceil) to an integer size of the drawn representation. returns <code>QSize(0,0)</code> if no text has been parsed. </p>
+
+</div>
+</div>
 <a id="a87091f7f5fc4e55e06de0cff1184c22c" name="a87091f7f5fc4e55e06de0cff1184c22c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a87091f7f5fc4e55e06de0cff1184c22c">&#9670;&nbsp;</a></span>getIntSubBesidesXCorrectionXFactor()</h2>
 
@@ -2439,6 +2434,12 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </div><div class="memdoc">
 
 <p>for integrals (<code>\int</code> , <code>\oint</code> , ...) the subscripts besides the symbol have to be shifted to the left a bit to the left to accomodate the shape of the operator symbol (i.e. some free space at the bottom-right) </p>
+<div class="image">
+<img src="jkqtmathtext_doc_subsupershift_integral.png" alt=""/>
+</div>
+<div class="image">
+<img src="jkqtmathtext_doc_subsupershift_integral_boxes.png" alt=""/>
+</div>
 <p >This factor is multiplied by the width of an x: xshift=intsubbesides_xcorrection_xfactor*xWidth Then the subscript besides the symbol is shifted by xshift to the left</p>
 <p >This correction is applied to \int, \iint, \iiint, \oint, ... </p>
 
@@ -2460,6 +2461,12 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </div><div class="memdoc">
 
 <p>for integrals (<code>\int</code> , <code>\oint</code> , ...) the sub-/superscripts above/below the symbol have to be shifted a bit to the left/right to accomodate the shape of the operator symbol (i.e. some free space at the top-left and bottom-right) </p>
+<div class="image">
+<img src="jkqtmathtext_doc_subsupershift_integral.png" alt=""/>
+</div>
+<div class="image">
+<img src="jkqtmathtext_doc_subsupershift_integral_boxes.png" alt=""/>
+</div>
 <p >This factor is multiplied by the symbol width: xshift=intsubsuper_xcorrection_factor*symbolWidth Then the subscript below is placed at centerx(symbol)-xshift and the superscript at centerx(symbol)+shiftx. This is also used to correct a subset next to the symbol by shifting it to rightx(symbol)-xshift.</p>
 <p >This correction is applied to \int, \iint, \iiint, \oint, ... </p>
 
@@ -2481,7 +2488,13 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </div><div class="memdoc">
 
 <p>fraction of a whitespace by which to shift a sub-/superscript left/right when the previous text is italic </p>
-
+<div class="image">
+<img src="jkqtmathtext_doc_subsuper_italiccorrection.png" alt=""/>
+</div>
+<div class="image">
+<img src="jkqtmathtext_doc_subsuper_italiccorrection_boxes.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="a7b1ff5178aee593f23491429a6c20235" name="a7b1ff5178aee593f23491429a6c20235"></a>
@@ -3737,27 +3750,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
       </table>
 </div><div class="memdoc">
 
-<p>resizing factor for braces in math mode </p>
-
-</div>
-</div>
-<a id="a1a80f6d0d7a28c4b4adbd415f04f036f" name="a1a80f6d0d7a28c4b4adbd415f04f036f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a80f6d0d7a28c4b4adbd415f04f036f">&#9670;&nbsp;</a></span>setBraceShrinkFactor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void JKQTMathText::setBraceShrinkFactor </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>__value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>shrinking the width of braces in math mode 0: reduce to 0 pixel width, 1: leave unchanged </p>
+<p>for <code>\left</code> / <code>\right</code> braces: The brace is this factor higher than the child block it surrounds </p>
 
 </div>
 </div>
@@ -4435,6 +4428,12 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </div><div class="memdoc">
 
 <p>for integrals (<code>\int</code> , <code>\oint</code> , ...) the subscripts besides the symbol have to be shifted to the left a bit to the left to accomodate the shape of the operator symbol (i.e. some free space at the bottom-right) </p>
+<div class="image">
+<img src="jkqtmathtext_doc_subsupershift_integral.png" alt=""/>
+</div>
+<div class="image">
+<img src="jkqtmathtext_doc_subsupershift_integral_boxes.png" alt=""/>
+</div>
 <p >This factor is multiplied by the width of an x: xshift=intsubbesides_xcorrection_xfactor*xWidth Then the subscript besides the symbol is shifted by xshift to the left</p>
 <p >This correction is applied to \int, \iint, \iiint, \oint, ... </p>
 
@@ -4457,6 +4456,12 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </div><div class="memdoc">
 
 <p>for integrals (<code>\int</code> , <code>\oint</code> , ...) the sub-/superscripts above/below the symbol have to be shifted a bit to the left/right to accomodate the shape of the operator symbol (i.e. some free space at the top-left and bottom-right) </p>
+<div class="image">
+<img src="jkqtmathtext_doc_subsupershift_integral.png" alt=""/>
+</div>
+<div class="image">
+<img src="jkqtmathtext_doc_subsupershift_integral_boxes.png" alt=""/>
+</div>
 <p >This factor is multiplied by the symbol width: xshift=intsubsuper_xcorrection_factor*symbolWidth Then the subscript below is placed at centerx(symbol)-xshift and the superscript at centerx(symbol)+shiftx. This is also used to correct a subset next to the symbol by shifting it to rightx(symbol)-xshift.</p>
 <p >This correction is applied to \int, \iint, \iiint, \oint, ... </p>
 
@@ -4479,7 +4484,13 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </div><div class="memdoc">
 
 <p>fraction of a whitespace by which to shift a sub-/superscript left/right when the previous text is italic </p>
-
+<div class="image">
+<img src="jkqtmathtext_doc_subsuper_italiccorrection.png" alt=""/>
+</div>
+<div class="image">
+<img src="jkqtmathtext_doc_subsuper_italiccorrection_boxes.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="ab197d3485ddcc1b402926632bd634858" name="ab197d3485ddcc1b402926632bd634858"></a>
@@ -5420,31 +5431,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>resizing factor for braces in math mode </p>
-
-</div>
-</div>
-<a id="ac497bc656c1f218f0a47804087352b15" name="ac497bc656c1f218f0a47804087352b15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac497bc656c1f218f0a47804087352b15">&#9670;&nbsp;</a></span>brace_shrink_factor</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double JKQTMathText::brace_shrink_factor</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>shrinking the width of braces in math mode 0: reduce to 0 pixel width, 1: leave unchanged </p>
+<p>for <code>\left</code> / <code>\right</code> braces: The brace is this factor higher than the child block it surrounds </p>
 
 </div>
 </div>
@@ -5899,6 +5886,12 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </div><div class="memdoc">
 
 <p>for integrals (<code>\int</code> , <code>\oint</code> , ...) the subscripts besides the symbol have to be shifted to the left a bit to the left to accomodate the shape of the operator symbol (i.e. some free space at the bottom-right) </p>
+<div class="image">
+<img src="jkqtmathtext_doc_subsupershift_integral.png" alt=""/>
+</div>
+<div class="image">
+<img src="jkqtmathtext_doc_subsupershift_integral_boxes.png" alt=""/>
+</div>
 <p >This factor is multiplied by the width of an x: xshift=intsubbesides_xcorrection_xfactor*xWidth Then the subscript besides the symbol is shifted by xshift to the left</p>
 <p >This correction is applied to \int, \iint, \iiint, \oint, ... </p>
 
@@ -5925,6 +5918,12 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </div><div class="memdoc">
 
 <p>for integrals (<code>\int</code> , <code>\oint</code> , ...) the sub-/superscripts above/below the symbol have to be shifted a bit to the left/right to accomodate the shape of the operator symbol (i.e. some free space at the top-left and bottom-right) </p>
+<div class="image">
+<img src="jkqtmathtext_doc_subsupershift_integral.png" alt=""/>
+</div>
+<div class="image">
+<img src="jkqtmathtext_doc_subsupershift_integral_boxes.png" alt=""/>
+</div>
 <p >This factor is multiplied by the symbol width: xshift=intsubsuper_xcorrection_factor*symbolWidth Then the subscript below is placed at centerx(symbol)-xshift and the superscript at centerx(symbol)+shiftx. This is also used to correct a subset next to the symbol by shifting it to rightx(symbol)-xshift.</p>
 <p >This correction is applied to \int, \iint, \iiint, \oint, ... </p>
 
@@ -5951,7 +5950,13 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </div><div class="memdoc">
 
 <p>fraction of a whitespace by which to shift a sub-/superscript left/right when the previous text is italic </p>
-
+<div class="image">
+<img src="jkqtmathtext_doc_subsuper_italiccorrection.png" alt=""/>
+</div>
+<div class="image">
+<img src="jkqtmathtext_doc_subsuper_italiccorrection_boxes.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="aa5ab0768fa2574ff9d400d5584e9018e" name="aa5ab0768fa2574ff9d400d5584e9018e"></a>
@@ -6711,7 +6716,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Sat Aug 13 2022 13:35:22 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Tue Aug 16 2022 21:15:40 for JKQTPlotter by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>
