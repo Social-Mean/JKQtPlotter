@@ -1,6 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"struct_j_k_q_t_p_color_derivation_mode.html#ad08cd43b69e518bd37e029f0d22ab73fa4e65c85af3719b5725a7424a51e3cc6d":[10,4,1,6,1,9],
 "struct_j_k_q_t_p_color_derivation_mode.html#ad08cd43b69e518bd37e029f0d22ab73fa503daa9d61e76eea18f7432197f2de68":[10,4,1,6,1,14],
 "struct_j_k_q_t_p_color_derivation_mode.html#ad08cd43b69e518bd37e029f0d22ab73fa5737617da8a33f6936d7b46f106ee3a9":[10,4,1,6,1,28],
 "struct_j_k_q_t_p_color_derivation_mode.html#ad08cd43b69e518bd37e029f0d22ab73fa59ad2e47979a082919024f66d9ff6b56":[10,4,1,6,1,7],

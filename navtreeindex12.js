@@ -1,7 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"class_j_k_q_t_p_coordinate_axis.html#ae2c6fbba556dd8db2a31d60c68396e6b":[10,4,2,0,0,150],
-"class_j_k_q_t_p_coordinate_axis.html#ae327a89451fa7e0372127eb8edbe5369":[10,4,2,0,0,40],
 "class_j_k_q_t_p_coordinate_axis.html#ae8a5e4a7e3f9ffce5a54fc07e1fcc291":[10,4,2,0,0,96],
 "class_j_k_q_t_p_coordinate_axis.html#aea086906f67695318a38412d517cdd29":[10,4,2,0,0,70],
 "class_j_k_q_t_p_coordinate_axis.html#aee0cde7d09e9adc168b9000b03220f08":[10,4,2,0,0,139],
@@ -249,5 +247,7 @@ var NAVTREEINDEX12 =
 "class_j_k_q_t_p_enhanced_double_spin_box.html":[10,0,0,0],
 "class_j_k_q_t_p_enhanced_double_spin_box.html#a016fb5bdacf16f78f3f8697689bfa377":[10,0,0,0,2],
 "class_j_k_q_t_p_enhanced_double_spin_box.html#a1106c5fc589e2378c4d2c3a6aeb6517d":[10,0,0,0,0],
-"class_j_k_q_t_p_enhanced_double_spin_box.html#aa77fed909e9dee8b5f7a15b68382235c":[10,0,0,0,3]
+"class_j_k_q_t_p_enhanced_double_spin_box.html#aa77fed909e9dee8b5f7a15b68382235c":[10,0,0,0,3],
+"class_j_k_q_t_p_enhanced_double_spin_box.html#ace3c4e3b76caa8e8c7353a441190dd41":[10,0,0,0,1],
+"class_j_k_q_t_p_enhanced_painter.html":[10,0,3,0]
 };

@@ -336,10 +336,17 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >subclass representing a list of nodes in the syntax tree, layed out horizontally </p>
-<dl class="section note"><dt>Note</dt><dd>This type of node also implements typesetting sub-/superscript above/below the previous node (if JKQTMathTextNode::is() is <code>true</code> for that previus node. The drawing is done as defined in the following image<div class="image">
+<p >This type of node also implements typesetting sub-/superscript above/below the previous node (if JKQTMathTextNode::is() is <code>true</code> for that previus node. The drawing is done as defined in the following image: </p><div class="image">
 <img src="jkqtmathtext_subsuper_with_limits.png" alt=""/>
 </div>
-</dd></dl>
+<p >In addition this node also ensures that subscripts are moved to the left for italic previous text or nodes that require such a shift (e.g. <code>\nabla</code> or <code>\int</code> ):</p>
+<div class="image">
+<img src="jkqtmathtext_doc_subsuper_italiccorrection.png" alt=""/>
+</div>
+<div class="image">
+<img src="jkqtmathtext_doc_subsuper_italiccorrection_boxes.png" alt=""/>
+</div>
+<p >This is implemented using <a class="el" href="struct_j_k_q_t_math_text_node_size.html#a24b45ebafca557850654ab759d1121f8" title="x-correction (&lt;0 = move to the left) for subscripts, i.e. approximately at the height of the baseline">JKQTMathTextNodeSize::baselineXCorrection</a> .</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ada4b9d6142ef3a06f82cb8b0567237eb" name="ada4b9d6142ef3a06f82cb8b0567237eb"></a>
@@ -890,7 +897,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_horizontal_list_node.html">JKQTMathTextHorizontalListNode</a></li>
-    <li class="footer">Generated on Wed Aug 17 2022 18:33:34 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Wed Aug 17 2022 21:00:32 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

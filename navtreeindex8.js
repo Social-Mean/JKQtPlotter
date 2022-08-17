@@ -1,7 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"class_j_k_q_t_math_text_symbol_node.html#aa5991a07dd8084cd0128743c4d22dcca":[10,3,1,1,22,2],
-"class_j_k_q_t_math_text_symbol_node.html#aad03909426e564a35754c980c4821b9e":[10,3,1,1,22,43],
 "class_j_k_q_t_math_text_symbol_node.html#aaddac0b8f5b89eb5a024c098be2e714d":[10,3,1,1,22,20],
 "class_j_k_q_t_math_text_symbol_node.html#aaf6516d51256f862b7ef21df62708f6d":[10,3,1,1,22,16],
 "class_j_k_q_t_math_text_symbol_node.html#ac960bd33e98052086d9b4c221ab0e42a":[10,3,1,1,22,28],
@@ -249,5 +247,7 @@ var NAVTREEINDEX8 =
 "class_j_k_q_t_p_bar_vertical_stackable_graph.html#a2948809a6d7c814e44a4fb24d2a18c2f":[10,4,2,1,0,6,8],
 "class_j_k_q_t_p_bar_vertical_stackable_graph.html#a296619fb32e4bac900739480d5d3a7d3":[10,4,2,1,0,6,2],
 "class_j_k_q_t_p_bar_vertical_stackable_graph.html#a3f854f54c6e636da3cc5ba3907f5a9cf":[10,4,2,1,0,6,1],
-"class_j_k_q_t_p_bar_vertical_stackable_graph.html#a4ca7dd704a4ee0450ba35f5eca89c557":[10,4,2,1,0,6,5]
+"class_j_k_q_t_p_bar_vertical_stackable_graph.html#a4ca7dd704a4ee0450ba35f5eca89c557":[10,4,2,1,0,6,5],
+"class_j_k_q_t_p_bar_vertical_stackable_graph.html#a553738b95c814c658f40cdd59a266b5e":[10,4,2,1,0,6,3],
+"class_j_k_q_t_p_bar_vertical_stackable_graph.html#a782f5756425477f71f46350ad0dcbf88":[10,4,2,1,0,6,0]
 };

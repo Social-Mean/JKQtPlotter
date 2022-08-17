@@ -6,7 +6,8 @@ var class_j_k_q_t_math_text_symbol_node =
       [ "SmallExtendWidthInMathmode", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8a51eac73b930a28f76d6c53d925ffa7fb", null ],
       [ "MakeWhitespaceHalf", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ad7dcf030f559c59ee913253dcbba891a", null ],
       [ "IntLikeSymbolCorrection", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8a9a82f182bd6a3873bf5ad24d4c15c602", null ],
-      [ "SubSuperscriptBelowAboveSymbol", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ade2fa39a07710b82e492afc691b02aa1", null ]
+      [ "SubSuperscriptBelowAboveSymbol", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ade2fa39a07710b82e492afc691b02aa1", null ],
+      [ "SubscriptCorrection", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8abb8c3cea90f584559dfcad3e6b48d023", null ]
     ] ],
     [ "SymbolFlags", "class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03c", [
       [ "AsOutside", "class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca250bec0791a7ccec1d6994fdd037ab71", null ],

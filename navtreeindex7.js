@@ -1,8 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"class_j_k_q_t_math_text_matrix_node.html#a20ac9bc031184edc3a333ed55ef8d200":[10,3,1,1,11,31],
-"class_j_k_q_t_math_text_matrix_node.html#a224b50097940b5ae60b4b72d4e922f4f":[10,3,1,1,11,7],
-"class_j_k_q_t_math_text_matrix_node.html#a2b95dba94a683abc6d6e959c1315d66c":[10,3,1,1,11,26],
 "class_j_k_q_t_math_text_matrix_node.html#a3bb86c1299d2b2fa5774ae6d5e0f5dca":[10,3,1,1,11,32],
 "class_j_k_q_t_math_text_matrix_node.html#a3e4743dd6faef3da890fea6def35d7fd":[10,3,1,1,11,9],
 "class_j_k_q_t_math_text_matrix_node.html#a455cb3082fe69e57327a2641ed938397":[10,3,1,1,11,23],
@@ -208,6 +205,7 @@ var NAVTREEINDEX7 =
 "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8":[10,3,1,1,22,0],
 "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8a51eac73b930a28f76d6c53d925ffa7fb":[10,3,1,1,22,0,2],
 "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8a9a82f182bd6a3873bf5ad24d4c15c602":[10,3,1,1,22,0,4],
+"class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8abb8c3cea90f584559dfcad3e6b48d023":[10,3,1,1,22,0,6],
 "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ac095fc6583ac51c40bd7004445c5dda7":[10,3,1,1,22,0,0],
 "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ad7dcf030f559c59ee913253dcbba891a":[10,3,1,1,22,0,3],
 "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ade2fa39a07710b82e492afc691b02aa1":[10,3,1,1,22,0,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "class_j_k_q_t_math_text_symbol_node.html#a97b3bde79428d25f78112e165deda6b5":[10,3,1,1,22,30],
 "class_j_k_q_t_math_text_symbol_node.html#aa1c296003a384e0e27582e7d9aacf5f8":[10,3,1,1,22,21],
 "class_j_k_q_t_math_text_symbol_node.html#aa43433d912eff23288536c8754a02bd5":[10,3,1,1,22,51],
-"class_j_k_q_t_math_text_symbol_node.html#aa44a8806b9e519d6d5b28a43932901a5":[10,3,1,1,22,40]
+"class_j_k_q_t_math_text_symbol_node.html#aa44a8806b9e519d6d5b28a43932901a5":[10,3,1,1,22,40],
+"class_j_k_q_t_math_text_symbol_node.html#aa5991a07dd8084cd0128743c4d22dcca":[10,3,1,1,22,2],
+"class_j_k_q_t_math_text_symbol_node.html#aad03909426e564a35754c980c4821b9e":[10,3,1,1,22,43]
 };

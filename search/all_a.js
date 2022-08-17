@@ -147,12 +147,11 @@ var searchData=
   ['isvector_144',['isVector',['../class_j_k_q_t_p_datastore_item.html#a0f8a701081340539fa6885287b09ab57',1,'JKQTPDatastoreItem']]],
   ['isvisible_145',['isVisible',['../class_j_k_q_t_f_p_plot.html#a310e06e4f87cda22ce676f726f269d7b',1,'JKQTFPPlot::isVisible()'],['../class_j_k_q_t_p_plot_element.html#ad4b200b85ae1a8cd83c6dc0340034712',1,'JKQTPPlotElement::isVisible()']]],
   ['italic_146',['italic',['../struct_j_k_q_t_math_text_environment.html#a3e0833c06452c940ad1694bdf7341231',1,'JKQTMathTextEnvironment']]],
-  ['italic_5fcorrection_5ffactor_147',['italic_correction_factor',['../class_j_k_q_t_math_text.html#a5bc54b5f40a70318bd0cf7a40c8d0160',1,'JKQTMathText']]],
-  ['italicoff_148',['ItalicOff',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03cab1d2e733c3d0b5604e10e4591f5acaa5',1,'JKQTMathTextSymbolNode']]],
-  ['italicon_149',['ItalicOn',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03cae9924ceaa2f14a1892b4741bb733383a',1,'JKQTMathTextSymbolNode']]],
-  ['itemheight_150',['itemHeight',['../class_j_k_q_t_p_key_style.html#ae094208ee30fb0271cebeebce26739f5',1,'JKQTPKeyStyle']]],
-  ['items_151',['items',['../class_j_k_q_t_p_datastore.html#a1aa94eca74f04f320dbec8869de676e5',1,'JKQTPDatastore']]],
-  ['itemwidth_152',['itemWidth',['../class_j_k_q_t_p_key_style.html#abf56d1413a1234a7c8863dab5ea846e8',1,'JKQTPKeyStyle']]],
-  ['iterator_153',['iterator',['../class_j_k_q_t_p_column.html#a7aefe80cd029a58dcb8682ce6c770a50',1,'JKQTPColumn']]],
-  ['iterator_5fcategory_154',['iterator_category',['../class_j_k_q_t_p_column_iterator.html#aaa5267bf8c0e2cf97760d3fbf186e769',1,'JKQTPColumnIterator::iterator_category()'],['../class_j_k_q_t_p_column_const_iterator.html#ac367d4b013f61f0832502791a7a47dae',1,'JKQTPColumnConstIterator::iterator_category()'],['../class_j_k_q_t_p_column_back_inserter.html#a5060263d22c81a4fa03a70520b30073f',1,'JKQTPColumnBackInserter::iterator_category()']]]
+  ['italicoff_147',['ItalicOff',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03cab1d2e733c3d0b5604e10e4591f5acaa5',1,'JKQTMathTextSymbolNode']]],
+  ['italicon_148',['ItalicOn',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03cae9924ceaa2f14a1892b4741bb733383a',1,'JKQTMathTextSymbolNode']]],
+  ['itemheight_149',['itemHeight',['../class_j_k_q_t_p_key_style.html#ae094208ee30fb0271cebeebce26739f5',1,'JKQTPKeyStyle']]],
+  ['items_150',['items',['../class_j_k_q_t_p_datastore.html#a1aa94eca74f04f320dbec8869de676e5',1,'JKQTPDatastore']]],
+  ['itemwidth_151',['itemWidth',['../class_j_k_q_t_p_key_style.html#abf56d1413a1234a7c8863dab5ea846e8',1,'JKQTPKeyStyle']]],
+  ['iterator_152',['iterator',['../class_j_k_q_t_p_column.html#a7aefe80cd029a58dcb8682ce6c770a50',1,'JKQTPColumn']]],
+  ['iterator_5fcategory_153',['iterator_category',['../class_j_k_q_t_p_column_back_inserter.html#a5060263d22c81a4fa03a70520b30073f',1,'JKQTPColumnBackInserter::iterator_category()'],['../class_j_k_q_t_p_column_iterator.html#aaa5267bf8c0e2cf97760d3fbf186e769',1,'JKQTPColumnIterator::iterator_category()'],['../class_j_k_q_t_p_column_const_iterator.html#ac367d4b013f61f0832502791a7a47dae',1,'JKQTPColumnConstIterator::iterator_category()']]]
 ];

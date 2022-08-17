@@ -415,7 +415,8 @@ var group__jkqtmathtext__items =
         [ "SmallExtendWidthInMathmode", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8a51eac73b930a28f76d6c53d925ffa7fb", null ],
         [ "MakeWhitespaceHalf", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ad7dcf030f559c59ee913253dcbba891a", null ],
         [ "IntLikeSymbolCorrection", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8a9a82f182bd6a3873bf5ad24d4c15c602", null ],
-        [ "SubSuperscriptBelowAboveSymbol", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ade2fa39a07710b82e492afc691b02aa1", null ]
+        [ "SubSuperscriptBelowAboveSymbol", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ade2fa39a07710b82e492afc691b02aa1", null ],
+        [ "SubscriptCorrection", "class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8abb8c3cea90f584559dfcad3e6b48d023", null ]
       ] ],
       [ "SymbolFlags", "class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03c", [
         [ "AsOutside", "class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca250bec0791a7ccec1d6994fdd037ab71", null ],
@@ -665,8 +666,7 @@ var group__jkqtmathtext__items =
       [ "NodeSize", "struct_j_k_q_t_math_text_symbol_node_1_1_node_size.html#a9badd6acd53effc86459882229e610f8", null ],
       [ "operator=", "struct_j_k_q_t_math_text_symbol_node_1_1_node_size.html#ad8a1c4983aa42f6d1c9409f58f668f98", null ],
       [ "operator=", "struct_j_k_q_t_math_text_symbol_node_1_1_node_size.html#ac247926c1c8b860cc7d0fe4697312959", null ],
-      [ "subBesidesXCorrection", "struct_j_k_q_t_math_text_symbol_node_1_1_node_size.html#aa8c6e6aa310636c5cdb5faced7c00194", null ],
-      [ "subSuperXCorrection", "struct_j_k_q_t_math_text_symbol_node_1_1_node_size.html#a2e0f495bd3c30f1c42d822906c7f5e15", null ]
+      [ "subSuperAboveBelowXCorrection", "struct_j_k_q_t_math_text_symbol_node_1_1_node_size.html#ac7dca3df55f9b1fdb37edff8c217a43b", null ]
     ] ],
     [ "JKQTMathTextSymbolNode::SymbolFullProps", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html", [
       [ "SymbolFullProps", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#acbbbe2126edd79e7310934e379fb9339", null ],
