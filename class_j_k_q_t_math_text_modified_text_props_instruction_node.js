@@ -8,7 +8,7 @@ var class_j_k_q_t_math_text_modified_text_props_instruction_node =
     [ "fillInstructions", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#ac1997ac3c11a3585f1c30e6fc40278fc", null ],
     [ "getSizeInternal", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#a774b77b28f3b31b12dbcffd3e5970a9c", null ],
     [ "getTypeName", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#af79db6908a02bf1cd67b40badb6f88b0", null ],
-    [ "modifyInMathEnvironment", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#a2c0778752dc9f9243e6bb2bb56a9a67f", null ],
+    [ "modifyInMathEnvironment", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#acd5b8052ea7725318ffaecaa84454ce5", null ],
     [ "supportsInstructionName", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#aef5f661f2e9287ddcfb56a891596f241", null ],
     [ "toHtml", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#a58bdcee63077e07211d4c1490947fe98", null ],
     [ "instructions", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#a38e3805744daa050f1f7a6be4baaa7be", null ]

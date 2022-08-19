@@ -5,6 +5,7 @@ var hierarchy =
     ] ],
     [ "JKQTPPlotElement::HitTestLocation", "struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html", null ],
     [ "JKQTMathTextBoxInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html", null ],
+    [ "JKQTMathTextModifiedEnvironmentInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_modified_environment_instruction_node_1_1_instruction_properties.html", null ],
     [ "JKQTMathTextModifiedTextPropsInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html", null ],
     [ "JKQTMathTextSimpleInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_simple_instruction_node_1_1_instruction_properties.html", null ],
     [ "JKQTPMathParser::jkmpFunctionDescriptor", "group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor", null ],
@@ -32,6 +33,10 @@ var hierarchy =
     [ "JKQTMathTextEnvironment", "struct_j_k_q_t_math_text_environment.html", null ],
     [ "JKQTMathTextFontDefinition", "struct_j_k_q_t_math_text_font_definition.html", null ],
     [ "JKQTMathTextFontSpecifier", "struct_j_k_q_t_math_text_font_specifier.html", null ],
+    [ "JKQTMathTextModifyEnvironmentNodeMixIn", "class_j_k_q_t_math_text_modify_environment_node_mix_in.html", [
+      [ "JKQTMathTextHorizontalListNode", "class_j_k_q_t_math_text_horizontal_list_node.html", null ],
+      [ "JKQTMathTextModifiedEnvironmentInstructionNode", "class_j_k_q_t_math_text_modified_environment_instruction_node.html", null ]
+    ] ],
     [ "JKQTMathTextNode", "class_j_k_q_t_math_text_node.html", [
       [ "JKQTMathTextEmptyBoxNode", "class_j_k_q_t_math_text_empty_box_node.html", null ],
       [ "JKQTMathTextMultiChildNode", "class_j_k_q_t_math_text_multi_child_node.html", [
@@ -43,9 +48,13 @@ var hierarchy =
         [ "JKQTMathTextSqrtNode", "class_j_k_q_t_math_text_sqrt_node.html", null ],
         [ "JKQTMathTextVerticalListNode", "class_j_k_q_t_math_text_vertical_list_node.html", null ]
       ] ],
-      [ "JKQTMathTextNoopNode", "class_j_k_q_t_math_text_noop_node.html", null ],
+      [ "JKQTMathTextNonDrawingBaseNode", "class_j_k_q_t_math_text_non_drawing_base_node.html", [
+        [ "JKQTMathTextModifiedEnvironmentInstructionNode", "class_j_k_q_t_math_text_modified_environment_instruction_node.html", null ],
+        [ "JKQTMathTextNoopNode", "class_j_k_q_t_math_text_noop_node.html", null ]
+      ] ],
       [ "JKQTMathTextSimpleInstructionNode", "class_j_k_q_t_math_text_simple_instruction_node.html", null ],
       [ "JKQTMathTextSingleChildNode", "class_j_k_q_t_math_text_single_child_node.html", [
+        [ "JKQTMathTextBlockNode", "class_j_k_q_t_math_text_block_node.html", null ],
         [ "JKQTMathTextBraceNode", "class_j_k_q_t_math_text_brace_node.html", null ],
         [ "JKQTMathTextDecoratedNode", "class_j_k_q_t_math_text_decorated_node.html", null ],
         [ "JKQTMathTextInstruction1Node", "class_j_k_q_t_math_text_instruction1_node.html", [

@@ -830,6 +830,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aef41009e7deaf292b9d5a46855919261"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#aef41009e7deaf292b9d5a46855919261">parseString</a></td></tr>
 <tr class="memdesc:aef41009e7deaf292b9d5a46855919261"><td class="mdescLeft">&#160;</td><td class="mdescRight">used by the tokenizer. The string to be parsed  <a href="class_j_k_q_t_math_text.html#aef41009e7deaf292b9d5a46855919261">More...</a><br /></td></tr>
 <tr class="separator:aef41009e7deaf292b9d5a46855919261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31655b406e7ab60fee9bfd75efcc947b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a31655b406e7ab60fee9bfd75efcc947b">parsinginMathTextStyle</a></td></tr>
+<tr class="memdesc:a31655b406e7ab60fee9bfd75efcc947b"><td class="mdescLeft">&#160;</td><td class="mdescRight">used by the parser. indicates whether to use textstyle or displaystyle in math-mode  <a href="class_j_k_q_t_math_text.html#a31655b406e7ab60fee9bfd75efcc947b">More...</a><br /></td></tr>
+<tr class="separator:a31655b406e7ab60fee9bfd75efcc947b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d075b11979236874426ae0340af4ca5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a0d075b11979236874426ae0340af4ca5">parsingMathEnvironment</a></td></tr>
 <tr class="memdesc:a0d075b11979236874426ae0340af4ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">used by the parser. indicates whether we are in a math environment  <a href="class_j_k_q_t_math_text.html#a0d075b11979236874426ae0340af4ca5">More...</a><br /></td></tr>
 <tr class="separator:a0d075b11979236874426ae0340af4ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -937,7 +940,7 @@ Example Code</h2>
 <div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19">draw</a>(painter, Qt::AlignCenter, QRectF(0,0,pix.width(), pix.height()), <span class="keyword">false</span>);</div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a280e7032f66c45b5f3b42664056bee19"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19">JKQTMathText::draw</a></div><div class="ttdeci">void draw(QPainter &amp;painter, QPointF x, bool drawBoxes=false)</div><div class="ttdoc">draw a representation to the object at the specified position x , y</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_ab1d748ce748a28204a283bf1b98cb75d"><div class="ttname"><a href="class_j_k_q_t_math_text.html#ab1d748ce748a28204a283bf1b98cb75d">JKQTMathText::getSizeDetail</a></div><div class="ttdeci">void getSizeDetail(QPainter &amp;painter, double &amp;width, double &amp;ascent, double &amp;descent, double &amp;strikeoutPos)</div><div class="ttdoc">return the detailes sizes of the text</div></div>
-<div class="ttc" id="astruct_j_k_q_t_math_text_node_size_html"><div class="ttname"><a href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a></div><div class="ttdoc">beschreibt die Größe(n) eines Knotens</div><div class="ttdef"><b>Definition:</b> jkqtmathtexttools.h:332</div></div>
+<div class="ttc" id="astruct_j_k_q_t_math_text_node_size_html"><div class="ttname"><a href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a></div><div class="ttdoc">beschreibt die Größe(n) eines Knotens</div><div class="ttdef"><b>Definition:</b> jkqtmathtexttools.h:347</div></div>
 </div><!-- fragment --><h1><a class="anchor" id="JKQTMathTextToHTML"></a>
 Convert to HTML</h1>
 <p >The method <a class="el" href="class_j_k_q_t_math_text.html#a4fd28699b36009ec0177f78c6b4545f7" title="convert LaTeX to HTML. returns ok=true on success and ok=false else.">toHtml()</a> may be used to get a HTML representation of the LaTeX string, if possible (only for simple LaTeX equations!). Whether the transformation was possible is returned as a call by value argument!</p>
@@ -6265,6 +6268,30 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 
 </div>
 </div>
+<a id="a31655b406e7ab60fee9bfd75efcc947b" name="a31655b406e7ab60fee9bfd75efcc947b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31655b406e7ab60fee9bfd75efcc947b">&#9670;&nbsp;</a></span>parsinginMathTextStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool JKQTMathText::parsinginMathTextStyle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>used by the parser. indicates whether to use textstyle or displaystyle in math-mode </p>
+
+</div>
+</div>
 <a id="a0d075b11979236874426ae0340af4ca5" name="a0d075b11979236874426ae0340af4ca5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d075b11979236874426ae0340af4ca5">&#9670;&nbsp;</a></span>parsingMathEnvironment</h2>
 
@@ -6632,7 +6659,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Wed Aug 17 2022 21:17:27 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Aug 19 2022 10:18:52 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

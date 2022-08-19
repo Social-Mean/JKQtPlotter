@@ -7,7 +7,7 @@ var searchData=
   ['variables_4',['variables',['../class_j_k_q_t_p_math_parser.html#afaf9ea185979d3c371efe3c84abb29ef',1,'JKQTPMathParser']]],
   ['verticallineleft_5',['verticalLineLeft',['../class_j_k_q_t_math_text_matrix_node.html#a5ea379a8e4278cdd4d55bdfbda34912c',1,'JKQTMathTextMatrixNode']]],
   ['verticallinerhscolumn_6',['verticalLineRHSColumn',['../class_j_k_q_t_math_text_matrix_node.html#a6820bf110092398980c9f456b012ef6b',1,'JKQTMathTextMatrixNode']]],
-  ['verticalorientation_7',['verticalOrientation',['../class_j_k_q_t_math_text_vertical_list_node.html#a05659e7a37f1a7cfa4a04ea90421b33b',1,'JKQTMathTextVerticalListNode::verticalOrientation()'],['../class_j_k_q_t_math_text_verbatim_node.html#a38cd5e489ac3ca58e4c9a4346ce31d6f',1,'JKQTMathTextVerbatimNode::verticalOrientation()']]],
+  ['verticalorientation_7',['verticalOrientation',['../class_j_k_q_t_math_text_verbatim_node.html#a38cd5e489ac3ca58e4c9a4346ce31d6f',1,'JKQTMathTextVerbatimNode::verticalOrientation()'],['../class_j_k_q_t_math_text_vertical_list_node.html#a05659e7a37f1a7cfa4a04ea90421b33b',1,'JKQTMathTextVerticalListNode::verticalOrientation()']]],
   ['violinfrequencycolumn_8',['violinFrequencyColumn',['../class_j_k_q_t_p_violinplot_element_base.html#a2571a11d74dce9dafb94e62a8840a7da',1,'JKQTPViolinplotElementBase']]],
   ['violinpositioncolumn_9',['violinPositionColumn',['../class_j_k_q_t_p_violinplot_element_base.html#aa90ab211abed72016d12c95339dcf3a9',1,'JKQTPViolinplotElementBase']]],
   ['violinwidthabsolute_10',['violinWidthAbsolute',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#aefd72c023934cf8121a56e2f3e0c4081',1,'JKQTPGraphViolinplotStyleMixin']]],

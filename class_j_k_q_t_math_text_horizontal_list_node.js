@@ -13,6 +13,7 @@ var class_j_k_q_t_math_text_horizontal_list_node =
     [ "getChildren", "class_j_k_q_t_math_text_horizontal_list_node.html#af3ce709b37d884a4dc438dd26fcdd7f3", null ],
     [ "getSizeInternal", "class_j_k_q_t_math_text_horizontal_list_node.html#a075aa17a1eae325b83f2b37e79bf61ee", null ],
     [ "getTypeName", "class_j_k_q_t_math_text_horizontal_list_node.html#a579669ff66770c2fc04b0ad5f0863ecb", null ],
+    [ "modifyEnvironment", "class_j_k_q_t_math_text_horizontal_list_node.html#a57516f9eef5f118453b0f89aea612f28", null ],
     [ "replaceChild", "class_j_k_q_t_math_text_horizontal_list_node.html#a2f2d91ef6f2c4ab7c5d1dcb57a5f681a", null ],
     [ "toHtml", "class_j_k_q_t_math_text_horizontal_list_node.html#a656230984b441432dbf9f96c273647ce", null ],
     [ "nodes", "class_j_k_q_t_math_text_horizontal_list_node.html#a88b43fa1006509df7117e45262bd06a7", null ]

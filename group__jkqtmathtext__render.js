@@ -222,6 +222,7 @@ var group__jkqtmathtext__render =
       [ "operatorsubsuper_size_factor", "class_j_k_q_t_math_text.html#a779c0daac5085baa0d87e3082785a345", null ],
       [ "parsedNode", "class_j_k_q_t_math_text.html#ae7e86126348905c3b61252f902a35051", null ],
       [ "parseString", "class_j_k_q_t_math_text.html#aef41009e7deaf292b9d5a46855919261", null ],
+      [ "parsinginMathTextStyle", "class_j_k_q_t_math_text.html#a31655b406e7ab60fee9bfd75efcc947b", null ],
       [ "parsingMathEnvironment", "class_j_k_q_t_math_text.html#a0d075b11979236874426ae0340af4ca5", null ],
       [ "special_sub_shift_factor", "class_j_k_q_t_math_text.html#ac574f42a4dee0243910c5442c8ce3ddb", null ],
       [ "special_super_shift_factor", "class_j_k_q_t_math_text.html#aa93103c6d6ee3b764ea4f736dedc88fd", null ],

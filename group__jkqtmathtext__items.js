@@ -20,6 +20,13 @@ var group__jkqtmathtext__items =
       [ "pen", "struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html#ab4833959b7f774a153b0477289cccddd", null ],
       [ "roundingFactor", "struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html#ad4e9f42c6e23de2e892b143cd7b6691d", null ]
     ] ],
+    [ "JKQTMathTextModifiedEnvironmentInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_modified_environment_instruction_node_1_1_instruction_properties.html", [
+      [ "ModifyEnvironmentFunctor", "struct_j_k_q_t_math_text_modified_environment_instruction_node_1_1_instruction_properties.html#ac45b4128fb1e90e1ad838156a74cd8ee", null ],
+      [ "InstructionProperties", "struct_j_k_q_t_math_text_modified_environment_instruction_node_1_1_instruction_properties.html#a5ad2fb3c2dd67ec2d9227153f566e5c8", null ],
+      [ "InstructionProperties", "struct_j_k_q_t_math_text_modified_environment_instruction_node_1_1_instruction_properties.html#a0ec0d8177d04e1527248d98072614548", null ],
+      [ "modifier", "struct_j_k_q_t_math_text_modified_environment_instruction_node_1_1_instruction_properties.html#aedbff2a3e1f87e68ab4649c9c0deb537", null ],
+      [ "NParams", "struct_j_k_q_t_math_text_modified_environment_instruction_node_1_1_instruction_properties.html#ace6e704cf41775efa25680a9fee2f50f", null ]
+    ] ],
     [ "JKQTMathTextModifiedTextPropsInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html", [
       [ "ModifyEnvironmentFunctor", "struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html#a6baf2f284ae34d48001478706d02d051", null ],
       [ "InstructionProperties", "struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html#ae01f500135fbed72cbd3208e3efd036a", null ],
@@ -34,6 +41,14 @@ var group__jkqtmathtext__items =
       [ "evaluator", "struct_j_k_q_t_math_text_simple_instruction_node_1_1_instruction_properties.html#a314f0c84a5127a86c27ecb275084bb98", null ],
       [ "NParams", "struct_j_k_q_t_math_text_simple_instruction_node_1_1_instruction_properties.html#a4c11409ee93bef15fd607f2c3baf7976", null ]
     ] ],
+    [ "JKQTMathTextBlockNode", "class_j_k_q_t_math_text_block_node.html", [
+      [ "JKQTMathTextBlockNode", "class_j_k_q_t_math_text_block_node.html#a5448a955f4e50163f3964ae94c98d168", null ],
+      [ "~JKQTMathTextBlockNode", "class_j_k_q_t_math_text_block_node.html#a4926d4ee0d5ef9ea8066f94e750e607e", null ],
+      [ "draw", "class_j_k_q_t_math_text_block_node.html#a03634a1927d84fc91fa26f085863600d", null ],
+      [ "getSizeInternal", "class_j_k_q_t_math_text_block_node.html#a3d2c5a7cd455b79cd2965f2a4b8fbc6e", null ],
+      [ "getTypeName", "class_j_k_q_t_math_text_block_node.html#ad85dd756d22b9fc08812da75abaa9224", null ],
+      [ "toHtml", "class_j_k_q_t_math_text_block_node.html#af7b9fb58e189cd82de77583daf098772", null ]
+    ] ],
     [ "JKQTMathTextBoxInstructionNode", "class_j_k_q_t_math_text_box_instruction_node.html", [
       [ "JKQTMathTextBoxInstructionNode", "class_j_k_q_t_math_text_box_instruction_node.html#a8a66aae67238380477e0a31917365238", null ],
       [ "~JKQTMathTextBoxInstructionNode", "class_j_k_q_t_math_text_box_instruction_node.html#ab614da3ac1365c2225809dad9a546335", null ],
@@ -42,8 +57,7 @@ var group__jkqtmathtext__items =
       [ "fillInstructions", "class_j_k_q_t_math_text_box_instruction_node.html#a8041d290af5d5154cefa8b5c64e449f0", null ],
       [ "getSizeInternal", "class_j_k_q_t_math_text_box_instruction_node.html#aa3c35efa92a20d7a6702d0b1fca908a8", null ],
       [ "getTypeName", "class_j_k_q_t_math_text_box_instruction_node.html#a9942d9fb5d9cee7422aa38c17471fe6a", null ],
-      [ "modifyInMathEnvironment", "class_j_k_q_t_math_text_box_instruction_node.html#a3c7c7eaec7a3440c44a63d5a5e0246b1", null ],
-      [ "modifyInMathEnvironment", "class_j_k_q_t_math_text_box_instruction_node.html#a85b436c2f465fe5459780146868e9efa", null ],
+      [ "modifyInMathEnvironment", "class_j_k_q_t_math_text_box_instruction_node.html#ae3fe59f85336bc96bfa8d6fee9afa75d", null ],
       [ "setupMTenvironment", "class_j_k_q_t_math_text_box_instruction_node.html#aef947af20a349bc386bc89ac750850e6", null ],
       [ "supportsInstructionName", "class_j_k_q_t_math_text_box_instruction_node.html#a86089431d9547d1e8e8ac9c1fae731ab", null ],
       [ "toHtml", "class_j_k_q_t_math_text_box_instruction_node.html#a21b51db945454cf14d6374c6382378ae", null ],
@@ -196,6 +210,7 @@ var group__jkqtmathtext__items =
       [ "getChildren", "class_j_k_q_t_math_text_horizontal_list_node.html#af3ce709b37d884a4dc438dd26fcdd7f3", null ],
       [ "getSizeInternal", "class_j_k_q_t_math_text_horizontal_list_node.html#a075aa17a1eae325b83f2b37e79bf61ee", null ],
       [ "getTypeName", "class_j_k_q_t_math_text_horizontal_list_node.html#a579669ff66770c2fc04b0ad5f0863ecb", null ],
+      [ "modifyEnvironment", "class_j_k_q_t_math_text_horizontal_list_node.html#a57516f9eef5f118453b0f89aea612f28", null ],
       [ "replaceChild", "class_j_k_q_t_math_text_horizontal_list_node.html#a2f2d91ef6f2c4ab7c5d1dcb57a5f681a", null ],
       [ "toHtml", "class_j_k_q_t_math_text_horizontal_list_node.html#a656230984b441432dbf9f96c273647ce", null ],
       [ "nodes", "class_j_k_q_t_math_text_horizontal_list_node.html#a88b43fa1006509df7117e45262bd06a7", null ]
@@ -253,6 +268,21 @@ var group__jkqtmathtext__items =
       [ "verticalLineLeft", "class_j_k_q_t_math_text_matrix_node.html#a5ea379a8e4278cdd4d55bdfbda34912c", null ],
       [ "verticalLineRHSColumn", "class_j_k_q_t_math_text_matrix_node.html#a6820bf110092398980c9f456b012ef6b", null ]
     ] ],
+    [ "JKQTMathTextModifiedEnvironmentInstructionNode", "class_j_k_q_t_math_text_modified_environment_instruction_node.html", [
+      [ "JKQTMathTextModifiedEnvironmentInstructionNode", "class_j_k_q_t_math_text_modified_environment_instruction_node.html#a6f8fb341a010c7ad898df3d1bd027e7a", null ],
+      [ "~JKQTMathTextModifiedEnvironmentInstructionNode", "class_j_k_q_t_math_text_modified_environment_instruction_node.html#a7751f336ff0daea394a04355adfcd266", null ],
+      [ "countParametersOfInstruction", "class_j_k_q_t_math_text_modified_environment_instruction_node.html#afcdd0b60ff6c0c0b3e77120ed1f9ea34", null ],
+      [ "fillInstructions", "class_j_k_q_t_math_text_modified_environment_instruction_node.html#a097ce06c41e80704f7183db1aa1f3960", null ],
+      [ "getInstructionName", "class_j_k_q_t_math_text_modified_environment_instruction_node.html#aa80c0022eab284c985f9e92d80b3c8d0", null ],
+      [ "getParameters", "class_j_k_q_t_math_text_modified_environment_instruction_node.html#a73452d0cf53969bd23804c343dfb6082", null ],
+      [ "getTypeName", "class_j_k_q_t_math_text_modified_environment_instruction_node.html#ac1b828a2d041a58f53a93858215d7cc6", null ],
+      [ "modifyEnvironment", "class_j_k_q_t_math_text_modified_environment_instruction_node.html#a86f1c3dad6e92a7e8207342938a82949", null ],
+      [ "modifyInMathTextStyleEnvironment", "class_j_k_q_t_math_text_modified_environment_instruction_node.html#acd9cd2b3cbde07de27e7a66cf46c3f46", null ],
+      [ "supportsInstructionName", "class_j_k_q_t_math_text_modified_environment_instruction_node.html#a6b5a0055083fd6190b5801680643e4f1", null ],
+      [ "instructionName", "class_j_k_q_t_math_text_modified_environment_instruction_node.html#a9d6a186916d54e0fcc2b5c55b7111259", null ],
+      [ "instructions", "class_j_k_q_t_math_text_modified_environment_instruction_node.html#a0264a1bfb263dfc7b4d685a7035288ce", null ],
+      [ "parameters", "class_j_k_q_t_math_text_modified_environment_instruction_node.html#a9b7d52dd397c2118fbaf21f7092e94a0", null ]
+    ] ],
     [ "JKQTMathTextModifiedTextPropsInstructionNode", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html", [
       [ "JKQTMathTextModifiedTextPropsInstructionNode", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#abae164e6cbd66763439d9420ad373585", null ],
       [ "~JKQTMathTextModifiedTextPropsInstructionNode", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#a94513f4edfea1846399e3dda4e42a391", null ],
@@ -262,10 +292,14 @@ var group__jkqtmathtext__items =
       [ "fillInstructions", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#ac1997ac3c11a3585f1c30e6fc40278fc", null ],
       [ "getSizeInternal", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#a774b77b28f3b31b12dbcffd3e5970a9c", null ],
       [ "getTypeName", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#af79db6908a02bf1cd67b40badb6f88b0", null ],
-      [ "modifyInMathEnvironment", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#a2c0778752dc9f9243e6bb2bb56a9a67f", null ],
+      [ "modifyInMathEnvironment", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#acd5b8052ea7725318ffaecaa84454ce5", null ],
       [ "supportsInstructionName", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#aef5f661f2e9287ddcfb56a891596f241", null ],
       [ "toHtml", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#a58bdcee63077e07211d4c1490947fe98", null ],
       [ "instructions", "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#a38e3805744daa050f1f7a6be4baaa7be", null ]
+    ] ],
+    [ "JKQTMathTextModifyEnvironmentNodeMixIn", "class_j_k_q_t_math_text_modify_environment_node_mix_in.html", [
+      [ "~JKQTMathTextModifyEnvironmentNodeMixIn", "class_j_k_q_t_math_text_modify_environment_node_mix_in.html#aaec16754145b9b793b7195dbf01f9a40", null ],
+      [ "modifyEnvironment", "class_j_k_q_t_math_text_modify_environment_node_mix_in.html#a3f61d44f19c1f575192837ef2b4569e4", null ]
     ] ],
     [ "JKQTMathTextMultiChildNode", "class_j_k_q_t_math_text_multi_child_node.html", [
       [ "JKQTMathTextMultiChildNode", "class_j_k_q_t_math_text_multi_child_node.html#ad49526ff8fe5a20b705cc3a0924c1d87", null ],
@@ -314,13 +348,17 @@ var group__jkqtmathtext__items =
       [ "parentNode", "class_j_k_q_t_math_text_node.html#a8f1b02c2fbf00ca65c0a5df214f14a6b", null ],
       [ "subSuperscriptAboveBelowNode", "class_j_k_q_t_math_text_node.html#afdec8ae06750ccbc25045c60d0a973e0", null ]
     ] ],
+    [ "JKQTMathTextNonDrawingBaseNode", "class_j_k_q_t_math_text_non_drawing_base_node.html", [
+      [ "JKQTMathTextNonDrawingBaseNode", "class_j_k_q_t_math_text_non_drawing_base_node.html#a29377c4069017a2ab9bfda86d143eeef", null ],
+      [ "~JKQTMathTextNonDrawingBaseNode", "class_j_k_q_t_math_text_non_drawing_base_node.html#a86bc31becc8d2a17d71c5857e65c53da", null ],
+      [ "draw", "class_j_k_q_t_math_text_non_drawing_base_node.html#a24d1f560cdaa1852d3a2704054d18854", null ],
+      [ "getSizeInternal", "class_j_k_q_t_math_text_non_drawing_base_node.html#a31036630c9601172d3df33a75ae7c4fd", null ],
+      [ "toHtml", "class_j_k_q_t_math_text_non_drawing_base_node.html#af73e7b515cc67524c59d70cd8e01934f", null ]
+    ] ],
     [ "JKQTMathTextNoopNode", "class_j_k_q_t_math_text_noop_node.html", [
       [ "JKQTMathTextNoopNode", "class_j_k_q_t_math_text_noop_node.html#a3ac09bd16078d5acf4d1db273411db0b", null ],
       [ "~JKQTMathTextNoopNode", "class_j_k_q_t_math_text_noop_node.html#a69a58ed23c1b6b354623e7ca31c6e1df", null ],
-      [ "draw", "class_j_k_q_t_math_text_noop_node.html#af54e8d7b3113469975f3485832268b06", null ],
-      [ "getSizeInternal", "class_j_k_q_t_math_text_noop_node.html#a92dd47f521bea05676059e5357780fdf", null ],
-      [ "getTypeName", "class_j_k_q_t_math_text_noop_node.html#a3e1f94331a69c7401d3c3d7c9078e6b3", null ],
-      [ "toHtml", "class_j_k_q_t_math_text_noop_node.html#ab3ed5c1b5fb6cadd642a8e7ac935f608", null ]
+      [ "getTypeName", "class_j_k_q_t_math_text_noop_node.html#a3e1f94331a69c7401d3c3d7c9078e6b3", null ]
     ] ],
     [ "JKQTMathTextPhantomNode", "class_j_k_q_t_math_text_phantom_node.html", [
       [ "Mode", "class_j_k_q_t_math_text_phantom_node.html#a9e3243c94f9edf529a5f1161872f4f39", [
@@ -476,8 +514,10 @@ var group__jkqtmathtext__items =
       [ "UnicodeSymbol", "class_j_k_q_t_math_text_symbol_node.html#af18b2b7fb7ddfb76c9dd71deb6965a11", null ],
       [ "UnicodeSymbol", "class_j_k_q_t_math_text_symbol_node.html#aa44a8806b9e519d6d5b28a43932901a5", null ],
       [ "UprightGreekLetter_WinSymbol_Unicode_Html", "class_j_k_q_t_math_text_symbol_node.html#a3f3a4f8a1e79c0e0d72b0c7771a47a36", null ],
-      [ "UprightSymbolStd", "class_j_k_q_t_math_text_symbol_node.html#a8807148c966fc7f441558db64ad41287", null ],
-      [ "UprightSymbolUnicode", "class_j_k_q_t_math_text_symbol_node.html#aad03909426e564a35754c980c4821b9e", null ],
+      [ "UprightSymbolStd", "class_j_k_q_t_math_text_symbol_node.html#ae4678a8dd08b651ca8da2af5228fb1dc", null ],
+      [ "UprightSymbolStd", "class_j_k_q_t_math_text_symbol_node.html#aef080e5180ac2c8359088efc69378c11", null ],
+      [ "UprightSymbolUnicode", "class_j_k_q_t_math_text_symbol_node.html#afaf0cee514bb05ddacbde2d1d66bb3de", null ],
+      [ "UprightSymbolUnicode", "class_j_k_q_t_math_text_symbol_node.html#acea7e3d39937b98a3640f1fbe7eca75e", null ],
       [ "has", "class_j_k_q_t_math_text_symbol_node.html#a7d3154ae05b8bbb0d83f773c5d98e256", null ],
       [ "has", "class_j_k_q_t_math_text_symbol_node.html#a721cc01c5e445a292e17d9698a82bc16", null ],
       [ "operator&", "class_j_k_q_t_math_text_symbol_node.html#a39366284a7bcafdb5cb20165477cf5f1", null ],
@@ -634,6 +674,11 @@ var group__jkqtmathtext__items =
       [ "operator=", "struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#ad245c825e721888105ea37b4b67a7faf", null ],
       [ "X", "struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a56cd13e4ea562f61ba7d2c18c8d0dc37", null ]
     ] ],
+    [ "JKQTMathTextVerbatimNode::LayoutInfo", "struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html", [
+      [ "LayoutInfo", "struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#a4d523ee3883be6d2b714d6f0d7ff561d", null ],
+      [ "lines", "struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#abfc99c26fefc4a58ac20321b9cc17f79", null ],
+      [ "X", "struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#aff4a5a0487bbd6beb9c17cec9ec07ebb", null ]
+    ] ],
     [ "JKQTMathTextTextNode::LayoutInfo", "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html", [
       [ "LayoutInfo", "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#a52c345536cb5c2f3804cbfdf1c55c859", null ],
       [ "LayoutInfo", "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#ac0e6a32c58cbc5673a15de84ef41c206", null ],
@@ -643,11 +688,6 @@ var group__jkqtmathtext__items =
       [ "fontMode", "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#a3505ce6d20f4a63b1bbd4750d4a8ed6b", null ],
       [ "textpart", "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#a30754499cc6f368f1fc23e6633e1fa2c", null ],
       [ "textpartXPos", "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#af3719e91b971ac885b362845def9dc8e", null ]
-    ] ],
-    [ "JKQTMathTextVerbatimNode::LayoutInfo", "struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html", [
-      [ "LayoutInfo", "struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#a4d523ee3883be6d2b714d6f0d7ff561d", null ],
-      [ "lines", "struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#abfc99c26fefc4a58ac20321b9cc17f79", null ],
-      [ "X", "struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#aff4a5a0487bbd6beb9c17cec9ec07ebb", null ]
     ] ],
     [ "JKQTMathTextBraceNode::NodeSize", "struct_j_k_q_t_math_text_brace_node_1_1_node_size.html", [
       [ "NodeSize", "struct_j_k_q_t_math_text_brace_node_1_1_node_size.html#a33365f6ade07f8d835bc3434fd19dfc3", null ],

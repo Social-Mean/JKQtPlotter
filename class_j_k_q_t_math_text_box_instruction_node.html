@@ -132,7 +132,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_math_text_box_instructio
 <p>subclass representing an instruction node which draws a (possibly colored) box around it's contents i.e. it represents instructions like <code>\fbox{</code>...}, <code>\colorbox{color}{</code>...}, ...  
  <a href="class_j_k_q_t_math_text_box_instruction_node.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="jkqtmathtextinstructionnode_8h_source.html">jkqtmathtextinstructionnode.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="jkqtmathtextboxinstructionnode_8h_source.html">jkqtmathtextboxinstructionnode.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for JKQTMathTextBoxInstructionNode:</div>
 <div class="dyncontent">
@@ -249,12 +249,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a193b238273e1919cc174b45117549f51"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_box_instruction_node.html#a193b238273e1919cc174b45117549f51">countParametersOfInstruction</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_instruction1_node.html#a57ec6593784983b273c71a749a3785a7">instructionName</a>)</td></tr>
 <tr class="memdesc:a193b238273e1919cc174b45117549f51"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of additional string parameters, required for the given <em>instructionName</em>  <a href="class_j_k_q_t_math_text_box_instruction_node.html#a193b238273e1919cc174b45117549f51">More...</a><br /></td></tr>
 <tr class="separator:a193b238273e1919cc174b45117549f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c7c7eaec7a3440c44a63d5a5e0246b1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_box_instruction_node.html#a3c7c7eaec7a3440c44a63d5a5e0246b1">modifyInMathEnvironment</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_instruction1_node.html#a57ec6593784983b273c71a749a3785a7">instructionName</a>, bool &amp;insideMath)</td></tr>
-<tr class="memdesc:a3c7c7eaec7a3440c44a63d5a5e0246b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true, if the given <em>instructionName</em> can be represented by this node  <a href="class_j_k_q_t_math_text_box_instruction_node.html#a3c7c7eaec7a3440c44a63d5a5e0246b1">More...</a><br /></td></tr>
-<tr class="separator:a3c7c7eaec7a3440c44a63d5a5e0246b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85b436c2f465fe5459780146868e9efa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_box_instruction_node.html#a85b436c2f465fe5459780146868e9efa">modifyInMathEnvironment</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_instruction1_node.html#a57ec6593784983b273c71a749a3785a7">instructionName</a>, bool &amp;insideMath, const QStringList &amp;params=QStringList())</td></tr>
-<tr class="memdesc:a85b436c2f465fe5459780146868e9efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets <em>insideMath</em> to <code>true</code> if inside the node is to be parsed in math mode and <code>false</code> else  <a href="class_j_k_q_t_math_text_box_instruction_node.html#a85b436c2f465fe5459780146868e9efa">More...</a><br /></td></tr>
-<tr class="separator:a85b436c2f465fe5459780146868e9efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3fe59f85336bc96bfa8d6fee9afa75d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_box_instruction_node.html#ae3fe59f85336bc96bfa8d6fee9afa75d">modifyInMathEnvironment</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_instruction1_node.html#a57ec6593784983b273c71a749a3785a7">instructionName</a>, bool &amp;insideMath, bool &amp;insideMathTextStyle, const QStringList &amp;params=QStringList())</td></tr>
+<tr class="memdesc:ae3fe59f85336bc96bfa8d6fee9afa75d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets <em>insideMath</em> to <code>true</code> if inside the node is to be parsed in math mode and <code>false</code> else  <a href="class_j_k_q_t_math_text_box_instruction_node.html#ae3fe59f85336bc96bfa8d6fee9afa75d">More...</a><br /></td></tr>
+<tr class="separator:ae3fe59f85336bc96bfa8d6fee9afa75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86089431d9547d1e8e8ac9c1fae731ab"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_box_instruction_node.html#a86089431d9547d1e8e8ac9c1fae731ab">supportsInstructionName</a> (const QString &amp;<a class="el" href="class_j_k_q_t_math_text_instruction1_node.html#a57ec6593784983b273c71a749a3785a7">instructionName</a>)</td></tr>
 <tr class="memdesc:a86089431d9547d1e8e8ac9c1fae731ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true, if the given <em>instructionName</em> can be represented by this node  <a href="class_j_k_q_t_math_text_box_instruction_node.html#a86089431d9547d1e8e8ac9c1fae731ab">More...</a><br /></td></tr>
 <tr class="separator:a86089431d9547d1e8e8ac9c1fae731ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -605,47 +602,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a3c7c7eaec7a3440c44a63d5a5e0246b1" name="a3c7c7eaec7a3440c44a63d5a5e0246b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c7c7eaec7a3440c44a63d5a5e0246b1">&#9670;&nbsp;</a></span>modifyInMathEnvironment() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void JKQTMathTextBoxInstructionNode::modifyInMathEnvironment </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>instructionName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool &amp;&#160;</td>
-          <td class="paramname"><em>insideMath</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns true, if the given <em>instructionName</em> can be represented by this node </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text_box_instruction_node.html#a85437836bb40005c72404b6388539275" title="defines all implemented instructions in this node">instructions</a> </dd></dl>
-
-</div>
-</div>
-<a id="a85b436c2f465fe5459780146868e9efa" name="a85b436c2f465fe5459780146868e9efa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85b436c2f465fe5459780146868e9efa">&#9670;&nbsp;</a></span>modifyInMathEnvironment() <span class="overload">[2/2]</span></h2>
+<a id="ae3fe59f85336bc96bfa8d6fee9afa75d" name="ae3fe59f85336bc96bfa8d6fee9afa75d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3fe59f85336bc96bfa8d6fee9afa75d">&#9670;&nbsp;</a></span>modifyInMathEnvironment()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -664,6 +622,12 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
           <td class="paramtype">bool &amp;&#160;</td>
           <td class="paramname"><em>insideMath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>insideMathTextStyle</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -827,7 +791,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="jkqtmathtextinstructionnode_8h_source.html">jkqtmathtextinstructionnode.h</a></li>
+<li><a class="el" href="jkqtmathtextboxinstructionnode_8h_source.html">jkqtmathtextboxinstructionnode.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -836,7 +800,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_box_instruction_node.html">JKQTMathTextBoxInstructionNode</a></li>
-    <li class="footer">Generated on Wed Aug 17 2022 21:17:27 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Aug 19 2022 10:18:52 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>
