@@ -3,6 +3,7 @@ var class_j_k_q_t_math_text_node =
     [ "JKQTMathTextNode", "class_j_k_q_t_math_text_node.html#a29c639b5240e545ddaa0758588f9e9d2", null ],
     [ "JKQTMathTextNode", "class_j_k_q_t_math_text_node.html#a3ebf243535e42a09dd07a99de9bb4a6f", null ],
     [ "~JKQTMathTextNode", "class_j_k_q_t_math_text_node.html#ae2d8a2f2f4a2510088f7fbefcbc2c88d", null ],
+    [ "addToErrorList", "class_j_k_q_t_math_text_node.html#aa993c80891090c6eeacbf0ed5ea59ad9", null ],
     [ "doDrawBoxes", "class_j_k_q_t_math_text_node.html#ac72399e3dd08ef5b01b275d62fde0827", null ],
     [ "doDrawBoxes", "class_j_k_q_t_math_text_node.html#a577f174ffc1ad1f92831f152d6241437", null ],
     [ "draw", "class_j_k_q_t_math_text_node.html#aa4ec0fd6ced64f73c383297a52160909", null ],

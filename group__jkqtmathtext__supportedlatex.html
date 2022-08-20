@@ -109,13 +109,13 @@ $(document).ready(function(){initNavTree('group__jkqtmathtext__supportedlatex.ht
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Supported LaTeX-Subset<div class="ingroups"><a class="el" href="group__jkqtmathtext.html">JKQTMathText LaTeX-Renderer for Qt</a> &raquo; <a class="el" href="group__jkqtmathtext__general.html">General Information</a></div></div></div>
+  <div class="headertitle"><div class="title">Supported LaTeX-Subset<div class="ingroups"><a class="el" href="group__jkqtmathtext.html">JKQTMathText LaTeX-Renderer for Qt</a> &raquo; <a class="el" href="group__jkqtmathtext__general.html">General Information</a> &raquo; <a class="el" href="group__jkqtmathtext__general__languages.html">Supported Markup Languages</a> &raquo; <a class="el" href="group__jkqtmathtext__general__latex.html">LaTeX Markup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
 Collaboration diagram for Supported LaTeX-Subset:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="group__jkqtmathtext__supportedlatex.svg" width="458" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="group__jkqtmathtext__supportedlatex.svg" width="410" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <h1><a class="anchor" id="JKQTMathTextSuppoertedLaTeXMathTextMode"></a>
@@ -138,7 +138,7 @@ Formatting</h1>
 <p >The supported LaTeX subset for formatting text is listed in this section.</p>
 <h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXFontPropsFontProps"></a>
 Font Properties</h2>
-<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> supports these instructions for font properties:</p>
+<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> supports these instructions for font properties:</p>
 <ul>
 <li><code>\textbf{</code>...} <code>\mathbf{</code>...} <code>{\bf</code>...} <code>{\bfseries</code>...}: draw the contained text in bold face<div class="image">
 <img src="jkqtmathtext_bold.png" alt=""/>
@@ -200,7 +200,7 @@ Font Selection</h2>
 <li><code>\textbb{</code>...} <code>\mathbb{</code>...} : draw the contained text in blackboard font face<div class="image">
 <img src="jkqtmathtext_bb.png" alt=""/>
 </div>
- Blackboard fonts are not widely available on target systems (viable fonts are e.g. <code>"Double Stroke", "CloisterOpenFace BT", "GoudyHandtooled BT", "Castellar", "MathJax_AMS", "Castellar Standard", "MathJax_AMS Standard", "Colonna MT"</code>). But the most important blackboard characters are usually available in the higher unicode codepoints of Fonts specialized for math (e.g. XIST, STIX, ASANA). Therefore <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> supports using these characters, or simulating a blackboard font in addition to using one of the fonts above. You can set that by setting <a class="el" href="class_j_k_q_t_math_text.html#af9b124c9bcebfc5a1ff14f9e2d8096b4" title="specifies how to draw blackboard font characters (i.e. \mathbb{N} )">JKQTMathText::setFontBlackboradMode()</a> with one of the options from JKQTMathTextBlackboradDrawingMode:<ul>
+ Blackboard fonts are not widely available on target systems (viable fonts are e.g. <code>"Double Stroke", "CloisterOpenFace BT", "GoudyHandtooled BT", "Castellar", "MathJax_AMS", "Castellar Standard", "MathJax_AMS Standard", "Colonna MT"</code>). But the most important blackboard characters are usually available in the higher unicode codepoints of Fonts specialized for math (e.g. XIST, STIX, ASANA). Therefore <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> supports using these characters, or simulating a blackboard font in addition to using one of the fonts above. You can set that by setting <a class="el" href="class_j_k_q_t_math_text.html#af9b124c9bcebfc5a1ff14f9e2d8096b4" title="specifies how to draw blackboard font characters (i.e. \mathbb{N} )">JKQTMathText::setFontBlackboradMode()</a> with one of the options from JKQTMathTextBlackboradDrawingMode:<ul>
 <li>MTBBDMfontDirectly: use a blackboard font specified by <a class="el" href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17" title="set the font fontName and it&#39;s encoding encoding to be used for text in the logical font MTEblackboar...">JKQTMathText::setFontBlackboard()</a><div class="image">
 <img src="jkqtmathtext_bb_font_directly.png" alt=""/>
 <div class="caption">
@@ -232,7 +232,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </ul>
 <h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXFontPropsFontSizes"></a>
 Font Sizes</h2>
-<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> supports these instructions for font size:</p><ul>
+<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> supports these instructions for font size:</p><ul>
 <li><code>{\tiny</code>...}</li>
 <li><code>{\ssmall</code>...}</li>
 <li><code>{\scriptsize</code>...}</li>
@@ -249,7 +249,7 @@ Font Sizes</h2>
 <div class="image">
 <img src="jkqtmathtext_fontsizes.png" alt=""/>
 </div>
-<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> supports these instructions for font size in math mode:</p><ul>
+<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> supports these instructions for font size in math mode:</p><ul>
 <li><code>$\displaystyle</code>...$ switches back to the default font size</li>
 <li><code>$\textstyle</code>...$ switches back to the default font size</li>
 <li><code>$\scriptstyle</code>...$</li>
@@ -260,7 +260,7 @@ Font Sizes</h2>
 </div>
 <h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXUnderlinesEtz"></a>
 Text Decoration: Underline, Overlines, Strikeout, ...</h2>
-<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> supports several LaTeX instruction to decorate the text with underlines, overlines, etc:</p><ul>
+<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> supports several LaTeX instruction to decorate the text with underlines, overlines, etc:</p><ul>
 <li><code>\ul{</code>...} , <code>\underline{</code>...} , <code>\uline{</code>...} <code>\underlined{</code>...} : draw the text with underlining<div class="image">
 <img src="jkqtmathtext_ul.png" alt=""/>
 </div>
@@ -311,7 +311,7 @@ Text Decoration: Underline, Overlines, Strikeout, ...</h2>
 </ul>
 <h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXTextColor"></a>
 Text Color</h2>
-<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> supports several standard commands to set the text color:</p><ul>
+<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> supports several standard commands to set the text color:</p><ul>
 <li><code>\textcolor{color}{</code>...} <code>\mathcolor{color}{</code>...} : draw colored text<div class="image">
 <img src="jkqtmathtext_colored.png" alt=""/>
 </div>
@@ -833,7 +833,7 @@ Matrix/Array Type Instructions</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 19 2022 12:02:55 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Aug 20 2022 14:22:45 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

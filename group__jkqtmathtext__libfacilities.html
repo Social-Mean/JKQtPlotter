@@ -126,10 +126,10 @@ Macros</h2></td></tr>
 <tr class="memitem:ga057aeda927f4602f5bfa776a658f78ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtmathtext__libfacilities.html#ga057aeda927f4602f5bfa776a658f78ff">JKQTMATHTEXT_LIB_EXPORT</a></td></tr>
 <tr class="separator:ga057aeda927f4602f5bfa776a658f78ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0d521873453ad1c9641117bed4e27b6f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtmathtext__libfacilities.html#ga0d521873453ad1c9641117bed4e27b6f">JKQTMATHTEXT_LIB_EXPORT_LIBRARY</a></td></tr>
-<tr class="memdesc:ga0d521873453ad1c9641117bed4e27b6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">is only defined while compiling <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> into <code>JKQTMathTextSharedLib_XYZ</code> and ensures thet the symbols are exported. If it is not defined (e.g. while compiling an application), the symbols are imported  <a href="group__jkqtmathtext__libfacilities.html#ga0d521873453ad1c9641117bed4e27b6f">More...</a><br /></td></tr>
+<tr class="memdesc:ga0d521873453ad1c9641117bed4e27b6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">is only defined while compiling <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> into <code>JKQTMathTextSharedLib_XYZ</code> and ensures thet the symbols are exported. If it is not defined (e.g. while compiling an application), the symbols are imported  <a href="group__jkqtmathtext__libfacilities.html#ga0d521873453ad1c9641117bed4e27b6f">More...</a><br /></td></tr>
 <tr class="separator:ga0d521873453ad1c9641117bed4e27b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaeba5a03c3665ca405dc4a007d9df7635"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtmathtext__libfacilities.html#gaeba5a03c3665ca405dc4a007d9df7635">JKQTMATHTEXT_LIB_IN_DLL</a></td></tr>
-<tr class="memdesc:gaeba5a03c3665ca405dc4a007d9df7635"><td class="mdescLeft">&#160;</td><td class="mdescRight">declares that the application should link against a shared version of <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a>, i.e. <code>JKQTMathTextSharedLib_XYZ</code> . This needs to be defined while compiling the library and while compiling any application linking against <code>JKQTMathTextSharedLib_XYZ</code>.  <a href="group__jkqtmathtext__libfacilities.html#gaeba5a03c3665ca405dc4a007d9df7635">More...</a><br /></td></tr>
+<tr class="memdesc:gaeba5a03c3665ca405dc4a007d9df7635"><td class="mdescLeft">&#160;</td><td class="mdescRight">declares that the application should link against a shared version of <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a>, i.e. <code>JKQTMathTextSharedLib_XYZ</code> . This needs to be defined while compiling the library and while compiling any application linking against <code>JKQTMathTextSharedLib_XYZ</code>.  <a href="group__jkqtmathtext__libfacilities.html#gaeba5a03c3665ca405dc4a007d9df7635">More...</a><br /></td></tr>
 <tr class="separator:gaeba5a03c3665ca405dc4a007d9df7635"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -156,8 +156,8 @@ Macros</h2></td></tr>
 </div><!-- fragment --><p >These macros append the appropriate <code>Q_DECL_EXPORT</code> and <code>Q_DECL_IMPORT</code> to the function/class body and thus tell windows compilers to export these sysmbols from the shared library, or import them from a shared library.</p>
 <p >Note that these attributes are only necessary on windows systems!</p>
 <p >These macros are controlled by two other macros:</p><ul>
-<li><code>JKQTMATHTEXT_LIB_IN_DLL</code> declares that the application should link against a shared version of <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a>, i.e. <code>JKQTMathTextSharedLib_XYZ</code> . This needs to be defined while compiling the library and while compiling any application linking against <code>JKQTMathTextSharedLib_XYZ</code>.</li>
-<li><code>JKQTMATHTEXT_LIB_EXPORT_LIBRARY</code> is only defined while compiling <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> into <code>JKQTMathTextSharedLib_XYZ</code> and ensures thet the symbols are exported. If it is not defined (e.g. while compiling an application), the symbols are imported . <br  />
+<li><code>JKQTMATHTEXT_LIB_IN_DLL</code> declares that the application should link against a shared version of <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a>, i.e. <code>JKQTMathTextSharedLib_XYZ</code> . This needs to be defined while compiling the library and while compiling any application linking against <code>JKQTMathTextSharedLib_XYZ</code>.</li>
+<li><code>JKQTMATHTEXT_LIB_EXPORT_LIBRARY</code> is only defined while compiling <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> into <code>JKQTMathTextSharedLib_XYZ</code> and ensures thet the symbols are exported. If it is not defined (e.g. while compiling an application), the symbols are imported . <br  />
  </li>
 </ul>
 
@@ -175,7 +175,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>is only defined while compiling <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> into <code>JKQTMathTextSharedLib_XYZ</code> and ensures thet the symbols are exported. If it is not defined (e.g. while compiling an application), the symbols are imported </p>
+<p>is only defined while compiling <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> into <code>JKQTMathTextSharedLib_XYZ</code> and ensures thet the symbols are exported. If it is not defined (e.g. while compiling an application), the symbols are imported </p>
 
 </div>
 </div>
@@ -191,7 +191,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>declares that the application should link against a shared version of <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a>, i.e. <code>JKQTMathTextSharedLib_XYZ</code> . This needs to be defined while compiling the library and while compiling any application linking against <code>JKQTMathTextSharedLib_XYZ</code>. </p>
+<p>declares that the application should link against a shared version of <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a>, i.e. <code>JKQTMathTextSharedLib_XYZ</code> . This needs to be defined while compiling the library and while compiling any application linking against <code>JKQTMathTextSharedLib_XYZ</code>. </p>
 
 </div>
 </div>
@@ -201,7 +201,7 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 19 2022 12:02:55 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Aug 20 2022 14:22:44 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

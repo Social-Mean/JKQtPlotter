@@ -120,14 +120,14 @@ Collaboration diagram for JKQTMathText Rendering Model:</div>
 </div>
 <h1><a class="anchor" id="jkqtmathtext_renderingmodel_basics"></a>
 Basics</h1>
-<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> parses an input string of mathematical markup (i.e. LaTeX) and in a first step generates a memory representation of the it (cf. <a class="el" href="group__jkqtmathtext__items.html">Render-Tree Items for JKQTMathText</a> ). Then this memory representation is used to draw the represented math using the renndering API of <a href="https://doc.qt.io/qt-6/qpainter.html">QPainter</a>.</p>
+<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> parses an input string of mathematical markup (i.e. LaTeX) and in a first step generates a memory representation of the it (cf. <a class="el" href="group__jkqtmathtext__items.html">Render-Tree Items for JKQTMathText</a> ). Then this memory representation is used to draw the represented math using the renndering API of <a href="https://doc.qt.io/qt-6/qpainter.html">QPainter</a>.</p>
 <p >As an example, we look at the following LaTeX markup, representing the solution to a quadratic equation:</p>
 <div class="fragment"><div class="line">$x_{1/2} = \frac{-b\pm\sqrt{b^2-4ac}}{2a}$</div>
 </div><!-- fragment --><p >LaTeX itself would render this as follows:</p>
 <div class="image">
 <img src="jkqtmathtext_doc_quadraticeq_latex.png" alt=""/>
 </div>
-<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> produces this output:</p>
+<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> produces this output:</p>
 <div class="image">
 <img src="jkqtmathtext_doc_quadraticeq.png" alt=""/>
 </div>
@@ -148,7 +148,7 @@ Also the parser performs optimizations on the tree, e.g. by removing a <a class=
 </div>
 <h1><a class="anchor" id="jkqtmathtext_renderingmodel_linebreaks"></a>
 Linebreaks and Blocks</h1>
-<p >As described above, <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> represents the mathematicl markup as a tree of boxes. When calling <a class="el" href="class_j_k_q_t_math_text.html#ac566479ebedf116b701fe05818fb7e1b" title="parse the given LaTeX string.">JKQTMathText::parse()</a> without any additional parameters, the base-node is a <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> that can represent several lines of text. A new line is started when a <code>\\</code> or <code>\newline</code> command is found. Automatic line breaking is not performed, i.e. each line can possibly become very long, also longer than the available space for drawing! Also lineabreaks are only allowed directly in the current context. You cannot write </p><div class="fragment"><div class="line"> .tex </div>
+<p >As described above, <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> represents the mathematicl markup as a tree of boxes. When calling <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">JKQTMathText::parse()</a> without any additional parameters, the base-node is a <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> that can represent several lines of text. A new line is started when a <code>\\</code> or <code>\newline</code> command is found. Automatic line breaking is not performed, i.e. each line can possibly become very long, also longer than the available space for drawing! Also lineabreaks are only allowed directly in the current context. You cannot write </p><div class="fragment"><div class="line"> .tex </div>
 <div class="line">\textbf{line1\\text2}</div>
 </div><!-- fragment --><p> but have to write </p><div class="fragment"><div class="line"> .tex </div>
 <div class="line">\textbf{line1}\\</div>
@@ -163,7 +163,7 @@ Linebreaks and Blocks</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 19 2022 12:02:55 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Aug 20 2022 14:22:44 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

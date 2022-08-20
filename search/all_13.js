@@ -13,7 +13,7 @@ var searchData=
   ['rbracket_10',['RBRACKET',['../class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49a430977b35f86ff891c4791d1316ca07e',1,'JKQTPMathParser']]],
   ['reactgraphvisible_11',['reactGraphVisible',['../class_j_k_q_t_plotter.html#a0b241c3cebe392da85faccce8a0844dd',1,'JKQTPlotter']]],
   ['readdelim_12',['readDelim',['../class_j_k_q_t_p_math_parser.html#a428e3bbbb7b91d8b11a89d49a22763b1',1,'JKQTPMathParser']]],
-  ['readuntil_13',['readUntil',['../class_j_k_q_t_math_text.html#a9d7cd40563391532c1cbebf58b7e24f2',1,'JKQTMathText']]],
+  ['readuntil_13',['readUntil',['../class_j_k_q_t_math_text_latex_parser.html#abfa3a73dcb8277068cb4514f7bfdbc28',1,'JKQTMathTextLatexParser']]],
   ['redrawplot_14',['redrawPlot',['../class_j_k_q_t_fast_plotter.html#aaebcc44f7cd80c7f762dcacd40d9bb99',1,'JKQTFastPlotter::redrawPlot()'],['../class_j_k_q_t_plotter.html#aebce042360ddc51b50472760ed272f7d',1,'JKQTPlotter::redrawPlot()'],['../class_j_k_q_t_p_coordinate_axis.html#a025dffd728cb558f39dd5601af56a994',1,'JKQTPCoordinateAxis::redrawPlot()'],['../class_j_k_q_t_base_plotter.html#ac725ccd1780435f95a429468bde5978d',1,'JKQTBasePlotter::redrawPlot()']]],
   ['redrawplotimmediate_15',['redrawPlotImmediate',['../class_j_k_q_t_fast_plotter.html#a8522d7b0fd0cb4884c3dd6c70545cc58',1,'JKQTFastPlotter']]],
   ['reference_16',['reference',['../class_j_k_q_t_p_column_iterator.html#ab3d07d66ac5cfee7406b1c1b028bd5ce',1,'JKQTPColumnIterator::reference()'],['../class_j_k_q_t_p_column_back_inserter.html#aad1abfb9da59e30d3b46b0e558f731ef',1,'JKQTPColumnBackInserter::reference()'],['../class_j_k_q_t_p_column_const_iterator.html#a3037b61d7c0ef9417498c58b9af48026',1,'JKQTPColumnConstIterator::reference()']]],

@@ -315,6 +315,9 @@ var hierarchy =
         [ "JKQTFPimagePlot", "class_j_k_q_t_f_pimage_plot.html", null ]
       ] ],
       [ "JKQTMathText", "class_j_k_q_t_math_text.html", null ],
+      [ "JKQTMathTextParser", "class_j_k_q_t_math_text_parser.html", [
+        [ "JKQTMathTextLatexParser", "class_j_k_q_t_math_text_latex_parser.html", null ]
+      ] ],
       [ "JKQTPCoordinateAxis", "class_j_k_q_t_p_coordinate_axis.html", [
         [ "JKQTPHorizontalAxis", "class_j_k_q_t_p_horizontal_axis.html", [
           [ "JKQTPHorizontalIndependentAxis", "class_j_k_q_t_p_horizontal_independent_axis.html", null ]

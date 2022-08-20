@@ -109,24 +109,24 @@ $(document).ready(function(){initNavTree('_j_k_q_t_math_text_render_cmd_line_too
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Example (<a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a>): Command-Line Utility jkqtmathtext_render </div></div>
+  <div class="headertitle"><div class="title">Example (<a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a>): Command-Line Utility jkqtmathtext_render </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p ><a class="anchor" id="md_tools_jkqtmathtext_render_README"></a><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> is a hand-written LaTeX-renderer for Qt (implemented in native C++, using Qt). It supports a large set of standard LaTeX markup and can render it to a QPainter.</p>
+<div class="textblock"><p ><a class="anchor" id="md_tools_jkqtmathtext_render_README"></a><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> is a hand-written LaTeX-renderer for Qt (implemented in native C++, using Qt). It supports a large set of standard LaTeX markup and can render it to a QPainter.</p>
 <p >This project (see <code>./examples/jkqtmathtext_render/</code>) is a command-line utility that accepts a LaTeX markup string and a filename for the generated image. It then renders the string into the image. The source code of the main application can be found in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/jkqtmathtext_render/jkqtmathtext_render.cpp"><code>jkqtmathtext_render.cpp</code></a>. The major rendering portion look like this:</p>
 <p >First we generate dummy QPixmap that is needed to use the QPainter, that is required for determining the size of the rendering.</p>
 <div class="fragment"><div class="line">QPixmap pix(10,10);</div>
-</div><!-- fragment --><p >Now we create a <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> object and configure it</p>
+</div><!-- fragment --><p >Now we create a <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> object and configure it</p>
 <div class="fragment"><div class="line">QPainter painter;</div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_math_text.html">JKQTMathText</a> mathText;</div>
 <div class="line"><span class="keywordflow">if</span> (useXITS) mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#af7d28d367b075afe9a0d3155d20b4581">useXITS</a>();</div>
 <div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#af231fd040caed5040c227dd3748ff899">setFontSize</a>(fontsize);</div>
-<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:203</div></div>
+<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:219</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_af231fd040caed5040c227dd3748ff899"><div class="ttname"><a href="class_j_k_q_t_math_text.html#af231fd040caed5040c227dd3748ff899">JKQTMathText::setFontSize</a></div><div class="ttdeci">void setFontSize(double __value)</div><div class="ttdoc">set the default font size in points</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_af7d28d367b075afe9a0d3155d20b4581"><div class="ttname"><a href="class_j_k_q_t_math_text.html#af7d28d367b075afe9a0d3155d20b4581">JKQTMathText::useXITS</a></div><div class="ttdeci">bool useXITS(bool mathModeOnly=true)</div><div class="ttdoc">configures the class to use the XITS fonts in mathmode</div></div>
 </div><!-- fragment --><p >Now we parse some LaTeX code and thus generate its memory representation.</p>
-<div class="fragment"><div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#ac566479ebedf116b701fe05818fb7e1b">parse</a>(latex);</div>
-<div class="ttc" id="aclass_j_k_q_t_math_text_html_ac566479ebedf116b701fe05818fb7e1b"><div class="ttname"><a href="class_j_k_q_t_math_text.html#ac566479ebedf116b701fe05818fb7e1b">JKQTMathText::parse</a></div><div class="ttdeci">bool parse(const QString &amp;text, ParseOptions options=DefaultParseOptions)</div><div class="ttdoc">parse the given LaTeX string.</div></div>
+<div class="fragment"><div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05">parse</a>(latex);</div>
+<div class="ttc" id="aclass_j_k_q_t_math_text_html_abc0c403436fc0529eae2f4c9c23edd05"><div class="ttname"><a href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05">JKQTMathText::parse</a></div><div class="ttdeci">bool parse(const QString &amp;markup, DefaultParserTypes markuptType=DefaultParser, ParseOptions options=DefaultParseOptions)</div><div class="ttdoc">parse the given math markup string with a parser derived from markuptType.</div></div>
 </div><!-- fragment --><p >Finally we can generate a QImage with the output of the rendering algorithm and save it as a file.</p>
 <div class="fragment"><div class="line"><span class="keyword">const</span> QImage pix=mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#a957367069dbd6d05b0e5a8902fa90d77">drawIntoImage</a>(drawBoxes, backgroundColor, sizeincrease);</div>
 <div class="line">pix.save(outputFilename);</div>
@@ -181,7 +181,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_math_text_render_cmd_line_too
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Fri Aug 19 2022 12:02:55 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Aug 20 2022 14:22:44 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

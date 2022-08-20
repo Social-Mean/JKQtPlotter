@@ -196,6 +196,9 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:aa993c80891090c6eeacbf0ed5ea59ad9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#aa993c80891090c6eeacbf0ed5ea59ad9">addToErrorList</a> (const QString &amp;error)</td></tr>
+<tr class="memdesc:aa993c80891090c6eeacbf0ed5ea59ad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a new error to the <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> referenced by parentMathText  <a href="class_j_k_q_t_math_text_node.html#aa993c80891090c6eeacbf0ed5ea59ad9">More...</a><br /></td></tr>
+<tr class="separator:aa993c80891090c6eeacbf0ed5ea59ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac72399e3dd08ef5b01b275d62fde0827"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#ac72399e3dd08ef5b01b275d62fde0827">doDrawBoxes</a> (QPainter &amp;painter, double x, double y, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> &amp;size) const</td></tr>
 <tr class="memdesc:ac72399e3dd08ef5b01b275d62fde0827"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws colored boxes (for DEBUGGING) around the actual output of the node  <a href="class_j_k_q_t_math_text_node.html#ac72399e3dd08ef5b01b275d62fde0827">More...</a><br /></td></tr>
 <tr class="separator:ac72399e3dd08ef5b01b275d62fde0827"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,7 +223,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:aa81a38802dd63349e3fec37d28e2d73c"><td class="mdescLeft">&#160;</td><td class="mdescRight">enables the drawing of colored boxes (for DEBUGGING) around the actual output of the node  <a href="class_j_k_q_t_math_text_node.html#aa81a38802dd63349e3fec37d28e2d73c">More...</a><br /></td></tr>
 <tr class="separator:aa81a38802dd63349e3fec37d28e2d73c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a856ae93b058ef1f605b0f2f85f407d64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a856ae93b058ef1f605b0f2f85f407d64">parentMathText</a></td></tr>
-<tr class="memdesc:a856ae93b058ef1f605b0f2f85f407d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">parent <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> object (required for several drawing operations  <a href="class_j_k_q_t_math_text_node.html#a856ae93b058ef1f605b0f2f85f407d64">More...</a><br /></td></tr>
+<tr class="memdesc:a856ae93b058ef1f605b0f2f85f407d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">parent <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> object (required for several drawing operations  <a href="class_j_k_q_t_math_text_node.html#a856ae93b058ef1f605b0f2f85f407d64">More...</a><br /></td></tr>
 <tr class="separator:a856ae93b058ef1f605b0f2f85f407d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f1b02c2fbf00ca65c0a5df214f14a6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#a8f1b02c2fbf00ca65c0a5df214f14a6b">parentNode</a></td></tr>
 <tr class="memdesc:a8f1b02c2fbf00ca65c0a5df214f14a6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">parent node of this node (i.e. one level up, ode <code>nullptr</code> )  <a href="class_j_k_q_t_math_text_node.html#a8f1b02c2fbf00ca65c0a5df214f14a6b">More...</a><br /></td></tr>
@@ -313,6 +316,35 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa993c80891090c6eeacbf0ed5ea59ad9" name="aa993c80891090c6eeacbf0ed5ea59ad9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa993c80891090c6eeacbf0ed5ea59ad9">&#9670;&nbsp;</a></span>addToErrorList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathTextNode::addToErrorList </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>error</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>adds a new error to the <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> referenced by parentMathText </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#a32a69b6feb42510f57d8d20daab385d5" title="a list that will be filled with error messages while parsing, if any error occur">JKQTMathText::addToErrorList()</a> </dd></dl>
+
+</div>
+</div>
 <a id="ac72399e3dd08ef5b01b275d62fde0827" name="ac72399e3dd08ef5b01b275d62fde0827"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac72399e3dd08ef5b01b275d62fde0827">&#9670;&nbsp;</a></span>doDrawBoxes() <span class="overload">[1/2]</span></h2>
 
@@ -995,7 +1027,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>parent <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> object (required for several drawing operations </p>
+<p>parent <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> object (required for several drawing operations </p>
 
 </div>
 </div>
@@ -1058,7 +1090,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a></li>
-    <li class="footer">Generated on Fri Aug 19 2022 12:02:56 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Aug 20 2022 14:22:45 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

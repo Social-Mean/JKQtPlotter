@@ -179,9 +179,9 @@ BREAKING: Print-Support can now be switched off with a CMAKE-option JKQtPlotter_
 <p class="endli"></p>
 </li>
 <li>
-<a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a>:<ul>
+<a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a>:<ul>
 <li>
-FIXED: <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> added a little whitespace before and after the LaTeX-string. This was removed as it disturbed the layout of text in plots </li>
+FIXED: <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> added a little whitespace before and after the LaTeX-string. This was removed as it disturbed the layout of text in plots </li>
 <li>
 FIXED: height-calculation of frac-like instructions: before the ascent and descent were equal, even if the numerator and denominator have different heights </li>
 <li>
@@ -189,11 +189,11 @@ FIXED: strikeoutPos was not correctly calculated in sub-/superscript node </li>
 <li>
 FIXED: symbol spacing in math mode (and text mode) </li>
 <li>
-FIXED/IMPROVED: <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> renders several LaTeX strings better (simple braces in math mode, <code>+-*</code>... as symbols with proper sizes in math mode, added some missing instruction aliases, improved size of \vec and \hat, corrrected fonts usage for \mathrm </li>
+FIXED/IMPROVED: <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> renders several LaTeX strings better (simple braces in math mode, <code>+-*</code>... as symbols with proper sizes in math mode, added some missing instruction aliases, improved size of \vec and \hat, corrrected fonts usage for \mathrm </li>
 <li>
 FIXED: <code>\sum</code> and <code>\prod</code> used the wrong symbol in XITS-mode </li>
 <li>
-IMPROVED: high-dpr-support in <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> </li>
+IMPROVED: high-dpr-support in <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> </li>
 <li>
 IMPROVED: typesetting of sub-/supercripts, especially for large math operators and braces </li>
 <li>
@@ -213,11 +213,11 @@ IMPROVED/BREAKING: refactored symbol node <a class="el" href="class_j_k_q_t_math
 <li>
 IMPROVED/NEW/BREAKING: refactored whitespace-processing node <a class="el" href="class_j_k_q_t_math_text_whitespace_node.html" title="subclass representing one whitepsace node in the syntax tree">JKQTMathTextWhitespaceNode</a>, now all major LaTeX whitespace commands are supported properly </li>
 <li>
-IMPROVED/NEW/BREAKING: refactored LaTeX parser in <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> </li>
+IMPROVED/NEW/BREAKING: refactored LaTeX parser in <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> </li>
 <li>
 REMOVED/BREAKING: <code>\v</code>[a-zA-Z] and shorthand for <code>\vec{a-zA-Z}</code> was removed, implementation of <code>\bbR</code>,<code>\bbC</code>,... changed </li>
 <li>
-MODIFIED/BREAKING: new options interface for <a class="el" href="class_j_k_q_t_math_text.html#ac566479ebedf116b701fe05818fb7e1b" title="parse the given LaTeX string.">JKQTMathText::parse()</a> </li>
+MODIFIED/BREAKING: new options interface for <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">JKQTMathText::parse()</a> </li>
 <li>
 EMOVED/BREAKING: removed JKQTMathtext::unparsedNode </li>
 <li>
@@ -227,13 +227,15 @@ IMPROVED/REWORKED rendering of blackboard font: now several different rendering 
 <li>
 BREAKING/REWORKED: The \verb!...!-command now works the same as in LaTeX </li>
 <li>
+BREAKING/REWORKED: Separated the LaTeX parser into <a class="el" href="class_j_k_q_t_math_text_latex_parser.html" title="a LaTeX parser for JKQTMathText">JKQTMathTextLatexParser</a> from <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> </li>
+<li>
 BREAKING/CLEANUP: cleanup: Removed Parameter prevNodeSize from <a class="el" href="class_j_k_q_t_math_text_node.html#aa4ec0fd6ced64f73c383297a52160909" title="draw the contents at the designated position">JKQTMathTextNode::draw()</a> and <a class="el" href="class_j_k_q_t_math_text_node.html#af26f91923648b4a06693cd4255ff91af" title="determine the size of the node, calls getSizeInternal() implementation of the actual type">JKQTMathTextNode::getSize()</a>/JKQTMathTextNode::getSizeInternal(), since it is only really necessary for <a class="el" href="class_j_k_q_t_math_text_subscript_node.html" title="subclass representing an subscript node with exactly one argument in the syntax tree">JKQTMathTextSubscriptNode</a> and <a class="el" href="class_j_k_q_t_math_text_superscript_node.html" title="subclass representing an superscript node with exactly one argument in the syntax tree">JKQTMathTextSuperscriptNode</a> </li>
 <li>
 BREAKING/CLEANUP: using <a class="el" href="struct_j_k_q_t_math_text_node_size.html" title="beschreibt die Größe(n) eines Knotens">JKQTMathTextNodeSize</a> for all size-calculation functions and got rid of all functions that take the output parameters with call-by-reference, additional information can be outut by local size-classes that derive from <a class="el" href="struct_j_k_q_t_math_text_node_size.html" title="beschreibt die Größe(n) eines Knotens">JKQTMathTextNodeSize</a>, see e.g. <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_node_size.html" title="return type for getSymbolSize(), extends JKQTMathTextNodeSize with information about x-correction for...">JKQTMathTextSymbolNode::NodeSize</a> and <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a22f1950a96e49e20ef5840a55365a4b2" title="determine the size of the node, calls getSizeInternal() implementation of the actual type">JKQTMathTextSymbolNode::getSymbolSize()</a> </li>
 <li>
 NEW: <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> allows to typeset a vertical list of lines </li>
 <li>
-NEW: <a class="el" href="class_j_k_q_t_math_text.html#ac566479ebedf116b701fe05818fb7e1b" title="parse the given LaTeX string.">JKQTMathText::parse()</a> by default allows linebreaks in the LaTeX string to be parsed. This can be switched off by a parameter </li>
+NEW: <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">JKQTMathText::parse()</a> by default allows linebreaks in the LaTeX string to be parsed. This can be switched off by a parameter </li>
 <li>
 NEW: added functions to set the font-size in pixels (as alternative to the existing functions that set them in points), implements request <a href="https://github.com/jkriege2/JKQtPlotter/issues/76">#76</a> from <a href="https://github.com/igormironchik">user:igormironchik</a>  </li>
 <li>
@@ -301,7 +303,7 @@ NEW: added support for \bigl,\bigr,\Bigr,... commands for fixed-size but enlarge
 <li>
 NEW: added support for \begin{verbatim}...\end{verbatim}, \begin{verbatim*}...\end{verbatim*} </li>
 <li>
-NEW: added command line tool <a class="el" href="_j_k_q_t_math_text_render_cmd_line_tool.html">Example (JKQTMathText): Command-Line Utility jkqtmathtext_render</a> that renders LaTeX into images, using it to generate the documentation images for <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a> </li>
+NEW: added command line tool <a class="el" href="_j_k_q_t_math_text_render_cmd_line_tool.html">Example (JKQTMathText): Command-Line Utility jkqtmathtext_render</a> that renders LaTeX into images, using it to generate the documentation images for <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> </li>
 <li>
 NEW: added environment-modifying commands for font sizes: <code>\tiny</code> ... <code>\normalsize</code> ... <code>\Huge</code>  </li>
 <li>
@@ -505,7 +507,7 @@ fixed: RGB-image plots now work properly with inverted axes (image is inverted, 
 </ul>
 </li>
 <li>
-Updates to <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a LaTeX string and can then draw the contained text/equation onto a QPainter">JKQTMathText</a>: <ul>
+Updates to <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a>: <ul>
 <li>
 new: slanted fractions (<code>\sfrac{}{}</code>, <code>\stfrac{}{}</code>)  </li>
 <li>
@@ -557,7 +559,7 @@ v2015.10: Download</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 19 2022 12:02:55 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Aug 20 2022 14:22:44 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

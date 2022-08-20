@@ -7,5 +7,6 @@ var searchData=
   ['string_28_2dconversion_29_20functions_4',['String(-Conversion) Functions',['../group__jkqtptools__string.html',1,'']]],
   ['support_20classes_20and_20functions_5',['Support Classes and Functions',['../group__jkqtpplottersupprt.html',1,'']]],
   ['supported_20latex_2dsubset_6',['Supported LaTeX-Subset',['../group__jkqtmathtext__supportedlatex.html',1,'']]],
-  ['supported_20latex_2dsymbols_7',['Supported LaTeX-Symbols',['../group__jkqtmathtext__supportedlatexsymbols.html',1,'']]]
+  ['supported_20latex_2dsymbols_7',['Supported LaTeX-Symbols',['../group__jkqtmathtext__supportedlatexsymbols.html',1,'']]],
+  ['supported_20markup_20languages_8',['Supported Markup Languages',['../group__jkqtmathtext__general__languages.html',1,'']]]
 ];
