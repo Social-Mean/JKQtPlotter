@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"functions_h.html":[12,3,0,7],
 "functions_i.html":[12,3,0,8],
 "functions_j.html":[12,3,0,9],
 "functions_k.html":[12,3,0,10],
@@ -92,9 +93,10 @@ var NAVTREEINDEX24 =
 "group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7eae561618ddffc370fc36405b8c2a997e4":[10,2,1,3,7],
 "group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7eaec383cb07d8b99477b687dfbab9a049b":[10,2,1,3,6],
 "group__jkqtmathtext.html":[10,3],
+"group__jkqtmathtext__fonthandling.html":[10,3,0,0],
 "group__jkqtmathtext__general.html":[10,3,0],
-"group__jkqtmathtext__general__languages.html":[10,3,0,1],
-"group__jkqtmathtext__general__latex.html":[10,3,0,1,0],
+"group__jkqtmathtext__general__languages.html":[10,3,0,2],
+"group__jkqtmathtext__general__latex.html":[10,3,0,2,0],
 "group__jkqtmathtext__interaltools.html":[10,3,1],
 "group__jkqtmathtext__items.html":[10,3,1,2],
 "group__jkqtmathtext__items.html#ga045470f6bc901e8127f2bd0e985d6fc4":[10,3,1,2,44],
@@ -106,9 +108,9 @@ var NAVTREEINDEX24 =
 "group__jkqtmathtext__libfacilities.html#gaeba5a03c3665ca405dc4a007d9df7635":[10,3,1,0,2],
 "group__jkqtmathtext__parser.html":[10,3,1,1],
 "group__jkqtmathtext__render.html":[10,3,2],
-"group__jkqtmathtext__renderingmodel.html":[10,3,0,0],
-"group__jkqtmathtext__supportedlatex.html":[10,3,0,1,0,0],
-"group__jkqtmathtext__supportedlatexsymbols.html":[10,3,0,1,0,1],
+"group__jkqtmathtext__renderingmodel.html":[10,3,0,1],
+"group__jkqtmathtext__supportedlatex.html":[10,3,0,2,0,0],
+"group__jkqtmathtext__supportedlatexsymbols.html":[10,3,0,2,0,1],
 "group__jkqtmathtext__tools.html":[10,3,1,3],
 "group__jkqtmathtext__tools.html#ga1463950676f064ad0a8feb24fd41db1f":[10,3,1,3,9],
 "group__jkqtmathtext__tools.html#ga14f42e4772246c0844db3a444b22cc9a":[10,3,1,3,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "group__jkqtplotter__imagelots__tools.html#ga7cd5fad1d171a30a1063f17d273d36d7":[10,4,2,1,7,3,17],
 "group__jkqtplotter__imagelots__tools.html#ga8c8276dd54fa853208d7348ea005cc45":[10,4,2,1,7,3,12],
 "group__jkqtplotter__imagelots__tools.html#gaae2f1de8b42bb1734243b4201f4aa72d":[10,4,2,1,7,3,5],
-"group__jkqtplotter__imagelots__tools.html#gab8a96386e4f981f6917c20a8f03215bf":[10,4,2,1,7,3,8],
-"group__jkqtplotter__imagelots__tools.html#gae7a8726d2542377578af11c34a30f26e":[10,4,2,1,7,3,10],
-"group__jkqtplotter__imagelots__tools.html#gae9424c4a66d2ae5cc42f15697a152c36":[10,4,2,1,7,3,16]
+"group__jkqtplotter__imagelots__tools.html#gab8a96386e4f981f6917c20a8f03215bf":[10,4,2,1,7,3,8]
 };
