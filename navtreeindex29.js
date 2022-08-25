@@ -1,5 +1,8 @@
 var NAVTREEINDEX29 =
 {
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#ac173bb749c7c3e9486f7f6da73b5f1a8":[10,3,1,2,39,1],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#ac2a5268c61a87182d15ad5009bdd7973":[10,3,1,2,39,13],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#acbbbe2126edd79e7310934e379fb9339":[10,3,1,2,39,0],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#acf1aa1bb1b70d9122de0d40dea159c19":[10,3,1,2,39,10],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#ad38bcc377606509609799c8553db3b3a":[10,3,1,2,39,15],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#ad77d4dabf2fe65c2b4b9aeda07285415":[10,3,1,2,39,33],

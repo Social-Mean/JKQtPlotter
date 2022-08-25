@@ -1,5 +1,8 @@
 var NAVTREEINDEX24 =
 {
+"functions_func_n.html":[12,3,1,13],
+"functions_func_o.html":[12,3,1,14],
+"functions_func_p.html":[12,3,1,15],
 "functions_func_r.html":[12,3,1,16],
 "functions_func_s.html":[12,3,1,17],
 "functions_func_t.html":[12,3,1,18],
@@ -246,8 +249,5 @@ var NAVTREEINDEX24 =
 "group__jkqtplotter__graphsgroup.html":[10,4,2,1],
 "group__jkqtplotter__imagelots.html":[10,4,2,1,7],
 "group__jkqtplotter__imagelots__contour.html":[10,4,2,1,7,0],
-"group__jkqtplotter__imagelots__elements.html":[10,4,2,1,7,1],
-"group__jkqtplotter__imagelots__overlays.html":[10,4,2,1,7,2],
-"group__jkqtplotter__imagelots__tools.html":[10,4,2,1,7,3],
-"group__jkqtplotter__imagelots__tools.html#ga149685f51fcffb507b86ff7f36f61330":[10,4,2,1,7,3,14]
+"group__jkqtplotter__imagelots__elements.html":[10,4,2,1,7,1]
 };

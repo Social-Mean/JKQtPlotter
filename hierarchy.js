@@ -195,8 +195,7 @@ var hierarchy =
     ] ],
     [ "JKQTPGraphLinesCompressionMixin", "class_j_k_q_t_p_graph_lines_compression_mixin.html", [
       [ "JKQTPXYLineGraph", "class_j_k_q_t_p_x_y_line_graph.html", [
-        [ "JKQTPXYLineErrorGraph", "class_j_k_q_t_p_x_y_line_error_graph.html", null ],
-        [ "JKQTPXYParametrizedScatterGraph", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html", null ]
+        [ "JKQTPXYLineErrorGraph", "class_j_k_q_t_p_x_y_line_error_graph.html", null ]
       ] ]
     ] ],
     [ "JKQTPGraphLineStyleMixin", "class_j_k_q_t_p_graph_line_style_mixin.html", [
@@ -235,14 +234,16 @@ var hierarchy =
       [ "JKQTPXYFunctionLineGraphBase", "class_j_k_q_t_p_x_y_function_line_graph_base.html", [
         [ "JKQTPXYFunctionLineGraph", "class_j_k_q_t_p_x_y_function_line_graph.html", null ]
       ] ],
-      [ "JKQTPXYLineGraph", "class_j_k_q_t_p_x_y_line_graph.html", null ]
+      [ "JKQTPXYLineGraph", "class_j_k_q_t_p_x_y_line_graph.html", null ],
+      [ "JKQTPXYParametrizedScatterGraph", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html", null ]
     ] ],
     [ "JKQTPGraphSymbolStyleMixin", "class_j_k_q_t_p_graph_symbol_style_mixin.html", [
       [ "JKQTPGeoSymbol", "class_j_k_q_t_p_geo_symbol.html", null ],
       [ "JKQTPImpulsesGraphBase", "class_j_k_q_t_p_impulses_graph_base.html", null ],
       [ "JKQTPSingleColumnSymbolsGraph", "class_j_k_q_t_p_single_column_symbols_graph.html", null ],
       [ "JKQTPSpecialLineGraphBase", "class_j_k_q_t_p_special_line_graph_base.html", null ],
-      [ "JKQTPXYLineGraph", "class_j_k_q_t_p_x_y_line_graph.html", null ]
+      [ "JKQTPXYLineGraph", "class_j_k_q_t_p_x_y_line_graph.html", null ],
+      [ "JKQTPXYParametrizedScatterGraph", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html", null ]
     ] ],
     [ "JKQTPGraphTextStyleMixin", "class_j_k_q_t_p_graph_text_style_mixin.html", [
       [ "JKQTPGeoText", "class_j_k_q_t_p_geo_text.html", null ]
@@ -373,6 +374,7 @@ var hierarchy =
               [ "JKQTPSpecialLineGraphBase", "class_j_k_q_t_p_special_line_graph_base.html", null ]
             ] ],
             [ "JKQTPXYLineGraph", "class_j_k_q_t_p_x_y_line_graph.html", null ],
+            [ "JKQTPXYParametrizedScatterGraph", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html", null ],
             [ "JKQTPXYYGraph", "class_j_k_q_t_p_x_y_y_graph.html", [
               [ "JKQTPFilledVerticalRangeGraph", "class_j_k_q_t_p_filled_vertical_range_graph.html", null ]
             ] ]
