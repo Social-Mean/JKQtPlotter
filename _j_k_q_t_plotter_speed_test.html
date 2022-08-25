@@ -167,47 +167,40 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_speed_test.html','');
 <li><em>Axis Scales and Plot Appearance:</em> Replotting is done in two steps: First the plot with the axes, labels etc. is drawn. Then the graphs are draw on top. Therefore a replot is faster, if only the graphs change, because the background (plot) does not have to be replotted.</li>
 </ol>
 <p >You can change all these properties by additional context-menu actions in this test-program.</p>
-<p >The next table summarizes some results for plotting speed under different conditions, obatined with the test program in this directory (conditions: Qt 5.11, 32-bit, MinGW, Release, Win7, Phenom II X4 765, 500 data points):</p>
+<p ><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/speed_contextmenu.png" alt="speed1" class="inline"/></p>
+<p >Running this test on a modern AMD Ryzen 7 5800H laptop (eaxct conditions: Qt 6.2.4, 64-bit, MinGW, Release, AMD Ryzen 3600, Win11, high-res display) for two graphs with 500 datapoints each yields:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Anti-Aliasing   </th><th class="markdownTableHeadNone">X-Axis Redraw   </th><th class="markdownTableHeadNone"># Graphs   </th><th class="markdownTableHeadNone">frame rate [fps]    </th></tr>
+<th class="markdownTableHeadNone">Graph Style   </th><th class="markdownTableHeadNone">Anti-Aliasing   </th><th class="markdownTableHeadNone">Fixed X-Axis   </th><th class="markdownTableHeadNone">frame rate [fps]    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">4    </td></tr>
+<td class="markdownTableBodyNone">lines+symbols   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">3    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">7    </td></tr>
+<td class="markdownTableBodyNone">lines+symbols   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">6    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">9    </td></tr>
+<td class="markdownTableBodyNone">lines+symbols   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">32    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">16    </td></tr>
+<td class="markdownTableBodyNone">lines+symbols   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">50    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">18    </td></tr>
+<td class="markdownTableBodyNone">lines-only   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">4    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">24    </td></tr>
+<td class="markdownTableBodyNone">lines-only   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">7    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">32    </td></tr>
+<td class="markdownTableBodyNone">lines-only   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">43    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">48   </td></tr>
+<td class="markdownTableBodyNone">lines-only   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">80   </td></tr>
 </table>
-<p >Rerunning this test on a modern AMD Ryzen 3600 (conditions: Qt 5.13.1, 64-bit, MinGW, Release, AMD Ryzen 3600, Win10, 500 data points):</p>
+<p >Since 5.0.0 <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> supports a line-compression algorithm (see <code><a class="el" href="group__jkqtptools__drawing.html#gaa980bfc45a0d950e9990f04e996c9aa8" title="tries to reduce the complexity of the given poly-line lines_in, but keeping the appearance as if all ...">JKQTPSimplifyPolyLines()</a></code>). This allows to also draw very large datasets with sub-linear speed-decrease. The algorithm tries to not draw lines that are not visible, because they overlay each other. Using this mode we obtain these framerates for a two line-only graphs without anti-aliasing:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Anti-Aliasing   </th><th class="markdownTableHeadNone">X-Axis Redraw   </th><th class="markdownTableHeadNone"># Graphs   </th><th class="markdownTableHeadNone">frame rate [fps]    </th></tr>
+<th class="markdownTableHeadNone">Number of Points   </th><th class="markdownTableHeadNone">frame rate [fps]    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">7    </td></tr>
+<td class="markdownTableBodyNone">500   </td><td class="markdownTableBodyNone">48    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">14    </td></tr>
+<td class="markdownTableBodyNone">1000   </td><td class="markdownTableBodyNone">32    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">14    </td></tr>
+<td class="markdownTableBodyNone">2000   </td><td class="markdownTableBodyNone">8    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">28    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">30    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">52    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">59    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">100   </td></tr>
+<td class="markdownTableBodyNone">10000   </td><td class="markdownTableBodyNone">5   </td></tr>
 </table>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
@@ -217,7 +210,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_speed_test.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Thu Aug 25 2022 14:57:39 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Thu Aug 25 2022 15:28:18 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>
