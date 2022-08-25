@@ -135,19 +135,19 @@ var NAVTREEINDEX =
 "class_j_k_q_t_p_functor_line_graph_base.html#a54839fbc43deffbd05aa204322b5443d",
 "class_j_k_q_t_p_geo_rectangle.html#a509cba23816b871f2db06bdefe4d038e",
 "class_j_k_q_t_p_graph_error_style_mixin.html#a32f0ccd305bae0cd6596aeca34d59c66",
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a857243a1359492c5a7a10e3d601dc932",
-"class_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box.html#ab58b77039dccc36b0c40c63322063a37",
-"class_j_k_q_t_p_math_parser_1_1jkmp_unary_node.html#a5e57abd3f527cd360b913e05a6aecce6",
-"class_j_k_q_t_p_r_g_b_math_image.html#a758e2e14cafe0d43b5b8d5749966175b",
-"class_j_k_q_t_p_vertical_independent_axis.html#aec00ebd4484097dacc49a8736e21a25d",
-"class_j_k_q_t_p_x_y_line_error_graph.html#a821ba565ab8b312b81f5034a9179d670",
-"class_j_k_q_t_plotter.html#a6a6347e94b3e03229692f947105b049b",
-"functions_h.html",
-"group__jkqtplotter__imagelots__tools.html#gae7a8726d2542377578af11c34a30f26e",
-"group__jkqtpplottersupprt.html#gga80d2235c912ead563f404f4e7f331137acfd0fd9b04759532d1e97e05b1804d25",
-"group__jkqtptools__math__linalg.html#ga9ad3ab299feb81e4ee9ff797dbab8610",
-"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md9",
-"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html#ae99162f216967a13f17c262cb420aac4"
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a65e0a158916bd047b5eb40ca106b38c1",
+"class_j_k_q_t_p_line_plot_style_combo_box.html#a90177225057ba3913387091747e279f4",
+"class_j_k_q_t_p_math_parser_1_1jkmp_node.html#afeeceb1b4c3bb056f78c0329be26a12c",
+"class_j_k_q_t_p_r_g_b_math_image.html#a6786c3d365af10365993870f788c9a80",
+"class_j_k_q_t_p_vertical_independent_axis.html#a80a19cd0d51b7e0da5ed0aba7fde082e",
+"class_j_k_q_t_p_x_y_graph.html#aeab8bd7c9118d450a20421f5987d75f5",
+"class_j_k_q_t_plotter.html#a5fdf69db18bbffbb1d4fdac53359a451",
+"functions_func_r.html",
+"group__jkqtplotter__imagelots__tools.html#ga1ad40aeaac5ba265ad6e83a3a9ab1d5c",
+"group__jkqtpplottersupprt.html#gga6562bedae430e91546399ae1a70cb860a24c60810d58a49ffe33160a221c4db66",
+"group__jkqtptools__math__basic.html#gaf732759c1104bb65bcbfb5b7bfa6ae33",
+"index.html#jkqtplottertic",
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#acf1aa1bb1b70d9122de0d40dea159c19"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

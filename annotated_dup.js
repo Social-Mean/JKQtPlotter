@@ -136,6 +136,7 @@ var annotated_dup =
     [ "JKQTPGraphErrorStyleMixin", "class_j_k_q_t_p_graph_error_style_mixin.html", "class_j_k_q_t_p_graph_error_style_mixin" ],
     [ "JKQTPGraphFillStyleMixin", "class_j_k_q_t_p_graph_fill_style_mixin.html", "class_j_k_q_t_p_graph_fill_style_mixin" ],
     [ "JKQTPGraphLineAndFillStyleMixin", "class_j_k_q_t_p_graph_line_and_fill_style_mixin.html", "class_j_k_q_t_p_graph_line_and_fill_style_mixin" ],
+    [ "JKQTPGraphLinesCompressionMixin", "class_j_k_q_t_p_graph_lines_compression_mixin.html", "class_j_k_q_t_p_graph_lines_compression_mixin" ],
     [ "JKQTPGraphLineStyleMixin", "class_j_k_q_t_p_graph_line_style_mixin.html", "class_j_k_q_t_p_graph_line_style_mixin" ],
     [ "JKQTPGraphsModel", "class_j_k_q_t_p_graphs_model.html", "class_j_k_q_t_p_graphs_model" ],
     [ "JKQTPGraphSymbolStyleMixin", "class_j_k_q_t_p_graph_symbol_style_mixin.html", "class_j_k_q_t_p_graph_symbol_style_mixin" ],

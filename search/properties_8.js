@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['xcolumn_0',['xColumn',['../class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a',1,'JKQTPXYGraph']]],
-  ['xcolumn2_1',['xColumn2',['../class_j_k_q_t_p_x_x_y_graph.html#a818a809adfbb9c290b2f4e8967ed4965',1,'JKQTPXXYGraph']]]
+  ['usenonvisiblelinecompression_0',['useNonvisibleLineCompression',['../class_j_k_q_t_p_graph_lines_compression_mixin.html#a65917cd23d5ee4a54e85eb9dca8b8605',1,'JKQTPGraphLinesCompressionMixin']]]
 ];

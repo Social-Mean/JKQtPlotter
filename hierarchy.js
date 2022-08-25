@@ -193,6 +193,12 @@ var hierarchy =
         [ "JKQTPVerticalRange", "class_j_k_q_t_p_vertical_range.html", null ]
       ] ]
     ] ],
+    [ "JKQTPGraphLinesCompressionMixin", "class_j_k_q_t_p_graph_lines_compression_mixin.html", [
+      [ "JKQTPXYLineGraph", "class_j_k_q_t_p_x_y_line_graph.html", [
+        [ "JKQTPXYLineErrorGraph", "class_j_k_q_t_p_x_y_line_error_graph.html", null ],
+        [ "JKQTPXYParametrizedScatterGraph", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html", null ]
+      ] ]
+    ] ],
     [ "JKQTPGraphLineStyleMixin", "class_j_k_q_t_p_graph_line_style_mixin.html", [
       [ "JKQTPBarGraphBase", "class_j_k_q_t_p_bar_graph_base.html", null ],
       [ "JKQTPContourPlot", "class_j_k_q_t_p_contour_plot.html", null ],
@@ -229,10 +235,7 @@ var hierarchy =
       [ "JKQTPXYFunctionLineGraphBase", "class_j_k_q_t_p_x_y_function_line_graph_base.html", [
         [ "JKQTPXYFunctionLineGraph", "class_j_k_q_t_p_x_y_function_line_graph.html", null ]
       ] ],
-      [ "JKQTPXYLineGraph", "class_j_k_q_t_p_x_y_line_graph.html", [
-        [ "JKQTPXYLineErrorGraph", "class_j_k_q_t_p_x_y_line_error_graph.html", null ],
-        [ "JKQTPXYParametrizedScatterGraph", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html", null ]
-      ] ]
+      [ "JKQTPXYLineGraph", "class_j_k_q_t_p_x_y_line_graph.html", null ]
     ] ],
     [ "JKQTPGraphSymbolStyleMixin", "class_j_k_q_t_p_graph_symbol_style_mixin.html", [
       [ "JKQTPGeoSymbol", "class_j_k_q_t_p_geo_symbol.html", null ],

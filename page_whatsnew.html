@@ -168,13 +168,19 @@ NEW: <a class="el" href="class_j_k_q_t_p_filled_curve_x_graph.html" title="This 
 <li>
 NEW/BREAKING CHANGE: data tooltip can now also be shown when "just" moving the mouse (so far this was only possible when dragging the mouse with a button pressed). This also removes JKQtPlotter::getActMouseLeftAsToolTip() and adds JKQtPlotter::getActMouseMoveToolTip() instead! Also the default toolbars and context menus changed! </li>
 <li>
-NEW: new "seaborn" style for plots </li>
+NEW: new "seaborn" style for plots, see <a class="el" href="group__jkqtpplotter__styling.html">JKQTPlotter Styling System</a>  </li>
 <li>
 NEW/BREAKING CHANGE: changed <a class="el" href="struct_j_k_q_t_p_color_derivation_mode.html" title="Specifies how a fill-color is derived from a given color.">JKQTPColorDerivationMode</a> into a struct, which extends its capabilities above the previously available few enum-items </li>
 <li>
 NEW: added debug-feature to show boxes around text in the plot </li>
 <li>
 BREAKING: Print-Support can now be switched off with a CMAKE-option JKQtPlotter_BUILD_FORCE_NO_PRINTER_SUPPORT=ON. This also switches off PDF and SVG export, partly solves issue <a href="https://github.com/jkriege2/JKQtPlotter/issues/81">#81</a>, many thanks to <a href="https://github.com/sufuk">user:sufuk</a> for contributing part of the code and supplying the idea!  </li>
+<li>
+NEW: improved plotting speed for line-graphs by a compression algorithm (see <a class="el" href="class_j_k_q_t_p_graph_lines_compression_mixin.html" title="This Mix-In class provides setter/getter methods, storage and other facilities for a line-graph compr...">JKQTPGraphLinesCompressionMixin</a>) that removes overlaying lines (e.g. in <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>) </li>
+<li>
+NEW: improved plotting speed for line-graphs by a clipping algorithm (applies to <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>, <a class="el" href="class_j_k_q_t_p_graph_error_style_mixin.html" title="This mix-in class assembles all styling properties applicable to error indicators.">JKQTPGraphErrorStyleMixin</a>, <a class="el" href="class_j_k_q_t_p_special_line_horizontal_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineHorizontalGraph</a>, <a class="el" href="class_j_k_q_t_p_special_line_vertical_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineVerticalGraph</a> and others) </li>
+<li>
+NEW: improved plotting speed for scatter-graphs by not calling draw functions for symbols outside the plot window (e.g. in <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>) </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -559,7 +565,7 @@ v2015.10: Download</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Aug 22 2022 18:39:00 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Thu Aug 25 2022 13:21:22 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>
