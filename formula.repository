@@ -1,12 +1,12 @@
 \_form#0=33x18:$ f_x(t) $
 \_form#1=33x18:$ f_y(t) $
 \_form#2=102x18:$ t\in\left[t_\text{min}..t_\text{max}\right] $
-\_form#3=310x39:\[ \Delta t=\frac{N_{\mbox{now}}-N_{\mbox{start}}}{\mbox{\texttt{QueryPerformanceFrequency()}}}\cdot 10^{6} \]
-\_form#4=31x18:$ [a, b] $
-\_form#5=265x23:\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]
-\_form#6=96x18:$ [x,y]=f_{xy}(t) $
-\_form#7=29x15:$ t_\text{min} $
-\_form#8=31x15:$ t_\text{max} $
+\_form#3=31x18:$ [a, b] $
+\_form#4=265x23:\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]
+\_form#5=96x18:$ [x,y]=f_{xy}(t) $
+\_form#6=29x15:$ t_\text{min} $
+\_form#7=31x15:$ t_\text{max} $
+\_form#8=310x39:\[ \Delta t=\frac{N_{\mbox{now}}-N_{\mbox{start}}}{\mbox{\texttt{QueryPerformanceFrequency()}}}\cdot 10^{6} \]
 \_form#9=99x11:$ \pi=3.14159... $
 \_form#10=156x18:$ \sqrt{2\pi}=2.50662827463 $
 \_form#11=254x18:$ \mbox{ln}(10)=2.30258509299404568402... $
@@ -44,8 +44,8 @@
 \_form#43=179x18:$ N_A= 6.0221417930\cdot 10^{23} $
 \_form#44=195x21:$ k_B=1.380650424\cdot 10^{-23}\;\mathrm{\frac{J}{K}} $
 \_form#45=187x21:$ k_B=8.61734315\cdot 10^{-5}\;\mathrm{\frac{eV}{K}} $
-\_form#46=10x13:$ \lambda $
-\_form#47=68x13:$ A\cdot\vec{x}=B $
+\_form#46=68x13:$ A\cdot\vec{x}=B $
+\_form#47=10x13:$ \lambda $
 \_form#48=65x16:$ A\cdot\vec{x}=\vec{b} $
 \_form#49=21x16:$ X_1 $
 \_form#50=26x16:$ X_N $
@@ -112,20 +112,20 @@
 \_form#111=250x50:\[ k(t) :=\begin{cases}\frac{35}{32}(1-t^2)^3, & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
 \_form#112=258x50:\[ k(t) :=\begin{cases}\frac{70}{81}(1-|t|^3)^3, & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
 \_form#113=245x50:\[ k(t) :=\begin{cases}\frac{\pi}{4}\cos\left(\frac{\pi}{2}t\right), & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#114=221x50:\[ k(t_x, t_y):=\frac{1}{2\pi}\exp \left(-\frac{t_x^2+t_y^2}{2}\right) \]
-\_form#115=241x50:\[ k(t_x, t_y):=\begin{cases}\frac{1}{4}, & \text{if }t_x,t_y\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#116=193x47:\[ h = \left(\frac{4\hat{\sigma}^5}{3n}\right)^{\frac{1}{5}} \approx 1.06 \hat{\sigma} n^{-1/5} \]
-\_form#117=322x49:\[ \tilde{f}(t):=\frac{1}{N\cdot\text{bandwidth}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{t-x_i}{\text{bandwidth}}\right) \]
-\_form#118=567x49:\[ \tilde{f}(x,y):=\frac{1}{N\cdot\sqrt{\text{bandwidthx}}\cdot\sqrt{\text{bandwidthy}}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{x-x_i}{\text{bandwidthx}},\frac{y-y_i}{\text{bandwidthy}}\right) \]
-\_form#119=23x16:$ Y_N $
-\_form#120=180x20:\[ h = \hat{\sigma} n^{-1/(d+4)},\ \ \ \ \ d=2 \]
-\_form#121=47x18:$ (x_i,y_i) $
-\_form#122=16x11:$ x_1 $
-\_form#123=21x11:$ x_N $
-\_form#124=15x11:$ y_1 $
-\_form#125=21x11:$ y_N $
-\_form#126=267x109:\[ \begin{bmatrix} y_1\\ y_2\\ y_3 \\ \vdots \\ y_n \end{bmatrix}= \begin{bmatrix} 1 & x_1 & x_1^2 & \dots & x_1^P \\ 1 & x_2 & x_2^2 & \dots & x_2^P\\ 1 & x_3 & x_3^2 & \dots & x_3^P \\ \vdots & \vdots & \vdots & & \vdots \\ 1 & x_n & x_n^2 & \dots & x_n^P \end{bmatrix} \begin{bmatrix} p_0\\ p_1\\ p_2\\ \vdots \\ p_P \end{bmatrix} \]
-\_form#127=260x21:\[ \vec{y}=V\vec{p}\ \ \ \ \ \Rightarrow\ \ \ \ \ \vec{p}=(V^TV)^{-1}V^T\vec{y} \]
+\_form#114=23x16:$ Y_N $
+\_form#115=221x50:\[ k(t_x, t_y):=\frac{1}{2\pi}\exp \left(-\frac{t_x^2+t_y^2}{2}\right) \]
+\_form#116=241x50:\[ k(t_x, t_y):=\begin{cases}\frac{1}{4}, & \text{if }t_x,t_y\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#117=193x47:\[ h = \left(\frac{4\hat{\sigma}^5}{3n}\right)^{\frac{1}{5}} \approx 1.06 \hat{\sigma} n^{-1/5} \]
+\_form#118=322x49:\[ \tilde{f}(t):=\frac{1}{N\cdot\text{bandwidth}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{t-x_i}{\text{bandwidth}}\right) \]
+\_form#119=567x49:\[ \tilde{f}(x,y):=\frac{1}{N\cdot\sqrt{\text{bandwidthx}}\cdot\sqrt{\text{bandwidthy}}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{x-x_i}{\text{bandwidthx}},\frac{y-y_i}{\text{bandwidthy}}\right) \]
+\_form#120=47x18:$ (x_i,y_i) $
+\_form#121=16x11:$ x_1 $
+\_form#122=21x11:$ x_N $
+\_form#123=15x11:$ y_1 $
+\_form#124=21x11:$ y_N $
+\_form#125=267x109:\[ \begin{bmatrix} y_1\\ y_2\\ y_3 \\ \vdots \\ y_n \end{bmatrix}= \begin{bmatrix} 1 & x_1 & x_1^2 & \dots & x_1^P \\ 1 & x_2 & x_2^2 & \dots & x_2^P\\ 1 & x_3 & x_3^2 & \dots & x_3^P \\ \vdots & \vdots & \vdots & & \vdots \\ 1 & x_n & x_n^2 & \dots & x_n^P \end{bmatrix} \begin{bmatrix} p_0\\ p_1\\ p_2\\ \vdots \\ p_P \end{bmatrix} \]
+\_form#126=260x21:\[ \vec{y}=V\vec{p}\ \ \ \ \ \Rightarrow\ \ \ \ \ \vec{p}=(V^TV)^{-1}V^T\vec{y} \]
+\_form#127=180x20:\[ h = \hat{\sigma} n^{-1/(d+4)},\ \ \ \ \ d=2 \]
 \_form#128=109x18:$ f(x)=a+b\cdot x $
 \_form#129=281x36:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i\left(y_i-(a+b\cdot x_i)\right)^2 \]
 \_form#130=8x8:$ a $
@@ -183,28 +183,28 @@
 \_form#182=46x18:$ f(x,y) $
 \_form#183=143x18:$ \{(x,y)|f(x,y)\equiv L_i\} $
 \_form#184=33x18:$ \{L_i\} $
-\_form#185=83x21:$ [x,y]=\vec{f}(t) $
-\_form#186=7x11:$ t $
-\_form#187=55x18:$ [x, f(x)] $
-\_form#188=29x18:$ f(y) $
-\_form#189=54x18:$ [f(y), y] $
-\_form#190=26x21:$ \vec{f}(t) $
-\_form#191=16x15:$ gt $
-\_form#192=33x15:$ \alpha_{\mbox{left}} $
-\_form#193=44x18:$ \alpha_{\mbox{right}} $
-\_form#194=234x31:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
-\_form#195=78x18:$ y=f(x, \vec{p}) $
-\_form#196=13x16:$ \vec{p} $
-\_form#197=179x18:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
-\_form#198=33x18:$ [x,y] $
-\_form#199=249x20:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $
-\_form#200=59x11:$ p_0, p_1, ... $
-\_form#201=112x18:$ f(x)=p_0+p_1x $
-\_form#202=184x18:$ f(x)=p_0+p_1\cdot\exp(x/p_2) $
-\_form#203=150x18:$ f(x)=p_0\cdot\exp(x/p_1) $
-\_form#204=137x18:$ f(x)=p_0+p_1\cdot x^{p_3} $
-\_form#205=101x18:$ f(x)=p_0\cdot x^{p_1} $
-\_form#206=75x18:$ f(x)= x^{p_0} $
+\_form#185=78x18:$ y=f(x, \vec{p}) $
+\_form#186=13x16:$ \vec{p} $
+\_form#187=83x21:$ [x,y]=\vec{f}(t) $
+\_form#188=7x11:$ t $
+\_form#189=55x18:$ [x, f(x)] $
+\_form#190=29x18:$ f(y) $
+\_form#191=54x18:$ [f(y), y] $
+\_form#192=26x21:$ \vec{f}(t) $
+\_form#193=16x15:$ gt $
+\_form#194=249x20:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $
+\_form#195=59x11:$ p_0, p_1, ... $
+\_form#196=33x15:$ \alpha_{\mbox{left}} $
+\_form#197=44x18:$ \alpha_{\mbox{right}} $
+\_form#198=234x31:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
+\_form#199=112x18:$ f(x)=p_0+p_1x $
+\_form#200=184x18:$ f(x)=p_0+p_1\cdot\exp(x/p_2) $
+\_form#201=150x18:$ f(x)=p_0\cdot\exp(x/p_1) $
+\_form#202=137x18:$ f(x)=p_0+p_1\cdot x^{p_3} $
+\_form#203=101x18:$ f(x)=p_0\cdot x^{p_1} $
+\_form#204=75x18:$ f(x)= x^{p_0} $
+\_form#205=179x18:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
+\_form#206=33x18:$ [x,y] $
 \_form#207=83x18:$ [x,y]=f(t) $
 \_form#208=101x18:$ t \in \left[t_\text{min}, t_\text{max}\right] $
 \_form#209=98x18:$ [x,y]=f(t, \vec{p}) $
