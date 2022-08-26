@@ -209,6 +209,8 @@ var annotated_dup =
     [ "JKQTPXYLineGraph", "class_j_k_q_t_p_x_y_line_graph.html", "class_j_k_q_t_p_x_y_line_graph" ],
     [ "JKQTPXYParametrizedErrorScatterGraph", "class_j_k_q_t_p_x_y_parametrized_error_scatter_graph.html", "class_j_k_q_t_p_x_y_parametrized_error_scatter_graph" ],
     [ "JKQTPXYParametrizedScatterGraph", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html", "class_j_k_q_t_p_x_y_parametrized_scatter_graph" ],
+    [ "JKQTPXYScatterErrorGraph", "class_j_k_q_t_p_x_y_scatter_error_graph.html", "class_j_k_q_t_p_x_y_scatter_error_graph" ],
+    [ "JKQTPXYScatterGraph", "class_j_k_q_t_p_x_y_scatter_graph.html", "class_j_k_q_t_p_x_y_scatter_graph" ],
     [ "JKQTPXYYGraph", "class_j_k_q_t_p_x_y_y_graph.html", "class_j_k_q_t_p_x_y_y_graph" ],
     [ "JKQTPYFunctionLineGraph", "class_j_k_q_t_p_y_function_line_graph.html", "class_j_k_q_t_p_y_function_line_graph" ],
     [ "JKQTPYGraphErrorData", "class_j_k_q_t_p_y_graph_error_data.html", "class_j_k_q_t_p_y_graph_error_data" ],

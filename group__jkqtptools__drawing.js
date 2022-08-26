@@ -123,6 +123,7 @@ var group__jkqtptools__drawing =
     [ "JKQTPPlotSymbol", "group__jkqtptools__drawing.html#ga577ea31744dbcdf6b005ffad038d1cb6", null ],
     [ "JKQTPPlotSymbol", "group__jkqtptools__drawing.html#ga0a9af6dee754f83daca4ba43718e9345", null ],
     [ "jkqtpRotateRect", "group__jkqtptools__drawing.html#gae9410c33b360d17330be5a8891fc9bd8", null ],
+    [ "JKQTPSimplifyPolyLines", "group__jkqtptools__drawing.html#ga95d4daf9047bea20dbdeb0c6b843eaf4", null ],
     [ "JKQTPSimplifyPolyLines", "group__jkqtptools__drawing.html#ga4c5ebd5280767c917617ebf2588f4ec5", null ],
     [ "JKQTPSimplyfyLineSegemnts", "group__jkqtptools__drawing.html#ga45fa6bfc357eb2c5a2206cacacd2de97", null ],
     [ "JKQTPSplitEllipseIntoPoints", "group__jkqtptools__drawing.html#ga6e4dfc2ab2bdae61e02ce5c0e73b328a", null ],

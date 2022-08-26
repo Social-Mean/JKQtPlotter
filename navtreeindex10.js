@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"class_j_k_q_t_p_c_a_label_type_combo_box.html#a8b6352bcb4afa2336cdf446479379b4f":[10,4,4,0,1,0],
+"class_j_k_q_t_p_c_a_label_type_combo_box.html#ab080aa38b82831d7a4a20d62f795e08b":[10,4,4,0,1,3],
 "class_j_k_q_t_p_c_a_label_type_combo_box.html#ad9511b15d62f998c88337875189935e7":[10,4,4,0,1,1],
 "class_j_k_q_t_p_c_a_label_type_combo_box.html#aeaac40e9353fb3fd49cd86f3ab6452c6":[10,4,4,0,1,2],
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html":[10,4,2,1,7,3,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "class_j_k_q_t_p_column_contour_plot.html":[10,4,2,1,7,0,0],
 "class_j_k_q_t_p_column_contour_plot.html#a0c40cceac84615ba573fb37b7f8da277":[10,4,2,1,7,0,0,6],
 "class_j_k_q_t_p_column_contour_plot.html#a29cf0a339895e13efa9338c69d19a1f3":[10,4,2,1,7,0,0,2],
-"class_j_k_q_t_p_column_contour_plot.html#a52390ec7613e0b0af4910e35571b9565":[10,4,2,1,7,0,0,1],
-"class_j_k_q_t_p_column_contour_plot.html#a5872b701ccea265395b94dfd9ed56e7f":[10,4,2,1,7,0,0,4],
-"class_j_k_q_t_p_column_contour_plot.html#a7ebe42c8f81303ebef3ccb00202f0d75":[10,4,2,1,7,0,0,0]
+"class_j_k_q_t_p_column_contour_plot.html#a52390ec7613e0b0af4910e35571b9565":[10,4,2,1,7,0,0,1]
 };

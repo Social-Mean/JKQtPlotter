@@ -225,10 +225,12 @@ var searchData=
   ['jkqtpxylinegraph_222',['JKQTPXYLineGraph',['../class_j_k_q_t_p_x_y_line_graph.html',1,'']]],
   ['jkqtpxyparametrizederrorscattergraph_223',['JKQTPXYParametrizedErrorScatterGraph',['../class_j_k_q_t_p_x_y_parametrized_error_scatter_graph.html',1,'']]],
   ['jkqtpxyparametrizedscattergraph_224',['JKQTPXYParametrizedScatterGraph',['../class_j_k_q_t_p_x_y_parametrized_scatter_graph.html',1,'']]],
-  ['jkqtpxyygraph_225',['JKQTPXYYGraph',['../class_j_k_q_t_p_x_y_y_graph.html',1,'']]],
-  ['jkqtpyfunctionlinegraph_226',['JKQTPYFunctionLineGraph',['../class_j_k_q_t_p_y_function_line_graph.html',1,'']]],
-  ['jkqtpygrapherrordata_227',['JKQTPYGraphErrorData',['../class_j_k_q_t_p_y_graph_error_data.html',1,'']]],
-  ['jkqtpygrapherrors_228',['JKQTPYGraphErrors',['../class_j_k_q_t_p_y_graph_errors.html',1,'']]],
-  ['jkqtpyparsedfunctionlinegraph_229',['JKQTPYParsedFunctionLineGraph',['../class_j_k_q_t_p_y_parsed_function_line_graph.html',1,'']]],
-  ['jkvanishqtoolbar_230',['JKVanishQToolBar',['../class_j_k_vanish_q_tool_bar.html',1,'']]]
+  ['jkqtpxyscattererrorgraph_225',['JKQTPXYScatterErrorGraph',['../class_j_k_q_t_p_x_y_scatter_error_graph.html',1,'']]],
+  ['jkqtpxyscattergraph_226',['JKQTPXYScatterGraph',['../class_j_k_q_t_p_x_y_scatter_graph.html',1,'']]],
+  ['jkqtpxyygraph_227',['JKQTPXYYGraph',['../class_j_k_q_t_p_x_y_y_graph.html',1,'']]],
+  ['jkqtpyfunctionlinegraph_228',['JKQTPYFunctionLineGraph',['../class_j_k_q_t_p_y_function_line_graph.html',1,'']]],
+  ['jkqtpygrapherrordata_229',['JKQTPYGraphErrorData',['../class_j_k_q_t_p_y_graph_error_data.html',1,'']]],
+  ['jkqtpygrapherrors_230',['JKQTPYGraphErrors',['../class_j_k_q_t_p_y_graph_errors.html',1,'']]],
+  ['jkqtpyparsedfunctionlinegraph_231',['JKQTPYParsedFunctionLineGraph',['../class_j_k_q_t_p_y_parsed_function_line_graph.html',1,'']]],
+  ['jkvanishqtoolbar_232',['JKVanishQToolBar',['../class_j_k_vanish_q_tool_bar.html',1,'']]]
 ];

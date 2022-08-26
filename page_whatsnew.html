@@ -162,6 +162,8 @@ FIXED issue <a href="https://github.com/jkriege2/JKQtPlotter/pull/80">#80: Bug w
 <li>
 FIXED: styling was not properly applied to coordinate axes of colorbars outside the plot </li>
 <li>
+REORGANIZED: separated line-graphs from <a class="el" href="jkqtpscatter_8h_source.html">jkqtpscatter.h</a>/.cpp into <a class="el" href="jkqtplines_8h_source.html">jkqtplines.h</a>/.cpp </li>
+<li>
 IMPROVED: QT6-compatibility by removing deprecated warnings </li>
 <li>
 NEW: <a class="el" href="class_j_k_q_t_p_filled_curve_x_graph.html" title="This implements filled curve plots where the area is filled between the plot line and the x-Axis.">JKQTPFilledCurveXGraph</a> and <a class="el" href="class_j_k_q_t_p_filled_curve_y_graph.html" title="This implements filled curve plots where the area is filled between the plot line and y-Axis.">JKQTPFilledCurveYGraph</a> can now plot wiggle plots with different fill styles above and below the baseline (feature request <a href="https://github.com/jkriege2/JKQtPlotter/issues/68">#68 Wiggle Plots</a> from <a href="https://github.com/xichaoqiang">user:xichaoqiang</a>  </li>
@@ -181,6 +183,12 @@ NEW: improved plotting speed for line-graphs by a compression algorithm (see <a 
 NEW: improved plotting speed for line-graphs by a clipping algorithm (applies to <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>, <a class="el" href="class_j_k_q_t_p_graph_error_style_mixin.html" title="This mix-in class assembles all styling properties applicable to error indicators.">JKQTPGraphErrorStyleMixin</a>, <a class="el" href="class_j_k_q_t_p_special_line_horizontal_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineHorizontalGraph</a>, <a class="el" href="class_j_k_q_t_p_special_line_vertical_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineVerticalGraph</a> and others) </li>
 <li>
 NEW: improved plotting speed for scatter-graphs by not calling draw functions for symbols outside the plot window (e.g. in <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>) </li>
+<li>
+NEW: added <a class="el" href="class_j_k_q_t_base_plotter.html#a6929ec72f61b86dedb6a1f315e3883c7" title="save the current plot as a pixel image into a QImage with the given size">JKQTBasePlotter::grabPixelImage()</a> and <a class="el" href="class_j_k_q_t_plotter.html#ac83a30529824e25e774af566e3a0fb16" title="save the current plot as a pixel image into a QImage with the given size">JKQTPlotter::grabPixelImage()</a>, which grab the plotter into a QImage </li>
+<li>
+NEW: added option to not display the preview dialog to <a class="el" href="class_j_k_q_t_base_plotter.html#adbf51ccada49c8796ad07eaa88f4c9da" title="copy the current plot as a pixel+svg image to the clipboard">JKQTBasePlotter::copyPixelImage()</a> and <a class="el" href="class_j_k_q_t_plotter.html#ae7d54ad25f1a2200458b06a6a3cc8067" title="copy the current plot as a pixel+svg image to the clipboard">JKQTPlotter::copyPixelImage()</a> </li>
+<li>
+NEW: added simple scatter plot <a class="el" href="class_j_k_q_t_p_x_y_scatter_graph.html" title="This implements xy scatter plots. This also alows to draw symbols at the data points.">JKQTPXYScatterGraph</a> </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -475,7 +483,7 @@ new: additional options for graph filling (color gradients, textures, ...) as pr
 <li>
 new: added a general feature to <a class="el" href="class_j_k_q_t_p_plot_element.html" title="this virtual base class of every element, which is part of a JKQTPlotter plot and may appear in its k...">JKQTPPlotElement</a> which allows to show a graph in a highlighted state (if supported by the derived graph class!)  </li>
 <li>
-new: <a class="el" href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html" title="This implements xy scatter plots (like JKQTPXYLineGraph), but the color and size of the symbols may b...">JKQTPXYParametrizedScatterGraph</a>: added functors to transform column values into symbol type+size and line-width to give even more control  </li>
+new: <a class="el" href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html" title="This implements xy scatter plots (like JKQTPXYScatterGraph), but the color and size of the symbols ma...">JKQTPXYParametrizedScatterGraph</a>: added functors to transform column values into symbol type+size and line-width to give even more control  </li>
 <li>
 new: user-interaction tool that shows coordinates of data points near the current mouse position (when mouse is dragged, while mouse button is pressed), see: jkqtpmdaToolTipForClosestDataPoint  </li>
 <li>
@@ -565,7 +573,7 @@ v2015.10: Download</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Aug 25 2022 15:49:48 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Aug 26 2022 10:46:16 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

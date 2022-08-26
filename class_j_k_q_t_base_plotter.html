@@ -188,9 +188,9 @@ Public Slots</h2></td></tr>
 <tr class="memitem:a485c99928b85b0e8028d6e7cd46dd773"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a485c99928b85b0e8028d6e7cd46dd773">copyDataMatlab</a> ()</td></tr>
 <tr class="memdesc:a485c99928b85b0e8028d6e7cd46dd773"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy the data used for the current plot to the clipboard in Matlab format  <a href="class_j_k_q_t_base_plotter.html#a485c99928b85b0e8028d6e7cd46dd773">More...</a><br /></td></tr>
 <tr class="separator:a485c99928b85b0e8028d6e7cd46dd773"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9508210ac934bc0a18d512db641c5f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#ad9508210ac934bc0a18d512db641c5f2">copyPixelImage</a> ()</td></tr>
-<tr class="memdesc:ad9508210ac934bc0a18d512db641c5f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy the current plot as a pixel image to the clipboard  <a href="class_j_k_q_t_base_plotter.html#ad9508210ac934bc0a18d512db641c5f2">More...</a><br /></td></tr>
-<tr class="separator:ad9508210ac934bc0a18d512db641c5f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf51ccada49c8796ad07eaa88f4c9da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#adbf51ccada49c8796ad07eaa88f4c9da">copyPixelImage</a> (bool showPreview=true)</td></tr>
+<tr class="memdesc:adbf51ccada49c8796ad07eaa88f4c9da"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy the current plot as a pixel+svg image to the clipboard  <a href="class_j_k_q_t_base_plotter.html#adbf51ccada49c8796ad07eaa88f4c9da">More...</a><br /></td></tr>
+<tr class="separator:adbf51ccada49c8796ad07eaa88f4c9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee918dc58cef2d7ae686d56e1fa079da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#aee918dc58cef2d7ae686d56e1fa079da">enableDebugShowRegionBoxes</a> (bool enabled=true)</td></tr>
 <tr class="memdesc:aee918dc58cef2d7ae686d56e1fa079da"><td class="mdescLeft">&#160;</td><td class="mdescRight">if set <code>true</code> (default: <code>false</code> ) the <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a> draws colored rectangles to indicate the different regions in the plot (border, axes, ...)  <a href="class_j_k_q_t_base_plotter.html#aee918dc58cef2d7ae686d56e1fa079da">More...</a><br /></td></tr>
 <tr class="separator:aee918dc58cef2d7ae686d56e1fa079da"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,6 +203,9 @@ Public Slots</h2></td></tr>
 <tr class="memitem:a1b8371175e97384c777ea2775f2008d4"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a1b8371175e97384c777ea2775f2008d4">getUserSettigsPrefix</a> () const</td></tr>
 <tr class="memdesc:a1b8371175e97384c777ea2775f2008d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the prefix, used by <a class="el" href="class_j_k_q_t_base_plotter.html#afd27bc642a7f90269c550a215d750ded" title="loads the plot user properties from the file sepcified by setUserSettigsFilename() and the prefix spe...">loadUserSettings()</a> and <a class="el" href="class_j_k_q_t_base_plotter.html#a6bbcd004343c17566bed27182bc0fd72" title="saves the plot user properties into a &lt;a href=&quot;http://doc.qt.io/qt-5/qsettings.html&quot;)&quot;&gt;QSettings obje...">saveUserSettings()</a>  <a href="class_j_k_q_t_base_plotter.html#a1b8371175e97384c777ea2775f2008d4">More...</a><br /></td></tr>
 <tr class="separator:a1b8371175e97384c777ea2775f2008d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6929ec72f61b86dedb6a1f315e3883c7"><td class="memItemLeft" align="right" valign="top">QImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a6929ec72f61b86dedb6a1f315e3883c7">grabPixelImage</a> (QSize size=QSize(), bool showPreview=false)</td></tr>
+<tr class="memdesc:a6929ec72f61b86dedb6a1f315e3883c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot as a pixel image into a QImage with the given size  <a href="class_j_k_q_t_base_plotter.html#a6929ec72f61b86dedb6a1f315e3883c7">More...</a><br /></td></tr>
+<tr class="separator:a6929ec72f61b86dedb6a1f315e3883c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd27bc642a7f90269c550a215d750ded"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#afd27bc642a7f90269c550a215d750ded">loadUserSettings</a> ()</td></tr>
 <tr class="memdesc:afd27bc642a7f90269c550a215d750ded"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads the plot user properties from the file sepcified by <a class="el" href="class_j_k_q_t_base_plotter.html#a630f545fcd769f73bf86fbadee673980" title="set filename and prefix, used by loadUserSettings() and saveUserSettings()">setUserSettigsFilename()</a> and the prefix specified by <a class="el" href="class_j_k_q_t_base_plotter.html#a1989fdd628f6172bbe22058f99ffc2d0" title="set prefix, used by loadUserSettings() and saveUserSettings()">setUserSettigsPrefix()</a>  <a href="class_j_k_q_t_base_plotter.html#afd27bc642a7f90269c550a215d750ded">More...</a><br /></td></tr>
 <tr class="separator:afd27bc642a7f90269c550a215d750ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1581,11 +1584,11 @@ Aspect Ratios</h2>
 <p >First note that this functionality is only available and activated if both axes are linear!</p>
 <p >You can set two different aspect ratios:</p><ul>
 <li>The ratio of plotWidth/plotHeight (<a class="el" href="class_j_k_q_t_base_plotter.html#a06364dc4fb497fc42b7b8dbbe32f0638" title="sets the data aspect ratio, enforced with setMaintainApsectRatio(true)">setAspectRatio()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a1360fa41c72a05e4142527e3322e2d61" title="en-/disables the maintaining of the data aspect ratio">setMaintainAspectRatio()</a>) will keep the plots pixel-width and height at a certain value. <p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_215.png" width="182" height="39"/>
+<img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_228.png" width="182" height="39"/>
 </p>
 </li>
 <li>The ratio of (xmax-xmin)/(ymax-ymin) (<a class="el" href="class_j_k_q_t_base_plotter.html#a9b2ec97c3bf2f8e86b70e278794ab149" title="sets the axis aspect ratio, enforced with setMaintainAxisApsectRatio(true)">setAxisAspectRatio()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a3fdaa585b8b1a150321b19742091ddaa" title="en-/disables the maintaining of the axis aspect ratio">setMaintainAxisAspectRatio()</a>) will keep the displayed axis ranges in a certain ratio. <p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="234" height="41"/>
+<img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_229.png" width="234" height="41"/>
 </p>
 </li>
 </ul>
@@ -1617,7 +1620,7 @@ Saving and Printing Graphs</h2>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#a5ee52d4376e83f3ce141280729526ad9" title="save the current plot as an image file, with the current widget aspect ratio, if filename is empty a ...">saveImage()</a> saves the graph</li>
 </ul>
 <p >You can also copy the contents of the plot into the clipboard:</p><ul>
-<li><a class="el" href="class_j_k_q_t_base_plotter.html#ad9508210ac934bc0a18d512db641c5f2" title="copy the current plot as a pixel image to the clipboard">copyPixelImage()</a></li>
+<li><a class="el" href="class_j_k_q_t_base_plotter.html#adbf51ccada49c8796ad07eaa88f4c9da" title="copy the current plot as a pixel+svg image to the clipboard">copyPixelImage()</a></li>
 </ul>
 <h2><a class="anchor" id="jkqtplotter_base_dataexport"></a>
 Exporting Graph Data</h2>
@@ -2140,8 +2143,8 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 </div>
 </div>
-<a id="ad9508210ac934bc0a18d512db641c5f2" name="ad9508210ac934bc0a18d512db641c5f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9508210ac934bc0a18d512db641c5f2">&#9670;&nbsp;</a></span>copyPixelImage</h2>
+<a id="adbf51ccada49c8796ad07eaa88f4c9da" name="adbf51ccada49c8796ad07eaa88f4c9da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf51ccada49c8796ad07eaa88f4c9da">&#9670;&nbsp;</a></span>copyPixelImage</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2152,7 +2155,8 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
         <tr>
           <td class="memname">void JKQTBasePlotter::copyPixelImage </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>showPreview</em> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2163,7 +2167,7 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>copy the current plot as a pixel image to the clipboard </p>
+<p>copy the current plot as a pixel+svg image to the clipboard </p>
 
 </div>
 </div>
@@ -5833,6 +5837,44 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 </div><div class="memdoc">
 
 <p>returns the current y-axis min </p>
+
+</div>
+</div>
+<a id="a6929ec72f61b86dedb6a1f315e3883c7" name="a6929ec72f61b86dedb6a1f315e3883c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6929ec72f61b86dedb6a1f315e3883c7">&#9670;&nbsp;</a></span>grabPixelImage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QImage JKQTBasePlotter::grabPixelImage </td>
+          <td>(</td>
+          <td class="paramtype">QSize&#160;</td>
+          <td class="paramname"><em>size</em> = <code>QSize()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>showPreview</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save the current plot as a pixel image into a QImage with the given size </p>
 
 </div>
 </div>
@@ -11908,10 +11950,10 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
   <table class="params">
     <tr><td class="paramname">zoomX</td><td>if set <code>true</code> (default) zooms the x axis </td></tr>
     <tr><td class="paramname">zoomY</td><td>if set <code>true</code> (default) zooms the y axis </td></tr>
-    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ x=0 $" src="form_230.png" width="41" height="11"/> is visible in the plot (only for non-logx plots, default: false) </td></tr>
-    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ y=0 $" src="form_231.png" width="39" height="15"/> is visible in the plot (only for non-logy plots, default: false) </td></tr>
-    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_232.png" width="81" height="13"/> where <img class="formulaInl" alt="$ \Delta x $" src="form_233.png" width="23" height="13"/> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
-    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_234.png" width="88" height="15"/> where <img class="formulaInl" alt="$ \Delta &lt; $" src="form_235.png" width="29" height="15"/> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ x=0 $" src="form_241.png" width="41" height="11"/> is visible in the plot (only for non-logx plots, default: false) </td></tr>
+    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ y=0 $" src="form_242.png" width="39" height="15"/> is visible in the plot (only for non-logy plots, default: false) </td></tr>
+    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_243.png" width="81" height="13"/> where <img class="formulaInl" alt="$ \Delta x $" src="form_244.png" width="23" height="13"/> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_245.png" width="88" height="15"/> where <img class="formulaInl" alt="$ \Delta &lt; $" src="form_246.png" width="29" height="15"/> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
   </table>
   </dd>
 </dl>
@@ -12277,7 +12319,7 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 <p>the aspect ratio of plotwidth and plotheight to maintain, if <code>maintainAspectRatio==true</code> </p>
 <p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_215.png" width="182" height="39"/>
+<img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_228.png" width="182" height="39"/>
 </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#af0720a1e655e8f24ef3914874b2dfec8" title="indicates whether the widget should maintain an aspect ratio of plotwidth and plotheight">maintainAspectRatio</a> </dd></dl>
 
@@ -12305,7 +12347,7 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 <p>the aspect ratio of axis widths to maintain, if <code>maintainAxisAspectRatio==true</code> </p>
 <p >When the axis aspect ratio is to be maintained and new axis ranges are set (e.g. when calling <a class="el" href="class_j_k_q_t_base_plotter.html#a9e100588e2e89a74bc95c7f70654a2bf" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a> ), the given axis ranges are modified, so </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="234" height="41"/>
+<img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_229.png" width="234" height="41"/>
 </p>
 <dl class="section note"><dt>Note</dt><dd>An axis aspect ratio is only well defined for linear axes (if both axes are linear). If both axes a logarithmic, the axis ration is defined for log(axismax)-log(axismin). For other combinations of axes, this function is deactivated</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a137bf3f5fcd473fbb4177290eb53db6d" title="indicates whether the axes should maintain an aspect ratio">maintainAxisAspectRatio</a> </dd></dl>
@@ -13393,7 +13435,7 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 <p>indicates whether the axes should maintain an aspect ratio </p>
 <p >When the axis aspect ratio is to be maintained and new axis ranges are set (e.g. when calling <a class="el" href="class_j_k_q_t_base_plotter.html#a9e100588e2e89a74bc95c7f70654a2bf" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a> ), the given axis ranges are modified, so </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="234" height="41"/>
+<img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_229.png" width="234" height="41"/>
 </p>
 <dl class="section note"><dt>Note</dt><dd>An axis aspect ratio is only well defined for linear axes (if both axes are linear). If both axes a logarithmic, the axis ration is defined for log(axismax)-log(axismin). For other combinations of axes, this function is deactivated</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a4664db3c06865c8618dd0c70c7551caf" title="the aspect ratio of axis widths to maintain, if maintainAxisAspectRatio==true">axisAspectRatio</a> </dd></dl>
@@ -14181,7 +14223,7 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a></li>
-    <li class="footer">Generated on Thu Aug 25 2022 15:49:48 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Aug 26 2022 10:46:17 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

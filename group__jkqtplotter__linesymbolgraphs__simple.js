@@ -87,6 +87,22 @@ var group__jkqtplotter__linesymbolgraphs__simple =
       [ "setDrawLine", "class_j_k_q_t_p_x_y_line_graph.html#a1202afd954530d0c71c9a745755f7ae0", null ],
       [ "drawLine", "class_j_k_q_t_p_x_y_line_graph.html#a0cff446f84f76ad71833b0d3e5fe40e4", null ]
     ] ],
+    [ "JKQTPXYScatterErrorGraph", "class_j_k_q_t_p_x_y_scatter_error_graph.html", [
+      [ "JKQTPXYScatterErrorGraph", "class_j_k_q_t_p_x_y_scatter_error_graph.html#a346549696465b3ca4b4fc229411121eb", null ],
+      [ "JKQTPXYScatterErrorGraph", "class_j_k_q_t_p_x_y_scatter_error_graph.html#aee07337cf915e5dcb36a590ac68af6d8", null ],
+      [ "drawErrorsBefore", "class_j_k_q_t_p_x_y_scatter_error_graph.html#a6814fc805f33f7b5c85aab043cfd56fe", null ],
+      [ "getXMinMax", "class_j_k_q_t_p_x_y_scatter_error_graph.html#ac97c8cc1c7fa050b5eeef624040710b2", null ],
+      [ "getYMinMax", "class_j_k_q_t_p_x_y_scatter_error_graph.html#ac9f2390ac170280bad86a0470621e9eb", null ],
+      [ "usesColumn", "class_j_k_q_t_p_x_y_scatter_error_graph.html#a7c41b7805cde572510fe19784688d542", null ]
+    ] ],
+    [ "JKQTPXYScatterGraph", "class_j_k_q_t_p_x_y_scatter_graph.html", [
+      [ "JKQTPXYScatterGraph", "class_j_k_q_t_p_x_y_scatter_graph.html#a62730ec6ba2c84af255da8b057d71835", null ],
+      [ "JKQTPXYScatterGraph", "class_j_k_q_t_p_x_y_scatter_graph.html#afe701b9368ffaf220999cada6764d50f", null ],
+      [ "draw", "class_j_k_q_t_p_x_y_scatter_graph.html#a66ff8128a7988b0b1917340e1f13d909", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_x_y_scatter_graph.html#aad84e981c122aa903cc91c30e09a0310", null ],
+      [ "getKeyLabelColor", "class_j_k_q_t_p_x_y_scatter_graph.html#ae9a71b4e212cb77ea8e16a9960581275", null ],
+      [ "setColor", "class_j_k_q_t_p_x_y_scatter_graph.html#a4f3f1a942e6bc1d8f3c5b24661a2b8d3", null ]
+    ] ],
     [ "JKQTPSpecialLineType", "group__jkqtplotter__linesymbolgraphs__simple.html#ga5e78e9bcb463d22d3fd5d6158a78c8e4", [
       [ "JKQTPStepLeft", "group__jkqtplotter__linesymbolgraphs__simple.html#gga5e78e9bcb463d22d3fd5d6158a78c8e4a4e6534f2fd1becefd309284b69ca685b", null ],
       [ "JKQTPStepCenter", "group__jkqtplotter__linesymbolgraphs__simple.html#gga5e78e9bcb463d22d3fd5d6158a78c8e4a8aa0943d66cf24ac16fd1e712b29482f", null ],

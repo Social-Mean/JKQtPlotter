@@ -44,6 +44,7 @@ var searchData=
   ['example_20_28jkqtplotter_29_3a_20step_20line_20plots_20in_20different_20styles_41',['Example (JKQTPlotter): Step Line Plots in Different Styles',['../_j_k_q_t_plotter_special_step_line_plot.html',1,'exampleTutorialProjects']]],
   ['example_20_28jkqtplotter_29_3a_20styling_20different_20aspects_20of_20boxplots_42',['Example (JKQTPlotter): Styling different aspects of boxplots',['../_j_k_q_t_plotter_boxplot_styling.html',1,'exampleTutorialProjects']]],
   ['example_20_28jkqtplotter_29_3a_20very_20simple_20line_2dgraph_43',['Example (JKQTPlotter): Very simple line-graph',['../_j_k_q_t_plotter_simple_test.html',1,'exampleTutorialProjects']]],
-  ['example_20_28jkqtplotter_29_3a_20violin_20plots_44',['Example (JKQTPlotter): Violin Plots',['../_j_k_q_t_plotter_violinplot_graphs.html',1,'exampleTutorialProjects']]],
-  ['example_20_28jkqtplotter_29_3a_20wiggle_20plots_45',['Example (JKQTPlotter): Wiggle Plots',['../_j_k_q_t_plotter_wiggle_plots.html',1,'exampleTutorialProjects']]]
+  ['example_20_28jkqtplotter_29_3a_20very_20simple_20scatter_2dgraph_44',['Example (JKQTPlotter): Very simple scatter-graph',['../_j_k_q_t_plotterscatter.html',1,'exampleTutorialProjects']]],
+  ['example_20_28jkqtplotter_29_3a_20violin_20plots_45',['Example (JKQTPlotter): Violin Plots',['../_j_k_q_t_plotter_violinplot_graphs.html',1,'exampleTutorialProjects']]],
+  ['example_20_28jkqtplotter_29_3a_20wiggle_20plots_46',['Example (JKQTPlotter): Wiggle Plots',['../_j_k_q_t_plotter_wiggle_plots.html',1,'exampleTutorialProjects']]]
 ];

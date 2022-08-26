@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_p_x_y_parametrized_scatt
 </div><!--header-->
 <div class="contents">
 
-<p>This implements xy scatter plots (like <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>), but the color and size of the symbols may be taken from a column.  
+<p>This implements xy scatter plots (like <a class="el" href="class_j_k_q_t_p_x_y_scatter_graph.html" title="This implements xy scatter plots. This also alows to draw symbols at the data points.">JKQTPXYScatterGraph</a>), but the color and size of the symbols may be taken from a column.  
  <a href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="jkqtpscatter_8h_source.html">jkqtpscatter.h</a>&gt;</code></p>
@@ -1064,13 +1064,13 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ac46df9e53bec8ddcabd25057c8cfacfc inherit properties_class_j_k_q_t_p_graph_symbol_style_mixin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >This implements xy scatter plots (like <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>), but the color and size of the symbols may be taken from a column. </p>
+<div class="textblock"><p >This implements xy scatter plots (like <a class="el" href="class_j_k_q_t_p_x_y_scatter_graph.html" title="This implements xy scatter plots. This also alows to draw symbols at the data points.">JKQTPXYScatterGraph</a>), but the color and size of the symbols may be taken from a column. </p>
 <p >set the properties sizeColumn and/or colorColumn to change the size and/or color of the symbols according to the values in the column.</p>
 <div class="image">
 <img src="paramscatterplot.png" alt=""/>
 <div class="caption">
 Different Styles of Parametrized Scatter/Line Graphs</div></div>
-<dl class="section note"><dt>Note</dt><dd>This classes is meant for cases where you want to change the color/size/... of single symbols, in dependence of data. If you are looking for a simple scatter-plot without data-dependent properties, use <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a> instead, which is faster.</dd>
+<dl class="section note"><dt>Note</dt><dd>This classes is meant for cases where you want to change the color/size/... of single symbols, in dependence of data. If you are looking for a simple scatter-plot without data-dependent properties, use <a class="el" href="class_j_k_q_t_p_x_y_scatter_graph.html" title="This implements xy scatter plots. This also alows to draw symbols at the data points.">JKQTPXYScatterGraph</a> instead, which is faster.</dd>
 <dd>
 For the size, line width and symbol type columns, you can also set a functor, which converts the column value (optionally based also on the x- and y-location of the data point) into the local symbol size, symbol type or line width. Use the functions <a class="el" href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#afa386526215b97b78b3ea8d95eadbfa0" title="defines a functor, which converts a value from the symbolColumn into an actual line width in pt">setLinewidthColumnFunctor()</a>, <a class="el" href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a9fa4e5b9de235e5c6f2b1f32394a8c2a" title="defines a functor, which converts a value from the symbolColumn into an actual symbol type">setSymbolColumnFunctor()</a> and <a class="el" href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a5d3587b835f94cde21a8ff2b2ab6cc48" title="defines a functor, which converts a value from the sizeColumn into an actual symbol size in pt">setSizeColumnFunctor()</a> to set these functors. This feature gives you even more control over the modification of the plot elements. Initially all functors are set to default values, that do not add any additional transformations. <div class="image">
 <img src="JKQTPXYParametrizedScatterGraph_LinewidthFunctor.png" alt=""/>
@@ -1083,7 +1083,7 @@ For the size, line width and symbol type columns, you can also set a functor, wh
 <img src="paramscatterplot_image_star.png" alt=""/>
 <div class="caption">
 JKQTPXYParametrizedScatterGraph with symbols organized in a grid</div></div>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_x_y_parametrized_error_scatter_graph.html" title="This implements xy scatter plots (like JKQTPXYLineGraph), but the color and size of the symbols may b...">JKQTPXYParametrizedErrorScatterGraph</a>, <a class="el" href="_j_k_q_t_plotter_param_scatter.html">Example (JKQTPlotter): Scatter Graph with Parametrized Symbols/Colors</a> , <a class="el" href="_j_k_q_t_plotter_param_scatter_image.html">Example (JKQTPlotter): Draw an Artistic Image with a Parametrized Scatter Graph</a>, <a class="el" href="_j_k_q_t_plotter_parametric_curves.html">Example (JKQTPlotter): Plotting Parametric Curves</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_x_y_parametrized_error_scatter_graph.html" title="This implements xy scatter plots (like JKQTPXYScatterGraph), but the color and size of the symbols ma...">JKQTPXYParametrizedErrorScatterGraph</a>, <a class="el" href="_j_k_q_t_plotter_param_scatter.html">Example (JKQTPlotter): Scatter Graph with Parametrized Symbols/Colors</a> , <a class="el" href="_j_k_q_t_plotter_param_scatter_image.html">Example (JKQTPlotter): Draw an Artistic Image with a Parametrized Scatter Graph</a>, <a class="el" href="_j_k_q_t_plotter_parametric_curves.html">Example (JKQTPlotter): Plotting Parametric Curves</a> </dd></dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a81bf9f542337e97b5c58bd2be63bd010" name="a81bf9f542337e97b5c58bd2be63bd010"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a81bf9f542337e97b5c58bd2be63bd010">&#9670;&nbsp;</a></span>FunctorToSize</h2>
@@ -2777,7 +2777,7 @@ JKQTPXYParametrizedScatterGraph with symbols organized in a grid</div></div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html">JKQTPXYParametrizedScatterGraph</a></li>
-    <li class="footer">Generated on Thu Aug 25 2022 15:49:49 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Aug 26 2022 10:46:18 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>
