@@ -141,14 +141,14 @@ var NAVTREEINDEX =
 "class_j_k_q_t_p_r_g_b_math_image.html#a653aaefe23da1419a958d72cb5166213",
 "class_j_k_q_t_p_vertical_independent_axis.html#a32c2c4ff42864f6a041fc8f7264beb2b",
 "class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a",
-"class_j_k_q_t_plotter.html#a469af1d407505c7d12aed87b6a25ff60",
-"functions_eval_u.html",
-"group__jkqtplotter__diverse.html",
-"group__jkqtpplottersupprt.html#gga53dd9054ccf1f02e17d1867ddab7183fa70b04cd30a7bac3ea8747290388d054a",
-"group__jkqtptools__math__basic.html#ga8af0bbbbb03b6e5cd5b648ac9e97c58b",
-"group__jkqtptools__string.html#ga9f5df9dab56e5d56b48935392a487c0e",
-"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a2348f4052d54419bf52121dd7475636a",
-"struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#ad2ae3cd05a3f3bf9c5a7f84677bebb90"
+"class_j_k_q_t_plotter.html#a4580f4a7ad4096d277b2bbc5378ed9bd",
+"functions_eval_p.html",
+"group__jkqtplotter__basegraphserrors.html#ggacb8bad75e7e449f074dbabcf1b80dd42a929fbfbfee3979e3de42293e2793f9f0",
+"group__jkqtpplottersupprt.html#gga4ee195adbf937147b06aedf1217d3f83a0a301d05aa6e97312280cf5d2af2ae42",
+"group__jkqtptools__math__basic.html#ga59d62917317a272d744613fe5294677d",
+"group__jkqtptools__string.html#ga8a9414d9c42cd1fd602691c30bab5abd",
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a14bf777a8f9ec7dc71e6610523237cb9",
+"struct_j_k_q_t_plotter_1_1_mouse_drag_action.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

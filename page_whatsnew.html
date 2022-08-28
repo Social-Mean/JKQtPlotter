@@ -189,6 +189,10 @@ NEW: added <a class="el" href="class_j_k_q_t_base_plotter.html#a6929ec72f61b86de
 NEW: added option to not display the preview dialog to <a class="el" href="class_j_k_q_t_base_plotter.html#adbf51ccada49c8796ad07eaa88f4c9da" title="copy the current plot as a pixel+svg image to the clipboard">JKQTBasePlotter::copyPixelImage()</a> and <a class="el" href="class_j_k_q_t_plotter.html#ae7d54ad25f1a2200458b06a6a3cc8067" title="copy the current plot as a pixel+svg image to the clipboard">JKQTPlotter::copyPixelImage()</a> </li>
 <li>
 NEW: added simple scatter plot <a class="el" href="class_j_k_q_t_p_x_y_scatter_graph.html" title="This implements xy scatter plots. This also alows to draw symbols at the data points.">JKQTPXYScatterGraph</a> </li>
+<li>
+NEW: made resize-timer status accessible from outside via <a class="el" href="class_j_k_q_t_plotter.html#a8ee41c69fe213a9f2e254f60b18f4153" title="returns true, if the JKQTPlotter::resizeTimer is currently running and the widget is waiting for the ...">JKQTPlotter::isResizeTimerRunning()</a>  </li>
+<li>
+NEW: made it's delay a global static variable that can be set and red with <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">JKQTPlotter::setGlobalResizeDelay()</a> and <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS.">JKQTPlotter::getGlobalResizeDelay()</a> </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -573,7 +577,7 @@ v2015.10: Download</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 26 2022 20:46:11 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Aug 28 2022 20:51:14 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

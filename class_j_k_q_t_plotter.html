@@ -122,9 +122,11 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_plotter.html',''); initR
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-slots">Protected Slots</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="class_j_k_q_t_plotter-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">JKQTPlotter Class Reference<div class="ingroups"><a class="el" href="group__jkqtplotter.html">JKQTPlotter: Qt based Scientific Plotter Class</a> &raquo; <a class="el" href="group__jkqtpplotterclasses.html">Plotter Class &amp; Plotter Widget</a></div></div></div>
 </div><!--header-->
@@ -615,6 +617,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5ad4ac89c2e91404bde3d806e1cfcce7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a5ad4ac89c2e91404bde3d806e1cfcce7">isPlotUpdateEnabled</a> () const</td></tr>
 <tr class="memdesc:a5ad4ac89c2e91404bde3d806e1cfcce7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns, whether automatic redrawing the plot is currently activated (e.g. you can deactivate this with <a class="el" href="class_j_k_q_t_plotter.html#a89dc002781638d80fd69fe07ab9c60f1" title="sets whether automatic redrawing the plot is currently activated (e.g. you can sett his to false whil...">setPlotUpdateEnabled()</a> while performing major updates on the plot)  <a href="class_j_k_q_t_plotter.html#a5ad4ac89c2e91404bde3d806e1cfcce7">More...</a><br /></td></tr>
 <tr class="separator:a5ad4ac89c2e91404bde3d806e1cfcce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ee41c69fe213a9f2e254f60b18f4153"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a8ee41c69fe213a9f2e254f60b18f4153">isResizeTimerRunning</a> () const</td></tr>
+<tr class="memdesc:a8ee41c69fe213a9f2e254f60b18f4153"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <code>true</code>, if the <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">JKQTPlotter::resizeTimer</a> is currently running and the widget is waiting for the resize-event to finish  <a href="class_j_k_q_t_plotter.html#a8ee41c69fe213a9f2e254f60b18f4153">More...</a><br /></td></tr>
+<tr class="separator:a8ee41c69fe213a9f2e254f60b18f4153"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31852a143d062cda31d5b9adbc8b5004"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a31852a143d062cda31d5b9adbc8b5004">isToolbarAlwaysOn</a> () const</td></tr>
 <tr class="memdesc:a31852a143d062cda31d5b9adbc8b5004"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether the toolbar is always visible or only when the mouse moves to the upper left area  <a href="class_j_k_q_t_plotter.html#a31852a143d062cda31d5b9adbc8b5004">More...</a><br /></td></tr>
 <tr class="separator:a31852a143d062cda31d5b9adbc8b5004"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -710,6 +715,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abf90e312634ccbb66ed746bc9047edc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#abf90e312634ccbb66ed746bc9047edc0">useInternalDatastore</a> ()</td></tr>
 <tr class="memdesc:abf90e312634ccbb66ed746bc9047edc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">tells the plotter object to use an internal datastore. A new internal datastore object is generated only if the current datastore is not internal.  <a href="class_j_k_q_t_plotter.html#abf90e312634ccbb66ed746bc9047edc0">More...</a><br /></td></tr>
 <tr class="separator:abf90e312634ccbb66ed746bc9047edc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a2f904115d5d2e52684b14911184e7c50"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50">getGlobalResizeDelay</a> ()</td></tr>
+<tr class="memdesc:a2f904115d5d2e52684b14911184e7c50"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the currently set global resize delay in milliseconds <em>delayMS</em>.  <a href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50">More...</a><br /></td></tr>
+<tr class="separator:a2f904115d5d2e52684b14911184e7c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe85c966963453016b657a4b450714b7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7">setGlobalResizeDelay</a> (int delayMS)</td></tr>
+<tr class="memdesc:afe85c966963453016b657a4b450714b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the global resize delay in milliseconds <em>delayMS</em>. After calling this function all plots will use the new delay  <a href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7">More...</a><br /></td></tr>
+<tr class="separator:afe85c966963453016b657a4b450714b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-slots" name="pro-slots"></a>
 Protected Slots</h2></td></tr>
@@ -949,6 +963,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ad4477bc4320145683325a32df0999baf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_vanish_q_tool_bar.html">JKVanishQToolBar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#ad4477bc4320145683325a32df0999baf">toolbar</a></td></tr>
 <tr class="memdesc:ad4477bc4320145683325a32df0999baf"><td class="mdescLeft">&#160;</td><td class="mdescRight">toolbar class used for user input  <a href="class_j_k_q_t_plotter.html#ad4477bc4320145683325a32df0999baf">More...</a><br /></td></tr>
 <tr class="separator:ad4477bc4320145683325a32df0999baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a8eb6cba62d97438ee61df12e8c420d53"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a8eb6cba62d97438ee61df12e8c420d53">jkqtp_RESIZE_DELAY</a></td></tr>
+<tr class="memdesc:a8eb6cba62d97438ee61df12e8c420d53"><td class="mdescLeft">&#160;</td><td class="mdescRight">delay for resizing in milliseconds  <a href="class_j_k_q_t_plotter.html#a8eb6cba62d97438ee61df12e8c420d53">More...</a><br /></td></tr>
+<tr class="separator:a8eb6cba62d97438ee61df12e8c420d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >plotter widget for scientific plots (uses <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a> to do the actual drawing) </p>
@@ -986,11 +1006,11 @@ Basic Usage of JKQTPlotter</h1>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_graph_html_a48809679e6f1ba587132608b8dfb903d"><div class="ttname"><a href="class_j_k_q_t_p_x_y_graph.html#a48809679e6f1ba587132608b8dfb903d">JKQTPXYGraph::setXColumn</a></div><div class="ttdeci">void setXColumn(int __value)</div><div class="ttdoc">the column that contains the x-component of the datapoints</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_line_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_x_y_line_graph.html">JKQTPXYLineGraph</a></div><div class="ttdoc">This implements xy line plots. This also alows to draw symbols at the data points.</div><div class="ttdef"><b>Definition:</b> jkqtplines.h:61</div></div>
 <div class="ttc" id="aclass_j_k_q_t_plotter_html"><div class="ttname"><a href="class_j_k_q_t_plotter.html">JKQTPlotter</a></div><div class="ttdoc">plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:441</div></div>
-<div class="ttc" id="aclass_j_k_q_t_plotter_html_a0ed800587c1f3f5ab36dd5422c101e28"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28">JKQTPlotter::zoomToFit</a></div><div class="ttdeci">void zoomToFit(bool zoomX=true, bool zoomY=true, bool includeX0=false, bool includeY0=false, double scaleX=1.05, double scaleY=1.05)</div><div class="ttdoc">this method zooms the graph so that all plotted datapoints are visible.</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:1066</div></div>
-<div class="ttc" id="aclass_j_k_q_t_plotter_html_a63a54c5342d664c35ffb3d532ba26b99"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a63a54c5342d664c35ffb3d532ba26b99">JKQTPlotter::addGraph</a></div><div class="ttdeci">size_t addGraph(JKQTPPlotElement *gr)</div><div class="ttdoc">add a new graph, returns it's position in the graphs list</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:803</div></div>
+<div class="ttc" id="aclass_j_k_q_t_plotter_html_a0ed800587c1f3f5ab36dd5422c101e28"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28">JKQTPlotter::zoomToFit</a></div><div class="ttdeci">void zoomToFit(bool zoomX=true, bool zoomY=true, bool includeX0=false, bool includeY0=false, double scaleX=1.05, double scaleY=1.05)</div><div class="ttdoc">this method zooms the graph so that all plotted datapoints are visible.</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:1079</div></div>
+<div class="ttc" id="aclass_j_k_q_t_plotter_html_a63a54c5342d664c35ffb3d532ba26b99"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a63a54c5342d664c35ffb3d532ba26b99">JKQTPlotter::addGraph</a></div><div class="ttdeci">size_t addGraph(JKQTPPlotElement *gr)</div><div class="ttdoc">add a new graph, returns it's position in the graphs list</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:816</div></div>
 <div class="ttc" id="aclass_j_k_q_t_plotter_html_a8e0c883816f540a177a6e85999efb5d6"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a8e0c883816f540a177a6e85999efb5d6">JKQTPlotter::JKQTPlotter</a></div><div class="ttdeci">JKQTPlotter(bool datastore_internal, QWidget *parent=nullptr, JKQTPDatastore *datast=nullptr)</div><div class="ttdoc">class constructor</div></div>
-<div class="ttc" id="aclass_j_k_q_t_plotter_html_ab29362d74e9e1a24c4add51815f0ec61"><div class="ttname"><a href="class_j_k_q_t_plotter.html#ab29362d74e9e1a24c4add51815f0ec61">JKQTPlotter::setXY</a></div><div class="ttdeci">void setXY(double xminn, double xmaxx, double yminn, double ymaxx)</div><div class="ttdoc">sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:1263</div></div>
-<div class="ttc" id="aclass_j_k_q_t_plotter_html_ae31c276a93cbf7aa8f9c153327aa5b74"><div class="ttname"><a href="class_j_k_q_t_plotter.html#ae31c276a93cbf7aa8f9c153327aa5b74">JKQTPlotter::getDatastore</a></div><div class="ttdeci">JKQTPDatastore * getDatastore()</div><div class="ttdoc">returns a pointer to the datastore used by this object</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:660</div></div>
+<div class="ttc" id="aclass_j_k_q_t_plotter_html_ab29362d74e9e1a24c4add51815f0ec61"><div class="ttname"><a href="class_j_k_q_t_plotter.html#ab29362d74e9e1a24c4add51815f0ec61">JKQTPlotter::setXY</a></div><div class="ttdeci">void setXY(double xminn, double xmaxx, double yminn, double ymaxx)</div><div class="ttdoc">sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:1276</div></div>
+<div class="ttc" id="aclass_j_k_q_t_plotter_html_ae31c276a93cbf7aa8f9c153327aa5b74"><div class="ttname"><a href="class_j_k_q_t_plotter.html#ae31c276a93cbf7aa8f9c153327aa5b74">JKQTPlotter::getDatastore</a></div><div class="ttdeci">JKQTPDatastore * getDatastore()</div><div class="ttdoc">returns a pointer to the datastore used by this object</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:673</div></div>
 </div><!-- fragment --><p >The result should look something like this:</p>
 <div class="image">
 <img src="simpletest.png" alt=""/>
@@ -1106,7 +1126,7 @@ switch the visibility of the different graphs in the plot </li>
 <div class="line">                                                                     QMessageBox::Ok); });</div>
 <div class="line">    labMouseAction-&gt;setText(QString(<span class="stringliteral">&quot;contextMenuOpened(x=%1, y=%2)&quot;</span>).arg(x).arg(y));</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_j_k_q_t_plotter_html_a469af1d407505c7d12aed87b6a25ff60"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a469af1d407505c7d12aed87b6a25ff60">JKQTPlotter::contextMenu</a></div><div class="ttdeci">QMenu * contextMenu</div><div class="ttdoc">the context menu object used by this JKQTPlotter</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:1659</div></div>
+<div class="ttc" id="aclass_j_k_q_t_plotter_html_a469af1d407505c7d12aed87b6a25ff60"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a469af1d407505c7d12aed87b6a25ff60">JKQTPlotter::contextMenu</a></div><div class="ttdeci">QMenu * contextMenu</div><div class="ttdoc">the context menu object used by this JKQTPlotter</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:1672</div></div>
 <div class="ttc" id="aclass_j_k_q_t_plotter_html_a6a6347e94b3e03229692f947105b049b"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a6a6347e94b3e03229692f947105b049b">JKQTPlotter::contextMenuOpened</a></div><div class="ttdeci">void contextMenuOpened(double x, double y, QMenu *contextMenu)</div><div class="ttdoc">emitted whenever a context menu is opened. You can modify the menu via the parameter contextMenu!</div></div>
 </div><!-- fragment --></li>
 </ul>
@@ -2785,6 +2805,34 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 </div>
 </div>
+<a id="a2f904115d5d2e52684b14911184e7c50" name="a2f904115d5d2e52684b14911184e7c50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f904115d5d2e52684b14911184e7c50">&#9670;&nbsp;</a></span>getGlobalResizeDelay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int JKQTPlotter::getGlobalResizeDelay </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the currently set global resize delay in milliseconds <em>delayMS</em>. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a8eb6cba62d97438ee61df12e8c420d53" title="delay for resizing in milliseconds">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS.">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
+
+</div>
+</div>
 <a id="a999112139473ca7b2ac30a3dafbbca9a" name="a999112139473ca7b2ac30a3dafbbca9a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a999112139473ca7b2ac30a3dafbbca9a">&#9670;&nbsp;</a></span>getGraph()</h2>
 
@@ -3734,6 +3782,26 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 <p>returns, whether automatic redrawing the plot is currently activated (e.g. you can deactivate this with <a class="el" href="class_j_k_q_t_plotter.html#a89dc002781638d80fd69fe07ab9c60f1" title="sets whether automatic redrawing the plot is currently activated (e.g. you can sett his to false whil...">setPlotUpdateEnabled()</a> while performing major updates on the plot) </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a89dc002781638d80fd69fe07ab9c60f1" title="sets whether automatic redrawing the plot is currently activated (e.g. you can sett his to false whil...">setPlotUpdateEnabled()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a8ee41c69fe213a9f2e254f60b18f4153" name="a8ee41c69fe213a9f2e254f60b18f4153"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ee41c69fe213a9f2e254f60b18f4153">&#9670;&nbsp;</a></span>isResizeTimerRunning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool JKQTPlotter::isResizeTimerRunning </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns <code>true</code>, if the <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">JKQTPlotter::resizeTimer</a> is currently running and the widget is waiting for the resize-event to finish </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a8eb6cba62d97438ee61df12e8c420d53" title="delay for resizing in milliseconds">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS.">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
 
 </div>
 </div>
@@ -5812,6 +5880,35 @@ Shown Toolbar</div></div>
 </div><div class="memdoc">
 
 <p>specifies whether this class emits signals, like <a class="el" href="class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082" title="signal: emitted whenever the user selects a new x-y zoom range (by mouse)">zoomChangedLocally()</a> or beforePlotScalingRecaluclate() </p>
+
+</div>
+</div>
+<a id="afe85c966963453016b657a4b450714b7" name="afe85c966963453016b657a4b450714b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe85c966963453016b657a4b450714b7">&#9670;&nbsp;</a></span>setGlobalResizeDelay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void JKQTPlotter::setGlobalResizeDelay </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>delayMS</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets the global resize delay in milliseconds <em>delayMS</em>. After calling this function all plots will use the new delay </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a8eb6cba62d97438ee61df12e8c420d53" title="delay for resizing in milliseconds">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS.">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
 
 </div>
 </div>
@@ -8305,10 +8402,10 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
   <table class="params">
     <tr><td class="paramname">zoomX</td><td>if set <code>true</code> (default) zooms the x axis </td></tr>
     <tr><td class="paramname">zoomY</td><td>if set <code>true</code> (default) zooms the y axis </td></tr>
-    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ x=0 $" src="form_230.png" width="41" height="11"/> is visible in the plot (only for non-logx plots, default: false) </td></tr>
-    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ y=0 $" src="form_231.png" width="39" height="15"/> is visible in the plot (only for non-logy plots, default: false) </td></tr>
-    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_232.png" width="81" height="13"/> where <img class="formulaInl" alt="$ \Delta x $" src="form_233.png" width="23" height="13"/> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
-    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_234.png" width="88" height="15"/> where <img class="formulaInl" alt="$ \Delta &lt; $" src="form_235.png" width="29" height="15"/> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ x=0 $" src="form_241.png" width="41" height="11"/> is visible in the plot (only for non-logx plots, default: false) </td></tr>
+    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ y=0 $" src="form_242.png" width="39" height="15"/> is visible in the plot (only for non-logy plots, default: false) </td></tr>
+    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_243.png" width="81" height="13"/> where <img class="formulaInl" alt="$ \Delta x $" src="form_244.png" width="23" height="13"/> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_245.png" width="88" height="15"/> where <img class="formulaInl" alt="$ \Delta &lt; $" src="form_246.png" width="29" height="15"/> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
   </table>
   </dd>
 </dl>
@@ -8632,6 +8729,31 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 </div><div class="memdoc">
 
 <p>this stores the currently displayed plot </p>
+
+</div>
+</div>
+<a id="a8eb6cba62d97438ee61df12e8c420d53" name="a8eb6cba62d97438ee61df12e8c420d53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eb6cba62d97438ee61df12e8c420d53">&#9670;&nbsp;</a></span>jkqtp_RESIZE_DELAY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int JKQTPlotter::jkqtp_RESIZE_DELAY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>delay for resizing in milliseconds </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a8eb6cba62d97438ee61df12e8c420d53" title="delay for resizing in milliseconds">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS.">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
 
 </div>
 </div>
@@ -9263,7 +9385,8 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 <div class="image">
 <img src="jkqtplotter_fastresizing.gif" alt=""/>
 </div>
- 
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a8eb6cba62d97438ee61df12e8c420d53" title="delay for resizing in milliseconds">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS.">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
+
 </div>
 </div>
 <a id="ad4477bc4320145683325a32df0999baf" name="ad4477bc4320145683325a32df0999baf"></a>
@@ -9300,7 +9423,7 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_plotter.html">JKQTPlotter</a></li>
-    <li class="footer">Generated on Fri Aug 26 2022 20:46:12 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Aug 28 2022 20:51:15 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

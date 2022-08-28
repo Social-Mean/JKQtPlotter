@@ -126,7 +126,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_p_x_y_function_line_grap
 </div><!--header-->
 <div class="contents">
 
-<p>This implements line plots where the data is taken from a user supplied function <img class="formulaInl" alt="$ [x,y]=f(t) $" src="form_207.png" width="83" height="18"/> The function is evaluated on a user-specified range <img class="formulaInl" alt="$ t \in \left[t_\text{min}, t_\text{max}\right] $" src="form_208.png" width="101" height="18"/>.  
+<p>This implements line plots where the data is taken from a user supplied function <img class="formulaInl" alt="$ [x,y]=f(t) $" src="form_206.png" width="83" height="18"/> The function is evaluated on a user-specified range <img class="formulaInl" alt="$ t \in \left[t_\text{min}, t_\text{max}\right] $" src="form_207.png" width="101" height="18"/>.  
  <a href="class_j_k_q_t_p_x_y_function_line_graph.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="jkqtpevaluatedparametriccurve_8h_source.html">jkqtpevaluatedparametriccurve.h</a>&gt;</code></p>
@@ -680,11 +680,11 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:aad873a47a34b43eeb865c9daddd6d43a inherit properties_class_j_k_q_t_p_graph_line_style_mixin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >This implements line plots where the data is taken from a user supplied function <img class="formulaInl" alt="$ [x,y]=f(t) $" src="form_207.png" width="83" height="18"/> The function is evaluated on a user-specified range <img class="formulaInl" alt="$ t \in \left[t_\text{min}, t_\text{max}\right] $" src="form_208.png" width="101" height="18"/>. </p>
+<div class="textblock"><p >This implements line plots where the data is taken from a user supplied function <img class="formulaInl" alt="$ [x,y]=f(t) $" src="form_206.png" width="83" height="18"/> The function is evaluated on a user-specified range <img class="formulaInl" alt="$ t \in \left[t_\text{min}, t_\text{max}\right] $" src="form_207.png" width="101" height="18"/>. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_x_y_function_line_graph_base.html" title="Base class for line plots where the data is taken from a user supplied function  The function is eval...">JKQTPXYFunctionLineGraphBase</a> for details on the used plotting algorithm</dd></dl>
 <p>The following image shows a Lissajou's fugure drawn with this function</p>
 <div class="image">
-<img src="plot_evalcurve.png" alt=""/>
+<img src="JKQTPXYFunctionLineGraph.png" alt=""/>
 </div>
 <p >The source code for this example is: </p><div class="fragment"><div class="line"><a class="code hl_class" href="class_j_k_q_t_p_x_y_function_line_graph.html">JKQTPXYFunctionLineGraph</a>* func1=<span class="keyword">new</span> <a class="code hl_function" href="class_j_k_q_t_p_x_y_function_line_graph.html#ae435027b1307560b7a485bc6b654f2bb">JKQTPXYFunctionLineGraph</a>(plot);</div>
 <div class="line"><span class="comment">// here we define the C++-functor for [x,y]=f(t)</span></div>
@@ -1191,9 +1191,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>this function returns a functor that is used to generate the plot data in coordinate space, based on a range of the dependent variable in coordinate space. In addition it also contains the value range over which to evaluate the functor <a class="el" href="struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#a550f8fe67a5ab83e9558a630e4de1760" title="calculates the points  on the function graph, in dependence on a dependent parameter variable,...">PlotFunctorSpec::func</a> </p>
 <p >This function has to be overridden by each class. Depending on the way that class defines the actual plot function, this function has to compose its return type in different ways. The three most common ways are:</p><ul>
-<li>plot a function <img class="formulaInl" alt="$ f(x) $" src="form_85.png" width="31" height="18"/> i.e. the plot points will be <img class="formulaInl" alt="$ [x, f(x)] $" src="form_189.png" width="55" height="18"/> and the value rage will be the x-axis range. This is implemented by e.g. <a class="el" href="class_j_k_q_t_p_x_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPXFunctionLineGraph</a>.</li>
-<li>plot a function <img class="formulaInl" alt="$ f(y) $" src="form_190.png" width="29" height="18"/> i.e. the plot points will be <img class="formulaInl" alt="$ [f(y), y] $" src="form_191.png" width="54" height="18"/> and the value rage will be the y-axis range. This is implemented by e.g. <a class="el" href="class_j_k_q_t_p_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPYFunctionLineGraph</a>.</li>
-<li>plot a function <img class="formulaInl" alt="$ [x,y]=\vec{f}(t) $" src="form_187.png" width="83" height="21"/> i.e. the plot points will be <img class="formulaInl" alt="$ \vec{f}(t) $" src="form_192.png" width="26" height="21"/> and the value rage will be a user-defined range for <img class="formulaInl" alt="$ gt $" src="form_193.png" width="16" height="15"/>. This is implemented by e.g. <a class="el" href="class_j_k_q_t_p_x_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function  The function is eva...">JKQTPXYFunctionLineGraph</a>.</li>
+<li>plot a function <img class="formulaInl" alt="$ f(x) $" src="form_85.png" width="31" height="18"/> i.e. the plot points will be <img class="formulaInl" alt="$ [x, f(x)] $" src="form_197.png" width="55" height="18"/> and the value rage will be the x-axis range. This is implemented by e.g. <a class="el" href="class_j_k_q_t_p_x_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPXFunctionLineGraph</a>.</li>
+<li>plot a function <img class="formulaInl" alt="$ f(y) $" src="form_198.png" width="29" height="18"/> i.e. the plot points will be <img class="formulaInl" alt="$ [f(y), y] $" src="form_199.png" width="54" height="18"/> and the value rage will be the y-axis range. This is implemented by e.g. <a class="el" href="class_j_k_q_t_p_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPYFunctionLineGraph</a>.</li>
+<li>plot a function <img class="formulaInl" alt="$ [x,y]=\vec{f}(t) $" src="form_195.png" width="83" height="21"/> i.e. the plot points will be <img class="formulaInl" alt="$ \vec{f}(t) $" src="form_200.png" width="26" height="21"/> and the value rage will be a user-defined range for <img class="formulaInl" alt="$ gt $" src="form_201.png" width="16" height="15"/>. This is implemented by e.g. <a class="el" href="class_j_k_q_t_p_x_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function  The function is eva...">JKQTPXYFunctionLineGraph</a>.</li>
 </ul>
 
 <p>Implements <a class="el" href="class_j_k_q_t_p_evaluated_function_graph_base.html#a4e3d06129b0c4d45545d0733e44333dc">JKQTPEvaluatedFunctionGraphBase</a>.</p>
@@ -1402,7 +1402,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_x_y_function_line_graph.html">JKQTPXYFunctionLineGraph</a></li>
-    <li class="footer">Generated on Fri Aug 26 2022 20:46:12 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Aug 28 2022 20:51:15 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX28 =
 {
+"group__jkqtptools__string.html#ga8a9414d9c42cd1fd602691c30bab5abd":[10,0,8,27],
+"group__jkqtptools__string.html#ga8e4560d4ee35a4384a9de5281192e8e9":[10,0,8,4],
+"group__jkqtptools__string.html#ga9d724f0030c1adb4d464025d93beaba0":[10,0,8,13],
+"group__jkqtptools__string.html#ga9dc34e9f35fcaf8127199d3ab109f6cb":[10,0,8,38],
 "group__jkqtptools__string.html#ga9f5df9dab56e5d56b48935392a487c0e":[10,0,8,9],
 "group__jkqtptools__string.html#gaa19dd4b00f96a9d82d6b06021c041f16":[10,0,8,6],
 "group__jkqtptools__string.html#gaaa2bd2782cba39757c4451886a0f6808":[10,0,8,31],
@@ -19,8 +23,8 @@ var NAVTREEINDEX28 =
 "group__jkqtptools__string.html#gaf7a35039cf08c3c3bb754b580d979e6c":[10,0,8,30],
 "group__jkqtptools__string.html#gaf98c03133ebf9e2619a23018568272e6":[10,0,8,41],
 "hierarchy.html":[12,2],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "index.html#jkqtp_main_features":[0,0],
 "index.html#jkqtplottertic":[0,1],
 "licensepage.html":[5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX28 =
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a0d50b786f763615e3c767ae390de538f":[10,3,1,2,39,31],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a0d827b2792915184c7750daceb0ae6d8":[10,3,1,2,39,30],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a10709e0d5e6cdc11150fa7eb5e369570":[10,3,1,2,39,6],
-"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a13ceb875df76dc62461ca4a9cb8ab982":[10,3,1,2,39,3],
-"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a14bf777a8f9ec7dc71e6610523237cb9":[10,3,1,2,39,34],
-"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a202d29b1e836098f9e04d62bc39914a4":[10,3,1,2,39,17],
-"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a209eadd187afe4890f0ca9cf1c1afb1c":[10,3,1,2,39,7],
-"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a22e465a0bb5c08091436229058744979":[10,3,1,2,39,19]
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a13ceb875df76dc62461ca4a9cb8ab982":[10,3,1,2,39,3]
 };
