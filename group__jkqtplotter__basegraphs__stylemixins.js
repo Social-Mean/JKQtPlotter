@@ -249,6 +249,8 @@ var group__jkqtplotter__basegraphs__stylemixins =
       [ "getHighlightingLineColor", "class_j_k_q_t_p_graph_line_style_mixin.html#afff061a5d3e501088917cd4c5dac945a", null ],
       [ "getHighlightingLinePen", "class_j_k_q_t_p_graph_line_style_mixin.html#a39afeafa224de4a85f5eb45395ec80be", null ],
       [ "getHighlightingLinePenForRects", "class_j_k_q_t_p_graph_line_style_mixin.html#a30925cb1f51d8b277f81990cbff1de80", null ],
+      [ "getKeyLinePen", "class_j_k_q_t_p_graph_line_style_mixin.html#a4db867e6547052809aa5151e7345d6b6", null ],
+      [ "getKeyLineWidthPx", "class_j_k_q_t_p_graph_line_style_mixin.html#ad340472b067bcb8e0d86f278f8d40ce5", null ],
       [ "getLineBrush", "class_j_k_q_t_p_graph_line_style_mixin.html#a9ab5ba9a3a2cfa12c2210fdb32f3195a", null ],
       [ "getLineCapStyle", "class_j_k_q_t_p_graph_line_style_mixin.html#a8cf7c41dbad5829e9e3623e0312ed679", null ],
       [ "getLineColor", "class_j_k_q_t_p_graph_line_style_mixin.html#aed33c43f16960c215d97bf27492ca75d", null ],
@@ -280,6 +282,8 @@ var group__jkqtplotter__basegraphs__stylemixins =
     [ "JKQTPGraphSymbolStyleMixin", "class_j_k_q_t_p_graph_symbol_style_mixin.html", [
       [ "JKQTPGraphSymbolStyleMixin", "class_j_k_q_t_p_graph_symbol_style_mixin.html#aa97870eebf948a77911ba0ddc474a4fa", null ],
       [ "~JKQTPGraphSymbolStyleMixin", "class_j_k_q_t_p_graph_symbol_style_mixin.html#abc85bada49bfcc686f59803a93c7ba55", null ],
+      [ "getKeySymbolLineWidthPx", "class_j_k_q_t_p_graph_symbol_style_mixin.html#a60f824501ebd5f3215529185ac2d8814", null ],
+      [ "getKeySymbolSizePx", "class_j_k_q_t_p_graph_symbol_style_mixin.html#a573860f003e10d6b621c226393ce80ce", null ],
       [ "getSymbolBrush", "class_j_k_q_t_p_graph_symbol_style_mixin.html#af838e0c20dccb305901490d699332725", null ],
       [ "getSymbolColor", "class_j_k_q_t_p_graph_symbol_style_mixin.html#a74e86d12613ffff0d94979b75da2aeaa", null ],
       [ "getSymbolFillColor", "class_j_k_q_t_p_graph_symbol_style_mixin.html#a519a9e3248aa0182dcdd4389e1d742d6", null ],

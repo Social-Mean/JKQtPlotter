@@ -2,6 +2,8 @@ var class_j_k_q_t_p_graph_symbol_style_mixin =
 [
     [ "JKQTPGraphSymbolStyleMixin", "class_j_k_q_t_p_graph_symbol_style_mixin.html#aa97870eebf948a77911ba0ddc474a4fa", null ],
     [ "~JKQTPGraphSymbolStyleMixin", "class_j_k_q_t_p_graph_symbol_style_mixin.html#abc85bada49bfcc686f59803a93c7ba55", null ],
+    [ "getKeySymbolLineWidthPx", "class_j_k_q_t_p_graph_symbol_style_mixin.html#a60f824501ebd5f3215529185ac2d8814", null ],
+    [ "getKeySymbolSizePx", "class_j_k_q_t_p_graph_symbol_style_mixin.html#a573860f003e10d6b621c226393ce80ce", null ],
     [ "getSymbolBrush", "class_j_k_q_t_p_graph_symbol_style_mixin.html#af838e0c20dccb305901490d699332725", null ],
     [ "getSymbolColor", "class_j_k_q_t_p_graph_symbol_style_mixin.html#a74e86d12613ffff0d94979b75da2aeaa", null ],
     [ "getSymbolFillColor", "class_j_k_q_t_p_graph_symbol_style_mixin.html#a519a9e3248aa0182dcdd4389e1d742d6", null ],

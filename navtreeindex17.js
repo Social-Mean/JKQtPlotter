@@ -1,5 +1,9 @@
 var NAVTREEINDEX17 =
 {
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5db2729e0ed862123eca2120bbd35921a6bd18daab955ad865223db0d7e997470":[10,4,2,1,1,1,10,0,0],
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5db2729e0ed862123eca2120bbd35921a943fc9488854eeccf595b08dee7def0d":[10,4,2,1,1,1,10,0,4],
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5db2729e0ed862123eca2120bbd35921afe7f2ecd926e65ac0f6a82f1174056c2":[10,4,2,1,1,1,10,0,3],
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5de8c2f7a29d7c50fdacf4c3eac1e6b7":[10,4,2,1,1,1,10,10],
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#a62e7b82999120523220ee1205b3f2a9c":[10,4,2,1,1,1,10,18],
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#a647090bfaf95a6537f9d8ff21e05218a":[10,4,2,1,1,1,10,58],
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#a65e0a158916bd047b5eb40ca106b38c1":[10,4,2,1,1,1,10,40],
@@ -245,9 +249,5 @@ var NAVTREEINDEX17 =
 "class_j_k_q_t_p_label_position_combo_box.html#a7928dda403d31627dec0b7599352faa6":[10,4,4,0,6,0],
 "class_j_k_q_t_p_label_position_combo_box.html#a8ceef7a97e6171659f250d6f1462b3ac":[10,4,4,0,6,1],
 "class_j_k_q_t_p_label_position_combo_box.html#abf87bba88ab134f783350cd61c8987c3":[10,4,4,0,6,2],
-"class_j_k_q_t_p_line_plot_style_combo_box.html":[10,4,4,0,7],
-"class_j_k_q_t_p_line_plot_style_combo_box.html#a0eaca6c7954d512b6eddb5df69ee465b":[10,4,4,0,7,7],
-"class_j_k_q_t_p_line_plot_style_combo_box.html#a43284f067c76ed7170e33769fd4e68c1":[10,4,4,0,7,2],
-"class_j_k_q_t_p_line_plot_style_combo_box.html#a4a5956efb4f050caf6bfd551cbd82a8c":[10,4,4,0,7,0],
-"class_j_k_q_t_p_line_plot_style_combo_box.html#a4c916266e5e1b8ee198aede2324dee4b":[10,4,4,0,7,4]
+"class_j_k_q_t_p_line_plot_style_combo_box.html":[10,4,4,0,7]
 };

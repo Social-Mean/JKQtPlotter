@@ -5,6 +5,8 @@ var class_j_k_q_t_p_graph_line_style_mixin =
     [ "getHighlightingLineColor", "class_j_k_q_t_p_graph_line_style_mixin.html#afff061a5d3e501088917cd4c5dac945a", null ],
     [ "getHighlightingLinePen", "class_j_k_q_t_p_graph_line_style_mixin.html#a39afeafa224de4a85f5eb45395ec80be", null ],
     [ "getHighlightingLinePenForRects", "class_j_k_q_t_p_graph_line_style_mixin.html#a30925cb1f51d8b277f81990cbff1de80", null ],
+    [ "getKeyLinePen", "class_j_k_q_t_p_graph_line_style_mixin.html#a4db867e6547052809aa5151e7345d6b6", null ],
+    [ "getKeyLineWidthPx", "class_j_k_q_t_p_graph_line_style_mixin.html#ad340472b067bcb8e0d86f278f8d40ce5", null ],
     [ "getLineBrush", "class_j_k_q_t_p_graph_line_style_mixin.html#a9ab5ba9a3a2cfa12c2210fdb32f3195a", null ],
     [ "getLineCapStyle", "class_j_k_q_t_p_graph_line_style_mixin.html#a8cf7c41dbad5829e9e3623e0312ed679", null ],
     [ "getLineColor", "class_j_k_q_t_p_graph_line_style_mixin.html#aed33c43f16960c215d97bf27492ca75d", null ],

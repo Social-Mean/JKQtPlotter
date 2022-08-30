@@ -767,15 +767,12 @@ template&lt;class T &gt; </div>
 <p>determine the size of the node, overwrite this function in derived classes </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir"></td><td class="paramname">painter</td><td>painter to use for determining the size </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">currentEv</td><td>current environment object </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">width</td><td>width of the block/node </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">baselineHeight</td><td>distance from the bottom of the block/node-box to the baseline </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">overallHeight</td><td>overall height (bottom to top) of the node, the ascent is <code>overallHeight-baselineHeight</code> </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">strikeoutPos</td><td>position of the strikeout-line </td></tr>
+    <tr><td class="paramname">painter</td><td>painter to use for determining the size </td></tr>
+    <tr><td class="paramname">currentEv</td><td>current environment object</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>all important box size parameters packed as <a class="el" href="struct_j_k_q_t_math_text_node_size.html" title="beschreibt die Größe(n) eines Knotens">JKQTMathTextNodeSize</a> </dd></dl>
 
 <p>Implemented in <a class="el" href="class_j_k_q_t_math_text_box_instruction_node.html#aa3c35efa92a20d7a6702d0b1fca908a8">JKQTMathTextBoxInstructionNode</a>, <a class="el" href="class_j_k_q_t_math_text_brace_node.html#a6185356a40c5a1ff663b6d85a2452722">JKQTMathTextBraceNode</a>, <a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a6354f32d964a33dfe8177ed45fe29172">JKQTMathTextDecoratedNode</a>, <a class="el" href="class_j_k_q_t_math_text_frac_node.html#ad898257c20caa83058296cda0e143a89">JKQTMathTextFracNode</a>, <a class="el" href="class_j_k_q_t_math_text_horizontal_list_node.html#a075aa17a1eae325b83f2b37e79bf61ee">JKQTMathTextHorizontalListNode</a>, <a class="el" href="class_j_k_q_t_math_text_simple_instruction_node.html#a13cb0ea4e6c96c292c044ff30ba93df8">JKQTMathTextSimpleInstructionNode</a>, <a class="el" href="class_j_k_q_t_math_text_matrix_node.html#a6b48e3414c7bae46951bf58b22c97793">JKQTMathTextMatrixNode</a>, <a class="el" href="class_j_k_q_t_math_text_modified_text_props_instruction_node.html#a774b77b28f3b31b12dbcffd3e5970a9c">JKQTMathTextModifiedTextPropsInstructionNode</a>, <a class="el" href="class_j_k_q_t_math_text_block_node.html#a3d2c5a7cd455b79cd2965f2a4b8fbc6e">JKQTMathTextBlockNode</a>, <a class="el" href="class_j_k_q_t_math_text_sqrt_node.html#ad4acf038903e095b812779e4100a3612">JKQTMathTextSqrtNode</a>, <a class="el" href="class_j_k_q_t_math_text_subscript_node.html#a782460fe51a78da556730fe921384db9">JKQTMathTextSubscriptNode</a>, <a class="el" href="class_j_k_q_t_math_text_superscript_node.html#a2ddb21624262b796fa13a91cd93f79cd">JKQTMathTextSuperscriptNode</a>, <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a44c6bc64c18336bde28272eebb2d3610">JKQTMathTextSymbolNode</a>, <a class="el" href="class_j_k_q_t_math_text_text_node.html#a0f34cda599298dd1b2482cde309a46bb">JKQTMathTextTextNode</a>, <a class="el" href="class_j_k_q_t_math_text_verbatim_node.html#a73c31cdf8b0875b43bff28b6409930d1">JKQTMathTextVerbatimNode</a>, <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html#a7ac713429bc7aa510c674cd5fd3a1551">JKQTMathTextVerticalListNode</a>, <a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a2157577b66a4115f17ed9dbf8d2366e6">JKQTMathTextWhitespaceNode</a>, <a class="el" href="class_j_k_q_t_math_text_empty_box_node.html#acfa4aaeb472627f4ec7ea228b599a404">JKQTMathTextEmptyBoxNode</a>, <a class="el" href="class_j_k_q_t_math_text_phantom_node.html#a85af2917225fce3c658a09bfbc7fdfb3">JKQTMathTextPhantomNode</a>, and <a class="el" href="class_j_k_q_t_math_text_non_drawing_base_node.html#a31036630c9601172d3df33a75ae7c4fd">JKQTMathTextNonDrawingBaseNode</a>.</p>
 
@@ -1090,7 +1087,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a></li>
-    <li class="footer">Generated on Mon Aug 29 2022 11:32:42 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Tue Aug 30 2022 07:48:31 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

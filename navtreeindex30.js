@@ -1,5 +1,9 @@
 var NAVTREEINDEX30 =
 {
+"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#a360d4f08ec544909faf88a1db1a0b2e5":[10,4,2,1,6,2,2,1],
+"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#ad19ca7a60b6452c0ce532f2cb5d2d062":[10,4,2,1,6,2,2,3],
+"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#adb2121af0bceda0abbab68d6b5f04911":[10,4,2,1,6,2,2,0],
+"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#af24f3414bcd5a87c676e36924d59e3e0":[10,4,2,1,6,2,2,2],
 "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html":[10,4,3,3],
 "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#a01f5e1b7ca04cd58e5b17de31fd65c29":[10,4,3,3,0],
 "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#a0846aa412860f99815e49889dd4149c4":[10,4,3,3,5],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX28 =
 {
+"group__jkqtptools__string.html#ga7940ce286e0a03bcc6c1e419dadfd374":[10,0,8,20],
+"group__jkqtptools__string.html#ga7f2f60e96b3280fcb4523b99cf3e814f":[10,0,8,22],
+"group__jkqtptools__string.html#ga819536d8ee41b8cf9e758d06f19603b9":[10,0,8,39],
+"group__jkqtptools__string.html#ga882c000d1be03b078a47d00eb322d71e":[10,0,8,11],
 "group__jkqtptools__string.html#ga8a9414d9c42cd1fd602691c30bab5abd":[10,0,8,27],
 "group__jkqtptools__string.html#ga8e4560d4ee35a4384a9de5281192e8e9":[10,0,8,4],
 "group__jkqtptools__string.html#ga9d724f0030c1adb4d464025d93beaba0":[10,0,8,13],
@@ -23,8 +27,8 @@ var NAVTREEINDEX28 =
 "group__jkqtptools__string.html#gaf7a35039cf08c3c3bb754b580d979e6c":[10,0,8,30],
 "group__jkqtptools__string.html#gaf98c03133ebf9e2619a23018568272e6":[10,0,8,41],
 "hierarchy.html":[12,2],
-"index.html":[0],
 "index.html":[],
+"index.html":[0],
 "index.html#jkqtp_main_features":[0,0],
 "index.html#jkqtplottertic":[0,1],
 "licensepage.html":[5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX28 =
 "struct_j_k_q_t_math_text_symbol_node_1_1_node_size.html#ac7dca3df55f9b1fdb37edff8c217a43b":[10,3,1,2,38,5],
 "struct_j_k_q_t_math_text_symbol_node_1_1_node_size.html#ad8a1c4983aa42f6d1c9409f58f668f98":[10,3,1,2,38,3],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html":[10,3,1,2,39],
-"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a04d8d0175797f00afc2a93778f94030d":[10,3,1,2,39,29],
-"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a0d50b786f763615e3c767ae390de538f":[10,3,1,2,39,31],
-"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a0d827b2792915184c7750daceb0ae6d8":[10,3,1,2,39,30],
-"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a10709e0d5e6cdc11150fa7eb5e369570":[10,3,1,2,39,6],
-"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a13ceb875df76dc62461ca4a9cb8ab982":[10,3,1,2,39,3]
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a04d8d0175797f00afc2a93778f94030d":[10,3,1,2,39,29]
 };

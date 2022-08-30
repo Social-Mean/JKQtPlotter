@@ -1,5 +1,9 @@
 var NAVTREEINDEX29 =
 {
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a0d50b786f763615e3c767ae390de538f":[10,3,1,2,39,31],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a0d827b2792915184c7750daceb0ae6d8":[10,3,1,2,39,30],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a10709e0d5e6cdc11150fa7eb5e369570":[10,3,1,2,39,6],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a13ceb875df76dc62461ca4a9cb8ab982":[10,3,1,2,39,3],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a14bf777a8f9ec7dc71e6610523237cb9":[10,3,1,2,39,34],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a202d29b1e836098f9e04d62bc39914a4":[10,3,1,2,39,17],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a209eadd187afe4890f0ca9cf1c1afb1c":[10,3,1,2,39,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX29 =
 "struct_j_k_q_t_p_stat5_number_statistics.html#af008b5b9d9bcdadd35c0953e1fbb5163":[10,1,5,4,0,11],
 "struct_j_k_q_t_p_stat5_number_statistics.html#af25ad45a97e7f83af0601ba082aaa41f":[10,1,5,4,0,3],
 "struct_j_k_q_t_p_stat5_number_statistics.html#af41a17eaff104500035613ad38293471":[10,1,5,4,0,1],
-"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html":[10,4,2,1,6,2,2],
-"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#a360d4f08ec544909faf88a1db1a0b2e5":[10,4,2,1,6,2,2,1],
-"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#ad19ca7a60b6452c0ce532f2cb5d2d062":[10,4,2,1,6,2,2,3],
-"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#adb2121af0bceda0abbab68d6b5f04911":[10,4,2,1,6,2,2,0],
-"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#af24f3414bcd5a87c676e36924d59e3e0":[10,4,2,1,6,2,2,2]
+"struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html":[10,4,2,1,6,2,2]
 };
