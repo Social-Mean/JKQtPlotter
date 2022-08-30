@@ -146,24 +146,55 @@ $(document).ready(function(){initNavTree('jkqtpenhancedpainter_8h_source.html','
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="comment">*/</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html">   33</a></span><span class="keyword">class </span><a class="code hl_define" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> <a class="code hl_class" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> : <span class="keyword">public</span> QPainter {</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#a71602469019acad64755c2938fc6a41d">   35</a></span>        <a class="code hl_function" href="class_j_k_q_t_p_enhanced_painter.html#a71602469019acad64755c2938fc6a41d">JKQTPEnhancedPainter</a>(QPaintDevice* device);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#a0da34b2b1ac4f84690636880b6c10ad1">   36</a></span>        <a class="code hl_function" href="class_j_k_q_t_p_enhanced_painter.html#a0da34b2b1ac4f84690636880b6c10ad1">JKQTPEnhancedPainter</a>();</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#ad8a2efb65f9f2a46a802cb76cd87b13d">   40</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_j_k_q_t_p_enhanced_painter.html#ad8a2efb65f9f2a46a802cb76cd87b13d">initQEnhacedPainter</a>();</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#ad6eacc07690b9f7f278df39db5f0c19ea5403120a1c748a8d40ccfb9c708d8952">   36</a></span>        <span class="keyword">enum</span> <a class="code hl_enumeration" href="class_j_k_q_t_p_enhanced_painter.html#ad6eacc07690b9f7f278df39db5f0c19e">PainterFlag</a> { DefaultPaintMode = 0x00, <span class="comment">/*!&lt; \brief the default  mode, the JKQTPEnhancedPainter draws on a pixel-device */</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#ad6eacc07690b9f7f278df39db5f0c19eabf22c128129e823aea0de0c9b103e105">   37</a></span>                           VectorPainting   = 0x01, <span class="comment">/*!&lt; \brief if set, the JKQTPEnhancedPainter draws onto a vector-device, like a printer, PDF or SVG-output */</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                         };</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        Q_ENUMS(PainterFlag)</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        Q_FLAGS(PainterFlags)</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        Q_DECLARE_FLAGS(PainterFlags, PainterFlag)</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>};</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#endif </span><span class="comment">// JKQTPENHANCED_PAINTERS_H</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#a71602469019acad64755c2938fc6a41d">   43</a></span>        <a class="code hl_class" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a>(QPaintDevice* device);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#a0da34b2b1ac4f84690636880b6c10ad1">   44</a></span>        <a class="code hl_class" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a>();<span class="comment"></span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment">        /** \copydoc m_flags */</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#ab59f389cec712585a684a79b47e7d36a">   46</a></span>        PainterFlags painterFlags() const ;<span class="comment"></span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="comment">        /** \copydoc m_flags */</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#a2a8ec1e4d301db36a80ea4c8cbe425e9">   48</a></span>        <span class="keywordtype">void</span> setPainterFlag(<a class="code hl_enumeration" href="class_j_k_q_t_p_enhanced_painter.html#ad6eacc07690b9f7f278df39db5f0c19e">PainterFlag</a> flag, <span class="keywordtype">bool</span> enabled=true);<span class="comment"></span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">        /** \copydoc m_flags */</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#a8245f23dabae31693bff2edc1f1f28c8">   50</a></span>        <span class="keywordtype">void</span> setPainterFlag(PainterFlags flags);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment"></span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">        /** \brief faster variant of QPainter::drawPolyline(),it turns out that drawing single lines is way faster than drawing with drawPolyLine()</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment">         *</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">         *  At least for thin (1 Pixel) lines on non-vector-devices, this does not make much difference in appearance</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment">         */</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#ab75221a5fcac23ae0e15cccad2718fc9">   56</a></span>        <span class="keywordtype">void</span> drawPolylineFast(const QPointF *points, <span class="keywordtype">int</span> pointCount);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#af20dbf46cb7eba5c2ba079c9c194569d">   57</a></span>        inline <span class="keywordtype">void</span> drawPolylineFast(const QPolygonF &amp;polyline) {</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            drawPolylineFast(polyline.constData(), <span class="keywordtype">int</span>(polyline.size()));</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        }</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#aba34a5ed30daf0b0463b1383767854eb">   60</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_j_k_q_t_p_enhanced_painter.html#aba34a5ed30daf0b0463b1383767854eb">drawPolylineFast</a>(<span class="keyword">const</span> QPoint *points, <span class="keywordtype">int</span> pointCount);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#a81ecfc4f86dcf63bcc3921136fcd6ceb">   61</a></span>        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_j_k_q_t_p_enhanced_painter.html#a81ecfc4f86dcf63bcc3921136fcd6ceb">drawPolylineFast</a>(<span class="keyword">const</span> QPolygon &amp;polyline) {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            drawPolylineFast(polyline.constData(), <span class="keywordtype">int</span>(polyline.size()));</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        }</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#ad8a2efb65f9f2a46a802cb76cd87b13d">   66</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_j_k_q_t_p_enhanced_painter.html#ad8a2efb65f9f2a46a802cb76cd87b13d">initQEnhacedPainter</a>();</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keyword">private</span>:<span class="comment"></span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="comment">        /** \brief flags, specifying how the JKQTPEnhancedPainter works</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="comment">         *</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment">         *  \see PainterFlags */</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_enhanced_painter.html#a76227ad8ed3ba66c3f470c6c7edfa05e">   71</a></span>        PainterFlags <a class="code hl_variable" href="class_j_k_q_t_p_enhanced_painter.html#a76227ad8ed3ba66c3f470c6c7edfa05e">m_flags</a>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>};</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>Q_DECLARE_OPERATORS_FOR_FLAGS(JKQTPEnhancedPainter::PainterFlags)</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#endif </span><span class="comment">// JKQTPENHANCED_PAINTERS_H</span></div>
 <div class="ttc" id="aclass_j_k_q_t_p_enhanced_painter_html"><div class="ttname"><a href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a></div><div class="ttdoc">this class extends the QPainter</div><div class="ttdef"><b>Definition:</b> jkqtpenhancedpainter.h:33</div></div>
-<div class="ttc" id="aclass_j_k_q_t_p_enhanced_painter_html_a0da34b2b1ac4f84690636880b6c10ad1"><div class="ttname"><a href="class_j_k_q_t_p_enhanced_painter.html#a0da34b2b1ac4f84690636880b6c10ad1">JKQTPEnhancedPainter::JKQTPEnhancedPainter</a></div><div class="ttdeci">JKQTPEnhancedPainter()</div></div>
-<div class="ttc" id="aclass_j_k_q_t_p_enhanced_painter_html_a71602469019acad64755c2938fc6a41d"><div class="ttname"><a href="class_j_k_q_t_p_enhanced_painter.html#a71602469019acad64755c2938fc6a41d">JKQTPEnhancedPainter::JKQTPEnhancedPainter</a></div><div class="ttdeci">JKQTPEnhancedPainter(QPaintDevice *device)</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_enhanced_painter_html_a76227ad8ed3ba66c3f470c6c7edfa05e"><div class="ttname"><a href="class_j_k_q_t_p_enhanced_painter.html#a76227ad8ed3ba66c3f470c6c7edfa05e">JKQTPEnhancedPainter::m_flags</a></div><div class="ttdeci">PainterFlags m_flags</div><div class="ttdoc">flags, specifying how the JKQTPEnhancedPainter works</div><div class="ttdef"><b>Definition:</b> jkqtpenhancedpainter.h:71</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_enhanced_painter_html_a81ecfc4f86dcf63bcc3921136fcd6ceb"><div class="ttname"><a href="class_j_k_q_t_p_enhanced_painter.html#a81ecfc4f86dcf63bcc3921136fcd6ceb">JKQTPEnhancedPainter::drawPolylineFast</a></div><div class="ttdeci">void drawPolylineFast(const QPolygon &amp;polyline)</div><div class="ttdef"><b>Definition:</b> jkqtpenhancedpainter.h:61</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_enhanced_painter_html_aba34a5ed30daf0b0463b1383767854eb"><div class="ttname"><a href="class_j_k_q_t_p_enhanced_painter.html#aba34a5ed30daf0b0463b1383767854eb">JKQTPEnhancedPainter::drawPolylineFast</a></div><div class="ttdeci">void drawPolylineFast(const QPoint *points, int pointCount)</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_enhanced_painter_html_ad6eacc07690b9f7f278df39db5f0c19e"><div class="ttname"><a href="class_j_k_q_t_p_enhanced_painter.html#ad6eacc07690b9f7f278df39db5f0c19e">JKQTPEnhancedPainter::PainterFlag</a></div><div class="ttdeci">PainterFlag</div><div class="ttdef"><b>Definition:</b> jkqtpenhancedpainter.h:36</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_enhanced_painter_html_ad8a2efb65f9f2a46a802cb76cd87b13d"><div class="ttname"><a href="class_j_k_q_t_p_enhanced_painter.html#ad8a2efb65f9f2a46a802cb76cd87b13d">JKQTPEnhancedPainter::initQEnhacedPainter</a></div><div class="ttdeci">void initQEnhacedPainter()</div></div>
 <div class="ttc" id="agroup__jkqtptools__libfacilities_html_ga7a5770c49e13362630ad3ab974ba5af1"><div class="ttname"><a href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a></div><div class="ttdeci">#define JKQTCOMMON_LIB_EXPORT</div><div class="ttdef"><b>Definition:</b> jkqtcommon_imexport.h:87</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -173,7 +204,7 @@ $(document).ready(function(){initNavTree('jkqtpenhancedpainter_8h_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_9c1c7b82103a20ec9a416a3dfc619ab1.html">jkqtcommon</a></li><li class="navelem"><b>jkqtpenhancedpainter.h</b></li>
-    <li class="footer">Generated on Tue Aug 30 2022 07:48:30 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Tue Aug 30 2022 20:27:38 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

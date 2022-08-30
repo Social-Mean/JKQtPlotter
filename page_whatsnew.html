@@ -180,6 +180,8 @@ NEW: added debug-feature to show boxes around text in the plot </li>
 <li>
 BREAKING: Print-Support can now be switched off with a CMAKE-option JKQtPlotter_BUILD_FORCE_NO_PRINTER_SUPPORT=ON. This also switches off PDF and SVG export, partly solves issue <a href="https://github.com/jkriege2/JKQtPlotter/issues/81">#81</a>, many thanks to <a href="https://github.com/sufuk">user:sufuk</a> for contributing part of the code and supplying the idea!  </li>
 <li>
+NEW: improved plotting speed for line-graphs by drawing a series of single lines instead of a polyline in some cases </li>
+<li>
 NEW: improved plotting speed for line-graphs by a compression algorithm (see <a class="el" href="class_j_k_q_t_p_graph_lines_compression_mixin.html" title="This Mix-In class provides setter/getter methods, storage and other facilities for a line-graph compr...">JKQTPGraphLinesCompressionMixin</a>) that removes overlaying lines (e.g. in <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>) </li>
 <li>
 NEW: improved plotting speed for line-graphs by a clipping algorithm (applies to <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>, <a class="el" href="class_j_k_q_t_p_graph_error_style_mixin.html" title="This mix-in class assembles all styling properties applicable to error indicators.">JKQTPGraphErrorStyleMixin</a>, <a class="el" href="class_j_k_q_t_p_special_line_horizontal_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineHorizontalGraph</a>, <a class="el" href="class_j_k_q_t_p_special_line_vertical_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineVerticalGraph</a> and others) </li>
@@ -579,7 +581,7 @@ v2015.10: Download</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Aug 30 2022 07:48:31 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Tue Aug 30 2022 20:27:38 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

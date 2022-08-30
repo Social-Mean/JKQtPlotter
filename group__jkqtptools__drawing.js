@@ -1,9 +1,21 @@
 var group__jkqtptools__drawing =
 [
     [ "JKQTPEnhancedPainter", "class_j_k_q_t_p_enhanced_painter.html", [
+      [ "PainterFlag", "class_j_k_q_t_p_enhanced_painter.html#ad6eacc07690b9f7f278df39db5f0c19e", [
+        [ "DefaultPaintMode", "class_j_k_q_t_p_enhanced_painter.html#ad6eacc07690b9f7f278df39db5f0c19ea5403120a1c748a8d40ccfb9c708d8952", null ],
+        [ "VectorPainting", "class_j_k_q_t_p_enhanced_painter.html#ad6eacc07690b9f7f278df39db5f0c19eabf22c128129e823aea0de0c9b103e105", null ]
+      ] ],
       [ "JKQTPEnhancedPainter", "class_j_k_q_t_p_enhanced_painter.html#a71602469019acad64755c2938fc6a41d", null ],
       [ "JKQTPEnhancedPainter", "class_j_k_q_t_p_enhanced_painter.html#a0da34b2b1ac4f84690636880b6c10ad1", null ],
-      [ "initQEnhacedPainter", "class_j_k_q_t_p_enhanced_painter.html#ad8a2efb65f9f2a46a802cb76cd87b13d", null ]
+      [ "drawPolylineFast", "class_j_k_q_t_p_enhanced_painter.html#aba34a5ed30daf0b0463b1383767854eb", null ],
+      [ "drawPolylineFast", "class_j_k_q_t_p_enhanced_painter.html#ab75221a5fcac23ae0e15cccad2718fc9", null ],
+      [ "drawPolylineFast", "class_j_k_q_t_p_enhanced_painter.html#a81ecfc4f86dcf63bcc3921136fcd6ceb", null ],
+      [ "drawPolylineFast", "class_j_k_q_t_p_enhanced_painter.html#af20dbf46cb7eba5c2ba079c9c194569d", null ],
+      [ "initQEnhacedPainter", "class_j_k_q_t_p_enhanced_painter.html#ad8a2efb65f9f2a46a802cb76cd87b13d", null ],
+      [ "painterFlags", "class_j_k_q_t_p_enhanced_painter.html#ab59f389cec712585a684a79b47e7d36a", null ],
+      [ "setPainterFlag", "class_j_k_q_t_p_enhanced_painter.html#a2a8ec1e4d301db36a80ea4c8cbe425e9", null ],
+      [ "setPainterFlag", "class_j_k_q_t_p_enhanced_painter.html#a8245f23dabae31693bff2edc1f1f28c8", null ],
+      [ "m_flags", "class_j_k_q_t_p_enhanced_painter.html#a76227ad8ed3ba66c3f470c6c7edfa05e", null ]
     ] ],
     [ "JKQTPlotterDrawingTools", "struct_j_k_q_t_plotter_drawing_tools.html", [
       [ "ABS_MIN_LINEWIDTH", "struct_j_k_q_t_plotter_drawing_tools.html#ab2f73282b1b10407fa55fdb2883d70e1", null ]
