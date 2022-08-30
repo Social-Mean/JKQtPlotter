@@ -173,34 +173,34 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_speed_test.html','');
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Graph Style   </th><th class="markdownTableHeadNone">Anti-Aliasing   </th><th class="markdownTableHeadNone">Fixed X-Axis   </th><th class="markdownTableHeadNone">frame rate [fps]    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">lines+symbols   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">3    </td></tr>
+<td class="markdownTableBodyNone">lines+symbols   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">20    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">lines+symbols   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">6    </td></tr>
+<td class="markdownTableBodyNone">lines+symbols   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">40    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">lines+symbols   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">32    </td></tr>
+<td class="markdownTableBodyNone">lines+symbols   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">50    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">lines+symbols   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">50    </td></tr>
+<td class="markdownTableBodyNone">lines+symbols   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">95    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">lines-only   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">4    </td></tr>
+<td class="markdownTableBodyNone">lines-only   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">30    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">lines-only   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">7    </td></tr>
+<td class="markdownTableBodyNone">lines-only   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">65    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">lines-only   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">43    </td></tr>
+<td class="markdownTableBodyNone">lines-only   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">78    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">lines-only   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">80   </td></tr>
+<td class="markdownTableBodyNone">lines-only   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">140   </td></tr>
 </table>
-<p >Since 5.0.0 <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> supports a line-compression algorithm (see <code><a class="el" href="group__jkqtptools__drawing.html#ga95d4daf9047bea20dbdeb0c6b843eaf4" title="tries to reduce the complexity of the given list of poly-lines lines_in, but keeping the appearance a...">JKQTPSimplifyPolyLines()</a></code>). This allows to also draw very large datasets with sub-linear speed-decrease. The algorithm tries to not draw lines that are not visible, because they overlay each other. Using this mode we obtain these framerates for a two line-only graphs without anti-aliasing:</p>
+<p >Since 5.0.0 <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> supports a line-compression algorithm (see <code><a class="el" href="group__jkqtptools__drawing.html#ga95d4daf9047bea20dbdeb0c6b843eaf4" title="tries to reduce the complexity of the given list of poly-lines lines_in, but keeping the appearance a...">JKQTPSimplifyPolyLines()</a></code>). This allows to also draw very large datasets with sub-linear speed-decrease. The algorithm tries to not draw lines that are not visible, because they overlay each other. Using this mode we obtain these framerates for a two line-only graphs without anti-aliasing and with fixed x-axis:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Number of Points   </th><th class="markdownTableHeadNone">frame rate [fps]    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">500   </td><td class="markdownTableBodyNone">48    </td></tr>
+<td class="markdownTableBodyNone">500   </td><td class="markdownTableBodyNone">67    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">1000   </td><td class="markdownTableBodyNone">32    </td></tr>
+<td class="markdownTableBodyNone">1000   </td><td class="markdownTableBodyNone">42    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">2000   </td><td class="markdownTableBodyNone">8    </td></tr>
+<td class="markdownTableBodyNone">2000   </td><td class="markdownTableBodyNone">23    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">10000   </td><td class="markdownTableBodyNone">5   </td></tr>
+<td class="markdownTableBodyNone">10000   </td><td class="markdownTableBodyNone">11   </td></tr>
 </table>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
@@ -210,7 +210,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_speed_test.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Tue Aug 30 2022 20:27:38 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Tue Aug 30 2022 20:39:06 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>
