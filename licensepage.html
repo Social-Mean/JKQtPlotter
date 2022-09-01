@@ -115,6 +115,7 @@ $(document).ready(function(){initNavTree('licensepage.html',''); initResizable()
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#licensesec">JKQTPlotter/JKQTFastPlotter/JKQTMathText: LGPL &gt;= 2.1</a></li>
 <li class="level1"><a href="#extlicense_sec">Licenses of 3rd Party Products Contained in JKQTPlotter</a><ul><li class="level2"><a href="#extlicense_xits">XITS Fonts for JKQTMathText</a></li>
+<li class="level2"><a href="#extlicense_firamath">Fira Math Fonts for JKQTMathText</a></li>
 </ul>
 </li>
 </ul>
@@ -630,7 +631,7 @@ Licenses of 3rd Party Products Contained in JKQTPlotter</h1>
 <p ><a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> is mostly self-conatined. The only exceptions are listed below</p>
 <h2><a class="anchor" id="extlicense_xits"></a>
 XITS Fonts for JKQTMathText</h2>
-<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> comes prepackaged with the XITS fonts from <a href="https://www.stixfonts.org/">https://www.stixfonts.org/</a>. With these it can produceh high-quality math rendering. It is possible to use the class with other fonts, but XITS is highly recommended. XITS fonts are licensed as follows:</p>
+<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> comes prepackaged with the XITS fonts from <a href="https://www.stixfonts.org/">https://www.stixfonts.org/</a>. With these it can produce high-quality math rendering with serifs. It is possible to use the class with other fonts, but XITS is highly recommended. XITS fonts are licensed as follows:</p>
 <pre class="fragment">    XITS is a Times-like typeface for mathematical and scientific publishing, 
     based on STIX fonts (https://www.stixfonts.org/). The main mission of XITS 
     is to provide a version of STIX fonts enriched with the OpenType MATH extension, 
@@ -645,8 +646,24 @@ XITS Fonts for JKQTMathText</h2>
 
     This is work in progress, feedback, bug reports and even patches are welcomed.
 </pre><p >The source for this library can be found here: <a href="https://github.com/alif-type/xits">https://github.com/alif-type/xits</a></p>
-<dl class="section note"><dt>Note</dt><dd>The XITS fonts are distributed in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/lib/jkqtplotter/resources/math_fonts/xits">lib/jkqtplotter/resources/math_fonts/xits</a> and are automatically added to the binary libraries as Qt Resources. You can prevent this by adding the line <div class="fragment"><div class="line">DEFINES += NO_XITS_FONTS</div>
-</div><!-- fragment --> To the QMake project that you use to build the JKQTPlotter/JKQTMathText libraries (see the ready-made <code></code>.pro -files for static and dynamic libs, which already contain this line, but commented out. QMake will tell you with a message whether XITS is linked in or not. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The XITS fonts are distributed in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/lib/jkqtplotter/resources/math_fonts/xits">lib/jkqtplotter/resources/math_fonts/xits</a> and are automatically added to the binary libraries as Qt Resources. <br  />
+<br  />
+ In a <b>CMake-Build</b> you can use the the option <code>JKQtPlotter_BUILD_INCLUDE_XITS_FONTS</code> to control whether XITS fonst are linked into the library or not. <br  />
+<br  />
+ For a <b>QMake-build</b>, you can prevent this by adding the line <code>DEFINES+=NO_XITS_FONTS</code> To the QMake project that you use to build the JKQTPlotter/JKQTMathText libraries (see the ready-made <code></code>.pro -files for static and dynamic libs, which already contain this line, but commented out. QMake will tell you with a message whether XITS is linked in or not.</dd></dl>
+<h2><a class="anchor" id="extlicense_firamath"></a>
+Fira Math Fonts for JKQTMathText</h2>
+<p ><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> comes prepackaged with the Fira Math fonts from <a href="https://github.com/firamath/firamath">https://github.com/firamath/firamath</a>. With these it can produce high-quality math rendering in sans-serif style. It is possible to use the class with other fonts, but Fira Math or XITS is highly recommended. Fira Math fonts are licensed as follows:</p>
+<pre class="fragment">    This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    (https://scripts.sil.org/OFL)
+
+    Copyright (C) 2018–2021 by Xiangdong Zeng.
+</pre><p >The source for this library can be found here: <a href="https://github.com/firamath/firamath">https://github.com/firamath/firamath</a></p>
+<dl class="section note"><dt>Note</dt><dd>The XITS fonts are distributed in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/lib/jkqtplotter/resources/math_fonts/firaMath">lib/jkqtplotter/resources/math_fonts/firaMath</a> and are automatically added to the binary libraries as Qt Resources. <br  />
+<br  />
+ In a <b>CMake-Build</b> you can use the the option <code>JKQtPlotter_BUILD_INCLUDE_FIRAMATH_FONTS</code> to control whether XITS fonst are linked into the library or not. <br  />
+<br  />
+ For a <b>QMake-build</b>, you can prevent this by adding the line <code>DEFINES+=NO_FIRAMATH_FONTS</code> To the QMake project that you use to build the JKQTPlotter/JKQTMathText libraries (see the ready-made <code></code>.pro -files for static and dynamic libs, which already contain this line, but commented out. QMake will tell you with a message whether XITS is linked in or not. </dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
@@ -654,7 +671,7 @@ XITS Fonts for JKQTMathText</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Aug 30 2022 20:39:06 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Thu Sep 1 2022 12:40:27 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

@@ -5,7 +5,7 @@ var searchData=
   ['haschild_2',['hasChild',['../class_j_k_q_t_math_text_single_child_node.html#ad0c4cd563e145c3788c4ee2fd3931df2',1,'JKQTMathTextSingleChildNode']]],
   ['haschildren_3',['hasChildren',['../class_j_k_q_t_math_text_multi_child_node.html#a51bad840dc30a1cc7221cdf26a61e82b',1,'JKQTMathTextMultiChildNode']]],
   ['hascolumn_4',['hasColumn',['../class_j_k_q_t_p_datastore.html#a582ae452a225affda9b73680437b9bbc',1,'JKQTPDatastore']]],
-  ['hasfallbcaksymbolfontname_5',['hasFallbcakSymbolFontName',['../struct_j_k_q_t_math_text_font_specifier.html#a8ef03e4369444ed5615be4f5db6e0907',1,'JKQTMathTextFontSpecifier']]],
+  ['hasfallbacksymbolfontname_5',['hasFallbackSymbolFontName',['../struct_j_k_q_t_math_text_font_specifier.html#a1f7747f5d3a4b094effce32207794747',1,'JKQTMathTextFontSpecifier']]],
   ['hasfontname_6',['hasFontName',['../struct_j_k_q_t_math_text_font_specifier.html#a845f9b3414ca36dff8d15278fd29df48',1,'JKQTMathTextFontSpecifier']]],
   ['hasmathfontname_7',['hasMathFontName',['../struct_j_k_q_t_math_text_font_specifier.html#ac0407692b58b39e2675bb9785414c824',1,'JKQTMathTextFontSpecifier']]],
   ['hasoverridecolor_8',['hasOverrideColor',['../class_j_k_q_t_p_contour_plot.html#aae98d3d80314992373d765b5c647c511',1,'JKQTPContourPlot']]],
