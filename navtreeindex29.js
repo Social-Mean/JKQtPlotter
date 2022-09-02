@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"struct_j_k_q_t_math_text_font_specifier.html#a6ecf71036e4cc576917ac9d9ba9e9257":[12,3,1,3,2,1],
 "struct_j_k_q_t_math_text_font_specifier.html#a831b4fead5372485611db34f656b159f":[12,3,1,3,2,6],
 "struct_j_k_q_t_math_text_font_specifier.html#a845f9b3414ca36dff8d15278fd29df48":[12,3,1,3,2,13],
 "struct_j_k_q_t_math_text_font_specifier.html#a85910b76ecf206fe323d454fee06f34c":[12,3,1,3,2,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "struct_j_k_q_t_p_image_tools.html#ad3ed99bff0339dc4d1fe0fac755dd563":[12,4,2,1,7,3,3,19],
 "struct_j_k_q_t_p_image_tools.html#ad5b169ca471ddc5b34e0e64614eb746a":[12,4,2,1,7,3,3,11],
 "struct_j_k_q_t_p_image_tools.html#adb5e288d95a0498d89c2a725b463a310":[12,4,2,1,7,3,3,9],
-"struct_j_k_q_t_p_image_tools.html#adff44153c21d7d9b1d3645c08510af7c":[12,4,2,1,7,3,3,21],
-"struct_j_k_q_t_p_image_tools.html#ae04d620e9a11fac1b77be37b0bbb8a18":[12,4,2,1,7,3,3,8]
+"struct_j_k_q_t_p_image_tools.html#adff44153c21d7d9b1d3645c08510af7c":[12,4,2,1,7,3,3,21]
 };

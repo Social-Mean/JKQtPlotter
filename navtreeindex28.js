@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"group__jkqtptools__math__statistics__grouped.html#gae3479e222d2974326c6696ab01b4b3e8":[12,1,5,5,5],
 "group__jkqtptools__math__statistics__poly.html":[12,1,5,6],
 "group__jkqtptools__math__statistics__poly.html#gaccc77ac9938ce987c232f5bee76b753d":[12,1,5,6,0],
 "group__jkqtptools__math__statistics__regression.html":[12,1,5,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "struct_j_k_q_t_math_text_font_specifier.html#a4174b1f07f9e794115466d95d7370c2d":[12,3,1,3,2,16],
 "struct_j_k_q_t_math_text_font_specifier.html#a51a2aa972bb018c10ced0e603b53f2a1":[12,3,1,3,2,7],
 "struct_j_k_q_t_math_text_font_specifier.html#a6374b27f7d70e82fdc87e80344f38239":[12,3,1,3,2,9],
-"struct_j_k_q_t_math_text_font_specifier.html#a6d20d3a1fbae113d7c490edff1420890":[12,3,1,3,2,24],
-"struct_j_k_q_t_math_text_font_specifier.html#a6ecf71036e4cc576917ac9d9ba9e9257":[12,3,1,3,2,1]
+"struct_j_k_q_t_math_text_font_specifier.html#a6d20d3a1fbae113d7c490edff1420890":[12,3,1,3,2,24]
 };
