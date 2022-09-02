@@ -166,13 +166,13 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_boxplots_graphs.html'
 <div class="line">graphh-&gt;setWhiskerCapLineColor(graphh-&gt;getLineColor().darker());</div>
 <div class="line">graphh-&gt;setWhiskerCapLineWidth(graphh-&gt;getLineWidth()*2.5);</div>
 <div class="line"><span class="comment">// 6.4 change mean symbol</span></div>
-<div class="line">graphh-&gt;setMeanSymbolType(<a class="code hl_enumvalue" href="group__jkqtptools__drawing.html#gga212568ec3a08aa8d047bdd11283e2b3ea7ce6bfc4629e234b67c8857768d20f59">JKQTPFilledStar</a>);</div>
+<div class="line">graphh-&gt;setMeanSymbolType(<a class="code hl_enumvalue" href="group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba7ce6bfc4629e234b67c8857768d20f59">JKQTPFilledStar</a>);</div>
 <div class="line">graphh-&gt;setMeanFillColor(QColor(<span class="stringliteral">&quot;silver&quot;</span>));</div>
 <div class="line"><span class="comment">// 6.5 change median line color</span></div>
 <div class="line">graphh-&gt;setMedianLineColor(QColor(<span class="stringliteral">&quot;darkgreen&quot;</span>));</div>
 <div class="line"><span class="comment">// 6.6 change box width to 75% of distance</span></div>
 <div class="line">graphh-&gt;setBoxWidthRelative(0.75);</div>
-<div class="ttc" id="agroup__jkqtptools__drawing_html_gga212568ec3a08aa8d047bdd11283e2b3ea7ce6bfc4629e234b67c8857768d20f59"><div class="ttname"><a href="group__jkqtptools__drawing.html#gga212568ec3a08aa8d047bdd11283e2b3ea7ce6bfc4629e234b67c8857768d20f59">JKQTPFilledStar</a></div><div class="ttdeci">@ JKQTPFilledStar</div><div class="ttdoc">a filled diamond</div><div class="ttdef"><b>Definition:</b> jkqtpdrawingtools.h:76</div></div>
+<div class="ttc" id="agroup__jkqtptools__drawing_html_ggacdaaac6baeadbfd3677d4d53ea594b5ba7ce6bfc4629e234b67c8857768d20f59"><div class="ttname"><a href="group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba7ce6bfc4629e234b67c8857768d20f59">JKQTPFilledStar</a></div><div class="ttdeci">@ JKQTPFilledStar</div><div class="ttdoc">a filled diamond</div><div class="ttdef"><b>Definition:</b> jkqtpdrawingtools.h:78</div></div>
 </div><!-- fragment --><p >The result looks like this:</p>
 <p ><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/boxplot.png" alt="boxplot" class="inline"/></p>
 <p >In addition to the simple box plots, the image above also shows outliers as small circles. these need to be drawn with a separate <code><a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a></code>:</p>
@@ -198,11 +198,11 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_boxplots_graphs.html'
 <div class="line">graphOutliers-&gt;setColor(graph-&gt;getColor().darker());</div>
 <div class="line">graphOutliers-&gt;setFillColor(QColor(<span class="stringliteral">&quot;white&quot;</span>));</div>
 <div class="line"><span class="comment">// draw outliers as small circles, without lines</span></div>
-<div class="line">graphOutliers-&gt;setSymbolType(<a class="code hl_enumvalue" href="group__jkqtptools__drawing.html#gga212568ec3a08aa8d047bdd11283e2b3eab410b144e240869a9f2acc550103d3ee">JKQTPCircle</a>);</div>
+<div class="line">graphOutliers-&gt;setSymbolType(<a class="code hl_enumvalue" href="group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5bab410b144e240869a9f2acc550103d3ee">JKQTPCircle</a>);</div>
 <div class="line">graphOutliers-&gt;setDrawLine(<span class="keyword">false</span>);</div>
 <div class="line">graphOutliers-&gt;setSymbolSize(7);</div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_line_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_x_y_line_graph.html">JKQTPXYLineGraph</a></div><div class="ttdoc">This implements xy line plots. This also alows to draw symbols at the data points.</div><div class="ttdef"><b>Definition:</b> jkqtplines.h:61</div></div>
-<div class="ttc" id="agroup__jkqtptools__drawing_html_gga212568ec3a08aa8d047bdd11283e2b3eab410b144e240869a9f2acc550103d3ee"><div class="ttname"><a href="group__jkqtptools__drawing.html#gga212568ec3a08aa8d047bdd11283e2b3eab410b144e240869a9f2acc550103d3ee">JKQTPCircle</a></div><div class="ttdeci">@ JKQTPCircle</div><div class="ttdoc">an unfilled circle</div><div class="ttdef"><b>Definition:</b> jkqtpdrawingtools.h:67</div></div>
+<div class="ttc" id="agroup__jkqtptools__drawing_html_ggacdaaac6baeadbfd3677d4d53ea594b5bab410b144e240869a9f2acc550103d3ee"><div class="ttname"><a href="group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5bab410b144e240869a9f2acc550103d3ee">JKQTPCircle</a></div><div class="ttdeci">@ JKQTPCircle</div><div class="ttdoc">an unfilled circle</div><div class="ttdef"><b>Definition:</b> jkqtpdrawingtools.h:69</div></div>
 </div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
@@ -211,7 +211,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_boxplots_graphs.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Thu Sep 1 2022 12:40:27 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Sep 2 2022 12:22:48 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>
