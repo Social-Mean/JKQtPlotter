@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['f_0',['f',['../struct_j_k_q_t_math_text_t_b_r_data_h.html#a9702adc1af10b9060deb9d0289848a01',1,'JKQTMathTextTBRDataH::f()'],['../struct_j_k_q_t_base_plotter_1_1text_size_key.html#a8b552cd60861e0111b6835aae7c44b04',1,'JKQTBasePlotter::textSizeKey::f()'],['../struct_j_k_q_t_math_text_t_b_r_data.html#a2d7da4b166f9a635072386624e8dc0f1',1,'JKQTMathTextTBRData::f()']]],
+  ['f_0',['f',['../struct_j_k_q_t_math_text_t_b_r_data_h.html#a9702adc1af10b9060deb9d0289848a01',1,'JKQTMathTextTBRDataH::f()'],['../struct_j_k_q_t_math_text_t_b_r_data.html#a2d7da4b166f9a635072386624e8dc0f1',1,'JKQTMathTextTBRData::f()'],['../struct_j_k_q_t_base_plotter_1_1text_size_key.html#a8b552cd60861e0111b6835aae7c44b04',1,'JKQTBasePlotter::textSizeKey::f()']]],
   ['f_5f_1',['f_',['../class_j_k_q_t_p_final_act.html#a6e671c688b1e50ac5ac1a81bd4180c83',1,'JKQTPFinalAct']]],
   ['falsecolor_2',['falseColor',['../class_j_k_q_t_p_overlay_image.html#acca5b1bce1c223f011a655d732a36522',1,'JKQTPOverlayImage']]],
   ['fdata_3',['fdata',['../class_j_k_q_t_p_parsed_function_line_graph_base.html#a62508ed6ae5e367a7cb072b0fb5d3425',1,'JKQTPParsedFunctionLineGraphBase']]],
-  ['fillcolor_4',['fillColor',['../class_j_k_q_t_f_p_x_range_plot.html#afc8ac6d0861927b04642de632e5901ec',1,'JKQTFPXRangePlot::fillColor()'],['../class_j_k_q_t_f_p_y_range_plot.html#a4b62a854596c47feaf91ef782c95d696',1,'JKQTFPYRangePlot::fillColor()']]],
+  ['fillcolor_4',['fillColor',['../class_j_k_q_t_f_p_x_range_plot.html#afc8ac6d0861927b04642de632e5901ec',1,'JKQTFPXRangePlot::fillColor()'],['../class_j_k_q_t_f_p_y_range_plot.html#a4b62a854596c47feaf91ef782c95d696',1,'JKQTFPYRangePlot::fillColor()'],['../group__jkqtplotter__linesymbolgraphs__param.html#a1c296cb903c201f483c8fa8493f621f3',1,'JKQTPXYParametrizedScatterGraph::SymbolDescription::fillColor()']]],
   ['fillcolorderivationmode_5',['fillColorDerivationMode',['../class_j_k_q_t_graphs_specific_style_properties.html#a9ce0787dcbd96c52a6d1474c7550a58b',1,'JKQTGraphsSpecificStyleProperties']]],
   ['filledstyle_6',['filledStyle',['../class_j_k_q_t_graphs_base_style.html#a0ce91f6cedb168dcaad66efc4ddf7683',1,'JKQTGraphsBaseStyle']]],
   ['fillrange_7',['fillRange',['../class_j_k_q_t_p_range_base.html#a61f657ac6ad05995674ec30e19bf173e',1,'JKQTPRangeBase']]],
@@ -20,7 +20,7 @@ var searchData=
   ['fontname_17',['fontName',['../struct_j_k_q_t_math_text_font_definition.html#a65c27c7ae0e97ccb2fe8b34c03306d6a',1,'JKQTMathTextFontDefinition']]],
   ['fontreplacements_18',['fontReplacements',['../class_j_k_q_t_math_text.html#ade31bb15c7dd629d532cd6e26a1128bd',1,'JKQTMathText']]],
   ['fontscalingfactor_19',['fontScalingFactor',['../struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html#ae99162f216967a13f17c262cb420aac4',1,'JKQTMathTextSymbolNode::SymbolProps']]],
-  ['fontsize_20',['fontSize',['../class_j_k_q_t_math_text.html#aa000567dca1675328079c3a7d0b6c4ef',1,'JKQTMathText::fontSize()'],['../class_j_k_q_t_p_key_style.html#ab2ea873180e5a7da68d92d8829597401',1,'JKQTPKeyStyle::fontSize()'],['../struct_j_k_q_t_math_text_environment.html#aeef82a4008a73979296c7d0f7c6f8e65',1,'JKQTMathTextEnvironment::fontSize()']]],
+  ['fontsize_20',['fontSize',['../struct_j_k_q_t_math_text_environment.html#aeef82a4008a73979296c7d0f7c6f8e65',1,'JKQTMathTextEnvironment::fontSize()'],['../class_j_k_q_t_p_key_style.html#ab2ea873180e5a7da68d92d8829597401',1,'JKQTPKeyStyle::fontSize()'],['../class_j_k_q_t_math_text.html#aa000567dca1675328079c3a7d0b6c4ef',1,'JKQTMathText::fontSize()']]],
   ['fontsizemultiplier_21',['fontSizeMultiplier',['../class_j_k_q_t_base_plotter.html#ab1d0250300c6cc52da9493946fa6cc11',1,'JKQTBasePlotter']]],
   ['fontsizeprintmultiplier_22',['fontSizePrintMultiplier',['../class_j_k_q_t_base_plotter.html#a11caf633f8316b30d4d2bb2d10c32737',1,'JKQTBasePlotter']]],
   ['fontsizeunit_23',['fontSizeUnit',['../struct_j_k_q_t_math_text_environment.html#ad852dd5b5a0907de4dc9a53913888c9b',1,'JKQTMathTextEnvironment']]],

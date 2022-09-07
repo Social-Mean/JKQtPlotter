@@ -18,8 +18,10 @@ var group__jkqtptools__drawing =
       [ "m_flags", "class_j_k_q_t_p_enhanced_painter.html#a76227ad8ed3ba66c3f470c6c7edfa05e", null ]
     ] ],
     [ "JKQTPlotterDrawingTools", "struct_j_k_q_t_plotter_drawing_tools.html", [
-      [ "ABS_MIN_LINEWIDTH", "struct_j_k_q_t_plotter_drawing_tools.html#ab2f73282b1b10407fa55fdb2883d70e1", null ]
+      [ "ABS_MIN_LINEWIDTH", "struct_j_k_q_t_plotter_drawing_tools.html#ab2f73282b1b10407fa55fdb2883d70e1", null ],
+      [ "JKQTPCustomGraphSymbolStore", "group__jkqtptools__drawing.html#ga2f6e4edc99131fd4572bbb6adddd1b85", null ]
     ] ],
+    [ "JKQTPCustomGraphSymbolFunctor", "group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af", null ],
     [ "JKQTPGraphSymbols", "group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b", [
       [ "JKQTPNoSymbol", "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba5ed6d60f133d1f4f712dba322dff7525", null ],
       [ "JKQTPDot", "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba742c246430bd362c0aa5c4ffdb92e85a", null ],
@@ -88,7 +90,9 @@ var group__jkqtptools__drawing =
       [ "JKQTPSymbolCount", "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba712a5394e0a062eb0dbc310f13fc3449", null ],
       [ "JKQTPMaxSymbolID", "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5baf1960ad2ed1a23c9b9b67a5a52c8309e", null ],
       [ "JKQTPDefaultSymbol", "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba5b1fb2a1c575a4cc88a18790be31c57e", null ],
-      [ "JKQTPCharacterSymbol", "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba5ac2ee3d7e30a15354a5833fca4fcfbe", null ]
+      [ "JKQTPCharacterSymbol", "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba5ac2ee3d7e30a15354a5833fca4fcfbe", null ],
+      [ "JKQTPFilledCharacterSymbol", "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5badb60b3fe996f2c2ba3da542ab7846411", null ],
+      [ "JKQTPFirstCustomSymbol", "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5baf53e546701911a3f0ec64aa5b6622908", null ]
     ] ],
     [ "JKQTPLineDecoratorStyle", "group__jkqtptools__drawing.html#gabd0e8edf2acdfce37eccab000e445c62", [
       [ "JKQTPNoDecorator", "group__jkqtptools__drawing.html#ggabd0e8edf2acdfce37eccab000e445c62a92f6ba607c3a22a426eb10c5e76242fa", null ],
@@ -132,9 +136,12 @@ var group__jkqtptools__drawing =
     [ "JKQTPGraphSymbols2String", "group__jkqtptools__drawing.html#ga69d0c64e06a61e41a0d8de1e22d6638e", null ],
     [ "JKQTPLineDecoratorStyle2NameString", "group__jkqtptools__drawing.html#gab8ffc607cb2b2e7277612e2bbdb49e6c", null ],
     [ "JKQTPLineDecoratorStyle2String", "group__jkqtptools__drawing.html#gad21cf595bd2cd93e4205fd7354b474eb", null ],
+    [ "JKQTPPlotDecoratedLine", "group__jkqtptools__drawing.html#gaa61b127666717e9cef2e447fe11631c4", null ],
     [ "JKQTPPlotLineDecorator", "group__jkqtptools__drawing.html#ga8796c26fb6bd2654e10a9640654d8636", null ],
     [ "JKQTPPlotSymbol", "group__jkqtptools__drawing.html#ga601579ecabc6677c24dd5dce1e3c41c2", null ],
     [ "JKQTPPlotSymbol", "group__jkqtptools__drawing.html#ga26deb06672b55559b11d6fbea126c7b8", null ],
+    [ "JKQTPRegisterCustomGraphSymbol", "group__jkqtptools__drawing.html#ga1ff3b7f3c621ae70ce32741e6cfd5542", null ],
+    [ "JKQTPRegisterCustomGraphSymbol", "group__jkqtptools__drawing.html#gaddc75a3ec820e937797236719405aca9", null ],
     [ "jkqtpRotateRect", "group__jkqtptools__drawing.html#gae9410c33b360d17330be5a8891fc9bd8", null ],
     [ "JKQTPSimplifyPolyLines", "group__jkqtptools__drawing.html#ga95d4daf9047bea20dbdeb0c6b843eaf4", null ],
     [ "JKQTPSimplifyPolyLines", "group__jkqtptools__drawing.html#ga4c5ebd5280767c917617ebf2588f4ec5", null ],
@@ -146,5 +153,6 @@ var group__jkqtptools__drawing =
     [ "JKQTPSplitPolylineIntoPoints", "group__jkqtptools__drawing.html#ga781e051d47c2ca112dd434a1634edc2b", null ],
     [ "JKQTPUnifyLinesToPolygons", "group__jkqtptools__drawing.html#ga10b44f813c96e4bcd688ac769842e031", null ],
     [ "String2JKQTPGraphSymbols", "group__jkqtptools__drawing.html#gaa2bd5c2bac86735a6885464182a7a2f0", null ],
-    [ "String2JKQTPLineDecoratorStyle", "group__jkqtptools__drawing.html#gad1b00ff55f388b562baa9053b38a254c", null ]
+    [ "String2JKQTPLineDecoratorStyle", "group__jkqtptools__drawing.html#gad1b00ff55f388b562baa9053b38a254c", null ],
+    [ "JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore", "group__jkqtptools__drawing.html#ga2f6e4edc99131fd4572bbb6adddd1b85", null ]
 ];

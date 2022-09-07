@@ -25,6 +25,7 @@ var group__jkqtplotter__linesymbolgraphs__param =
       [ "getColorColumn", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a8bb045d1c477a02521114d5d154664a4", null ],
       [ "getColorColumnContainsRGB", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a814b4e99222567a0504e9027f5438c76", null ],
       [ "getDrawLine", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a0d68e5d579c651205273400eb7dff577", null ],
+      [ "getDrawLineInForeground", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#ae76d48244be9e92d53e7781e28f541e0", null ],
       [ "getGridDeltaX", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#ab91965aa6e9f25c24fdf3021802f5189", null ],
       [ "getGridDeltaY", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a2681a15634cbdcc982e811ed6b45487f", null ],
       [ "getGridModeForSymbolSize", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#aa181e7524fa39ce9a6ea6946b6f62696", null ],
@@ -47,6 +48,7 @@ var group__jkqtplotter__linesymbolgraphs__param =
       [ "setColorColumn", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a803292872aa0b6c5e7a79c0eb364e492", null ],
       [ "setColorColumnContainsRGB", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a63c9d30e85c796fe84487a230d187d23", null ],
       [ "setDrawLine", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a2e4da542e348ad0d6353fa91b3859516", null ],
+      [ "setDrawLineInForeground", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a4834a0bd6851cb1295d947775fd0df06", null ],
       [ "setGridDeltaX", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a539e0c31907b9b1eca51fccd32a2b173", null ],
       [ "setGridDeltaY", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#ab80c73148ee673f53a8035a966b7d584", null ],
       [ "setGridModeForSymbolSize", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a6876b1c1f6ced30d0965b1c2b97b5e49", null ],
@@ -67,6 +69,7 @@ var group__jkqtplotter__linesymbolgraphs__param =
       [ "colorColumn", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a5e8e4172959330d5ed8dcc222312a588", null ],
       [ "colorColumnContainsRGB", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a9fa0ae8b3887174aed29a6397ae4197c", null ],
       [ "drawLine", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a0302597c5e65a85ca5825cff195065cd", null ],
+      [ "drawLineInForeground", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#afeaa6cc83eeba6b85060de7f996efc38", null ],
       [ "gridDeltaX", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a4c7c65155f6d86abba48656667bfa423", null ],
       [ "gridDeltaY", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a81bfece6b5c7cc59d3cd946d0782306a", null ],
       [ "gridModeForSymbolSize", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a9e713eed6f7875787974ceac6407fd98", null ],
@@ -86,5 +89,13 @@ var group__jkqtplotter__linesymbolgraphs__param =
       [ "operator()", "struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#a360d4f08ec544909faf88a1db1a0b2e5", null ],
       [ "mapping", "struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#af24f3414bcd5a87c676e36924d59e3e0", null ],
       [ "parent", "struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#ad19ca7a60b6452c0ce532f2cb5d2d062", null ]
+    ] ],
+    [ "JKQTPXYParametrizedScatterGraph::SymbolDescription", "group__jkqtplotter__linesymbolgraphs__param.html#struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_symbol_description", [
+      [ "color", "group__jkqtplotter__linesymbolgraphs__param.html#a2f54ad746d60c10d0baeaf3d1333cdb5", null ],
+      [ "fillColor", "group__jkqtplotter__linesymbolgraphs__param.html#a1c296cb903c201f483c8fa8493f621f3", null ],
+      [ "size", "group__jkqtplotter__linesymbolgraphs__param.html#a95fccbcbcb9198760817e25b7643cbbb", null ],
+      [ "type", "group__jkqtplotter__linesymbolgraphs__param.html#a150fb82dccaf6b4c1567f0d489e95047", null ],
+      [ "x", "group__jkqtplotter__linesymbolgraphs__param.html#a9a7ca566e3290302a0156cc81dec8e4f", null ],
+      [ "y", "group__jkqtplotter__linesymbolgraphs__param.html#aa140ce21ec52756206eb13c9445af25a", null ]
     ] ]
 ];

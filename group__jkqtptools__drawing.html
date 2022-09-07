@@ -111,8 +111,10 @@ $(document).ready(function(){initNavTree('group__jkqtptools__drawing.html',''); 
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">Drawing &amp; Graphics Tools<div class="ingroups"><a class="el" href="group__jkqtptools__jkqtcommon.html">JKQTCommon: Diverse Basic Utilities</a></div></div></div>
 </div><!--header-->
 <div class="contents">
@@ -131,6 +133,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_plotter_drawing_tools.html">JKQTPlotterDrawingTools</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool class with static values used by JKQTPlotter/JKQTBasePlotter  <a href="struct_j_k_q_t_plotter_drawing_tools.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga3298f18f26663c9f2b550e47316631af"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; void(QPainter &amp;p)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">JKQTPCustomGraphSymbolFunctor</a></td></tr>
+<tr class="memdesc:ga3298f18f26663c9f2b550e47316631af"><td class="mdescLeft">&#160;</td><td class="mdescRight">functor used to draw a custom JKQTPGraphSymbols  <a href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">More...</a><br /></td></tr>
+<tr class="separator:ga3298f18f26663c9f2b550e47316631af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -270,6 +278,10 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba5b1fb2a1c575a4cc88a18790be31c57e">JKQTPDefaultSymbol</a> =JKQTPCross
 , <br />
 &#160;&#160;<a class="el" href="group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba5ac2ee3d7e30a15354a5833fca4fcfbe">JKQTPCharacterSymbol</a> =0x100
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5badb60b3fe996f2c2ba3da542ab7846411">JKQTPFilledCharacterSymbol</a> =JKQTPCharacterSymbol+0xFFFF+0xF
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5baf53e546701911a3f0ec64aa5b6622908">JKQTPFirstCustomSymbol</a> =JKQTPFilledCharacterSymbol+0xFFFF+0xF
 <br />
  }</td></tr>
 <tr class="memdesc:gacdaaac6baeadbfd3677d4d53ea594b5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">symbols that can be used to plot a datapoint for a graph  <a href="group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b">More...</a><br /></td></tr>
@@ -374,6 +386,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gad21cf595bd2cd93e4205fd7354b474eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#gad21cf595bd2cd93e4205fd7354b474eb">JKQTPLineDecoratorStyle2String</a> (<a class="el" href="group__jkqtptools__drawing.html#gabd0e8edf2acdfce37eccab000e445c62">JKQTPLineDecoratorStyle</a> pos)</td></tr>
 <tr class="memdesc:gad21cf595bd2cd93e4205fd7354b474eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts a JKQTPLineDecoratorStyle variable into a identifier string  <a href="group__jkqtptools__drawing.html#gad21cf595bd2cd93e4205fd7354b474eb">More...</a><br /></td></tr>
 <tr class="separator:gad21cf595bd2cd93e4205fd7354b474eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa61b127666717e9cef2e447fe11631c4"><td class="memTemplParams" colspan="2">template&lt;class TPainter &gt; </td></tr>
+<tr class="memitem:gaa61b127666717e9cef2e447fe11631c4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#gaa61b127666717e9cef2e447fe11631c4">JKQTPPlotDecoratedLine</a> (TPainter &amp;painter, const QLineF &amp;l, <a class="el" href="group__jkqtptools__drawing.html#gabd0e8edf2acdfce37eccab000e445c62">JKQTPLineDecoratorStyle</a> style1, double size1, <a class="el" href="group__jkqtptools__drawing.html#gabd0e8edf2acdfce37eccab000e445c62">JKQTPLineDecoratorStyle</a> style2, double size2)</td></tr>
+<tr class="memdesc:gaa61b127666717e9cef2e447fe11631c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">plot a line with the given decorators <em>style1</em> and a style2 at the start- and end-point repsectively, using the painter's current pen  <a href="group__jkqtptools__drawing.html#gaa61b127666717e9cef2e447fe11631c4">More...</a><br /></td></tr>
+<tr class="separator:gaa61b127666717e9cef2e447fe11631c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8796c26fb6bd2654e10a9640654d8636"><td class="memTemplParams" colspan="2">template&lt;class TPainter &gt; </td></tr>
 <tr class="memitem:ga8796c26fb6bd2654e10a9640654d8636"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#ga8796c26fb6bd2654e10a9640654d8636">JKQTPPlotLineDecorator</a> (TPainter &amp;painter, double x, double y, double angle_rad, <a class="el" href="group__jkqtptools__drawing.html#gabd0e8edf2acdfce37eccab000e445c62">JKQTPLineDecoratorStyle</a> style, double size, QPointF *line_start=nullptr)</td></tr>
 <tr class="memdesc:ga8796c26fb6bd2654e10a9640654d8636"><td class="mdescLeft">&#160;</td><td class="mdescRight">plot the specified symbol at pixel position x,y. Note that this function only draws the decorator, NOT the line pointing to it!  <a href="group__jkqtptools__drawing.html#ga8796c26fb6bd2654e10a9640654d8636">More...</a><br /></td></tr>
@@ -385,6 +401,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga26deb06672b55559b11d6fbea126c7b8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#ga26deb06672b55559b11d6fbea126c7b8">JKQTPPlotSymbol</a> (TPainter &amp;painter, double x, double y, <a class="el" href="group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b">JKQTPGraphSymbols</a> symbol, double size, double symbolLineWidth, QColor color, QColor fillColor, QFont symbolFont)</td></tr>
 <tr class="memdesc:ga26deb06672b55559b11d6fbea126c7b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">plot the specified symbol at pixel position x,y  <a href="group__jkqtptools__drawing.html#ga26deb06672b55559b11d6fbea126c7b8">More...</a><br /></td></tr>
 <tr class="separator:ga26deb06672b55559b11d6fbea126c7b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1ff3b7f3c621ae70ce32741e6cfd5542"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> <a class="el" href="group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b">JKQTPGraphSymbols</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#ga1ff3b7f3c621ae70ce32741e6cfd5542">JKQTPRegisterCustomGraphSymbol</a> (const <a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">JKQTPCustomGraphSymbolFunctor</a> &amp;)</td></tr>
+<tr class="memdesc:ga1ff3b7f3c621ae70ce32741e6cfd5542"><td class="mdescLeft">&#160;</td><td class="mdescRight">register a JKQTPCustomGraphSymbolFunctor that draws a custom symbol.Returns an ID that allows to access the symbol!  <a href="group__jkqtptools__drawing.html#ga1ff3b7f3c621ae70ce32741e6cfd5542">More...</a><br /></td></tr>
+<tr class="separator:ga1ff3b7f3c621ae70ce32741e6cfd5542"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaddc75a3ec820e937797236719405aca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> <a class="el" href="group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b">JKQTPGraphSymbols</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#gaddc75a3ec820e937797236719405aca9">JKQTPRegisterCustomGraphSymbol</a> (<a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">JKQTPCustomGraphSymbolFunctor</a> &amp;&amp;)</td></tr>
+<tr class="memdesc:gaddc75a3ec820e937797236719405aca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">register a JKQTPCustomGraphSymbolFunctor that draws a custom symbol.Returns an ID that allows to access the symbol!  <a href="group__jkqtptools__drawing.html#gaddc75a3ec820e937797236719405aca9">More...</a><br /></td></tr>
+<tr class="separator:gaddc75a3ec820e937797236719405aca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae9410c33b360d17330be5a8891fc9bd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QPolygonF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#gae9410c33b360d17330be5a8891fc9bd8">jkqtpRotateRect</a> (QRectF r, double angle)</td></tr>
 <tr class="memdesc:gae9410c33b360d17330be5a8891fc9bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">rotate a rectangle by given angle (rotates all points around the center of the rectangle and returns it as a QPolygonF)  <a href="group__jkqtptools__drawing.html#gae9410c33b360d17330be5a8891fc9bd8">More...</a><br /></td></tr>
 <tr class="separator:gae9410c33b360d17330be5a8891fc9bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -421,9 +443,49 @@ Functions</h2></td></tr>
 <tr class="memitem:gad1b00ff55f388b562baa9053b38a254c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> <a class="el" href="group__jkqtptools__drawing.html#gabd0e8edf2acdfce37eccab000e445c62">JKQTPLineDecoratorStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#gad1b00ff55f388b562baa9053b38a254c">String2JKQTPLineDecoratorStyle</a> (const QString &amp;pos)</td></tr>
 <tr class="memdesc:gad1b00ff55f388b562baa9053b38a254c"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts a String into a JKQTPLineDecoratorStyle  <a href="group__jkqtptools__drawing.html#gad1b00ff55f388b562baa9053b38a254c">More...</a><br /></td></tr>
 <tr class="separator:gad1b00ff55f388b562baa9053b38a254c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ga2f6e4edc99131fd4572bbb6adddd1b85"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QVector&lt; <a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">JKQTPCustomGraphSymbolFunctor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#ga2f6e4edc99131fd4572bbb6adddd1b85">JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore</a></td></tr>
+<tr class="memdesc:ga2f6e4edc99131fd4572bbb6adddd1b85"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores all custom JKQTPGraphSymbols registered using JKQTPRegisterCustomGraphSymbol  <a href="group__jkqtptools__drawing.html#ga2f6e4edc99131fd4572bbb6adddd1b85">More...</a><br /></td></tr>
+<tr class="separator:ga2f6e4edc99131fd4572bbb6adddd1b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p >Specialized drawing functions used by the plotters and LaTeX renderers. </p>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ga3298f18f26663c9f2b550e47316631af" name="ga3298f18f26663c9f2b550e47316631af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3298f18f26663c9f2b550e47316631af">&#9670;&nbsp;</a></span>JKQTPCustomGraphSymbolFunctor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::function&lt;void(QPainter&amp; p)&gt; <a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">JKQTPCustomGraphSymbolFunctor</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>functor used to draw a custom JKQTPGraphSymbols </p>
+<p >Draw the symbol with these properties:</p><ul>
+<li>center at (0,0)</li>
+<li>width 1, i.e. x=-0.5...0.5</li>
+<li>height 1, i.e. y=-0.5...0.5</li>
+<li>you can assume that a proper pen and brush is set with the correct properties</li>
+<li>scaling to the final size is donw by <a class="el" href="group__jkqtptools__drawing.html#ga26deb06672b55559b11d6fbea126c7b8" title="plot the specified symbol at pixel position x,y">JKQTPPlotSymbol()</a></li>
+<li>drawing is protected by surronding <code>p.save()</code>; and <code>p.restore()</code>; in <a class="el" href="group__jkqtptools__drawing.html#ga26deb06672b55559b11d6fbea126c7b8" title="plot the specified symbol at pixel position x,y">JKQTPPlotSymbol()</a></li>
+</ul>
+<p >As an example, the following code-snippet: </p><div class="fragment"><div class="line">[](QPainter&amp; p) {</div>
+<div class="line">  p.drawEllipse(QPointF(-0.2, -0.2), 0.3, 0.3);</div>
+<div class="line">  p.setBrush(Qt::NoBrush);</div>
+<div class="line">  p.drawEllipse(QPointF(0.2, -0.2), 0.3, 0.3);</div>
+<div class="line">  p.drawEllipse(QPointF(0, 0.2), 0.3, 0.3);</div>
+<div class="line">};</div>
+</div><!-- fragment --><p> generates this symbol:</p><div class="image">
+<img src="symbol_custom.png" alt=""/>
+</div>
+ 
+</div>
+</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="gacdaaac6baeadbfd3677d4d53ea594b5b" name="gacdaaac6baeadbfd3677d4d53ea594b5b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gacdaaac6baeadbfd3677d4d53ea594b5b">&#9670;&nbsp;</a></span>JKQTPGraphSymbols</h2>
@@ -762,12 +824,34 @@ Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="ggacdaaac6baeadbfd3677d4d53ea594b5ba5b1fb2a1c575a4cc88a18790be31c57e" name="ggacdaaac6baeadbfd3677d4d53ea594b5ba5b1fb2a1c575a4cc88a18790be31c57e"></a>JKQTPDefaultSymbol&#160;</td><td class="fielddoc"><p >a default symbol used for plotting </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggacdaaac6baeadbfd3677d4d53ea594b5ba5ac2ee3d7e30a15354a5833fca4fcfbe" name="ggacdaaac6baeadbfd3677d4d53ea594b5ba5ac2ee3d7e30a15354a5833fca4fcfbe"></a>JKQTPCharacterSymbol&#160;</td><td class="fielddoc"><p >you can use any character from a QFont by supplying <code>JKQTPCharacterSymbol+QChar</code>('').unicode() as JKQTPGraphSymbols </p>
+<tr><td class="fieldname"><a id="ggacdaaac6baeadbfd3677d4d53ea594b5ba5ac2ee3d7e30a15354a5833fca4fcfbe" name="ggacdaaac6baeadbfd3677d4d53ea594b5ba5ac2ee3d7e30a15354a5833fca4fcfbe"></a>JKQTPCharacterSymbol&#160;</td><td class="fielddoc"><p >draw a font-character as symbol with defined fill-brush (taken from symbol-color), you can use any character from a QFont by supplying <code>JKQTPCharacterSymbol+QChar</code>('').unicode() as JKQTPGraphSymbols </p>
 <div class="image">
 <img src="symbol_char_at.png" alt=""/>
 <div class="caption">
 generated by JKQTPCharacterSymbol+QChar('@').unicode()</div></div>
+ <div class="image">
+<img src="symbol_char_club.png" alt=""/>
+<div class="caption">
+generated by JKQTPCharacterSymbol+QChar(0x2663).unicode()</div></div>
  </td></tr>
+<tr><td class="fieldname"><a id="ggacdaaac6baeadbfd3677d4d53ea594b5badb60b3fe996f2c2ba3da542ab7846411" name="ggacdaaac6baeadbfd3677d4d53ea594b5badb60b3fe996f2c2ba3da542ab7846411"></a>JKQTPFilledCharacterSymbol&#160;</td><td class="fielddoc"><p >draw a font-character as symbol with defined outline-pen and fill-brush, you can use any character from a QFont by supplying <code>JKQTPFilledCharacterSymbol+QChar</code>('').unicode() as JKQTPGraphSymbols </p>
+<div class="image">
+<img src="symbol_filled_char_at.png" alt=""/>
+<div class="caption">
+generated by JKQTPFilledCharacterSymbol+QChar('@').unicode()</div></div>
+ <div class="image">
+<img src="symbol_filled_char_club.png" alt=""/>
+<div class="caption">
+generated by JKQTPFilledCharacterSymbol+QChar(0x2663).unicode()</div></div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggacdaaac6baeadbfd3677d4d53ea594b5baf53e546701911a3f0ec64aa5b6622908" name="ggacdaaac6baeadbfd3677d4d53ea594b5baf53e546701911a3f0ec64aa5b6622908"></a>JKQTPFirstCustomSymbol&#160;</td><td class="fielddoc"><p >draw a completely custom symbol, defined by supplying a functor to <a class="el" href="group__jkqtptools__drawing.html#gaddc75a3ec820e937797236719405aca9" title="register a JKQTPCustomGraphSymbolFunctor that draws a custom symbol.Returns an ID that allows to acce...">JKQTPRegisterCustomGraphSymbol()</a> </p>
+<div class="image">
+<img src="symbol_custom.png" alt=""/>
+<div class="caption">
+generated by &lt;code&gt;[](QPainter&amp; p) { p.drawEllipse(QPointF(-0.2, -0.2), 0.3, 0.3); p.setBrush(Qt::NoBrush); p.drawEllipse(QPointF(0.2, -0.2), 0.3, 0.3); p.drawEllipse(QPointF(0, 0.2), 0.3, 0.3); };&lt;/code&gt;</div></div>
+<p> <br  />
+ </p>
+</td></tr>
 </table>
 
 </div>
@@ -795,125 +879,128 @@ generated by JKQTPCharacterSymbol+QChar('@').unicode()</div></div>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="_j_k_q_t_plotter_geometric_arrows.html">Example (JKQTPlotter): Plotting Arrows</a> and <a class="el" href="_j_k_q_t_plotter_geometric_graphs.html">Example (JKQTPlotter): Plotting Geometric Objects</a> </dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62a92f6ba607c3a22a426eb10c5e76242fa" name="ggabd0e8edf2acdfce37eccab000e445c62a92f6ba607c3a22a426eb10c5e76242fa"></a>JKQTPNoDecorator&#160;</td><td class="fielddoc"><p >no decorator, i.e. a simple line-end </p>
-</td></tr>
+<div class="image">
+<img src="none.png" alt=""/>
+</div>
+ </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62a5babdff4c392023a4921ad9b4f4c6b97" name="ggabd0e8edf2acdfce37eccab000e445c62a5babdff4c392023a4921ad9b4f4c6b97"></a>JKQTPArrow&#160;</td><td class="fielddoc"><p >a simple arrow tip, unfilled </p>
 <div class="image">
-<img src="JKQTPArrow.png" alt=""/>
+<img src="arrow.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62ac90a57d224ca6e90857175de770e9bec" name="ggabd0e8edf2acdfce37eccab000e445c62ac90a57d224ca6e90857175de770e9bec"></a>JKQTPFilledArrow&#160;</td><td class="fielddoc"><p >a nice filled arrow tip </p>
 <div class="image">
-<img src="JKQTPFilledArrow.png" alt=""/>
+<img src="filled_arrow.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62ae1be2c15b64711d9ba03af7f7f6a7422" name="ggabd0e8edf2acdfce37eccab000e445c62ae1be2c15b64711d9ba03af7f7f6a7422"></a>JKQTPTriangleDecorator&#160;</td><td class="fielddoc"><p >a triangular arrow tip </p>
 <div class="image">
-<img src="JKQTPTriangleDecorator.png" alt=""/>
+<img src="triangle.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62ab77e3a2f0992c7423a32d8d62cf3a169" name="ggabd0e8edf2acdfce37eccab000e445c62ab77e3a2f0992c7423a32d8d62cf3a169"></a>JKQTPFilledTriangleDecorator&#160;</td><td class="fielddoc"><p >a triangular filled arrow tip </p>
 <div class="image">
-<img src="JKQTPFilledTriangleDecorator.png" alt=""/>
+<img src="filled_triangle.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62a2bc14fbe5f490df1d771d9d9ca90bd50" name="ggabd0e8edf2acdfce37eccab000e445c62a2bc14fbe5f490df1d771d9d9ca90bd50"></a>JKQTPTriangleDecoratorAndBar&#160;</td><td class="fielddoc"><p >a triangular arrow tip, with vertical bar </p>
 <div class="image">
-<img src="JKQTPTriangleDecoratorAndBar.png" alt=""/>
+<img src="triangle_bar.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62ac02dcf8894bbf64fa21778d238994681" name="ggabd0e8edf2acdfce37eccab000e445c62ac02dcf8894bbf64fa21778d238994681"></a>JKQTPFilledTriangleDecoratorAndBar&#160;</td><td class="fielddoc"><p >a triangular filled arrow tip, with vertical bar </p>
 <div class="image">
-<img src="JKQTPFilledTriangleDecoratorAndBar.png" alt=""/>
+<img src="filled_triangle_bar.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62a375e1cfebc0d52044b577d421c9657fe" name="ggabd0e8edf2acdfce37eccab000e445c62a375e1cfebc0d52044b577d421c9657fe"></a>JKQTPDoubleArrow&#160;</td><td class="fielddoc"><p >a nice double-arrow tip </p>
 <div class="image">
-<img src="JKQTPDoubleArrow.png" alt=""/>
+<img src="double_arrow.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62afc199c6f876df2a662508f5cece64f14" name="ggabd0e8edf2acdfce37eccab000e445c62afc199c6f876df2a662508f5cece64f14"></a>JKQTPFilledDoubleArrow&#160;</td><td class="fielddoc"><p >a nice filled double-arrow tip </p>
 <div class="image">
-<img src="JKQTPFilledDoubleArrow.png" alt=""/>
+<img src="filled_double_arrow.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62a41d68cdea164bb498fec3f2a7458d0d5" name="ggabd0e8edf2acdfce37eccab000e445c62a41d68cdea164bb498fec3f2a7458d0d5"></a>JKQTPCircleDecorator&#160;</td><td class="fielddoc"><p >an open circle tip </p>
 <div class="image">
-<img src="JKQTPCircleDecorator.png" alt=""/>
+<img src="circle.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62a77e5ca5a522d21b8d3a23fb67dac32e3" name="ggabd0e8edf2acdfce37eccab000e445c62a77e5ca5a522d21b8d3a23fb67dac32e3"></a>JKQTPFilledCircleDecorator&#160;</td><td class="fielddoc"><p >a filled circle tip </p>
 <div class="image">
-<img src="JKQTPFilledCircleDecorator.png" alt=""/>
+<img src="filled_circle.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62ac99d0a4a40be16e67f94d3b266eb5a4c" name="ggabd0e8edf2acdfce37eccab000e445c62ac99d0a4a40be16e67f94d3b266eb5a4c"></a>JKQTPRectangleDecorator&#160;</td><td class="fielddoc"><p >an open rectangle tip </p>
 <div class="image">
-<img src="JKQTPRectangleDecorator.png" alt=""/>
+<img src="rectangle.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62af48121dffc49df02c152ab539b01962a" name="ggabd0e8edf2acdfce37eccab000e445c62af48121dffc49df02c152ab539b01962a"></a>JKQTPFilledRectangleDecorator&#160;</td><td class="fielddoc"><p >a filled rectangle tip </p>
 <div class="image">
-<img src="JKQTPFilledRectangleDecorator.png" alt=""/>
+<img src="filled_rectangle.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62a824fb6118ec163b33b1f529791017846" name="ggabd0e8edf2acdfce37eccab000e445c62a824fb6118ec163b33b1f529791017846"></a>JKQTPArrowAndBar&#160;</td><td class="fielddoc"><p >a simple arrow tip, unfilled, with vertical bar </p>
 <div class="image">
-<img src="JKQTPArrowAndBar.png" alt=""/>
+<img src="arrow_bar.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62aa9efe392955be1bd922151d7d5724ac8" name="ggabd0e8edf2acdfce37eccab000e445c62aa9efe392955be1bd922151d7d5724ac8"></a>JKQTPDoubleArrowAndBar&#160;</td><td class="fielddoc"><p >a simple double-arrow tip, unfilled, with vertical bar </p>
 <div class="image">
-<img src="JKQTPDoubleArrowAndBar.png" alt=""/>
+<img src="double_arrow_bar.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62aa2e70c8b3ef40da08519a987b7b95c5c" name="ggabd0e8edf2acdfce37eccab000e445c62aa2e70c8b3ef40da08519a987b7b95c5c"></a>JKQTPBarDecorator&#160;</td><td class="fielddoc"><p >a full vertical bar </p>
 <div class="image">
-<img src="JKQTPBarDecorator.png" alt=""/>
+<img src="bar.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62a8d677cdccab2b8b59b94faa41770add2" name="ggabd0e8edf2acdfce37eccab000e445c62a8d677cdccab2b8b59b94faa41770add2"></a>JKQTPBracketDecorator&#160;</td><td class="fielddoc"><p >a vertical bracket decorator </p>
 <div class="image">
-<img src="JKQTPBracketDecorator.png" alt=""/>
+<img src="bracket.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62a1fd70edb616058cb71121d7f268db22d" name="ggabd0e8edf2acdfce37eccab000e445c62a1fd70edb616058cb71121d7f268db22d"></a>JKQTPDiamondDecorator&#160;</td><td class="fielddoc"><p >an open diamond tip </p>
 <div class="image">
-<img src="JKQTPDiamondDecorator.png" alt=""/>
+<img src="diamond.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62ab0c6f701735f203351d2f6e09f2e45e7" name="ggabd0e8edf2acdfce37eccab000e445c62ab0c6f701735f203351d2f6e09f2e45e7"></a>JKQTPDiamondDecoratorAndBar&#160;</td><td class="fielddoc"><p >an open diamond tip </p>
 <div class="image">
-<img src="JKQTPDiamondDecoratorAndBar.png" alt=""/>
+<img src="diamond_bar.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62aab80c108c961d0f34a71049bb76cbef7" name="ggabd0e8edf2acdfce37eccab000e445c62aab80c108c961d0f34a71049bb76cbef7"></a>JKQTPFilledDiamondDecorator&#160;</td><td class="fielddoc"><p >a filled diamond tip </p>
 <div class="image">
-<img src="JKQTPFilledDiamondDecorator.png" alt=""/>
+<img src="filled_diamond.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62a1a9fd9ea28d23c878ad59bb04a047a04" name="ggabd0e8edf2acdfce37eccab000e445c62a1a9fd9ea28d23c878ad59bb04a047a04"></a>JKQTPFilledDiamondDecoratorAndBar&#160;</td><td class="fielddoc"><p >a filled diamond tip </p>
 <div class="image">
-<img src="JKQTPFilledDiamondDecoratorAndBar.png" alt=""/>
+<img src="linedecorators/filled_dimanond_bar.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62ab24bc4c7c57f81553c38b82698b3f5d0" name="ggabd0e8edf2acdfce37eccab000e445c62ab24bc4c7c57f81553c38b82698b3f5d0"></a>JKQTPHalfBarDecorator&#160;</td><td class="fielddoc"><p >a half vertical bar </p>
 <div class="image">
-<img src="JKQTPHalfBarDecorator.png" alt=""/>
+<img src="half_bar.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62a21c8df479addeb9f13190e0060322dea" name="ggabd0e8edf2acdfce37eccab000e445c62a21c8df479addeb9f13190e0060322dea"></a>JKQTPHarpoonDecorator&#160;</td><td class="fielddoc"><p >an harpoon arrow </p>
 <div class="image">
-<img src="JKQTPHarpoonDecorator.png" alt=""/>
+<img src="harpoon.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62adb7517e9c81e0f2dc470e76b430f3ff1" name="ggabd0e8edf2acdfce37eccab000e445c62adb7517e9c81e0f2dc470e76b430f3ff1"></a>JKQTPHarpoonDecoratorAndBar&#160;</td><td class="fielddoc"><p >an harpoon arrow, with vertical bar </p>
 <div class="image">
-<img src="JKQTPHarpoonDecoratorAndBar.png" alt=""/>
+<img src="harpoon_bar.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62ad8d157ff5b8104ff8e3601b3bf1c7068" name="ggabd0e8edf2acdfce37eccab000e445c62ad8d157ff5b8104ff8e3601b3bf1c7068"></a>JKQTPSkewedBarDecorator&#160;</td><td class="fielddoc"><p >a skewed vertical bar </p>
 <div class="image">
-<img src="JKQTPSkewedBarDecorator.png" alt=""/>
+<img src="skewed_bar.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggabd0e8edf2acdfce37eccab000e445c62ae357a7a2c7a77f17e222adc26f1cf5fe" name="ggabd0e8edf2acdfce37eccab000e445c62ae357a7a2c7a77f17e222adc26f1cf5fe"></a>JKQTPLineDecoratorCount&#160;</td><td class="fielddoc"><p >can be used to iterate over all symbols using: <code>for (int i=0; i&lt;static_cast&lt;int&gt;(JKQTPLineDecoratorCount); i++) { JKQTPLineDecoratorStyle s=static_cast&lt;JKQTPLineDecoratorStyle&gt;(i); ... }</code> </p>
@@ -1440,6 +1527,87 @@ template&lt;class TPainter &gt; </div>
 
 </div>
 </div>
+<a id="gaa61b127666717e9cef2e447fe11631c4" name="gaa61b127666717e9cef2e447fe11631c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa61b127666717e9cef2e447fe11631c4">&#9670;&nbsp;</a></span>JKQTPPlotDecoratedLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TPainter &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTPPlotDecoratedLine </td>
+          <td>(</td>
+          <td class="paramtype">TPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QLineF &amp;&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__jkqtptools__drawing.html#gabd0e8edf2acdfce37eccab000e445c62">JKQTPLineDecoratorStyle</a>&#160;</td>
+          <td class="paramname"><em>style1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>size1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__jkqtptools__drawing.html#gabd0e8edf2acdfce37eccab000e445c62">JKQTPLineDecoratorStyle</a>&#160;</td>
+          <td class="paramname"><em>style2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>size2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>plot a line with the given decorators <em>style1</em> and a style2 at the start- and end-point repsectively, using the painter's current pen </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TPainter</td><td>Type of <em>painter:</em> A class like <a class="el" href="class_j_k_q_t_p_enhanced_painter.html" title="this class extends the QPainter">JKQTPEnhancedPainter</a> or <a href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">painter</td><td>the <a href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> to draw to </td></tr>
+    <tr><td class="paramname">l</td><td>line to draw </td></tr>
+    <tr><td class="paramname">style1</td><td>type of the first decorator to plot, see JKQTPLineDecoratorStyle </td></tr>
+    <tr><td class="paramname">size1</td><td>size of the first decorator </td></tr>
+    <tr><td class="paramname">style2</td><td>type of the second decorator to plot, see JKQTPLineDecoratorStyle </td></tr>
+    <tr><td class="paramname">size2</td><td>size of the second decorator </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga8796c26fb6bd2654e10a9640654d8636" name="ga8796c26fb6bd2654e10a9640654d8636"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga8796c26fb6bd2654e10a9640654d8636">&#9670;&nbsp;</a></span>JKQTPPlotLineDecorator()</h2>
 
@@ -1713,6 +1881,50 @@ template&lt;class TPainter &gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ga1ff3b7f3c621ae70ce32741e6cfd5542" name="ga1ff3b7f3c621ae70ce32741e6cfd5542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1ff3b7f3c621ae70ce32741e6cfd5542">&#9670;&nbsp;</a></span>JKQTPRegisterCustomGraphSymbol() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> <a class="el" href="group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b">JKQTPGraphSymbols</a> JKQTPRegisterCustomGraphSymbol </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">JKQTPCustomGraphSymbolFunctor</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>register a JKQTPCustomGraphSymbolFunctor that draws a custom symbol.Returns an ID that allows to access the symbol! </p>
+<p >The functor is stored in the global/static store <a class="el" href="group__jkqtptools__drawing.html#ga2f6e4edc99131fd4572bbb6adddd1b85" title="stores all custom JKQTPGraphSymbols registered using JKQTPRegisterCustomGraphSymbol">JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore</a>, i.e. these are available throughout the runtime of the program</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af" title="functor used to draw a custom JKQTPGraphSymbols">JKQTPCustomGraphSymbolFunctor</a> for an example </dd></dl>
+
+</div>
+</div>
+<a id="gaddc75a3ec820e937797236719405aca9" name="gaddc75a3ec820e937797236719405aca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaddc75a3ec820e937797236719405aca9">&#9670;&nbsp;</a></span>JKQTPRegisterCustomGraphSymbol() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> <a class="el" href="group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b">JKQTPGraphSymbols</a> JKQTPRegisterCustomGraphSymbol </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">JKQTPCustomGraphSymbolFunctor</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>register a JKQTPCustomGraphSymbolFunctor that draws a custom symbol.Returns an ID that allows to access the symbol! </p>
+<p >The functor is stored in the global/static store <a class="el" href="group__jkqtptools__drawing.html#ga2f6e4edc99131fd4572bbb6adddd1b85" title="stores all custom JKQTPGraphSymbols registered using JKQTPRegisterCustomGraphSymbol">JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore</a>, i.e. these are available throughout the runtime of the program</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af" title="functor used to draw a custom JKQTPGraphSymbols">JKQTPCustomGraphSymbolFunctor</a> for an example </dd></dl>
 
 </div>
 </div>
@@ -2264,13 +2476,38 @@ template&lt;class TPainter &gt; </div>
 
 </div>
 </div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ga2f6e4edc99131fd4572bbb6adddd1b85" name="ga2f6e4edc99131fd4572bbb6adddd1b85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2f6e4edc99131fd4572bbb6adddd1b85">&#9670;&nbsp;</a></span>JKQTPCustomGraphSymbolStore</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QVector&lt;<a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">JKQTPCustomGraphSymbolFunctor</a>&gt; JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>stores all custom JKQTPGraphSymbols registered using JKQTPRegisterCustomGraphSymbol </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.3-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Sep 2 2022 21:05:19 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Wed Sep 7 2022 19:54:50 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

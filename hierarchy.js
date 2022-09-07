@@ -413,6 +413,7 @@ var hierarchy =
       [ "JKQTPlotter", "class_j_k_q_t_plotter.html", null ]
     ] ],
     [ "JKQTPLinePlotStyleWithSymbolSizeComboBox::styleData", "struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html", null ],
+    [ "JKQTPXYParametrizedScatterGraph::SymbolDescription", "group__jkqtplotter__linesymbolgraphs__param.html#struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_symbol_description", null ],
     [ "JKQTMathTextSymbolNode::SymbolFullProps", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html", null ],
     [ "JKQTMathTextSymbolNode::SymbolProps", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html", null ],
     [ "JKQTBasePlotter::textSizeData", "struct_j_k_q_t_base_plotter_1_1text_size_data.html", null ],
