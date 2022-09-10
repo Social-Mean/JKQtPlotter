@@ -164,6 +164,8 @@ FIXED: styling was not properly applied to coordinate axes of colorbars outside 
 <li>
 FIXED issue <a href="https://github.com/jkriege2/JKQtPlotter/pull/73">#73: Symbol thickness differs in actual plot and legend</a>, thanks to <a href="https://github.com/sim186">user:sim186</a> </li>
 <li>
+FIXED plot-size calculation for filled graphs </li>
+<li>
 REORGANIZED: separated line-graphs from <a class="el" href="jkqtpscatter_8h_source.html">jkqtpscatter.h</a>/.cpp into <a class="el" href="jkqtplines_8h_source.html">jkqtplines.h</a>/.cpp </li>
 <li>
 IMPROVED: QT6-compatibility by removing deprecated warnings </li>
@@ -205,6 +207,12 @@ NEW: added the option to draw a character from a font as symbol (<code>JKQTPChar
 NEW: added the option to register a custom symbol using <a class="el" href="group__jkqtptools__drawing.html#gaddc75a3ec820e937797236719405aca9" title="register a JKQTPCustomGraphSymbolFunctor that draws a custom symbol.Returns an ID that allows to acce...">JKQTPRegisterCustomGraphSymbol()</a>  </li>
 <li>
 NEW: added property drawLineInForeground to <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a> and <a class="el" href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html" title="This implements xy scatter plots (like JKQTPXYScatterGraph), but the color and size of the symbols ma...">JKQTPXYParametrizedScatterGraph</a> </li>
+<li>
+NEW: added <a class="el" href="class_j_k_q_t_p_x_y_graph.html#ae12daea658313e0e688c76f1adfc1355" title="sets the column used as &quot;key&quot; for the current graph (typically this call setXColumn(),...">JKQTPXYGraph::setKeyColumn()</a>/JKQTPXYGraph::getKeyColumn() and <a class="el" href="class_j_k_q_t_p_x_y_graph.html#ad57ea73d1ab7f76692bf8856a1678783" title="sets the column used as &quot;value&quot; for the current graph (typically this call setXColumn(),...">JKQTPXYGraph::setValueColumn()</a>/JKQTPXYGraph::getValueColumn() and corresponding functions in other classes. In most graph classes they point to xColumn for key and yColumn for values. These functions are virtual and overwritten in derived classes with horizontally oriented graphs, where they point to yColumn for key and yColumn for value. This way you can write generic code with classes for both orientations. </li>
+<li>
+NEW: barcharts (derived from <a class="el" href="class_j_k_q_t_p_bar_graph_base.html" title="This is a base-class for all bar graphs with vertical or horizontal orientation (the orientation is i...">JKQTPBarGraphBase</a>) can be configured to use different fill styles above and below the baseline, see <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c" title="specifies how the area below the graph is filled">JKQTPBarGraphBase::FillMode</a>  </li>
+<li>
+NEW: added new error indicator styles JKQTPErrorHalfBarsOutwards, JKQTPErrorHalfBarsInwards, JKQTPErrorHalfBarsAbove, JKQTPErrorHalfBarsBelow which are especially useful for barcharts </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -593,7 +601,7 @@ v2015.10: Download</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Sep 8 2022 07:00:45 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Sep 10 2022 22:09:43 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

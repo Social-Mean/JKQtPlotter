@@ -12,7 +12,7 @@ var group__jkqtplotter__linesymbolgraphs__simple =
       [ "getFillMode", "class_j_k_q_t_p_filled_curve_graph_base.html#a2a6f3fe9c4ee9811bd7badda03eff5eb", null ],
       [ "getKeyLabelColor", "class_j_k_q_t_p_filled_curve_graph_base.html#a2efda75cf3cc0686c2f39adbbfe64daf", null ],
       [ "setColor", "class_j_k_q_t_p_filled_curve_graph_base.html#aba040cc6dac602cc58e8feaeffdb3a2b", null ],
-      [ "setFillMode", "class_j_k_q_t_p_filled_curve_graph_base.html#a3eadf2a741082e14d8e2347c80c4cb08", null ],
+      [ "setFillMode", "class_j_k_q_t_p_filled_curve_graph_base.html#afe10a3b7c9b75fc6834081ac6cfb10a3", null ],
       [ "m_fillMode", "class_j_k_q_t_p_filled_curve_graph_base.html#a7449f9d7567f75a511758663e0fc8991", null ],
       [ "m_fillStyleBelow", "class_j_k_q_t_p_filled_curve_graph_base.html#a8fac9d458a903a4cf75bacc6057a4890", null ]
     ] ],
@@ -66,7 +66,11 @@ var group__jkqtplotter__linesymbolgraphs__simple =
     [ "JKQTPSpecialLineVerticalGraph", "class_j_k_q_t_p_special_line_vertical_graph.html", [
       [ "JKQTPSpecialLineVerticalGraph", "class_j_k_q_t_p_special_line_vertical_graph.html#a907699cb8085810dd48ec80ba229c666", null ],
       [ "JKQTPSpecialLineVerticalGraph", "class_j_k_q_t_p_special_line_vertical_graph.html#ad0e4fb94ed69010ba48bcd478b2d301b", null ],
-      [ "draw", "class_j_k_q_t_p_special_line_vertical_graph.html#afa4338fa77f49bdf22e52bd36fd3f8a2", null ]
+      [ "draw", "class_j_k_q_t_p_special_line_vertical_graph.html#afa4338fa77f49bdf22e52bd36fd3f8a2", null ],
+      [ "getKeyColumn", "class_j_k_q_t_p_special_line_vertical_graph.html#a1aabbbc1ab611eeb457b7dc49a47920f", null ],
+      [ "getValueColumn", "class_j_k_q_t_p_special_line_vertical_graph.html#a2aae1e1ea912d0e9bd942cd3b203697c", null ],
+      [ "setKeyColumn", "class_j_k_q_t_p_special_line_vertical_graph.html#a4193fb0a0d69f9748dee2e658a082c4a", null ],
+      [ "setValueColumn", "class_j_k_q_t_p_special_line_vertical_graph.html#a4391543ab7675daa303d45cc4b9b3b6f", null ]
     ] ],
     [ "JKQTPXYLineErrorGraph", "class_j_k_q_t_p_x_y_line_error_graph.html", [
       [ "JKQTPXYLineErrorGraph", "class_j_k_q_t_p_x_y_line_error_graph.html#ab3b2de3b592525117d38cad8b13d0274", null ],

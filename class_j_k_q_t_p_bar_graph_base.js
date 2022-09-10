@@ -1,13 +1,20 @@
 var class_j_k_q_t_p_bar_graph_base =
 [
+    [ "FillMode", "class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c", [
+      [ "SingleFilling", "class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138ca37863fa488d9106e4ea2d7386228d6ee", null ],
+      [ "TwoColorFilling", "class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138cafbd17c32ed2bbb077928309e1ef1a6d2", null ]
+    ] ],
     [ "JKQTPBarGraphBase", "class_j_k_q_t_p_bar_graph_base.html#ac562009307ba05ef7215dcdcd1d9d066", null ],
     [ "JKQTPBarGraphBase", "class_j_k_q_t_p_bar_graph_base.html#aca6f814defc6ec8cfa2b170ec2f49aaf", null ],
     [ "autoscaleBarWidthAndShift", "class_j_k_q_t_p_bar_graph_base.html#a32e4ed5fdd4843c9c4b8c1f4d08492a2", null ],
     [ "autoscaleBarWidthAndShiftSeparatedGroups", "class_j_k_q_t_p_bar_graph_base.html#ae38cbe079c4e1d97c93bcc11409920e4", null ],
     [ "considerForAutoscaling", "class_j_k_q_t_p_bar_graph_base.html#a8bffa2a0a11acd75a6df78db71564ce5", null ],
     [ "drawKeyMarker", "class_j_k_q_t_p_bar_graph_base.html#aa6e46cca71e4abcdb25a0f8be96ee963", null ],
+    [ "fillStyleBelow", "class_j_k_q_t_p_bar_graph_base.html#a31a91f661e59b99893a6a16cc3905d30", null ],
+    [ "fillStyleBelow", "class_j_k_q_t_p_bar_graph_base.html#a073be1d16234579d1fa72cf0d4cfd889", null ],
     [ "getBarHeightColumn", "class_j_k_q_t_p_bar_graph_base.html#a304a1d7d1642b971efe6f81e97501940", null ],
     [ "getBarPositionColumn", "class_j_k_q_t_p_bar_graph_base.html#af9059af20ed3014e025ca4c761122d0d", null ],
+    [ "getFillMode", "class_j_k_q_t_p_bar_graph_base.html#ad6f646f52d1a0227dc577745d02cf25c", null ],
     [ "getKeyLabelColor", "class_j_k_q_t_p_bar_graph_base.html#a540126a39d7cb4e119a8e3eb2f00920a", null ],
     [ "getParentStackedMax", "class_j_k_q_t_p_bar_graph_base.html#a0b1f44e33c1762d04cd319f3c50b1af1", null ],
     [ "getPositionsMinMax", "class_j_k_q_t_p_bar_graph_base.html#a79c523592cf808bb45fb22d9fa3272b5", null ],
@@ -21,8 +28,11 @@ var class_j_k_q_t_p_bar_graph_base =
     [ "setBarPositionColumn", "class_j_k_q_t_p_bar_graph_base.html#af7c1cfd2039c880776b02441fb80647e", null ],
     [ "setColor", "class_j_k_q_t_p_bar_graph_base.html#a78cb2697e2cedd3716179f05bba976fa", null ],
     [ "setFillColor_and_darkenedColor", "class_j_k_q_t_p_bar_graph_base.html#a550acbc5d0b626d5a23bd1d0846b58f5", null ],
+    [ "setFillMode", "class_j_k_q_t_p_bar_graph_base.html#a4bbbb0f64430f5c8d66701d1a1dbfa29", null ],
     [ "setShift", "class_j_k_q_t_p_bar_graph_base.html#a0c9628cdecf4361713cb1a6b024293b7", null ],
     [ "setWidth", "class_j_k_q_t_p_bar_graph_base.html#af6eed994ffc12e3e3aedc4c185ccac87", null ],
+    [ "m_fillMode", "class_j_k_q_t_p_bar_graph_base.html#a3c84eebc2b3820e321306fde488035fe", null ],
+    [ "m_fillStyleBelow", "class_j_k_q_t_p_bar_graph_base.html#a72cc32b8d269c178d3da7aa3ed8edda4", null ],
     [ "shift", "class_j_k_q_t_p_bar_graph_base.html#aef33b5823589e9c2b7510e5c8aaef580", null ],
     [ "width", "class_j_k_q_t_p_bar_graph_base.html#a68a9ac1501313f0e18b57bbf8dde6eef", null ]
 ];

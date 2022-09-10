@@ -1,14 +1,21 @@
 var group__jkqtplotter__barssticks =
 [
     [ "JKQTPBarGraphBase", "class_j_k_q_t_p_bar_graph_base.html", [
+      [ "FillMode", "class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c", [
+        [ "SingleFilling", "class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138ca37863fa488d9106e4ea2d7386228d6ee", null ],
+        [ "TwoColorFilling", "class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138cafbd17c32ed2bbb077928309e1ef1a6d2", null ]
+      ] ],
       [ "JKQTPBarGraphBase", "class_j_k_q_t_p_bar_graph_base.html#ac562009307ba05ef7215dcdcd1d9d066", null ],
       [ "JKQTPBarGraphBase", "class_j_k_q_t_p_bar_graph_base.html#aca6f814defc6ec8cfa2b170ec2f49aaf", null ],
       [ "autoscaleBarWidthAndShift", "class_j_k_q_t_p_bar_graph_base.html#a32e4ed5fdd4843c9c4b8c1f4d08492a2", null ],
       [ "autoscaleBarWidthAndShiftSeparatedGroups", "class_j_k_q_t_p_bar_graph_base.html#ae38cbe079c4e1d97c93bcc11409920e4", null ],
       [ "considerForAutoscaling", "class_j_k_q_t_p_bar_graph_base.html#a8bffa2a0a11acd75a6df78db71564ce5", null ],
       [ "drawKeyMarker", "class_j_k_q_t_p_bar_graph_base.html#aa6e46cca71e4abcdb25a0f8be96ee963", null ],
+      [ "fillStyleBelow", "class_j_k_q_t_p_bar_graph_base.html#a31a91f661e59b99893a6a16cc3905d30", null ],
+      [ "fillStyleBelow", "class_j_k_q_t_p_bar_graph_base.html#a073be1d16234579d1fa72cf0d4cfd889", null ],
       [ "getBarHeightColumn", "class_j_k_q_t_p_bar_graph_base.html#a304a1d7d1642b971efe6f81e97501940", null ],
       [ "getBarPositionColumn", "class_j_k_q_t_p_bar_graph_base.html#af9059af20ed3014e025ca4c761122d0d", null ],
+      [ "getFillMode", "class_j_k_q_t_p_bar_graph_base.html#ad6f646f52d1a0227dc577745d02cf25c", null ],
       [ "getKeyLabelColor", "class_j_k_q_t_p_bar_graph_base.html#a540126a39d7cb4e119a8e3eb2f00920a", null ],
       [ "getParentStackedMax", "class_j_k_q_t_p_bar_graph_base.html#a0b1f44e33c1762d04cd319f3c50b1af1", null ],
       [ "getPositionsMinMax", "class_j_k_q_t_p_bar_graph_base.html#a79c523592cf808bb45fb22d9fa3272b5", null ],
@@ -22,8 +29,11 @@ var group__jkqtplotter__barssticks =
       [ "setBarPositionColumn", "class_j_k_q_t_p_bar_graph_base.html#af7c1cfd2039c880776b02441fb80647e", null ],
       [ "setColor", "class_j_k_q_t_p_bar_graph_base.html#a78cb2697e2cedd3716179f05bba976fa", null ],
       [ "setFillColor_and_darkenedColor", "class_j_k_q_t_p_bar_graph_base.html#a550acbc5d0b626d5a23bd1d0846b58f5", null ],
+      [ "setFillMode", "class_j_k_q_t_p_bar_graph_base.html#a4bbbb0f64430f5c8d66701d1a1dbfa29", null ],
       [ "setShift", "class_j_k_q_t_p_bar_graph_base.html#a0c9628cdecf4361713cb1a6b024293b7", null ],
       [ "setWidth", "class_j_k_q_t_p_bar_graph_base.html#af6eed994ffc12e3e3aedc4c185ccac87", null ],
+      [ "m_fillMode", "class_j_k_q_t_p_bar_graph_base.html#a3c84eebc2b3820e321306fde488035fe", null ],
+      [ "m_fillStyleBelow", "class_j_k_q_t_p_bar_graph_base.html#a72cc32b8d269c178d3da7aa3ed8edda4", null ],
       [ "shift", "class_j_k_q_t_p_bar_graph_base.html#aef33b5823589e9c2b7510e5c8aaef580", null ],
       [ "width", "class_j_k_q_t_p_bar_graph_base.html#a68a9ac1501313f0e18b57bbf8dde6eef", null ]
     ] ],
@@ -32,10 +42,14 @@ var group__jkqtplotter__barssticks =
       [ "JKQTPBarHorizontalErrorGraph", "class_j_k_q_t_p_bar_horizontal_error_graph.html#a32da2d1011d58e11bbe9d55d2b039134", null ],
       [ "drawErrorsAfter", "class_j_k_q_t_p_bar_horizontal_error_graph.html#abe722cc253fbd877c566bc8d00591bbd", null ],
       [ "getBarErrorColumn", "class_j_k_q_t_p_bar_horizontal_error_graph.html#a7cef2fe700779b9bf14ff905b19c48e8", null ],
+      [ "getBarErrorStyle", "class_j_k_q_t_p_bar_horizontal_error_graph.html#a3fe9fa85a1110b1bb85bd1d5139e7170", null ],
+      [ "getBarErrorSymmetric", "class_j_k_q_t_p_bar_horizontal_error_graph.html#a6c6cb6e0bb8c08992d8b69061d0404b7", null ],
       [ "getBarLowerErrorColumn", "class_j_k_q_t_p_bar_horizontal_error_graph.html#a8933986f713acaf6969b8d8c680c94fe", null ],
       [ "getXMinMax", "class_j_k_q_t_p_bar_horizontal_error_graph.html#a24b62846d364609d86755fd1ecf8590b", null ],
       [ "setBarErrorColumn", "class_j_k_q_t_p_bar_horizontal_error_graph.html#a01bb86225aacf05f023e8029a9e616dd", null ],
       [ "setBarErrorColumn", "class_j_k_q_t_p_bar_horizontal_error_graph.html#a6a317ba5a9468ad54c84491dcc1cfe57", null ],
+      [ "setBarErrorStyle", "class_j_k_q_t_p_bar_horizontal_error_graph.html#a40a1ed16774fbf7eccbf9b9c1cb0e314", null ],
+      [ "setBarErrorSymmetric", "class_j_k_q_t_p_bar_horizontal_error_graph.html#a2febb13837bab50a845187f3d1fd863d", null ],
       [ "setBarLowerErrorColumn", "class_j_k_q_t_p_bar_horizontal_error_graph.html#ab94cdb047041a72b035a707ccfa66f32", null ],
       [ "setBarLowerErrorColumn", "class_j_k_q_t_p_bar_horizontal_error_graph.html#adad16cd26f94869762f69bd1f72b0e85", null ],
       [ "usesColumn", "class_j_k_q_t_p_bar_horizontal_error_graph.html#a46bb2611dc81ec9e78225d601526c4e9", null ]
@@ -47,12 +61,16 @@ var group__jkqtplotter__barssticks =
       [ "draw", "class_j_k_q_t_p_bar_horizontal_graph.html#a6e9d25a8dcdcfe9e2614e662c3039f77", null ],
       [ "getBarHeightColumn", "class_j_k_q_t_p_bar_horizontal_graph.html#ae6777817e843e656511867789b576d34", null ],
       [ "getBarPositionColumn", "class_j_k_q_t_p_bar_horizontal_graph.html#afdef41c89525565ab61da5856ce9dc7c", null ],
+      [ "getKeyColumn", "class_j_k_q_t_p_bar_horizontal_graph.html#af22a95628fd9333f86eaa58b52ba4e02", null ],
+      [ "getValueColumn", "class_j_k_q_t_p_bar_horizontal_graph.html#a90c855707b90e37abd9c81e26985bad8", null ],
       [ "getXMinMax", "class_j_k_q_t_p_bar_horizontal_graph.html#aed5a0e1a263fe74701dfd739c93ae7cc", null ],
       [ "getYMinMax", "class_j_k_q_t_p_bar_horizontal_graph.html#a28dd0aeaf0396b2ecc190df98f420f5e", null ],
       [ "setBarHeightColumn", "class_j_k_q_t_p_bar_horizontal_graph.html#ae9d52f6d5d813a6b635417e60f60face", null ],
       [ "setBarHeightColumn", "class_j_k_q_t_p_bar_horizontal_graph.html#a094fe62e94814ab1e97ed4f2aa0e8126", null ],
       [ "setBarPositionColumn", "class_j_k_q_t_p_bar_horizontal_graph.html#ab7df535099e717b3f7e0fecf541982e6", null ],
-      [ "setBarPositionColumn", "class_j_k_q_t_p_bar_horizontal_graph.html#ada0f777b7c6094979bcf70cf81656e51", null ]
+      [ "setBarPositionColumn", "class_j_k_q_t_p_bar_horizontal_graph.html#ada0f777b7c6094979bcf70cf81656e51", null ],
+      [ "setKeyColumn", "class_j_k_q_t_p_bar_horizontal_graph.html#ab62fa6913b97f085b9f877a1168d4820", null ],
+      [ "setValueColumn", "class_j_k_q_t_p_bar_horizontal_graph.html#a30cbe297f3800e23ae4993c9d82e5d5e", null ]
     ] ],
     [ "JKQTPBarHorizontalStackableGraph", "class_j_k_q_t_p_bar_horizontal_stackable_graph.html", [
       [ "JKQTPBarHorizontalStackableGraph", "class_j_k_q_t_p_bar_horizontal_stackable_graph.html#af984b8208a04c3fd096c7a6fc98b0ec9", null ],
@@ -71,10 +89,14 @@ var group__jkqtplotter__barssticks =
       [ "JKQTPBarVerticalErrorGraph", "class_j_k_q_t_p_bar_vertical_error_graph.html#a9eb27318f0310007c9e6a2bdbead66cf", null ],
       [ "drawErrorsAfter", "class_j_k_q_t_p_bar_vertical_error_graph.html#ac09b1522a84cf914b0f700f8274a0297", null ],
       [ "getBarErrorColumn", "class_j_k_q_t_p_bar_vertical_error_graph.html#a1c391d75958086c4a4ac480ca6160067", null ],
+      [ "getBarErrorStyle", "class_j_k_q_t_p_bar_vertical_error_graph.html#a60c036d1c8ec111eaf9f5a24932c74d2", null ],
+      [ "getBarErrorSymmetric", "class_j_k_q_t_p_bar_vertical_error_graph.html#a12aa25e3cc12af4f4544957fab1a8d00", null ],
       [ "getBarLowerErrorColumn", "class_j_k_q_t_p_bar_vertical_error_graph.html#afa04880241d0ed2594fbde49fa0fe89c", null ],
       [ "getYMinMax", "class_j_k_q_t_p_bar_vertical_error_graph.html#a14666fe46d7fb43a57e278a536168e55", null ],
       [ "setBarErrorColumn", "class_j_k_q_t_p_bar_vertical_error_graph.html#a688db752fbdd5f1e12d5433f6a9e3f8a", null ],
       [ "setBarErrorColumn", "class_j_k_q_t_p_bar_vertical_error_graph.html#a8ff4f624edd21f6275e43c1aa473377b", null ],
+      [ "setBarErrorStyle", "class_j_k_q_t_p_bar_vertical_error_graph.html#a29881cf92d1a211b72596fc75e7979f0", null ],
+      [ "setBarErrorSymmetric", "class_j_k_q_t_p_bar_vertical_error_graph.html#afd1b5f21457e37db6d6c307832bb5db2", null ],
       [ "setBarLowerErrorColumn", "class_j_k_q_t_p_bar_vertical_error_graph.html#aa288a0df3f0faf3963a91427e49dc33b", null ],
       [ "setBarLowerErrorColumn", "class_j_k_q_t_p_bar_vertical_error_graph.html#ae20261f2e290e8e059877e33054e5a8a", null ],
       [ "usesColumn", "class_j_k_q_t_p_bar_vertical_error_graph.html#a6a6c225469090282945d8504c8cec93c", null ]
