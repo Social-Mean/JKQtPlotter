@@ -1,5 +1,9 @@
 var NAVTREEINDEX24 =
 {
+"class_j_k_q_t_plotter.html#acf4d9bae7a82c1348824e8535aa0d498":[12,4,3,1,86],
+"class_j_k_q_t_plotter.html#ad25362583729427fd45d5af76a896c75":[12,4,3,1,165],
+"class_j_k_q_t_plotter.html#ad325f2a1a12602b10d63087ee51a506c":[12,4,3,1,7],
+"class_j_k_q_t_plotter.html#ad43d40d9e57f09bc84963a6d6dbdf033":[12,4,3,1,220],
 "class_j_k_q_t_plotter.html#ad4477bc4320145683325a32df0999baf":[12,4,3,1,257],
 "class_j_k_q_t_plotter.html#ad539ba834dae8a1dea629afc085ad977":[12,4,3,1,138],
 "class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082":[12,4,3,1,213],
@@ -102,8 +106,8 @@ var NAVTREEINDEX24 =
 "functions_d.html":[14,3,0,3],
 "functions_e.html":[14,3,0,4],
 "functions_enum.html":[14,3,4],
-"functions_eval.html":[14,3,5],
 "functions_eval.html":[14,3,5,0],
+"functions_eval.html":[14,3,5],
 "functions_eval_b.html":[14,3,5,1],
 "functions_eval_c.html":[14,3,5,2],
 "functions_eval_d.html":[14,3,5,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX24 =
 "group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7eaec383cb07d8b99477b687dfbab9a049b":[12,2,1,3,6],
 "group__jkqtmathtext.html":[12,3],
 "group__jkqtmathtext__fonthandling.html":[12,3,0,0],
-"group__jkqtmathtext__general.html":[12,3,0],
-"group__jkqtmathtext__general__languages.html":[12,3,0,2],
-"group__jkqtmathtext__general__latex.html":[12,3,0,2,0],
-"group__jkqtmathtext__interaltools.html":[12,3,1],
-"group__jkqtmathtext__items.html":[12,3,1,2]
+"group__jkqtmathtext__general.html":[12,3,0]
 };
