@@ -1,5 +1,17 @@
 var NAVTREEINDEX29 =
 {
+"page_whatsnew.html#page_whatsnew_V2018_08_DOWNLOAD":[7,3,1],
+"page_whatsnew.html#page_whatsnew_V2018_08_OVERVIEW":[7,3,0],
+"page_whatsnew.html#page_whatsnew_V2019_11":[7,2],
+"page_whatsnew.html#page_whatsnew_V2019_11_DOWNLOAD":[7,2,1],
+"page_whatsnew.html#page_whatsnew_V2019_11_OVERVIEW":[7,2,0],
+"page_whatsnew.html#page_whatsnew_V4_0_0":[7,1],
+"page_whatsnew.html#page_whatsnew_V4_0_0_DOWNLOAD":[7,1,1],
+"page_whatsnew.html#page_whatsnew_V4_0_0_OVERVIEW":[7,1,0],
+"pages.html":[],
+"struct_j_k_q_t_base_plotter_1_1text_size_data.html":[12,4,3,5],
+"struct_j_k_q_t_base_plotter_1_1text_size_data.html#a3c2c2027cc012ee015104db0a1c49eec":[12,4,3,5,3],
+"struct_j_k_q_t_base_plotter_1_1text_size_data.html#a8a4045b19bbd72a81a46b2bb33b38875":[12,4,3,5,1],
 "struct_j_k_q_t_base_plotter_1_1text_size_data.html#ad34e93336af126aa5d276606e0f59288":[12,4,3,5,2],
 "struct_j_k_q_t_base_plotter_1_1text_size_data.html#af6f681904893393acfbf0ef99298cdcd":[12,4,3,5,0],
 "struct_j_k_q_t_base_plotter_1_1text_size_data.html#afa18cd6b6379aee8adea3a19004d9fcb":[12,4,3,5,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX29 =
 "struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#abfc99c26fefc4a58ac20321b9cc17f79":[12,3,1,2,35,1],
 "struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#aff4a5a0487bbd6beb9c17cec9ec07ebb":[12,3,1,2,35,2],
 "struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html":[12,3,1,2,34],
-"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a56cd13e4ea562f61ba7d2c18c8d0dc37":[12,3,1,2,34,5],
-"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a6722e150ece92cbdc68fac1aa96b0e37":[12,3,1,2,34,2],
-"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a6d64367694401ec2abd4fd4bd490eae6":[12,3,1,2,34,1],
-"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#aa40c0a72de3abc9179fad3a088aa0ffe":[12,3,1,2,34,0],
-"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#aad6d3528ab0d70fb3f4df30c099f5544":[12,3,1,2,34,3],
-"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#ad245c825e721888105ea37b4b67a7faf":[12,3,1,2,34,4],
-"struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html":[12,3,1,2,41],
-"struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#a1e69ef3154736d5a4aae89e6e65c2122":[12,3,1,2,41,4],
-"struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#a56e2ea00e6f83922a2b418eef8c8f33c":[12,3,1,2,41,3],
-"struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#aa6741abba85ef098bd9e9892df5b88dc":[12,3,1,2,41,2],
-"struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#ab4572b2bac26cea828fac4bbc1d470f2":[12,3,1,2,41,1],
-"struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#abb1ebab533ebda4f641eacaa93495da4":[12,3,1,2,41,0],
-"struct_j_k_q_t_p_color_derivation_mode.html":[12,4,1,6]
+"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a56cd13e4ea562f61ba7d2c18c8d0dc37":[12,3,1,2,34,5]
 };

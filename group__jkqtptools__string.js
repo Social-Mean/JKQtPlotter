@@ -41,5 +41,6 @@ var group__jkqtptools__string =
     [ "jkqtp_UnicodeToUTF8", "group__jkqtptools__string.html#ga9dc34e9f35fcaf8127199d3ab109f6cb", null ],
     [ "JKQTPCDoubleToQString", "group__jkqtptools__string.html#ga819536d8ee41b8cf9e758d06f19603b9", null ],
     [ "JKQTPDoubleToQString", "group__jkqtptools__string.html#gae5fbb0a7df6e25108d6c661e292f2d8c", null ],
+    [ "JKQTPExtendString", "group__jkqtptools__string.html#ga5db77fd804031d25de113aeb17c4b899", null ],
     [ "jkVariantListToString", "group__jkqtptools__string.html#gaf98c03133ebf9e2619a23018568272e6", null ]
 ];

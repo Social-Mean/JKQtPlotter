@@ -16,7 +16,7 @@ var searchData=
   ['jkqtpcalabeltype_13',['JKQTPCALabelType',['../group__jkqtpplottersupprt.html#gad58b8a9812defae065b13b76154c8d2e',1,'jkqtptools.h']]],
   ['jkqtpcontextmenumodes_14',['JKQTPContextMenuModes',['../group__jkqtpplottersupprt.html#ga80d2235c912ead563f404f4e7f331137',1,'jkqtptools.h']]],
   ['jkqtpdatastoreitemformat_15',['JKQTPDatastoreItemFormat',['../group__jkqtpdatastorage.html#ga679ecb0cdb6bef6f4e64be37850d2ce3',1,'jkqtpdatastorage.h']]],
-  ['jkqtperrorplotstyle_16',['JKQTPErrorPlotstyle',['../group__jkqtplotter__basegraphserrors.html#gacb8bad75e7e449f074dbabcf1b80dd42',1,'jkqtptools.h']]],
+  ['jkqtperrorplotstyleelements_16',['JKQTPErrorPlotstyleElements',['../group__jkqtplotter__basegraphserrors.html#ga4b3a78b3a037650785eb6b798b5eaf9b',1,'jkqtptools.h']]],
   ['jkqtpgraphsymbols_17',['JKQTPGraphSymbols',['../group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b',1,'jkqtpdrawingtools.h']]],
   ['jkqtpkeylayout_18',['JKQTPKeyLayout',['../group__jkqtpplottersupprt.html#ga12bbc8b1110ac5655e9afcf8ec49b6df',1,'jkqtptools.h']]],
   ['jkqtpkeyposition_19',['JKQTPKeyPosition',['../group__jkqtpplottersupprt.html#ga53dd9054ccf1f02e17d1867ddab7183f',1,'jkqtptools.h']]],
