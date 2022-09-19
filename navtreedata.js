@@ -77,19 +77,19 @@ var NAVTREE =
       ] ]
     ] ],
     [ "JKQTPlotter: Screenshots", "md_screenshots__r_e_a_d_m_e.html", [
-      [ "Scatter Plots and Boxplots", "md_screenshots__r_e_a_d_m_e.html#autotoc_md123", null ],
-      [ "Different Types of Barcharts", "md_screenshots__r_e_a_d_m_e.html#autotoc_md124", null ],
-      [ "Image Plots", "md_screenshots__r_e_a_d_m_e.html#autotoc_md125", null ],
-      [ "Plotting a user-defined (parsed) function", "md_screenshots__r_e_a_d_m_e.html#autotoc_md126", null ],
-      [ "Axis-Label styles in LogLog-Plot", "md_screenshots__r_e_a_d_m_e.html#autotoc_md127", null ],
-      [ "Parametrized Scatter Plots and Data Viewer", "md_screenshots__r_e_a_d_m_e.html#autotoc_md128", null ],
-      [ "Barcharts", "md_screenshots__r_e_a_d_m_e.html#autotoc_md129", null ],
-      [ "Screenshots of included LaTeX renderer", "md_screenshots__r_e_a_d_m_e.html#autotoc_md130", null ],
-      [ "QuickFit 3.0 Screenshots", "md_screenshots__r_e_a_d_m_e.html#autotoc_md131", null ]
+      [ "Scatter Plots and Boxplots", "md_screenshots__r_e_a_d_m_e.html#autotoc_md126", null ],
+      [ "Different Types of Barcharts", "md_screenshots__r_e_a_d_m_e.html#autotoc_md127", null ],
+      [ "Image Plots", "md_screenshots__r_e_a_d_m_e.html#autotoc_md128", null ],
+      [ "Plotting a user-defined (parsed) function", "md_screenshots__r_e_a_d_m_e.html#autotoc_md129", null ],
+      [ "Axis-Label styles in LogLog-Plot", "md_screenshots__r_e_a_d_m_e.html#autotoc_md130", null ],
+      [ "Parametrized Scatter Plots and Data Viewer", "md_screenshots__r_e_a_d_m_e.html#autotoc_md131", null ],
+      [ "Barcharts", "md_screenshots__r_e_a_d_m_e.html#autotoc_md132", null ],
+      [ "Screenshots of included LaTeX renderer", "md_screenshots__r_e_a_d_m_e.html#autotoc_md133", null ],
+      [ "QuickFit 3.0 Screenshots", "md_screenshots__r_e_a_d_m_e.html#autotoc_md134", null ]
     ] ],
     [ "Security Policy", "md__s_e_c_u_r_i_t_y.html", [
-      [ "Supported Versions", "md__s_e_c_u_r_i_t_y.html#autotoc_md133", null ],
-      [ "Reporting a Vulnerability", "md__s_e_c_u_r_i_t_y.html#autotoc_md134", null ]
+      [ "Supported Versions", "md__s_e_c_u_r_i_t_y.html#autotoc_md123", null ],
+      [ "Reporting a Vulnerability", "md__s_e_c_u_r_i_t_y.html#autotoc_md124", null ]
     ] ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
