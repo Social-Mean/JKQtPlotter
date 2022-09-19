@@ -1000,44 +1000,48 @@ Basic Usage of JKQTPlotter</h1>
 <div class="line">plot-&gt;<a class="code hl_slot" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28">zoomToFit</a>();</div>
 <div class="line"><span class="comment">// alternatively set the axis dimension by hand:</span></div>
 <div class="line">plot-&gt;<a class="code hl_slot" href="class_j_k_q_t_plotter.html#ab29362d74e9e1a24c4add51815f0ec61">setXY</a>(-10,10,-10,10);</div>
-<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a3d6b9f2649736b08b6731132f86368f6"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6">JKQTPDatastore::addCopiedColumn</a></div><div class="ttdeci">size_t addCopiedColumn(TIterator first, TIterator last, const QString &amp;name=QString(&quot;&quot;))</div><div class="ttdoc">add one column to the datastore. It will be filled with the values from first ... last</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:853</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a3d6b9f2649736b08b6731132f86368f6"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6">JKQTPDatastore::addCopiedColumn</a></div><div class="ttdeci">size_t addCopiedColumn(TIterator first, TIterator last, const QString &amp;name=QString(&quot;&quot;))</div><div class="ttdoc">add one column to the datastore. It will be filled with the values from first ... last</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:852</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_plot_element_html_a02a8d7c24cde7768f0134cee1aa1159d"><div class="ttname"><a href="class_j_k_q_t_p_plot_element.html#a02a8d7c24cde7768f0134cee1aa1159d">JKQTPPlotElement::setTitle</a></div><div class="ttdeci">virtual void setTitle(const QString &amp;__value)</div><div class="ttdoc">sets the title of the plot (for display in key!).</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_graph_html_a462e07fa2a17157b7346d2d993ff2721"><div class="ttname"><a href="class_j_k_q_t_p_x_y_graph.html#a462e07fa2a17157b7346d2d993ff2721">JKQTPXYGraph::setYColumn</a></div><div class="ttdeci">void setYColumn(int __value)</div><div class="ttdoc">the column that contains the y-component of the datapoints</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_graph_html_a48809679e6f1ba587132608b8dfb903d"><div class="ttname"><a href="class_j_k_q_t_p_x_y_graph.html#a48809679e6f1ba587132608b8dfb903d">JKQTPXYGraph::setXColumn</a></div><div class="ttdeci">void setXColumn(int __value)</div><div class="ttdoc">the column that contains the x-component of the datapoints</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_line_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_x_y_line_graph.html">JKQTPXYLineGraph</a></div><div class="ttdoc">This implements xy line plots. This also alows to draw symbols at the data points.</div><div class="ttdef"><b>Definition:</b> jkqtplines.h:61</div></div>
-<div class="ttc" id="aclass_j_k_q_t_plotter_html"><div class="ttname"><a href="class_j_k_q_t_plotter.html">JKQTPlotter</a></div><div class="ttdoc">plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:441</div></div>
-<div class="ttc" id="aclass_j_k_q_t_plotter_html_a0ed800587c1f3f5ab36dd5422c101e28"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28">JKQTPlotter::zoomToFit</a></div><div class="ttdeci">void zoomToFit(bool zoomX=true, bool zoomY=true, bool includeX0=false, bool includeY0=false, double scaleX=1.05, double scaleY=1.05)</div><div class="ttdoc">this method zooms the graph so that all plotted datapoints are visible.</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:1079</div></div>
-<div class="ttc" id="aclass_j_k_q_t_plotter_html_a63a54c5342d664c35ffb3d532ba26b99"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a63a54c5342d664c35ffb3d532ba26b99">JKQTPlotter::addGraph</a></div><div class="ttdeci">size_t addGraph(JKQTPPlotElement *gr)</div><div class="ttdoc">add a new graph, returns it's position in the graphs list</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:816</div></div>
+<div class="ttc" id="aclass_j_k_q_t_plotter_html"><div class="ttname"><a href="class_j_k_q_t_plotter.html">JKQTPlotter</a></div><div class="ttdoc">plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:443</div></div>
+<div class="ttc" id="aclass_j_k_q_t_plotter_html_a0ed800587c1f3f5ab36dd5422c101e28"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28">JKQTPlotter::zoomToFit</a></div><div class="ttdeci">void zoomToFit(bool zoomX=true, bool zoomY=true, bool includeX0=false, bool includeY0=false, double scaleX=1.05, double scaleY=1.05)</div><div class="ttdoc">this method zooms the graph so that all plotted datapoints are visible.</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:1081</div></div>
+<div class="ttc" id="aclass_j_k_q_t_plotter_html_a63a54c5342d664c35ffb3d532ba26b99"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a63a54c5342d664c35ffb3d532ba26b99">JKQTPlotter::addGraph</a></div><div class="ttdeci">size_t addGraph(JKQTPPlotElement *gr)</div><div class="ttdoc">add a new graph, returns it's position in the graphs list</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:818</div></div>
 <div class="ttc" id="aclass_j_k_q_t_plotter_html_a8e0c883816f540a177a6e85999efb5d6"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a8e0c883816f540a177a6e85999efb5d6">JKQTPlotter::JKQTPlotter</a></div><div class="ttdeci">JKQTPlotter(bool datastore_internal, QWidget *parent=nullptr, JKQTPDatastore *datast=nullptr)</div><div class="ttdoc">class constructor</div></div>
-<div class="ttc" id="aclass_j_k_q_t_plotter_html_ab29362d74e9e1a24c4add51815f0ec61"><div class="ttname"><a href="class_j_k_q_t_plotter.html#ab29362d74e9e1a24c4add51815f0ec61">JKQTPlotter::setXY</a></div><div class="ttdeci">void setXY(double xminn, double xmaxx, double yminn, double ymaxx)</div><div class="ttdoc">sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:1276</div></div>
-<div class="ttc" id="aclass_j_k_q_t_plotter_html_ae31c276a93cbf7aa8f9c153327aa5b74"><div class="ttname"><a href="class_j_k_q_t_plotter.html#ae31c276a93cbf7aa8f9c153327aa5b74">JKQTPlotter::getDatastore</a></div><div class="ttdeci">JKQTPDatastore * getDatastore()</div><div class="ttdoc">returns a pointer to the datastore used by this object</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:673</div></div>
+<div class="ttc" id="aclass_j_k_q_t_plotter_html_ab29362d74e9e1a24c4add51815f0ec61"><div class="ttname"><a href="class_j_k_q_t_plotter.html#ab29362d74e9e1a24c4add51815f0ec61">JKQTPlotter::setXY</a></div><div class="ttdeci">void setXY(double xminn, double xmaxx, double yminn, double ymaxx)</div><div class="ttdoc">sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:1278</div></div>
+<div class="ttc" id="aclass_j_k_q_t_plotter_html_ae31c276a93cbf7aa8f9c153327aa5b74"><div class="ttname"><a href="class_j_k_q_t_plotter.html#ae31c276a93cbf7aa8f9c153327aa5b74">JKQTPlotter::getDatastore</a></div><div class="ttdeci">JKQTPDatastore * getDatastore()</div><div class="ttdoc">returns a pointer to the datastore used by this object</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:675</div></div>
 </div><!-- fragment --><p >The result should look something like this:</p>
 <div class="image">
 <img src="simpletest.png" alt=""/>
 </div>
-<p >Starting from this basic example, you can observe several important principles: </p>
-<h1><a class="anchor" id="autotoc_md142"></a>
-Data is stored in an (internal) instance of JKQTPDatastore, which is accessible through</h1>
-<p ><a class="el" href="class_j_k_q_t_plotter.html#ae31c276a93cbf7aa8f9c153327aa5b74" title="returns a pointer to the datastore used by this object">JKQTPlotter::getDatastore()</a>. This datastore can either own its data (which is done here, as we copy the data into the store by calling <a class="el" href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6" title="add one column to the datastore. It will be filled with the values from first ... last">JKQTPDatastore::addCopiedColumn()</a>, or it can merely reference to the data (then data needs to be available as array of <code>double</code> values). </p>
-<h1><a class="anchor" id="autotoc_md143"></a>
-Naming conventions:</h1>
-<ul>
-<li><b>plot</b> is the complete drawn image, including the axes, the graphs, the key and all other visual elements</li>
-<li><b>plot element</b> any sub element of the plot, e.g. a single coordinate axis, the key, but also any graph/curve</li>
-<li><b>graph</b> is a single curve/image/geometric element in the plot</li>
-<li><b>geometric element</b> is a special graph that does not represent a curve based on data from the <a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a>, but a single graphic element, like a rectangle/circle/line/..., some text, a single symbol</li>
-<li><b>key</b> is the legend of the plot</li>
-<li><b>coordinate axis</b> is each of the x- or y-axis (there might be addition axes, e.g. when showing a color-scale)</li>
+<p >Starting from this basic example, you can observe several important principles: </p><ol>
+<li>
+Data is stored in an (internal) instance of <a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a>, which is accessible through <a class="el" href="class_j_k_q_t_plotter.html#ae31c276a93cbf7aa8f9c153327aa5b74" title="returns a pointer to the datastore used by this object">JKQTPlotter::getDatastore()</a>. This datastore can either own its data (which is done here, as we copy the data into the store by calling <a class="el" href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6" title="add one column to the datastore. It will be filled with the values from first ... last">JKQTPDatastore::addCopiedColumn()</a>, or it can merely reference to the data (then data needs to be available as array of <code>double</code> values). </li>
+<li>
+Naming conventions (excerpt from <a class="el" href="group__jkqtplotter__naming.html">Conventions Naming Conventions in JKQTPlotter</a> ): <ul>
+<li>
+<b>plot</b> is the complete drawn image, including the axes, the graphs, the key and all other visual elements </li>
+<li>
+<b>plot element</b> any sub element of the plot, e.g. a single coordinate axis, the key, but also any graph/curve </li>
+<li>
+<b>graph</b> is a single curve/image/geometric element in the plot </li>
+<li>
+<b>geometric element</b> is a special graph that does not represent a curve based on data from the <a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a>, but a single graphic element, like a rectangle/circle/line/..., some text, a single symbol </li>
+<li>
+<b>key</b> is the legend of the plot </li>
+<li>
+<b>coordinate axis</b> is each of the x- or y-axis (there might be addition axes, e.g. when showing a color-scale) </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md144"></a>
-Each graph is represented by a class derived from JKQTPPlotElement (in the example we instanciated a JKQTPXYLineGraph,</h1>
-<p >which shows data as a scatter of symbols that may (or may not) be connected by a line). Creating the graph class does not yet add it to the plotter. To add it, call <a class="el" href="class_j_k_q_t_plotter.html#a63a54c5342d664c35ffb3d532ba26b99" title="add a new graph, returns it&#39;s position in the graphs list">JKQTPlotter::addGraph()</a>. Only after this sep, the graph is displayed. You can modify the apperance of the graph (e.g. colors, name in the key ...) by setting properties in the graph class instance. </p>
-<h1><a class="anchor" id="autotoc_md145"></a>
-You can auto-zoom the axis ranges of the plot by calling JKQTPlotter::zoomToFit(), or set them</h1>
-<p >exlicitly by calling <a class="el" href="class_j_k_q_t_plotter.html#ab29362d74e9e1a24c4add51815f0ec61" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTPlotter::setXY()</a>. The user can later zoom in/out by the mouse (and other means). You can limit this zoom range by setting an absolute axis range, calling e.g. <a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">JKQTPlotter::setAbsoluteXY()</a>. The the user cannot zoom farther out than the given range(s). </p>
-<h1><a class="anchor" id="autotoc_md146"></a>
-If you want to style the plot itself, you need to set properties of the underlying JKQTBasePloter instance, which</h1>
-<p >is accessible through <a class="el" href="class_j_k_q_t_plotter.html#a267c8fd6e8a3519f05bf40fa972f2f03" title="returns the class internally used for plotting">JKQTPlotter::getPlotter()</a>. If you want to style the coordinate axes, you can acces their representing objects by caling <a class="el" href="class_j_k_q_t_plotter.html#a3cbc53df79a3bb52ccc53db8a87f14eb" title="returns the coordinate axis object for the x-axis">JKQTPlotter::getXAxis()</a> or <a class="el" href="class_j_k_q_t_plotter.html#abf8690bf73916c9f1d7c650ea074e7ab" title="returns the coordinate axis object for the y-axis">JKQTPlotter::getYAxis()</a>. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="_j_k_q_t_plotter_simple_test.html">Example (JKQTPlotter): Very simple line-graph</a> and </dd>
+</li>
+<li>
+Each graph is represented by a class derived from <a class="el" href="class_j_k_q_t_p_plot_element.html" title="this virtual base class of every element, which is part of a JKQTPlotter plot and may appear in its k...">JKQTPPlotElement</a> (in the example we instanciated a <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>, which shows data as a scatter of symbols that may (or may not) be connected by a line). Creating the graph class does not yet add it to the plotter. To add it, call <a class="el" href="class_j_k_q_t_plotter.html#a63a54c5342d664c35ffb3d532ba26b99" title="add a new graph, returns it&#39;s position in the graphs list">JKQTPlotter::addGraph()</a>. Only after this sep, the graph is displayed. You can modify the apperance of the graph (e.g. colors, name in the key ...) by setting properties in the graph class instance. </li>
+<li>
+You can auto-zoom the axis ranges of the plot by calling <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">JKQTPlotter::zoomToFit()</a>, or set them exlicitly by calling <a class="el" href="class_j_k_q_t_plotter.html#ab29362d74e9e1a24c4add51815f0ec61" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTPlotter::setXY()</a>. The user can later zoom in/out by the mouse (and other means). You can limit this zoom range by setting an absolute axis range, calling e.g. <a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">JKQTPlotter::setAbsoluteXY()</a>. The the user cannot zoom farther out than the given range(s). </li>
+<li>
+If you want to style the plot itself, you need to set properties of the underlying JKQTBasePloter instance, which is accessible through <a class="el" href="class_j_k_q_t_plotter.html#a267c8fd6e8a3519f05bf40fa972f2f03" title="returns the class internally used for plotting">JKQTPlotter::getPlotter()</a>. If you want to style the coordinate axes, you can acces their representing objects by caling <a class="el" href="class_j_k_q_t_plotter.html#a3cbc53df79a3bb52ccc53db8a87f14eb" title="returns the coordinate axis object for the x-axis">JKQTPlotter::getXAxis()</a> or <a class="el" href="class_j_k_q_t_plotter.html#abf8690bf73916c9f1d7c650ea074e7ab" title="returns the coordinate axis object for the y-axis">JKQTPlotter::getYAxis()</a>. </li>
+</ol>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_j_k_q_t_plotter_simple_test.html">Example (JKQTPlotter): Very simple line-graph</a> and </dd>
 <dd>
 JKQTPlotterQtCreator</dd></dl>
 <h1><a class="anchor" id="JKQTPLOTTER_SYNCMULTIPLOT"></a>
@@ -1126,7 +1130,7 @@ switch the visibility of the different graphs in the plot </li>
 <div class="line">                                                                     QMessageBox::Ok); });</div>
 <div class="line">    labMouseAction-&gt;setText(QString(<span class="stringliteral">&quot;contextMenuOpened(x=%1, y=%2)&quot;</span>).arg(x).arg(y));</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_j_k_q_t_plotter_html_a469af1d407505c7d12aed87b6a25ff60"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a469af1d407505c7d12aed87b6a25ff60">JKQTPlotter::contextMenu</a></div><div class="ttdeci">QMenu * contextMenu</div><div class="ttdoc">the context menu object used by this JKQTPlotter</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:1672</div></div>
+<div class="ttc" id="aclass_j_k_q_t_plotter_html_a469af1d407505c7d12aed87b6a25ff60"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a469af1d407505c7d12aed87b6a25ff60">JKQTPlotter::contextMenu</a></div><div class="ttdeci">QMenu * contextMenu</div><div class="ttdoc">the context menu object used by this JKQTPlotter</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:1674</div></div>
 <div class="ttc" id="aclass_j_k_q_t_plotter_html_a6a6347e94b3e03229692f947105b049b"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a6a6347e94b3e03229692f947105b049b">JKQTPlotter::contextMenuOpened</a></div><div class="ttdeci">void contextMenuOpened(double x, double y, QMenu *contextMenu)</div><div class="ttdoc">emitted whenever a context menu is opened. You can modify the menu via the parameter contextMenu!</div></div>
 </div><!-- fragment --></li>
 </ul>
@@ -2747,7 +2751,7 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 </div><div class="memdoc">
 
 <p>current style properties for this <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html">JKQTPlotter Styling System</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html">Styling System</a> </dd></dl>
 
 </div>
 </div>
@@ -3965,7 +3969,7 @@ Shown Toolbar</div></div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="class_j_k_q_t_plotter.html#af3e1ef339949636e248d437c6f33b0ee" title="current style properties for this JKQTPlotter">getCurrentPlotterStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html">JKQTPlotter Styling System</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="class_j_k_q_t_plotter.html#af3e1ef339949636e248d437c6f33b0ee" title="current style properties for this JKQTPlotter">getCurrentPlotterStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html">Styling System</a> </dd></dl>
 
 </div>
 </div>
@@ -5505,7 +5509,7 @@ Shown Toolbar</div></div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="class_j_k_q_t_plotter.html#af3e1ef339949636e248d437c6f33b0ee" title="current style properties for this JKQTPlotter">getCurrentPlotterStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html">JKQTPlotter Styling System</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="class_j_k_q_t_plotter.html#af3e1ef339949636e248d437c6f33b0ee" title="current style properties for this JKQTPlotter">getCurrentPlotterStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html">Styling System</a> </dd></dl>
 
 </div>
 </div>
@@ -5820,7 +5824,7 @@ Shown Toolbar</div></div>
 </div><div class="memdoc">
 
 <p>replace the current style properties for this <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a> </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="class_j_k_q_t_plotter.html#af3e1ef339949636e248d437c6f33b0ee" title="current style properties for this JKQTPlotter">getCurrentPlotterStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html">JKQTPlotter Styling System</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="class_j_k_q_t_plotter.html#af3e1ef339949636e248d437c6f33b0ee" title="current style properties for this JKQTPlotter">getCurrentPlotterStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html">Styling System</a> </dd></dl>
 
 </div>
 </div>
@@ -5851,7 +5855,7 @@ Shown Toolbar</div></div>
 </div><div class="memdoc">
 
 <p>replace the current style properties for this <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a> </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="class_j_k_q_t_plotter.html#af3e1ef339949636e248d437c6f33b0ee" title="current style properties for this JKQTPlotter">getCurrentPlotterStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html">JKQTPlotter Styling System</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="class_j_k_q_t_plotter.html#af3e1ef339949636e248d437c6f33b0ee" title="current style properties for this JKQTPlotter">getCurrentPlotterStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html">Styling System</a> </dd></dl>
 
 </div>
 </div>
@@ -8402,10 +8406,10 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
   <table class="params">
     <tr><td class="paramname">zoomX</td><td>if set <code>true</code> (default) zooms the x axis </td></tr>
     <tr><td class="paramname">zoomY</td><td>if set <code>true</code> (default) zooms the y axis </td></tr>
-    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ x=0 $" src="form_230.png" width="41" height="11"/> is visible in the plot (only for non-logx plots, default: false) </td></tr>
-    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ y=0 $" src="form_231.png" width="39" height="15"/> is visible in the plot (only for non-logy plots, default: false) </td></tr>
-    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_232.png" width="81" height="13"/> where <img class="formulaInl" alt="$ \Delta x $" src="form_233.png" width="23" height="13"/> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
-    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_234.png" width="88" height="15"/> where <img class="formulaInl" alt="$ \Delta &lt; $" src="form_235.png" width="29" height="15"/> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ x=0 $" src="form_241.png" width="41" height="11"/> is visible in the plot (only for non-logx plots, default: false) </td></tr>
+    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <img class="formulaInl" alt="$ y=0 $" src="form_242.png" width="39" height="15"/> is visible in the plot (only for non-logy plots, default: false) </td></tr>
+    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_243.png" width="81" height="13"/> where <img class="formulaInl" alt="$ \Delta x $" src="form_244.png" width="23" height="13"/> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_245.png" width="88" height="15"/> where <img class="formulaInl" alt="$ \Delta &lt; $" src="form_246.png" width="29" height="15"/> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
   </table>
   </dd>
 </dl>
@@ -9331,7 +9335,7 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 </div><div class="memdoc">
 
 <p>current style properties for this <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="class_j_k_q_t_plotter.html#af3e1ef339949636e248d437c6f33b0ee" title="current style properties for this JKQTPlotter">getCurrentPlotterStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html">JKQTPlotter Styling System</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619" title="replaces the system-wide default JKQTPlotterStyle with the given newStyle">JKQTPSetSystemDefaultStyle()</a>, <a class="el" href="class_j_k_q_t_plotter.html#af3e1ef339949636e248d437c6f33b0ee" title="current style properties for this JKQTPlotter">getCurrentPlotterStyle()</a>, <a class="el" href="group__jkqtpplotter__styling.html">Styling System</a> </dd></dl>
 
 </div>
 </div>
@@ -9423,7 +9427,7 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_plotter.html">JKQTPlotter</a></li>
-    <li class="footer">Generated on Wed Sep 14 2022 20:06:58 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Mon Sep 19 2022 19:58:16 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

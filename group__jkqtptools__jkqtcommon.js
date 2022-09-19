@@ -1,6 +1,6 @@
 var group__jkqtptools__jkqtcommon =
 [
-    [ "Additional Widgets for", "group__jkqtptools__qtwidgets.html", "group__jkqtptools__qtwidgets" ],
+    [ "Additional Qt Widgets", "group__jkqtptools__qtwidgets.html", "group__jkqtptools__qtwidgets" ],
     [ "Code Structuring Tools", "group__jkqtptools__codestructuring.html", "group__jkqtptools__codestructuring" ],
     [ "Debugging Tools", "group__jkqtptools__debugging.html", "group__jkqtptools__debugging" ],
     [ "Drawing & Graphics Tools", "group__jkqtptools__drawing.html", "group__jkqtptools__drawing" ],

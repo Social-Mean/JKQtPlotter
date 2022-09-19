@@ -696,7 +696,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:a779c0daac5085baa0d87e3082785a345"><td class="mdescLeft">&#160;</td><td class="mdescRight">like subsuper_size_factor, but for operators (<code>\sum</code> , <code>\int</code> , ...) where the text is placed above/below the symbol  <a href="class_j_k_q_t_math_text.html#a779c0daac5085baa0d87e3082785a345">More...</a><br /></td></tr>
 <tr class="separator:a779c0daac5085baa0d87e3082785a345"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7e86126348905c3b61252f902a35051"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ae7e86126348905c3b61252f902a35051">parsedNode</a></td></tr>
-<tr class="memdesc:ae7e86126348905c3b61252f902a35051"><td class="mdescLeft">&#160;</td><td class="mdescRight">the syntax tree of <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a>'s that was created by the last <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a> call  <a href="class_j_k_q_t_math_text.html#ae7e86126348905c3b61252f902a35051">More...</a><br /></td></tr>
+<tr class="memdesc:ae7e86126348905c3b61252f902a35051"><td class="mdescLeft">&#160;</td><td class="mdescRight">the syntax tree of <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a>'s that was created by the last <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a> call  <a href="class_j_k_q_t_math_text.html#ae7e86126348905c3b61252f902a35051">More...</a><br /></td></tr>
 <tr class="separator:ae7e86126348905c3b61252f902a35051"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac574f42a4dee0243910c5442c8ce3ddb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#ac574f42a4dee0243910c5442c8ce3ddb">special_sub_shift_factor</a></td></tr>
 <tr class="memdesc:ac574f42a4dee0243910c5442c8ce3ddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative shift of text in subscript to normal text in special superscript mode (after large previous nodes): 0=child's baseline at the descent of the previous node, 1: subscript-node starts at the descent of the previous node  <a href="class_j_k_q_t_math_text.html#ac574f42a4dee0243910c5442c8ce3ddb">More...</a><br /></td></tr>
@@ -786,7 +786,7 @@ Friends</h2></td></tr>
 &#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30a62db27c19a447e00687625c54d2b3245">DefaultParseOptions</a> =AllowLinebreaks
 <br />
  }</td></tr>
-<tr class="memdesc:a68543eadd2749c8092922509d2884f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">options for <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a>  <a href="class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30">More...</a><br /></td></tr>
+<tr class="memdesc:a68543eadd2749c8092922509d2884f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">options for <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a>  <a href="class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30">More...</a><br /></td></tr>
 <tr class="separator:a68543eadd2749c8092922509d2884f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf8678516fb7bb07129bd6fa0aa88e6b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6b">DefaultParserTypes</a> { <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6bacc19c37c28ae1020ad0c9aaa5ab8ae63">LatexParser</a>
@@ -794,20 +794,22 @@ Friends</h2></td></tr>
 &#160;&#160;<a class="el" href="class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6baa6e1759efc41b62b7b75df042820891b">DefaultParser</a> =LatexParser
 <br />
  }</td></tr>
-<tr class="memdesc:abf8678516fb7bb07129bd6fa0aa88e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">lists the parser classes that are available by default (convenience interface to the templated <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a>-funktion  <a href="class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6b">More...</a><br /></td></tr>
+<tr class="memdesc:abf8678516fb7bb07129bd6fa0aa88e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">lists the parser classes that are available by default (convenience interface to the templated <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a>-funktion  <a href="class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6b">More...</a><br /></td></tr>
 <tr class="separator:abf8678516fb7bb07129bd6fa0aa88e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc0c403436fc0529eae2f4c9c23edd05"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05">parse</a> (const QString &amp;markup, <a class="el" href="class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6b">DefaultParserTypes</a> markuptType=<a class="el" href="class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6baa6e1759efc41b62b7b75df042820891b">DefaultParser</a>, ParseOptions options=<a class="el" href="class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30a62db27c19a447e00687625c54d2b3245">DefaultParseOptions</a>)</td></tr>
-<tr class="memdesc:abc0c403436fc0529eae2f4c9c23edd05"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse the given math <em>markup</em> string with a parser derived from <em>markuptType</em>.  <a href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05">More...</a><br /></td></tr>
-<tr class="separator:abc0c403436fc0529eae2f4c9c23edd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29b778c9f2b5b81648bdca4fd53ba1f2"><td class="memItemLeft" align="right" valign="top">typedef QFlags&lt; <a class="el" href="class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30">ParseOption</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a29b778c9f2b5b81648bdca4fd53ba1f2">ParseOptions</a></td></tr>
+<tr class="separator:a29b778c9f2b5b81648bdca4fd53ba1f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33429d4f9fd09a5418995a0a2886c7cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd">parse</a> (const QString &amp;markup, <a class="el" href="class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6b">DefaultParserTypes</a> markupType=<a class="el" href="class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6baa6e1759efc41b62b7b75df042820891b">DefaultParser</a>, <a class="el" href="class_j_k_q_t_math_text.html#a29b778c9f2b5b81648bdca4fd53ba1f2">ParseOptions</a> options=<a class="el" href="class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30a62db27c19a447e00687625c54d2b3245">DefaultParseOptions</a>)</td></tr>
+<tr class="memdesc:a33429d4f9fd09a5418995a0a2886c7cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse the given math <em>markup</em> string with a parser derived from <em>markupType</em>.  <a href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd">More...</a><br /></td></tr>
+<tr class="separator:a33429d4f9fd09a5418995a0a2886c7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ad5a61291eee330e92ab60ed29f11cf"><td class="memTemplParams" colspan="2">template&lt;class TParser &gt; </td></tr>
-<tr class="memitem:a2ad5a61291eee330e92ab60ed29f11cf"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a2ad5a61291eee330e92ab60ed29f11cf">parse</a> (const QString &amp;markup, ParseOptions options=<a class="el" href="class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30a62db27c19a447e00687625c54d2b3245">DefaultParseOptions</a>)</td></tr>
+<tr class="memitem:a2ad5a61291eee330e92ab60ed29f11cf"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a2ad5a61291eee330e92ab60ed29f11cf">parse</a> (const QString &amp;markup, <a class="el" href="class_j_k_q_t_math_text.html#a29b778c9f2b5b81648bdca4fd53ba1f2">ParseOptions</a> options=<a class="el" href="class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30a62db27c19a447e00687625c54d2b3245">DefaultParseOptions</a>)</td></tr>
 <tr class="memdesc:a2ad5a61291eee330e92ab60ed29f11cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse the given math <em>markup</em> string, using the given parser class <em>TParser</em>  <a href="class_j_k_q_t_math_text.html#a2ad5a61291eee330e92ab60ed29f11cf">More...</a><br /></td></tr>
 <tr class="separator:a2ad5a61291eee330e92ab60ed29f11cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa266fe423c3394637ac7369c2e517128"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#aa266fe423c3394637ac7369c2e517128">getNodeTree</a> ()</td></tr>
-<tr class="memdesc:aa266fe423c3394637ac7369c2e517128"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the syntax tree of <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a>'s that was created by the last <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a> call  <a href="class_j_k_q_t_math_text.html#aa266fe423c3394637ac7369c2e517128">More...</a><br /></td></tr>
+<tr class="memdesc:aa266fe423c3394637ac7369c2e517128"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the syntax tree of <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a>'s that was created by the last <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a> call  <a href="class_j_k_q_t_math_text.html#aa266fe423c3394637ac7369c2e517128">More...</a><br /></td></tr>
 <tr class="separator:aa266fe423c3394637ac7369c2e517128"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5985905a00e6c6256e98710139db14b2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_j_k_q_t_math_text_node.html">JKQTMathTextNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a5985905a00e6c6256e98710139db14b2">getNodeTree</a> () const</td></tr>
-<tr class="memdesc:a5985905a00e6c6256e98710139db14b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the syntax tree of <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a>'s that was created by the last <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a> call  <a href="class_j_k_q_t_math_text.html#a5985905a00e6c6256e98710139db14b2">More...</a><br /></td></tr>
+<tr class="memdesc:a5985905a00e6c6256e98710139db14b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the syntax tree of <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a>'s that was created by the last <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a> call  <a href="class_j_k_q_t_math_text.html#a5985905a00e6c6256e98710139db14b2">More...</a><br /></td></tr>
 <tr class="separator:a5985905a00e6c6256e98710139db14b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Error Handling</h2></td></tr>
@@ -877,7 +879,7 @@ Usage within a QLabel class JKQTMathTextLabel</h2>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text_label.html" title="A QLabel-derived class that draws an equation with LaTeX markup using JKQTMathText.">JKQTMathTextLabel</a></dd></dl>
 <h2><a class="anchor" id="JKQTMathTextErrorHandling"></a>
 Error Handling</h2>
-<p >The class is designed to be as robust as possible and will still return some output, even if the equation contains some errors. Nevertheless, several errors are detected while parsing. You can get a list of error messages using <a class="el" href="class_j_k_q_t_math_text.html#a14a7a418442599c0f09e32fe0aff09bc" title="a list that will be filled with error messages while parsing, if any error occur">getErrorList()</a> after calling <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a>. Also <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a> will return <code>false</code> if an error occured while parsing.</p>
+<p >The class is designed to be as robust as possible and will still return some output, even if the equation contains some errors. Nevertheless, several errors are detected while parsing. You can get a list of error messages using <a class="el" href="class_j_k_q_t_math_text.html#a14a7a418442599c0f09e32fe0aff09bc" title="a list that will be filled with error messages while parsing, if any error occur">getErrorList()</a> after calling <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a>. Also <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a> will return <code>false</code> if an error occured while parsing.</p>
 <h2><a class="anchor" id="JKQTMathTextUsageExample"></a>
 Example Code</h2>
 <p >This small piece of C++ code may serve as an example of the usage and capabilities of the class: </p><div class="fragment"><div class="line"><span class="comment">// create a JKQTMathText object.</span></div>
@@ -888,13 +890,13 @@ Example Code</h2>
 <div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#af231fd040caed5040c227dd3748ff899">setFontSize</a>(20);</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// parse some LaTeX code (the Schroedinger&#39;s equation)</span></div>
-<div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05">parse</a>(<span class="stringliteral">&quot;$\\left[-\\frac{\\hbar^2}{2m}\\frac{\\partial^2}{\\partial x^2}+V(x)\\right]\\Psi(x)=\\mathrm{i}\\hbar\\frac{\\partial}{\\partial t}\\Psi(x)$&quot;</span>);</div>
+<div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd">parse</a>(<span class="stringliteral">&quot;$\\left[-\\frac{\\hbar^2}{2m}\\frac{\\partial^2}{\\partial x^2}+V(x)\\right]\\Psi(x)=\\mathrm{i}\\hbar\\frac{\\partial}{\\partial t}\\Psi(x)$&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// draw the result into a QPixmap</span></div>
 <div class="line">QPixmap result=mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#ad79581429daab9714ab9ed4a1fd834d0">drawIntoPixmap</a>();</div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...</div><div class="ttdef"><b>Definition:</b> jkqtmathtext.h:180</div></div>
+<div class="ttc" id="aclass_j_k_q_t_math_text_html_a33429d4f9fd09a5418995a0a2886c7cd"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd">JKQTMathText::parse</a></div><div class="ttdeci">bool parse(const QString &amp;markup, DefaultParserTypes markupType=DefaultParser, ParseOptions options=DefaultParseOptions)</div><div class="ttdoc">parse the given math markup string with a parser derived from markupType.</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a8ac20f1e5cc31b54589e0b322f1b7991"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a8ac20f1e5cc31b54589e0b322f1b7991">JKQTMathText::useXITS</a></div><div class="ttdeci">bool useXITS(bool mathModeOnly=true, bool useAsFallbackSymbol=true)</div><div class="ttdoc">configures the class to use the XITS fonts in mathmode</div></div>
-<div class="ttc" id="aclass_j_k_q_t_math_text_html_abc0c403436fc0529eae2f4c9c23edd05"><div class="ttname"><a href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05">JKQTMathText::parse</a></div><div class="ttdeci">bool parse(const QString &amp;markup, DefaultParserTypes markuptType=DefaultParser, ParseOptions options=DefaultParseOptions)</div><div class="ttdoc">parse the given math markup string with a parser derived from markuptType.</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_ad79581429daab9714ab9ed4a1fd834d0"><div class="ttname"><a href="class_j_k_q_t_math_text.html#ad79581429daab9714ab9ed4a1fd834d0">JKQTMathText::drawIntoPixmap</a></div><div class="ttdeci">QPixmap drawIntoPixmap(bool drawBoxes=false, QColor backgroundColor=QColor(Qt::white), int sizeincrease=0, qreal devicePixelRatio=1.0)</div><div class="ttdoc">render the last parse result into a QPixmap</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_af231fd040caed5040c227dd3748ff899"><div class="ttname"><a href="class_j_k_q_t_math_text.html#af231fd040caed5040c227dd3748ff899">JKQTMathText::setFontSize</a></div><div class="ttdeci">void setFontSize(double __value)</div><div class="ttdoc">set the default font size in points</div></div>
 </div><!-- fragment --><p >Alternatively you can also use this class with a <a href="https://doc.qt.io/qt-6/qpainter.html">QPainter</a>:</p>
@@ -919,7 +921,22 @@ Example Projects</h1>
 <li><a class="el" href="_j_k_q_t_math_text_render_cmd_line_tool.html">Tool (JKQTMathText): Command-Line Utility jkqtmathtext_render</a></li>
 <li><a class="el" href="_j_k_q_t_math_text_test_app.html">Example (JKQTMathText): A test application</a></li>
 </ul>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a29b778c9f2b5b81648bdca4fd53ba1f2" name="a29b778c9f2b5b81648bdca4fd53ba1f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29b778c9f2b5b81648bdca4fd53ba1f2">&#9670;&nbsp;</a></span>ParseOptions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef QFlags&lt; <a class="el" href="class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30">ParseOption</a> &gt; <a class="el" href="class_j_k_q_t_math_text.html#a29b778c9f2b5b81648bdca4fd53ba1f2">JKQTMathText::ParseOptions</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="abf8678516fb7bb07129bd6fa0aa88e6b" name="abf8678516fb7bb07129bd6fa0aa88e6b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abf8678516fb7bb07129bd6fa0aa88e6b">&#9670;&nbsp;</a></span>DefaultParserTypes</h2>
 
@@ -932,7 +949,7 @@ Example Projects</h1>
       </table>
 </div><div class="memdoc">
 
-<p>lists the parser classes that are available by default (convenience interface to the templated <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a>-funktion </p>
+<p>lists the parser classes that are available by default (convenience interface to the templated <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a>-funktion </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abf8678516fb7bb07129bd6fa0aa88e6bacc19c37c28ae1020ad0c9aaa5ab8ae63" name="abf8678516fb7bb07129bd6fa0aa88e6bacc19c37c28ae1020ad0c9aaa5ab8ae63"></a>LatexParser&#160;</td><td class="fielddoc"><p >use the LaTeX parser from <a class="el" href="class_j_k_q_t_math_text_latex_parser.html" title="a LaTeX parser for JKQTMathText">JKQTMathTextLatexParser</a> </p>
 </td></tr>
@@ -953,7 +970,7 @@ Example Projects</h1>
       </table>
 </div><div class="memdoc">
 
-<p>options for <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a> </p>
+<p>options for <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a> </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a68543eadd2749c8092922509d2884f30a5a7ef5698c0a6ed28aff2d31c13f7e3f" name="a68543eadd2749c8092922509d2884f30a5a7ef5698c0a6ed28aff2d31c13f7e3f"></a>AddSpaceBeforeAndAfter&#160;</td><td class="fielddoc"><p >If set, a little bit of space is added before and after the text. </p>
 </td></tr>
@@ -1126,8 +1143,8 @@ Example Projects</h1>
 </div><div class="memdoc">
 
 <p>a list that will be filled with error messages while parsing, if any error occur </p>
-<p >This list of errors is (mostly) filled during a call to <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a>. During rendering (e.g. with <a class="el" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19" title="draw a representation to the object at the specified position x , y">draw()</a> ) only very few errors will be detected, as most errors are caused by wrong markup.</p>
-<p >A call to <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a> also clears this list.</p>
+<p >This list of errors is (mostly) filled during a call to <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a>. During rendering (e.g. with <a class="el" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19" title="draw a representation to the object at the specified position x , y">draw()</a> ) only very few errors will be detected, as most errors are caused by wrong markup.</p>
+<p >A call to <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a> also clears this list.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#a14a7a418442599c0f09e32fe0aff09bc" title="a list that will be filled with error messages while parsing, if any error occur">getErrorList()</a>, <a class="el" href="class_j_k_q_t_math_text.html#a25ffa56294dabd127143c23076bddce3" title="returns true when errors were registered in the system">hadErrors()</a> and <a class="el" href="class_j_k_q_t_math_text.html#a32a69b6feb42510f57d8d20daab385d5" title="a list that will be filled with error messages while parsing, if any error occur">addToErrorList()</a> </dd></dl>
 
 </div>
@@ -1647,8 +1664,8 @@ Example Projects</h1>
 </div><div class="memdoc">
 
 <p>a list that will be filled with error messages while parsing, if any error occur </p>
-<p >This list of errors is (mostly) filled during a call to <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a>. During rendering (e.g. with <a class="el" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19" title="draw a representation to the object at the specified position x , y">draw()</a> ) only very few errors will be detected, as most errors are caused by wrong markup.</p>
-<p >A call to <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a> also clears this list.</p>
+<p >This list of errors is (mostly) filled during a call to <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a>. During rendering (e.g. with <a class="el" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19" title="draw a representation to the object at the specified position x , y">draw()</a> ) only very few errors will be detected, as most errors are caused by wrong markup.</p>
+<p >A call to <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a> also clears this list.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#a14a7a418442599c0f09e32fe0aff09bc" title="a list that will be filled with error messages while parsing, if any error occur">getErrorList()</a>, <a class="el" href="class_j_k_q_t_math_text.html#a25ffa56294dabd127143c23076bddce3" title="returns true when errors were registered in the system">hadErrors()</a> and <a class="el" href="class_j_k_q_t_math_text.html#a32a69b6feb42510f57d8d20daab385d5" title="a list that will be filled with error messages while parsing, if any error occur">addToErrorList()</a> </dd></dl>
 
 </div>
@@ -2538,7 +2555,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
       </table>
 </div><div class="memdoc">
 
-<p>returns the syntax tree of <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a>'s that was created by the last <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a> call </p>
+<p>returns the syntax tree of <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a>'s that was created by the last <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a> call </p>
 
 </div>
 </div>
@@ -2557,7 +2574,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
       </table>
 </div><div class="memdoc">
 
-<p>the syntax tree of <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a>'s that was created by the last <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a> call </p>
+<p>the syntax tree of <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a>'s that was created by the last <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a> call </p>
 
 </div>
 </div>
@@ -3066,8 +3083,8 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 
 </div>
 </div>
-<a id="abc0c403436fc0529eae2f4c9c23edd05" name="abc0c403436fc0529eae2f4c9c23edd05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc0c403436fc0529eae2f4c9c23edd05">&#9670;&nbsp;</a></span>parse() <span class="overload">[1/2]</span></h2>
+<a id="a33429d4f9fd09a5418995a0a2886c7cd" name="a33429d4f9fd09a5418995a0a2886c7cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33429d4f9fd09a5418995a0a2886c7cd">&#9670;&nbsp;</a></span>parse() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3082,12 +3099,12 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6b">DefaultParserTypes</a>&#160;</td>
-          <td class="paramname"><em>markuptType</em> = <code><a class="el" href="class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6baa6e1759efc41b62b7b75df042820891b">DefaultParser</a></code>, </td>
+          <td class="paramname"><em>markupType</em> = <code><a class="el" href="class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6baa6e1759efc41b62b7b75df042820891b">DefaultParser</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ParseOptions&#160;</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text.html#a29b778c9f2b5b81648bdca4fd53ba1f2">ParseOptions</a>&#160;</td>
           <td class="paramname"><em>options</em> = <code><a class="el" href="class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30a62db27c19a447e00687625c54d2b3245">DefaultParseOptions</a></code>&#160;</td>
         </tr>
         <tr>
@@ -3098,7 +3115,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
       </table>
 </div><div class="memdoc">
 
-<p>parse the given math <em>markup</em> string with a parser derived from <em>markuptType</em>. </p>
+<p>parse the given math <em>markup</em> string with a parser derived from <em>markupType</em>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">markup</td><td>the string of math markup </td></tr>
@@ -3107,7 +3124,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd>ParseOptions</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#a29b778c9f2b5b81648bdca4fd53ba1f2">ParseOptions</a></dd></dl>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> on success. </dd></dl>
 
 </div>
@@ -3132,7 +3149,7 @@ template&lt;class TParser &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ParseOptions&#160;</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text.html#a29b778c9f2b5b81648bdca4fd53ba1f2">ParseOptions</a>&#160;</td>
           <td class="paramname"><em>options</em> = <code><a class="el" href="class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30a62db27c19a447e00687625c54d2b3245">DefaultParseOptions</a></code>&#160;</td>
         </tr>
         <tr>
@@ -3162,7 +3179,7 @@ template&lt;class TParser &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd>ParseOptions</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#a29b778c9f2b5b81648bdca4fd53ba1f2">ParseOptions</a></dd></dl>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> on success. </dd></dl>
 
 </div>
@@ -5214,8 +5231,8 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </div><div class="memdoc">
 
 <p>a list that will be filled with error messages while parsing, if any error occur </p>
-<p >This list of errors is (mostly) filled during a call to <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a>. During rendering (e.g. with <a class="el" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19" title="draw a representation to the object at the specified position x , y">draw()</a> ) only very few errors will be detected, as most errors are caused by wrong markup.</p>
-<p >A call to <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a> also clears this list.</p>
+<p >This list of errors is (mostly) filled during a call to <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a>. During rendering (e.g. with <a class="el" href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19" title="draw a representation to the object at the specified position x , y">draw()</a> ) only very few errors will be detected, as most errors are caused by wrong markup.</p>
+<p >A call to <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a> also clears this list.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_math_text.html#a14a7a418442599c0f09e32fe0aff09bc" title="a list that will be filled with error messages while parsing, if any error occur">getErrorList()</a>, <a class="el" href="class_j_k_q_t_math_text.html#a25ffa56294dabd127143c23076bddce3" title="returns true when errors were registered in the system">hadErrors()</a> and <a class="el" href="class_j_k_q_t_math_text.html#a32a69b6feb42510f57d8d20daab385d5" title="a list that will be filled with error messages while parsing, if any error occur">addToErrorList()</a> </dd></dl>
 
 </div>
@@ -6017,7 +6034,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>the syntax tree of <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a>'s that was created by the last <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">parse()</a> call </p>
+<p>the syntax tree of <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a>'s that was created by the last <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">parse()</a> call </p>
 
 </div>
 </div>
@@ -6388,7 +6405,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Wed Sep 14 2022 20:06:57 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Mon Sep 19 2022 19:58:15 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

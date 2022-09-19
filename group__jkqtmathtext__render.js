@@ -1,6 +1,7 @@
 var group__jkqtmathtext__render =
 [
     [ "JKQTMathText", "class_j_k_q_t_math_text.html", [
+      [ "ParseOptions", "class_j_k_q_t_math_text.html#a29b778c9f2b5b81648bdca4fd53ba1f2", null ],
       [ "DefaultParserTypes", "class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6b", [
         [ "LatexParser", "class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6bacc19c37c28ae1020ad0c9aaa5ab8ae63", null ],
         [ "DefaultParser", "class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6baa6e1759efc41b62b7b75df042820891b", null ]
@@ -96,7 +97,7 @@ var group__jkqtmathtext__render =
       [ "getUndersetFactor", "class_j_k_q_t_math_text.html#a6c53e2ff4689dc9262d7610ac613eb19", null ],
       [ "hadErrors", "class_j_k_q_t_math_text.html#a25ffa56294dabd127143c23076bddce3", null ],
       [ "loadSettings", "class_j_k_q_t_math_text.html#a8862f932173da3044cf4b34b260f7256", null ],
-      [ "parse", "class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05", null ],
+      [ "parse", "class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd", null ],
       [ "parse", "class_j_k_q_t_math_text.html#a2ad5a61291eee330e92ab60ed29f11cf", null ],
       [ "saveSettings", "class_j_k_q_t_math_text.html#aeb2080ea22fda5c3b5e918492441b59d", null ],
       [ "setBigMathoperatorFontFactor", "class_j_k_q_t_math_text.html#ad85a52d2ba2690f8bbb8166e5dbf28a2", null ],

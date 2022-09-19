@@ -59,7 +59,7 @@ var searchData=
   ['addinternalimagecolumn_56',['addInternalImageColumn',['../class_j_k_q_t_p_datastore.html#add4fd79d0553a8ca01cfca4134031752',1,'JKQTPDatastore']]],
   ['addinternalitem_57',['addInternalItem',['../class_j_k_q_t_p_datastore.html#a2b29089c979395b331bb1a42e0b74bf6',1,'JKQTPDatastore']]],
   ['additem_58',['addItem',['../class_j_k_q_t_p_datastore.html#a54f347160e35074f024e207251a36a23',1,'JKQTPDatastore::addItem(JKQTPDatastoreItem *item)'],['../class_j_k_q_t_p_datastore.html#acc66087c56aededb582227ff84860a20',1,'JKQTPDatastore::addItem(size_t rows)'],['../class_j_k_q_t_p_datastore.html#a228b0bd81b52d5eb5f2f0f26f23caaba',1,'JKQTPDatastore::addItem(size_t columns, size_t rows)'],['../class_j_k_q_t_p_datastore.html#a735d2ca2d8deb216303168ab279d063c',1,'JKQTPDatastore::addItem(double *data, size_t rows)'],['../class_j_k_q_t_p_datastore.html#a94cff9d0f89c6f37951de667c68d33e7',1,'JKQTPDatastore::addItem(JKQTPDatastoreItemFormat dataformat, double *data, size_t columns, size_t rows)']]],
-  ['additional_20widgets_20for_59',['Additional Widgets for',['../group__jkqtptools__qtwidgets.html',1,'']]],
+  ['additional_20qt_20widgets_59',['Additional Qt Widgets',['../group__jkqtptools__qtwidgets.html',1,'']]],
   ['additionalactionsmap_60',['AdditionalActionsMap',['../class_j_k_q_t_base_plotter.html#aff91ee42cb32a7209fb57a8ea317ca13',1,'JKQTBasePlotter']]],
   ['additionalactionsmapiterator_61',['AdditionalActionsMapIterator',['../class_j_k_q_t_base_plotter.html#a39ba8f8e107d54d5579f92a5f8df10b1',1,'JKQTBasePlotter']]],
   ['addkeylayout_62',['addKeyLayout',['../class_j_k_q_t_p_key_layout_combo_box.html#a40efbb31c84e7891d377a56deeac4677',1,'JKQTPKeyLayoutComboBox']]],

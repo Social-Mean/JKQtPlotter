@@ -244,7 +244,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:ae0da0220c2fb00e51b6f5f4c1722264d"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the width and height of a brace, based on <em>childSize</em>  <a href="class_j_k_q_t_math_text_brace_node.html#ae0da0220c2fb00e51b6f5f4c1722264d">More...</a><br /></td></tr>
 <tr class="separator:ae0da0220c2fb00e51b6f5f4c1722264d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a516157848d66841417c418456c0cb8cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a516157848d66841417c418456c0cb8cb">calcBraceSizes</a> (<a class="el" href="struct_j_k_q_t_math_text_brace_node_1_1_node_size.html">NodeSize</a> &amp;out, QPainter &amp;painter, const <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> &amp;currentEv, const <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a> &amp;childSize) const</td></tr>
-<tr class="memdesc:a516157848d66841417c418456c0cb8cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the width of the braces, fills NodeSize::openbracewidth/NodeSize::closebracewidth and NodeSize::braceheight/NodeSize::closeheight in <em>out</em>, based on <em>childSize</em>  <a href="class_j_k_q_t_math_text_brace_node.html#a516157848d66841417c418456c0cb8cb">More...</a><br /></td></tr>
+<tr class="memdesc:a516157848d66841417c418456c0cb8cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the width of the braces, fills <a class="el" href="struct_j_k_q_t_math_text_brace_node_1_1_node_size.html#a47ce42a5ce32d9afdd2c9027ee5ddac4" title="width of the opening brace">JKQTMathTextBraceNode::NodeSize::openBraceWidth</a>/JKQTMathTextBraceNode::NodeSize::closeBraceWidth and <a class="el" href="struct_j_k_q_t_math_text_brace_node_1_1_node_size.html#a405c2f5790624ca79dc241e01d797ac1" title="height of the opening brace">JKQTMathTextBraceNode::NodeSize::openBraceHeight</a>/JKQTMathTextBraceNode::NodeSize::closeBraceHeight in <em>out</em>, based on <em>childSize</em>  <a href="class_j_k_q_t_math_text_brace_node.html#a516157848d66841417c418456c0cb8cb">More...</a><br /></td></tr>
 <tr class="separator:a516157848d66841417c418456c0cb8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6185356a40c5a1ff663b6d85a2452722"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_brace_node.html#a6185356a40c5a1ff663b6d85a2452722">getSizeInternal</a> (QPainter &amp;painter, <a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv) const override</td></tr>
 <tr class="memdesc:a6185356a40c5a1ff663b6d85a2452722"><td class="mdescLeft">&#160;</td><td class="mdescRight">determine the size of the node, overwrite this function in derived classes  <a href="class_j_k_q_t_math_text_brace_node.html#a6185356a40c5a1ff663b6d85a2452722">More...</a><br /></td></tr>
@@ -479,10 +479,10 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>calculate the width of the braces, fills NodeSize::openbracewidth/NodeSize::closebracewidth and NodeSize::braceheight/NodeSize::closeheight in <em>out</em>, based on <em>childSize</em> </p>
+<p>calculate the width of the braces, fills <a class="el" href="struct_j_k_q_t_math_text_brace_node_1_1_node_size.html#a47ce42a5ce32d9afdd2c9027ee5ddac4" title="width of the opening brace">JKQTMathTextBraceNode::NodeSize::openBraceWidth</a>/JKQTMathTextBraceNode::NodeSize::closeBraceWidth and <a class="el" href="struct_j_k_q_t_math_text_brace_node_1_1_node_size.html#a405c2f5790624ca79dc241e01d797ac1" title="height of the opening brace">JKQTMathTextBraceNode::NodeSize::openBraceHeight</a>/JKQTMathTextBraceNode::NodeSize::closeBraceHeight in <em>out</em>, based on <em>childSize</em> </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">out</td><td>this function fills NodeSize::openbracewidth/NodeSize::closebracewidth and NodeSize::braceheight/NodeSize::closeheight in <em>out</em> </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">out</td><td>this function fills <a class="el" href="struct_j_k_q_t_math_text_brace_node_1_1_node_size.html#a47ce42a5ce32d9afdd2c9027ee5ddac4" title="width of the opening brace">JKQTMathTextBraceNode::NodeSize::openBraceWidth</a>/JKQTMathTextBraceNode::NodeSize::closeBraceWidth and <a class="el" href="struct_j_k_q_t_math_text_brace_node_1_1_node_size.html#a405c2f5790624ca79dc241e01d797ac1" title="height of the opening brace">JKQTMathTextBraceNode::NodeSize::openBraceHeight</a>/JKQTMathTextBraceNode::NodeSize::closeBraceHeight in <em>out</em> </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">painter</td><td>a QPainter used for size-calculation/drawing </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">currentEv</td><td>font environment </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">childSize</td><td>size of the child node surrounded by the node </td></tr>
@@ -821,7 +821,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_brace_node.html">JKQTMathTextBraceNode</a></li>
-    <li class="footer">Generated on Wed Sep 14 2022 20:06:57 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Mon Sep 19 2022 19:58:15 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

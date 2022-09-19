@@ -125,8 +125,8 @@ $(document).ready(function(){initNavTree('_j_k_q_t_math_text_render_cmd_line_too
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a8ac20f1e5cc31b54589e0b322f1b7991"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a8ac20f1e5cc31b54589e0b322f1b7991">JKQTMathText::useXITS</a></div><div class="ttdeci">bool useXITS(bool mathModeOnly=true, bool useAsFallbackSymbol=true)</div><div class="ttdoc">configures the class to use the XITS fonts in mathmode</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_af231fd040caed5040c227dd3748ff899"><div class="ttname"><a href="class_j_k_q_t_math_text.html#af231fd040caed5040c227dd3748ff899">JKQTMathText::setFontSize</a></div><div class="ttdeci">void setFontSize(double __value)</div><div class="ttdoc">set the default font size in points</div></div>
 </div><!-- fragment --><p >Now we parse some LaTeX code and thus generate its memory representation.</p>
-<div class="fragment"><div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05">parse</a>(latex);</div>
-<div class="ttc" id="aclass_j_k_q_t_math_text_html_abc0c403436fc0529eae2f4c9c23edd05"><div class="ttname"><a href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05">JKQTMathText::parse</a></div><div class="ttdeci">bool parse(const QString &amp;markup, DefaultParserTypes markuptType=DefaultParser, ParseOptions options=DefaultParseOptions)</div><div class="ttdoc">parse the given math markup string with a parser derived from markuptType.</div></div>
+<div class="fragment"><div class="line">mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd">parse</a>(latex);</div>
+<div class="ttc" id="aclass_j_k_q_t_math_text_html_a33429d4f9fd09a5418995a0a2886c7cd"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd">JKQTMathText::parse</a></div><div class="ttdeci">bool parse(const QString &amp;markup, DefaultParserTypes markupType=DefaultParser, ParseOptions options=DefaultParseOptions)</div><div class="ttdoc">parse the given math markup string with a parser derived from markupType.</div></div>
 </div><!-- fragment --><p >Finally we can generate a QImage with the output of the rendering algorithm and save it as a file.</p>
 <div class="fragment"><div class="line"><span class="keyword">const</span> QImage pix=mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#a957367069dbd6d05b0e5a8902fa90d77">drawIntoImage</a>(drawBoxes, backgroundColor, sizeincrease);</div>
 <div class="line">pix.save(outputFilename);</div>
@@ -181,7 +181,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_math_text_render_cmd_line_too
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Wed Sep 14 2022 20:06:57 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Mon Sep 19 2022 19:58:14 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

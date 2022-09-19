@@ -1,6 +1,7 @@
 var group__jkqtptools__drawing =
 [
     [ "JKQTPEnhancedPainter", "class_j_k_q_t_p_enhanced_painter.html", [
+      [ "PainterFlags", "group__jkqtplotter__basegraphserrors.html#ga54df2902129afae9c292dd3afaab1475", null ],
       [ "PainterFlag", "class_j_k_q_t_p_enhanced_painter.html#ad6eacc07690b9f7f278df39db5f0c19e", [
         [ "DefaultPaintMode", "class_j_k_q_t_p_enhanced_painter.html#ad6eacc07690b9f7f278df39db5f0c19ea5403120a1c748a8d40ccfb9c708d8952", null ],
         [ "VectorPainting", "class_j_k_q_t_p_enhanced_painter.html#ad6eacc07690b9f7f278df39db5f0c19eabf22c128129e823aea0de0c9b103e105", null ]

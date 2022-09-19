@@ -5,6 +5,5 @@ var searchData=
   ['jkqtfastplotter_3a_20speed_2doptimized_20plotter_20class_2',['JKQTFastPlotter: Speed-Optimized Plotter class',['../group__jkqtfastplotter.html',1,'']]],
   ['jkqtmathtext_20latex_2drenderer_20for_20qt_3',['JKQTMathText LaTeX-Renderer for Qt',['../group__jkqtmathtext.html',1,'']]],
   ['jkqtmathtext_20rendering_20model_4',['JKQTMathText Rendering Model',['../group__jkqtmathtext__renderingmodel.html',1,'']]],
-  ['jkqtplotter_20styling_20system_5',['JKQTPlotter Styling System',['../group__jkqtpplotter__styling.html',1,'']]],
-  ['jkqtplotter_3a_20qt_20based_20scientific_20plotter_20class_6',['JKQTPlotter: Qt based Scientific Plotter Class',['../group__jkqtplotter.html',1,'']]]
+  ['jkqtplotter_3a_20qt_20based_20scientific_20plotter_20class_5',['JKQTPlotter: Qt based Scientific Plotter Class',['../group__jkqtplotter.html',1,'']]]
 ];

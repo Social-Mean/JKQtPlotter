@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('group__jkqtmathtext__renderingmodel.ht
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">JKQTMathText Rendering Model<div class="ingroups"><a class="el" href="group__jkqtmathtext.html">JKQTMathText LaTeX-Renderer for Qt</a> &raquo; <a class="el" href="group__jkqtmathtext__general.html">General Information</a></div></div></div>
+  <div class="headertitle"><div class="title">JKQTMathText Rendering Model<div class="ingroups"><a class="el" href="group__jkqtmathtext.html">JKQTMathText LaTeX-Renderer for Qt</a> &raquo; <a class="el" href="group__jkqtmathtext__general.html">General Information on JKQTMathText</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
@@ -148,7 +148,7 @@ Also the parser performs optimizations on the tree, e.g. by removing a <a class=
 </div>
 <h1><a class="anchor" id="jkqtmathtext_renderingmodel_linebreaks"></a>
 Linebreaks and Blocks</h1>
-<p >As described above, <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> represents the mathematicl markup as a tree of boxes. When calling <a class="el" href="class_j_k_q_t_math_text.html#abc0c403436fc0529eae2f4c9c23edd05" title="parse the given math markup string with a parser derived from markuptType.">JKQTMathText::parse()</a> without any additional parameters, the base-node is a <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> that can represent several lines of text. A new line is started when a <code>\\</code> or <code>\newline</code> command is found. Automatic line breaking is not performed, i.e. each line can possibly become very long, also longer than the available space for drawing! Also lineabreaks are only allowed directly in the current context. You cannot write </p><div class="fragment"><div class="line"> .tex </div>
+<p >As described above, <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> represents the mathematicl markup as a tree of boxes. When calling <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">JKQTMathText::parse()</a> without any additional parameters, the base-node is a <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> that can represent several lines of text. A new line is started when a <code>\\</code> or <code>\newline</code> command is found. Automatic line breaking is not performed, i.e. each line can possibly become very long, also longer than the available space for drawing! Also lineabreaks are only allowed directly in the current context. You cannot write </p><div class="fragment"><div class="line"> .tex </div>
 <div class="line">\textbf{line1\\text2}</div>
 </div><!-- fragment --><p> but have to write </p><div class="fragment"><div class="line"> .tex </div>
 <div class="line">\textbf{line1}\\</div>
@@ -163,7 +163,7 @@ Linebreaks and Blocks</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Sep 14 2022 20:06:57 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Mon Sep 19 2022 19:58:15 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

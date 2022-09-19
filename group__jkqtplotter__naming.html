@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JKQTPlotter: Changelog of Fira Math</title>
+<title>JKQTPlotter: Conventions Naming Conventions in JKQTPlotter</title>
 <meta name="description" content="an extensive Qt5+Qt6 Plotter framework (including a feature-richt plotter widget, a speed-optimized, but limited variant and a LaTeX equation renderer!), written fully in C/C++ and without external dependencies">
 <meta name="keywords" lang="en-us" content="C++, C++11, Qt, Qt5, Qt6, Plotting, Plot, Chart, Graph, Qt, Widget, C++, Library, Visualization, charting library, plotting library, scientific visualization, data visualization, statistics, statistical methods, statistics library, LaTeX parser, LaTeX renderer, Qt widget, Qt5 widget, Qt6 widget, Qt charts, Qt plots, barchart, violinplot, boxplot, JKQtPlotter, JKQTMathText, JKQTFastPlotter">
 <meta name="author" content="$author">
@@ -55,8 +55,8 @@ var searchBox = new SearchBox("searchBox", "search",'Search','.html');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li class="current"><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",'Search','.html');
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('md_lib_jkqtmathtext_resources_fira_math__c_h_a_n_g_e_l_o_g.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('group__jkqtplotter__naming.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -108,25 +108,39 @@ $(document).ready(function(){initNavTree('md_lib_jkqtmathtext_resources_fira_mat
 </iframe>
 </div>
 
-<div><div class="header">
-  <div class="headertitle"><div class="title">Changelog of Fira Math </div></div>
+<div class="header">
+  <div class="headertitle"><div class="title">Conventions Naming Conventions in JKQTPlotter<div class="ingroups"><a class="el" href="group__jkqtplotter.html">JKQTPlotter: Qt based Scientific Plotter Class</a> &raquo; <a class="el" href="group__jkqtplotter__general.html">General Information</a></div></div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p >The format is based on <a href="https://keepachangelog.com">Keep a Changelog</a>.</p>
-<h1><a class="anchor" id="autotoc_md123"></a>
-[Unreleased]</h1>
-<p >More details can be found in the <a href="https://github.com/firamath/firamath/compare/aa5993b...main">GitHub commit log</a>.</p>
-<h1><a class="anchor" id="autotoc_md124"></a>
-Before v0.5.0</h1>
-<p >Changelog before v0.5.0 can be found in <a href="https://github.com/firamath/firamath/blob/main/docs/CHANGELOG.old.md">docs/CHANGELOG.old.md</a>. </p>
-</div></div><!-- contents -->
-</div><!-- PageDoc -->
+<div class="dynheader">
+Collaboration diagram for Conventions Naming Conventions in JKQTPlotter:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group__jkqtplotter__naming.svg" width="482" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<p >This page assembles the naming conventions behind the implementation and documentation of <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>: </p><ul>
+<li>
+<b>plot</b> is the complete drawn image, including the axes, the graphs, the key and all other visual elements It is drawn by the invisible <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a>, which is typically controlled by an actual widget like <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> </li>
+<li>
+<b>plot element</b> any sub element of the plot, e.g. a single coordinate axis, the key, but also any graph/curve </li>
+<li>
+<b>graph</b> is a single curve/image/geometric element in the plot, typically derived from <a class="el" href="class_j_k_q_t_p_graph.html" title="this virtual base class of the (data-column based) graphs, which are part of a JKQTPlotter plot and w...">JKQTPGraph</a> (see also <a class="el" href="group__jkqtplotter__graphsgroup.html#jkqtplotter_graphsgroup_classstructure_basics">Graph Classes</a> ) </li>
+<li>
+<b>geometric element</b> is a special graph that does not represent a curve based on data from the <a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a>, but a single graphic element, like a rectangle/circle/line/..., some text, a single symbol. These elements are typically derived from <a class="el" href="class_j_k_q_t_p_geometric_plot_element.html" title="this is the virtual base class of all JKQTPPlotElement&#39;s in a JKQTPlotter plot that represent geometr...">JKQTPGeometricPlotElement</a> </li>
+<li>
+<b>annotation</b> is a plot element, which is used to annotate the graphs/plot, e.g. some text. These elements are typically derived from <a class="el" href="class_j_k_q_t_p_plot_annotation_element.html" title="this is the virtual base class of all JKQTPPlotElement&#39;s in a JKQTPlotter plot that represent annotat...">JKQTPPlotAnnotationElement</a> </li>
+<li>
+<b>key</b> is the legend of the plot </li>
+<li>
+<b>coordinate axis</b> is each of the x- or y-axis (there might be addition axes, e.g. when showing a color-scale) </li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.3-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Sep 14 2022 20:06:57 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Mon Sep 19 2022 19:58:14 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

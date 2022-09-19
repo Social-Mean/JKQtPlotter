@@ -604,12 +604,15 @@ Column Management</h1>
 <h2><a class="anchor" id="jkqtpdatastore_column_management_generation"></a>
 Column Generation/Deletion</h2>
 <p >A <a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a> manages a set of data columns. Each column is a continuous vector of numbers. Optionally it can be interpreted as a 2D image. In the latter case, the data is assumed to be ordered in row-major ordering (i.e. row for row).</p>
-<p >You can generate new columns e.g. by:</p><ul>
-<li><a class="el" href="class_j_k_q_t_p_datastore.html#ae057eda96c7b754cd42f4380b429a589" title="add a new column to the datastore and return its ID">addColumn()</a> which either generates internally managed (and extensible) columns, or accepts a simple <code>double*</code> pointer to external. In the latter case owner-ship may be transferred to the datastore, but can also retain externally.</li>
-<li><a class="el" href="class_j_k_q_t_p_datastore.html#a3ce797890c214db3794bca76ffefef8e" title="add a new columns with width * height rows to the datastore and return its column ID....">addImageColumn()</a> adds a column that should be interpreted as an image with given width and height (i.e. a row-major matrix with <code>width</code> columns and <code>height</code> rows.</li>
-<li><a class="el" href="class_j_k_q_t_p_datastore.html#af778d52194f6dbb9bc0cb07d07a33ae5" title="copies the given old_column into a new one, reading the data with the given start column and stride">copyColumn()</a> duplicates an existing column</li>
-<li><p class="startli"><a class="el" href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6" title="add one column to the datastore. It will be filled with the values from first ... last">addCopiedColumn()</a> copies an external dataset into the datastore. e.g. with code like:</p>
-<div class="fragment"><div class="line"> QVector&lt;double&gt; X, Y;</div>
+<p >You can generate new columns e.g. by: </p><ul>
+<li>
+<a class="el" href="class_j_k_q_t_p_datastore.html#ae057eda96c7b754cd42f4380b429a589" title="add a new column to the datastore and return its ID">addColumn()</a> which either generates internally managed (and extensible) columns, or accepts a simple <code>double*</code> pointer to external. In the latter case owner-ship may be transferred to the datastore, but can also retain externally. </li>
+<li>
+<a class="el" href="class_j_k_q_t_p_datastore.html#a3ce797890c214db3794bca76ffefef8e" title="add a new columns with width * height rows to the datastore and return its column ID....">addImageColumn()</a> adds a column that should be interpreted as an image with given width and height (i.e. a row-major matrix with <code>width</code> columns and <code>height</code> rows. </li>
+<li>
+<a class="el" href="class_j_k_q_t_p_datastore.html#af778d52194f6dbb9bc0cb07d07a33ae5" title="copies the given old_column into a new one, reading the data with the given start column and stride">copyColumn()</a> duplicates an existing column </li>
+<li>
+<a class="el" href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6" title="add one column to the datastore. It will be filled with the values from first ... last">addCopiedColumn()</a> copies an external dataset into the datastore. e.g. with code like: <div class="fragment"><div class="line"> QVector&lt;double&gt; X, Y;</div>
 <div class="line"> <span class="keyword">const</span> <span class="keywordtype">int</span> Ndata=100;</div>
 <div class="line"> <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;Ndata; i++) {</div>
 <div class="line">    <span class="keyword">const</span> <span class="keywordtype">double</span> x=double(i)/double(Ndata)*8.0*<a class="code hl_define" href="group__jkqtptools__math__basic.html#gae96ac530dff57dae111b641b0c7f4eb4">JKQTPSTATISTICS_PI</a>;</div>
@@ -622,16 +625,23 @@ Column Generation/Deletion</h2>
 <div class="line">linegraph-&gt;setYColumn(datastore-&gt;addCopiedColumn(Y, <span class="stringliteral">&quot;y&quot;</span>));</div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_line_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_x_y_line_graph.html">JKQTPXYLineGraph</a></div><div class="ttdoc">This implements xy line plots. This also alows to draw symbols at the data points.</div><div class="ttdef"><b>Definition:</b> jkqtplines.h:61</div></div>
 <div class="ttc" id="agroup__jkqtptools__math__basic_html_gae96ac530dff57dae111b641b0c7f4eb4"><div class="ttname"><a href="group__jkqtptools__math__basic.html#gae96ac530dff57dae111b641b0c7f4eb4">JKQTPSTATISTICS_PI</a></div><div class="ttdeci">#define JKQTPSTATISTICS_PI</div><div class="ttdef"><b>Definition:</b> jkqtpmathtools.h:48</div></div>
-</div><!-- fragment --></li>
-</ul>
-<p ><a class="el" href="class_j_k_q_t_p_datastore.html#a5e33ba3499be747d654639e4987c0b52" title="add a column to the datastore that contains rows rows with monotonely increasing value starting at st...">addLinearColumn()</a> adds a column with linearly increasing numbers (in a given range)</p><ul>
-<li><a class="el" href="class_j_k_q_t_p_datastore.html#affda1ff5a437385986cbb01a422c73bd" title="add a column to the datastore that contains rows rows with monotonely increasing value starting at st...">addLogColumn()</a> and <a class="el" href="class_j_k_q_t_p_datastore.html#a7d6b0adeecd3054ac7cf15e0ce81d71e" title="add a column to the datastore that contains rows rows with monotonely increasing value starting at 10...">addDecadeLogColumn()</a> add columns with logarithmically spaced values</li>
-<li><a class="el" href="class_j_k_q_t_p_datastore.html#aaf018b1c809f2c4a0a0f5fbb26bbc933" title="add two columns to the datastore that contains the x- and y- coordinates of a rectangular grid with w...">addLinearGridColumns()</a> adds two columns which represent x- and y- coordinates of points on a rectangular grid (useful for calculating image data)</li>
-<li><a class="el" href="class_j_k_q_t_p_datastore.html#a91ec09c3006f22da347f6596e4b4c692" title="add a column with rows entries, that is calculated by calling f for each entry">addCalculatedColumn()</a> calculates a column, based on row numbers and a C++ functor</li>
-<li><a class="el" href="class_j_k_q_t_p_datastore.html#a6454e03bf03d417f6670810a0faaccdd" title="add a column with the same number of entries, as in the other column otherColumn ,...">addColumnCalculatedFromColumn()</a> calculates a column, based on another column data</li>
-<li><a class="el" href="class_j_k_q_t_p_datastore.html#a791b38ec8f11db99af05467613e5b69f" title="copies the contents of the map-like container c into two columns of the datastore,...">addCopiedMap()</a> copies data from a std::map/QMap into two columns</li>
-<li>... several more functions for specific cases exist.</li>
-<li>Also note that there are even library extensions that allow to import data directly from OpenCV matrices: <a class="el" href="group__jkqtpinterfaceopencv.html#gaa65c721c0ea53ab3481bd10ff5e1462e" title="add one external column to the datastore. It will be filled with the contents of CImg matrix cv::Mat">JKQTPCopyCvMatToColumn()</a></li>
+</div><!-- fragment --> </li>
+<li>
+<a class="el" href="class_j_k_q_t_p_datastore.html#a5e33ba3499be747d654639e4987c0b52" title="add a column to the datastore that contains rows rows with monotonely increasing value starting at st...">addLinearColumn()</a> adds a column with linearly increasing numbers (in a given range) </li>
+<li>
+<a class="el" href="class_j_k_q_t_p_datastore.html#affda1ff5a437385986cbb01a422c73bd" title="add a column to the datastore that contains rows rows with monotonely increasing value starting at st...">addLogColumn()</a> and <a class="el" href="class_j_k_q_t_p_datastore.html#a7d6b0adeecd3054ac7cf15e0ce81d71e" title="add a column to the datastore that contains rows rows with monotonely increasing value starting at 10...">addDecadeLogColumn()</a> add columns with logarithmically spaced values </li>
+<li>
+<a class="el" href="class_j_k_q_t_p_datastore.html#aaf018b1c809f2c4a0a0f5fbb26bbc933" title="add two columns to the datastore that contains the x- and y- coordinates of a rectangular grid with w...">addLinearGridColumns()</a> adds two columns which represent x- and y- coordinates of points on a rectangular grid (useful for calculating image data) </li>
+<li>
+<a class="el" href="class_j_k_q_t_p_datastore.html#a91ec09c3006f22da347f6596e4b4c692" title="add a column with rows entries, that is calculated by calling f for each entry">addCalculatedColumn()</a> calculates a column, based on row numbers and a C++ functor </li>
+<li>
+<a class="el" href="class_j_k_q_t_p_datastore.html#a6454e03bf03d417f6670810a0faaccdd" title="add a column with the same number of entries, as in the other column otherColumn ,...">addColumnCalculatedFromColumn()</a> calculates a column, based on another column data </li>
+<li>
+<a class="el" href="class_j_k_q_t_p_datastore.html#a791b38ec8f11db99af05467613e5b69f" title="copies the contents of the map-like container c into two columns of the datastore,...">addCopiedMap()</a> copies data from a std::map/QMap into two columns </li>
+<li>
+... several more functions for specific cases exist. </li>
+<li>
+Also note that there are even library extensions that allow to import data directly from OpenCV matrices: <a class="el" href="group__jkqtpinterfaceopencv.html#gaa65c721c0ea53ab3481bd10ff5e1462e" title="add one external column to the datastore. It will be filled with the contents of CImg matrix cv::Mat">JKQTPCopyCvMatToColumn()</a> </li>
 </ul>
 <p >Of course columns can also be deleted by calling:</p><ul>
 <li><a class="el" href="class_j_k_q_t_p_datastore.html#aa8ed1eccccfc89078bb009365d65f8d5" title="delete the given column, if no other columns points to the datastore item of the column and removeIte...">deleteColumn()</a></li>
@@ -3736,9 +3746,9 @@ template&lt;class TIterator &gt; </div>
 <div class="line">  <a class="code hl_function" href="class_j_k_q_t_p_datastore.html#a4597feb9ac51c2a717e2028ef73e0e8b">set</a>(newColumn, r, <a class="code hl_function" href="class_j_k_q_t_p_datastore.html#af580d8e0eae7972de1b810b06dfb4a7f">get</a>(old_column, r))</div>
 <div class="line">}</div>
 <div class="line"><span class="keywordflow">return</span> newColumn;</div>
-<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a4597feb9ac51c2a717e2028ef73e0e8b"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a4597feb9ac51c2a717e2028ef73e0e8b">JKQTPDatastore::set</a></div><div class="ttdeci">void set(size_t column, size_t row, double value)</div><div class="ttdoc">sets the value at position (column, row). column is the logical column and will be mapped to the acco...</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:2651</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a4597feb9ac51c2a717e2028ef73e0e8b"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a4597feb9ac51c2a717e2028ef73e0e8b">JKQTPDatastore::set</a></div><div class="ttdeci">void set(size_t column, size_t row, double value)</div><div class="ttdoc">sets the value at position (column, row). column is the logical column and will be mapped to the acco...</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:2650</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_ae057eda96c7b754cd42f4380b429a589"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#ae057eda96c7b754cd42f4380b429a589">JKQTPDatastore::addColumn</a></div><div class="ttdeci">size_t addColumn(JKQTPColumn col)</div><div class="ttdoc">add a new column to the datastore and return its ID</div></div>
-<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_af580d8e0eae7972de1b810b06dfb4a7f"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#af580d8e0eae7972de1b810b06dfb4a7f">JKQTPDatastore::get</a></div><div class="ttdeci">double get(size_t column, size_t row) const</div><div class="ttdoc">returns the value at position (column, row). column is the logical column and will be mapped to the a...</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:2626</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_af580d8e0eae7972de1b810b06dfb4a7f"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#af580d8e0eae7972de1b810b06dfb4a7f">JKQTPDatastore::get</a></div><div class="ttdeci">double get(size_t column, size_t row) const</div><div class="ttdoc">returns the value at position (column, row). column is the logical column and will be mapped to the a...</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:2625</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -6322,7 +6332,7 @@ the iterator <em>pos</em> is rendered invalid by this column, as the in some cas
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a></li>
-    <li class="footer">Generated on Wed Sep 14 2022 20:06:58 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Mon Sep 19 2022 19:58:15 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

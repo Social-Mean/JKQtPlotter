@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['licensing_20terms_20for_20jkqtplotter_0',['Licensing Terms for JKQTPlotter',['../licensepage.html',1,'']]]
+  ['security_20policy_0',['Security Policy',['../md__s_e_c_u_r_i_t_y.html',1,'']]]
 ];

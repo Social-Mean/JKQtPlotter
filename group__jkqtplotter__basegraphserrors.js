@@ -101,6 +101,8 @@ var group__jkqtplotter__basegraphserrors =
       [ "errorUsesColumn", "class_j_k_q_t_p_y_graph_errors.html#ab3dcdb15ebcc69133e2293dcd535a8e2", null ],
       [ "plotErrorIndicators", "class_j_k_q_t_p_y_graph_errors.html#ad5d9e16a1907b12f1bae610bc83f348e", null ]
     ] ],
+    [ "JKQTPErrorPlotstyle", "group__jkqtplotter__basegraphserrors.html#ga2095a8b88d2118fe3bd7e13feccf9274", null ],
+    [ "JKQTPEnhancedPainter::PainterFlags", "group__jkqtplotter__basegraphserrors.html#ga54df2902129afae9c292dd3afaab1475", null ],
     [ "JKQTPErrorPlotstyleElements", "group__jkqtplotter__basegraphserrors.html#ga4b3a78b3a037650785eb6b798b5eaf9b", [
       [ "JKQTPNoError", "group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9ba6e4c9d05eb649c66bb9eada5b135f007", null ],
       [ "JKQTPErrorSimpleBars", "group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9ba23d50ddc10478b36b7d7cdb74f5f7171", null ],
