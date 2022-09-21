@@ -1,5 +1,14 @@
 var NAVTREEINDEX30 =
 {
+"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a6d64367694401ec2abd4fd4bd490eae6":[10,3,1,2,34,1],
+"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#aa40c0a72de3abc9179fad3a088aa0ffe":[10,3,1,2,34,0],
+"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#aad6d3528ab0d70fb3f4df30c099f5544":[10,3,1,2,34,3],
+"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#ad245c825e721888105ea37b4b67a7faf":[10,3,1,2,34,4],
+"struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html":[10,3,1,2,41],
+"struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#a1e69ef3154736d5a4aae89e6e65c2122":[10,3,1,2,41,4],
+"struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#a56e2ea00e6f83922a2b418eef8c8f33c":[10,3,1,2,41,3],
+"struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#aa6741abba85ef098bd9e9892df5b88dc":[10,3,1,2,41,2],
+"struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#ab4572b2bac26cea828fac4bbc1d470f2":[10,3,1,2,41,1],
 "struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#abb1ebab533ebda4f641eacaa93495da4":[10,3,1,2,41,0],
 "struct_j_k_q_t_p_color_derivation_mode.html":[10,4,5,6],
 "struct_j_k_q_t_p_color_derivation_mode.html#a04beb5f1daef77c207a8f2baf4c2bc44":[10,4,5,6,14],

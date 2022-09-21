@@ -17,6 +17,8 @@ var group__jkqtpbaseplotter__elements =
       [ "drawGrids", "class_j_k_q_t_p_coordinate_axis.html#a2e2706a310fabb08cc8ecbb4fef8a3fa", null ],
       [ "floattolabel", "class_j_k_q_t_p_coordinate_axis.html#a42d2fdfe7294c0267b05ac9e14c34e00", null ],
       [ "floattolabel", "class_j_k_q_t_p_coordinate_axis.html#af6231904961fe3ad0ccbe68c896645b4", null ],
+      [ "floattostringWithFormat", "class_j_k_q_t_p_coordinate_axis.html#afb0515ef1712c693b550a1e833e28f39", null ],
+      [ "floattostringWithFormat", "class_j_k_q_t_p_coordinate_axis.html#a2ea34c44bd79f58daea4bd0200a79af9", null ],
       [ "getAbsoluteMax", "class_j_k_q_t_p_coordinate_axis.html#a658abefdd8cfc49d0ef4983869dc624e", null ],
       [ "getAbsoluteMin", "class_j_k_q_t_p_coordinate_axis.html#a66e4f6584cc9c65d1be9787e7a599372", null ],
       [ "getAutoAxisSpacing", "class_j_k_q_t_p_coordinate_axis.html#a6e4a306204268ceaa9a2b38244bc7bf1", null ],

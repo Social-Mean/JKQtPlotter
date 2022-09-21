@@ -51,11 +51,15 @@ var group__jkqtpplottersupprt =
     ] ],
     [ "JKQTPCALabelType", "group__jkqtpplottersupprt.html#gad58b8a9812defae065b13b76154c8d2e", [
       [ "JKQTPCALTdefault", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea238f63f8e20f816b05a09851b469823f", null ],
+      [ "JKQTPCALTscientific", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea4cab5efdfe971d1595abc8ca3c177f7a", null ],
       [ "JKQTPCALTexponentCharacter", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858", null ],
       [ "JKQTPCALTexponent", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11", null ],
       [ "JKQTPCALTdate", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea8343a082a4a5fefc22d3471a5bab6adb", null ],
       [ "JKQTPCALTtime", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eac21cd0c77ad3a423eb18bf249cd284d1", null ],
       [ "JKQTPCALTdatetime", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eae74a5730d5380cdaa3a436b199af2f3c", null ],
+      [ "JKQTPCALTfrac", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187", null ],
+      [ "JKQTPCALTintfrac", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eaf0cc2f9560a95eafa3c6e72043724267", null ],
+      [ "JKQTPCALTcount", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea138e41f475f8e4cda181df060542cdae", null ],
       [ "JKQTPCALTmax", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f", null ]
     ] ],
     [ "JKQTPContextMenuModes", "group__jkqtpplottersupprt.html#ga80d2235c912ead563f404f4e7f331137", [

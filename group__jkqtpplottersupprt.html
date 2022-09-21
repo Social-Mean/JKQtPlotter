@@ -212,6 +212,8 @@ Enumerations</h2></td></tr>
 <tr class="memitem:gad58b8a9812defae065b13b76154c8d2e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#gad58b8a9812defae065b13b76154c8d2e">JKQTPCALabelType</a> { <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea238f63f8e20f816b05a09851b469823f">JKQTPCALTdefault</a>
 , <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea4cab5efdfe971d1595abc8ca3c177f7a">JKQTPCALTscientific</a>
+, <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858">JKQTPCALTexponentCharacter</a>
 , <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11">JKQTPCALTexponent</a>
@@ -222,7 +224,13 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eae74a5730d5380cdaa3a436b199af2f3c">JKQTPCALTdatetime</a>
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f">JKQTPCALTmax</a> =JKQTPCALTdatetime
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187">JKQTPCALTfrac</a>
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eaf0cc2f9560a95eafa3c6e72043724267">JKQTPCALTintfrac</a>
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea138e41f475f8e4cda181df060542cdae">JKQTPCALTcount</a>
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f">JKQTPCALTmax</a> =JKQTPCALTcount-1
 <br />
  }</td></tr>
 <tr class="memdesc:gad58b8a9812defae065b13b76154c8d2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">display mode for the axis labels  <a href="group__jkqtpplottersupprt.html#gad58b8a9812defae065b13b76154c8d2e">More...</a><br /></td></tr>
@@ -833,10 +841,17 @@ logic y-position of a graph, relative to the current JKQtPlotter </td></tr>
 <img src="JKQTPCALTdefault.png" alt=""/>
 </div>
  </td></tr>
-<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858" name="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858"></a>JKQTPCALTexponentCharacter&#160;</td><td class="fielddoc"><p >print the numbers and show a unit character, i.e. 5&mu; for <img class="formulaInl" alt="$ 5\cdot 10^{-6} $" src="form_247.png" width="52" height="15"/> , <code>3k</code> for <img class="formulaInl" alt="$ 3\cdot 10^3 $" src="form_248.png" width="44" height="15"/> ... <br  />
- </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11" name="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11"></a>JKQTPCALTexponent&#160;</td><td class="fielddoc"><p >show numbers in exponential for, e.g. <img class="formulaInl" alt="$ 3\cdot 10^5 $" src="form_249.png" width="44" height="15"/> ... </p>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea4cab5efdfe971d1595abc8ca3c177f7a" name="ggad58b8a9812defae065b13b76154c8d2ea4cab5efdfe971d1595abc8ca3c177f7a"></a>JKQTPCALTscientific&#160;</td><td class="fielddoc"><p >print the numbers in scientific notation, e.g. <code>"1.23e-4"</code> </p>
+<div class="image">
+<img src="JKQTPCALTscientific.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858" name="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858"></a>JKQTPCALTexponentCharacter&#160;</td><td class="fielddoc"><p >print the numbers and show a unit character, i.e. 5&mu; for <img class="formulaInl" alt="$ 5\cdot 10^{-6} $" src="form_247.png"/> , <code>3k</code> for <img class="formulaInl" alt="$ 3\cdot 10^3 $" src="form_248.png"/> ... </p>
+<div class="image">
+<img src="JKQTPCALTexponentCharacter.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11" name="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11"></a>JKQTPCALTexponent&#160;</td><td class="fielddoc"><p >show numbers in exponential for, e.g. <img class="formulaInl" alt="$ 3\cdot 10^5 $" src="form_249.png"/> ... </p>
 <div class="image">
 <img src="JKQTPCALTexponent.png" alt=""/>
 </div>
@@ -852,7 +867,21 @@ logic y-position of a graph, relative to the current JKQtPlotter </td></tr>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eae74a5730d5380cdaa3a436b199af2f3c" name="ggad58b8a9812defae065b13b76154c8d2eae74a5730d5380cdaa3a436b199af2f3c"></a>JKQTPCALTdatetime&#160;</td><td class="fielddoc"><p >show numbers as times </p>
-</td></tr>
+<div class="image">
+<img src="JKQTPCALTdatetime.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187" name="ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187"></a>JKQTPCALTfrac&#160;</td><td class="fielddoc"><p >show numbers as fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed like $ \frac{1}{2} <img class="formulaInl" alt="$ \image html JKQTPCALTfrac.png */ JKQTPCALTslashfrac, /*!&lt; \brief show numbers as fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed like \c 1/2 \image html JKQTPCALTslashfrac.png */ JKQTPCALTsfrac, /*!&lt; \brief show numbers as fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed using \c \\sfrac{1}{2} $" src="form_250.png"/> </p>
+<div class="image">
+<img src="JKQTPCALTsfrac.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eaf0cc2f9560a95eafa3c6e72043724267" name="ggad58b8a9812defae065b13b76154c8d2eaf0cc2f9560a95eafa3c6e72043724267"></a>JKQTPCALTintfrac&#160;</td><td class="fielddoc"><p >show numbers as integral+fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed like $ \frac{1}{2} <img class="formulaInl" alt="$ \image html JKQTPCALTintfrac.png */ JKQTPCALTintslashfrac, /*!&lt; \brief show numbers as integral+fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed like \c 1/2 \image html JKQTPCALTintslashfrac.png */ JKQTPCALTintsfrac, /*!&lt; \brief show numbers as integral+fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed using \c \\sfrac{1}{2} $" src="form_251.png"/> </p>
+<div class="image">
+<img src="JKQTPCALTintsfrac.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea138e41f475f8e4cda181df060542cdae" name="ggad58b8a9812defae065b13b76154c8d2ea138e41f475f8e4cda181df060542cdae"></a>JKQTPCALTcount&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f" name="ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f"></a>JKQTPCALTmax&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -1984,7 +2013,7 @@ Draw Lines User-Action</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Sep 19 2022 20:17:12 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Wed Sep 21 2022 22:59:32 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

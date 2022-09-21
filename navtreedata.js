@@ -30,19 +30,19 @@ var NAVTREE =
       [ "Table Of Contents", "index.html#jkqtplottertic", null ]
     ] ],
     [ "Contributor Covenant Code of Conduct", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html", [
-      [ "Our Pledge", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md1", null ],
-      [ "Our Standards", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2", null ],
-      [ "Our Responsibilities", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3", null ],
-      [ "Scope", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4", null ],
-      [ "Enforcement", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5", null ],
-      [ "Attribution", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6", null ]
+      [ "Our Pledge", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3", null ],
+      [ "Our Standards", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5", null ],
+      [ "Our Responsibilities", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md8", null ],
+      [ "Scope", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md10", null ],
+      [ "Enforcement", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md11", null ],
+      [ "Attribution", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md12", null ]
     ] ],
     [ "Contributing", "md__c_o_n_t_r_i_b_u_t_i_n_g.html", [
-      [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8", null ],
-      [ "Our Standards", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md9", null ],
-      [ "Our Responsibilities", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10", null ],
-      [ "Scope", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md11", null ],
-      [ "Enforcement", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md12", null ]
+      [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md2", null ],
+      [ "Our Standards", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md4", null ],
+      [ "Our Responsibilities", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md6", null ],
+      [ "Scope", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md7", null ],
+      [ "Enforcement", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md9", null ]
     ] ],
     [ "Build Instructions", "page_buildinstructions.html", "page_buildinstructions" ],
     [ "Example & Tutorial Projects", "example_tutorial_projects.html", "example_tutorial_projects" ],
@@ -77,19 +77,19 @@ var NAVTREE =
       ] ]
     ] ],
     [ "JKQTPlotter: Screenshots", "md_screenshots__r_e_a_d_m_e.html", [
-      [ "Scatter Plots and Boxplots", "md_screenshots__r_e_a_d_m_e.html#autotoc_md126", null ],
-      [ "Different Types of Barcharts", "md_screenshots__r_e_a_d_m_e.html#autotoc_md127", null ],
-      [ "Image Plots", "md_screenshots__r_e_a_d_m_e.html#autotoc_md128", null ],
-      [ "Plotting a user-defined (parsed) function", "md_screenshots__r_e_a_d_m_e.html#autotoc_md129", null ],
-      [ "Axis-Label styles in LogLog-Plot", "md_screenshots__r_e_a_d_m_e.html#autotoc_md130", null ],
-      [ "Parametrized Scatter Plots and Data Viewer", "md_screenshots__r_e_a_d_m_e.html#autotoc_md131", null ],
-      [ "Barcharts", "md_screenshots__r_e_a_d_m_e.html#autotoc_md132", null ],
-      [ "Screenshots of included LaTeX renderer", "md_screenshots__r_e_a_d_m_e.html#autotoc_md133", null ],
-      [ "QuickFit 3.0 Screenshots", "md_screenshots__r_e_a_d_m_e.html#autotoc_md134", null ]
+      [ "Scatter Plots and Boxplots", "md_screenshots__r_e_a_d_m_e.html#autotoc_md123", null ],
+      [ "Different Types of Barcharts", "md_screenshots__r_e_a_d_m_e.html#autotoc_md124", null ],
+      [ "Image Plots", "md_screenshots__r_e_a_d_m_e.html#autotoc_md125", null ],
+      [ "Plotting a user-defined (parsed) function", "md_screenshots__r_e_a_d_m_e.html#autotoc_md126", null ],
+      [ "Axis-Label styles in LogLog-Plot", "md_screenshots__r_e_a_d_m_e.html#autotoc_md127", null ],
+      [ "Parametrized Scatter Plots and Data Viewer", "md_screenshots__r_e_a_d_m_e.html#autotoc_md128", null ],
+      [ "Barcharts", "md_screenshots__r_e_a_d_m_e.html#autotoc_md129", null ],
+      [ "Screenshots of included LaTeX renderer", "md_screenshots__r_e_a_d_m_e.html#autotoc_md130", null ],
+      [ "QuickFit 3.0 Screenshots", "md_screenshots__r_e_a_d_m_e.html#autotoc_md131", null ]
     ] ],
     [ "Security Policy", "md__s_e_c_u_r_i_t_y.html", [
-      [ "Supported Versions", "md__s_e_c_u_r_i_t_y.html#autotoc_md123", null ],
-      [ "Reporting a Vulnerability", "md__s_e_c_u_r_i_t_y.html#autotoc_md124", null ]
+      [ "Supported Versions", "md__s_e_c_u_r_i_t_y.html#autotoc_md133", null ],
+      [ "Reporting a Vulnerability", "md__s_e_c_u_r_i_t_y.html#autotoc_md134", null ]
     ] ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
@@ -131,25 +131,25 @@ var NAVTREEINDEX =
 "class_j_k_q_t_p_bar_graph_base.html#a31a91f661e59b99893a6a16cc3905d30",
 "class_j_k_q_t_p_boxplot_horizontal_element.html",
 "class_j_k_q_t_p_column_const_iterator.html#a3037b61d7c0ef9417498c58b9af48026",
-"class_j_k_q_t_p_coordinate_axis.html#a39488047dfaaf679ff86218275107e85",
-"class_j_k_q_t_p_datastore.html#a94cff9d0f89c6f37951de667c68d33e7",
-"class_j_k_q_t_p_filled_curve_graph_base.html",
-"class_j_k_q_t_p_geo_line.html#a98722fab3fdc5f6cd2f72618b7a63ca7",
-"class_j_k_q_t_p_graph_boxplot_style_mixin.html#ab2e6ffe1067ad084dc86b0bccb37086e",
-"class_j_k_q_t_p_graph_symbol_style_mixin.html#a519a9e3248aa0182dcdd4389e1d742d6",
-"class_j_k_q_t_p_image_base.html#a254a0d01b1a5f5f5a2aaaf569ea13845",
-"class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49a57e3aa2203a577ca11cea4fadf8e380f",
-"class_j_k_q_t_p_plot_element.html#a336daf7b22c725b057378d5b25a08aa4",
-"class_j_k_q_t_p_save_data_adapter.html#ad32e3c743ed9439181c3d5eca6bb7a9c",
-"class_j_k_q_t_p_x_graph_error_data.html#aa360bdb762e0d73f6ccc1718a076c09e",
-"class_j_k_q_t_p_y_function_line_graph.html",
-"class_j_k_q_t_plotter.html#ace7749a00670131fca81612f82731b1c",
-"group__jkqtmathtext__general.html",
-"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da9bf6c6e194e40e55a6a1e63bc0c6a294",
-"group__jkqtptools__drawing.html#ga45fa6bfc357eb2c5a2206cacacd2de97",
-"group__jkqtptools__math__statistics__2dkde__kernels.html#gab2091afed12d139596ba3b52694e3ed9",
-"struct_j_k_q_t_base_plotter_1_1text_size_data.html#a3c2c2027cc012ee015104db0a1c49eec",
-"struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#abb1ebab533ebda4f641eacaa93495da4"
+"class_j_k_q_t_p_coordinate_axis.html#a393800f82e9ed86d3dbb2908f5b70a0f",
+"class_j_k_q_t_p_datastore.html#a873fa59e071f0a366754b36ec8423d73",
+"class_j_k_q_t_p_evaluated_function_with_errors_graph_drawing_base.html#adf7e13cc78db8e334c6f2d2cec88b3d0",
+"class_j_k_q_t_p_geo_line.html#a83e6bcafdf50719f62ddb63f7d538634",
+"class_j_k_q_t_p_graph_boxplot_style_mixin.html#aad510708cfd159630cb9b9e65a64e1ef",
+"class_j_k_q_t_p_graph_symbol_style_mixin.html#a3c411b4176c4f73a087cd0561e7a0996",
+"class_j_k_q_t_p_image_base.html#a072d8048ab3ae08b36c5d6e301823095",
+"class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49a4b694dca4e8935fbc6c26adc7f0b5821",
+"class_j_k_q_t_p_plot_element.html#a2959753811bc9a2b7180fbdb938d454c",
+"class_j_k_q_t_p_range_base.html#afbeb01d0acb9fb4b4593255431dc0933",
+"class_j_k_q_t_p_x_graph_error_data.html#a7ba87461987adf8f227b3560b2c7fce4",
+"class_j_k_q_t_p_x_y_y_graph.html#adcf6f92c678a976a5bb7140b32e97c62",
+"class_j_k_q_t_plotter.html#acde92b94d19a03cd7020a95965c339a5",
+"group__jkqtmathtext.html",
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da949418da5804ff500234fe321545769a",
+"group__jkqtptools__drawing.html#ga187b642897c87283754cb26a6a338429",
+"group__jkqtptools__math__statistics__2dhist.html",
+"page_whatsnew.html#page_whatsnew_V2018_08_OVERVIEW",
+"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a6d64367694401ec2abd4fd4bd490eae6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

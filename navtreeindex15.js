@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"class_j_k_q_t_p_geo_line.html#a83e6bcafdf50719f62ddb63f7d538634":[10,4,2,1,4,9,13],
+"class_j_k_q_t_p_geo_line.html#a90d7df7376ed68b6a3da8c07c8b9a52e":[10,4,2,1,4,9,9],
 "class_j_k_q_t_p_geo_line.html#a98722fab3fdc5f6cd2f72618b7a63ca7":[10,4,2,1,4,9,16],
 "class_j_k_q_t_p_geo_line.html#aa949c9e4dfb62b759555ae340afb752d":[10,4,2,1,4,9,10],
 "class_j_k_q_t_p_geo_line.html#aa9fb129fbd774514858a2c866b460430":[10,4,2,1,4,9,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "class_j_k_q_t_p_graph_boxplot_style_mixin.html#aa5f9c25e6bb2a46c284ccbab5767128c":[10,4,2,1,1,1,0,4],
 "class_j_k_q_t_p_graph_boxplot_style_mixin.html#aaac439b630d466d7bd7cad1149cfd7ea":[10,4,2,1,1,1,0,2],
 "class_j_k_q_t_p_graph_boxplot_style_mixin.html#aac01325748be1968da43bf25d2dba3ff":[10,4,2,1,1,1,0,51],
-"class_j_k_q_t_p_graph_boxplot_style_mixin.html#aacc7b80bdff2e11a41a3486d38b496ad":[10,4,2,1,1,1,0,109],
-"class_j_k_q_t_p_graph_boxplot_style_mixin.html#aad510708cfd159630cb9b9e65a64e1ef":[10,4,2,1,1,1,0,34],
-"class_j_k_q_t_p_graph_boxplot_style_mixin.html#aadffe5fd74c9a319517a3a73048c77b1":[10,4,2,1,1,1,0,85]
+"class_j_k_q_t_p_graph_boxplot_style_mixin.html#aacc7b80bdff2e11a41a3486d38b496ad":[10,4,2,1,1,1,0,109]
 };
