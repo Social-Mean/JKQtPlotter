@@ -2,9 +2,11 @@ var class_j_k_q_t_p_vertical_axis =
 [
     [ "JKQTPVerticalAxis", "class_j_k_q_t_p_vertical_axis.html#af2d952d65d752bcd53cad72ada8e92bf", null ],
     [ "drawAxes", "class_j_k_q_t_p_vertical_axis.html#a03f66318dd11c4cca8dc1c0ce5693f05", null ],
+    [ "drawAxisLabel1", "class_j_k_q_t_p_vertical_axis.html#afb95865a0a06bfa730bd5ff599ef47ec", null ],
+    [ "drawAxisLabel2", "class_j_k_q_t_p_vertical_axis.html#ac1f1a8905b08e1e0b08c65f624655bd1", null ],
     [ "drawGrids", "class_j_k_q_t_p_vertical_axis.html#a09b23eb86178429588bdc153a3a5785c", null ],
-    [ "drawTickLabel1", "class_j_k_q_t_p_vertical_axis.html#aff4a100dd719db4a949e392fd7b4133c", null ],
-    [ "drawTickLabel2", "class_j_k_q_t_p_vertical_axis.html#a500d9f5ed36bd6ec59fd098dbd2fd057", null ],
+    [ "drawTickLabel1", "class_j_k_q_t_p_vertical_axis.html#a59526c4695f372a2e3c50549f1027377", null ],
+    [ "drawTickLabel2", "class_j_k_q_t_p_vertical_axis.html#a8b028a9f7964b6e286acc3fc086e90d8", null ],
     [ "getParentOtheraxisInverted", "class_j_k_q_t_p_vertical_axis.html#af6c462e3c65de675339d3a65b89cbc79", null ],
     [ "getParentOtheraxisOffset", "class_j_k_q_t_p_vertical_axis.html#a968152f786092bbfa1d6bf54d35d6b84", null ],
     [ "getParentOtheraxisWidth", "class_j_k_q_t_p_vertical_axis.html#aa348a8f8395609cd3ba68c502544ca17", null ],

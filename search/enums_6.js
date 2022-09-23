@@ -12,7 +12,7 @@ var searchData=
   ['jkqtmathtextfontencoding_9',['JKQTMathTextFontEncoding',['../group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201',1,'jkqtmathtexttools.h']]],
   ['jkqtmathtexthorizontalalignment_10',['JKQTMathTextHorizontalAlignment',['../group__jkqtmathtext__tools.html#ga2fab98d9916942d8ee0f29841ed82448',1,'jkqtmathtexttools.h']]],
   ['jkqtmathtextverticalorientation_11',['JKQTMathTextVerticalOrientation',['../group__jkqtmathtext__tools.html#ga1463950676f064ad0a8feb24fd41db1f',1,'jkqtmathtexttools.h']]],
-  ['jkqtpcadrawmode_12',['JKQTPCADrawMode',['../group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c',1,'jkqtptools.h']]],
+  ['jkqtpcadrawmodeelements_12',['JKQTPCADrawModeElements',['../group__jkqtpplottersupprt.html#ga3b98f7fd9662593c8c36c55f172d8133',1,'jkqtptools.h']]],
   ['jkqtpcalabeltype_13',['JKQTPCALabelType',['../group__jkqtpplottersupprt.html#gad58b8a9812defae065b13b76154c8d2e',1,'jkqtptools.h']]],
   ['jkqtpcontextmenumodes_14',['JKQTPContextMenuModes',['../group__jkqtpplottersupprt.html#ga80d2235c912ead563f404f4e7f331137',1,'jkqtptools.h']]],
   ['jkqtpdatastoreitemformat_15',['JKQTPDatastoreItemFormat',['../group__jkqtpdatastorage.html#ga679ecb0cdb6bef6f4e64be37850d2ce3',1,'jkqtpdatastorage.h']]],

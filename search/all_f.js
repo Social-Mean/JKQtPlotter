@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['n_0',['n',['../class_j_k_q_t_p_math_parser_1_1jkmp_function_node.html#afa64aad4744d9a3e333248f4f4f0ae5f',1,'JKQTPMathParser::jkmpFunctionNode']]],
-  ['n_1',['N',['../struct_j_k_q_t_p_stat5_number_statistics.html#ae7ebc60cc78aa4e8a9dd5393663ff6a9',1,'JKQTPStat5NumberStatistics::N()'],['../class_j_k_q_t_f_p_line_plot.html#a90de2dddbc42d7ec0eb104c756389a59',1,'JKQTFPLinePlot::N()']]],
+  ['n_0',['N',['../struct_j_k_q_t_p_stat5_number_statistics.html#ae7ebc60cc78aa4e8a9dd5393663ff6a9',1,'JKQTPStat5NumberStatistics::N()'],['../class_j_k_q_t_f_p_line_plot.html#a90de2dddbc42d7ec0eb104c756389a59',1,'JKQTFPLinePlot::N()']]],
+  ['n_1',['n',['../class_j_k_q_t_p_math_parser_1_1jkmp_function_node.html#afa64aad4744d9a3e333248f4f4f0ae5f',1,'JKQTPMathParser::jkmpFunctionNode']]],
   ['name_2',['name',['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a5159aefec75812e960ecc5f6bf9f272e',1,'JKQTPImageTools::LUTData::name()'],['../group__jkqtptools__math__parser.html#a5b1ff4fb042a2eb38919ad7c647cc18d',1,'JKQTPMathParser::jkmpTempVariable::name()'],['../group__jkqtptools__math__parser.html#a6c9289cfdb89ed3ec6e3e1549eee6f1c',1,'JKQTPMathParser::jkmpFunctionDescriptor::name()'],['../class_j_k_q_t_p_column.html#aa51d875ada3d6482bcb13525bc6b1c86',1,'JKQTPColumn::name()']]],
   ['name_3',['NAME',['../class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49a57e3aa2203a577ca11cea4fadf8e380f',1,'JKQTPMathParser']]],
   ['namet_4',['nameT',['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a09d8abd1357f527d06ef7f5227b9ddda',1,'JKQTPImageTools::LUTData']]],

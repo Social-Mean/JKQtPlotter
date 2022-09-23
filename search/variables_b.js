@@ -1,12 +1,12 @@
 var searchData=
 [
   ['label_0',['label',['../struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html#a55b4cd07584a21586633f971a030e357',1,'JKQTPPlotElement::HitTestLocation::label()'],['../class_j_k_q_t_f_p_q_scale_bar_x_plot.html#ab1fecb3fec4863430cd2ef3319068304',1,'JKQTFPQScaleBarXPlot::label()'],['../struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#ae75d5b0a0258a492bc851b4290caa174',1,'JKQTPlotter::MouseDragMarker::label()']]],
-  ['labeldigits_1',['labelDigits',['../class_j_k_q_t_p_coordinate_axis_style.html#a1d9153efb094fc2cf595d6383120b322',1,'JKQTPCoordinateAxisStyle']]],
-  ['labeldistance_2',['labelDistance',['../class_j_k_q_t_p_coordinate_axis_style.html#a7c01f641f25c0e66dc227e10cfd06be3',1,'JKQTPCoordinateAxisStyle']]],
-  ['labelfontname_3',['labelFontName',['../class_j_k_q_t_fast_plotter.html#a9b6119db4582fe81d8b0e4da4b8f4ec7',1,'JKQTFastPlotter']]],
-  ['labelfontsize_4',['labelFontSize',['../class_j_k_q_t_fast_plotter.html#af5ce07d92b3f119a62b66025af5fe27b',1,'JKQTFastPlotter::labelFontSize()'],['../class_j_k_q_t_p_coordinate_axis_style.html#af837f6a317d17e190b208a1781db9f92',1,'JKQTPCoordinateAxisStyle::labelFontSize()']]],
-  ['labelposition_5',['labelPosition',['../class_j_k_q_t_p_coordinate_axis_style.html#a1089f11863df5d2abd66d62baa217262',1,'JKQTPCoordinateAxisStyle']]],
-  ['labeltype_6',['labelType',['../class_j_k_q_t_p_coordinate_axis_style.html#a2313efc2464824948fec072809c7cec3',1,'JKQTPCoordinateAxisStyle']]],
+  ['labelcolor_1',['labelColor',['../class_j_k_q_t_p_coordinate_axis_style.html#ad39d7e9c716f2a43d99bd01217a189d9',1,'JKQTPCoordinateAxisStyle']]],
+  ['labeldigits_2',['labelDigits',['../class_j_k_q_t_p_coordinate_axis_style.html#a1d9153efb094fc2cf595d6383120b322',1,'JKQTPCoordinateAxisStyle']]],
+  ['labeldistance_3',['labelDistance',['../class_j_k_q_t_p_coordinate_axis_style.html#a7c01f641f25c0e66dc227e10cfd06be3',1,'JKQTPCoordinateAxisStyle']]],
+  ['labelfontname_4',['labelFontName',['../class_j_k_q_t_fast_plotter.html#a9b6119db4582fe81d8b0e4da4b8f4ec7',1,'JKQTFastPlotter']]],
+  ['labelfontsize_5',['labelFontSize',['../class_j_k_q_t_fast_plotter.html#af5ce07d92b3f119a62b66025af5fe27b',1,'JKQTFastPlotter::labelFontSize()'],['../class_j_k_q_t_p_coordinate_axis_style.html#af837f6a317d17e190b208a1781db9f92',1,'JKQTPCoordinateAxisStyle::labelFontSize()']]],
+  ['labelposition_6',['labelPosition',['../class_j_k_q_t_p_coordinate_axis_style.html#a1089f11863df5d2abd66d62baa217262',1,'JKQTPCoordinateAxisStyle']]],
   ['last_7',['last',['../class_j_k_q_t_p_high_res_timer.html#aff755f3592abd721a077cb426dec5e2b',1,'JKQTPHighResTimer']]],
   ['lastmatrixlinecommandcount_8',['lastMatrixLineCommandCount',['../class_j_k_q_t_math_text_latex_parser.html#aa2100e13d846d8ce7fe3cd851cf20519',1,'JKQTMathTextLatexParser']]],
   ['lastrightbracetype_9',['lastRightBraceType',['../class_j_k_q_t_math_text_latex_parser.html#a36352cd923d53da0ea8decc667356b0e',1,'JKQTMathTextLatexParser']]],

@@ -137,6 +137,7 @@ var group__jkqtptools__drawing =
     [ "JKQTPGraphSymbols2String", "group__jkqtptools__drawing.html#ga69d0c64e06a61e41a0d8de1e22d6638e", null ],
     [ "JKQTPLineDecoratorStyle2NameString", "group__jkqtptools__drawing.html#gab8ffc607cb2b2e7277612e2bbdb49e6c", null ],
     [ "JKQTPLineDecoratorStyle2String", "group__jkqtptools__drawing.html#gad21cf595bd2cd93e4205fd7354b474eb", null ],
+    [ "JKQTPLineDecoratorStyleCalcDecoratorSize", "group__jkqtptools__drawing.html#ga1760bab349f55a625f77d3a417b4e683", null ],
     [ "JKQTPPlotDecoratedLine", "group__jkqtptools__drawing.html#gaa61b127666717e9cef2e447fe11631c4", null ],
     [ "JKQTPPlotLineDecorator", "group__jkqtptools__drawing.html#ga8796c26fb6bd2654e10a9640654d8636", null ],
     [ "JKQTPPlotSymbol", "group__jkqtptools__drawing.html#ga601579ecabc6677c24dd5dce1e3c41c2", null ],

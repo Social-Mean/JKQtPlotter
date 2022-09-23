@@ -183,34 +183,46 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ga85daee0c57d33b5ebe5536ef8121252c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">JKQTPCADrawMode</a> { <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga85daee0c57d33b5ebe5536ef8121252ca493e11b56fe478cf2f53c4e2b9267811">JKQTPCADMcomplete</a> =0
+<tr class="memitem:ga3b98f7fd9662593c8c36c55f172d8133"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga3b98f7fd9662593c8c36c55f172d8133">JKQTPCADrawModeElements</a> { <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a5421e479680929799463584b9b56ff4b">JKQTPCADMLine</a> =0x01
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga85daee0c57d33b5ebe5536ef8121252cab75f888661e7f4f3e7853409c4829c04">JKQTPCADMLineTicksTickLabels</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a41346640ac5314f33079dc3614dfb09f">JKQTPCADMTicks</a> =0x02
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga85daee0c57d33b5ebe5536ef8121252cad14d7cc9855aab1f2cd19daca6aceea1">JKQTPCADMLineTicks</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a5abedda6766c290b81f93fbfa82cc344">JKQTPCADMTickLabels</a> =0x04
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga85daee0c57d33b5ebe5536ef8121252ca5421e479680929799463584b9b56ff4b">JKQTPCADMLine</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a5a251376b70cd19a5ab5852dce82473a">JKQTPCADMAxisLabel</a> =0x08
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga85daee0c57d33b5ebe5536ef8121252cab031700ddb15a1f0c0c15169f5fb4d68">JKQTPCADMTicksTickLabelsAxisLabel</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a6fd172f5997f6533a748f65f461e24f7">JKQTPCADMMaxArrow</a> =0x0100
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga85daee0c57d33b5ebe5536ef8121252caf6cdce72f803a96147d29c65be88b718">JKQTPCADMTicksTickLabels</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a19ba1b1447d4562bb04a4c0a701508e9">JKQTPCADMMaxFilledArrow</a> =0x0200
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga85daee0c57d33b5ebe5536ef8121252ca0057a2bbec46668ccbd0ee1cfcd54562">JKQTPCADMTickLabelsAxisLabel</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a735151ed9a8922087896a849c563da9a">JKQTPCADMMinArrow</a> =0x1000
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga85daee0c57d33b5ebe5536ef8121252ca5abedda6766c290b81f93fbfa82cc344">JKQTPCADMTickLabels</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a5e05ebc1118c915818eba3b25ec00023">JKQTPCADMMinFilledArrow</a> =0x2000
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga85daee0c57d33b5ebe5536ef8121252ca41346640ac5314f33079dc3614dfb09f">JKQTPCADMTicks</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133ab75f888661e7f4f3e7853409c4829c04">JKQTPCADMLineTicksTickLabels</a> =JKQTPCADMLine|JKQTPCADMTicks|JKQTPCADMTickLabels
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga85daee0c57d33b5ebe5536ef8121252ca6685b8e3e8b895ebc570d8e01d291c54">JKQTPCADMnone</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133ad14d7cc9855aab1f2cd19daca6aceea1">JKQTPCADMLineTicks</a> =JKQTPCADMLine|JKQTPCADMTicks
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga85daee0c57d33b5ebe5536ef8121252ca0eaf1c56f65d9dee9e0f9db8fbd816d8">JKQTPCADMmax</a> =JKQTPCADMnone
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133ab031700ddb15a1f0c0c15169f5fb4d68">JKQTPCADMTicksTickLabelsAxisLabel</a> =JKQTPCADMTicks|JKQTPCADMTickLabels|JKQTPCADMAxisLabel
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133af6cdce72f803a96147d29c65be88b718">JKQTPCADMTicksTickLabels</a> =JKQTPCADMTicks|JKQTPCADMTickLabels
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a0057a2bbec46668ccbd0ee1cfcd54562">JKQTPCADMTickLabelsAxisLabel</a> =JKQTPCADMTickLabels|JKQTPCADMAxisLabel
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a6685b8e3e8b895ebc570d8e01d291c54">JKQTPCADMnone</a> =0x0000
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a493e11b56fe478cf2f53c4e2b9267811">JKQTPCADMcomplete</a> =JKQTPCADMLine|JKQTPCADMTicks|JKQTPCADMTickLabels|JKQTPCADMAxisLabel
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a9a8f64ee592afe536814daff5f71d9d7">JKQTPCADMcompleteMaxArrow</a> =JKQTPCADMcomplete|JKQTPCADMMaxFilledArrow
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a41315f46d830ec9df8a88ab4cb57faf3">JKQTPCADMcompleteMinMaxArrow</a> =JKQTPCADMcomplete|JKQTPCADMMaxFilledArrow|JKQTPCADMMinFilledArrow
 <br />
  }</td></tr>
-<tr class="memdesc:ga85daee0c57d33b5ebe5536ef8121252c"><td class="mdescLeft">&#160;</td><td class="mdescRight">display mode for an axis  <a href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">More...</a><br /></td></tr>
-<tr class="separator:ga85daee0c57d33b5ebe5536ef8121252c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ga3b98f7fd9662593c8c36c55f172d8133"><td class="mdescLeft">&#160;</td><td class="mdescRight">drawing flags for a coordinate axis  <a href="group__jkqtpplottersupprt.html#ga3b98f7fd9662593c8c36c55f172d8133">More...</a><br /></td></tr>
+<tr class="separator:ga3b98f7fd9662593c8c36c55f172d8133"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad58b8a9812defae065b13b76154c8d2e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#gad58b8a9812defae065b13b76154c8d2e">JKQTPCALabelType</a> { <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea238f63f8e20f816b05a09851b469823f">JKQTPCALTdefault</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea238f63f8e20f816b05a09851b469823f">JKQTPCALTdefault</a> =0
 , <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea4cab5efdfe971d1595abc8ca3c177f7a">JKQTPCALTscientific</a>
 , <br />
@@ -226,11 +238,9 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187">JKQTPCALTfrac</a>
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eaf0cc2f9560a95eafa3c6e72043724267">JKQTPCALTintfrac</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea170ef82a4257b598e15d7d35951ea9e1">JKQTPCALTslashfrac</a>
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea138e41f475f8e4cda181df060542cdae">JKQTPCALTcount</a>
-, <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f">JKQTPCALTmax</a> =JKQTPCALTcount-1
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea7ffab547a3e06ad49b971ac654098cfd">JKQTPCALTsfrac</a>
 <br />
  }</td></tr>
 <tr class="memdesc:gad58b8a9812defae065b13b76154c8d2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">display mode for the axis labels  <a href="group__jkqtpplottersupprt.html#gad58b8a9812defae065b13b76154c8d2e">More...</a><br /></td></tr>
@@ -400,21 +410,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gae6a6f2b46b6f24e88437d3198295d44a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#gae6a6f2b46b6f24e88437d3198295d44a">initJKQTPlotterResources</a> ()</td></tr>
 <tr class="memdesc:gae6a6f2b46b6f24e88437d3198295d44a"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialized Qt-ressources necessary for <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>  <a href="group__jkqtpplottersupprt.html#gae6a6f2b46b6f24e88437d3198295d44a">More...</a><br /></td></tr>
 <tr class="separator:gae6a6f2b46b6f24e88437d3198295d44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae2c9fbadcc311dfa0f6aa2cc911d21ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#gae2c9fbadcc311dfa0f6aa2cc911d21ac">JKQTPCADrawMode2String</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">JKQTPCADrawMode</a> pos)</td></tr>
+<tr class="memitem:gae2c9fbadcc311dfa0f6aa2cc911d21ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#gae2c9fbadcc311dfa0f6aa2cc911d21ac">JKQTPCADrawMode2String</a> (<a class="el" href="group__jkqtplotter__basegraphserrors.html#gaa9e38db0cedb16337a20017a9c241d17">JKQTPCADrawMode</a> pos)</td></tr>
 <tr class="memdesc:gae2c9fbadcc311dfa0f6aa2cc911d21ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts a JKQTPCADrawMode variable into a human-readable string  <a href="group__jkqtpplottersupprt.html#gae2c9fbadcc311dfa0f6aa2cc911d21ac">More...</a><br /></td></tr>
 <tr class="separator:gae2c9fbadcc311dfa0f6aa2cc911d21ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga67dae6511a95cb3bf492672ecef881fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga67dae6511a95cb3bf492672ecef881fc">JKQTPCADrawModeHasAxisLabel</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">JKQTPCADrawMode</a> pos)</td></tr>
-<tr class="memdesc:ga67dae6511a95cb3bf492672ecef881fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines whether JKQTPCADrawMode has the axis label  <a href="group__jkqtpplottersupprt.html#ga67dae6511a95cb3bf492672ecef881fc">More...</a><br /></td></tr>
-<tr class="separator:ga67dae6511a95cb3bf492672ecef881fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga640e0583e0b81354481e0da49b5f1a22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga640e0583e0b81354481e0da49b5f1a22">JKQTPCADrawModeHasLine</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">JKQTPCADrawMode</a> pos)</td></tr>
-<tr class="memdesc:ga640e0583e0b81354481e0da49b5f1a22"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines whether JKQTPCADrawMode has the line  <a href="group__jkqtpplottersupprt.html#ga640e0583e0b81354481e0da49b5f1a22">More...</a><br /></td></tr>
-<tr class="separator:ga640e0583e0b81354481e0da49b5f1a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac76aa27c231cd1151ba5434554ffb973"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#gac76aa27c231cd1151ba5434554ffb973">JKQTPCADrawModeHasTickLabels</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">JKQTPCADrawMode</a> pos)</td></tr>
-<tr class="memdesc:gac76aa27c231cd1151ba5434554ffb973"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines whether JKQTPCADrawMode has tick labels  <a href="group__jkqtpplottersupprt.html#gac76aa27c231cd1151ba5434554ffb973">More...</a><br /></td></tr>
-<tr class="separator:gac76aa27c231cd1151ba5434554ffb973"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6e5e21b68f1e647bf7e8a8cf8ccecd0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga6e5e21b68f1e647bf7e8a8cf8ccecd0f">JKQTPCADrawModeHasTicks</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">JKQTPCADrawMode</a> pos)</td></tr>
-<tr class="memdesc:ga6e5e21b68f1e647bf7e8a8cf8ccecd0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines whether JKQTPCADrawMode has ticks  <a href="group__jkqtpplottersupprt.html#ga6e5e21b68f1e647bf7e8a8cf8ccecd0f">More...</a><br /></td></tr>
-<tr class="separator:ga6e5e21b68f1e647bf7e8a8cf8ccecd0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga50f53a4b824e110cff3581b9d3986045"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga50f53a4b824e110cff3581b9d3986045">JKQTPCALabelType2String</a> (<a class="el" href="group__jkqtpplottersupprt.html#gad58b8a9812defae065b13b76154c8d2e">JKQTPCALabelType</a> pos)</td></tr>
 <tr class="memdesc:ga50f53a4b824e110cff3581b9d3986045"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts a JKQTPCALabelType variable into a human-readable string  <a href="group__jkqtpplottersupprt.html#ga50f53a4b824e110cff3581b9d3986045">More...</a><br /></td></tr>
 <tr class="separator:ga50f53a4b824e110cff3581b9d3986045"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -460,7 +458,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3a969e549641069030f33c0fcc70b0df"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga3a969e549641069030f33c0fcc70b0df">qHash</a> (const Qt::MouseButton &amp;key, size_t)</td></tr>
 <tr class="memdesc:ga3a969e549641069030f33c0fcc70b0df"><td class="mdescLeft">&#160;</td><td class="mdescRight">qHash-variant used by <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>  <a href="group__jkqtpplottersupprt.html#ga3a969e549641069030f33c0fcc70b0df">More...</a><br /></td></tr>
 <tr class="separator:ga3a969e549641069030f33c0fcc70b0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac603dbf7efc50cd04c4c506958ae5b20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">JKQTPCADrawMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#gac603dbf7efc50cd04c4c506958ae5b20">String2JKQTPCADrawMode</a> (const QString &amp;pos)</td></tr>
+<tr class="memitem:gac603dbf7efc50cd04c4c506958ae5b20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="group__jkqtplotter__basegraphserrors.html#gaa9e38db0cedb16337a20017a9c241d17">JKQTPCADrawMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#gac603dbf7efc50cd04c4c506958ae5b20">String2JKQTPCADrawMode</a> (const QString &amp;pos)</td></tr>
 <tr class="memdesc:gac603dbf7efc50cd04c4c506958ae5b20"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts a string into a JKQTPCADrawMode  <a href="group__jkqtpplottersupprt.html#gac603dbf7efc50cd04c4c506958ae5b20">More...</a><br /></td></tr>
 <tr class="separator:gac603dbf7efc50cd04c4c506958ae5b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga622658259a7c0d17b60e8c070a122eac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="group__jkqtpplottersupprt.html#gad58b8a9812defae065b13b76154c8d2e">JKQTPCALabelType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga622658259a7c0d17b60e8c070a122eac">String2JKQTPCALabelType</a> (const QString &amp;pos)</td></tr>
@@ -783,41 +781,107 @@ logic y-position of a graph, relative to the current JKQtPlotter </td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ga85daee0c57d33b5ebe5536ef8121252c" name="ga85daee0c57d33b5ebe5536ef8121252c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga85daee0c57d33b5ebe5536ef8121252c">&#9670;&nbsp;</a></span>JKQTPCADrawMode</h2>
+<a id="ga3b98f7fd9662593c8c36c55f172d8133" name="ga3b98f7fd9662593c8c36c55f172d8133"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3b98f7fd9662593c8c36c55f172d8133">&#9670;&nbsp;</a></span>JKQTPCADrawModeElements</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">JKQTPCADrawMode</a></td>
+          <td class="memname">enum <a class="el" href="group__jkqtpplottersupprt.html#ga3b98f7fd9662593c8c36c55f172d8133">JKQTPCADrawModeElements</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>display mode for an axis </p>
+<p>drawing flags for a coordinate axis </p>
+<dl class="section note"><dt>Note</dt><dd>This enum provides the elements for <a class="el" href="group__jkqtplotter__basegraphserrors.html#gaa9e38db0cedb16337a20017a9c241d17">JKQTPCADrawMode</a>, which is actually used throughout the code.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtplotter__basegraphserrors.html#gaa9e38db0cedb16337a20017a9c241d17" title="drawing mode for a coordinate axis">JKQTPCADrawMode</a>, <a class="el" href="class_j_k_q_t_p_coordinate_axis_style.html" title="Support Class for JKQTPCoordinateAxis, which summarizes all properties that define the visual styling...">JKQTPCoordinateAxisStyle</a> </dd></dl>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga85daee0c57d33b5ebe5536ef8121252ca493e11b56fe478cf2f53c4e2b9267811" name="gga85daee0c57d33b5ebe5536ef8121252ca493e11b56fe478cf2f53c4e2b9267811"></a>JKQTPCADMcomplete&#160;</td><td class="fielddoc"><p >draw axis with ticks, ticklabels and axis label </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga85daee0c57d33b5ebe5536ef8121252cab75f888661e7f4f3e7853409c4829c04" name="gga85daee0c57d33b5ebe5536ef8121252cab75f888661e7f4f3e7853409c4829c04"></a>JKQTPCADMLineTicksTickLabels&#160;</td><td class="fielddoc"><p >draw axis with ticks, line and tick labels </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga85daee0c57d33b5ebe5536ef8121252cad14d7cc9855aab1f2cd19daca6aceea1" name="gga85daee0c57d33b5ebe5536ef8121252cad14d7cc9855aab1f2cd19daca6aceea1"></a>JKQTPCADMLineTicks&#160;</td><td class="fielddoc"><p >draw axis with ticks and line </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga85daee0c57d33b5ebe5536ef8121252ca5421e479680929799463584b9b56ff4b" name="gga85daee0c57d33b5ebe5536ef8121252ca5421e479680929799463584b9b56ff4b"></a>JKQTPCADMLine&#160;</td><td class="fielddoc"><p >draw axis as thick line </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga85daee0c57d33b5ebe5536ef8121252cab031700ddb15a1f0c0c15169f5fb4d68" name="gga85daee0c57d33b5ebe5536ef8121252cab031700ddb15a1f0c0c15169f5fb4d68"></a>JKQTPCADMTicksTickLabelsAxisLabel&#160;</td><td class="fielddoc"><p >draw axis with ticks, tick labels and axisLabel </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga85daee0c57d33b5ebe5536ef8121252caf6cdce72f803a96147d29c65be88b718" name="gga85daee0c57d33b5ebe5536ef8121252caf6cdce72f803a96147d29c65be88b718"></a>JKQTPCADMTicksTickLabels&#160;</td><td class="fielddoc"><p >draw axis with ticks and tick labels </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga85daee0c57d33b5ebe5536ef8121252ca0057a2bbec46668ccbd0ee1cfcd54562" name="gga85daee0c57d33b5ebe5536ef8121252ca0057a2bbec46668ccbd0ee1cfcd54562"></a>JKQTPCADMTickLabelsAxisLabel&#160;</td><td class="fielddoc"><p >draw axis tick labels and axisLabel </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga85daee0c57d33b5ebe5536ef8121252ca5abedda6766c290b81f93fbfa82cc344" name="gga85daee0c57d33b5ebe5536ef8121252ca5abedda6766c290b81f93fbfa82cc344"></a>JKQTPCADMTickLabels&#160;</td><td class="fielddoc"><p >draw axis tick labels </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga85daee0c57d33b5ebe5536ef8121252ca41346640ac5314f33079dc3614dfb09f" name="gga85daee0c57d33b5ebe5536ef8121252ca41346640ac5314f33079dc3614dfb09f"></a>JKQTPCADMTicks&#160;</td><td class="fielddoc"><p >draw axis with ticks </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga85daee0c57d33b5ebe5536ef8121252ca6685b8e3e8b895ebc570d8e01d291c54" name="gga85daee0c57d33b5ebe5536ef8121252ca6685b8e3e8b895ebc570d8e01d291c54"></a>JKQTPCADMnone&#160;</td><td class="fielddoc"><p >draw no axis </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga85daee0c57d33b5ebe5536ef8121252ca0eaf1c56f65d9dee9e0f9db8fbd816d8" name="gga85daee0c57d33b5ebe5536ef8121252ca0eaf1c56f65d9dee9e0f9db8fbd816d8"></a>JKQTPCADMmax&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133a5421e479680929799463584b9b56ff4b" name="gga3b98f7fd9662593c8c36c55f172d8133a5421e479680929799463584b9b56ff4b"></a>JKQTPCADMLine&#160;</td><td class="fielddoc"><p >draw axis as thick line </p>
+<div class="image">
+<img src="JKQTPCADMLine.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133a41346640ac5314f33079dc3614dfb09f" name="gga3b98f7fd9662593c8c36c55f172d8133a41346640ac5314f33079dc3614dfb09f"></a>JKQTPCADMTicks&#160;</td><td class="fielddoc"><p >draw axis ticks </p>
+<div class="image">
+<img src="JKQTPCADMTicks.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133a5abedda6766c290b81f93fbfa82cc344" name="gga3b98f7fd9662593c8c36c55f172d8133a5abedda6766c290b81f93fbfa82cc344"></a>JKQTPCADMTickLabels&#160;</td><td class="fielddoc"><p >draw axis tick labels </p>
+<div class="image">
+<img src="JKQTPCADMTickLabels.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133a5a251376b70cd19a5ab5852dce82473a" name="gga3b98f7fd9662593c8c36c55f172d8133a5a251376b70cd19a5ab5852dce82473a"></a>JKQTPCADMAxisLabel&#160;</td><td class="fielddoc"><p >draw axis axis Label </p>
+<div class="image">
+<img src="JKQTPCADMAxisLabel.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133a6fd172f5997f6533a748f65f461e24f7" name="gga3b98f7fd9662593c8c36c55f172d8133a6fd172f5997f6533a748f65f461e24f7"></a>JKQTPCADMMaxArrow&#160;</td><td class="fielddoc"><p >an open arrow at the max-end of the axis </p>
+<div class="image">
+<img src="JKQTPCADMMaxArrow.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133a19ba1b1447d4562bb04a4c0a701508e9" name="gga3b98f7fd9662593c8c36c55f172d8133a19ba1b1447d4562bb04a4c0a701508e9"></a>JKQTPCADMMaxFilledArrow&#160;</td><td class="fielddoc"><p >draw a filled arrow at the max-end of the axis </p>
+<div class="image">
+<img src="JKQTPCADMMaxFilledArrow.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133a735151ed9a8922087896a849c563da9a" name="gga3b98f7fd9662593c8c36c55f172d8133a735151ed9a8922087896a849c563da9a"></a>JKQTPCADMMinArrow&#160;</td><td class="fielddoc"><p >an open arrow at the end of the axis at the min-end of the axis </p>
+<div class="image">
+<img src="JKQTPCADMMinArrow.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133a5e05ebc1118c915818eba3b25ec00023" name="gga3b98f7fd9662593c8c36c55f172d8133a5e05ebc1118c915818eba3b25ec00023"></a>JKQTPCADMMinFilledArrow&#160;</td><td class="fielddoc"><p >draw a filled arrow at the min-end of the axis </p>
+<div class="image">
+<img src="JKQTPCADMMinFilledArrow.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133ab75f888661e7f4f3e7853409c4829c04" name="gga3b98f7fd9662593c8c36c55f172d8133ab75f888661e7f4f3e7853409c4829c04"></a>JKQTPCADMLineTicksTickLabels&#160;</td><td class="fielddoc"><p >draw axis with ticks, line and tick labels </p>
+<div class="image">
+<img src="JKQTPCADMLineTicksTickLabels.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133ad14d7cc9855aab1f2cd19daca6aceea1" name="gga3b98f7fd9662593c8c36c55f172d8133ad14d7cc9855aab1f2cd19daca6aceea1"></a>JKQTPCADMLineTicks&#160;</td><td class="fielddoc"><p >draw axis with ticks and line </p>
+<div class="image">
+<img src="JKQTPCADMLineTicks.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133ab031700ddb15a1f0c0c15169f5fb4d68" name="gga3b98f7fd9662593c8c36c55f172d8133ab031700ddb15a1f0c0c15169f5fb4d68"></a>JKQTPCADMTicksTickLabelsAxisLabel&#160;</td><td class="fielddoc"><p >draw axis with ticks, tick labels and axisLabel </p>
+<div class="image">
+<img src="JKQTPCADMTicksTickLabelsAxisLabel.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133af6cdce72f803a96147d29c65be88b718" name="gga3b98f7fd9662593c8c36c55f172d8133af6cdce72f803a96147d29c65be88b718"></a>JKQTPCADMTicksTickLabels&#160;</td><td class="fielddoc"><p >draw axis with ticks and tick labels </p>
+<div class="image">
+<img src="JKQTPCADMTicksTickLabels.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133a0057a2bbec46668ccbd0ee1cfcd54562" name="gga3b98f7fd9662593c8c36c55f172d8133a0057a2bbec46668ccbd0ee1cfcd54562"></a>JKQTPCADMTickLabelsAxisLabel&#160;</td><td class="fielddoc"><p >draw axis tick labels and axisLabel </p>
+<div class="image">
+<img src="JKQTPCADMTickLabelsAxisLabel.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133a6685b8e3e8b895ebc570d8e01d291c54" name="gga3b98f7fd9662593c8c36c55f172d8133a6685b8e3e8b895ebc570d8e01d291c54"></a>JKQTPCADMnone&#160;</td><td class="fielddoc"><p >draw no axis </p>
+<div class="image">
+<img src="JKQTPCADMnone.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133a493e11b56fe478cf2f53c4e2b9267811" name="gga3b98f7fd9662593c8c36c55f172d8133a493e11b56fe478cf2f53c4e2b9267811"></a>JKQTPCADMcomplete&#160;</td><td class="fielddoc"><p >draw axis withline, ticks, ticklabels and axis label </p>
+<div class="image">
+<img src="JKQTPCADMcomplete.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133a9a8f64ee592afe536814daff5f71d9d7" name="gga3b98f7fd9662593c8c36c55f172d8133a9a8f64ee592afe536814daff5f71d9d7"></a>JKQTPCADMcompleteMaxArrow&#160;</td><td class="fielddoc"><p >draw axis withline, ticks, ticklabels and axis label and an arrow pointing to the max-side of the axis </p>
+<div class="image">
+<img src="JKQTPCADMcompleteMaxArrow.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga3b98f7fd9662593c8c36c55f172d8133a41315f46d830ec9df8a88ab4cb57faf3" name="gga3b98f7fd9662593c8c36c55f172d8133a41315f46d830ec9df8a88ab4cb57faf3"></a>JKQTPCADMcompleteMinMaxArrow&#160;</td><td class="fielddoc"><p >draw axis withline, ticks, ticklabels and axis label and arrows pointing to the min and max side of the axis </p>
+<div class="image">
+<img src="JKQTPCADMcompleteMinMaxArrow.png" alt=""/>
+</div>
+ </td></tr>
 </table>
 
 </div>
@@ -846,12 +910,12 @@ logic y-position of a graph, relative to the current JKQtPlotter </td></tr>
 <img src="JKQTPCALTscientific.png" alt=""/>
 </div>
  </td></tr>
-<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858" name="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858"></a>JKQTPCALTexponentCharacter&#160;</td><td class="fielddoc"><p >print the numbers and show a unit character, i.e. 5&mu; for <img class="formulaInl" alt="$ 5\cdot 10^{-6} $" src="form_247.png"/> , <code>3k</code> for <img class="formulaInl" alt="$ 3\cdot 10^3 $" src="form_248.png"/> ... </p>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858" name="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858"></a>JKQTPCALTexponentCharacter&#160;</td><td class="fielddoc"><p >print the numbers and show a unit character, i.e. 5&mu; for <img class="formulaInl" alt="$ 5\cdot 10^{-6} $" src="form_247.png" width="52" height="15"/> , <code>3k</code> for <img class="formulaInl" alt="$ 3\cdot 10^3 $" src="form_248.png" width="44" height="15"/> ... </p>
 <div class="image">
 <img src="JKQTPCALTexponentCharacter.png" alt=""/>
 </div>
  </td></tr>
-<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11" name="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11"></a>JKQTPCALTexponent&#160;</td><td class="fielddoc"><p >show numbers in exponential for, e.g. <img class="formulaInl" alt="$ 3\cdot 10^5 $" src="form_249.png"/> ... </p>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11" name="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11"></a>JKQTPCALTexponent&#160;</td><td class="fielddoc"><p >show numbers in exponential for, e.g. <img class="formulaInl" alt="$ 3\cdot 10^5 $" src="form_249.png" width="44" height="15"/> ... </p>
 <div class="image">
 <img src="JKQTPCALTexponent.png" alt=""/>
 </div>
@@ -871,18 +935,21 @@ logic y-position of a graph, relative to the current JKQtPlotter </td></tr>
 <img src="JKQTPCALTdatetime.png" alt=""/>
 </div>
  </td></tr>
-<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187" name="ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187"></a>JKQTPCALTfrac&#160;</td><td class="fielddoc"><p >show numbers as fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed like $ \frac{1}{2} <img class="formulaInl" alt="$ \image html JKQTPCALTfrac.png */ JKQTPCALTslashfrac, /*!&lt; \brief show numbers as fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed like \c 1/2 \image html JKQTPCALTslashfrac.png */ JKQTPCALTsfrac, /*!&lt; \brief show numbers as fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed using \c \\sfrac{1}{2} $" src="form_250.png"/> </p>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187" name="ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187"></a>JKQTPCALTfrac&#160;</td><td class="fielddoc"><p >show numbers as fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed like <img class="formulaInl" alt="$ \frac{1}{2} $" src="form_250.png" width="8" height="21"/> </p>
+<div class="image">
+<img src="JKQTPCALTfrac.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea170ef82a4257b598e15d7d35951ea9e1" name="ggad58b8a9812defae065b13b76154c8d2ea170ef82a4257b598e15d7d35951ea9e1"></a>JKQTPCALTslashfrac&#160;</td><td class="fielddoc"><p >show numbers as fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed like <code>1/2</code> </p>
+<div class="image">
+<img src="JKQTPCALTslashfrac.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea7ffab547a3e06ad49b971ac654098cfd" name="ggad58b8a9812defae065b13b76154c8d2ea7ffab547a3e06ad49b971ac654098cfd"></a>JKQTPCALTsfrac&#160;</td><td class="fielddoc"><p >show numbers as fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed using <code>\sfrac{1}{2}</code> </p>
 <div class="image">
 <img src="JKQTPCALTsfrac.png" alt=""/>
 </div>
  </td></tr>
-<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eaf0cc2f9560a95eafa3c6e72043724267" name="ggad58b8a9812defae065b13b76154c8d2eaf0cc2f9560a95eafa3c6e72043724267"></a>JKQTPCALTintfrac&#160;</td><td class="fielddoc"><p >show numbers as integral+fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed like $ \frac{1}{2} <img class="formulaInl" alt="$ \image html JKQTPCALTintfrac.png */ JKQTPCALTintslashfrac, /*!&lt; \brief show numbers as integral+fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed like \c 1/2 \image html JKQTPCALTintslashfrac.png */ JKQTPCALTintsfrac, /*!&lt; \brief show numbers as integral+fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed using \c \\sfrac{1}{2} $" src="form_251.png"/> </p>
-<div class="image">
-<img src="JKQTPCALTintsfrac.png" alt=""/>
-</div>
- </td></tr>
-<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea138e41f475f8e4cda181df060542cdae" name="ggad58b8a9812defae065b13b76154c8d2ea138e41f475f8e4cda181df060542cdae"></a>JKQTPCALTcount&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f" name="ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f"></a>JKQTPCALTmax&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1292,7 +1359,7 @@ Draw Lines User-Action</div></div>
         <tr>
           <td class="memname"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> QString JKQTPCADrawMode2String </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">JKQTPCADrawMode</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__jkqtplotter__basegraphserrors.html#gaa9e38db0cedb16337a20017a9c241d17">JKQTPCADrawMode</a>&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1300,86 +1367,6 @@ Draw Lines User-Action</div></div>
 </div><div class="memdoc">
 
 <p>converts a JKQTPCADrawMode variable into a human-readable string </p>
-
-</div>
-</div>
-<a id="ga67dae6511a95cb3bf492672ecef881fc" name="ga67dae6511a95cb3bf492672ecef881fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga67dae6511a95cb3bf492672ecef881fc">&#9670;&nbsp;</a></span>JKQTPCADrawModeHasAxisLabel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> bool JKQTPCADrawModeHasAxisLabel </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">JKQTPCADrawMode</a>&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>determines whether JKQTPCADrawMode has the axis label </p>
-
-</div>
-</div>
-<a id="ga640e0583e0b81354481e0da49b5f1a22" name="ga640e0583e0b81354481e0da49b5f1a22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga640e0583e0b81354481e0da49b5f1a22">&#9670;&nbsp;</a></span>JKQTPCADrawModeHasLine()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> bool JKQTPCADrawModeHasLine </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">JKQTPCADrawMode</a>&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>determines whether JKQTPCADrawMode has the line </p>
-
-</div>
-</div>
-<a id="gac76aa27c231cd1151ba5434554ffb973" name="gac76aa27c231cd1151ba5434554ffb973"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac76aa27c231cd1151ba5434554ffb973">&#9670;&nbsp;</a></span>JKQTPCADrawModeHasTickLabels()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> bool JKQTPCADrawModeHasTickLabels </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">JKQTPCADrawMode</a>&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>determines whether JKQTPCADrawMode has tick labels </p>
-
-</div>
-</div>
-<a id="ga6e5e21b68f1e647bf7e8a8cf8ccecd0f" name="ga6e5e21b68f1e647bf7e8a8cf8ccecd0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6e5e21b68f1e647bf7e8a8cf8ccecd0f">&#9670;&nbsp;</a></span>JKQTPCADrawModeHasTicks()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> bool JKQTPCADrawModeHasTicks </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">JKQTPCADrawMode</a>&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>determines whether JKQTPCADrawMode has ticks </p>
 
 </div>
 </div>
@@ -1768,7 +1755,7 @@ Draw Lines User-Action</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="group__jkqtpplottersupprt.html#ga85daee0c57d33b5ebe5536ef8121252c">JKQTPCADrawMode</a> String2JKQTPCADrawMode </td>
+          <td class="memname"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="group__jkqtplotter__basegraphserrors.html#gaa9e38db0cedb16337a20017a9c241d17">JKQTPCADrawMode</a> String2JKQTPCADrawMode </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
@@ -2013,7 +2000,7 @@ Draw Lines User-Action</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Sep 21 2022 22:59:32 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Sep 23 2022 18:47:43 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>
