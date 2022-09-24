@@ -1,7 +1,6 @@
-var group__jkqtplotter__graphsgroup =
+var group__jkqtplotter__concretegraphs =
 [
     [ "Barcharts, Impulse-Charts, ...", "group__jkqtplotter__barssticks.html", "group__jkqtplotter__barssticks" ],
-    [ "Baseclasses for Graphs", "group__jkqtplotter__basegraphs.html", "group__jkqtplotter__basegraphs" ],
     [ "Diverse Other Graphs (Ranges, ...)", "group__jkqtplotter__diverse.html", "group__jkqtplotter__diverse" ],
     [ "Filled Polygon/Area Graphs", "group__jkqtplotter__filledgraphs.html", "group__jkqtplotter__filledgraphs" ],
     [ "Geometric Elements (Lines, Rectangles, ...)", "group__jkqtplotter__geoplots.html", "group__jkqtplotter__geoplots" ],

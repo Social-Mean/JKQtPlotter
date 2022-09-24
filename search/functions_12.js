@@ -685,7 +685,7 @@ var searchData=
   ['string2jkqtmathtextverticalorientation_682',['String2JKQTMathTextVerticalOrientation',['../group__jkqtmathtext__tools.html#gaf089921f391a60fdb19169271871b4a2',1,'jkqtmathtexttools.h']]],
   ['string2jkqtpcadrawmode_683',['String2JKQTPCADrawMode',['../group__jkqtpplottersupprt.html#gac603dbf7efc50cd04c4c506958ae5b20',1,'jkqtptools.h']]],
   ['string2jkqtpcalabeltype_684',['String2JKQTPCALabelType',['../group__jkqtpplottersupprt.html#ga622658259a7c0d17b60e8c070a122eac',1,'jkqtptools.h']]],
-  ['string2jkqtpcolorderivationmode_685',['String2JKQTPColorDerivationMode',['../group__jkqtpplotter__styling.html#gac40219b5681253c92960f758d2aea32c',1,'jkqtptools.h']]],
+  ['string2jkqtpcolorderivationmode_685',['String2JKQTPColorDerivationMode',['../group__jkqtpplotter__styling__classes.html#gac40219b5681253c92960f758d2aea32c',1,'jkqtptools.h']]],
   ['string2jkqtpcontextmenumodes_686',['String2JKQTPContextMenuModes',['../group__jkqtpplottersupprt.html#ga43c794162cbd275556c8412c5fc78396',1,'jkqtptools.h']]],
   ['string2jkqtperrorplotstyle_687',['String2JKQTPErrorPlotstyle',['../group__jkqtplotter__basegraphserrors.html#gaaa233e8c51d249f27c749aaf13e12423',1,'jkqtptools.h']]],
   ['string2jkqtpgraphsymbols_688',['String2JKQTPGraphSymbols',['../group__jkqtptools__drawing.html#gaa2bd5c2bac86735a6885464182a7a2f0',1,'jkqtpdrawingtools.h']]],

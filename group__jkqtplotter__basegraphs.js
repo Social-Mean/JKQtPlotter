@@ -1,7 +1,5 @@
 var group__jkqtplotter__basegraphs =
 [
-    [ "Mix-In Classes for Error Indicators", "group__jkqtplotter__basegraphserrors.html", "group__jkqtplotter__basegraphserrors" ],
-    [ "Mix-In Classes for Plot Styling", "group__jkqtplotter__basegraphs__stylemixins.html", "group__jkqtplotter__basegraphs__stylemixins" ],
     [ "JKQTPPlotElement::HitTestLocation", "struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html", [
       [ "HitTestLocation", "struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html#a9071fe0e0c149711c0cb2d47ba2ae729", null ],
       [ "HitTestLocation", "struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html#a0b90f62487fcca987888bfebd65c304f", null ],

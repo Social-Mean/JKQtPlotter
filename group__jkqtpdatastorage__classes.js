@@ -1,4 +1,4 @@
-var group__jkqtpdatastorage =
+var group__jkqtpdatastorage__classes =
 [
     [ "Interfaces To Other Libraries", "group__jkqtpexternalinterfaces.html", "group__jkqtpexternalinterfaces" ],
     [ "JKQTPColumn", "class_j_k_q_t_p_column.html", [
@@ -372,9 +372,9 @@ var group__jkqtpdatastorage =
       [ "rowCount", "class_j_k_q_t_p_datastore_model.html#adbb191f9cc0b04563f2586b214d4f782", null ],
       [ "datastore", "class_j_k_q_t_p_datastore_model.html#a35bd9a9e710269eada20e0d5265aa34b", null ]
     ] ],
-    [ "JKQTPDatastoreItemFormat", "group__jkqtpdatastorage.html#ga679ecb0cdb6bef6f4e64be37850d2ce3", [
-      [ "JKQTPDatastoreItemFormat::SingleColumn", "group__jkqtpdatastorage.html#gga679ecb0cdb6bef6f4e64be37850d2ce3a224dc78c6ef7472c8aea7b36e12dcd97", null ],
-      [ "JKQTPDatastoreItemFormat::MatrixColumn", "group__jkqtpdatastorage.html#gga679ecb0cdb6bef6f4e64be37850d2ce3a52dc2ff5c10ed673ec354aa5836871b6", null ],
-      [ "JKQTPDatastoreItemFormat::MatrixRow", "group__jkqtpdatastorage.html#gga679ecb0cdb6bef6f4e64be37850d2ce3aad92bd709b07ea871da0668bcdfbe819", null ]
+    [ "JKQTPDatastoreItemFormat", "group__jkqtpdatastorage__classes.html#ga679ecb0cdb6bef6f4e64be37850d2ce3", [
+      [ "JKQTPDatastoreItemFormat::SingleColumn", "group__jkqtpdatastorage__classes.html#gga679ecb0cdb6bef6f4e64be37850d2ce3a224dc78c6ef7472c8aea7b36e12dcd97", null ],
+      [ "JKQTPDatastoreItemFormat::MatrixColumn", "group__jkqtpdatastorage__classes.html#gga679ecb0cdb6bef6f4e64be37850d2ce3a52dc2ff5c10ed673ec354aa5836871b6", null ],
+      [ "JKQTPDatastoreItemFormat::MatrixRow", "group__jkqtpdatastorage__classes.html#gga679ecb0cdb6bef6f4e64be37850d2ce3aad92bd709b07ea871da0668bcdfbe819", null ]
     ] ]
 ];

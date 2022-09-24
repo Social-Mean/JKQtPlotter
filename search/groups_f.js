@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['qt_20data_20models_20to_20access_20graphs_20in_20a_20jkqtbaseplotter_2fjkqtplotter_0',['Qt Data Models to Access Graphs in a JKQTBasePlotter/JKQTPlotter',['../group__jkqtpgraphsmodel.html',1,'']]],
-  ['qt_20widgets_2ftools_20to_20work_20with_20jkqtplotter_1',['Qt Widgets/Tools to work with JKQTPlotter',['../group__jkqtpqtwidgetsttools.html',1,'']]]
+  ['opencv_20interfaceing_20tools_0',['OpenCV Interfaceing Tools',['../group__jkqtpinterfaceopencv.html',1,'']]]
 ];

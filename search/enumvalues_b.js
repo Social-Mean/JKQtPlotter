@@ -1,8 +1,8 @@
 var searchData=
 [
   ['makewhitespacehalf_0',['MakeWhitespaceHalf',['../class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8ad7dcf030f559c59ee913253dcbba891a',1,'JKQTMathTextSymbolNode']]],
-  ['matrixcolumn_1',['MatrixColumn',['../group__jkqtpdatastorage.html#gga679ecb0cdb6bef6f4e64be37850d2ce3a52dc2ff5c10ed673ec354aa5836871b6',1,'jkqtpdatastorage.h']]],
-  ['matrixrow_2',['MatrixRow',['../group__jkqtpdatastorage.html#gga679ecb0cdb6bef6f4e64be37850d2ce3aad92bd709b07ea871da0668bcdfbe819',1,'jkqtpdatastorage.h']]],
+  ['matrixcolumn_1',['MatrixColumn',['../group__jkqtpdatastorage__classes.html#gga679ecb0cdb6bef6f4e64be37850d2ce3a52dc2ff5c10ed673ec354aa5836871b6',1,'jkqtpdatastorage.h']]],
+  ['matrixrow_2',['MatrixRow',['../group__jkqtpdatastorage__classes.html#gga679ecb0cdb6bef6f4e64be37850d2ce3aad92bd709b07ea871da0668bcdfbe819',1,'jkqtpdatastorage.h']]],
   ['meanasline_3',['MeanAsLine',['../class_j_k_q_t_p_graph_boxplot_style_mixin.html#a942c8014f12e558ee519497a5491ac31a9213a71886fa237893b9f49cf5475f5a',1,'JKQTPGraphBoxplotStyleMixin']]],
   ['meanassymbol_4',['MeanAsSymbol',['../class_j_k_q_t_p_graph_boxplot_style_mixin.html#a942c8014f12e558ee519497a5491ac31ab4bc52db8d994b3bb499cf147016634e',1,'JKQTPGraphBoxplotStyleMixin']]],
   ['minus_5',['MINUS',['../class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49ab70d3d98e3a9c3f61f1219999bcea760',1,'JKQTPMathParser']]],

@@ -1,4 +1,4 @@
-var group__jkqtpplotter__styling =
+var group__jkqtpplotter__styling__classes =
 [
     [ "JKQTAnnotationsSpecificStyleProperties", "class_j_k_q_t_annotations_specific_style_properties.html", [
       [ "JKQTAnnotationsSpecificStyleProperties", "class_j_k_q_t_annotations_specific_style_properties.html#a27d00781f21b8478a26d4d5c5e1d4472", null ],
@@ -292,13 +292,13 @@ var group__jkqtpplotter__styling =
       [ "userActionOverlayBrush", "class_j_k_q_t_plotter_style.html#a1eadfac6711623c2c0257d72275e9936", null ],
       [ "userActionOverlayPen", "class_j_k_q_t_plotter_style.html#a54f5c073b572d5118653405fa566a8d2", null ]
     ] ],
-    [ "JKQTPColorDerivationMode2String", "group__jkqtpplotter__styling.html#ga169da9c172a073d777c6a4d4f8b8546c", null ],
-    [ "JKQTPGetDerivedColor", "group__jkqtpplotter__styling.html#ga91fe0ecef2ae61e728f80b0b4a9e8c2e", null ],
-    [ "JKQTPGetSystemDefaultBaseStyle", "group__jkqtpplotter__styling.html#gad617cbbb3fbc3e988495dc9553042549", null ],
-    [ "JKQTPGetSystemDefaultStyle", "group__jkqtpplotter__styling.html#ga4f2d98043e064d97a0cc7df85bf1f969", null ],
-    [ "JKQTPSetSystemDefaultBaseStyle", "group__jkqtpplotter__styling.html#gafed9abfeed3f05867f75a908186f19f2", null ],
-    [ "JKQTPSetSystemDefaultStyle", "group__jkqtpplotter__styling.html#gaa196cf52115a9e0caa369934ab298619", null ],
-    [ "QColorWithAlpha", "group__jkqtpplotter__styling.html#ga21fc7530be2b55534a14c60cf0a6da9e", null ],
-    [ "QColorWithAlphaF", "group__jkqtpplotter__styling.html#ga4840ec94f56ddc9df4bf5d2c3d0c15ae", null ],
-    [ "String2JKQTPColorDerivationMode", "group__jkqtpplotter__styling.html#gac40219b5681253c92960f758d2aea32c", null ]
+    [ "JKQTPColorDerivationMode2String", "group__jkqtpplotter__styling__classes.html#ga169da9c172a073d777c6a4d4f8b8546c", null ],
+    [ "JKQTPGetDerivedColor", "group__jkqtpplotter__styling__classes.html#ga91fe0ecef2ae61e728f80b0b4a9e8c2e", null ],
+    [ "JKQTPGetSystemDefaultBaseStyle", "group__jkqtpplotter__styling__classes.html#gad617cbbb3fbc3e988495dc9553042549", null ],
+    [ "JKQTPGetSystemDefaultStyle", "group__jkqtpplotter__styling__classes.html#ga4f2d98043e064d97a0cc7df85bf1f969", null ],
+    [ "JKQTPSetSystemDefaultBaseStyle", "group__jkqtpplotter__styling__classes.html#gafed9abfeed3f05867f75a908186f19f2", null ],
+    [ "JKQTPSetSystemDefaultStyle", "group__jkqtpplotter__styling__classes.html#gaa196cf52115a9e0caa369934ab298619", null ],
+    [ "QColorWithAlpha", "group__jkqtpplotter__styling__classes.html#ga21fc7530be2b55534a14c60cf0a6da9e", null ],
+    [ "QColorWithAlphaF", "group__jkqtpplotter__styling__classes.html#ga4840ec94f56ddc9df4bf5d2c3d0c15ae", null ],
+    [ "String2JKQTPColorDerivationMode", "group__jkqtpplotter__styling__classes.html#gac40219b5681253c92960f758d2aea32c", null ]
 ];

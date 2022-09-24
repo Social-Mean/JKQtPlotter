@@ -66,7 +66,12 @@ var group__jkqtpplottersupprt =
       [ "JKQTPCALTdatetime", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eae74a5730d5380cdaa3a436b199af2f3c", null ],
       [ "JKQTPCALTfrac", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187", null ],
       [ "JKQTPCALTslashfrac", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea170ef82a4257b598e15d7d35951ea9e1", null ],
-      [ "JKQTPCALTsfrac", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea7ffab547a3e06ad49b971ac654098cfd", null ]
+      [ "JKQTPCALTsfrac", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea7ffab547a3e06ad49b971ac654098cfd", null ],
+      [ "JKQTPCALTintfrac", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eaf0cc2f9560a95eafa3c6e72043724267", null ],
+      [ "JKQTPCALTintslashfrac", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea796c3466fca4256c1a1c325709e73e06", null ],
+      [ "JKQTPCALTintsfrac", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eac3d50ba8a216d2654913993640dac7c2", null ],
+      [ "JKQTPCALTcount", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea138e41f475f8e4cda181df060542cdae", null ],
+      [ "JKQTPCALTmax", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f", null ]
     ] ],
     [ "JKQTPContextMenuModes", "group__jkqtpplottersupprt.html#ga80d2235c912ead563f404f4e7f331137", [
       [ "jkqtpcmmStandardContextMenu", "group__jkqtpplottersupprt.html#gga80d2235c912ead563f404f4e7f331137a0299106ffad81b24fee81f90f441d458", null ],

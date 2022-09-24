@@ -6,7 +6,7 @@ var searchData=
   ['sdxyaxes_3',['sdXYAxes',['../class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8ac52aa78eb02641e0c86fc376526c3181',1,'JKQTBasePlotter']]],
   ['sdyaxis_4',['sdYAxis',['../class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c',1,'JKQTBasePlotter']]],
   ['singlecolorcontours_5',['SingleColorContours',['../class_j_k_q_t_p_contour_plot.html#a02c75f060c4001c8821fb4da6a7c0d7ca551c01c252ac3aec7b2da4fe2ddabcd3',1,'JKQTPContourPlot']]],
-  ['singlecolumn_6',['SingleColumn',['../group__jkqtpdatastorage.html#gga679ecb0cdb6bef6f4e64be37850d2ce3a224dc78c6ef7472c8aea7b36e12dcd97',1,'jkqtpdatastorage.h']]],
+  ['singlecolumn_6',['SingleColumn',['../group__jkqtpdatastorage__classes.html#gga679ecb0cdb6bef6f4e64be37850d2ce3a224dc78c6ef7472c8aea7b36e12dcd97',1,'jkqtpdatastorage.h']]],
   ['singlefilling_7',['SingleFilling',['../class_j_k_q_t_p_filled_curve_graph_base.html#a1c6ebab82d5a08bd63a0574fc278ff08a5e8bfa355f8db341dd902380fda40748',1,'JKQTPFilledCurveGraphBase::SingleFilling()'],['../class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138ca37863fa488d9106e4ea2d7386228d6ee',1,'JKQTPBarGraphBase::SingleFilling()']]],
   ['smallextendwidthinmathmode_8',['SmallExtendWidthInMathmode',['../class_j_k_q_t_math_text_symbol_node.html#a40322e868ec31e62ede5212e54bc63a8a51eac73b930a28f76d6c53d925ffa7fb',1,'JKQTMathTextSymbolNode']]],
   ['smoothviolin_9',['SmoothViolin',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a04d55d189bef4e81178f65f5b7416034a848631b31fd3f91a41888cb80de9a682',1,'JKQTPGraphViolinplotStyleMixin']]],
