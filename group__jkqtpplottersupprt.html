@@ -230,6 +230,8 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11">JKQTPCALTexponent</a>
 , <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eab8916938c8f8ffb9a8917a71ee15e224">JKQTPCALTprintf</a>
+, <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea8343a082a4a5fefc22d3471a5bab6adb">JKQTPCALTdate</a>
 , <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eac21cd0c77ad3a423eb18bf249cd284d1">JKQTPCALTtime</a>
@@ -910,14 +912,19 @@ logic y-position of a graph, relative to the current JKQtPlotter </td></tr>
 <img src="JKQTPCALTscientific.png" alt=""/>
 </div>
  </td></tr>
-<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858" name="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858"></a>JKQTPCALTexponentCharacter&#160;</td><td class="fielddoc"><p >print the numbers and show a unit character, i.e. 5&mu; for <img class="formulaInl" alt="$ 5\cdot 10^{-6} $" src="form_247.png" width="52" height="15"/> , <code>3k</code> for <img class="formulaInl" alt="$ 3\cdot 10^3 $" src="form_248.png" width="44" height="15"/> ... </p>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858" name="ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858"></a>JKQTPCALTexponentCharacter&#160;</td><td class="fielddoc"><p >print the numbers and show a unit character, i.e. 5&mu; for <img class="formulaInl" alt="$ 5\cdot 10^{-6} $" src="form_251.png" width="52" height="15"/> , <code>3k</code> for <img class="formulaInl" alt="$ 3\cdot 10^3 $" src="form_252.png" width="44" height="15"/> ... </p>
 <div class="image">
 <img src="JKQTPCALTexponentCharacter.png" alt=""/>
 </div>
  </td></tr>
-<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11" name="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11"></a>JKQTPCALTexponent&#160;</td><td class="fielddoc"><p >show numbers in exponential for, e.g. <img class="formulaInl" alt="$ 3\cdot 10^5 $" src="form_249.png" width="44" height="15"/> ... </p>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11" name="ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11"></a>JKQTPCALTexponent&#160;</td><td class="fielddoc"><p >show numbers in exponential for, e.g. <img class="formulaInl" alt="$ 3\cdot 10^5 $" src="form_253.png" width="44" height="15"/> ... </p>
 <div class="image">
 <img src="JKQTPCALTexponent.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eab8916938c8f8ffb9a8917a71ee15e224" name="ggad58b8a9812defae065b13b76154c8d2eab8916938c8f8ffb9a8917a71ee15e224"></a>JKQTPCALTprintf&#160;</td><td class="fielddoc"><p >generate axis label from an arbitrary "printf" formatting string (see e.g. <a href="https://en.wikipedia.org/wiki/Printf_format_string">https://en.wikipedia.org/wiki/Printf_format_string</a> ). The first data parameter is the tick value as <code>double</code> an the second is tickUnitName as string. The following image shows an example for <code>"y=%+.2f"</code>: </p>
+<div class="image">
+<img src="JKQTPCALTprintf.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea8343a082a4a5fefc22d3471a5bab6adb" name="ggad58b8a9812defae065b13b76154c8d2ea8343a082a4a5fefc22d3471a5bab6adb"></a>JKQTPCALTdate&#160;</td><td class="fielddoc"><p >show numbers as dates </p>
@@ -935,7 +942,7 @@ logic y-position of a graph, relative to the current JKQtPlotter </td></tr>
 <img src="JKQTPCALTdatetime.png" alt=""/>
 </div>
  </td></tr>
-<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187" name="ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187"></a>JKQTPCALTfrac&#160;</td><td class="fielddoc"><p >show numbers as fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed like <img class="formulaInl" alt="$ \frac{1}{2} $" src="form_250.png" width="8" height="21"/> </p>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187" name="ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187"></a>JKQTPCALTfrac&#160;</td><td class="fielddoc"><p >show numbers as fraction, the number is first rounded to the given precision and then a fraction is calculated and displayed like <img class="formulaInl" alt="$ \frac{1}{2} $" src="form_254.png" width="8" height="21"/> </p>
 <div class="image">
 <img src="JKQTPCALTfrac.png" alt=""/>
 </div>
@@ -1094,11 +1101,20 @@ Zooming with the mouse</div></div>
 <p>mode of the axis ticks </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggafba2dfd5e979b2a4c063ac2316ce42f1a1577632e07e9c66f81cac7875ed64e93" name="ggafba2dfd5e979b2a4c063ac2316ce42f1a1577632e07e9c66f81cac7875ed64e93"></a>JKQTPLTMLinOrPower&#160;</td><td class="fielddoc"><p >linear, or log, depending on whether the axis is log </p>
-</td></tr>
+<div class="image">
+<img src="JKQTPLTMLinOrPower.png" alt=""/>
+</div>
+ </td></tr>
 <tr><td class="fieldname"><a id="ggafba2dfd5e979b2a4c063ac2316ce42f1aeb2d5d16ed32bc6829f015665bb27d34" name="ggafba2dfd5e979b2a4c063ac2316ce42f1aeb2d5d16ed32bc6829f015665bb27d34"></a>JKQTPLTMLin&#160;</td><td class="fielddoc"><p >always linear (even for log-axes) </p>
-</td></tr>
+<div class="image">
+<img src="JKQTPLTMLin.png" alt=""/>
+</div>
+ </td></tr>
 <tr><td class="fieldname"><a id="ggafba2dfd5e979b2a4c063ac2316ce42f1a46174d06d8caa101ed8008113f42dd4c" name="ggafba2dfd5e979b2a4c063ac2316ce42f1a46174d06d8caa101ed8008113f42dd4c"></a>JKQTPLTMPower&#160;</td><td class="fielddoc"><p >powers (of the log-base) </p>
-</td></tr>
+<div class="image">
+<img src="JKQTPLTMPower.png" alt=""/>
+</div>
+ </td></tr>
 <tr><td class="fieldname"><a id="ggafba2dfd5e979b2a4c063ac2316ce42f1a80e54b559846900862da776690bd948c" name="ggafba2dfd5e979b2a4c063ac2316ce42f1a80e54b559846900862da776690bd948c"></a>JKQTPLTMmax&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -2000,7 +2016,7 @@ Draw Lines User-Action</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Sep 23 2022 19:49:04 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Sep 24 2022 00:10:14 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

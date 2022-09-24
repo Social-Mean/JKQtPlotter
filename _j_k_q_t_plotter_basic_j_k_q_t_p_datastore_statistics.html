@@ -119,10 +119,10 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_basic_j_k_q_t_p_datas
 <li class="level2"><a href="#autotoc_md46">Boxplots with Outliers</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md47">Histograms</a></li>
-<li class="level1"><a href="#autotoc_md48">Kernel Density Estimates (KDE)</a></li>
-<li class="level1"><a href="#autotoc_md50">Cummulative Histograms and KDEs</a></li>
-<li class="level1"><a href="#autotoc_md51">Screenshot of the full Program</a></li>
+<li class="level1"><a href="#autotoc_md48">Histograms</a></li>
+<li class="level1"><a href="#autotoc_md49">Kernel Density Estimates (KDE)</a></li>
+<li class="level1"><a href="#autotoc_md51">Cummulative Histograms and KDEs</a></li>
+<li class="level1"><a href="#autotoc_md52">Screenshot of the full Program</a></li>
 </ul>
 </div>
 <div class="textblock"><p ><a class="anchor" id="md_examples_datastore_statistics_README"></a></p>
@@ -259,7 +259,7 @@ Boxplots with Outliers</h2>
 <div class="ttc" id="agroup__jkqtptools__math__statistics__adaptors_html_gab0ff0614e1796afe34c3cae0dc9ba8a3"><div class="ttname"><a href="group__jkqtptools__math__statistics__adaptors.html#gab0ff0614e1796afe34c3cae0dc9ba8a3">jkqtpstatAddHBoxplotAndOutliers</a></div><div class="ttdeci">std::pair&lt; JKQTPBoxplotHorizontalElement *, JKQTPSingleColumnSymbolsGraph * &gt; jkqtpstatAddHBoxplotAndOutliers(JKQTBasePlotter *plotter, InputIt first, InputIt last, double boxposY, double quantile1Spec=0.25, double quantile2Spec=0.75, double minimumQuantile=0.03, double maximumQuantile=0.97, const QString &amp;outliercolumnBaseName=QString(&quot;boxplot&quot;), JKQTPStat5NumberStatistics *statOutput=nullptr)</div><div class="ttdoc">add a JKQTPBoxplotHorizontalElement and a JKQTPSingleColumnSymbolsGraph for outliers to the given plo...</div><div class="ttdef"><b>Definition:</b> jkqtpstatisticsadaptors.h:164</div></div>
 </div><!-- fragment --><p >As you can see this restuns the <code><a class="el" href="class_j_k_q_t_p_boxplot_horizontal_element.html" title="This implements a horizontal (notched) boxplot where the data is directly given to the object and not...">JKQTPBoxplotHorizontalElement</a></code> and in addition a <code><a class="el" href="class_j_k_q_t_p_single_column_symbols_graph.html" title="plots a 1-column set of data-values with symbols onto a JKQtPlotter/JKQtBasePlotter....">JKQTPSingleColumnSymbolsGraph</a></code> for the display of the outliers. The result looks like this:</p>
 <p ><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_statistics_boxplots_outliers.png" alt="datastore_statistics_boxplots_outliers" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md47"></a>
+<h1><a class="anchor" id="autotoc_md48"></a>
 Histograms</h1>
 <p >Calculating 1D-Histograms is supported by several functions from the <a class="el" href="group__jkqtptools__math__statistics.html">JKQTPlotter Statistics Library</a>, e.g. <code><a class="el" href="group__jkqtptools__math__statistics__1dhist.html#gaa83dbe625d4507f55629eaaf96a09cf8" title="calculate an autoranged 1-dimensional histogram from the given data range first .....">jkqtpstatHistogram1DAutoranged()</a></code>. You can use the result to fill new columns in a <code><a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a></code>, which can then be used to draw the histogram (here wit 15 bins, spanning the full data range):</p>
 <div class="fragment"><div class="line"><span class="keywordtype">size_t</span> histcolX=plotter-&gt;getDatastore()-&gt;addColumn(histogramcolumnBaseName+<span class="stringliteral">&quot;, bins&quot;</span>);</div>
@@ -280,7 +280,7 @@ Histograms</h1>
 <div class="ttc" id="agroup__jkqtptools__math__statistics__adaptors_html_ga8ff37e2bd7bd79311cca2c5cc3b65345"><div class="ttname"><a href="group__jkqtptools__math__statistics__adaptors.html#ga8ff37e2bd7bd79311cca2c5cc3b65345">jkqtpstatAddHHistogram1DAutoranged</a></div><div class="ttdeci">JKQTPBarVerticalGraph * jkqtpstatAddHHistogram1DAutoranged(JKQTBasePlotter *plotter, InputIt first, InputIt last, int bins=11, bool normalized=true, bool cummulative=false, const QString &amp;histogramcolumnBaseName=QString(&quot;histogram&quot;))</div><div class="ttdoc">calculate an autoranged histogram and add a JKQTPBarVerticalGraph to the given plotter,...</div><div class="ttdef"><b>Definition:</b> jkqtpstatisticsadaptors.h:828</div></div>
 </div><!-- fragment --><p >The resulting plot looks like this (the distributions used to generate the random data are also shown as line plots!):</p>
 <p ><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_statistics_hist.png" alt="datastore_statistics_hist" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md48"></a>
+<h1><a class="anchor" id="autotoc_md49"></a>
 Kernel Density Estimates (KDE)</h1>
 <p >Especially when only few samples from a distribution are available, histograms are not good at representing the underlying data distribution. In such cases, <a href="https://en.wikipedia.org/wiki/Kernel_density_estimation">Kernel Density Estimates (KDE)</a> can help, which are basically a smoothed variant of a histogram. The <a class="el" href="group__jkqtptools__math__statistics.html">JKQTPlotter Statistics Library</a> supports calculating them via e.g. <code><a class="el" href="group__jkqtptools__math__statistics__1dkde.html#gaea1ca0066c61947e8a8a7d8deaa36d3e" title="calculate an autoranged 1-dimensional Kernel Density Estimation (KDE) from the given data range first...">jkqtpstatKDE1D()</a></code>:</p>
 <div class="fragment"><div class="line"><span class="keywordtype">size_t</span> kdecolX=plotter-&gt;getDatastore()-&gt;addColumn(KDEcolumnBaseName+<span class="stringliteral">&quot;, bins&quot;</span>);</div>
@@ -319,7 +319,7 @@ Kernel Density Estimates (KDE)</h1>
 <div class="ttc" id="agroup__jkqtptools__math__statistics__adaptors_html_ga6c4b29bcf7b95cd6ff8564df48551cdd"><div class="ttname"><a href="group__jkqtptools__math__statistics__adaptors.html#ga6c4b29bcf7b95cd6ff8564df48551cdd">jkqtpstatAddHKDE1D</a></div><div class="ttdeci">JKQTPXYLineGraph * jkqtpstatAddHKDE1D(JKQTBasePlotter *plotter, InputIt first, InputIt last, BinsInputIt binsFirst, BinsInputIt binsLast, const std::function&lt; double(double)&gt; &amp;kernel=std::function&lt; double(double)&gt;(&amp;jkqtpstatKernel1DGaussian), double bandwidth=1.0, bool cummulative=false, const QString &amp;KDEcolumnBaseName=QString(&quot;KDE&quot;))</div><div class="ttdoc">calculate an autoranged KDE and add a JKQTPXYLineGraph to the given plotter, where the KDE is calcula...</div><div class="ttdef"><b>Definition:</b> jkqtpstatisticsadaptors.h:1365</div></div>
 </div><!-- fragment --><p >Plots that result from such calls look like this:</p>
 <p ><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_statistics_kde.png" alt="datastore_statistics_kde" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md50"></a>
+<h1><a class="anchor" id="autotoc_md51"></a>
 Cummulative Histograms and KDEs</h1>
 <p >Both histograms and KDEs support a parameter <code>bool cummulative</code>, which allows to accumulate the data after calculation and drawing cummulative histograms/KDEs:</p>
 <div class="fragment"><div class="line"><a class="code hl_class" href="class_j_k_q_t_p_bar_vertical_graph.html">JKQTPBarVerticalGraph</a>* histcum2=<a class="code hl_function" href="group__jkqtptools__math__statistics__adaptors.html#ga8ff37e2bd7bd79311cca2c5cc3b65345">jkqtpstatAddHHistogram1DAutoranged</a>(plot1cum-&gt;getPlotter(),  datastore1-&gt;begin(randomdatacol2), datastore1-&gt;end(randomdatacol2),</div>
@@ -328,7 +328,7 @@ Cummulative Histograms and KDEs</h1>
 <div class="line"><span class="comment">//                                                                          normalized, cummulative</span></div>
 <div class="line">                                                                            <span class="keyword">false</span>,       <span class="keyword">true</span>);</div>
 </div><!-- fragment --><p ><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_statistics_cumhistkde.png" alt="datastore_statistics_cumhistkde" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md51"></a>
+<h1><a class="anchor" id="autotoc_md52"></a>
 Screenshot of the full Program</h1>
 <p >The output of the full test program <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/datastore_statistics/datastore_statistics.cpp"><code>datastore_statistics.cpp</code></a> looks like this:</p>
 <p ><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_statistics.png" alt="datastore_statistics" class="inline"/> </p>
@@ -340,7 +340,7 @@ Screenshot of the full Program</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Fri Sep 23 2022 19:49:03 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Sep 24 2022 00:10:14 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

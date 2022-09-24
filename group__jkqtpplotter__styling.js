@@ -226,6 +226,7 @@ var group__jkqtpplotter__styling =
       [ "tickLabelType", "class_j_k_q_t_p_coordinate_axis_style.html#aa4059c7e3ddc689d58caa701f3e1e550", null ],
       [ "tickMode", "class_j_k_q_t_p_coordinate_axis_style.html#a88afc7f8799e562b4d5deda0e1a02a4e", null ],
       [ "tickOutsideLength", "class_j_k_q_t_p_coordinate_axis_style.html#a76c30358f82f0b00a7a8f55aa6c86778", null ],
+      [ "tickPrintfFormat", "class_j_k_q_t_p_coordinate_axis_style.html#a25f3d76449ece3c3e50116606878200c", null ],
       [ "tickTimeFormat", "class_j_k_q_t_p_coordinate_axis_style.html#ab55f4c0ce300dc01a1051e519ed92880", null ],
       [ "tickWidth", "class_j_k_q_t_p_coordinate_axis_style.html#a215a5d8724bdbd8f0f94420d8929dfbd", null ]
     ] ],

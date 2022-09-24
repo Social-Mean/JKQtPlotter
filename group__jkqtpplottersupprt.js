@@ -60,6 +60,7 @@ var group__jkqtpplottersupprt =
       [ "JKQTPCALTscientific", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea4cab5efdfe971d1595abc8ca3c177f7a", null ],
       [ "JKQTPCALTexponentCharacter", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eac3d02a7e3cc357e184d7618cfdee7858", null ],
       [ "JKQTPCALTexponent", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11", null ],
+      [ "JKQTPCALTprintf", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eab8916938c8f8ffb9a8917a71ee15e224", null ],
       [ "JKQTPCALTdate", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea8343a082a4a5fefc22d3471a5bab6adb", null ],
       [ "JKQTPCALTtime", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eac21cd0c77ad3a423eb18bf249cd284d1", null ],
       [ "JKQTPCALTdatetime", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eae74a5730d5380cdaa3a436b199af2f3c", null ],
