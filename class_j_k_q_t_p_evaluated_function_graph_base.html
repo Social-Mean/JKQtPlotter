@@ -487,7 +487,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Base class for graph classes that evaluate a mathematical function (e.g. defined as a C-function), using an adaptive plotting algorithm from <a class="el" href="class_j_k_q_t_p_adaptive_function_graph_evaluator.html" title="adaptive drawing of a function graph, specified by two function  and  evaluated over a parameter rang...">JKQTPAdaptiveFunctionGraphEvaluator</a>. </p>
 <p >This class always plots a general 2D-graph <img class="formulaInl" alt="$ [x,y]=\vec{f}(t) $" src="form_187.png" width="83" height="21"/> , which is calculated in dependence of a parameter <img class="formulaInl" alt="$ t $" src="form_188.png" width="7" height="11"/> . This parametrization is general enough to cover the cases of parametric function, as well as x- and y-dependent function graphs:</p><ul>
-<li>plot a function <img class="formulaInl" alt="$ f(x) $" src="form_77.png" width="31" height="18"/> i.e. the plot points will be <img class="formulaInl" alt="$ [x, f(x)] $" src="form_189.png" width="55" height="18"/> and the value rage will be the x-axis range. This is implemented by e.g. <a class="el" href="class_j_k_q_t_p_x_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPXFunctionLineGraph</a>.</li>
+<li>plot a function <img class="formulaInl" alt="$ f(x) $" src="form_85.png" width="31" height="18"/> i.e. the plot points will be <img class="formulaInl" alt="$ [x, f(x)] $" src="form_189.png" width="55" height="18"/> and the value rage will be the x-axis range. This is implemented by e.g. <a class="el" href="class_j_k_q_t_p_x_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPXFunctionLineGraph</a>.</li>
 <li>plot a function <img class="formulaInl" alt="$ f(y) $" src="form_190.png" width="29" height="18"/> i.e. the plot points will be <img class="formulaInl" alt="$ [f(y), y] $" src="form_191.png" width="54" height="18"/> and the value rage will be the y-axis range. This is implemented by e.g. <a class="el" href="class_j_k_q_t_p_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPYFunctionLineGraph</a>.</li>
 <li>plot a function <img class="formulaInl" alt="$ [x,y]=\vec{f}(t) $" src="form_187.png" width="83" height="21"/> i.e. the plot points will be <img class="formulaInl" alt="$ \vec{f}(t) $" src="form_192.png" width="26" height="21"/> and the value rage will be a user-defined range for <img class="formulaInl" alt="$ gt $" src="form_193.png" width="16" height="15"/>. This is implemented by e.g. <a class="el" href="class_j_k_q_t_p_x_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function  The function is eva...">JKQTPXYFunctionLineGraph</a>.</li>
 </ul>
@@ -608,7 +608,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>this function returns a functor that is used to generate the plot data in coordinate space, based on a range of the dependent variable in coordinate space. In addition it also contains the value range over which to evaluate the functor <a class="el" href="struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#a550f8fe67a5ab83e9558a630e4de1760" title="calculates the points  on the function graph, in dependence on a dependent parameter variable,...">PlotFunctorSpec::func</a> </p>
 <p >This function has to be overridden by each class. Depending on the way that class defines the actual plot function, this function has to compose its return type in different ways. The three most common ways are:</p><ul>
-<li>plot a function <img class="formulaInl" alt="$ f(x) $" src="form_77.png" width="31" height="18"/> i.e. the plot points will be <img class="formulaInl" alt="$ [x, f(x)] $" src="form_189.png" width="55" height="18"/> and the value rage will be the x-axis range. This is implemented by e.g. <a class="el" href="class_j_k_q_t_p_x_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPXFunctionLineGraph</a>.</li>
+<li>plot a function <img class="formulaInl" alt="$ f(x) $" src="form_85.png" width="31" height="18"/> i.e. the plot points will be <img class="formulaInl" alt="$ [x, f(x)] $" src="form_189.png" width="55" height="18"/> and the value rage will be the x-axis range. This is implemented by e.g. <a class="el" href="class_j_k_q_t_p_x_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPXFunctionLineGraph</a>.</li>
 <li>plot a function <img class="formulaInl" alt="$ f(y) $" src="form_190.png" width="29" height="18"/> i.e. the plot points will be <img class="formulaInl" alt="$ [f(y), y] $" src="form_191.png" width="54" height="18"/> and the value rage will be the y-axis range. This is implemented by e.g. <a class="el" href="class_j_k_q_t_p_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPYFunctionLineGraph</a>.</li>
 <li>plot a function <img class="formulaInl" alt="$ [x,y]=\vec{f}(t) $" src="form_187.png" width="83" height="21"/> i.e. the plot points will be <img class="formulaInl" alt="$ \vec{f}(t) $" src="form_192.png" width="26" height="21"/> and the value rage will be a user-defined range for <img class="formulaInl" alt="$ gt $" src="form_193.png" width="16" height="15"/>. This is implemented by e.g. <a class="el" href="class_j_k_q_t_p_x_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function  The function is eva...">JKQTPXYFunctionLineGraph</a>.</li>
 </ul>
@@ -804,8 +804,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the maximum number of recursive refinement steps </p>
-<p >each step bisects the interval <img class="formulaInl" alt="$ [a, b] $" src="form_4.png" width="31" height="18"/> into two halfes. So the maximum number of points plotted at all are thus: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]" src="form_5.png" width="265" height="23"/>
+<p >each step bisects the interval <img class="formulaInl" alt="$ [a, b] $" src="form_3.png" width="31" height="18"/> into two halfes. So the maximum number of points plotted at all are thus: </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]" src="form_4.png" width="265" height="23"/>
 </p>
  
 </div>
@@ -1090,8 +1090,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the maximum number of recursive refinement steps </p>
-<p >each step bisects the interval <img class="formulaInl" alt="$ [a, b] $" src="form_4.png" width="31" height="18"/> into two halfes. So the maximum number of points plotted at all are thus: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]" src="form_5.png" width="265" height="23"/>
+<p >each step bisects the interval <img class="formulaInl" alt="$ [a, b] $" src="form_3.png" width="31" height="18"/> into two halfes. So the maximum number of points plotted at all are thus: </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]" src="form_4.png" width="265" height="23"/>
 </p>
  
 </div>
@@ -1631,8 +1631,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the maximum number of recursive refinement steps </p>
-<p >each step bisects the interval <img class="formulaInl" alt="$ [a, b] $" src="form_4.png" width="31" height="18"/> into two halfes. So the maximum number of points plotted at all are thus: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]" src="form_5.png" width="265" height="23"/>
+<p >each step bisects the interval <img class="formulaInl" alt="$ [a, b] $" src="form_3.png" width="31" height="18"/> into two halfes. So the maximum number of points plotted at all are thus: </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]" src="form_4.png" width="265" height="23"/>
 </p>
  
 </div>
@@ -1743,7 +1743,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_evaluated_function_graph_base.html">JKQTPEvaluatedFunctionGraphBase</a></li>
-    <li class="footer">Generated on Sat Sep 24 2022 18:21:15 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Sep 25 2022 13:38:00 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

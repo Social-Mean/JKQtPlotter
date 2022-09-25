@@ -113,8 +113,8 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_basic_j_k_q_t_p_datas
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md59">Generating different sets of random numbers</a></li>
-<li class="level1"><a href="#autotoc_md60">Marginal Statistics</a></li>
+<ul><li class="level1"><a href="#autotoc_md57">Generating different sets of random numbers</a></li>
+<li class="level1"><a href="#autotoc_md59">Marginal Statistics</a></li>
 <li class="level1"><a href="#autotoc_md61">2D Histogram</a></li>
 <li class="level1"><a href="#autotoc_md62">Kernel Density Estimates (KDE)</a></li>
 <li class="level1"><a href="#autotoc_md63">Screenshot of the full Program</a></li>
@@ -131,7 +131,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_basic_j_k_q_t_p_datas
 <li><a class="el" href="_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html">Advanced 2-Dimensional Statistics with JKQTPDatastore</a></li>
 </ul>
 <p >The source code of the main application can be found in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/datastore_statistics_2d/datastore_statistics_2d.cpp"><code>datastore_statistics_2d.cpp</code></a>. This tutorial cites only parts of this code to demonstrate different ways of working with data for the graphs.</p>
-<h1><a class="anchor" id="autotoc_md59"></a>
+<h1><a class="anchor" id="autotoc_md57"></a>
 Generating different sets of random numbers</h1>
 <p >The code segments below will fill different instances of <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> with different statistical plots. All these plots are based on either of two sets of random number pairs (i.e. x/y-locations) generated as shown here: </p><div class="fragment"><div class="line"><span class="keywordtype">size_t</span> randomdatacolx_small=datastore1-&gt;addColumn(<span class="stringliteral">&quot;random data, x&quot;</span>);</div>
 <div class="line"><span class="keywordtype">size_t</span> randomdatacoly_small=datastore1-&gt;addColumn(<span class="stringliteral">&quot;random data, y&quot;</span>);</div>
@@ -200,7 +200,7 @@ Generating different sets of random numbers</h1>
 <div class="ttc" id="aclass_j_k_q_t_p_geo_ellipse_html"><div class="ttname"><a href="class_j_k_q_t_p_geo_ellipse.html">JKQTPGeoEllipse</a></div><div class="ttdoc">This JKQTPGeometricPlotElement is used to draw an ellipse.</div><div class="ttdef"><b>Definition:</b> jkqtpgeoshapes.h:300</div></div>
 </div><!-- fragment --><p >The resulting plot looks like this:</p>
 <p ><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_statistics_2d_scatteronly.png" alt="datastore_statistics_2d_scatteronly" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md60"></a>
+<h1><a class="anchor" id="autotoc_md59"></a>
 Marginal Statistics</h1>
 <p >To explore the statistical properties of a 2D dataset, it is often useful to draw the marginal histograms, i.e. the histograms of one of the two variables. To do so, we use the function <code><a class="el" href="group__jkqtptools__math__statistics__adaptors.html#ga8ff37e2bd7bd79311cca2c5cc3b65345" title="calculate an autoranged histogram and add a JKQTPBarVerticalGraph to the given plotter,...">jkqtpstatAddHHistogram1DAutoranged()</a></code> and <code><a class="el" href="group__jkqtptools__math__statistics__adaptors.html#ga4797755e8ed88b52e524f38e49fd396e" title="calculate an autoranged histogram and add a JKQTPBarHorizontalGraph to the given plotter,...">jkqtpstatAddVHistogram1DAutoranged()</a></code> that were introduced in <a class="el" href="_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html">Advanced 1-Dimensional Statistics with JKQTPDatastore</a> and are explained in detail there:</p>
 <div class="fragment"><div class="line"><a class="code hl_function" href="group__jkqtptools__math__statistics__adaptors.html#ga8ff37e2bd7bd79311cca2c5cc3b65345">jkqtpstatAddHHistogram1DAutoranged</a>(plothistBottom-&gt;getPlotter(),  datastore1-&gt;begin(randomdatacolx), datastore1-&gt;end(randomdatacolx), 1.0, <span class="keyword">true</span>);</div>
@@ -361,7 +361,7 @@ Screenshot of the full Program</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Sat Sep 24 2022 18:21:14 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Sep 25 2022 13:37:58 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

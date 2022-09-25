@@ -6,6 +6,7 @@ var class_j_k_q_t_p_horizontal_independent_axis =
     [ "getParentOtheraxisWidth", "class_j_k_q_t_p_horizontal_independent_axis.html#a8717dce91a9f6052ff4834defa01878a", null ],
     [ "getParentPlotOffset", "class_j_k_q_t_p_horizontal_independent_axis.html#ae34e3cbbfc326adabc297770ad554022", null ],
     [ "getParentPlotWidth", "class_j_k_q_t_p_horizontal_independent_axis.html#a25b486a8f0dcdad628f5f9fb336c71fb", null ],
+    [ "parentOtherAxisX2P", "class_j_k_q_t_p_horizontal_independent_axis.html#a85ac00008ee8d1bb7161a903f50a2961", null ],
     [ "setAxisOffset", "class_j_k_q_t_p_horizontal_independent_axis.html#ac924452bb082d2d2d390ad20dd8b9556", null ],
     [ "setAxisWidth", "class_j_k_q_t_p_horizontal_independent_axis.html#a3bc7a7a0c522375c1ad0974f467f5387", null ],
     [ "setOtherAxisInverted", "class_j_k_q_t_p_horizontal_independent_axis.html#a67a42bb3f9ed5b81b6dff51430b6ccbf", null ],

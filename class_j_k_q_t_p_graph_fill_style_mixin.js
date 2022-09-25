@@ -12,6 +12,7 @@ var class_j_k_q_t_p_graph_fill_style_mixin =
     [ "initFillStyleInvertedColor", "class_j_k_q_t_p_graph_fill_style_mixin.html#a28fe55c9266712727b51be418f853a96", null ],
     [ "setFillBrush", "class_j_k_q_t_p_graph_fill_style_mixin.html#a6d912c976e206bab578eef0f9d0d4b6a", null ],
     [ "setFillColor", "class_j_k_q_t_p_graph_fill_style_mixin.html#a3281a7fad05f07acc4f2fe80a93b29bf", null ],
+    [ "setFillColor", "class_j_k_q_t_p_graph_fill_style_mixin.html#a0fa23b3180a11475f72e40c9330d4e5c", null ],
     [ "setFillGradient", "class_j_k_q_t_p_graph_fill_style_mixin.html#a6464668a98b9794f72bffdd337ec22ce", null ],
     [ "setFillStyle", "class_j_k_q_t_p_graph_fill_style_mixin.html#ada51ee7c038ee97127d8eba08bf12a7c", null ],
     [ "setFillTexture", "class_j_k_q_t_p_graph_fill_style_mixin.html#a4458eeaf49907ac8ae94a89c68c5c516", null ],

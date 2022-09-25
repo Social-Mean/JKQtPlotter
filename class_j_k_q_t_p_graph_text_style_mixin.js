@@ -7,6 +7,7 @@ var class_j_k_q_t_p_graph_text_style_mixin =
     [ "getTextFontSize", "class_j_k_q_t_p_graph_text_style_mixin.html#a49f67c07926d1558b49b9f9cf6f40dad", null ],
     [ "initTextStyle", "class_j_k_q_t_p_graph_text_style_mixin.html#a4b02a624400a2db5596f533eb0bc810e", null ],
     [ "setTextColor", "class_j_k_q_t_p_graph_text_style_mixin.html#af3e840609971f26d65c86d115ee063ea", null ],
+    [ "setTextColor", "class_j_k_q_t_p_graph_text_style_mixin.html#ab0b39bd44f5d4b35a9df75318d8b2fbb", null ],
     [ "setTextFontName", "class_j_k_q_t_p_graph_text_style_mixin.html#a8864327eafde5a764e31824164c6a49d", null ],
     [ "setTextFontSize", "class_j_k_q_t_p_graph_text_style_mixin.html#a03a81b41505bd62d29963e62b080ef37", null ],
     [ "m_textColor", "class_j_k_q_t_p_graph_text_style_mixin.html#a6cc0599a0a0f9a1a00a5b638dd370cc7", null ],
