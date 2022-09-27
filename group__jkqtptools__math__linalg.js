@@ -17,7 +17,7 @@ var group__jkqtptools__math__linalg =
     [ "jkqtplinalgMatrixToString", "group__jkqtptools__math__linalg.html#ga3e196152acbf4f8dfe3c33abb0af62a7", null ],
     [ "jkqtplinalgPM1ToNonlinRWBColors", "group__jkqtptools__math__linalg.html#gaf33e8d679515276ac8cf2863ee9f4844", null ],
     [ "jkqtplinalgPM1ToRWBColors", "group__jkqtptools__math__linalg.html#ga9ad3ab299feb81e4ee9ff797dbab8610", null ],
-    [ "jkqtplinalgPrintMatrix", "group__jkqtptools__math__linalg.html#ga23cca7d08432d92f7402c8e78e15c280", null ],
+    [ "jkqtplinalgPrintMatrix", "group__jkqtptools__math__linalg.html#ga68f4af6bad95143a744a1cd99a3ffeec", null ],
     [ "jkqtplinalgTransposeMatrix", "group__jkqtptools__math__linalg.html#ga2554dec876332cc2689da26404c265a4", null ],
     [ "jkqtplinalgTransposeMatrix", "group__jkqtptools__math__linalg.html#ga36e5b138c96b8ae51452dc364c54dd0e", null ]
 ];

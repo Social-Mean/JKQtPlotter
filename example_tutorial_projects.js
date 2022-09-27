@@ -44,8 +44,8 @@ var example_tutorial_projects =
       [ "C++ functors as plot functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md72", null ],
       [ "Static C functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md73", null ],
       [ "Predefined \"special\" functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md74", null ],
-      [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md75", null ],
-      [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md76", null ]
+      [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md76", null ],
+      [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md77", null ]
     ] ],
     [ "Example (JKQTPlotter): Plotting Parsed Mathematical Functions as Line Graphs", "_j_k_q_t_plotter_parsed_function_plot.html", [
       [ "Plot Function f(x)", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md85", null ],
@@ -71,7 +71,7 @@ var example_tutorial_projects =
     [ "Example (JKQTPlotter): Plotting Geometric Objects", "_j_k_q_t_plotter_geometric_graphs.html", null ],
     [ "Example (JKQTPlotter): Generating Demo-Plots of Geometric Objects for Documentation", "_j_k_q_t_plotter_geometric_graphs_simple.html", null ],
     [ "Example (JKQTPlotter): Plotting Arrows", "_j_k_q_t_plotter_geometric_arrows.html", [
-      [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md77", null ],
+      [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md75", null ],
       [ "Classes with support for arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md78", null ],
       [ "Screenshot", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md79", null ]
     ] ],
@@ -159,16 +159,16 @@ var example_tutorial_projects =
       [ "Iterator Interface", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md29", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Iterator-Based usage of JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html", [
-      [ "Iterator-based Column Data Access To Existing Rows", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md32", null ],
-      [ "Back-Inserter for Columns", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md34", null ],
-      [ "Using C++ STL algorithms", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md35", null ],
-      [ "Special Properties of the JKQTPDatastore-Iterators", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md37", null ]
+      [ "Iterator-based Column Data Access To Existing Rows", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md38", null ],
+      [ "Back-Inserter for Columns", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md39", null ],
+      [ "Using C++ STL algorithms", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md40", null ],
+      [ "Special Properties of the JKQTPDatastore-Iterators", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md41", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Advanced 1-Dimensional Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html", [
-      [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md46", null ],
-      [ "Basic Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md47", null ],
-      [ "Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md49", [
-        [ "Standard Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md50", null ],
+      [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48", null ],
+      [ "Basic Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md49", null ],
+      [ "Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md50", [
+        [ "Standard Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md51", null ],
         [ "Boxplots with Outliers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md52", null ]
       ] ],
       [ "Histograms", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md53", null ],
@@ -181,20 +181,20 @@ var example_tutorial_projects =
       [ "Robust Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md43", null ],
       [ "Weighted Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md44", null ],
       [ "Linearizable Regression Models", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md45", null ],
-      [ "Polynom Fitting", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md48", null ],
-      [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md51", null ]
+      [ "Polynom Fitting", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md46", null ],
+      [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md47", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): 1-Dimensional Group Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html", [
       [ "Barcharts & Boxplots from categorized data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md30", [
         [ "Generating a Dataset for Grouped Barcharts", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md31", null ],
-        [ "Calculating Grouped Statistics for a Barchart", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md33", null ],
-        [ "Calculating Grouped Statistics for a Boxplot", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md36", null ]
+        [ "Calculating Grouped Statistics for a Barchart", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md32", null ],
+        [ "Calculating Grouped Statistics for a Boxplot", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md33", null ]
       ] ],
-      [ "(Scatter-)Graphs with X/Y-errors from Categorized Data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md38", [
-        [ "Dataset for XY Scatter Graphs", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md39", null ],
-        [ "Calculating x- and y-Errors from Categorized Data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md40", null ]
+      [ "(Scatter-)Graphs with X/Y-errors from Categorized Data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md34", [
+        [ "Dataset for XY Scatter Graphs", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md35", null ],
+        [ "Calculating x- and y-Errors from Categorized Data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md36", null ]
       ] ],
-      [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md41", null ]
+      [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md37", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Advanced 2-Dimensional Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html", [
       [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md59", null ],

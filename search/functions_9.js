@@ -313,7 +313,7 @@ var searchData=
   ['jkqtplinalgmatrixtostring_310',['jkqtplinalgMatrixToString',['../group__jkqtptools__math__linalg.html#ga3e196152acbf4f8dfe3c33abb0af62a7',1,'jkqtplinalgtools.h']]],
   ['jkqtplinalgpm1tononlinrwbcolors_311',['jkqtplinalgPM1ToNonlinRWBColors',['../group__jkqtptools__math__linalg.html#gaf33e8d679515276ac8cf2863ee9f4844',1,'jkqtplinalgtools.h']]],
   ['jkqtplinalgpm1torwbcolors_312',['jkqtplinalgPM1ToRWBColors',['../group__jkqtptools__math__linalg.html#ga9ad3ab299feb81e4ee9ff797dbab8610',1,'jkqtplinalgtools.h']]],
-  ['jkqtplinalgprintmatrix_313',['jkqtplinalgPrintMatrix',['../group__jkqtptools__math__linalg.html#ga23cca7d08432d92f7402c8e78e15c280',1,'jkqtplinalgtools.h']]],
+  ['jkqtplinalgprintmatrix_313',['jkqtplinalgPrintMatrix',['../group__jkqtptools__math__linalg.html#ga68f4af6bad95143a744a1cd99a3ffeec',1,'jkqtplinalgtools.h']]],
   ['jkqtplinalgtransposematrix_314',['jkqtplinalgTransposeMatrix',['../group__jkqtptools__math__linalg.html#ga36e5b138c96b8ae51452dc364c54dd0e',1,'jkqtplinalgTransposeMatrix(T *matrix, long N):&#160;jkqtplinalgtools.h'],['../group__jkqtptools__math__linalg.html#ga2554dec876332cc2689da26404c265a4',1,'jkqtplinalgTransposeMatrix(T *matrix, long L, long C):&#160;jkqtplinalgtools.h']]],
   ['jkqtplinedecoratorstyle2icon_315',['JKQTPLineDecoratorStyle2Icon',['../group__jkqtptools__icons.html#ga79830bedad13c4b8a2a409f04ebb51c8',1,'jkqtpicons.h']]],
   ['jkqtplinedecoratorstyle2namestring_316',['JKQTPLineDecoratorStyle2NameString',['../group__jkqtptools__drawing.html#gab8ffc607cb2b2e7277612e2bbdb49e6c',1,'jkqtpdrawingtools.h']]],
