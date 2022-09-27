@@ -1,6 +1,7 @@
 var annotated_dup =
 [
     [ "JKQTAnnotationsSpecificStyleProperties", "class_j_k_q_t_annotations_specific_style_properties.html", "class_j_k_q_t_annotations_specific_style_properties" ],
+    [ "JKQTBarchartSpecificStyleProperties", "class_j_k_q_t_barchart_specific_style_properties.html", "class_j_k_q_t_barchart_specific_style_properties" ],
     [ "JKQTBasePlotter", "class_j_k_q_t_base_plotter.html", "class_j_k_q_t_base_plotter" ],
     [ "JKQTBasePlotterStyle", "class_j_k_q_t_base_plotter_style.html", "class_j_k_q_t_base_plotter_style" ],
     [ "JKQTFastPlotter", "class_j_k_q_t_fast_plotter.html", "class_j_k_q_t_fast_plotter" ],

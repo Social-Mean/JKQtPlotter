@@ -11,8 +11,19 @@ var group__jkqtpplotter__styling__classes =
       [ "saveSettings", "class_j_k_q_t_annotations_specific_style_properties.html#ad7b75a9590a404b0cea2cebeefa27b7f", null ],
       [ "defaultFontName", "class_j_k_q_t_annotations_specific_style_properties.html#a4c4d5ac50690b2610f94a40dddfd468c", null ],
       [ "defaultFontSize", "class_j_k_q_t_annotations_specific_style_properties.html#a704c5de985f4a91a2e5b14802671ed66", null ],
-      [ "defaultTextColor", "class_j_k_q_t_annotations_specific_style_properties.html#a74373364b4d72b7638b47256f7ae6d18", null ],
-      [ "textColorDerivationMode", "class_j_k_q_t_annotations_specific_style_properties.html#a77821d7fee6c1feb126660cfa9a490e2", null ]
+      [ "defaultTextColor", "class_j_k_q_t_annotations_specific_style_properties.html#a74373364b4d72b7638b47256f7ae6d18", null ]
+    ] ],
+    [ "JKQTBarchartSpecificStyleProperties", "class_j_k_q_t_barchart_specific_style_properties.html", [
+      [ "JKQTBarchartSpecificStyleProperties", "class_j_k_q_t_barchart_specific_style_properties.html#a292539f1ea4f6c18912955c2b9c5679c", null ],
+      [ "JKQTBarchartSpecificStyleProperties", "class_j_k_q_t_barchart_specific_style_properties.html#ae62e5e90b4dafd8c5709ea856bc063da", null ],
+      [ "JKQTBarchartSpecificStyleProperties", "class_j_k_q_t_barchart_specific_style_properties.html#abeada9a2d797e389129e3c7d6032fb69", null ],
+      [ "JKQTBarchartSpecificStyleProperties", "class_j_k_q_t_barchart_specific_style_properties.html#a536f48117b0d25c87d180620428f6b5b", null ],
+      [ "loadSettings", "class_j_k_q_t_barchart_specific_style_properties.html#a62f2bc59ac27a307931c2d70a817aac0", null ],
+      [ "operator=", "class_j_k_q_t_barchart_specific_style_properties.html#ac82dae99b2e34639cf6378d9f852cd1c", null ],
+      [ "operator=", "class_j_k_q_t_barchart_specific_style_properties.html#a7ddc910db8cc0b91ecd62a702ecb3732", null ],
+      [ "saveSettings", "class_j_k_q_t_barchart_specific_style_properties.html#aab512daa7ed857b270e20e4fc972c55a", null ],
+      [ "defaultRectRadiusAtBaseline", "class_j_k_q_t_barchart_specific_style_properties.html#ac6400c96bedd8b4d852a6c8e268884cf", null ],
+      [ "defaultRectRadiusAtValue", "class_j_k_q_t_barchart_specific_style_properties.html#a4aefc0d7ef6e5b97363ae16a81fb42ca", null ]
     ] ],
     [ "JKQTBasePlotterStyle", "class_j_k_q_t_base_plotter_style.html", [
       [ "JKQTBasePlotterStyle", "class_j_k_q_t_base_plotter_style.html#a5fe1c0b258e15ce078be6210a8d4bcb9", null ],
@@ -71,7 +82,7 @@ var group__jkqtpplotter__styling__classes =
       [ "loadSettings", "class_j_k_q_t_graphs_base_style.html#a806ce0e279044384ea3f88abb96f0596", null ],
       [ "saveSettings", "class_j_k_q_t_graphs_base_style.html#a9644625b62daa1d902c8bf41ea967380", null ],
       [ "annotationStyle", "class_j_k_q_t_graphs_base_style.html#a080af804a077cfecdfed25353a01437f", null ],
-      [ "barchartStyle", "class_j_k_q_t_graphs_base_style.html#a2f5ebe1ae732584185a3af886aba7081", null ],
+      [ "barchartStyle", "class_j_k_q_t_graphs_base_style.html#aca1c0e9451445dfed61e8d1fa1b1f896", null ],
       [ "boxplotStyle", "class_j_k_q_t_graphs_base_style.html#ae4ca63c1e8c92f3187f6d98a59e70f97", null ],
       [ "defaultGraphColors", "class_j_k_q_t_graphs_base_style.html#a2b78e95ac6f6414e3d5c3b3df6bbd8dd", null ],
       [ "defaultGraphFillStyles", "class_j_k_q_t_graphs_base_style.html#a96a8ae00aff7e8dbc14248262e82ab70", null ],

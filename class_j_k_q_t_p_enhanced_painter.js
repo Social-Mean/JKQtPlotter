@@ -7,6 +7,7 @@ var class_j_k_q_t_p_enhanced_painter =
     ] ],
     [ "JKQTPEnhancedPainter", "class_j_k_q_t_p_enhanced_painter.html#a71602469019acad64755c2938fc6a41d", null ],
     [ "JKQTPEnhancedPainter", "class_j_k_q_t_p_enhanced_painter.html#a0da34b2b1ac4f84690636880b6c10ad1", null ],
+    [ "drawComplexRoundedRect", "class_j_k_q_t_p_enhanced_painter.html#a02694363a8757f0c4eb6f0986eb933a6", null ],
     [ "drawPolylineFast", "class_j_k_q_t_p_enhanced_painter.html#aba34a5ed30daf0b0463b1383767854eb", null ],
     [ "drawPolylineFast", "class_j_k_q_t_p_enhanced_painter.html#ab75221a5fcac23ae0e15cccad2718fc9", null ],
     [ "drawPolylineFast", "class_j_k_q_t_p_enhanced_painter.html#a81ecfc4f86dcf63bcc3921136fcd6ceb", null ],

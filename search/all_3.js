@@ -8,7 +8,7 @@ var searchData=
   ['backtransformy_5',['backtransformY',['../class_j_k_q_t_p_plot_element.html#aa2fa48773d126ede3e1d941626e5a94d',1,'JKQTPPlotElement']]],
   ['barchart_6',['Barchart',['../group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4a68a7f798b01ef4749ee1474fab784648',1,'jkqtptools.h']]],
   ['barcharts_2c_20impulse_2dcharts_2c_20_2e_2e_2e_7',['Barcharts, Impulse-Charts, ...',['../group__jkqtplotter__barssticks.html',1,'']]],
-  ['barchartstyle_8',['barchartStyle',['../class_j_k_q_t_graphs_base_style.html#a2f5ebe1ae732584185a3af886aba7081',1,'JKQTGraphsBaseStyle']]],
+  ['barchartstyle_8',['barchartStyle',['../class_j_k_q_t_graphs_base_style.html#aca1c0e9451445dfed61e8d1fa1b1f896',1,'JKQTGraphsBaseStyle']]],
   ['baseclasses_20for_20graphs_9',['Baseclasses for Graphs',['../group__jkqtplotter__basegraphs.html',1,'']]],
   ['baseline_10',['baseline',['../class_j_k_q_t_p_x_y_baseline_graph.html#a004a8e1c1695a5673214929564dec8e5',1,'JKQTPXYBaselineGraph::baseline()'],['../class_j_k_q_t_p_peak_stream_graph.html#ad70a47176074e275b2ca16b3f666b7e2',1,'JKQTPPeakStreamGraph::baseline()']]],
   ['baselineheight_11',['baselineHeight',['../struct_j_k_q_t_math_text_node_size.html#ad11f5452e869c7db8feb6cdf15683e79',1,'JKQTMathTextNodeSize']]],

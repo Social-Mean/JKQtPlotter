@@ -26,6 +26,7 @@ var hierarchy =
     [ "JKQTBasePlotterStyle", "class_j_k_q_t_base_plotter_style.html", null ],
     [ "JKQTGraphsBaseStyle", "class_j_k_q_t_graphs_base_style.html", null ],
     [ "JKQTGraphsSpecificStyleProperties", "class_j_k_q_t_graphs_specific_style_properties.html", [
+      [ "JKQTBarchartSpecificStyleProperties", "class_j_k_q_t_barchart_specific_style_properties.html", null ],
       [ "JKQTGeometricSpecificStyleProperties", "class_j_k_q_t_geometric_specific_style_properties.html", [
         [ "JKQTAnnotationsSpecificStyleProperties", "class_j_k_q_t_annotations_specific_style_properties.html", null ]
       ] ]

@@ -10,6 +10,5 @@ var class_j_k_q_t_annotations_specific_style_properties =
     [ "saveSettings", "class_j_k_q_t_annotations_specific_style_properties.html#ad7b75a9590a404b0cea2cebeefa27b7f", null ],
     [ "defaultFontName", "class_j_k_q_t_annotations_specific_style_properties.html#a4c4d5ac50690b2610f94a40dddfd468c", null ],
     [ "defaultFontSize", "class_j_k_q_t_annotations_specific_style_properties.html#a704c5de985f4a91a2e5b14802671ed66", null ],
-    [ "defaultTextColor", "class_j_k_q_t_annotations_specific_style_properties.html#a74373364b4d72b7638b47256f7ae6d18", null ],
-    [ "textColorDerivationMode", "class_j_k_q_t_annotations_specific_style_properties.html#a77821d7fee6c1feb126660cfa9a490e2", null ]
+    [ "defaultTextColor", "class_j_k_q_t_annotations_specific_style_properties.html#a74373364b4d72b7638b47256f7ae6d18", null ]
 ];

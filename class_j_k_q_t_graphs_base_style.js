@@ -5,7 +5,7 @@ var class_j_k_q_t_graphs_base_style =
     [ "loadSettings", "class_j_k_q_t_graphs_base_style.html#a806ce0e279044384ea3f88abb96f0596", null ],
     [ "saveSettings", "class_j_k_q_t_graphs_base_style.html#a9644625b62daa1d902c8bf41ea967380", null ],
     [ "annotationStyle", "class_j_k_q_t_graphs_base_style.html#a080af804a077cfecdfed25353a01437f", null ],
-    [ "barchartStyle", "class_j_k_q_t_graphs_base_style.html#a2f5ebe1ae732584185a3af886aba7081", null ],
+    [ "barchartStyle", "class_j_k_q_t_graphs_base_style.html#aca1c0e9451445dfed61e8d1fa1b1f896", null ],
     [ "boxplotStyle", "class_j_k_q_t_graphs_base_style.html#ae4ca63c1e8c92f3187f6d98a59e70f97", null ],
     [ "defaultGraphColors", "class_j_k_q_t_graphs_base_style.html#a2b78e95ac6f6414e3d5c3b3df6bbd8dd", null ],
     [ "defaultGraphFillStyles", "class_j_k_q_t_graphs_base_style.html#a96a8ae00aff7e8dbc14248262e82ab70", null ],

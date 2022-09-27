@@ -2,7 +2,7 @@ var searchData=
 [
   ['backgroundbrush_0',['backgroundBrush',['../class_j_k_q_t_p_key_style.html#a42b95def79135a7aa40fa5a9aabdec69',1,'JKQTPKeyStyle']]],
   ['backgroundcolor_1',['backgroundColor',['../class_j_k_q_t_fast_plotter.html#a342238f8b8fa4395316cec31f5f7f58e',1,'JKQTFastPlotter']]],
-  ['barchartstyle_2',['barchartStyle',['../class_j_k_q_t_graphs_base_style.html#a2f5ebe1ae732584185a3af886aba7081',1,'JKQTGraphsBaseStyle']]],
+  ['barchartstyle_2',['barchartStyle',['../class_j_k_q_t_graphs_base_style.html#aca1c0e9451445dfed61e8d1fa1b1f896',1,'JKQTGraphsBaseStyle']]],
   ['baseline_3',['baseline',['../class_j_k_q_t_p_peak_stream_graph.html#ad70a47176074e275b2ca16b3f666b7e2',1,'JKQTPPeakStreamGraph']]],
   ['baselineheight_4',['baselineHeight',['../struct_j_k_q_t_math_text_node_size.html#ad11f5452e869c7db8feb6cdf15683e79',1,'JKQTMathTextNodeSize']]],
   ['baselinexcorrection_5',['baselineXCorrection',['../struct_j_k_q_t_math_text_node_size.html#a24b45ebafca557850654ab759d1121f8',1,'JKQTMathTextNodeSize']]],
