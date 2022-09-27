@@ -1,5 +1,7 @@
 var NAVTREEINDEX29 =
 {
+"group__jkqtptools__math__statistics__grouped.html#gae3479e222d2974326c6696ab01b4b3e8":[10,1,5,5,5],
+"group__jkqtptools__math__statistics__poly.html":[10,1,5,6],
 "group__jkqtptools__math__statistics__poly.html#gaccc77ac9938ce987c232f5bee76b753d":[10,1,5,6,0],
 "group__jkqtptools__math__statistics__regression.html":[10,1,5,7],
 "group__jkqtptools__math__statistics__regression.html#ga044f7aba2b1b1bd4bc252d92f11f995b":[10,1,5,7,14],
@@ -81,18 +83,18 @@ var NAVTREEINDEX29 =
 "licensepage.html#extlicense_xits":[5,1,0],
 "licensepage.html#licensesec":[5,0],
 "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html":[1],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2":[1,0],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md1":[1,0],
 "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3":[1,1],
 "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4":[1,2],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6":[1,3],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md7":[1,4],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md9":[1,5],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5":[1,3],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6":[1,4],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md7":[1,5],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html":[2],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10":[2,2],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md11":[2,3],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md12":[2,4],
-"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md5":[2,0],
-"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8":[2,1],
+"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8":[2,0],
+"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md9":[2,1],
 "md__s_e_c_u_r_i_t_y.html":[9],
 "md__s_e_c_u_r_i_t_y.html#autotoc_md133":[9,0],
 "md__s_e_c_u_r_i_t_y.html#autotoc_md134":[9,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX29 =
 "struct_j_k_q_t_math_text_font_specifier.html#acf761efb9b017e00cbc0792c1fd2d720":[10,3,1,3,2,19],
 "struct_j_k_q_t_math_text_font_specifier.html#ae579dd59e84b9400b1770700ee9da6df":[10,3,1,3,2,18],
 "struct_j_k_q_t_math_text_font_specifier.html#ae5c9c4b881c0124f1428c70fe0c756a2":[10,3,1,3,2,15],
-"struct_j_k_q_t_math_text_font_specifier.html#af34c896e852bc5cb7bcf9dd57858cfcf":[10,3,1,3,2,21],
-"struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html":[10,3,1,2,33],
-"struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html#a06e031c0f65edda7eef6be6e9b5a8ac2":[10,3,1,2,33,3]
+"struct_j_k_q_t_math_text_font_specifier.html#af34c896e852bc5cb7bcf9dd57858cfcf":[10,3,1,3,2,21]
 };

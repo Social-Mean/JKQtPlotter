@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"class_j_k_q_t_plotter.html#a5ad4ac89c2e91404bde3d806e1cfcce7":[10,4,1,2,1,90],
 "class_j_k_q_t_plotter.html#a5b05e29e32b7a783f151bae265ba4e82":[10,4,1,2,1,139],
 "class_j_k_q_t_plotter.html#a5cbf8a5a9d8317d5040ed18f220e4f4e":[10,4,1,2,1,122],
 "class_j_k_q_t_plotter.html#a5d41f10097c3b1b9d350938e541dde09":[10,4,1,2,1,80],
@@ -215,15 +216,15 @@ var NAVTREEINDEX24 =
 "example_tutorial_projects.html#jkqtp_extut_plotimagedata":[4,0,3],
 "example_tutorial_projects.html#jkqtp_extut_plotstyles":[4,0,0],
 "example_tutorial_projects.html#jkqtp_extut_tools":[4,3],
-"functions.html":[12,3,0,0],
 "functions.html":[12,3,0],
+"functions.html":[12,3,0,0],
 "functions_b.html":[12,3,0,1],
 "functions_c.html":[12,3,0,2],
 "functions_d.html":[12,3,0,3],
 "functions_e.html":[12,3,0,4],
 "functions_enum.html":[12,3,4],
-"functions_eval.html":[12,3,5],
 "functions_eval.html":[12,3,5,0],
+"functions_eval.html":[12,3,5],
 "functions_eval_b.html":[12,3,5,1],
 "functions_eval_c.html":[12,3,5,2],
 "functions_eval_d.html":[12,3,5,3],
@@ -243,11 +244,10 @@ var NAVTREEINDEX24 =
 "functions_eval_v.html":[12,3,5,17],
 "functions_eval_w.html":[12,3,5,18],
 "functions_f.html":[12,3,0,5],
-"functions_func.html":[12,3,1],
 "functions_func.html":[12,3,1,0],
+"functions_func.html":[12,3,1],
 "functions_func_b.html":[12,3,1,1],
 "functions_func_c.html":[12,3,1,2],
 "functions_func_d.html":[12,3,1,3],
-"functions_func_e.html":[12,3,1,4],
-"functions_func_f.html":[12,3,1,5]
+"functions_func_e.html":[12,3,1,4]
 };

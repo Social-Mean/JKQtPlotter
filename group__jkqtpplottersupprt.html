@@ -250,6 +250,8 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eac3d50ba8a216d2654913993640dac7c2">JKQTPCALTintsfrac</a>
 , <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea1da51e9d82b8f70021c46268116cb3d5">JKQTPCALTformat</a>
+, <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea138e41f475f8e4cda181df060542cdae">JKQTPCALTcount</a>
 , <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f">JKQTPCALTmax</a> =JKQTPCALTcount-1
@@ -982,6 +984,12 @@ logic y-position of a graph, relative to the current JKQtPlotter </td></tr>
 <img src="JKQTPCALTintsfrac.png" alt=""/>
 </div>
  </td></tr>
+<tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea1da51e9d82b8f70021c46268116cb3d5" name="ggad58b8a9812defae065b13b76154c8d2ea1da51e9d82b8f70021c46268116cb3d5"></a>JKQTPCALTformat&#160;</td><td class="fielddoc"><p >generate axis label from an arbitrary "std::format" formatting string (see e.g. <a href="https://en.cppreference.com/w/cpp/utility/format/formatter#Standard_format_specification">https://en.cppreference.com/w/cpp/utility/format/formatter#Standard_format_specification</a> ). The first data parameter is the tick value as <code>double</code> an the second is tickUnitName as string. The following image shows an example for <code>"\\texttt{{ y={:*^+8.1f}}}"</code>: </p>
+<div class="image">
+<img src="JKQTPCALTformat.png" alt=""/>
+</div>
+<p> <b>NOte:</b> This option is only available for C++20 and above, use the CMake option <code>JKQtPlotter_ENABLED_CXX20=ON</code> if your compiler supports this. </p>
+</td></tr>
 <tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2ea138e41f475f8e4cda181df060542cdae" name="ggad58b8a9812defae065b13b76154c8d2ea138e41f475f8e4cda181df060542cdae"></a>JKQTPCALTcount&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f" name="ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f"></a>JKQTPCALTmax&#160;</td><td class="fielddoc"></td></tr>
 </table>
@@ -2043,7 +2051,7 @@ Draw Lines User-Action</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Sep 27 2022 08:01:47 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Tue Sep 27 2022 23:04:07 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

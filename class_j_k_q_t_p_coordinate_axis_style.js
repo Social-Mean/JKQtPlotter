@@ -41,6 +41,7 @@ var class_j_k_q_t_p_coordinate_axis_style =
     [ "tickColor", "class_j_k_q_t_p_coordinate_axis_style.html#a7f256f6d4a60bfbf9e79096575f0d9be", null ],
     [ "tickDateFormat", "class_j_k_q_t_p_coordinate_axis_style.html#a3e9413f05daf81793736448e71e3f69c", null ],
     [ "tickDateTimeFormat", "class_j_k_q_t_p_coordinate_axis_style.html#a9504ed0bde8a4b14fc59789d7f60cb13", null ],
+    [ "tickFormatFormat", "class_j_k_q_t_p_coordinate_axis_style.html#a6cb80ccfb3b7e549570a71b0cff3f0ef", null ],
     [ "tickInsideLength", "class_j_k_q_t_p_coordinate_axis_style.html#ac91ddf09fd95ff8f69bb41b01bd8349f", null ],
     [ "tickLabelAngle", "class_j_k_q_t_p_coordinate_axis_style.html#ac559572e2e61edf5427afb3901733e40", null ],
     [ "tickLabelColor", "class_j_k_q_t_p_coordinate_axis_style.html#a995176a6b7d2b4ae1e93c6f8dd86300a", null ],

@@ -70,6 +70,7 @@ var group__jkqtpplottersupprt =
       [ "JKQTPCALTintfrac", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eaf0cc2f9560a95eafa3c6e72043724267", null ],
       [ "JKQTPCALTintslashfrac", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea796c3466fca4256c1a1c325709e73e06", null ],
       [ "JKQTPCALTintsfrac", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eac3d50ba8a216d2654913993640dac7c2", null ],
+      [ "JKQTPCALTformat", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea1da51e9d82b8f70021c46268116cb3d5", null ],
       [ "JKQTPCALTcount", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea138e41f475f8e4cda181df060542cdae", null ],
       [ "JKQTPCALTmax", "group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f", null ]
     ] ],

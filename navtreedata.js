@@ -30,16 +30,16 @@ var NAVTREE =
       [ "Table Of Contents", "index.html#jkqtplottertic", null ]
     ] ],
     [ "Contributor Covenant Code of Conduct", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html", [
-      [ "Our Pledge", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2", null ],
+      [ "Our Pledge", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md1", null ],
       [ "Our Standards", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3", null ],
       [ "Our Responsibilities", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4", null ],
-      [ "Scope", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6", null ],
-      [ "Enforcement", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md7", null ],
-      [ "Attribution", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md9", null ]
+      [ "Scope", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5", null ],
+      [ "Enforcement", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6", null ],
+      [ "Attribution", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md7", null ]
     ] ],
     [ "Contributing", "md__c_o_n_t_r_i_b_u_t_i_n_g.html", [
-      [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md5", null ],
-      [ "Our Standards", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8", null ],
+      [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8", null ],
+      [ "Our Standards", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md9", null ],
       [ "Our Responsibilities", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10", null ],
       [ "Scope", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md11", null ],
       [ "Enforcement", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md12", null ]
@@ -132,25 +132,25 @@ var NAVTREEINDEX =
 "class_j_k_q_t_p_boxplot_graph_base.html#aa95d3ac3af254e23c6ab55fad1a7591b",
 "class_j_k_q_t_p_column_back_inserter.html#a7560cf92b3aed9bb846a03392065ec96",
 "class_j_k_q_t_p_coordinate_axis.html#a1b6b5a223d284533dc3ed9e92fdb42dc",
-"class_j_k_q_t_p_datastore.html#a1988bb1388a8b692ab95066c15bd3cb9",
-"class_j_k_q_t_p_evaluated_function_graph_base.html#a8ac8a29cc8415bc9cbfea6f69b391a1e",
-"class_j_k_q_t_p_geo_base_line.html",
-"class_j_k_q_t_p_graph_boxplot_style_mixin.html#a1accfa0a60cbcc361a0f299b3b2be7f8",
-"class_j_k_q_t_p_graph_line_and_fill_style_mixin.html",
-"class_j_k_q_t_p_grid_style.html#af6a0fcb904e5fcddf934a907877ea02d",
-"class_j_k_q_t_p_math_image.html#ac3c55b3c115ca43ebddde8968083fc40",
-"class_j_k_q_t_p_overlay_image.html#a73ac76eac53855ea8a45eb799ceced2f",
-"class_j_k_q_t_p_r_g_b_math_image.html#a9ebe6141f0e829914e1219755ca211bd",
-"class_j_k_q_t_p_violinplot_element_base.html#a16bef1543b117faec85a3ad78b9e70b4",
-"class_j_k_q_t_p_x_y_line_graph.html#a9594904a5c81420c210c5f88a613e2f5",
-"class_j_k_q_t_plotter.html#a5b05e29e32b7a783f151bae265ba4e82",
-"functions_func_g.html",
-"group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9ba9f469da5de6798978fe0f5e44d389705",
-"group__jkqtpplottersupprt.html#gaa58494567a006b1c1cebbd0723f26238",
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5badd812b337413056dd277b40d935be1fb",
-"group__jkqtptools__math__statistics__poly.html#gaccc77ac9938ce987c232f5bee76b753d",
-"struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html#a0938304412b7e3b977aef71d123c0336",
-"struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html#a117e241c52e4d6ff1fe5142a82c61109"
+"class_j_k_q_t_p_datastore.html#a177ab9dc6734c289c751092aa049722f",
+"class_j_k_q_t_p_evaluated_function_graph_base.html#a88a8e6672bd64d6ea195dc1c137ac31a",
+"class_j_k_q_t_p_geo_base_filled.html#aca2e2ef89c7c956523a2ba4582a4f48d",
+"class_j_k_q_t_p_graph_boxplot_style_mixin.html#a18f4cd597c1605ac220b08257501113b",
+"class_j_k_q_t_p_graph_fill_style_mixin.html#aec67e240a9d11cf6d688971ec334694e",
+"class_j_k_q_t_p_grid_style.html#ac768ebcc1d8355b063272df2824beed3",
+"class_j_k_q_t_p_math_image.html#abcc797717a83e23589ea2eaefc7cd62a",
+"class_j_k_q_t_p_overlay_image.html#a65f65e0fd2e5fd58af7f02656d8cc5e2",
+"class_j_k_q_t_p_r_g_b_math_image.html#a9ce492d06917c3d3cff9ba02cfdd1324",
+"class_j_k_q_t_p_violinplot_element_base.html#a151543356262ae2d7875f98e561997a5",
+"class_j_k_q_t_p_x_y_line_graph.html#a8d9be40dd82bd9390bda7cd339328e86",
+"class_j_k_q_t_plotter.html#a5ad4ac89c2e91404bde3d806e1cfcce7",
+"functions_func_f.html",
+"group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9ba9ea7b5a5c1ad2eb7c50f0d5046714b08",
+"group__jkqtpplottersupprt.html#ga9eb69bab982df82a87cb360af0254c80",
+"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5badb60b3fe996f2c2ba3da542ab7846411",
+"group__jkqtptools__math__statistics__grouped.html#gae3479e222d2974326c6696ab01b4b3e8",
+"struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html",
+"struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
