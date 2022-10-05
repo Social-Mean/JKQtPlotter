@@ -44,8 +44,8 @@ var example_tutorial_projects =
       [ "C++ functors as plot functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md72", null ],
       [ "Static C functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md73", null ],
       [ "Predefined \"special\" functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md74", null ],
-      [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md76", null ],
-      [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md77", null ]
+      [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md75", null ],
+      [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md76", null ]
     ] ],
     [ "Example (JKQTPlotter): Plotting Parsed Mathematical Functions as Line Graphs", "_j_k_q_t_plotter_parsed_function_plot.html", [
       [ "Plot Function f(x)", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md85", null ],
@@ -71,7 +71,7 @@ var example_tutorial_projects =
     [ "Example (JKQTPlotter): Plotting Geometric Objects", "_j_k_q_t_plotter_geometric_graphs.html", null ],
     [ "Example (JKQTPlotter): Generating Demo-Plots of Geometric Objects for Documentation", "_j_k_q_t_plotter_geometric_graphs_simple.html", null ],
     [ "Example (JKQTPlotter): Plotting Arrows", "_j_k_q_t_plotter_geometric_arrows.html", [
-      [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md75", null ],
+      [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md77", null ],
       [ "Classes with support for arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md78", null ],
       [ "Screenshot", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md79", null ]
     ] ],
