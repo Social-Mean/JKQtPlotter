@@ -121,7 +121,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_p_bar_vertical_graph.htm
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="class_j_k_q_t_p_bar_vertical_graph-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">JKQTPBarVerticalGraph Class Reference<div class="ingroups"><a class="el" href="group__jkqtplotter.html">JKQTPlotter: Qt based Scientific Plotter Class</a> &raquo; <a class="el" href="group__jkqtplotter__classdoc.html">Type/Class/Function Documentation</a> &raquo; <a class="el" href="group__jkqtplotter__elements.html">Plot Element Classes</a> &raquo; <a class="el" href="group__jkqtplotter__concretegraphs.html">Concrete Graph Classes</a> &raquo; <a class="el" href="group__jkqtplotter__barssticks.html">Barcharts, Impulse-Charts, ...</a></div></div></div>
+  <div class="headertitle"><div class="title">JKQTPBarVerticalGraph Class Reference<div class="ingroups"><a class="el" href="group__jkqtplotter.html">JKQTPlotter: Qt based Scientific Plotter Class</a> &raquo; <a class="el" href="group__jkqtplotter__classdoc.html">Type/Class/Function Documentation</a> &raquo; <a class="el" href="group__jkqtplotter__elements.html">Plot Element Classes</a> &raquo; <a class="el" href="group__jkqtplotter__concretegraphs.html">Concrete Graph Classes</a> &raquo; <a class="el" href="group__jkqtplotter__barcharts.html">Barcharts</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -812,9 +812,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="image">
 <img src="bargraph_basics.png" alt=""/>
 </div>
-<p >By default the shift parameter is, so the bar is centered at the x-value. The width is 0.9, so adjacent bars are plotted with a small distance between them. It is possible to use these two parameters to plot multiple bars for every x-value, by having on <a class="el" href="class_j_k_q_t_p_special_line_horizontal_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineHorizontalGraph</a> object per set of bars that belong together. For example for three bars per x-value one would set: </p><pre class="fragment">      width=0.3
-      shift=-0.3 / 0 / +0.3
-</pre><p> This results in a bargraph, as shown here:</p>
+<p >By default the shift parameter is, so the bar is centered at the x-value. The width is 0.9, so adjacent bars are plotted with a small distance between them. It is possible to use these two parameters to plot multiple bars for every x-value, by having on <a class="el" href="class_j_k_q_t_p_special_line_horizontal_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineHorizontalGraph</a> object per set of bars that belong together. For example for three bars per x-value one would set: </p><pre class="fragment">       width=0.3
+       shift=-0.3 / 0 / +0.3</pre><p> This results in a bargraph, as shown here:</p>
 <div class="image">
 <img src="JKQTPBarVerticalGraph.png" alt=""/>
 </div>
@@ -822,7 +821,16 @@ Additional Inherited Members</h2></td></tr>
 <div class="image">
 <img src="JKQTPBarVerticalGraphTwoColorFilling.png" alt=""/>
 </div>
-<p >You can use JKQTPlotter::addHorizontalBargraph() to add a series of bargraphs, where the width and shift are determined automatically. The y-columns are given as a QVector&lt;int&gt; to this function.</p>
+<p >If you use JKQTPBarGraphBase::FillMode::FunctorFilling you can specify the fill style by a functor, e.g. </p><div class="fragment"><div class="line">graph-&gt;setFillMode(JKQTPBarGraphBase::FillMode::FunctorFilling);</div>
+<div class="line">graph-&gt;setFillBrushFunctor(</div>
+<div class="line">  [](<span class="keywordtype">double</span> key, <span class="keywordtype">double</span> value) {</div>
+<div class="line">    <span class="keywordflow">return</span> QBrush(QColor::fromHsvF(key/12.0, 1.0, 1.0));</div>
+<div class="line">  }</div>
+<div class="line">);</div>
+</div><!-- fragment --><p >The result may look like this:</p>
+<div class="image">
+<img src="JKQTPBarVerticalGraphFunctorFilling.png" alt=""/>
+</div>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_horizontal_graph.html" title="This implements a bar graph with bars starting at  to .">JKQTPBarHorizontalGraph</a>, <a class="el" href="_j_k_q_t_plotter_barcharts.html">Example (JKQTPlotter): Simple barchart</a>, <a class="el" href="group__jkqtptools__math__statistics__adaptors.html#ga2b61dbdb076c32cc329954b5e5dc5660" title="calculate an autoranged histogram and add a JKQTPBarVerticalGraph to the given plotter,...">jkqtpstatAddHHistogram1D()</a>, <a class="el" href="group__jkqtptools__math__statistics__adaptors.html#ga8ff37e2bd7bd79311cca2c5cc3b65345" title="calculate an autoranged histogram and add a JKQTPBarVerticalGraph to the given plotter,...">jkqtpstatAddHHistogram1DAutoranged()</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aebfdc978fc8fa73d3f3172ba841c6fdf" name="aebfdc978fc8fa73d3f3172ba841c6fdf"></a>
@@ -1032,7 +1040,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_bar_vertical_graph.html">JKQTPBarVerticalGraph</a></li>
-    <li class="footer">Generated on Sat Oct 22 2022 14:45:43 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Oct 22 2022 19:10:17 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

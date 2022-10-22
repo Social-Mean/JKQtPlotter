@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['image_20graphs_0',['Image Graphs',['../group__jkqtplotter__imagelots__elements.html',1,'']]],
-  ['image_2fmatrix_20overlay_20graphs_1',['Image/Matrix Overlay Graphs',['../group__jkqtplotter__imagelots__overlays.html',1,'']]],
-  ['interfaces_20to_20other_20libraries_2',['Interfaces To Other Libraries',['../group__jkqtpexternalinterfaces.html',1,'']]]
+  ['how_20to_20use_20jkqtplotter_20in_20the_20qt_20form_20designer_0',['How to use JKQTPlotter in the Qt Form Designer',['../group__jkqtplotter__general__usage__qtcreator.html',1,'']]]
 ];

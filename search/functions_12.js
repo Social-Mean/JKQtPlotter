@@ -709,7 +709,7 @@ var searchData=
   ['string2jkqtpmousedragactions_706',['String2JKQTPMouseDragActions',['../group__jkqtpplottersupprt.html#gad5704579a0358e4b994ae0d1b5225982',1,'jkqtptools.h']]],
   ['string2jkqtpmousemoveactions_707',['String2JKQTPMouseMoveActions',['../group__jkqtpplottersupprt.html#ga6debbfe141c8d3b2f713abd7e0244353',1,'jkqtptools.h']]],
   ['string2jkqtpmousewheelactions_708',['String2JKQTPMouseWheelActions',['../group__jkqtpplottersupprt.html#ga4849119ad4ca677432317a2113157b56',1,'jkqtptools.h']]],
-  ['string2jkqtpspeciallinetype_709',['String2JKQTPSpecialLineType',['../group__jkqtplotter__linesymbolgraphs__simple.html#ga19e06f67cec5c34bc9a8d0008980535b',1,'jkqtptools.h']]],
+  ['string2jkqtpspeciallinetype_709',['String2JKQTPSpecialLineType',['../group__jkqtplotter__linesymbolgraphs__line.html#ga19e06f67cec5c34bc9a8d0008980535b',1,'jkqtptools.h']]],
   ['string2jkqtpuseractionmarkertype_710',['String2JKQTPUserActionMarkerType',['../group__jkqtpplottersupprt.html#ga44cf43b89709fb30a9096a4f8eef1a4e',1,'jkqtptools.h']]],
   ['string2units_711',['String2Units',['../class_j_k_q_t_math_text_empty_box_node.html#ad6126c4a3c2429385c909176d90d01ff',1,'JKQTMathTextEmptyBoxNode']]],
   ['stringtomodifiermode_712',['StringToModifierMode',['../group__jkqtplotter__imagelots__tools.html#ga7274fd5c480f7d984f751c475385b4d1',1,'jkqtpbasicimagetools.h']]],

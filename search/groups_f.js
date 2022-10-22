@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['opencv_20interfaceing_20tools_0',['OpenCV Interfaceing Tools',['../group__jkqtpinterfaceopencv.html',1,'']]]
+  ['non_2dgraph_20plot_20elements_0',['Non-Graph Plot Elements',['../group__jkqtpbaseplotter__elements.html',1,'(Global Namespace)'],['../group__jkqtplotter__general__basicplotelements.html',1,'(Global Namespace)']]]
 ];

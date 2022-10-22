@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JKQTPlotter: Parsed Function Graphs</title>
+<title>JKQTPlotter: Scatter Graphs</title>
 <meta name="description" content="an extensive Qt5+Qt6 Plotter framework (including a feature-richt plotter widget, a speed-optimized, but limited variant and a LaTeX equation renderer!), written fully in C/C++ and without external dependencies">
 <meta name="keywords" lang="en-us" content="C++, C++11, Qt, Qt5, Qt6, Plotting, Plot, Chart, Graph, Qt, Widget, C++, Library, Visualization, charting library, plotting library, scientific visualization, data visualization, statistics, statistical methods, statistics library, LaTeX parser, LaTeX renderer, Qt widget, Qt5 widget, Qt6 widget, Qt charts, Qt plots, barchart, violinplot, boxplot, JKQtPlotter, JKQTMathText, JKQTFastPlotter">
 <meta name="author" content="$author">
@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",'Search','.html');
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('group__jkqtplotter__parsed_fgraphs.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('group__jkqtplotter__linesymbolgraphs__scatter.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -111,23 +111,26 @@ $(document).ready(function(){initNavTree('group__jkqtplotter__parsed_fgraphs.htm
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a>  </div>
-  <div class="headertitle"><div class="title">Parsed Function Graphs<div class="ingroups"><a class="el" href="group__jkqtplotter.html">JKQTPlotter: Qt based Scientific Plotter Class</a> &raquo; <a class="el" href="group__jkqtplotter__classdoc.html">Type/Class/Function Documentation</a> &raquo; <a class="el" href="group__jkqtplotter__elements.html">Plot Element Classes</a> &raquo; <a class="el" href="group__jkqtplotter__concretegraphs.html">Concrete Graph Classes</a> &raquo; <a class="el" href="group__jkqtplotter__linesymbolgraphs.html">Line/Symbol Graphs</a></div></div></div>
+  <div class="headertitle"><div class="title">Scatter Graphs<div class="ingroups"><a class="el" href="group__jkqtplotter.html">JKQTPlotter: Qt based Scientific Plotter Class</a> &raquo; <a class="el" href="group__jkqtplotter__classdoc.html">Type/Class/Function Documentation</a> &raquo; <a class="el" href="group__jkqtplotter__elements.html">Plot Element Classes</a> &raquo; <a class="el" href="group__jkqtplotter__concretegraphs.html">Concrete Graph Classes</a> &raquo; <a class="el" href="group__jkqtplotter__linesymbolgraphs.html">Line/Symbol Graphs</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for Parsed Function Graphs:</div>
+Collaboration diagram for Scatter Graphs:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="group__jkqtplotter__parsed_fgraphs.svg" width="451" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="group__jkqtplotter__linesymbolgraphs__scatter.svg" width="383" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_parsed_function_line_graph.html">JKQTPXParsedFunctionLineGraph</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This implements line plots where the data is taken from a user supplied function <img class="formulaInl" alt="$ y=f(x) $" src="form_179.png" width="62" height="18"/> The function is defined as a string and parsed by JKMathParser.  <a href="class_j_k_q_t_p_x_parsed_function_line_graph.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_single_column_symbols_graph.html">JKQTPSingleColumnSymbolsGraph</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">plots a 1-column set of data-values with symbols onto a JKQtPlotter/JKQtBasePlotter. the data from the single column is either interpreted as x- or y-values and the missing coordinate is taken from a fixed value position.  <a href="class_j_k_q_t_p_single_column_symbols_graph.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_y_parsed_function_line_graph.html">JKQTPYParsedFunctionLineGraph</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This implements line plots where the data is taken from a user supplied function <img class="formulaInl" alt="$ x=f(y) $" src="form_181.png" width="62" height="18"/> The function is defined as a string and parsed by JKMathParser.  <a href="class_j_k_q_t_p_y_parsed_function_line_graph.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_scatter_error_graph.html">JKQTPXYScatterErrorGraph</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This implements xy scatter plots with x and y error indicators.  <a href="class_j_k_q_t_p_x_y_scatter_error_graph.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_scatter_graph.html">JKQTPXYScatterGraph</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This implements xy scatter plots. This also alows to draw symbols at the data points.  <a href="class_j_k_q_t_p_x_y_scatter_graph.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -136,9 +139,14 @@ Classes</h2></td></tr>
 <th>Screenshot </th><th>Classes </th></tr>
 <tr>
 <td><div class="image">
-<img src="functionplot_small.png" alt=""/>
+<img src="beeswarmplot_small.png" alt=""/>
 </div>
- </td><td><a class="el" href="class_j_k_q_t_p_x_parsed_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function  The function is def...">JKQTPXParsedFunctionLineGraph</a>, <a class="el" href="class_j_k_q_t_p_y_parsed_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function  The function is def...">JKQTPYParsedFunctionLineGraph</a> </td></tr>
+ </td><td><a class="el" href="class_j_k_q_t_p_single_column_symbols_graph.html" title="plots a 1-column set of data-values with symbols onto a JKQtPlotter/JKQtBasePlotter....">JKQTPSingleColumnSymbolsGraph</a> </td></tr>
+<tr>
+<td><div class="image">
+<img src="JKQTPXYScatterGraph_small.png" alt=""/>
+</div>
+ </td><td><a class="el" href="class_j_k_q_t_p_x_y_scatter_graph.html" title="This implements xy scatter plots. This also alows to draw symbols at the data points.">JKQTPXYScatterGraph</a>, <a class="el" href="class_j_k_q_t_p_x_y_scatter_error_graph.html" title="This implements xy scatter plots with x and y error indicators.">JKQTPXYScatterErrorGraph</a> </td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -146,7 +154,7 @@ Classes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Oct 22 2022 14:45:42 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Oct 22 2022 19:10:16 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

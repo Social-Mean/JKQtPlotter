@@ -33,7 +33,7 @@ var searchData=
   ['jkqtpmousewheelactions_30',['JKQTPMouseWheelActions',['../group__jkqtpplottersupprt.html#ga6617afa61313feda8c490932016ff58f',1,'jkqtptools.h']]],
   ['jkqtpplotstyletype_31',['JKQTPPlotStyleType',['../group__jkqtpplottersupprt.html#gaf0d90444170dd9b4daeabdede17615c4',1,'jkqtptools.h']]],
   ['jkqtprgbmathimagergbmode_32',['JKQTPRGBMathImageRGBMode',['../group__jkqtplotter__imagelots__tools.html#ga28b53692f29935636e2ffee20896c69e',1,'jkqtpbasicimagetools.h']]],
-  ['jkqtpspeciallinetype_33',['JKQTPSpecialLineType',['../group__jkqtplotter__linesymbolgraphs__simple.html#ga5e78e9bcb463d22d3fd5d6158a78c8e4',1,'jkqtptools.h']]],
+  ['jkqtpspeciallinetype_33',['JKQTPSpecialLineType',['../group__jkqtplotter__linesymbolgraphs__line.html#ga5e78e9bcb463d22d3fd5d6158a78c8e4',1,'jkqtptools.h']]],
   ['jkqtpstathistogrambinxmode_34',['JKQTPStatHistogramBinXMode',['../group__jkqtptools__math__statistics__1dhist.html#gab6b155ded164a7ae39a7024792251373',1,'jkqtpstathistogram.h']]],
   ['jkqtpstatregressionmodeltype_35',['JKQTPStatRegressionModelType',['../group__jkqtptools__math__statistics__regression.html#gaa798f2573e7f03cb328b15ff76dda335',1,'jkqtpstatregression.h']]],
   ['jkqtpuseractionmarkertype_36',['JKQTPUserActionMarkerType',['../group__jkqtpplottersupprt.html#ga6562bedae430e91546399ae1a70cb860',1,'jkqtptools.h']]]

@@ -39,7 +39,7 @@ var example_tutorial_projects =
     [ "Example (JKQTPlotter): Draw an Artistic Image with a Parametrized Scatter Graph", "_j_k_q_t_plotter_param_scatter_image.html", null ],
     [ "Example (JKQTPlotter): Plotting Parametric Curves", "_j_k_q_t_plotter_parametric_curves.html", null ],
     [ "Example (JKQTPlotter): Plotting Mathematical Functions as Line Graphs", "_j_k_q_t_plotter_function_plots.html", [
-      [ "Basics", "_j_k_q_t_plotter_function_plots.html#autotoc_md71", null ],
+      [ "Basics", "_j_k_q_t_plotter_function_plots.html#autotoc_md72", null ],
       [ "Simple C++ inline function", "_j_k_q_t_plotter_function_plots.html#autotoc_md73", null ],
       [ "Simple C++ inline function with parameters", "_j_k_q_t_plotter_function_plots.html#autotoc_md74", null ],
       [ "C++ functors as plot functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md75", null ],
@@ -74,13 +74,13 @@ var example_tutorial_projects =
     [ "Example (JKQTPlotter): Plotting Arrows", "_j_k_q_t_plotter_geometric_arrows.html", [
       [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md69", null ],
       [ "Classes with support for arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md70", null ],
-      [ "Screenshot", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md72", null ]
+      [ "Screenshot", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md71", null ]
     ] ],
     [ "Example (JKQTPlotter): Plot With Axes through Origin", "_j_k_q_t_plotter_geometric_coordinate_axis0.html", null ],
     [ "Example (JKQTPlotter): Line Graph with Logarithmic y-axis", "_j_k_q_t_plotter_log_axes.html", null ],
     [ "Example (JKQTPlotter): Date/Time Axes", "_j_k_q_t_plotter_date_time_axes.html", [
-      [ "Date Axis", "_j_k_q_t_plotter_date_time_axes.html#autotoc_md57", null ],
-      [ "Time Axis", "_j_k_q_t_plotter_date_time_axes.html#autotoc_md58", null ]
+      [ "Date Axis", "_j_k_q_t_plotter_date_time_axes.html#autotoc_md59", null ],
+      [ "Time Axis", "_j_k_q_t_plotter_date_time_axes.html#autotoc_md61", null ]
     ] ],
     [ "Example (JKQTPlotter): Advanced Line and Fill Styling", "_j_k_q_t_plotter_advanced_line_and_fill_styling.html", null ],
     [ "Example (JKQTPlotter): Styling different aspects of boxplots", "_j_k_q_t_plotter_boxplot_styling.html", null ],
@@ -141,23 +141,23 @@ var example_tutorial_projects =
     ] ],
     [ "Example (JKQTPlotter): Laying out Several Plots", "_j_k_q_t_plotter_multi_plot_layout.html", null ],
     [ "Tutorial (JKQTPDatastore): Basic Usage of JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html", [
-      [ "Copying Data from External COntainers into JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md19", [
-        [ "Copy Data from a Vector into a column of the JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md20", null ],
-        [ "Copy Data from a C-array into a Column of the JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md22", null ],
-        [ "Copy Data from a Map into a JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md25", null ]
+      [ "Copying Data from External COntainers into JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md16", [
+        [ "Copy Data from a Vector into a column of the JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md17", null ],
+        [ "Copy Data from a C-array into a Column of the JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md18", null ],
+        [ "Copy Data from a Map into a JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md19", null ]
       ] ],
-      [ "Reference External Data in a column of the JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md26", [
-        [ "Referencing without transfer of ownership", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md27", null ],
-        [ "Referencing with Transfer of Ownership", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md29", null ]
+      [ "Reference External Data in a column of the JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md20", [
+        [ "Referencing without transfer of ownership", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md21", null ],
+        [ "Referencing with Transfer of Ownership", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md22", null ]
       ] ],
-      [ "JKQTPDatastore-internal Data Management", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md30", [
-        [ "Generating  Non-Initialized Columns and Filling Them", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md31", null ],
-        [ "Generating Columns Preinitialized Columns", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md33", null ],
-        [ "Appending to Columns", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md34", null ],
-        [ "Using Data from one Column to Calculate Another", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md35", null ],
-        [ "2D-Datasets and Images", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md36", null ]
+      [ "JKQTPDatastore-internal Data Management", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md23", [
+        [ "Generating  Non-Initialized Columns and Filling Them", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md24", null ],
+        [ "Generating Columns Preinitialized Columns", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md25", null ],
+        [ "Appending to Columns", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md26", null ],
+        [ "Using Data from one Column to Calculate Another", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md27", null ],
+        [ "2D-Datasets and Images", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md28", null ]
       ] ],
-      [ "Iterator Interface", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md37", null ]
+      [ "Iterator Interface", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md29", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Iterator-Based usage of JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html", [
       [ "Iterator-based Column Data Access To Existing Rows", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md38", null ],
@@ -186,21 +186,21 @@ var example_tutorial_projects =
       [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md47", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): 1-Dimensional Group Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html", [
-      [ "Barcharts & Boxplots from categorized data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md16", [
-        [ "Generating a Dataset for Grouped Barcharts", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md17", null ],
-        [ "Calculating Grouped Statistics for a Barchart", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md18", null ],
-        [ "Calculating Grouped Statistics for a Boxplot", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md21", null ]
+      [ "Barcharts & Boxplots from categorized data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md30", [
+        [ "Generating a Dataset for Grouped Barcharts", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md31", null ],
+        [ "Calculating Grouped Statistics for a Barchart", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md32", null ],
+        [ "Calculating Grouped Statistics for a Boxplot", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md33", null ]
       ] ],
-      [ "(Scatter-)Graphs with X/Y-errors from Categorized Data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md23", [
-        [ "Dataset for XY Scatter Graphs", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md24", null ],
-        [ "Calculating x- and y-Errors from Categorized Data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md28", null ]
+      [ "(Scatter-)Graphs with X/Y-errors from Categorized Data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md34", [
+        [ "Dataset for XY Scatter Graphs", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md35", null ],
+        [ "Calculating x- and y-Errors from Categorized Data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md36", null ]
       ] ],
-      [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md32", null ]
+      [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md37", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Advanced 2-Dimensional Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html", [
-      [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md59", null ],
-      [ "Marginal Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md60", null ],
-      [ "2D Histogram", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md61", null ],
+      [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md57", null ],
+      [ "Marginal Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md58", null ],
+      [ "2D Histogram", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md60", null ],
       [ "Kernel Density Estimates (KDE)", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md62", null ],
       [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md63", null ]
     ] ],

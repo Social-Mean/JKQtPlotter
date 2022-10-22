@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['kernels_20for_201_2ddimensional_20histograms_0',['Kernels for 1-dimensional Histograms',['../group__jkqtptools__math__statistics__1dkde__kernels.html',1,'']]],
-  ['kernels_20for_202_2ddimensional_20histograms_1',['Kernels for 2-dimensional Histograms',['../group__jkqtptools__math__statistics__2dkde__kernels.html',1,'']]]
+  ['jkqtcommon_3a_20diverse_20basic_20utilities_0',['JKQTCommon: Diverse Basic Utilities',['../group__jkqtptools__jkqtcommon.html',1,'']]],
+  ['jkqtcommonstatisticsandmath_3a_20special_20math_20and_20statistics_20utilities_1',['JKQTCommonStatisticsAndMath: Special Math and Statistics Utilities',['../group__jkqtcommon__statistics__and__math.html',1,'']]],
+  ['jkqtfastplotter_3a_20speed_2doptimized_20plotter_20class_2',['JKQTFastPlotter: Speed-Optimized Plotter class',['../group__jkqtfastplotter.html',1,'']]],
+  ['jkqtmathtext_20latex_2drenderer_20for_20qt_3',['JKQTMathText LaTeX-Renderer for Qt',['../group__jkqtmathtext.html',1,'']]],
+  ['jkqtmathtext_20rendering_20model_4',['JKQTMathText Rendering Model',['../group__jkqtmathtext__renderingmodel.html',1,'']]],
+  ['jkqtplotter_3a_20qt_20based_20scientific_20plotter_20class_5',['JKQTPlotter: Qt based Scientific Plotter Class',['../group__jkqtplotter.html',1,'']]]
 ];
