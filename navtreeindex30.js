@@ -1,5 +1,8 @@
 var NAVTREEINDEX30 =
 {
+"struct_j_k_q_t_math_text_font_specifier.html#ae579dd59e84b9400b1770700ee9da6df":[10,3,1,3,2,18],
+"struct_j_k_q_t_math_text_font_specifier.html#ae5c9c4b881c0124f1428c70fe0c756a2":[10,3,1,3,2,15],
+"struct_j_k_q_t_math_text_font_specifier.html#af34c896e852bc5cb7bcf9dd57858cfcf":[10,3,1,3,2,21],
 "struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html":[10,3,1,2,33],
 "struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html#a06e031c0f65edda7eef6be6e9b5a8ac2":[10,3,1,2,33,3],
 "struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html#a0938304412b7e3b977aef71d123c0336":[10,3,1,2,33,8],
@@ -145,6 +148,11 @@ var NAVTREEINDEX30 =
 "struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#aa6741abba85ef098bd9e9892df5b88dc":[10,3,1,2,41,2],
 "struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#ab4572b2bac26cea828fac4bbc1d470f2":[10,3,1,2,41,1],
 "struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#abb1ebab533ebda4f641eacaa93495da4":[10,3,1,2,41,0],
+"struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html":[10,4,1,1,1,0,12],
+"struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#a715b6b0e087bb9f7cf787afd5291a7fe":[10,4,1,1,1,0,12,2],
+"struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#a73415a923a10a598070838cc094a7a31":[10,4,1,1,1,0,12,0],
+"struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#a9edf90fda3509a5062f6c0a1a51c9a16":[10,4,1,1,1,0,12,1],
+"struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#af13853182cb2d85097e08bf1da112224":[10,4,1,1,1,0,12,3],
 "struct_j_k_q_t_p_color_derivation_mode.html":[10,4,1,4,7],
 "struct_j_k_q_t_p_color_derivation_mode.html#a04beb5f1daef77c207a8f2baf4c2bc44":[10,4,1,4,7,14],
 "struct_j_k_q_t_p_color_derivation_mode.html#a2480c5b8b3263b1f2807520d43ab7ec8":[10,4,1,4,7,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX30 =
 "struct_j_k_q_t_p_image_tools.html#ae666c1e272c28a5392293d7bab1b94a6":[10,4,1,1,1,6,3,3,18],
 "struct_j_k_q_t_p_image_tools.html#aeb3c6ce849d0b7c7309b858bf2faf8ef":[10,4,1,1,1,6,3,3,12],
 "struct_j_k_q_t_p_image_tools.html#af096d9448f74499f8a019ae80fb6399e":[10,4,1,1,1,6,3,3,1],
-"struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4":[10,4,1,1,1,6,3,3,0],
-"struct_j_k_q_t_p_image_tools.html#aff9b8402f7be50b54b125237385c8f99":[10,4,1,1,1,6,3,3,16],
-"struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html":[10,4,1,1,1,6,3,4],
-"struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a09d8abd1357f527d06ef7f5227b9ddda":[10,4,1,1,1,6,3,4,5],
-"struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a4b9b41818a04e6948761575044a460b5":[10,4,1,1,1,6,3,4,1],
-"struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a5159aefec75812e960ecc5f6bf9f272e":[10,4,1,1,1,6,3,4,4],
-"struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a715a4a4d1051ffd0009fe0325852e244":[10,4,1,1,1,6,3,4,3],
-"struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a96e4d2c300abce0b94928fb0d8175cf8":[10,4,1,1,1,6,3,4,2],
-"struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#ab987a05c9e76f5fed40684875590f6aa":[10,4,1,1,1,6,3,4,0]
+"struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4":[10,4,1,1,1,6,3,3,0]
 };

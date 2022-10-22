@@ -118,6 +118,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_p_bar_graph_base.html','
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -145,16 +146,30 @@ Collaboration diagram for JKQTPBarGraphBase:</div>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html">SimpleFillBrushFunctorAdaptor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">adapter that converts a SimpleFillBrushFunctor to a FillBrushFunctor  <a href="struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a710c3aacabf1f5f8d01ce26ddb808530"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; QBrush(double key, double value, <a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html">JKQTPBarGraphBase</a> *graph)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">FillBrushFunctor</a></td></tr>
+<tr class="memdesc:a710c3aacabf1f5f8d01ce26ddb808530"><td class="mdescLeft">&#160;</td><td class="mdescRight">a type of functor for FillMode::FunctorFilling  <a href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">More...</a><br /></td></tr>
+<tr class="separator:a710c3aacabf1f5f8d01ce26ddb808530"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdfa782b7be06a3bb1eb2e3d57c6138c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c">FillMode</a> { <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138ca37863fa488d9106e4ea2d7386228d6ee">SingleFilling</a> =0
 , <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138cafbd17c32ed2bbb077928309e1ef1a6d2">TwoColorFilling</a> =1
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138ca504721cf82d52d5d8e9da9f1db14953a">FunctorFilling</a> =2
 <br />
  }</td></tr>
 <tr class="memdesc:afdfa782b7be06a3bb1eb2e3d57c6138c"><td class="mdescLeft">&#160;</td><td class="mdescRight">specifies how the area below the graph is filled  <a href="class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c">More...</a><br /></td></tr>
 <tr class="separator:afdfa782b7be06a3bb1eb2e3d57c6138c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc5fa84b9da21ac98302f06812384257"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; QBrush(double key, double value)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#acc5fa84b9da21ac98302f06812384257">SimpleFillBrushFunctor</a></td></tr>
+<tr class="memdesc:acc5fa84b9da21ac98302f06812384257"><td class="mdescLeft">&#160;</td><td class="mdescRight">a simplified type of functor for FillMode::FunctorFilling  <a href="class_j_k_q_t_p_bar_graph_base.html#acc5fa84b9da21ac98302f06812384257">More...</a><br /></td></tr>
+<tr class="separator:acc5fa84b9da21ac98302f06812384257"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_class_j_k_q_t_p_x_y_graph"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_j_k_q_t_p_x_y_graph')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_j_k_q_t_p_x_y_graph.html">JKQTPXYGraph</a></td></tr>
 <tr class="memitem:ac6343eedb62ab432de4e563c0b734909 inherit pub_types_class_j_k_q_t_p_x_y_graph"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909">DataSortOrder</a> { <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909a615f807714e5411337ca6c2748d27fce">Unsorted</a> =0
@@ -186,24 +201,39 @@ Public Slots</h2></td></tr>
 <tr class="memitem:ae38cbe079c4e1d97c93bcc11409920e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ae38cbe079c4e1d97c93bcc11409920e4">autoscaleBarWidthAndShiftSeparatedGroups</a> (double groupWidth=0.75)</td></tr>
 <tr class="memdesc:ae38cbe079c4e1d97c93bcc11409920e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">equivalent to <code>autoscaleBarWidthAndShift(groupWidth,1)</code>;  <a href="class_j_k_q_t_p_bar_graph_base.html#ae38cbe079c4e1d97c93bcc11409920e4">More...</a><br /></td></tr>
 <tr class="separator:ae38cbe079c4e1d97c93bcc11409920e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dd7689b54de5de4a854ebbbcec0ba13"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a8dd7689b54de5de4a854ebbbcec0ba13">setBarHeightColumn</a> (int column)=0</td></tr>
-<tr class="memdesc:a8dd7689b54de5de4a854ebbbcec0ba13"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the barchart is vertical or horizontal  <a href="class_j_k_q_t_p_bar_graph_base.html#a8dd7689b54de5de4a854ebbbcec0ba13">More...</a><br /></td></tr>
-<tr class="separator:a8dd7689b54de5de4a854ebbbcec0ba13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b539b8f93c00b8921e613895a1421f6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a4b539b8f93c00b8921e613895a1421f6">setBarHeightColumn</a> (size_t column)=0</td></tr>
-<tr class="memdesc:a4b539b8f93c00b8921e613895a1421f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the barchart is vertical or horizontal  <a href="class_j_k_q_t_p_bar_graph_base.html#a4b539b8f93c00b8921e613895a1421f6">More...</a><br /></td></tr>
-<tr class="separator:a4b539b8f93c00b8921e613895a1421f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d618580088f219324ba71cc622d3248"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a7d618580088f219324ba71cc622d3248">setBarPositionColumn</a> (int column)=0</td></tr>
-<tr class="memdesc:a7d618580088f219324ba71cc622d3248"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the barchart is vertical or horizontal  <a href="class_j_k_q_t_p_bar_graph_base.html#a7d618580088f219324ba71cc622d3248">More...</a><br /></td></tr>
-<tr class="separator:a7d618580088f219324ba71cc622d3248"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7c1cfd2039c880776b02441fb80647e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#af7c1cfd2039c880776b02441fb80647e">setBarPositionColumn</a> (size_t column)=0</td></tr>
-<tr class="memdesc:af7c1cfd2039c880776b02441fb80647e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the barchart is vertical or horizontal  <a href="class_j_k_q_t_p_bar_graph_base.html#af7c1cfd2039c880776b02441fb80647e">More...</a><br /></td></tr>
-<tr class="separator:af7c1cfd2039c880776b02441fb80647e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f484689e759e62c4968557e8681fd9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a5f484689e759e62c4968557e8681fd9e">setBarHeightColumn</a> (int column)</td></tr>
+<tr class="memdesc:a5f484689e759e62c4968557e8681fd9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the barchart is vertical or horizontal  <a href="class_j_k_q_t_p_bar_graph_base.html#a5f484689e759e62c4968557e8681fd9e">More...</a><br /></td></tr>
+<tr class="separator:a5f484689e759e62c4968557e8681fd9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29ce8b198fb906ec8941c42e0aed8268"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a29ce8b198fb906ec8941c42e0aed8268">setBarHeightColumn</a> (size_t column)</td></tr>
+<tr class="memdesc:a29ce8b198fb906ec8941c42e0aed8268"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the barchart is vertical or horizontal  <a href="class_j_k_q_t_p_bar_graph_base.html#a29ce8b198fb906ec8941c42e0aed8268">More...</a><br /></td></tr>
+<tr class="separator:a29ce8b198fb906ec8941c42e0aed8268"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a856c3f4d1032e9b1234978cfc6cd6e19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a856c3f4d1032e9b1234978cfc6cd6e19">setBarPositionColumn</a> (int column)</td></tr>
+<tr class="memdesc:a856c3f4d1032e9b1234978cfc6cd6e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the barchart is vertical or horizontal  <a href="class_j_k_q_t_p_bar_graph_base.html#a856c3f4d1032e9b1234978cfc6cd6e19">More...</a><br /></td></tr>
+<tr class="separator:a856c3f4d1032e9b1234978cfc6cd6e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac39d70da07b8812891a01ccdd2344061"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ac39d70da07b8812891a01ccdd2344061">setBarPositionColumn</a> (size_t column)</td></tr>
+<tr class="memdesc:ac39d70da07b8812891a01ccdd2344061"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the barchart is vertical or horizontal  <a href="class_j_k_q_t_p_bar_graph_base.html#ac39d70da07b8812891a01ccdd2344061">More...</a><br /></td></tr>
+<tr class="separator:ac39d70da07b8812891a01ccdd2344061"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78cb2697e2cedd3716179f05bba976fa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a78cb2697e2cedd3716179f05bba976fa">setColor</a> (QColor c)</td></tr>
 <tr class="memdesc:a78cb2697e2cedd3716179f05bba976fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">set outline and fill color at the same time  <a href="class_j_k_q_t_p_bar_graph_base.html#a78cb2697e2cedd3716179f05bba976fa">More...</a><br /></td></tr>
 <tr class="separator:a78cb2697e2cedd3716179f05bba976fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cd6d2f273a35ea8b648d7378584122d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a1cd6d2f273a35ea8b648d7378584122d">setFillBrushFunctor</a> (const <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">JKQTPBarGraphBase::FillBrushFunctor</a> &amp;f)</td></tr>
+<tr class="memdesc:a1cd6d2f273a35ea8b648d7378584122d"><td class="mdescLeft">&#160;</td><td class="mdescRight">functor, used to determine the color in m_fillMode==FunctorFilling  <a href="class_j_k_q_t_p_bar_graph_base.html#a1cd6d2f273a35ea8b648d7378584122d">More...</a><br /></td></tr>
+<tr class="separator:a1cd6d2f273a35ea8b648d7378584122d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0bb8a6b169df3afdf1958c14d02bbd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ac0bb8a6b169df3afdf1958c14d02bbd0">setFillBrushFunctor</a> (const <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#acc5fa84b9da21ac98302f06812384257">JKQTPBarGraphBase::SimpleFillBrushFunctor</a> &amp;f)</td></tr>
+<tr class="memdesc:ac0bb8a6b169df3afdf1958c14d02bbd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">functor, used to determine the color in m_fillMode==FunctorFilling  <a href="class_j_k_q_t_p_bar_graph_base.html#ac0bb8a6b169df3afdf1958c14d02bbd0">More...</a><br /></td></tr>
+<tr class="separator:ac0bb8a6b169df3afdf1958c14d02bbd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8227c319dc5eeb840f739c56967bc856"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a8227c319dc5eeb840f739c56967bc856">setFillBrushFunctor</a> (<a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">JKQTPBarGraphBase::FillBrushFunctor</a> &amp;&amp;f)</td></tr>
+<tr class="memdesc:a8227c319dc5eeb840f739c56967bc856"><td class="mdescLeft">&#160;</td><td class="mdescRight">functor, used to determine the color in m_fillMode==FunctorFilling  <a href="class_j_k_q_t_p_bar_graph_base.html#a8227c319dc5eeb840f739c56967bc856">More...</a><br /></td></tr>
+<tr class="separator:a8227c319dc5eeb840f739c56967bc856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9b33a914761f5e2e6e45cd1ae19b77c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ad9b33a914761f5e2e6e45cd1ae19b77c">setFillBrushFunctor</a> (<a class="el" href="class_j_k_q_t_p_bar_graph_base.html#acc5fa84b9da21ac98302f06812384257">JKQTPBarGraphBase::SimpleFillBrushFunctor</a> &amp;&amp;f)</td></tr>
+<tr class="memdesc:ad9b33a914761f5e2e6e45cd1ae19b77c"><td class="mdescLeft">&#160;</td><td class="mdescRight">functor, used to determine the color in m_fillMode==FunctorFilling  <a href="class_j_k_q_t_p_bar_graph_base.html#ad9b33a914761f5e2e6e45cd1ae19b77c">More...</a><br /></td></tr>
+<tr class="separator:ad9b33a914761f5e2e6e45cd1ae19b77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bbbb0f64430f5c8d66701d1a1dbfa29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a4bbbb0f64430f5c8d66701d1a1dbfa29">setFillMode</a> (<a class="el" href="class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c">JKQTPBarGraphBase::FillMode</a> mode)</td></tr>
 <tr class="memdesc:a4bbbb0f64430f5c8d66701d1a1dbfa29"><td class="mdescLeft">&#160;</td><td class="mdescRight">specifies how the area of the graph is filles  <a href="class_j_k_q_t_p_bar_graph_base.html#a4bbbb0f64430f5c8d66701d1a1dbfa29">More...</a><br /></td></tr>
 <tr class="separator:a4bbbb0f64430f5c8d66701d1a1dbfa29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ad02bfb1901992067aa3a443e68647e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a8ad02bfb1901992067aa3a443e68647e">setLineColorDerivationModeForSpecialFill</a> (const <a class="el" href="struct_j_k_q_t_p_color_derivation_mode.html">JKQTPColorDerivationMode</a> &amp;m)</td></tr>
+<tr class="memdesc:a8ad02bfb1901992067aa3a443e68647e"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines how to derive the line color in m_fillMode!=SingleFilling  <a href="class_j_k_q_t_p_bar_graph_base.html#a8ad02bfb1901992067aa3a443e68647e">More...</a><br /></td></tr>
+<tr class="separator:a8ad02bfb1901992067aa3a443e68647e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2931ced8ea9eae2e9c3b59c98563242c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a2931ced8ea9eae2e9c3b59c98563242c">setRectRadius</a> (double all)</td></tr>
 <tr class="memdesc:a2931ced8ea9eae2e9c3b59c98563242c"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the corner radius of the bars for both ends  <a href="class_j_k_q_t_p_bar_graph_base.html#a2931ced8ea9eae2e9c3b59c98563242c">More...</a><br /></td></tr>
 <tr class="separator:a2931ced8ea9eae2e9c3b59c98563242c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -293,18 +323,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a073be1d16234579d1fa72cf0d4cfd889"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_j_k_q_t_p_graph_fill_style_mixin.html">JKQTPGraphFillStyleMixin</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a073be1d16234579d1fa72cf0d4cfd889">fillStyleBelow</a> () const</td></tr>
 <tr class="memdesc:a073be1d16234579d1fa72cf0d4cfd889"><td class="mdescLeft">&#160;</td><td class="mdescRight">if m_fillMode <code>==FillAboveAndBelowDifferently</code> then this fill style is used below the baseline and the default fill style is used above  <a href="class_j_k_q_t_p_bar_graph_base.html#a073be1d16234579d1fa72cf0d4cfd889">More...</a><br /></td></tr>
 <tr class="separator:a073be1d16234579d1fa72cf0d4cfd889"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a304a1d7d1642b971efe6f81e97501940"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a304a1d7d1642b971efe6f81e97501940">getBarHeightColumn</a> () const =0</td></tr>
-<tr class="memdesc:a304a1d7d1642b971efe6f81e97501940"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the barchart is vertical or horizontal  <a href="class_j_k_q_t_p_bar_graph_base.html#a304a1d7d1642b971efe6f81e97501940">More...</a><br /></td></tr>
-<tr class="separator:a304a1d7d1642b971efe6f81e97501940"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9059af20ed3014e025ca4c761122d0d"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#af9059af20ed3014e025ca4c761122d0d">getBarPositionColumn</a> () const =0</td></tr>
-<tr class="memdesc:af9059af20ed3014e025ca4c761122d0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the barchart is vertical or horizontal  <a href="class_j_k_q_t_p_bar_graph_base.html#af9059af20ed3014e025ca4c761122d0d">More...</a><br /></td></tr>
-<tr class="separator:af9059af20ed3014e025ca4c761122d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5049801f269e906093fa003a64841f5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ac5049801f269e906093fa003a64841f5">getBarHeightColumn</a> () const</td></tr>
+<tr class="memdesc:ac5049801f269e906093fa003a64841f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the barchart is vertical or horizontal  <a href="class_j_k_q_t_p_bar_graph_base.html#ac5049801f269e906093fa003a64841f5">More...</a><br /></td></tr>
+<tr class="separator:ac5049801f269e906093fa003a64841f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57be1c5dfd4824065fbe0258def4e039"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a57be1c5dfd4824065fbe0258def4e039">getBarPositionColumn</a> () const</td></tr>
+<tr class="memdesc:a57be1c5dfd4824065fbe0258def4e039"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the barchart is vertical or horizontal  <a href="class_j_k_q_t_p_bar_graph_base.html#a57be1c5dfd4824065fbe0258def4e039">More...</a><br /></td></tr>
+<tr class="separator:a57be1c5dfd4824065fbe0258def4e039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46a4bdce58f434489e800ffda4d64d1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">FillBrushFunctor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a46a4bdce58f434489e800ffda4d64d1d">getFillBrushFunctor</a> ()</td></tr>
+<tr class="memdesc:a46a4bdce58f434489e800ffda4d64d1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">functor, used to determine the color in m_fillMode==FunctorFilling  <a href="class_j_k_q_t_p_bar_graph_base.html#a46a4bdce58f434489e800ffda4d64d1d">More...</a><br /></td></tr>
+<tr class="separator:a46a4bdce58f434489e800ffda4d64d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bfc88ca5a9b52d5d7aca08acf07b768"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">FillBrushFunctor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a0bfc88ca5a9b52d5d7aca08acf07b768">getFillBrushFunctor</a> () const</td></tr>
+<tr class="memdesc:a0bfc88ca5a9b52d5d7aca08acf07b768"><td class="mdescLeft">&#160;</td><td class="mdescRight">functor, used to determine the color in m_fillMode==FunctorFilling  <a href="class_j_k_q_t_p_bar_graph_base.html#a0bfc88ca5a9b52d5d7aca08acf07b768">More...</a><br /></td></tr>
+<tr class="separator:a0bfc88ca5a9b52d5d7aca08acf07b768"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6f646f52d1a0227dc577745d02cf25c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c">FillMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ad6f646f52d1a0227dc577745d02cf25c">getFillMode</a> () const</td></tr>
 <tr class="memdesc:ad6f646f52d1a0227dc577745d02cf25c"><td class="mdescLeft">&#160;</td><td class="mdescRight">specifies how the area of the graph is filles  <a href="class_j_k_q_t_p_bar_graph_base.html#ad6f646f52d1a0227dc577745d02cf25c">More...</a><br /></td></tr>
 <tr class="separator:ad6f646f52d1a0227dc577745d02cf25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a540126a39d7cb4e119a8e3eb2f00920a"><td class="memItemLeft" align="right" valign="top">virtual QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a540126a39d7cb4e119a8e3eb2f00920a">getKeyLabelColor</a> () const override</td></tr>
 <tr class="memdesc:a540126a39d7cb4e119a8e3eb2f00920a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the color to be used for the key label  <a href="class_j_k_q_t_p_bar_graph_base.html#a540126a39d7cb4e119a8e3eb2f00920a">More...</a><br /></td></tr>
 <tr class="separator:a540126a39d7cb4e119a8e3eb2f00920a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad781c697663125c5b58549de789e710e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_p_color_derivation_mode.html">JKQTPColorDerivationMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ad781c697663125c5b58549de789e710e">getLineColorDerivationModeForSpecialFill</a> () const</td></tr>
+<tr class="memdesc:ad781c697663125c5b58549de789e710e"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines how to derive the line color in m_fillMode!=SingleFilling  <a href="class_j_k_q_t_p_bar_graph_base.html#ad781c697663125c5b58549de789e710e">More...</a><br /></td></tr>
+<tr class="separator:ad781c697663125c5b58549de789e710e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c7a2a9cb01ee606d1f93c3b8f639d58"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a5c7a2a9cb01ee606d1f93c3b8f639d58">getRectRadiusAtBaseline</a> () const</td></tr>
 <tr class="memdesc:a5c7a2a9cb01ee606d1f93c3b8f639d58"><td class="mdescLeft">&#160;</td><td class="mdescRight">corner radius (in pt) for bars at the "baseline" end  <a href="class_j_k_q_t_p_bar_graph_base.html#a5c7a2a9cb01ee606d1f93c3b8f639d58">More...</a><br /></td></tr>
 <tr class="separator:a5c7a2a9cb01ee606d1f93c3b8f639d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -592,6 +631,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a8bffa2a0a11acd75a6df78db71564ce5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a8bffa2a0a11acd75a6df78db71564ce5">considerForAutoscaling</a> (<a class="el" href="class_j_k_q_t_p_bar_graph_base.html">JKQTPBarGraphBase</a> *other) const =0</td></tr>
 <tr class="memdesc:a8bffa2a0a11acd75a6df78db71564ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is used by <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a32e4ed5fdd4843c9c4b8c1f4d08492a2" title="finds all bar charts of the same orientation and determines width and shift, so they stand side by si...">autoscaleBarWidthAndShift()</a> to determine whether a given graph shall be taken into account when autoscaling. Typically this returns <code>true</code> for all JKQTPBarGraphBase-derved objects with the same orientation (horizontal or vertical)  <a href="class_j_k_q_t_p_bar_graph_base.html#a8bffa2a0a11acd75a6df78db71564ce5">More...</a><br /></td></tr>
 <tr class="separator:a8bffa2a0a11acd75a6df78db71564ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8fa75bdc893f0b0304ee69cf6fb0cb2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">FillBrushFunctor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#aa8fa75bdc893f0b0304ee69cf6fb0cb2">constructFillBrushFunctor</a> () const</td></tr>
+<tr class="memdesc:aa8fa75bdc893f0b0304ee69cf6fb0cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a FillBrushFunctor that is appropriate for the currently selected m_fillMode  <a href="class_j_k_q_t_p_bar_graph_base.html#aa8fa75bdc893f0b0304ee69cf6fb0cb2">More...</a><br /></td></tr>
+<tr class="separator:aa8fa75bdc893f0b0304ee69cf6fb0cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b1f44e33c1762d04cd319f3c50b1af1"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a0b1f44e33c1762d04cd319f3c50b1af1">getParentStackedMax</a> (int index) const</td></tr>
 <tr class="memdesc:a0b1f44e33c1762d04cd319f3c50b1af1"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to generate stacked plots: returns the upper boundary of the parent plot in a stack, for the index-th datapoint  <a href="class_j_k_q_t_p_bar_graph_base.html#a0b1f44e33c1762d04cd319f3c50b1af1">More...</a><br /></td></tr>
 <tr class="separator:a0b1f44e33c1762d04cd319f3c50b1af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -677,12 +719,18 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a48feca26d4237d66d9f5768c270d02a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">FillBrushFunctor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a48feca26d4237d66d9f5768c270d02a9">m_fillBrushFunctor</a></td></tr>
+<tr class="memdesc:a48feca26d4237d66d9f5768c270d02a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">functor, used to determine the color in m_fillMode==FunctorFilling  <a href="class_j_k_q_t_p_bar_graph_base.html#a48feca26d4237d66d9f5768c270d02a9">More...</a><br /></td></tr>
+<tr class="separator:a48feca26d4237d66d9f5768c270d02a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c84eebc2b3820e321306fde488035fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c">FillMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a3c84eebc2b3820e321306fde488035fe">m_fillMode</a></td></tr>
 <tr class="memdesc:a3c84eebc2b3820e321306fde488035fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">specifies how the area of the graph is filles  <a href="class_j_k_q_t_p_bar_graph_base.html#a3c84eebc2b3820e321306fde488035fe">More...</a><br /></td></tr>
 <tr class="separator:a3c84eebc2b3820e321306fde488035fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72cc32b8d269c178d3da7aa3ed8edda4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_graph_fill_style_mixin.html">JKQTPGraphFillStyleMixin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a72cc32b8d269c178d3da7aa3ed8edda4">m_fillStyleBelow</a></td></tr>
 <tr class="memdesc:a72cc32b8d269c178d3da7aa3ed8edda4"><td class="mdescLeft">&#160;</td><td class="mdescRight">if m_fillMode <code>==FillAboveAndBelowDifferently</code> then this fill style is used below the baseline and the default fill style is used above  <a href="class_j_k_q_t_p_bar_graph_base.html#a72cc32b8d269c178d3da7aa3ed8edda4">More...</a><br /></td></tr>
 <tr class="separator:a72cc32b8d269c178d3da7aa3ed8edda4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80e78369481def770823fe058d310249"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_p_color_derivation_mode.html">JKQTPColorDerivationMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a80e78369481def770823fe058d310249">m_lineColorDerivationModeForSpecialFill</a></td></tr>
+<tr class="memdesc:a80e78369481def770823fe058d310249"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines how to derive the line color in m_fillMode!=SingleFilling  <a href="class_j_k_q_t_p_bar_graph_base.html#a80e78369481def770823fe058d310249">More...</a><br /></td></tr>
+<tr class="separator:a80e78369481def770823fe058d310249"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e14df1397f355b9b6d700766fa6bf99"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a0e14df1397f355b9b6d700766fa6bf99">rectRadiusAtBaseline</a></td></tr>
 <tr class="memdesc:a0e14df1397f355b9b6d700766fa6bf99"><td class="mdescLeft">&#160;</td><td class="mdescRight">corner radius (in pt) for bars at the "baseline" end  <a href="class_j_k_q_t_p_bar_graph_base.html#a0e14df1397f355b9b6d700766fa6bf99">More...</a><br /></td></tr>
 <tr class="separator:a0e14df1397f355b9b6d700766fa6bf99"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -770,8 +818,53 @@ Additional Inherited Members</h2></td></tr>
 <div class="image">
 <img src="JKQTPBarVerticalGraphTwoColorFilling.png" alt=""/>
 </div>
+<p >If you use FillMode::FunctorFilling you can specify the fill style by a functor, e.g. </p><div class="fragment"><div class="line">graph-&gt;setFillMode(JKQTPBarGraphBase::FillMode::FunctorFilling);</div>
+<div class="line">graph-&gt;setFillBrushFunctor(</div>
+<div class="line">  [](<span class="keywordtype">double</span> key, <span class="keywordtype">double</span> value) {</div>
+<div class="line">    <span class="keywordflow">return</span> QBrush(QColor::fromHsvF(key/12.0, 1.0, 1.0));</div>
+<div class="line">  }</div>
+<div class="line">);</div>
+</div><!-- fragment --><p >The result may look like this:</p>
+<div class="image">
+<img src="JKQTPBarVerticalGraphFunctorFilling.png" alt=""/>
+</div>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_horizontal_graph.html" title="This implements a bar graph with bars starting at  to .">JKQTPBarHorizontalGraph</a>, <a class="el" href="class_j_k_q_t_p_bar_vertical_graph.html" title="This implements a bar graph with bars starting at  to .">JKQTPBarVerticalGraph</a> </dd></dl>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a710c3aacabf1f5f8d01ce26ddb808530" name="a710c3aacabf1f5f8d01ce26ddb808530"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a710c3aacabf1f5f8d01ce26ddb808530">&#9670;&nbsp;</a></span>FillBrushFunctor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::function&lt;QBrush(double key, double value,<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html">JKQTPBarGraphBase</a>* graph)&gt; <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">JKQTPBarGraphBase::FillBrushFunctor</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>a type of functor for FillMode::FunctorFilling </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a1cd6d2f273a35ea8b648d7378584122d" title="functor, used to determine the color in m_fillMode==FunctorFilling">setFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a46a4bdce58f434489e800ffda4d64d1d" title="functor, used to determine the color in m_fillMode==FunctorFilling">getFillBrushFunctor()</a> </dd></dl>
+
+</div>
+</div>
+<a id="acc5fa84b9da21ac98302f06812384257" name="acc5fa84b9da21ac98302f06812384257"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc5fa84b9da21ac98302f06812384257">&#9670;&nbsp;</a></span>SimpleFillBrushFunctor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::function&lt;QBrush(double key, double value)&gt; <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#acc5fa84b9da21ac98302f06812384257">JKQTPBarGraphBase::SimpleFillBrushFunctor</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>a simplified type of functor for FillMode::FunctorFilling </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a1cd6d2f273a35ea8b648d7378584122d" title="functor, used to determine the color in m_fillMode==FunctorFilling">setFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a46a4bdce58f434489e800ffda4d64d1d" title="functor, used to determine the color in m_fillMode==FunctorFilling">getFillBrushFunctor()</a> </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="afdfa782b7be06a3bb1eb2e3d57c6138c" name="afdfa782b7be06a3bb1eb2e3d57c6138c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afdfa782b7be06a3bb1eb2e3d57c6138c">&#9670;&nbsp;</a></span>FillMode</h2>
 
@@ -795,6 +888,11 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="afdfa782b7be06a3bb1eb2e3d57c6138cafbd17c32ed2bbb077928309e1ef1a6d2" name="afdfa782b7be06a3bb1eb2e3d57c6138cafbd17c32ed2bbb077928309e1ef1a6d2"></a>TwoColorFilling&#160;</td><td class="fielddoc"><p >the area above and below baseline with the two different colors/pattern </p>
 <div class="image">
 <img src="JKQTPBarVerticalGraphTwoColorFilling.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="afdfa782b7be06a3bb1eb2e3d57c6138ca504721cf82d52d5d8e9da9f1db14953a" name="afdfa782b7be06a3bb1eb2e3d57c6138ca504721cf82d52d5d8e9da9f1db14953a"></a>FunctorFilling&#160;</td><td class="fielddoc"><p >a functor (use <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a1cd6d2f273a35ea8b648d7378584122d" title="functor, used to determine the color in m_fillMode==FunctorFilling">setFillBrushFunctor()</a> to define one) is used to determine the fill color </p>
+<div class="image">
+<img src="JKQTPBarVerticalGraphFunctorFilling.png" alt=""/>
 </div>
  </td></tr>
 </table>
@@ -947,6 +1045,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aa8fa75bdc893f0b0304ee69cf6fb0cb2" name="aa8fa75bdc893f0b0304ee69cf6fb0cb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8fa75bdc893f0b0304ee69cf6fb0cb2">&#9670;&nbsp;</a></span>constructFillBrushFunctor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">FillBrushFunctor</a> JKQTPBarGraphBase::constructFillBrushFunctor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns a FillBrushFunctor that is appropriate for the currently selected m_fillMode </p>
+
+</div>
+</div>
 <a id="aa6e46cca71e4abcdb25a0f8be96ee963" name="aa6e46cca71e4abcdb25a0f8be96ee963"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa6e46cca71e4abcdb25a0f8be96ee963">&#9670;&nbsp;</a></span>drawKeyMarker()</h2>
 
@@ -1003,6 +1128,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if m_fillMode <code>==FillAboveAndBelowDifferently</code> then this fill style is used below the baseline and the default fill style is used above </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a31a91f661e59b99893a6a16cc3905d30" title="if m_fillMode ==FillAboveAndBelowDifferently then this fill style is used below the baseline and the ...">fillStyleBelow()</a> , <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a4bbbb0f64430f5c8d66701d1a1dbfa29" title="specifies how the area of the graph is filles">setFillMode()</a> </dd></dl>
 
 </div>
 </div>
@@ -1022,66 +1148,107 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if m_fillMode <code>==FillAboveAndBelowDifferently</code> then this fill style is used below the baseline and the default fill style is used above </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a31a91f661e59b99893a6a16cc3905d30" title="if m_fillMode ==FillAboveAndBelowDifferently then this fill style is used below the baseline and the ...">fillStyleBelow()</a> , <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a4bbbb0f64430f5c8d66701d1a1dbfa29" title="specifies how the area of the graph is filles">setFillMode()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a304a1d7d1642b971efe6f81e97501940" name="a304a1d7d1642b971efe6f81e97501940"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a304a1d7d1642b971efe6f81e97501940">&#9670;&nbsp;</a></span>getBarHeightColumn()</h2>
+<a id="ac5049801f269e906093fa003a64841f5" name="ac5049801f269e906093fa003a64841f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5049801f269e906093fa003a64841f5">&#9670;&nbsp;</a></span>getBarHeightColumn()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int JKQTPBarGraphBase::getBarHeightColumn </td>
+          <td class="memname">int JKQTPBarGraphBase::getBarHeightColumn </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the barchart is vertical or horizontal </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#af9059af20ed3014e025ca4c761122d0d" title="returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the ...">getBarPositionColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a" title="the column that contains the x-component of the datapoints">xColumn</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a" title="the column that contains the y-component of the datapoints">yColumn</a> </dd></dl>
-
-<p>Implemented in <a class="el" href="class_j_k_q_t_p_bar_vertical_graph.html#ae2cc39c8717c3d24aa31fbc4afa87838">JKQTPBarVerticalGraph</a>, and <a class="el" href="class_j_k_q_t_p_bar_horizontal_graph.html#ae6777817e843e656511867789b576d34">JKQTPBarHorizontalGraph</a>.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a57be1c5dfd4824065fbe0258def4e039" title="returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the ...">getBarPositionColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a" title="the column that contains the x-component of the datapoints">xColumn</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a" title="the column that contains the y-component of the datapoints">yColumn</a> </dd></dl>
 
 </div>
 </div>
-<a id="af9059af20ed3014e025ca4c761122d0d" name="af9059af20ed3014e025ca4c761122d0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9059af20ed3014e025ca4c761122d0d">&#9670;&nbsp;</a></span>getBarPositionColumn()</h2>
+<a id="a57be1c5dfd4824065fbe0258def4e039" name="a57be1c5dfd4824065fbe0258def4e039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57be1c5dfd4824065fbe0258def4e039">&#9670;&nbsp;</a></span>getBarPositionColumn()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int JKQTPBarGraphBase::getBarPositionColumn </td>
+          <td class="memname">int JKQTPBarGraphBase::getBarPositionColumn </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the barchart is vertical or horizontal </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a304a1d7d1642b971efe6f81e97501940" title="returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the ba...">getBarHeightColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a" title="the column that contains the x-component of the datapoints">xColumn</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a" title="the column that contains the y-component of the datapoints">yColumn</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ac5049801f269e906093fa003a64841f5" title="returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the ba...">getBarHeightColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a" title="the column that contains the x-component of the datapoints">xColumn</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a" title="the column that contains the y-component of the datapoints">yColumn</a> </dd></dl>
 
-<p>Implemented in <a class="el" href="class_j_k_q_t_p_bar_vertical_graph.html#ad5827dff12ae08e7bed105974875ae43">JKQTPBarVerticalGraph</a>, and <a class="el" href="class_j_k_q_t_p_bar_horizontal_graph.html#afdef41c89525565ab61da5856ce9dc7c">JKQTPBarHorizontalGraph</a>.</p>
+</div>
+</div>
+<a id="a46a4bdce58f434489e800ffda4d64d1d" name="a46a4bdce58f434489e800ffda4d64d1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46a4bdce58f434489e800ffda4d64d1d">&#9670;&nbsp;</a></span>getFillBrushFunctor() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">FillBrushFunctor</a> &amp; JKQTPBarGraphBase::getFillBrushFunctor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>functor, used to determine the color in m_fillMode==FunctorFilling </p>
+<p >If you use FillMode::FunctorFilling you can specify the fill style by a functor, e.g. </p><div class="fragment"><div class="line">graph-&gt;setFillMode(JKQTPBarGraphBase::FillMode::FunctorFilling);</div>
+<div class="line">graph-&gt;setFillBrushFunctor(</div>
+<div class="line">  [](<span class="keywordtype">double</span> key, <span class="keywordtype">double</span> value) {</div>
+<div class="line">    <span class="keywordflow">return</span> QBrush(QColor::fromHsvF(key/12.0, 1.0, 1.0));</div>
+<div class="line">  }</div>
+<div class="line">);</div>
+</div><!-- fragment --><p >The result may look like this:</p>
+<div class="image">
+<img src="JKQTPBarVerticalGraphFunctorFilling.png" alt=""/>
+</div>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a1cd6d2f273a35ea8b648d7378584122d" title="functor, used to determine the color in m_fillMode==FunctorFilling">setFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a46a4bdce58f434489e800ffda4d64d1d" title="functor, used to determine the color in m_fillMode==FunctorFilling">getFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a3c84eebc2b3820e321306fde488035fe" title="specifies how the area of the graph is filles">m_fillMode</a> </dd></dl>
+
+</div>
+</div>
+<a id="a0bfc88ca5a9b52d5d7aca08acf07b768" name="a0bfc88ca5a9b52d5d7aca08acf07b768"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bfc88ca5a9b52d5d7aca08acf07b768">&#9670;&nbsp;</a></span>getFillBrushFunctor() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">FillBrushFunctor</a> &amp; JKQTPBarGraphBase::getFillBrushFunctor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>functor, used to determine the color in m_fillMode==FunctorFilling </p>
+<p >If you use FillMode::FunctorFilling you can specify the fill style by a functor, e.g. </p><div class="fragment"><div class="line">graph-&gt;setFillMode(JKQTPBarGraphBase::FillMode::FunctorFilling);</div>
+<div class="line">graph-&gt;setFillBrushFunctor(</div>
+<div class="line">  [](<span class="keywordtype">double</span> key, <span class="keywordtype">double</span> value) {</div>
+<div class="line">    <span class="keywordflow">return</span> QBrush(QColor::fromHsvF(key/12.0, 1.0, 1.0));</div>
+<div class="line">  }</div>
+<div class="line">);</div>
+</div><!-- fragment --><p >The result may look like this:</p>
+<div class="image">
+<img src="JKQTPBarVerticalGraphFunctorFilling.png" alt=""/>
+</div>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a1cd6d2f273a35ea8b648d7378584122d" title="functor, used to determine the color in m_fillMode==FunctorFilling">setFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a46a4bdce58f434489e800ffda4d64d1d" title="functor, used to determine the color in m_fillMode==FunctorFilling">getFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a3c84eebc2b3820e321306fde488035fe" title="specifies how the area of the graph is filles">m_fillMode</a> </dd></dl>
 
 </div>
 </div>
@@ -1101,6 +1268,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>specifies how the area of the graph is filles </p>
+<dl class="section note"><dt>Note</dt><dd>If any fill style other than FillStyle::SingleFill is used, the peroperty m_lineColorDerivationModeForSpecialFill is used to derive the color of the bars' outlines from the fill color.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a4bbbb0f64430f5c8d66701d1a1dbfa29" title="specifies how the area of the graph is filles">setFillMode()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ad6f646f52d1a0227dc577745d02cf25c" title="specifies how the area of the graph is filles">getFillMode()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a72cc32b8d269c178d3da7aa3ed8edda4" title="if m_fillMode ==FillAboveAndBelowDifferently then this fill style is used below the baseline and the ...">m_fillStyleBelow</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a48feca26d4237d66d9f5768c270d02a9" title="functor, used to determine the color in m_fillMode==FunctorFilling">m_fillBrushFunctor</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a80e78369481def770823fe058d310249" title="defines how to derive the line color in m_fillMode!=SingleFilling">m_lineColorDerivationModeForSpecialFill</a> </dd></dl>
 
 </div>
 </div>
@@ -1130,6 +1299,26 @@ Additional Inherited Members</h2></td></tr>
 <p>returns the color to be used for the key label </p>
 
 <p>Implements <a class="el" href="class_j_k_q_t_p_plot_element.html#a623fe77049246abda428b0ca8484f434">JKQTPPlotElement</a>.</p>
+
+</div>
+</div>
+<a id="ad781c697663125c5b58549de789e710e" name="ad781c697663125c5b58549de789e710e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad781c697663125c5b58549de789e710e">&#9670;&nbsp;</a></span>getLineColorDerivationModeForSpecialFill()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_j_k_q_t_p_color_derivation_mode.html">JKQTPColorDerivationMode</a> JKQTPBarGraphBase::getLineColorDerivationModeForSpecialFill </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>defines how to derive the line color in m_fillMode!=SingleFilling </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a8ad02bfb1901992067aa3a443e68647e" title="defines how to derive the line color in m_fillMode!=SingleFilling">setLineColorDerivationModeForSpecialFill()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a4bbbb0f64430f5c8d66701d1a1dbfa29" title="specifies how the area of the graph is filles">setFillMode()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ad781c697663125c5b58549de789e710e" title="defines how to derive the line color in m_fillMode!=SingleFilling">getLineColorDerivationModeForSpecialFill()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c" title="specifies how the area below the graph is filled">FillMode</a> </dd></dl>
 
 </div>
 </div>
@@ -1364,8 +1553,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8dd7689b54de5de4a854ebbbcec0ba13" name="a8dd7689b54de5de4a854ebbbcec0ba13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8dd7689b54de5de4a854ebbbcec0ba13">&#9670;&nbsp;</a></span>setBarHeightColumn <span class="overload">[1/2]</span></h2>
+<a id="a5f484689e759e62c4968557e8681fd9e" name="a5f484689e759e62c4968557e8681fd9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f484689e759e62c4968557e8681fd9e">&#9670;&nbsp;</a></span>setBarHeightColumn <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1374,7 +1563,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void JKQTPBarGraphBase::setBarHeightColumn </td>
+          <td class="memname">void JKQTPBarGraphBase::setBarHeightColumn </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>column</em></td><td>)</td>
@@ -1383,18 +1572,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the barchart is vertical or horizontal </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#af9059af20ed3014e025ca4c761122d0d" title="returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the ...">getBarPositionColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a" title="the column that contains the x-component of the datapoints">xColumn</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a" title="the column that contains the y-component of the datapoints">yColumn</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a57be1c5dfd4824065fbe0258def4e039" title="returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the ...">getBarPositionColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a" title="the column that contains the x-component of the datapoints">xColumn</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a" title="the column that contains the y-component of the datapoints">yColumn</a> </dd></dl>
 
 </div>
 </div>
-<a id="a4b539b8f93c00b8921e613895a1421f6" name="a4b539b8f93c00b8921e613895a1421f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b539b8f93c00b8921e613895a1421f6">&#9670;&nbsp;</a></span>setBarHeightColumn <span class="overload">[2/2]</span></h2>
+<a id="a29ce8b198fb906ec8941c42e0aed8268" name="a29ce8b198fb906ec8941c42e0aed8268"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29ce8b198fb906ec8941c42e0aed8268">&#9670;&nbsp;</a></span>setBarHeightColumn <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1403,7 +1592,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void JKQTPBarGraphBase::setBarHeightColumn </td>
+          <td class="memname">void JKQTPBarGraphBase::setBarHeightColumn </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>column</em></td><td>)</td>
@@ -1412,18 +1601,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the barchart is vertical or horizontal </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#af9059af20ed3014e025ca4c761122d0d" title="returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the ...">getBarPositionColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a" title="the column that contains the x-component of the datapoints">xColumn</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a" title="the column that contains the y-component of the datapoints">yColumn</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a57be1c5dfd4824065fbe0258def4e039" title="returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the ...">getBarPositionColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a" title="the column that contains the x-component of the datapoints">xColumn</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a" title="the column that contains the y-component of the datapoints">yColumn</a> </dd></dl>
 
 </div>
 </div>
-<a id="a7d618580088f219324ba71cc622d3248" name="a7d618580088f219324ba71cc622d3248"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d618580088f219324ba71cc622d3248">&#9670;&nbsp;</a></span>setBarPositionColumn <span class="overload">[1/2]</span></h2>
+<a id="a856c3f4d1032e9b1234978cfc6cd6e19" name="a856c3f4d1032e9b1234978cfc6cd6e19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a856c3f4d1032e9b1234978cfc6cd6e19">&#9670;&nbsp;</a></span>setBarPositionColumn <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1432,7 +1621,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void JKQTPBarGraphBase::setBarPositionColumn </td>
+          <td class="memname">void JKQTPBarGraphBase::setBarPositionColumn </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>column</em></td><td>)</td>
@@ -1441,18 +1630,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the barchart is vertical or horizontal </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a304a1d7d1642b971efe6f81e97501940" title="returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the ba...">getBarHeightColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a" title="the column that contains the x-component of the datapoints">xColumn</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a" title="the column that contains the y-component of the datapoints">yColumn</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ac5049801f269e906093fa003a64841f5" title="returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the ba...">getBarHeightColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a" title="the column that contains the x-component of the datapoints">xColumn</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a" title="the column that contains the y-component of the datapoints">yColumn</a> </dd></dl>
 
 </div>
 </div>
-<a id="af7c1cfd2039c880776b02441fb80647e" name="af7c1cfd2039c880776b02441fb80647e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7c1cfd2039c880776b02441fb80647e">&#9670;&nbsp;</a></span>setBarPositionColumn <span class="overload">[2/2]</span></h2>
+<a id="ac39d70da07b8812891a01ccdd2344061" name="ac39d70da07b8812891a01ccdd2344061"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac39d70da07b8812891a01ccdd2344061">&#9670;&nbsp;</a></span>setBarPositionColumn <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1461,7 +1650,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void JKQTPBarGraphBase::setBarPositionColumn </td>
+          <td class="memname">void JKQTPBarGraphBase::setBarPositionColumn </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>column</em></td><td>)</td>
@@ -1470,13 +1659,13 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>returns xColumn or yColumn, whichever is used for the position of the bars (depending on whether the barchart is vertical or horizontal </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a304a1d7d1642b971efe6f81e97501940" title="returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the ba...">getBarHeightColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a" title="the column that contains the x-component of the datapoints">xColumn</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a" title="the column that contains the y-component of the datapoints">yColumn</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ac5049801f269e906093fa003a64841f5" title="returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the ba...">getBarHeightColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a" title="the column that contains the x-component of the datapoints">xColumn</a>, <a class="el" href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a" title="the column that contains the y-component of the datapoints">yColumn</a> </dd></dl>
 
 </div>
 </div>
@@ -1506,6 +1695,162 @@ Additional Inherited Members</h2></td></tr>
 
 <p>set outline and fill color at the same time </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a550acbc5d0b626d5a23bd1d0846b58f5" title="sets the fill color and the color together, where fillColor is set to fill and the line-color is set ...">setFillColor_and_darkenedColor()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a1cd6d2f273a35ea8b648d7378584122d" name="a1cd6d2f273a35ea8b648d7378584122d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cd6d2f273a35ea8b648d7378584122d">&#9670;&nbsp;</a></span>setFillBrushFunctor <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTPBarGraphBase::setFillBrushFunctor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">JKQTPBarGraphBase::FillBrushFunctor</a> &amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>functor, used to determine the color in m_fillMode==FunctorFilling </p>
+<p >If you use FillMode::FunctorFilling you can specify the fill style by a functor, e.g. </p><div class="fragment"><div class="line">graph-&gt;setFillMode(JKQTPBarGraphBase::FillMode::FunctorFilling);</div>
+<div class="line">graph-&gt;setFillBrushFunctor(</div>
+<div class="line">  [](<span class="keywordtype">double</span> key, <span class="keywordtype">double</span> value) {</div>
+<div class="line">    <span class="keywordflow">return</span> QBrush(QColor::fromHsvF(key/12.0, 1.0, 1.0));</div>
+<div class="line">  }</div>
+<div class="line">);</div>
+</div><!-- fragment --><p >The result may look like this:</p>
+<div class="image">
+<img src="JKQTPBarVerticalGraphFunctorFilling.png" alt=""/>
+</div>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a1cd6d2f273a35ea8b648d7378584122d" title="functor, used to determine the color in m_fillMode==FunctorFilling">setFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a46a4bdce58f434489e800ffda4d64d1d" title="functor, used to determine the color in m_fillMode==FunctorFilling">getFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a3c84eebc2b3820e321306fde488035fe" title="specifies how the area of the graph is filles">m_fillMode</a> </dd></dl>
+
+</div>
+</div>
+<a id="ac0bb8a6b169df3afdf1958c14d02bbd0" name="ac0bb8a6b169df3afdf1958c14d02bbd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0bb8a6b169df3afdf1958c14d02bbd0">&#9670;&nbsp;</a></span>setFillBrushFunctor <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTPBarGraphBase::setFillBrushFunctor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#acc5fa84b9da21ac98302f06812384257">JKQTPBarGraphBase::SimpleFillBrushFunctor</a> &amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>functor, used to determine the color in m_fillMode==FunctorFilling </p>
+<p >If you use FillMode::FunctorFilling you can specify the fill style by a functor, e.g. </p><div class="fragment"><div class="line">graph-&gt;setFillMode(JKQTPBarGraphBase::FillMode::FunctorFilling);</div>
+<div class="line">graph-&gt;setFillBrushFunctor(</div>
+<div class="line">  [](<span class="keywordtype">double</span> key, <span class="keywordtype">double</span> value) {</div>
+<div class="line">    <span class="keywordflow">return</span> QBrush(QColor::fromHsvF(key/12.0, 1.0, 1.0));</div>
+<div class="line">  }</div>
+<div class="line">);</div>
+</div><!-- fragment --><p >The result may look like this:</p>
+<div class="image">
+<img src="JKQTPBarVerticalGraphFunctorFilling.png" alt=""/>
+</div>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a1cd6d2f273a35ea8b648d7378584122d" title="functor, used to determine the color in m_fillMode==FunctorFilling">setFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a46a4bdce58f434489e800ffda4d64d1d" title="functor, used to determine the color in m_fillMode==FunctorFilling">getFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a3c84eebc2b3820e321306fde488035fe" title="specifies how the area of the graph is filles">m_fillMode</a> </dd></dl>
+
+</div>
+</div>
+<a id="a8227c319dc5eeb840f739c56967bc856" name="a8227c319dc5eeb840f739c56967bc856"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8227c319dc5eeb840f739c56967bc856">&#9670;&nbsp;</a></span>setFillBrushFunctor <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTPBarGraphBase::setFillBrushFunctor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">JKQTPBarGraphBase::FillBrushFunctor</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>functor, used to determine the color in m_fillMode==FunctorFilling </p>
+<p >If you use FillMode::FunctorFilling you can specify the fill style by a functor, e.g. </p><div class="fragment"><div class="line">graph-&gt;setFillMode(JKQTPBarGraphBase::FillMode::FunctorFilling);</div>
+<div class="line">graph-&gt;setFillBrushFunctor(</div>
+<div class="line">  [](<span class="keywordtype">double</span> key, <span class="keywordtype">double</span> value) {</div>
+<div class="line">    <span class="keywordflow">return</span> QBrush(QColor::fromHsvF(key/12.0, 1.0, 1.0));</div>
+<div class="line">  }</div>
+<div class="line">);</div>
+</div><!-- fragment --><p >The result may look like this:</p>
+<div class="image">
+<img src="JKQTPBarVerticalGraphFunctorFilling.png" alt=""/>
+</div>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a1cd6d2f273a35ea8b648d7378584122d" title="functor, used to determine the color in m_fillMode==FunctorFilling">setFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a46a4bdce58f434489e800ffda4d64d1d" title="functor, used to determine the color in m_fillMode==FunctorFilling">getFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a3c84eebc2b3820e321306fde488035fe" title="specifies how the area of the graph is filles">m_fillMode</a> </dd></dl>
+
+</div>
+</div>
+<a id="ad9b33a914761f5e2e6e45cd1ae19b77c" name="ad9b33a914761f5e2e6e45cd1ae19b77c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9b33a914761f5e2e6e45cd1ae19b77c">&#9670;&nbsp;</a></span>setFillBrushFunctor <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTPBarGraphBase::setFillBrushFunctor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#acc5fa84b9da21ac98302f06812384257">JKQTPBarGraphBase::SimpleFillBrushFunctor</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>functor, used to determine the color in m_fillMode==FunctorFilling </p>
+<p >If you use FillMode::FunctorFilling you can specify the fill style by a functor, e.g. </p><div class="fragment"><div class="line">graph-&gt;setFillMode(JKQTPBarGraphBase::FillMode::FunctorFilling);</div>
+<div class="line">graph-&gt;setFillBrushFunctor(</div>
+<div class="line">  [](<span class="keywordtype">double</span> key, <span class="keywordtype">double</span> value) {</div>
+<div class="line">    <span class="keywordflow">return</span> QBrush(QColor::fromHsvF(key/12.0, 1.0, 1.0));</div>
+<div class="line">  }</div>
+<div class="line">);</div>
+</div><!-- fragment --><p >The result may look like this:</p>
+<div class="image">
+<img src="JKQTPBarVerticalGraphFunctorFilling.png" alt=""/>
+</div>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a1cd6d2f273a35ea8b648d7378584122d" title="functor, used to determine the color in m_fillMode==FunctorFilling">setFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a46a4bdce58f434489e800ffda4d64d1d" title="functor, used to determine the color in m_fillMode==FunctorFilling">getFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a3c84eebc2b3820e321306fde488035fe" title="specifies how the area of the graph is filles">m_fillMode</a> </dd></dl>
 
 </div>
 </div>
@@ -1565,6 +1910,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>specifies how the area of the graph is filles </p>
+<dl class="section note"><dt>Note</dt><dd>If any fill style other than FillStyle::SingleFill is used, the peroperty m_lineColorDerivationModeForSpecialFill is used to derive the color of the bars' outlines from the fill color.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a4bbbb0f64430f5c8d66701d1a1dbfa29" title="specifies how the area of the graph is filles">setFillMode()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ad6f646f52d1a0227dc577745d02cf25c" title="specifies how the area of the graph is filles">getFillMode()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a72cc32b8d269c178d3da7aa3ed8edda4" title="if m_fillMode ==FillAboveAndBelowDifferently then this fill style is used below the baseline and the ...">m_fillStyleBelow</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a48feca26d4237d66d9f5768c270d02a9" title="functor, used to determine the color in m_fillMode==FunctorFilling">m_fillBrushFunctor</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a80e78369481def770823fe058d310249" title="defines how to derive the line color in m_fillMode!=SingleFilling">m_lineColorDerivationModeForSpecialFill</a> </dd></dl>
+
+</div>
+</div>
+<a id="a8ad02bfb1901992067aa3a443e68647e" name="a8ad02bfb1901992067aa3a443e68647e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ad02bfb1901992067aa3a443e68647e">&#9670;&nbsp;</a></span>setLineColorDerivationModeForSpecialFill</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTPBarGraphBase::setLineColorDerivationModeForSpecialFill </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_j_k_q_t_p_color_derivation_mode.html">JKQTPColorDerivationMode</a> &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>defines how to derive the line color in m_fillMode!=SingleFilling </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a8ad02bfb1901992067aa3a443e68647e" title="defines how to derive the line color in m_fillMode!=SingleFilling">setLineColorDerivationModeForSpecialFill()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a4bbbb0f64430f5c8d66701d1a1dbfa29" title="specifies how the area of the graph is filles">setFillMode()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ad781c697663125c5b58549de789e710e" title="defines how to derive the line color in m_fillMode!=SingleFilling">getLineColorDerivationModeForSpecialFill()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c" title="specifies how the area below the graph is filled">FillMode</a> </dd></dl>
 
 </div>
 </div>
@@ -1753,6 +2129,41 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a48feca26d4237d66d9f5768c270d02a9" name="a48feca26d4237d66d9f5768c270d02a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48feca26d4237d66d9f5768c270d02a9">&#9670;&nbsp;</a></span>m_fillBrushFunctor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">FillBrushFunctor</a> JKQTPBarGraphBase::m_fillBrushFunctor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>functor, used to determine the color in m_fillMode==FunctorFilling </p>
+<p >If you use FillMode::FunctorFilling you can specify the fill style by a functor, e.g. </p><div class="fragment"><div class="line">graph-&gt;setFillMode(JKQTPBarGraphBase::FillMode::FunctorFilling);</div>
+<div class="line">graph-&gt;setFillBrushFunctor(</div>
+<div class="line">  [](<span class="keywordtype">double</span> key, <span class="keywordtype">double</span> value) {</div>
+<div class="line">    <span class="keywordflow">return</span> QBrush(QColor::fromHsvF(key/12.0, 1.0, 1.0));</div>
+<div class="line">  }</div>
+<div class="line">);</div>
+</div><!-- fragment --><p >The result may look like this:</p>
+<div class="image">
+<img src="JKQTPBarVerticalGraphFunctorFilling.png" alt=""/>
+</div>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a1cd6d2f273a35ea8b648d7378584122d" title="functor, used to determine the color in m_fillMode==FunctorFilling">setFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a46a4bdce58f434489e800ffda4d64d1d" title="functor, used to determine the color in m_fillMode==FunctorFilling">getFillBrushFunctor()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a3c84eebc2b3820e321306fde488035fe" title="specifies how the area of the graph is filles">m_fillMode</a> </dd></dl>
+
+</div>
+</div>
 <a id="a3c84eebc2b3820e321306fde488035fe" name="a3c84eebc2b3820e321306fde488035fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c84eebc2b3820e321306fde488035fe">&#9670;&nbsp;</a></span>m_fillMode</h2>
 
@@ -1774,6 +2185,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>specifies how the area of the graph is filles </p>
+<dl class="section note"><dt>Note</dt><dd>If any fill style other than FillStyle::SingleFill is used, the peroperty m_lineColorDerivationModeForSpecialFill is used to derive the color of the bars' outlines from the fill color.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a4bbbb0f64430f5c8d66701d1a1dbfa29" title="specifies how the area of the graph is filles">setFillMode()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ad6f646f52d1a0227dc577745d02cf25c" title="specifies how the area of the graph is filles">getFillMode()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a72cc32b8d269c178d3da7aa3ed8edda4" title="if m_fillMode ==FillAboveAndBelowDifferently then this fill style is used below the baseline and the ...">m_fillStyleBelow</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a48feca26d4237d66d9f5768c270d02a9" title="functor, used to determine the color in m_fillMode==FunctorFilling">m_fillBrushFunctor</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a80e78369481def770823fe058d310249" title="defines how to derive the line color in m_fillMode!=SingleFilling">m_lineColorDerivationModeForSpecialFill</a> </dd></dl>
 
 </div>
 </div>
@@ -1798,6 +2211,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if m_fillMode <code>==FillAboveAndBelowDifferently</code> then this fill style is used below the baseline and the default fill style is used above </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a31a91f661e59b99893a6a16cc3905d30" title="if m_fillMode ==FillAboveAndBelowDifferently then this fill style is used below the baseline and the ...">fillStyleBelow()</a> , <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a4bbbb0f64430f5c8d66701d1a1dbfa29" title="specifies how the area of the graph is filles">setFillMode()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a80e78369481def770823fe058d310249" name="a80e78369481def770823fe058d310249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80e78369481def770823fe058d310249">&#9670;&nbsp;</a></span>m_lineColorDerivationModeForSpecialFill</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_j_k_q_t_p_color_derivation_mode.html">JKQTPColorDerivationMode</a> JKQTPBarGraphBase::m_lineColorDerivationModeForSpecialFill</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>defines how to derive the line color in m_fillMode!=SingleFilling </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a8ad02bfb1901992067aa3a443e68647e" title="defines how to derive the line color in m_fillMode!=SingleFilling">setLineColorDerivationModeForSpecialFill()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a4bbbb0f64430f5c8d66701d1a1dbfa29" title="specifies how the area of the graph is filles">setFillMode()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ad781c697663125c5b58549de789e710e" title="defines how to derive the line color in m_fillMode!=SingleFilling">getLineColorDerivationModeForSpecialFill()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c" title="specifies how the area below the graph is filled">FillMode</a> </dd></dl>
 
 </div>
 </div>
@@ -1913,7 +2352,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html">JKQTPBarGraphBase</a></li>
-    <li class="footer">Generated on Sat Oct 15 2022 16:36:22 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Oct 22 2022 14:45:43 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

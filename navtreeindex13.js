@@ -1,5 +1,8 @@
 var NAVTREEINDEX13 =
 {
+"class_j_k_q_t_p_datastore.html#a1576ab66b021c6dbaccebcf80c6e64c6":[10,4,1,0,5,31],
+"class_j_k_q_t_p_datastore.html#a1607cbc2fc1e405579a282da9857b1b1":[10,4,1,0,5,109],
+"class_j_k_q_t_p_datastore.html#a16249ce71800fa0f871a9cd5562e8308":[10,4,1,0,5,122],
 "class_j_k_q_t_p_datastore.html#a177ab9dc6734c289c751092aa049722f":[10,4,1,0,5,96],
 "class_j_k_q_t_p_datastore.html#a1988bb1388a8b692ab95066c15bd3cb9":[10,4,1,0,5,46],
 "class_j_k_q_t_p_datastore.html#a1aa94eca74f04f320dbec8869de676e5":[10,4,1,0,5,137],
@@ -246,8 +249,5 @@ var NAVTREEINDEX13 =
 "class_j_k_q_t_p_evaluated_function_graph_base.html#a5d9425a913f453dccfa5322712fc8214":[10,4,1,1,1,5,1,0,28],
 "class_j_k_q_t_p_evaluated_function_graph_base.html#a5e1af59bbe0d643c214c57d527bf96be":[10,4,1,1,1,5,1,0,39],
 "class_j_k_q_t_p_evaluated_function_graph_base.html#a5e22fafd391ef739df7420c9184b8140":[10,4,1,1,1,5,1,0,32],
-"class_j_k_q_t_p_evaluated_function_graph_base.html#a663332108dd329a921b1b9a34947f79b":[10,4,1,1,1,5,1,0,20],
-"class_j_k_q_t_p_evaluated_function_graph_base.html#a6dab5726f8f5a9551c15cc12153cbdd3":[10,4,1,1,1,5,1,0,2],
-"class_j_k_q_t_p_evaluated_function_graph_base.html#a6f2f89b6392cad2d89bc9aba6c065754":[10,4,1,1,1,5,1,0,4],
-"class_j_k_q_t_p_evaluated_function_graph_base.html#a80e20c0dd8ab87d028bb196ee4dd39c5":[10,4,1,1,1,5,1,0,25]
+"class_j_k_q_t_p_evaluated_function_graph_base.html#a663332108dd329a921b1b9a34947f79b":[10,4,1,1,1,5,1,0,20]
 };

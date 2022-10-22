@@ -218,8 +218,6 @@ NEW: added property drawLineInForeground to <a class="el" href="class_j_k_q_t_p_
 <li>
 NEW: added <a class="el" href="class_j_k_q_t_p_x_y_graph.html#ae12daea658313e0e688c76f1adfc1355" title="sets the column used as &quot;key&quot; for the current graph (typically this call setXColumn(),...">JKQTPXYGraph::setKeyColumn()</a>/JKQTPXYGraph::getKeyColumn() and <a class="el" href="class_j_k_q_t_p_x_y_graph.html#ad57ea73d1ab7f76692bf8856a1678783" title="sets the column used as &quot;value&quot; for the current graph (typically this call setXColumn(),...">JKQTPXYGraph::setValueColumn()</a>/JKQTPXYGraph::getValueColumn() and corresponding functions in other classes. In most graph classes they point to xColumn for key and yColumn for values. These functions are virtual and overwritten in derived classes with horizontally oriented graphs, where they point to yColumn for key and yColumn for value. This way you can write generic code with classes for both orientations. </li>
 <li>
-NEW: barcharts (derived from <a class="el" href="class_j_k_q_t_p_bar_graph_base.html" title="This is a base-class for all bar graphs with vertical or horizontal orientation (the orientation is i...">JKQTPBarGraphBase</a>) can be configured to use different fill styles above and below the baseline, see <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c" title="specifies how the area below the graph is filled">JKQTPBarGraphBase::FillMode</a>  </li>
-<li>
 NEW: added new error indicator styles JKQTPErrorHalfBarsOutwards, JKQTPErrorHalfBarsInwards, JKQTPErrorHalfBarsAbove, JKQTPErrorHalfBarsBelow which are especially useful for barcharts </li>
 <li>
 NEW: Added signals <a class="el" href="class_j_k_q_t_base_plotter.html#a405d92984e0a2bb5de7b4fc0c4a3817b" title="emitted just before exporting the current plot as image, or just before the export preview dialog is ...">JKQTBasePlotter::beforeExporting()</a>/JKQTBasePlotter::afterExporting() and JKQTBasePlotterJKQTBasePlotter:beforePrinting()/JKQTBasePlotter::afterPrinting() which allow to modify the plot just before and just after an export/print </li>
@@ -235,7 +233,11 @@ NEW: added possibility to scale the axis ticks by a factor (e.g. pi) to generate
 <li>
 NEW: added option to draw a zero axis to <a class="el" href="class_j_k_q_t_p_coordinate_axis.html" title="this virtual class is the base for any type of coordinate axis, to be drawn by JKQTBasePlotter.">JKQTPCoordinateAxis</a>, which draws an axis at the origin of the coordinate system  </li>
 <li>
-NEW: barcharts may hav rounded corners now, via <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a2931ced8ea9eae2e9c3b59c98563242c" title="sets the corner radius of the bars for both ends">JKQTPBarGraphBase::setRectRadius()</a> </li>
+NEW: barcharts (derived from <a class="el" href="class_j_k_q_t_p_bar_graph_base.html" title="This is a base-class for all bar graphs with vertical or horizontal orientation (the orientation is i...">JKQTPBarGraphBase</a>) can be configured to use different fill styles above and below the baseline, see <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c" title="specifies how the area below the graph is filled">JKQTPBarGraphBase::FillMode</a>  </li>
+<li>
+NEW: barcharts may have rounded corners now, via <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a2931ced8ea9eae2e9c3b59c98563242c" title="sets the corner radius of the bars for both ends">JKQTPBarGraphBase::setRectRadius()</a> </li>
+<li>
+NEW: barcharts can be colored by a user-specified functor </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -637,7 +639,7 @@ Latest Release/Tag: <a href="https://github.com/jkriege2/JKQtPlotter/releases/ta
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Oct 15 2022 16:36:21 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sat Oct 22 2022 14:45:42 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>
