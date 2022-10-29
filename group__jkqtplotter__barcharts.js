@@ -1,6 +1,7 @@
 var group__jkqtplotter__barcharts =
 [
     [ "JKQTPBarGraphBase", "class_j_k_q_t_p_bar_graph_base.html", [
+      [ "CustomDrawingFunctor", "class_j_k_q_t_p_bar_graph_base.html#a3838c45206a8a88600caffb3e9fc7690", null ],
       [ "FillBrushFunctor", "class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530", null ],
       [ "SimpleFillBrushFunctor", "class_j_k_q_t_p_bar_graph_base.html#acc5fa84b9da21ac98302f06812384257", null ],
       [ "FillMode", "class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c", [
@@ -37,6 +38,8 @@ var group__jkqtplotter__barcharts =
       [ "setBarPositionColumn", "class_j_k_q_t_p_bar_graph_base.html#a856c3f4d1032e9b1234978cfc6cd6e19", null ],
       [ "setBarPositionColumn", "class_j_k_q_t_p_bar_graph_base.html#ac39d70da07b8812891a01ccdd2344061", null ],
       [ "setColor", "class_j_k_q_t_p_bar_graph_base.html#a78cb2697e2cedd3716179f05bba976fa", null ],
+      [ "setCustomDrawingFunctor", "class_j_k_q_t_p_bar_graph_base.html#a533536f10866ef00a2e01cc1175d5c4d", null ],
+      [ "setCustomDrawingFunctor", "class_j_k_q_t_p_bar_graph_base.html#a47f2013818535007b3b6d19ba08b7422", null ],
       [ "setFillBrushFunctor", "class_j_k_q_t_p_bar_graph_base.html#a1cd6d2f273a35ea8b648d7378584122d", null ],
       [ "setFillBrushFunctor", "class_j_k_q_t_p_bar_graph_base.html#ac0bb8a6b169df3afdf1958c14d02bbd0", null ],
       [ "setFillBrushFunctor", "class_j_k_q_t_p_bar_graph_base.html#a8227c319dc5eeb840f739c56967bc856", null ],
@@ -49,11 +52,15 @@ var group__jkqtplotter__barcharts =
       [ "setRectRadiusAtBaseline", "class_j_k_q_t_p_bar_graph_base.html#a4b35b1dd4335ee2c9ecc3be36355fbaf", null ],
       [ "setRectRadiusAtValue", "class_j_k_q_t_p_bar_graph_base.html#ae2c8e4d188edf218b1f957de984165f7", null ],
       [ "setShift", "class_j_k_q_t_p_bar_graph_base.html#a0c9628cdecf4361713cb1a6b024293b7", null ],
+      [ "setUseCustomDrawFunctor", "class_j_k_q_t_p_bar_graph_base.html#aa036dc91ba95be144dbe336205499c0f", null ],
       [ "setWidth", "class_j_k_q_t_p_bar_graph_base.html#af6eed994ffc12e3e3aedc4c185ccac87", null ],
+      [ "usesCustomDrawFunctor", "class_j_k_q_t_p_bar_graph_base.html#ad4c38509915c2ded9a942c5754058854", null ],
+      [ "m_customDrawFunctor", "class_j_k_q_t_p_bar_graph_base.html#a17f4b2bdffef86c071d41ee0953c9a9c", null ],
       [ "m_fillBrushFunctor", "class_j_k_q_t_p_bar_graph_base.html#a48feca26d4237d66d9f5768c270d02a9", null ],
       [ "m_fillMode", "class_j_k_q_t_p_bar_graph_base.html#a3c84eebc2b3820e321306fde488035fe", null ],
       [ "m_fillStyleBelow", "class_j_k_q_t_p_bar_graph_base.html#a72cc32b8d269c178d3da7aa3ed8edda4", null ],
       [ "m_lineColorDerivationModeForSpecialFill", "class_j_k_q_t_p_bar_graph_base.html#a80e78369481def770823fe058d310249", null ],
+      [ "m_useCustomDrawFunctor", "class_j_k_q_t_p_bar_graph_base.html#a0fffeb2ac33e10526af41e9283fdfe4c", null ],
       [ "rectRadiusAtBaseline", "class_j_k_q_t_p_bar_graph_base.html#a0e14df1397f355b9b6d700766fa6bf99", null ],
       [ "rectRadiusAtValue", "class_j_k_q_t_p_bar_graph_base.html#a80913f23b5a8a8a25febb77783364fae", null ],
       [ "shift", "class_j_k_q_t_p_bar_graph_base.html#aef33b5823589e9c2b7510e5c8aaef580", null ],

@@ -1,5 +1,13 @@
 var NAVTREEINDEX20 =
 {
+"class_j_k_q_t_p_overlay_image_enhanced.html#aecbba0edf68f58f757accda9c8be12fe":[10,4,1,1,1,8,1,2,7],
+"class_j_k_q_t_p_paint_device_adapter.html":[10,4,1,5,1],
+"class_j_k_q_t_p_paint_device_adapter.html#a172f74d48293029dfef6e5d8f2b268c8":[10,4,1,5,1,7],
+"class_j_k_q_t_p_paint_device_adapter.html#a1beee27f1a4072ecf3d09061dc76b369":[10,4,1,5,1,4],
+"class_j_k_q_t_p_paint_device_adapter.html#a3034dcb3342b2501576b33f302cbadae":[10,4,1,5,1,6],
+"class_j_k_q_t_p_paint_device_adapter.html#a67e3a79f82a548311378457dc76f3234":[10,4,1,5,1,0],
+"class_j_k_q_t_p_paint_device_adapter.html#a74f182b3d4215497a59add328273394b":[10,4,1,5,1,8],
+"class_j_k_q_t_p_paint_device_adapter.html#a77c586b60165321555f10e582e42973f":[10,4,1,5,1,5],
 "class_j_k_q_t_p_paint_device_adapter.html#a8bfc80e46759c357a5828b55c998370f":[10,4,1,5,1,3],
 "class_j_k_q_t_p_paint_device_adapter.html#a9bf96dcdd15a9ea13f9e8f285de1779f":[10,4,1,5,1,9],
 "class_j_k_q_t_p_paint_device_adapter.html#ac859838104f8ab69578d722e35c9fe82":[10,4,1,5,1,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX20 =
 "class_j_k_q_t_p_r_g_b_math_image.html#ae4848abf1f5077411c13f66198b6826e":[10,4,1,1,1,8,0,6,23],
 "class_j_k_q_t_p_r_g_b_math_image.html#ae51332a8b462ba301612e46412782086":[10,4,1,1,1,8,0,6,27],
 "class_j_k_q_t_p_r_g_b_math_image.html#ae792fd85a0e42aa7ddfdf0382ae240ad":[10,4,1,1,1,8,0,6,50],
-"class_j_k_q_t_p_r_g_b_math_image.html#aec27c89fc7beed24606913da76a8b6e0":[10,4,1,1,1,8,0,6,107],
-"class_j_k_q_t_p_r_g_b_math_image.html#aee78afc6b74ceddcbc3e501b438fecd8":[10,4,1,1,1,8,0,6,19],
-"class_j_k_q_t_p_r_g_b_math_image.html#aefb6df241cb0dfe6b19e7ed1d4fb3c34":[10,4,1,1,1,8,0,6,82],
-"class_j_k_q_t_p_r_g_b_math_image.html#af19e83480d773e05de8bba5218209d1d":[10,4,1,1,1,8,0,6,28],
-"class_j_k_q_t_p_r_g_b_math_image.html#af24f2ccab093846f2d17d148e1f7afde":[10,4,1,1,1,8,0,6,26],
-"class_j_k_q_t_p_r_g_b_math_image.html#af32cd6514edb9f00860380b100941e8f":[10,4,1,1,1,8,0,6,39],
-"class_j_k_q_t_p_r_g_b_math_image.html#af4cee77e1b0b8d6f5a3e2c35850071c5":[10,4,1,1,1,8,0,6,137],
-"class_j_k_q_t_p_r_g_b_math_image.html#af77c1a24c7dd852278e8563e4a421294":[10,4,1,1,1,8,0,6,13],
-"class_j_k_q_t_p_r_g_b_math_image.html#af8a8dfcf137bec11221d6834d66d31ef":[10,4,1,1,1,8,0,6,141]
+"class_j_k_q_t_p_r_g_b_math_image.html#aec27c89fc7beed24606913da76a8b6e0":[10,4,1,1,1,8,0,6,107]
 };

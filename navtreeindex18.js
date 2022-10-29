@@ -1,5 +1,13 @@
 var NAVTREEINDEX18 =
 {
+"class_j_k_q_t_p_horizontal_range.html#a0285dd87efb342c9e8f462066b46d325":[10,4,1,1,1,5,2,0],
+"class_j_k_q_t_p_horizontal_range.html#a27133a9d29105ce747299ebcac004776":[10,4,1,1,1,5,2,2],
+"class_j_k_q_t_p_horizontal_range.html#a56007b0e6aa297c109df0ed2235a99c3":[10,4,1,1,1,5,2,4],
+"class_j_k_q_t_p_horizontal_range.html#a5d32c8a17c167b0f10ac78ea55920136":[10,4,1,1,1,5,2,3],
+"class_j_k_q_t_p_horizontal_range.html#a99a316a4b645575bbe475ee8dbd873f7":[10,4,1,1,1,5,2,1],
+"class_j_k_q_t_p_horizontal_range.html#ab6fed6789d176215164e5d5b380f22c9":[10,4,1,1,1,5,2,5],
+"class_j_k_q_t_p_image.html":[10,4,1,1,1,8,0,2],
+"class_j_k_q_t_p_image.html#a03cdf3327262ecfda785313cbb0dbcb1":[10,4,1,1,1,8,0,2,10],
 "class_j_k_q_t_p_image.html#a08f7184e8505aced42bb6b57d21d9001":[10,4,1,1,1,8,0,2,16],
 "class_j_k_q_t_p_image.html#a1cd5651956dcc947dc0bc3a6807f667f":[10,4,1,1,1,8,0,2,13],
 "class_j_k_q_t_p_image.html#a24e49fd9c97039652ddb8747dfb5398e":[10,4,1,1,1,8,0,2,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX18 =
 "class_j_k_q_t_p_math_image_base.html#ac19c4f5afef0f0fb78fb616e04880380":[10,4,1,1,1,8,0,5,7],
 "class_j_k_q_t_p_math_image_base.html#aceefc24f4fc22d03108ec32904481e01":[10,4,1,1,1,8,0,5,4],
 "class_j_k_q_t_p_math_image_base.html#ad47414cc54736af5905e91bbfbafc194":[10,4,1,1,1,8,0,5,18],
-"class_j_k_q_t_p_math_image_base.html#ad4a72df8e60e027c4fa0bc4ae582ebad":[10,4,1,1,1,8,0,5,20],
-"class_j_k_q_t_p_math_image_base.html#addbeafd2e804071d0b7621157ff0b3e0":[10,4,1,1,1,8,0,5,10],
-"class_j_k_q_t_p_math_image_base.html#af67060977eb747c0539d5d7657d22725":[10,4,1,1,1,8,0,5,36],
-"class_j_k_q_t_p_math_image_base.html#afc93a67fe8fd073a417eb717d529f4e4":[10,4,1,1,1,8,0,5,3],
-"class_j_k_q_t_p_math_image_base.html#afe2ab90d04ce3957aa02f1b375f7f76e":[10,4,1,1,1,8,0,5,30],
-"class_j_k_q_t_p_math_image_color_palette_combo_box.html":[10,4,1,3,0,9],
-"class_j_k_q_t_p_math_image_color_palette_combo_box.html#a1d63cbb9be016fd30ee50e56ca18bc8b":[10,4,1,3,0,9,1],
-"class_j_k_q_t_p_math_image_color_palette_combo_box.html#a32cda9650a85354cba07690aee882e95":[10,4,1,3,0,9,7],
-"class_j_k_q_t_p_math_image_color_palette_combo_box.html#a649786ff7bd54c2ef8832dc9e5edcea4":[10,4,1,3,0,9,4]
+"class_j_k_q_t_p_math_image_base.html#ad4a72df8e60e027c4fa0bc4ae582ebad":[10,4,1,1,1,8,0,5,20]
 };

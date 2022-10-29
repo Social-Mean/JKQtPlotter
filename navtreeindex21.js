@@ -1,5 +1,13 @@
 var NAVTREEINDEX21 =
 {
+"class_j_k_q_t_p_r_g_b_math_image.html#aee78afc6b74ceddcbc3e501b438fecd8":[10,4,1,1,1,8,0,6,19],
+"class_j_k_q_t_p_r_g_b_math_image.html#aefb6df241cb0dfe6b19e7ed1d4fb3c34":[10,4,1,1,1,8,0,6,82],
+"class_j_k_q_t_p_r_g_b_math_image.html#af19e83480d773e05de8bba5218209d1d":[10,4,1,1,1,8,0,6,28],
+"class_j_k_q_t_p_r_g_b_math_image.html#af24f2ccab093846f2d17d148e1f7afde":[10,4,1,1,1,8,0,6,26],
+"class_j_k_q_t_p_r_g_b_math_image.html#af32cd6514edb9f00860380b100941e8f":[10,4,1,1,1,8,0,6,39],
+"class_j_k_q_t_p_r_g_b_math_image.html#af4cee77e1b0b8d6f5a3e2c35850071c5":[10,4,1,1,1,8,0,6,137],
+"class_j_k_q_t_p_r_g_b_math_image.html#af77c1a24c7dd852278e8563e4a421294":[10,4,1,1,1,8,0,6,13],
+"class_j_k_q_t_p_r_g_b_math_image.html#af8a8dfcf137bec11221d6834d66d31ef":[10,4,1,1,1,8,0,6,141],
 "class_j_k_q_t_p_r_g_b_math_image.html#af988c65daede72d37bb8ba3262bc5b71":[10,4,1,1,1,8,0,6,103],
 "class_j_k_q_t_p_r_g_b_math_image.html#af9b304c66288f86b70941f1005d2742f":[10,4,1,1,1,8,0,6,93],
 "class_j_k_q_t_p_r_g_b_math_image.html#afc0b7ccdc48a4668caedaa0df4ee3bf6":[10,4,1,1,1,8,0,6,36],
@@ -241,13 +249,5 @@ var NAVTREEINDEX21 =
 "class_j_k_q_t_p_violinplot_vertical_element.html#a91b860d6efd7a97b03377bb0fecb8bf7":[10,4,1,1,1,9,8,0],
 "class_j_k_q_t_p_violinplot_vertical_element.html#ae9d09477c394f3dfef67615db640edef":[10,4,1,1,1,9,8,2],
 "class_j_k_q_t_p_x_function_line_graph.html":[10,4,1,1,1,7,1,5],
-"class_j_k_q_t_p_x_function_line_graph.html#a0456b7b31d21584b09b3b780e7d2aefd":[10,4,1,1,1,7,1,5,6],
-"class_j_k_q_t_p_x_function_line_graph.html#a11f249e860f9d19c7b672d4923069741":[10,4,1,1,1,7,1,5,8],
-"class_j_k_q_t_p_x_function_line_graph.html#a4998d9e514eca09131cef4fc6a33c119":[10,4,1,1,1,7,1,5,10],
-"class_j_k_q_t_p_x_function_line_graph.html#a6f960b2f7066ef2265d76a9b49b7dd3e":[10,4,1,1,1,7,1,5,1],
-"class_j_k_q_t_p_x_function_line_graph.html#a920629b619d98d30a99783faece080f8":[10,4,1,1,1,7,1,5,3],
-"class_j_k_q_t_p_x_function_line_graph.html#ab4d08f0e74809a7ec4cbb3b4e8235606":[10,4,1,1,1,7,1,5,0],
-"class_j_k_q_t_p_x_function_line_graph.html#ab9aaa82facf5c059b7f5d9711d6729a5":[10,4,1,1,1,7,1,5,11],
-"class_j_k_q_t_p_x_function_line_graph.html#abe3a9eaef802f5fd712de82f1d470b84":[10,4,1,1,1,7,1,5,5],
-"class_j_k_q_t_p_x_function_line_graph.html#acf224c4673e5897db7c313d00b837c83":[10,4,1,1,1,7,1,5,4]
+"class_j_k_q_t_p_x_function_line_graph.html#a0456b7b31d21584b09b3b780e7d2aefd":[10,4,1,1,1,7,1,5,6]
 };
