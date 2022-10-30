@@ -140,12 +140,12 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_image_plot_q_image_r_
 <div class="ttc" id="aclass_j_k_q_t_p_image_html_a3230e87075372540c4633c3afedd48da"><div class="ttname"><a href="class_j_k_q_t_p_image.html#a3230e87075372540c4633c3afedd48da">JKQTPImage::setImage</a></div><div class="ttdeci">virtual void setImage(const QImage &amp;image)</div><div class="ttdoc">copy an external image into an internally owned copy</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_image_html_ab7314065e86777bcca55caa47471a78a"><div class="ttname"><a href="class_j_k_q_t_p_image.html#ab7314065e86777bcca55caa47471a78a">JKQTPImage::setTitle</a></div><div class="ttdeci">virtual void setTitle(const QString &amp;title) override</div><div class="ttdoc">sets the title of the plot (for display in key!).</div></div>
 </div><!-- fragment --><p> The result looks like this:</p>
-<p ><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/rgbimageplot_qt.png" alt="imageplot" class="inline"/></p>
+<p ><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/rgbimageplot_qt_upsidedown.png" alt="imageplot" class="inline"/></p>
 <p >The image is upside-down, because computer images use a coordinate system with 0 at the top-left (left-handed coordinate system) and the <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> has its 0 at the bottom-left (right-handed coordinate system).</p>
 <p >You can modify the program above to display the image in the correct orientation, by adding the line </p><div class="fragment"><div class="line"><span class="comment">// 6.1 invert y-axis, so image is oriented correctly</span></div>
 <div class="line">plot.getYAxis()-&gt;setInverted(<span class="keyword">true</span>);</div>
 </div><!-- fragment --><p> This will reorient the y-axis to point from top to bottom (for increasing positive coordinates):</p>
-<p ><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/rgbimageplot_qt_updisdedown.png" alt="imageplot" class="inline"/> </p>
+<p ><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/rgbimageplot_qt.png" alt="imageplot" class="inline"/> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_image_plot_q_image_r_
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Sat Oct 29 2022 20:09:38 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Oct 30 2022 20:54:52 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>
