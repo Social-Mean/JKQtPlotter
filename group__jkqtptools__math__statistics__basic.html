@@ -379,7 +379,7 @@ template&lt;class InputIt &gt; </div>
     <tr><td class="paramdir">[out]</td><td class="paramname">quantile2</td><td>optionally returns the second quantile of the array (specified by <em>quantile2Spec</em> ) </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">IQR</td><td>interquartile range, i.e. the range between <em>quantile1</em> and <em>quantile2</em> </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">IQRSignificance</td><td>significance range of the interquartile range, calculated as <p class="formulaDsp">
-<img class="formulaDsp" alt="\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]" src="form_91.png" width="93" height="39"/>
+<img class="formulaDsp" alt="\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]" src="form_82.png" width="93" height="39"/>
 </p>
  </td></tr>
   </table>
@@ -623,7 +623,7 @@ template&lt;class InputIt , class OutputIt &gt; </div>
     <tr><td class="paramdir">[out]</td><td class="paramname">quantile2</td><td>optionally returns the second quantile of the array (specified by <em>quantile2Spec</em> ) </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">IQR</td><td>interquartile range, i.e. the range between <em>quantile1</em> and <em>quantile2</em> </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">IQRSignificance</td><td>significance range of the interquartile range, calculated as <p class="formulaDsp">
-<img class="formulaDsp" alt="\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]" src="form_91.png" width="93" height="39"/>
+<img class="formulaDsp" alt="\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]" src="form_82.png" width="93" height="39"/>
 </p>
  </td></tr>
   </table>
@@ -773,7 +773,7 @@ template&lt;class TVector , class OutputIt &gt; </div>
     <tr><td class="paramdir">[out]</td><td class="paramname">quantile2</td><td>optionally returns the second quantile of the array (specified by <em>quantile2Spec</em> ) </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">IQR</td><td>interquartile range, i.e. the range between <em>quantile1</em> and <em>quantile2</em> </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">IQRSignificance</td><td>significance range of the interquartile range, calculated as <p class="formulaDsp">
-<img class="formulaDsp" alt="\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]" src="form_91.png" width="93" height="39"/>
+<img class="formulaDsp" alt="\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]" src="form_82.png" width="93" height="39"/>
 </p>
  </td></tr>
   </table>
@@ -916,7 +916,7 @@ template&lt;class TVector &gt; </div>
     <tr><td class="paramdir">[out]</td><td class="paramname">quantile2</td><td>optionally returns the second quantile of the array (specified by <em>quantile2Spec</em> ) </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">IQR</td><td>interquartile range, i.e. the range between <em>quantile1</em> and <em>quantile2</em> </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">IQRSignificance</td><td>significance range of the interquartile range, calculated as <p class="formulaDsp">
-<img class="formulaDsp" alt="\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]" src="form_91.png" width="93" height="39"/>
+<img class="formulaDsp" alt="\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]" src="form_82.png" width="93" height="39"/>
 </p>
  </td></tr>
   </table>
@@ -1418,7 +1418,7 @@ template&lt;class InputIt &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the median absolute deviation about the median (MAD) of the data returned between <em>first</em> and <em>last</em> (excluding invalid doubles). If the given range <em>first</em> ... <em>last</em> is empty, NAN is returned</dd></dl>
 <p>This function calculates </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]" src="form_102.png" width="223" height="18"/>
+<img class="formulaDsp" alt="\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]" src="form_92.png" width="223" height="18"/>
 </p>
 <dl class="section note"><dt>Note</dt><dd>This operation implies an internal copy of the data, as well as sorting it!</dd>
 <dd>
@@ -1987,7 +1987,7 @@ template&lt;class InputIt &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the normalized median absolute deviation about the median (NMAD) of the data returned between <em>first</em> and <em>last</em> (excluding invalid doubles). If the given range <em>first</em> ... <em>last</em> is empty, NAN is returned</dd></dl>
 <p>This function calculates </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]" src="form_103.png" width="325" height="37"/>
+<img class="formulaDsp" alt="\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]" src="form_93.png" width="325" height="37"/>
 </p>
 <dl class="section note"><dt>Note</dt><dd>This operation implies an internal copy of the data, as well as sorting it!</dd>
 <dd>
@@ -2654,7 +2654,7 @@ template&lt;class InputIt , class InputWeightIt &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Oct 30 2022 20:54:52 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Sun Oct 30 2022 21:04:53 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>
