@@ -1,5 +1,16 @@
 var NAVTREEINDEX7 =
 {
+"class_j_k_q_t_math_text_instruction1_node.html#a76610529d3961f906d6ed86f37974f7d":[10,3,1,2,12,0],
+"class_j_k_q_t_math_text_instruction1_node.html#a959393542e2ff7a3bd57df47ace9e1f4":[10,3,1,2,12,3],
+"class_j_k_q_t_math_text_instruction1_node.html#adab16342b76a31fc608477301c18edb0":[10,3,1,2,12,5],
+"class_j_k_q_t_math_text_instruction1_node.html#af071bb63c80ab3056d009f584c7ae828":[10,3,1,2,12,2],
+"class_j_k_q_t_math_text_label.html":[10,3,3,0],
+"class_j_k_q_t_math_text_label.html#a1d06fb579bf50344933b59cc51aff31f":[10,3,3,0,8],
+"class_j_k_q_t_math_text_label.html#a1e30a8331efce290fb072249e765e810":[10,3,3,0,3],
+"class_j_k_q_t_math_text_label.html#a265aadf4bd45b2a6ee2d72622acdc668":[10,3,3,0,4],
+"class_j_k_q_t_math_text_label.html#a2dedc591918ca3f077bc51f085c2e142":[10,3,3,0,1],
+"class_j_k_q_t_math_text_label.html#a5a2bf74b499a1ca7212db85f3ee0ce86":[10,3,3,0,6],
+"class_j_k_q_t_math_text_label.html#a708211922a6c9b01fdc19aeb51166d2b":[10,3,3,0,9],
 "class_j_k_q_t_math_text_label.html#a88942d80e1cdd7087e76d5f932b7003e":[10,3,3,0,0],
 "class_j_k_q_t_math_text_label.html#a8a83c17f342191ccf2c7256b811e9a15":[10,3,3,0,5],
 "class_j_k_q_t_math_text_label.html#abb47f645b791a36d482583e870bdeaf1":[10,3,3,0,7],
@@ -238,16 +249,5 @@ var NAVTREEINDEX7 =
 "class_j_k_q_t_math_text_single_child_node.html#adf724ecb9b6d58a81b904424f3d64cd4":[10,3,1,2,23,8],
 "class_j_k_q_t_math_text_single_child_node.html#ae680c6c4a90437dcaef9216ccbfc9eb1":[10,3,1,2,23,7],
 "class_j_k_q_t_math_text_sqrt_node.html":[10,3,1,2,24],
-"class_j_k_q_t_math_text_sqrt_node.html#a26d89df26c4c63464431a880686e1063":[10,3,1,2,24,8],
-"class_j_k_q_t_math_text_sqrt_node.html#a28926e55aeda12b035d020d2000bbf96":[10,3,1,2,24,13],
-"class_j_k_q_t_math_text_sqrt_node.html#a2e3aa0b40440a5b9bd56167375788eb2":[10,3,1,2,24,15],
-"class_j_k_q_t_math_text_sqrt_node.html#a3171142d3c78e43ed3e34c7f720b87a1":[10,3,1,2,24,10],
-"class_j_k_q_t_math_text_sqrt_node.html#a3d09b7837aff189ca5c265c5a7dbb90b":[10,3,1,2,24,0],
-"class_j_k_q_t_math_text_sqrt_node.html#a4269948aed50c1e20cd5e75a81444757":[10,3,1,2,24,16],
-"class_j_k_q_t_math_text_sqrt_node.html#a6c5352f545db674f826d985a0e1bed08":[10,3,1,2,24,7],
-"class_j_k_q_t_math_text_sqrt_node.html#a703fbe16832095310f287d92bbbcf4c2":[10,3,1,2,24,3],
-"class_j_k_q_t_math_text_sqrt_node.html#a71ce7cdf42f308c9443b29c4a6039099":[10,3,1,2,24,5],
-"class_j_k_q_t_math_text_sqrt_node.html#a7f85d6a02618372534c287dc21013d05":[10,3,1,2,24,9],
-"class_j_k_q_t_math_text_sqrt_node.html#a996e72d5f9fd9507f3717410d4bf6587":[10,3,1,2,24,14],
-"class_j_k_q_t_math_text_sqrt_node.html#aa581cc754ef6877fa61e298a8756ded6":[10,3,1,2,24,17]
+"class_j_k_q_t_math_text_sqrt_node.html#a26d89df26c4c63464431a880686e1063":[10,3,1,2,24,8]
 };

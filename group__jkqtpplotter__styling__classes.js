@@ -23,7 +23,8 @@ var group__jkqtpplotter__styling__classes =
       [ "operator=", "class_j_k_q_t_barchart_specific_style_properties.html#a7ddc910db8cc0b91ecd62a702ecb3732", null ],
       [ "saveSettings", "class_j_k_q_t_barchart_specific_style_properties.html#aab512daa7ed857b270e20e4fc972c55a", null ],
       [ "defaultRectRadiusAtBaseline", "class_j_k_q_t_barchart_specific_style_properties.html#ac6400c96bedd8b4d852a6c8e268884cf", null ],
-      [ "defaultRectRadiusAtValue", "class_j_k_q_t_barchart_specific_style_properties.html#a4aefc0d7ef6e5b97363ae16a81fb42ca", null ]
+      [ "defaultRectRadiusAtValue", "class_j_k_q_t_barchart_specific_style_properties.html#a4aefc0d7ef6e5b97363ae16a81fb42ca", null ],
+      [ "drawBaseline", "class_j_k_q_t_barchart_specific_style_properties.html#ab70dffbc93944af60f26565f373d488c", null ]
     ] ],
     [ "JKQTBasePlotterStyle", "class_j_k_q_t_base_plotter_style.html", [
       [ "JKQTBasePlotterStyle", "class_j_k_q_t_base_plotter_style.html#a5fe1c0b258e15ce078be6210a8d4bcb9", null ],
@@ -92,7 +93,7 @@ var group__jkqtpplotter__styling__classes =
       [ "defaultPalette", "class_j_k_q_t_graphs_base_style.html#a6221744d8324437ce9dbeb397d42f212", null ],
       [ "filledStyle", "class_j_k_q_t_graphs_base_style.html#a0ce91f6cedb168dcaad66efc4ddf7683", null ],
       [ "geometricStyle", "class_j_k_q_t_graphs_base_style.html#a63e237c6f211c9cc1bbe7b0a524c35c7", null ],
-      [ "impulseStyle", "class_j_k_q_t_graphs_base_style.html#afb92f807007fad3c7c1c0eb95a73fe51", null ],
+      [ "impulseStyle", "class_j_k_q_t_graphs_base_style.html#afefa89de58fb0476304537e845100c1d", null ],
       [ "useAntiAliasingForGraphs", "class_j_k_q_t_graphs_base_style.html#a620fef0b32190cb4e0fbd7a7ca9c5669", null ]
     ] ],
     [ "JKQTGraphsSpecificStyleProperties", "class_j_k_q_t_graphs_specific_style_properties.html", [
@@ -117,6 +118,17 @@ var group__jkqtpplotter__styling__classes =
       [ "fillColorDerivationMode", "class_j_k_q_t_graphs_specific_style_properties.html#a9ce0787dcbd96c52a6d1474c7550a58b", null ],
       [ "graphColorDerivationMode", "class_j_k_q_t_graphs_specific_style_properties.html#a2bd648ac033ed7e6e2d849c0905acf54", null ],
       [ "symbolFillColorDerivationMode", "class_j_k_q_t_graphs_specific_style_properties.html#a974b9985319329a2e50bc8d6d1e72275", null ]
+    ] ],
+    [ "JKQTImpulseSpecificStyleProperties", "class_j_k_q_t_impulse_specific_style_properties.html", [
+      [ "JKQTImpulseSpecificStyleProperties", "class_j_k_q_t_impulse_specific_style_properties.html#a99432ca5b0d63eed92efd00fdf13dce3", null ],
+      [ "JKQTImpulseSpecificStyleProperties", "class_j_k_q_t_impulse_specific_style_properties.html#a4863ac9fb1bfafa914cf028089489e24", null ],
+      [ "JKQTImpulseSpecificStyleProperties", "class_j_k_q_t_impulse_specific_style_properties.html#a07348b533056638cd0ddb9a4e400e62a", null ],
+      [ "JKQTImpulseSpecificStyleProperties", "class_j_k_q_t_impulse_specific_style_properties.html#ae53fad80b0673f15ded85fd8e24b28cc", null ],
+      [ "loadSettings", "class_j_k_q_t_impulse_specific_style_properties.html#a3add2869343b95cb51ae05857bc5b826", null ],
+      [ "operator=", "class_j_k_q_t_impulse_specific_style_properties.html#aecbf6128cf082e19d87a478461775a40", null ],
+      [ "operator=", "class_j_k_q_t_impulse_specific_style_properties.html#aaa2a4ade3193a256fc008585833c20d3", null ],
+      [ "saveSettings", "class_j_k_q_t_impulse_specific_style_properties.html#aef556318d7e8eb914317cfae5742f330", null ],
+      [ "drawBaseline", "class_j_k_q_t_impulse_specific_style_properties.html#a5b1dec54ec65c3f8827f318c640f1279", null ]
     ] ],
     [ "JKQTPColorbarCoordinateAxisStyle", "class_j_k_q_t_p_colorbar_coordinate_axis_style.html", [
       [ "JKQTPColorbarCoordinateAxisStyle", "class_j_k_q_t_p_colorbar_coordinate_axis_style.html#a804eca7b1a69114180d85f1ab80686b1", null ],

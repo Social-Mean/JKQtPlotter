@@ -20,6 +20,7 @@ var annotated_dup =
     [ "JKQTGeometricSpecificStyleProperties", "class_j_k_q_t_geometric_specific_style_properties.html", "class_j_k_q_t_geometric_specific_style_properties" ],
     [ "JKQTGraphsBaseStyle", "class_j_k_q_t_graphs_base_style.html", "class_j_k_q_t_graphs_base_style" ],
     [ "JKQTGraphsSpecificStyleProperties", "class_j_k_q_t_graphs_specific_style_properties.html", "class_j_k_q_t_graphs_specific_style_properties" ],
+    [ "JKQTImpulseSpecificStyleProperties", "class_j_k_q_t_impulse_specific_style_properties.html", "class_j_k_q_t_impulse_specific_style_properties" ],
     [ "JKQTMathText", "class_j_k_q_t_math_text.html", "class_j_k_q_t_math_text" ],
     [ "JKQTMathTextBlockNode", "class_j_k_q_t_math_text_block_node.html", "class_j_k_q_t_math_text_block_node" ],
     [ "JKQTMathTextBoxInstructionNode", "class_j_k_q_t_math_text_box_instruction_node.html", "class_j_k_q_t_math_text_box_instruction_node" ],

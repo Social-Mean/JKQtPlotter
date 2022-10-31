@@ -193,6 +193,7 @@ var NAVTREEINDEX0 =
 "class_j_k_q_t_barchart_specific_style_properties.html#a62f2bc59ac27a307931c2d70a817aac0":[10,4,1,4,1,4],
 "class_j_k_q_t_barchart_specific_style_properties.html#a7ddc910db8cc0b91ecd62a702ecb3732":[10,4,1,4,1,6],
 "class_j_k_q_t_barchart_specific_style_properties.html#aab512daa7ed857b270e20e4fc972c55a":[10,4,1,4,1,7],
+"class_j_k_q_t_barchart_specific_style_properties.html#ab70dffbc93944af60f26565f373d488c":[10,4,1,4,1,10],
 "class_j_k_q_t_barchart_specific_style_properties.html#abeada9a2d797e389129e3c7d6032fb69":[10,4,1,4,1,2],
 "class_j_k_q_t_barchart_specific_style_properties.html#ac6400c96bedd8b4d852a6c8e268884cf":[10,4,1,4,1,8],
 "class_j_k_q_t_barchart_specific_style_properties.html#ac82dae99b2e34639cf6378d9f852cd1c":[10,4,1,4,1,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "class_j_k_q_t_base_plotter.html#a1989fdd628f6172bbe22058f99ffc2d0":[10,4,1,2,0,337],
 "class_j_k_q_t_base_plotter.html#a1a9298ea1d223992613fb495bcfbe7e5":[10,4,1,2,0,301],
 "class_j_k_q_t_base_plotter.html#a1b13e385eafb8026857daf2a36712f7a":[10,4,1,2,0,216],
-"class_j_k_q_t_base_plotter.html#a1b6db291aaa5416b7c5d38fce8641557":[10,4,1,2,0,333],
-"class_j_k_q_t_base_plotter.html#a1b8371175e97384c777ea2775f2008d4":[10,4,1,2,0,158]
+"class_j_k_q_t_base_plotter.html#a1b6db291aaa5416b7c5d38fce8641557":[10,4,1,2,0,333]
 };

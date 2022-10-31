@@ -119,7 +119,6 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_p_graph_line_style_mixin
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_j_k_q_t_p_graph_line_style_mixin-members.html">List of all members</a>  </div>
@@ -148,6 +147,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afff061a5d3e501088917cd4c5dac945a"><td class="memItemLeft" align="right" valign="top">QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#afff061a5d3e501088917cd4c5dac945a">getHighlightingLineColor</a> () const</td></tr>
 <tr class="memdesc:afff061a5d3e501088917cd4c5dac945a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the color of the graph line when highlighted  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#afff061a5d3e501088917cd4c5dac945a">More...</a><br /></td></tr>
 <tr class="separator:afff061a5d3e501088917cd4c5dac945a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39afeafa224de4a85f5eb45395ec80be"><td class="memItemLeft" align="right" valign="top">QPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a39afeafa224de4a85f5eb45395ec80be">getHighlightingLinePen</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, <a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *parent) const</td></tr>
+<tr class="memdesc:a39afeafa224de4a85f5eb45395ec80be"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a QPen from the line styling properties  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#a39afeafa224de4a85f5eb45395ec80be">More...</a><br /></td></tr>
+<tr class="separator:a39afeafa224de4a85f5eb45395ec80be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30925cb1f51d8b277f81990cbff1de80"><td class="memItemLeft" align="right" valign="top">QPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a30925cb1f51d8b277f81990cbff1de80">getHighlightingLinePenForRects</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, <a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *parent) const</td></tr>
+<tr class="memdesc:a30925cb1f51d8b277f81990cbff1de80"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a QPen from the line styling properties, suitable for drawing rectangle with sharp corners  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#a30925cb1f51d8b277f81990cbff1de80">More...</a><br /></td></tr>
+<tr class="separator:a30925cb1f51d8b277f81990cbff1de80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4db867e6547052809aa5151e7345d6b6"><td class="memItemLeft" align="right" valign="top">QPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a4db867e6547052809aa5151e7345d6b6">getKeyLinePen</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, const QRectF &amp;rect, <a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *parent) const</td></tr>
+<tr class="memdesc:a4db867e6547052809aa5151e7345d6b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a QPen from the line styling properties, but uses <a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#ad340472b067bcb8e0d86f278f8d40ce5" title="returns the linewidth for drawing lines in a key entry with keyRect for the symbol,...">getKeyLineWidthPx()</a> for the width, i.e. constructs a pen for drawing lines in key-symbols  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#a4db867e6547052809aa5151e7345d6b6">More...</a><br /></td></tr>
+<tr class="separator:a4db867e6547052809aa5151e7345d6b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad340472b067bcb8e0d86f278f8d40ce5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#ad340472b067bcb8e0d86f278f8d40ce5">getKeyLineWidthPx</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, const QRectF &amp;keyRect, const <a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *parent) const</td></tr>
+<tr class="memdesc:ad340472b067bcb8e0d86f278f8d40ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the linewidth for drawing lines in a key entry with <em>keyRect</em> for the symbol, using <em>painter</em> and <em>parent</em> .  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#ad340472b067bcb8e0d86f278f8d40ce5">More...</a><br /></td></tr>
+<tr class="separator:ad340472b067bcb8e0d86f278f8d40ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ab5ba9a3a2cfa12c2210fdb32f3195a"><td class="memItemLeft" align="right" valign="top">QBrush&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a9ab5ba9a3a2cfa12c2210fdb32f3195a">getLineBrush</a> () const</td></tr>
 <tr class="memdesc:a9ab5ba9a3a2cfa12c2210fdb32f3195a"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the brush used to fill the line area  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#a9ab5ba9a3a2cfa12c2210fdb32f3195a">More...</a><br /></td></tr>
 <tr class="separator:a9ab5ba9a3a2cfa12c2210fdb32f3195a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,6 +177,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae011e0c3659fc7d561237dace28d3871"><td class="memItemLeft" align="right" valign="top">Qt::PenJoinStyle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#ae011e0c3659fc7d561237dace28d3871">getLineJoinStyle</a> () const</td></tr>
 <tr class="memdesc:ae011e0c3659fc7d561237dace28d3871"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the join style  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#ae011e0c3659fc7d561237dace28d3871">More...</a><br /></td></tr>
 <tr class="separator:ae011e0c3659fc7d561237dace28d3871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cea16eb17c848fc95a5b66d4ad0ee56"><td class="memItemLeft" align="right" valign="top">QPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a3cea16eb17c848fc95a5b66d4ad0ee56">getLinePen</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, <a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *parent) const</td></tr>
+<tr class="memdesc:a3cea16eb17c848fc95a5b66d4ad0ee56"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a QPen from the line styling properties  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#a3cea16eb17c848fc95a5b66d4ad0ee56">More...</a><br /></td></tr>
+<tr class="separator:a3cea16eb17c848fc95a5b66d4ad0ee56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35a20cf06337ced65a9a29bd6cedc0e7"><td class="memItemLeft" align="right" valign="top">QPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a35a20cf06337ced65a9a29bd6cedc0e7">getLinePenForRects</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, <a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *parent) const</td></tr>
+<tr class="memdesc:a35a20cf06337ced65a9a29bd6cedc0e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a QPen from the line styling properties, suitable for drawing rectangles with sharp edges  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#a35a20cf06337ced65a9a29bd6cedc0e7">More...</a><br /></td></tr>
+<tr class="separator:a35a20cf06337ced65a9a29bd6cedc0e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48296d462f40e5a815d46f056cad9049"><td class="memItemLeft" align="right" valign="top">Qt::PenStyle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a48296d462f40e5a815d46f056cad9049">getLineStyle</a> () const</td></tr>
 <tr class="memdesc:a48296d462f40e5a815d46f056cad9049"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the style of the graph line  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#a48296d462f40e5a815d46f056cad9049">More...</a><br /></td></tr>
 <tr class="separator:a48296d462f40e5a815d46f056cad9049"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,27 +225,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2d904165c9b3ca34092730875c3f1d6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a2d904165c9b3ca34092730875c3f1d6f">setLineWidth</a> (double __value)</td></tr>
 <tr class="memdesc:a2d904165c9b3ca34092730875c3f1d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the line width of the graph line (in pt)  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#a2d904165c9b3ca34092730875c3f1d6f">More...</a><br /></td></tr>
 <tr class="separator:a2d904165c9b3ca34092730875c3f1d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a39afeafa224de4a85f5eb45395ec80be"><td class="memItemLeft" align="right" valign="top">QPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a39afeafa224de4a85f5eb45395ec80be">getHighlightingLinePen</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, <a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *parent) const</td></tr>
-<tr class="memdesc:a39afeafa224de4a85f5eb45395ec80be"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a QPen from the line styling properties  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#a39afeafa224de4a85f5eb45395ec80be">More...</a><br /></td></tr>
-<tr class="separator:a39afeafa224de4a85f5eb45395ec80be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30925cb1f51d8b277f81990cbff1de80"><td class="memItemLeft" align="right" valign="top">QPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a30925cb1f51d8b277f81990cbff1de80">getHighlightingLinePenForRects</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, <a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *parent) const</td></tr>
-<tr class="memdesc:a30925cb1f51d8b277f81990cbff1de80"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a QPen from the line styling properties, suitable for drawing rectangle with sharp corners  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#a30925cb1f51d8b277f81990cbff1de80">More...</a><br /></td></tr>
-<tr class="separator:a30925cb1f51d8b277f81990cbff1de80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4db867e6547052809aa5151e7345d6b6"><td class="memItemLeft" align="right" valign="top">QPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a4db867e6547052809aa5151e7345d6b6">getKeyLinePen</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, const QRectF &amp;rect, <a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *parent) const</td></tr>
-<tr class="memdesc:a4db867e6547052809aa5151e7345d6b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a QPen from the line styling properties, but uses <a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#ad340472b067bcb8e0d86f278f8d40ce5" title="returns the linewidth for drawing lines in a key entry with keyRect for the symbol,...">getKeyLineWidthPx()</a> for the width, i.e. constructs a pen for drawing lines in key-symbols  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#a4db867e6547052809aa5151e7345d6b6">More...</a><br /></td></tr>
-<tr class="separator:a4db867e6547052809aa5151e7345d6b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad340472b067bcb8e0d86f278f8d40ce5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#ad340472b067bcb8e0d86f278f8d40ce5">getKeyLineWidthPx</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, const QRectF &amp;keyRect, const <a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *parent) const</td></tr>
-<tr class="memdesc:ad340472b067bcb8e0d86f278f8d40ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the linewidth for drawing lines in a key entry with <em>keyRect</em> for the symbol, using <em>painter</em> and <em>parent</em> .  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#ad340472b067bcb8e0d86f278f8d40ce5">More...</a><br /></td></tr>
-<tr class="separator:ad340472b067bcb8e0d86f278f8d40ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cea16eb17c848fc95a5b66d4ad0ee56"><td class="memItemLeft" align="right" valign="top">QPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a3cea16eb17c848fc95a5b66d4ad0ee56">getLinePen</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, <a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *parent) const</td></tr>
-<tr class="memdesc:a3cea16eb17c848fc95a5b66d4ad0ee56"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a QPen from the line styling properties  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#a3cea16eb17c848fc95a5b66d4ad0ee56">More...</a><br /></td></tr>
-<tr class="separator:a3cea16eb17c848fc95a5b66d4ad0ee56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35a20cf06337ced65a9a29bd6cedc0e7"><td class="memItemLeft" align="right" valign="top">QPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a35a20cf06337ced65a9a29bd6cedc0e7">getLinePenForRects</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, <a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *parent) const</td></tr>
-<tr class="memdesc:a35a20cf06337ced65a9a29bd6cedc0e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a QPen from the line styling properties, suitable for drawing rectangles with sharp edges  <a href="class_j_k_q_t_p_graph_line_style_mixin.html#a35a20cf06337ced65a9a29bd6cedc0e7">More...</a><br /></td></tr>
-<tr class="separator:a35a20cf06337ced65a9a29bd6cedc0e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -331,9 +327,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">QPen JKQTPGraphLineStyleMixin::getHighlightingLinePen </td>
@@ -353,11 +346,6 @@ Private Attributes</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>constructs a QPen from the line styling properties </p>
@@ -369,9 +357,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">QPen JKQTPGraphLineStyleMixin::getHighlightingLinePenForRects </td>
@@ -391,11 +376,6 @@ Private Attributes</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>constructs a QPen from the line styling properties, suitable for drawing rectangle with sharp corners </p>
@@ -407,9 +387,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">QPen JKQTPGraphLineStyleMixin::getKeyLinePen </td>
@@ -435,11 +412,6 @@ Private Attributes</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>constructs a QPen from the line styling properties, but uses <a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#ad340472b067bcb8e0d86f278f8d40ce5" title="returns the linewidth for drawing lines in a key entry with keyRect for the symbol,...">getKeyLineWidthPx()</a> for the width, i.e. constructs a pen for drawing lines in key-symbols </p>
@@ -451,9 +423,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">double JKQTPGraphLineStyleMixin::getKeyLineWidthPx </td>
@@ -479,11 +448,6 @@ Private Attributes</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>returns the linewidth for drawing lines in a key entry with <em>keyRect</em> for the symbol, using <em>painter</em> and <em>parent</em> . </p>
@@ -614,9 +578,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">QPen JKQTPGraphLineStyleMixin::getLinePen </td>
@@ -636,11 +597,6 @@ Private Attributes</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>constructs a QPen from the line styling properties </p>
@@ -652,9 +608,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">QPen JKQTPGraphLineStyleMixin::getLinePenForRects </td>
@@ -674,11 +627,6 @@ Private Attributes</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>constructs a QPen from the line styling properties, suitable for drawing rectangles with sharp edges </p>
@@ -1176,7 +1124,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html">JKQTPGraphLineStyleMixin</a></li>
-    <li class="footer">Generated on Sun Oct 30 2022 21:04:54 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Mon Oct 31 2022 19:38:11 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

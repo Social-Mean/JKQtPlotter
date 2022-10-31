@@ -30,7 +30,7 @@ var searchData=
   ['imagenamer_27',['imageNameR',['../class_j_k_q_t_p_r_g_b_math_image.html#a83568e349411a0ff15b46beadbbfd9fa',1,'JKQTPRGBMathImage']]],
   ['imagercolumn_28',['imageRColumn',['../class_j_k_q_t_p_column_r_g_b_math_image.html#a6de6963906f964d4800deb0c856405f8',1,'JKQTPColumnRGBMathImage']]],
   ['imagered_29',['imageRed',['../class_j_k_q_t_f_p_r_g_b_image_overlay_plot.html#a09c73379082e3a4bf8afe1a525da840b',1,'JKQTFPRGBImageOverlayPlot']]],
-  ['impulsestyle_30',['impulseStyle',['../class_j_k_q_t_graphs_base_style.html#afb92f807007fad3c7c1c0eb95a73fe51',1,'JKQTGraphsBaseStyle']]],
+  ['impulsestyle_30',['impulseStyle',['../class_j_k_q_t_graphs_base_style.html#afefa89de58fb0476304537e845100c1d',1,'JKQTGraphsBaseStyle']]],
   ['indent_31',['indent',['../class_j_k_q_t_p_auto_output_timer.html#a7577591998fc173ec37e9f849bafc06a',1,'JKQTPAutoOutputTimer']]],
   ['index_32',['index',['../struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html#a4455efe0f8a0ce9a737295ff15174b20',1,'JKQTPPlotElement::HitTestLocation']]],
   ['infcolor_33',['infColor',['../class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#ad3c222c30e6225fe33f62b77db826ba2',1,'JKQTPColorPaletteStyleAndToolsMixin']]],

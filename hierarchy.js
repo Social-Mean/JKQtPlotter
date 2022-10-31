@@ -29,7 +29,8 @@ var hierarchy =
       [ "JKQTBarchartSpecificStyleProperties", "class_j_k_q_t_barchart_specific_style_properties.html", null ],
       [ "JKQTGeometricSpecificStyleProperties", "class_j_k_q_t_geometric_specific_style_properties.html", [
         [ "JKQTAnnotationsSpecificStyleProperties", "class_j_k_q_t_annotations_specific_style_properties.html", null ]
-      ] ]
+      ] ],
+      [ "JKQTImpulseSpecificStyleProperties", "class_j_k_q_t_impulse_specific_style_properties.html", null ]
     ] ],
     [ "JKQTMathTextEnvironment", "struct_j_k_q_t_math_text_environment.html", null ],
     [ "JKQTMathTextFontDefinition", "struct_j_k_q_t_math_text_font_definition.html", null ],
