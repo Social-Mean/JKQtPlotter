@@ -1,5 +1,9 @@
 var NAVTREEINDEX26 =
 {
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da074aefccdcf5609212602333a55f24e6":[10,4,1,1,1,8,2,5,32],
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da0961376ce206914e1af5592608983f2f":[10,4,1,1,1,8,2,5,10],
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da0f75e0203699210671a38fada68c6cc7":[10,4,1,1,1,8,2,5,21],
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da14f1256db486ce47f26753ccece12a54":[10,4,1,1,1,8,2,5,5],
 "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da174f179b59489294cec4f0318a14dde8":[10,4,1,1,1,8,2,5,83],
 "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da1826d3a4e1fdc665ac62e9f9ee054ff3":[10,4,1,1,1,8,2,5,22],
 "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da1879a8e269bb9bff662d7b246f75b474":[10,4,1,1,1,8,2,5,14],
@@ -245,9 +249,5 @@ var NAVTREEINDEX26 =
 "group__jkqtpplottersupprt.html#gga6562bedae430e91546399ae1a70cb860a24c60810d58a49ffe33160a221c4db66":[10,4,1,5,28,1],
 "group__jkqtpplottersupprt.html#gga6562bedae430e91546399ae1a70cb860a55afdd9635a7987235e5dbfa6549c482":[10,4,1,5,28,0],
 "group__jkqtpplottersupprt.html#gga6617afa61313feda8c490932016ff58fa04e6c07a8561e4f848102c4c3b87ca53":[10,4,1,5,26,0],
-"group__jkqtpplottersupprt.html#gga6617afa61313feda8c490932016ff58fa41f3b3f9abe99373630d56d5649adc77":[10,4,1,5,26,1],
-"group__jkqtpplottersupprt.html#gga6cb5c7e72efa604416b2ac1ac3fc55cda1fb40f7ba943ef4d30d74a3bc15ca802":[10,4,1,5,21,0],
-"group__jkqtpplottersupprt.html#gga6cb5c7e72efa604416b2ac1ac3fc55cda205c45e43194ee976b4b9e1a9b2a01c9":[10,4,1,5,21,1],
-"group__jkqtpplottersupprt.html#gga6cb5c7e72efa604416b2ac1ac3fc55cda5087517a252d16cfe0bc9ac7fa5f00ca":[10,4,1,5,21,3],
-"group__jkqtpplottersupprt.html#gga6cb5c7e72efa604416b2ac1ac3fc55cda777dd299b885c2031f0a90f8f075f728":[10,4,1,5,21,2]
+"group__jkqtpplottersupprt.html#gga6617afa61313feda8c490932016ff58fa41f3b3f9abe99373630d56d5649adc77":[10,4,1,5,26,1]
 };

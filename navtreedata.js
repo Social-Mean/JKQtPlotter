@@ -30,19 +30,19 @@ var NAVTREE =
       [ "Table Of Contents", "index.html#jkqtplottertic", null ]
     ] ],
     [ "Contributor Covenant Code of Conduct", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html", [
-      [ "Our Pledge", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md1", null ],
-      [ "Our Standards", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2", null ],
-      [ "Our Responsibilities", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3", null ],
-      [ "Scope", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4", null ],
-      [ "Enforcement", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5", null ],
-      [ "Attribution", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6", null ]
+      [ "Our Pledge", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md7", null ],
+      [ "Our Standards", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md8", null ],
+      [ "Our Responsibilities", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md9", null ],
+      [ "Scope", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md10", null ],
+      [ "Enforcement", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md11", null ],
+      [ "Attribution", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md12", null ]
     ] ],
     [ "Contributing", "md__c_o_n_t_r_i_b_u_t_i_n_g.html", [
-      [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8", null ],
-      [ "Our Standards", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md9", null ],
-      [ "Our Responsibilities", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10", null ],
-      [ "Scope", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md11", null ],
-      [ "Enforcement", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md12", null ]
+      [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md1", null ],
+      [ "Our Standards", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md2", null ],
+      [ "Our Responsibilities", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md3", null ],
+      [ "Scope", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md4", null ],
+      [ "Enforcement", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md5", null ]
     ] ],
     [ "Build Instructions", "page_buildinstructions.html", "page_buildinstructions" ],
     [ "Example & Tutorial Projects", "example_tutorial_projects.html", "example_tutorial_projects" ],
@@ -142,15 +142,15 @@ var NAVTREEINDEX =
 "class_j_k_q_t_p_overlay_image_enhanced.html#a17236a08ee70303d904e63272019f2e3",
 "class_j_k_q_t_p_r_g_b_math_image.html#ac407b6bfde275e00f376cd8ba39f885d",
 "class_j_k_q_t_p_violinplot_element_base.html#ac9e019ceb18ee600b892d7d826704bf8",
-"class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#abc02fa2800349133d568c9c7ef4cf4b5",
-"class_j_k_q_t_plotter.html#aa031d7a3945f0277868bb3fafb54e659",
-"group__jkqtcommon__statistics__and__math__libfacilities.html",
-"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da174f179b59489294cec4f0318a14dde8",
-"group__jkqtpplottersupprt.html#gga80d2235c912ead563f404f4e7f331137a0299106ffad81b24fee81f90f441d458",
-"group__jkqtptools__math__basic.html#gaf0ace9f4ac87719798dea6ef64068ff4",
-"group__jkqtptools__string.html#gaf98c03133ebf9e2619a23018568272e6",
-"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a8bd59c7ba4d30ce85c66053f9afc2373",
-"struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#a4d372168f19f0eecac86c3703df70ffb"
+"class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#aa8ab7dfe67768a0301eebfe6fc4c76fa",
+"class_j_k_q_t_plotter.html#a982c88440a8337ffb036cd483814d42f",
+"functions_y.html",
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da074aefccdcf5609212602333a55f24e6",
+"group__jkqtpplottersupprt.html#gga6cb5c7e72efa604416b2ac1ac3fc55cda1fb40f7ba943ef4d30d74a3bc15ca802",
+"group__jkqtptools__math__basic.html#gad8ae0cbd634f3079f88d87310504d62e",
+"group__jkqtptools__string.html#gadda659c1b40f56cc8f2c63793499179e",
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a598e6737c0414dc235e208d60ce62a9d",
+"struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#af21bea2f76e77d4d831352c336de650b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

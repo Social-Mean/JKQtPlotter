@@ -1,5 +1,9 @@
 var NAVTREEINDEX24 =
 {
+"class_j_k_q_t_plotter.html#a982c88440a8337ffb036cd483814d42f":[10,4,1,2,1,215],
+"class_j_k_q_t_plotter.html#a9906869cfa8c5f9d44b9b3e5fb277af5":[10,4,1,2,1,154],
+"class_j_k_q_t_plotter.html#a999112139473ca7b2ac30a3dafbbca9a":[10,4,1,2,1,53],
+"class_j_k_q_t_plotter.html#a9a4ee8ef43650e8dd350528b4ad20dff":[10,4,1,2,1,133],
 "class_j_k_q_t_plotter.html#aa031d7a3945f0277868bb3fafb54e659":[10,4,1,2,1,76],
 "class_j_k_q_t_plotter.html#aa086b5f85cfcf06f2add19c98fa8d2aa":[10,4,1,2,1,152],
 "class_j_k_q_t_plotter.html#aa236f85b3e9b4773fe68c967d2562b98":[10,4,1,2,1,148],
@@ -151,8 +155,8 @@ var NAVTREEINDEX24 =
 "functions_d.html":[12,3,0,3],
 "functions_e.html":[12,3,0,4],
 "functions_enum.html":[12,3,4],
-"functions_eval.html":[12,3,5],
 "functions_eval.html":[12,3,5,0],
+"functions_eval.html":[12,3,5],
 "functions_eval_b.html":[12,3,5,1],
 "functions_eval_c.html":[12,3,5,2],
 "functions_eval_d.html":[12,3,5,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX24 =
 "functions_vars_x.html":[12,3,2,23],
 "functions_vars_y.html":[12,3,2,24],
 "functions_w.html":[12,3,0,22],
-"functions_x.html":[12,3,0,23],
-"functions_y.html":[12,3,0,24],
-"functions_z.html":[12,3,0,25],
-"functions_~.html":[12,3,0,26],
-"group__jkqtcommon__statistics__and__math.html":[10,1]
+"functions_x.html":[12,3,0,23]
 };

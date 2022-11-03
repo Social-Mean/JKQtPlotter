@@ -120,8 +120,10 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_p_x_y_baseline_graph.htm
   <div class="summary">
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_j_k_q_t_p_x_y_baseline_graph-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">JKQTPXYBaselineGraph Class Reference<div class="ingroups"><a class="el" href="group__jkqtplotter.html">JKQTPlotter: Qt based Scientific Plotter Class</a> &raquo; <a class="el" href="group__jkqtplotter__classdoc.html">Type/Class/Function Documentation</a> &raquo; <a class="el" href="group__jkqtplotter__elements.html">Plot Element Classes</a> &raquo; <a class="el" href="group__jkqtplotter__basegraphs.html">Baseclasses for Graphs</a></div></div></div>
 </div><!--header-->
@@ -344,75 +346,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa4556f29d05fc52d2560592fdba15d8a inherit pub_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool routine that transforms a y-coordinate (plot coordinate --&gt; pixels) for this plot element  <a href="class_j_k_q_t_p_plot_element.html#aa4556f29d05fc52d2560592fdba15d8a">More...</a><br /></td></tr>
 <tr class="separator:aa4556f29d05fc52d2560592fdba15d8a inherit pub_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:ad5658330643e8ec411ec46cd80ace2b3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_baseline_graph.html#ad5658330643e8ec411ec46cd80ace2b3">m_baseline</a></td></tr>
-<tr class="memdesc:ad5658330643e8ec411ec46cd80ace2b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">baseline of the plot (NOTE: 0 is interpreted as until plot border in log-mode!!!)  <a href="class_j_k_q_t_p_x_y_baseline_graph.html#ad5658330643e8ec411ec46cd80ace2b3">More...</a><br /></td></tr>
-<tr class="separator:ad5658330643e8ec411ec46cd80ace2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_class_j_k_q_t_p_x_y_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_j_k_q_t_p_x_y_graph')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_j_k_q_t_p_x_y_graph.html">JKQTPXYGraph</a></td></tr>
-<tr class="memitem:a3d4cdab4a709d064684381ab925e4e03 inherit pro_attribs_class_j_k_q_t_p_x_y_graph"><td class="memItemLeft" align="right" valign="top">QVector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#a3d4cdab4a709d064684381ab925e4e03">sortedIndices</a></td></tr>
-<tr class="memdesc:a3d4cdab4a709d064684381ab925e4e03 inherit pro_attribs_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">this array contains the order of indices, in which to access the data in the data columns  <a href="class_j_k_q_t_p_x_y_graph.html#a3d4cdab4a709d064684381ab925e4e03">More...</a><br /></td></tr>
-<tr class="separator:a3d4cdab4a709d064684381ab925e4e03 inherit pro_attribs_class_j_k_q_t_p_x_y_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_class_j_k_q_t_p_plot_element"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_j_k_q_t_p_plot_element')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_j_k_q_t_p_plot_element.html">JKQTPPlotElement</a></td></tr>
-<tr class="memitem:a9edaa52a77a4829a6ed5ead3ffce69ce inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top">QVector&lt; <a class="el" href="struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html">HitTestLocation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a9edaa52a77a4829a6ed5ead3ffce69ce">m_hitTestData</a></td></tr>
-<tr class="memdesc:a9edaa52a77a4829a6ed5ead3ffce69ce inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">dataset with graph-points and associated data fro the function <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <a href="class_j_k_q_t_p_plot_element.html#a9edaa52a77a4829a6ed5ead3ffce69ce">More...</a><br /></td></tr>
-<tr class="separator:a9edaa52a77a4829a6ed5ead3ffce69ce inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dcfd87466c520b10078c037527d8918 inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a7dcfd87466c520b10078c037527d8918">parent</a></td></tr>
-<tr class="memdesc:a7dcfd87466c520b10078c037527d8918 inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">the plotter object this object belongs to  <a href="class_j_k_q_t_p_plot_element.html#a7dcfd87466c520b10078c037527d8918">More...</a><br /></td></tr>
-<tr class="separator:a7dcfd87466c520b10078c037527d8918 inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05f99859e10d874e9a86512cbab9674f inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a05f99859e10d874e9a86512cbab9674f">parentPlotStyle</a></td></tr>
-<tr class="memdesc:a05f99859e10d874e9a86512cbab9674f inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal storage for the used parent plot style  <a href="class_j_k_q_t_p_plot_element.html#a05f99859e10d874e9a86512cbab9674f">More...</a><br /></td></tr>
-<tr class="separator:a05f99859e10d874e9a86512cbab9674f inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:a004a8e1c1695a5673214929564dec8e5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_baseline_graph.html#a004a8e1c1695a5673214929564dec8e5">baseline</a></td></tr>
-<tr class="separator:a004a8e1c1695a5673214929564dec8e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header properties_class_j_k_q_t_p_x_y_graph"><td colspan="2" onclick="javascript:toggleInherit('properties_class_j_k_q_t_p_x_y_graph')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_j_k_q_t_p_x_y_graph.html">JKQTPXYGraph</a></td></tr>
-<tr class="memitem:ac58795c7b6975dca5ed8044d08f65160 inherit properties_class_j_k_q_t_p_x_y_graph"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909">DataSortOrder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac58795c7b6975dca5ed8044d08f65160">sortData</a></td></tr>
-<tr class="memdesc:ac58795c7b6975dca5ed8044d08f65160 inherit properties_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <code>!=Unsorted</code>, the data is sorted before plotting  <a href="class_j_k_q_t_p_x_y_graph.html#ac58795c7b6975dca5ed8044d08f65160">More...</a><br /></td></tr>
-<tr class="separator:ac58795c7b6975dca5ed8044d08f65160 inherit properties_class_j_k_q_t_p_x_y_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51dd754e072c0e395aa8abd6924f036a inherit properties_class_j_k_q_t_p_x_y_graph"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a">xColumn</a></td></tr>
-<tr class="memdesc:a51dd754e072c0e395aa8abd6924f036a inherit properties_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">the column that contains the x-component of the datapoints  <a href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a">More...</a><br /></td></tr>
-<tr class="separator:a51dd754e072c0e395aa8abd6924f036a inherit properties_class_j_k_q_t_p_x_y_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc58b3e3a24dae4641c7cb8ac41e780a inherit properties_class_j_k_q_t_p_x_y_graph"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a">yColumn</a></td></tr>
-<tr class="memdesc:acc58b3e3a24dae4641c7cb8ac41e780a inherit properties_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">the column that contains the y-component of the datapoints  <a href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a">More...</a><br /></td></tr>
-<tr class="separator:acc58b3e3a24dae4641c7cb8ac41e780a inherit properties_class_j_k_q_t_p_x_y_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header properties_class_j_k_q_t_p_plot_element"><td colspan="2" onclick="javascript:toggleInherit('properties_class_j_k_q_t_p_plot_element')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_j_k_q_t_p_plot_element.html">JKQTPPlotElement</a></td></tr>
-<tr class="memitem:a49e2a158f606b87e1b0c532c114d4a01 inherit properties_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a49e2a158f606b87e1b0c532c114d4a01">highlighted</a></td></tr>
-<tr class="memdesc:a49e2a158f606b87e1b0c532c114d4a01 inherit properties_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates whether the graph is shown in a "highlghted" in the plot  <a href="class_j_k_q_t_p_plot_element.html#a49e2a158f606b87e1b0c532c114d4a01">More...</a><br /></td></tr>
-<tr class="separator:a49e2a158f606b87e1b0c532c114d4a01 inherit properties_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac55d3a7d83a4aa7e62aadfd691ea7eeb inherit properties_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#ac55d3a7d83a4aa7e62aadfd691ea7eeb">title</a></td></tr>
-<tr class="memdesc:ac55d3a7d83a4aa7e62aadfd691ea7eeb inherit properties_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">title of the plot (for display in key!). If no title is supplied, no key entry is drawn.  <a href="class_j_k_q_t_p_plot_element.html#ac55d3a7d83a4aa7e62aadfd691ea7eeb">More...</a><br /></td></tr>
-<tr class="separator:ac55d3a7d83a4aa7e62aadfd691ea7eeb inherit properties_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c1c436967a7fe7ee1512478c0baf602 inherit properties_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a1c1c436967a7fe7ee1512478c0baf602">visible</a></td></tr>
-<tr class="memdesc:a1c1c436967a7fe7ee1512478c0baf602 inherit properties_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates whether the graph is visible in the plot  <a href="class_j_k_q_t_p_plot_element.html#a1c1c436967a7fe7ee1512478c0baf602">More...</a><br /></td></tr>
-<tr class="separator:a1c1c436967a7fe7ee1512478c0baf602 inherit properties_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_class_j_k_q_t_p_x_y_graph"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_j_k_q_t_p_x_y_graph')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_j_k_q_t_p_x_y_graph.html">JKQTPXYGraph</a></td></tr>
-<tr class="memitem:ac6343eedb62ab432de4e563c0b734909 inherit pub_types_class_j_k_q_t_p_x_y_graph"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909">DataSortOrder</a> { <br />
-&#160;&#160;<a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909a615f807714e5411337ca6c2748d27fce">Unsorted</a> =0
-, <br />
-&#160;&#160;<a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909a49028b29bbaaa1c223075c5fbca809ec">SortedX</a> =1
-, <br />
-&#160;&#160;<a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909a2016d1112c09a22048f24be6c3879f57">SortedY</a> =2
-<br />
- }</td></tr>
-<tr class="memdesc:ac6343eedb62ab432de4e563c0b734909"><td class="mdescLeft">&#160;</td><td class="mdescRight">specifies how to sort the data in a <a class="el" href="class_j_k_q_t_p_x_y_graph.html" title="This virtual JKQTPGraph descendent may be used as base for all graphs that use at least two columns t...">JKQTPXYGraph</a> before drawing  <a href="class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909">More...</a><br /></td></tr>
-<tr class="separator:ac6343eedb62ab432de4e563c0b734909 inherit pub_types_class_j_k_q_t_p_x_y_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_class_j_k_q_t_p_plot_element"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_j_k_q_t_p_plot_element')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_j_k_q_t_p_plot_element.html">JKQTPPlotElement</a></td></tr>
-<tr class="memitem:ada033e8fe68bbb9d24a28602ea969332 inherit pub_types_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#ada033e8fe68bbb9d24a28602ea969332">HitTestMode</a> { <br />
-&#160;&#160;<a class="el" href="class_j_k_q_t_p_plot_element.html#ada033e8fe68bbb9d24a28602ea969332a78e85d1b53b16a44de8244d5cf8235a5">HitTestXY</a>
-, <br />
-&#160;&#160;<a class="el" href="class_j_k_q_t_p_plot_element.html#ada033e8fe68bbb9d24a28602ea969332a02f3b108acc2407a1d179f5bcfc7526e">HitTestXOnly</a>
-, <br />
-&#160;&#160;<a class="el" href="class_j_k_q_t_p_plot_element.html#ada033e8fe68bbb9d24a28602ea969332abfa7a1fc942a6c8fb4857eef430e54cd">HitTestYOnly</a>
-<br />
- }</td></tr>
-<tr class="memdesc:ada033e8fe68bbb9d24a28602ea969332"><td class="mdescLeft">&#160;</td><td class="mdescRight">modes of operation for the function <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <a href="class_j_k_q_t_p_plot_element.html#ada033e8fe68bbb9d24a28602ea969332">More...</a><br /></td></tr>
-<tr class="separator:ada033e8fe68bbb9d24a28602ea969332 inherit pub_types_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:af9cf0a01173776ce5139e97631ca105a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_baseline_graph.html#af9cf0a01173776ce5139e97631ca105a">getMinMaxWithBaseline</a> (int dataColumn, double &amp;minv, double &amp;maxv, double &amp;smallestGreaterZero)</td></tr>
+<tr class="memdesc:af9cf0a01173776ce5139e97631ca105a"><td class="mdescLeft">&#160;</td><td class="mdescRight">can be called by <a class="el" href="class_j_k_q_t_p_plot_element.html#a4fde58faa62550c210ca240ec6bb9a49" title="get the maximum and minimum x-value of the graph">JKQTPGraph::getXMinMax()</a> or <a class="el" href="class_j_k_q_t_p_plot_element.html#ae20f858f06ea7cd02cb97def97e027c1" title="get the maximum and minimum y-value of the graph">JKQTPGraph::getYMinMax()</a> calculates min/max/... for data from the given column, including the baseline  <a href="class_j_k_q_t_p_x_y_baseline_graph.html#af9cf0a01173776ce5139e97631ca105a">More...</a><br /></td></tr>
+<tr class="separator:af9cf0a01173776ce5139e97631ca105a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56076de876789bbf7acbce8524ae28bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_baseline_graph.html#a56076de876789bbf7acbce8524ae28bb">getMinMaxWithErrorsAndBaseline</a> (int dataColumn, int errorColumn, int errorColumnLower, bool errorSymmetric, double &amp;minv, double &amp;maxv, double &amp;smallestGreaterZero)</td></tr>
+<tr class="memdesc:a56076de876789bbf7acbce8524ae28bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">can be called by <a class="el" href="class_j_k_q_t_p_plot_element.html#a4fde58faa62550c210ca240ec6bb9a49" title="get the maximum and minimum x-value of the graph">JKQTPGraph::getXMinMax()</a> or <a class="el" href="class_j_k_q_t_p_plot_element.html#ae20f858f06ea7cd02cb97def97e027c1" title="get the maximum and minimum y-value of the graph">JKQTPGraph::getYMinMax()</a> calculates min/max/... for data from the given column, including the baseline and an optional error  <a href="class_j_k_q_t_p_x_y_baseline_graph.html#a56076de876789bbf7acbce8524ae28bb">More...</a><br /></td></tr>
+<tr class="separator:a56076de876789bbf7acbce8524ae28bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_j_k_q_t_p_x_y_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_p_x_y_graph')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_p_x_y_graph.html">JKQTPXYGraph</a></td></tr>
 <tr class="memitem:a85d1f764f38d16ed361dd211b49e551d inherit pro_methods_class_j_k_q_t_p_x_y_graph"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#a85d1f764f38d16ed361dd211b49e551d">getDataIndex</a> (int i) const</td></tr>
 <tr class="memdesc:a85d1f764f38d16ed361dd211b49e551d inherit pro_methods_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the index of the i-th datapoint (where i is an index into the SORTED datapoints)  <a href="class_j_k_q_t_p_x_y_graph.html#a85d1f764f38d16ed361dd211b49e551d">More...</a><br /></td></tr>
@@ -464,6 +405,85 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a0fd8e4d7c0235a5ad48da313adbe134c inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a0fd8e4d7c0235a5ad48da313adbe134c">reserveHitTestData</a> (int points)</td></tr>
 <tr class="memdesc:a0fd8e4d7c0235a5ad48da313adbe134c inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">reserve list entries for up to <em>points</em> graph points in the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <a href="class_j_k_q_t_p_plot_element.html#a0fd8e4d7c0235a5ad48da313adbe134c">More...</a><br /></td></tr>
 <tr class="separator:a0fd8e4d7c0235a5ad48da313adbe134c inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ad5658330643e8ec411ec46cd80ace2b3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_baseline_graph.html#ad5658330643e8ec411ec46cd80ace2b3">m_baseline</a></td></tr>
+<tr class="memdesc:ad5658330643e8ec411ec46cd80ace2b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">baseline of the plot (NOTE: 0 is interpreted as until plot border in log-mode!!!)  <a href="class_j_k_q_t_p_x_y_baseline_graph.html#ad5658330643e8ec411ec46cd80ace2b3">More...</a><br /></td></tr>
+<tr class="separator:ad5658330643e8ec411ec46cd80ace2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_j_k_q_t_p_x_y_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_j_k_q_t_p_x_y_graph')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_j_k_q_t_p_x_y_graph.html">JKQTPXYGraph</a></td></tr>
+<tr class="memitem:a3d4cdab4a709d064684381ab925e4e03 inherit pro_attribs_class_j_k_q_t_p_x_y_graph"><td class="memItemLeft" align="right" valign="top">QVector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#a3d4cdab4a709d064684381ab925e4e03">sortedIndices</a></td></tr>
+<tr class="memdesc:a3d4cdab4a709d064684381ab925e4e03 inherit pro_attribs_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">this array contains the order of indices, in which to access the data in the data columns  <a href="class_j_k_q_t_p_x_y_graph.html#a3d4cdab4a709d064684381ab925e4e03">More...</a><br /></td></tr>
+<tr class="separator:a3d4cdab4a709d064684381ab925e4e03 inherit pro_attribs_class_j_k_q_t_p_x_y_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_j_k_q_t_p_plot_element"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_j_k_q_t_p_plot_element')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_j_k_q_t_p_plot_element.html">JKQTPPlotElement</a></td></tr>
+<tr class="memitem:a9edaa52a77a4829a6ed5ead3ffce69ce inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top">QVector&lt; <a class="el" href="struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html">HitTestLocation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a9edaa52a77a4829a6ed5ead3ffce69ce">m_hitTestData</a></td></tr>
+<tr class="memdesc:a9edaa52a77a4829a6ed5ead3ffce69ce inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">dataset with graph-points and associated data fro the function <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <a href="class_j_k_q_t_p_plot_element.html#a9edaa52a77a4829a6ed5ead3ffce69ce">More...</a><br /></td></tr>
+<tr class="separator:a9edaa52a77a4829a6ed5ead3ffce69ce inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dcfd87466c520b10078c037527d8918 inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a7dcfd87466c520b10078c037527d8918">parent</a></td></tr>
+<tr class="memdesc:a7dcfd87466c520b10078c037527d8918 inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">the plotter object this object belongs to  <a href="class_j_k_q_t_p_plot_element.html#a7dcfd87466c520b10078c037527d8918">More...</a><br /></td></tr>
+<tr class="separator:a7dcfd87466c520b10078c037527d8918 inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05f99859e10d874e9a86512cbab9674f inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a05f99859e10d874e9a86512cbab9674f">parentPlotStyle</a></td></tr>
+<tr class="memdesc:a05f99859e10d874e9a86512cbab9674f inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal storage for the used parent plot style  <a href="class_j_k_q_t_p_plot_element.html#a05f99859e10d874e9a86512cbab9674f">More...</a><br /></td></tr>
+<tr class="separator:a05f99859e10d874e9a86512cbab9674f inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a004a8e1c1695a5673214929564dec8e5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_baseline_graph.html#a004a8e1c1695a5673214929564dec8e5">baseline</a></td></tr>
+<tr class="separator:a004a8e1c1695a5673214929564dec8e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_j_k_q_t_p_x_y_graph"><td colspan="2" onclick="javascript:toggleInherit('properties_class_j_k_q_t_p_x_y_graph')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_j_k_q_t_p_x_y_graph.html">JKQTPXYGraph</a></td></tr>
+<tr class="memitem:ac58795c7b6975dca5ed8044d08f65160 inherit properties_class_j_k_q_t_p_x_y_graph"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909">DataSortOrder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac58795c7b6975dca5ed8044d08f65160">sortData</a></td></tr>
+<tr class="memdesc:ac58795c7b6975dca5ed8044d08f65160 inherit properties_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <code>!=Unsorted</code>, the data is sorted before plotting  <a href="class_j_k_q_t_p_x_y_graph.html#ac58795c7b6975dca5ed8044d08f65160">More...</a><br /></td></tr>
+<tr class="separator:ac58795c7b6975dca5ed8044d08f65160 inherit properties_class_j_k_q_t_p_x_y_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51dd754e072c0e395aa8abd6924f036a inherit properties_class_j_k_q_t_p_x_y_graph"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a">xColumn</a></td></tr>
+<tr class="memdesc:a51dd754e072c0e395aa8abd6924f036a inherit properties_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">the column that contains the x-component of the datapoints  <a href="class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a">More...</a><br /></td></tr>
+<tr class="separator:a51dd754e072c0e395aa8abd6924f036a inherit properties_class_j_k_q_t_p_x_y_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc58b3e3a24dae4641c7cb8ac41e780a inherit properties_class_j_k_q_t_p_x_y_graph"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a">yColumn</a></td></tr>
+<tr class="memdesc:acc58b3e3a24dae4641c7cb8ac41e780a inherit properties_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">the column that contains the y-component of the datapoints  <a href="class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a">More...</a><br /></td></tr>
+<tr class="separator:acc58b3e3a24dae4641c7cb8ac41e780a inherit properties_class_j_k_q_t_p_x_y_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_j_k_q_t_p_plot_element"><td colspan="2" onclick="javascript:toggleInherit('properties_class_j_k_q_t_p_plot_element')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_j_k_q_t_p_plot_element.html">JKQTPPlotElement</a></td></tr>
+<tr class="memitem:a49e2a158f606b87e1b0c532c114d4a01 inherit properties_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a49e2a158f606b87e1b0c532c114d4a01">highlighted</a></td></tr>
+<tr class="memdesc:a49e2a158f606b87e1b0c532c114d4a01 inherit properties_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates whether the graph is shown in a "highlghted" in the plot  <a href="class_j_k_q_t_p_plot_element.html#a49e2a158f606b87e1b0c532c114d4a01">More...</a><br /></td></tr>
+<tr class="separator:a49e2a158f606b87e1b0c532c114d4a01 inherit properties_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55d3a7d83a4aa7e62aadfd691ea7eeb inherit properties_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#ac55d3a7d83a4aa7e62aadfd691ea7eeb">title</a></td></tr>
+<tr class="memdesc:ac55d3a7d83a4aa7e62aadfd691ea7eeb inherit properties_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">title of the plot (for display in key!). If no title is supplied, no key entry is drawn.  <a href="class_j_k_q_t_p_plot_element.html#ac55d3a7d83a4aa7e62aadfd691ea7eeb">More...</a><br /></td></tr>
+<tr class="separator:ac55d3a7d83a4aa7e62aadfd691ea7eeb inherit properties_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c1c436967a7fe7ee1512478c0baf602 inherit properties_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a1c1c436967a7fe7ee1512478c0baf602">visible</a></td></tr>
+<tr class="memdesc:a1c1c436967a7fe7ee1512478c0baf602 inherit properties_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates whether the graph is visible in the plot  <a href="class_j_k_q_t_p_plot_element.html#a1c1c436967a7fe7ee1512478c0baf602">More...</a><br /></td></tr>
+<tr class="separator:a1c1c436967a7fe7ee1512478c0baf602 inherit properties_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aab5f80e9320aba923de8be2713803509"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_baseline_graph.html#aab5f80e9320aba923de8be2713803509">getErrorL</a> (int i, const <a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *ds, int xErrorColumn, int xErrorColumnLower, bool xErrorSymmetric) const</td></tr>
+<tr class="memdesc:aab5f80e9320aba923de8be2713803509"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the lower error for the i-th datapoint, read from datastore <em>ds</em>  <a href="class_j_k_q_t_p_x_y_baseline_graph.html#aab5f80e9320aba923de8be2713803509">More...</a><br /></td></tr>
+<tr class="separator:aab5f80e9320aba923de8be2713803509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62fac592e86e926d3b932addb34cd2ff"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_baseline_graph.html#a62fac592e86e926d3b932addb34cd2ff">getErrorU</a> (int i, const <a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *ds, int xErrorColumn) const</td></tr>
+<tr class="memdesc:a62fac592e86e926d3b932addb34cd2ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the upper error for the i-th datapoint, read from datastore <em>ds</em>  <a href="class_j_k_q_t_p_x_y_baseline_graph.html#a62fac592e86e926d3b932addb34cd2ff">More...</a><br /></td></tr>
+<tr class="separator:a62fac592e86e926d3b932addb34cd2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_class_j_k_q_t_p_x_y_graph"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_j_k_q_t_p_x_y_graph')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_j_k_q_t_p_x_y_graph.html">JKQTPXYGraph</a></td></tr>
+<tr class="memitem:ac6343eedb62ab432de4e563c0b734909 inherit pub_types_class_j_k_q_t_p_x_y_graph"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909">DataSortOrder</a> { <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909a615f807714e5411337ca6c2748d27fce">Unsorted</a> =0
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909a49028b29bbaaa1c223075c5fbca809ec">SortedX</a> =1
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909a2016d1112c09a22048f24be6c3879f57">SortedY</a> =2
+<br />
+ }</td></tr>
+<tr class="memdesc:ac6343eedb62ab432de4e563c0b734909"><td class="mdescLeft">&#160;</td><td class="mdescRight">specifies how to sort the data in a <a class="el" href="class_j_k_q_t_p_x_y_graph.html" title="This virtual JKQTPGraph descendent may be used as base for all graphs that use at least two columns t...">JKQTPXYGraph</a> before drawing  <a href="class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909">More...</a><br /></td></tr>
+<tr class="separator:ac6343eedb62ab432de4e563c0b734909 inherit pub_types_class_j_k_q_t_p_x_y_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_class_j_k_q_t_p_plot_element"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_j_k_q_t_p_plot_element')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_j_k_q_t_p_plot_element.html">JKQTPPlotElement</a></td></tr>
+<tr class="memitem:ada033e8fe68bbb9d24a28602ea969332 inherit pub_types_class_j_k_q_t_p_plot_element"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#ada033e8fe68bbb9d24a28602ea969332">HitTestMode</a> { <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_p_plot_element.html#ada033e8fe68bbb9d24a28602ea969332a78e85d1b53b16a44de8244d5cf8235a5">HitTestXY</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_p_plot_element.html#ada033e8fe68bbb9d24a28602ea969332a02f3b108acc2407a1d179f5bcfc7526e">HitTestXOnly</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_p_plot_element.html#ada033e8fe68bbb9d24a28602ea969332abfa7a1fc942a6c8fb4857eef430e54cd">HitTestYOnly</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:ada033e8fe68bbb9d24a28602ea969332"><td class="mdescLeft">&#160;</td><td class="mdescRight">modes of operation for the function <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <a href="class_j_k_q_t_p_plot_element.html#ada033e8fe68bbb9d24a28602ea969332">More...</a><br /></td></tr>
+<tr class="separator:ada033e8fe68bbb9d24a28602ea969332 inherit pub_types_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >This virtual <a class="el" href="class_j_k_q_t_p_graph.html" title="this virtual base class of the (data-column based) graphs, which are part of a JKQTPlotter plot and w...">JKQTPGraph</a> descendent extends <a class="el" href="class_j_k_q_t_p_x_y_graph.html" title="This virtual JKQTPGraph descendent may be used as base for all graphs that use at least two columns t...">JKQTPXYGraph</a> adds a baseline-property, which is necessary, e.g. for barcharts, filled graphs to indicate until where to draw the bar or fill the curve (default is 0). </p>
@@ -510,6 +530,224 @@ Additional Inherited Members</h2></td></tr>
 <img src="impulsesplot_baseline.png" alt=""/>
 </div>
  
+</div>
+</div>
+<a id="aab5f80e9320aba923de8be2713803509" name="aab5f80e9320aba923de8be2713803509"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab5f80e9320aba923de8be2713803509">&#9670;&nbsp;</a></span>getErrorL()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPXYBaselineGraph::getErrorL </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *&#160;</td>
+          <td class="paramname"><em>ds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>xErrorColumn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>xErrorColumnLower</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>xErrorSymmetric</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the lower error for the i-th datapoint, read from datastore <em>ds</em> </p>
+
+</div>
+</div>
+<a id="a62fac592e86e926d3b932addb34cd2ff" name="a62fac592e86e926d3b932addb34cd2ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62fac592e86e926d3b932addb34cd2ff">&#9670;&nbsp;</a></span>getErrorU()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPXYBaselineGraph::getErrorU </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *&#160;</td>
+          <td class="paramname"><em>ds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>xErrorColumn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the upper error for the i-th datapoint, read from datastore <em>ds</em> </p>
+
+</div>
+</div>
+<a id="af9cf0a01173776ce5139e97631ca105a" name="af9cf0a01173776ce5139e97631ca105a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9cf0a01173776ce5139e97631ca105a">&#9670;&nbsp;</a></span>getMinMaxWithBaseline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool JKQTPXYBaselineGraph::getMinMaxWithBaseline </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dataColumn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>minv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>maxv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>smallestGreaterZero</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>can be called by <a class="el" href="class_j_k_q_t_p_plot_element.html#a4fde58faa62550c210ca240ec6bb9a49" title="get the maximum and minimum x-value of the graph">JKQTPGraph::getXMinMax()</a> or <a class="el" href="class_j_k_q_t_p_plot_element.html#ae20f858f06ea7cd02cb97def97e027c1" title="get the maximum and minimum y-value of the graph">JKQTPGraph::getYMinMax()</a> calculates min/max/... for data from the given column, including the baseline </p>
+
+</div>
+</div>
+<a id="a56076de876789bbf7acbce8524ae28bb" name="a56076de876789bbf7acbce8524ae28bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56076de876789bbf7acbce8524ae28bb">&#9670;&nbsp;</a></span>getMinMaxWithErrorsAndBaseline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool JKQTPXYBaselineGraph::getMinMaxWithErrorsAndBaseline </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dataColumn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>errorColumn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>errorColumnLower</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>errorSymmetric</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>minv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>maxv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>smallestGreaterZero</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>can be called by <a class="el" href="class_j_k_q_t_p_plot_element.html#a4fde58faa62550c210ca240ec6bb9a49" title="get the maximum and minimum x-value of the graph">JKQTPGraph::getXMinMax()</a> or <a class="el" href="class_j_k_q_t_p_plot_element.html#ae20f858f06ea7cd02cb97def97e027c1" title="get the maximum and minimum y-value of the graph">JKQTPGraph::getYMinMax()</a> calculates min/max/... for data from the given column, including the baseline and an optional error </p>
+
 </div>
 </div>
 <a id="a8a0d886b3f92bf298e27e2b1cddaaf75" name="a8a0d886b3f92bf298e27e2b1cddaaf75"></a>
@@ -604,7 +842,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_x_y_baseline_graph.html">JKQTPXYBaselineGraph</a></li>
-    <li class="footer">Generated on Mon Oct 31 2022 19:38:12 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
+    <li class="footer">Generated on Thu Nov 3 2022 14:56:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.3 </li>
   </ul>
 </div>
 </body>

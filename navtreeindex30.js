@@ -1,5 +1,9 @@
 var NAVTREEINDEX30 =
 {
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a598e6737c0414dc235e208d60ce62a9d":[10,3,1,2,39,36],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a5d80a3e2a139ac382263b52f8152a171":[10,3,1,2,39,27],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a6c4e8a663b2922247d2f9a2907e7dbf1":[10,3,1,2,39,23],
+"struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a889e35bebbb8cf25c41b069d46f4d952":[10,3,1,2,39,32],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a8bd59c7ba4d30ce85c66053f9afc2373":[10,3,1,2,39,5],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a8d7dfdafa04f5745626b61b89713030f":[10,3,1,2,39,24],
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a8dc638553da629d21a9b5dcfcfa75d49":[10,3,1,2,39,20],
@@ -245,9 +249,5 @@ var NAVTREEINDEX30 =
 "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#ad2ae3cd05a3f3bf9c5a7f84677bebb90":[10,4,1,2,3,3],
 "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#ad8d4e73ce2bbe465d3a262dfe938ec0f":[10,4,1,2,3,7],
 "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#aebccb44e1d00ff05a7912c5677b54698":[10,4,1,2,3,1],
-"struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#af1383923ea577c9b97233c2833edf58f":[10,4,1,2,3,4],
-"struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#af21bea2f76e77d4d831352c336de650b":[10,4,1,2,3,2],
-"struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html":[10,4,1,2,4],
-"struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#a102bd25692e962047b0ca55e0ceeab54":[10,4,1,2,4,1],
-"struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#a3040c7f0b90e093a88ef12ff72e8b1e9":[10,4,1,2,4,5]
+"struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#af1383923ea577c9b97233c2833edf58f":[10,4,1,2,3,4]
 };
