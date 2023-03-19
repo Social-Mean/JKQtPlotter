@@ -44,10 +44,10 @@ var example_tutorial_projects =
       [ "Simple C++ inline function", "_j_k_q_t_plotter_function_plots.html#autotoc_md70", null ],
       [ "Simple C++ inline function with parameters", "_j_k_q_t_plotter_function_plots.html#autotoc_md71", null ],
       [ "C++ functors as plot functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md72", null ],
-      [ "Static C functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md73", null ],
-      [ "Predefined \"special\" functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md74", null ],
-      [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md75", null ],
-      [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md76", null ]
+      [ "Static C functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md74", null ],
+      [ "Predefined \"special\" functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md75", null ],
+      [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md77", null ],
+      [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md78", null ]
     ] ],
     [ "Example (JKQTPlotter): Plotting Parsed Mathematical Functions as Line Graphs", "_j_k_q_t_plotter_parsed_function_plot.html", [
       [ "Plot Function f(x)", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md85", null ],
@@ -64,24 +64,24 @@ var example_tutorial_projects =
     ] ],
     [ "Example (JKQTPlotter): Boxplots", "_j_k_q_t_plotter_boxplots_graphs.html", null ],
     [ "Example (JKQTPlotter): Violin Plots", "_j_k_q_t_plotter_violinplot_graphs.html", [
-      [ "Generating a test Dataset", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md102", null ],
-      [ "Visualizing data as a Rug Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md103", null ],
-      [ "Drawing the (vertical) Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md104", null ],
-      [ "Drawing a horizontal Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md107", null ],
-      [ "Adapters as shortcuts to drawing Violin Plots", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md109", null ]
+      [ "Generating a test Dataset", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md115", null ],
+      [ "Visualizing data as a Rug Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md116", null ],
+      [ "Drawing the (vertical) Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md117", null ],
+      [ "Drawing a horizontal Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md118", null ],
+      [ "Adapters as shortcuts to drawing Violin Plots", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md119", null ]
     ] ],
     [ "Example (JKQTPlotter): Plotting Geometric Objects", "_j_k_q_t_plotter_geometric_graphs.html", null ],
     [ "Example (JKQTPlotter): Generating Demo-Plots of Geometric Objects for Documentation", "_j_k_q_t_plotter_geometric_graphs_simple.html", null ],
     [ "Example (JKQTPlotter): Plotting Arrows", "_j_k_q_t_plotter_geometric_arrows.html", [
-      [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md77", null ],
-      [ "Classes with support for arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md78", null ],
+      [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md73", null ],
+      [ "Classes with support for arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md76", null ],
       [ "Screenshot", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md79", null ]
     ] ],
     [ "Example (JKQTPlotter): Plot With Axes through Origin", "_j_k_q_t_plotter_geometric_coordinate_axis0.html", null ],
     [ "Example (JKQTPlotter): Line Graph with Logarithmic y-axis", "_j_k_q_t_plotter_log_axes.html", null ],
     [ "Example (JKQTPlotter): Date/Time Axes", "_j_k_q_t_plotter_date_time_axes.html", [
-      [ "Date Axis", "_j_k_q_t_plotter_date_time_axes.html#autotoc_md57", null ],
-      [ "Time Axis", "_j_k_q_t_plotter_date_time_axes.html#autotoc_md58", null ]
+      [ "Date Axis", "_j_k_q_t_plotter_date_time_axes.html#autotoc_md58", null ],
+      [ "Time Axis", "_j_k_q_t_plotter_date_time_axes.html#autotoc_md60", null ]
     ] ],
     [ "Example (JKQTPlotter): Advanced Line and Fill Styling", "_j_k_q_t_plotter_advanced_line_and_fill_styling.html", null ],
     [ "Example (JKQTPlotter): Styling different aspects of boxplots", "_j_k_q_t_plotter_boxplot_styling.html", null ],
@@ -123,20 +123,20 @@ var example_tutorial_projects =
       [ "Available User-Interactions", "_j_k_q_t_plotter_user_interaction.html#autotoc_md99", [
         [ "Switching Graph Visibility via Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md100", null ],
         [ "Toolbar at the top of the Plot", "_j_k_q_t_plotter_user_interaction.html#autotoc_md101", null ],
-        [ "Mouse Position Display", "_j_k_q_t_plotter_user_interaction.html#autotoc_md105", null ],
-        [ "Drag the Plot Viewport", "_j_k_q_t_plotter_user_interaction.html#autotoc_md106", null ],
-        [ "Zooming with the Mouse", "_j_k_q_t_plotter_user_interaction.html#autotoc_md108", null ],
-        [ "Ruler/Measurement Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md110", null ],
-        [ "Data ToolTip Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md111", null ],
-        [ "Drawing Geometrical Forms", "_j_k_q_t_plotter_user_interaction.html#autotoc_md112", [
-          [ "Lines", "_j_k_q_t_plotter_user_interaction.html#autotoc_md113", null ],
-          [ "Rectangles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md114", null ],
-          [ "Circles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md115", null ],
-          [ "Ellipses", "_j_k_q_t_plotter_user_interaction.html#autotoc_md116", null ]
+        [ "Mouse Position Display", "_j_k_q_t_plotter_user_interaction.html#autotoc_md102", null ],
+        [ "Drag the Plot Viewport", "_j_k_q_t_plotter_user_interaction.html#autotoc_md103", null ],
+        [ "Zooming with the Mouse", "_j_k_q_t_plotter_user_interaction.html#autotoc_md104", null ],
+        [ "Ruler/Measurement Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md105", null ],
+        [ "Data ToolTip Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md106", null ],
+        [ "Drawing Geometrical Forms", "_j_k_q_t_plotter_user_interaction.html#autotoc_md107", [
+          [ "Lines", "_j_k_q_t_plotter_user_interaction.html#autotoc_md108", null ],
+          [ "Rectangles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md109", null ],
+          [ "Circles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md110", null ],
+          [ "Ellipses", "_j_k_q_t_plotter_user_interaction.html#autotoc_md111", null ]
         ] ],
-        [ "Context Menus", "_j_k_q_t_plotter_user_interaction.html#autotoc_md117", [
-          [ "Standard Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md118", null ],
-          [ "Special Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md119", null ]
+        [ "Context Menus", "_j_k_q_t_plotter_user_interaction.html#autotoc_md112", [
+          [ "Standard Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md113", null ],
+          [ "Special Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md114", null ]
         ] ]
       ] ]
     ] ],
@@ -167,24 +167,24 @@ var example_tutorial_projects =
       [ "Special Properties of the JKQTPDatastore-Iterators", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md41", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Advanced 1-Dimensional Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html", [
-      [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48", null ],
-      [ "Basic Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md49", null ],
-      [ "Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md50", [
-        [ "Standard Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md51", null ],
-        [ "Boxplots with Outliers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md52", null ]
+      [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md42", null ],
+      [ "Basic Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md43", null ],
+      [ "Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md44", [
+        [ "Standard Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md45", null ],
+        [ "Boxplots with Outliers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md46", null ]
       ] ],
-      [ "Histograms", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md53", null ],
-      [ "Kernel Density Estimates (KDE)", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md54", null ],
-      [ "Cummulative Histograms and KDEs", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md55", null ],
-      [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md56", null ]
+      [ "Histograms", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md47", null ],
+      [ "Kernel Density Estimates (KDE)", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48", null ],
+      [ "Cummulative Histograms and KDEs", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md49", null ],
+      [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md50", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Regression Analysis (with the Statistics Library)", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html", [
-      [ "Simple Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md42", null ],
-      [ "Robust Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md43", null ],
-      [ "Weighted Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md44", null ],
-      [ "Linearizable Regression Models", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md45", null ],
-      [ "Polynom Fitting", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md46", null ],
-      [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md47", null ]
+      [ "Simple Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md51", null ],
+      [ "Robust Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md52", null ],
+      [ "Weighted Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md53", null ],
+      [ "Linearizable Regression Models", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md54", null ],
+      [ "Polynom Fitting", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md55", null ],
+      [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md56", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): 1-Dimensional Group Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html", [
       [ "Barcharts & Boxplots from categorized data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md30", [
@@ -199,8 +199,8 @@ var example_tutorial_projects =
       [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md37", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Advanced 2-Dimensional Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html", [
-      [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md59", null ],
-      [ "Marginal Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md60", null ],
+      [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md57", null ],
+      [ "Marginal Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md59", null ],
       [ "2D Histogram", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md61", null ],
       [ "Kernel Density Estimates (KDE)", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md62", null ],
       [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md63", null ]
