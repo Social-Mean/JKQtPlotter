@@ -25,10 +25,7 @@
 var NAVTREE =
 [
   [ "JKQTPlotter", "index.html", [
-    [ "JKQTPlotter - A Qt Plotting Library", "index.html", [
-      [ "Main Features", "index.html#jkqtp_main_features", null ],
-      [ "Table Of Contents", "index.html#jkqtplottertic", null ]
-    ] ],
+    [ "JKQTPlotter - A Qt Plotting Library", "index.html", "index" ],
     [ "Contributor Covenant Code of Conduct", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html", [
       [ "Our Pledge", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md1", null ],
       [ "Our Standards", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2", null ],

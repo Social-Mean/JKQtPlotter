@@ -248,6 +248,6 @@ var NAVTREEINDEX8 =
 "class_j_k_q_t_p_adaptive_function_graph_evaluator.html#a7f494608fa3ac64f9f65262c86820f45":[12,0,60,10],
 "class_j_k_q_t_p_adaptive_function_graph_evaluator.html#a88734b71ff0de923025a07f62b2e4a48":[12,0,60,7],
 "class_j_k_q_t_p_adaptive_function_graph_evaluator.html#ac810d0e3cf4bf19c581d6c20d2358c47":[12,0,60,9],
-"class_j_k_q_t_p_array_scoped_pointer.html":[10,1,0,0],
-"class_j_k_q_t_p_array_scoped_pointer.html#a340bb020a6a30cb712488958c33582df":[10,1,0,0,0]
+"class_j_k_q_t_p_array_scoped_pointer.html":[10,2,0,0],
+"class_j_k_q_t_p_array_scoped_pointer.html#a340bb020a6a30cb712488958c33582df":[10,2,0,0,0]
 };
