@@ -27,6 +27,7 @@ var class_j_k_q_t_base_plotter_style =
     [ "plotLabelFontName", "class_j_k_q_t_base_plotter_style.html#a3161f58c54dc8f42bed0cbe2f0da1436", null ],
     [ "plotLabelFontSize", "class_j_k_q_t_base_plotter_style.html#a7403bd605048164b2c3428f93040d5b1", null ],
     [ "rightColorbarAxisStyle", "class_j_k_q_t_base_plotter_style.html#a25650b7d47d94338964d0dd90069d9f9", null ],
+    [ "secondaryAxisSeparation", "class_j_k_q_t_base_plotter_style.html#ac767af5b7ee8c463ac2fbd7f7f148aa5", null ],
     [ "topColorbarAxisStyle", "class_j_k_q_t_base_plotter_style.html#af20cb1c6fc3ca6ef259ad8fca0660572", null ],
     [ "useAntiAliasingForSystem", "class_j_k_q_t_base_plotter_style.html#a4bee6c06e328636ede42390b5b416a56", null ],
     [ "useAntiAliasingForText", "class_j_k_q_t_base_plotter_style.html#a6ea4a3f27ffa2bfea9b55f926c429284", null ],

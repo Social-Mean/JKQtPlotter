@@ -157,6 +157,15 @@ Collaboration diagram for JKQTBasePlotter:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_base_plotter_1_1all_plot_elements.html">allPlotElements</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functor which does not apply any filter to <a class="el" href="class_j_k_q_t_p_plot_element.html" title="this virtual base class of every element, which is part of a JKQTPlotter plot and may appear in its k...">JKQTPPlotElement</a>, e.g. in <a class="el" href="class_j_k_q_t_base_plotter.html#abffec3622b36cf2fabadf8656f473d0c" title="get the maximum and minimum x-value over all graphs in the plot">getGraphsXMinMax()</a> or <a class="el" href="class_j_k_q_t_base_plotter.html#a771c2f5604651b379d9a92073794d7c1" title="get the maximum and minimum y-value over all graphs in the plot">getGraphsYMinMax()</a>  <a href="struct_j_k_q_t_base_plotter_1_1all_plot_elements.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html">filterPlotElementByXAxis</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">filter functor which accepts only those <a class="el" href="class_j_k_q_t_p_plot_element.html" title="this virtual base class of every element, which is part of a JKQTPlotter plot and may appear in its k...">JKQTPPlotElement</a> where <a class="el" href="class_j_k_q_t_p_plot_element.html#ae1671bff01842eb0ac965a140223e516" title="indicates which coordinate axis to use for coordinate transforms in x-direction">JKQTPPlotElement::getXAxisRef()</a> returns the JKQTPCoordinateAxisRef supplied to the constructor, e.g. in <a class="el" href="class_j_k_q_t_base_plotter.html#abffec3622b36cf2fabadf8656f473d0c" title="get the maximum and minimum x-value over all graphs in the plot">getGraphsXMinMax()</a> or <a class="el" href="class_j_k_q_t_base_plotter.html#a771c2f5604651b379d9a92073794d7c1" title="get the maximum and minimum y-value over all graphs in the plot">getGraphsYMinMax()</a>  <a href="struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html">filterPlotElementByYAxis</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">filter functor which accepts only those <a class="el" href="class_j_k_q_t_p_plot_element.html" title="this virtual base class of every element, which is part of a JKQTPlotter plot and may appear in its k...">JKQTPPlotElement</a> where <a class="el" href="class_j_k_q_t_p_plot_element.html#afa37ded0839d62ce2998a48220054610" title="indicates which coordinate axis to use for coordinate transforms in y-direction">JKQTPPlotElement::getYAxisRef()</a> returns the JKQTPCoordinateAxisRef supplied to the constructor, e.g. in <a class="el" href="class_j_k_q_t_base_plotter.html#abffec3622b36cf2fabadf8656f473d0c" title="get the maximum and minimum x-value over all graphs in the plot">getGraphsXMinMax()</a> or <a class="el" href="class_j_k_q_t_base_plotter.html#a771c2f5604651b379d9a92073794d7c1" title="get the maximum and minimum y-value over all graphs in the plot">getGraphsYMinMax()</a>  <a href="struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter_1_1_j_k_q_t_p_pen.html">JKQTPPen</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">represents a pen, when plotting in JKQTPlotter/JKQTBasePlotter  <a href="class_j_k_q_t_base_plotter_1_1_j_k_q_t_p_pen.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,6 +182,9 @@ Public Types</h2></td></tr>
 <tr class="separator:aff91ee42cb32a7209fb57a8ea317ca13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39ba8f8e107d54d5579f92a5f8df10b1"><td class="memItemLeft" align="right" valign="top">typedef QMapIterator&lt; QString, QList&lt; QPointer&lt; QAction &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a39ba8f8e107d54d5579f92a5f8df10b1">AdditionalActionsMapIterator</a></td></tr>
 <tr class="separator:a39ba8f8e107d54d5579f92a5f8df10b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ab31ed1f981730db32726097814a210"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; bool(const <a class="el" href="class_j_k_q_t_p_plot_element.html">JKQTPPlotElement</a> *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a6ab31ed1f981730db32726097814a210">PlotElementPreciate</a></td></tr>
+<tr class="memdesc:a6ab31ed1f981730db32726097814a210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functor which can be used as filter predicate for <a class="el" href="class_j_k_q_t_base_plotter.html#abffec3622b36cf2fabadf8656f473d0c" title="get the maximum and minimum x-value over all graphs in the plot">getGraphsXMinMax()</a> or <a class="el" href="class_j_k_q_t_base_plotter.html#a771c2f5604651b379d9a92073794d7c1" title="get the maximum and minimum y-value over all graphs in the plot">getGraphsYMinMax()</a>  <br /></td></tr>
+<tr class="separator:a6ab31ed1f981730db32726097814a210"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5935d87eae358f89553b84142d61f3a8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8">SynchronizationDirection</a> { <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484">sdXAxis</a>
 , <br />
@@ -510,15 +522,15 @@ Public Slots</h2></td></tr>
 <tr class="memitem:a783d94ea8bab92e9689070a005ecf538"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a783d94ea8bab92e9689070a005ecf538">setWidgetWidth</a> (int wid)</td></tr>
 <tr class="memdesc:a783d94ea8bab92e9689070a005ecf538"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the width of the plot widget  <br /></td></tr>
 <tr class="separator:a783d94ea8bab92e9689070a005ecf538"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25df114dabb8db1bfc4d6d2ec36d9892"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a25df114dabb8db1bfc4d6d2ec36d9892">setX</a> (double xminn, double xmaxx)</td></tr>
-<tr class="memdesc:a25df114dabb8db1bfc4d6d2ec36d9892"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the x-range of the plot (minimum and maximum x-value on the x-axis)  <br /></td></tr>
-<tr class="separator:a25df114dabb8db1bfc4d6d2ec36d9892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e100588e2e89a74bc95c7f70654a2bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a9e100588e2e89a74bc95c7f70654a2bf">setXY</a> (double xminn, double xmaxx, double yminn, double ymaxx)</td></tr>
-<tr class="memdesc:a9e100588e2e89a74bc95c7f70654a2bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)  <br /></td></tr>
-<tr class="separator:a9e100588e2e89a74bc95c7f70654a2bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fa4e004c90503ea2977b8c722801c70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a1fa4e004c90503ea2977b8c722801c70">setY</a> (double yminn, double ymaxx)</td></tr>
-<tr class="memdesc:a1fa4e004c90503ea2977b8c722801c70"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the y-range of the plot (minimum and maximum y-value on the y-axis)  <br /></td></tr>
-<tr class="separator:a1fa4e004c90503ea2977b8c722801c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad76dc49855ecd3da40e98b30110e51d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#ad76dc49855ecd3da40e98b30110e51d3">setX</a> (double xminn, double xmaxx, bool affectsSecondaryAxes=false)</td></tr>
+<tr class="memdesc:ad76dc49855ecd3da40e98b30110e51d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the x-range of the plot (minimum and maximum x-value on the x-axis)  <br /></td></tr>
+<tr class="separator:ad76dc49855ecd3da40e98b30110e51d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7c6f70086ae7762a22c4c35509878e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1">setXY</a> (double xminn, double xmaxx, double yminn, double ymaxx, bool affectsSecondaryAxes=false)</td></tr>
+<tr class="memdesc:ad7c6f70086ae7762a22c4c35509878e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)  <br /></td></tr>
+<tr class="separator:ad7c6f70086ae7762a22c4c35509878e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8900ece5e255196821e809e445fb79a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a8900ece5e255196821e809e445fb79a5">setY</a> (double yminn, double ymaxx, bool affectsSecondaryAxes=false)</td></tr>
+<tr class="memdesc:a8900ece5e255196821e809e445fb79a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the y-range of the plot (minimum and maximum y-value on the y-axis)  <br /></td></tr>
+<tr class="separator:a8900ece5e255196821e809e445fb79a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9a99585049ec583efef50bc641d2e41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#aa9a99585049ec583efef50bc641d2e41">zoom</a> (double nxmin, double nxmax, double nymin, double nymax)</td></tr>
 <tr class="memdesc:aa9a99585049ec583efef50bc641d2e41"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets x/ymin and x/ymax to the supplied values and replots the graph (zoom operation!)  <br /></td></tr>
 <tr class="separator:aa9a99585049ec583efef50bc641d2e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -579,6 +591,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ade1d834401c57aba2bfac16519f6a525"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#ade1d834401c57aba2bfac16519f6a525">addGridPrintingPlotter</a> (size_t x, size_t y, <a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *plotter)</td></tr>
 <tr class="memdesc:ade1d834401c57aba2bfac16519f6a525"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a new plotter for grid printing mode  <br /></td></tr>
 <tr class="separator:ade1d834401c57aba2bfac16519f6a525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad41d0c48c2c12ec54908d87aabef03ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#ad41d0c48c2c12ec54908d87aabef03ca">addSecondaryXAxis</a> (<a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a> *axis)</td></tr>
+<tr class="memdesc:ad41d0c48c2c12ec54908d87aabef03ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a secondary x-axis  <br /></td></tr>
+<tr class="separator:ad41d0c48c2c12ec54908d87aabef03ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae38871a254d8a697cec890267cec9c19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#ae38871a254d8a697cec890267cec9c19">addSecondaryYAxis</a> (<a class="el" href="class_j_k_q_t_p_vertical_axis_base.html">JKQTPVerticalAxisBase</a> *axis)</td></tr>
+<tr class="memdesc:ae38871a254d8a697cec890267cec9c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a secondary y-axis  <br /></td></tr>
+<tr class="separator:ae38871a254d8a697cec890267cec9c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d6fc87f2842d7cad7ccbf47f542e91d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a4d6fc87f2842d7cad7ccbf47f542e91d">clearGraphs</a> (bool deleteGraphs=true)</td></tr>
 <tr class="memdesc:a4d6fc87f2842d7cad7ccbf47f542e91d"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove all plots  <br /></td></tr>
 <tr class="separator:a4d6fc87f2842d7cad7ccbf47f542e91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -687,6 +705,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a568b1badf9ea713c12870f94e28d46a3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a568b1badf9ea713c12870f94e28d46a3">getAspectRatio</a> () const</td></tr>
 <tr class="memdesc:a568b1badf9ea713c12870f94e28d46a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the data aspect ratio, enforced with setMaintainApsectRatio(true)  <br /></td></tr>
 <tr class="separator:a568b1badf9ea713c12870f94e28d46a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6762859ceb92dc6c9c0ea1c4f70946b9"><td class="memItemLeft" align="right" valign="top">QSet&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a6762859ceb92dc6c9c0ea1c4f70946b9">getAvailableXAxisRefs</a> (bool includePrimary=false) const</td></tr>
+<tr class="memdesc:a6762859ceb92dc6c9c0ea1c4f70946b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the set of available x-axes (including the primary, if <code>true</code> is given as parameter)  <br /></td></tr>
+<tr class="separator:a6762859ceb92dc6c9c0ea1c4f70946b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7766707345e97babf486fe6fcc78bb70"><td class="memItemLeft" align="right" valign="top">QSet&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a7766707345e97babf486fe6fcc78bb70">getAvailableYAxisRefs</a> (bool includePrimary=false) const</td></tr>
+<tr class="memdesc:a7766707345e97babf486fe6fcc78bb70"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the set of available y-axes (including the primary, if <code>true</code> is given as parameter)  <br /></td></tr>
+<tr class="separator:a7766707345e97babf486fe6fcc78bb70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ff3c5969e71b313a9186b37bbf32544"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_j_k_q_t_p_coordinate_axis.html">JKQTPCoordinateAxis</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a6ff3c5969e71b313a9186b37bbf32544">getAxes</a> (bool includePrimaries=true)</td></tr>
+<tr class="memdesc:a6ff3c5969e71b313a9186b37bbf32544"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all available x- or y-axes  <br /></td></tr>
+<tr class="separator:a6ff3c5969e71b313a9186b37bbf32544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4210fa15b0dffc820e8d6000c5ffdbc3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a4210fa15b0dffc820e8d6000c5ffdbc3">getAxisAspectRatio</a> () const</td></tr>
 <tr class="memdesc:a4210fa15b0dffc820e8d6000c5ffdbc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the axis aspect ratio, enforced with setMaintainAxisApsectRatio(true)  <br /></td></tr>
 <tr class="separator:a4210fa15b0dffc820e8d6000c5ffdbc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -748,12 +775,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a37a2979a965245b2e612b90cca43125b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a37a2979a965245b2e612b90cca43125b">getGraphCount</a> ()</td></tr>
 <tr class="memdesc:a37a2979a965245b2e612b90cca43125b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of graphs  <br /></td></tr>
 <tr class="separator:a37a2979a965245b2e612b90cca43125b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab370019c39055a798259a7088e38f6d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#ab370019c39055a798259a7088e38f6d0">getGraphsXMinMax</a> (double &amp;minx, double &amp;maxx, double &amp;smallestGreaterZero)</td></tr>
-<tr class="memdesc:ab370019c39055a798259a7088e38f6d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the maximum and minimum x-value over all graphs in the plot  <br /></td></tr>
-<tr class="separator:ab370019c39055a798259a7088e38f6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a476a17ef5f25695df6604243ed4cead0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a476a17ef5f25695df6604243ed4cead0">getGraphsYMinMax</a> (double &amp;miny, double &amp;maxy, double &amp;smallestGreaterZero)</td></tr>
-<tr class="memdesc:a476a17ef5f25695df6604243ed4cead0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the maximum and minimum y-value over all graphs in the plot  <br /></td></tr>
-<tr class="separator:a476a17ef5f25695df6604243ed4cead0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abffec3622b36cf2fabadf8656f473d0c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#abffec3622b36cf2fabadf8656f473d0c">getGraphsXMinMax</a> (double &amp;minx, double &amp;maxx, double &amp;smallestGreaterZero, const <a class="el" href="class_j_k_q_t_base_plotter.html#a6ab31ed1f981730db32726097814a210">PlotElementPreciate</a> &amp;predicate=<a class="el" href="struct_j_k_q_t_base_plotter_1_1all_plot_elements.html">allPlotElements</a>())</td></tr>
+<tr class="memdesc:abffec3622b36cf2fabadf8656f473d0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the maximum and minimum x-value over all graphs in the plot  <br /></td></tr>
+<tr class="separator:abffec3622b36cf2fabadf8656f473d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a771c2f5604651b379d9a92073794d7c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a771c2f5604651b379d9a92073794d7c1">getGraphsYMinMax</a> (double &amp;miny, double &amp;maxy, double &amp;smallestGreaterZero, const <a class="el" href="class_j_k_q_t_base_plotter.html#a6ab31ed1f981730db32726097814a210">PlotElementPreciate</a> &amp;predicate=<a class="el" href="struct_j_k_q_t_base_plotter_1_1all_plot_elements.html">allPlotElements</a>())</td></tr>
+<tr class="memdesc:a771c2f5604651b379d9a92073794d7c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the maximum and minimum y-value over all graphs in the plot  <br /></td></tr>
+<tr class="separator:a771c2f5604651b379d9a92073794d7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4ada542535b28c2bec6a50933308dc5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#af4ada542535b28c2bec6a50933308dc5">getGridPrinting</a> () const</td></tr>
 <tr class="memdesc:af4ada542535b28c2bec6a50933308dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates whether the <a class="el" href="class_j_k_q_t_base_plotter.html#JKQTBASEPLOTTER_SYNCMULTIPLOT_GRIDPRINT">grid printing</a> is activated    <br /></td></tr>
 <tr class="separator:af4ada542535b28c2bec6a50933308dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -943,30 +970,42 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7a633c4e50fdd794daead9bd5435360f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a7a633c4e50fdd794daead9bd5435360f">getWidth</a> ()</td></tr>
 <tr class="memdesc:a7a633c4e50fdd794daead9bd5435360f"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the width of the plot widget  <br /></td></tr>
 <tr class="separator:a7a633c4e50fdd794daead9bd5435360f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52cca0688a6237fbdc0bd22bcf85fa6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_horizontal_axis.html">JKQTPHorizontalAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a52cca0688a6237fbdc0bd22bcf85fa6d">getXAxis</a> ()</td></tr>
-<tr class="memdesc:a52cca0688a6237fbdc0bd22bcf85fa6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the x-axis objet of the plot  <br /></td></tr>
-<tr class="separator:a52cca0688a6237fbdc0bd22bcf85fa6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7bf442813ea4b85206500d7196be022"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_j_k_q_t_p_horizontal_axis.html">JKQTPHorizontalAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#af7bf442813ea4b85206500d7196be022">getXAxis</a> () const</td></tr>
-<tr class="memdesc:af7bf442813ea4b85206500d7196be022"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the x-axis objet of the plot  <br /></td></tr>
-<tr class="separator:af7bf442813ea4b85206500d7196be022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99c1256481c18fa22f17ee610d978664"><td class="memItemLeft" align="right" valign="top">QMap&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>, <a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a99c1256481c18fa22f17ee610d978664">getXAxes</a> (bool includePrimary=true)</td></tr>
+<tr class="memdesc:a99c1256481c18fa22f17ee610d978664"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all available x-axes  <br /></td></tr>
+<tr class="separator:a99c1256481c18fa22f17ee610d978664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29d3b1757c21fb2137de90e67e3028fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a29d3b1757c21fb2137de90e67e3028fb">getXAxis</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a> axis=<a class="el" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a>)</td></tr>
+<tr class="memdesc:a29d3b1757c21fb2137de90e67e3028fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the x-axis objet of the plot  <br /></td></tr>
+<tr class="separator:a29d3b1757c21fb2137de90e67e3028fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a169bcb2af5b8f33f4fe9312e4000b253"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a169bcb2af5b8f33f4fe9312e4000b253">getXAxis</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a> axis=<a class="el" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a>) const</td></tr>
+<tr class="memdesc:a169bcb2af5b8f33f4fe9312e4000b253"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the x-axis objet of the plot  <br /></td></tr>
+<tr class="separator:a169bcb2af5b8f33f4fe9312e4000b253"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11b5cc694f15c76465407f39bccb5f6b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a11b5cc694f15c76465407f39bccb5f6b">getXMax</a> () const</td></tr>
 <tr class="memdesc:a11b5cc694f15c76465407f39bccb5f6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current x-axis max  <br /></td></tr>
 <tr class="separator:a11b5cc694f15c76465407f39bccb5f6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0aa0bf0672307c3e367e198b52fa7a2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#aa0aa0bf0672307c3e367e198b52fa7a2">getXMin</a> () const</td></tr>
 <tr class="memdesc:aa0aa0bf0672307c3e367e198b52fa7a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current x-axis min  <br /></td></tr>
 <tr class="separator:aa0aa0bf0672307c3e367e198b52fa7a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1878963362e94cb80c5fc3dba5de6724"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_vertical_axis.html">JKQTPVerticalAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a1878963362e94cb80c5fc3dba5de6724">getYAxis</a> ()</td></tr>
-<tr class="memdesc:a1878963362e94cb80c5fc3dba5de6724"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the y-axis objet of the plot  <br /></td></tr>
-<tr class="separator:a1878963362e94cb80c5fc3dba5de6724"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3d2d53921898cae3501485963d3ab05"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_j_k_q_t_p_vertical_axis.html">JKQTPVerticalAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#af3d2d53921898cae3501485963d3ab05">getYAxis</a> () const</td></tr>
-<tr class="memdesc:af3d2d53921898cae3501485963d3ab05"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the y-axis objet of the plot  <br /></td></tr>
-<tr class="separator:af3d2d53921898cae3501485963d3ab05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a23defbf1fdc9693f00311124bb13ea"><td class="memItemLeft" align="right" valign="top">QMap&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>, <a class="el" href="class_j_k_q_t_p_vertical_axis_base.html">JKQTPVerticalAxisBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a5a23defbf1fdc9693f00311124bb13ea">getYAxes</a> (bool includePrimary=true)</td></tr>
+<tr class="memdesc:a5a23defbf1fdc9693f00311124bb13ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all available y-axes  <br /></td></tr>
+<tr class="separator:a5a23defbf1fdc9693f00311124bb13ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc5490d66386ada723adb27d9af57c77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_vertical_axis_base.html">JKQTPVerticalAxisBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#abc5490d66386ada723adb27d9af57c77">getYAxis</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a> axis=<a class="el" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a>)</td></tr>
+<tr class="memdesc:abc5490d66386ada723adb27d9af57c77"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the y-axis objet of the plot  <br /></td></tr>
+<tr class="separator:abc5490d66386ada723adb27d9af57c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a323fc5a29c853bc356417c767a234d90"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_j_k_q_t_p_vertical_axis_base.html">JKQTPVerticalAxisBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a323fc5a29c853bc356417c767a234d90">getYAxis</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a> axis=<a class="el" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a>) const</td></tr>
+<tr class="memdesc:a323fc5a29c853bc356417c767a234d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the y-axis objet of the plot  <br /></td></tr>
+<tr class="separator:a323fc5a29c853bc356417c767a234d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a638ff0411a480119bd69ef75aa691102"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a638ff0411a480119bd69ef75aa691102">getYMax</a> () const</td></tr>
 <tr class="memdesc:a638ff0411a480119bd69ef75aa691102"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current y-axis max  <br /></td></tr>
 <tr class="separator:a638ff0411a480119bd69ef75aa691102"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a129cc9092cfa0d2578ba19fa07dcccbc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a129cc9092cfa0d2578ba19fa07dcccbc">getYMin</a> () const</td></tr>
 <tr class="memdesc:a129cc9092cfa0d2578ba19fa07dcccbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current y-axis min  <br /></td></tr>
 <tr class="separator:a129cc9092cfa0d2578ba19fa07dcccbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb88d7f1ff003c8c2d9367ea9bc3af4a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#adb88d7f1ff003c8c2d9367ea9bc3af4a">hasXAxis</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a> axis=<a class="el" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a>) const</td></tr>
+<tr class="memdesc:adb88d7f1ff003c8c2d9367ea9bc3af4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether an x-axis <em>axis</em> is registered with the plotter  <br /></td></tr>
+<tr class="separator:adb88d7f1ff003c8c2d9367ea9bc3af4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5b6b7dcedd674774318750d181b5f6c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#aa5b6b7dcedd674774318750d181b5f6c">hasYAxis</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a> axis=<a class="el" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a>) const</td></tr>
+<tr class="memdesc:aa5b6b7dcedd674774318750d181b5f6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether a y-axis <em>axis</em> is registered with the plotter  <br /></td></tr>
+<tr class="separator:aa5b6b7dcedd674774318750d181b5f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf6423be2a8bbd345d10664dfcfcd0d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#abf6423be2a8bbd345d10664dfcfcd0d7">isDebugShowRegionBoxesEnabled</a> () const</td></tr>
 <tr class="memdesc:abf6423be2a8bbd345d10664dfcfcd0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">if set <code>true</code> (default: <code>false</code> ) the <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a> draws colored rectangles to indicate the different regions in the plot (border, axes, ...)  <br /></td></tr>
 <tr class="separator:abf6423be2a8bbd345d10664dfcfcd0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1105,6 +1144,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adec8f807ab19fdec1b87122857a5854c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#adec8f807ab19fdec1b87122857a5854c">synchronizeYToMaster</a> (<a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *master, bool synchronizeAxisLength=true, bool synchronizeZoomingMasterToSlave=true, bool synchronizeZoomingSlaveToMaster=true)</td></tr>
 <tr class="memdesc:adec8f807ab19fdec1b87122857a5854c"><td class="mdescLeft">&#160;</td><td class="mdescRight">synchronize the plot y-axis height (and y-zooming) with a given master plotter (master --&gt; slave/this)  <br /></td></tr>
 <tr class="separator:adec8f807ab19fdec1b87122857a5854c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad719148c364473118067ff30b5edf244"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#ad719148c364473118067ff30b5edf244">updateSecondaryAxes</a> ()</td></tr>
+<tr class="memdesc:ad719148c364473118067ff30b5edf244"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the secondary axes  <br /></td></tr>
+<tr class="separator:ad719148c364473118067ff30b5edf244"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a074da6418adaaea716665e7def5f7962"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a074da6418adaaea716665e7def5f7962">useAsInternalDatastore</a> (<a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *newStore)</td></tr>
 <tr class="memdesc:a074da6418adaaea716665e7def5f7962"><td class="mdescLeft">&#160;</td><td class="mdescRight">tells the plotter object to use the given external datastore and treat it as an internal one (i.e. free it when the plotter object ist destroyed.  <br /></td></tr>
 <tr class="separator:a074da6418adaaea716665e7def5f7962"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1402,24 +1444,36 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a71895d775da2cd9ebb39a4b3e9447bed"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a71895d775da2cd9ebb39a4b3e9447bed">internalPlotBorderBottom</a></td></tr>
 <tr class="memdesc:a71895d775da2cd9ebb39a4b3e9447bed"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>calculated value:</b> free space between widget top border and plot top border, as used to plot the graph  <br /></td></tr>
 <tr class="separator:a71895d775da2cd9ebb39a4b3e9447bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9991dda0dea07f472c16cdd544b3cf3d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a9991dda0dea07f472c16cdd544b3cf3d">internalPlotBorderBottom_notIncludingAxisAndOutsidePlotSections</a></td></tr>
+<tr class="memdesc:a9991dda0dea07f472c16cdd544b3cf3d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>calculated value:</b> free space between widget right border and (plot+drawOutside) right border (including coordinate axes)  <br /></td></tr>
+<tr class="separator:a9991dda0dea07f472c16cdd544b3cf3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b364ae7fe8c55d92e9c66698bcad16f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a3b364ae7fe8c55d92e9c66698bcad16f">internalPlotBorderBottom_notIncludingOutsidePlotSections</a></td></tr>
 <tr class="memdesc:a3b364ae7fe8c55d92e9c66698bcad16f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>calculated value:</b> free space between widget right border and (plot+drawOutside) right border (including coordinate axes)  <br /></td></tr>
 <tr class="separator:a3b364ae7fe8c55d92e9c66698bcad16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04e255b4ea9b2c71bfe85824e1e452a5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a04e255b4ea9b2c71bfe85824e1e452a5">internalPlotBorderLeft</a></td></tr>
 <tr class="memdesc:a04e255b4ea9b2c71bfe85824e1e452a5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>calculated value:</b> free space between widget top border and plot top border, as used to plot the graph  <br /></td></tr>
 <tr class="separator:a04e255b4ea9b2c71bfe85824e1e452a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68b36360fb22ca9e54e563deddc92e0f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a68b36360fb22ca9e54e563deddc92e0f">internalPlotBorderLeft_notIncludingAxisAndOutsidePlotSections</a></td></tr>
+<tr class="memdesc:a68b36360fb22ca9e54e563deddc92e0f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>calculated value:</b> free space between widget left border and (plot+drawOutside) left border (including coordinate axes)  <br /></td></tr>
+<tr class="separator:a68b36360fb22ca9e54e563deddc92e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a392bb6c2765772dc42ddfcab1b199c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a3a392bb6c2765772dc42ddfcab1b199c">internalPlotBorderLeft_notIncludingOutsidePlotSections</a></td></tr>
 <tr class="memdesc:a3a392bb6c2765772dc42ddfcab1b199c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>calculated value:</b> free space between widget left border and (plot+drawOutside) left border (including coordinate axes)  <br /></td></tr>
 <tr class="separator:a3a392bb6c2765772dc42ddfcab1b199c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bfa399b1244fa49c73412f18d79b515"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a3bfa399b1244fa49c73412f18d79b515">internalPlotBorderRight</a></td></tr>
 <tr class="memdesc:a3bfa399b1244fa49c73412f18d79b515"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>calculated value:</b> free space between widget top border and plot top border, as used to plot the graph  <br /></td></tr>
 <tr class="separator:a3bfa399b1244fa49c73412f18d79b515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8ca79682af26b7f0a4e7ce997266aab"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#aa8ca79682af26b7f0a4e7ce997266aab">internalPlotBorderRight_notIncludingAxisAndOutsidePlotSections</a></td></tr>
+<tr class="memdesc:aa8ca79682af26b7f0a4e7ce997266aab"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>calculated value:</b> free space between widget bottom border and (plot+drawOutside) bottom border (including coordinate axes)  <br /></td></tr>
+<tr class="separator:aa8ca79682af26b7f0a4e7ce997266aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69c8cbeafad54df1f6d37b6ed8dac214"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a69c8cbeafad54df1f6d37b6ed8dac214">internalPlotBorderRight_notIncludingOutsidePlotSections</a></td></tr>
 <tr class="memdesc:a69c8cbeafad54df1f6d37b6ed8dac214"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>calculated value:</b> free space between widget bottom border and (plot+drawOutside) bottom border (including coordinate axes)  <br /></td></tr>
 <tr class="separator:a69c8cbeafad54df1f6d37b6ed8dac214"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa89c8fbac01cc511025aadf41786b213"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#aa89c8fbac01cc511025aadf41786b213">internalPlotBorderTop</a></td></tr>
 <tr class="memdesc:aa89c8fbac01cc511025aadf41786b213"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>calculated value:</b> free space between widget top border and plot top border, as used to plot the graph  <br /></td></tr>
 <tr class="separator:aa89c8fbac01cc511025aadf41786b213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a567e262164bad79f3058367b72c3ca50"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a567e262164bad79f3058367b72c3ca50">internalPlotBorderTop_notIncludingAxisAndOutsidePlotSections</a></td></tr>
+<tr class="memdesc:a567e262164bad79f3058367b72c3ca50"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>calculated value:</b> free space between widget top border and (plot+drawOutside) top border (including coordinate axes)  <br /></td></tr>
+<tr class="separator:a567e262164bad79f3058367b72c3ca50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f99d792d9ebce22fa0615f5da134542"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a8f99d792d9ebce22fa0615f5da134542">internalPlotBorderTop_notIncludingOutsidePlotSections</a></td></tr>
 <tr class="memdesc:a8f99d792d9ebce22fa0615f5da134542"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>calculated value:</b> free space between widget top border and (plot+drawOutside) top border (including coordinate axes)  <br /></td></tr>
 <tr class="separator:a8f99d792d9ebce22fa0615f5da134542"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1486,6 +1540,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a02d6bab943ee5a3736886814fd0ed6c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_base_plotter_style.html">JKQTBasePlotterStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a02d6bab943ee5a3736886814fd0ed6c7">plotterStyle</a></td></tr>
 <tr class="memdesc:a02d6bab943ee5a3736886814fd0ed6c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">current style properties for this <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a> instance  <br /></td></tr>
 <tr class="separator:a02d6bab943ee5a3736886814fd0ed6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cecb5ed3282065f05cf1a9d713cb1c9"><td class="memItemLeft" align="right" valign="top">QMap&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>, <a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a0cecb5ed3282065f05cf1a9d713cb1c9">secondaryXAxis</a></td></tr>
+<tr class="memdesc:a0cecb5ed3282065f05cf1a9d713cb1c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">objects used a secondary x-axes  <br /></td></tr>
+<tr class="separator:a0cecb5ed3282065f05cf1a9d713cb1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9d695d1379ea34616bf221816b45be"><td class="memItemLeft" align="right" valign="top">QMap&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>, <a class="el" href="class_j_k_q_t_p_vertical_axis_base.html">JKQTPVerticalAxisBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#afb9d695d1379ea34616bf221816b45be">secondaryYAxis</a></td></tr>
+<tr class="memdesc:afb9d695d1379ea34616bf221816b45be"><td class="mdescLeft">&#160;</td><td class="mdescRight">objects used a secondary y-axes  <br /></td></tr>
+<tr class="separator:afb9d695d1379ea34616bf221816b45be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a553e4c7b1549de0d54cc4823275b4614"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a553e4c7b1549de0d54cc4823275b4614">useClipping</a></td></tr>
 <tr class="memdesc:a553e4c7b1549de0d54cc4823275b4614"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates whether to use clipping (hack for printing, see <a class="el" href="class_j_k_q_t_base_plotter.html#a67596b30f3359810234e8aec9208d4a1" title="print the current plot, if printer is nullptr a printer selection dialog is displayed">print()</a> )  <br /></td></tr>
 <tr class="separator:a553e4c7b1549de0d54cc4823275b4614"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1581,10 +1641,33 @@ Coordinate Systems and Transformations</h1>
 <p>These topics are discussed in the help for <a class="el" href="class_j_k_q_t_p_coordinate_axis.html" title="this virtual class is the base for any type of coordinate axis, to be drawn by JKQTBasePlotter.">JKQTPCoordinateAxis</a>. There is a set of coordinate transform methods (<a class="el" href="class_j_k_q_t_base_plotter.html#a5603b0bfcc2af031a27a25a616df4fb9" title="return x-pixel coordinate from x coordinate">x2p()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a705a11da3e062500e4702a0be06a8a21" title="return y-pixel coordinate from y coordinate">y2p()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a9ef93f40da8274bb030ed9f422df67e8" title="return x coordinate from x-pixel">p2x()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#afad5bbabf37b3c34fc627275d06b6e7b" title="return y coordinate from y-pixel">p2y()</a> which only call the respective methods in xAxis and yAxis objects.</p>
 <h1><a class="anchor" id="jkqtplotter_base_grids_baseplotter"></a>
 Axis Ticks and Grids</h1>
-<ul>
-<li>The plotting of coordinate axes and grids, as well as coordinate transforms is done by <a class="el" href="class_j_k_q_t_p_coordinate_axis.html" title="this virtual class is the base for any type of coordinate axis, to be drawn by JKQTBasePlotter.">JKQTPCoordinateAxis</a> descendents (see documentation there)</li>
-</ul>
-<p>If you want to set the axis properties, use <a class="el" href="class_j_k_q_t_base_plotter.html#a52cca0688a6237fbdc0bd22bcf85fa6d" title="returns the x-axis objet of the plot">getXAxis()</a> or <a class="el" href="class_j_k_q_t_base_plotter.html#a1878963362e94cb80c5fc3dba5de6724" title="returns the y-axis objet of the plot">getYAxis()</a> to get a pointer to the axis objects which then may be used to set the axis properties.</p>
+<h2><a class="anchor" id="jkqtplotter_base_grids_baseplotter_majoraxes"></a>
+Major Coordinate Axes</h2>
+<p><a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a> - by default - has two major axes: A horizontal x-axis and a vertical y-axis.</p>
+<p>The plotting of coordinate axes and grids, as well as coordinate transforms is done by <a class="el" href="class_j_k_q_t_p_coordinate_axis.html" title="this virtual class is the base for any type of coordinate axis, to be drawn by JKQTBasePlotter.">JKQTPCoordinateAxis</a> descendents (see documentation there).</p>
+<p>If you want to set the axis properties, use <a class="el" href="class_j_k_q_t_base_plotter.html#a29d3b1757c21fb2137de90e67e3028fb" title="returns the x-axis objet of the plot">getXAxis()</a> or <a class="el" href="class_j_k_q_t_base_plotter.html#abc5490d66386ada723adb27d9af57c77" title="returns the y-axis objet of the plot">getYAxis()</a> to get a pointer to the axis objects which then may be used to set the axis properties.</p>
+<h2><a class="anchor" id="jkqtplotter_base_grids_baseplotter_secondaryaxes"></a>
+Secondary Coordinate Axes</h2>
+<p>In addition a plot may contain secondary axes, as shown below:</p>
+<div class="image">
+<img src="JKQTBasePlotter_addSecondaryYAxis.png" alt=""/>
+</div>
+<p>You can add additional x-axes using <a class="el" href="class_j_k_q_t_base_plotter.html#ad41d0c48c2c12ec54908d87aabef03ca" title="adds a secondary x-axis">addSecondaryXAxis()</a> and y-axes using <a class="el" href="class_j_k_q_t_base_plotter.html#ae38871a254d8a697cec890267cec9c19" title="adds a secondary y-axis">addSecondaryYAxis()</a>. These functions return a JKQTPCoordinateAxisRef, which can be used to reference these axes, when calling function like <a class="el" href="class_j_k_q_t_base_plotter.html#a29d3b1757c21fb2137de90e67e3028fb" title="returns the x-axis objet of the plot">getXAxis()</a> here the default-parameter call getXAxis(JKQTPPrimaryAxis) returns the primary axis (JKQTPPrimaryAxis may be omitted) and calling getXAxis(JKQTPSecondaryAxis) will return the first secondary axis and so on.</p>
+<p>In graphs (derived from <a class="el" href="class_j_k_q_t_p_plot_element.html" title="this virtual base class of every element, which is part of a JKQTPlotter plot and may appear in its k...">JKQTPPlotElement</a>) you can use <a class="el" href="class_j_k_q_t_p_plot_element.html#a472d69560c61ad2188646ba2c9789f6d" title="indicates which coordinate axis to use for coordinate transforms in x-direction">JKQTPPlotElement::setXAxis()</a> and <a class="el" href="class_j_k_q_t_p_plot_element.html#a209a47acb71fc14068d33aad11beab8d" title="indicates which coordinate axis to use for coordinate transforms in y-direction">JKQTPPlotElement::setYAxis()</a> with a JKQTPCoordinateAxisRef as parameter to tell plots to use another axis.</p>
+<p>Using a JKQTPCoordinateAxisRef instead of a pointer to a <a class="el" href="class_j_k_q_t_p_coordinate_axis.html" title="this virtual class is the base for any type of coordinate axis, to be drawn by JKQTBasePlotter.">JKQTPCoordinateAxis</a> allows to exchange the axes in the plot, while not breaking the graphs.</p>
+<p>Here is a code example of how to use secondary axes: </p><div class="fragment"><div class="line"><span class="comment">// construct a new x-axis-object</span></div>
+<div class="line"><a class="code hl_class" href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a>* secXAxis=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_horizontal_axis.html">JKQTPHorizontalAxis</a>(plot.getPlotter(), <a class="code hl_enumvalue" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a>)</div>
+<div class="line"><span class="comment">// add it to the plot</span></div>
+<div class="line"><span class="keyword">auto</span> xAxisRef2=plot.getPlotter()-&gt;addSecondaryXAxis(secXAxis);</div>
+<div class="line"><span class="comment">// ... now you can access it:</span></div>
+<div class="line">plot.getXAxis(xAxisRef2)-&gt;<a class="code hl_slot" href="class_j_k_q_t_p_coordinate_axis.html#a65945c285e8cead77c39bd914ea4b857">setShowZeroAxis</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="comment">// ... and use it for graphs:</span></div>
+<div class="line">graph2-&gt;setXAxis(xAxisRef2);</div>
+<div class="ttc" id="aclass_j_k_q_t_p_coordinate_axis_html_a65945c285e8cead77c39bd914ea4b857"><div class="ttname"><a href="class_j_k_q_t_p_coordinate_axis.html#a65945c285e8cead77c39bd914ea4b857">JKQTPCoordinateAxis::setShowZeroAxis</a></div><div class="ttdeci">void setShowZeroAxis(bool __value)</div><div class="ttdoc">indicates whether to draw a thick axis line at x=0 (zero axis)</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_horizontal_axis_base_html"><div class="ttname"><a href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a></div><div class="ttdoc">base class for horizontal axes, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoo...</div><div class="ttdef"><b>Definition:</b> jkqtpcoordinateaxes.h:1076</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_horizontal_axis_html"><div class="ttname"><a href="class_j_k_q_t_p_horizontal_axis.html">JKQTPHorizontalAxis</a></div><div class="ttdoc">implements a horizontal axis, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoord...</div><div class="ttdef"><b>Definition:</b> jkqtpcoordinateaxes.h:1141</div></div>
+<div class="ttc" id="agroup__jkqtpplottersupprt_html_gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525"><div class="ttname"><a href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a></div><div class="ttdeci">@ JKQTPPrimaryAxis</div><div class="ttdef"><b>Definition:</b> jkqtpcoordinateaxes.h:43</div></div>
+</div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#ad41d0c48c2c12ec54908d87aabef03ca" title="adds a secondary x-axis">addSecondaryXAxis()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#ae38871a254d8a697cec890267cec9c19" title="adds a secondary y-axis">addSecondaryYAxis()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a29d3b1757c21fb2137de90e67e3028fb" title="returns the x-axis objet of the plot">getXAxis()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#abc5490d66386ada723adb27d9af57c77" title="returns the y-axis objet of the plot">getYAxis()</a></dd></dl>
 <h1><a class="anchor" id="jkqtbaseplotter_appearance_and_style"></a>
 Appearance &amp; Styling of the Graph</h1>
 <h2><a class="anchor" id="jkqtplotter_base_plotsize"></a>
@@ -1600,11 +1683,11 @@ Aspect Ratios</h2>
 <p>First note that this functionality is only available and activated if both axes are linear!</p>
 <p>You can set two different aspect ratios:</p><ul>
 <li>The ratio of plotWidth/plotHeight (<a class="el" href="class_j_k_q_t_base_plotter.html#a06364dc4fb497fc42b7b8dbbe32f0638" title="sets the data aspect ratio, enforced with setMaintainApsectRatio(true)">setAspectRatio()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a1360fa41c72a05e4142527e3322e2d61" title="en-/disables the maintaining of the data aspect ratio">setMaintainAspectRatio()</a>) will keep the plots pixel-width and height at a certain value. <p class="formulaDsp">
-<picture><source srcset="form_232_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_232.png" width="310" height="39"/></picture>
+<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_215.png" width="33" height="18"/></picture>
 </p>
 </li>
 <li>The ratio of (xmax-xmin)/(ymax-ymin) (<a class="el" href="class_j_k_q_t_base_plotter.html#a9b2ec97c3bf2f8e86b70e278794ab149" title="sets the axis aspect ratio, enforced with setMaintainAxisApsectRatio(true)">setAxisAspectRatio()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a3fdaa585b8b1a150321b19742091ddaa" title="en-/disables the maintaining of the axis aspect ratio">setMaintainAxisAspectRatio()</a>) will keep the displayed axis ranges in a certain ratio. <p class="formulaDsp">
-<picture><source srcset="form_233_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_233.png" width="310" height="39"/></picture>
+<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="33" height="18"/></picture>
 </p>
 </li>
 </ul>
@@ -1683,7 +1766,7 @@ Printing with grid-printing-mode activated</div></div>
 </div>
 </li>
 </ul>
-<p>To overcome these limitations, <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> (and <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a>) offer an API with which you can declare relations between different plots (one of them is made the master) and you can synchronize the axes of two plots, when zooming (also when calling e.g. <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> or <a class="el" href="class_j_k_q_t_base_plotter.html#a9e100588e2e89a74bc95c7f70654a2bf" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a> ). This API is:</p><ul>
+<p>To overcome these limitations, <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> (and <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a>) offer an API with which you can declare relations between different plots (one of them is made the master) and you can synchronize the axes of two plots, when zooming (also when calling e.g. <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> or <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a> ). This API is:</p><ul>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#JKQTBASEPLOTTER_SYNCMULTIPLOT_SYNC">Synchronizing Axis Range &amp; Plot Width</a></li>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#JKQTBASEPLOTTER_SYNCMULTIPLOT_GRIDPRINT">Grid Printing/Declaring Relations between Plots</a></li>
 </ul>
@@ -1695,8 +1778,8 @@ Synchronizing Axis Range &amp; Plot Width</h2>
 <div class="line"> </div>
 <div class="line"><span class="comment">// synchronize y-axis of width/plotResidHist to y-axis of width/plotResid</span></div>
 <div class="line">plotResidHist-&gt;synchronizeToMaster(plotResid, <a class="code hl_enumvalue" href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c">JKQTBasePlotter::sdYAxis</a>, <span class="keyword">true</span>, <span class="keyword">true</span>, <span class="keyword">true</span>);</div>
-<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484">JKQTBasePlotter::sdXAxis</a></div><div class="ttdeci">@ sdXAxis</div><div class="ttdoc">x-axis only</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:976</div></div>
-<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c">JKQTBasePlotter::sdYAxis</a></div><div class="ttdeci">@ sdYAxis</div><div class="ttdoc">y-axis only</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:977</div></div>
+<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484">JKQTBasePlotter::sdXAxis</a></div><div class="ttdeci">@ sdXAxis</div><div class="ttdoc">x-axis only</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:1142</div></div>
+<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c">JKQTBasePlotter::sdYAxis</a></div><div class="ttdeci">@ sdYAxis</div><div class="ttdoc">y-axis only</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:1143</div></div>
 </div><!-- fragment --> This will synchronize the x-axes of the top (<code>plotMain</code> ) and bottom-left plot (<code>plotResid</code> ), as well as the y-axes of the bottom-left (<code>plotResid</code> ) and bottom-right plot (<code>plotResidHist</code> ). After this call they will have the same size in screen pixels and always span the same range in plot coordinates.</li>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#a4be0519635e09e5023651ddd0d575356" title="synchronize the plot x-axis width (and x-zooming) with a given master plotter (master --&gt; slave/this)">synchronizeXToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#a4be0519635e09e5023651ddd0d575356" title="synchronize the plot x-axis width (and x-zooming) with a given master plotter (master --&gt; slave/this)">JKQTBasePlotter::synchronizeXToMaster()</a> like <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">synchronizeToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">JKQTBasePlotter::synchronizeToMaster()</a>, but synchronizes only the x-axes</li>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#adec8f807ab19fdec1b87122857a5854c" title="synchronize the plot y-axis height (and y-zooming) with a given master plotter (master --&gt; slave/this...">synchronizeYToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#adec8f807ab19fdec1b87122857a5854c" title="synchronize the plot y-axis height (and y-zooming) with a given master plotter (master --&gt; slave/this...">JKQTBasePlotter::synchronizeYToMaster()</a> like <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">synchronizeToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">JKQTBasePlotter::synchronizeToMaster()</a>, but synchronizes only the y-axes</li>
@@ -1735,7 +1818,7 @@ JKQTBasePlotter Standalone Usage (non-visible class)</h2>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a>* ds=plot.getDatastore();</div>
 <div class="line"><span class="keywordtype">size_t</span> cx=ds-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6">addCopiedColumn</a>(QVector&lt;double&gt;{-1.5,-0.5,0.5,1.5,2.5},<span class="stringliteral">&quot;x&quot;</span>);</div>
 <div class="line"><span class="keywordtype">size_t</span> cy=ds-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6">addCopiedColumn</a>(QVector&lt;double&gt;{-0.75,-0.3,-0.05,0.2,0.65},<span class="stringliteral">&quot;y&quot;</span>);</div>
-<div class="ttc" id="aclass_j_k_q_t_base_plotter_html"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a></div><div class="ttdoc">base class for 2D plotter classes (used by the plotter widget JKQTPlotter)</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:342</div></div>
+<div class="ttc" id="aclass_j_k_q_t_base_plotter_html"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a></div><div class="ttdoc">base class for 2D plotter classes (used by the plotter widget JKQTPlotter)</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:380</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a></div><div class="ttdoc">This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:282</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a3d6b9f2649736b08b6731132f86368f6"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6">JKQTPDatastore::addCopiedColumn</a></div><div class="ttdeci">size_t addCopiedColumn(TIterator first, TIterator last, const QString &amp;name=QString(&quot;&quot;))</div><div class="ttdoc">add one column to the datastore. It will be filled with the values from first ... last</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:852</div></div>
 </div><!-- fragment --><p>Now we set the range of x/y plot coordinates ... </p><div class="fragment"><div class="line">plot.setXY(-0.8,2.2,-0.5,0.7);</div>
@@ -1776,6 +1859,23 @@ JKQTBasePlotter Standalone Usage (non-visible class)</h2>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ab31ed1f981730db32726097814a210" name="a6ab31ed1f981730db32726097814a210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ab31ed1f981730db32726097814a210">&#9670;&#160;</a></span>PlotElementPreciate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::function&lt;bool(const <a class="el" href="class_j_k_q_t_p_plot_element.html">JKQTPPlotElement</a>*)&gt; <a class="el" href="class_j_k_q_t_base_plotter.html#a6ab31ed1f981730db32726097814a210">JKQTBasePlotter::PlotElementPreciate</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Functor which can be used as filter predicate for <a class="el" href="class_j_k_q_t_base_plotter.html#abffec3622b36cf2fabadf8656f473d0c" title="get the maximum and minimum x-value over all graphs in the plot">getGraphsXMinMax()</a> or <a class="el" href="class_j_k_q_t_base_plotter.html#a771c2f5604651b379d9a92073794d7c1" title="get the maximum and minimum y-value over all graphs in the plot">getGraphsYMinMax()</a> </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#abffec3622b36cf2fabadf8656f473d0c" title="get the maximum and minimum x-value over all graphs in the plot">getGraphsXMinMax()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a771c2f5604651b379d9a92073794d7c1" title="get the maximum and minimum y-value over all graphs in the plot">getGraphsYMinMax()</a>, <a class="el" href="struct_j_k_q_t_base_plotter_1_1all_plot_elements.html" title="Functor which does not apply any filter to JKQTPPlotElement, e.g. in getGraphsXMinMax() or getGraphsY...">allPlotElements</a> </dd></dl>
 
 </div>
 </div>
@@ -2009,6 +2109,76 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 </div><div class="memdoc">
 
 <p>add a new plotter for grid printing mode </p>
+
+</div>
+</div>
+<a id="ad41d0c48c2c12ec54908d87aabef03ca" name="ad41d0c48c2c12ec54908d87aabef03ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad41d0c48c2c12ec54908d87aabef03ca">&#9670;&#160;</a></span>addSecondaryXAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a> JKQTBasePlotter::addSecondaryXAxis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a> *&#160;</td>
+          <td class="paramname"><em>axis</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>adds a secondary x-axis </p>
+<p>\params axis the <a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html" title="base class for horizontal axes, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoo...">JKQTPHorizontalAxisBase</a> object to add </p><dl class="section return"><dt>Returns</dt><dd>a reference to this axis</dd></dl>
+<p>Usage is simple: </p><div class="fragment"><div class="line"><span class="comment">// construct a new x-axis-object</span></div>
+<div class="line"><a class="code hl_class" href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a>* secXAxis=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_horizontal_axis.html">JKQTPHorizontalAxis</a>(plot.getPlotter(), <a class="code hl_enumvalue" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a>)</div>
+<div class="line"><span class="comment">// add it to the plot</span></div>
+<div class="line"><span class="keyword">auto</span> xAxisRef2=plot.getPlotter()-&gt;addSecondaryXAxis(secXAxis);</div>
+<div class="line"><span class="comment">// ... now you can access it:</span></div>
+<div class="line">plot.getXAxis(xAxisRef2)-&gt;<a class="code hl_slot" href="class_j_k_q_t_p_coordinate_axis.html#a65945c285e8cead77c39bd914ea4b857">setShowZeroAxis</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="comment">// ... and use it for graphs:</span></div>
+<div class="line">graph2-&gt;setXAxis(xAxisRef2);</div>
+</div><!-- fragment --><p>Here is an example output:</p>
+<div class="image">
+<img src="JKQTBasePlotter_addSecondaryXAxis.png" alt=""/>
+</div>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#jkqtplotter_base_grids_baseplotter_secondaryaxes">Secondary Coordinate Axes</a> , JKQTPlotterSecondaryAxes </dd></dl>
+
+</div>
+</div>
+<a id="ae38871a254d8a697cec890267cec9c19" name="ae38871a254d8a697cec890267cec9c19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae38871a254d8a697cec890267cec9c19">&#9670;&#160;</a></span>addSecondaryYAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a> JKQTBasePlotter::addSecondaryYAxis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_vertical_axis_base.html">JKQTPVerticalAxisBase</a> *&#160;</td>
+          <td class="paramname"><em>axis</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>adds a secondary y-axis </p>
+<p>\params axis the <a class="el" href="class_j_k_q_t_p_vertical_axis_base.html" title="base class for vertical axes, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoord...">JKQTPVerticalAxisBase</a> object to add </p><dl class="section return"><dt>Returns</dt><dd>a reference to this axis</dd></dl>
+<p>Usage is simple: </p><div class="fragment"><div class="line"><span class="comment">// construct a new y-axis-object</span></div>
+<div class="line"><a class="code hl_class" href="class_j_k_q_t_p_vertical_axis_base.html">JKQTPVerticalAxisBase</a>* secYAxis=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_vertical_axis.html">JKQTPVerticalAxis</a>(plot.getPlotter(), <a class="code hl_enumvalue" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a>)</div>
+<div class="line"><span class="comment">// add it to the plot</span></div>
+<div class="line"><span class="keyword">auto</span> yAxisRef2=plot.getPlotter()-&gt;addSecondaryYAxis(secYAxis);</div>
+<div class="line"><span class="comment">// ... now you can access it:</span></div>
+<div class="line">plot.getYAxis(yAxisRef2)-&gt;<a class="code hl_slot" href="class_j_k_q_t_p_coordinate_axis.html#a65945c285e8cead77c39bd914ea4b857">setShowZeroAxis</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="comment">// ... and use it for graphs:</span></div>
+<div class="line">graph2-&gt;setYAxis(yAxisRef2);</div>
+<div class="ttc" id="aclass_j_k_q_t_p_vertical_axis_base_html"><div class="ttname"><a href="class_j_k_q_t_p_vertical_axis_base.html">JKQTPVerticalAxisBase</a></div><div class="ttdoc">base class for vertical axes, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoord...</div><div class="ttdef"><b>Definition:</b> jkqtpcoordinateaxes.h:895</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_vertical_axis_html"><div class="ttname"><a href="class_j_k_q_t_p_vertical_axis.html">JKQTPVerticalAxis</a></div><div class="ttdoc">implements a vertical axis for use as primary, secondary, ... axis of a JKQTPBasePlotter,...</div><div class="ttdef"><b>Definition:</b> jkqtpcoordinateaxes.h:958</div></div>
+</div><!-- fragment --><p>Here is an example output:</p>
+<div class="image">
+<img src="JKQTBasePlotter_addSecondaryYAxis.png" alt=""/>
+</div>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#jkqtplotter_base_grids_baseplotter_secondaryaxes">Secondary Coordinate Axes</a> , JKQTPlotterSecondaryAxes </dd></dl>
 
 </div>
 </div>
@@ -2370,8 +2540,8 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 </div><div class="memdoc">
 
 <p>takes a new axis range <em>xminn</em> ... <em>xmaxx</em> and <em>yminn</em> ... <em>ymaxx</em> and corrects the values to match the currently set axisAspectRatio </p>
-<p>This function is used by <a class="el" href="class_j_k_q_t_base_plotter.html#a9e100588e2e89a74bc95c7f70654a2bf" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a25df114dabb8db1bfc4d6d2ec36d9892" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a1fa4e004c90503ea2977b8c722801c70" title="sets the y-range of the plot (minimum and maximum y-value on the y-axis)">setY()</a>.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a4664db3c06865c8618dd0c70c7551caf" title="the aspect ratio of axis widths to maintain, if maintainAxisAspectRatio==true">axisAspectRatio</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a9e100588e2e89a74bc95c7f70654a2bf" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a25df114dabb8db1bfc4d6d2ec36d9892" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a1fa4e004c90503ea2977b8c722801c70" title="sets the y-range of the plot (minimum and maximum y-value on the y-axis)">setY()</a> </dd></dl>
+<p>This function is used by <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#ad76dc49855ecd3da40e98b30110e51d3" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a8900ece5e255196821e809e445fb79a5" title="sets the y-range of the plot (minimum and maximum y-value on the y-axis)">setY()</a>.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a4664db3c06865c8618dd0c70c7551caf" title="the aspect ratio of axis widths to maintain, if maintainAxisAspectRatio==true">axisAspectRatio</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#ad76dc49855ecd3da40e98b30110e51d3" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a8900ece5e255196821e809e445fb79a5" title="sets the y-range of the plot (minimum and maximum y-value on the y-axis)">setY()</a> </dd></dl>
 
 </div>
 </div>
@@ -3577,6 +3747,66 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 </div>
 </div>
+<a id="a6762859ceb92dc6c9c0ea1c4f70946b9" name="a6762859ceb92dc6c9c0ea1c4f70946b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6762859ceb92dc6c9c0ea1c4f70946b9">&#9670;&#160;</a></span>getAvailableXAxisRefs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSet&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a> &gt; JKQTBasePlotter::getAvailableXAxisRefs </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includePrimary</em> = <code>false</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the set of available x-axes (including the primary, if <code>true</code> is given as parameter) </p>
+
+</div>
+</div>
+<a id="a7766707345e97babf486fe6fcc78bb70" name="a7766707345e97babf486fe6fcc78bb70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7766707345e97babf486fe6fcc78bb70">&#9670;&#160;</a></span>getAvailableYAxisRefs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSet&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a> &gt; JKQTBasePlotter::getAvailableYAxisRefs </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includePrimary</em> = <code>false</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the set of available y-axes (including the primary, if <code>true</code> is given as parameter) </p>
+
+</div>
+</div>
+<a id="a6ff3c5969e71b313a9186b37bbf32544" name="a6ff3c5969e71b313a9186b37bbf32544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ff3c5969e71b313a9186b37bbf32544">&#9670;&#160;</a></span>getAxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="class_j_k_q_t_p_coordinate_axis.html">JKQTPCoordinateAxis</a> * &gt; JKQTBasePlotter::getAxes </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includePrimaries</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns all available x- or y-axes </p>
+
+</div>
+</div>
 <a id="a4210fa15b0dffc820e8d6000c5ffdbc3" name="a4210fa15b0dffc820e8d6000c5ffdbc3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4210fa15b0dffc820e8d6000c5ffdbc3">&#9670;&#160;</a></span>getAxisAspectRatio()</h2>
 
@@ -4131,14 +4361,14 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 </div>
 </div>
-<a id="ab370019c39055a798259a7088e38f6d0" name="ab370019c39055a798259a7088e38f6d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab370019c39055a798259a7088e38f6d0">&#9670;&#160;</a></span>getGraphsXMinMax()</h2>
+<a id="abffec3622b36cf2fabadf8656f473d0c" name="abffec3622b36cf2fabadf8656f473d0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abffec3622b36cf2fabadf8656f473d0c">&#9670;&#160;</a></span>getGraphsXMinMax()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void JKQTBasePlotter::getGraphsXMinMax </td>
+          <td class="memname">bool JKQTBasePlotter::getGraphsXMinMax </td>
           <td>(</td>
           <td class="paramtype">double &amp;&#160;</td>
           <td class="paramname"><em>minx</em>, </td>
@@ -4153,7 +4383,13 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>smallestGreaterZero</em>&#160;</td>
+          <td class="paramname"><em>smallestGreaterZero</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_j_k_q_t_base_plotter.html#a6ab31ed1f981730db32726097814a210">PlotElementPreciate</a> &amp;&#160;</td>
+          <td class="paramname"><em>predicate</em> = <code><a class="el" href="struct_j_k_q_t_base_plotter_1_1all_plot_elements.html">allPlotElements</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -4168,22 +4404,24 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">minx</td><td>smallest x value </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">maxx</td><td>largest x value </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">smallestGreaterZero</td><td>smallest data point which is &gt;0 (needed for scaling of logarithmic axes)</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">smallestGreaterZero</td><td>smallest data point which is &gt;0 (needed for scaling of logarithmic axes) </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">predicate</td><td>a PlotElementPreciate, which can be used to limit the <a class="el" href="class_j_k_q_t_p_plot_element.html" title="this virtual base class of every element, which is part of a JKQTPlotter plot and may appear in its k...">JKQTPPlotElement</a> to be evaluated </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if at least one matching graph was found and evaluated succcessfully</dd></dl>
 <p>The result is given in the two parameters which are call-by-reference parameters! </p>
 
 </div>
 </div>
-<a id="a476a17ef5f25695df6604243ed4cead0" name="a476a17ef5f25695df6604243ed4cead0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a476a17ef5f25695df6604243ed4cead0">&#9670;&#160;</a></span>getGraphsYMinMax()</h2>
+<a id="a771c2f5604651b379d9a92073794d7c1" name="a771c2f5604651b379d9a92073794d7c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a771c2f5604651b379d9a92073794d7c1">&#9670;&#160;</a></span>getGraphsYMinMax()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void JKQTBasePlotter::getGraphsYMinMax </td>
+          <td class="memname">bool JKQTBasePlotter::getGraphsYMinMax </td>
           <td>(</td>
           <td class="paramtype">double &amp;&#160;</td>
           <td class="paramname"><em>miny</em>, </td>
@@ -4198,7 +4436,13 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>smallestGreaterZero</em>&#160;</td>
+          <td class="paramname"><em>smallestGreaterZero</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_j_k_q_t_base_plotter.html#a6ab31ed1f981730db32726097814a210">PlotElementPreciate</a> &amp;&#160;</td>
+          <td class="paramname"><em>predicate</em> = <code><a class="el" href="struct_j_k_q_t_base_plotter_1_1all_plot_elements.html">allPlotElements</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -4213,10 +4457,12 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">miny</td><td>smallest y value </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">maxy</td><td>largest y value </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">smallestGreaterZero</td><td>smallest data point which is &gt;0 (needed for scaling of logarithmic axes)</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">smallestGreaterZero</td><td>smallest data point which is &gt;0 (needed for scaling of logarithmic axes) </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">predicate</td><td>a PlotElementPreciate, which can be used to limit the <a class="el" href="class_j_k_q_t_p_plot_element.html" title="this virtual base class of every element, which is part of a JKQTPlotter plot and may appear in its k...">JKQTPPlotElement</a> to be evaluated </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if at least one matching graph was found and evaluated succcessfully</dd></dl>
 <p>The result is given in the two parameters which are call-by-reference parameters! </p>
 
 </div>
@@ -5848,41 +6094,65 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 </div>
 </div>
-<a id="a52cca0688a6237fbdc0bd22bcf85fa6d" name="a52cca0688a6237fbdc0bd22bcf85fa6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52cca0688a6237fbdc0bd22bcf85fa6d">&#9670;&#160;</a></span>getXAxis() <span class="overload">[1/2]</span></h2>
+<a id="a99c1256481c18fa22f17ee610d978664" name="a99c1256481c18fa22f17ee610d978664"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99c1256481c18fa22f17ee610d978664">&#9670;&#160;</a></span>getXAxes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_j_k_q_t_p_horizontal_axis.html">JKQTPHorizontalAxis</a> * JKQTBasePlotter::getXAxis </td>
+          <td class="memname">QMap&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>, <a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a> * &gt; JKQTBasePlotter::getXAxes </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includePrimary</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns all available x-axes </p>
+
+</div>
+</div>
+<a id="a29d3b1757c21fb2137de90e67e3028fb" name="a29d3b1757c21fb2137de90e67e3028fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29d3b1757c21fb2137de90e67e3028fb">&#9670;&#160;</a></span>getXAxis() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a> * JKQTBasePlotter::getXAxis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>&#160;</td>
+          <td class="paramname"><em>axis</em> = <code><a class="el" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a></code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>returns the x-axis objet of the plot </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#jkqtplotter_base_grids_baseplotter">Axis Ticks and Grids</a> </dd></dl>
 
 </div>
 </div>
-<a id="af7bf442813ea4b85206500d7196be022" name="af7bf442813ea4b85206500d7196be022"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7bf442813ea4b85206500d7196be022">&#9670;&#160;</a></span>getXAxis() <span class="overload">[2/2]</span></h2>
+<a id="a169bcb2af5b8f33f4fe9312e4000b253" name="a169bcb2af5b8f33f4fe9312e4000b253"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a169bcb2af5b8f33f4fe9312e4000b253">&#9670;&#160;</a></span>getXAxis() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_j_k_q_t_p_horizontal_axis.html">JKQTPHorizontalAxis</a> * JKQTBasePlotter::getXAxis </td>
+          <td class="memname">const <a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a> * JKQTBasePlotter::getXAxis </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>&#160;</td>
+          <td class="paramname"><em>axis</em> = <code><a class="el" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a></code></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>returns the x-axis objet of the plot </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#jkqtplotter_base_grids_baseplotter">Axis Ticks and Grids</a> </dd></dl>
 
 </div>
 </div>
@@ -5924,41 +6194,65 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 </div>
 </div>
-<a id="a1878963362e94cb80c5fc3dba5de6724" name="a1878963362e94cb80c5fc3dba5de6724"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1878963362e94cb80c5fc3dba5de6724">&#9670;&#160;</a></span>getYAxis() <span class="overload">[1/2]</span></h2>
+<a id="a5a23defbf1fdc9693f00311124bb13ea" name="a5a23defbf1fdc9693f00311124bb13ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a23defbf1fdc9693f00311124bb13ea">&#9670;&#160;</a></span>getYAxes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_j_k_q_t_p_vertical_axis.html">JKQTPVerticalAxis</a> * JKQTBasePlotter::getYAxis </td>
+          <td class="memname">QMap&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>, <a class="el" href="class_j_k_q_t_p_vertical_axis_base.html">JKQTPVerticalAxisBase</a> * &gt; JKQTBasePlotter::getYAxes </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includePrimary</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns all available y-axes </p>
+
+</div>
+</div>
+<a id="abc5490d66386ada723adb27d9af57c77" name="abc5490d66386ada723adb27d9af57c77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc5490d66386ada723adb27d9af57c77">&#9670;&#160;</a></span>getYAxis() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_vertical_axis_base.html">JKQTPVerticalAxisBase</a> * JKQTBasePlotter::getYAxis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>&#160;</td>
+          <td class="paramname"><em>axis</em> = <code><a class="el" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a></code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>returns the y-axis objet of the plot </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#jkqtplotter_base_grids_baseplotter">Axis Ticks and Grids</a> </dd></dl>
 
 </div>
 </div>
-<a id="af3d2d53921898cae3501485963d3ab05" name="af3d2d53921898cae3501485963d3ab05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3d2d53921898cae3501485963d3ab05">&#9670;&#160;</a></span>getYAxis() <span class="overload">[2/2]</span></h2>
+<a id="a323fc5a29c853bc356417c767a234d90" name="a323fc5a29c853bc356417c767a234d90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a323fc5a29c853bc356417c767a234d90">&#9670;&#160;</a></span>getYAxis() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_j_k_q_t_p_vertical_axis.html">JKQTPVerticalAxis</a> * JKQTBasePlotter::getYAxis </td>
+          <td class="memname">const <a class="el" href="class_j_k_q_t_p_vertical_axis_base.html">JKQTPVerticalAxisBase</a> * JKQTBasePlotter::getYAxis </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>&#160;</td>
+          <td class="paramname"><em>axis</em> = <code><a class="el" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a></code></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>returns the y-axis objet of the plot </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#jkqtplotter_base_grids_baseplotter">Axis Ticks and Grids</a> </dd></dl>
 
 </div>
 </div>
@@ -6121,6 +6415,48 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 </div><div class="memdoc">
 
 <p>This method goes through all registered plotters and calculates the width of every column and height of every row as the max over the row/column. The reults are stored in the private datamembers gridPrintingRows and gridPrintingColumns. gridPrintingSize will contain the size of all graphs together afterwards. </p>
+
+</div>
+</div>
+<a id="adb88d7f1ff003c8c2d9367ea9bc3af4a" name="adb88d7f1ff003c8c2d9367ea9bc3af4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb88d7f1ff003c8c2d9367ea9bc3af4a">&#9670;&#160;</a></span>hasXAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool JKQTBasePlotter::hasXAxis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>&#160;</td>
+          <td class="paramname"><em>axis</em> = <code><a class="el" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a></code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns whether an x-axis <em>axis</em> is registered with the plotter </p>
+<dl class="section note"><dt>Note</dt><dd>For <em>axis</em> <code>==JKQTPPrimaryAxis</code> this function returns always <code>true</code> </dd></dl>
+
+</div>
+</div>
+<a id="aa5b6b7dcedd674774318750d181b5f6c" name="aa5b6b7dcedd674774318750d181b5f6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5b6b7dcedd674774318750d181b5f6c">&#9670;&#160;</a></span>hasYAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool JKQTBasePlotter::hasYAxis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>&#160;</td>
+          <td class="paramname"><em>axis</em> = <code><a class="el" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a></code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns whether a y-axis <em>axis</em> is registered with the plotter </p>
+<dl class="section note"><dt>Note</dt><dd>For <em>axis</em> <code>==JKQTPPrimaryAxis</code> this function returns always <code>true</code> </dd></dl>
 
 </div>
 </div>
@@ -11222,8 +11558,8 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 </div>
 </div>
-<a id="a25df114dabb8db1bfc4d6d2ec36d9892" name="a25df114dabb8db1bfc4d6d2ec36d9892"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25df114dabb8db1bfc4d6d2ec36d9892">&#9670;&#160;</a></span>setX</h2>
+<a id="ad76dc49855ecd3da40e98b30110e51d3" name="ad76dc49855ecd3da40e98b30110e51d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad76dc49855ecd3da40e98b30110e51d3">&#9670;&#160;</a></span>setX</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11241,7 +11577,13 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>xmaxx</em>&#160;</td>
+          <td class="paramname"><em>xmaxx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>affectsSecondaryAxes</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -11260,18 +11602,19 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xminn</td><td>absolute minimum of x-axis </td></tr>
-    <tr><td class="paramname">xmaxx</td><td>absolute maximum of x-axis</td></tr>
+    <tr><td class="paramname">xmaxx</td><td>absolute maximum of x-axis </td></tr>
+    <tr><td class="paramname">affectsSecondaryAxes</td><td>if <code>true</code>, the secondary axes are affectedtoo, by using a relative zooming scheme, i.e. if a major axis range shrinks by 50%, also the secondary ranges shrink by 50% [default: <code>false</code>]</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>You cannot expand the x-range outside the absolute x-range set e.g. by <a class="el" href="class_j_k_q_t_base_plotter.html#a60476ed2f4ceca8085010dea1ea4797d" title="sets absolutely limiting x-range of the plot">setAbsoluteX()</a>! Also the range will be limited to possible values (e.g. to positive values if you use logarithmic axes).</dd></dl>
 <p>Uppon setting, this function emits the signal <a class="el" href="class_j_k_q_t_base_plotter.html#a7e35cc4e838f5f8c35b38e63eb6e1b9a" title="signal: emitted whenever the user selects a new x-y zoom range (by mouse)">zoomChangedLocally()</a>, if emitting signals is activated at the moment (e.g. using <a class="el" href="class_j_k_q_t_base_plotter.html#aa47e330e4dce0db6046d8080bcee2bc3" title="specifies whether this class emits signals, like zoomChangedLocally() or beforePlotScalingRecaluclate...">setEmittingSignalsEnabled()</a> ).</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a1fa4e004c90503ea2977b8c722801c70" title="sets the y-range of the plot (minimum and maximum y-value on the y-axis)">setY()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a9e100588e2e89a74bc95c7f70654a2bf" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a0af156a89863d8d7374f4113f7e64750" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a0fd546d1ba10a292ce8890744101fe3e" title="sets the y-range of the plot (minimum and maximum y-value on the y-axis)">JKQTPlotter::setY()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a8900ece5e255196821e809e445fb79a5" title="sets the y-range of the plot (minimum and maximum y-value on the y-axis)">setY()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a0af156a89863d8d7374f4113f7e64750" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a0fd546d1ba10a292ce8890744101fe3e" title="sets the y-range of the plot (minimum and maximum y-value on the y-axis)">JKQTPlotter::setY()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a9e100588e2e89a74bc95c7f70654a2bf" name="a9e100588e2e89a74bc95c7f70654a2bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e100588e2e89a74bc95c7f70654a2bf">&#9670;&#160;</a></span>setXY</h2>
+<a id="ad7c6f70086ae7762a22c4c35509878e1" name="ad7c6f70086ae7762a22c4c35509878e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7c6f70086ae7762a22c4c35509878e1">&#9670;&#160;</a></span>setXY</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11301,7 +11644,13 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ymaxx</em>&#160;</td>
+          <td class="paramname"><em>ymaxx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>affectsSecondaryAxes</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -11322,18 +11671,19 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
     <tr><td class="paramname">xminn</td><td>absolute minimum of x-axis </td></tr>
     <tr><td class="paramname">xmaxx</td><td>absolute maximum of x-axis </td></tr>
     <tr><td class="paramname">yminn</td><td>absolute minimum of y-axis </td></tr>
-    <tr><td class="paramname">ymaxx</td><td>absolute maximum of y-axis</td></tr>
+    <tr><td class="paramname">ymaxx</td><td>absolute maximum of y-axis </td></tr>
+    <tr><td class="paramname">affectsSecondaryAxes</td><td>if <code>true</code>, the secondary axes are affectedtoo, by using a relative zooming scheme, i.e. if a major axis range shrinks by 50%, also the secondary ranges shrink by 50% [default: <code>false</code>]</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>You cannot expand the ranges outside the absolute ranges set e.g. by <a class="el" href="class_j_k_q_t_base_plotter.html#a0af156a89863d8d7374f4113f7e64750" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>! Also the range will be limited to possible values (e.g. to positive values if you use logarithmic axes).</dd></dl>
 <p>Uppon setting, this function emits the signal <a class="el" href="class_j_k_q_t_base_plotter.html#a7e35cc4e838f5f8c35b38e63eb6e1b9a" title="signal: emitted whenever the user selects a new x-y zoom range (by mouse)">zoomChangedLocally()</a>, if emitting signals is activated at the moment (e.g. using <a class="el" href="class_j_k_q_t_base_plotter.html#aa47e330e4dce0db6046d8080bcee2bc3" title="specifies whether this class emits signals, like zoomChangedLocally() or beforePlotScalingRecaluclate...">setEmittingSignalsEnabled()</a> ).</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a25df114dabb8db1bfc4d6d2ec36d9892" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a25df114dabb8db1bfc4d6d2ec36d9892" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a0af156a89863d8d7374f4113f7e64750" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#ab29362d74e9e1a24c4add51815f0ec61" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTPlotter::setXY()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#ad76dc49855ecd3da40e98b30110e51d3" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#ad76dc49855ecd3da40e98b30110e51d3" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a0af156a89863d8d7374f4113f7e64750" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a7cb1174da67d7d37dabc30c2ca25ed30" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTPlotter::setXY()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a1fa4e004c90503ea2977b8c722801c70" name="a1fa4e004c90503ea2977b8c722801c70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fa4e004c90503ea2977b8c722801c70">&#9670;&#160;</a></span>setY</h2>
+<a id="a8900ece5e255196821e809e445fb79a5" name="a8900ece5e255196821e809e445fb79a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8900ece5e255196821e809e445fb79a5">&#9670;&#160;</a></span>setY</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11351,7 +11701,13 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ymaxx</em>&#160;</td>
+          <td class="paramname"><em>ymaxx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>affectsSecondaryAxes</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -11370,13 +11726,14 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">yminn</td><td>absolute minimum of y-axis </td></tr>
-    <tr><td class="paramname">ymaxx</td><td>absolute maximum of y-axis</td></tr>
+    <tr><td class="paramname">ymaxx</td><td>absolute maximum of y-axis </td></tr>
+    <tr><td class="paramname">affectsSecondaryAxes</td><td>if <code>true</code>, the secondary axes are affectedtoo, by using a relative zooming scheme, i.e. if a major axis range shrinks by 50%, also the secondary ranges shrink by 50% [default: <code>false</code>]</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>You cannot expand the y-range outside the absolute y-range set e.g. by <a class="el" href="class_j_k_q_t_base_plotter.html#a8b33aada0f0b1ad446df90e5adf25911" title="sets absolute minimum and maximum y-value to plot">setAbsoluteY()</a>! Also the range will be limited to possible values (e.g. to positive values if you use logarithmic axes).</dd></dl>
 <p>Uppon setting, this function emits the signal <a class="el" href="class_j_k_q_t_base_plotter.html#a7e35cc4e838f5f8c35b38e63eb6e1b9a" title="signal: emitted whenever the user selects a new x-y zoom range (by mouse)">zoomChangedLocally()</a>, if emitting signals is activated at the moment (e.g. using <a class="el" href="class_j_k_q_t_base_plotter.html#aa47e330e4dce0db6046d8080bcee2bc3" title="specifies whether this class emits signals, like zoomChangedLocally() or beforePlotScalingRecaluclate...">setEmittingSignalsEnabled()</a> ).</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a25df114dabb8db1bfc4d6d2ec36d9892" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a9e100588e2e89a74bc95c7f70654a2bf" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a0af156a89863d8d7374f4113f7e64750" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a09adcf0afc9e0b2847262c850e18aa5d" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">JKQTPlotter::setX()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#ad76dc49855ecd3da40e98b30110e51d3" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a0af156a89863d8d7374f4113f7e64750" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a09adcf0afc9e0b2847262c850e18aa5d" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">JKQTPlotter::setX()</a> </dd></dl>
 
 </div>
 </div>
@@ -11769,6 +12126,26 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 </div>
 </div>
+<a id="ad719148c364473118067ff30b5edf244" name="ad719148c364473118067ff30b5edf244"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad719148c364473118067ff30b5edf244">&#9670;&#160;</a></span>updateSecondaryAxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTBasePlotter::updateSecondaryAxes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>updates the secondary axes </p>
+<p>The plot may contain (in addition to its primary axes) also secondary axes, that depend in their scaling (min,max, ...) on the primmary axes of the plot. This function updates/recalculates the scaling of these axes. </p>
+
+</div>
+</div>
 <a id="a074da6418adaaea716665e7def5f7962" name="a074da6418adaaea716665e7def5f7962"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a074da6418adaaea716665e7def5f7962">&#9670;&#160;</a></span>useAsInternalDatastore()</h2>
 
@@ -12110,10 +12487,10 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
   <table class="params">
     <tr><td class="paramname">zoomX</td><td>if set <code>true</code> (default) zooms the x axis </td></tr>
     <tr><td class="paramname">zoomY</td><td>if set <code>true</code> (default) zooms the y axis </td></tr>
-    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_245_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ x=0 $" src="form_245.png" width="310" height="39"/></picture> is visible in the plot (only for non-logx plots, default: false) </td></tr>
-    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_246_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ y=0 $" src="form_246.png" width="310" height="39"/></picture> is visible in the plot (only for non-logy plots, default: false) </td></tr>
-    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <picture><source srcset="form_247_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_247.png" width="310" height="39"/></picture> where <picture><source srcset="form_248_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x $" src="form_248.png" width="310" height="39"/></picture> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
-    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <picture><source srcset="form_249_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_249.png" width="310" height="39"/></picture> where <picture><source srcset="form_250_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta &lt; $" src="form_250.png" width="310" height="39"/></picture> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_234_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ x=0 $" src="form_234.png" width="33" height="18"/></picture> is visible in the plot (only for non-logx plots, default: false) </td></tr>
+    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_235_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ y=0 $" src="form_235.png" width="33" height="18"/></picture> is visible in the plot (only for non-logy plots, default: false) </td></tr>
+    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <picture><source srcset="form_236_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_236.png" width="33" height="18"/></picture> where <picture><source srcset="form_237_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x $" src="form_237.png" width="33" height="18"/></picture> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <picture><source srcset="form_238_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_238.png" width="33" height="18"/></picture> where <picture><source srcset="form_239_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta &lt; $" src="form_239.png" width="33" height="18"/></picture> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
   </table>
   </dd>
 </dl>
@@ -12479,7 +12856,7 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 <p>the aspect ratio of plotwidth and plotheight to maintain, if <code>maintainAspectRatio==true</code> </p>
 <p class="formulaDsp">
-<picture><source srcset="form_232_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_232.png" width="310" height="39"/></picture>
+<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_215.png" width="33" height="18"/></picture>
 </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#af0720a1e655e8f24ef3914874b2dfec8" title="indicates whether the widget should maintain an aspect ratio of plotwidth and plotheight">maintainAspectRatio</a> </dd></dl>
 
@@ -12506,8 +12883,8 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 </div><div class="memdoc">
 
 <p>the aspect ratio of axis widths to maintain, if <code>maintainAxisAspectRatio==true</code> </p>
-<p>When the axis aspect ratio is to be maintained and new axis ranges are set (e.g. when calling <a class="el" href="class_j_k_q_t_base_plotter.html#a9e100588e2e89a74bc95c7f70654a2bf" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a> ), the given axis ranges are modified, so </p><p class="formulaDsp">
-<picture><source srcset="form_233_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_233.png" width="310" height="39"/></picture>
+<p>When the axis aspect ratio is to be maintained and new axis ranges are set (e.g. when calling <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a> ), the given axis ranges are modified, so </p><p class="formulaDsp">
+<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="33" height="18"/></picture>
 </p>
 <dl class="section note"><dt>Note</dt><dd>An axis aspect ratio is only well defined for linear axes (if both axes are linear). If both axes a logarithmic, the axis ration is defined for log(axismax)-log(axismin). For other combinations of axes, this function is deactivated</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a137bf3f5fcd473fbb4177290eb53db6d" title="indicates whether the axes should maintain an aspect ratio">maintainAxisAspectRatio</a> </dd></dl>
@@ -13084,6 +13461,34 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 </div>
 </div>
+<a id="a9991dda0dea07f472c16cdd544b3cf3d" name="a9991dda0dea07f472c16cdd544b3cf3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9991dda0dea07f472c16cdd544b3cf3d">&#9670;&#160;</a></span>internalPlotBorderBottom_notIncludingAxisAndOutsidePlotSections</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTBasePlotter::internalPlotBorderBottom_notIncludingAxisAndOutsidePlotSections</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><b>calculated value:</b> free space between widget right border and (plot+drawOutside) right border (including coordinate axes) </p>
+<div class="image">
+<img src="plot_widget_orientation.png" alt=""/>
+</div>
+<dl class="section note"><dt>Note</dt><dd>This property is an intermediate storage for calculated values. Do not change directly! </dd></dl>
+
+</div>
+</div>
 <a id="a3b364ae7fe8c55d92e9c66698bcad16f" name="a3b364ae7fe8c55d92e9c66698bcad16f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3b364ae7fe8c55d92e9c66698bcad16f">&#9670;&#160;</a></span>internalPlotBorderBottom_notIncludingOutsidePlotSections</h2>
 
@@ -13133,6 +13538,34 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 </div><div class="memdoc">
 
 <p><b>calculated value:</b> free space between widget top border and plot top border, as used to plot the graph </p>
+<dl class="section note"><dt>Note</dt><dd>This property is an intermediate storage for calculated values. Do not change directly! </dd></dl>
+
+</div>
+</div>
+<a id="a68b36360fb22ca9e54e563deddc92e0f" name="a68b36360fb22ca9e54e563deddc92e0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68b36360fb22ca9e54e563deddc92e0f">&#9670;&#160;</a></span>internalPlotBorderLeft_notIncludingAxisAndOutsidePlotSections</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTBasePlotter::internalPlotBorderLeft_notIncludingAxisAndOutsidePlotSections</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><b>calculated value:</b> free space between widget left border and (plot+drawOutside) left border (including coordinate axes) </p>
+<div class="image">
+<img src="plot_widget_orientation.png" alt=""/>
+</div>
 <dl class="section note"><dt>Note</dt><dd>This property is an intermediate storage for calculated values. Do not change directly! </dd></dl>
 
 </div>
@@ -13190,6 +13623,34 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 </div>
 </div>
+<a id="aa8ca79682af26b7f0a4e7ce997266aab" name="aa8ca79682af26b7f0a4e7ce997266aab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8ca79682af26b7f0a4e7ce997266aab">&#9670;&#160;</a></span>internalPlotBorderRight_notIncludingAxisAndOutsidePlotSections</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTBasePlotter::internalPlotBorderRight_notIncludingAxisAndOutsidePlotSections</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><b>calculated value:</b> free space between widget bottom border and (plot+drawOutside) bottom border (including coordinate axes) </p>
+<div class="image">
+<img src="plot_widget_orientation.png" alt=""/>
+</div>
+<dl class="section note"><dt>Note</dt><dd>This property is an intermediate storage for calculated values. Do not change directly! </dd></dl>
+
+</div>
+</div>
 <a id="a69c8cbeafad54df1f6d37b6ed8dac214" name="a69c8cbeafad54df1f6d37b6ed8dac214"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a69c8cbeafad54df1f6d37b6ed8dac214">&#9670;&#160;</a></span>internalPlotBorderRight_notIncludingOutsidePlotSections</h2>
 
@@ -13239,6 +13700,34 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 </div><div class="memdoc">
 
 <p><b>calculated value:</b> free space between widget top border and plot top border, as used to plot the graph </p>
+<dl class="section note"><dt>Note</dt><dd>This property is an intermediate storage for calculated values. Do not change directly! </dd></dl>
+
+</div>
+</div>
+<a id="a567e262164bad79f3058367b72c3ca50" name="a567e262164bad79f3058367b72c3ca50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a567e262164bad79f3058367b72c3ca50">&#9670;&#160;</a></span>internalPlotBorderTop_notIncludingAxisAndOutsidePlotSections</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTBasePlotter::internalPlotBorderTop_notIncludingAxisAndOutsidePlotSections</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><b>calculated value:</b> free space between widget top border and (plot+drawOutside) top border (including coordinate axes) </p>
+<div class="image">
+<img src="plot_widget_orientation.png" alt=""/>
+</div>
 <dl class="section note"><dt>Note</dt><dd>This property is an intermediate storage for calculated values. Do not change directly! </dd></dl>
 
 </div>
@@ -13594,8 +14083,8 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 </div><div class="memdoc">
 
 <p>indicates whether the axes should maintain an aspect ratio </p>
-<p>When the axis aspect ratio is to be maintained and new axis ranges are set (e.g. when calling <a class="el" href="class_j_k_q_t_base_plotter.html#a9e100588e2e89a74bc95c7f70654a2bf" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a> ), the given axis ranges are modified, so </p><p class="formulaDsp">
-<picture><source srcset="form_233_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_233.png" width="310" height="39"/></picture>
+<p>When the axis aspect ratio is to be maintained and new axis ranges are set (e.g. when calling <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a> ), the given axis ranges are modified, so </p><p class="formulaDsp">
+<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="33" height="18"/></picture>
 </p>
 <dl class="section note"><dt>Note</dt><dd>An axis aspect ratio is only well defined for linear axes (if both axes are linear). If both axes a logarithmic, the axis ration is defined for log(axismax)-log(axismin). For other combinations of axes, this function is deactivated</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a4664db3c06865c8618dd0c70c7551caf" title="the aspect ratio of axis widths to maintain, if maintainAxisAspectRatio==true">axisAspectRatio</a> </dd></dl>
@@ -14105,6 +14594,54 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 </div>
 </div>
+<a id="a0cecb5ed3282065f05cf1a9d713cb1c9" name="a0cecb5ed3282065f05cf1a9d713cb1c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cecb5ed3282065f05cf1a9d713cb1c9">&#9670;&#160;</a></span>secondaryXAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;<a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>, <a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a>*&gt; JKQTBasePlotter::secondaryXAxis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>objects used a secondary x-axes </p>
+
+</div>
+</div>
+<a id="afb9d695d1379ea34616bf221816b45be" name="afb9d695d1379ea34616bf221816b45be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb9d695d1379ea34616bf221816b45be">&#9670;&#160;</a></span>secondaryYAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;<a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxisRef</a>, <a class="el" href="class_j_k_q_t_p_vertical_axis_base.html">JKQTPVerticalAxisBase</a>*&gt; JKQTBasePlotter::secondaryYAxis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>objects used a secondary y-axes </p>
+
+</div>
+</div>
 <a id="a481bc0f55c38dc3f6985fd6b83449e2b" name="a481bc0f55c38dc3f6985fd6b83449e2b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a481bc0f55c38dc3f6985fd6b83449e2b">&#9670;&#160;</a></span>spinMagnification</h2>
 
@@ -14383,7 +14920,7 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a></li>
-    <li class="footer">Generated on Sun Mar 19 2023 12:19:57 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
+    <li class="footer">Generated on Thu Mar 23 2023 12:58:40 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
   </ul>
 </div>
 </body>

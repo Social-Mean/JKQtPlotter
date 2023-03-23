@@ -28,6 +28,7 @@ var group__jkqtpplottersupprt =
     [ "JKQTPLOTTER_LIB_EXPORT_LIBRARY", "group__jkqtpplottersupprt.html#ga833236bdddc2dbad41b1bb69655c9a3f", null ],
     [ "JKQTPLOTTER_LIB_IN_DLL", "group__jkqtpplottersupprt.html#ga5031c0729bff9912a5418b596476353e", null ],
     [ "JKQTPLOTTER_WORKAROUND_QGADGET_BUG", "group__jkqtpplottersupprt.html#ga8a4405ee45ef33ab5074538510f01276", null ],
+    [ "JKQTPCoordinateAxisRef", "group__jkqtpplottersupprt.html#ga99d4fbc9751197167c79adf4e706cacb", null ],
     [ "JKQTPMouseDoubleClickActionsHashMap", "group__jkqtpplottersupprt.html#ga165742edb759ef5f4db13df33037affa", null ],
     [ "JKQTPMouseDoubleClickActionsHashMapIterator", "group__jkqtpplottersupprt.html#ga1c12366f4b4a2a7022f8f594f1ff646b", null ],
     [ "JKQTPMouseDragActionsHashMap", "group__jkqtpplottersupprt.html#gad8689aecfc37e84c6eec196fd0d8a2b3", null ],
@@ -79,6 +80,10 @@ var group__jkqtpplottersupprt =
       [ "jkqtpcmmSpecialContextMenu", "group__jkqtpplottersupprt.html#gga80d2235c912ead563f404f4e7f331137aae8abf519daacbecae70c1704756f8be", null ],
       [ "jkqtpcmmStandardAndSpecialContextMenu", "group__jkqtpplottersupprt.html#gga80d2235c912ead563f404f4e7f331137acfd0fd9b04759532d1e97e05b1804d25", null ],
       [ "jkqtpcmmNoContextMenu", "group__jkqtpplottersupprt.html#gga80d2235c912ead563f404f4e7f331137aaab275b2b8701cdf94ca25dfbb25d1ed", null ]
+    ] ],
+    [ "JKQTPCoordinateAxes", "group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2", [
+      [ "JKQTPPrimaryAxis", "group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525", null ],
+      [ "JKQTPSecondaryAxis", "group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2aed86933bdc00e0f3f091e34cc29340d5", null ]
     ] ],
     [ "JKQTPKeyLayout", "group__jkqtpplottersupprt.html#ga12bbc8b1110ac5655e9afcf8ec49b6df", [
       [ "JKQTPKeyLayoutOneColumn", "group__jkqtpplottersupprt.html#gga12bbc8b1110ac5655e9afcf8ec49b6dfaa392dda89bd8a1f13de455f1200f4ff7", null ],

@@ -1,8 +1,11 @@
 var hierarchy =
 [
+    [ "JKQTBasePlotter::allPlotElements", "struct_j_k_q_t_base_plotter_1_1all_plot_elements.html", null ],
     [ "std::exception", null, [
       [ "JKQTPMathParser::jkmpException", "class_j_k_q_t_p_math_parser_1_1jkmp_exception.html", null ]
     ] ],
+    [ "JKQTBasePlotter::filterPlotElementByXAxis", "struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html", null ],
+    [ "JKQTBasePlotter::filterPlotElementByYAxis", "struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html", null ],
     [ "JKQTPPlotElement::HitTestLocation", "struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html", null ],
     [ "JKQTMathTextBoxInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html", null ],
     [ "JKQTMathTextModifiedEnvironmentInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_modified_environment_instruction_node_1_1_instruction_properties.html", null ],
@@ -330,10 +333,13 @@ var hierarchy =
         [ "JKQTMathTextLatexParser", "class_j_k_q_t_math_text_latex_parser.html", null ]
       ] ],
       [ "JKQTPCoordinateAxis", "class_j_k_q_t_p_coordinate_axis.html", [
-        [ "JKQTPHorizontalAxis", "class_j_k_q_t_p_horizontal_axis.html", [
-          [ "JKQTPHorizontalIndependentAxis", "class_j_k_q_t_p_horizontal_independent_axis.html", null ]
+        [ "JKQTPHorizontalAxisBase", "class_j_k_q_t_p_horizontal_axis_base.html", [
+          [ "JKQTPHorizontalAxis", "class_j_k_q_t_p_horizontal_axis.html", [
+            [ "JKQTPHorizontalIndependentAxis", "class_j_k_q_t_p_horizontal_independent_axis.html", null ]
+          ] ]
         ] ],
-        [ "JKQTPVerticalAxis", "class_j_k_q_t_p_vertical_axis.html", [
+        [ "JKQTPVerticalAxisBase", "class_j_k_q_t_p_vertical_axis_base.html", [
+          [ "JKQTPVerticalAxis", "class_j_k_q_t_p_vertical_axis.html", null ],
           [ "JKQTPVerticalIndependentAxis", "class_j_k_q_t_p_vertical_independent_axis.html", null ]
         ] ]
       ] ],

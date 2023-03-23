@@ -11,8 +11,9 @@ var searchData=
   ['operatorsubsuper_5fsize_5ffactor_8',['operatorsubsuper_size_factor',['../class_j_k_q_t_math_text.html#a779c0daac5085baa0d87e3082785a345',1,'JKQTMathText']]],
   ['otheraxisinverted_9',['otherAxisInverted',['../class_j_k_q_t_p_vertical_independent_axis.html#acedfe55a1a18ec19073791a68252ca69',1,'JKQTPVerticalIndependentAxis::otherAxisInverted()'],['../class_j_k_q_t_p_horizontal_independent_axis.html#a2cc6d39bbce8f930b4c759f41c8e897c',1,'JKQTPHorizontalIndependentAxis::otherAxisInverted()']]],
   ['otheraxisoffset_10',['otherAxisOffset',['../class_j_k_q_t_p_vertical_independent_axis.html#ac388f3218348b3a2d3f86ca37f95ff95',1,'JKQTPVerticalIndependentAxis::otherAxisOffset()'],['../class_j_k_q_t_p_horizontal_independent_axis.html#ab3791a898bb8a09c1b8834486cb7b2cc',1,'JKQTPHorizontalIndependentAxis::otherAxisOffset()']]],
-  ['otheraxiswidth_11',['otherAxisWidth',['../class_j_k_q_t_p_vertical_independent_axis.html#adc5824122f8d7b7518fef3c43da9d1ea',1,'JKQTPVerticalIndependentAxis::otherAxisWidth()'],['../class_j_k_q_t_p_horizontal_independent_axis.html#a3394687e2217538d326d137b5841c22a',1,'JKQTPHorizontalIndependentAxis::otherAxisWidth()']]],
-  ['outliers_12',['outliers',['../struct_j_k_q_t_p_stat5_number_statistics.html#a4f5981dc1357c7338884395807b8dc2a',1,'JKQTPStat5NumberStatistics']]],
-  ['overallheight_13',['overallHeight',['../struct_j_k_q_t_math_text_node_size.html#aae466e56e2dc81e2850c4306c6058766',1,'JKQTMathTextNodeSize']]],
-  ['overline_14',['overline',['../struct_j_k_q_t_math_text_environment.html#a498db2d6c359c8bacc1c2c66d8e30997',1,'JKQTMathTextEnvironment']]]
+  ['otheraxisref_11',['otherAxisRef',['../class_j_k_q_t_p_vertical_axis.html#aeaadfdfe9ce1f5f9f1a0424570c777d4',1,'JKQTPVerticalAxis::otherAxisRef()'],['../class_j_k_q_t_p_horizontal_axis.html#a2dd1ebebf0dc7c9c7b59c593aa545284',1,'JKQTPHorizontalAxis::otherAxisRef()']]],
+  ['otheraxiswidth_12',['otherAxisWidth',['../class_j_k_q_t_p_vertical_independent_axis.html#adc5824122f8d7b7518fef3c43da9d1ea',1,'JKQTPVerticalIndependentAxis::otherAxisWidth()'],['../class_j_k_q_t_p_horizontal_independent_axis.html#a3394687e2217538d326d137b5841c22a',1,'JKQTPHorizontalIndependentAxis::otherAxisWidth()']]],
+  ['outliers_13',['outliers',['../struct_j_k_q_t_p_stat5_number_statistics.html#a4f5981dc1357c7338884395807b8dc2a',1,'JKQTPStat5NumberStatistics']]],
+  ['overallheight_14',['overallHeight',['../struct_j_k_q_t_math_text_node_size.html#aae466e56e2dc81e2850c4306c6058766',1,'JKQTMathTextNodeSize']]],
+  ['overline_15',['overline',['../struct_j_k_q_t_math_text_environment.html#a498db2d6c359c8bacc1c2c66d8e30997',1,'JKQTMathTextEnvironment']]]
 ];

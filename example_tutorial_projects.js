@@ -43,7 +43,7 @@ var example_tutorial_projects =
       [ "Basics", "_j_k_q_t_plotter_function_plots.html#autotoc_md69", null ],
       [ "Simple C++ inline function", "_j_k_q_t_plotter_function_plots.html#autotoc_md70", null ],
       [ "Simple C++ inline function with parameters", "_j_k_q_t_plotter_function_plots.html#autotoc_md71", null ],
-      [ "C++ functors as plot functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md72", null ],
+      [ "C++ functors as plot functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md73", null ],
       [ "Static C functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md74", null ],
       [ "Predefined \"special\" functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md75", null ],
       [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md77", null ],
@@ -73,14 +73,14 @@ var example_tutorial_projects =
     [ "Example (JKQTPlotter): Plotting Geometric Objects", "_j_k_q_t_plotter_geometric_graphs.html", null ],
     [ "Example (JKQTPlotter): Generating Demo-Plots of Geometric Objects for Documentation", "_j_k_q_t_plotter_geometric_graphs_simple.html", null ],
     [ "Example (JKQTPlotter): Plotting Arrows", "_j_k_q_t_plotter_geometric_arrows.html", [
-      [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md73", null ],
+      [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md72", null ],
       [ "Classes with support for arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md76", null ],
       [ "Screenshot", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md79", null ]
     ] ],
     [ "Example (JKQTPlotter): Plot With Axes through Origin", "_j_k_q_t_plotter_geometric_coordinate_axis0.html", null ],
     [ "Example (JKQTPlotter): Line Graph with Logarithmic y-axis", "_j_k_q_t_plotter_log_axes.html", null ],
     [ "Example (JKQTPlotter): Date/Time Axes", "_j_k_q_t_plotter_date_time_axes.html", [
-      [ "Date Axis", "_j_k_q_t_plotter_date_time_axes.html#autotoc_md58", null ],
+      [ "Date Axis", "_j_k_q_t_plotter_date_time_axes.html#autotoc_md57", null ],
       [ "Time Axis", "_j_k_q_t_plotter_date_time_axes.html#autotoc_md60", null ]
     ] ],
     [ "Example (JKQTPlotter): Advanced Line and Fill Styling", "_j_k_q_t_plotter_advanced_line_and_fill_styling.html", null ],
@@ -199,7 +199,7 @@ var example_tutorial_projects =
       [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md37", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Advanced 2-Dimensional Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html", [
-      [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md57", null ],
+      [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md58", null ],
       [ "Marginal Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md59", null ],
       [ "2D Histogram", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md61", null ],
       [ "Kernel Density Estimates (KDE)", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md62", null ],
