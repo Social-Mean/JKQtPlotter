@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_geometric_arrows.html
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_examples_geo_arrows_README"></a> This project shows the capabilities of <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> to also draw arrows as geometric elements, using <a class="el" href="class_j_k_q_t_p_geo_arrow.html" title="This convenience specialisation of JKQTPGeoLine is used to draw a line with decorations (e....">JKQTPGeoArrow</a>. The arrow head/tail are defined by the enum values in JKQTPLineDecoratorStyle.</p>
 <p>The source code of the main application can be found in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/geo_arrows/geo_arrows.cpp"><code>geo_arrows.cpp</code></a>. First a plot is generated. Then several types of arrows are plotted onto the JKQtPlotter.</p>
-<h1><a class="anchor" id="autotoc_md72"></a>
+<h1><a class="anchor" id="autotoc_md77"></a>
 Different types of arrows</h1>
 <p>A first table shows all available arrow tips in different sizes. </p><div class="fragment"><div class="line"> <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i=0; i&lt;static_cast&lt;size_t&gt;(<a class="code hl_enumvalue" href="group__jkqtptools__drawing.html#ggabd0e8edf2acdfce37eccab000e445c62ae357a7a2c7a77f17e222adc26f1cf5fe">JKQTPLineDecoratorCount</a>); i++) {</div>
 <div class="line">    <span class="keyword">auto</span> <span class="keyword">const</span> decor=<span class="keyword">static_cast&lt;</span><a class="code hl_enumeration" href="group__jkqtptools__drawing.html#gabd0e8edf2acdfce37eccab000e445c62">JKQTPLineDecoratorStyle</a><span class="keyword">&gt;</span>(i);</div>
@@ -146,7 +146,7 @@ Different types of arrows</h1>
 <p>Note how the head-size scales with the line-width, but not linearly, but rather sub-linearly, so the tips do not grow too strongly.</p>
 <p>Also note that all arrows end at the designated line-end (here indicated by dashed grey lines), even circles and rectangle:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/doc/images/geo_arrow_tipsatlineend.png" alt="geo_arrow_tipsatlineend" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md76"></a>
+<h1><a class="anchor" id="autotoc_md78"></a>
 Classes with support for arrows</h1>
 <p>You can use <a class="el" href="class_j_k_q_t_p_geo_arrow.html" title="This convenience specialisation of JKQTPGeoLine is used to draw a line with decorations (e....">JKQTPGeoArrow</a> and <a class="el" href="class_j_k_q_t_p_geo_line.html" title="This JKQTPGeometricPlotElement is used to draw a line, optionally line-end decorations (aka arrows) a...">JKQTPGeoLine</a> to draw arrows (<a class="el" href="class_j_k_q_t_p_geo_arrow.html" title="This convenience specialisation of JKQTPGeoLine is used to draw a line with decorations (e....">JKQTPGeoArrow</a> is just a convenience class that enables arrows by default, otherwise it is equal to <a class="el" href="class_j_k_q_t_p_geo_line.html" title="This JKQTPGeometricPlotElement is used to draw a line, optionally line-end decorations (aka arrows) a...">JKQTPGeoLine</a>).</p>
 <p>In addition, also other classes can show line-decorators:</p><ul>
@@ -187,7 +187,7 @@ Screenshot</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Thu Mar 23 2023 12:58:40 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
+    <li class="footer">Generated on Thu Mar 23 2023 13:56:40 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
   </ul>
 </div>
 </body>
