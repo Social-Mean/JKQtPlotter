@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"functions_o.html":[12,3,0,14],
 "functions_p.html":[12,3,0,15],
 "functions_prop.html":[12,3,6],
 "functions_q.html":[12,3,0,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "group__jkqtplotter__general__basicplotelements.html":[10,4,0,3],
 "group__jkqtplotter__general__basicplotelements__coordinateaxes.html":[10,4,0,3,0],
 "group__jkqtplotter__general__basicplotelements__key.html":[10,4,0,3,1],
-"group__jkqtplotter__general__usage.html":[10,4,0,5],
-"group__jkqtplotter__general__usage__jkqtbaseplotter.html":[10,4,0,5,1]
+"group__jkqtplotter__general__usage.html":[10,4,0,5]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"class_j_k_q_t_math_text_simple_instruction_node.html#a7060ee30b5a18b25bfd28a36eab61fbb":[10,3,1,2,22,1],
 "class_j_k_q_t_math_text_simple_instruction_node.html#a729d6ccfa338c0d4c748decef015f9fd":[10,3,1,2,22,2],
 "class_j_k_q_t_math_text_simple_instruction_node.html#a96b4a574d38c8233d41e4dfe62d14693":[10,3,1,2,22,5],
 "class_j_k_q_t_math_text_simple_instruction_node.html#aaadcab58019fcd7979448197ff76e532":[10,3,1,2,22,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "class_j_k_q_t_math_text_whitespace_node.html#abb4cc285de7390bc8a7b4fc0a3fb14e7":[10,3,1,2,32,4],
 "class_j_k_q_t_math_text_whitespace_node.html#ac3c7fd5030d4ec40616a76f78f6fd43f":[10,3,1,2,32,14],
 "class_j_k_q_t_math_text_whitespace_node.html#ae39ecd703679717da72126c4bde76260":[10,3,1,2,32,3],
-"class_j_k_q_t_math_text_whitespace_node.html#af432718928924c2b4ba5b16d1d7c31cb":[10,3,1,2,32,5],
-"class_j_k_q_t_math_text_whitespace_node.html#afc69d33240adc5665fead70f531f249a":[10,3,1,2,32,11]
+"class_j_k_q_t_math_text_whitespace_node.html#af432718928924c2b4ba5b16d1d7c31cb":[10,3,1,2,32,5]
 };

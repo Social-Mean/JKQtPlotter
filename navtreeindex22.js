@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"class_j_k_q_t_p_vertical_independent_axis.html#adc5824122f8d7b7518fef3c43da9d1ea":[10,4,1,1,3,6,16],
 "class_j_k_q_t_p_vertical_independent_axis.html#aec00ebd4484097dacc49a8736e21a25d":[10,4,1,1,3,6,10],
 "class_j_k_q_t_p_vertical_independent_axis.html#af15e46c43319756832c7a77720156034":[10,4,1,1,3,6,1],
 "class_j_k_q_t_p_vertical_range.html":[10,4,1,1,1,5,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a219b655b6151eefef8ea9e86ef9d7316":[10,4,1,1,1,7,0,1,47],
 "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a2681a15634cbdcc982e811ed6b45487f":[10,4,1,1,1,7,0,1,17],
 "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a2e4da542e348ad0d6353fa91b3859516":[10,4,1,1,1,7,0,1,37],
-"class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a42ed5f991ba940fd2a7ff897c6fe6e1e":[10,4,1,1,1,7,0,1,11],
-"class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a457888077f01f6877cc9f440bd26ef8c":[10,4,1,1,1,7,0,1,5]
+"class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a42ed5f991ba940fd2a7ff897c6fe6e1e":[10,4,1,1,1,7,0,1,11]
 };

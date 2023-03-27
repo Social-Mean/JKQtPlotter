@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"group__jkqtplotter__general__usage__jkqtbaseplotter.html":[10,4,0,5,1],
 "group__jkqtplotter__general__usage__jkqtplotter.html":[10,4,0,5,2],
 "group__jkqtplotter__general__usage__qtcreator.html":[10,4,0,5,0],
 "group__jkqtplotter__geoplots.html":[10,4,1,1,1,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2aed86933bdc00e0f3f091e34cc29340d5":[10,4,1,5,20,1],
 "group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a0057a2bbec46668ccbd0ee1cfcd54562":[10,4,1,5,17,12],
 "group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a19ba1b1447d4562bb04a4c0a701508e9":[10,4,1,5,17,5],
-"group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a41315f46d830ec9df8a88ab4cb57faf3":[10,4,1,5,17,16],
-"group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a41346640ac5314f33079dc3614dfb09f":[10,4,1,5,17,1]
+"group__jkqtpplottersupprt.html#gga3b98f7fd9662593c8c36c55f172d8133a41315f46d830ec9df8a88ab4cb57faf3":[10,4,1,5,17,16]
 };

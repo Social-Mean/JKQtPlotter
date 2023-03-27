@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"class_j_k_q_t_plotter.html#a73fd67aad67885a9a8df59071e3613bb":[10,4,1,2,4,130],
 "class_j_k_q_t_plotter.html#a748601cd74cdb3722acdb9fb036fad58":[10,4,1,2,4,198],
 "class_j_k_q_t_plotter.html#a76523892bfb2cfc45bda5204feaa24fe":[10,4,1,2,4,28],
 "class_j_k_q_t_plotter.html#a7681f6617f267f17e4897e7a6a56f675":[10,4,1,2,4,56],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "functions_k.html":[12,3,0,10],
 "functions_l.html":[12,3,0,11],
 "functions_m.html":[12,3,0,12],
-"functions_n.html":[12,3,0,13],
-"functions_o.html":[12,3,0,14]
+"functions_n.html":[12,3,0,13]
 };

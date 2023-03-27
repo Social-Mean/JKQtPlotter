@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"class_j_k_q_t_math_text_whitespace_node.html#afc69d33240adc5665fead70f531f249a":[10,3,1,2,32,11],
 "class_j_k_q_t_p_adaptive_function_graph_evaluator.html":[12,0,60],
 "class_j_k_q_t_p_adaptive_function_graph_evaluator.html#a05c929d794b814cbae74f17dfe0fada3":[12,0,60,8],
 "class_j_k_q_t_p_adaptive_function_graph_evaluator.html#a15c19432342bebe1d523c5bf9dfd18a7":[12,0,60,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "class_j_k_q_t_p_boxplot_graph_base.html#a70e2b9104e7a6b4e7b3628cbc2f316ad":[10,4,1,1,1,9,1,12],
 "class_j_k_q_t_p_boxplot_graph_base.html#a7f074128e6dea9d915df49cf32e94f36":[10,4,1,1,1,9,1,22],
 "class_j_k_q_t_p_boxplot_graph_base.html#a810f44c8ab24e27d6443ef20b4cf321d":[10,4,1,1,1,9,1,2],
-"class_j_k_q_t_p_boxplot_graph_base.html#a8f8c8446684c615ffcd2dbd84a0c55ac":[10,4,1,1,1,9,1,17],
-"class_j_k_q_t_p_boxplot_graph_base.html#a8fe9506bc7b7f93b32a73d32e5181d2b":[10,4,1,1,1,9,1,20]
+"class_j_k_q_t_p_boxplot_graph_base.html#a8f8c8446684c615ffcd2dbd84a0c55ac":[10,4,1,1,1,9,1,17]
 };
