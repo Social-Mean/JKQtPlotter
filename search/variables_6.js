@@ -9,7 +9,7 @@ var searchData=
   ['globalflags_6',['globalFlags',['../struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#ada01bd221de65649209a2944f5769ead',1,'JKQTMathTextSymbolNode::SymbolFullProps']]],
   ['graph_7',['graph',['../struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#aaf823d34b71fa0814a9d52c5be3b4dbb',1,'JKQTPlotter::MouseDragMarker']]],
   ['graphcolorderivationmode_8',['graphColorDerivationMode',['../class_j_k_q_t_graphs_specific_style_properties.html#a2bd648ac033ed7e6e2d849c0905acf54',1,'JKQTGraphsSpecificStyleProperties']]],
-  ['graphs_9',['graphs',['../class_j_k_q_t_base_plotter.html#a92d3532598f2d305f8598559944bdfe7',1,'JKQTBasePlotter']]],
+  ['graphs_9',['graphs',['../class_j_k_q_t_base_plotter.html#af0f2a3fcd360a85fa2a106baf062539a',1,'JKQTBasePlotter']]],
   ['graphsstyle_10',['graphsStyle',['../class_j_k_q_t_base_plotter_style.html#a225088c94c0b74453ed02cb16b643aa1',1,'JKQTBasePlotterStyle']]],
   ['gridcolor_11',['gridColor',['../class_j_k_q_t_fast_plotter.html#a8fd851eced48820e18bc126e49f1ab5c',1,'JKQTFastPlotter']]],
   ['griddeltax_12',['gridDeltaX',['../class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a4c7c65155f6d86abba48656667bfa423',1,'JKQTPXYParametrizedScatterGraph']]],

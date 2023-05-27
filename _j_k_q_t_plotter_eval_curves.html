@@ -117,20 +117,20 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_eval_curves.html','')
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md64">Basics</a></li>
-<li class="level1"><a href="#autotoc_md65">Simple C++ inline function</a></li>
-<li class="level1"><a href="#autotoc_md66">Simple C++ inline function with Parameters</a></li>
-<li class="level1"><a href="#autotoc_md67">Screenshot</a></li>
-<li class="level1"><a href="#autotoc_md68">Notes</a></li>
+<ul><li class="level1"><a href="#autotoc_md75">Basics</a></li>
+<li class="level1"><a href="#autotoc_md76">Simple C++ inline function</a></li>
+<li class="level1"><a href="#autotoc_md77">Simple C++ inline function with Parameters</a></li>
+<li class="level1"><a href="#autotoc_md78">Screenshot</a></li>
+<li class="level1"><a href="#autotoc_md79">Notes</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_examples_evalcurve_README"></a></p>
-<h1><a class="anchor" id="autotoc_md64"></a>
+<h1><a class="anchor" id="autotoc_md75"></a>
 Basics</h1>
 <p>This project (see <code>./examples/evalcurve/</code>) demonstrates how to plot mathematical functions as line graphs with <code><a class="el" href="class_j_k_q_t_p_x_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function  The function is eva...">JKQTPXYFunctionLineGraph</a></code>. The functions may be defined as static C functions, C++ functors or c++ inline functions. The functions may simply depend on the parameter <code>t</code>, or on <code>t</code> and a vector of parameters.</p>
 <p>The class uses an adaptive algorithm, which determines by the local slope, at how many points (or how close points) the functor has to be evaluated.</p>
 <p>If you want to evaluate the parametric function explicitly, you can use <code><a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a></code> or <code><a class="el" href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html" title="This implements xy scatter plots (like JKQTPXYScatterGraph), but the color and size of the symbols ma...">JKQTPXYParametrizedScatterGraph</a></code> and have a look at the example <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/parametriccurve"><code>./examples/parametriccurve</code></a>.</p>
-<h1><a class="anchor" id="autotoc_md65"></a>
+<h1><a class="anchor" id="autotoc_md76"></a>
 Simple C++ inline function</h1>
 <p>The example shows how to plot a simple C++ inline function:</p>
 <div class="fragment"><div class="line"><a class="code hl_class" href="class_j_k_q_t_p_x_y_function_line_graph.html">JKQTPXYFunctionLineGraph</a>* func1=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_x_y_function_line_graph.html">JKQTPXYFunctionLineGraph</a>(plot);</div>
@@ -151,7 +151,7 @@ Simple C++ inline function</h1>
 <div class="ttc" id="agroup__jkqtptools__math__basic_html_gae96ac530dff57dae111b641b0c7f4eb4"><div class="ttname"><a href="group__jkqtptools__math__basic.html#gae96ac530dff57dae111b641b0c7f4eb4">JKQTPSTATISTICS_PI</a></div><div class="ttdeci">#define JKQTPSTATISTICS_PI</div><div class="ttdef"><b>Definition:</b> jkqtpmathtools.h:48</div></div>
 </div><!-- fragment --><p>Note that here a functor is defined, which calculates the points on a <a href="https://en.wikipedia.org/wiki/Butterfly_curve_(transcendental)">Butterfly Curve</a>, i.e. a function mapping a parameter <code>t</code> to a two-dimensional point <code>QPointF</code> with complex functions for x and y. This function is evaluated on a range of values for <code>t</code>, set by</p>
 <div class="fragment"><div class="line">func1-&gt;<a class="code hl_slot" href="class_j_k_q_t_p_x_y_function_line_graph_base.html#a3be1663bdc9a11851bc1d27f3a979c85">setTRange</a>(0, 2.0*<a class="code hl_define" href="group__jkqtptools__math__basic.html#gae96ac530dff57dae111b641b0c7f4eb4">JKQTPSTATISTICS_PI</a>);</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md66"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md77"></a>
 Simple C++ inline function with Parameters</h1>
 <p><code><a class="el" href="class_j_k_q_t_p_x_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function  The function is eva...">JKQTPXYFunctionLineGraph</a></code> allows to use more complex functors alternatively: These depend on the variable <code>t</code>and a vector of parameters. Here is an example:</p>
 <div class="fragment"><div class="line">func2-&gt;setPlotFunctionFunctor([](<span class="keywordtype">double</span> t, <span class="keyword">const</span> QVector&lt;double&gt;&amp; params) -&gt;QPointF {</div>
@@ -172,11 +172,11 @@ Simple C++ inline function with Parameters</h1>
 </div><!-- fragment --><p>Alternatively they can also be taken from a column in the internal datastore. Then you have to call:</p>
 <div class="fragment"><div class="line">func2-&gt;setParameterColumn(ColumnID);</div>
 </div><!-- fragment --><p>instead, where <code>ColumnID</code> is the ID of the column with the parameter values.</p>
-<h1><a class="anchor" id="autotoc_md67"></a>
+<h1><a class="anchor" id="autotoc_md78"></a>
 Screenshot</h1>
 <p>This code snippets above result in a plot like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/evalcurve.png" alt="evalcurve" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md68"></a>
+<h1><a class="anchor" id="autotoc_md79"></a>
 Notes</h1>
 <p>This example describes how to draw 2D parametric curves. For (simpler) 1D-functions f(x) or f(y), see <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/functionplot">examples/functionplot</a> . </p>
 </div></div><!-- contents -->
@@ -187,7 +187,7 @@ Notes</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Sat May 13 2023 13:01:09 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
+    <li class="footer">Generated on Sat May 27 2023 21:50:06 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
   </ul>
 </div>
 </body>
