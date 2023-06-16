@@ -1,5 +1,7 @@
 var NAVTREEINDEX30 =
 {
+"struct_j_k_q_t_math_text_font_definition.html":[10,3,1,3,1],
+"struct_j_k_q_t_math_text_font_definition.html#a17455490db6caa32a050309bf3b7e92a":[10,3,1,3,1,1],
 "struct_j_k_q_t_math_text_font_definition.html#a63af3d052d9973f22455ed2d820e8858":[10,3,1,3,1,0],
 "struct_j_k_q_t_math_text_font_definition.html#a65c27c7ae0e97ccb2fe8b34c03306d6a":[10,3,1,3,1,2],
 "struct_j_k_q_t_math_text_font_specifier.html":[10,3,1,3,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX30 =
 "struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#a6398bd37352d5c19430c3fc014f52b2c":[10,4,1,1,1,8,2,0,0,5],
 "struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#a692af778e2bb8065ae0065989a9bff85":[10,4,1,1,1,8,2,0,0,2],
 "struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#aedce35d29964b00b712658d470c021d1":[10,4,1,1,1,8,2,0,0,0],
-"struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html":[10,4,1,1,1,7,1,12],
-"struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#a135902dc2513cf2b4e53443ee6f7b01a":[10,4,1,1,1,7,1,12,0],
-"struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#a1e113fb7dd2e3e5d81c82e82577f9b04":[10,4,1,1,1,7,1,12,4]
+"struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html":[10,4,1,1,1,7,1,12]
 };

@@ -142,7 +142,8 @@ var group__jkqtpplottersupprt =
     ] ],
     [ "JKQTPMouseWheelActions", "group__jkqtpplottersupprt.html#ga6617afa61313feda8c490932016ff58f", [
       [ "jkqtpmwaZoomByWheel", "group__jkqtpplottersupprt.html#gga6617afa61313feda8c490932016ff58fa04e6c07a8561e4f848102c4c3b87ca53", null ],
-      [ "jkqtpmwaPanByWheel", "group__jkqtpplottersupprt.html#gga6617afa61313feda8c490932016ff58fa41f3b3f9abe99373630d56d5649adc77", null ]
+      [ "jkqtpmwaPanByWheel", "group__jkqtpplottersupprt.html#gga6617afa61313feda8c490932016ff58fa41f3b3f9abe99373630d56d5649adc77", null ],
+      [ "jkqtpmwaZoomByWheelAndTrackpadPan", "group__jkqtpplottersupprt.html#gga6617afa61313feda8c490932016ff58fa53646b1fa7e8d2432a11fc37c93efd7b", null ]
     ] ],
     [ "JKQTPPlotStyleType", "group__jkqtpplottersupprt.html#gaf0d90444170dd9b4daeabdede17615c4", [
       [ "JKQTPPlotStyleType::Default", "group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4a7a1920d61156abc05a60135aefe8bc67", null ],

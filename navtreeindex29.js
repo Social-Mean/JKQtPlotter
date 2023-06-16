@@ -1,5 +1,7 @@
 var NAVTREEINDEX29 =
 {
+"group__jkqtptools__math__statistics__basic.html#ga857f378608abdf733a502a2d0ba6b702":[10,2,5,4,28],
+"group__jkqtptools__math__statistics__basic.html#ga88686b7d786896c704659dc8fe4c1e7f":[10,2,5,4,17],
 "group__jkqtptools__math__statistics__basic.html#ga88fd1f99cd6703268c3065d69ba6b65d":[10,2,5,4,13],
 "group__jkqtptools__math__statistics__basic.html#ga964efee196e2d587b30037421cdda22a":[10,2,5,4,16],
 "group__jkqtptools__math__statistics__basic.html#gaa36f983ab456720de3df86faa509afb3":[10,2,5,4,8],
@@ -102,12 +104,12 @@ var NAVTREEINDEX29 =
 "licensepage.html#extlicense_xits":[5,1,0],
 "licensepage.html#licensesec":[5,0],
 "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html":[1],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md1":[1,0],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2":[1,1],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3":[1,2],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4":[1,3],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5":[1,4],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6":[1,5],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2":[1,0],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3":[1,1],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4":[1,2],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5":[1,3],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6":[1,4],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md7":[1,5],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html":[2],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10":[2,2],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md11":[2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX29 =
 "struct_j_k_q_t_math_text_environment.html#ad5e8492e13893975bfa5f402efda6a6e":[10,3,1,3,0,17],
 "struct_j_k_q_t_math_text_environment.html#ad852dd5b5a0907de4dc9a53913888c9b":[10,3,1,3,0,20],
 "struct_j_k_q_t_math_text_environment.html#aeef82a4008a73979296c7d0f7c6f8e65":[10,3,1,3,0,19],
-"struct_j_k_q_t_math_text_environment.html#afa11ac7967fb7a4d1f7466a70700817d":[10,3,1,3,0,5],
-"struct_j_k_q_t_math_text_font_definition.html":[10,3,1,3,1],
-"struct_j_k_q_t_math_text_font_definition.html#a17455490db6caa32a050309bf3b7e92a":[10,3,1,3,1,1]
+"struct_j_k_q_t_math_text_environment.html#afa11ac7967fb7a4d1f7466a70700817d":[10,3,1,3,0,5]
 };

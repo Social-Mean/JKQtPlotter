@@ -398,6 +398,8 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6617afa61313feda8c490932016ff58fa04e6c07a8561e4f848102c4c3b87ca53">jkqtpmwaZoomByWheel</a> =0
 , <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6617afa61313feda8c490932016ff58fa41f3b3f9abe99373630d56d5649adc77">jkqtpmwaPanByWheel</a>
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6617afa61313feda8c490932016ff58fa53646b1fa7e8d2432a11fc37c93efd7b">jkqtpmwaZoomByWheelAndTrackpadPan</a>
 <br />
  }</td></tr>
 <tr class="memdesc:ga6617afa61313feda8c490932016ff58f"><td class="mdescLeft">&#160;</td><td class="mdescRight">actions that can be bound to a mouse wheel event  <a href="group__jkqtpplottersupprt.html#ga6617afa61313feda8c490932016ff58f">More...</a><br /></td></tr>
@@ -1343,6 +1345,9 @@ Draw Lines User-Action</div></div>
 </td></tr>
 <tr><td class="fieldname"><a id="gga6617afa61313feda8c490932016ff58fa41f3b3f9abe99373630d56d5649adc77" name="gga6617afa61313feda8c490932016ff58fa41f3b3f9abe99373630d56d5649adc77"></a>jkqtpmwaPanByWheel&#160;</td><td class="fielddoc"><p>use the mouse-wheel for panning the plot </p>
 </td></tr>
+<tr><td class="fieldname"><a id="gga6617afa61313feda8c490932016ff58fa53646b1fa7e8d2432a11fc37c93efd7b" name="gga6617afa61313feda8c490932016ff58fa53646b1fa7e8d2432a11fc37c93efd7b"></a>jkqtpmwaZoomByWheelAndTrackpadPan&#160;</td><td class="fielddoc"><p>use the mouse-wheel for zooming. In addition, this tries to recognize track-pad pan gestures and applies them. </p>
+<dl class="section note"><dt>Note</dt><dd>This is needed, because Qt converts track-pad zoom AND pan gestures to wheelEvents, but does not provide the source. Therefore a heuristics is required to interpret both! </dd></dl>
+</td></tr>
 </table>
 
 </div>
@@ -2102,7 +2107,7 @@ Draw Lines User-Action</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jun 11 2023 14:35:03 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
+    <li class="footer">Generated on Fri Jun 16 2023 11:45:05 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
   </ul>
 </div>
 </body>

@@ -550,6 +550,7 @@ var group__jkqtpplotterclasses =
       [ "deregisterMouseWheelAction", "class_j_k_q_t_plotter.html#a5fdf69db18bbffbb1d4fdac53359a451", null ],
       [ "endGraphs", "class_j_k_q_t_plotter.html#acbf65a3fc0583bf18fb10f5262ecf6e2", null ],
       [ "endGraphs", "class_j_k_q_t_plotter.html#a036b3f34c48f788591230e6d6b3d80ee", null ],
+      [ "event", "class_j_k_q_t_plotter.html#afe685d66dfbbc7084fe43578169c7266", null ],
       [ "fillInternalStructForToolTipOfClosestDataPoint", "class_j_k_q_t_plotter.html#ae58abe904324c67d95a4c6272f47af8a", null ],
       [ "findMatchingMouseDoubleClickAction", "class_j_k_q_t_plotter.html#a959f3f0f1e567ed4148332d1f6ef0ecf", null ],
       [ "findMatchingMouseDragAction", "class_j_k_q_t_plotter.html#a76523892bfb2cfc45bda5204feaa24fe", null ],
