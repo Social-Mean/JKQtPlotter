@@ -516,6 +516,11 @@ var group__jkqtpplotterclasses =
       [ "yAxis", "class_j_k_q_t_base_plotter.html#a7c67d4e5af599ca4464c3e2de693595e", null ]
     ] ],
     [ "JKQTPlotter", "class_j_k_q_t_plotter.html", [
+      [ "WheelActionType", "class_j_k_q_t_plotter.html#a1bb83e4dcde949ffd827bfcc824fad46", [
+        [ "Zoom", "class_j_k_q_t_plotter.html#a1bb83e4dcde949ffd827bfcc824fad46a4252b72e6ebcd4d4b4c2e46a786f03d2", null ],
+        [ "Pan", "class_j_k_q_t_plotter.html#a1bb83e4dcde949ffd827bfcc824fad46af6d4a17b27da35c2d90ce13801f36782", null ],
+        [ "None", "class_j_k_q_t_plotter.html#a1bb83e4dcde949ffd827bfcc824fad46a6adf97f83acf6453d4a6a4b1070f3754", null ]
+      ] ],
       [ "JKQTPlotter", "class_j_k_q_t_plotter.html#a8e0c883816f540a177a6e85999efb5d6", null ],
       [ "JKQTPlotter", "class_j_k_q_t_plotter.html#a38c195e8b2e0f07ee72dfb831bc5fe94", null ],
       [ "JKQTPlotter", "class_j_k_q_t_plotter.html#af0bece69703f98fe9f11a1ddcb3c0630", null ],
@@ -767,9 +772,12 @@ var group__jkqtpplotterclasses =
       [ "doDrawing", "class_j_k_q_t_plotter.html#ae24b4392cfd4861732f9a708908a6a0c", null ],
       [ "image", "class_j_k_q_t_plotter.html#adf91ccc467fe2cbf96af89212c1f0132", null ],
       [ "jkqtp_RESIZE_DELAY", "class_j_k_q_t_plotter.html#a8eb6cba62d97438ee61df12e8c420d53", null ],
+      [ "lastWheelActionTimestamp", "class_j_k_q_t_plotter.html#a57489a6b4ad73976113b0687a999701d", null ],
+      [ "lastWheelActionType", "class_j_k_q_t_plotter.html#ade1a910f8301c695362ae1f7474147f4", null ],
       [ "magnification", "class_j_k_q_t_plotter.html#aefeb870110dc61e7b9efcbe6a3be1c13", null ],
       [ "masterPlotterX", "class_j_k_q_t_plotter.html#a002d5b91b0c1ba4c9d54280288cbcfea", null ],
       [ "masterPlotterY", "class_j_k_q_t_plotter.html#a8c7218c7b5254c2a7d8c053a82601f07", null ],
+      [ "maxWheelEventSeriesTimestampDifference", "class_j_k_q_t_plotter.html#a533d39dfa332d2ecfc68d53fea3235c8", null ],
       [ "menuSpecialContextMenu", "class_j_k_q_t_plotter.html#a1271d5f4e5f1227757d69dc8ab7617eb", null ],
       [ "minSize", "class_j_k_q_t_plotter.html#ab7f04f5eac44daec3bfa6e6a93d8168c", null ],
       [ "mouseContextX", "class_j_k_q_t_plotter.html#ac7623645868346d96e96b0042d2a499d", null ],

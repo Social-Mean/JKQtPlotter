@@ -117,10 +117,10 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_function_plots.html',
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md70">Basics</a></li>
-<li class="level1"><a href="#autotoc_md72">Simple C++ inline function</a></li>
-<li class="level1"><a href="#autotoc_md73">Simple C++ inline function with parameters</a></li>
-<li class="level1"><a href="#autotoc_md74">C++ functors as plot functions</a></li>
+<ul><li class="level1"><a href="#autotoc_md72">Basics</a></li>
+<li class="level1"><a href="#autotoc_md73">Simple C++ inline function</a></li>
+<li class="level1"><a href="#autotoc_md74">Simple C++ inline function with parameters</a></li>
+<li class="level1"><a href="#autotoc_md75">C++ functors as plot functions</a></li>
 <li class="level1"><a href="#autotoc_md76">Static C functions</a></li>
 <li class="level1"><a href="#autotoc_md77">Predefined &quot;special&quot; functions</a></li>
 <li class="level1"><a href="#autotoc_md78">Screenshot</a></li>
@@ -128,10 +128,10 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_function_plots.html',
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_examples_functionplot_README"></a></p>
-<h1><a class="anchor" id="autotoc_md70"></a>
+<h1><a class="anchor" id="autotoc_md72"></a>
 Basics</h1>
 <p>This project (see <code>./examples/functionplot/</code>) demonstrates how to plot mathematical functions as line graphs. The functions may be defined as static C functions, C++ functors or c++ inline functions. See <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/parsedfunctionplot">examples/parsedfunctionplot</a> for an example of how to use an internal equation parser provided with <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> instead of directly defining functions.</p>
-<h1><a class="anchor" id="autotoc_md72"></a>
+<h1><a class="anchor" id="autotoc_md73"></a>
 Simple C++ inline function</h1>
 <p>The first example shows how to plot a C++ inline function: </p><div class="fragment"><div class="line"><a class="code hl_class" href="class_j_k_q_t_p_x_function_line_graph.html">JKQTPXFunctionLineGraph</a>* func1=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_x_function_line_graph.html">JKQTPXFunctionLineGraph</a>(plot);</div>
 <div class="line">func1-&gt;<a class="code hl_function" href="class_j_k_q_t_p_functor_line_graph_base.html#a45af61ac31bd9e6b26c662ea532920bf">setPlotFunctionFunctor</a>([](<span class="keywordtype">double</span> x) { <span class="keywordflow">return</span> 0.2*x*x-0.015*x*x*x; });</div>
@@ -140,7 +140,7 @@ Simple C++ inline function</h1>
 <div class="ttc" id="aclass_j_k_q_t_p_functor_line_graph_base_html_a45af61ac31bd9e6b26c662ea532920bf"><div class="ttname"><a href="class_j_k_q_t_p_functor_line_graph_base.html#a45af61ac31bd9e6b26c662ea532920bf">JKQTPFunctorLineGraphBase::setPlotFunctionFunctor</a></div><div class="ttdeci">virtual void setPlotFunctionFunctor(jkqtpPlotFunctionType &amp;&amp;__value)</div><div class="ttdoc">sets a functor to be plotted</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_plot_element_html_a02a8d7c24cde7768f0134cee1aa1159d"><div class="ttname"><a href="class_j_k_q_t_p_plot_element.html#a02a8d7c24cde7768f0134cee1aa1159d">JKQTPPlotElement::setTitle</a></div><div class="ttdeci">virtual void setTitle(const QString &amp;__value)</div><div class="ttdoc">sets the title of the plot (for display in key!).</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_function_line_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_x_function_line_graph.html">JKQTPXFunctionLineGraph</a></div><div class="ttdoc">This implements line plots where the data is taken from a user supplied function .</div><div class="ttdef"><b>Definition:</b> jkqtpevaluatedfunction.h:286</div></div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md73"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md74"></a>
 Simple C++ inline function with parameters</h1>
 <p>In any such plot function, you can also use parameters, provided via the second parameter. Usually these are "internal parameters", defined by <code>func2-&gt;setParamsV(p0, p1, ...)</code>: </p><div class="fragment"><div class="line"><a class="code hl_class" href="class_j_k_q_t_p_x_function_line_graph.html">JKQTPXFunctionLineGraph</a>* func2=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_x_function_line_graph.html">JKQTPXFunctionLineGraph</a>(plot);</div>
 <div class="line">func2-&gt;<a class="code hl_function" href="class_j_k_q_t_p_functor_line_graph_base.html#a45af61ac31bd9e6b26c662ea532920bf">setPlotFunctionFunctor</a>([](<span class="keywordtype">double</span> x, <span class="keyword">const</span> QVector&lt;double&gt;&amp; p) {</div>
@@ -151,7 +151,7 @@ Simple C++ inline function with parameters</h1>
 <div class="line">plot-&gt;addGraph(func2);</div>
 <div class="ttc" id="aclass_j_k_q_t_p_evaluated_function_graph_base_html_aa3f1098c5ab09c8be6dca50346254205"><div class="ttname"><a href="class_j_k_q_t_p_evaluated_function_graph_base.html#aa3f1098c5ab09c8be6dca50346254205">JKQTPEvaluatedFunctionGraphBase::setParamsV</a></div><div class="ttdeci">void setParamsV(double p1)</div><div class="ttdoc">set an internal parameter vector as function parameters, initialized with {p1}</div></div>
 <div class="ttc" id="agroup__jkqtptools__math__basic_html_gae96ac530dff57dae111b641b0c7f4eb4"><div class="ttname"><a href="group__jkqtptools__math__basic.html#gae96ac530dff57dae111b641b0c7f4eb4">JKQTPSTATISTICS_PI</a></div><div class="ttdeci">#define JKQTPSTATISTICS_PI</div><div class="ttdef"><b>Definition:</b> jkqtpmathtools.h:48</div></div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md74"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md75"></a>
 C++ functors as plot functions</h1>
 <p>You can also use C++ functors (or function objects): </p><div class="fragment"><div class="line"><span class="keyword">struct </span>SincSqr {</div>
 <div class="line"><span class="keyword">public</span>:</div>
@@ -221,7 +221,7 @@ Notes</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Fri Jun 16 2023 11:45:05 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
+    <li class="footer">Generated on Sun Jun 18 2023 13:18:29 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
   </ul>
 </div>
 </body>

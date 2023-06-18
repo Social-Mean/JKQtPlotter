@@ -127,6 +127,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_plotter.html',''); initR
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-slots">Protected Slots</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
@@ -828,6 +829,18 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:afe85c966963453016b657a4b450714b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the global resize delay in milliseconds <em>delayMS</em>. After calling this function all plots will use the new delay  <br /></td></tr>
 <tr class="separator:afe85c966963453016b657a4b450714b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
+Protected Types</h2></td></tr>
+<tr class="memitem:a1bb83e4dcde949ffd827bfcc824fad46"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a1bb83e4dcde949ffd827bfcc824fad46">WheelActionType</a> { <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_plotter.html#a1bb83e4dcde949ffd827bfcc824fad46a4252b72e6ebcd4d4b4c2e46a786f03d2">Zoom</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_plotter.html#a1bb83e4dcde949ffd827bfcc824fad46af6d4a17b27da35c2d90ce13801f36782">Pan</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_plotter.html#a1bb83e4dcde949ffd827bfcc824fad46a6adf97f83acf6453d4a6a4b1070f3754">None</a>
+<br />
+ }</td></tr>
+<tr class="separator:a1bb83e4dcde949ffd827bfcc824fad46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-slots" name="pro-slots"></a>
 Protected Slots</h2></td></tr>
 <tr class="memitem:a45095749cbaea259c936bcb9d79cb334"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a45095749cbaea259c936bcb9d79cb334">delayedResizeEvent</a> ()</td></tr>
@@ -987,6 +1000,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:adf91ccc467fe2cbf96af89212c1f0132"><td class="memItemLeft" align="right" valign="top">QImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#adf91ccc467fe2cbf96af89212c1f0132">image</a></td></tr>
 <tr class="memdesc:adf91ccc467fe2cbf96af89212c1f0132"><td class="mdescLeft">&#160;</td><td class="mdescRight">this stores the currently displayed plot  <br /></td></tr>
 <tr class="separator:adf91ccc467fe2cbf96af89212c1f0132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57489a6b4ad73976113b0687a999701d"><td class="memItemLeft" align="right" valign="top">quint64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a57489a6b4ad73976113b0687a999701d">lastWheelActionTimestamp</a></td></tr>
+<tr class="memdesc:a57489a6b4ad73976113b0687a999701d"><td class="mdescLeft">&#160;</td><td class="mdescRight">storage for timestammp of the last QWheelEvent (used in wheelAction() to distinguish trackpad-pan ations in mode jkqtpmwaZoomByWheelAndTrackpadPan)  <br /></td></tr>
+<tr class="separator:a57489a6b4ad73976113b0687a999701d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade1a910f8301c695362ae1f7474147f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_plotter.html#a1bb83e4dcde949ffd827bfcc824fad46">WheelActionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#ade1a910f8301c695362ae1f7474147f4">lastWheelActionType</a></td></tr>
+<tr class="memdesc:ade1a910f8301c695362ae1f7474147f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">storage for last WheelActionType (used in wheelAction() to distinguish trackpad-pan ations in mode jkqtpmwaZoomByWheelAndTrackpadPan)  <br /></td></tr>
+<tr class="separator:ade1a910f8301c695362ae1f7474147f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefeb870110dc61e7b9efcbe6a3be1c13"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#aefeb870110dc61e7b9efcbe6a3be1c13">magnification</a></td></tr>
 <tr class="memdesc:aefeb870110dc61e7b9efcbe6a3be1c13"><td class="mdescLeft">&#160;</td><td class="mdescRight">magnification factor for the display of the plot  <br /></td></tr>
 <tr class="separator:aefeb870110dc61e7b9efcbe6a3be1c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -996,6 +1015,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a8c7218c7b5254c2a7d8c053a82601f07"><td class="memItemLeft" align="right" valign="top">QPointer&lt; <a class="el" href="class_j_k_q_t_plotter.html">JKQTPlotter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a8c7218c7b5254c2a7d8c053a82601f07">masterPlotterY</a></td></tr>
 <tr class="memdesc:a8c7218c7b5254c2a7d8c053a82601f07"><td class="mdescLeft">&#160;</td><td class="mdescRight">the master plotter, this plotter is connected to in y-direction.  <br /></td></tr>
 <tr class="separator:a8c7218c7b5254c2a7d8c053a82601f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a533d39dfa332d2ecfc68d53fea3235c8"><td class="memItemLeft" align="right" valign="top">const quint64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a533d39dfa332d2ecfc68d53fea3235c8">maxWheelEventSeriesTimestampDifference</a></td></tr>
+<tr class="memdesc:a533d39dfa332d2ecfc68d53fea3235c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">max. time between two QWheelEvents that are recognized as one series  <br /></td></tr>
+<tr class="separator:a533d39dfa332d2ecfc68d53fea3235c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1271d5f4e5f1227757d69dc8ab7617eb"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a1271d5f4e5f1227757d69dc8ab7617eb">menuSpecialContextMenu</a></td></tr>
 <tr class="memdesc:a1271d5f4e5f1227757d69dc8ab7617eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this QMenu instance instead of the standard context menu of this widget  <br /></td></tr>
 <tr class="separator:a1271d5f4e5f1227757d69dc8ab7617eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1234,7 +1256,7 @@ switch the visibility of the different graphs in the plot </li>
 <div class="line">                                                                     QMessageBox::Ok); });</div>
 <div class="line">    labMouseAction-&gt;setText(QString(<span class="stringliteral">&quot;contextMenuOpened(x=%1, y=%2)&quot;</span>).arg(x).arg(y));</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_j_k_q_t_plotter_html_a469af1d407505c7d12aed87b6a25ff60"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a469af1d407505c7d12aed87b6a25ff60">JKQTPlotter::contextMenu</a></div><div class="ttdeci">QMenu * contextMenu</div><div class="ttdoc">the context menu object used by this JKQTPlotter</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:1621</div></div>
+<div class="ttc" id="aclass_j_k_q_t_plotter_html_a469af1d407505c7d12aed87b6a25ff60"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a469af1d407505c7d12aed87b6a25ff60">JKQTPlotter::contextMenu</a></div><div class="ttdeci">QMenu * contextMenu</div><div class="ttdoc">the context menu object used by this JKQTPlotter</div><div class="ttdef"><b>Definition:</b> jkqtplotter.h:1634</div></div>
 <div class="ttc" id="aclass_j_k_q_t_plotter_html_a6a6347e94b3e03229692f947105b049b"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a6a6347e94b3e03229692f947105b049b">JKQTPlotter::contextMenuOpened</a></div><div class="ttdeci">void contextMenuOpened(double x, double y, QMenu *contextMenu)</div><div class="ttdoc">emitted whenever a context menu is opened. You can modify the menu via the parameter contextMenu!</div></div>
 </div><!-- fragment --></li>
 </ul>
@@ -1404,7 +1426,35 @@ How to use JKQTPlotter in the Qt Form Designer</h1>
 </ol>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="_j_k_q_t_plotter_qt_creator.html">Tutorial (JKQTPlotter): Using a JKQTPlotter inside a Qt User Interface Designer (UI) File</a> <br  />
  Also see <a class="el" href="_j_k_q_t_plotter_styling.html">Tutorial (JKQTPlotter): Styling a JKQtPlotter</a> for another example of using the Qt UI Designer with <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>   </dd></dl>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a1bb83e4dcde949ffd827bfcc824fad46" name="a1bb83e4dcde949ffd827bfcc824fad46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bb83e4dcde949ffd827bfcc824fad46">&#9670;&#160;</a></span>WheelActionType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="class_j_k_q_t_plotter.html#a1bb83e4dcde949ffd827bfcc824fad46">JKQTPlotter::WheelActionType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1bb83e4dcde949ffd827bfcc824fad46a4252b72e6ebcd4d4b4c2e46a786f03d2" name="a1bb83e4dcde949ffd827bfcc824fad46a4252b72e6ebcd4d4b4c2e46a786f03d2"></a>Zoom&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1bb83e4dcde949ffd827bfcc824fad46af6d4a17b27da35c2d90ce13801f36782" name="a1bb83e4dcde949ffd827bfcc824fad46af6d4a17b27da35c2d90ce13801f36782"></a>Pan&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1bb83e4dcde949ffd827bfcc824fad46a6adf97f83acf6453d4a6a4b1070f3754" name="a1bb83e4dcde949ffd827bfcc824fad46a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8e0c883816f540a177a6e85999efb5d6" name="a8e0c883816f540a177a6e85999efb5d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e0c883816f540a177a6e85999efb5d6">&#9670;&#160;</a></span>JKQTPlotter() <span class="overload">[1/3]</span></h2>
 
@@ -9512,6 +9562,54 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 
 </div>
 </div>
+<a id="a57489a6b4ad73976113b0687a999701d" name="a57489a6b4ad73976113b0687a999701d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57489a6b4ad73976113b0687a999701d">&#9670;&#160;</a></span>lastWheelActionTimestamp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint64 JKQTPlotter::lastWheelActionTimestamp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>storage for timestammp of the last QWheelEvent (used in wheelAction() to distinguish trackpad-pan ations in mode jkqtpmwaZoomByWheelAndTrackpadPan) </p>
+
+</div>
+</div>
+<a id="ade1a910f8301c695362ae1f7474147f4" name="ade1a910f8301c695362ae1f7474147f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade1a910f8301c695362ae1f7474147f4">&#9670;&#160;</a></span>lastWheelActionType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_plotter.html#a1bb83e4dcde949ffd827bfcc824fad46">WheelActionType</a> JKQTPlotter::lastWheelActionType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>storage for last WheelActionType (used in wheelAction() to distinguish trackpad-pan ations in mode jkqtpmwaZoomByWheelAndTrackpadPan) </p>
+
+</div>
+</div>
 <a id="aefeb870110dc61e7b9efcbe6a3be1c13" name="aefeb870110dc61e7b9efcbe6a3be1c13"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aefeb870110dc61e7b9efcbe6a3be1c13">&#9670;&#160;</a></span>magnification</h2>
 
@@ -9581,6 +9679,30 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 </div><div class="memdoc">
 
 <p>the master plotter, this plotter is connected to in y-direction. </p>
+
+</div>
+</div>
+<a id="a533d39dfa332d2ecfc68d53fea3235c8" name="a533d39dfa332d2ecfc68d53fea3235c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a533d39dfa332d2ecfc68d53fea3235c8">&#9670;&#160;</a></span>maxWheelEventSeriesTimestampDifference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const quint64 JKQTPlotter::maxWheelEventSeriesTimestampDifference</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>max. time between two QWheelEvents that are recognized as one series </p>
 
 </div>
 </div>
@@ -10178,7 +10300,7 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_plotter.html">JKQTPlotter</a></li>
-    <li class="footer">Generated on Fri Jun 16 2023 11:45:06 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
+    <li class="footer">Generated on Sun Jun 18 2023 13:18:31 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
   </ul>
 </div>
 </body>

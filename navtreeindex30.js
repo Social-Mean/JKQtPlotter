@@ -1,5 +1,12 @@
 var NAVTREEINDEX30 =
 {
+"struct_j_k_q_t_math_text_environment.html#acaf99e1b802a2447c1cd2871cca36f28":[10,3,1,3,0,6],
+"struct_j_k_q_t_math_text_environment.html#ace584ba9a4e767163b66dfba2111569b":[10,3,1,3,0,9],
+"struct_j_k_q_t_math_text_environment.html#ad05fd4e21e1b32e70d3e3164fee713b8":[10,3,1,3,0,21],
+"struct_j_k_q_t_math_text_environment.html#ad5e8492e13893975bfa5f402efda6a6e":[10,3,1,3,0,17],
+"struct_j_k_q_t_math_text_environment.html#ad852dd5b5a0907de4dc9a53913888c9b":[10,3,1,3,0,20],
+"struct_j_k_q_t_math_text_environment.html#aeef82a4008a73979296c7d0f7c6f8e65":[10,3,1,3,0,19],
+"struct_j_k_q_t_math_text_environment.html#afa11ac7967fb7a4d1f7466a70700817d":[10,3,1,3,0,5],
 "struct_j_k_q_t_math_text_font_definition.html":[10,3,1,3,1],
 "struct_j_k_q_t_math_text_font_definition.html#a17455490db6caa32a050309bf3b7e92a":[10,3,1,3,1,1],
 "struct_j_k_q_t_math_text_font_definition.html#a63af3d052d9973f22455ed2d820e8858":[10,3,1,3,1,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX30 =
 "struct_j_k_q_t_p_color_derivation_mode.html#af8a6135aa916c56b55a801a25a765dceaa996be028c89451ce13059e0c0bb8ec7":[10,4,1,4,8,2,0],
 "struct_j_k_q_t_p_color_derivation_mode.html#af8a6135aa916c56b55a801a25a765dceacdfe81c5074624309921ea29bc7240ea":[10,4,1,4,8,2,3],
 "struct_j_k_q_t_p_color_derivation_mode.html#af8a6135aa916c56b55a801a25a765dceae5f7f5c35d095937eb94852a5f0f9795":[10,4,1,4,8,2,2],
-"struct_j_k_q_t_p_color_palette_single_color_lin_segment.html":[10,4,1,1,1,8,2,0,0],
-"struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#a0c1f639939b225146bfe43543e88e055":[10,4,1,1,1,8,2,0,0,4],
-"struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#a0ccb8c4ae6d8be906a7af96e937751fb":[10,4,1,1,1,8,2,0,0,3],
-"struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#a3b958dd6aa079aa2e37802c93d78c2b1":[10,4,1,1,1,8,2,0,0,1],
-"struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#a6398bd37352d5c19430c3fc014f52b2c":[10,4,1,1,1,8,2,0,0,5],
-"struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#a692af778e2bb8065ae0065989a9bff85":[10,4,1,1,1,8,2,0,0,2],
-"struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#aedce35d29964b00b712658d470c021d1":[10,4,1,1,1,8,2,0,0,0],
-"struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html":[10,4,1,1,1,7,1,12]
+"struct_j_k_q_t_p_color_palette_single_color_lin_segment.html":[10,4,1,1,1,8,2,0,0]
 };

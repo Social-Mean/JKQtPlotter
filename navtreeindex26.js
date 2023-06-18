@@ -1,5 +1,12 @@
 var NAVTREEINDEX26 =
 {
+"group__jkqtplotter__basegraphserrors.html#ga4b3a78b3a037650785eb6b798b5eaf9b":[10,4,1,1,2,0,9],
+"group__jkqtplotter__basegraphserrors.html#ga54df2902129afae9c292dd3afaab1475":[10,4,1,1,2,0,8],
+"group__jkqtplotter__basegraphserrors.html#ga70915baaabcd04e57de8250cb0961abf":[10,4,1,1,2,0,10],
+"group__jkqtplotter__basegraphserrors.html#gaa9e38db0cedb16337a20017a9c241d17":[10,4,1,1,2,0,6],
+"group__jkqtplotter__basegraphserrors.html#gaaa233e8c51d249f27c749aaf13e12423":[10,4,1,1,2,0,11],
+"group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9ba1051f6384f021bf36aae4a6e9aff25a6":[10,4,1,1,2,0,9,9],
+"group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9ba22440dc1626643b476b554d8ee023a58":[10,4,1,1,2,0,9,20],
 "group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9ba23d50ddc10478b36b7d7cdb74f5f7171":[10,4,1,1,2,0,9,1],
 "group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9ba3318d48652fe1f33cc2a0c5cf38aed38":[10,4,1,1,2,0,9,7],
 "group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9ba3fd32d7b06310a09a8a5bfe56cfbf7bb":[10,4,1,1,2,0,9,25],
@@ -242,12 +249,5 @@ var NAVTREEINDEX26 =
 "group__jkqtpplottersupprt.html#ga3ab1f81e4468bc5d3da99db202571534":[10,4,1,5,56],
 "group__jkqtpplottersupprt.html#ga3b98f7fd9662593c8c36c55f172d8133":[10,4,1,5,17],
 "group__jkqtpplottersupprt.html#ga43c794162cbd275556c8412c5fc78396":[10,4,1,5,51],
-"group__jkqtpplottersupprt.html#ga44cf43b89709fb30a9096a4f8eef1a4e":[10,4,1,5,60],
-"group__jkqtpplottersupprt.html#ga457447641f34eb76652b651a6d41c890":[10,4,1,5,38],
-"group__jkqtpplottersupprt.html#ga4849119ad4ca677432317a2113157b56":[10,4,1,5,59],
-"group__jkqtpplottersupprt.html#ga48f82a62d595db530b4c7d0b0d1fa9c6":[10,4,1,5,37],
-"group__jkqtpplottersupprt.html#ga4dccd3f05759ce4608f8da5c8a70dfb1":[10,4,1,5,43],
-"group__jkqtpplottersupprt.html#ga4ee195adbf937147b06aedf1217d3f83":[10,4,1,5,27],
-"group__jkqtpplottersupprt.html#ga5031c0729bff9912a5418b596476353e":[10,4,1,5,6],
-"group__jkqtpplottersupprt.html#ga50f53a4b824e110cff3581b9d3986045":[10,4,1,5,34]
+"group__jkqtpplottersupprt.html#ga44cf43b89709fb30a9096a4f8eef1a4e":[10,4,1,5,60]
 };

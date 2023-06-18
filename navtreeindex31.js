@@ -1,5 +1,12 @@
 var NAVTREEINDEX31 =
 {
+"struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#a0c1f639939b225146bfe43543e88e055":[10,4,1,1,1,8,2,0,0,4],
+"struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#a0ccb8c4ae6d8be906a7af96e937751fb":[10,4,1,1,1,8,2,0,0,3],
+"struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#a3b958dd6aa079aa2e37802c93d78c2b1":[10,4,1,1,1,8,2,0,0,1],
+"struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#a6398bd37352d5c19430c3fc014f52b2c":[10,4,1,1,1,8,2,0,0,5],
+"struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#a692af778e2bb8065ae0065989a9bff85":[10,4,1,1,1,8,2,0,0,2],
+"struct_j_k_q_t_p_color_palette_single_color_lin_segment.html#aedce35d29964b00b712658d470c021d1":[10,4,1,1,1,8,2,0,0,0],
+"struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html":[10,4,1,1,1,7,1,12],
 "struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#a135902dc2513cf2b4e53443ee6f7b01a":[10,4,1,1,1,7,1,12,0],
 "struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#a1e113fb7dd2e3e5d81c82e82577f9b04":[10,4,1,1,1,7,1,12,4],
 "struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#a550f8fe67a5ab83e9558a630e4de1760":[10,4,1,1,1,7,1,12,2],

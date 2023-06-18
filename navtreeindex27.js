@@ -1,5 +1,12 @@
 var NAVTREEINDEX27 =
 {
+"group__jkqtpplottersupprt.html#ga457447641f34eb76652b651a6d41c890":[10,4,1,5,38],
+"group__jkqtpplottersupprt.html#ga4849119ad4ca677432317a2113157b56":[10,4,1,5,59],
+"group__jkqtpplottersupprt.html#ga48f82a62d595db530b4c7d0b0d1fa9c6":[10,4,1,5,37],
+"group__jkqtpplottersupprt.html#ga4dccd3f05759ce4608f8da5c8a70dfb1":[10,4,1,5,43],
+"group__jkqtpplottersupprt.html#ga4ee195adbf937147b06aedf1217d3f83":[10,4,1,5,27],
+"group__jkqtpplottersupprt.html#ga5031c0729bff9912a5418b596476353e":[10,4,1,5,6],
+"group__jkqtpplottersupprt.html#ga50f53a4b824e110cff3581b9d3986045":[10,4,1,5,34],
 "group__jkqtpplottersupprt.html#ga53dd9054ccf1f02e17d1867ddab7183f":[10,4,1,5,22],
 "group__jkqtpplottersupprt.html#ga58ce2d1123c5c6804cb42f78723e62eb":[10,4,1,5,12],
 "group__jkqtpplottersupprt.html#ga59156aa00aae9f4fc0ff99b076d9b736":[10,4,1,5,36],
@@ -242,12 +249,5 @@ var NAVTREEINDEX27 =
 "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba65f979bf79b9759cdef9c7824cbddcff":[10,0,3,3,9],
 "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba696f4434a16ee682f2ca52308e0bb50f":[10,0,3,3,60],
 "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba712a5394e0a062eb0dbc310f13fc3449":[10,0,3,3,64],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba742c246430bd362c0aa5c4ffdb92e85a":[10,0,3,3,1],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba76d14b26f4f5f4b6f2145151cabd0489":[10,0,3,3,29],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba7b829a4e2960ca2c541bf58bfabc22ca":[10,0,3,3,62],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba7ce6bfc4629e234b67c8857768d20f59":[10,0,3,3,13],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba7d1d103c92b5fb6152ddf135315f3449":[10,0,3,3,2],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba7f5ba875b1493b4f7db70f7774811b70":[10,0,3,3,52],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba813789a8d5123ed5ba1a47273403b002":[10,0,3,3,58],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba821232d47e525bbffbf2b913f0024cc1":[10,0,3,3,50]
+"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba742c246430bd362c0aa5c4ffdb92e85a":[10,0,3,3,1]
 };
