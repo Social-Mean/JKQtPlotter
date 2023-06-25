@@ -9,5 +9,6 @@ var group__jkqtptools__jkqtcommon =
     [ "Mathematical Functions & Tools", "group__jkqtptools__math__basic.html", "group__jkqtptools__math__basic" ],
     [ "Special QIcon generation", "group__jkqtptools__icons.html", "group__jkqtptools__icons" ],
     [ "String(-Conversion) Functions", "group__jkqtptools__string.html", "group__jkqtptools__string" ],
-    [ "Tools around Qt's clasess", "group__jkqtptools__qt.html", null ]
+    [ "Tools around Qt's clasess", "group__jkqtptools__qt.html", null ],
+    [ "Tools, Templates and Classes for Concurrency", "group__jkqtptools__concurrency.html", "group__jkqtptools__concurrency" ]
 ];

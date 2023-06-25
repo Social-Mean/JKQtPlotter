@@ -21,7 +21,16 @@ var group__jkqtptools__drawing =
     ] ],
     [ "JKQTPlotterDrawingTools", "struct_j_k_q_t_plotter_drawing_tools.html", [
       [ "ABS_MIN_LINEWIDTH", "struct_j_k_q_t_plotter_drawing_tools.html#ab2f73282b1b10407fa55fdb2883d70e1", null ],
-      [ "JKQTPCustomGraphSymbolStore", "group__jkqtptools__drawing.html#ga2f6e4edc99131fd4572bbb6adddd1b85", null ]
+      [ "JKQTPCustomGraphSymbolStore", "group__jkqtptools__drawing.html#ga479fd9074e639da2fbeb8597cae30dd5", null ]
+    ] ],
+    [ "JKQTPSymbolPathsInternnal", "struct_j_k_q_t_p_symbol_paths_internnal.html", [
+      [ "JKQTPSymbolPathsInternnal", "struct_j_k_q_t_p_symbol_paths_internnal.html#aade9173917a43640f5ff9610fd4d4d75", null ],
+      [ "filledpaths", "struct_j_k_q_t_p_symbol_paths_internnal.html#a04da90e8dc4a2c67ef25536c86475d7f", null ],
+      [ "filledpolygons", "struct_j_k_q_t_p_symbol_paths_internnal.html#aee6c345e9b58c7e937ac3ad55835ac4d", null ],
+      [ "lines", "struct_j_k_q_t_p_symbol_paths_internnal.html#a5499c21ab15135bc064a72c6ef0b3df1", null ],
+      [ "paths", "struct_j_k_q_t_p_symbol_paths_internnal.html#ac4163c5ba87b832738fde9a6c20b283b", null ],
+      [ "pathsrotation", "struct_j_k_q_t_p_symbol_paths_internnal.html#abfbb0f92eb96c93afea2afc4d0784012", null ],
+      [ "polygons", "struct_j_k_q_t_p_symbol_paths_internnal.html#a7b9ae8db0837065104e54523cd5e72a8", null ]
     ] ],
     [ "JKQTPCustomGraphSymbolFunctor", "group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af", null ],
     [ "JKQTPGraphSymbols", "group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b", [
@@ -134,6 +143,7 @@ var group__jkqtptools__drawing =
     [ "JKQTPClipPolyLine", "group__jkqtptools__drawing.html#ga0aef78e06dec7aa7ee7568e9a4f4178f", null ],
     [ "JKQTPClipPolyLines", "group__jkqtptools__drawing.html#ga187b642897c87283754cb26a6a338429", null ],
     [ "JKQTPDrawTooltip", "group__jkqtptools__drawing.html#gaf6f3284a106d12dadb42dd5f40138fce", null ],
+    [ "JKQTPGetStarCoordinates", "group__jkqtptools__drawing.html#gaac974a28de113bf70c40c52ef047063e", null ],
     [ "JKQTPGraphSymbols2NameString", "group__jkqtptools__drawing.html#ga13a2f681a0d5d026cf8f881875f0c8c4", null ],
     [ "JKQTPGraphSymbols2String", "group__jkqtptools__drawing.html#ga69d0c64e06a61e41a0d8de1e22d6638e", null ],
     [ "JKQTPLineDecoratorStyle2NameString", "group__jkqtptools__drawing.html#gab8ffc607cb2b2e7277612e2bbdb49e6c", null ],
@@ -157,5 +167,5 @@ var group__jkqtptools__drawing =
     [ "JKQTPUnifyLinesToPolygons", "group__jkqtptools__drawing.html#ga10b44f813c96e4bcd688ac769842e031", null ],
     [ "String2JKQTPGraphSymbols", "group__jkqtptools__drawing.html#gaa2bd5c2bac86735a6885464182a7a2f0", null ],
     [ "String2JKQTPLineDecoratorStyle", "group__jkqtptools__drawing.html#gad1b00ff55f388b562baa9053b38a254c", null ],
-    [ "JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore", "group__jkqtptools__drawing.html#ga2f6e4edc99131fd4572bbb6adddd1b85", null ]
+    [ "JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore", "group__jkqtptools__drawing.html#ga479fd9074e639da2fbeb8597cae30dd5", null ]
 ];

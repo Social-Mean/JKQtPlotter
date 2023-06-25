@@ -271,6 +271,9 @@ var hierarchy =
     [ "JKQTPPolynomialFunctor", "struct_j_k_q_t_p_polynomial_functor.html", null ],
     [ "JKQTPSaveDataAdapter", "class_j_k_q_t_p_save_data_adapter.html", null ],
     [ "JKQTPStat5NumberStatistics", "struct_j_k_q_t_p_stat5_number_statistics.html", null ],
+    [ "JKQTPSymbolPathsInternnal", "struct_j_k_q_t_p_symbol_paths_internnal.html", null ],
+    [ "JKQTPSynchronized< T >", "class_j_k_q_t_p_synchronized.html", null ],
+    [ "JKQTPSynchronized< QVector< JKQTPCustomGraphSymbolFunctor > >", "class_j_k_q_t_p_synchronized.html", null ],
     [ "JKQTPXGraphErrorData", "class_j_k_q_t_p_x_graph_error_data.html", [
       [ "JKQTPXGraphErrors", "class_j_k_q_t_p_x_graph_errors.html", null ],
       [ "JKQTPXYGraphErrors", "class_j_k_q_t_p_x_y_graph_errors.html", null ]

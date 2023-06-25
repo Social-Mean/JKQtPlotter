@@ -192,6 +192,8 @@ var annotated_dup =
     [ "JKQTPSpecialLineVerticalGraph", "class_j_k_q_t_p_special_line_vertical_graph.html", "class_j_k_q_t_p_special_line_vertical_graph" ],
     [ "JKQTPStat5NumberStatistics", "struct_j_k_q_t_p_stat5_number_statistics.html", "struct_j_k_q_t_p_stat5_number_statistics" ],
     [ "JKQTPSymbolComboBox", "class_j_k_q_t_p_symbol_combo_box.html", "class_j_k_q_t_p_symbol_combo_box" ],
+    [ "JKQTPSymbolPathsInternnal", "struct_j_k_q_t_p_symbol_paths_internnal.html", "struct_j_k_q_t_p_symbol_paths_internnal" ],
+    [ "JKQTPSynchronized", "class_j_k_q_t_p_synchronized.html", "class_j_k_q_t_p_synchronized" ],
     [ "JKQTPVerticalAxis", "class_j_k_q_t_p_vertical_axis.html", "class_j_k_q_t_p_vertical_axis" ],
     [ "JKQTPVerticalAxisBase", "class_j_k_q_t_p_vertical_axis_base.html", "class_j_k_q_t_p_vertical_axis_base" ],
     [ "JKQTPVerticalIndependentAxis", "class_j_k_q_t_p_vertical_independent_axis.html", "class_j_k_q_t_p_vertical_independent_axis" ],

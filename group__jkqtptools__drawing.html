@@ -137,6 +137,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_plotter_drawing_tools.html">JKQTPlotterDrawingTools</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool class with static values used by JKQTPlotter/JKQTBasePlotter  <a href="struct_j_k_q_t_plotter_drawing_tools.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_symbol_paths_internnal.html">JKQTPSymbolPathsInternnal</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal datastructure used in <a class="el" href="group__jkqtptools__drawing.html#ga26deb06672b55559b11d6fbea126c7b8" title="plot the specified symbol at pixel position x,y, thread-safe">JKQTPPlotSymbol()</a> to precalculate certain data only once per runtime  <a href="struct_j_k_q_t_p_symbol_paths_internnal.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -378,6 +381,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf6f3284a106d12dadb42dd5f40138fce"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#gaf6f3284a106d12dadb42dd5f40138fce">JKQTPDrawTooltip</a> (TPainter &amp;painter, double x, double y, const QRectF &amp;rect)</td></tr>
 <tr class="memdesc:gaf6f3284a106d12dadb42dd5f40138fce"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw a tooltip, using the current brush and pen of the provided painter  <br /></td></tr>
 <tr class="separator:gaf6f3284a106d12dadb42dd5f40138fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac974a28de113bf70c40c52ef047063e"><td class="memTemplParams" colspan="2">template&lt;int N&gt; </td></tr>
+<tr class="memitem:gaac974a28de113bf70c40c52ef047063e"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; QPointF, N *2 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#gaac974a28de113bf70c40c52ef047063e">JKQTPGetStarCoordinates</a> (double inner_radius=0.5)</td></tr>
+<tr class="memdesc:gaac974a28de113bf70c40c52ef047063e"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the consecutive ccordinates of the tips of a N-tipped star on a circle of radius 1. Inner tips are on a irle of radius <em>inner_radius</em>.  <br /></td></tr>
+<tr class="separator:gaac974a28de113bf70c40c52ef047063e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga13a2f681a0d5d026cf8f881875f0c8c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#ga13a2f681a0d5d026cf8f881875f0c8c4">JKQTPGraphSymbols2NameString</a> (<a class="el" href="group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b">JKQTPGraphSymbols</a> pos)</td></tr>
 <tr class="memdesc:ga13a2f681a0d5d026cf8f881875f0c8c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts a JKQTPGraphSymbols variable into a human-readable string  <br /></td></tr>
 <tr class="separator:ga13a2f681a0d5d026cf8f881875f0c8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -402,17 +409,17 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga8796c26fb6bd2654e10a9640654d8636"><td class="mdescLeft">&#160;</td><td class="mdescRight">plot the specified symbol at pixel position x,y. Note that this function only draws the decorator, NOT the line pointing to it!  <br /></td></tr>
 <tr class="separator:ga8796c26fb6bd2654e10a9640654d8636"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga601579ecabc6677c24dd5dce1e3c41c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#ga601579ecabc6677c24dd5dce1e3c41c2">JKQTPPlotSymbol</a> (QPaintDevice &amp;paintDevice, double x, double y, <a class="el" href="group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b">JKQTPGraphSymbols</a> symbol, double size, double symbolLineWidth, QColor color, QColor fillColor, const QFont &amp;symbolFont)</td></tr>
-<tr class="memdesc:ga601579ecabc6677c24dd5dce1e3c41c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">plot the specified symbol at pixel position x,y  <br /></td></tr>
+<tr class="memdesc:ga601579ecabc6677c24dd5dce1e3c41c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">plot the specified symbol at pixel position x,y, <b>thread-safe</b>  <br /></td></tr>
 <tr class="separator:ga601579ecabc6677c24dd5dce1e3c41c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga26deb06672b55559b11d6fbea126c7b8"><td class="memTemplParams" colspan="2">template&lt;class TPainter &gt; </td></tr>
 <tr class="memitem:ga26deb06672b55559b11d6fbea126c7b8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#ga26deb06672b55559b11d6fbea126c7b8">JKQTPPlotSymbol</a> (TPainter &amp;painter, double x, double y, <a class="el" href="group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b">JKQTPGraphSymbols</a> symbol, double size, double symbolLineWidth, QColor color, QColor fillColor, QFont symbolFont)</td></tr>
-<tr class="memdesc:ga26deb06672b55559b11d6fbea126c7b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">plot the specified symbol at pixel position x,y  <br /></td></tr>
+<tr class="memdesc:ga26deb06672b55559b11d6fbea126c7b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">plot the specified symbol at pixel position x,y, <b>thread-safe</b>  <br /></td></tr>
 <tr class="separator:ga26deb06672b55559b11d6fbea126c7b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1ff3b7f3c621ae70ce32741e6cfd5542"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> <a class="el" href="group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b">JKQTPGraphSymbols</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#ga1ff3b7f3c621ae70ce32741e6cfd5542">JKQTPRegisterCustomGraphSymbol</a> (const <a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">JKQTPCustomGraphSymbolFunctor</a> &amp;)</td></tr>
-<tr class="memdesc:ga1ff3b7f3c621ae70ce32741e6cfd5542"><td class="mdescLeft">&#160;</td><td class="mdescRight">register a JKQTPCustomGraphSymbolFunctor that draws a custom symbol.Returns an ID that allows to access the symbol!  <br /></td></tr>
+<tr class="memdesc:ga1ff3b7f3c621ae70ce32741e6cfd5542"><td class="mdescLeft">&#160;</td><td class="mdescRight">register a JKQTPCustomGraphSymbolFunctor that draws a custom symbol.Returns an ID that allows to access the symbol!, <b>thread-safe</b>  <br /></td></tr>
 <tr class="separator:ga1ff3b7f3c621ae70ce32741e6cfd5542"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaddc75a3ec820e937797236719405aca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> <a class="el" href="group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b">JKQTPGraphSymbols</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#gaddc75a3ec820e937797236719405aca9">JKQTPRegisterCustomGraphSymbol</a> (<a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">JKQTPCustomGraphSymbolFunctor</a> &amp;&amp;)</td></tr>
-<tr class="memdesc:gaddc75a3ec820e937797236719405aca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">register a JKQTPCustomGraphSymbolFunctor that draws a custom symbol.Returns an ID that allows to access the symbol!  <br /></td></tr>
+<tr class="memdesc:gaddc75a3ec820e937797236719405aca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">register a JKQTPCustomGraphSymbolFunctor that draws a custom symbol.Returns an ID that allows to access the symbol!, <b>thread-safe</b>  <br /></td></tr>
 <tr class="separator:gaddc75a3ec820e937797236719405aca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae9410c33b360d17330be5a8891fc9bd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QPolygonF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#gae9410c33b360d17330be5a8891fc9bd8">jkqtpRotateRect</a> (QRectF r, double angle)</td></tr>
 <tr class="memdesc:gae9410c33b360d17330be5a8891fc9bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">rotate a rectangle by given angle (rotates all points around the center of the rectangle and returns it as a QPolygonF)  <br /></td></tr>
@@ -453,9 +460,9 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ga2f6e4edc99131fd4572bbb6adddd1b85"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QVector&lt; <a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">JKQTPCustomGraphSymbolFunctor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#ga2f6e4edc99131fd4572bbb6adddd1b85">JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore</a></td></tr>
-<tr class="memdesc:ga2f6e4edc99131fd4572bbb6adddd1b85"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores all custom JKQTPGraphSymbols registered using JKQTPRegisterCustomGraphSymbol  <br /></td></tr>
-<tr class="separator:ga2f6e4edc99131fd4572bbb6adddd1b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga479fd9074e639da2fbeb8597cae30dd5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> <a class="el" href="class_j_k_q_t_p_synchronized.html">JKQTPSynchronized</a>&lt; QVector&lt; <a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">JKQTPCustomGraphSymbolFunctor</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__drawing.html#ga479fd9074e639da2fbeb8597cae30dd5">JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore</a></td></tr>
+<tr class="memdesc:ga479fd9074e639da2fbeb8597cae30dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores all custom JKQTPGraphSymbols registered using JKQTPRegisterCustomGraphSymbol  <br /></td></tr>
+<tr class="separator:ga479fd9074e639da2fbeb8597cae30dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Specialized drawing functions used by the plotters and LaTeX renderers. </p>
@@ -478,8 +485,8 @@ Variables</h2></td></tr>
 <li>width 1, i.e. x=-0.5...0.5</li>
 <li>height 1, i.e. y=-0.5...0.5</li>
 <li>you can assume that a proper pen and brush is set with the correct properties</li>
-<li>scaling to the final size is donw by <a class="el" href="group__jkqtptools__drawing.html#ga26deb06672b55559b11d6fbea126c7b8" title="plot the specified symbol at pixel position x,y">JKQTPPlotSymbol()</a></li>
-<li>drawing is protected by surronding <code>p.save()</code>; and <code>p.restore()</code>; in <a class="el" href="group__jkqtptools__drawing.html#ga26deb06672b55559b11d6fbea126c7b8" title="plot the specified symbol at pixel position x,y">JKQTPPlotSymbol()</a></li>
+<li>scaling to the final size is donw by <a class="el" href="group__jkqtptools__drawing.html#ga26deb06672b55559b11d6fbea126c7b8" title="plot the specified symbol at pixel position x,y, thread-safe">JKQTPPlotSymbol()</a></li>
+<li>drawing is protected by surronding <code>p.save()</code>; and <code>p.restore()</code>; in <a class="el" href="group__jkqtptools__drawing.html#ga26deb06672b55559b11d6fbea126c7b8" title="plot the specified symbol at pixel position x,y, thread-safe">JKQTPPlotSymbol()</a></li>
 </ul>
 <p>As an example, the following code-snippet: </p><div class="fragment"><div class="line">[](QPainter&amp; p) {</div>
 <div class="line">  p.drawEllipse(QPointF(-0.2, -0.2), 0.3, 0.3);</div>
@@ -1456,6 +1463,36 @@ template&lt;class TPainter &gt; </div>
  
 </div>
 </div>
+<a id="gaac974a28de113bf70c40c52ef047063e" name="gaac974a28de113bf70c40c52ef047063e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaac974a28de113bf70c40c52ef047063e">&#9670;&#160;</a></span>JKQTPGetStarCoordinates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt; QPointF, N *2 &gt; JKQTPGetStarCoordinates </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>inner_radius</em> = <code>0.5</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return the consecutive ccordinates of the tips of a N-tipped star on a circle of radius 1. Inner tips are on a irle of radius <em>inner_radius</em>. </p>
+
+</div>
+</div>
 <a id="ga13a2f681a0d5d026cf8f881875f0c8c4" name="ga13a2f681a0d5d026cf8f881875f0c8c4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga13a2f681a0d5d026cf8f881875f0c8c4">&#9670;&#160;</a></span>JKQTPGraphSymbols2NameString()</h2>
 
@@ -1807,7 +1844,7 @@ template&lt;class TPainter &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>plot the specified symbol at pixel position x,y </p>
+<p>plot the specified symbol at pixel position x,y, <b>thread-safe</b> </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">paintDevice</td><td>the paint device to draw on </td></tr>
@@ -1903,7 +1940,7 @@ template&lt;class TPainter &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>plot the specified symbol at pixel position x,y </p>
+<p>plot the specified symbol at pixel position x,y, <b>thread-safe</b> </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">TPainter</td><td>Type of <em>painter:</em> A class like <a class="el" href="class_j_k_q_t_p_enhanced_painter.html" title="this class extends the QPainter">JKQTPEnhancedPainter</a> or <a href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a> </td></tr>
@@ -1943,8 +1980,8 @@ template&lt;class TPainter &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>register a JKQTPCustomGraphSymbolFunctor that draws a custom symbol.Returns an ID that allows to access the symbol! </p>
-<p>The functor is stored in the global/static store <a class="el" href="group__jkqtptools__drawing.html#ga2f6e4edc99131fd4572bbb6adddd1b85" title="stores all custom JKQTPGraphSymbols registered using JKQTPRegisterCustomGraphSymbol">JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore</a>, i.e. these are available throughout the runtime of the program</p>
+<p>register a JKQTPCustomGraphSymbolFunctor that draws a custom symbol.Returns an ID that allows to access the symbol!, <b>thread-safe</b> </p>
+<p>The functor is stored in the global/static store <a class="el" href="group__jkqtptools__drawing.html#ga479fd9074e639da2fbeb8597cae30dd5" title="stores all custom JKQTPGraphSymbols registered using JKQTPRegisterCustomGraphSymbol">JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore</a>, i.e. these are available throughout the runtime of the program</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af" title="functor used to draw a custom JKQTPGraphSymbols">JKQTPCustomGraphSymbolFunctor</a> for an example </dd></dl>
 
 </div>
@@ -1965,8 +2002,8 @@ template&lt;class TPainter &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>register a JKQTPCustomGraphSymbolFunctor that draws a custom symbol.Returns an ID that allows to access the symbol! </p>
-<p>The functor is stored in the global/static store <a class="el" href="group__jkqtptools__drawing.html#ga2f6e4edc99131fd4572bbb6adddd1b85" title="stores all custom JKQTPGraphSymbols registered using JKQTPRegisterCustomGraphSymbol">JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore</a>, i.e. these are available throughout the runtime of the program</p>
+<p>register a JKQTPCustomGraphSymbolFunctor that draws a custom symbol.Returns an ID that allows to access the symbol!, <b>thread-safe</b> </p>
+<p>The functor is stored in the global/static store <a class="el" href="group__jkqtptools__drawing.html#ga479fd9074e639da2fbeb8597cae30dd5" title="stores all custom JKQTPGraphSymbols registered using JKQTPRegisterCustomGraphSymbol">JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore</a>, i.e. these are available throughout the runtime of the program</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af" title="functor used to draw a custom JKQTPGraphSymbols">JKQTPCustomGraphSymbolFunctor</a> for an example </dd></dl>
 
 </div>
@@ -2520,8 +2557,8 @@ template&lt;class TPainter &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="ga2f6e4edc99131fd4572bbb6adddd1b85" name="ga2f6e4edc99131fd4572bbb6adddd1b85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2f6e4edc99131fd4572bbb6adddd1b85">&#9670;&#160;</a></span>JKQTPCustomGraphSymbolStore</h2>
+<a id="ga479fd9074e639da2fbeb8597cae30dd5" name="ga479fd9074e639da2fbeb8597cae30dd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga479fd9074e639da2fbeb8597cae30dd5">&#9670;&#160;</a></span>JKQTPCustomGraphSymbolStore</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2530,7 +2567,7 @@ template&lt;class TPainter &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QVector&lt;<a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">JKQTPCustomGraphSymbolFunctor</a>&gt; JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore</td>
+          <td class="memname"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> <a class="el" href="class_j_k_q_t_p_synchronized.html">JKQTPSynchronized</a>&lt;QVector&lt;<a class="el" href="group__jkqtptools__drawing.html#ga3298f18f26663c9f2b550e47316631af">JKQTPCustomGraphSymbolFunctor</a>&gt; &gt; JKQTPlotterDrawingTools::JKQTPCustomGraphSymbolStore</td>
         </tr>
       </table>
   </td>
@@ -2550,7 +2587,7 @@ template&lt;class TPainter &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jun 18 2023 13:18:30 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
+    <li class="footer">Generated on Sun Jun 25 2023 15:58:55 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
   </ul>
 </div>
 </body>
