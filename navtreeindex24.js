@@ -1,6 +1,5 @@
 var NAVTREEINDEX24 =
 {
-"class_j_k_q_t_plotter.html#a38c195e8b2e0f07ee72dfb831bc5fe94":[10,4,1,2,4,2],
 "class_j_k_q_t_plotter.html#a3a9c54a4cf77aa78e52e9d4ffd938fd2":[10,4,1,2,4,21],
 "class_j_k_q_t_plotter.html#a3e30b1215fae0cf9f6146f5fb2b1d58f":[10,4,1,2,4,101],
 "class_j_k_q_t_plotter.html#a3f6de92717ff44cb954d58d6789a54b8":[10,4,1,2,4,261],
@@ -249,5 +248,6 @@ var NAVTREEINDEX24 =
 "classes.html":[12,1],
 "example_tutorial_projects.html":[4],
 "example_tutorial_projects.html#jkqtp_extut_cmake_build":[4,0,8],
-"example_tutorial_projects.html#jkqtp_extut_complexexamples":[4,0,7]
+"example_tutorial_projects.html#jkqtp_extut_complexexamples":[4,0,7],
+"example_tutorial_projects.html#jkqtp_extut_datamanagement":[4,0,6]
 };

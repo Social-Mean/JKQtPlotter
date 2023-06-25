@@ -11,7 +11,6 @@ var group__jkqtptools__concurrency =
       [ "JKQTPSynchronized", "class_j_k_q_t_p_synchronized.html#a2c7c1553aea4bc5b927edbea254e20ea", null ],
       [ "get", "class_j_k_q_t_p_synchronized.html#a80422f6f8a0f0ff3bb3309d97d5ffe32", null ],
       [ "get", "class_j_k_q_t_p_synchronized.html#a52f038dfcef6958622d4972f8160ba36", null ],
-      [ "get_lock", "class_j_k_q_t_p_synchronized.html#acded26b10719aa024a00695dd0c99e02", null ],
       [ "get_safe", "class_j_k_q_t_p_synchronized.html#ab764fa146bf148768056940cb638e65f", null ],
       [ "lock", "class_j_k_q_t_p_synchronized.html#acaf881e82732e30adf2be784524b28c7", null ],
       [ "operator->", "class_j_k_q_t_p_synchronized.html#a40b2579274e1099b17c2fcf28a1c33f8", null ],

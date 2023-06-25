@@ -1,6 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"struct_j_k_q_t_p_color_derivation_mode.html#ad08cd43b69e518bd37e029f0d22ab73fa6345988d6dd78a69b59cd6f1a8ed6a21":[10,4,1,4,8,1,6],
 "struct_j_k_q_t_p_color_derivation_mode.html#ad08cd43b69e518bd37e029f0d22ab73fa6c09b35dadd417a7e64d01e436e1bc44":[10,4,1,4,8,1,12],
 "struct_j_k_q_t_p_color_derivation_mode.html#ad08cd43b69e518bd37e029f0d22ab73fa745c34821336123b0107ea5993daff89":[10,4,1,4,8,1,18],
 "struct_j_k_q_t_p_color_derivation_mode.html#ad08cd43b69e518bd37e029f0d22ab73fa785667436dbf1c0b9c2ff99fd2814de2":[10,4,1,4,8,1,3],
@@ -148,5 +147,6 @@ var NAVTREEINDEX31 =
 "struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#ae75d5b0a0258a492bc851b4290caa174":[10,4,1,2,7,4],
 "struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#aed2637d22057ff67a7430d23dabff771":[10,4,1,2,7,0],
 "struct_j_k_q_t_plotter_drawing_tools.html":[10,0,3,1],
-"struct_j_k_q_t_plotter_drawing_tools.html#ab2f73282b1b10407fa55fdb2883d70e1":[10,0,3,1,0]
+"struct_j_k_q_t_plotter_drawing_tools.html#a261dd3ef620d34576944df34d5d756e4":[10,0,3,1,0],
+"struct_j_k_q_t_plotter_drawing_tools.html#ab2f73282b1b10407fa55fdb2883d70e1":[10,0,3,1,1]
 };

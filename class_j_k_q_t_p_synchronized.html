@@ -182,9 +182,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a52f038dfcef6958622d4972f8160ba36"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_synchronized.html#a52f038dfcef6958622d4972f8160ba36">get</a> () const</td></tr>
 <tr class="memdesc:a52f038dfcef6958622d4972f8160ba36"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the internal data as a mutable reference, <b>not thread-safe</b>.  <br /></td></tr>
 <tr class="separator:a52f038dfcef6958622d4972f8160ba36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acded26b10719aa024a00695dd0c99e02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_synchronized.html#a380d2078fa998b9830a5b4ded48704c4">Locker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_synchronized.html#acded26b10719aa024a00695dd0c99e02">get_lock</a> ()</td></tr>
-<tr class="memdesc:acded26b10719aa024a00695dd0c99e02"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates and returns a Locker-Object for this class, which is already locked  <br /></td></tr>
-<tr class="separator:acded26b10719aa024a00695dd0c99e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab764fa146bf148768056940cb638e65f"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_synchronized.html#ab764fa146bf148768056940cb638e65f">get_safe</a> () const</td></tr>
 <tr class="memdesc:ab764fa146bf148768056940cb638e65f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the value in the internal data storage, <b>thread-safe</b>.  <br /></td></tr>
 <tr class="separator:ab764fa146bf148768056940cb638e65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -486,35 +483,6 @@ template&lt;class T &gt; </div>
 
 <p>returns the internal data as a mutable reference, <b>not thread-safe</b>. </p>
 <dl class="section note"><dt>Note</dt><dd>You need to lock this object before calling this function. </dd></dl>
-
-</div>
-</div>
-<a id="acded26b10719aa024a00695dd0c99e02" name="acded26b10719aa024a00695dd0c99e02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acded26b10719aa024a00695dd0c99e02">&#9670;&#160;</a></span>get_lock()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_j_k_q_t_p_synchronized.html#a380d2078fa998b9830a5b4ded48704c4">Locker</a> <a class="el" href="class_j_k_q_t_p_synchronized.html">JKQTPSynchronized</a>&lt; T &gt;::get_lock </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>creates and returns a Locker-Object for this class, which is already locked </p>
 
 </div>
 </div>
@@ -848,7 +816,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_synchronized.html">JKQTPSynchronized</a></li>
-    <li class="footer">Generated on Sun Jun 25 2023 15:58:57 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
+    <li class="footer">Generated on Sun Jun 25 2023 16:09:08 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
   </ul>
 </div>
 </body>
