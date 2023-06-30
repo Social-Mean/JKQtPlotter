@@ -273,6 +273,8 @@ var hierarchy =
     [ "JKQTPStat5NumberStatistics", "struct_j_k_q_t_p_stat5_number_statistics.html", null ],
     [ "JKQTPSymbolPathsInternnal", "struct_j_k_q_t_p_symbol_paths_internnal.html", null ],
     [ "JKQTPSynchronized< T >", "class_j_k_q_t_p_synchronized.html", null ],
+    [ "JKQTPSynchronized< QList< JKQTPPaintDeviceAdapter * > >", "class_j_k_q_t_p_synchronized.html", null ],
+    [ "JKQTPSynchronized< QList< JKQTPSaveDataAdapter * > >", "class_j_k_q_t_p_synchronized.html", null ],
     [ "JKQTPSynchronized< QVector< JKQTPCustomGraphSymbolFunctor > >", "class_j_k_q_t_p_synchronized.html", null ],
     [ "JKQTPXGraphErrorData", "class_j_k_q_t_p_x_graph_error_data.html", [
       [ "JKQTPXGraphErrors", "class_j_k_q_t_p_x_graph_errors.html", null ],

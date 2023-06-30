@@ -1497,9 +1497,16 @@ Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a1c7785ac8cec6e3f5ef7c36e52e3d14b"><td class="memItemLeft" align="right" valign="top">static QHash&lt; <a class="el" href="struct_j_k_q_t_base_plotter_1_1text_size_key.html">JKQTBasePlotter::textSizeKey</a>, <a class="el" href="struct_j_k_q_t_base_plotter_1_1text_size_data.html">JKQTBasePlotter::textSizeData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a1c7785ac8cec6e3f5ef7c36e52e3d14b">s_TextSizeDataCache</a></td></tr>
-<tr class="memdesc:a1c7785ac8cec6e3f5ef7c36e52e3d14b"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is a cache for <a class="el" href="struct_j_k_q_t_base_plotter_1_1text_size_data.html" title="internal tool class for text sizes">JKQTBasePlotter::textSizeData</a> calculated with <a class="el" href="class_j_k_q_t_base_plotter.html#a8906985166c5cf656ed7e2c47b462d34" title="calculates a textSizeData for the given string text if it would be drawn on painter with font fm">JKQTBasePlotter::getTextSizeDetail()</a>  <br /></td></tr>
-<tr class="separator:a1c7785ac8cec6e3f5ef7c36e52e3d14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d36d394d6906c38ec70182286aaf012"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a7d36d394d6906c38ec70182286aaf012">globalUserSettigsFilename</a></td></tr>
+<tr class="separator:a7d36d394d6906c38ec70182286aaf012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bf3f799a8f8f1eebf50752fabb2f9c1"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a9bf3f799a8f8f1eebf50752fabb2f9c1">globalUserSettigsPrefix</a></td></tr>
+<tr class="separator:a9bf3f799a8f8f1eebf50752fabb2f9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e7a836e66e6dbfa085fb5038be0a078"><td class="memItemLeft" align="right" valign="top">static std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a5e7a836e66e6dbfa085fb5038be0a078">globalUserSettingsMutex</a></td></tr>
+<tr class="separator:a5e7a836e66e6dbfa085fb5038be0a078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad18992f40e576ec6d426c4cdf2541b71"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_j_k_q_t_p_synchronized.html">JKQTPSynchronized</a>&lt; QList&lt; <a class="el" href="class_j_k_q_t_p_paint_device_adapter.html">JKQTPPaintDeviceAdapter</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#ad18992f40e576ec6d426c4cdf2541b71">jkqtpPaintDeviceAdapters</a></td></tr>
+<tr class="separator:ad18992f40e576ec6d426c4cdf2541b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec21835a8ba44b2a82d3aa10a59a300c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_j_k_q_t_p_synchronized.html">JKQTPSynchronized</a>&lt; QList&lt; <a class="el" href="class_j_k_q_t_p_save_data_adapter.html">JKQTPSaveDataAdapter</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#aec21835a8ba44b2a82d3aa10a59a300c">jkqtpSaveDataAdapters</a></td></tr>
+<tr class="separator:aec21835a8ba44b2a82d3aa10a59a300c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -1763,11 +1770,11 @@ Aspect Ratios</h2>
 <p>First note that this functionality is only available and activated if both axes are linear!</p>
 <p>You can set two different aspect ratios:</p><ul>
 <li>The ratio of plotWidth/plotHeight (<a class="el" href="class_j_k_q_t_base_plotter.html#a06364dc4fb497fc42b7b8dbbe32f0638" title="sets the data aspect ratio, enforced with setMaintainApsectRatio(true)">setAspectRatio()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a1360fa41c72a05e4142527e3322e2d61" title="en-/disables the maintaining of the data aspect ratio">setMaintainAspectRatio()</a>) will keep the plots pixel-width and height at a certain value. <p class="formulaDsp">
-<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_215.png" width="33" height="18"/></picture>
+<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_215.png" width="310" height="39"/></picture>
 </p>
 </li>
 <li>The ratio of (xmax-xmin)/(ymax-ymin) (<a class="el" href="class_j_k_q_t_base_plotter.html#a9b2ec97c3bf2f8e86b70e278794ab149" title="sets the axis aspect ratio, enforced with setMaintainAxisApsectRatio(true)">setAxisAspectRatio()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a3fdaa585b8b1a150321b19742091ddaa" title="en-/disables the maintaining of the axis aspect ratio">setMaintainAxisAspectRatio()</a>) will keep the displayed axis ranges in a certain ratio. <p class="formulaDsp">
-<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="33" height="18"/></picture>
+<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="310" height="39"/></picture>
 </p>
 </li>
 </ul>
@@ -1858,8 +1865,8 @@ Synchronizing Axis Range &amp; Plot Width</h2>
 <div class="line"> </div>
 <div class="line"><span class="comment">// synchronize y-axis of width/plotResidHist to y-axis of width/plotResid</span></div>
 <div class="line">plotResidHist-&gt;synchronizeToMaster(plotResid, <a class="code hl_enumvalue" href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c">JKQTBasePlotter::sdYAxis</a>, <span class="keyword">true</span>, <span class="keyword">true</span>, <span class="keyword">true</span>);</div>
-<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484">JKQTBasePlotter::sdXAxis</a></div><div class="ttdeci">@ sdXAxis</div><div class="ttdoc">x-axis only</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:1364</div></div>
-<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c">JKQTBasePlotter::sdYAxis</a></div><div class="ttdeci">@ sdYAxis</div><div class="ttdoc">y-axis only</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:1365</div></div>
+<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484">JKQTBasePlotter::sdXAxis</a></div><div class="ttdeci">@ sdXAxis</div><div class="ttdoc">x-axis only</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:1365</div></div>
+<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c">JKQTBasePlotter::sdYAxis</a></div><div class="ttdeci">@ sdYAxis</div><div class="ttdoc">y-axis only</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:1366</div></div>
 </div><!-- fragment --> This will synchronize the x-axes of the top (<code>plotMain</code> ) and bottom-left plot (<code>plotResid</code> ), as well as the y-axes of the bottom-left (<code>plotResid</code> ) and bottom-right plot (<code>plotResidHist</code> ). After this call they will have the same size in screen pixels and always span the same range in plot coordinates.</li>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#a4be0519635e09e5023651ddd0d575356" title="synchronize the plot x-axis width (and x-zooming) with a given master plotter (master --&gt; slave/this)">synchronizeXToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#a4be0519635e09e5023651ddd0d575356" title="synchronize the plot x-axis width (and x-zooming) with a given master plotter (master --&gt; slave/this)">JKQTBasePlotter::synchronizeXToMaster()</a> like <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">synchronizeToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">JKQTBasePlotter::synchronizeToMaster()</a>, but synchronizes only the x-axes</li>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#adec8f807ab19fdec1b87122857a5854c" title="synchronize the plot y-axis height (and y-zooming) with a given master plotter (master --&gt; slave/this...">synchronizeYToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#adec8f807ab19fdec1b87122857a5854c" title="synchronize the plot y-axis height (and y-zooming) with a given master plotter (master --&gt; slave/this...">JKQTBasePlotter::synchronizeYToMaster()</a> like <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">synchronizeToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">JKQTBasePlotter::synchronizeToMaster()</a>, but synchronizes only the y-axes</li>
@@ -1898,7 +1905,7 @@ JKQTBasePlotter Standalone Usage (non-visible class)</h2>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a>* ds=plot.getDatastore();</div>
 <div class="line"><span class="keywordtype">size_t</span> cx=ds-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6">addCopiedColumn</a>(QVector&lt;double&gt;{-1.5,-0.5,0.5,1.5,2.5},<span class="stringliteral">&quot;x&quot;</span>);</div>
 <div class="line"><span class="keywordtype">size_t</span> cy=ds-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6">addCopiedColumn</a>(QVector&lt;double&gt;{-0.75,-0.3,-0.05,0.2,0.65},<span class="stringliteral">&quot;y&quot;</span>);</div>
-<div class="ttc" id="aclass_j_k_q_t_base_plotter_html"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a></div><div class="ttdoc">base class for 2D plotter classes (used by the plotter widget JKQTPlotter)</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:380</div></div>
+<div class="ttc" id="aclass_j_k_q_t_base_plotter_html"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a></div><div class="ttdoc">base class for 2D plotter classes (used by the plotter widget JKQTPlotter)</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:381</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a></div><div class="ttdoc">This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:282</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a3d6b9f2649736b08b6731132f86368f6"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6">JKQTPDatastore::addCopiedColumn</a></div><div class="ttdeci">size_t addCopiedColumn(TIterator first, TIterator last, const QString &amp;name=QString(&quot;&quot;))</div><div class="ttdoc">add one column to the datastore. It will be filled with the values from first ... last</div><div class="ttdef"><b>Definition:</b> jkqtpdatastorage.h:852</div></div>
 </div><!-- fragment --><p>Now we set the range of x/y plot coordinates ... </p><div class="fragment"><div class="line">plot.setXY(-0.8,2.2,-0.5,0.7);</div>
@@ -13167,10 +13174,10 @@ Grid invisible</div></div>
   <table class="params">
     <tr><td class="paramname">zoomX</td><td>if set <code>true</code> (default) zooms the x axis </td></tr>
     <tr><td class="paramname">zoomY</td><td>if set <code>true</code> (default) zooms the y axis </td></tr>
-    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_234_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ x=0 $" src="form_234.png" width="33" height="18"/></picture> is visible in the plot (only for non-logx plots, default: false) </td></tr>
-    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_235_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ y=0 $" src="form_235.png" width="33" height="18"/></picture> is visible in the plot (only for non-logy plots, default: false) </td></tr>
-    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <picture><source srcset="form_236_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_236.png" width="33" height="18"/></picture> where <picture><source srcset="form_237_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x $" src="form_237.png" width="33" height="18"/></picture> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
-    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <picture><source srcset="form_238_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_238.png" width="33" height="18"/></picture> where <picture><source srcset="form_239_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta &lt; $" src="form_239.png" width="33" height="18"/></picture> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_234_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ x=0 $" src="form_234.png" width="310" height="39"/></picture> is visible in the plot (only for non-logx plots, default: false) </td></tr>
+    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_235_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ y=0 $" src="form_235.png" width="310" height="39"/></picture> is visible in the plot (only for non-logy plots, default: false) </td></tr>
+    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <picture><source srcset="form_236_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_236.png" width="310" height="39"/></picture> where <picture><source srcset="form_237_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x $" src="form_237.png" width="310" height="39"/></picture> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <picture><source srcset="form_238_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_238.png" width="310" height="39"/></picture> where <picture><source srcset="form_239_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta &lt; $" src="form_239.png" width="310" height="39"/></picture> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
   </table>
   </dd>
 </dl>
@@ -13536,7 +13543,7 @@ Grid invisible</div></div>
 
 <p>the aspect ratio of plotwidth and plotheight to maintain, if <code>maintainAspectRatio==true</code> </p>
 <p class="formulaDsp">
-<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_215.png" width="33" height="18"/></picture>
+<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_215.png" width="310" height="39"/></picture>
 </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#af0720a1e655e8f24ef3914874b2dfec8" title="indicates whether the widget should maintain an aspect ratio of plotwidth and plotheight">maintainAspectRatio</a> </dd></dl>
 
@@ -13564,7 +13571,7 @@ Grid invisible</div></div>
 
 <p>the aspect ratio of axis widths to maintain, if <code>maintainAxisAspectRatio==true</code> </p>
 <p>When the axis aspect ratio is to be maintained and new axis ranges are set (e.g. when calling <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a> ), the given axis ranges are modified, so </p><p class="formulaDsp">
-<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="33" height="18"/></picture>
+<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="310" height="39"/></picture>
 </p>
 <dl class="section note"><dt>Note</dt><dd>An axis aspect ratio is only well defined for linear axes (if both axes are linear). If both axes a logarithmic, the axis ration is defined for log(axismax)-log(axismin). For other combinations of axes, this function is deactivated</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a137bf3f5fcd473fbb4177290eb53db6d" title="indicates whether the axes should maintain an aspect ratio">maintainAxisAspectRatio</a> </dd></dl>
@@ -13915,6 +13922,72 @@ Grid invisible</div></div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d36d394d6906c38ec70182286aaf012" name="a7d36d394d6906c38ec70182286aaf012"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d36d394d6906c38ec70182286aaf012">&#9670;&#160;</a></span>globalUserSettigsFilename</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString JKQTBasePlotter::globalUserSettigsFilename</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bf3f799a8f8f1eebf50752fabb2f9c1" name="a9bf3f799a8f8f1eebf50752fabb2f9c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf3f799a8f8f1eebf50752fabb2f9c1">&#9670;&#160;</a></span>globalUserSettigsPrefix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString JKQTBasePlotter::globalUserSettigsPrefix</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e7a836e66e6dbfa085fb5038be0a078" name="a5e7a836e66e6dbfa085fb5038be0a078"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e7a836e66e6dbfa085fb5038be0a078">&#9670;&#160;</a></span>globalUserSettingsMutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex JKQTBasePlotter::globalUserSettingsMutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -14621,6 +14694,50 @@ Grid invisible</div></div>
 
 </div>
 </div>
+<a id="ad18992f40e576ec6d426c4cdf2541b71" name="ad18992f40e576ec6d426c4cdf2541b71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad18992f40e576ec6d426c4cdf2541b71">&#9670;&#160;</a></span>jkqtpPaintDeviceAdapters</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_synchronized.html">JKQTPSynchronized</a>&lt;QList&lt;<a class="el" href="class_j_k_q_t_p_paint_device_adapter.html">JKQTPPaintDeviceAdapter</a>*&gt; &gt; JKQTBasePlotter::jkqtpPaintDeviceAdapters</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec21835a8ba44b2a82d3aa10a59a300c" name="aec21835a8ba44b2a82d3aa10a59a300c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec21835a8ba44b2a82d3aa10a59a300c">&#9670;&#160;</a></span>jkqtpSaveDataAdapters</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_synchronized.html">JKQTPSynchronized</a>&lt;QList&lt;<a class="el" href="class_j_k_q_t_p_save_data_adapter.html">JKQTPSaveDataAdapter</a>*&gt; &gt; JKQTBasePlotter::jkqtpSaveDataAdapters</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="accb73e9d663dd92f9aba51e9e452cf5e" name="accb73e9d663dd92f9aba51e9e452cf5e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#accb73e9d663dd92f9aba51e9e452cf5e">&#9670;&#160;</a></span>lineWidthMultiplier</h2>
 
@@ -14764,7 +14881,7 @@ Grid invisible</div></div>
 
 <p>indicates whether the axes should maintain an aspect ratio </p>
 <p>When the axis aspect ratio is to be maintained and new axis ranges are set (e.g. when calling <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a> ), the given axis ranges are modified, so </p><p class="formulaDsp">
-<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="33" height="18"/></picture>
+<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="310" height="39"/></picture>
 </p>
 <dl class="section note"><dt>Note</dt><dd>An axis aspect ratio is only well defined for linear axes (if both axes are linear). If both axes a logarithmic, the axis ration is defined for log(axismax)-log(axismin). For other combinations of axes, this function is deactivated</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a4664db3c06865c8618dd0c70c7551caf" title="the aspect ratio of axis widths to maintain, if maintainAxisAspectRatio==true">axisAspectRatio</a> </dd></dl>
@@ -15250,30 +15367,6 @@ Grid invisible</div></div>
 
 </div>
 </div>
-<a id="a1c7785ac8cec6e3f5ef7c36e52e3d14b" name="a1c7785ac8cec6e3f5ef7c36e52e3d14b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c7785ac8cec6e3f5ef7c36e52e3d14b">&#9670;&#160;</a></span>s_TextSizeDataCache</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QHash&lt;<a class="el" href="struct_j_k_q_t_base_plotter_1_1text_size_key.html">JKQTBasePlotter::textSizeKey</a>, <a class="el" href="struct_j_k_q_t_base_plotter_1_1text_size_data.html">JKQTBasePlotter::textSizeData</a>&gt; JKQTBasePlotter::s_TextSizeDataCache</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>this is a cache for <a class="el" href="struct_j_k_q_t_base_plotter_1_1text_size_data.html" title="internal tool class for text sizes">JKQTBasePlotter::textSizeData</a> calculated with <a class="el" href="class_j_k_q_t_base_plotter.html#a8906985166c5cf656ed7e2c47b462d34" title="calculates a textSizeData for the given string text if it would be drawn on painter with font fm">JKQTBasePlotter::getTextSizeDetail()</a> </p>
-
-</div>
-</div>
 <a id="a0cecb5ed3282065f05cf1a9d713cb1c9" name="a0cecb5ed3282065f05cf1a9d713cb1c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0cecb5ed3282065f05cf1a9d713cb1c9">&#9670;&#160;</a></span>secondaryXAxis</h2>
 
@@ -15600,7 +15693,7 @@ Grid invisible</div></div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a></li>
-    <li class="footer">Generated on Tue Jun 27 2023 19:29:34 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
+    <li class="footer">Generated on Fri Jun 30 2023 12:28:36 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
   </ul>
 </div>
 </body>

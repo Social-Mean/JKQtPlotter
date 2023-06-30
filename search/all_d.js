@@ -32,8 +32,8 @@ var searchData=
   ['library_2dinternal_20types_20and_20functions_29',['Library-internal Types and Functions',['../group__jkqtmathtext__interaltools.html',1,'']]],
   ['licensing_20terms_20for_20jkqtplotter_30',['Licensing Terms for JKQTPlotter',['../licensepage.html',1,'']]],
   ['lightercolor_31',['LighterColor',['../struct_j_k_q_t_p_color_derivation_mode.html#a4a8889bb9c209ab75c8bb87310431e22a1cc174343a5a0d91fd12fe9626298d9b',1,'JKQTPColorDerivationMode']]],
-  ['line_32',['line',['../struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html#a117e241c52e4d6ff1fe5142a82c61109',1,'JKQTPLinePlotStyleWithSymbolSizeComboBox::styleData']]],
-  ['line_33',['Line',['../class_j_k_q_t_p_functor_line_graph_base.html#a6529405e546569ee0c5cd640759f6efaa344a7c0bdddf73005f775d706519ee79',1,'JKQTPFunctorLineGraphBase']]],
+  ['line_32',['Line',['../class_j_k_q_t_p_functor_line_graph_base.html#a6529405e546569ee0c5cd640759f6efaa344a7c0bdddf73005f775d706519ee79',1,'JKQTPFunctorLineGraphBase']]],
+  ['line_33',['line',['../struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html#a117e241c52e4d6ff1fe5142a82c61109',1,'JKQTPLinePlotStyleWithSymbolSizeComboBox::styleData']]],
   ['line_20graphs_34',['Line Graphs',['../group__jkqtplotter__linesymbolgraphs__line.html',1,'']]],
   ['line_2fsymbol_20graphs_35',['Line/Symbol Graphs',['../group__jkqtplotter__linesymbolgraphs.html',1,'']]],
   ['linear_36',['Linear',['../group__jkqtptools__math__statistics__regression.html#ggaa798f2573e7f03cb328b15ff76dda335a32a843da6ea40ab3b17a3421ccdf671b',1,'jkqtpstatregression.h']]],
@@ -84,6 +84,7 @@ var searchData=
   ['ltnone_81',['LTnone',['../class_j_k_q_t_math_text_matrix_node.html#a5229daaabd8f57ac4e32bd6b441c2a74a520c5558791a7397f9b7ba5a92d14c19',1,'JKQTMathTextMatrixNode']]],
   ['lut_82',['lut',['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a715a4a4d1051ffd0009fe0325852e244',1,'JKQTPImageTools::LUTData']]],
   ['lutdata_83',['LUTData',['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html',1,'JKQTPImageTools::LUTData'],['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a96e4d2c300abce0b94928fb0d8175cf8',1,'JKQTPImageTools::LUTData::LUTData(const QString &amp;_name, const QString &amp;_nameT)'],['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a4b9b41818a04e6948761575044a460b5',1,'JKQTPImageTools::LUTData::LUTData(const LUTType &amp;_lut, const QString &amp;_name, const QString &amp;_nameT)'],['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#ab987a05c9e76f5fed40684875590f6aa',1,'JKQTPImageTools::LUTData::LUTData()']]],
-  ['lutsize_84',['LUTSIZE',['../class_j_k_q_t_fast_plotter.html#aa980b0c5cfc859e1200af9c4e525ae64',1,'JKQTFastPlotter::LUTSIZE()'],['../struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4',1,'JKQTPImageTools::LUTSIZE()']]],
-  ['luttype_85',['LUTType',['../struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4',1,'JKQTPImageTools']]]
+  ['lutmutex_84',['lutMutex',['../struct_j_k_q_t_p_image_tools.html#a9d8c2f3d600f5e1b7282e246e55c0e66',1,'JKQTPImageTools']]],
+  ['lutsize_85',['LUTSIZE',['../class_j_k_q_t_fast_plotter.html#aa980b0c5cfc859e1200af9c4e525ae64',1,'JKQTFastPlotter::LUTSIZE()'],['../struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4',1,'JKQTPImageTools::LUTSIZE()']]],
+  ['luttype_86',['LUTType',['../struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4',1,'JKQTPImageTools']]]
 ];

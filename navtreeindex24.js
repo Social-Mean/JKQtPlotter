@@ -1,5 +1,9 @@
 var NAVTREEINDEX24 =
 {
+"class_j_k_q_t_plotter.html#a31993574cd9bb6395039af705ee5d8a1":[10,4,1,2,4,117],
+"class_j_k_q_t_plotter.html#a32cf8c8495de027f620f2db4b1ec2a94":[10,4,1,2,4,181],
+"class_j_k_q_t_plotter.html#a3423657c74844d745497f3e78b5084cb":[10,4,1,2,4,120],
+"class_j_k_q_t_plotter.html#a38c195e8b2e0f07ee72dfb831bc5fe94":[10,4,1,2,4,2],
 "class_j_k_q_t_plotter.html#a3a9c54a4cf77aa78e52e9d4ffd938fd2":[10,4,1,2,4,21],
 "class_j_k_q_t_plotter.html#a3e30b1215fae0cf9f6146f5fb2b1d58f":[10,4,1,2,4,101],
 "class_j_k_q_t_plotter.html#a3f6de92717ff44cb954d58d6789a54b8":[10,4,1,2,4,261],
@@ -245,9 +249,5 @@ var NAVTREEINDEX24 =
 "class_j_k_vanish_q_tool_bar.html#a6a0b740f3eb74c9a7ea628f8334b668c":[10,0,0,3,2],
 "class_j_k_vanish_q_tool_bar.html#a74d45bc2b6bba0bed86844d17ac64b11":[10,0,0,3,1],
 "class_j_k_vanish_q_tool_bar.html#af74b4b4d9674c333d37585d076411f3e":[10,0,0,3,3],
-"classes.html":[12,1],
-"example_tutorial_projects.html":[4],
-"example_tutorial_projects.html#jkqtp_extut_cmake_build":[4,0,8],
-"example_tutorial_projects.html#jkqtp_extut_complexexamples":[4,0,7],
-"example_tutorial_projects.html#jkqtp_extut_datamanagement":[4,0,6]
+"classes.html":[12,1]
 };

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['s_5ffirststart_0',['s_firstStart',['../class_j_k_q_t_math_text.html#a4eacc87cb26d73246f92dd4cb12bb18d',1,'JKQTMathText']]],
-  ['s_5ftextsizedatacache_1',['s_TextSizeDataCache',['../class_j_k_q_t_base_plotter.html#a1c7785ac8cec6e3f5ef7c36e52e3d14b',1,'JKQTBasePlotter']]],
+  ['s_5fmutex_1',['s_mutex',['../class_j_k_q_t_math_text.html#a32d033c194e695ed2525bb4fdd22d25a',1,'JKQTMathText']]],
   ['samplelinelength_2',['sampleLineLength',['../class_j_k_q_t_p_key_style.html#adddba3787ebac8b9afa98b6578824bf1',1,'JKQTPKeyStyle']]],
   ['scale_3',['scale',['../class_j_k_q_t_p_coordinate_axis.html#a72869c734782d33d0f5043bac4092578',1,'JKQTPCoordinateAxis']]],
   ['scalesign_4',['scaleSign',['../class_j_k_q_t_p_coordinate_axis.html#a50b3661a8f47c78874e7bca4b923a694',1,'JKQTPCoordinateAxis']]],

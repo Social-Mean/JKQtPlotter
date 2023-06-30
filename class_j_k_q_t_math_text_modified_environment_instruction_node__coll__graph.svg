@@ -83,23 +83,23 @@ var sectionId = 'dynsection-1';
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_j_k_q_t_math_text_node.html" target="_top" xlink:title="subclass representing one node in the syntax tree">
-<polygon fill="white" stroke="#666666" points="253,-175 122,-175 122,-154 253,-154 253,-175"/>
-<text text-anchor="middle" x="187.5" y="-161.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextNode</text>
+<polygon fill="white" stroke="#666666" points="215,-175 84,-175 84,-154 215,-154 215,-175"/>
+<text text-anchor="middle" x="149.5" y="-161.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextNode</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="#63b8ff" d="M171.03,-146.22C156.88,-131.37 137,-110.51 125.56,-98.51"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="168.79,-148.94 178.22,-153.76 173.85,-144.11 168.79,-148.94"/>
+<path fill="none" stroke="#63b8ff" d="M135.79,-145.34C133.85,-142.32 132.01,-139.14 130.5,-136 124.61,-123.72 120.61,-108.43 118.45,-98.69"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="133.07,-147.57 141.66,-153.78 138.82,-143.57 133.07,-147.57"/>
 </g>
 <!-- Node3&#45;&gt;Node3 -->
-<g id="edge6" class="edge">
+<g id="edge7" class="edge">
 <title>Node3&#45;&gt;Node3</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M263.52,-168.94C268.19,-167.89 271,-166.41 271,-164.5 271,-161.45 263.81,-159.49 253.31,-158.63"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="262.73,-165.52 253.31,-170.37 263.7,-172.45 262.73,-165.52"/>
-<text text-anchor="middle" x="308.5" y="-161.4" font-family="Helvetica,sans-Serif" font-size="12.00"> parentNode</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M225.52,-168.94C230.19,-167.89 233,-166.41 233,-164.5 233,-161.45 225.81,-159.49 215.31,-158.63"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="224.73,-165.52 215.31,-170.37 225.7,-172.45 224.73,-165.52"/>
+<text text-anchor="middle" x="270.5" y="-161.4" font-family="Helvetica,sans-Serif" font-size="12.00"> parentNode</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -113,45 +113,61 @@ var sectionId = 'dynsection-1';
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge5" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M180.96,-144C179.77,-136.78 180.07,-128.91 184.5,-123 185.78,-121.29 232.46,-107.97 266.2,-98.52"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="177.6,-144.99 183.47,-153.82 184.39,-143.26 177.6,-144.99"/>
-<text text-anchor="middle" x="223" y="-126.4" font-family="Helvetica,sans-Serif" font-size="12.00"> parsedNode</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M142.66,-143.76C141.43,-136.51 141.79,-128.69 146.5,-123 173.91,-89.91 199.62,-114.63 241.5,-105 249.88,-103.07 258.86,-100.76 267.23,-98.51"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="139.34,-144.89 145.27,-153.67 146.11,-143.1 139.34,-144.89"/>
+<text text-anchor="middle" x="185" y="-126.4" font-family="Helvetica,sans-Serif" font-size="12.00"> parsedNode</text>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node3</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M290.36,-107.52C284.26,-117.17 275.7,-128.49 265.5,-136 254.75,-143.92 241.51,-149.71 229.02,-153.88"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="293.53,-109.02 295.61,-98.63 287.51,-105.46 293.53,-109.02"/>
-<text text-anchor="middle" x="327" y="-126.4" font-family="Helvetica,sans-Serif" font-size="12.00"> parentMathText</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M276.05,-104.12C266.75,-109.94 256.08,-116.71 246.5,-123 237.95,-128.62 236.62,-131.37 227.5,-136 213.29,-143.21 196.73,-149.34 182.54,-153.97"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="278.17,-106.92 284.8,-98.66 274.47,-100.98 278.17,-106.92"/>
+<text text-anchor="middle" x="295" y="-126.4" font-family="Helvetica,sans-Serif" font-size="12.00"> parentMathText</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="432,-175 367,-175 367,-154 432,-154 432,-175"/>
-<text text-anchor="middle" x="399.5" y="-161.4" font-family="Helvetica,sans-Serif" font-size="12.00">QObject</text>
+<polygon fill="white" stroke="#666666" points="394,-175 329,-175 329,-154 394,-154 394,-175"/>
+<text text-anchor="middle" x="361.5" y="-161.4" font-family="Helvetica,sans-Serif" font-size="12.00">QObject</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node4</title>
-<path fill="none" stroke="#63b8ff" d="M396.33,-143.99C394.29,-136.66 390.95,-128.72 385.5,-123 377.77,-114.89 352.77,-105.4 331.87,-98.51"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="392.95,-144.94 398.48,-153.98 399.79,-143.47 392.95,-144.94"/>
+<path fill="none" stroke="#63b8ff" d="M357.25,-143.59C355.11,-136.62 351.98,-129.04 347.5,-123 339.94,-112.81 328.43,-104.42 318.7,-98.52"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="353.97,-144.9 359.86,-153.72 360.75,-143.16 353.97,-144.9"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_j_k_q_t_math_text_modify_environment_node_mix_in.html" target="_top" xlink:title="mixin extending a node that does not produce any output, but provides a function modifyEnvironment() ...">
+<g id="a_node6"><a xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="492.5,-175 412.5,-175 412.5,-154 492.5,-154 492.5,-175"/>
+<text text-anchor="middle" x="452.5" y="-161.4" font-family="Helvetica,sans-Serif" font-size="12.00">std::mutex</text>
+</a>
+</g>
+</g>
+<!-- Node6&#45;&gt;Node4 -->
+<g id="edge6" class="edge">
+<title>Node6&#45;&gt;Node4</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M423.71,-149.39C393.33,-134.5 346.28,-111.44 319.99,-98.55"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="422.42,-152.65 432.94,-153.91 425.5,-146.37 422.42,-152.65"/>
+<text text-anchor="middle" x="423" y="-126.4" font-family="Helvetica,sans-Serif" font-size="12.00"> s_mutex</text>
+</g>
+<!-- Node7 -->
+<g id="node7" class="node">
+<title>Node7</title>
+<g id="a_node7"><a xlink:href="class_j_k_q_t_math_text_modify_environment_node_mix_in.html" target="_top" xlink:title="mixin extending a node that does not produce any output, but provides a function modifyEnvironment() ...">
 <polygon fill="white" stroke="#666666" points="582.5,-105 368.5,-105 368.5,-71 582.5,-71 582.5,-105"/>
 <text text-anchor="start" x="376.5" y="-91.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextModifyEnvironment</text>
 <text text-anchor="middle" x="475.5" y="-78.4" font-family="Helvetica,sans-Serif" font-size="12.00">NodeMixIn</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node1 -->
-<g id="edge7" class="edge">
-<title>Node6&#45;&gt;Node1</title>
+<!-- Node7&#45;&gt;Node1 -->
+<g id="edge8" class="edge">
+<title>Node7&#45;&gt;Node1</title>
 <path fill="none" stroke="#63b8ff" d="M424.29,-67.37C396.77,-56.82 363.27,-43.98 337.33,-34.04"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="423.16,-70.69 433.75,-71 425.67,-64.15 423.16,-70.69"/>
 </g>
