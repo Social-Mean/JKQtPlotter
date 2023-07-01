@@ -210,9 +210,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8f82e22951dcef1c268a9553c726a3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d80a3e2a139ac382263b52f8152a171"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a5d80a3e2a139ac382263b52f8152a171">addWinSymbol</a> (const QString &amp;_symbol, <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03c">SymbolFlags</a> _flags=<a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca250bec0791a7ccec1d6994fdd037ab71">AsOutside</a>, double _fontScalingFactor=1.0, double _yShiftFactor=0.0)</td></tr>
 <tr class="separator:a5d80a3e2a139ac382263b52f8152a171"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29ac899533a105454f106276d10ff236"><td class="memItemLeft" align="right" valign="top">QPair&lt; QFont, <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html">SymbolProps</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a29ac899533a105454f106276d10ff236">getDrawingData</a> (<a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, <a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent) const</td></tr>
-<tr class="memdesc:a29ac899533a105454f106276d10ff236"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the QFont to use for drawing and the QString to draw with it  <br /></td></tr>
-<tr class="separator:a29ac899533a105454f106276d10ff236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a168757241c7117cf59d8fc9cbeb0c41c"><td class="memItemLeft" align="right" valign="top">QPair&lt; QFont, <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html">SymbolProps</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a168757241c7117cf59d8fc9cbeb0c41c">getDrawingData</a> (<a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> currentEv, <a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *parent, QPainter &amp;painter) const</td></tr>
+<tr class="memdesc:a168757241c7117cf59d8fc9cbeb0c41c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the QFont to use for drawing and the QString to draw with it  <br /></td></tr>
+<tr class="separator:a168757241c7117cf59d8fc9cbeb0c41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04d8d0175797f00afc2a93778f94030d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html">SymbolProps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a04d8d0175797f00afc2a93778f94030d">getProps</a> (<a class="el" href="group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201">JKQTMathTextFontEncoding</a> key, const <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html">SymbolProps</a> &amp;defaultValue=<a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html">SymbolProps</a>(), <a class="el" href="group__jkqtmathtext__tools.html#gaf991d6cf6e7799d32f99ffcae9385201">JKQTMathTextFontEncoding</a> *foundEncodingOut=nullptr) const</td></tr>
 <tr class="memdesc:a04d8d0175797f00afc2a93778f94030d"><td class="mdescLeft">&#160;</td><td class="mdescRight">accesses entries in props for a given <em>key</em>. This also looks for fallback options (e.g. MTFEStandard when MTFEUnicode is not available). Returns <em>defaultValue</em> when nothing is found  <br /></td></tr>
 <tr class="separator:a04d8d0175797f00afc2a93778f94030d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1472,8 +1472,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a29ac899533a105454f106276d10ff236" name="a29ac899533a105454f106276d10ff236"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29ac899533a105454f106276d10ff236">&#9670;&#160;</a></span>getDrawingData()</h2>
+<a id="a168757241c7117cf59d8fc9cbeb0c41c" name="a168757241c7117cf59d8fc9cbeb0c41c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a168757241c7117cf59d8fc9cbeb0c41c">&#9670;&#160;</a></span>getDrawingData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1488,7 +1488,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a> *&#160;</td>
-          <td class="paramname"><em>parent</em>&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QPainter &amp;&#160;</td>
+          <td class="paramname"><em>painter</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1699,7 +1705,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_symbol_node.html">JKQTMathTextSymbolNode</a></li><li class="navelem"><a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html">SymbolFullProps</a></li>
-    <li class="footer">Generated on Fri Jun 30 2023 12:28:36 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
+    <li class="footer">Generated on Sat Jul 1 2023 14:00:46 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
   </ul>
 </div>
 </body>

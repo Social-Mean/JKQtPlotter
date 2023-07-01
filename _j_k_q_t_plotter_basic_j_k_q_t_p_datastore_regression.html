@@ -117,10 +117,10 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_basic_j_k_q_t_p_datas
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md47">Simple Linear Regression</a></li>
-<li class="level1"><a href="#autotoc_md50">Robust Linear Regression</a></li>
-<li class="level1"><a href="#autotoc_md53">Weighted Linear Regression</a></li>
-<li class="level1"><a href="#autotoc_md54">Linearizable Regression Models</a></li>
+<ul><li class="level1"><a href="#autotoc_md43">Simple Linear Regression</a></li>
+<li class="level1"><a href="#autotoc_md45">Robust Linear Regression</a></li>
+<li class="level1"><a href="#autotoc_md48">Weighted Linear Regression</a></li>
+<li class="level1"><a href="#autotoc_md52">Linearizable Regression Models</a></li>
 <li class="level1"><a href="#autotoc_md55">Polynom Fitting</a></li>
 <li class="level1"><a href="#autotoc_md56">Screenshot of the full Program</a></li>
 </ul>
@@ -136,7 +136,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_basic_j_k_q_t_p_datas
 <li><a class="el" href="_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html">Advanced 2-Dimensional Statistics with JKQTPDatastore</a></li>
 </ul>
 <p>The source code of the main application can be found in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/datastore_statistics/datastore_regression.cpp"><code>datastore_regression.cpp</code></a>. This tutorial cites only parts of this code to demonstrate different ways of performing regression analysis.</p>
-<h1><a class="anchor" id="autotoc_md47"></a>
+<h1><a class="anchor" id="autotoc_md43"></a>
 Simple Linear Regression</h1>
 <p>First we generate a set of datapoints (x,y), which scatter randomly around a linear function. </p><div class="fragment"><div class="line">std::random_device rd; <span class="comment">// random number generators:</span></div>
 <div class="line">std::mt19937 gen{rd()};</div>
@@ -177,7 +177,7 @@ Simple Linear Regression</h1>
 </div><!-- fragment --><p> Here the x- and y-columns from the <code><a class="el" href="class_j_k_q_t_p_x_y_graph.html" title="This virtual JKQTPGraph descendent may be used as base for all graphs that use at least two columns t...">JKQTPXYGraph</a></code>-based graph <code>graphD</code> (see above) are used as datasources for the plot.</p>
 <p>The plot resulting from any of the variants above looks like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_regression_lin.png" alt="datastore_regression_lin" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md50"></a>
+<h1><a class="anchor" id="autotoc_md45"></a>
 Robust Linear Regression</h1>
 <p>Sometimes data contains outliers that can render the results of a regression analysis inaccurate. For such cases the <a class="el" href="group__jkqtptools__math__statistics.html">JKQTPlotter Statistics Library</a> offers the function <code><a class="el" href="group__jkqtptools__math__statistics__regression.html#ga7da14476c0d4bc417ec104dbcc930bb6" title="calculate the (robust) iteratively reweighted least-squares (IRLS) estimate for the parameters of the...">jkqtpstatRobustIRLSLinearRegression()</a></code>, which is a drop-in replacement for <code><a class="el" href="group__jkqtptools__math__statistics__regression.html#gaf81a452c8e0798f6bb4b8764dd5a2f89" title="calculate the linear regression coefficients for a given data range firstX / firstY ....">jkqtpstatLinearRegression()</a></code> and solves the optimization problem a) in the Lp-norm (which is more robust to outliers) and b) uses the <a href="https://en.wikipedia.org/wiki/Iteratively_reweighted_least_squares">iteratively reweighted least-squares algorithm (IRLS)</a>, which performs a series of regressions, where in each instance the data-points are weighted differently. The method assigns a lower weight to those points that are far from the current best-fit (typically the outliers) and thus slowly comes nearer to an estimate that is not distorted by the outliers.</p>
 <p>To demonstrate this method, we use the same dataset as above, but add a few outliers:</p>
@@ -214,7 +214,7 @@ Robust Linear Regression</h1>
 <li>the closer <code>p</code> is to 2, the closer the fit is to the least squares solution (i.e. the normal regression obtained with the L2 norm)</li>
 </ul>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_regression_linrobust_p.png" alt="datastore_regression_linrobust_p" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md53"></a>
+<h1><a class="anchor" id="autotoc_md48"></a>
 Weighted Linear Regression</h1>
 <p>Another option to react to measurement errors is to take these into account when calculating the regression. To do so, you can use weighted regression that uses the measurement errors as inverse weights. This algorithm is implemented in the function <code><a class="el" href="group__jkqtptools__math__statistics__regression.html#gab5c23e5d003ffde1fbf9a089ea454659" title="calculate the weighted linear regression coefficients for a given for a given data range firstX / fir...">jkqtpstatLinearWeightedRegression()</a></code>.</p>
 <p>First we generate again a set of datapoints (x,y), which scatter randomly around a linear function. In addition we calculate an "error" <code>err</code> for each datapoint: </p><div class="fragment"><div class="line">std::random_device rd; <span class="comment">// random number generators:</span></div>
@@ -268,7 +268,7 @@ Weighted Linear Regression</h1>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_regression_linweight.png" alt="datastore_regression_linweight" class="inline"/></p>
 <p>For this plot we also added a call to </p><div class="fragment"><div class="line"><a class="code hl_function" href="group__jkqtptools__math__statistics__adaptors.html#ga8bfe5be6f07bc5e05b989cbe8d5906f5">jkqtpstatAddLinearRegression</a>(graphE);</div>
 </div><!-- fragment --><p> which performs a simple non-weighted regression. The difference between the two resulting linear functions (blue: simple regression, green: weighted regression) demonstrates the influence of the weighting.</p>
-<h1><a class="anchor" id="autotoc_md54"></a>
+<h1><a class="anchor" id="autotoc_md52"></a>
 Linearizable Regression Models</h1>
 <p>In addition to the simple linear regression model <code>f(x)=a+b*x</code>, it is also possible to fit a few non-linear models by transforming the data:</p><ul>
 <li>power-law function<code>f(x)=a*x^b</code>, which is a linear function in a log(x)-log(y)-plot</li>
@@ -397,7 +397,7 @@ Screenshot of the full Program</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Fri Jun 30 2023 12:28:35 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
+    <li class="footer">Generated on Sat Jul 1 2023 14:00:45 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
   </ul>
 </div>
 </body>

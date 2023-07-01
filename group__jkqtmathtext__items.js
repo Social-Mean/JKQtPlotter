@@ -738,7 +738,7 @@ var group__jkqtmathtext__items =
       [ "addUprightUnicode", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#ab4691c45c273982a3a1a749f3a5d14a1", null ],
       [ "addUprightWinSymbol", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a8f82e22951dcef1c268a9553c726a3b4", null ],
       [ "addWinSymbol", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a5d80a3e2a139ac382263b52f8152a171", null ],
-      [ "getDrawingData", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a29ac899533a105454f106276d10ff236", null ],
+      [ "getDrawingData", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a168757241c7117cf59d8fc9cbeb0c41c", null ],
       [ "getProps", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a04d8d0175797f00afc2a93778f94030d", null ],
       [ "operator=", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a0d827b2792915184c7750daceb0ae6d8", null ],
       [ "operator=", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a0d50b786f763615e3c767ae390de538f", null ],
