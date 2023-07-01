@@ -5,7 +5,7 @@ var searchData=
   ['saveasgerexcelcsv_2',['saveAsGerExcelCSV',['../class_j_k_q_t_base_plotter.html#a386520924c488ebf5cc1458afdc67e68',1,'JKQTBasePlotter']]],
   ['saveasmatlab_3',['saveAsMatlab',['../class_j_k_q_t_base_plotter.html#a7bd8712b53a002a22ecf3ec178bd6534',1,'JKQTBasePlotter']]],
   ['saveaspdf_4',['saveAsPDF',['../class_j_k_q_t_base_plotter.html#a2f5b9dcec4ed7aacbeb6467b136e911c',1,'JKQTBasePlotter']]],
-  ['saveaspixelimage_5',['saveAsPixelImage',['../class_j_k_q_t_base_plotter.html#a4a5fdd26c97d85f0548086275a42c263',1,'JKQTBasePlotter']]],
+  ['saveaspixelimage_5',['saveAsPixelImage',['../class_j_k_q_t_base_plotter.html#af03cd13683e6a04084d007f5073620c5',1,'JKQTBasePlotter']]],
   ['saveassemicolonsv_6',['saveAsSemicolonSV',['../class_j_k_q_t_base_plotter.html#ac71e74e9f2bfc72ba4b4c9eceafcf13f',1,'JKQTBasePlotter::saveAsSemicolonSV(const QString &amp;filename, const QString &amp;decimalSeparator, const QString &amp;commentInitializer)'],['../class_j_k_q_t_base_plotter.html#ade08aa8890eb5e8baa3a508be31ac95d',1,'JKQTBasePlotter::saveAsSemicolonSV(const QString &amp;filename=QString(&quot;&quot;))']]],
   ['saveassvg_7',['saveAsSVG',['../class_j_k_q_t_base_plotter.html#ac8f683b7125d98c06039ef2b03fce337',1,'JKQTBasePlotter']]],
   ['saveassylk_8',['saveAsSYLK',['../class_j_k_q_t_base_plotter.html#abb8c3315cabec3d466d5804aaf3ef4f4',1,'JKQTBasePlotter']]],

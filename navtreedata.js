@@ -29,10 +29,10 @@ var NAVTREE =
     [ "Contributor Covenant Code of Conduct", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html", [
       [ "Our Pledge", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md1", null ],
       [ "Our Standards", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2", null ],
-      [ "Our Responsibilities", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4", null ],
-      [ "Scope", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5", null ],
-      [ "Enforcement", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6", null ],
-      [ "Attribution", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md7", null ]
+      [ "Our Responsibilities", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3", null ],
+      [ "Scope", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4", null ],
+      [ "Enforcement", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5", null ],
+      [ "Attribution", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6", null ]
     ] ],
     [ "Contributing", "md__c_o_n_t_r_i_b_u_t_i_n_g.html", [
       [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8", null ],
@@ -118,7 +118,7 @@ var NAVTREEINDEX =
 [
 "_j_k_q_t_c_make_link_example.html",
 "class_j_k_q_t_base_plotter.html#a1989fdd628f6172bbe22058f99ffc2d0",
-"class_j_k_q_t_base_plotter.html#a923eb0d822944e7d170b3493d1ced519",
+"class_j_k_q_t_base_plotter.html#a92a50264d3890e5a51fb16a1df751022",
 "class_j_k_q_t_base_plotter_style.html#a0cbcdb08e83dd1593903e86ae088b6f0",
 "class_j_k_q_t_f_p_x_range_plot.html#a8b99a7a91e147e319fac5bc6cc2955bf",
 "class_j_k_q_t_fast_plotter.html#a8522d7b0fd0cb4884c3dd6c70545cc58",

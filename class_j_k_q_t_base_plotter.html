@@ -229,9 +229,9 @@ Public Slots</h2></td></tr>
 <tr class="memitem:a2f5b9dcec4ed7aacbeb6467b136e911c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a2f5b9dcec4ed7aacbeb6467b136e911c">saveAsPDF</a> (const QString &amp;filename=QString(&quot;&quot;), bool displayPreview=true)</td></tr>
 <tr class="memdesc:a2f5b9dcec4ed7aacbeb6467b136e911c"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot as a PDF file, with the current widget aspect ratio, if filename is empty a file selection dialog is displayed  <br /></td></tr>
 <tr class="separator:a2f5b9dcec4ed7aacbeb6467b136e911c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a5fdd26c97d85f0548086275a42c263"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a4a5fdd26c97d85f0548086275a42c263">saveAsPixelImage</a> (const QString &amp;filename=QString(&quot;&quot;), bool displayPreview=true, const QByteArray &amp;outputFormat=QByteArray())</td></tr>
-<tr class="memdesc:a4a5fdd26c97d85f0548086275a42c263"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot as a pixel image image (PNG ...), if filename is empty a file selection dialog is displayed  <br /></td></tr>
-<tr class="separator:a4a5fdd26c97d85f0548086275a42c263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af03cd13683e6a04084d007f5073620c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#af03cd13683e6a04084d007f5073620c5">saveAsPixelImage</a> (const QString &amp;filename=QString(&quot;&quot;), bool displayPreview=true, const QByteArray &amp;outputFormat=QByteArray(), const QSize &amp;outputSizeIncrease=QSize(0, 0))</td></tr>
+<tr class="memdesc:af03cd13683e6a04084d007f5073620c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot as a pixel image image (PNG ...), if filename is empty a file selection dialog is displayed  <br /></td></tr>
+<tr class="separator:af03cd13683e6a04084d007f5073620c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade08aa8890eb5e8baa3a508be31ac95d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#ade08aa8890eb5e8baa3a508be31ac95d">saveAsSemicolonSV</a> (const QString &amp;filename=QString(&quot;&quot;))</td></tr>
 <tr class="memdesc:ade08aa8890eb5e8baa3a508be31ac95d"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot data as a Semicolon Separated Values (SSV) file  <br /></td></tr>
 <tr class="separator:ade08aa8890eb5e8baa3a508be31ac95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1770,11 +1770,11 @@ Aspect Ratios</h2>
 <p>First note that this functionality is only available and activated if both axes are linear!</p>
 <p>You can set two different aspect ratios:</p><ul>
 <li>The ratio of plotWidth/plotHeight (<a class="el" href="class_j_k_q_t_base_plotter.html#a06364dc4fb497fc42b7b8dbbe32f0638" title="sets the data aspect ratio, enforced with setMaintainApsectRatio(true)">setAspectRatio()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a1360fa41c72a05e4142527e3322e2d61" title="en-/disables the maintaining of the data aspect ratio">setMaintainAspectRatio()</a>) will keep the plots pixel-width and height at a certain value. <p class="formulaDsp">
-<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_215.png" width="310" height="39"/></picture>
+<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_215.png" width="33" height="18"/></picture>
 </p>
 </li>
 <li>The ratio of (xmax-xmin)/(ymax-ymin) (<a class="el" href="class_j_k_q_t_base_plotter.html#a9b2ec97c3bf2f8e86b70e278794ab149" title="sets the axis aspect ratio, enforced with setMaintainAxisApsectRatio(true)">setAxisAspectRatio()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a3fdaa585b8b1a150321b19742091ddaa" title="en-/disables the maintaining of the axis aspect ratio">setMaintainAxisAspectRatio()</a>) will keep the displayed axis ranges in a certain ratio. <p class="formulaDsp">
-<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="310" height="39"/></picture>
+<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="33" height="18"/></picture>
 </p>
 </li>
 </ul>
@@ -1800,7 +1800,7 @@ Printing, Saving &amp; Exporting</h1>
 Saving and Printing Graphs</h2>
 <p>This class implement a set of function to save and print the graphs:</p><ul>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#a67596b30f3359810234e8aec9208d4a1" title="print the current plot, if printer is nullptr a printer selection dialog is displayed">print()</a> prints the graph on a QPrinter object</li>
-<li><a class="el" href="class_j_k_q_t_base_plotter.html#a4a5fdd26c97d85f0548086275a42c263" title="save the current plot as a pixel image image (PNG ...), if filename is empty a file selection dialog ...">saveAsPixelImage()</a> saves the plot into a pixel image file (PNG, TIFF, ... formats, as supported by Qt)</li>
+<li><a class="el" href="class_j_k_q_t_base_plotter.html#af03cd13683e6a04084d007f5073620c5" title="save the current plot as a pixel image image (PNG ...), if filename is empty a file selection dialog ...">saveAsPixelImage()</a> saves the plot into a pixel image file (PNG, TIFF, ... formats, as supported by Qt)</li>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#a2f5b9dcec4ed7aacbeb6467b136e911c" title="save the current plot as a PDF file, with the current widget aspect ratio, if filename is empty a fil...">saveAsPDF()</a> saves the graph as a PDF file (using the Qt printing engine)</li>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#ac8f683b7125d98c06039ef2b03fce337" title="save the current plot as a SVG file, with the current widget aspect ratio, if filename is empty a fil...">saveAsSVG()</a> saves the graph as a SVG file (using the Qt SVG library)</li>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#a5ee52d4376e83f3ce141280729526ad9" title="save the current plot as an image file, with the current widget aspect ratio, if filename is empty a ...">saveImage()</a> saves the graph</li>
@@ -8688,8 +8688,8 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 
 </div>
 </div>
-<a id="a4a5fdd26c97d85f0548086275a42c263" name="a4a5fdd26c97d85f0548086275a42c263"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a5fdd26c97d85f0548086275a42c263">&#9670;&#160;</a></span>saveAsPixelImage</h2>
+<a id="af03cd13683e6a04084d007f5073620c5" name="af03cd13683e6a04084d007f5073620c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af03cd13683e6a04084d007f5073620c5">&#9670;&#160;</a></span>saveAsPixelImage</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8713,7 +8713,13 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const QByteArray &amp;&#160;</td>
-          <td class="paramname"><em>outputFormat</em> = <code>QByteArray()</code>&#160;</td>
+          <td class="paramname"><em>outputFormat</em> = <code>QByteArray()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QSize &amp;&#160;</td>
+          <td class="paramname"><em>outputSizeIncrease</em> = <code>QSize(0,&#160;0)</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -8729,6 +8735,15 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 </div><div class="memdoc">
 
 <p>save the current plot as a pixel image image (PNG ...), if filename is empty a file selection dialog is displayed </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>name of the stored file, if no <em>outputFormat</em> is given, the file format is deduced by the file extension in <em>filename</em> </td></tr>
+    <tr><td class="paramname">displayPreview</td><td>if <code>true</code> a dialog is shown that allows to modify the generated output (zoo, scaling, ...) </td></tr>
+    <tr><td class="paramname">outputFormmat</td><td>specify the file format for the generated file </td></tr>
+    <tr><td class="paramname">outputSizeIncrease</td><td>if given, the size of the generated pixel image is increased by this number of pixels in addition to the required space </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -13174,10 +13189,10 @@ Grid invisible</div></div>
   <table class="params">
     <tr><td class="paramname">zoomX</td><td>if set <code>true</code> (default) zooms the x axis </td></tr>
     <tr><td class="paramname">zoomY</td><td>if set <code>true</code> (default) zooms the y axis </td></tr>
-    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_245_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ x=0 $" src="form_245.png" width="310" height="39"/></picture> is visible in the plot (only for non-logx plots, default: false) </td></tr>
-    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_246_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ y=0 $" src="form_246.png" width="310" height="39"/></picture> is visible in the plot (only for non-logy plots, default: false) </td></tr>
-    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <picture><source srcset="form_247_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_247.png" width="310" height="39"/></picture> where <picture><source srcset="form_248_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x $" src="form_248.png" width="310" height="39"/></picture> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
-    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <picture><source srcset="form_249_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_249.png" width="310" height="39"/></picture> where <picture><source srcset="form_250_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta &lt; $" src="form_250.png" width="310" height="39"/></picture> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_234_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ x=0 $" src="form_234.png" width="33" height="18"/></picture> is visible in the plot (only for non-logx plots, default: false) </td></tr>
+    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_235_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ y=0 $" src="form_235.png" width="33" height="18"/></picture> is visible in the plot (only for non-logy plots, default: false) </td></tr>
+    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <picture><source srcset="form_236_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_236.png" width="33" height="18"/></picture> where <picture><source srcset="form_237_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x $" src="form_237.png" width="33" height="18"/></picture> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <picture><source srcset="form_238_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_238.png" width="33" height="18"/></picture> where <picture><source srcset="form_239_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta &lt; $" src="form_239.png" width="33" height="18"/></picture> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
   </table>
   </dd>
 </dl>
@@ -13543,7 +13558,7 @@ Grid invisible</div></div>
 
 <p>the aspect ratio of plotwidth and plotheight to maintain, if <code>maintainAspectRatio==true</code> </p>
 <p class="formulaDsp">
-<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_215.png" width="310" height="39"/></picture>
+<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_215.png" width="33" height="18"/></picture>
 </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#af0720a1e655e8f24ef3914874b2dfec8" title="indicates whether the widget should maintain an aspect ratio of plotwidth and plotheight">maintainAspectRatio</a> </dd></dl>
 
@@ -13571,7 +13586,7 @@ Grid invisible</div></div>
 
 <p>the aspect ratio of axis widths to maintain, if <code>maintainAxisAspectRatio==true</code> </p>
 <p>When the axis aspect ratio is to be maintained and new axis ranges are set (e.g. when calling <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a> ), the given axis ranges are modified, so </p><p class="formulaDsp">
-<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="310" height="39"/></picture>
+<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="33" height="18"/></picture>
 </p>
 <dl class="section note"><dt>Note</dt><dd>An axis aspect ratio is only well defined for linear axes (if both axes are linear). If both axes a logarithmic, the axis ration is defined for log(axismax)-log(axismin). For other combinations of axes, this function is deactivated</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a137bf3f5fcd473fbb4177290eb53db6d" title="indicates whether the axes should maintain an aspect ratio">maintainAxisAspectRatio</a> </dd></dl>
@@ -14881,7 +14896,7 @@ Grid invisible</div></div>
 
 <p>indicates whether the axes should maintain an aspect ratio </p>
 <p>When the axis aspect ratio is to be maintained and new axis ranges are set (e.g. when calling <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a> ), the given axis ranges are modified, so </p><p class="formulaDsp">
-<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="310" height="39"/></picture>
+<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="33" height="18"/></picture>
 </p>
 <dl class="section note"><dt>Note</dt><dd>An axis aspect ratio is only well defined for linear axes (if both axes are linear). If both axes a logarithmic, the axis ration is defined for log(axismax)-log(axismin). For other combinations of axes, this function is deactivated</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a4664db3c06865c8618dd0c70c7551caf" title="the aspect ratio of axis widths to maintain, if maintainAxisAspectRatio==true">axisAspectRatio</a> </dd></dl>
@@ -15693,7 +15708,7 @@ Grid invisible</div></div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a></li>
-    <li class="footer">Generated on Sat Jul 1 2023 15:50:50 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
+    <li class="footer">Generated on Sat Jul 1 2023 21:27:09 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.6 </li>
   </ul>
 </div>
 </body>

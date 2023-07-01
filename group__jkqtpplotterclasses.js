@@ -276,7 +276,7 @@ var group__jkqtpplotterclasses =
       [ "saveAsGerExcelCSV", "class_j_k_q_t_base_plotter.html#a386520924c488ebf5cc1458afdc67e68", null ],
       [ "saveAsMatlab", "class_j_k_q_t_base_plotter.html#a7bd8712b53a002a22ecf3ec178bd6534", null ],
       [ "saveAsPDF", "class_j_k_q_t_base_plotter.html#a2f5b9dcec4ed7aacbeb6467b136e911c", null ],
-      [ "saveAsPixelImage", "class_j_k_q_t_base_plotter.html#a4a5fdd26c97d85f0548086275a42c263", null ],
+      [ "saveAsPixelImage", "class_j_k_q_t_base_plotter.html#af03cd13683e6a04084d007f5073620c5", null ],
       [ "saveAsSemicolonSV", "class_j_k_q_t_base_plotter.html#ac71e74e9f2bfc72ba4b4c9eceafcf13f", null ],
       [ "saveAsSemicolonSV", "class_j_k_q_t_base_plotter.html#ade08aa8890eb5e8baa3a508be31ac95d", null ],
       [ "saveAsSVG", "class_j_k_q_t_base_plotter.html#ac8f683b7125d98c06039ef2b03fce337", null ],
