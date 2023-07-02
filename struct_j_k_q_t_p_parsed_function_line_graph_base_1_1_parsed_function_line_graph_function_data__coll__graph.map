@@ -1,26 +1,61 @@
 <map id="JKQTPParsedFunctionLineGraphBase::ParsedFunctionLineGraphFunctionData" name="JKQTPParsedFunctionLineGraphBase::ParsedFunctionLineGraphFunctionData">
-<area shape="rect" id="node1" title="INTERNAL data structure combining a JKQTPMathParser and a JKQTPMathParser::jkmpNode." alt="" coords="3240,295,3619,340"/>
-<area shape="rect" id="node2" title=" " alt="" coords="2574,244,2821,289"/>
-<area shape="rect" id="node3" href="$class_j_k_q_t_p_math_parser.html" title="A simple function parser to parse (build memory tree representation) and evaluate simple mathematical..." alt="" coords="2169,253,2330,281"/>
-<area shape="rect" id="node24" href="$class_j_k_q_t_p_math_parser_1_1jkmp_node.html" title="This class is the abstract base class for nodes. All allowed node types must inherit from jkmpNode." alt="" coords="2572,355,2823,383"/>
-<area shape="rect" id="node4" title=" " alt="" coords="267,294,369,322"/>
-<area shape="rect" id="node12" href="$group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable" title="This struct is for managing temporary variables. It is generally like jkmpVariable." alt="" coords="811,285,1063,331"/>
-<area shape="rect" id="node15" title=" " alt="" coords="1691,140,1988,185"/>
-<area shape="rect" id="node16" href="$struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html" title="This struct is for managing variables. Unlike jkmpResult this struct only contains pointers to the da..." alt="" coords="800,141,1075,169"/>
-<area shape="rect" id="node19" title=" " alt="" coords="1699,547,1980,610"/>
-<area shape="rect" id="node20" href="$group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor" title="description of a user registered function" alt="" coords="1099,548,1375,593"/>
-<area shape="rect" id="node21" href="$struct_j_k_q_t_p_math_parser_1_1jkmp_result.html" title="result of any expression" alt="" coords="519,565,776,593"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,285,168,331"/>
-<area shape="rect" id="node6" title=" " alt="" coords="1759,65,1920,93"/>
-<area shape="rect" id="node7" title=" " alt="" coords="1131,5,1342,51"/>
-<area shape="rect" id="node8" title=" " alt="" coords="565,5,730,51"/>
-<area shape="rect" id="node9" title=" " alt="" coords="217,14,419,42"/>
-<area shape="rect" id="node10" title=" " alt="" coords="25,14,149,42"/>
-<area shape="rect" id="node11" title=" " alt="" coords="1707,280,1971,325"/>
-<area shape="rect" id="node13" title=" " alt="" coords="1160,430,1313,458"/>
-<area shape="rect" id="node14" title=" " alt="" coords="628,443,667,471"/>
-<area shape="rect" id="node17" title=" " alt="" coords="1157,363,1316,391"/>
-<area shape="rect" id="node22" title=" " alt="" coords="2156,429,2343,457"/>
-<area shape="rect" id="node18" title=" " alt="" coords="628,347,667,375"/>
-<area shape="rect" id="node23" title=" " alt="" coords="2900,347,3147,392"/>
+<area shape="rect" id="Node000001" title="INTERNAL data structure combining a JKQTPMathParser and a JKQTPMathParser::jkmpNode." alt="" coords="3240,295,3619,340"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="2574,244,2821,289"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2834,273,3240,302,3240,307,2834,279"/>
+<area shape="rect" id="Node000003" href="$class_j_k_q_t_p_math_parser.html" title="A simple function parser to parse (build memory tree representation) and evaluate simple mathematical..." alt="" coords="2169,253,2330,281"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="2344,264,2574,264,2574,269,2344,269"/>
+<area shape="rect" id="Node000024" href="$class_j_k_q_t_p_math_parser_1_1jkmp_node.html" title="This class is the abstract base class for nodes. All allowed node types must inherit from jkmpNode." alt="" coords="2572,355,2823,383"/>
+<area shape="poly" id="edge33_Node000024_Node000003" title=" " alt="" coords="2273,289,2314,329,2339,347,2368,362,2429,378,2492,385,2554,385,2609,381,2610,386,2554,390,2492,390,2428,383,2366,366,2337,352,2310,333,2269,293"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="267,294,369,322"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="369,287,442,265,543,245,646,240,1841,240,2017,246,2169,257,2168,262,2016,251,1841,245,646,245,544,251,443,271,371,292"/>
+<area shape="rect" id="Node000012" href="$group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable" title="This struct is for managing temporary variables. It is generally like jkmpVariable." alt="" coords="811,285,1063,331"/>
+<area shape="poly" id="edge12_Node000012_Node000004" title=" " alt="" coords="382,305,811,305,811,311,382,311"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="1691,140,1988,185"/>
+<area shape="poly" id="edge16_Node000015_Node000004" title=" " alt="" coords="337,281,381,232,410,206,441,183,478,165,518,156,678,127,842,109,1007,101,1168,101,1321,106,1462,115,1691,138,1690,144,1462,120,1321,111,1168,106,1007,107,843,115,679,132,519,161,480,170,444,188,413,210,385,236,340,285"/>
+<area shape="rect" id="Node000016" href="$struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html" title="This struct is for managing variables. Unlike jkmpResult this struct only contains pointers to the da..." alt="" coords="800,141,1075,169"/>
+<area shape="poly" id="edge18_Node000016_Node000004" title=" " alt="" coords="344,283,388,250,442,222,532,193,626,173,717,161,800,155,800,160,718,166,627,179,534,198,444,226,390,255,347,287"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="1699,547,1980,610"/>
+<area shape="poly" id="edge23_Node000019_Node000004" title=" " alt="" coords="327,335,339,386,362,452,396,519,419,551,444,578,462,591,478,597,519,603,682,623,849,635,1015,638,1177,636,1331,629,1472,619,1698,595,1699,601,1472,624,1331,634,1178,641,1015,644,848,640,681,629,518,608,477,602,459,596,441,582,414,554,392,522,357,454,334,388,322,336"/>
+<area shape="rect" id="Node000020" href="$group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor" title="description of a user registered function" alt="" coords="1099,548,1375,593"/>
+<area shape="poly" id="edge27_Node000020_Node000004" title=" " alt="" coords="339,332,368,371,410,417,461,463,490,483,520,499,570,515,636,527,793,540,952,546,1075,552,1099,554,1098,560,1074,557,951,551,792,546,635,533,569,521,518,504,487,487,458,467,406,421,364,374,334,335"/>
+<area shape="rect" id="Node000021" href="$struct_j_k_q_t_p_math_parser_1_1jkmp_result.html" title="result of any expression" alt="" coords="519,565,776,593"/>
+<area shape="poly" id="edge26_Node000021_Node000004" title=" " alt="" coords="327,335,340,383,362,442,397,502,419,528,444,550,480,568,519,578,518,583,478,573,441,554,415,532,392,505,358,445,335,385,322,337"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,285,168,331"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="182,305,267,305,267,311,182,311"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="1759,65,1920,93"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="1925,93,2027,123,2081,143,2133,168,2164,188,2193,210,2236,251,2233,255,2190,214,2161,192,2131,173,2079,148,2025,128,1923,98"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="1131,5,1342,51"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1356,35,1759,69,1758,75,1355,41"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="565,5,730,51"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="744,25,1131,25,1131,31,744,31"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="217,14,419,42"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="433,25,564,25,564,31,433,31"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="25,14,149,42"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="162,25,217,25,217,31,162,31"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1707,280,1971,325"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="1985,289,2132,276,2168,272,2168,278,2132,281,1986,294"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1077,299,1350,292,1667,292,1707,293,1707,299,1667,297,1350,297,1077,305"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="1160,430,1313,458"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="1327,431,1398,423,1475,417,1534,416,1593,410,1666,392,1704,378,1741,360,1804,323,1806,328,1744,364,1706,383,1667,397,1594,415,1535,421,1475,422,1399,428,1327,436"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="628,443,667,471"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="680,455,849,457,1075,453,1160,448,1160,453,1075,459,849,462,680,461"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="1157,363,1316,391"/>
+<area shape="poly" id="edge21_Node000017_Node000014" title=" " alt="" coords="680,450,1157,385,1158,391,681,456"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="2156,429,2343,457"/>
+<area shape="poly" id="edge30_Node000022_Node000014" title=" " alt="" coords="681,459,833,478,1075,500,1217,509,1366,515,1518,516,1667,511,1802,500,1936,485,2160,454,2161,459,1937,490,1802,505,1667,516,1518,521,1366,520,1217,514,1074,505,832,483,680,464"/>
+<area shape="poly" id="edge15_Node000003_Node000015" title=" " alt="" coords="1982,185,2133,221,2215,250,2213,255,2131,227,1981,191"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="1088,153,1691,159,1691,164,1088,159"/>
+<area shape="poly" id="edge19_Node000015_Node000017" title=" " alt="" coords="1302,357,1374,335,1601,253,1781,183,1783,188,1602,258,1376,340,1303,362"/>
+<area shape="poly" id="edge28_Node000019_Node000017" title=" " alt="" coords="1330,391,1354,402,1377,417,1386,429,1389,442,1392,453,1400,463,1423,473,1454,478,1530,482,1608,482,1667,488,1733,514,1790,545,1788,550,1731,519,1666,493,1607,487,1530,487,1453,484,1421,478,1397,467,1387,456,1384,443,1381,432,1373,421,1352,407,1328,396"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="628,347,667,375"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="681,360,1157,373,1157,378,681,365"/>
+<area shape="poly" id="edge22_Node000003_Node000019" title=" " alt="" coords="1891,537,2228,279,2231,283,1894,541"/>
+<area shape="poly" id="edge24_Node000019_Node000020" title=" " alt="" coords="1389,570,1699,574,1699,579,1389,575"/>
+<area shape="poly" id="edge25_Node000020_Node000021" title=" " alt="" coords="790,574,1098,570,1098,575,790,579"/>
+<area shape="poly" id="edge29_Node000002_Node000022" title=" " alt="" coords="2271,417,2313,379,2365,344,2404,330,2456,315,2578,287,2579,292,2458,320,2405,335,2368,349,2316,383,2275,421"/>
+<area shape="rect" id="Node000023" title=" " alt="" coords="2900,347,3147,392"/>
+<area shape="poly" id="edge35_Node000023_Node000022" title=" " alt="" coords="2356,446,2455,449,2572,449,2698,443,2822,428,2896,411,2962,390,2964,395,2897,416,2823,433,2698,448,2572,454,2455,455,2356,452"/>
+<area shape="poly" id="edge31_Node000001_Node000023" title=" " alt="" coords="3160,349,3252,337,3252,343,3160,355"/>
+<area shape="poly" id="edge32_Node000023_Node000024" title=" " alt="" coords="2836,367,2900,367,2900,372,2836,372"/>
+<area shape="poly" id="edge34_Node000024_Node000024" title=" " alt="" coords="2666,341,2675,332,2697,329,2716,331,2727,337,2730,347,2726,357,2721,354,2725,346,2723,341,2714,336,2697,334,2678,337,2669,345"/>
 </map>

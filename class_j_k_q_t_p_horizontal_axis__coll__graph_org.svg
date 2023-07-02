@@ -9,202 +9,244 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 752.67)">
 <title>JKQTPHorizontalAxis</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="implements a horizontal axis, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoord...">
+<g id="a_Node000001"><a xlink:title="implements a horizontal axis, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoord...">
 <polygon fill="#999999" stroke="#666666" points="2006.5,-622.67 1869.5,-622.67 1869.5,-601.67 2006.5,-601.67 2006.5,-622.67"/>
 <text text-anchor="middle" x="1938" y="-609.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPHorizontalAxis</text>
 </a>
 </g>
 </g>
 <!-- Node5 -->
-<g id="node5" class="node">
+<g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_j_k_q_t_base_plotter.html" target="_top" xlink:title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">
+<g id="a_Node000005"><a xlink:href="class_j_k_q_t_base_plotter.html" target="_top" xlink:title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">
 <polygon fill="white" stroke="#666666" points="2386.5,-501.67 2272.5,-501.67 2272.5,-480.67 2386.5,-480.67 2386.5,-501.67"/>
 <text text-anchor="middle" x="2329.5" y="-488.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTBasePlotter</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
-<g id="edge32" class="edge">
+<g id="edge32_Node000005_Node000001" class="edge">
 <title>Node1&#45;&gt;Node5</title>
+<g id="a_edge32_Node000005_Node000001"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2016.58,-600.18C2032.79,-596.73 2049.62,-592.43 2065,-587.17 2073.46,-584.28 2074.47,-580.85 2083,-578.17 2150.28,-557.02 2174.66,-581.71 2240,-555.17 2271.27,-542.47 2301.84,-516.49 2317.57,-501.84"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="2015.68,-596.79 2006.58,-602.21 2017.08,-603.64 2015.68,-596.79"/>
-<text text-anchor="middle" x="2161.5" y="-581.57" font-family="Helvetica,sans-Serif" font-size="12.00"> xAxis</text>
+</a>
+</g>
+<text text-anchor="middle" x="2161.5" y="-581.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> xAxis</text>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_j_k_q_t_p_horizontal_axis_base.html" target="_top" xlink:title="base class for horizontal axes, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoo...">
+<g id="a_Node000002"><a xlink:href="class_j_k_q_t_p_horizontal_axis_base.html" target="_top" xlink:title="base class for horizontal axes, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoo...">
 <polygon fill="white" stroke="#666666" points="3003,-604.67 2836,-604.67 2836,-583.67 3003,-583.67 3003,-604.67"/>
 <text text-anchor="middle" x="2919.5" y="-591.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPHorizontalAxisBase</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M2825.58,-595.88C2629.66,-599.48 2178.16,-607.78 2006.71,-610.93"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="2825.92,-599.37 2835.85,-595.69 2825.79,-592.38 2825.92,-599.37"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_j_k_q_t_p_coordinate_axis.html" target="_top" xlink:title="this virtual class is the base for any type of coordinate axis, to be drawn by JKQTBasePlotter.">
+<g id="a_Node000003"><a xlink:href="class_j_k_q_t_p_coordinate_axis.html" target="_top" xlink:title="this virtual class is the base for any type of coordinate axis, to be drawn by JKQTBasePlotter.">
 <polygon fill="white" stroke="#666666" points="2728.5,-554.67 2586.5,-554.67 2586.5,-533.67 2728.5,-533.67 2728.5,-554.67"/>
 <text text-anchor="middle" x="2657.5" y="-541.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPCoordinateAxis</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000002_Node000003" class="edge">
 <title>Node3&#45;&gt;Node2</title>
+<g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M2723.18,-556.61C2766.43,-564.93 2822.72,-575.75 2863.75,-583.64"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="2723.8,-553.17 2713.32,-554.71 2722.48,-560.04 2723.8,-553.17"/>
+</a>
+</g>
 </g>
 <!-- Node24 -->
-<g id="node24" class="node">
+<g id="Node000024" class="node">
 <title>Node24</title>
-<g id="a_node24"><a xlink:href="class_j_k_q_t_p_vertical_axis_base.html" target="_top" xlink:title="base class for vertical axes, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoord...">
+<g id="a_Node000024"><a xlink:href="class_j_k_q_t_p_vertical_axis_base.html" target="_top" xlink:title="base class for vertical axes, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoord...">
 <polygon fill="white" stroke="#666666" points="2995,-554.67 2844,-554.67 2844,-533.67 2995,-533.67 2995,-554.67"/>
 <text text-anchor="middle" x="2919.5" y="-541.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPVerticalAxisBase</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node24 -->
-<g id="edge35" class="edge">
+<g id="edge35_Node000024_Node000003" class="edge">
 <title>Node3&#45;&gt;Node24</title>
+<g id="a_edge35_Node000024_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M2738.73,-544.17C2772.23,-544.17 2810.92,-544.17 2843.8,-544.17"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="2738.52,-540.67 2728.52,-544.17 2738.52,-547.67 2738.52,-540.67"/>
+</a>
+</g>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:title=" ">
+<g id="a_Node000004"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1507.5,-676.67 1442.5,-676.67 1442.5,-655.67 1507.5,-655.67 1507.5,-676.67"/>
 <text text-anchor="middle" x="1475" y="-663.07" font-family="Helvetica,sans-Serif" font-size="12.00">QObject</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000003_Node000004" class="edge">
 <title>Node4&#45;&gt;Node3</title>
+<g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M1518.07,-668.85C1633.88,-675.48 1966.92,-689.55 2240,-652.17 2387.65,-631.96 2558.12,-577.66 2626.17,-554.68"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="1518.05,-665.34 1507.86,-668.25 1517.64,-672.33 1518.05,-665.34"/>
+</a>
+</g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
-<g id="edge5" class="edge">
+<g id="edge5_Node000005_Node000004" class="edge">
 <title>Node4&#45;&gt;Node5</title>
+<g id="a_edge5_Node000005_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M1517.7,-656.12C1580.88,-641.1 1704.77,-612.52 1811,-593.17 1905.8,-575.9 2147.41,-556.84 2240,-530.17 2264.52,-523.11 2291.13,-510.68 2308.69,-501.75"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="1516.64,-652.77 1507.72,-658.5 1518.26,-659.58 1516.64,-652.77"/>
+</a>
+</g>
 </g>
 <!-- Node18 -->
-<g id="node18" class="node">
+<g id="Node000018" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="class_j_k_q_t_math_text.html" target="_top" xlink:title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">
+<g id="a_Node000018"><a xlink:href="class_j_k_q_t_math_text.html" target="_top" xlink:title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">
 <polygon fill="white" stroke="#666666" points="1987.5,-715.67 1888.5,-715.67 1888.5,-694.67 1987.5,-694.67 1987.5,-715.67"/>
 <text text-anchor="middle" x="1938" y="-702.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathText</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node18 -->
-<g id="edge24" class="edge">
+<g id="edge24_Node000018_Node000004" class="edge">
 <title>Node4&#45;&gt;Node18</title>
+<g id="a_edge24_Node000018_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M1518.05,-670.39C1539.56,-672.5 1566.17,-675.06 1590,-677.17 1696.41,-686.6 1821.29,-696.36 1888.42,-701.49"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="1518.22,-666.89 1507.93,-669.39 1517.54,-673.85 1518.22,-666.89"/>
+</a>
+</g>
 </g>
 <!-- Node5&#45;&gt;Node3 -->
-<g id="edge4" class="edge">
+<g id="edge4_Node000003_Node000005" class="edge">
 <title>Node5&#45;&gt;Node3</title>
+<g id="a_edge4_Node000003_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2368.54,-505.06C2384.01,-510.22 2402.18,-515.66 2419,-519.17 2474.6,-530.77 2538.71,-537.12 2586.3,-540.51"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="2369.4,-501.66 2358.81,-501.74 2367.14,-508.28 2369.4,-501.66"/>
-<text text-anchor="middle" x="2475.5" y="-538.57" font-family="Helvetica,sans-Serif" font-size="12.00"> parent</text>
+</a>
+</g>
+<text text-anchor="middle" x="2475.5" y="-538.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> parent</text>
 </g>
 <!-- Node5&#45;&gt;Node5 -->
-<g id="edge42" class="edge">
+<g id="edge42_Node000005_Node000005" class="edge">
 <title>Node5&#45;&gt;Node5</title>
+<g id="a_edge42_Node000005_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2302.59,-511.25C2304.67,-516.08 2313.64,-519.67 2329.5,-519.67 2354.88,-519.67 2362.61,-510.49 2352.7,-501.7"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="2305.95,-512.28 2306.3,-501.7 2299.42,-509.75 2305.95,-512.28"/>
-<text text-anchor="middle" x="2329.5" y="-536.07" font-family="Helvetica,sans-Serif" font-size="12.00"> masterPlotterX</text>
-<text text-anchor="middle" x="2329.5" y="-523.07" font-family="Helvetica,sans-Serif" font-size="12.00">masterPlotterY</text>
+</a>
+</g>
+<text text-anchor="middle" x="2329.5" y="-536.07" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> masterPlotterX</text>
+<text text-anchor="middle" x="2329.5" y="-523.07" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">masterPlotterY</text>
 </g>
 <!-- Node21 -->
-<g id="node21" class="node">
+<g id="Node000021" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="class_j_k_q_t_p_graphs_model.html" target="_top" xlink:title="data model with all plots ina JKQTBasePlotter (+ allows to switch them visible/invisible)">
+<g id="a_Node000021"><a xlink:href="class_j_k_q_t_p_graphs_model.html" target="_top" xlink:title="data model with all plots ina JKQTBasePlotter (+ allows to switch them visible/invisible)">
 <polygon fill="white" stroke="#666666" points="2723,-451.67 2592,-451.67 2592,-430.67 2723,-430.67 2723,-451.67"/>
 <text text-anchor="middle" x="2657.5" y="-438.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPGraphsModel</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node21 -->
-<g id="edge31" class="edge">
+<g id="edge31_Node000021_Node000005" class="edge">
 <title>Node5&#45;&gt;Node21</title>
+<g id="a_edge31_Node000021_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2396.53,-481.04C2453.54,-472.3 2535.4,-459.75 2591.97,-451.07"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="2395.9,-477.6 2386.54,-482.58 2396.96,-484.52 2395.9,-477.6"/>
-<text text-anchor="middle" x="2475.5" y="-479.57" font-family="Helvetica,sans-Serif" font-size="12.00"> m_plotter</text>
+</a>
+</g>
+<text text-anchor="middle" x="2475.5" y="-479.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> m_plotter</text>
 </g>
 <!-- Node6 -->
-<g id="node6" class="node">
+<g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_j_k_q_t_base_plotter_style.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
+<g id="a_Node000006"><a xlink:href="class_j_k_q_t_base_plotter_style.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
 <polygon fill="white" stroke="#666666" points="2009.5,-297.67 1866.5,-297.67 1866.5,-276.67 2009.5,-276.67 2009.5,-297.67"/>
 <text text-anchor="middle" x="1938" y="-284.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTBasePlotterStyle</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node5 -->
-<g id="edge6" class="edge">
+<g id="edge6_Node000005_Node000006" class="edge">
 <title>Node6&#45;&gt;Node5</title>
+<g id="a_edge6_Node000005_Node000006"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1981.91,-301C2042.28,-321.51 2154.48,-363.52 2240,-418.17 2270.04,-437.37 2301.34,-465.41 2317.45,-480.54"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1982.91,-297.65 1972.32,-297.78 1980.68,-304.28 1982.91,-297.65"/>
-<text text-anchor="middle" x="2161.5" y="-421.57" font-family="Helvetica,sans-Serif" font-size="12.00"> plotterStyle</text>
+</a>
+</g>
+<text text-anchor="middle" x="2161.5" y="-421.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> plotterStyle</text>
 </g>
 <!-- Node7 -->
-<g id="node7" class="node">
+<g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="class_j_k_q_t_p_key_style.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
+<g id="a_Node000007"><a xlink:href="class_j_k_q_t_p_key_style.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
 <polygon fill="white" stroke="#666666" points="1527,-327.67 1423,-327.67 1423,-306.67 1527,-306.67 1527,-327.67"/>
 <text text-anchor="middle" x="1475" y="-314.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPKeyStyle</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node6 -->
-<g id="edge7" class="edge">
+<g id="edge7_Node000006_Node000007" class="edge">
 <title>Node7&#45;&gt;Node6</title>
+<g id="a_edge7_Node000006_Node000007"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1537.13,-313.19C1622.23,-307.66 1776.07,-297.64 1866.1,-291.79"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1536.85,-309.7 1527.1,-313.85 1537.3,-316.69 1536.85,-309.7"/>
-<text text-anchor="middle" x="1691.5" y="-311.57" font-family="Helvetica,sans-Serif" font-size="12.00"> keyStyle</text>
+</a>
+</g>
+<text text-anchor="middle" x="1691.5" y="-311.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> keyStyle</text>
 </g>
 <!-- Node8 -->
-<g id="node8" class="node">
+<g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="class_j_k_q_t_p_coordinate_axis_style.html" target="_top" xlink:title="Support Class for JKQTPCoordinateAxis, which summarizes all properties that define the visual styling...">
+<g id="a_Node000008"><a xlink:href="class_j_k_q_t_p_coordinate_axis_style.html" target="_top" xlink:title="Support Class for JKQTPCoordinateAxis, which summarizes all properties that define the visual styling...">
 <polygon fill="white" stroke="#666666" points="1234,-272.67 1063,-272.67 1063,-251.67 1234,-251.67 1234,-272.67"/>
 <text text-anchor="middle" x="1148.5" y="-259.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPCoordinateAxisStyle</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node3 -->
-<g id="edge51" class="edge">
+<g id="edge51_Node000003_Node000008" class="edge">
 <title>Node8&#45;&gt;Node3</title>
+<g id="a_edge51_Node000003_Node000008"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1179.59,-277.1C1235.92,-303.61 1361.72,-356.17 1474,-356.17 1474,-356.17 1474,-356.17 2330.5,-356.17 2425.16,-356.17 2460.74,-362.86 2532,-425.17 2545.47,-436.95 2538.67,-447.33 2550,-461.17 2575.7,-492.55 2615.3,-519.42 2638.28,-533.55"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1181.06,-273.92 1170.53,-272.77 1178.05,-280.24 1181.06,-273.92"/>
-<text text-anchor="middle" x="1938" y="-359.57" font-family="Helvetica,sans-Serif" font-size="12.00"> axisStyle</text>
+</a>
+</g>
+<text text-anchor="middle" x="1938" y="-359.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> axisStyle</text>
 </g>
 <!-- Node8&#45;&gt;Node6 -->
-<g id="edge8" class="edge">
+<g id="edge8_Node000006_Node000008" class="edge">
 <title>Node8&#45;&gt;Node6</title>
+<g id="a_edge8_Node000006_Node000008"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1244.3,-263.94C1329.94,-265.66 1459.43,-268.53 1572,-272.17 1674.37,-275.49 1792.84,-280.59 1866.36,-283.9"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1244.15,-260.44 1234.08,-263.74 1244.01,-267.44 1244.15,-260.44"/>
-<text text-anchor="middle" x="1475" y="-288.57" font-family="Helvetica,sans-Serif" font-size="12.00"> xAxisStyle</text>
-<text text-anchor="middle" x="1475" y="-275.57" font-family="Helvetica,sans-Serif" font-size="12.00">yAxisStyle</text>
+</a>
+</g>
+<text text-anchor="middle" x="1475" y="-288.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> xAxisStyle</text>
+<text text-anchor="middle" x="1475" y="-275.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">yAxisStyle</text>
 </g>
 <!-- Node10 -->
-<g id="node10" class="node">
+<g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="class_j_k_q_t_p_colorbar_coordinate_axis_style.html" target="_top" xlink:title="Support Class for JKQTPCoordinateAxis, which summarizes all properties that define the visual styling...">
+<g id="a_Node000010"><a xlink:href="class_j_k_q_t_p_colorbar_coordinate_axis_style.html" target="_top" xlink:title="Support Class for JKQTPCoordinateAxis, which summarizes all properties that define the visual styling...">
 <polygon fill="white" stroke="#666666" points="1572,-226.17 1378,-226.17 1378,-192.17 1572,-192.17 1572,-226.17"/>
 <text text-anchor="start" x="1386" y="-212.57" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPColorbarCoordinateAxis</text>
 <text text-anchor="middle" x="1475" y="-199.57" font-family="Helvetica,sans-Serif" font-size="12.00">Style</text>
@@ -212,74 +254,89 @@
 </g>
 </g>
 <!-- Node8&#45;&gt;Node10 -->
-<g id="edge11" class="edge">
+<g id="edge11_Node000010_Node000008" class="edge">
 <title>Node8&#45;&gt;Node10</title>
+<g id="a_edge11_Node000010_Node000008"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M1224.13,-249.98C1269.83,-242.52 1328.77,-232.89 1377.93,-224.86"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="1223.3,-246.57 1214,-251.64 1224.43,-253.48 1223.3,-246.57"/>
+</a>
+</g>
 </g>
 <!-- Node9 -->
-<g id="node9" class="node">
+<g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="class_j_k_q_t_p_grid_style.html" target="_top" xlink:title="Support Class for JKQTPCoordinateAxis, and summarizes all properties that define the visual styling o...">
+<g id="a_Node000009"><a xlink:href="class_j_k_q_t_p_grid_style.html" target="_top" xlink:title="Support Class for JKQTPCoordinateAxis, and summarizes all properties that define the visual styling o...">
 <polygon fill="white" stroke="#666666" points="805.5,-272.67 698.5,-272.67 698.5,-251.67 805.5,-251.67 805.5,-272.67"/>
 <text text-anchor="middle" x="752" y="-259.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPGridStyle</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node8 -->
-<g id="edge9" class="edge">
+<g id="edge9_Node000008_Node000009" class="edge">
 <title>Node9&#45;&gt;Node8</title>
+<g id="a_edge9_Node000008_Node000009"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M816.18,-262.17C883.03,-262.17 988.9,-262.17 1062.92,-262.17"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="815.79,-258.67 805.79,-262.17 815.79,-265.67 815.79,-258.67"/>
-<text text-anchor="middle" x="948.5" y="-278.57" font-family="Helvetica,sans-Serif" font-size="12.00"> majorGridStyle</text>
-<text text-anchor="middle" x="948.5" y="-265.57" font-family="Helvetica,sans-Serif" font-size="12.00">minorGridStyle</text>
+</a>
+</g>
+<text text-anchor="middle" x="948.5" y="-278.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> majorGridStyle</text>
+<text text-anchor="middle" x="948.5" y="-265.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">minorGridStyle</text>
 </g>
 <!-- Node10&#45;&gt;Node6 -->
-<g id="edge10" class="edge">
+<g id="edge10_Node000006_Node000010" class="edge">
 <title>Node10&#45;&gt;Node6</title>
+<g id="a_edge10_Node000006_Node000010"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1582.85,-201.39C1661.51,-197.88 1760.22,-198.8 1793,-222.17 1810.88,-234.92 1793.84,-254.47 1811,-268.17 1826.56,-280.59 1846.75,-286.63 1866.4,-289.24"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1582.21,-197.92 1572.39,-201.89 1582.54,-204.91 1582.21,-197.92"/>
-<text text-anchor="middle" x="1691.5" y="-238.57" font-family="Helvetica,sans-Serif" font-size="12.00"> rightColorbarAxisStyle</text>
-<text text-anchor="middle" x="1691.5" y="-225.57" font-family="Helvetica,sans-Serif" font-size="12.00">topColorbarAxisStyle</text>
+</a>
+</g>
+<text text-anchor="middle" x="1691.5" y="-238.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> rightColorbarAxisStyle</text>
+<text text-anchor="middle" x="1691.5" y="-225.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">topColorbarAxisStyle</text>
 </g>
 <!-- Node11 -->
-<g id="node11" class="node">
+<g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="class_j_k_q_t_graphs_base_style.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
+<g id="a_Node000011"><a xlink:href="class_j_k_q_t_graphs_base_style.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
 <polygon fill="white" stroke="#666666" points="1548,-145.67 1402,-145.67 1402,-124.67 1548,-124.67 1548,-145.67"/>
 <text text-anchor="middle" x="1475" y="-132.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTGraphsBaseStyle</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node6 -->
-<g id="edge12" class="edge">
+<g id="edge12_Node000006_Node000011" class="edge">
 <title>Node11&#45;&gt;Node6</title>
+<g id="a_edge12_Node000006_Node000011"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1558.27,-123.87C1629.63,-118.99 1730.96,-124.65 1793,-183.17 1821.09,-209.67 1782.9,-241.68 1811,-268.17 1825.81,-282.13 1846.25,-288.51 1866.36,-290.96"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1557.67,-120.41 1547.96,-124.66 1558.2,-127.39 1557.67,-120.41"/>
-<text text-anchor="middle" x="1691.5" y="-186.57" font-family="Helvetica,sans-Serif" font-size="12.00"> graphsStyle</text>
+</a>
+</g>
+<text text-anchor="middle" x="1691.5" y="-186.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> graphsStyle</text>
 </g>
 <!-- Node12 -->
-<g id="node12" class="node">
+<g id="Node000012" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="class_j_k_q_t_graphs_specific_style_properties.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
+<g id="a_Node000012"><a xlink:href="class_j_k_q_t_graphs_specific_style_properties.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
 <polygon fill="white" stroke="#666666" points="623,-104.67 399,-104.67 399,-83.67 623,-83.67 623,-104.67"/>
 <text text-anchor="middle" x="511" y="-91.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTGraphsSpecificStyleProperties</text>
 </a>
 </g>
 </g>
 <!-- Node12&#45;&gt;Node11 -->
-<g id="edge13" class="edge">
+<g id="edge13_Node000011_Node000012" class="edge">
 <title>Node12&#45;&gt;Node11</title>
+<g id="a_edge13_Node000011_Node000012"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M555.3,-80.62C620.86,-60.88 749.6,-25.16 862,-12.17 1083.57,13.44 1149.72,0.19 1360,-74.17 1397.03,-87.27 1436.71,-110.97 1458.11,-124.65"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="553.88,-77.39 545.33,-83.64 555.92,-84.09 553.88,-77.39"/>
-<text text-anchor="middle" x="948.5" y="-41.57" font-family="Helvetica,sans-Serif" font-size="12.00"> boxplotStyle</text>
-<text text-anchor="middle" x="948.5" y="-28.57" font-family="Helvetica,sans-Serif" font-size="12.00">defaultGraphStyle</text>
-<text text-anchor="middle" x="948.5" y="-15.57" font-family="Helvetica,sans-Serif" font-size="12.00">filledStyle</text>
+</a>
+</g>
+<text text-anchor="middle" x="948.5" y="-41.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> boxplotStyle</text>
+<text text-anchor="middle" x="948.5" y="-28.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">defaultGraphStyle</text>
+<text text-anchor="middle" x="948.5" y="-15.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">filledStyle</text>
 </g>
 <!-- Node14 -->
-<g id="node14" class="node">
+<g id="Node000014" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="class_j_k_q_t_barchart_specific_style_properties.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
+<g id="a_Node000014"><a xlink:href="class_j_k_q_t_barchart_specific_style_properties.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
 <polygon fill="white" stroke="#666666" points="1035,-213.17 862,-213.17 862,-179.17 1035,-179.17 1035,-213.17"/>
 <text text-anchor="start" x="870" y="-199.57" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTBarchartSpecificStyle</text>
 <text text-anchor="middle" x="948.5" y="-186.57" font-family="Helvetica,sans-Serif" font-size="12.00">Properties</text>
@@ -287,15 +344,18 @@
 </g>
 </g>
 <!-- Node12&#45;&gt;Node14 -->
-<g id="edge16" class="edge">
+<g id="edge16_Node000014_Node000012" class="edge">
 <title>Node12&#45;&gt;Node14</title>
+<g id="a_edge16_Node000014_Node000012"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M546.15,-108.68C575.78,-120.77 620.08,-137.65 660,-148.17 726.79,-165.77 804.1,-178.25 861.71,-186.06"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="547.27,-105.35 536.69,-104.78 544.6,-111.82 547.27,-105.35"/>
+</a>
+</g>
 </g>
 <!-- Node15 -->
-<g id="node15" class="node">
+<g id="Node000015" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="class_j_k_q_t_impulse_specific_style_properties.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
+<g id="a_Node000015"><a xlink:href="class_j_k_q_t_impulse_specific_style_properties.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
 <polygon fill="white" stroke="#666666" points="1032.5,-94.17 864.5,-94.17 864.5,-60.17 1032.5,-60.17 1032.5,-94.17"/>
 <text text-anchor="start" x="872.5" y="-80.57" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTImpulseSpecificStyle</text>
 <text text-anchor="middle" x="948.5" y="-67.57" font-family="Helvetica,sans-Serif" font-size="12.00">Properties</text>
@@ -303,15 +363,18 @@
 </g>
 </g>
 <!-- Node12&#45;&gt;Node15 -->
-<g id="edge18" class="edge">
+<g id="edge18_Node000015_Node000012" class="edge">
 <title>Node12&#45;&gt;Node15</title>
+<g id="a_edge18_Node000015_Node000012"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M633.27,-89.44C706.83,-86.57 798.8,-82.98 864.19,-80.42"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="632.88,-85.95 623.02,-89.84 633.15,-92.95 632.88,-85.95"/>
+</a>
+</g>
 </g>
 <!-- Node16 -->
-<g id="node16" class="node">
+<g id="Node000016" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="class_j_k_q_t_geometric_specific_style_properties.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
+<g id="a_Node000016"><a xlink:href="class_j_k_q_t_geometric_specific_style_properties.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
 <polygon fill="white" stroke="#666666" points="844,-139.17 660,-139.17 660,-105.17 844,-105.17 844,-139.17"/>
 <text text-anchor="start" x="668" y="-125.57" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTGeometricSpecificStyle</text>
 <text text-anchor="middle" x="752" y="-112.57" font-family="Helvetica,sans-Serif" font-size="12.00">Properties</text>
@@ -319,56 +382,71 @@
 </g>
 </g>
 <!-- Node12&#45;&gt;Node16 -->
-<g id="edge20" class="edge">
+<g id="edge20_Node000016_Node000012" class="edge">
 <title>Node12&#45;&gt;Node16</title>
+<g id="a_edge20_Node000016_Node000012"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M611.98,-105.88C627.77,-107.74 644.04,-109.64 659.63,-111.47"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="612.01,-102.37 601.67,-104.68 611.2,-109.32 612.01,-102.37"/>
+</a>
+</g>
 </g>
 <!-- Node13 -->
-<g id="node13" class="node">
+<g id="Node000013" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="struct_j_k_q_t_p_color_derivation_mode.html" target="_top" xlink:title="Specifies how a fill&#45;color is derived from a given color.">
+<g id="a_Node000013"><a xlink:href="struct_j_k_q_t_p_color_derivation_mode.html" target="_top" xlink:title="Specifies how a fill&#45;color is derived from a given color.">
 <polygon fill="white" stroke="#666666" points="179,-104.67 0,-104.67 0,-83.67 179,-83.67 179,-104.67"/>
 <text text-anchor="middle" x="89.5" y="-91.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPColorDerivationMode</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node12 -->
-<g id="edge14" class="edge">
+<g id="edge14_Node000012_Node000013" class="edge">
 <title>Node13&#45;&gt;Node12</title>
+<g id="a_edge14_Node000012_Node000013"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M189.53,-94.17C252.41,-94.17 333.9,-94.17 398.97,-94.17"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="189.21,-90.67 179.21,-94.17 189.21,-97.67 189.21,-90.67"/>
-<text text-anchor="middle" x="289" y="-149.57" font-family="Helvetica,sans-Serif" font-size="12.00"> errorColorDerivationMode</text>
-<text text-anchor="middle" x="289" y="-136.57" font-family="Helvetica,sans-Serif" font-size="12.00">errorFillColorDerivationMode</text>
-<text text-anchor="middle" x="289" y="-123.57" font-family="Helvetica,sans-Serif" font-size="12.00">fillColorDerivationMode</text>
-<text text-anchor="middle" x="289" y="-110.57" font-family="Helvetica,sans-Serif" font-size="12.00">graphColorDerivationMode</text>
-<text text-anchor="middle" x="289" y="-97.57" font-family="Helvetica,sans-Serif" font-size="12.00">symbolFillColorDerivationMode</text>
+</a>
+</g>
+<text text-anchor="middle" x="289" y="-149.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> errorColorDerivationMode</text>
+<text text-anchor="middle" x="289" y="-136.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">errorFillColorDerivationMode</text>
+<text text-anchor="middle" x="289" y="-123.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">fillColorDerivationMode</text>
+<text text-anchor="middle" x="289" y="-110.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">graphColorDerivationMode</text>
+<text text-anchor="middle" x="289" y="-97.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">symbolFillColorDerivationMode</text>
 </g>
 <!-- Node14&#45;&gt;Node11 -->
-<g id="edge15" class="edge">
+<g id="edge15_Node000011_Node000014" class="edge">
 <title>Node14&#45;&gt;Node11</title>
+<g id="a_edge15_Node000011_Node000014"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1045.05,-197.46C1128.96,-196.75 1253.84,-191.2 1360,-168.17 1387.99,-162.1 1419.19,-152.89 1441.87,-145.75"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1045,-193.96 1035.02,-197.53 1045.05,-200.96 1045,-193.96"/>
-<text text-anchor="middle" x="1148.5" y="-201.57" font-family="Helvetica,sans-Serif" font-size="12.00"> barchartStyle</text>
+</a>
+</g>
+<text text-anchor="middle" x="1148.5" y="-201.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> barchartStyle</text>
 </g>
 <!-- Node15&#45;&gt;Node11 -->
-<g id="edge17" class="edge">
+<g id="edge17_Node000011_Node000015" class="edge">
 <title>Node15&#45;&gt;Node11</title>
+<g id="a_edge17_Node000011_Node000015"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1042.55,-76.23C1046.08,-76.21 1049.57,-76.19 1053,-76.17 1189.76,-75.51 1227.5,-63.28 1360,-97.17 1389.71,-104.77 1422.89,-116.17 1445.76,-124.5"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1042.52,-72.73 1032.54,-76.3 1042.57,-79.73 1042.52,-72.73"/>
-<text text-anchor="middle" x="1148.5" y="-79.57" font-family="Helvetica,sans-Serif" font-size="12.00"> impulseStyle</text>
+</a>
+</g>
+<text text-anchor="middle" x="1148.5" y="-79.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> impulseStyle</text>
 </g>
 <!-- Node16&#45;&gt;Node11 -->
-<g id="edge19" class="edge">
+<g id="edge19_Node000011_Node000016" class="edge">
 <title>Node16&#45;&gt;Node11</title>
+<g id="a_edge19_Node000011_Node000016"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M854.46,-119.59C953.76,-117.58 1109.33,-115.79 1244,-120.17 1296.89,-121.9 1356.52,-125.84 1401.8,-129.25"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="854.35,-116.09 844.43,-119.8 854.5,-123.09 854.35,-116.09"/>
-<text text-anchor="middle" x="1148.5" y="-123.57" font-family="Helvetica,sans-Serif" font-size="12.00"> geometricStyle</text>
+</a>
+</g>
+<text text-anchor="middle" x="1148.5" y="-123.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> geometricStyle</text>
 </g>
 <!-- Node17 -->
-<g id="node17" class="node">
+<g id="Node000017" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="class_j_k_q_t_annotations_specific_style_properties.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
+<g id="a_Node000017"><a xlink:href="class_j_k_q_t_annotations_specific_style_properties.html" target="_top" xlink:title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">
 <polygon fill="white" stroke="#666666" points="1244,-176.17 1053,-176.17 1053,-142.17 1244,-142.17 1244,-176.17"/>
 <text text-anchor="start" x="1061" y="-162.57" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTAnnotationsSpecificStyle</text>
 <text text-anchor="middle" x="1148.5" y="-149.57" font-family="Helvetica,sans-Serif" font-size="12.00">Properties</text>
@@ -376,82 +454,106 @@
 </g>
 </g>
 <!-- Node16&#45;&gt;Node17 -->
-<g id="edge22" class="edge">
+<g id="edge22_Node000017_Node000016" class="edge">
 <title>Node16&#45;&gt;Node17</title>
+<g id="a_edge22_Node000017_Node000016"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M854.07,-131.65C915.27,-137.39 992.83,-144.67 1052.84,-150.29"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="854.28,-128.16 844,-130.71 853.63,-135.13 854.28,-128.16"/>
+</a>
+</g>
 </g>
 <!-- Node17&#45;&gt;Node11 -->
-<g id="edge21" class="edge">
+<g id="edge21_Node000011_Node000017" class="edge">
 <title>Node17&#45;&gt;Node11</title>
+<g id="a_edge21_Node000011_Node000017"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1254.39,-151.41C1302.57,-147.85 1358.51,-143.71 1401.86,-140.51"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1253.95,-147.94 1244.23,-152.17 1254.46,-154.92 1253.95,-147.94"/>
-<text text-anchor="middle" x="1311" y="-154.57" font-family="Helvetica,sans-Serif" font-size="12.00"> annotationStyle</text>
+</a>
+</g>
+<text text-anchor="middle" x="1311" y="-154.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> annotationStyle</text>
 </g>
 <!-- Node18&#45;&gt;Node5 -->
-<g id="edge23" class="edge">
+<g id="edge23_Node000005_Node000018" class="edge">
 <title>Node18&#45;&gt;Node5</title>
+<g id="a_edge23_Node000005_Node000018"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1997.58,-693.22C2061.48,-678.13 2164.69,-647.59 2240,-595.17 2277.75,-568.9 2309.11,-522.72 2322.08,-501.89"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1996.63,-689.84 1987.68,-695.51 1998.21,-696.66 1996.63,-689.84"/>
-<text text-anchor="middle" x="2161.5" y="-671.57" font-family="Helvetica,sans-Serif" font-size="12.00"> mathText</text>
+</a>
+</g>
+<text text-anchor="middle" x="2161.5" y="-671.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> mathText</text>
 </g>
 <!-- Node19 -->
-<g id="node19" class="node">
+<g id="Node000019" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="class_j_k_q_t_math_text_node.html" target="_top" xlink:title="subclass representing one node in the syntax tree">
+<g id="a_Node000019"><a xlink:href="class_j_k_q_t_math_text_node.html" target="_top" xlink:title="subclass representing one node in the syntax tree">
 <polygon fill="white" stroke="#666666" points="2395,-717.67 2264,-717.67 2264,-696.67 2395,-696.67 2395,-717.67"/>
 <text text-anchor="middle" x="2329.5" y="-704.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextNode</text>
 </a>
 </g>
 </g>
 <!-- Node18&#45;&gt;Node19 -->
-<g id="edge26" class="edge">
+<g id="edge26_Node000019_Node000018" class="edge">
 <title>Node18&#45;&gt;Node19</title>
+<g id="a_edge26_Node000019_Node000018"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1997.71,-710.68C2023.8,-712.86 2054.91,-715.1 2083,-716.17 2152.73,-718.83 2170.31,-719.71 2240,-716.17 2247.71,-715.78 2255.79,-715.2 2263.79,-714.52"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1997.87,-707.18 1987.6,-709.81 1997.27,-714.15 1997.87,-707.18"/>
-<text text-anchor="middle" x="2161.5" y="-721.57" font-family="Helvetica,sans-Serif" font-size="12.00"> parentMathText</text>
+</a>
+</g>
+<text text-anchor="middle" x="2161.5" y="-721.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> parentMathText</text>
 </g>
 <!-- Node19&#45;&gt;Node18 -->
-<g id="edge25" class="edge">
+<g id="edge25_Node000018_Node000019" class="edge">
 <title>Node19&#45;&gt;Node18</title>
+<g id="a_edge25_Node000018_Node000019"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2253.62,-703.55C2249.01,-703.4 2244.44,-703.27 2240,-703.17 2151.05,-701.16 2047.29,-702.71 1987.75,-703.97"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="2253.63,-707.05 2263.74,-703.91 2253.87,-700.06 2253.63,-707.05"/>
-<text text-anchor="middle" x="2161.5" y="-706.57" font-family="Helvetica,sans-Serif" font-size="12.00"> parsedNode</text>
+</a>
+</g>
+<text text-anchor="middle" x="2161.5" y="-706.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> parsedNode</text>
 </g>
 <!-- Node19&#45;&gt;Node19 -->
-<g id="edge27" class="edge">
+<g id="edge27_Node000019_Node000019" class="edge">
 <title>Node19&#45;&gt;Node19</title>
+<g id="a_edge27_Node000019_Node000019"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2302.59,-727.25C2304.67,-732.08 2313.64,-735.67 2329.5,-735.67 2354.88,-735.67 2362.61,-726.49 2352.7,-717.7"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="2305.95,-728.28 2306.3,-717.7 2299.42,-725.75 2305.95,-728.28"/>
-<text text-anchor="middle" x="2329.5" y="-739.07" font-family="Helvetica,sans-Serif" font-size="12.00"> parentNode</text>
+</a>
+</g>
+<text text-anchor="middle" x="2329.5" y="-739.07" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> parentNode</text>
 </g>
 <!-- Node20 -->
-<g id="node20" class="node">
+<g id="Node000020" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:title=" ">
+<g id="a_Node000020"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1188.5,-493.67 1108.5,-493.67 1108.5,-472.67 1188.5,-472.67 1188.5,-493.67"/>
 <text text-anchor="middle" x="1148.5" y="-480.07" font-family="Helvetica,sans-Serif" font-size="12.00">std::mutex</text>
 </a>
 </g>
 </g>
 <!-- Node20&#45;&gt;Node5 -->
-<g id="edge43" class="edge">
+<g id="edge43_Node000005_Node000020" class="edge">
 <title>Node20&#45;&gt;Node5</title>
+<g id="a_edge43_Node000005_Node000020"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1199.14,-482.72C1280.71,-482.01 1448.19,-480.65 1590,-480.17 1680.22,-479.86 1702.78,-479.25 1793,-480.17 1967.81,-481.97 2174.67,-487.06 2272.22,-489.64"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1198.66,-479.23 1188.69,-482.82 1198.72,-486.23 1198.66,-479.23"/>
-<text text-anchor="middle" x="1691.5" y="-483.57" font-family="Helvetica,sans-Serif" font-size="12.00"> globalUserSettingsMutex</text>
+</a>
+</g>
+<text text-anchor="middle" x="1691.5" y="-483.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> globalUserSettingsMutex</text>
 </g>
 <!-- Node20&#45;&gt;Node18 -->
-<g id="edge28" class="edge">
+<g id="edge28_Node000018_Node000020" class="edge">
 <title>Node20&#45;&gt;Node18</title>
+<g id="a_edge28_Node000018_Node000020"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1163.1,-501.76C1195.05,-543.72 1279.64,-645.3 1378,-686.17 1553.76,-759.2 1788.06,-731.54 1888.24,-714.57"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1165.9,-499.66 1157.1,-493.76 1160.3,-503.86 1165.9,-499.66"/>
-<text text-anchor="middle" x="1475" y="-732.57" font-family="Helvetica,sans-Serif" font-size="12.00"> s_mutex</text>
+</a>
+</g>
+<text text-anchor="middle" x="1475" y="-732.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> s_mutex</text>
 </g>
 <!-- Node30 -->
-<g id="node30" class="node">
+<g id="Node000030" class="node">
 <title>Node30</title>
-<g id="a_node30"><a xlink:href="class_j_k_q_t_p_synchronized.html" target="_top" xlink:title=" ">
+<g id="a_Node000030"><a xlink:href="class_j_k_q_t_p_synchronized.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="2065,-545.17 1811,-545.17 1811,-511.17 2065,-511.17 2065,-545.17"/>
 <text text-anchor="start" x="1819" y="-531.57" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPSynchronized&lt;</text>
 <text text-anchor="middle" x="1938" y="-518.57" font-family="Helvetica,sans-Serif" font-size="12.00"> QList&lt; JKQTPPaintDeviceAdapter * &gt; &gt;</text>
@@ -459,32 +561,38 @@
 </g>
 </g>
 <!-- Node20&#45;&gt;Node30 -->
-<g id="edge45" class="edge">
+<g id="edge45_Node000030_Node000020" class="edge">
 <title>Node20&#45;&gt;Node30</title>
+<g id="a_edge45_Node000030_Node000020"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1198.72,-492.55C1279.87,-507.47 1447.01,-536 1590,-546.17 1679.99,-552.58 1702.95,-551.78 1793,-546.17 1798.78,-545.81 1804.69,-545.37 1810.65,-544.87"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1199.25,-489.09 1188.78,-490.71 1197.98,-495.97 1199.25,-489.09"/>
-<text text-anchor="middle" x="1475" y="-547.57" font-family="Helvetica,sans-Serif" font-size="12.00"> m_mutex</text>
+</a>
+</g>
+<text text-anchor="middle" x="1475" y="-547.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> m_mutex</text>
 </g>
 <!-- Node31 -->
-<g id="node31" class="node">
+<g id="Node000031" class="node">
 <title>Node31</title>
-<g id="a_node31"><a xlink:href="class_j_k_q_t_p_synchronized.html" target="_top" xlink:title="template class that wraps any datatype and combines it with a mutex, exposes the lock()/unlock() inte...">
+<g id="a_Node000031"><a xlink:href="class_j_k_q_t_p_synchronized.html" target="_top" xlink:title="template class that wraps any datatype and combines it with a mutex, exposes the lock()/unlock() inte...">
 <polygon fill="white" stroke="#666666" points="1558.5,-454.67 1391.5,-454.67 1391.5,-433.67 1558.5,-433.67 1558.5,-454.67"/>
 <text text-anchor="middle" x="1475" y="-441.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPSynchronized&lt; T &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node20&#45;&gt;Node31 -->
-<g id="edge47" class="edge">
+<g id="edge47_Node000031_Node000020" class="edge">
 <title>Node20&#45;&gt;Node31</title>
+<g id="a_edge47_Node000031_Node000020"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1196.01,-470.03C1216.14,-464.86 1240.07,-459.4 1262,-456.17 1304.4,-449.94 1352.01,-446.89 1391.35,-445.42"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1194.95,-466.69 1186.16,-472.61 1196.72,-473.46 1194.95,-466.69"/>
-<text text-anchor="middle" x="1311" y="-459.57" font-family="Helvetica,sans-Serif" font-size="12.00"> m_mutex</text>
+</a>
+</g>
+<text text-anchor="middle" x="1311" y="-459.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> m_mutex</text>
 </g>
 <!-- Node32 -->
-<g id="node32" class="node">
+<g id="Node000032" class="node">
 <title>Node32</title>
-<g id="a_node32"><a xlink:href="class_j_k_q_t_p_synchronized.html" target="_top" xlink:title=" ">
+<g id="a_Node000032"><a xlink:href="class_j_k_q_t_p_synchronized.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="2059,-451.17 1817,-451.17 1817,-417.17 2059,-417.17 2059,-451.17"/>
 <text text-anchor="start" x="1825" y="-437.57" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPSynchronized&lt;</text>
 <text text-anchor="middle" x="1938" y="-424.57" font-family="Helvetica,sans-Serif" font-size="12.00"> QList&lt; JKQTPSaveDataAdapter * &gt; &gt;</text>
@@ -492,172 +600,217 @@
 </g>
 </g>
 <!-- Node20&#45;&gt;Node32 -->
-<g id="edge49" class="edge">
+<g id="edge49_Node000032_Node000020" class="edge">
 <title>Node20&#45;&gt;Node32</title>
+<g id="a_edge49_Node000032_Node000020"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1183.22,-468.69C1227.09,-450.79 1306.59,-421.55 1378,-412.17 1528.34,-392.43 1703.22,-404.95 1816.79,-417.72"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1181.8,-465.49 1173.9,-472.54 1184.47,-471.96 1181.8,-465.49"/>
-<text text-anchor="middle" x="1475" y="-415.57" font-family="Helvetica,sans-Serif" font-size="12.00"> m_mutex</text>
+</a>
+</g>
+<text text-anchor="middle" x="1475" y="-415.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> m_mutex</text>
 </g>
 <!-- Node21&#45;&gt;Node5 -->
-<g id="edge29" class="edge">
+<g id="edge29_Node000005_Node000021" class="edge">
 <title>Node21&#45;&gt;Node5</title>
+<g id="a_edge29_Node000005_Node000021"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2581.7,-432.08C2534.31,-428.61 2472.16,-428.32 2419,-442.17 2390.28,-449.66 2360.91,-468.61 2344.27,-480.63"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="2581.63,-435.59 2591.88,-432.89 2582.19,-428.61 2581.63,-435.59"/>
-<text text-anchor="middle" x="2475.5" y="-445.57" font-family="Helvetica,sans-Serif" font-size="12.00"> m_plotsModel</text>
+</a>
+</g>
+<text text-anchor="middle" x="2475.5" y="-445.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> m_plotsModel</text>
 </g>
 <!-- Node22 -->
-<g id="node22" class="node">
+<g id="Node000022" class="node">
 <title>Node22</title>
-<g id="a_node22"><a xlink:title=" ">
+<g id="a_Node000022"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="2401,-327.67 2258,-327.67 2258,-306.67 2401,-306.67 2401,-327.67"/>
 <text text-anchor="middle" x="2329.5" y="-314.07" font-family="Helvetica,sans-Serif" font-size="12.00">QAbstractTableModel</text>
 </a>
 </g>
 </g>
 <!-- Node22&#45;&gt;Node21 -->
-<g id="edge30" class="edge">
+<g id="edge30_Node000021_Node000022" class="edge">
 <title>Node22&#45;&gt;Node21</title>
+<g id="a_edge30_Node000021_Node000022"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M2411.91,-317.24C2449.68,-319.76 2494.42,-326.39 2532,-342.17 2581.65,-363.02 2627.9,-409.55 2647.12,-430.54"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="2411.64,-313.72 2401.46,-316.64 2411.24,-320.71 2411.64,-313.72"/>
+</a>
+</g>
 </g>
 <!-- Node23 -->
-<g id="node23" class="node">
+<g id="Node000023" class="node">
 <title>Node23</title>
-<g id="a_node23"><a xlink:href="class_j_k_q_t_p_vertical_axis.html" target="_top" xlink:title="implements a vertical axis for use as primary, secondary, ... axis of a JKQTPBasePlotter,...">
+<g id="a_Node000023"><a xlink:href="class_j_k_q_t_p_vertical_axis.html" target="_top" xlink:title="implements a vertical axis for use as primary, secondary, ... axis of a JKQTPBasePlotter,...">
 <polygon fill="white" stroke="#666666" points="3162,-527.67 3040,-527.67 3040,-506.67 3162,-506.67 3162,-527.67"/>
 <text text-anchor="middle" x="3101" y="-514.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPVerticalAxis</text>
 </a>
 </g>
 </g>
 <!-- Node23&#45;&gt;Node5 -->
-<g id="edge33" class="edge">
+<g id="edge33_Node000005_Node000023" class="edge">
 <title>Node23&#45;&gt;Node5</title>
+<g id="a_edge33_Node000005_Node000023"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M3029.74,-514.8C2878.47,-509.69 2524.53,-497.73 2386.77,-493.07"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="3029.73,-518.3 3039.84,-515.14 3029.96,-511.3 3029.73,-518.3"/>
-<text text-anchor="middle" x="2800.5" y="-510.57" font-family="Helvetica,sans-Serif" font-size="12.00"> yAxis</text>
+</a>
+</g>
+<text text-anchor="middle" x="2800.5" y="-510.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> yAxis</text>
 </g>
 <!-- Node24&#45;&gt;Node23 -->
-<g id="edge34" class="edge">
+<g id="edge34_Node000023_Node000024" class="edge">
 <title>Node24&#45;&gt;Node23</title>
+<g id="a_edge34_Node000023_Node000024"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M3000.47,-532.14C3013.71,-530.15 3027.24,-528.12 3039.89,-526.21"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="2999.78,-528.71 2990.41,-533.66 3000.82,-535.63 2999.78,-528.71"/>
+</a>
+</g>
 </g>
 <!-- Node25 -->
-<g id="node25" class="node">
+<g id="Node000025" class="node">
 <title>Node25</title>
-<g id="a_node25"><a xlink:href="class_j_k_q_t_p_datastore.html" target="_top" xlink:title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">
+<g id="a_Node000025"><a xlink:href="class_j_k_q_t_p_datastore.html" target="_top" xlink:title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">
 <polygon fill="white" stroke="#666666" points="1993.5,-258.67 1882.5,-258.67 1882.5,-237.67 1993.5,-237.67 1993.5,-258.67"/>
 <text text-anchor="middle" x="1938" y="-245.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPDatastore</text>
 </a>
 </g>
 </g>
 <!-- Node25&#45;&gt;Node5 -->
-<g id="edge36" class="edge">
+<g id="edge36_Node000005_Node000025" class="edge">
 <title>Node25&#45;&gt;Node5</title>
+<g id="a_edge36_Node000005_Node000025"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2003.67,-251.72C2023.97,-254.57 2046.02,-259.56 2065,-268.17 2074.48,-272.48 2073.74,-278.41 2083,-283.17 2147.13,-316.16 2183.45,-279.42 2240,-324.17 2293.78,-366.73 2318.73,-451.11 2326.08,-480.66"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="2003.91,-248.22 1993.55,-250.44 2003.04,-255.16 2003.91,-248.22"/>
-<text text-anchor="middle" x="2161.5" y="-327.57" font-family="Helvetica,sans-Serif" font-size="12.00"> datastore</text>
+</a>
+</g>
+<text text-anchor="middle" x="2161.5" y="-327.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> datastore</text>
 </g>
 <!-- Node27 -->
-<g id="node27" class="node">
+<g id="Node000027" class="node">
 <title>Node27</title>
-<g id="a_node27"><a xlink:href="class_j_k_q_t_p_column.html" target="_top" xlink:title="internally stores information about one data column. See JKQTPDatastore for more information.">
+<g id="a_Node000027"><a xlink:href="class_j_k_q_t_p_column.html" target="_top" xlink:title="internally stores information about one data column. See JKQTPDatastore for more information.">
 <polygon fill="white" stroke="#666666" points="2378.5,-282.67 2280.5,-282.67 2280.5,-261.67 2378.5,-261.67 2378.5,-282.67"/>
 <text text-anchor="middle" x="2329.5" y="-269.07" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPColumn</text>
 </a>
 </g>
 </g>
 <!-- Node25&#45;&gt;Node27 -->
-<g id="edge39" class="edge">
+<g id="edge39_Node000027_Node000025" class="edge">
 <title>Node25&#45;&gt;Node27</title>
+<g id="a_edge39_Node000027_Node000025"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2003.75,-252.16C2081.7,-256.96 2210.79,-264.92 2280.42,-269.21"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="2003.76,-248.66 1993.57,-251.53 2003.33,-255.64 2003.76,-248.66"/>
-<text text-anchor="middle" x="2161.5" y="-269.57" font-family="Helvetica,sans-Serif" font-size="12.00"> datastore</text>
+</a>
+</g>
+<text text-anchor="middle" x="2161.5" y="-269.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> datastore</text>
 </g>
 <!-- Node26 -->
-<g id="node26" class="node">
+<g id="Node000026" class="node">
 <title>Node26</title>
-<g id="a_node26"><a xlink:title=" ">
+<g id="a_Node000026"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="2765,-240.67 2550,-240.67 2550,-219.67 2765,-219.67 2765,-240.67"/>
 <text text-anchor="middle" x="2657.5" y="-227.07" font-family="Helvetica,sans-Serif" font-size="12.00">std::unique_ptr&lt; JKQTPColumn &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node25 -->
-<g id="edge37" class="edge">
+<g id="edge37_Node000025_Node000026" class="edge">
 <title>Node26&#45;&gt;Node25</title>
+<g id="a_edge37_Node000025_Node000026"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2539.76,-233.1C2382.62,-237.04 2109.44,-243.9 1993.52,-246.8"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="2540.03,-236.6 2549.93,-232.85 2539.85,-229.6 2540.03,-236.6"/>
-<text text-anchor="middle" x="2329.5" y="-242.57" font-family="Helvetica,sans-Serif" font-size="12.00"> m_invalidColumn</text>
+</a>
+</g>
+<text text-anchor="middle" x="2329.5" y="-242.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> m_invalidColumn</text>
 </g>
 <!-- Node27&#45;&gt;Node26 -->
-<g id="edge38" class="edge">
+<g id="edge38_Node000026_Node000027" class="edge">
 <title>Node27&#45;&gt;Node26</title>
+<g id="a_edge38_Node000026_Node000027"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2388.64,-264.68C2440.51,-258 2517.02,-248.14 2575,-240.67"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="2388.07,-261.23 2378.6,-265.97 2388.97,-268.17 2388.07,-261.23"/>
-<text text-anchor="middle" x="2475.5" y="-262.57" font-family="Helvetica,sans-Serif" font-size="12.00"> ptr</text>
+</a>
+</g>
+<text text-anchor="middle" x="2475.5" y="-262.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> ptr</text>
 </g>
 <!-- Node28 -->
-<g id="node28" class="node">
+<g id="Node000028" class="node">
 <title>Node28</title>
-<g id="a_node28"><a xlink:title=" ">
+<g id="a_Node000028"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="2399.5,-193.67 2259.5,-193.67 2259.5,-172.67 2399.5,-172.67 2399.5,-193.67"/>
 <text text-anchor="middle" x="2329.5" y="-180.07" font-family="Helvetica,sans-Serif" font-size="12.00">std::unique_ptr&lt; T &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node28&#45;&gt;Node26 -->
-<g id="edge40" class="edge">
+<g id="edge40_Node000026_Node000028" class="edge">
 <title>Node28&#45;&gt;Node26</title>
+<g id="a_edge40_Node000026_Node000028"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M2410.04,-188.95C2447.21,-192.19 2492.01,-196.87 2532,-203.17 2559.42,-207.49 2589.88,-214.06 2613.8,-219.64"/>
 <polygon fill="orange" stroke="orange" points="2410.02,-185.44 2399.76,-188.07 2409.43,-192.41 2410.02,-185.44"/>
-<text text-anchor="middle" x="2475.5" y="-206.57" font-family="Helvetica,sans-Serif" font-size="12.00"> &lt; JKQTPColumn &gt;</text>
+</a>
+</g>
+<text text-anchor="middle" x="2475.5" y="-206.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> &lt; JKQTPColumn &gt;</text>
 </g>
 <!-- Node29 -->
-<g id="node29" class="node">
+<g id="Node000029" class="node">
 <title>Node29</title>
-<g id="a_node29"><a xlink:title=" ">
+<g id="a_Node000029"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1952.5,-193.67 1923.5,-193.67 1923.5,-172.67 1952.5,-172.67 1952.5,-193.67"/>
 <text text-anchor="middle" x="1938" y="-180.07" font-family="Helvetica,sans-Serif" font-size="12.00">T</text>
 </a>
 </g>
 </g>
 <!-- Node29&#45;&gt;Node28 -->
-<g id="edge41" class="edge">
+<g id="edge41_Node000028_Node000029" class="edge">
 <title>Node29&#45;&gt;Node28</title>
+<g id="a_edge41_Node000028_Node000029"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1962.88,-183.17C2020.79,-183.17 2170.51,-183.17 2259.37,-183.17"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1962.86,-179.67 1952.86,-183.17 1962.86,-186.67 1962.86,-179.67"/>
-<text text-anchor="middle" x="2161.5" y="-186.57" font-family="Helvetica,sans-Serif" font-size="12.00"> ptr</text>
+</a>
+</g>
+<text text-anchor="middle" x="2161.5" y="-186.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> ptr</text>
 </g>
 <!-- Node30&#45;&gt;Node5 -->
-<g id="edge44" class="edge">
+<g id="edge44_Node000005_Node000030" class="edge">
 <title>Node30&#45;&gt;Node5</title>
+<g id="a_edge44_Node000005_Node000030"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2075.52,-515.2C2143.14,-508.78 2221.09,-501.38 2272.38,-496.5"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="2074.81,-511.75 2065.19,-516.18 2075.48,-518.72 2074.81,-511.75"/>
-<text text-anchor="middle" x="2161.5" y="-516.57" font-family="Helvetica,sans-Serif" font-size="12.00"> jkqtpPaintDeviceAdapters</text>
+</a>
+</g>
+<text text-anchor="middle" x="2161.5" y="-516.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> jkqtpPaintDeviceAdapters</text>
 </g>
 <!-- Node31&#45;&gt;Node30 -->
-<g id="edge46" class="edge">
+<g id="edge46_Node000030_Node000031" class="edge">
 <title>Node31&#45;&gt;Node30</title>
+<g id="a_edge46_Node000030_Node000031"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M1502.75,-459.85C1525.24,-472.23 1558.64,-488.76 1590,-497.17 1611.25,-502.87 1720.44,-512.11 1810.74,-519.02"/>
 <polygon fill="orange" stroke="orange" points="1504.25,-456.68 1493.82,-454.84 1500.83,-462.79 1504.25,-456.68"/>
-<text text-anchor="start" x="1608" y="-533.57" font-family="Helvetica,sans-Serif" font-size="12.00"> &lt; QList&lt; JKQTPPaintDevice</text>
-<text text-anchor="middle" x="1691.5" y="-520.57" font-family="Helvetica,sans-Serif" font-size="12.00">Adapter * &gt; &gt;</text>
+</a>
+</g>
+<text text-anchor="start" x="1608" y="-533.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> &lt; QList&lt; JKQTPPaintDevice</text>
+<text text-anchor="middle" x="1691.5" y="-520.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">Adapter * &gt; &gt;</text>
 </g>
 <!-- Node31&#45;&gt;Node32 -->
-<g id="edge50" class="edge">
+<g id="edge50_Node000032_Node000031" class="edge">
 <title>Node31&#45;&gt;Node32</title>
+<g id="a_edge50_Node000032_Node000031"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M1569.12,-436.24C1576.18,-435.81 1583.2,-435.45 1590,-435.17 1665.39,-432.09 1750.07,-431.79 1816.91,-432.28"/>
 <polygon fill="orange" stroke="orange" points="1568.52,-432.77 1558.77,-436.9 1568.97,-439.75 1568.52,-432.77"/>
-<text text-anchor="start" x="1590" y="-451.57" font-family="Helvetica,sans-Serif" font-size="12.00"> &lt; QList&lt; JKQTPSaveDataAdapter</text>
-<text text-anchor="middle" x="1691.5" y="-438.57" font-family="Helvetica,sans-Serif" font-size="12.00"> * &gt; &gt;</text>
+</a>
+</g>
+<text text-anchor="start" x="1590" y="-451.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> &lt; QList&lt; JKQTPSaveDataAdapter</text>
+<text text-anchor="middle" x="1691.5" y="-438.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> * &gt; &gt;</text>
 </g>
 <!-- Node32&#45;&gt;Node5 -->
-<g id="edge48" class="edge">
+<g id="edge48_Node000005_Node000032" class="edge">
 <title>Node32&#45;&gt;Node5</title>
+<g id="a_edge48_Node000005_Node000032"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M2069.47,-435.1C2122.87,-437.69 2184.94,-443.58 2240,-456.17 2263.84,-461.62 2289.69,-472.47 2307.26,-480.65"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="2069.4,-431.59 2059.25,-434.63 2069.09,-438.58 2069.4,-431.59"/>
-<text text-anchor="middle" x="2161.5" y="-459.57" font-family="Helvetica,sans-Serif" font-size="12.00"> jkqtpSaveDataAdapters</text>
+</a>
+</g>
+<text text-anchor="middle" x="2161.5" y="-459.57" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> jkqtpSaveDataAdapters</text>
 </g>
 </g>
 </svg>

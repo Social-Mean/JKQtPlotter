@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['valid_0',['valid',['../struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#ad8d4e73ce2bbe465d3a262dfe938ec0f',1,'JKQTPlotter::MouseDragAction::valid()'],['../class_j_k_q_t_p_column.html#a8f2fb353e73db69822dad27b28d4a8c9',1,'JKQTPColumn::valid()']]],
-  ['value_5ftype_1',['value_type',['../class_j_k_q_t_p_column_iterator.html#ab600e0ff973f310562cd4a1c529bcb4c',1,'JKQTPColumnIterator::value_type()'],['../class_j_k_q_t_p_column_back_inserter.html#a4efde1ca7622f6bc15c096a79ac1dcbc',1,'JKQTPColumnBackInserter::value_type()'],['../class_j_k_q_t_p_column_const_iterator.html#a7bc6aa1fa009c8e18391035b01949ae6',1,'JKQTPColumnConstIterator::value_type()']]],
+  ['valid_0',['valid',['../struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#ad8d4e73ce2bbe465d3a262dfe938ec0f',1,'JKQTPlotter::MouseDragAction::valid'],['../class_j_k_q_t_p_column.html#a8f2fb353e73db69822dad27b28d4a8c9',1,'JKQTPColumn::valid']]],
+  ['value_5ftype_1',['value_type',['../class_j_k_q_t_p_column_iterator.html#ab600e0ff973f310562cd4a1c529bcb4c',1,'JKQTPColumnIterator::value_type'],['../class_j_k_q_t_p_column_back_inserter.html#a4efde1ca7622f6bc15c096a79ac1dcbc',1,'JKQTPColumnBackInserter::value_type'],['../class_j_k_q_t_p_column_const_iterator.html#a7bc6aa1fa009c8e18391035b01949ae6',1,'JKQTPColumnConstIterator::value_type']]],
   ['var_2',['var',['../class_j_k_q_t_p_math_parser_1_1jkmp_variable_node.html#a1568dd80931f2e738695a97064e1a2eb',1,'JKQTPMathParser::jkmpVariableNode']]],
   ['varcount_3',['varcount',['../group__jkqtplotter__functiongraphs.html#a8a3ccf0f0fb4c1e6a2f72a4dbe94f24f',1,'JKQTPParsedFunctionLineGraphBase::ParsedFunctionLineGraphFunctionData']]],
   ['variable_4',['variable',['../class_j_k_q_t_p_math_parser_1_1jkmp_variable_assign_node.html#a54f2dfd3f2b1133d38c1cbefcf67165e',1,'JKQTPMathParser::jkmpVariableAssignNode']]],
@@ -11,7 +11,7 @@ var searchData=
   ['vectorpainting_8',['VectorPainting',['../class_j_k_q_t_p_enhanced_painter.html#ad6eacc07690b9f7f278df39db5f0c19eabf22c128129e823aea0de0c9b103e105',1,'JKQTPEnhancedPainter']]],
   ['verticallineleft_9',['verticalLineLeft',['../class_j_k_q_t_math_text_matrix_node.html#a5ea379a8e4278cdd4d55bdfbda34912c',1,'JKQTMathTextMatrixNode']]],
   ['verticallinerhscolumn_10',['verticalLineRHSColumn',['../class_j_k_q_t_math_text_matrix_node.html#a6820bf110092398980c9f456b012ef6b',1,'JKQTMathTextMatrixNode']]],
-  ['verticalorientation_11',['verticalOrientation',['../class_j_k_q_t_math_text_vertical_list_node.html#a05659e7a37f1a7cfa4a04ea90421b33b',1,'JKQTMathTextVerticalListNode::verticalOrientation()'],['../class_j_k_q_t_math_text_verbatim_node.html#a38cd5e489ac3ca58e4c9a4346ce31d6f',1,'JKQTMathTextVerbatimNode::verticalOrientation()']]],
+  ['verticalorientation_11',['verticalOrientation',['../class_j_k_q_t_math_text_vertical_list_node.html#a05659e7a37f1a7cfa4a04ea90421b33b',1,'JKQTMathTextVerticalListNode::verticalOrientation'],['../class_j_k_q_t_math_text_verbatim_node.html#a38cd5e489ac3ca58e4c9a4346ce31d6f',1,'JKQTMathTextVerbatimNode::verticalOrientation']]],
   ['violinboth_12',['ViolinBoth',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5db2729e0ed862123eca2120bbd35921a943fc9488854eeccf595b08dee7def0d',1,'JKQTPGraphViolinplotStyleMixin']]],
   ['violinbottom_13',['ViolinBottom',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5db2729e0ed862123eca2120bbd35921a52f003eabee7812ba4fa90c161dd7a60',1,'JKQTPGraphViolinplotStyleMixin']]],
   ['violinfrequencycolumn_14',['violinFrequencyColumn',['../class_j_k_q_t_p_violinplot_element_base.html#a2571a11d74dce9dafb94e62a8840a7da',1,'JKQTPViolinplotElementBase']]],
@@ -22,6 +22,6 @@ var searchData=
   ['violinstyle_19',['ViolinStyle',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a04d55d189bef4e81178f65f5b7416034',1,'JKQTPGraphViolinplotStyleMixin']]],
   ['violintop_20',['ViolinTop',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5db2729e0ed862123eca2120bbd35921afe7f2ecd926e65ac0f6a82f1174056c2',1,'JKQTPGraphViolinplotStyleMixin']]],
   ['violinwidthabsolute_21',['violinWidthAbsolute',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#aefd72c023934cf8121a56e2f3e0c4081',1,'JKQTPGraphViolinplotStyleMixin']]],
-  ['visible_22',['visible',['../class_j_k_q_t_f_p_plot.html#add89b1e9fc63929b867befb4b9590d70',1,'JKQTFPPlot::visible()'],['../class_j_k_q_t_p_plot_element.html#a1c1c436967a7fe7ee1512478c0baf602',1,'JKQTPPlotElement::visible()'],['../class_j_k_q_t_p_key_style.html#ad9cc0d2c32e8d936e95208d4475c745b',1,'JKQTPKeyStyle::visible()']]],
+  ['visible_22',['visible',['../class_j_k_q_t_f_p_plot.html#add89b1e9fc63929b867befb4b9590d70',1,'JKQTFPPlot::visible'],['../class_j_k_q_t_p_plot_element.html#a1c1c436967a7fe7ee1512478c0baf602',1,'JKQTPPlotElement::visible'],['../class_j_k_q_t_p_key_style.html#ad9cc0d2c32e8d936e95208d4475c745b',1,'JKQTPKeyStyle::visible']]],
   ['visiblewhitespace_23',['visibleWhitespace',['../class_j_k_q_t_math_text_verbatim_node.html#a62999d57148b8ae72c8fd3ef60a9c0f0',1,'JKQTMathTextVerbatimNode']]]
 ];

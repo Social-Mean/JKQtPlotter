@@ -9,18 +9,18 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 161.5)">
 <title>JKQTPSynchronized&lt; T &gt;</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="template class that wraps any datatype and combines it with a mutex, exposes the lock()/unlock() inte...">
+<g id="a_Node000001"><a xlink:title="template class that wraps any datatype and combines it with a mutex, exposes the lock()/unlock() inte...">
 <polygon fill="#999999" stroke="#666666" points="167,-93 0,-93 0,-72 167,-72 167,-93"/>
 <text text-anchor="middle" x="83.5" y="-79.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPSynchronized&lt; T &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_j_k_q_t_p_synchronized.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="class_j_k_q_t_p_synchronized.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="660,-151.5 406,-151.5 406,-117.5 660,-117.5 660,-151.5"/>
 <text text-anchor="start" x="414" y="-137.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPSynchronized&lt;</text>
 <text text-anchor="middle" x="533" y="-124.9" font-family="Helvetica,sans-Serif" font-size="12.00"> QList&lt; JKQTPPaintDeviceAdapter * &gt; &gt;</text>
@@ -28,17 +28,20 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M123.08,-96.25C141.57,-102.26 164.18,-108.78 185,-112.5 257.5,-125.45 339.7,-131.05 405.9,-133.37"/>
 <polygon fill="orange" stroke="orange" points="124.13,-92.91 113.54,-93.08 121.92,-99.56 124.13,-92.91"/>
-<text text-anchor="start" x="203" y="-147.9" font-family="Helvetica,sans-Serif" font-size="12.00"> &lt; QList&lt; JKQTPPaintDevice</text>
-<text text-anchor="middle" x="286.5" y="-134.9" font-family="Helvetica,sans-Serif" font-size="12.00">Adapter * &gt; &gt;</text>
+</a>
+</g>
+<text text-anchor="start" x="203" y="-147.9" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> &lt; QList&lt; JKQTPPaintDevice</text>
+<text text-anchor="middle" x="286.5" y="-134.9" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">Adapter * &gt; &gt;</text>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_j_k_q_t_p_synchronized.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="class_j_k_q_t_p_synchronized.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="654,-99.5 412,-99.5 412,-65.5 654,-65.5 654,-99.5"/>
 <text text-anchor="start" x="420" y="-85.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPSynchronized&lt;</text>
 <text text-anchor="middle" x="533" y="-72.9" font-family="Helvetica,sans-Serif" font-size="12.00"> QList&lt; JKQTPSaveDataAdapter * &gt; &gt;</text>
@@ -46,17 +49,20 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000001_Node000003" class="edge">
 <title>Node1&#45;&gt;Node3</title>
+<g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M177.37,-82.5C245.38,-82.5 338.26,-82.5 411.91,-82.5"/>
 <polygon fill="orange" stroke="orange" points="177.1,-79 167.1,-82.5 177.1,-86 177.1,-79"/>
-<text text-anchor="start" x="185" y="-98.9" font-family="Helvetica,sans-Serif" font-size="12.00"> &lt; QList&lt; JKQTPSaveDataAdapter</text>
-<text text-anchor="middle" x="286.5" y="-85.9" font-family="Helvetica,sans-Serif" font-size="12.00"> * &gt; &gt;</text>
+</a>
+</g>
+<text text-anchor="start" x="185" y="-98.9" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> &lt; QList&lt; JKQTPSaveDataAdapter</text>
+<text text-anchor="middle" x="286.5" y="-85.9" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> * &gt; &gt;</text>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_j_k_q_t_p_synchronized.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="class_j_k_q_t_p_synchronized.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="633.5,-47 432.5,-47 432.5,0 633.5,0 633.5,-47"/>
 <text text-anchor="start" x="440.5" y="-33.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPSynchronized&lt;</text>
 <text text-anchor="start" x="440.5" y="-20.4" font-family="Helvetica,sans-Serif" font-size="12.00"> QVector&lt; JKQTPCustomGraph</text>
@@ -65,12 +71,15 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000001_Node000004" class="edge">
 <title>Node1&#45;&gt;Node4</title>
+<g id="a_edge3_Node000001_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M123.52,-68.8C141.94,-62.87 164.37,-56.4 185,-52.5 267.42,-36.93 362.43,-29.72 432.17,-26.38"/>
 <polygon fill="orange" stroke="orange" points="122.41,-65.48 114.01,-71.93 124.6,-72.13 122.41,-65.48"/>
-<text text-anchor="start" x="187" y="-68.9" font-family="Helvetica,sans-Serif" font-size="12.00"> &lt; QVector&lt; JKQTPCustomGraph</text>
-<text text-anchor="middle" x="286.5" y="-55.9" font-family="Helvetica,sans-Serif" font-size="12.00">SymbolFunctor &gt; &gt;</text>
+</a>
+</g>
+<text text-anchor="start" x="187" y="-68.9" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> &lt; QVector&lt; JKQTPCustomGraph</text>
+<text text-anchor="middle" x="286.5" y="-55.9" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">SymbolFunctor &gt; &gt;</text>
 </g>
 </g>
 </svg>

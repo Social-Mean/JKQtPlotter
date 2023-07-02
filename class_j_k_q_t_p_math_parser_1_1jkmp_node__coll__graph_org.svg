@@ -9,59 +9,68 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 452)">
 <title>JKQTPMathParser::jkmpNode</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="This class is the abstract base class for nodes. All allowed node types must inherit from jkmpNode.">
+<g id="a_Node000001"><a xlink:title="This class is the abstract base class for nodes. All allowed node types must inherit from jkmpNode.">
 <polygon fill="#999999" stroke="#666666" points="1812,-232.5 1624,-232.5 1624,-211.5 1812,-211.5 1812,-232.5"/>
 <text text-anchor="middle" x="1718" y="-218.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPMathParser::jkmpNode</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node1 -->
-<g id="edge28" class="edge">
+<g id="edge28_Node000001_Node000001" class="edge">
 <title>Node1&#45;&gt;Node1</title>
+<g id="a_edge28_Node000001_Node000001"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1693.67,-242.07C1695.55,-246.91 1703.66,-250.5 1718,-250.5 1740.95,-250.5 1747.94,-241.31 1738.97,-232.52"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1697.02,-243.12 1697.03,-232.52 1690.41,-240.8 1697.02,-243.12"/>
-<text text-anchor="middle" x="1718" y="-253.9" font-family="Helvetica,sans-Serif" font-size="12.00"> parent</text>
+</a>
+</g>
+<text text-anchor="middle" x="1718" y="-253.9" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> parent</text>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_j_k_q_t_p_math_parser.html" target="_top" xlink:title="A simple function parser to parse (build memory tree representation) and evaluate simple mathematical...">
+<g id="a_Node000002"><a xlink:href="class_j_k_q_t_p_math_parser.html" target="_top" xlink:title="A simple function parser to parse (build memory tree representation) and evaluate simple mathematical...">
 <polygon fill="white" stroke="#666666" points="1545,-232.5 1424,-232.5 1424,-211.5 1545,-211.5 1545,-232.5"/>
 <text text-anchor="middle" x="1484.5" y="-218.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPMathParser</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1555.18,-222C1576.78,-222 1600.95,-222 1623.89,-222"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1555.12,-218.5 1545.12,-222 1555.12,-225.5 1555.12,-218.5"/>
-<text text-anchor="middle" x="1584.5" y="-225.4" font-family="Helvetica,sans-Serif" font-size="12.00"> parser</text>
+</a>
+</g>
+<text text-anchor="middle" x="1584.5" y="-225.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> parser</text>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:title=" ">
+<g id="a_Node000003"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="272.5,-253.5 196.5,-253.5 196.5,-232.5 272.5,-232.5 272.5,-253.5"/>
 <text text-anchor="middle" x="234.5" y="-239.9" font-family="Helvetica,sans-Serif" font-size="12.00">std::string</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000002_Node000003" class="edge">
 <title>Node3&#45;&gt;Node2</title>
+<g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M243.64,-262.81C256.78,-292.13 285.55,-346.55 328,-374 396.44,-418.25 426.5,-409 508,-409 508,-409 508,-409 1224.5,-409 1345.96,-409 1449.15,-272.15 1476.44,-232.59"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="246.83,-261.36 239.65,-253.57 240.4,-264.14 246.83,-261.36"/>
-<text text-anchor="middle" x="910.5" y="-438.4" font-family="Helvetica,sans-Serif" font-size="12.00"> StringValue</text>
-<text text-anchor="start" x="838" y="-425.4" font-family="Helvetica,sans-Serif" font-size="12.00">jkmathparser_exception</text>
-<text text-anchor="middle" x="910.5" y="-412.4" font-family="Helvetica,sans-Serif" font-size="12.00">_function</text>
+</a>
+</g>
+<text text-anchor="middle" x="910.5" y="-438.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> StringValue</text>
+<text text-anchor="start" x="838" y="-425.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">jkmathparser_exception</text>
+<text text-anchor="middle" x="910.5" y="-412.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">_function</text>
 </g>
 <!-- Node11 -->
-<g id="node11" class="node">
+<g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable" target="_top" xlink:title="This struct is for managing temporary variables. It is generally like jkmpVariable.">
+<g id="a_Node000011"><a xlink:href="group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable" target="_top" xlink:title="This struct is for managing temporary variables. It is generally like jkmpVariable.">
 <polygon fill="white" stroke="#666666" points="603.5,-126 414.5,-126 414.5,-92 603.5,-92 603.5,-126"/>
 <text text-anchor="start" x="422.5" y="-112.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPMathParser::jkmpTemp</text>
 <text text-anchor="middle" x="509" y="-99.4" font-family="Helvetica,sans-Serif" font-size="12.00">Variable</text>
@@ -69,17 +78,20 @@
 </g>
 </g>
 <!-- Node3&#45;&gt;Node11 -->
-<g id="edge11" class="edge">
+<g id="edge11_Node000011_Node000003" class="edge">
 <title>Node3&#45;&gt;Node11</title>
+<g id="a_edge11_Node000011_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M253.5,-224.87C269.52,-208.15 292.98,-182.17 310,-157 319.8,-142.51 313.41,-131.64 328,-122 353.09,-105.42 384.68,-99.44 414.36,-98.45"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="250.75,-222.68 246.29,-232.29 255.77,-227.55 250.75,-222.68"/>
-<text text-anchor="middle" x="358" y="-138.4" font-family="Helvetica,sans-Serif" font-size="12.00"> name</text>
-<text text-anchor="middle" x="358" y="-125.4" font-family="Helvetica,sans-Serif" font-size="12.00">str</text>
+</a>
+</g>
+<text text-anchor="middle" x="358" y="-138.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> name</text>
+<text text-anchor="middle" x="358" y="-125.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">str</text>
 </g>
 <!-- Node14 -->
-<g id="node14" class="node">
+<g id="Node000014" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:title=" ">
+<g id="a_Node000014"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1022,-352 799,-352 799,-318 1022,-318 1022,-352"/>
 <text text-anchor="start" x="807" y="-338.4" font-family="Helvetica,sans-Serif" font-size="12.00">std::map&lt; std::string,</text>
 <text text-anchor="middle" x="910.5" y="-325.4" font-family="Helvetica,sans-Serif" font-size="12.00"> JKQTPMathParser::jkmpVariable &gt;</text>
@@ -87,32 +99,38 @@
 </g>
 </g>
 <!-- Node3&#45;&gt;Node14 -->
-<g id="edge15" class="edge">
+<g id="edge15_Node000014_Node000003" class="edge">
 <title>Node3&#45;&gt;Node14</title>
+<g id="a_edge15_Node000014_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M250.19,-261.43C266.87,-281 295.96,-311.23 328,-327 359.6,-342.56 370.96,-337.41 406,-341 571.82,-358 614.49,-354.76 781,-347 786.82,-346.73 792.78,-346.39 798.8,-346"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="252.71,-258.99 243.63,-253.53 247.33,-263.46 252.71,-258.99"/>
-<text text-anchor="middle" x="509" y="-356.4" font-family="Helvetica,sans-Serif" font-size="12.00"> keys</text>
+</a>
+</g>
+<text text-anchor="middle" x="509" y="-356.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> keys</text>
 </g>
 <!-- Node15 -->
-<g id="node15" class="node">
+<g id="Node000015" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html" target="_top" xlink:title="This struct is for managing variables. Unlike jkmpResult this struct only contains pointers to the da...">
+<g id="a_Node000015"><a xlink:href="struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html" target="_top" xlink:title="This struct is for managing variables. Unlike jkmpResult this struct only contains pointers to the da...">
 <polygon fill="white" stroke="#666666" points="612,-331.5 406,-331.5 406,-310.5 612,-310.5 612,-331.5"/>
 <text text-anchor="middle" x="509" y="-317.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPMathParser::jkmpVariable</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node15 -->
-<g id="edge17" class="edge">
+<g id="edge17_Node000015_Node000003" class="edge">
 <title>Node3&#45;&gt;Node15</title>
+<g id="a_edge17_Node000015_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M258.67,-259.63C276.7,-271.71 302.79,-287.39 328,-296 352.63,-304.41 380.08,-310 405.97,-313.71"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="260.26,-256.47 250.03,-253.7 256.3,-262.25 260.26,-256.47"/>
-<text text-anchor="middle" x="358" y="-313.4" font-family="Helvetica,sans-Serif" font-size="12.00"> str</text>
+</a>
+</g>
+<text text-anchor="middle" x="358" y="-313.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> str</text>
 </g>
 <!-- Node18 -->
-<g id="node18" class="node">
+<g id="Node000018" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:title=" ">
+<g id="a_Node000018"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1329,-245.5 1118,-245.5 1118,-198.5 1329,-198.5 1329,-245.5"/>
 <text text-anchor="start" x="1126" y="-231.9" font-family="Helvetica,sans-Serif" font-size="12.00">std::map&lt; std::string,</text>
 <text text-anchor="start" x="1126" y="-218.9" font-family="Helvetica,sans-Serif" font-size="12.00"> JKQTPMathParser::jkmpFunction</text>
@@ -121,16 +139,19 @@
 </g>
 </g>
 <!-- Node3&#45;&gt;Node18 -->
-<g id="edge22" class="edge">
+<g id="edge22_Node000018_Node000003" class="edge">
 <title>Node3&#45;&gt;Node18</title>
+<g id="a_edge22_Node000018_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M283,-241.99C434.06,-238.78 905.84,-228.74 1117.68,-224.23"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="282.61,-238.5 272.69,-242.21 282.76,-245.5 282.61,-238.5"/>
-<text text-anchor="middle" x="705.5" y="-237.4" font-family="Helvetica,sans-Serif" font-size="12.00"> keys</text>
+</a>
+</g>
+<text text-anchor="middle" x="705.5" y="-237.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> keys</text>
 </g>
 <!-- Node19 -->
-<g id="node19" class="node">
+<g id="Node000019" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor" target="_top" xlink:title="description of a user registered function">
+<g id="a_Node000019"><a xlink:href="group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor" target="_top" xlink:title="description of a user registered function">
 <polygon fill="white" stroke="#666666" points="1014,-194 807,-194 807,-160 1014,-160 1014,-194"/>
 <text text-anchor="start" x="815" y="-180.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPMathParser::jkmpFunction</text>
 <text text-anchor="middle" x="910.5" y="-167.4" font-family="Helvetica,sans-Serif" font-size="12.00">Descriptor</text>
@@ -138,32 +159,38 @@
 </g>
 </g>
 <!-- Node3&#45;&gt;Node19 -->
-<g id="edge26" class="edge">
+<g id="edge26_Node000019_Node000003" class="edge">
 <title>Node3&#45;&gt;Node19</title>
+<g id="a_edge26_Node000019_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M263.13,-227.41C295.98,-209.86 353.03,-182.44 406,-172 542.58,-145.07 704.08,-153.58 806.64,-163.86"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="261.26,-224.45 254.14,-232.29 264.6,-230.6 261.26,-224.45"/>
-<text text-anchor="middle" x="509" y="-175.4" font-family="Helvetica,sans-Serif" font-size="12.00"> name</text>
+</a>
+</g>
+<text text-anchor="middle" x="509" y="-175.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> name</text>
 </g>
 <!-- Node20 -->
-<g id="node20" class="node">
+<g id="Node000020" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="struct_j_k_q_t_p_math_parser_1_1jkmp_result.html" target="_top" xlink:title="result of any expression">
+<g id="a_Node000020"><a xlink:href="struct_j_k_q_t_p_math_parser_1_1jkmp_result.html" target="_top" xlink:title="result of any expression">
 <polygon fill="white" stroke="#666666" points="605.5,-214.5 412.5,-214.5 412.5,-193.5 605.5,-193.5 605.5,-214.5"/>
 <text text-anchor="middle" x="509" y="-200.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPMathParser::jkmpResult</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node20 -->
-<g id="edge25" class="edge">
+<g id="edge25_Node000020_Node000003" class="edge">
 <title>Node3&#45;&gt;Node20</title>
+<g id="a_edge25_Node000020_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M275.19,-229.36C291.38,-224.33 310.4,-219.12 328,-216 355.14,-211.19 384.89,-208.27 412.25,-206.51"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="273.99,-226.07 265.52,-232.44 276.11,-232.74 273.99,-226.07"/>
-<text text-anchor="middle" x="358" y="-219.4" font-family="Helvetica,sans-Serif" font-size="12.00"> str</text>
+</a>
+</g>
+<text text-anchor="middle" x="358" y="-219.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> str</text>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:title=" ">
+<g id="a_Node000004"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="122,-260 0,-260 0,-226 122,-226 122,-260"/>
 <text text-anchor="start" x="8" y="-246.4" font-family="Helvetica,sans-Serif" font-size="12.00">std::basic_string&lt;</text>
 <text text-anchor="middle" x="61" y="-233.4" font-family="Helvetica,sans-Serif" font-size="12.00"> Char &gt;</text>
@@ -171,31 +198,37 @@
 </g>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000003_Node000004" class="edge">
 <title>Node4&#45;&gt;Node3</title>
+<g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M132.74,-243C154.63,-243 177.86,-243 196.5,-243"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="132.46,-239.5 122.46,-243 132.46,-246.5 132.46,-239.5"/>
+</a>
+</g>
 </g>
 <!-- Node5 -->
-<g id="node5" class="node">
+<g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:title=" ">
+<g id="a_Node000005"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1284,-96.5 1163,-96.5 1163,-75.5 1284,-75.5 1284,-96.5"/>
 <text text-anchor="middle" x="1223.5" y="-82.9" font-family="Helvetica,sans-Serif" font-size="12.00">std::istringstream</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node2 -->
-<g id="edge4" class="edge">
+<g id="edge4_Node000002_Node000005" class="edge">
 <title>Node5&#45;&gt;Node2</title>
+<g id="a_edge4_Node000002_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1294.66,-88.37C1330.23,-92.33 1372.8,-101.48 1406,-122 1442.25,-144.4 1468.06,-190.28 1478.44,-211.19"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1294.64,-84.86 1284.35,-87.35 1293.95,-91.82 1294.64,-84.86"/>
-<text text-anchor="middle" x="1376.5" y="-125.4" font-family="Helvetica,sans-Serif" font-size="12.00"> program</text>
+</a>
+</g>
+<text text-anchor="middle" x="1376.5" y="-125.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> program</text>
 </g>
 <!-- Node6 -->
-<g id="node6" class="node">
+<g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:title=" ">
+<g id="a_Node000006"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="989.5,-62 831.5,-62 831.5,-28 989.5,-28 989.5,-62"/>
 <text text-anchor="start" x="839.5" y="-48.4" font-family="Helvetica,sans-Serif" font-size="12.00">std::basic_istringstream</text>
 <text text-anchor="middle" x="910.5" y="-35.4" font-family="Helvetica,sans-Serif" font-size="12.00">&lt; Char &gt;</text>
@@ -203,15 +236,18 @@
 </g>
 </g>
 <!-- Node6&#45;&gt;Node5 -->
-<g id="edge5" class="edge">
+<g id="edge5_Node000005_Node000006" class="edge">
 <title>Node6&#45;&gt;Node5</title>
+<g id="a_edge5_Node000005_Node000006"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M999.81,-56.64C1051.88,-63.51 1116.38,-72.01 1162.54,-78.1"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="999.95,-53.13 989.58,-55.29 999.03,-60.07 999.95,-53.13"/>
+</a>
+</g>
 </g>
 <!-- Node7 -->
-<g id="node7" class="node">
+<g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:title=" ">
+<g id="a_Node000007"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="571,-34 447,-34 447,0 571,0 571,-34"/>
 <text text-anchor="start" x="455" y="-20.4" font-family="Helvetica,sans-Serif" font-size="12.00">std::basic_istream</text>
 <text text-anchor="middle" x="509" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00">&lt; Char &gt;</text>
@@ -219,45 +255,54 @@
 </g>
 </g>
 <!-- Node7&#45;&gt;Node6 -->
-<g id="edge6" class="edge">
+<g id="edge6_Node000006_Node000007" class="edge">
 <title>Node7&#45;&gt;Node6</title>
+<g id="a_edge6_Node000006_Node000007"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M581.2,-21.99C651.46,-26.91 758.61,-34.42 831.22,-39.51"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="581.33,-18.49 571.11,-21.28 580.84,-25.47 581.33,-18.49"/>
+</a>
+</g>
 </g>
 <!-- Node8 -->
-<g id="node8" class="node">
+<g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:title=" ">
+<g id="a_Node000008"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="310,-27.5 159,-27.5 159,-6.5 310,-6.5 310,-27.5"/>
 <text text-anchor="middle" x="234.5" y="-13.9" font-family="Helvetica,sans-Serif" font-size="12.00">std::basic_ios&lt; Char &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node7 -->
-<g id="edge7" class="edge">
+<g id="edge7_Node000007_Node000008" class="edge">
 <title>Node8&#45;&gt;Node7</title>
+<g id="a_edge7_Node000007_Node000008"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M320.54,-17C361.4,-17 409.44,-17 446.67,-17"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="320.32,-13.5 310.32,-17 320.32,-20.5 320.32,-13.5"/>
+</a>
+</g>
 </g>
 <!-- Node9 -->
-<g id="node9" class="node">
+<g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:title=" ">
+<g id="a_Node000009"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="107.5,-27.5 14.5,-27.5 14.5,-6.5 107.5,-6.5 107.5,-27.5"/>
 <text text-anchor="middle" x="61" y="-13.9" font-family="Helvetica,sans-Serif" font-size="12.00">std::ios_base</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node8 -->
-<g id="edge8" class="edge">
+<g id="edge8_Node000008_Node000009" class="edge">
 <title>Node9&#45;&gt;Node8</title>
+<g id="a_edge8_Node000008_Node000009"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M117.78,-17C130.91,-17 145.11,-17 158.91,-17"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="117.51,-13.5 107.51,-17 117.51,-20.5 117.51,-13.5"/>
+</a>
+</g>
 </g>
 <!-- Node10 -->
-<g id="node10" class="node">
+<g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:title=" ">
+<g id="a_Node000010"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1009.5,-129 811.5,-129 811.5,-95 1009.5,-95 1009.5,-129"/>
 <text text-anchor="start" x="819.5" y="-115.4" font-family="Helvetica,sans-Serif" font-size="12.00">std::vector&lt; JKQTPMathParser</text>
 <text text-anchor="middle" x="910.5" y="-102.4" font-family="Helvetica,sans-Serif" font-size="12.00">::jkmpTempVariable &gt;</text>
@@ -265,134 +310,173 @@
 </g>
 </g>
 <!-- Node10&#45;&gt;Node2 -->
-<g id="edge9" class="edge">
+<g id="edge9_Node000002_Node000010" class="edge">
 <title>Node10&#45;&gt;Node2</title>
+<g id="a_edge9_Node000002_Node000010"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1019.75,-124.96C1104.46,-136.03 1224.93,-153.84 1329,-177 1372.09,-186.59 1420.84,-201.48 1451.85,-211.48"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1019.97,-121.45 1009.6,-123.64 1019.07,-128.4 1019.97,-121.45"/>
-<text text-anchor="middle" x="1223.5" y="-180.4" font-family="Helvetica,sans-Serif" font-size="12.00"> tempvariables</text>
+</a>
+</g>
+<text text-anchor="middle" x="1223.5" y="-180.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> tempvariables</text>
 </g>
 <!-- Node11&#45;&gt;Node10 -->
-<g id="edge10" class="edge">
+<g id="edge10_Node000010_Node000011" class="edge">
 <title>Node11&#45;&gt;Node10</title>
+<g id="a_edge10_Node000010_Node000011"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M613.69,-109.78C674.63,-110.24 751.22,-110.81 811.2,-111.26"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="613.69,-106.28 603.67,-109.7 613.64,-113.28 613.69,-106.28"/>
-<text text-anchor="middle" x="705.5" y="-114.4" font-family="Helvetica,sans-Serif" font-size="12.00"> elements</text>
+</a>
+</g>
+<text text-anchor="middle" x="705.5" y="-114.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> elements</text>
 </g>
 <!-- Node12 -->
-<g id="node12" class="node">
+<g id="Node000012" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:title=" ">
+<g id="a_Node000012"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="566.5,-73.5 451.5,-73.5 451.5,-52.5 566.5,-52.5 566.5,-73.5"/>
 <text text-anchor="middle" x="509" y="-59.9" font-family="Helvetica,sans-Serif" font-size="12.00">std::vector&lt; T &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node12&#45;&gt;Node10 -->
-<g id="edge12" class="edge">
+<g id="edge12_Node000010_Node000012" class="edge">
 <title>Node12&#45;&gt;Node10</title>
+<g id="a_edge12_Node000010_Node000012"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M576.98,-63.38C632.06,-64.55 711.99,-68.2 781,-79 804.78,-82.72 830.56,-88.9 852.74,-94.92"/>
 <polygon fill="orange" stroke="orange" points="576.72,-59.87 566.65,-63.18 576.58,-66.87 576.72,-59.87"/>
-<text text-anchor="start" x="641" y="-95.4" font-family="Helvetica,sans-Serif" font-size="12.00"> &lt; JKQTPMathParser::</text>
-<text text-anchor="middle" x="705.5" y="-82.4" font-family="Helvetica,sans-Serif" font-size="12.00">jkmpTempVariable &gt;</text>
+</a>
+</g>
+<text text-anchor="start" x="641" y="-95.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> &lt; JKQTPMathParser::</text>
+<text text-anchor="middle" x="705.5" y="-82.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">jkmpTempVariable &gt;</text>
 </g>
 <!-- Node13 -->
-<g id="node13" class="node">
+<g id="Node000013" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:title=" ">
+<g id="a_Node000013"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="249,-147.5 220,-147.5 220,-126.5 249,-126.5 249,-147.5"/>
 <text text-anchor="middle" x="234.5" y="-133.9" font-family="Helvetica,sans-Serif" font-size="12.00">T</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node12 -->
-<g id="edge13" class="edge">
+<g id="edge13_Node000012_Node000013" class="edge">
 <title>Node13&#45;&gt;Node12</title>
+<g id="a_edge13_Node000012_Node000013"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M256.68,-120.38C274.6,-107.29 301.52,-89.83 328,-81 367.77,-67.73 415.01,-63.41 451.12,-62.31"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="254.56,-117.6 248.65,-126.4 258.75,-123.2 254.56,-117.6"/>
-<text text-anchor="middle" x="358" y="-84.4" font-family="Helvetica,sans-Serif" font-size="12.00"> elements</text>
+</a>
+</g>
+<text text-anchor="middle" x="358" y="-84.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> elements</text>
 </g>
 <!-- Node16 -->
-<g id="node16" class="node">
+<g id="Node000016" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:title=" ">
+<g id="a_Node000016"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="568.5,-292.5 449.5,-292.5 449.5,-271.5 568.5,-271.5 568.5,-292.5"/>
 <text text-anchor="middle" x="509" y="-278.9" font-family="Helvetica,sans-Serif" font-size="12.00">std::map&lt; K, T &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node16 -->
-<g id="edge20" class="edge">
+<g id="edge20_Node000016_Node000013" class="edge">
 <title>Node13&#45;&gt;Node16</title>
+<g id="a_edge20_Node000016_Node000013"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M248.7,-155.91C264.9,-177.72 294.4,-213.09 328,-233 365.2,-255.04 412.55,-267.42 449.35,-274.22"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="251.49,-153.8 242.78,-147.75 245.82,-157.9 251.49,-153.8"/>
-<text text-anchor="middle" x="358" y="-260.4" font-family="Helvetica,sans-Serif" font-size="12.00"> elements</text>
+</a>
+</g>
+<text text-anchor="middle" x="358" y="-260.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> elements</text>
 </g>
 <!-- Node14&#45;&gt;Node2 -->
-<g id="edge14" class="edge">
+<g id="edge14_Node000002_Node000014" class="edge">
 <title>Node14&#45;&gt;Node2</title>
+<g id="a_edge14_Node000002_Node000014"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1012.66,-316.07C1097.26,-300.13 1221.1,-276.55 1329,-255 1363.28,-248.16 1371.82,-246.3 1406,-239 1415.7,-236.93 1426.07,-234.68 1435.97,-232.51"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1011.98,-312.64 1002.8,-317.93 1013.27,-319.52 1011.98,-312.64"/>
-<text text-anchor="middle" x="1223.5" y="-298.4" font-family="Helvetica,sans-Serif" font-size="12.00"> variables</text>
+</a>
+</g>
+<text text-anchor="middle" x="1223.5" y="-298.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> variables</text>
 </g>
 <!-- Node15&#45;&gt;Node14 -->
-<g id="edge16" class="edge">
+<g id="edge16_Node000014_Node000015" class="edge">
 <title>Node15&#45;&gt;Node14</title>
+<g id="a_edge16_Node000014_Node000015"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M622.28,-324.93C677.51,-326.87 743.85,-329.19 798.85,-331.12"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="622.22,-321.43 612.1,-324.58 621.97,-328.43 622.22,-321.43"/>
-<text text-anchor="middle" x="705.5" y="-333.4" font-family="Helvetica,sans-Serif" font-size="12.00"> elements</text>
+</a>
+</g>
+<text text-anchor="middle" x="705.5" y="-333.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> elements</text>
 </g>
 <!-- Node16&#45;&gt;Node14 -->
-<g id="edge18" class="edge">
+<g id="edge18_Node000014_Node000016" class="edge">
 <title>Node16&#45;&gt;Node14</title>
+<g id="a_edge18_Node000014_Node000016"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M578.63,-280.51C633.73,-280.46 712.88,-282.97 781,-295 809.42,-300.02 840.32,-309.51 864.7,-317.98"/>
 <polygon fill="orange" stroke="orange" points="578.61,-277.01 568.62,-280.55 578.64,-284.01 578.61,-277.01"/>
-<text text-anchor="start" x="630" y="-311.4" font-family="Helvetica,sans-Serif" font-size="12.00"> &lt; std::string, JKQTPMath</text>
-<text text-anchor="middle" x="705.5" y="-298.4" font-family="Helvetica,sans-Serif" font-size="12.00">Parser::jkmpVariable &gt;</text>
+</a>
+</g>
+<text text-anchor="start" x="630" y="-311.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> &lt; std::string, JKQTPMath</text>
+<text text-anchor="middle" x="705.5" y="-298.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">Parser::jkmpVariable &gt;</text>
 </g>
 <!-- Node16&#45;&gt;Node18 -->
-<g id="edge27" class="edge">
+<g id="edge27_Node000018_Node000016" class="edge">
 <title>Node16&#45;&gt;Node18</title>
+<g id="a_edge27_Node000018_Node000016"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M578.66,-277.45C688.76,-269.98 911.57,-254.11 1100,-236 1105.86,-235.44 1111.87,-234.83 1117.94,-234.2"/>
 <polygon fill="orange" stroke="orange" points="578.42,-273.96 568.68,-278.13 578.89,-280.94 578.42,-273.96"/>
-<text text-anchor="start" x="810" y="-277.4" font-family="Helvetica,sans-Serif" font-size="12.00"> &lt; std::string, JKQTPMath</text>
-<text text-anchor="middle" x="910.5" y="-264.4" font-family="Helvetica,sans-Serif" font-size="12.00">Parser::jkmpFunctionDescriptor &gt;</text>
+</a>
+</g>
+<text text-anchor="start" x="810" y="-277.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> &lt; std::string, JKQTPMath</text>
+<text text-anchor="middle" x="910.5" y="-264.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">Parser::jkmpFunctionDescriptor &gt;</text>
 </g>
 <!-- Node17 -->
-<g id="node17" class="node">
+<g id="Node000017" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:title=" ">
+<g id="a_Node000017"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="249,-391.5 220,-391.5 220,-370.5 249,-370.5 249,-391.5"/>
 <text text-anchor="middle" x="234.5" y="-377.9" font-family="Helvetica,sans-Serif" font-size="12.00">K</text>
 </a>
 </g>
 </g>
 <!-- Node17&#45;&gt;Node16 -->
-<g id="edge19" class="edge">
+<g id="edge19_Node000016_Node000017" class="edge">
 <title>Node17&#45;&gt;Node16</title>
+<g id="a_edge19_Node000016_Node000017"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M259.16,-377.19C291.06,-371.1 348.41,-356.7 388,-327 398.95,-318.78 394.47,-309.39 406,-302 418.84,-293.77 434.31,-288.79 449.29,-285.82"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="258.24,-373.8 249.01,-379.01 259.47,-380.69 258.24,-373.8"/>
-<text text-anchor="middle" x="358" y="-360.4" font-family="Helvetica,sans-Serif" font-size="12.00"> keys</text>
+</a>
+</g>
+<text text-anchor="middle" x="358" y="-360.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> keys</text>
 </g>
 <!-- Node18&#45;&gt;Node2 -->
-<g id="edge21" class="edge">
+<g id="edge21_Node000002_Node000018" class="edge">
 <title>Node18&#45;&gt;Node2</title>
+<g id="a_edge21_Node000002_Node000018"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1339.38,-222C1368.58,-222 1398.79,-222 1423.97,-222"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1339.1,-218.5 1329.1,-222 1339.1,-225.5 1339.1,-218.5"/>
-<text text-anchor="middle" x="1376.5" y="-225.4" font-family="Helvetica,sans-Serif" font-size="12.00"> functions</text>
+</a>
+</g>
+<text text-anchor="middle" x="1376.5" y="-225.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> functions</text>
 </g>
 <!-- Node19&#45;&gt;Node18 -->
-<g id="edge23" class="edge">
+<g id="edge23_Node000018_Node000019" class="edge">
 <title>Node19&#45;&gt;Node18</title>
+<g id="a_edge23_Node000018_Node000019"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1024.27,-185.51C1049.28,-188.02 1075.6,-191.16 1100,-195 1106.56,-196.03 1113.3,-197.2 1120.08,-198.46"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1024.31,-182 1014.02,-184.5 1023.63,-188.96 1024.31,-182"/>
-<text text-anchor="middle" x="1070" y="-198.4" font-family="Helvetica,sans-Serif" font-size="12.00"> elements</text>
+</a>
+</g>
+<text text-anchor="middle" x="1070" y="-198.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> elements</text>
 </g>
 <!-- Node20&#45;&gt;Node19 -->
-<g id="edge24" class="edge">
+<g id="edge24_Node000019_Node000020" class="edge">
 <title>Node20&#45;&gt;Node19</title>
+<g id="a_edge24_Node000019_Node000020"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M615.8,-196.85C674.94,-192.85 748.29,-187.9 806.9,-183.93"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="615.43,-193.37 605.69,-197.53 615.9,-200.35 615.43,-193.37"/>
-<text text-anchor="middle" x="705.5" y="-198.4" font-family="Helvetica,sans-Serif" font-size="12.00"> function</text>
+</a>
+</g>
+<text text-anchor="middle" x="705.5" y="-198.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> function</text>
 </g>
 </g>
 </svg>
