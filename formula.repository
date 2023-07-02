@@ -1,12 +1,12 @@
 \_form#0=33x18:$ f_x(t) $
 \_form#1=33x18:$ f_y(t) $
 \_form#2=33x18:$ t\in\left[t_\text{min}..t_\text{max}\right] $
-\_form#3=33x18:$ [a, b] $
-\_form#4=33x18:\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]
-\_form#5=33x18:$ [x,y]=f_{xy}(t) $
-\_form#6=33x18:$ t_\text{min} $
-\_form#7=33x18:$ t_\text{max} $
-\_form#8=33x18:\[ \Delta t=\frac{N_{\mbox{now}}-N_{\mbox{start}}}{\mbox{\texttt{QueryPerformanceFrequency()}}}\cdot 10^{6} \]
+\_form#3=33x18:\[ \Delta t=\frac{N_{\mbox{now}}-N_{\mbox{start}}}{\mbox{\texttt{QueryPerformanceFrequency()}}}\cdot 10^{6} \]
+\_form#4=33x18:$ [a, b] $
+\_form#5=33x18:\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]
+\_form#6=33x18:$ [x,y]=f_{xy}(t) $
+\_form#7=33x18:$ t_\text{min} $
+\_form#8=33x18:$ t_\text{max} $
 \_form#9=33x18:$ \pi=3.14159... $
 \_form#10=33x18:$ \sqrt{2\pi}=2.50662827463 $
 \_form#11=33x18:$ \mbox{ln}(10)=2.30258509299404568402... $
@@ -97,10 +97,10 @@
 \_form#96=33x18:$ c_i\equiv c_{\text{out},j} $
 \_form#97=33x18:$ c_{\text{out},j} $
 \_form#98=33x18:$ c_1 $
-\_form#99=33x18:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
-\_form#100=33x18:$ c_N $
-\_form#101=33x18:$ v_1 $
-\_form#102=33x18:$ v_N $
+\_form#99=33x18:$ c_N $
+\_form#100=33x18:$ v_1 $
+\_form#101=33x18:$ v_N $
+\_form#102=33x18:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
 \_form#103=33x18:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
 \_form#104=33x18:$ Y_N $
 \_form#105=33x18:$ (x_i,y_i) $
@@ -110,62 +110,62 @@
 \_form#109=33x18:$ y_N $
 \_form#110=33x18:\[ \begin{bmatrix} y_1\\ y_2\\ y_3 \\ \vdots \\ y_n \end{bmatrix}= \begin{bmatrix} 1 & x_1 & x_1^2 & \dots & x_1^P \\ 1 & x_2 & x_2^2 & \dots & x_2^P\\ 1 & x_3 & x_3^2 & \dots & x_3^P \\ \vdots & \vdots & \vdots & & \vdots \\ 1 & x_n & x_n^2 & \dots & x_n^P \end{bmatrix} \begin{bmatrix} p_0\\ p_1\\ p_2\\ \vdots \\ p_P \end{bmatrix}  \]
 \_form#111=33x18:\[ \vec{y}=V\vec{p}\ \ \ \ \ \Rightarrow\ \ \ \ \ \vec{p}=(V^TV)^{-1}V^T\vec{y} \]
-\_form#112=33x18:$ f(x)=a+b\cdot x $
-\_form#113=33x18:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i\left(y_i-(a+b\cdot x_i)\right)^2 \]
-\_form#114=33x18:$ a $
-\_form#115=33x18:$ b $
-\_form#116=33x18:\[ a=\overline{y}-b\cdot\overline{x} \]
-\_form#117=33x18:\[ b=\frac{\sum x_iy_i-N\cdot\overline{x}\cdot\overline{y}}{\sum x_i^2-N\cdot(\overline{x})^2} \]
-\_form#118=33x18:\[ k(t):=\frac{1}{\sqrt{2\pi}}\exp \left(-\frac{1}{2}t^2\right) \]
-\_form#119=33x18:\[ k(t):=\frac{1}{\pi(1+t^2)} \]
-\_form#120=33x18:\[ k(t):=\frac{1}{2}\exp(-|t|) \]
-\_form#121=33x18:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_iw_i^2\cdot\left(y_i-(a+b\cdot x_i)\right)^2 \]
-\_form#122=33x18:$ w_1 $
-\_form#123=33x18:$ w_N $
-\_form#124=33x18:\[ k(t) :=\begin{cases}\frac{3}{4} ( 1- t^2 ),  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#125=33x18:\[ a=\frac{\overline{y}-b\cdot\overline{x}}{\overline{w^2}} \]
-\_form#126=33x18:\[ b=\frac{\overline{w^2}\cdot\overline{x\cdot y}-\overline{x}\cdot\overline{y}}{\overline{x^2}\cdot\overline{w^2}-\overline{x}^2} \]
-\_form#127=33x18:$ w_i$
-\_form#128=33x18:\[ \overline{x}=\sum\limits_iw_i^2\cdot x_i \]
-\_form#129=33x18:\[ \overline{y}=\sum\limits_iw_i^2\cdot y_i \]
-\_form#130=33x18:\[ \overline{x\cdot y}=\sum\limits_iw_i^2\cdot x_i\cdot y_i \]
-\_form#131=33x18:\[ \overline{x^2}=\sum\limits_iw_i^2\cdot x_i^2 \]
-\_form#132=33x18:\[ \overline{w^2}=\sum\limits_iw_i^2 \]
-\_form#133=33x18:\[ k(t) :=\begin{cases}0.5,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#134=33x18:\[ k(t) :=\begin{cases}1-|t|,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#135=33x18:\[ k(t) :=\begin{cases}\frac{15}{16}(1-t^2)^2,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#136=33x18:\[ k(t) :=\begin{cases}\frac{35}{32}(1-t^2)^3,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#137=33x18:\[ k(t) :=\begin{cases}\frac{70}{81}(1-|t|^3)^3,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#138=33x18:\[ k(t) :=\begin{cases}\frac{\pi}{4}\cos\left(\frac{\pi}{2}t\right),  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#139=33x18:\[ k(t_x, t_y):=\frac{1}{2\pi}\exp \left(-\frac{t_x^2+t_y^2}{2}\right) \]
-\_form#140=33x18:\[ k(t_x, t_y):=\begin{cases}\frac{1}{4},  & \text{if }t_x,t_y\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#141=33x18:\[ h = \left(\frac{4\hat{\sigma}^5}{3n}\right)^{\frac{1}{5}} \approx 1.06 \hat{\sigma} n^{-1/5} \]
-\_form#142=33x18:\[ (a^\ast,b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i|a+b\cdot x_i-y_i|^p \]
-\_form#143=33x18:$ L_p $
-\_form#144=33x18:$ L_p$
-\_form#145=33x18:$ \vec{w} $
-\_form#146=33x18:\[ (a_n,b_n)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i|a+b\cdot x_i-y_i|^{(p-2)}\cdot|a+b\cdot x_i-y_i|^2 \]
-\_form#147=33x18:$ a_0$
-\_form#148=33x18:$ b_0$
-\_form#149=33x18:$ n$
-\_form#150=33x18:$\vec{e}$
-\_form#151=33x18:\[ e_i = a+b\cdot x_i -y_i \]
-\_form#152=33x18:$\vec{w}$
-\_form#153=33x18:\[ w_i=|e_i|^{(p-2)/2} \]
-\_form#154=33x18:$ a_n$
-\_form#155=33x18:$ b_n$
-\_form#156=33x18:$ \vec{x}$
-\_form#157=33x18:$ \vec{y}$
-\_form#158=33x18:$ \vec{w}$
-\_form#159=33x18:\[ \tilde{f}(t):=\frac{1}{N\cdot\text{bandwidth}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{t-x_i}{\text{bandwidth}}\right) \]
-\_form#160=33x18:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i\left(y_i-f_{\text{type}}(x_i,a,b)\right)^2 \]
-\_form#161=33x18:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i|y_i-f_{\text{type}}(x_i,a,b)|^p \]
-\_form#162=33x18:\[ \tilde{f}(x,y):=\frac{1}{N\cdot\sqrt{\text{bandwidthx}}\cdot\sqrt{\text{bandwidthy}}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{x-x_i}{\text{bandwidthx}},\frac{y-y_i}{\text{bandwidthy}}\right) \]
-\_form#163=33x18:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_iw_i^2\left(y_i-f_{\text{type}}(x_i,a,b)\right)^2 \]
-\_form#164=33x18:$ R^2 $
-\_form#165=33x18:\[ R^2=1-\frac{\sum_i\bigl[y_i-f(x_i)\bigr]^2}{\sum_i\bigl[y_i-\overline{y}\bigr]^2} \]
-\_form#166=33x18:\[ \overline{y}=\frac{1}{N}\cdot\sum_iy_i \]
-\_form#167=33x18:\[ h =  \hat{\sigma} n^{-1/(d+4)},\ \ \ \ \ d=2 \]
+\_form#112=33x18:\[ k(t):=\frac{1}{\sqrt{2\pi}}\exp \left(-\frac{1}{2}t^2\right) \]
+\_form#113=33x18:\[ k(t):=\frac{1}{\pi(1+t^2)} \]
+\_form#114=33x18:\[ k(t):=\frac{1}{2}\exp(-|t|) \]
+\_form#115=33x18:\[ k(t) :=\begin{cases}\frac{3}{4} ( 1- t^2 ),  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#116=33x18:\[ k(t) :=\begin{cases}0.5,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#117=33x18:\[ k(t) :=\begin{cases}1-|t|,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#118=33x18:\[ k(t) :=\begin{cases}\frac{15}{16}(1-t^2)^2,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#119=33x18:\[ k(t) :=\begin{cases}\frac{35}{32}(1-t^2)^3,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#120=33x18:\[ k(t) :=\begin{cases}\frac{70}{81}(1-|t|^3)^3,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#121=33x18:\[ k(t) :=\begin{cases}\frac{\pi}{4}\cos\left(\frac{\pi}{2}t\right),  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#122=33x18:\[ k(t_x, t_y):=\frac{1}{2\pi}\exp \left(-\frac{t_x^2+t_y^2}{2}\right) \]
+\_form#123=33x18:\[ k(t_x, t_y):=\begin{cases}\frac{1}{4},  & \text{if }t_x,t_y\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#124=33x18:\[ h = \left(\frac{4\hat{\sigma}^5}{3n}\right)^{\frac{1}{5}} \approx 1.06 \hat{\sigma} n^{-1/5} \]
+\_form#125=33x18:\[ \tilde{f}(t):=\frac{1}{N\cdot\text{bandwidth}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{t-x_i}{\text{bandwidth}}\right) \]
+\_form#126=33x18:$ f(x)=a+b\cdot x $
+\_form#127=33x18:\[ \tilde{f}(x,y):=\frac{1}{N\cdot\sqrt{\text{bandwidthx}}\cdot\sqrt{\text{bandwidthy}}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{x-x_i}{\text{bandwidthx}},\frac{y-y_i}{\text{bandwidthy}}\right) \]
+\_form#128=33x18:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i\left(y_i-(a+b\cdot x_i)\right)^2 \]
+\_form#129=33x18:$ a $
+\_form#130=33x18:$ b $
+\_form#131=33x18:\[ a=\overline{y}-b\cdot\overline{x} \]
+\_form#132=33x18:\[ b=\frac{\sum x_iy_i-N\cdot\overline{x}\cdot\overline{y}}{\sum x_i^2-N\cdot(\overline{x})^2} \]
+\_form#133=33x18:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_iw_i^2\cdot\left(y_i-(a+b\cdot x_i)\right)^2 \]
+\_form#134=33x18:$ w_1 $
+\_form#135=33x18:$ w_N $
+\_form#136=33x18:\[ h =  \hat{\sigma} n^{-1/(d+4)},\ \ \ \ \ d=2 \]
+\_form#137=33x18:\[ a=\frac{\overline{y}-b\cdot\overline{x}}{\overline{w^2}} \]
+\_form#138=33x18:\[ b=\frac{\overline{w^2}\cdot\overline{x\cdot y}-\overline{x}\cdot\overline{y}}{\overline{x^2}\cdot\overline{w^2}-\overline{x}^2} \]
+\_form#139=33x18:$ w_i$
+\_form#140=33x18:\[ \overline{x}=\sum\limits_iw_i^2\cdot x_i \]
+\_form#141=33x18:\[ \overline{y}=\sum\limits_iw_i^2\cdot y_i \]
+\_form#142=33x18:\[ \overline{x\cdot y}=\sum\limits_iw_i^2\cdot x_i\cdot y_i \]
+\_form#143=33x18:\[ \overline{x^2}=\sum\limits_iw_i^2\cdot x_i^2 \]
+\_form#144=33x18:\[ \overline{w^2}=\sum\limits_iw_i^2 \]
+\_form#145=33x18:\[ (a^\ast,b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i|a+b\cdot x_i-y_i|^p \]
+\_form#146=33x18:$ L_p $
+\_form#147=33x18:$ L_p$
+\_form#148=33x18:$ \vec{w} $
+\_form#149=33x18:\[ (a_n,b_n)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i|a+b\cdot x_i-y_i|^{(p-2)}\cdot|a+b\cdot x_i-y_i|^2 \]
+\_form#150=33x18:$ a_0$
+\_form#151=33x18:$ b_0$
+\_form#152=33x18:$ n$
+\_form#153=33x18:$\vec{e}$
+\_form#154=33x18:\[ e_i = a+b\cdot x_i -y_i \]
+\_form#155=33x18:$\vec{w}$
+\_form#156=33x18:\[ w_i=|e_i|^{(p-2)/2} \]
+\_form#157=33x18:$ a_n$
+\_form#158=33x18:$ b_n$
+\_form#159=33x18:$ \vec{x}$
+\_form#160=33x18:$ \vec{y}$
+\_form#161=33x18:$ \vec{w}$
+\_form#162=33x18:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i\left(y_i-f_{\text{type}}(x_i,a,b)\right)^2 \]
+\_form#163=33x18:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i|y_i-f_{\text{type}}(x_i,a,b)|^p \]
+\_form#164=33x18:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_iw_i^2\left(y_i-f_{\text{type}}(x_i,a,b)\right)^2 \]
+\_form#165=33x18:$ R^2 $
+\_form#166=33x18:\[ R^2=1-\frac{\sum_i\bigl[y_i-f(x_i)\bigr]^2}{\sum_i\bigl[y_i-\overline{y}\bigr]^2} \]
+\_form#167=33x18:\[ \overline{y}=\frac{1}{N}\cdot\sum_iy_i \]
 \_form#168=33x18:$ (x_i,y_i,w_i) $
 \_form#169=33x18:\[ R^2=1-\frac{\sum_iw_i^2\bigl[y_i-f(x_i)\bigr]^2}{\sum_iw_i^2\bigl[y_i-\overline{y}\bigr]^2} \]
 \_form#170=33x18:\[ \overline{y}=\frac{1}{N}\cdot\sum_iw_iy_i \]
@@ -183,61 +183,61 @@
 \_form#182=33x18:$ f(x,y) $
 \_form#183=33x18:$ \{(x,y)|f(x,y)\equiv L_i\} $
 \_form#184=33x18:$ \{L_i\} $
-\_form#185=33x18:$ y=f(x, \vec{p}) $
-\_form#186=33x18:$ \vec{p} $
-\_form#187=33x18:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $
-\_form#188=33x18:$ p_0, p_1, ... $
-\_form#189=33x18:$ f(x)=p_0+p_1x $
-\_form#190=33x18:$ f(x)=p_0+p_1\cdot\exp(x/p_2) $
-\_form#191=33x18:$ f(x)=p_0\cdot\exp(x/p_1) $
-\_form#192=33x18:$ f(x)=p_0+p_1\cdot x^{p_3} $
-\_form#193=33x18:$ f(x)=p_0\cdot x^{p_1} $
-\_form#194=33x18:$ f(x)= x^{p_0} $
-\_form#195=33x18:$ [x,y]=\vec{f}(t) $
-\_form#196=33x18:$ t $
-\_form#197=33x18:$ [x, f(x)] $
-\_form#198=33x18:$ f(y) $
-\_form#199=33x18:$ [f(y), y] $
-\_form#200=33x18:$ \vec{f}(t) $
-\_form#201=33x18:$ gt $
-\_form#202=33x18:$ \alpha_{\mbox{left}} $
-\_form#203=33x18:$ \alpha_{\mbox{right}} $
-\_form#204=33x18:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
-\_form#205=33x18:$ [x,y]=f(t) $
-\_form#206=33x18:$ t \in \left[t_\text{min}, t_\text{max}\right] $
-\_form#207=33x18:$ [x,y]=f(t, \vec{p}) $
-\_form#208=33x18:$ [x,y]=f(t), t \in \left[t_\text{min}, t_\text{max}\right] $
-\_form#209=33x18:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
-\_form#210=33x18:$ [x,y] $
+\_form#185=33x18:$ [x,y]=\vec{f}(t) $
+\_form#186=33x18:$ t $
+\_form#187=33x18:$ [x, f(x)] $
+\_form#188=33x18:$ f(y) $
+\_form#189=33x18:$ [f(y), y] $
+\_form#190=33x18:$ \vec{f}(t) $
+\_form#191=33x18:$ gt $
+\_form#192=33x18:$ \alpha_{\mbox{left}} $
+\_form#193=33x18:$ \alpha_{\mbox{right}} $
+\_form#194=33x18:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
+\_form#195=33x18:$ y=f(x, \vec{p}) $
+\_form#196=33x18:$ \vec{p} $
+\_form#197=33x18:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
+\_form#198=33x18:$ [x,y] $
+\_form#199=33x18:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $
+\_form#200=33x18:$ p_0, p_1, ... $
+\_form#201=33x18:$ f(x)=p_0+p_1x $
+\_form#202=33x18:$ f(x)=p_0+p_1\cdot\exp(x/p_2) $
+\_form#203=33x18:$ f(x)=p_0\cdot\exp(x/p_1) $
+\_form#204=33x18:$ f(x)=p_0+p_1\cdot x^{p_3} $
+\_form#205=33x18:$ f(x)=p_0\cdot x^{p_1} $
+\_form#206=33x18:$ f(x)= x^{p_0} $
+\_form#207=33x18:$ [x,y]=f(t) $
+\_form#208=33x18:$ t \in \left[t_\text{min}, t_\text{max}\right] $
+\_form#209=33x18:$ [x,y]=f(t, \vec{p}) $
+\_form#210=33x18:$ [x,y]=f(t), t \in \left[t_\text{min}, t_\text{max}\right] $
 \_form#211=33x18:$ (x,y) $
 \_form#212=33x18:$ \left(x, f(x) \right) $
 \_form#213=33x18:$ \left(f(y), y \right) $
-\_form#214=33x18:\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]
-\_form#215=33x18:\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]
-\_form#216=33x18:$ j $
-\_form#217=33x18:$ x=0 $
-\_form#218=33x18:$ y=0 $
-\_form#219=33x18:$ \mbox{Xscale}\cdot\Delta x $
-\_form#220=33x18:$ \Delta x $
-\_form#221=33x18:$ \mbox{Yscale}\cdot\Delta < $
-\_form#222=33x18:$ \Delta < $
-\_form#223=33x18:$ (x_p(x), y_p(y)) $
-\_form#224=33x18:\[ x_p(\mbox{xmin})=\mbox{xPlotOffset},\ \ \ \ \ x_p(\mbox{xmax})=\mbox{xPlotOffset}+\mbox{plotWidth} \]
-\_form#225=33x18:\[ y_p(\mbox{ymax})=\mbox{yPlotOffset},\ \ \ \ \ y_p(\mbox{ymin})=\mbox{yPlotOffset}+\mbox{plotHeight} \]
-\_form#226=33x18:$ (x_p, y_p) $
-\_form#227=33x18:\[ x_p(x)=\mbox{xoffset}+x\cdot\mbox{xscale} \ \ \ \ \ \ \ \ \ y_p(y)=\mbox{yoffset}-y\cdot\mbox{yscale} \]
-\_form#228=33x18:\[ \mbox{xscale}=\frac{\mbox{plotWidth}}{\mbox{xwidth}},\ \ \ \ \  \ \mbox{xoffset}=\mbox{xPlotOffset}-\mbox{xmin}\cdot\mbox{xscale} \]
-\_form#229=33x18:\[ \mbox{yscale}=\frac{\mbox{plotHeight}}{\mbox{ywidth}},\ \ \ \ \ \ \mbox{yoffset}=\mbox{yPlotOffset}+\mbox{ymax}\cdot\mbox{yscale} \]
-\_form#230=33x18:$ \log_b(x) $
-\_form#231=33x18:$ \log_b(x)=\log(x)/\log(b) $
-\_form#232=33x18:\[ x_p(x)=\mbox{xoffset}+\frac{\log(x)}{\log(\mbox{logXAxisBase})}\cdot\mbox{xscale} \ \ \ \ \ \ \ \ \ y_p(y)=\mbox{yoffset}-\frac{\log(y)}{\log(\mbox{logYAxisBase})}\cdot\mbox{yscale} \]
-\_form#233=33x18:\[ \mbox{xscale}=\frac{\mbox{plotWidth}\cdot\log(\mbox{logXAxisBase})}{\log(\mbox{xmax})-\log(\mbox{xmin})},\ \ \ \ \  \ \mbox{xoffset}=\mbox{xPlotOffset}-\frac{\log(\mbox{xmin})}{\log(\mbox{logXAxisBase})}\cdot\mbox{xscale} \]
-\_form#234=33x18:\[ \mbox{yscale}=\frac{\mbox{plotHeight}\cdot\log(\mbox{logYAxisBase})}{\log(\mbox{ymax})-\log(\mbox{ymin})},\ \ \ \ \  \ \mbox{yoffset}=\mbox{yPlotOffset}+\frac{\log(\mbox{ymax})}{\log(\mbox{logYAxisBase})}\cdot\mbox{yscale} \]
-\_form#235=33x18:\[ \Delta\mbox{MinorTicks}=\frac{\Delta\mbox{ticks}}{\mbox{minorTicks}+1} \]
-\_form#236=33x18:$ 1\pi $
-\_form#237=33x18:$ 2\pi $
-\_form#238=33x18:$ 3\pi $
-\_form#239=33x18:$ pi $
+\_form#214=33x18:$ j $
+\_form#215=33x18:\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]
+\_form#216=33x18:\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]
+\_form#217=33x18:$ (x_p(x), y_p(y)) $
+\_form#218=33x18:\[ x_p(\mbox{xmin})=\mbox{xPlotOffset},\ \ \ \ \ x_p(\mbox{xmax})=\mbox{xPlotOffset}+\mbox{plotWidth} \]
+\_form#219=33x18:\[ y_p(\mbox{ymax})=\mbox{yPlotOffset},\ \ \ \ \ y_p(\mbox{ymin})=\mbox{yPlotOffset}+\mbox{plotHeight} \]
+\_form#220=33x18:$ (x_p, y_p) $
+\_form#221=33x18:\[ x_p(x)=\mbox{xoffset}+x\cdot\mbox{xscale} \ \ \ \ \ \ \ \ \ y_p(y)=\mbox{yoffset}-y\cdot\mbox{yscale} \]
+\_form#222=33x18:\[ \mbox{xscale}=\frac{\mbox{plotWidth}}{\mbox{xwidth}},\ \ \ \ \  \ \mbox{xoffset}=\mbox{xPlotOffset}-\mbox{xmin}\cdot\mbox{xscale} \]
+\_form#223=33x18:\[ \mbox{yscale}=\frac{\mbox{plotHeight}}{\mbox{ywidth}},\ \ \ \ \ \ \mbox{yoffset}=\mbox{yPlotOffset}+\mbox{ymax}\cdot\mbox{yscale} \]
+\_form#224=33x18:$ \log_b(x) $
+\_form#225=33x18:$ \log_b(x)=\log(x)/\log(b) $
+\_form#226=33x18:\[ x_p(x)=\mbox{xoffset}+\frac{\log(x)}{\log(\mbox{logXAxisBase})}\cdot\mbox{xscale} \ \ \ \ \ \ \ \ \ y_p(y)=\mbox{yoffset}-\frac{\log(y)}{\log(\mbox{logYAxisBase})}\cdot\mbox{yscale} \]
+\_form#227=33x18:\[ \mbox{xscale}=\frac{\mbox{plotWidth}\cdot\log(\mbox{logXAxisBase})}{\log(\mbox{xmax})-\log(\mbox{xmin})},\ \ \ \ \  \ \mbox{xoffset}=\mbox{xPlotOffset}-\frac{\log(\mbox{xmin})}{\log(\mbox{logXAxisBase})}\cdot\mbox{xscale} \]
+\_form#228=33x18:\[ \mbox{yscale}=\frac{\mbox{plotHeight}\cdot\log(\mbox{logYAxisBase})}{\log(\mbox{ymax})-\log(\mbox{ymin})},\ \ \ \ \  \ \mbox{yoffset}=\mbox{yPlotOffset}+\frac{\log(\mbox{ymax})}{\log(\mbox{logYAxisBase})}\cdot\mbox{yscale} \]
+\_form#229=33x18:\[ \Delta\mbox{MinorTicks}=\frac{\Delta\mbox{ticks}}{\mbox{minorTicks}+1} \]
+\_form#230=33x18:$ 1\pi $
+\_form#231=33x18:$ 2\pi $
+\_form#232=33x18:$ 3\pi $
+\_form#233=33x18:$ pi $
+\_form#234=33x18:$ x=0 $
+\_form#235=33x18:$ y=0 $
+\_form#236=33x18:$ \mbox{Xscale}\cdot\Delta x $
+\_form#237=33x18:$ \Delta x $
+\_form#238=33x18:$ \mbox{Yscale}\cdot\Delta < $
+\_form#239=33x18:$ \Delta < $
 \_form#240=33x18:$ \Delta\mbox{tick} $
 \_form#241=33x18:$ \rho $
 \_form#242=33x18:\[ \Delta\mbox{tick}=f\cdot 10^\rho,\ \ \ \ \ f\in\{1, 2, 2.5, 5\} \]
