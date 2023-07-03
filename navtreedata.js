@@ -121,53 +121,53 @@ var NAVTREE =
       [ "Iterator Interface", "md_examples_2datastore_2_r_e_a_d_m_e.html#autotoc_md29", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): 1-Dimensional Group Statistics with JKQTPDatastore", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html", [
-      [ "Barcharts & Boxplots from categorized data", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md30", [
-        [ "Generating a Dataset for Grouped Barcharts", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md31", null ],
-        [ "Calculating Grouped Statistics for a Barchart", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md32", null ],
-        [ "Calculating Grouped Statistics for a Boxplot", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md33", null ]
+      [ "Barcharts & Boxplots from categorized data", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md49", [
+        [ "Generating a Dataset for Grouped Barcharts", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md50", null ],
+        [ "Calculating Grouped Statistics for a Barchart", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md51", null ],
+        [ "Calculating Grouped Statistics for a Boxplot", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md52", null ]
       ] ],
-      [ "(Scatter-)Graphs with X/Y-errors from Categorized Data", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md34", [
-        [ "Dataset for XY Scatter Graphs", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md35", null ],
-        [ "Calculating x- and y-Errors from Categorized Data", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md36", null ]
+      [ "(Scatter-)Graphs with X/Y-errors from Categorized Data", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md53", [
+        [ "Dataset for XY Scatter Graphs", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md54", null ],
+        [ "Calculating x- and y-Errors from Categorized Data", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md55", null ]
       ] ],
-      [ "Screenshot of the full Program", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md37", null ]
+      [ "Screenshot of the full Program", "md_examples_2datastore__groupedstat_2_r_e_a_d_m_e.html#autotoc_md56", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Iterator-Based usage of JKQTPDatastore", "md_examples_2datastore__iterators_2_r_e_a_d_m_e.html", [
-      [ "Iterator-based Column Data Access To Existing Rows", "md_examples_2datastore__iterators_2_r_e_a_d_m_e.html#autotoc_md38", null ],
-      [ "Back-Inserter for Columns", "md_examples_2datastore__iterators_2_r_e_a_d_m_e.html#autotoc_md39", null ],
-      [ "Using C++ STL algorithms", "md_examples_2datastore__iterators_2_r_e_a_d_m_e.html#autotoc_md40", null ],
-      [ "Special Properties of the JKQTPDatastore-Iterators", "md_examples_2datastore__iterators_2_r_e_a_d_m_e.html#autotoc_md41", null ]
+      [ "Iterator-based Column Data Access To Existing Rows", "md_examples_2datastore__iterators_2_r_e_a_d_m_e.html#autotoc_md30", null ],
+      [ "Back-Inserter for Columns", "md_examples_2datastore__iterators_2_r_e_a_d_m_e.html#autotoc_md31", null ],
+      [ "Using C++ STL algorithms", "md_examples_2datastore__iterators_2_r_e_a_d_m_e.html#autotoc_md32", null ],
+      [ "Special Properties of the JKQTPDatastore-Iterators", "md_examples_2datastore__iterators_2_r_e_a_d_m_e.html#autotoc_md33", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Regression Analysis (with the Statistics Library)", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html", [
-      [ "Simple Linear Regression", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md42", null ],
-      [ "Robust Linear Regression", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md43", null ],
-      [ "Weighted Linear Regression", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md44", null ],
-      [ "Linearizable Regression Models", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md45", null ],
-      [ "Polynom Fitting", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md46", null ],
-      [ "Screenshot of the full Program", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md47", null ]
+      [ "Simple Linear Regression", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md34", null ],
+      [ "Robust Linear Regression", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md35", null ],
+      [ "Weighted Linear Regression", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md36", null ],
+      [ "Linearizable Regression Models", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md37", null ],
+      [ "Polynom Fitting", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md38", null ],
+      [ "Screenshot of the full Program", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md39", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Advanced 1-Dimensional Statistics with JKQTPDatastore", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html", [
-      [ "Generating different sets of random numbers", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md48", null ],
-      [ "Basic Statistics", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md49", null ],
-      [ "Boxplots", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md50", [
-        [ "Standard Boxplots", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md51", null ],
-        [ "Boxplots with Outliers", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md52", null ]
+      [ "Generating different sets of random numbers", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md40", null ],
+      [ "Basic Statistics", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md41", null ],
+      [ "Boxplots", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md42", [
+        [ "Standard Boxplots", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md43", null ],
+        [ "Boxplots with Outliers", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md44", null ]
       ] ],
-      [ "Histograms", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md53", null ],
-      [ "Kernel Density Estimates (KDE)", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md54", null ],
-      [ "Cummulative Histograms and KDEs", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md55", null ],
-      [ "Screenshot of the full Program", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md56", null ]
+      [ "Histograms", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md45", null ],
+      [ "Kernel Density Estimates (KDE)", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md46", null ],
+      [ "Cummulative Histograms and KDEs", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md47", null ],
+      [ "Screenshot of the full Program", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md48", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Advanced 2-Dimensional Statistics with JKQTPDatastore", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html", [
-      [ "Generating different sets of random numbers", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md59", null ],
-      [ "Marginal Statistics", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md60", null ],
-      [ "2D Histogram", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md61", null ],
-      [ "Kernel Density Estimates (KDE)", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md62", null ],
-      [ "Screenshot of the full Program", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md63", null ]
+      [ "Generating different sets of random numbers", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md57", null ],
+      [ "Marginal Statistics", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md58", null ],
+      [ "2D Histogram", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md59", null ],
+      [ "Kernel Density Estimates (KDE)", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md60", null ],
+      [ "Screenshot of the full Program", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md61", null ]
     ] ],
     [ "Example (JKQTPlotter): Date/Time Axes", "md_examples_2dateaxes_2_r_e_a_d_m_e.html", [
-      [ "Date Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md57", null ],
-      [ "Time Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md58", null ]
+      [ "Date Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md62", null ],
+      [ "Time Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md63", null ]
     ] ],
     [ "Example (JKQTPlotter): Plotting a Statistical Distribution of Data", "md_examples_2distributionplot_2_r_e_a_d_m_e.html", null ],
     [ "Example (JKQTPlotter): Different Types of Errorindicators", "md_examples_2errorbarstyles_2_r_e_a_d_m_e.html", null ],
@@ -187,11 +187,11 @@ var NAVTREE =
       [ "C++ functors as plot functions", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md72", null ],
       [ "Static C functions", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md73", null ],
       [ "Predefined \"special\" functions", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md74", null ],
-      [ "Screenshot", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md76", null ],
-      [ "Notes", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md77", null ]
+      [ "Screenshot", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md75", null ],
+      [ "Notes", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md76", null ]
     ] ],
     [ "Example (JKQTPlotter): Plotting Arrows", "md_examples_2geo__arrows_2_r_e_a_d_m_e.html", [
-      [ "Different types of arrows", "md_examples_2geo__arrows_2_r_e_a_d_m_e.html#autotoc_md75", null ],
+      [ "Different types of arrows", "md_examples_2geo__arrows_2_r_e_a_d_m_e.html#autotoc_md77", null ],
       [ "Classes with support for arrows", "md_examples_2geo__arrows_2_r_e_a_d_m_e.html#autotoc_md78", null ],
       [ "Screenshot", "md_examples_2geo__arrows_2_r_e_a_d_m_e.html#autotoc_md79", null ]
     ] ],
@@ -256,34 +256,34 @@ var NAVTREE =
       [ "Form Class <tt>FormWithJKQTPlotter</tt>", "md_examples_2ui_2_r_e_a_d_m_e.html#autotoc_md96", null ]
     ] ],
     [ "Tutorial (JKQTPlotter): User-Interactions in JKQtPlotter", "md_examples_2user__interaction_2_r_e_a_d_m_e.html", [
-      [ "Basic Description", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md97", null ],
-      [ "Inner Workings", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md98", null ],
-      [ "Available User-Interactions", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md99", [
-        [ "Switching Graph Visibility via Context Menu", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md100", null ],
-        [ "Toolbar at the top of the Plot", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md101", null ],
-        [ "Mouse Position Display", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md102", null ],
-        [ "Drag the Plot Viewport", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md103", null ],
-        [ "Zooming with the Mouse", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md104", null ],
-        [ "Ruler/Measurement Tool", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md105", null ],
-        [ "Data ToolTip Tool", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md106", null ],
-        [ "Drawing Geometrical Forms", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md107", [
-          [ "Lines", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md108", null ],
-          [ "Rectangles", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md109", null ],
-          [ "Circles", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md110", null ],
-          [ "Ellipses", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md111", null ]
+      [ "Basic Description", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md102", null ],
+      [ "Inner Workings", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md103", null ],
+      [ "Available User-Interactions", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md104", [
+        [ "Switching Graph Visibility via Context Menu", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md105", null ],
+        [ "Toolbar at the top of the Plot", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md106", null ],
+        [ "Mouse Position Display", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md107", null ],
+        [ "Drag the Plot Viewport", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md108", null ],
+        [ "Zooming with the Mouse", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md109", null ],
+        [ "Ruler/Measurement Tool", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md110", null ],
+        [ "Data ToolTip Tool", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md111", null ],
+        [ "Drawing Geometrical Forms", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md112", [
+          [ "Lines", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md113", null ],
+          [ "Rectangles", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md114", null ],
+          [ "Circles", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md115", null ],
+          [ "Ellipses", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md116", null ]
         ] ],
-        [ "Context Menus", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md112", [
-          [ "Standard Context Menu", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md113", null ],
-          [ "Special Context Menu", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md114", null ]
+        [ "Context Menus", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md117", [
+          [ "Standard Context Menu", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md118", null ],
+          [ "Special Context Menu", "md_examples_2user__interaction_2_r_e_a_d_m_e.html#autotoc_md119", null ]
         ] ]
       ] ]
     ] ],
     [ "Example (JKQTPlotter): Violin Plots", "md_examples_2violinplot_2_r_e_a_d_m_e.html", [
-      [ "Generating a test Dataset", "md_examples_2violinplot_2_r_e_a_d_m_e.html#autotoc_md115", null ],
-      [ "Visualizing data as a Rug Plot", "md_examples_2violinplot_2_r_e_a_d_m_e.html#autotoc_md116", null ],
-      [ "Drawing the (vertical) Violin Plot", "md_examples_2violinplot_2_r_e_a_d_m_e.html#autotoc_md117", null ],
-      [ "Drawing a horizontal Violin Plot", "md_examples_2violinplot_2_r_e_a_d_m_e.html#autotoc_md118", null ],
-      [ "Adapters as shortcuts to drawing Violin Plots", "md_examples_2violinplot_2_r_e_a_d_m_e.html#autotoc_md119", null ]
+      [ "Generating a test Dataset", "md_examples_2violinplot_2_r_e_a_d_m_e.html#autotoc_md97", null ],
+      [ "Visualizing data as a Rug Plot", "md_examples_2violinplot_2_r_e_a_d_m_e.html#autotoc_md98", null ],
+      [ "Drawing the (vertical) Violin Plot", "md_examples_2violinplot_2_r_e_a_d_m_e.html#autotoc_md99", null ],
+      [ "Drawing a horizontal Violin Plot", "md_examples_2violinplot_2_r_e_a_d_m_e.html#autotoc_md100", null ],
+      [ "Adapters as shortcuts to drawing Violin Plots", "md_examples_2violinplot_2_r_e_a_d_m_e.html#autotoc_md101", null ]
     ] ],
     [ "Example (JKQTPlotter): Wiggle Plots", "md_examples_2wiggleplots_2_r_e_a_d_m_e.html", [
       [ "Plot red/blue wiggle plot using <tt>JKQTPFilledCurveXGraph</tt>", "md_examples_2wiggleplots_2_r_e_a_d_m_e.html#autotoc_md120", null ],
