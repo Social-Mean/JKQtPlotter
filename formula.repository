@@ -81,27 +81,27 @@
 \_form#80=33x18:$ Y_i $
 \_form#81=33x18:\[ \rho_{x,y}=\text{CorCoeff}_{\text{Pearson}}(x,y)=\frac{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})(y_i-\overline{y})}{\sqrt{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})^2\cdot\sum\limits_{i=0}^{N-1}(y_i-\overline{y})^2}} \]
 \_form#82=33x18:\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]
-\_form#83=33x18:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
-\_form#84=33x18:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
-\_form#85=33x18:$ f(x): \mathbb{R}\rightarrow\mathbb{R} $
-\_form#86=33x18:$ x $
-\_form#87=33x18:$ f(x) $
-\_form#88=33x18:$ f(x)=\mbox{round}(x) $
-\_form#89=33x18:$ \mbox{firstGroupCenter} $
-\_form#90=33x18:$ \mbox{firstGroupCenter}\pm\mbox{groupWidth}/2$
-\_form#91=33x18:$ \mbox{firstGroupCenter}\pm2\cdot\mbox{groupWidth}/2 $
-\_form#92=33x18:$ \mbox{firstGroupCenter}\pm3\cdot\mbox{groupWidth}/2 $
-\_form#93=33x18:$ \mbox{round}\left(\frac{x-\mbox{firstGroupCenter}}{\mbox{groupWidth}/2}\right) $
-\_form#94=33x18:$ (c_i,v_i) $
-\_form#95=33x18:$ c_i $
-\_form#96=33x18:$ v_i $
-\_form#97=33x18:$ V_j=\{v_{i}|c_i\equiv c_{\text{out},j}\} $
-\_form#98=33x18:$ c_i\equiv c_{\text{out},j} $
-\_form#99=33x18:$ c_{\text{out},j} $
-\_form#100=33x18:$ c_1 $
-\_form#101=33x18:$ c_N $
-\_form#102=33x18:$ v_1 $
-\_form#103=33x18:$ v_N $
+\_form#83=33x18:$ f(x): \mathbb{R}\rightarrow\mathbb{R} $
+\_form#84=33x18:$ x $
+\_form#85=33x18:$ f(x) $
+\_form#86=33x18:$ f(x)=\mbox{round}(x) $
+\_form#87=33x18:$ \mbox{firstGroupCenter} $
+\_form#88=33x18:$ \mbox{firstGroupCenter}\pm\mbox{groupWidth}/2$
+\_form#89=33x18:$ \mbox{firstGroupCenter}\pm2\cdot\mbox{groupWidth}/2 $
+\_form#90=33x18:$ \mbox{firstGroupCenter}\pm3\cdot\mbox{groupWidth}/2 $
+\_form#91=33x18:$ \mbox{round}\left(\frac{x-\mbox{firstGroupCenter}}{\mbox{groupWidth}/2}\right) $
+\_form#92=33x18:$ (c_i,v_i) $
+\_form#93=33x18:$ c_i $
+\_form#94=33x18:$ v_i $
+\_form#95=33x18:$ V_j=\{v_{i}|c_i\equiv c_{\text{out},j}\} $
+\_form#96=33x18:$ c_i\equiv c_{\text{out},j} $
+\_form#97=33x18:$ c_{\text{out},j} $
+\_form#98=33x18:$ c_1 $
+\_form#99=33x18:$ c_N $
+\_form#100=33x18:$ v_1 $
+\_form#101=33x18:$ v_N $
+\_form#102=33x18:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
+\_form#103=33x18:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
 \_form#104=33x18:$ Y_N $
 \_form#105=33x18:\[ k(t):=\frac{1}{\sqrt{2\pi}}\exp \left(-\frac{1}{2}t^2\right) \]
 \_form#106=33x18:\[ k(t):=\frac{1}{\pi(1+t^2)} \]
