@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"class_j_k_q_t_math_text_modified_text_props_instruction_node.html":[75,3,1,2,15],
 "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#a38e3805744daa050f1f7a6be4baaa7be":[75,3,1,2,15,11],
 "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#a58bdcee63077e07211d4c1490947fe98":[75,3,1,2,15,10],
 "class_j_k_q_t_math_text_modified_text_props_instruction_node.html#a774b77b28f3b31b12dbcffd3e5970a9c":[75,3,1,2,15,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "class_j_k_q_t_math_text_symbol_node.html#afdbf7d0cea272f0822996487ee4715dd":[75,3,1,2,27,3],
 "class_j_k_q_t_math_text_symbol_node.html#affd2711a6b03170c61dfba85ff27972c":[75,3,1,2,27,61],
 "class_j_k_q_t_math_text_text_base_node.html":[75,3,1,2,28],
-"class_j_k_q_t_math_text_text_base_node.html#a213d038c52947570b2e2a593e30be660":[75,3,1,2,28,4],
-"class_j_k_q_t_math_text_text_base_node.html#a299504cfc8078fd909a0d051abf55c55":[75,3,1,2,28,0]
+"class_j_k_q_t_math_text_text_base_node.html#a213d038c52947570b2e2a593e30be660":[75,3,1,2,28,4]
 };

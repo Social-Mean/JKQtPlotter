@@ -43,7 +43,7 @@ var searchData=
   ['isdebugshowregionboxesenabled_40',['isDebugShowRegionBoxesEnabled',['../class_j_k_q_t_base_plotter.html#abf6423be2a8bbd345d10664dfcfcd0d7',1,'JKQTBasePlotter']]],
   ['isdebugshowtextboxesenabled_41',['isDebugShowTextBoxesEnabled',['../class_j_k_q_t_base_plotter.html#a6530b828f5b5651534693f9c3256e415',1,'JKQTBasePlotter']]],
   ['isemittingplotsignalsenabled_42',['isEmittingPlotSignalsEnabled',['../class_j_k_q_t_base_plotter.html#abc943bbea8f7820d5ad0cd1d01d91365',1,'JKQTBasePlotter']]],
-  ['isemittingsignalsenabled_43',['isEmittingSignalsEnabled',['../class_j_k_q_t_plotter.html#a3e30b1215fae0cf9f6146f5fb2b1d58f',1,'JKQTPlotter::isEmittingSignalsEnabled()'],['../class_j_k_q_t_base_plotter.html#a4f754542b34031dfd1dc5a005d0b2b1b',1,'JKQTBasePlotter::isEmittingSignalsEnabled()']]],
+  ['isemittingsignalsenabled_43',['isEmittingSignalsEnabled',['../class_j_k_q_t_plotter.html#a77e4d717f54a0343b47b58089bad1f8e',1,'JKQTPlotter::isEmittingSignalsEnabled()'],['../class_j_k_q_t_base_plotter.html#a4f754542b34031dfd1dc5a005d0b2b1b',1,'JKQTBasePlotter::isEmittingSignalsEnabled()']]],
   ['isempty_44',['isEmpty',['../class_j_k_q_t_math_text_multi_child_node.html#ae37e2715114f26cc8d19eaeba84b838a',1,'JKQTMathTextMultiChildNode']]],
   ['isextendedwidthsymbol_45',['isExtendedWidthSymbol',['../class_j_k_q_t_math_text_symbol_node.html#a66634309f67489cff7b9f617383c245f',1,'JKQTMathTextSymbolNode']]],
   ['ishighlighted_46',['isHighlighted',['../class_j_k_q_t_p_plot_element.html#a974530dd01152cdb22f41b7a6d7b8b3c',1,'JKQTPPlotElement']]],

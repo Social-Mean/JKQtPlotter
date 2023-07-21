@@ -219,6 +219,9 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:ae0bf98fa4c6b14f0a5426c741d8094a4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">LUTSIZE</a></td></tr>
 <tr class="memdesc:ae0bf98fa4c6b14f0a5426c741d8094a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of the lookup tables used by <a class="el" href="group__jkqtfastplotter__tools.html#gae59c718f711fe8e864f90f8647092d55" title="convert a 2D image (as 1D array) into a QImage with given palette (see JKQTFPColorPalette)">JKQTFPimagePlot_array2image()</a>  <br /></td></tr>
 <tr class="separator:ae0bf98fa4c6b14f0a5426c741d8094a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdc1b97763a24f0b6c7f4570c87c3625"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools.html#abdc1b97763a24f0b6c7f4570c87c3625">NDEFAULTSTEPS</a></td></tr>
+<tr class="memdesc:abdc1b97763a24f0b6c7f4570c87c3625"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of entries in an auto-generated steps-palette  <br /></td></tr>
+<tr class="separator:abdc1b97763a24f0b6c7f4570c87c3625"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adff44153c21d7d9b1d3645c08510af7c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools.html#adff44153c21d7d9b1d3645c08510af7c">PALETTE_ICON_WIDTH</a></td></tr>
 <tr class="memdesc:adff44153c21d7d9b1d3645c08510af7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Width of the Palette-Icons, generated e.g. by <a class="el" href="struct_j_k_q_t_p_image_tools.html#ac6d03ce98d2c84c8268d8b55e316d448" title="generates a QIcon for the i-th color palette (i is based on the list returned by JKQTPImagePlot_getPr...">JKQTPImageTools::GetPaletteIcon()</a>  <br /></td></tr>
 <tr class="separator:adff44153c21d7d9b1d3645c08510af7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1008,7 +1011,7 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>registers a new LUT defined by <em>paletteLut</em> and with the given <em>name</em> (computer-readable) for later use, optionally stores also the human-readable and localized name <em>nameT</em> and assigns a new LUT-ID &gt;=JKQTPMathImageFIRST_REGISTERED_USER_PALETTE to the palette and returns it </p>
-<dl class="section see"><dt>See also</dt><dd>JKQTPlotterImagePlot, <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga8328ab338bf6a5a4a0a8d42e24cad036" title="like JKQTPBuildColorPaletteLUTLinInterpolateSorted(), but sorts items before processing it!">JKQTPBuildColorPaletteLUTLinInterpolate()</a>, <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga89bb7feb2c072c2ab978fe64e9259a6d" title="like JKQTPBuildColorPaletteLUTSorted(), but sorts items before processing it!">JKQTPBuildColorPaletteLUT()</a>, <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#gaa0a52e6a83bb3edcbf49b0e5a3639dd2" title="build a linearly interpolated palette (as a look-up table) with lut_size entries by linearly interpol...">JKQTPBuildColorPaletteLUTLinInterpolateSorted()</a>, <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga043b89cdc77c4d8639440c68bb2bbd0d" title="build a palette (as a look-up table) with lut_size entries that step between the nodes provided in it...">JKQTPBuildColorPaletteLUTSorted()</a>, <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga8328ab338bf6a5a4a0a8d42e24cad036" title="like JKQTPBuildColorPaletteLUTLinInterpolateSorted(), but sorts items before processing it!">JKQTPBuildColorPaletteLUTLinInterpolate()</a>, <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga89bb7feb2c072c2ab978fe64e9259a6d" title="like JKQTPBuildColorPaletteLUTSorted(), but sorts items before processing it!">JKQTPBuildColorPaletteLUT()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>JKQTPlotterImagePlot, <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga2817b00b9603efefa1f85f9b5665a22d" title="like JKQTPBuildColorPaletteLUTLinInterpolateSorted(), but sorts items before processing it!">JKQTPBuildColorPaletteLUTLinInterpolate()</a>, <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga254a1e353446ee3fe1c3b377ac95f82e" title="like JKQTPBuildColorPaletteLUTSorted(), but sorts items before processing it!">JKQTPBuildColorPaletteLUT()</a>, <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga115dd316a23d10a121de3badb054e910" title="build a linearly interpolated palette (as a look-up table) with lut_size entries by linearly interpol...">JKQTPBuildColorPaletteLUTLinInterpolateSorted()</a>, <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga74ec2e64e2c0c0b8cbb428d8f4f3d645" title="build a palette (as a look-up table) with lut_size entries that step between the nodes provided in it...">JKQTPBuildColorPaletteLUTSorted()</a>, <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga2817b00b9603efefa1f85f9b5665a22d" title="like JKQTPBuildColorPaletteLUTLinInterpolateSorted(), but sorts items before processing it!">JKQTPBuildColorPaletteLUTLinInterpolate()</a>, <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga254a1e353446ee3fe1c3b377ac95f82e" title="like JKQTPBuildColorPaletteLUTSorted(), but sorts items before processing it!">JKQTPBuildColorPaletteLUT()</a> </dd></dl>
 
 </div>
 </div>
@@ -1074,8 +1077,8 @@ red, green, blue
         &lt;/ColorMap&gt;
         ...
     &lt;/ColorMaps&gt;
-</pre><dl class="section note"><dt>Note</dt><dd>In both cases, the palette will be formed without interpolation, i.e. using <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga89bb7feb2c072c2ab978fe64e9259a6d" title="like JKQTPBuildColorPaletteLUTSorted(), but sorts items before processing it!">JKQTPBuildColorPaletteLUT()</a> . If in addition <em>interpolatePalette</em> is set to <code>true</code>, the function <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga8328ab338bf6a5a4a0a8d42e24cad036" title="like JKQTPBuildColorPaletteLUTLinInterpolateSorted(), but sorts items before processing it!">JKQTPBuildColorPaletteLUTLinInterpolate()</a> is used instead.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd>JKQTPlotterImagePlot , <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga89bb7feb2c072c2ab978fe64e9259a6d" title="like JKQTPBuildColorPaletteLUTSorted(), but sorts items before processing it!">JKQTPBuildColorPaletteLUT()</a> </dd></dl>
+</pre><dl class="section note"><dt>Note</dt><dd>In both cases, the palette will be formed without interpolation, i.e. using <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga254a1e353446ee3fe1c3b377ac95f82e" title="like JKQTPBuildColorPaletteLUTSorted(), but sorts items before processing it!">JKQTPBuildColorPaletteLUT()</a> . If in addition <em>interpolatePalette</em> is set to <code>true</code>, the function <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga2817b00b9603efefa1f85f9b5665a22d" title="like JKQTPBuildColorPaletteLUTLinInterpolateSorted(), but sorts items before processing it!">JKQTPBuildColorPaletteLUTLinInterpolate()</a> is used instead.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>JKQTPlotterImagePlot , <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga254a1e353446ee3fe1c3b377ac95f82e" title="like JKQTPBuildColorPaletteLUTSorted(), but sorts items before processing it!">JKQTPBuildColorPaletteLUT()</a> </dd></dl>
 
 </div>
 </div>
@@ -1206,6 +1209,30 @@ red, green, blue
 
 </div>
 </div>
+<a id="abdc1b97763a24f0b6c7f4570c87c3625" name="abdc1b97763a24f0b6c7f4570c87c3625"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc1b97763a24f0b6c7f4570c87c3625">&#9670;&#160;</a></span>NDEFAULTSTEPS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> const int JKQTPImageTools::NDEFAULTSTEPS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>number of entries in an auto-generated steps-palette </p>
+
+</div>
+</div>
 <a id="adff44153c21d7d9b1d3645c08510af7c" name="adff44153c21d7d9b1d3645c08510af7c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adff44153c21d7d9b1d3645c08510af7c">&#9670;&#160;</a></span>PALETTE_ICON_WIDTH</h2>
 
@@ -1264,7 +1291,7 @@ red, green, blue
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_j_k_q_t_p_image_tools.html">JKQTPImageTools</a></li>
-    <li class="footer">Generated on Mon Jul 3 2023 10:01:20 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
+    <li class="footer">Generated on Fri Jul 21 2023 22:24:35 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
   </ul>
 </div>
 </body>

@@ -31,8 +31,8 @@ var NAVTREE =
       [ "Our Standards", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2", null ],
       [ "Our Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3", null ],
       [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4", null ],
-      [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6", null ],
-      [ "Attribution", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md7", null ]
+      [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5", null ],
+      [ "Attribution", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6", null ]
     ] ],
     [ "Contributing", "md__c_o_n_t_r_i_b_u_t_i_n_g.html", [
       [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8", null ],
@@ -140,34 +140,34 @@ var NAVTREE =
     ] ],
     [ "Tutorial (JKQTPDatastore): Regression Analysis (with the Statistics Library)", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html", [
       [ "Simple Linear Regression", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md42", null ],
-      [ "Robust Linear Regression", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md44", null ],
-      [ "Weighted Linear Regression", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md46", null ],
-      [ "Linearizable Regression Models", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md51", null ],
-      [ "Polynom Fitting", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md55", null ],
-      [ "Screenshot of the full Program", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md56", null ]
+      [ "Robust Linear Regression", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md43", null ],
+      [ "Weighted Linear Regression", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md44", null ],
+      [ "Linearizable Regression Models", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md45", null ],
+      [ "Polynom Fitting", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md46", null ],
+      [ "Screenshot of the full Program", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md47", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Advanced 1-Dimensional Statistics with JKQTPDatastore", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html", [
-      [ "Generating different sets of random numbers", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md43", null ],
-      [ "Basic Statistics", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md45", null ],
-      [ "Boxplots", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md47", [
-        [ "Standard Boxplots", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md48", null ],
-        [ "Boxplots with Outliers", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md49", null ]
+      [ "Generating different sets of random numbers", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md48", null ],
+      [ "Basic Statistics", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md49", null ],
+      [ "Boxplots", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md50", [
+        [ "Standard Boxplots", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md51", null ],
+        [ "Boxplots with Outliers", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md52", null ]
       ] ],
-      [ "Histograms", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md50", null ],
-      [ "Kernel Density Estimates (KDE)", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md52", null ],
-      [ "Cummulative Histograms and KDEs", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md53", null ],
-      [ "Screenshot of the full Program", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md54", null ]
+      [ "Histograms", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md53", null ],
+      [ "Kernel Density Estimates (KDE)", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md54", null ],
+      [ "Cummulative Histograms and KDEs", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md55", null ],
+      [ "Screenshot of the full Program", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md56", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Advanced 2-Dimensional Statistics with JKQTPDatastore", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html", [
-      [ "Generating different sets of random numbers", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md57", null ],
-      [ "Marginal Statistics", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md59", null ],
-      [ "2D Histogram", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md60", null ],
-      [ "Kernel Density Estimates (KDE)", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md61", null ],
-      [ "Screenshot of the full Program", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md62", null ]
+      [ "Generating different sets of random numbers", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md59", null ],
+      [ "Marginal Statistics", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md60", null ],
+      [ "2D Histogram", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md61", null ],
+      [ "Kernel Density Estimates (KDE)", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md62", null ],
+      [ "Screenshot of the full Program", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md63", null ]
     ] ],
     [ "Example (JKQTPlotter): Date/Time Axes", "md_examples_2dateaxes_2_r_e_a_d_m_e.html", [
-      [ "Date Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md58", null ],
-      [ "Time Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md63", null ]
+      [ "Date Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md57", null ],
+      [ "Time Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md58", null ]
     ] ],
     [ "Example (JKQTPlotter): Plotting a Statistical Distribution of Data", "md_examples_2distributionplot_2_r_e_a_d_m_e.html", null ],
     [ "Example (JKQTPlotter): Different Types of Errorindicators", "md_examples_2errorbarstyles_2_r_e_a_d_m_e.html", null ],
@@ -181,19 +181,19 @@ var NAVTREE =
     [ "Example (JKQTPlotter): Filled Curve Plots", "md_examples_2filledgraphs_2_r_e_a_d_m_e.html", null ],
     [ "Example (JKQTPlotter): Filled Graphs with Error Indicators", "md_examples_2filledgraphs__errors_2_r_e_a_d_m_e.html", null ],
     [ "Example (JKQTPlotter): Plotting Mathematical Functions as Line Graphs", "md_examples_2functionplot_2_r_e_a_d_m_e.html", [
-      [ "Basics", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md69", null ],
-      [ "Simple C++ inline function", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md70", null ],
-      [ "Simple C++ inline function with parameters", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md71", null ],
-      [ "C++ functors as plot functions", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md72", null ],
-      [ "Static C functions", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md73", null ],
-      [ "Predefined \"special\" functions", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md74", null ],
-      [ "Screenshot", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md75", null ],
-      [ "Notes", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md76", null ]
+      [ "Basics", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md71", null ],
+      [ "Simple C++ inline function", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md72", null ],
+      [ "Simple C++ inline function with parameters", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md74", null ],
+      [ "C++ functors as plot functions", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md75", null ],
+      [ "Static C functions", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md76", null ],
+      [ "Predefined \"special\" functions", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md77", null ],
+      [ "Screenshot", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md78", null ],
+      [ "Notes", "md_examples_2functionplot_2_r_e_a_d_m_e.html#autotoc_md79", null ]
     ] ],
     [ "Example (JKQTPlotter): Plotting Arrows", "md_examples_2geo__arrows_2_r_e_a_d_m_e.html", [
-      [ "Different types of arrows", "md_examples_2geo__arrows_2_r_e_a_d_m_e.html#autotoc_md77", null ],
-      [ "Classes with support for arrows", "md_examples_2geo__arrows_2_r_e_a_d_m_e.html#autotoc_md78", null ],
-      [ "Screenshot", "md_examples_2geo__arrows_2_r_e_a_d_m_e.html#autotoc_md79", null ]
+      [ "Different types of arrows", "md_examples_2geo__arrows_2_r_e_a_d_m_e.html#autotoc_md69", null ],
+      [ "Classes with support for arrows", "md_examples_2geo__arrows_2_r_e_a_d_m_e.html#autotoc_md70", null ],
+      [ "Screenshot", "md_examples_2geo__arrows_2_r_e_a_d_m_e.html#autotoc_md73", null ]
     ] ],
     [ "Example (JKQTPlotter): Plot With Axes through Origin", "md_examples_2geo__coordinateaxis0_2_r_e_a_d_m_e.html", null ],
     [ "Example (JKQTPlotter): Generating Demo-Plots of Geometric Objects for Documentation", "md_examples_2geo__simple_2_r_e_a_d_m_e.html", null ],
@@ -336,36 +336,36 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "class_j_k_q_t_base_plotter.html#a68550e2874fbc13da91d7b4d9e5e372d",
-"class_j_k_q_t_base_plotter.html#aef87ff59e8c52c22c31f78097c244fbd",
-"class_j_k_q_t_f_p_r_g_b_image_overlay_plot.html#a5b415168f18a120cd500fe6fe78a5e11",
-"class_j_k_q_t_fast_plotter.html#a1fcf972b59810a9e9cd409844c5863a7",
-"class_j_k_q_t_math_text.html#a0994bae34018e7d0b7295acb80d6a461",
-"class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a41c0207244e1585a40abd77ebf918318",
-"class_j_k_q_t_math_text_modified_text_props_instruction_node.html#a38e3805744daa050f1f7a6be4baaa7be",
-"class_j_k_q_t_math_text_text_base_node.html#a30ef1e6decd6af4d55c8b061d5e4857a",
-"class_j_k_q_t_p_bar_vertical_error_graph.html#a12aa25e3cc12af4f4544957fab1a8d00",
-"class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html#a22b5601a82398149ac26bd77761b310a",
-"class_j_k_q_t_p_column_r_g_b_math_image.html#a30769e2ce05f38b0991d7ea2963e1785",
-"class_j_k_q_t_p_coordinate_axis.html#adfd969fea07cbe5d632d9f36c1757b14",
-"class_j_k_q_t_p_datastore_item.html#ad7c3c4cb11ab0b7cf3547bc03586dc36aafbf0897a5a83fdd873dfb032ec695d3",
-"class_j_k_q_t_p_functor_line_graph_base.html#a620339cd9c6f8aba8894ac5db7d01cf9",
-"class_j_k_q_t_p_geo_rectangle.html#a64ee2abc78f97b3c0f9498edf4d1a641",
-"class_j_k_q_t_p_graph_error_style_mixin.html#a32f0ccd305bae0cd6596aeca34d59c66",
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a46b98e86c3a932c5304c2e7c5b296822",
-"class_j_k_q_t_p_impulses_vertical_error_graph.html#a3482200bdd234d72edd625e2f1c2891b",
-"class_j_k_q_t_p_math_parser.html#ac15cf344ffe0ea0f31a4c20694839c01",
-"class_j_k_q_t_p_plot_element.html#ac686744ddb8ba30d490ebade9667e2ed",
-"class_j_k_q_t_p_single_column_graph.html#ac6e6a9ed817ea44c32b6e675b32214b3",
-"class_j_k_q_t_p_x_y_baseline_graph.html#aab5f80e9320aba923de8be2713803509",
-"class_j_k_q_t_p_y_parsed_function_line_graph.html#a59e991e3fc7676a1006c9446ea15e71f",
-"class_j_k_q_t_plotter.html#ae29b87ec525294b3a2623adcc09175a5",
-"group__jkqtmathtext__libfacilities.html#ga0d521873453ad1c9641117bed4e27b6f",
-"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da9bf6c6e194e40e55a6a1e63bc0c6a294",
-"group__jkqtptools__concurrency.html",
-"group__jkqtptools__math__statistics__1dkde.html#ga2a72307b6aa56efce8d8b2baffeb9270",
-"md_examples_2datastore_2_r_e_a_d_m_e.html#autotoc_md23",
-"struct_j_k_q_t_math_text_brace_node_1_1_node_size.html#abbad82f87772d821c669929f89a4fcfc",
-"struct_j_k_q_t_p_color_derivation_mode.html#ad08cd43b69e518bd37e029f0d22ab73fa59ad2e47979a082919024f66d9ff6b56"
+"class_j_k_q_t_base_plotter.html#aef440e56d5d4cd9e99643df0b88d623e",
+"class_j_k_q_t_f_p_r_g_b_image_overlay_plot.html#a5b2889e72c6794b9705783bd48da546b",
+"class_j_k_q_t_fast_plotter.html#a1e4b786b00f4c6e2797904e8c4ef8acd",
+"class_j_k_q_t_math_text.html#a08f4b4ac04b7b1de5c50a9861cabd79b",
+"class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a388218ba30ae0770fa4094b00895452a",
+"class_j_k_q_t_math_text_modified_text_props_instruction_node.html",
+"class_j_k_q_t_math_text_text_base_node.html#a299504cfc8078fd909a0d051abf55c55",
+"class_j_k_q_t_p_bar_vertical_error_graph.html",
+"class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html#a073cc632bf06b2169b2ada9b038006eb",
+"class_j_k_q_t_p_column_r_g_b_math_image.html#a2ee5a51ef7a0ae3dc1e8d652c5c516c9",
+"class_j_k_q_t_p_coordinate_axis.html#adf1066dc25f98de8595e270aedd801e5",
+"class_j_k_q_t_p_datastore_item.html#ad7c3c4cb11ab0b7cf3547bc03586dc36a57dea6f5039281b7fee517fc43bf3110",
+"class_j_k_q_t_p_functor_line_graph_base.html#a5c090d4f21e96e5a84190dea4db33ed5",
+"class_j_k_q_t_p_geo_rectangle.html#a62edd6350137b94773f4ba7aaa7a2aed",
+"class_j_k_q_t_p_graph_error_style_mixin.html#a2a46b3a02cd42e1ede907868fd426aca",
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a4583be1a2d2e36da4a6b26777d421dda",
+"class_j_k_q_t_p_impulses_vertical_error_graph.html#a2adb629dc85c8983d86b4d31ef630828",
+"class_j_k_q_t_p_math_parser.html#aa6c635020afd61962e923d73f5c117b0",
+"class_j_k_q_t_p_plot_element.html#a623fe77049246abda428b0ca8484f434",
+"class_j_k_q_t_p_single_column_graph.html#a380fd5a845807aa41a8c092cf53c7386",
+"class_j_k_q_t_p_x_x_y_graph.html#a818a809adfbb9c290b2f4e8967ed4965",
+"class_j_k_q_t_p_y_graph_error_data.html#a74ae0a8a652b0530bdabf5f6c31e2142",
+"class_j_k_q_t_plotter.html#acd3d7045c370e4c5c29d5904ce4c3484",
+"group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7eada49d41cf3a0dc240d02f8d52b552f98",
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da58c8f880080c0b021d956ff792b15682",
+"group__jkqtpplottersupprt.html#ggad4929dc37ab4326c404de91ef6a60f17a11c4ebf8a78eac0b2c6f50ba86274ef6",
+"group__jkqtptools__math__basic.html#gaf65c45af31289372105c13b5970aa7a2",
+"index.html",
+"struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html",
+"struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -22,6 +22,7 @@ var struct_j_k_q_t_p_image_tools =
     [ "global_next_userpalette", "struct_j_k_q_t_p_image_tools.html#ad3ed99bff0339dc4d1fe0fac755dd563", null ],
     [ "lutMutex", "struct_j_k_q_t_p_image_tools.html#a9d8c2f3d600f5e1b7282e246e55c0e66", null ],
     [ "LUTSIZE", "struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4", null ],
+    [ "NDEFAULTSTEPS", "struct_j_k_q_t_p_image_tools.html#abdc1b97763a24f0b6c7f4570c87c3625", null ],
     [ "PALETTE_ICON_WIDTH", "struct_j_k_q_t_p_image_tools.html#adff44153c21d7d9b1d3645c08510af7c", null ],
     [ "PALETTE_IMAGEICON_HEIGHT", "struct_j_k_q_t_p_image_tools.html#a94e808013f54024f502784a3ba50d3c4", null ]
 ];

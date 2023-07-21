@@ -503,6 +503,9 @@ Public Slots</h2></td></tr>
 <tr class="memitem:a7cd635ec415dd2396e709e0602abafc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a7cd635ec415dd2396e709e0602abafc0">setWidgetSize</a> (int width, int height)</td></tr>
 <tr class="memdesc:a7cd635ec415dd2396e709e0602abafc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">resize the plot  <br /></td></tr>
 <tr class="separator:a7cd635ec415dd2396e709e0602abafc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b862a12c0a29b009dd1a3d4979c0540"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a7b862a12c0a29b009dd1a3d4979c0540">setWidgetSize</a> (QSize size)</td></tr>
+<tr class="memdesc:a7b862a12c0a29b009dd1a3d4979c0540"><td class="mdescLeft">&#160;</td><td class="mdescRight">resize the plot  <br /></td></tr>
+<tr class="separator:a7b862a12c0a29b009dd1a3d4979c0540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a783d94ea8bab92e9689070a005ecf538"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a783d94ea8bab92e9689070a005ecf538">setWidgetWidth</a> (int wid)</td></tr>
 <tr class="memdesc:a783d94ea8bab92e9689070a005ecf538"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the width of the plot widget  <br /></td></tr>
 <tr class="separator:a783d94ea8bab92e9689070a005ecf538"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -12165,7 +12168,7 @@ Grid invisible</div></div>
 </div>
 </div>
 <a id="a7cd635ec415dd2396e709e0602abafc0" name="a7cd635ec415dd2396e709e0602abafc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7cd635ec415dd2396e709e0602abafc0">&#9670;&#160;</a></span>setWidgetSize</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cd635ec415dd2396e709e0602abafc0">&#9670;&#160;</a></span>setWidgetSize <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12189,6 +12192,38 @@ Grid invisible</div></div>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>resize the plot </p>
+<div class="image">
+<img src="plot_widget_orientation.png" alt=""/>
+</div>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#jkqtplotter_base_plotsize">Plot Sizes &amp; Borders</a> </dd></dl>
+
+</div>
+</div>
+<a id="a7b862a12c0a29b009dd1a3d4979c0540" name="a7b862a12c0a29b009dd1a3d4979c0540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b862a12c0a29b009dd1a3d4979c0540">&#9670;&#160;</a></span>setWidgetSize <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTBasePlotter::setWidgetSize </td>
+          <td>(</td>
+          <td class="paramtype">QSize&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -13187,10 +13222,10 @@ Grid invisible</div></div>
   <table class="params">
     <tr><td class="paramname">zoomX</td><td>if set <code>true</code> (default) zooms the x axis </td></tr>
     <tr><td class="paramname">zoomY</td><td>if set <code>true</code> (default) zooms the y axis </td></tr>
-    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_245_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ x=0 $" src="form_245.png" width="33" height="18"/></picture> is visible in the plot (only for non-logx plots, default: false) </td></tr>
-    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_246_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ y=0 $" src="form_246.png" width="33" height="18"/></picture> is visible in the plot (only for non-logy plots, default: false) </td></tr>
-    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <picture><source srcset="form_247_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_247.png" width="33" height="18"/></picture> where <picture><source srcset="form_248_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x $" src="form_248.png" width="33" height="18"/></picture> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
-    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <picture><source srcset="form_249_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_249.png" width="33" height="18"/></picture> where <picture><source srcset="form_250_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta &lt; $" src="form_250.png" width="33" height="18"/></picture> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_234_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ x=0 $" src="form_234.png" width="33" height="18"/></picture> is visible in the plot (only for non-logx plots, default: false) </td></tr>
+    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_235_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ y=0 $" src="form_235.png" width="33" height="18"/></picture> is visible in the plot (only for non-logy plots, default: false) </td></tr>
+    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <picture><source srcset="form_236_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_236.png" width="33" height="18"/></picture> where <picture><source srcset="form_237_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x $" src="form_237.png" width="33" height="18"/></picture> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <picture><source srcset="form_238_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_238.png" width="33" height="18"/></picture> where <picture><source srcset="form_239_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta &lt; $" src="form_239.png" width="33" height="18"/></picture> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
   </table>
   </dd>
 </dl>
@@ -15706,7 +15741,7 @@ Grid invisible</div></div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a></li>
-    <li class="footer">Generated on Mon Jul 3 2023 10:01:19 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
+    <li class="footer">Generated on Fri Jul 21 2023 22:24:34 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
   </ul>
 </div>
 </body>

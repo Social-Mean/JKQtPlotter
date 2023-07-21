@@ -181,13 +181,23 @@ FIXED issue <a href="https://github.com/jkriege2/JKQtPlotter/pull/73">#73: Symbo
 <li>
 FIXED plot-size calculation for filled graphs </li>
 <li>
-FIXED issue #98: Signal <a class="el" href="class_j_k_q_t_plotter.html#a03df927374d96fcff7d9396cc51f6107" title="emitted when a single-click event from the mouse occurs inside the plot">JKQTPlotter::plotMouseWheelOperated()</a> was called with wrong x/y-position-coordinates, thanks to <a href="https://github.com/fpalazzolo">user:fpalazzolo</a> for reporting this bug</li>
+FIXED issue #98: Signal <a class="el" href="class_j_k_q_t_plotter.html#a03df927374d96fcff7d9396cc51f6107" title="emitted when a single-click event from the mouse occurs inside the plot">JKQTPlotter::plotMouseWheelOperated()</a> was called with wrong x/y-position-coordinates, thanks to <a href="https://github.com/fpalazzolo">user:fpalazzolo</a> for reporting this bug </li>
 <li>
-</li>
+FIXED: first symbol in symbols rotation was never used </li>
+<li>
+FIXED: color palettes with few entries (i.e. "step"-palettes) were not applied correctly </li>
+<li>
+FIXED: fixes strange rendering with distortions (especially in text!), by correcting size calculation of internal image buffer </li>
+<li>
+FIXED: exporting gridPrinting plots when using only a <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a> </li>
 <li>
 REORGANIZED: separated line-graphs from <a class="el" href="jkqtpscatter_8h_source.html">jkqtpscatter.h</a>/.cpp into <a class="el" href="jkqtplines_8h_source.html">jkqtplines.h</a>/.cpp </li>
 <li>
 IMPROVED: QT6-compatibility by removing deprecated warnings </li>
+<li>
+IMPROVED: added missing override declarations </li>
+<li>
+IMPROVED: <a class="el" href="class_j_k_q_t_plotter.html#af1508926706b090d38a4117a3b230fbe" title="delay for resizing in milliseconds">JKQTPlotter::jkqtp_RESIZE_DELAY</a> is thread-safe now (atomic) </li>
 <li>
 IMPROVED/REWORKED: reworked JKQTPErrorPlotstyle and error indicator plotting so error-inidcators can be specified as ORed combination of flags from JKQTPErrorPlotstyleElements, added additional error indicator styles (half-bars, arrows...) </li>
 <li>
@@ -196,6 +206,10 @@ IMPROVED/REWORKED: reworked JKQTPCADrawMode and coordinate axis drawing so the d
 IMPROVED/REWORKED: coordinate axis code was refactored </li>
 <li>
 IMPROVED/REWORKED: zomm/pan by mouse-wheel: now there are modes that support zoomin AND panning by trakpad and mouse-wheel simultaneously! This can only be implemented using heuristics, due to the way that Qt handles track-pad events, but the current solution should at least improve the behaviour seen before. Mainly <code>jkqtpmwaZoomByWheelAndTrackpadPan</code> was introduced into <code>JKQTPMouseWheelActions</code> und is set as default mode: Here <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> tries to distinguish the QWheelEvent s sent by an actual mouse wheel and a trackpad. </li>
+<li>
+IMPROVED/REWORKED: better example graphs in JKQTPlotterStyling. </li>
+<li>
+IMPROVED: documentation of styles: automatized doc image generation. </li>
 <li>
 NEW: <a class="el" href="class_j_k_q_t_p_filled_curve_x_graph.html" title="This implements filled curve plots where the area is filled between the plot line and the x-Axis.">JKQTPFilledCurveXGraph</a> and <a class="el" href="class_j_k_q_t_p_filled_curve_y_graph.html" title="This implements filled curve plots where the area is filled between the plot line and y-Axis.">JKQTPFilledCurveYGraph</a> can now plot wiggle plots with different fill styles above and below the baseline (feature request <a href="https://github.com/jkriege2/JKQtPlotter/issues/68">#68 Wiggle Plots</a> from <a href="https://github.com/xichaoqiang">user:xichaoqiang</a>  </li>
 <li>
@@ -225,7 +239,7 @@ NEW: added simple scatter plot <a class="el" href="class_j_k_q_t_p_x_y_scatter_g
 <li>
 NEW: made resize-timer status accessible from outside via <a class="el" href="class_j_k_q_t_plotter.html#a8ee41c69fe213a9f2e254f60b18f4153" title="returns true, if the JKQTPlotter::resizeTimer is currently running and the widget is waiting for the ...">JKQTPlotter::isResizeTimerRunning()</a>  </li>
 <li>
-NEW: made it's delay a global static variable that can be set and red with <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">JKQTPlotter::setGlobalResizeDelay()</a> and <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS.">JKQTPlotter::getGlobalResizeDelay()</a> </li>
+NEW: made it's delay a global static variable that can be set and red with <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">JKQTPlotter::setGlobalResizeDelay()</a> and <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS. This function is thread-safe!">JKQTPlotter::getGlobalResizeDelay()</a> </li>
 <li>
 NEW: Using <a class="el" href="class_j_k_q_t_math_text.html#ac4b34640c60fd3d407e185d12d90c487" title="configures the class to be used for GUI output, i.e. tries to find fonts that are harmonious for the ...">JKQTMathText::useGuiFonts()</a> for FONT rendering by default </li>
 <li>
@@ -263,6 +277,10 @@ NEW: you can provide a custom draw functor to barcharts to completely customize 
 NEW: barcharts and impulse graphs may now draw their baseline as stylable line (default: off) </li>
 <li>
 NEW: secondary axes: added functionality to manage additional secondary axes in a JKQTPBasePlotter and to select which x-/y-Axis to use for drawing a <a class="el" href="class_j_k_q_t_p_plot_element.html" title="this virtual base class of every element, which is part of a JKQTPlotter plot and may appear in its k...">JKQTPPlotElement</a> </li>
+<li>
+NEW: You can use additional syntax derived from CCS to define colors in style.ini.files (or when using <a class="el" href="group__jkqtptools__string.html#gaf39bceb2e99d604ecb95349a3b047d16" title="converts a QString into a QColor, compatible with jkqtp_QColor2String(QColor color);">jkqtp_String2QColor()</a> ): You can use full CSS-color syntax with functions <code>"rgb(R,G,B)"</code>, <code>"rgba(...)"</code>, <code>"hsl(...)"</code>, <code>"hsv(...)"</code>, <code>"gray(...)"</code>, <code>"green(...)"</code>, <code>"red(...)"</code>, <code>"blue(...)"</code>. </li>
+<li>
+NEW: several new color palettes (especially stepped/categorial palettes), e.g. JKQTPMathImageColorPalette::JKQTPMathImageOkabeIto_STEP, JKQTPMathImageColorPalette::JKQTPMathImageIBMColorBlindSafe, JKQTPMathImageColorPalette::JKQTPMathImageIBMColorBlindSafe_STEP, ... </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -664,7 +682,7 @@ Latest Release/Tag: <a href="https://github.com/jkriege2/JKQtPlotter/releases/ta
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 3 2023 10:01:18 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
+    <li class="footer">Generated on Fri Jul 21 2023 22:24:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
   </ul>
 </div>
 </body>

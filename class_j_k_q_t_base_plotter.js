@@ -377,6 +377,7 @@ var class_j_k_q_t_base_plotter =
     [ "setUserSettigsPrefix", "class_j_k_q_t_base_plotter.html#a1989fdd628f6172bbe22058f99ffc2d0", null ],
     [ "setWidgetHeight", "class_j_k_q_t_base_plotter.html#a923eb0d822944e7d170b3493d1ced519", null ],
     [ "setWidgetSize", "class_j_k_q_t_base_plotter.html#a7cd635ec415dd2396e709e0602abafc0", null ],
+    [ "setWidgetSize", "class_j_k_q_t_base_plotter.html#a7b862a12c0a29b009dd1a3d4979c0540", null ],
     [ "setWidgetWidth", "class_j_k_q_t_base_plotter.html#a783d94ea8bab92e9689070a005ecf538", null ],
     [ "setX", "class_j_k_q_t_base_plotter.html#ad76dc49855ecd3da40e98b30110e51d3", null ],
     [ "setXY", "class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1", null ],

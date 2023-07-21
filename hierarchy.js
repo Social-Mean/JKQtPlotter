@@ -317,6 +317,9 @@ var hierarchy =
     [ "QLabel", null, [
       [ "JKQTMathTextLabel", "class_j_k_q_t_math_text_label.html", null ]
     ] ],
+    [ "QList", null, [
+      [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html", null ]
+    ] ],
     [ "QObject", null, [
       [ "JKQTBasePlotter", "class_j_k_q_t_base_plotter.html", null ],
       [ "JKQTFPPlot", "class_j_k_q_t_f_p_plot.html", [

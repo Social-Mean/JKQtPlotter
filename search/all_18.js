@@ -3,7 +3,7 @@ var searchData=
   ['what_0',['what',['../class_j_k_q_t_p_math_parser_1_1jkmp_exception.html#aeb2ee6c47d206c716b73625410a56238',1,'JKQTPMathParser::jkmpException']]],
   ['what_27s_20new_20_28release_20notes_2fversions_29_1',['What&apos;s New (Release Notes/Versions)',['../page_whatsnew.html',1,'']]],
   ['wheelactiontype_2',['WheelActionType',['../class_j_k_q_t_plotter.html#a1bb83e4dcde949ffd827bfcc824fad46',1,'JKQTPlotter']]],
-  ['wheelevent_3',['wheelEvent',['../class_j_k_q_t_plotter.html#a629f1c7f08304d0f27a2eb519da052f9',1,'JKQTPlotter']]],
+  ['wheelevent_3',['wheelEvent',['../class_j_k_q_t_plotter.html#aabbb1a38b1d1dc36db13d882760cfaef',1,'JKQTPlotter']]],
   ['whiskercaplinewidth_4',['whiskerCapLineWidth',['../class_j_k_q_t_p_graph_boxplot_style_mixin.html#a0158356b8507ab9d9e533fb8b8400e15',1,'JKQTPGraphBoxplotStyleMixin::whiskerCapLineWidth'],['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a879c6a61d231083e5c72e68c8788620c',1,'JKQTPGraphViolinplotStyleMixin::whiskerCapLineWidth']]],
   ['whiskerlinewidth_5',['whiskerLineWidth',['../class_j_k_q_t_p_graph_boxplot_style_mixin.html#aacc7b80bdff2e11a41a3486d38b496ad',1,'JKQTPGraphBoxplotStyleMixin::whiskerLineWidth'],['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a0b8e1bab859647d68d0de5127d7888eb',1,'JKQTPGraphViolinplotStyleMixin::whiskerLineWidth']]],
   ['whitespace_6',['whitespace',['../class_j_k_q_t_math_text_whitespace_node.html#a1bae4098e39c5deca81450f7507ca706',1,'JKQTMathTextWhitespaceNode']]],

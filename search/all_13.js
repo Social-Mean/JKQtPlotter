@@ -67,7 +67,7 @@ var searchData=
   ['resize_64',['resize',['../class_j_k_q_t_p_datastore_item.html#ac9fbf2a6fda1a256d8ebba3283cb450e',1,'JKQTPDatastoreItem']]],
   ['resizecolumn_65',['resizeColumn',['../class_j_k_q_t_p_datastore.html#a6648af1cec252e63e84368179072d21e',1,'JKQTPDatastore']]],
   ['resizecolumns_66',['resizeColumns',['../class_j_k_q_t_p_datastore_item.html#aafa690700972f40864c54d39a3870705',1,'JKQTPDatastoreItem']]],
-  ['resizeevent_67',['resizeEvent',['../class_j_k_q_t_fast_plotter.html#a7cf1891eb055091ee4a9087ecc4c3f84',1,'JKQTFastPlotter::resizeEvent()'],['../class_j_k_q_t_plotter.html#aac9ca452a7d8cd096245c5f634b30960',1,'JKQTPlotter::resizeEvent()']]],
+  ['resizeevent_67',['resizeEvent',['../class_j_k_q_t_fast_plotter.html#a7cf1891eb055091ee4a9087ecc4c3f84',1,'JKQTFastPlotter::resizeEvent()'],['../class_j_k_q_t_plotter.html#a250b173051a2010e004f45e4d47c067e',1,'JKQTPlotter::resizeEvent()']]],
   ['resizeimagecolumn_68',['resizeImageColumn',['../class_j_k_q_t_p_datastore.html#ab04565d513a6830dcc58d035b685b3fa',1,'JKQTPDatastore']]],
   ['resizetimer_69',['resizeTimer',['../class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46',1,'JKQTPlotter']]],
   ['rgbmode_70',['rgbMode',['../class_j_k_q_t_p_r_g_b_math_image.html#a0f76228d327300dfec5f962244f9e955',1,'JKQTPRGBMathImage']]],

@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['n_0',['N',['../struct_j_k_q_t_p_stat5_number_statistics.html#ae7ebc60cc78aa4e8a9dd5393663ff6a9',1,'JKQTPStat5NumberStatistics']]],
+  ['n_0',['N',['../class_j_k_q_t_f_p_line_plot.html#a90de2dddbc42d7ec0eb104c756389a59',1,'JKQTFPLinePlot::N'],['../struct_j_k_q_t_p_stat5_number_statistics.html#ae7ebc60cc78aa4e8a9dd5393663ff6a9',1,'JKQTPStat5NumberStatistics::N']]],
   ['n_1',['n',['../class_j_k_q_t_p_math_parser_1_1jkmp_function_node.html#afa64aad4744d9a3e333248f4f4f0ae5f',1,'JKQTPMathParser::jkmpFunctionNode']]],
-  ['n_2',['N',['../class_j_k_q_t_f_p_line_plot.html#a90de2dddbc42d7ec0eb104c756389a59',1,'JKQTFPLinePlot']]],
-  ['name_3',['name',['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a5159aefec75812e960ecc5f6bf9f272e',1,'JKQTPImageTools::LUTData::name'],['../group__jkqtptools__math__parser.html#a5b1ff4fb042a2eb38919ad7c647cc18d',1,'JKQTPMathParser::jkmpTempVariable::name'],['../group__jkqtptools__math__parser.html#a6c9289cfdb89ed3ec6e3e1549eee6f1c',1,'JKQTPMathParser::jkmpFunctionDescriptor::name'],['../class_j_k_q_t_p_column.html#aa51d875ada3d6482bcb13525bc6b1c86',1,'JKQTPColumn::name']]],
-  ['namet_4',['nameT',['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a09d8abd1357f527d06ef7f5227b9ddda',1,'JKQTPImageTools::LUTData']]],
-  ['nancolor_5',['nanColor',['../class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#ae5fc521473f4ed69b0e2e593e34ec217',1,'JKQTPColorPaletteStyleAndToolsMixin']]],
+  ['name_2',['name',['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a5159aefec75812e960ecc5f6bf9f272e',1,'JKQTPImageTools::LUTData::name'],['../group__jkqtptools__math__parser.html#a5b1ff4fb042a2eb38919ad7c647cc18d',1,'JKQTPMathParser::jkmpTempVariable::name'],['../group__jkqtptools__math__parser.html#a6c9289cfdb89ed3ec6e3e1549eee6f1c',1,'JKQTPMathParser::jkmpFunctionDescriptor::name'],['../class_j_k_q_t_p_column.html#aa51d875ada3d6482bcb13525bc6b1c86',1,'JKQTPColumn::name']]],
+  ['namet_3',['nameT',['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a09d8abd1357f527d06ef7f5227b9ddda',1,'JKQTPImageTools::LUTData']]],
+  ['nancolor_4',['nanColor',['../class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#ae5fc521473f4ed69b0e2e593e34ec217',1,'JKQTPColorPaletteStyleAndToolsMixin']]],
+  ['ndefaultsteps_5',['NDEFAULTSTEPS',['../struct_j_k_q_t_p_image_tools.html#abdc1b97763a24f0b6c7f4570c87c3625',1,'JKQTPImageTools']]],
   ['nobrush_6',['NoBrush',['../struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html#a3c22b993239ff2d235bb3518e5fea1a5',1,'JKQTMathTextBoxInstructionNode::InstructionProperties']]],
   ['node_7',['node',['../group__jkqtplotter__functiongraphs.html#a60b38e83f11c97234ca3aea39260c482',1,'JKQTPParsedFunctionLineGraphBase::ParsedFunctionLineGraphFunctionData']]],
   ['nodes_8',['nodes',['../class_j_k_q_t_math_text_horizontal_list_node.html#a88b43fa1006509df7117e45262bd06a7',1,'JKQTMathTextHorizontalListNode::nodes'],['../class_j_k_q_t_math_text_vertical_list_node.html#a71619a344947fa15c8cc9172fb1d9c33',1,'JKQTMathTextVerticalListNode::nodes']]],

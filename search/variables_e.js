@@ -1,7 +1,7 @@
 var searchData=
 [
   ['offset_0',['offset',['../class_j_k_q_t_p_coordinate_axis.html#a6751185ad7bd6c874590ccfc1a338d73',1,'JKQTPCoordinateAxis']]],
-  ['oldimage_1',['oldImage',['../class_j_k_q_t_fast_plotter.html#a03068bdd5160105fb428f675770a01f2',1,'JKQTFastPlotter::oldImage'],['../class_j_k_q_t_plotter.html#a93cd76e2f6508d3066e2bccf2935e687',1,'JKQTPlotter::oldImage']]],
+  ['oldimage_1',['oldImage',['../class_j_k_q_t_fast_plotter.html#a03068bdd5160105fb428f675770a01f2',1,'JKQTFastPlotter::oldImage'],['../class_j_k_q_t_plotter.html#a91c76eb94b23d346e483911f48e192e7',1,'JKQTPlotter::oldImage']]],
   ['openbrace_2',['openbrace',['../class_j_k_q_t_math_text_brace_node.html#a0f82b600da0455e42e1e31a9c60800cd',1,'JKQTMathTextBraceNode']]],
   ['openbraceheight_3',['openBraceHeight',['../struct_j_k_q_t_math_text_brace_node_1_1_node_size.html#a405c2f5790624ca79dc241e01d797ac1',1,'JKQTMathTextBraceNode::NodeSize']]],
   ['openbracewidth_4',['openBraceWidth',['../struct_j_k_q_t_math_text_brace_node_1_1_node_size.html#a47ce42a5ce32d9afdd2c9027ee5ddac4',1,'JKQTMathTextBraceNode::NodeSize']]],
