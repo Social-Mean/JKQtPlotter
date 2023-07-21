@@ -27,12 +27,12 @@ var NAVTREE =
   [ "JKQTPlotter", "index.html", [
     [ "JKQTPlotter - A Qt Plotting Library", "index.html", "index" ],
     [ "Contributor Covenant Code of Conduct", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html", [
-      [ "Our Pledge", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2", null ],
-      [ "Our Standards", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3", null ],
-      [ "Our Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4", null ],
-      [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5", null ],
-      [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6", null ],
-      [ "Attribution", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md7", null ]
+      [ "Our Pledge", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md1", null ],
+      [ "Our Standards", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2", null ],
+      [ "Our Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3", null ],
+      [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4", null ],
+      [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5", null ],
+      [ "Attribution", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6", null ]
     ] ],
     [ "Contributing", "md__c_o_n_t_r_i_b_u_t_i_n_g.html", [
       [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8", null ],
@@ -143,14 +143,14 @@ var NAVTREE =
       [ "Robust Linear Regression", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md43", null ],
       [ "Weighted Linear Regression", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md44", null ],
       [ "Linearizable Regression Models", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md45", null ],
-      [ "Polynom Fitting", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md48", null ],
-      [ "Screenshot of the full Program", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md51", null ]
+      [ "Polynom Fitting", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md46", null ],
+      [ "Screenshot of the full Program", "md_examples_2datastore__regression_2_r_e_a_d_m_e.html#autotoc_md47", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Advanced 1-Dimensional Statistics with JKQTPDatastore", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html", [
-      [ "Generating different sets of random numbers", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md46", null ],
-      [ "Basic Statistics", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md47", null ],
-      [ "Boxplots", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md49", [
-        [ "Standard Boxplots", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md50", null ],
+      [ "Generating different sets of random numbers", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md48", null ],
+      [ "Basic Statistics", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md49", null ],
+      [ "Boxplots", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md50", [
+        [ "Standard Boxplots", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md51", null ],
         [ "Boxplots with Outliers", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md52", null ]
       ] ],
       [ "Histograms", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md53", null ],
@@ -159,15 +159,15 @@ var NAVTREE =
       [ "Screenshot of the full Program", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md56", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Advanced 2-Dimensional Statistics with JKQTPDatastore", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html", [
-      [ "Generating different sets of random numbers", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md59", null ],
-      [ "Marginal Statistics", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md60", null ],
+      [ "Generating different sets of random numbers", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md58", null ],
+      [ "Marginal Statistics", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md59", null ],
       [ "2D Histogram", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md61", null ],
       [ "Kernel Density Estimates (KDE)", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md62", null ],
       [ "Screenshot of the full Program", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md63", null ]
     ] ],
     [ "Example (JKQTPlotter): Date/Time Axes", "md_examples_2dateaxes_2_r_e_a_d_m_e.html", [
       [ "Date Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md57", null ],
-      [ "Time Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md58", null ]
+      [ "Time Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md60", null ]
     ] ],
     [ "Example (JKQTPlotter): Plotting a Statistical Distribution of Data", "md_examples_2distributionplot_2_r_e_a_d_m_e.html", null ],
     [ "Example (JKQTPlotter): Different Types of Errorindicators", "md_examples_2errorbarstyles_2_r_e_a_d_m_e.html", null ],

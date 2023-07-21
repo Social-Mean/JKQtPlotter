@@ -12,7 +12,7 @@ var group__jkqtplotter__imagelots__tools___l_u_t_s =
       [ "ListType", "class_j_k_q_t_p_palette_list.html#a5792c4eca4df6ea0c09cf15a2b4eca1e", null ],
       [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html#a69612516a2c3c31656d53c95b3e72e03", null ],
       [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html#a35052149bf2a20ac6fba82f72023fbd9", null ],
-      [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html#ae3960daf79501fc02aa6f9f3bda6bc84", null ],
+      [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html#ab904803a4fc8f144e82299e7336c6381", null ],
       [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html#a8bfea2ee5b0553c7e80225afd174b225", null ],
       [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html#af62aa190304745ee08cb29bdd5ed5daa", null ],
       [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html#a5cbf1a042fa98aa5ef2d6e4d751cef3c", null ],
