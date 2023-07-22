@@ -1,9 +1,10 @@
 var class_j_k_q_t_p_palette_list =
 [
-    [ "ListType", "class_j_k_q_t_p_palette_list.html#a5792c4eca4df6ea0c09cf15a2b4eca1e", null ],
+    [ "ListType", "class_j_k_q_t_p_palette_list.html#a06ca4d3ee1b164cd2af02727d17eb7e3", null ],
+    [ "parameter_type", "class_j_k_q_t_p_palette_list.html#abdf1058db279a283d4dece4379884782", null ],
     [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html#a69612516a2c3c31656d53c95b3e72e03", null ],
     [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html#a35052149bf2a20ac6fba82f72023fbd9", null ],
-    [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html#ab904803a4fc8f144e82299e7336c6381", null ],
+    [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html#abb4aae51731c2d744bfcb143e75cb497", null ],
     [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html#a8bfea2ee5b0553c7e80225afd174b225", null ],
     [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html#af62aa190304745ee08cb29bdd5ed5daa", null ],
     [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html#a5cbf1a042fa98aa5ef2d6e4d751cef3c", null ],

@@ -159,15 +159,15 @@ var NAVTREE =
       [ "Screenshot of the full Program", "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md56", null ]
     ] ],
     [ "Tutorial (JKQTPDatastore): Advanced 2-Dimensional Statistics with JKQTPDatastore", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html", [
-      [ "Generating different sets of random numbers", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md58", null ],
-      [ "Marginal Statistics", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md59", null ],
-      [ "2D Histogram", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md61", null ],
-      [ "Kernel Density Estimates (KDE)", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md62", null ],
-      [ "Screenshot of the full Program", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md63", null ]
+      [ "Generating different sets of random numbers", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md57", null ],
+      [ "Marginal Statistics", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md58", null ],
+      [ "2D Histogram", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md59", null ],
+      [ "Kernel Density Estimates (KDE)", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md60", null ],
+      [ "Screenshot of the full Program", "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md61", null ]
     ] ],
     [ "Example (JKQTPlotter): Date/Time Axes", "md_examples_2dateaxes_2_r_e_a_d_m_e.html", [
-      [ "Date Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md57", null ],
-      [ "Time Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md60", null ]
+      [ "Date Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md62", null ],
+      [ "Time Axis", "md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md63", null ]
     ] ],
     [ "Example (JKQTPlotter): Plotting a Statistical Distribution of Data", "md_examples_2distributionplot_2_r_e_a_d_m_e.html", null ],
     [ "Example (JKQTPlotter): Different Types of Errorindicators", "md_examples_2errorbarstyles_2_r_e_a_d_m_e.html", null ],
@@ -354,18 +354,18 @@ var NAVTREEINDEX =
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#a4583be1a2d2e36da4a6b26777d421dda",
 "class_j_k_q_t_p_impulses_vertical_error_graph.html#a2adb629dc85c8983d86b4d31ef630828",
 "class_j_k_q_t_p_math_parser.html#aa6c635020afd61962e923d73f5c117b0",
-"class_j_k_q_t_p_plot_element.html#a623fe77049246abda428b0ca8484f434",
-"class_j_k_q_t_p_single_column_graph.html#a380fd5a845807aa41a8c092cf53c7386",
-"class_j_k_q_t_p_x_x_y_graph.html#a818a809adfbb9c290b2f4e8967ed4965",
-"class_j_k_q_t_p_y_graph_error_data.html#a74ae0a8a652b0530bdabf5f6c31e2142",
-"class_j_k_q_t_plotter.html#acd3d7045c370e4c5c29d5904ce4c3484",
-"group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7eada49d41cf3a0dc240d02f8d52b552f98",
-"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da58c8f880080c0b021d956ff792b15682",
-"group__jkqtpplottersupprt.html#ggad4929dc37ab4326c404de91ef6a60f17a11c4ebf8a78eac0b2c6f50ba86274ef6",
-"group__jkqtptools__math__basic.html#gaf65c45af31289372105c13b5970aa7a2",
-"index.html",
-"struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html",
-"struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html"
+"class_j_k_q_t_p_plot_element.html#a5c248e02554c4c5e81b4e11f670457a2",
+"class_j_k_q_t_p_single_column_graph.html#a35a39e73cedc06255d8535ef4935e943",
+"class_j_k_q_t_p_x_x_y_graph.html#a609ebcf878aaa92254f421936330f9e9",
+"class_j_k_q_t_p_y_graph_error_data.html#a73f97ed561d2384c35e619f3d4ee0928",
+"class_j_k_q_t_plotter.html#acc0a8a6f39cff8145222cde6e879e29b",
+"group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7eacafc417cb6731fab6a5cb811077ba1a7",
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da5550c02ad7d4196c2e705ac2f82fa5ae",
+"group__jkqtpplottersupprt.html#gga80d2235c912ead563f404f4e7f331137acfd0fd9b04759532d1e97e05b1804d25",
+"group__jkqtptools__math__basic.html#gaf1f20cb4d30238e749064094e9453289",
+"hierarchy.html",
+"struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html#ae60626a5d2751a0d53b47253059867ab",
+"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#ad245c825e721888105ea37b4b67a7faf"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

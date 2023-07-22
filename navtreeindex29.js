@@ -1,7 +1,8 @@
 var NAVTREEINDEX29 =
 {
-"index.html":[],
+"hierarchy.html":[77,2],
 "index.html":[0],
+"index.html":[],
 "index.html#jkqtp_main_features":[0,0],
 "index.html#jkqtplottertic":[0,1],
 "licensepage.html":[5],
@@ -84,14 +85,14 @@ var NAVTREEINDEX29 =
 "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md55":[21,5],
 "md_examples_2datastore__statistics_2_r_e_a_d_m_e.html#autotoc_md56":[21,6],
 "md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html":[22],
-"md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md58":[22,0],
-"md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md59":[22,1],
-"md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md61":[22,2],
-"md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md62":[22,3],
-"md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md63":[22,4],
+"md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md57":[22,0],
+"md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md58":[22,1],
+"md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md59":[22,2],
+"md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md60":[22,3],
+"md_examples_2datastore__statistics__2d_2_r_e_a_d_m_e.html#autotoc_md61":[22,4],
 "md_examples_2dateaxes_2_r_e_a_d_m_e.html":[23],
-"md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md57":[23,0],
-"md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md60":[23,1],
+"md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md62":[23,0],
+"md_examples_2dateaxes_2_r_e_a_d_m_e.html#autotoc_md63":[23,1],
 "md_examples_2distributionplot_2_r_e_a_d_m_e.html":[24],
 "md_examples_2errorbarstyles_2_r_e_a_d_m_e.html":[25],
 "md_examples_2evalcurve_2_r_e_a_d_m_e.html":[26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "struct_j_k_q_t_base_plotter_1_1all_plot_elements.html#af637a181dc1093ae94383a0312e449df":[75,4,1,2,0,0],
 "struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html":[75,4,1,2,1],
 "struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html#a2a00a02d48343497fb3a2dee10c382f5":[75,4,1,2,1,1],
-"struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html#aaa9428f2a9ef5b23741bbec9424700f7":[75,4,1,2,1,0],
-"struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html#ae60626a5d2751a0d53b47253059867ab":[75,4,1,2,1,2]
+"struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html#aaa9428f2a9ef5b23741bbec9424700f7":[75,4,1,2,1,0]
 };
