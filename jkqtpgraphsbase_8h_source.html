@@ -228,7 +228,7 @@ $(document).ready(function(){initNavTree('jkqtpgraphsbase_8h_source.html',''); i
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        Q_PROPERTY(<span class="keywordtype">bool</span> visible READ isVisible WRITE setVisible)</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        Q_PROPERTY(QString title READ getTitle WRITE setTitle)</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        Q_PROPERTY(<span class="keywordtype">bool</span> highlighted READ isHighlighted WRITE setHighlighted)</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keyword">public</span> slots:<span class="comment"></span></div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keyword">public</span> Q_SLOTS:<span class="comment"></span></div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="comment">        /** \brief sets whether the graph is visible in the plot  */</span></div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_plot_element.html#a173c0b1106704cdc5e89a8c4e276d46a">  115</a></span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="class_j_k_q_t_p_plot_element.html#a173c0b1106704cdc5e89a8c4e276d46a">setVisible</a>(<span class="keywordtype">bool</span> __value);<span class="comment"></span></div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="comment">        /** \brief sets whether the graph is drawn in a highlighted style in the plot  */</span></div>
@@ -617,7 +617,7 @@ $(document).ready(function(){initNavTree('jkqtpgraphsbase_8h_source.html',''); i
 <div class="line"><a id="l00499" name="l00499"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_geometric_plot_element.html#a62eb997758b764a57101f4619e25f13c">  499</a></span>    <a class="code hl_enumeration" href="class_j_k_q_t_p_geometric_plot_element.html#a2947668a58c1c3e9db7b311294dee7d5">DrawMode</a> getDrawMode() const;</div>
 <div class="line"><a id="l00500" name="l00500"></a><span class="lineno">  500</span> </div>
 <div class="line"><a id="l00501" name="l00501"></a><span class="lineno">  501</span>    Q_PROPERTY(<a class="code hl_enumeration" href="class_j_k_q_t_p_geometric_plot_element.html#a2947668a58c1c3e9db7b311294dee7d5">DrawMode</a> drawMode READ getDrawMode WRITE setDrawMode)</div>
-<div class="line"><a id="l00502" name="l00502"></a><span class="lineno">  502</span>public slots:<span class="comment"></span></div>
+<div class="line"><a id="l00502" name="l00502"></a><span class="lineno">  502</span>public Q_SLOTS:<span class="comment"></span></div>
 <div class="line"><a id="l00503" name="l00503"></a><span class="lineno">  503</span><span class="comment">    /** \copybrief m_drawMode</span></div>
 <div class="line"><a id="l00504" name="l00504"></a><span class="lineno">  504</span><span class="comment">         *</span></div>
 <div class="line"><a id="l00505" name="l00505"></a><span class="lineno">  505</span><span class="comment">         *  \param mode the DrawMode to use from now on</span></div>
@@ -662,7 +662,7 @@ $(document).ready(function(){initNavTree('jkqtpgraphsbase_8h_source.html',''); i
 <div class="line"><a id="l00544" name="l00544"></a><span class="lineno">  544</span><span class="comment">    /** \brief default wirtual destructor */</span></div>
 <div class="line"><a id="l00545" name="l00545"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_plot_annotation_element.html#a16924bd5a383846bac90c7d0b3466695">  545</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="class_j_k_q_t_p_plot_annotation_element.html#a16924bd5a383846bac90c7d0b3466695">~JKQTPPlotAnnotationElement</a>() ;</div>
 <div class="line"><a id="l00546" name="l00546"></a><span class="lineno">  546</span> </div>
-<div class="line"><a id="l00547" name="l00547"></a><span class="lineno">  547</span><span class="keyword">public</span> slots:</div>
+<div class="line"><a id="l00547" name="l00547"></a><span class="lineno">  547</span><span class="keyword">public</span> Q_SLOTS:</div>
 <div class="line"><a id="l00548" name="l00548"></a><span class="lineno">  548</span> </div>
 <div class="line"><a id="l00549" name="l00549"></a><span class="lineno">  549</span><span class="keyword">protected</span>:</div>
 <div class="line"><a id="l00550" name="l00550"></a><span class="lineno">  550</span> </div>
@@ -748,7 +748,7 @@ $(document).ready(function(){initNavTree('jkqtpgraphsbase_8h_source.html',''); i
 <div class="line"><a id="l00630" name="l00630"></a><span class="lineno">  630</span><span class="comment">     * \see See JKQTPPlotElement::hitTest() for details on the function definition!</span></div>
 <div class="line"><a id="l00631" name="l00631"></a><span class="lineno">  631</span><span class="comment">     */</span></div>
 <div class="line"><a id="l00632" name="l00632"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_x_y_graph.html#a94b9090d54f4bb5ae48cf9c58b217069">  632</a></span>    virtual <span class="keywordtype">double</span> hitTest(const QPointF &amp;posSystem, QPointF* closestSpotSystem=<span class="keywordtype">nullptr</span>, QString* label=<span class="keywordtype">nullptr</span>, <a class="code hl_enumeration" href="class_j_k_q_t_p_plot_element.html#ada033e8fe68bbb9d24a28602ea969332">HitTestMode</a> mode=HitTestXY) const override;</div>
-<div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span>public slots:<span class="comment"></span></div>
+<div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span>public Q_SLOTS:<span class="comment"></span></div>
 <div class="line"><a id="l00634" name="l00634"></a><span class="lineno">  634</span><span class="comment">    /** \brief sets xColumn and yColumn at the same time */</span></div>
 <div class="line"><a id="l00635" name="l00635"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_x_y_graph.html#a972ee50c53accadade8880b3bd1110cc">  635</a></span>    <span class="keywordtype">void</span> setXYColumns(<span class="keywordtype">size_t</span> xCol, <span class="keywordtype">size_t</span> yCol);<span class="comment"></span></div>
 <div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span><span class="comment">    /** \brief sets xColumn and yColumn at the same time */</span></div>
@@ -831,7 +831,7 @@ $(document).ready(function(){initNavTree('jkqtpgraphsbase_8h_source.html',''); i
 <div class="line"><a id="l00713" name="l00713"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_x_y_baseline_graph.html#a004a8e1c1695a5673214929564dec8e5">  713</a></span>    <span class="keywordtype">double</span> getBaseline() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00714" name="l00714"></a><span class="lineno">  714</span> </div>
 <div class="line"><a id="l00715" name="l00715"></a><span class="lineno">  715</span>    Q_PROPERTY(<span class="keywordtype">double</span> baseline READ getBaseline WRITE setBaseline)</div>
-<div class="line"><a id="l00716" name="l00716"></a><span class="lineno">  716</span><span class="keyword">public</span> slots:<span class="comment"></span></div>
+<div class="line"><a id="l00716" name="l00716"></a><span class="lineno">  716</span><span class="keyword">public</span> Q_SLOTS:<span class="comment"></span></div>
 <div class="line"><a id="l00717" name="l00717"></a><span class="lineno">  717</span><span class="comment">    /** \copydoc m_baseline */</span></div>
 <div class="line"><a id="l00718" name="l00718"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_x_y_baseline_graph.html#a8a0d886b3f92bf298e27e2b1cddaaf75">  718</a></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_j_k_q_t_p_x_y_baseline_graph.html#a8a0d886b3f92bf298e27e2b1cddaaf75">setBaseline</a>(<span class="keywordtype">double</span> __value);</div>
 <div class="line"><a id="l00719" name="l00719"></a><span class="lineno">  719</span> </div>
@@ -888,7 +888,7 @@ $(document).ready(function(){initNavTree('jkqtpgraphsbase_8h_source.html',''); i
 <div class="line"><a id="l00770" name="l00770"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_x_y_y_graph.html#aad98c96084b973da4b060bf5053e31ce">  770</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code hl_function" href="class_j_k_q_t_p_x_y_y_graph.html#aad98c96084b973da4b060bf5053e31ce">hitTest</a>(<span class="keyword">const</span> QPointF &amp;posSystem, QPointF* closestSpotSystem=<span class="keyword">nullptr</span>, QString* label=<span class="keyword">nullptr</span>, <a class="code hl_enumeration" href="class_j_k_q_t_p_plot_element.html#ada033e8fe68bbb9d24a28602ea969332">HitTestMode</a> mode=HitTestXY) <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00771" name="l00771"></a><span class="lineno">  771</span> </div>
 <div class="line"><a id="l00772" name="l00772"></a><span class="lineno">  772</span>    Q_PROPERTY(<span class="keywordtype">int</span> yColumn2 READ getYColumn2 WRITE setYColumn2)</div>
-<div class="line"><a id="l00773" name="l00773"></a><span class="lineno">  773</span><span class="keyword">public</span> slots:<span class="comment"></span></div>
+<div class="line"><a id="l00773" name="l00773"></a><span class="lineno">  773</span><span class="keyword">public</span> Q_SLOTS:<span class="comment"></span></div>
 <div class="line"><a id="l00774" name="l00774"></a><span class="lineno">  774</span><span class="comment">    /** \brief sets xColumn, yColumn and yColumn2 at the same time */</span></div>
 <div class="line"><a id="l00775" name="l00775"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_x_y_y_graph.html#a0ae30bcc1edb3fc39dc483f4cb750a24">  775</a></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_j_k_q_t_p_x_y_y_graph.html#a0ae30bcc1edb3fc39dc483f4cb750a24">setXYYColumns</a>(<span class="keywordtype">size_t</span> xCol, <span class="keywordtype">size_t</span> yCol, <span class="keywordtype">size_t</span> y2Col);<span class="comment"></span></div>
 <div class="line"><a id="l00776" name="l00776"></a><span class="lineno">  776</span><span class="comment">    /** \brief sets xColumn, yColumn and yColumn2 at the same time */</span></div>
@@ -949,7 +949,7 @@ $(document).ready(function(){initNavTree('jkqtpgraphsbase_8h_source.html',''); i
 <div class="line"><a id="l00831" name="l00831"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_x_x_y_graph.html#ac3440ef5535002bf7646d74eb9229e28">  831</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code hl_function" href="class_j_k_q_t_p_x_x_y_graph.html#ac3440ef5535002bf7646d74eb9229e28">hitTest</a>(<span class="keyword">const</span> QPointF &amp;posSystem, QPointF* closestSpotSystem=<span class="keyword">nullptr</span>, QString* label=<span class="keyword">nullptr</span>, <a class="code hl_enumeration" href="class_j_k_q_t_p_plot_element.html#ada033e8fe68bbb9d24a28602ea969332">HitTestMode</a> mode=HitTestXY) <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00832" name="l00832"></a><span class="lineno">  832</span> </div>
 <div class="line"><a id="l00833" name="l00833"></a><span class="lineno">  833</span>    Q_PROPERTY(<span class="keywordtype">int</span> xColumn2 READ getXColumn2 WRITE setXColumn2)</div>
-<div class="line"><a id="l00834" name="l00834"></a><span class="lineno">  834</span><span class="keyword">public</span> slots:<span class="comment"></span></div>
+<div class="line"><a id="l00834" name="l00834"></a><span class="lineno">  834</span><span class="keyword">public</span> Q_SLOTS:<span class="comment"></span></div>
 <div class="line"><a id="l00835" name="l00835"></a><span class="lineno">  835</span><span class="comment">    /** \brief sets xColumn, yColumn and xColumn2 at the same time */</span></div>
 <div class="line"><a id="l00836" name="l00836"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_x_x_y_graph.html#a91b091b155ecae88fb1480d756ddd10b">  836</a></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_j_k_q_t_p_x_x_y_graph.html#a91b091b155ecae88fb1480d756ddd10b">setXXYColumns</a>(<span class="keywordtype">size_t</span> xCol, <span class="keywordtype">size_t</span> x2Col, <span class="keywordtype">size_t</span> yCol);<span class="comment"></span></div>
 <div class="line"><a id="l00837" name="l00837"></a><span class="lineno">  837</span><span class="comment">    /** \brief sets xColumn, yColumn and xColumn2 at the same time */</span></div>
@@ -1031,7 +1031,7 @@ $(document).ready(function(){initNavTree('jkqtpgraphsbase_8h_source.html',''); i
 <div class="line"><a id="l00913" name="l00913"></a><span class="lineno">  913</span>        Q_PROPERTY(<span class="keywordtype">int</span> dataColumn READ getDataColumn WRITE setDataColumn)</div>
 <div class="line"><a id="l00914" name="l00914"></a><span class="lineno">  914</span>        Q_PROPERTY(<a class="code hl_enumeration" href="class_j_k_q_t_p_single_column_graph.html#aa19dda7808d6a4a161e269e47ea61814">DataDirection</a> dataDirection READ getDataDirection WRITE setDataDirection)</div>
 <div class="line"><a id="l00915" name="l00915"></a><span class="lineno">  915</span> </div>
-<div class="line"><a id="l00916" name="l00916"></a><span class="lineno">  916</span>    public slots:<span class="comment"></span></div>
+<div class="line"><a id="l00916" name="l00916"></a><span class="lineno">  916</span>    public Q_SLOTS:<span class="comment"></span></div>
 <div class="line"><a id="l00917" name="l00917"></a><span class="lineno">  917</span><span class="comment">        /** \copydoc dataColumn */</span></div>
 <div class="line"><a id="l00918" name="l00918"></a><span class="lineno"><a class="line" href="class_j_k_q_t_p_single_column_graph.html#a6db5959dfcf7782c71c9aff103f0bc7d">  918</a></span>        <span class="keywordtype">void</span> setDataColumn(<span class="keywordtype">int</span> __value);<span class="comment"></span></div>
 <div class="line"><a id="l00919" name="l00919"></a><span class="lineno">  919</span><span class="comment">        /** \copydoc dataColumn */</span></div>
@@ -1227,7 +1227,7 @@ $(document).ready(function(){initNavTree('jkqtpgraphsbase_8h_source.html',''); i
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_bcbbb6e1a2cf7fd2a3382651922c4eec.html">jkqtplotter</a></li><li class="navelem"><b>jkqtpgraphsbase.h</b></li>
-    <li class="footer">Generated on Sat Jul 22 2023 08:48:09 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
+    <li class="footer">Generated on Sat Jul 22 2023 13:36:35 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
   </ul>
 </div>
 </body>

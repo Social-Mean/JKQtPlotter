@@ -281,6 +281,10 @@ NEW: secondary axes: added functionality to manage additional secondary axes in 
 NEW: You can use additional syntax derived from CCS to define colors in style.ini.files (or when using <a class="el" href="group__jkqtptools__string.html#gaf39bceb2e99d604ecb95349a3b047d16" title="converts a QString into a QColor, compatible with jkqtp_QColor2String(QColor color);">jkqtp_String2QColor()</a> ): You can use full CSS-color syntax with functions <code>"rgb(R,G,B)"</code>, <code>"rgba(...)"</code>, <code>"hsl(...)"</code>, <code>"hsv(...)"</code>, <code>"gray(...)"</code>, <code>"green(...)"</code>, <code>"red(...)"</code>, <code>"blue(...)"</code>. </li>
 <li>
 NEW: several new color palettes (especially stepped/categorial palettes), e.g. JKQTPMathImageColorPalette::JKQTPMathImageOkabeIto_STEP, JKQTPMathImageColorPalette::JKQTPMathImageIBMColorBlindSafe, JKQTPMathImageColorPalette::JKQTPMathImageIBMColorBlindSafe_STEP, ... </li>
+<li>
+NEW: add color palettes from Green's HELIX method, see <a href="https://arxiv.org/abs/1108.5083">https://arxiv.org/abs/1108.5083</a>, also see <a href="https://jiffyclub.github.io/palettable/cubehelix/">https://jiffyclub.github.io/palettable/cubehelix/</a>, see <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#gac3c865d92e20411a97b3f38c40b33f1d" title="create color palettes/LUTs by using Green&#39;s CubeHelix method">JKQTPCreateGreensCubeHelixLUT()</a> and e.g. JKQTPMathImageCubeHelixClassic, JKQTPMathImageCubeHelix1, ... </li>
+<li>
+NEW: Using Q_SIGNALS/Q_SLOTS instead of signals/slots MOC-keywords ... this allows for interoperability with other signals/slots frameworks, thanks to <a href="https://github.com/nickmontini">user:nickmontini</a> for the proposal </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -682,7 +686,7 @@ Latest Release/Tag: <a href="https://github.com/jkriege2/JKQtPlotter/releases/ta
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 22 2023 08:48:09 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
+    <li class="footer">Generated on Sat Jul 22 2023 13:36:35 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
   </ul>
 </div>
 </body>

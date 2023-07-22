@@ -1,5 +1,14 @@
 var NAVTREEINDEX28 =
 {
+"group__jkqtptools__math__basic.html#gacb0b84ffd616c54365266f907cedf400":[75,0,6,39],
+"group__jkqtptools__math__basic.html#gacbbf91f431ae7c1a9a01ac1a4881491d":[75,0,6,18],
+"group__jkqtptools__math__basic.html#gacd16c8433a7b9b5e59f46f5c709d3468":[75,0,6,32],
+"group__jkqtptools__math__basic.html#gad79a939bbb936b711f0eabe5171e2f74":[75,0,6,22],
+"group__jkqtptools__math__basic.html#gad8ae0cbd634f3079f88d87310504d62e":[75,0,6,11],
+"group__jkqtptools__math__basic.html#gada89e007601cf061a81709748fa5b05c":[75,0,6,12],
+"group__jkqtptools__math__basic.html#gae96ac530dff57dae111b641b0c7f4eb4":[75,0,6,8],
+"group__jkqtptools__math__basic.html#gaecfd3a8f48b514e8ce878d0b6a3ff488":[75,0,6,29],
+"group__jkqtptools__math__basic.html#gaf0ace9f4ac87719798dea6ef64068ff4":[75,0,6,46],
 "group__jkqtptools__math__basic.html#gaf1f20cb4d30238e749064094e9453289":[75,0,6,33],
 "group__jkqtptools__math__basic.html#gaf65c45af31289372105c13b5970aa7a2":[75,0,6,26],
 "group__jkqtptools__math__basic.html#gaf732759c1104bb65bcbfb5b7bfa6ae33":[75,0,6,10],
@@ -240,14 +249,5 @@ var NAVTREEINDEX28 =
 "group__jkqtptools__string.html#gabc207446e8aa84e49da2eb519590ecfd":[75,0,8,12],
 "group__jkqtptools__string.html#gac06916683ed6719cbfe5b6643cdbcc26":[75,0,8,29],
 "group__jkqtptools__string.html#gac5a3d8b66e406c4d2f6f4e9a1a8b8958":[75,0,8,33],
-"group__jkqtptools__string.html#gacc4e9213ab8d9fc9b1e7c81c5675407b":[75,0,8,22],
-"group__jkqtptools__string.html#gaccef8e37ba6aa5b02cf469c416db26f8":[75,0,8,24],
-"group__jkqtptools__string.html#gad02a7828b0edadba25cd7c2812765f3c":[75,0,8,2],
-"group__jkqtptools__string.html#gad1259e24fb2e8f430c9860702c39862d":[75,0,8,35],
-"group__jkqtptools__string.html#gad23f76d24f06620272ced693c2188cea":[75,0,8,20],
-"group__jkqtptools__string.html#gadda659c1b40f56cc8f2c63793499179e":[75,0,8,25],
-"group__jkqtptools__string.html#gae5fbb0a7df6e25108d6c661e292f2d8c":[75,0,8,41],
-"group__jkqtptools__string.html#gae87c18d7b4d2105db434aee37e9cdb3f":[75,0,8,18],
-"group__jkqtptools__string.html#gaf39bceb2e99d604ecb95349a3b047d16":[75,0,8,31],
-"group__jkqtptools__string.html#gaf98c03133ebf9e2619a23018568272e6":[75,0,8,43]
+"group__jkqtptools__string.html#gacc4e9213ab8d9fc9b1e7c81c5675407b":[75,0,8,22]
 };

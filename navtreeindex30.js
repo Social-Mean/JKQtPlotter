@@ -1,5 +1,14 @@
 var NAVTREEINDEX30 =
 {
+"page_whatsnew.html#page_whatsnew_V4_0_0":[7,1],
+"page_whatsnew.html#page_whatsnew_V4_0_0_DOWNLOAD":[7,1,1],
+"page_whatsnew.html#page_whatsnew_V4_0_0_OVERVIEW":[7,1,0],
+"pages.html":[],
+"struct_j_k_q_t_base_plotter_1_1all_plot_elements.html":[75,4,1,2,0],
+"struct_j_k_q_t_base_plotter_1_1all_plot_elements.html#af637a181dc1093ae94383a0312e449df":[75,4,1,2,0,0],
+"struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html":[75,4,1,2,1],
+"struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html#a2a00a02d48343497fb3a2dee10c382f5":[75,4,1,2,1,1],
+"struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html#aaa9428f2a9ef5b23741bbec9424700f7":[75,4,1,2,1,0],
 "struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html#ae60626a5d2751a0d53b47253059867ab":[75,4,1,2,1,2],
 "struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html":[75,4,1,2,2],
 "struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html#a0858702fc92910f9ea061aacb93bac2f":[75,4,1,2,2,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX30 =
 "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#ac0e6a32c58cbc5673a15de84ef41c206":[75,3,1,2,36,1],
 "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#ad546ef0ecf0588e2b86bf212cc857b90":[75,3,1,2,36,2],
 "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#af3719e91b971ac885b362845def9dc8e":[75,3,1,2,36,7],
-"struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html":[75,3,1,2,35],
-"struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#a4d523ee3883be6d2b714d6f0d7ff561d":[75,3,1,2,35,0],
-"struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#abfc99c26fefc4a58ac20321b9cc17f79":[75,3,1,2,35,1],
-"struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#aff4a5a0487bbd6beb9c17cec9ec07ebb":[75,3,1,2,35,2],
-"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html":[75,3,1,2,34],
-"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a56cd13e4ea562f61ba7d2c18c8d0dc37":[75,3,1,2,34,5],
-"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a6722e150ece92cbdc68fac1aa96b0e37":[75,3,1,2,34,2],
-"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a6d64367694401ec2abd4fd4bd490eae6":[75,3,1,2,34,1],
-"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#aa40c0a72de3abc9179fad3a088aa0ffe":[75,3,1,2,34,0],
-"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#aad6d3528ab0d70fb3f4df30c099f5544":[75,3,1,2,34,3]
+"struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html":[75,3,1,2,35]
 };

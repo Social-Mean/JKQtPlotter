@@ -36,6 +36,7 @@ var group__jkqtplotter__imagelots__tools___l_u_t_s =
     [ "JKQTPBuildColorPaletteLUTLinSegments", "group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga4833095049912852e33eb4ce2ac3831d", null ],
     [ "JKQTPBuildColorPaletteLUTLinSegmentsSorted", "group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga31d6415b4e716d4ff2c9b8dba04c405f", null ],
     [ "JKQTPBuildColorPaletteLUTSorted", "group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga74ec2e64e2c0c0b8cbb428d8f4f3d645", null ],
+    [ "JKQTPCreateGreensCubeHelixLUT", "group__jkqtplotter__imagelots__tools___l_u_t_s.html#gac3c865d92e20411a97b3f38c40b33f1d", null ],
     [ "JKQTPModifyLUT", "group__jkqtplotter__imagelots__tools___l_u_t_s.html#gacf21d8df1d62df0cf50b9a87870b50bd", null ],
     [ "JKQTPModifyLUT", "group__jkqtplotter__imagelots__tools___l_u_t_s.html#gae06ba609953e3df7b11de275479dfe5e", null ]
 ];

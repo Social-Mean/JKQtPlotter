@@ -1030,7 +1030,7 @@ $(document).ready(function(){initNavTree('jkqtplotter_8h_source.html',''); initR
 <div class="line"><a id="l00912" name="l00912"></a><span class="lineno">  912</span>            plotter-&gt;copyPixelImage(showPreview);</div>
 <div class="line"><a id="l00913" name="l00913"></a><span class="lineno">  913</span>        }</div>
 <div class="line"><a id="l00914" name="l00914"></a><span class="lineno">  914</span> </div>
-<div class="line"><a id="l00915" name="l00915"></a><span class="lineno">  915</span>    <span class="keyword">public</span> slots:<span class="comment"></span></div>
+<div class="line"><a id="l00915" name="l00915"></a><span class="lineno">  915</span>    <span class="keyword">public</span> Q_SLOTS:<span class="comment"></span></div>
 <div class="line"><a id="l00916" name="l00916"></a><span class="lineno">  916</span><span class="comment">        /** \brief set the current plot magnification */</span></div>
 <div class="line"><a id="l00917" name="l00917"></a><span class="lineno"><a class="line" href="class_j_k_q_t_plotter.html#ac35d071cd10d9242f1e810ce8ec4cbd4">  917</a></span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="class_j_k_q_t_plotter.html#ac35d071cd10d9242f1e810ce8ec4cbd4">setMagnification</a>(<span class="keywordtype">double</span> m);<span class="comment"></span></div>
 <div class="line"><a id="l00918" name="l00918"></a><span class="lineno">  918</span><span class="comment">        /** \brief sets x/ymin and x/ymax to the supplied values and replots the graph (zoom operation!) */</span></div>
@@ -1344,7 +1344,7 @@ $(document).ready(function(){initNavTree('jkqtplotter_8h_source.html',''); initR
 <div class="line"><a id="l01226" name="l01226"></a><span class="lineno"> 1226</span><span class="comment">         * \see setX(), setX(), zoomToFit(), setAbsoluteXY(), JKQTBasePlotter::setXY()</span></div>
 <div class="line"><a id="l01227" name="l01227"></a><span class="lineno"> 1227</span><span class="comment">         */</span></div>
 <div class="line"><a id="l01228" name="l01228"></a><span class="lineno"><a class="line" href="class_j_k_q_t_plotter.html#a7cb1174da67d7d37dabc30c2ca25ed30"> 1228</a></span>         <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_slot" href="class_j_k_q_t_plotter.html#a7cb1174da67d7d37dabc30c2ca25ed30">setXY</a>(<span class="keywordtype">double</span> xminn, <span class="keywordtype">double</span> xmaxx, <span class="keywordtype">double</span> yminn, <span class="keywordtype">double</span> ymaxx, <span class="keywordtype">bool</span> affectsSecondaryAxes=<span class="keyword">false</span>) { plotter-&gt;setXY(xminn, xmaxx, yminn, ymaxx, affectsSecondaryAxes); }</div>
-<div class="line"><a id="l01229" name="l01229"></a><span class="lineno"> 1229</span>    signals:<span class="comment"></span></div>
+<div class="line"><a id="l01229" name="l01229"></a><span class="lineno"> 1229</span>    Q_SIGNALS:<span class="comment"></span></div>
 <div class="line"><a id="l01230" name="l01230"></a><span class="lineno"> 1230</span><span class="comment">        /** \brief emitted whenever the mouse moves</span></div>
 <div class="line"><a id="l01231" name="l01231"></a><span class="lineno"> 1231</span><span class="comment">         *</span></div>
 <div class="line"><a id="l01232" name="l01232"></a><span class="lineno"> 1232</span><span class="comment">         * \param x x-position of the mouse (in plot coordinates)</span></div>
@@ -1435,7 +1435,7 @@ $(document).ready(function(){initNavTree('jkqtplotter_8h_source.html',''); initR
 <div class="line"><a id="l01317" name="l01317"></a><span class="lineno"> 1317</span><span class="comment">         * \param newymax end of the selected x-range (in plot coordinates)</span></div>
 <div class="line"><a id="l01318" name="l01318"></a><span class="lineno"> 1318</span><span class="comment">         * \param sender JKQTPlotter sending this event</span></div>
 <div class="line"><a id="l01319" name="l01319"></a><span class="lineno"> 1319</span><span class="comment">         *</span></div>
-<div class="line"><a id="l01320" name="l01320"></a><span class="lineno"> 1320</span><span class="comment">         * This signal is designed to be connected to these slots: synchronizeXAxis(), synchronizeYAxis(), synchronizeXYAxis()</span></div>
+<div class="line"><a id="l01320" name="l01320"></a><span class="lineno"> 1320</span><span class="comment">         * This signal is designed to be connected to these Q_SLOTS: synchronizeXAxis(), synchronizeYAxis(), synchronizeXYAxis()</span></div>
 <div class="line"><a id="l01321" name="l01321"></a><span class="lineno"> 1321</span><span class="comment">         */</span></div>
 <div class="line"><a id="l01322" name="l01322"></a><span class="lineno"><a class="line" href="class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082"> 1322</a></span>        <span class="keywordtype">void</span> <a class="code hl_signal" href="class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082">zoomChangedLocally</a>(<span class="keywordtype">double</span> newxmin, <span class="keywordtype">double</span> newxmax, <span class="keywordtype">double</span> newymin, <span class="keywordtype">double</span> newymax, <a class="code hl_class" href="class_j_k_q_t_plotter.html">JKQTPlotter</a>* sender);</div>
 <div class="line"><a id="l01323" name="l01323"></a><span class="lineno"> 1323</span><span class="comment"></span> </div>
@@ -1445,7 +1445,7 @@ $(document).ready(function(){initNavTree('jkqtplotter_8h_source.html',''); initR
 <div class="line"><a id="l01327" name="l01327"></a><span class="lineno"> 1327</span><span class="comment">         * \param new_height new height of the widget (in pixels)</span></div>
 <div class="line"><a id="l01328" name="l01328"></a><span class="lineno"> 1328</span><span class="comment">         * \param sender JKQTPlotter sending this event</span></div>
 <div class="line"><a id="l01329" name="l01329"></a><span class="lineno"> 1329</span><span class="comment">         *</span></div>
-<div class="line"><a id="l01330" name="l01330"></a><span class="lineno"> 1330</span><span class="comment">         * This signal is designed to be connected to these slots: synchronizeXAxis(), synchronizeYAxis(), synchronizeXYAxis()</span></div>
+<div class="line"><a id="l01330" name="l01330"></a><span class="lineno"> 1330</span><span class="comment">         * This signal is designed to be connected to these Q_SLOTS: synchronizeXAxis(), synchronizeYAxis(), synchronizeXYAxis()</span></div>
 <div class="line"><a id="l01331" name="l01331"></a><span class="lineno"> 1331</span><span class="comment">         */</span></div>
 <div class="line"><a id="l01332" name="l01332"></a><span class="lineno"><a class="line" href="class_j_k_q_t_plotter.html#ac8003d5392d752847385c2741c292d22"> 1332</a></span>        <span class="keywordtype">void</span> <a class="code hl_signal" href="class_j_k_q_t_plotter.html#ac8003d5392d752847385c2741c292d22">widgetResized</a>(<span class="keywordtype">int</span> new_width, <span class="keywordtype">int</span> new_height, <a class="code hl_class" href="class_j_k_q_t_plotter.html">JKQTPlotter</a>* sender);</div>
 <div class="line"><a id="l01333" name="l01333"></a><span class="lineno"> 1333</span><span class="comment"></span> </div>
@@ -1850,7 +1850,7 @@ $(document).ready(function(){initNavTree('jkqtplotter_8h_source.html',''); initR
 <div class="line"><a id="l01732" name="l01732"></a><span class="lineno"><a class="line" href="class_j_k_q_t_plotter.html#af7459d68403e3548785d7844986f60b3"> 1732</a></span>        QAction* <a class="code hl_variable" href="class_j_k_q_t_plotter.html#af7459d68403e3548785d7844986f60b3">actMouseLeftAsPanView</a>;</div>
 <div class="line"><a id="l01733" name="l01733"></a><span class="lineno"> 1733</span> </div>
 <div class="line"><a id="l01734" name="l01734"></a><span class="lineno"><a class="line" href="class_j_k_q_t_plotter.html#afe685d66dfbbc7084fe43578169c7266"> 1734</a></span>        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="class_j_k_q_t_plotter.html#afe685d66dfbbc7084fe43578169c7266">event</a>(QEvent *event) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l01735" name="l01735"></a><span class="lineno"> 1735</span>    <span class="keyword">protected</span> slots:<span class="comment"></span></div>
+<div class="line"><a id="l01735" name="l01735"></a><span class="lineno"> 1735</span>    <span class="keyword">protected</span> Q_SLOTS:<span class="comment"></span></div>
 <div class="line"><a id="l01736" name="l01736"></a><span class="lineno"> 1736</span><span class="comment">        /** \brief while the window is resized, the plot is only redrawn after a restartable delay, implemented by this function and resizeTimer</span></div>
 <div class="line"><a id="l01737" name="l01737"></a><span class="lineno"> 1737</span><span class="comment">        * \internal</span></div>
 <div class="line"><a id="l01738" name="l01738"></a><span class="lineno"> 1738</span><span class="comment">        * \see resizeTimer</span></div>
@@ -2267,7 +2267,7 @@ $(document).ready(function(){initNavTree('jkqtplotter_8h_source.html',''); initR
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_bcbbb6e1a2cf7fd2a3382651922c4eec.html">jkqtplotter</a></li><li class="navelem"><b>jkqtplotter.h</b></li>
-    <li class="footer">Generated on Sat Jul 22 2023 08:48:09 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
+    <li class="footer">Generated on Sat Jul 22 2023 13:36:35 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
   </ul>
 </div>
 </body>

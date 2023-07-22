@@ -169,6 +169,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga74ec2e64e2c0c0b8cbb428d8f4f3d645"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">JKQTPImageTools::LUTType</a> <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga74ec2e64e2c0c0b8cbb428d8f4f3d645">JKQTPBuildColorPaletteLUTSorted</a> (const <a class="el" href="class_j_k_q_t_p_palette_list.html">JKQTPPaletteList</a> &amp;items, int lut_size=<a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a>)</td></tr>
 <tr class="memdesc:ga74ec2e64e2c0c0b8cbb428d8f4f3d645"><td class="mdescLeft">&#160;</td><td class="mdescRight">build a palette (as a look-up table) with <em>lut_size</em> entries that step between the nodes provided in <em>items</em>. <b>NOTE:</b> <em>items</em> is assumed to be sorted by the first component of the <code>QPair&lt;double,QRgb&gt;</code> entries!  <br /></td></tr>
 <tr class="separator:ga74ec2e64e2c0c0b8cbb428d8f4f3d645"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac3c865d92e20411a97b3f38c40b33f1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">JKQTPImageTools::LUTType</a> <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#gac3c865d92e20411a97b3f38c40b33f1d">JKQTPCreateGreensCubeHelixLUT</a> (float start, float rotation, float gamma=1.0, int lutsize=<a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a>, float lambda_min=0.0, float lambda_max=1.0, float saturation_min=1.2, float saturation_max=1.2)</td></tr>
+<tr class="memdesc:gac3c865d92e20411a97b3f38c40b33f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">create color palettes/LUTs by using Green's CubeHelix method  <br /></td></tr>
+<tr class="separator:gac3c865d92e20411a97b3f38c40b33f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacf21d8df1d62df0cf50b9a87870b50bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">JKQTPImageTools::LUTType</a> <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#gacf21d8df1d62df0cf50b9a87870b50bd">JKQTPModifyLUT</a> (<a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">JKQTPImageTools::LUTType</a> lut, std::function&lt; QRgb(int, QRgb)&gt; f)</td></tr>
 <tr class="memdesc:gacf21d8df1d62df0cf50b9a87870b50bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">modify each element of a given lut with a given functor that receives the color and an index  <br /></td></tr>
 <tr class="separator:gacf21d8df1d62df0cf50b9a87870b50bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -681,6 +684,87 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="gac3c865d92e20411a97b3f38c40b33f1d" name="gac3c865d92e20411a97b3f38c40b33f1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac3c865d92e20411a97b3f38c40b33f1d">&#9670;&#160;</a></span>JKQTPCreateGreensCubeHelixLUT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">JKQTPImageTools::LUTType</a> <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> JKQTPCreateGreensCubeHelixLUT </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>gamma</em> = <code>1.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lutsize</em> = <code><a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lambda_min</em> = <code>0.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lambda_max</em> = <code>1.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>saturation_min</em> = <code>1.2</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>saturation_max</em> = <code>1.2</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>create color palettes/LUTs by using Green's CubeHelix method </p>
+<dl class="section see"><dt>See also</dt><dd>see Green, D. A. 2011. A colour scheme for the display of astronomical intensity images. Bull. Astr. Soc. India 39, 289-295. and <a href="https://articles.adsabs.harvard.edu/pdf/2011BASI...39..289G">https://articles.adsabs.harvard.edu/pdf/2011BASI...39..289G</a> and <a href="https://jiffyclub.github.io/palettable/cubehelix/">https://jiffyclub.github.io/palettable/cubehelix/</a></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>start-hue for the palette </td></tr>
+    <tr><td class="paramname">rotation</td><td>rotation paremeter for the palette </td></tr>
+    <tr><td class="paramname">gamma</td><td>optional gamma parameter </td></tr>
+    <tr><td class="paramname">lutsize</td><td>number of entries in LUT </td></tr>
+    <tr><td class="paramname">lambda_min</td><td>start value for the <picture><source srcset="form_0_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \lambda $" src="form_0.png" width="10" height="13"/></picture> in Green's formula </td></tr>
+    <tr><td class="paramname">lambda_max</td><td>end value for the <picture><source srcset="form_0_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \lambda $" src="form_0.png" width="10" height="13"/></picture> in Green's formula </td></tr>
+    <tr><td class="paramname">saturation_min</td><td>start value for the saturation in Green's formula, usually the saturation is a single value, then <em>saturation_min</em> == <em>saturation_max!</em> </td></tr>
+    <tr><td class="paramname">saturation_max</td><td>end value for the saturation in Green's formula, usually the saturation is a single value, then <em>saturation_min</em> == <em>saturation_max!</em> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the lut generated from the provided parameters with <em>lutsize</em> entries </dd></dl>
+
+</div>
+</div>
 <a id="gacf21d8df1d62df0cf50b9a87870b50bd" name="gacf21d8df1d62df0cf50b9a87870b50bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gacf21d8df1d62df0cf50b9a87870b50bd">&#9670;&#160;</a></span>JKQTPModifyLUT() <span class="overload">[1/2]</span></h2>
 
@@ -747,7 +831,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 22 2023 08:48:10 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
+    <li class="footer">Generated on Sat Jul 22 2023 13:36:35 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
   </ul>
 </div>
 </body>

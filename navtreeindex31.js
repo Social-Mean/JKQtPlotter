@@ -1,5 +1,14 @@
 var NAVTREEINDEX31 =
 {
+"struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#a4d523ee3883be6d2b714d6f0d7ff561d":[75,3,1,2,35,0],
+"struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#abfc99c26fefc4a58ac20321b9cc17f79":[75,3,1,2,35,1],
+"struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#aff4a5a0487bbd6beb9c17cec9ec07ebb":[75,3,1,2,35,2],
+"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html":[75,3,1,2,34],
+"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a56cd13e4ea562f61ba7d2c18c8d0dc37":[75,3,1,2,34,5],
+"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a6722e150ece92cbdc68fac1aa96b0e37":[75,3,1,2,34,2],
+"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a6d64367694401ec2abd4fd4bd490eae6":[75,3,1,2,34,1],
+"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#aa40c0a72de3abc9179fad3a088aa0ffe":[75,3,1,2,34,0],
+"struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#aad6d3528ab0d70fb3f4df30c099f5544":[75,3,1,2,34,3],
 "struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#ad245c825e721888105ea37b4b67a7faf":[75,3,1,2,34,4],
 "struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html":[75,3,1,2,41],
 "struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#a1e69ef3154736d5a4aae89e6e65c2122":[75,3,1,2,41,4],
