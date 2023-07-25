@@ -461,6 +461,9 @@ Public Slots</h2></td></tr>
 <tr class="memitem:a51e74fc47c173ac4af813e64a5f71af8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a51e74fc47c173ac4af813e64a5f71af8">setPlotLabel</a> (const QString &amp;__value)</td></tr>
 <tr class="memdesc:a51e74fc47c173ac4af813e64a5f71af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the plot label text  <br /></td></tr>
 <tr class="separator:a51e74fc47c173ac4af813e64a5f71af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abec63068b582272c7ed2da2ec9cff9cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#abec63068b582272c7ed2da2ec9cff9cc">setPlotLabelColor</a> (QColor __value)</td></tr>
+<tr class="memdesc:abec63068b582272c7ed2da2ec9cff9cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">the plot label color    <br /></td></tr>
+<tr class="separator:abec63068b582272c7ed2da2ec9cff9cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addf127be65536c57368d840760d03c74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#addf127be65536c57368d840760d03c74">setplotLabelFontName</a> (const QString &amp;__value)</td></tr>
 <tr class="memdesc:addf127be65536c57368d840760d03c74"><td class="mdescLeft">&#160;</td><td class="mdescRight">the plot label font name    <br /></td></tr>
 <tr class="separator:addf127be65536c57368d840760d03c74"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -911,6 +914,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a82769ae492ebc192147de2efc362f34d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a82769ae492ebc192147de2efc362f34d">getplotLabelFontName</a> () const</td></tr>
 <tr class="memdesc:a82769ae492ebc192147de2efc362f34d"><td class="mdescLeft">&#160;</td><td class="mdescRight">the plot label font name    <br /></td></tr>
 <tr class="separator:a82769ae492ebc192147de2efc362f34d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4211cfd3d64137268e32cb45f9ba6589"><td class="memItemLeft" align="right" valign="top">QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a4211cfd3d64137268e32cb45f9ba6589">getPlotLabelColor</a> () const</td></tr>
+<tr class="memdesc:a4211cfd3d64137268e32cb45f9ba6589"><td class="mdescLeft">&#160;</td><td class="mdescRight">the plot label color    <br /></td></tr>
+<tr class="separator:a4211cfd3d64137268e32cb45f9ba6589"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a291979eabe3659c4d628f4931bc07201"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a291979eabe3659c4d628f4931bc07201">getPlotLabel</a> () const</td></tr>
 <tr class="memdesc:a291979eabe3659c4d628f4931bc07201"><td class="mdescLeft">&#160;</td><td class="mdescRight">the plot label text    <br /></td></tr>
 <tr class="separator:a291979eabe3659c4d628f4931bc07201"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1866,8 +1872,8 @@ Synchronizing Axis Range &amp; Plot Width</h2>
 <div class="line"> </div>
 <div class="line"><span class="comment">// synchronize y-axis of width/plotResidHist to y-axis of width/plotResid</span></div>
 <div class="line">plotResidHist-&gt;synchronizeToMaster(plotResid, <a class="code hl_enumvalue" href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c">JKQTBasePlotter::sdYAxis</a>, <span class="keyword">true</span>, <span class="keyword">true</span>, <span class="keyword">true</span>);</div>
-<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484">JKQTBasePlotter::sdXAxis</a></div><div class="ttdeci">@ sdXAxis</div><div class="ttdoc">x-axis only</div><div class="ttdef"><b>Definition</b> jkqtpbaseplotter.h:1365</div></div>
-<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c">JKQTBasePlotter::sdYAxis</a></div><div class="ttdeci">@ sdYAxis</div><div class="ttdoc">y-axis only</div><div class="ttdef"><b>Definition</b> jkqtpbaseplotter.h:1366</div></div>
+<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484">JKQTBasePlotter::sdXAxis</a></div><div class="ttdeci">@ sdXAxis</div><div class="ttdoc">x-axis only</div><div class="ttdef"><b>Definition</b> jkqtpbaseplotter.h:1367</div></div>
+<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c">JKQTBasePlotter::sdYAxis</a></div><div class="ttdeci">@ sdYAxis</div><div class="ttdoc">y-axis only</div><div class="ttdef"><b>Definition</b> jkqtpbaseplotter.h:1368</div></div>
 </div><!-- fragment --> This will synchronize the x-axes of the top (<code>plotMain</code> ) and bottom-left plot (<code>plotResid</code> ), as well as the y-axes of the bottom-left (<code>plotResid</code> ) and bottom-right plot (<code>plotResidHist</code> ). After this call they will have the same size in screen pixels and always span the same range in plot coordinates.</li>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#a4be0519635e09e5023651ddd0d575356" title="synchronize the plot x-axis width (and x-zooming) with a given master plotter (master --&gt; slave/this)">synchronizeXToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#a4be0519635e09e5023651ddd0d575356" title="synchronize the plot x-axis width (and x-zooming) with a given master plotter (master --&gt; slave/this)">JKQTBasePlotter::synchronizeXToMaster()</a> like <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">synchronizeToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">JKQTBasePlotter::synchronizeToMaster()</a>, but synchronizes only the x-axes</li>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#adec8f807ab19fdec1b87122857a5854c" title="synchronize the plot y-axis height (and y-zooming) with a given master plotter (master --&gt; slave/this...">synchronizeYToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#adec8f807ab19fdec1b87122857a5854c" title="synchronize the plot y-axis height (and y-zooming) with a given master plotter (master --&gt; slave/this...">JKQTBasePlotter::synchronizeYToMaster()</a> like <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">synchronizeToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">JKQTBasePlotter::synchronizeToMaster()</a>, but synchronizes only the y-axes</li>
@@ -5958,6 +5964,25 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 </div><div class="memdoc">
 
 <p>the plot label text   </p>
+
+</div>
+</div>
+<a id="a4211cfd3d64137268e32cb45f9ba6589" name="a4211cfd3d64137268e32cb45f9ba6589"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4211cfd3d64137268e32cb45f9ba6589">&#9670;&#160;</a></span>getPlotLabelColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QColor JKQTBasePlotter::getPlotLabelColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the plot label color   </p>
 
 </div>
 </div>
@@ -11733,6 +11758,34 @@ Grid invisible</div></div>
 
 </div>
 </div>
+<a id="abec63068b582272c7ed2da2ec9cff9cc" name="abec63068b582272c7ed2da2ec9cff9cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abec63068b582272c7ed2da2ec9cff9cc">&#9670;&#160;</a></span>setPlotLabelColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTBasePlotter::setPlotLabelColor </td>
+          <td>(</td>
+          <td class="paramtype">QColor&#160;</td>
+          <td class="paramname"><em>__value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the plot label color   </p>
+
+</div>
+</div>
 <a id="addf127be65536c57368d840760d03c74" name="addf127be65536c57368d840760d03c74"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#addf127be65536c57368d840760d03c74">&#9670;&#160;</a></span>setplotLabelFontName</h2>
 
@@ -15741,7 +15794,7 @@ Grid invisible</div></div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a></li>
-    <li class="footer">Generated on Sat Jul 22 2023 13:56:07 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
+    <li class="footer">Generated on Tue Jul 25 2023 20:25:51 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
   </ul>
 </div>
 </body>

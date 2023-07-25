@@ -1,6 +1,10 @@
 var class_j_k_q_t_graphs_base_style =
 [
     [ "JKQTGraphsBaseStyle", "class_j_k_q_t_graphs_base_style.html#a43c5d146c3632b3f458adcfcf45bd983", null ],
+    [ "getDefaultGraphColors", "class_j_k_q_t_graphs_base_style.html#a421da41b8d211f09a182bbce21f566c8", null ],
+    [ "getDefaultGraphFillStyles", "class_j_k_q_t_graphs_base_style.html#a32ddae26f3e4449280df3bc859ee7aae", null ],
+    [ "getDefaultGraphPenStyles", "class_j_k_q_t_graphs_base_style.html#a2a8d7055ccb3cfe58f42711e1d584619", null ],
+    [ "getDefaultGraphSymbols", "class_j_k_q_t_graphs_base_style.html#aba698257850d4af1df04965796090a4f", null ],
     [ "getGraphStyleByType", "class_j_k_q_t_graphs_base_style.html#a4a65182b2ea409561eb1fbddfbe3694d", null ],
     [ "loadSettings", "class_j_k_q_t_graphs_base_style.html#a806ce0e279044384ea3f88abb96f0596", null ],
     [ "saveSettings", "class_j_k_q_t_graphs_base_style.html#a9644625b62daa1d902c8bf41ea967380", null ],

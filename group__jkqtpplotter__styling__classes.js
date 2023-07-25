@@ -51,6 +51,7 @@ var group__jkqtpplotter__styling__classes =
       [ "plotFrameRounding", "class_j_k_q_t_base_plotter_style.html#aa165352ace82e229e19f1543a6f44bdb", null ],
       [ "plotFrameVisible", "class_j_k_q_t_base_plotter_style.html#a0cbcdb08e83dd1593903e86ae088b6f0", null ],
       [ "plotFrameWidth", "class_j_k_q_t_base_plotter_style.html#a3e6d266d588a5e4b1db19c5920e9dc83", null ],
+      [ "plotLabelColor", "class_j_k_q_t_base_plotter_style.html#a38e3916aa61807503fe4c8f8048f2e67", null ],
       [ "plotLabelFontName", "class_j_k_q_t_base_plotter_style.html#a3161f58c54dc8f42bed0cbe2f0da1436", null ],
       [ "plotLabelFontSize", "class_j_k_q_t_base_plotter_style.html#a7403bd605048164b2c3428f93040d5b1", null ],
       [ "rightColorbarAxisStyle", "class_j_k_q_t_base_plotter_style.html#a25650b7d47d94338964d0dd90069d9f9", null ],
@@ -80,6 +81,10 @@ var group__jkqtpplotter__styling__classes =
     ] ],
     [ "JKQTGraphsBaseStyle", "class_j_k_q_t_graphs_base_style.html", [
       [ "JKQTGraphsBaseStyle", "class_j_k_q_t_graphs_base_style.html#a43c5d146c3632b3f458adcfcf45bd983", null ],
+      [ "getDefaultGraphColors", "class_j_k_q_t_graphs_base_style.html#a421da41b8d211f09a182bbce21f566c8", null ],
+      [ "getDefaultGraphFillStyles", "class_j_k_q_t_graphs_base_style.html#a32ddae26f3e4449280df3bc859ee7aae", null ],
+      [ "getDefaultGraphPenStyles", "class_j_k_q_t_graphs_base_style.html#a2a8d7055ccb3cfe58f42711e1d584619", null ],
+      [ "getDefaultGraphSymbols", "class_j_k_q_t_graphs_base_style.html#aba698257850d4af1df04965796090a4f", null ],
       [ "getGraphStyleByType", "class_j_k_q_t_graphs_base_style.html#a4a65182b2ea409561eb1fbddfbe3694d", null ],
       [ "loadSettings", "class_j_k_q_t_graphs_base_style.html#a806ce0e279044384ea3f88abb96f0596", null ],
       [ "saveSettings", "class_j_k_q_t_graphs_base_style.html#a9644625b62daa1d902c8bf41ea967380", null ],

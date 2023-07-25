@@ -24,6 +24,7 @@ var class_j_k_q_t_base_plotter_style =
     [ "plotFrameRounding", "class_j_k_q_t_base_plotter_style.html#aa165352ace82e229e19f1543a6f44bdb", null ],
     [ "plotFrameVisible", "class_j_k_q_t_base_plotter_style.html#a0cbcdb08e83dd1593903e86ae088b6f0", null ],
     [ "plotFrameWidth", "class_j_k_q_t_base_plotter_style.html#a3e6d266d588a5e4b1db19c5920e9dc83", null ],
+    [ "plotLabelColor", "class_j_k_q_t_base_plotter_style.html#a38e3916aa61807503fe4c8f8048f2e67", null ],
     [ "plotLabelFontName", "class_j_k_q_t_base_plotter_style.html#a3161f58c54dc8f42bed0cbe2f0da1436", null ],
     [ "plotLabelFontSize", "class_j_k_q_t_base_plotter_style.html#a7403bd605048164b2c3428f93040d5b1", null ],
     [ "rightColorbarAxisStyle", "class_j_k_q_t_base_plotter_style.html#a25650b7d47d94338964d0dd90069d9f9", null ],

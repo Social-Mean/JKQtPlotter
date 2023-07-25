@@ -1,5 +1,12 @@
 var NAVTREEINDEX8 =
 {
+"class_j_k_q_t_math_text_symbol_node.html#aef080e5180ac2c8359088efc69378c11":[75,3,1,2,27,43],
+"class_j_k_q_t_math_text_symbol_node.html#af18b2b7fb7ddfb76c9dd71deb6965a11":[75,3,1,2,27,39],
+"class_j_k_q_t_math_text_symbol_node.html#afaf0cee514bb05ddacbde2d1d66bb3de":[75,3,1,2,27,44],
+"class_j_k_q_t_math_text_symbol_node.html#afdbf7d0cea272f0822996487ee4715dd":[75,3,1,2,27,3],
+"class_j_k_q_t_math_text_symbol_node.html#affd2711a6b03170c61dfba85ff27972c":[75,3,1,2,27,61],
+"class_j_k_q_t_math_text_text_base_node.html":[75,3,1,2,28],
+"class_j_k_q_t_math_text_text_base_node.html#a213d038c52947570b2e2a593e30be660":[75,3,1,2,28,4],
 "class_j_k_q_t_math_text_text_base_node.html#a299504cfc8078fd909a0d051abf55c55":[75,3,1,2,28,0],
 "class_j_k_q_t_math_text_text_base_node.html#a30ef1e6decd6af4d55c8b061d5e4857a":[75,3,1,2,28,3],
 "class_j_k_q_t_math_text_text_base_node.html#a4fd573fc75c6d6a8fdedb597b6415d59":[75,3,1,2,28,5],
@@ -242,12 +249,5 @@ var NAVTREEINDEX8 =
 "class_j_k_q_t_p_bar_horizontal_stackable_graph.html":[75,4,1,1,1,0,3],
 "class_j_k_q_t_p_bar_horizontal_stackable_graph.html#a03bc3be8b479ad94946de9e860cda4b2":[75,4,1,1,1,0,3,2],
 "class_j_k_q_t_p_bar_horizontal_stackable_graph.html#a0d3670815b7dd48b5f0c45bdaf039f0d":[75,4,1,1,1,0,3,1],
-"class_j_k_q_t_p_bar_horizontal_stackable_graph.html#a13c46eb1dbac862af3d35cc2e59cc323":[75,4,1,1,1,0,3,6],
-"class_j_k_q_t_p_bar_horizontal_stackable_graph.html#a3c067ee74321aa7856653912921e0b15":[75,4,1,1,1,0,3,8],
-"class_j_k_q_t_p_bar_horizontal_stackable_graph.html#a59880dcbd9c5682e3deb42530e0425d9":[75,4,1,1,1,0,3,4],
-"class_j_k_q_t_p_bar_horizontal_stackable_graph.html#a9749844f9ac316ccb0f39e3c04e996e5":[75,4,1,1,1,0,3,9],
-"class_j_k_q_t_p_bar_horizontal_stackable_graph.html#ac3cb3dc4c727c77b4dd267ac20683d6f":[75,4,1,1,1,0,3,7],
-"class_j_k_q_t_p_bar_horizontal_stackable_graph.html#ad6f823077b27b7f20e1cec19f8684110":[75,4,1,1,1,0,3,5],
-"class_j_k_q_t_p_bar_horizontal_stackable_graph.html#ae701de9d465de89fea0bf8b8de956b2c":[75,4,1,1,1,0,3,3],
-"class_j_k_q_t_p_bar_horizontal_stackable_graph.html#af984b8208a04c3fd096c7a6fc98b0ec9":[75,4,1,1,1,0,3,0]
+"class_j_k_q_t_p_bar_horizontal_stackable_graph.html#a13c46eb1dbac862af3d35cc2e59cc323":[75,4,1,1,1,0,3,6]
 };

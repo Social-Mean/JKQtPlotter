@@ -169,6 +169,8 @@ BREAKING/REWORKED: Implement better/more access functions to the graphs (inlcudi
 <li>
 BREAKING/FIXED: fixed issue <a href="https://github.com/jkriege2/JKQtPlotter/pull/96">#96</a>: JKQTPlotter::saveAsPixelImage() does not add a border around the image any longer (can be reacivated by a new optional function parameter), thanks to <a href="https://github.com/nmielcarek">user:nmielcarek</a> for reporting </li>
 <li>
+FIXED/BREAKING: graph symbols were not properly applied when reading styles (in fact they were shuffled under some circumstances) </li>
+<li>
 FIXED issue described in <a href="https://github.com/jkriege2/JKQtPlotter/pull/62">#62: Fix custom labels draw, because giving exactly two label-strings did not display all of them</a>, thanks to <a href="https://github.com/FalsinSoft">user:FalsinSoft</a> </li>
 <li>
 FIXED issue <a href="https://github.com/jkriege2/JKQtPlotter/pull/70">#70: Typo in jkqtplotter/CMakeLists.txt</a>, thanks to <a href="https://github.com/tedlinlab">user:tedlinlab</a> </li>
@@ -285,6 +287,10 @@ NEW: several new color palettes (especially stepped/categorial palettes), e.g. J
 NEW: add color palettes from Green's HELIX method, see <a href="https://arxiv.org/abs/1108.5083">https://arxiv.org/abs/1108.5083</a>, also see <a href="https://jiffyclub.github.io/palettable/cubehelix/">https://jiffyclub.github.io/palettable/cubehelix/</a>, see <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#gac3c865d92e20411a97b3f38c40b33f1d" title="create color palettes/LUTs by using Green&#39;s CubeHelix method">JKQTPCreateGreensCubeHelixLUT()</a> and e.g. JKQTPMathImageCubeHelixClassic, JKQTPMathImageCubeHelix1, ... </li>
 <li>
 NEW: Using Q_SIGNALS/Q_SLOTS instead of signals/slots MOC-keywords ... this allows for interoperability with other signals/slots frameworks, thanks to <a href="https://github.com/nickmontini">user:nickmontini</a> for the proposal </li>
+<li>
+NEW: you can use any (preferably stepped/categorial) JKQTPMathImageColorPalette as default graph colors list in a style.ini file, by setting <code>auto_styles/use_color_from_palette=PALETTE_NAME</code> </li>
+<li>
+NEW added entry for plotLabelColor to <a class="el" href="class_j_k_q_t_base_plotter_style.html" title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">JKQTBasePlotterStyle</a> </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -686,7 +692,7 @@ Latest Release/Tag: <a href="https://github.com/jkriege2/JKQtPlotter/releases/ta
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 22 2023 13:56:06 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
+    <li class="footer">Generated on Tue Jul 25 2023 20:25:50 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
   </ul>
 </div>
 </body>

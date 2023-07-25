@@ -123,6 +123,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_graphs_base_style.html',
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_j_k_q_t_graphs_base_style-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">JKQTGraphsBaseStyle Class Reference<div class="ingroups"><a class="el" href="group__jkqtplotter.html">JKQTPlotter: Qt based Scientific Plotter Class</a> &raquo; <a class="el" href="group__jkqtplotter__classdoc.html">Type/Class/Function Documentation</a> &raquo; <a class="el" href="group__jkqtpplotter__styling__classes.html">Styling System Classes</a></div></div></div>
@@ -152,6 +153,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9644625b62daa1d902c8bf41ea967380"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_graphs_base_style.html#a9644625b62daa1d902c8bf41ea967380">saveSettings</a> (QSettings &amp;settings, const QString &amp;group=QString(&quot;graphs_styling/&quot;)) const</td></tr>
 <tr class="memdesc:a9644625b62daa1d902c8bf41ea967380"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves the plot properties into a &lt;a href="http://doc.qt.io/qt-5/qsettings.html")"&gt;QSettings object.  <br /></td></tr>
 <tr class="separator:a9644625b62daa1d902c8bf41ea967380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a421da41b8d211f09a182bbce21f566c8"><td class="memItemLeft" align="right" valign="top">static QVector&lt; QColor &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_graphs_base_style.html#a421da41b8d211f09a182bbce21f566c8">getDefaultGraphColors</a> ()</td></tr>
+<tr class="memdesc:a421da41b8d211f09a182bbce21f566c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">standard color palette for the default style  <br /></td></tr>
+<tr class="separator:a421da41b8d211f09a182bbce21f566c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32ddae26f3e4449280df3bc859ee7aae"><td class="memItemLeft" align="right" valign="top">static QVector&lt; Qt::BrushStyle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_graphs_base_style.html#a32ddae26f3e4449280df3bc859ee7aae">getDefaultGraphFillStyles</a> ()</td></tr>
+<tr class="memdesc:a32ddae26f3e4449280df3bc859ee7aae"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of Qt::BrushStyle used to automatically style different graphs differently in the default style  <br /></td></tr>
+<tr class="separator:a32ddae26f3e4449280df3bc859ee7aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a8d7055ccb3cfe58f42711e1d584619"><td class="memItemLeft" align="right" valign="top">static QVector&lt; Qt::PenStyle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_graphs_base_style.html#a2a8d7055ccb3cfe58f42711e1d584619">getDefaultGraphPenStyles</a> ()</td></tr>
+<tr class="memdesc:a2a8d7055ccb3cfe58f42711e1d584619"><td class="mdescLeft">&#160;</td><td class="mdescRight">a list of Qt::PenStyles used to automatically style different graphs differently in the default style  <br /></td></tr>
+<tr class="separator:a2a8d7055ccb3cfe58f42711e1d584619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba698257850d4af1df04965796090a4f"><td class="memItemLeft" align="right" valign="top">static QVector&lt; <a class="el" href="group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b">JKQTPGraphSymbols</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_graphs_base_style.html#aba698257850d4af1df04965796090a4f">getDefaultGraphSymbols</a> ()</td></tr>
+<tr class="memdesc:aba698257850d4af1df04965796090a4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of JKQTPGraphSymbols used to automatically assign to different graphs in the default style  <br /></td></tr>
+<tr class="separator:aba698257850d4af1df04965796090a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -226,6 +242,114 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a421da41b8d211f09a182bbce21f566c8" name="a421da41b8d211f09a182bbce21f566c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a421da41b8d211f09a182bbce21f566c8">&#9670;&#160;</a></span>getDefaultGraphColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QVector&lt; QColor &gt; JKQTGraphsBaseStyle::getDefaultGraphColors </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>standard color palette for the default style </p>
+
+</div>
+</div>
+<a id="a32ddae26f3e4449280df3bc859ee7aae" name="a32ddae26f3e4449280df3bc859ee7aae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32ddae26f3e4449280df3bc859ee7aae">&#9670;&#160;</a></span>getDefaultGraphFillStyles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QVector&lt; Qt::BrushStyle &gt; JKQTGraphsBaseStyle::getDefaultGraphFillStyles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>list of Qt::BrushStyle used to automatically style different graphs differently in the default style </p>
+
+</div>
+</div>
+<a id="a2a8d7055ccb3cfe58f42711e1d584619" name="a2a8d7055ccb3cfe58f42711e1d584619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a8d7055ccb3cfe58f42711e1d584619">&#9670;&#160;</a></span>getDefaultGraphPenStyles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QVector&lt; Qt::PenStyle &gt; JKQTGraphsBaseStyle::getDefaultGraphPenStyles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>a list of Qt::PenStyles used to automatically style different graphs differently in the default style </p>
+
+</div>
+</div>
+<a id="aba698257850d4af1df04965796090a4f" name="aba698257850d4af1df04965796090a4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba698257850d4af1df04965796090a4f">&#9670;&#160;</a></span>getDefaultGraphSymbols()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QVector&lt; <a class="el" href="group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b">JKQTPGraphSymbols</a> &gt; JKQTGraphsBaseStyle::getDefaultGraphSymbols </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>list of JKQTPGraphSymbols used to automatically assign to different graphs in the default style </p>
+
+</div>
+</div>
 <a id="a4a65182b2ea409561eb1fbddfbe3694d" name="a4a65182b2ea409561eb1fbddfbe3694d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a65182b2ea409561eb1fbddfbe3694d">&#9670;&#160;</a></span>getGraphStyleByType()</h2>
 
@@ -554,7 +678,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_graphs_base_style.html">JKQTGraphsBaseStyle</a></li>
-    <li class="footer">Generated on Sat Jul 22 2023 13:56:07 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
+    <li class="footer">Generated on Tue Jul 25 2023 20:25:51 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
   </ul>
 </div>
 </body>

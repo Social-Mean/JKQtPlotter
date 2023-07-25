@@ -165,6 +165,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ac28194accce75259977edc9eaeaef1"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools.html#a4ac28194accce75259977edc9eaeaef1">array2image</a> (const T *dbl_in, int width, int height, QImage &amp;img, <a class="el" href="group__jkqtplotter__imagelots__tools.html#gaae2f1de8b42bb1734243b4201f4aa72d">JKQTPMathImageColorPalette</a> palette, double minColor, double maxColor, <a class="el" href="group__jkqtplotter__imagelots__tools.html#gaf78dbe641bbda75a53bc85fef00c22d0">JKQTPMathImageColorRangeFailAction</a> paletteMinFail=<a class="el" href="group__jkqtplotter__imagelots__tools.html#ggaf78dbe641bbda75a53bc85fef00c22d0a18d57ad46e64c6110b211ff05b93fe3f">JKQTPMathImageLastPaletteColor</a>, <a class="el" href="group__jkqtplotter__imagelots__tools.html#gaf78dbe641bbda75a53bc85fef00c22d0">JKQTPMathImageColorRangeFailAction</a> paletteMaxFail=<a class="el" href="group__jkqtplotter__imagelots__tools.html#ggaf78dbe641bbda75a53bc85fef00c22d0a18d57ad46e64c6110b211ff05b93fe3f">JKQTPMathImageLastPaletteColor</a>, QColor minFailColor=QColor(&quot;black&quot;), QColor maxFailColor=QColor(&quot;black&quot;), QColor nanColor=QColor(&quot;black&quot;), QColor infColor=QColor(&quot;black&quot;), bool logScale=false, double logBase=10.0, const <a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">LUTType</a> &amp;lutUser=<a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">LUTType</a>())</td></tr>
 <tr class="memdesc:a4ac28194accce75259977edc9eaeaef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a 2D image (as 1D array) into a QImage with given palette (see JKQTFPColorPalette)  <br /></td></tr>
 <tr class="separator:a4ac28194accce75259977edc9eaeaef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40d38eaea9b126852363a6a1276ace9a"><td class="memItemLeft" align="right" valign="top">static QVector&lt; QColor &gt; <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools.html#a40d38eaea9b126852363a6a1276ace9a">getColorsforPalette</a> (<a class="el" href="group__jkqtplotter__imagelots__tools.html#gaae2f1de8b42bb1734243b4201f4aa72d">JKQTPMathImageColorPalette</a> palette)</td></tr>
+<tr class="memdesc:a40d38eaea9b126852363a6a1276ace9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the list of QColors making up a JKQTPMathImageColorPalette, stored it in <em>lutstore</em> and return it  <br /></td></tr>
+<tr class="separator:a40d38eaea9b126852363a6a1276ace9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50d5f94ea9a757efc7ca99fe054310e8"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">LUTType</a> &amp;<a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools.html#a50d5f94ea9a757efc7ca99fe054310e8">getLUTforPalette</a> (<a class="el" href="group__jkqtplotter__imagelots__tools.html#gaae2f1de8b42bb1734243b4201f4aa72d">JKQTPMathImageColorPalette</a> palette)</td></tr>
+<tr class="memdesc:a50d5f94ea9a757efc7ca99fe054310e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a LUT for a given JKQTPMathImageColorPalette, stored it in <em>lutstore</em> and return it  <br /></td></tr>
+<tr class="separator:a50d5f94ea9a757efc7ca99fe054310e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6d03ce98d2c84c8268d8b55e316d448"><td class="memItemLeft" align="right" valign="top">static QIcon <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools.html#ac6d03ce98d2c84c8268d8b55e316d448">GetPaletteIcon</a> (int i)</td></tr>
 <tr class="memdesc:ac6d03ce98d2c84c8268d8b55e316d448"><td class="mdescLeft">&#160;</td><td class="mdescRight">generates a QIcon for the i-th color palette (<em>i</em> is based on the list returned by JKQTPImagePlot_getPredefinedPalettes() ) <br  />
   <br /></td></tr>
@@ -202,8 +208,11 @@ Static Public Member Functions</h2></td></tr>
   <br /></td></tr>
 <tr class="separator:a104c9102a65557dc791e398332815a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f6bd8c48baa91f430603dc21db8870d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools.html#a3f6bd8c48baa91f430603dc21db8870d">JKQTPMathImageColorPalette2String</a> (<a class="el" href="group__jkqtplotter__imagelots__tools.html#gaae2f1de8b42bb1734243b4201f4aa72d">JKQTPMathImageColorPalette</a> p)</td></tr>
-<tr class="memdesc:a3f6bd8c48baa91f430603dc21db8870d"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert the palette <em>p</em> to a string  <br /></td></tr>
+<tr class="memdesc:a3f6bd8c48baa91f430603dc21db8870d"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert the palette <em>p</em> to a machine-readable string  <br /></td></tr>
 <tr class="separator:a3f6bd8c48baa91f430603dc21db8870d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64d72d88a3d63e9e028ba92f5210b255"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools.html#a64d72d88a3d63e9e028ba92f5210b255">JKQTPMathImageColorPalette2StringHumanReadable</a> (<a class="el" href="group__jkqtplotter__imagelots__tools.html#gaae2f1de8b42bb1734243b4201f4aa72d">JKQTPMathImageColorPalette</a> p)</td></tr>
+<tr class="memdesc:a64d72d88a3d63e9e028ba92f5210b255"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert the palette <em>p</em> to a human-readable (localized) string  <br /></td></tr>
+<tr class="separator:a64d72d88a3d63e9e028ba92f5210b255"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa422583662c8dfa952c66fee416448a7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools.html#aa422583662c8dfa952c66fee416448a7">registerPalette</a> (const QString &amp;name, const <a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">LUTType</a> &amp;paletteLut, const QString &amp;nameT=QString())</td></tr>
 <tr class="memdesc:aa422583662c8dfa952c66fee416448a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">registers a new LUT defined by <em>paletteLut</em> and with the given <em>name</em> (computer-readable) for later use, optionally stores also the human-readable and localized name <em>nameT</em> and assigns a new LUT-ID &gt;=JKQTPMathImageFIRST_REGISTERED_USER_PALETTE to the palette and returns it  <br /></td></tr>
 <tr class="separator:aa422583662c8dfa952c66fee416448a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,9 +243,9 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a2aa8cc4fe00814478baaa5458d49e835"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QMap&lt; int, <a class="el" href="struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html">LUTData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools.html#a2aa8cc4fe00814478baaa5458d49e835">getDefaultLUTs</a> ()</td></tr>
 <tr class="memdesc:a2aa8cc4fe00814478baaa5458d49e835"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns data of the default LUTs, used to initialize global_jkqtpimagetools_lutstore  <br /></td></tr>
 <tr class="separator:a2aa8cc4fe00814478baaa5458d49e835"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6449cb2c38044a219760c5edf9aff54e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> const <a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">LUTType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools.html#a6449cb2c38044a219760c5edf9aff54e">getLUTforPalette</a> (QMap&lt; int, <a class="el" href="struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html">LUTData</a> &gt; &amp;lutcache, <a class="el" href="group__jkqtplotter__imagelots__tools.html#gaae2f1de8b42bb1734243b4201f4aa72d">JKQTPMathImageColorPalette</a> palette)</td></tr>
-<tr class="memdesc:a6449cb2c38044a219760c5edf9aff54e"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a LUT for a given JKQTPMathImageColorPalette, store it in <em>lutstore</em> and return it  <br /></td></tr>
-<tr class="separator:a6449cb2c38044a219760c5edf9aff54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a600d230ca301bd4f44d9ee723d514362"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> const <a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">LUTType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_image_tools.html#a600d230ca301bd4f44d9ee723d514362">getLUTforPalette</a> (const QMap&lt; int, <a class="el" href="struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html">LUTData</a> &gt; &amp;lutcache, <a class="el" href="group__jkqtplotter__imagelots__tools.html#gaae2f1de8b42bb1734243b4201f4aa72d">JKQTPMathImageColorPalette</a> palette)</td></tr>
+<tr class="memdesc:a600d230ca301bd4f44d9ee723d514362"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a LUT for a given JKQTPMathImageColorPalette, store it in <em>lutstore</em> and return it  <br /></td></tr>
+<tr class="separator:a600d230ca301bd4f44d9ee723d514362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -555,6 +564,34 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="a40d38eaea9b126852363a6a1276ace9a" name="a40d38eaea9b126852363a6a1276ace9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40d38eaea9b126852363a6a1276ace9a">&#9670;&#160;</a></span>getColorsforPalette()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QVector&lt; QColor &gt; <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> JKQTPImageTools::getColorsforPalette </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__jkqtplotter__imagelots__tools.html#gaae2f1de8b42bb1734243b4201f4aa72d">JKQTPMathImageColorPalette</a>&#160;</td>
+          <td class="paramname"><em>palette</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return the list of QColors making up a JKQTPMathImageColorPalette, stored it in <em>lutstore</em> and return it </p>
+
+</div>
+</div>
 <a id="a2aa8cc4fe00814478baaa5458d49e835" name="a2aa8cc4fe00814478baaa5458d49e835"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2aa8cc4fe00814478baaa5458d49e835">&#9670;&#160;</a></span>getDefaultLUTs()</h2>
 
@@ -582,8 +619,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a6449cb2c38044a219760c5edf9aff54e" name="a6449cb2c38044a219760c5edf9aff54e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6449cb2c38044a219760c5edf9aff54e">&#9670;&#160;</a></span>getLUTforPalette()</h2>
+<a id="a600d230ca301bd4f44d9ee723d514362" name="a600d230ca301bd4f44d9ee723d514362"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a600d230ca301bd4f44d9ee723d514362">&#9670;&#160;</a></span>getLUTforPalette() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -594,7 +631,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname">static <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> const <a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">LUTType</a> &amp; JKQTPImageTools::getLUTforPalette </td>
           <td>(</td>
-          <td class="paramtype">QMap&lt; int, <a class="el" href="struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html">LUTData</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">const QMap&lt; int, <a class="el" href="struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html">LUTData</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>lutcache</em>, </td>
         </tr>
         <tr>
@@ -617,6 +654,34 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>create a LUT for a given JKQTPMathImageColorPalette, store it in <em>lutstore</em> and return it </p>
+
+</div>
+</div>
+<a id="a50d5f94ea9a757efc7ca99fe054310e8" name="a50d5f94ea9a757efc7ca99fe054310e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50d5f94ea9a757efc7ca99fe054310e8">&#9670;&#160;</a></span>getLUTforPalette() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const <a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">LUTType</a> &amp;<a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> JKQTPImageTools::getLUTforPalette </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__jkqtplotter__imagelots__tools.html#gaae2f1de8b42bb1734243b4201f4aa72d">JKQTPMathImageColorPalette</a>&#160;</td>
+          <td class="paramname"><em>palette</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>create a LUT for a given JKQTPMathImageColorPalette, stored it in <em>lutstore</em> and return it </p>
 
 </div>
 </div>
@@ -965,7 +1030,36 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>convert the palette <em>p</em> to a string </p>
+<p>convert the palette <em>p</em> to a machine-readable string </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_j_k_q_t_p_image_tools.html#a971bae64a802f7f580690f07b5c72167" title="convert the palette name p to JKQTPMathImageColorPalette (compatible with JKQTPImageTools::String2JKQ...">JKQTPImageTools::String2JKQTPMathImageColorPalette()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a64d72d88a3d63e9e028ba92f5210b255" name="a64d72d88a3d63e9e028ba92f5210b255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64d72d88a3d63e9e028ba92f5210b255">&#9670;&#160;</a></span>JKQTPMathImageColorPalette2StringHumanReadable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QString JKQTPImageTools::JKQTPMathImageColorPalette2StringHumanReadable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__jkqtplotter__imagelots__tools.html#gaae2f1de8b42bb1734243b4201f4aa72d">JKQTPMathImageColorPalette</a>&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convert the palette <em>p</em> to a human-readable (localized) string </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_j_k_q_t_p_image_tools.html#a971bae64a802f7f580690f07b5c72167" title="convert the palette name p to JKQTPMathImageColorPalette (compatible with JKQTPImageTools::String2JKQ...">JKQTPImageTools::String2JKQTPMathImageColorPalette()</a> </dd></dl>
 
 </div>
@@ -1107,7 +1201,7 @@ red, green, blue
 </div><div class="memdoc">
 
 <p>convert the palette name <em>p</em> to JKQTPMathImageColorPalette (compatible with <a class="el" href="struct_j_k_q_t_p_image_tools.html#a971bae64a802f7f580690f07b5c72167" title="convert the palette name p to JKQTPMathImageColorPalette (compatible with JKQTPImageTools::String2JKQ...">JKQTPImageTools::String2JKQTPMathImageColorPalette()</a> ) </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_j_k_q_t_p_image_tools.html#a3f6bd8c48baa91f430603dc21db8870d" title="convert the palette p to a string">JKQTPImageTools::JKQTPMathImageColorPalette2String()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_j_k_q_t_p_image_tools.html#a3f6bd8c48baa91f430603dc21db8870d" title="convert the palette p to a machine-readable string">JKQTPImageTools::JKQTPMathImageColorPalette2String()</a> </dd></dl>
 
 </div>
 </div>
@@ -1291,7 +1385,7 @@ red, green, blue
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_j_k_q_t_p_image_tools.html">JKQTPImageTools</a></li>
-    <li class="footer">Generated on Sat Jul 22 2023 13:56:08 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
+    <li class="footer">Generated on Tue Jul 25 2023 20:25:51 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
   </ul>
 </div>
 </body>

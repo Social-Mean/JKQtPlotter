@@ -1,5 +1,12 @@
 var NAVTREEINDEX17 =
 {
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a316a8481a5b4a2db7911775b28514b6e":[75,4,1,1,2,1,10,60],
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a36558d3164c98e52b924a7ef71c2fbe6":[75,4,1,1,2,1,10,75],
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a3f7ace08d21701b35d3f4e6388f7e3d7":[75,4,1,1,2,1,10,53],
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a417b6d18827df990b594aac8b6fe792a":[75,4,1,1,2,1,10,56],
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a418ad92a7bd4993d55a8fb8b7becf462":[75,4,1,1,2,1,10,12],
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a4250cd619995a895e99b0336ade036da":[75,4,1,1,2,1,10,102],
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a4516e2fde70efb3ebdc6d55fcaa0e101":[75,4,1,1,2,1,10,52],
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#a4583be1a2d2e36da4a6b26777d421dda":[75,4,1,1,2,1,10,40],
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#a46b98e86c3a932c5304c2e7c5b296822":[75,4,1,1,2,1,10,19],
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#a48ea76940ca90bcbff5b351c8a8b2845":[75,4,1,1,2,1,10,64],
@@ -242,12 +249,5 @@ var NAVTREEINDEX17 =
 "class_j_k_q_t_p_impulses_horizontal_graph.html#a4004c60296f1745f8f9187358c15ce3c":[75,4,1,1,1,6,2,8],
 "class_j_k_q_t_p_impulses_horizontal_graph.html#a994a492f446172839a097fb2c72dbeb7":[75,4,1,1,1,6,2,0],
 "class_j_k_q_t_p_impulses_horizontal_graph.html#aa9749c4890b9be68b1e0e35a1698323f":[75,4,1,1,1,6,2,1],
-"class_j_k_q_t_p_impulses_horizontal_graph.html#acf00f2bba6b1e22c4c62b7ac3694a109":[75,4,1,1,1,6,2,2],
-"class_j_k_q_t_p_impulses_horizontal_graph.html#ad19441f1303fbfb1fe6171b15d0396e7":[75,4,1,1,1,6,2,7],
-"class_j_k_q_t_p_impulses_horizontal_graph.html#adadfa226bd54d4c8a1f83337a183c84a":[75,4,1,1,1,6,2,6],
-"class_j_k_q_t_p_impulses_horizontal_graph.html#adf1b05d1281725b9ac2a1888adc23f7a":[75,4,1,1,1,6,2,9],
-"class_j_k_q_t_p_impulses_vertical_error_graph.html":[75,4,1,1,1,6,3],
-"class_j_k_q_t_p_impulses_vertical_error_graph.html#a0480422a732d85fe169435cb930ef2e2":[75,4,1,1,1,6,3,3],
-"class_j_k_q_t_p_impulses_vertical_error_graph.html#a0db32044440c6b1cc2c9472cca972a23":[75,4,1,1,1,6,3,7],
-"class_j_k_q_t_p_impulses_vertical_error_graph.html#a13a88febadd6423d0b980e05007972d0":[75,4,1,1,1,6,3,10]
+"class_j_k_q_t_p_impulses_horizontal_graph.html#acf00f2bba6b1e22c4c62b7ac3694a109":[75,4,1,1,1,6,2,2]
 };
