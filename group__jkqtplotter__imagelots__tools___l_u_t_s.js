@@ -26,7 +26,9 @@ var group__jkqtplotter__imagelots__tools___l_u_t_s =
       [ "push_back", "class_j_k_q_t_p_palette_list.html#af553bfffb903966fbd7f33b5c8e5b3c0", null ],
       [ "push_back", "class_j_k_q_t_p_palette_list.html#ae10ac3a56a7e1b6c288c641e5e0ecdc3", null ],
       [ "push_back", "class_j_k_q_t_p_palette_list.html#ac05911b27d7338b36f886ab436166cc3", null ],
-      [ "push_back", "class_j_k_q_t_p_palette_list.html#a24fcc4facf37a496972dd0d98da17475", null ]
+      [ "push_back", "class_j_k_q_t_p_palette_list.html#a24fcc4facf37a496972dd0d98da17475", null ],
+      [ "reverse", "class_j_k_q_t_p_palette_list.html#a88d161a6f8887bfa3e20bf36b220818f", null ],
+      [ "sort", "class_j_k_q_t_p_palette_list.html#a199d85a94e57d9ecab3b22a05b057b9c", null ]
     ] ],
     [ "jkqtp_qRgbOpaque", "group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga2d0e7859707a8b3176cd3350838fd350", null ],
     [ "JKQTPBuildColorPaletteLUT", "group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga593420498f0e0e5a8d71447a7d545c8b", null ],

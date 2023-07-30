@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"class_j_k_q_t_plotter.html#ac3698a368335196eefe8118e05d1230f":[75,4,1,2,4,126],
+"class_j_k_q_t_plotter.html#ac4d385d493682dc6a7b5cd45726efaf3":[75,4,1,2,4,215],
 "class_j_k_q_t_plotter.html#ac58384e565a003a4a598b3e81a3729e8":[75,4,1,2,4,192],
 "class_j_k_q_t_plotter.html#ac7623645868346d96e96b0042d2a499d":[75,4,1,2,4,264],
 "class_j_k_q_t_plotter.html#ac787bf67abc710c55ddd03596871c1e5":[75,4,1,2,4,206],
@@ -121,15 +123,15 @@ var NAVTREEINDEX24 =
 "example_tutorial_projects.html#jkqtp_extut_plotimagedata":[4,0,3],
 "example_tutorial_projects.html#jkqtp_extut_plotstyles":[4,0,0],
 "example_tutorial_projects.html#jkqtp_extut_tools":[4,3],
-"functions.html":[77,3,0,0],
 "functions.html":[77,3,0],
+"functions.html":[77,3,0,0],
 "functions_b.html":[77,3,0,1],
 "functions_c.html":[77,3,0,2],
 "functions_d.html":[77,3,0,3],
 "functions_e.html":[77,3,0,4],
 "functions_enum.html":[77,3,4],
-"functions_eval.html":[77,3,5],
 "functions_eval.html":[77,3,5,0],
+"functions_eval.html":[77,3,5],
 "functions_eval_b.html":[77,3,5,1],
 "functions_eval_c.html":[77,3,5,2],
 "functions_eval_d.html":[77,3,5,3],
@@ -195,8 +197,8 @@ var NAVTREEINDEX24 =
 "functions_type.html":[77,3,3],
 "functions_u.html":[77,3,0,20],
 "functions_v.html":[77,3,0,21],
-"functions_vars.html":[77,3,2,0],
 "functions_vars.html":[77,3,2],
+"functions_vars.html":[77,3,2,0],
 "functions_vars_b.html":[77,3,2,1],
 "functions_vars_c.html":[77,3,2,2],
 "functions_vars_d.html":[77,3,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "group__jkqtfastplotter__tools.html#ggaa94a0bca376a39f32a47dbd6f08fc594ae85b8f970cc01c73866fbe00cb261f8a":[75,1,1,4,2],
 "group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7ea0b7de0e3047d0a4e14ee9890dad2b222":[75,1,1,3,13],
 "group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7ea14c7bc89663c6f241bcf1cc578cb506e":[75,1,1,3,15],
-"group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7ea178f89d73854b61139e9dc24cc4447fa":[75,1,1,3,3],
-"group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7ea199ab8d131f8d3769cc90c02ff960396":[75,1,1,3,18],
-"group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7ea491435a5229de1c8c910b37c21f2ad05":[75,1,1,3,11]
+"group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7ea178f89d73854b61139e9dc24cc4447fa":[75,1,1,3,3]
 };

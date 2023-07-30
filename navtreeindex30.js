@@ -1,5 +1,7 @@
 var NAVTREEINDEX30 =
 {
+"page_buildinstructions__q_m_a_k_e.html":[3,1],
+"page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKEDYNAMIC":[3,1,2],
 "page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKEINCLUDE":[3,1,0],
 "page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKEQTCREATOR":[3,1,3],
 "page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKESTATIC":[3,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX30 =
 "struct_j_k_q_t_math_text_t_b_r_data.html#a6c3bacb8b68848a7461c1e06c48356b9":[77,0,53,8],
 "struct_j_k_q_t_math_text_t_b_r_data.html#a839d27ac2fe6d687c9c423b6daf5ed12":[77,0,53,9],
 "struct_j_k_q_t_math_text_t_b_r_data.html#ad36552066cf9927968b73b2cf09b4e62":[77,0,53,6],
-"struct_j_k_q_t_math_text_t_b_r_data.html#af22fd00135a7e7fb816fe444072d2ebb":[77,0,53,0],
-"struct_j_k_q_t_math_text_t_b_r_data_h.html":[77,0,54],
-"struct_j_k_q_t_math_text_t_b_r_data_h.html#a0ccc679782065597cd5352ecb73f287e":[77,0,54,7]
+"struct_j_k_q_t_math_text_t_b_r_data.html#af22fd00135a7e7fb816fe444072d2ebb":[77,0,53,0]
 };

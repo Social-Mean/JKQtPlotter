@@ -177,6 +177,7 @@ var NAVTREEINDEX19 =
 "class_j_k_q_t_p_palette_list.html#a054462fae536911521fc509d10263e7a":[75,4,1,1,1,8,2,0,1,12],
 "class_j_k_q_t_p_palette_list.html#a06ca4d3ee1b164cd2af02727d17eb7e3":[75,4,1,1,1,8,2,0,1,0],
 "class_j_k_q_t_p_palette_list.html#a09ec52a729ec9b0a988995c2e8c9b8c8":[75,4,1,1,1,8,2,0,1,13],
+"class_j_k_q_t_p_palette_list.html#a199d85a94e57d9ecab3b22a05b057b9c":[75,4,1,1,1,8,2,0,1,19],
 "class_j_k_q_t_p_palette_list.html#a244426bd268085109b0c0e7cc5cc1689":[75,4,1,1,1,8,2,0,1,11],
 "class_j_k_q_t_p_palette_list.html#a24fcc4facf37a496972dd0d98da17475":[75,4,1,1,1,8,2,0,1,17],
 "class_j_k_q_t_p_palette_list.html#a26f730fdc162e710f9309e52099e85b3":[75,4,1,1,1,8,2,0,1,10],
@@ -185,6 +186,7 @@ var NAVTREEINDEX19 =
 "class_j_k_q_t_p_palette_list.html#a5cbf1a042fa98aa5ef2d6e4d751cef3c":[75,4,1,1,1,8,2,0,1,7],
 "class_j_k_q_t_p_palette_list.html#a5ff3f5d2280dec6e4e43105febe32848":[75,4,1,1,1,8,2,0,1,8],
 "class_j_k_q_t_p_palette_list.html#a69612516a2c3c31656d53c95b3e72e03":[75,4,1,1,1,8,2,0,1,2],
+"class_j_k_q_t_p_palette_list.html#a88d161a6f8887bfa3e20bf36b220818f":[75,4,1,1,1,8,2,0,1,18],
 "class_j_k_q_t_p_palette_list.html#a8bfea2ee5b0553c7e80225afd174b225":[75,4,1,1,1,8,2,0,1,5],
 "class_j_k_q_t_p_palette_list.html#abb4aae51731c2d744bfcb143e75cb497":[75,4,1,1,1,8,2,0,1,4],
 "class_j_k_q_t_p_palette_list.html#abdf1058db279a283d4dece4379884782":[75,4,1,1,1,8,2,0,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "class_j_k_q_t_p_plot_element.html#a27c1c7b84db9c01b2abc524286b79efa":[75,4,1,1,0,4,28],
 "class_j_k_q_t_p_plot_element.html#a2959753811bc9a2b7180fbdb938d454c":[75,4,1,1,0,4,11],
 "class_j_k_q_t_p_plot_element.html#a2c21c5c3c12c096462881488c1df0904":[75,4,1,1,0,4,58],
-"class_j_k_q_t_p_plot_element.html#a30b39e27343afade497c7edb18593c3f":[75,4,1,1,0,4,46],
-"class_j_k_q_t_p_plot_element.html#a336daf7b22c725b057378d5b25a08aa4":[75,4,1,1,0,4,38],
-"class_j_k_q_t_p_plot_element.html#a398ca9be02ec288d60a5618eeeff4791":[75,4,1,1,0,4,15]
+"class_j_k_q_t_p_plot_element.html#a30b39e27343afade497c7edb18593c3f":[75,4,1,1,0,4,46]
 };
