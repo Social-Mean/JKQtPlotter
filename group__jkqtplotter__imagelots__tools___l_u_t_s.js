@@ -21,8 +21,11 @@ var group__jkqtplotter__imagelots__tools___l_u_t_s =
       [ "getMaxPosition", "class_j_k_q_t_p_palette_list.html#a40cc0cb05954239fcb3bb419952174a3", null ],
       [ "getMinMaxPosition", "class_j_k_q_t_p_palette_list.html#a26f730fdc162e710f9309e52099e85b3", null ],
       [ "getMinPosition", "class_j_k_q_t_p_palette_list.html#a244426bd268085109b0c0e7cc5cc1689", null ],
+      [ "operator<<", "class_j_k_q_t_p_palette_list.html#a054462fae536911521fc509d10263e7a", null ],
       [ "operator<<", "class_j_k_q_t_p_palette_list.html#a09ec52a729ec9b0a988995c2e8c9b8c8", null ],
+      [ "push_back", "class_j_k_q_t_p_palette_list.html#af553bfffb903966fbd7f33b5c8e5b3c0", null ],
       [ "push_back", "class_j_k_q_t_p_palette_list.html#ae10ac3a56a7e1b6c288c641e5e0ecdc3", null ],
+      [ "push_back", "class_j_k_q_t_p_palette_list.html#ac05911b27d7338b36f886ab436166cc3", null ],
       [ "push_back", "class_j_k_q_t_p_palette_list.html#a24fcc4facf37a496972dd0d98da17475", null ]
     ] ],
     [ "jkqtp_qRgbOpaque", "group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga2d0e7859707a8b3176cd3350838fd350", null ],

@@ -1,5 +1,15 @@
 var NAVTREEINDEX30 =
 {
+"page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKEINCLUDE":[3,1,0],
+"page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKEQTCREATOR":[3,1,3],
+"page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKESTATIC":[3,1,1],
+"page_todo.html":[6],
+"page_whatsnew.html":[7],
+"page_whatsnew.html#page_whatsnew_TRUNK":[7,0],
+"page_whatsnew.html#page_whatsnew_TRUNK_DOWNLOAD":[7,0,1],
+"page_whatsnew.html#page_whatsnew_TRUNK_OVERVIEW":[7,0,0],
+"page_whatsnew.html#page_whatsnew_V2015_10":[7,4],
+"page_whatsnew.html#page_whatsnew_V2015_10_DOWNLOAD":[7,4,1],
 "page_whatsnew.html#page_whatsnew_V2015_10_OVERVIEW":[7,4,0],
 "page_whatsnew.html#page_whatsnew_V2018_08":[7,3],
 "page_whatsnew.html#page_whatsnew_V2018_08_DOWNLOAD":[7,3,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX30 =
 "struct_j_k_q_t_math_text_t_b_r_data.html#ad36552066cf9927968b73b2cf09b4e62":[77,0,53,6],
 "struct_j_k_q_t_math_text_t_b_r_data.html#af22fd00135a7e7fb816fe444072d2ebb":[77,0,53,0],
 "struct_j_k_q_t_math_text_t_b_r_data_h.html":[77,0,54],
-"struct_j_k_q_t_math_text_t_b_r_data_h.html#a0ccc679782065597cd5352ecb73f287e":[77,0,54,7],
-"struct_j_k_q_t_math_text_t_b_r_data_h.html#a610cfa83cd68a8697617a19bf690ef7e":[77,0,54,0],
-"struct_j_k_q_t_math_text_t_b_r_data_h.html#a9702adc1af10b9060deb9d0289848a01":[77,0,54,2],
-"struct_j_k_q_t_math_text_t_b_r_data_h.html#ae24a9796dd2ee3bde227f6ffbdd4c503":[77,0,54,6],
-"struct_j_k_q_t_math_text_t_b_r_data_h.html#ae4661a73e4306abbb95e42934d97151e":[77,0,54,5],
-"struct_j_k_q_t_math_text_t_b_r_data_h.html#ae795e2f41701279ade9acdf5a134cbdb":[77,0,54,4],
-"struct_j_k_q_t_math_text_t_b_r_data_h.html#aef48cdcafd1b687a18e875dd8ada6386":[77,0,54,1],
-"struct_j_k_q_t_math_text_t_b_r_data_h.html#afd34a1539d994c3254154893df66dacf":[77,0,54,3],
-"struct_j_k_q_t_math_text_text_node_1_1_layout_info.html":[75,3,1,2,36],
-"struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#a04350392563a4d7f158265c76b9c1b67":[75,3,1,2,36,3],
-"struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#a30754499cc6f368f1fc23e6633e1fa2c":[75,3,1,2,36,6]
+"struct_j_k_q_t_math_text_t_b_r_data_h.html#a0ccc679782065597cd5352ecb73f287e":[77,0,54,7]
 };
