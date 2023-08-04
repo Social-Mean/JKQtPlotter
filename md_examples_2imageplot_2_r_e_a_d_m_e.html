@@ -252,10 +252,20 @@ $(document).ready(function(){initNavTree('md_examples_2imageplot_2_r_e_a_d_m_e.h
 </div><!-- fragment --><p> The result looks like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/imageplot.png" alt="imageplot" class="inline"/></p>
 <p>There are several ways to modify the plot:</p><ol type="1">
-<li>You can set the color scale manually (here 0..2), by using <code> graph-&gt;setAutoImageRange(false); graph-&gt;setImageMin(0); graph-&gt;setImageMax(2); @icode instead of @endicode graph-&gt;setAutoImageRange(true); @icode from above. The result will look like this:&lt;br&gt; ![imageplot__scale02](<a href="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/imageplot__scale02.png">https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/imageplot__scale02.png</a>)&lt;br&gt; Note how the color scale is not used completely, because data really only scales between 0 and 1.</code></li>
-<li><code>If you set the color-range to 0.1 .. 0.8 with @endicode graph-&gt;setAutoImageRange(false); graph-&gt;setImageMin(0.1); graph-&gt;setImageMax(0.8); </code> Then there will be datapoints above or below the range of the colorscale. The default behaviour of the graph is to use the first color of the palette for every pixel with a value below the minimum (here 0.1) and the last color in the palette for every pixel with a value above the maximum.<br  />
- <img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/imageplot__smallscalelimitcolor.png" alt="imageplot__smallscalelimitcolor" class="inline"/><br  />
- You can change this behaviour by <code>setRangeMinFailAction(),setRangeMaxFailAction()</code> with one of these parameters:<ul>
+<li><p class="startli">You can set the color scale manually (here 0..2), by using</p>
+<p class="startli"><code> graph-&gt;setAutoImageRange(false); graph-&gt;setImageMin(0); graph-&gt;setImageMax(2); </code></p>
+<p class="startli">instead of</p>
+<p class="startli"><code> graph-&gt;setAutoImageRange(true); </code></p>
+<p class="startli">from above. The result will look like this:<br  />
+ <img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/imageplot__scale02.png" alt="imageplot__scale02" class="inline"/><br  />
+ Note how the color scale is not used completely, because data really only scales between 0 and 1.</p>
+</li>
+<li><p class="startli">If you set the color-range to 0.1 .. 0.8 with <code> graph-&gt;setAutoImageRange(false); graph-&gt;setImageMin(0.1); graph-&gt;setImageMax(0.8); </code></p>
+<p class="startli">Then there will be datapoints above or below the range of the colorscale. The default behaviour of the graph is to use the first color of the palette for every pixel with a value below the minimum (here 0.1) and the last color in the palette for every pixel with a value above the maximum.<br  />
+</p>
+<p class="startli"><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/imageplot__smallscalelimitcolor.png" alt="imageplot__smallscalelimitcolor" class="inline"/><br  />
+</p>
+<p class="startli">You can change this behaviour by <code><a class="el" href="class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#aa4bee3eee4f204f1b23d0fd4be106735" title="which action to take if a color is below imageMin and autoImageRange ==false">JKQTPColumnMathImage::setRangeMinFailAction()</a></code> / <code><a class="el" href="class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#a83361b91d29532ba41479a928b7c45c7" title="which action to take if a color is above imageMax and autoImageRange ==false">JKQTPColumnMathImage::setRangeMaxFailAction()</a></code> with one of these parameters:</p><ul>
 <li><code>JKQTPMathImageLastPaletteColor</code>: the default behaviour explained above</li>
 <li><code>JKQTPMathImageGivenColor</code>: use a color set by <code>setRangeMinFailColor(),setRangeMaxFailColor()</code> (here e.g. black for min and grey for max)<br  />
  <img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/imageplot__smallscalecolor.png" alt="imageplot__smallscalecolor" class="inline"/></li>
@@ -271,7 +281,7 @@ $(document).ready(function(){initNavTree('md_examples_2imageplot_2_r_e_a_d_m_e.h
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 4 2023 12:26:40 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
+    <li class="footer">Generated on Fri Aug 4 2023 13:36:29 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
   </ul>
 </div>
 </body>
