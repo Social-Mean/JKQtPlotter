@@ -61,47 +61,47 @@
 \_form#60=10x13:$ \sigma_X=\sqrt{\mbox{Var}(X)} $
 \_form#61=10x13:\[ \sigma_X=\sqrt{\frac{1}{N-1}\cdot\sum\limits_{i=1}^{N}(X_i-\overline{X})^2}= \]
 \_form#62=10x13:\[ \sigma_v^2=\text{Var}(v)=\frac{\sum\limits_{i=1}^{N}w_i\cdot (v_i-\overline{v})^2}{\sum\limits_{i=1}^{N}w_i} \]
-\_form#63=10x13:\[ \sigma_v=\sqrt{\frac{\sum\limits_{i=1}^{N}w_i\cdot (v_i-\overline{v})^2}{\sum\limits_{i=1}^{N}w_i}} \]
-\_form#64=10x13:$ \gamma_1=\mathbb{E}\left[\left(\frac{X-\mu}{\sigma}\right)^3\right] $
-\_form#65=10x13:$ \gamma_1 $
-\_form#66=10x13:\[ \gamma_1=\mathbb{E}\left[\left(\frac{X-\mu}{\sigma}\right)^3\right]= \frac{m_3}{m_2^{3/2}}  = \frac{\frac{1}{n} \sum_{i=1}^n (x_i-\overline{x})^3}{\left(\frac{1}{n} \sum_{i=1}^n (x_i-\overline{x})^2\right)^{3/2}} \]
-\_form#67=10x13:$\mu$
-\_form#68=10x13:$\sigma$
-\_form#69=10x13:$X$
-\_form#70=10x13:$\overline{x}$
-\_form#71=10x13:$ x_i$
-\_form#72=10x13:$ \langle (X-\mu)^o\rangle $
-\_form#73=10x13:$ o $
-\_form#74=10x13:\[ \langle (X-\mu)^o\rangle= \mathbb{E}\left[\left(X-\mu\right)^o\right] \]
-\_form#75=10x13:$ \langle X^o\rangle $
-\_form#76=10x13:\[ \langle X^n\rangle= \mathbb{E}\left[X^n\right] \]
-\_form#77=10x13:$ \rho_{x,y} $
-\_form#78=10x13:$ Y_1 $
-\_form#79=10x13:$ X_i $
-\_form#80=10x13:$ Y_i $
-\_form#81=10x13:\[ \rho_{x,y}=\text{CorCoeff}_{\text{Pearson}}(x,y)=\frac{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})(y_i-\overline{y})}{\sqrt{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})^2\cdot\sum\limits_{i=0}^{N-1}(y_i-\overline{y})^2}} \]
-\_form#82=10x13:\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]
-\_form#83=10x13:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
-\_form#84=10x13:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
-\_form#85=10x13:$ f(x): \mathbb{R}\rightarrow\mathbb{R} $
-\_form#86=10x13:$ x $
-\_form#87=10x13:$ f(x) $
-\_form#88=10x13:$ f(x)=\mbox{round}(x) $
-\_form#89=10x13:$ \mbox{firstGroupCenter} $
-\_form#90=10x13:$ \mbox{firstGroupCenter}\pm\mbox{groupWidth}/2$
-\_form#91=10x13:$ \mbox{firstGroupCenter}\pm2\cdot\mbox{groupWidth}/2 $
-\_form#92=10x13:$ \mbox{firstGroupCenter}\pm3\cdot\mbox{groupWidth}/2 $
-\_form#93=10x13:$ \mbox{round}\left(\frac{x-\mbox{firstGroupCenter}}{\mbox{groupWidth}/2}\right) $
-\_form#94=10x13:$ (c_i,v_i) $
-\_form#95=10x13:$ c_i $
-\_form#96=10x13:$ v_i $
-\_form#97=10x13:$ V_j=\{v_{i}|c_i\equiv c_{\text{out},j}\} $
-\_form#98=10x13:$ c_i\equiv c_{\text{out},j} $
-\_form#99=10x13:$ c_{\text{out},j} $
-\_form#100=10x13:$ c_1 $
-\_form#101=10x13:$ c_N $
-\_form#102=10x13:$ v_1 $
-\_form#103=10x13:$ v_N $
+\_form#63=10x13:$ f(x): \mathbb{R}\rightarrow\mathbb{R} $
+\_form#64=10x13:$ x $
+\_form#65=10x13:$ f(x) $
+\_form#66=10x13:\[ \sigma_v=\sqrt{\frac{\sum\limits_{i=1}^{N}w_i\cdot (v_i-\overline{v})^2}{\sum\limits_{i=1}^{N}w_i}} \]
+\_form#67=10x13:$ f(x)=\mbox{round}(x) $
+\_form#68=10x13:$ \mbox{firstGroupCenter} $
+\_form#69=10x13:$ \mbox{firstGroupCenter}\pm\mbox{groupWidth}/2$
+\_form#70=10x13:$ \mbox{firstGroupCenter}\pm2\cdot\mbox{groupWidth}/2 $
+\_form#71=10x13:$ \mbox{firstGroupCenter}\pm3\cdot\mbox{groupWidth}/2 $
+\_form#72=10x13:$ \mbox{round}\left(\frac{x-\mbox{firstGroupCenter}}{\mbox{groupWidth}/2}\right) $
+\_form#73=10x13:$ \gamma_1=\mathbb{E}\left[\left(\frac{X-\mu}{\sigma}\right)^3\right] $
+\_form#74=10x13:$ \gamma_1 $
+\_form#75=10x13:\[ \gamma_1=\mathbb{E}\left[\left(\frac{X-\mu}{\sigma}\right)^3\right]= \frac{m_3}{m_2^{3/2}}  = \frac{\frac{1}{n} \sum_{i=1}^n (x_i-\overline{x})^3}{\left(\frac{1}{n} \sum_{i=1}^n (x_i-\overline{x})^2\right)^{3/2}} \]
+\_form#76=10x13:$\mu$
+\_form#77=10x13:$\sigma$
+\_form#78=10x13:$X$
+\_form#79=10x13:$\overline{x}$
+\_form#80=10x13:$ x_i$
+\_form#81=10x13:$ (c_i,v_i) $
+\_form#82=10x13:$ c_i $
+\_form#83=10x13:$ v_i $
+\_form#84=10x13:$ V_j=\{v_{i}|c_i\equiv c_{\text{out},j}\} $
+\_form#85=10x13:$ c_i\equiv c_{\text{out},j} $
+\_form#86=10x13:$ c_{\text{out},j} $
+\_form#87=10x13:$ c_1 $
+\_form#88=10x13:$ c_N $
+\_form#89=10x13:$ v_1 $
+\_form#90=10x13:$ \langle (X-\mu)^o\rangle $
+\_form#91=10x13:$ v_N $
+\_form#92=10x13:$ o $
+\_form#93=10x13:\[ \langle (X-\mu)^o\rangle= \mathbb{E}\left[\left(X-\mu\right)^o\right] \]
+\_form#94=10x13:$ \langle X^o\rangle $
+\_form#95=10x13:\[ \langle X^n\rangle= \mathbb{E}\left[X^n\right] \]
+\_form#96=10x13:$ \rho_{x,y} $
+\_form#97=10x13:$ Y_1 $
+\_form#98=10x13:$ X_i $
+\_form#99=10x13:$ Y_i $
+\_form#100=10x13:\[ \rho_{x,y}=\text{CorCoeff}_{\text{Pearson}}(x,y)=\frac{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})(y_i-\overline{y})}{\sqrt{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})^2\cdot\sum\limits_{i=0}^{N-1}(y_i-\overline{y})^2}} \]
+\_form#101=10x13:\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]
+\_form#102=10x13:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
+\_form#103=10x13:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
 \_form#104=10x13:$ Y_N $
 \_form#105=10x13:\[ k(t):=\frac{1}{\sqrt{2\pi}}\exp \left(-\frac{1}{2}t^2\right) \]
 \_form#106=10x13:\[ k(t):=\frac{1}{\pi(1+t^2)} \]
@@ -205,8 +205,8 @@
 \_form#204=10x13:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
 \_form#205=10x13:$ [x,y]=f(t) $
 \_form#206=10x13:$ t \in \left[t_\text{min}, t_\text{max}\right] $
-\_form#207=10x13:$ [x,y]=f(t, \vec{p}) $
-\_form#208=10x13:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
+\_form#207=10x13:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
+\_form#208=10x13:$ [x,y]=f(t, \vec{p}) $
 \_form#209=10x13:$ [x,y] $
 \_form#210=10x13:$ [x,y]=f(t), t \in \left[t_\text{min}, t_\text{max}\right] $
 \_form#211=10x13:$ (x,y) $
@@ -232,23 +232,23 @@
 \_form#231=10x13:$ 2\pi $
 \_form#232=10x13:$ 3\pi $
 \_form#233=10x13:$ pi $
-\_form#234=10x13:$ x=0 $
-\_form#235=10x13:$ y=0 $
-\_form#236=10x13:$ \mbox{Xscale}\cdot\Delta x $
-\_form#237=10x13:$ \Delta x $
-\_form#238=10x13:$ \mbox{Yscale}\cdot\Delta < $
-\_form#239=10x13:$ \Delta < $
-\_form#240=10x13:$ \Delta\mbox{tick} $
-\_form#241=10x13:$ \rho $
-\_form#242=10x13:\[ \Delta\mbox{tick}=f\cdot 10^\rho,\ \ \ \ \ f\in\{1, 2, 2.5, 5\} \]
-\_form#243=10x13:$ \rho_s=\left\lfloor\log_{10}(\mbox{awidth})\right\rfloor+3 $
-\_form#244=10x13:$ \rho=\rho_0 $
-\_form#245=10x13:$ f=10 $
-\_form#246=10x13:$ f\in\{1, 2, 2.5, 5, 10\} $
-\_form#247=10x13:$ \Delta\mbox{tick}=f\cdot 10^\rho $
-\_form#248=10x13:$ \mbox{tickcount}=\mbox{round}\left(\frac{\mbox{awidth}}{\Delta\mbox{tick}}\right) $
-\_form#249=10x13:$ f=1 $
-\_form#250=10x13:$ \rho \leftarrow \rho-1 $
+\_form#234=10x13:$ \Delta\mbox{tick} $
+\_form#235=10x13:$ \rho $
+\_form#236=10x13:\[ \Delta\mbox{tick}=f\cdot 10^\rho,\ \ \ \ \ f\in\{1, 2, 2.5, 5\} \]
+\_form#237=10x13:$ \rho_s=\left\lfloor\log_{10}(\mbox{awidth})\right\rfloor+3 $
+\_form#238=10x13:$ \rho=\rho_0 $
+\_form#239=10x13:$ f=10 $
+\_form#240=10x13:$ f\in\{1, 2, 2.5, 5, 10\} $
+\_form#241=10x13:$ \Delta\mbox{tick}=f\cdot 10^\rho $
+\_form#242=10x13:$ \mbox{tickcount}=\mbox{round}\left(\frac{\mbox{awidth}}{\Delta\mbox{tick}}\right) $
+\_form#243=10x13:$ f=1 $
+\_form#244=10x13:$ \rho \leftarrow \rho-1 $
+\_form#245=10x13:$ x=0 $
+\_form#246=10x13:$ y=0 $
+\_form#247=10x13:$ \mbox{Xscale}\cdot\Delta x $
+\_form#248=10x13:$ \Delta x $
+\_form#249=10x13:$ \mbox{Yscale}\cdot\Delta < $
+\_form#250=10x13:$ \Delta < $
 \_form#251=10x13:$ 5\cdot 10^{-6} $
 \_form#252=10x13:$ 3\cdot 10^3 $
 \_form#253=10x13:$ 3\cdot 10^5 $

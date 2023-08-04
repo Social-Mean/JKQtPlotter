@@ -285,7 +285,7 @@ Main Program of the Example (GUI)</h1>
 <div class="line">cmbPalette-&gt;<a class="code hl_function" href="class_j_k_q_t_p_math_image_color_palette_combo_box.html#a32cda9650a85354cba07690aee882e95">setCurrentColorPalette</a>(graph-&gt;getPalette());</div>
 </div><!-- fragment --><p>It also adds two <code>QPushButton</code>s that allow to save the current or all registered color-palettes to small PNG-Files: </p><div class="fragment"><div class="line">QPushButton* btnSavePal=<span class="keyword">new</span> QPushButton(QObject::tr(<span class="stringliteral">&quot;save current palette&quot;</span>), &amp;win);</div>
 <div class="line">btnSavePal-&gt;connect(btnSavePal, &amp;QPushButton::clicked, [&amp;]() {</div>
-<div class="line">    <span class="keyword">auto</span> img=<a class="code hl_function" href="struct_j_k_q_t_p_image_tools.html#ae04d620e9a11fac1b77be37b0bbb8a18">JKQTPImageTools::GetPaletteImage</a>(cmbPalette-&gt;<a class="code hl_function" href="class_j_k_q_t_p_math_image_color_palette_combo_box.html#aa22f049b565c889d9569dc6513a26ed9">currentColorPalette</a>(), <a class="code hl_variable" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a>, 16);</div>
+<div class="line">    <span class="keyword">auto</span> img=<a class="code hl_function" href="struct_j_k_q_t_p_image_tools.html#ad2da30745fde243b3369b859c56d6c63">JKQTPImageTools::GetPaletteImage</a>(cmbPalette-&gt;<a class="code hl_function" href="class_j_k_q_t_p_math_image_color_palette_combo_box.html#aa22f049b565c889d9569dc6513a26ed9">currentColorPalette</a>(), <a class="code hl_variable" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a>, 16);</div>
 <div class="line">    img.save(<a class="code hl_function" href="struct_j_k_q_t_p_image_tools.html#a3f6bd8c48baa91f430603dc21db8870d">JKQTPImageTools::JKQTPMathImageColorPalette2String</a>(cmbPalette-&gt;<a class="code hl_function" href="class_j_k_q_t_p_math_image_color_palette_combo_box.html#aa22f049b565c889d9569dc6513a26ed9">currentColorPalette</a>())+<span class="stringliteral">&quot;.png&quot;</span>);</div>
 <div class="line">});</div>
 <div class="line">lay-&gt;addWidget(btnSavePal);</div>
@@ -293,7 +293,7 @@ Main Program of the Example (GUI)</h1>
 <div class="line">btnSavePal-&gt;connect(btnSaveAllPal, &amp;QPushButton::clicked, [&amp;]() {</div>
 <div class="line">    <span class="keywordflow">for</span> (<span class="keyword">auto</span> pn: <a class="code hl_struct" href="struct_j_k_q_t_p_image_tools.html">JKQTPImageTools</a>::getPredefinedPalettes()) {</div>
 <div class="line">        <span class="keyword">auto</span> p=<a class="code hl_function" href="struct_j_k_q_t_p_image_tools.html#a971bae64a802f7f580690f07b5c72167">JKQTPImageTools::String2JKQTPMathImageColorPalette</a>(pn);</div>
-<div class="line">        <span class="keyword">auto</span> img=<a class="code hl_function" href="struct_j_k_q_t_p_image_tools.html#ae04d620e9a11fac1b77be37b0bbb8a18">JKQTPImageTools::GetPaletteImage</a>(p, <a class="code hl_variable" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a>, 16);</div>
+<div class="line">        <span class="keyword">auto</span> img=<a class="code hl_function" href="struct_j_k_q_t_p_image_tools.html#ad2da30745fde243b3369b859c56d6c63">JKQTPImageTools::GetPaletteImage</a>(p, <a class="code hl_variable" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a>, 16);</div>
 <div class="line">        img.save(<span class="stringliteral">&quot;palette_&quot;</span>+<a class="code hl_function" href="struct_j_k_q_t_p_image_tools.html#a3f6bd8c48baa91f430603dc21db8870d">JKQTPImageTools::JKQTPMathImageColorPalette2String</a>(p)+<span class="stringliteral">&quot;.png&quot;</span>);</div>
 <div class="line">    }</div>
 <div class="line">});</div>
@@ -302,7 +302,7 @@ Main Program of the Example (GUI)</h1>
 <div class="ttc" id="astruct_j_k_q_t_p_image_tools_html"><div class="ttname"><a href="struct_j_k_q_t_p_image_tools.html">JKQTPImageTools</a></div><div class="ttdoc">tool structure that summarizes several static properties of JKQTPlotters palette system,...</div><div class="ttdef"><b>Definition</b> jkqtpbasicimagetools.h:301</div></div>
 <div class="ttc" id="astruct_j_k_q_t_p_image_tools_html_a3f6bd8c48baa91f430603dc21db8870d"><div class="ttname"><a href="struct_j_k_q_t_p_image_tools.html#a3f6bd8c48baa91f430603dc21db8870d">JKQTPImageTools::JKQTPMathImageColorPalette2String</a></div><div class="ttdeci">static JKQTCOMMON_LIB_EXPORT QString JKQTPMathImageColorPalette2String(JKQTPMathImageColorPalette p)</div><div class="ttdoc">convert the palette p to a machine-readable string</div></div>
 <div class="ttc" id="astruct_j_k_q_t_p_image_tools_html_a971bae64a802f7f580690f07b5c72167"><div class="ttname"><a href="struct_j_k_q_t_p_image_tools.html#a971bae64a802f7f580690f07b5c72167">JKQTPImageTools::String2JKQTPMathImageColorPalette</a></div><div class="ttdeci">static JKQTCOMMON_LIB_EXPORT JKQTPMathImageColorPalette String2JKQTPMathImageColorPalette(const QString &amp;p)</div><div class="ttdoc">convert the palette name p to JKQTPMathImageColorPalette (compatible with JKQTPImageTools::String2JKQ...</div></div>
-<div class="ttc" id="astruct_j_k_q_t_p_image_tools_html_ae04d620e9a11fac1b77be37b0bbb8a18"><div class="ttname"><a href="struct_j_k_q_t_p_image_tools.html#ae04d620e9a11fac1b77be37b0bbb8a18">JKQTPImageTools::GetPaletteImage</a></div><div class="ttdeci">static QImage JKQTCOMMON_LIB_EXPORT GetPaletteImage(int i, int width)</div><div class="ttdoc">generates a QImage with width width and height 1 for the i-th color palette (i is based on the list r...</div></div>
+<div class="ttc" id="astruct_j_k_q_t_p_image_tools_html_ad2da30745fde243b3369b859c56d6c63"><div class="ttname"><a href="struct_j_k_q_t_p_image_tools.html#ad2da30745fde243b3369b859c56d6c63">JKQTPImageTools::GetPaletteImage</a></div><div class="ttdeci">static JKQTCOMMON_LIB_EXPORT QImage GetPaletteImage(int i, int width)</div><div class="ttdoc">generates a QImage with width width and height 1 for the i-th color palette (i is based on the list r...</div></div>
 </div><!-- fragment --><p>The whole program looks like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/imageplot_userpal_program.png" alt="imageplot_userpal_program" class="inline"/> </p>
 </div></div><!-- contents -->
@@ -312,7 +312,7 @@ Main Program of the Example (GUI)</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jul 30 2023 21:00:17 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
+    <li class="footer">Generated on Fri Aug 4 2023 12:26:40 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.7 </li>
   </ul>
 </div>
 </body>
