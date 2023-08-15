@@ -6,145 +6,99 @@
 <!-- Title: JKQTMathTextParser Pages: 1 -->
 <svg width="391pt" height="169pt"
  viewBox="0.00 0.00 390.50 169.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-
-<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" onload="init(evt)">
-<style type="text/css"><![CDATA[
-.node, .edge {opacity: 0.7;}
-.node.selected, .edge.selected {opacity: 1;}
-.edge:hover path { stroke: red; }
-.edge:hover polygon { stroke: red; fill: red; }
-]]></style>
-<script type="application/ecmascript" xlink:href="svg.min.js"/>
-<svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 165)">
 <title>JKQTMathTextParser</title>
 <!-- Node1 -->
-<g id="Node000001" class="node">
+<g id="node1" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="base class for all parsers used by JKQTMathText">
+<g id="a_node1"><a xlink:title="base class for all parsers used by JKQTMathText">
 <polygon fill="#999999" stroke="#666666" points="137,-21 0,-21 0,0 137,0 137,-21"/>
 <text text-anchor="middle" x="68.5" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextParser</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="Node000002" class="node">
+<g id="node2" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:title=" ">
+<g id="a_node2"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="115,-161 50,-161 50,-140 115,-140 115,-161"/>
 <text text-anchor="middle" x="82.5" y="-147.4" font-family="Helvetica,sans-Serif" font-size="12.00">QObject</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
-<g id="edge1_Node000001_Node000002" class="edge">
+<g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M80.46,-129.43C77.42,-99.38 71.78,-43.82 69.5,-21.33"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="77,-129.98 81.49,-139.58 83.97,-129.27 77,-129.98"/>
-</a>
-</g>
 </g>
 <!-- Node3 -->
-<g id="Node000003" class="node">
+<g id="node3" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="class_j_k_q_t_math_text.html" target="_top" xlink:title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">
+<g id="a_node3"><a xlink:href="class_j_k_q_t_math_text.html" target="_top" xlink:title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">
 <polygon fill="white" stroke="#666666" points="238,-91 139,-91 139,-70 238,-70 238,-91"/>
 <text text-anchor="middle" x="188.5" y="-77.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathText</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
-<g id="edge3_Node000003_Node000002" class="edge">
+<g id="edge3" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<g id="a_edge3_Node000003_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M106.22,-134.28C126.89,-121.03 156.19,-102.22 173.68,-91.01"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="104.21,-131.41 97.69,-139.76 107.99,-137.3 104.21,-131.41"/>
-</a>
-</g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
-<g id="edge2_Node000001_Node000003" class="edge">
+<g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
-<g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M128.88,-69.02C116.74,-65.04 104.6,-59.56 94.5,-52 83.93,-44.09 76.5,-30.52 72.37,-21.28"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="128.01,-72.41 138.59,-71.9 130,-65.7 128.01,-72.41"/>
-</a>
-</g>
-<text text-anchor="middle" x="143" y="-42.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> parentMathText</text>
+<text text-anchor="middle" x="143" y="-42.4" font-family="Helvetica,sans-Serif" font-size="12.00"> parentMathText</text>
 </g>
 <!-- Node4 -->
-<g id="Node000004" class="node">
+<g id="node4" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="class_j_k_q_t_math_text_node.html" target="_top" xlink:title="subclass representing one node in the syntax tree">
+<g id="a_node4"><a xlink:href="class_j_k_q_t_math_text_node.html" target="_top" xlink:title="subclass representing one node in the syntax tree">
 <polygon fill="white" stroke="#666666" points="286,-21 155,-21 155,0 286,0 286,-21"/>
 <text text-anchor="middle" x="220.5" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTMathTextNode</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
-<g id="edge5_Node000004_Node000003" class="edge">
+<g id="edge5" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<g id="a_edge5_Node000004_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M193.48,-60.04C195.55,-53.22 198.25,-45.61 201.5,-39 204.58,-32.75 208.94,-26.32 212.72,-21.25"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="190.06,-59.29 190.74,-69.86 196.8,-61.17 190.06,-59.29"/>
-</a>
-</g>
-<text text-anchor="middle" x="250" y="-42.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> parentMathText</text>
+<text text-anchor="middle" x="250" y="-42.4" font-family="Helvetica,sans-Serif" font-size="12.00"> parentMathText</text>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
-<g id="edge4_Node000003_Node000004" class="edge">
+<g id="edge4" class="edge">
 <title>Node4&#45;&gt;Node3</title>
-<g id="a_edge4_Node000003_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M285.28,-24.24C301.79,-30.47 312.4,-39.42 302.5,-52 294.31,-62.4 265.04,-69.33 238.21,-73.63"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="286.18,-20.85 275.59,-21.05 283.99,-27.5 286.18,-20.85"/>
-</a>
-</g>
-<text text-anchor="middle" x="344" y="-42.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> parsedNode</text>
+<text text-anchor="middle" x="344" y="-42.4" font-family="Helvetica,sans-Serif" font-size="12.00"> parsedNode</text>
 </g>
 <!-- Node4&#45;&gt;Node4 -->
-<g id="edge6_Node000004_Node000004" class="edge">
+<g id="edge6" class="edge">
 <title>Node4&#45;&gt;Node4</title>
-<g id="a_edge6_Node000004_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M296.52,-14.94C301.19,-13.89 304,-12.41 304,-10.5 304,-7.45 296.81,-5.49 286.31,-4.63"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="295.73,-11.52 286.31,-16.37 296.7,-18.45 295.73,-11.52"/>
-</a>
-</g>
-<text text-anchor="middle" x="341.5" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> parentNode</text>
+<text text-anchor="middle" x="341.5" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00"> parentNode</text>
 </g>
 <!-- Node5 -->
-<g id="Node000005" class="node">
+<g id="node5" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:title=" ">
+<g id="a_node5"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="228.5,-161 148.5,-161 148.5,-140 228.5,-140 228.5,-161"/>
 <text text-anchor="middle" x="188.5" y="-147.4" font-family="Helvetica,sans-Serif" font-size="12.00">std::mutex</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node3 -->
-<g id="edge7_Node000003_Node000005" class="edge">
+<g id="edge7" class="edge">
 <title>Node5&#45;&gt;Node3</title>
-<g id="a_edge7_Node000003_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M188.5,-129.7C188.5,-117.05 188.5,-101.22 188.5,-91.22"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="185,-129.76 188.5,-139.76 192,-129.76 185,-129.76"/>
-</a>
-</g>
-<text text-anchor="middle" x="216" y="-112.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> s_mutex</text>
+<text text-anchor="middle" x="216" y="-112.4" font-family="Helvetica,sans-Serif" font-size="12.00"> s_mutex</text>
 </g>
 </g>
-</svg>
-</svg>
-
-<style type='text/css'>
-<![CDATA[
-[data-mouse-over-selected='false'] { opacity: 0.7; }
-[data-mouse-over-selected='true']  { opacity: 1.0; }
-]]>
-</style>
-<script type="application/ecmascript"><![CDATA[
-document.addEventListener('DOMContentLoaded', (event) => {
-  highlightEdges();
-  highlightAdjacentNodes();
-});
-]]></script>
 </svg>

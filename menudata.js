@@ -182,7 +182,7 @@ var menudata={children:[
 {text:"v",url:"functions_prop.html#index_v"},
 {text:"x",url:"functions_prop.html#index_x"},
 {text:"y",url:"functions_prop.html#index_y"}]},
-{text:"Related Symbols",url:"functions_rela.html",children:[
+{text:"Related Functions",url:"functions_rela.html",children:[
 {text:"h",url:"functions_rela.html#index_h"},
 {text:"j",url:"functions_rela.html#index_j"},
 {text:"o",url:"functions_rela.html#index_o"}]}]}]}]}

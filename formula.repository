@@ -4,10 +4,10 @@
 \_form#3=10x13:$ t\in\left[t_\text{min}..t_\text{max}\right] $
 \_form#4=10x13:$ [a, b] $
 \_form#5=10x13:\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]
-\_form#6=10x13:$ [x,y]=f_{xy}(t) $
-\_form#7=10x13:$ t_\text{min} $
-\_form#8=10x13:$ t_\text{max} $
-\_form#9=10x13:\[ \Delta t=\frac{N_{\mbox{now}}-N_{\mbox{start}}}{\mbox{\texttt{QueryPerformanceFrequency()}}}\cdot 10^{6} \]
+\_form#6=10x13:\[ \Delta t=\frac{N_{\mbox{now}}-N_{\mbox{start}}}{\mbox{\texttt{QueryPerformanceFrequency()}}}\cdot 10^{6} \]
+\_form#7=10x13:$ [x,y]=f_{xy}(t) $
+\_form#8=10x13:$ t_\text{min} $
+\_form#9=10x13:$ t_\text{max} $
 \_form#10=10x13:$ \pi=3.14159... $
 \_form#11=10x13:$ \sqrt{2\pi}=2.50662827463 $
 \_form#12=10x13:$ \mbox{ln}(10)=2.30258509299404568402... $
@@ -102,21 +102,21 @@
 \_form#101=10x13:$ v_N $
 \_form#102=10x13:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
 \_form#103=10x13:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
-\_form#104=10x13:$ Y_N $
-\_form#105=10x13:\[ k(t):=\frac{1}{\sqrt{2\pi}}\exp \left(-\frac{1}{2}t^2\right) \]
-\_form#106=10x13:\[ k(t):=\frac{1}{\pi(1+t^2)} \]
-\_form#107=10x13:\[ k(t):=\frac{1}{2}\exp(-|t|) \]
-\_form#108=10x13:\[ k(t) :=\begin{cases}\frac{3}{4} ( 1- t^2 ),  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#109=10x13:\[ k(t) :=\begin{cases}0.5,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#110=10x13:\[ k(t) :=\begin{cases}1-|t|,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#111=10x13:\[ k(t) :=\begin{cases}\frac{15}{16}(1-t^2)^2,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#112=10x13:\[ k(t) :=\begin{cases}\frac{35}{32}(1-t^2)^3,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#113=10x13:\[ k(t) :=\begin{cases}\frac{70}{81}(1-|t|^3)^3,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#114=10x13:\[ k(t) :=\begin{cases}\frac{\pi}{4}\cos\left(\frac{\pi}{2}t\right),  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#115=10x13:\[ k(t_x, t_y):=\frac{1}{2\pi}\exp \left(-\frac{t_x^2+t_y^2}{2}\right) \]
-\_form#116=10x13:\[ k(t_x, t_y):=\begin{cases}\frac{1}{4},  & \text{if }t_x,t_y\in [-1;1]\\0, & \text{else}\end{cases} \]
-\_form#117=10x13:\[ h = \left(\frac{4\hat{\sigma}^5}{3n}\right)^{\frac{1}{5}} \approx 1.06 \hat{\sigma} n^{-1/5} \]
-\_form#118=10x13:\[ \tilde{f}(t):=\frac{1}{N\cdot\text{bandwidth}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{t-x_i}{\text{bandwidth}}\right) \]
+\_form#104=10x13:\[ k(t):=\frac{1}{\sqrt{2\pi}}\exp \left(-\frac{1}{2}t^2\right) \]
+\_form#105=10x13:\[ k(t):=\frac{1}{\pi(1+t^2)} \]
+\_form#106=10x13:\[ k(t):=\frac{1}{2}\exp(-|t|) \]
+\_form#107=10x13:\[ k(t) :=\begin{cases}\frac{3}{4} ( 1- t^2 ),  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#108=10x13:\[ k(t) :=\begin{cases}0.5,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#109=10x13:\[ k(t) :=\begin{cases}1-|t|,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#110=10x13:\[ k(t) :=\begin{cases}\frac{15}{16}(1-t^2)^2,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#111=10x13:\[ k(t) :=\begin{cases}\frac{35}{32}(1-t^2)^3,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#112=10x13:\[ k(t) :=\begin{cases}\frac{70}{81}(1-|t|^3)^3,  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#113=10x13:\[ k(t) :=\begin{cases}\frac{\pi}{4}\cos\left(\frac{\pi}{2}t\right),  & \text{if }t\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#114=10x13:\[ k(t_x, t_y):=\frac{1}{2\pi}\exp \left(-\frac{t_x^2+t_y^2}{2}\right) \]
+\_form#115=10x13:\[ k(t_x, t_y):=\begin{cases}\frac{1}{4},  & \text{if }t_x,t_y\in [-1;1]\\0, & \text{else}\end{cases} \]
+\_form#116=10x13:\[ h = \left(\frac{4\hat{\sigma}^5}{3n}\right)^{\frac{1}{5}} \approx 1.06 \hat{\sigma} n^{-1/5} \]
+\_form#117=10x13:\[ \tilde{f}(t):=\frac{1}{N\cdot\text{bandwidth}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{t-x_i}{\text{bandwidth}}\right) \]
+\_form#118=10x13:$ Y_N $
 \_form#119=10x13:\[ \tilde{f}(x,y):=\frac{1}{N\cdot\sqrt{\text{bandwidthx}}\cdot\sqrt{\text{bandwidthy}}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{x-x_i}{\text{bandwidthx}},\frac{y-y_i}{\text{bandwidthy}}\right) \]
 \_form#120=10x13:\[ h =  \hat{\sigma} n^{-1/(d+4)},\ \ \ \ \ d=2 \]
 \_form#121=10x13:$ (x_i,y_i) $
@@ -185,29 +185,29 @@
 \_form#184=10x13:$ \{L_i\} $
 \_form#185=10x13:$ y=f(x, \vec{p}) $
 \_form#186=10x13:$ \vec{p} $
-\_form#187=10x13:$ [x,y]=\vec{f}(t) $
-\_form#188=10x13:$ t $
-\_form#189=10x13:$ [x, f(x)] $
-\_form#190=10x13:$ f(y) $
-\_form#191=10x13:$ [f(y), y] $
-\_form#192=10x13:$ \vec{f}(t) $
-\_form#193=10x13:$ gt $
-\_form#194=10x13:$ \alpha_{\mbox{left}} $
-\_form#195=10x13:$ \alpha_{\mbox{right}} $
-\_form#196=10x13:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
-\_form#197=10x13:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $
-\_form#198=10x13:$ p_0, p_1, ... $
-\_form#199=10x13:$ f(x)=p_0+p_1x $
-\_form#200=10x13:$ f(x)=p_0+p_1\cdot\exp(x/p_2) $
-\_form#201=10x13:$ f(x)=p_0\cdot\exp(x/p_1) $
-\_form#202=10x13:$ f(x)=p_0+p_1\cdot x^{p_3} $
-\_form#203=10x13:$ f(x)=p_0\cdot x^{p_1} $
-\_form#204=10x13:$ f(x)= x^{p_0} $
-\_form#205=10x13:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
-\_form#206=10x13:$ [x,y] $
-\_form#207=10x13:$ [x,y]=f(t) $
-\_form#208=10x13:$ t \in \left[t_\text{min}, t_\text{max}\right] $
-\_form#209=10x13:$ [x,y]=f(t, \vec{p}) $
+\_form#187=10x13:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $
+\_form#188=10x13:$ p_0, p_1, ... $
+\_form#189=10x13:$ f(x)=p_0+p_1x $
+\_form#190=10x13:$ f(x)=p_0+p_1\cdot\exp(x/p_2) $
+\_form#191=10x13:$ f(x)=p_0\cdot\exp(x/p_1) $
+\_form#192=10x13:$ f(x)=p_0+p_1\cdot x^{p_3} $
+\_form#193=10x13:$ f(x)=p_0\cdot x^{p_1} $
+\_form#194=10x13:$ f(x)= x^{p_0} $
+\_form#195=10x13:$ [x,y]=\vec{f}(t) $
+\_form#196=10x13:$ t $
+\_form#197=10x13:$ [x, f(x)] $
+\_form#198=10x13:$ f(y) $
+\_form#199=10x13:$ [f(y), y] $
+\_form#200=10x13:$ \vec{f}(t) $
+\_form#201=10x13:$ gt $
+\_form#202=10x13:$ \alpha_{\mbox{left}} $
+\_form#203=10x13:$ \alpha_{\mbox{right}} $
+\_form#204=10x13:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
+\_form#205=10x13:$ [x,y]=f(t) $
+\_form#206=10x13:$ t \in \left[t_\text{min}, t_\text{max}\right] $
+\_form#207=10x13:$ [x,y]=f(t, \vec{p}) $
+\_form#208=10x13:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
+\_form#209=10x13:$ [x,y] $
 \_form#210=10x13:$ [x,y]=f(t), t \in \left[t_\text{min}, t_\text{max}\right] $
 \_form#211=10x13:$ (x,y) $
 \_form#212=10x13:$ \left(x, f(x) \right) $

@@ -6,61 +6,33 @@
 <!-- Title: JKQTPCoordinateAxisStyle Pages: 1 -->
 <svg width="188pt" height="112pt"
  viewBox="0.00 0.00 187.50 112.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-
-<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" onload="init(evt)">
-<style type="text/css"><![CDATA[
-.node, .edge {opacity: 0.7;}
-.node.selected, .edge.selected {opacity: 1;}
-.edge:hover path { stroke: red; }
-.edge:hover polygon { stroke: red; fill: red; }
-]]></style>
-<script type="application/ecmascript" xlink:href="svg.min.js"/>
-<svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 108)">
 <title>JKQTPCoordinateAxisStyle</title>
 <!-- Node1 -->
-<g id="Node000001" class="node">
+<g id="node1" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="Support Class for JKQTPCoordinateAxis, which summarizes all properties that define the visual styling...">
+<g id="a_node1"><a xlink:title="Support Class for JKQTPCoordinateAxis, which summarizes all properties that define the visual styling...">
 <polygon fill="#999999" stroke="#666666" points="171,-21 0,-21 0,0 171,0 171,-21"/>
 <text text-anchor="middle" x="85.5" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPCoordinateAxisStyle</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="Node000002" class="node">
+<g id="node2" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="class_j_k_q_t_p_grid_style.html" target="_top" xlink:title="Support Class for JKQTPCoordinateAxis, and summarizes all properties that define the visual styling o...">
+<g id="a_node2"><a xlink:href="class_j_k_q_t_p_grid_style.html" target="_top" xlink:title="Support Class for JKQTPCoordinateAxis, and summarizes all properties that define the visual styling o...">
 <polygon fill="white" stroke="#666666" points="139,-104 32,-104 32,-83 139,-83 139,-104"/>
 <text text-anchor="middle" x="85.5" y="-90.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPGridStyle</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
-<g id="edge1_Node000001_Node000002" class="edge">
+<g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M85.5,-72.73C85.5,-56.35 85.5,-33.76 85.5,-21.1"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="82,-72.89 85.5,-82.89 89,-72.89 82,-72.89"/>
-</a>
-</g>
-<text text-anchor="middle" x="132.5" y="-55.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> majorGridStyle</text>
-<text text-anchor="middle" x="132.5" y="-42.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">minorGridStyle</text>
+<text text-anchor="middle" x="132.5" y="-55.4" font-family="Helvetica,sans-Serif" font-size="12.00"> majorGridStyle</text>
+<text text-anchor="middle" x="132.5" y="-42.4" font-family="Helvetica,sans-Serif" font-size="12.00">minorGridStyle</text>
 </g>
 </g>
-</svg>
-</svg>
-
-<style type='text/css'>
-<![CDATA[
-[data-mouse-over-selected='false'] { opacity: 0.7; }
-[data-mouse-over-selected='true']  { opacity: 1.0; }
-]]>
-</style>
-<script type="application/ecmascript"><![CDATA[
-document.addEventListener('DOMContentLoaded', (event) => {
-  highlightEdges();
-  highlightAdjacentNodes();
-});
-]]></script>
 </svg>

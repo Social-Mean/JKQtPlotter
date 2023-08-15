@@ -5,68 +5,68 @@
  -->
 <!-- Title: JKQTCommon: Diverse Basic Utilities Pages: 1 -->
 <!--zoomable 501 -->
-
 <svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" onload="init(evt)">
 <style type="text/css"><![CDATA[
-.node, .edge {opacity: 0.7;}
-.node.selected, .edge.selected {opacity: 1;}
 .edge:hover path { stroke: red; }
 .edge:hover polygon { stroke: red; fill: red; }
 ]]></style>
+<script type="text/javascript"><![CDATA[
+var edges = document.getElementsByTagName('g');
+if (edges && edges.length) {
+  for (var i=0;i<edges.length;i++) {
+    if (edges[i].id.substr(0,4)=='edge') {
+      edges[i].setAttribute('class','edge');
+    }
+  }
+}
+]]></script>
+        <defs>
+                <circle id="rim" cx="0" cy="0" r="7"/>
+                <circle id="rim2" cx="0" cy="0" r="3.5"/>
+                <g id="zoomPlus">
+                        <use xlink:href="#rim" fill="#404040">
+                                <set attributeName="fill" to="#808080" begin="zoomplus.mouseover" end="zoomplus.mouseout"/>
+                        </use>
+                        <path d="M-4,0h8M0,-4v8" fill="none" stroke="white" stroke-width="1.5" pointer-events="none"/>
+                </g>
+                <g id="zoomMin">
+                        <use xlink:href="#rim" fill="#404040">
+                                <set attributeName="fill" to="#808080" begin="zoomminus.mouseover" end="zoomminus.mouseout"/>
+                        </use>
+                        <path d="M-4,0h8" fill="none" stroke="white" stroke-width="1.5" pointer-events="none"/>
+                </g>
+                <g id="dirArrow">
+                        <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
+                </g>
+               <g id="resetDef">
+                       <use xlink:href="#rim2" fill="#404040">
+                               <set attributeName="fill" to="#808080" begin="reset.mouseover" end="reset.mouseout"/>
+                       </use>
+               </g>
+        </defs>
 
-<defs>
-  <circle id="rim" cx="0" cy="0" r="7"/>
-  <circle id="rim2" cx="0" cy="0" r="3.5"/>
-  <g id="zoomPlus">
-    <use xlink:href="#rim" fill="#404040"><set attributeName="fill" to="#808080" begin="zoomplus.mouseover" end="zoomplus.mouseout"/></use>
-    <path d="M-4,0h8M0,-4v8" fill="none" stroke="white" stroke-width="1.5" pointer-events="none"/>
-  </g>
-  <g id="zoomMin">
-    <use xlink:href="#rim" fill="#404040"><set attributeName="fill" to="#808080" begin="zoomminus.mouseover" end="zoomminus.mouseout"/></use>
-    <path d="M-4,0h8" fill="none" stroke="white" stroke-width="1.5" pointer-events="none"/>
-  </g>
-  <g id="arrowUp" transform="translate(30 24)">
-    <use xlink:href="#rim"/>
-    <path pointer-events="none" fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
-  </g>
-  <g id="arrowRight" transform="rotate(90) translate(36 -43)">
-    <use xlink:href="#rim"/>
-    <path pointer-events="none" fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
-  </g>
-  <g id="arrowDown" transform="rotate(180) translate(-30 -48)">
-    <use xlink:href="#rim"/>
-    <path pointer-events="none" fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
-  </g>
-  <g id="arrowLeft" transform="rotate(270) translate(-36 17)">
-    <use xlink:href="#rim"/>
-    <path pointer-events="none" fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
-  </g>
-  <g id="resetDef">
-    <use xlink:href="#rim2" fill="#404040"><set attributeName="fill" to="#808080" begin="reset.mouseover" end="reset.mouseout"/></use>
-  </g>
-</defs>
-<script type="application/ecmascript">
+<script type="text/javascript">
 var viewWidth = 363;
 var viewHeight = 501;
 var sectionId = 'dynsection-0';
 </script>
-<script type="application/ecmascript" xlink:href="svg.min.js"/>
+<script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>JKQTCommon: Diverse Basic Utilities</title>
 <!-- Node3 -->
-<g id="Node000003" class="node">
+<g id="node1" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="group__jkqtptools__codestructuring.html" target="_top" xlink:title=" ">
+<g id="a_node1"><a xlink:href="group__jkqtptools__codestructuring.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="347,-492.5 196,-492.5 196,-471.5 347,-471.5 347,-492.5"/>
 <text text-anchor="middle" x="271.5" y="-478.9" font-family="Helvetica,sans-Serif" font-size="12.00">Code Structuring Tools</text>
 </a>
 </g>
 </g>
 <!-- Node12 -->
-<g id="Node000012" class="node">
+<g id="node2" class="node">
 <title>Node12</title>
-<g id="a_Node000012"><a xlink:href="group__jkqtptools__concurrency.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="group__jkqtptools__concurrency.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="353.5,-453 189.5,-453 189.5,-419 353.5,-419 353.5,-453"/>
 <text text-anchor="start" x="197.5" y="-439.4" font-family="Helvetica,sans-Serif" font-size="12.00">Tools, Templates and</text>
 <text text-anchor="middle" x="271.5" y="-426.4" font-family="Helvetica,sans-Serif" font-size="12.00"> Classes for Concurrency</text>
@@ -74,18 +74,18 @@ var sectionId = 'dynsection-0';
 </g>
 </g>
 <!-- Node4 -->
-<g id="Node000004" class="node">
+<g id="node3" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="group__jkqtptools__debugging.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="group__jkqtptools__debugging.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="328.5,-400.5 214.5,-400.5 214.5,-379.5 328.5,-379.5 328.5,-400.5"/>
 <text text-anchor="middle" x="271.5" y="-386.9" font-family="Helvetica,sans-Serif" font-size="12.00">Debugging Tools</text>
 </a>
 </g>
 </g>
 <!-- Node5 -->
-<g id="Node000005" class="node">
+<g id="node4" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="group__jkqtptools__drawing.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="group__jkqtptools__drawing.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="339,-361 204,-361 204,-327 339,-327 339,-361"/>
 <text text-anchor="start" x="212" y="-347.4" font-family="Helvetica,sans-Serif" font-size="12.00">Drawing &amp; Graphics</text>
 <text text-anchor="middle" x="271.5" y="-334.4" font-family="Helvetica,sans-Serif" font-size="12.00"> Tools</text>
@@ -93,9 +93,9 @@ var sectionId = 'dynsection-0';
 </g>
 </g>
 <!-- Node6 -->
-<g id="Node000006" class="node">
+<g id="node5" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="group__jkqtptools__general.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="group__jkqtptools__general.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="340,-309 203,-309 203,-275 340,-275 340,-309"/>
 <text text-anchor="start" x="211" y="-295.4" font-family="Helvetica,sans-Serif" font-size="12.00">General Functions &amp;</text>
 <text text-anchor="middle" x="271.5" y="-282.4" font-family="Helvetica,sans-Serif" font-size="12.00"> Tools</text>
@@ -103,18 +103,18 @@ var sectionId = 'dynsection-0';
 </g>
 </g>
 <!-- Node9 -->
-<g id="Node000009" class="node">
+<g id="node6" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="group__jkqtptools__icons.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="group__jkqtptools__icons.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="355,-256.5 188,-256.5 188,-235.5 355,-235.5 355,-256.5"/>
 <text text-anchor="middle" x="271.5" y="-242.9" font-family="Helvetica,sans-Serif" font-size="12.00">Special QIcon generation</text>
 </a>
 </g>
 </g>
 <!-- Node1 -->
-<g id="Node000001" class="node">
+<g id="node7" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_node7"><a xlink:title=" ">
 <polygon fill="#999999" stroke="#666666" points="152,-263 0,-263 0,-229 152,-229 152,-263"/>
 <text text-anchor="start" x="8" y="-249.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTCommon: Diverse</text>
 <text text-anchor="middle" x="76" y="-236.4" font-family="Helvetica,sans-Serif" font-size="12.00"> Basic Utilities</text>
@@ -158,9 +158,9 @@ var sectionId = 'dynsection-0';
 <polygon fill="black" stroke="black" points="162.09,-242.5 152.09,-246 162.09,-249.5 162.09,-242.5"/>
 </g>
 <!-- Node7 -->
-<g id="Node000007" class="node">
+<g id="node8" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="group__jkqtptools__libfacilities.html" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="group__jkqtptools__libfacilities.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="333.5,-217 209.5,-217 209.5,-183 333.5,-183 333.5,-217"/>
 <text text-anchor="start" x="217.5" y="-203.4" font-family="Helvetica,sans-Serif" font-size="12.00">Library Facilities</text>
 <text text-anchor="middle" x="271.5" y="-190.4" font-family="Helvetica,sans-Serif" font-size="12.00"> for JKQTCommon</text>
@@ -174,9 +174,9 @@ var sectionId = 'dynsection-0';
 <polygon fill="black" stroke="black" points="157.7,-223.22 148.78,-228.94 159.32,-230.03 157.7,-223.22"/>
 </g>
 <!-- Node8 -->
-<g id="Node000008" class="node">
+<g id="node9" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="group__jkqtptools__math__basic.html" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="group__jkqtptools__math__basic.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="350.5,-165 192.5,-165 192.5,-131 350.5,-131 350.5,-165"/>
 <text text-anchor="start" x="200.5" y="-151.4" font-family="Helvetica,sans-Serif" font-size="12.00">Mathematical Functions</text>
 <text text-anchor="middle" x="271.5" y="-138.4" font-family="Helvetica,sans-Serif" font-size="12.00"> &amp; Tools</text>
@@ -190,9 +190,9 @@ var sectionId = 'dynsection-0';
 <polygon fill="black" stroke="black" points="105.36,-220.22 99.33,-228.92 109.47,-225.88 105.36,-220.22"/>
 </g>
 <!-- Node11 -->
-<g id="Node000011" class="node">
+<g id="node10" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:href="group__jkqtptools__qt.html" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="group__jkqtptools__qt.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="354,-112.5 189,-112.5 189,-91.5 354,-91.5 354,-112.5"/>
 <text text-anchor="middle" x="271.5" y="-98.9" font-family="Helvetica,sans-Serif" font-size="12.00">Tools around Qt&#39;s clasess</text>
 </a>
@@ -205,9 +205,9 @@ var sectionId = 'dynsection-0';
 <polygon fill="black" stroke="black" points="90.14,-218.29 87.58,-228.57 95.99,-222.13 90.14,-218.29"/>
 </g>
 <!-- Node2 -->
-<g id="Node000002" class="node">
+<g id="node11" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="group__jkqtptools__qtwidgets.html" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="group__jkqtptools__qtwidgets.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="344,-73.5 199,-73.5 199,-52.5 344,-52.5 344,-73.5"/>
 <text text-anchor="middle" x="271.5" y="-59.9" font-family="Helvetica,sans-Serif" font-size="12.00">Additional Qt Widgets</text>
 </a>
@@ -220,9 +220,9 @@ var sectionId = 'dynsection-0';
 <polygon fill="black" stroke="black" points="84.38,-218.29 83.66,-228.86 90.82,-221.05 84.38,-218.29"/>
 </g>
 <!-- Node10 -->
-<g id="Node000010" class="node">
+<g id="node12" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:href="group__jkqtptools__string.html" target="_top" xlink:title=" ">
+<g id="a_node12"><a xlink:href="group__jkqtptools__string.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="337.5,-34 205.5,-34 205.5,0 337.5,0 337.5,-34"/>
 <text text-anchor="start" x="213.5" y="-20.4" font-family="Helvetica,sans-Serif" font-size="12.00">String(&#45;Conversion)</text>
 <text text-anchor="middle" x="271.5" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00"> Functions</text>
@@ -237,39 +237,45 @@ var sectionId = 'dynsection-0';
 </g>
 </g>
 </svg>
-
-<g id="navigator" transform="translate(0 0)" fill="#404254">
-  <rect fill="#f2f5e9" fill-opacity="0.5" stroke="#606060" stroke-width=".5" x="0" y="0" width="60" height="60"/>
-  <use id="zoomplus" xlink:href="#zoomPlus" x="17" y="9" onmousedown="handleZoom(evt,'in')"/>
-  <use id="zoomminus" xlink:href="#zoomMin" x="42" y="9" onmousedown="handleZoom(evt,'out')"/>
-  <use id="reset" xlink:href="#resetDef" x="30" y="36" onmousedown="handleReset()"/>
-   <use id="arrowup" xlink:href="#arrowUp" x="0" y="0" onmousedown="handlePan(0,-1)"/>
-  <use id="arrowright" xlink:href="#arrowRight" x="0" y="0" onmousedown="handlePan(1,0)"/>
-  <use id="arrowdown" xlink:href="#arrowDown" x="0" y="0" onmousedown="handlePan(0,1)"/>
-  <use id="arrowleft" xlink:href="#arrowLeft" x="0" y="0" onmousedown="handlePan(-1,0)"/>
-</g>
-<svg viewBox="0 0 15 15" width="100%" height="30px" preserveAspectRatio="xMaxYMin meet">
- <g id="arrow_out" transform="scale(0.3 0.3)">
-  <a xlink:href="group__jkqtptools__jkqtcommon_org.svg" target="_base">
-   <rect id="button" ry="5" rx="5" y="6" x="6" height="38" width="38"
-        fill="#f2f5e9" fill-opacity="0.5" stroke="#606060" stroke-width="1.0"/>
-   <path id="arrow"
-     d="M 11.500037,31.436501 C 11.940474,20.09759 22.043105,11.32322 32.158766,21.979434 L 37.068811,17.246167 C 37.068811,17.246167 37.088388,32 37.088388,32 L 22.160133,31.978069 C 22.160133,31.978069 26.997745,27.140456 26.997745,27.140456 C 18.528582,18.264221 13.291696,25.230495 11.500037,31.436501 z"
-     style="fill:#404040;"/>
-  </a>
- </g>
-</svg>
-
-<style type='text/css'>
-<![CDATA[
-[data-mouse-over-selected='false'] { opacity: 0.7; }
-[data-mouse-over-selected='true']  { opacity: 1.0; }
-]]>
-</style>
-<script type="application/ecmascript"><![CDATA[
-document.addEventListener('DOMContentLoaded', (event) => {
-  highlightEdges();
-  highlightAdjacentNodes();
-});
-]]></script>
+        <g id="navigator" transform="translate(0 0)" fill="#404254">
+                <rect fill="#f2f5e9" fill-opacity="0.5" stroke="#606060" stroke-width=".5" x="0" y="0" width="60" height="60"/>
+                <use id="zoomplus" xlink:href="#zoomPlus" x="17" y="9" onmousedown="handleZoom(evt,'in')"/>
+                <use id="zoomminus" xlink:href="#zoomMin" x="42" y="9" onmousedown="handleZoom(evt,'out')"/>
+                <use id="reset" xlink:href="#resetDef" x="30" y="36" onmousedown="handleReset()"/>
+                <g id="arrowUp" xlink:href="#dirArrow" transform="translate(30 24)" onmousedown="handlePan(0,-1)">
+                  <use xlink:href="#rim" fill="#404040">
+                        <set attributeName="fill" to="#808080" begin="arrowUp.mouseover" end="arrowUp.mouseout"/>
+                  </use>
+                  <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
+                </g>
+                <g id="arrowRight" xlink:href="#dirArrow" transform="rotate(90) translate(36 -43)" onmousedown="handlePan(1,0)">
+                  <use xlink:href="#rim" fill="#404040">
+                        <set attributeName="fill" to="#808080" begin="arrowRight.mouseover" end="arrowRight.mouseout"/>
+                  </use>
+                  <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
+                </g>
+                <g id="arrowDown" xlink:href="#dirArrow" transform="rotate(180) translate(-30 -48)" onmousedown="handlePan(0,1)">
+                  <use xlink:href="#rim" fill="#404040">
+                        <set attributeName="fill" to="#808080" begin="arrowDown.mouseover" end="arrowDown.mouseout"/>
+                  </use>
+                  <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
+                </g>
+                <g id="arrowLeft" xlink:href="#dirArrow" transform="rotate(270) translate(-36 17)" onmousedown="handlePan(-1,0)">
+                  <use xlink:href="#rim" fill="#404040">
+                        <set attributeName="fill" to="#808080" begin="arrowLeft.mouseover" end="arrowLeft.mouseout"/>
+                  </use>
+                  <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
+                </g>
+        </g>
+        <svg viewBox="0 0 15 15" width="100%" height="30px" preserveAspectRatio="xMaxYMin meet">
+         <g id="arrow_out" transform="scale(0.3 0.3)">
+          <a xlink:href="group__jkqtptools__jkqtcommon_org.svg" target="_base">
+           <rect id="button" ry="5" rx="5" y="6" x="6" height="38" width="38"
+                fill="#f2f5e9" fill-opacity="0.5" stroke="#606060" stroke-width="1.0"/>
+           <path id="arrow"
+             d="M 11.500037,31.436501 C 11.940474,20.09759 22.043105,11.32322 32.158766,21.979434 L 37.068811,17.246167 C 37.068811,17.246167 37.088388,32 37.088388,32 L 22.160133,31.978069 C 22.160133,31.978069 26.997745,27.140456 26.997745,27.140456 C 18.528582,18.264221 13.291696,25.230495 11.500037,31.436501 z"
+             style="fill:#404040;"/>
+          </a>
+         </g>
+        </svg>
 </svg>
