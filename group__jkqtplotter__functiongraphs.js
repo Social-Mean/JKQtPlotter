@@ -164,7 +164,9 @@ var group__jkqtplotter__functiongraphs =
       [ "~JKQTPXFunctionLineGraph", "class_j_k_q_t_p_x_function_line_graph.html#a11f249e860f9d19c7b672d4923069741", null ],
       [ "buildErrorFunctorSpec", "class_j_k_q_t_p_x_function_line_graph.html#ae9ac95f45a097cb517fd4228d1169beb", null ],
       [ "buildPlotFunctorSpec", "class_j_k_q_t_p_x_function_line_graph.html#a4998d9e514eca09131cef4fc6a33c119", null ],
-      [ "draw", "class_j_k_q_t_p_x_function_line_graph.html#ab9aaa82facf5c059b7f5d9711d6729a5", null ]
+      [ "draw", "class_j_k_q_t_p_x_function_line_graph.html#ab9aaa82facf5c059b7f5d9711d6729a5", null ],
+      [ "getXMinMax", "class_j_k_q_t_p_x_function_line_graph.html#af0fbb43fc05cf16dea47f7a4077f7f4c", null ],
+      [ "getYMinMax", "class_j_k_q_t_p_x_function_line_graph.html#ab5a8df88d63f880d20d7b44473231f01", null ]
     ] ],
     [ "JKQTPXParsedFunctionLineGraph", "class_j_k_q_t_p_x_parsed_function_line_graph.html", [
       [ "JKQTPXParsedFunctionLineGraph", "class_j_k_q_t_p_x_parsed_function_line_graph.html#aaad90a5cfa000538c6397205e7ee752f", null ],
@@ -229,7 +231,9 @@ var group__jkqtplotter__functiongraphs =
       [ "JKQTPYFunctionLineGraph", "class_j_k_q_t_p_y_function_line_graph.html#ab4320d418fb967bd58726b16d550f747", null ],
       [ "buildErrorFunctorSpec", "class_j_k_q_t_p_y_function_line_graph.html#a2add23232aaac92ad0ad7ffecb92ffcb", null ],
       [ "buildPlotFunctorSpec", "class_j_k_q_t_p_y_function_line_graph.html#a63a48826ac4ea47318b172cd8c1ab010", null ],
-      [ "draw", "class_j_k_q_t_p_y_function_line_graph.html#a258161f97f56fa0788e78ec242a45092", null ]
+      [ "draw", "class_j_k_q_t_p_y_function_line_graph.html#a258161f97f56fa0788e78ec242a45092", null ],
+      [ "getXMinMax", "class_j_k_q_t_p_y_function_line_graph.html#a44efebfe0cdf059c214dd998a531c8c4", null ],
+      [ "getYMinMax", "class_j_k_q_t_p_y_function_line_graph.html#a8fc71468f2a5a8a5a3bf5ac24e0d8069", null ]
     ] ],
     [ "JKQTPYParsedFunctionLineGraph", "class_j_k_q_t_p_y_parsed_function_line_graph.html", [
       [ "JKQTPYParsedFunctionLineGraph", "class_j_k_q_t_p_y_parsed_function_line_graph.html#a26cbabd9bad02bee3921fe0837fcdf3b", null ],

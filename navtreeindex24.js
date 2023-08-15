@@ -1,5 +1,12 @@
 var NAVTREEINDEX24 =
 {
+"class_j_k_q_t_plotter.html#abf90e312634ccbb66ed746bc9047edc0":[75,4,1,2,4,229],
+"class_j_k_q_t_plotter.html#ac0ff13e1f37b1f6578b5f7089b32be43":[75,4,1,2,4,104],
+"class_j_k_q_t_plotter.html#ac1322bdec6a678c92a8c98f0c55acf47":[75,4,1,2,4,247],
+"class_j_k_q_t_plotter.html#ac25e44dace74c735912028d2838e4565":[75,4,1,2,4,272],
+"class_j_k_q_t_plotter.html#ac293c271f3c9b217acb4ae1994f76ae3":[75,4,1,2,4,121],
+"class_j_k_q_t_plotter.html#ac2bdc80ded64c7555477c4ead0371965":[75,4,1,2,4,135],
+"class_j_k_q_t_plotter.html#ac35d071cd10d9242f1e810ce8ec4cbd4":[75,4,1,2,4,183],
 "class_j_k_q_t_plotter.html#ac3698a368335196eefe8118e05d1230f":[75,4,1,2,4,126],
 "class_j_k_q_t_plotter.html#ac4d385d493682dc6a7b5cd45726efaf3":[75,4,1,2,4,215],
 "class_j_k_q_t_plotter.html#ac58384e565a003a4a598b3e81a3729e8":[75,4,1,2,4,192],
@@ -123,8 +130,8 @@ var NAVTREEINDEX24 =
 "example_tutorial_projects.html#jkqtp_extut_plotimagedata":[4,0,3],
 "example_tutorial_projects.html#jkqtp_extut_plotstyles":[4,0,0],
 "example_tutorial_projects.html#jkqtp_extut_tools":[4,3],
-"functions.html":[77,3,0,0],
 "functions.html":[77,3,0],
+"functions.html":[77,3,0,0],
 "functions_b.html":[77,3,0,1],
 "functions_c.html":[77,3,0,2],
 "functions_d.html":[77,3,0,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX24 =
 "group__jkqtfastplotter__tools.html#gae34180cff7f4bcbb90ea3711ca511c15":[75,1,1,7],
 "group__jkqtfastplotter__tools.html#gae59c718f711fe8e864f90f8647092d55":[75,1,1,5],
 "group__jkqtfastplotter__tools.html#ggaa94a0bca376a39f32a47dbd6f08fc594a02540a9b1538d3ae89ab37061cac3fc5":[75,1,1,4,0],
-"group__jkqtfastplotter__tools.html#ggaa94a0bca376a39f32a47dbd6f08fc594a12170f49df159c522ca569cad37ca0b5":[75,1,1,4,5],
-"group__jkqtfastplotter__tools.html#ggaa94a0bca376a39f32a47dbd6f08fc594a58061dc3fe52aa98026f7347921756a7":[75,1,1,4,4],
-"group__jkqtfastplotter__tools.html#ggaa94a0bca376a39f32a47dbd6f08fc594acc46bacd7d5c31553e46feee68e14784":[75,1,1,4,3],
-"group__jkqtfastplotter__tools.html#ggaa94a0bca376a39f32a47dbd6f08fc594adbcd05238cb6439fa8d4086dccf77641":[75,1,1,4,1],
-"group__jkqtfastplotter__tools.html#ggaa94a0bca376a39f32a47dbd6f08fc594ae85b8f970cc01c73866fbe00cb261f8a":[75,1,1,4,2],
-"group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7ea0b7de0e3047d0a4e14ee9890dad2b222":[75,1,1,3,13],
-"group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7ea14c7bc89663c6f241bcf1cc578cb506e":[75,1,1,3,15],
-"group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7ea178f89d73854b61139e9dc24cc4447fa":[75,1,1,3,3]
+"group__jkqtfastplotter__tools.html#ggaa94a0bca376a39f32a47dbd6f08fc594a12170f49df159c522ca569cad37ca0b5":[75,1,1,4,5]
 };

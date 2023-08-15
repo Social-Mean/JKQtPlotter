@@ -81,27 +81,27 @@
 \_form#80=10x13:$ Y_i $
 \_form#81=10x13:\[ \rho_{x,y}=\text{CorCoeff}_{\text{Pearson}}(x,y)=\frac{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})(y_i-\overline{y})}{\sqrt{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})^2\cdot\sum\limits_{i=0}^{N-1}(y_i-\overline{y})^2}} \]
 \_form#82=10x13:\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]
-\_form#83=10x13:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
-\_form#84=10x13:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
-\_form#85=10x13:$ f(x): \mathbb{R}\rightarrow\mathbb{R} $
-\_form#86=10x13:$ x $
-\_form#87=10x13:$ f(x) $
-\_form#88=10x13:$ f(x)=\mbox{round}(x) $
-\_form#89=10x13:$ \mbox{firstGroupCenter} $
-\_form#90=10x13:$ \mbox{firstGroupCenter}\pm\mbox{groupWidth}/2$
-\_form#91=10x13:$ \mbox{firstGroupCenter}\pm2\cdot\mbox{groupWidth}/2 $
-\_form#92=10x13:$ \mbox{firstGroupCenter}\pm3\cdot\mbox{groupWidth}/2 $
-\_form#93=10x13:$ \mbox{round}\left(\frac{x-\mbox{firstGroupCenter}}{\mbox{groupWidth}/2}\right) $
-\_form#94=10x13:$ (c_i,v_i) $
-\_form#95=10x13:$ c_i $
-\_form#96=10x13:$ v_i $
-\_form#97=10x13:$ V_j=\{v_{i}|c_i\equiv c_{\text{out},j}\} $
-\_form#98=10x13:$ c_i\equiv c_{\text{out},j} $
-\_form#99=10x13:$ c_{\text{out},j} $
-\_form#100=10x13:$ c_1 $
-\_form#101=10x13:$ c_N $
-\_form#102=10x13:$ v_1 $
-\_form#103=10x13:$ v_N $
+\_form#83=10x13:$ f(x): \mathbb{R}\rightarrow\mathbb{R} $
+\_form#84=10x13:$ x $
+\_form#85=10x13:$ f(x) $
+\_form#86=10x13:$ f(x)=\mbox{round}(x) $
+\_form#87=10x13:$ \mbox{firstGroupCenter} $
+\_form#88=10x13:$ \mbox{firstGroupCenter}\pm\mbox{groupWidth}/2$
+\_form#89=10x13:$ \mbox{firstGroupCenter}\pm2\cdot\mbox{groupWidth}/2 $
+\_form#90=10x13:$ \mbox{firstGroupCenter}\pm3\cdot\mbox{groupWidth}/2 $
+\_form#91=10x13:$ \mbox{round}\left(\frac{x-\mbox{firstGroupCenter}}{\mbox{groupWidth}/2}\right) $
+\_form#92=10x13:$ (c_i,v_i) $
+\_form#93=10x13:$ c_i $
+\_form#94=10x13:$ v_i $
+\_form#95=10x13:$ V_j=\{v_{i}|c_i\equiv c_{\text{out},j}\} $
+\_form#96=10x13:$ c_i\equiv c_{\text{out},j} $
+\_form#97=10x13:$ c_{\text{out},j} $
+\_form#98=10x13:$ c_1 $
+\_form#99=10x13:$ c_N $
+\_form#100=10x13:$ v_1 $
+\_form#101=10x13:$ v_N $
+\_form#102=10x13:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
+\_form#103=10x13:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
 \_form#104=10x13:$ Y_N $
 \_form#105=10x13:\[ k(t):=\frac{1}{\sqrt{2\pi}}\exp \left(-\frac{1}{2}t^2\right) \]
 \_form#106=10x13:\[ k(t):=\frac{1}{\pi(1+t^2)} \]
@@ -185,24 +185,24 @@
 \_form#184=10x13:$ \{L_i\} $
 \_form#185=10x13:$ y=f(x, \vec{p}) $
 \_form#186=10x13:$ \vec{p} $
-\_form#187=10x13:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $
-\_form#188=10x13:$ p_0, p_1, ... $
-\_form#189=10x13:$ f(x)=p_0+p_1x $
-\_form#190=10x13:$ f(x)=p_0+p_1\cdot\exp(x/p_2) $
-\_form#191=10x13:$ f(x)=p_0\cdot\exp(x/p_1) $
-\_form#192=10x13:$ f(x)=p_0+p_1\cdot x^{p_3} $
-\_form#193=10x13:$ f(x)=p_0\cdot x^{p_1} $
-\_form#194=10x13:$ f(x)= x^{p_0} $
-\_form#195=10x13:$ [x,y]=\vec{f}(t) $
-\_form#196=10x13:$ t $
-\_form#197=10x13:$ [x, f(x)] $
-\_form#198=10x13:$ f(y) $
-\_form#199=10x13:$ [f(y), y] $
-\_form#200=10x13:$ \vec{f}(t) $
-\_form#201=10x13:$ gt $
-\_form#202=10x13:$ \alpha_{\mbox{left}} $
-\_form#203=10x13:$ \alpha_{\mbox{right}} $
-\_form#204=10x13:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
+\_form#187=10x13:$ [x,y]=\vec{f}(t) $
+\_form#188=10x13:$ t $
+\_form#189=10x13:$ [x, f(x)] $
+\_form#190=10x13:$ f(y) $
+\_form#191=10x13:$ [f(y), y] $
+\_form#192=10x13:$ \vec{f}(t) $
+\_form#193=10x13:$ gt $
+\_form#194=10x13:$ \alpha_{\mbox{left}} $
+\_form#195=10x13:$ \alpha_{\mbox{right}} $
+\_form#196=10x13:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
+\_form#197=10x13:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $
+\_form#198=10x13:$ p_0, p_1, ... $
+\_form#199=10x13:$ f(x)=p_0+p_1x $
+\_form#200=10x13:$ f(x)=p_0+p_1\cdot\exp(x/p_2) $
+\_form#201=10x13:$ f(x)=p_0\cdot\exp(x/p_1) $
+\_form#202=10x13:$ f(x)=p_0+p_1\cdot x^{p_3} $
+\_form#203=10x13:$ f(x)=p_0\cdot x^{p_1} $
+\_form#204=10x13:$ f(x)= x^{p_0} $
 \_form#205=10x13:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
 \_form#206=10x13:$ [x,y] $
 \_form#207=10x13:$ [x,y]=f(t) $

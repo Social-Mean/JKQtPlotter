@@ -54,6 +54,7 @@ var group__jkqtpplotter__styling__classes =
       [ "plotLabelColor", "class_j_k_q_t_base_plotter_style.html#a38e3916aa61807503fe4c8f8048f2e67", null ],
       [ "plotLabelFontName", "class_j_k_q_t_base_plotter_style.html#a3161f58c54dc8f42bed0cbe2f0da1436", null ],
       [ "plotLabelFontSize", "class_j_k_q_t_base_plotter_style.html#a7403bd605048164b2c3428f93040d5b1", null ],
+      [ "plotLabelOffset", "class_j_k_q_t_base_plotter_style.html#a1d8f0a02d156d5d50778b799ab20eb05", null ],
       [ "rightColorbarAxisStyle", "class_j_k_q_t_base_plotter_style.html#a25650b7d47d94338964d0dd90069d9f9", null ],
       [ "secondaryAxisSeparation", "class_j_k_q_t_base_plotter_style.html#ac767af5b7ee8c463ac2fbd7f7f148aa5", null ],
       [ "topColorbarAxisStyle", "class_j_k_q_t_base_plotter_style.html#af20cb1c6fc3ca6ef259ad8fca0660572", null ],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX9 =
 {
+"class_j_k_q_t_p_bar_horizontal_stackable_graph.html#a03bc3be8b479ad94946de9e860cda4b2":[75,4,1,1,1,0,3,2],
+"class_j_k_q_t_p_bar_horizontal_stackable_graph.html#a0d3670815b7dd48b5f0c45bdaf039f0d":[75,4,1,1,1,0,3,1],
+"class_j_k_q_t_p_bar_horizontal_stackable_graph.html#a13c46eb1dbac862af3d35cc2e59cc323":[75,4,1,1,1,0,3,6],
 "class_j_k_q_t_p_bar_horizontal_stackable_graph.html#a3c067ee74321aa7856653912921e0b15":[75,4,1,1,1,0,3,8],
 "class_j_k_q_t_p_bar_horizontal_stackable_graph.html#a59880dcbd9c5682e3deb42530e0425d9":[75,4,1,1,1,0,3,4],
 "class_j_k_q_t_p_bar_horizontal_stackable_graph.html#a9749844f9ac316ccb0f39e3c04e996e5":[75,4,1,1,1,0,3,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX9 =
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#ae5fc521473f4ed69b0e2e593e34ec217":[75,4,1,1,1,8,2,1,74],
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#aea6130574e61021ab59fe668c4e87a90":[75,4,1,1,1,8,2,1,79],
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#aed2845ead3c8c341346afd1bebfe3ea6":[75,4,1,1,1,8,2,1,22],
-"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af10bc8164bf7ff7355e3f58d56b1be32":[75,4,1,1,1,8,2,1,27],
-"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af2f1ce13121e59179e23feb232985926":[75,4,1,1,1,8,2,1,57],
-"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af4d4684e560361e2a31c503a7ddcae61":[75,4,1,1,1,8,2,1,46],
-"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af599454b3717aec99a8b3ae8b70c8647":[75,4,1,1,1,8,2,1,20]
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af10bc8164bf7ff7355e3f58d56b1be32":[75,4,1,1,1,8,2,1,27]
 };

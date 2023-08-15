@@ -1,5 +1,12 @@
 var NAVTREEINDEX31 =
 {
+"struct_j_k_q_t_math_text_t_b_r_data.html#a2d7da4b166f9a635072386624e8dc0f1":[77,0,53,2],
+"struct_j_k_q_t_math_text_t_b_r_data.html#a32bb42db5963414101a1856f94ef0a1d":[77,0,53,7],
+"struct_j_k_q_t_math_text_t_b_r_data.html#a4f587aefa1c21ae90d4f4329c8852bac":[77,0,53,4],
+"struct_j_k_q_t_math_text_t_b_r_data.html#a6c3bacb8b68848a7461c1e06c48356b9":[77,0,53,8],
+"struct_j_k_q_t_math_text_t_b_r_data.html#a839d27ac2fe6d687c9c423b6daf5ed12":[77,0,53,9],
+"struct_j_k_q_t_math_text_t_b_r_data.html#ad36552066cf9927968b73b2cf09b4e62":[77,0,53,6],
+"struct_j_k_q_t_math_text_t_b_r_data.html#af22fd00135a7e7fb816fe444072d2ebb":[77,0,53,0],
 "struct_j_k_q_t_math_text_t_b_r_data_h.html":[77,0,54],
 "struct_j_k_q_t_math_text_t_b_r_data_h.html#a0ccc679782065597cd5352ecb73f287e":[77,0,54,7],
 "struct_j_k_q_t_math_text_t_b_r_data_h.html#a610cfa83cd68a8697617a19bf690ef7e":[77,0,54,0],

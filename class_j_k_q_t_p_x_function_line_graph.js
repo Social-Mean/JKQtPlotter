@@ -11,5 +11,7 @@ var class_j_k_q_t_p_x_function_line_graph =
     [ "~JKQTPXFunctionLineGraph", "class_j_k_q_t_p_x_function_line_graph.html#a11f249e860f9d19c7b672d4923069741", null ],
     [ "buildErrorFunctorSpec", "class_j_k_q_t_p_x_function_line_graph.html#ae9ac95f45a097cb517fd4228d1169beb", null ],
     [ "buildPlotFunctorSpec", "class_j_k_q_t_p_x_function_line_graph.html#a4998d9e514eca09131cef4fc6a33c119", null ],
-    [ "draw", "class_j_k_q_t_p_x_function_line_graph.html#ab9aaa82facf5c059b7f5d9711d6729a5", null ]
+    [ "draw", "class_j_k_q_t_p_x_function_line_graph.html#ab9aaa82facf5c059b7f5d9711d6729a5", null ],
+    [ "getXMinMax", "class_j_k_q_t_p_x_function_line_graph.html#af0fbb43fc05cf16dea47f7a4077f7f4c", null ],
+    [ "getYMinMax", "class_j_k_q_t_p_x_function_line_graph.html#ab5a8df88d63f880d20d7b44473231f01", null ]
 ];
