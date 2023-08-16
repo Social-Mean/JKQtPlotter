@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['fillmode_0',['FillMode',['../class_j_k_q_t_p_bar_graph_base.html#afdfa782b7be06a3bb1eb2e3d57c6138c',1,'JKQTPBarGraphBase::FillMode()'],['../class_j_k_q_t_p_filled_curve_graph_base.html#a1c6ebab82d5a08bd63a0574fc278ff08',1,'JKQTPFilledCurveGraphBase::FillMode()']]],
-  ['fontmode_1',['FontMode',['../class_j_k_q_t_math_text_text_node.html#a3779d7d0bbf01d30898fe135f5536fbe',1,'JKQTMathTextTextNode']]],
-  ['fontsizeunit_2',['FontSizeUnit',['../struct_j_k_q_t_math_text_environment.html#a29bdf573d817a3da9786e7e81ffd3bbf',1,'JKQTMathTextEnvironment']]],
-  ['fractype_3',['FracType',['../class_j_k_q_t_math_text_frac_node.html#a0a8d8328735d0eb568fb7806f1edb969',1,'JKQTMathTextFracNode']]]
+  ['datadirection_0',['DataDirection',['../class_j_k_q_t_p_single_column_graph.html#aa19dda7808d6a4a161e269e47ea61814',1,'JKQTPSingleColumnGraph']]],
+  ['datasortorder_1',['DataSortOrder',['../class_j_k_q_t_p_boxplot_graph_base.html#aad9f14c9278cbcebae6651587df0c2c0',1,'JKQTPBoxplotGraphBase::DataSortOrder()'],['../class_j_k_q_t_p_x_y_graph.html#ac6343eedb62ab432de4e563c0b734909',1,'JKQTPXYGraph::DataSortOrder()'],['../class_j_k_q_t_p_single_column_graph.html#a7b62a5cedc32ad15abad51cdda426453',1,'JKQTPSingleColumnGraph::DataSortOrder()']]],
+  ['datatype_2',['DataType',['../class_j_k_q_t_f_p_line_plot.html#a063e467ee283b100915a32333940882c',1,'JKQTFPLinePlot']]],
+  ['decorationtype_3',['DecorationType',['../class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2',1,'JKQTMathTextDecoratedNode']]],
+  ['defaultparsertypes_4',['DefaultParserTypes',['../class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6b',1,'JKQTMathText']]],
+  ['drawmode_5',['DrawMode',['../class_j_k_q_t_p_geometric_plot_element.html#a2947668a58c1c3e9db7b311294dee7d5',1,'JKQTPGeometricPlotElement']]]
 ];

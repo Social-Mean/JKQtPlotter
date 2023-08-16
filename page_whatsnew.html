@@ -197,7 +197,7 @@ FIXED: exporting gridPrinting plots when using only a <a class="el" href="class_
 <li>
 FIXED: fixed impleentations of <a class="el" href="class_j_k_q_t_plotter.html#a9cc0200f6afa42d5e1eab038a98909b6" title="returns an iterator to the first graph">JKQTPlotter::beginGraphs()</a>, which actually returned the end-iterator (COPY-PASTE-ERROR!!!) </li>
 <li>
-FIXED/NEW: placement of plot-title (was not centerd in its box, but glued to the bottom) by adding a plotstyle parameter <a class="el" href="class_j_k_q_t_base_plotter_style.html#a1d8f0a02d156d5d50778b799ab20eb05" title="offset of the plot label from the next element [pt]. This offset is added below AND above the plot la...">JKQTBasePlotterStyle::plotLabelOffset</a> </li>
+FIXED/NEW: placement of plot-title (was not centerd in its box, but glued to the bottom) by adding a plotstyle parameter <a class="el" href="class_j_k_q_t_base_plotter_style.html#a1d8f0a02d156d5d50778b799ab20eb05" title="offset of the plot label from the next element of the graph, i.e. below the label [pt].">JKQTBasePlotterStyle::plotLabelOffset</a> </li>
 <li>
 REORGANIZED: separated line-graphs from <a class="el" href="jkqtpscatter_8h_source.html">jkqtpscatter.h</a>/.cpp into <a class="el" href="jkqtplines_8h_source.html">jkqtplines.h</a>/.cpp </li>
 <li>
@@ -296,7 +296,11 @@ NEW: Using Q_SIGNALS/Q_SLOTS instead of signals/slots MOC-keywords ... this allo
 <li>
 NEW: you can use any (preferably stepped/categorial) JKQTPMathImageColorPalette as default graph colors list in a style.ini file, by setting <code>auto_styles/use_color_from_palette=PALETTE_NAME</code> </li>
 <li>
-NEW added entry for plotLabelColor to <a class="el" href="class_j_k_q_t_base_plotter_style.html" title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">JKQTBasePlotterStyle</a> </li>
+NEW: added entry for <a class="el" href="class_j_k_q_t_base_plotter_style.html#a38e3916aa61807503fe4c8f8048f2e67" title="the plot label color">JKQTBasePlotterStyle::plotLabelColor</a> to set the plot label color </li>
+<li>
+NEW: added <a class="el" href="class_j_k_q_t_base_plotter_style.html#a1ebdc3bf8b0952050cf1427b557cfcf0" title="offset of the plot label from the top [pt].">JKQTBasePlotterStyle::plotLabelTopBorder</a> to set the spacing between top and plot label </li>
+<li>
+NEW: Due to addition of <a class="el" href="class_j_k_q_t_math_text.html#ab277fcf69ff145d316039a766aa08b8d" title="set (overwrite) the options applied to the base font">JKQTMathText::setFontOptions()</a> and the matchign extension of <a class="el" href="class_j_k_q_t_math_text.html#ad28ed500ffb2179955db144aee55031c" title="set font(s) from parsing a font specifier">JKQTMathText::setFontSpecial()</a> (see below) you can now add modifiers like <code>+BOLD+ITALIC</code> to any font-name provided to <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> and in style INI-files </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -436,6 +440,8 @@ NEW: added environment-modifying commands for text formatting: <code>{\bfseries<
 NEW: Added the Fira Math fonts as sans-serif symbol font to the library (as a ressource) and added <a class="el" href="class_j_k_q_t_math_text.html#af4ba191de4a09ce4b055c7159f3d4d77" title="configures the class to use the Fira Math fonts in mathmode">JKQTMathText::useFiraMath()</a> </li>
 <li>
 NEW: Added <a class="el" href="class_j_k_q_t_math_text.html#ac4b34640c60fd3d407e185d12d90c487" title="configures the class to be used for GUI output, i.e. tries to find fonts that are harmonious for the ...">JKQTMathText::useGuiFonts()</a> </li>
+<li>
+NEW: Added <a class="el" href="class_j_k_q_t_math_text.html#ab277fcf69ff145d316039a766aa08b8d" title="set (overwrite) the options applied to the base font">JKQTMathText::setFontOptions()</a>, which allows to make fonts initially e.g. bold, italic, ... and extended <a class="el" href="class_j_k_q_t_math_text.html#ad28ed500ffb2179955db144aee55031c" title="set font(s) from parsing a font specifier">JKQTMathText::setFontSpecial()</a> accordingly </li>
 </ul>
 </li>
 </ul>

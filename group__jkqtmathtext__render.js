@@ -1,7 +1,15 @@
 var group__jkqtmathtext__render =
 [
     [ "JKQTMathText", "class_j_k_q_t_math_text.html", [
+      [ "BaseFontOptions", "class_j_k_q_t_math_text.html#ac230daf5712f555d7a614f0215bc4cc6", null ],
       [ "ParseOptions", "class_j_k_q_t_math_text.html#a29b778c9f2b5b81648bdca4fd53ba1f2", null ],
+      [ "BaseFontOption", "class_j_k_q_t_math_text.html#a5502857974d00c2bdd667c8e4fa9b3d1", [
+        [ "BaseFontBold", "class_j_k_q_t_math_text.html#a5502857974d00c2bdd667c8e4fa9b3d1aebb0a288a388bcbd85787f6cbb710a51", null ],
+        [ "BaseFontItalic", "class_j_k_q_t_math_text.html#a5502857974d00c2bdd667c8e4fa9b3d1ab264378dc059d51560880f067384ef14", null ],
+        [ "BaseFontUnderlined", "class_j_k_q_t_math_text.html#a5502857974d00c2bdd667c8e4fa9b3d1aec16ac710fae985d058f4180ae8cef5b", null ],
+        [ "BaseFontSmallCaps", "class_j_k_q_t_math_text.html#a5502857974d00c2bdd667c8e4fa9b3d1a31f1f9a9bb1c98411bd01d2c11d1cae2", null ],
+        [ "BaseFontDefault", "class_j_k_q_t_math_text.html#a5502857974d00c2bdd667c8e4fa9b3d1ab7b9ef2eb009fe241a2aa0ed274640d0", null ]
+      ] ],
       [ "DefaultParserTypes", "class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6b", [
         [ "LatexParser", "class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6bacc19c37c28ae1020ad0c9aaa5ab8ae63", null ],
         [ "DefaultParser", "class_j_k_q_t_math_text.html#abf8678516fb7bb07129bd6fa0aa88e6baa6e1759efc41b62b7b75df042820891b", null ]
@@ -17,6 +25,7 @@ var group__jkqtmathtext__render =
       [ "addReplacementFont", "class_j_k_q_t_math_text.html#a9a6aaa1d799f775e13256ba58d4f6aaa", null ],
       [ "addReplacementFont", "class_j_k_q_t_math_text.html#a58a6212d2660e50d6ce824e690050f9c", null ],
       [ "addToErrorList", "class_j_k_q_t_math_text.html#a32a69b6feb42510f57d8d20daab385d5", null ],
+      [ "BaseFontOptions2String", "class_j_k_q_t_math_text.html#a31675aea4a2f7035c759db44e8d23126", null ],
       [ "clearErrorList", "class_j_k_q_t_math_text.html#a516f869f9731e91a0f4c96844026e112", null ],
       [ "draw", "class_j_k_q_t_math_text.html#a3fc1a926c2c38692a1763ae176389f42", null ],
       [ "draw", "class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19", null ],
@@ -52,6 +61,7 @@ var group__jkqtmathtext__render =
       [ "getFontFraktur", "class_j_k_q_t_math_text.html#a91a6acd1e09d0dfea6c01a893f7dfa0c", null ],
       [ "getFontMathRoman", "class_j_k_q_t_math_text.html#a29c86d75033f8fc5d12a197f7e9668f6", null ],
       [ "getFontMathSans", "class_j_k_q_t_math_text.html#a3730a569417d4c1e5500446a8769b849", null ],
+      [ "getFontOptions", "class_j_k_q_t_math_text.html#a01178e6382da62f5227737de8ba70c5d", null ],
       [ "getFontPointSize", "class_j_k_q_t_math_text.html#a953de0cc04be2bd3b77b5d3066091cd2", null ],
       [ "getFontRoman", "class_j_k_q_t_math_text.html#af83c07f6e7de4b754772e97381b9d6c6", null ],
       [ "getFontSans", "class_j_k_q_t_math_text.html#a3caf14b791434bd9aded9e1010e1970b", null ],
@@ -97,6 +107,7 @@ var group__jkqtmathtext__render =
       [ "getUndersetFactor", "class_j_k_q_t_math_text.html#a6c53e2ff4689dc9262d7610ac613eb19", null ],
       [ "hadErrors", "class_j_k_q_t_math_text.html#a25ffa56294dabd127143c23076bddce3", null ],
       [ "loadSettings", "class_j_k_q_t_math_text.html#a8862f932173da3044cf4b34b260f7256", null ],
+      [ "modifyEnvironmentFromFontSettings", "class_j_k_q_t_math_text.html#afa4844a66545f5e3d6a1929737071c42", null ],
       [ "parse", "class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd", null ],
       [ "parse", "class_j_k_q_t_math_text.html#a2ad5a61291eee330e92ab60ed29f11cf", null ],
       [ "saveSettings", "class_j_k_q_t_math_text.html#aeb2080ea22fda5c3b5e918492441b59d", null ],
@@ -114,6 +125,8 @@ var group__jkqtmathtext__render =
       [ "setFontFraktur", "class_j_k_q_t_math_text.html#a365cfeefc604d5c5257058ab3b47c8c8", null ],
       [ "setFontMathRoman", "class_j_k_q_t_math_text.html#a9d7f97ed3728b525c838fac61d214059", null ],
       [ "setFontMathSans", "class_j_k_q_t_math_text.html#a318532ed7adbc9233059841957a5fe89", null ],
+      [ "setFontOption", "class_j_k_q_t_math_text.html#aad8731de6a2290944d6060b6646f135b", null ],
+      [ "setFontOptions", "class_j_k_q_t_math_text.html#ab277fcf69ff145d316039a766aa08b8d", null ],
       [ "setFontPointSize", "class_j_k_q_t_math_text.html#a0994bae34018e7d0b7295acb80d6a461", null ],
       [ "setFontRoman", "class_j_k_q_t_math_text.html#ab2e6cb1317bd5be827d82ac46eaad606", null ],
       [ "setFontRomanAndMath", "class_j_k_q_t_math_text.html#a0c49ad29d0bc11c4a6f62a6614b244a8", null ],
@@ -154,6 +167,7 @@ var group__jkqtmathtext__render =
       [ "setUnderbraceFactor", "class_j_k_q_t_math_text.html#a6fb6e547dbcd965e5c76de9aadb6d9b0", null ],
       [ "setUnderbraceSeparationXFactor", "class_j_k_q_t_math_text.html#a898f6f7e058aea29b2763fb1deb1cf23", null ],
       [ "setUndersetFactor", "class_j_k_q_t_math_text.html#abd335938fea6c958e1dd4e0367ce4928", null ],
+      [ "String2BaseFontOptions", "class_j_k_q_t_math_text.html#a7787968ea67621ce75c501b8e71dfef8", null ],
       [ "toHtml", "class_j_k_q_t_math_text.html#a4fd28699b36009ec0177f78c6b4545f7", null ],
       [ "useAnyUnicode", "class_j_k_q_t_math_text.html#ad2eec62337aed49ce088e10e87a8ca52", null ],
       [ "useAnyUnicodeForMathOnly", "class_j_k_q_t_math_text.html#a947589eb2900852a8946c46407d2568c", null ],
@@ -177,6 +191,7 @@ var group__jkqtmathtext__render =
       [ "fontColor", "class_j_k_q_t_math_text.html#ab0733be901ccdbb8247b507d71fb5287", null ],
       [ "fontDefinitions", "class_j_k_q_t_math_text.html#ae6a8664428a0b13e357d6ef516480c3b", null ],
       [ "fontEncodingReplacements", "class_j_k_q_t_math_text.html#a963c6da141bf946420f161c6fc19b9fe", null ],
+      [ "fontOptions", "class_j_k_q_t_math_text.html#af8ac857a4de9b8d16eb7bb30f8a4c7f0", null ],
       [ "fontReplacements", "class_j_k_q_t_math_text.html#ade31bb15c7dd629d532cd6e26a1128bd", null ],
       [ "fontSize", "class_j_k_q_t_math_text.html#aa000567dca1675328079c3a7d0b6c4ef", null ],
       [ "fontSizeUnits", "class_j_k_q_t_math_text.html#afd2a9214fdc6eb4fec928c8881f9c091", null ],

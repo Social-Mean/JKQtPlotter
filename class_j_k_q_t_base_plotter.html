@@ -473,8 +473,11 @@ Public Slots</h2></td></tr>
 <tr class="memdesc:a399a9784a55a7128c69175126f462ae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">the plot label font size [pt]    <br /></td></tr>
 <tr class="separator:a399a9784a55a7128c69175126f462ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03bf13fc0fb242861cf32b97793a1453"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a03bf13fc0fb242861cf32b97793a1453">setPlotLabelOffset</a> (double __value)</td></tr>
-<tr class="memdesc:a03bf13fc0fb242861cf32b97793a1453"><td class="mdescLeft">&#160;</td><td class="mdescRight">offset of the plot label from the next element [pt]. This offset is added below AND above the plot label!    <br /></td></tr>
+<tr class="memdesc:a03bf13fc0fb242861cf32b97793a1453"><td class="mdescLeft">&#160;</td><td class="mdescRight">offset of the plot label from the next element of the graph, i.e. below the label [pt].    <br /></td></tr>
 <tr class="separator:a03bf13fc0fb242861cf32b97793a1453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46b1514bc770908e7a936475380c931e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a46b1514bc770908e7a936475380c931e">setPlotLabelTopBorder</a> (double __value)</td></tr>
+<tr class="memdesc:a46b1514bc770908e7a936475380c931e"><td class="mdescLeft">&#160;</td><td class="mdescRight">offset of the plot label from the top [pt].    <br /></td></tr>
+<tr class="separator:a46b1514bc770908e7a936475380c931e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e8baabe52b2aca2ce6654afe94a63ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a2e8baabe52b2aca2ce6654afe94a63ab">setShowKey</a> (bool __value)</td></tr>
 <tr class="memdesc:a2e8baabe52b2aca2ce6654afe94a63ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates whether to plot a key    <br /></td></tr>
 <tr class="separator:a2e8baabe52b2aca2ce6654afe94a63ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -917,8 +920,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0cb2d65a18bcef97b95057cec81db59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the plot label font size [pt]    <br /></td></tr>
 <tr class="separator:a0cb2d65a18bcef97b95057cec81db59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c8093ffcfb7151eacdfd74f8af2048e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a5c8093ffcfb7151eacdfd74f8af2048e">getPlotLabelOffset</a> () const</td></tr>
-<tr class="memdesc:a5c8093ffcfb7151eacdfd74f8af2048e"><td class="mdescLeft">&#160;</td><td class="mdescRight">offset of the plot label from the next element [pt]. This offset is added below AND above the plot label!    <br /></td></tr>
+<tr class="memdesc:a5c8093ffcfb7151eacdfd74f8af2048e"><td class="mdescLeft">&#160;</td><td class="mdescRight">offset of the plot label from the next element of the graph, i.e. below the label [pt].    <br /></td></tr>
 <tr class="separator:a5c8093ffcfb7151eacdfd74f8af2048e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a68fa82efead9e05d11d41b408373e5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a1a68fa82efead9e05d11d41b408373e5">getPlotLabelTopBorder</a> () const</td></tr>
+<tr class="memdesc:a1a68fa82efead9e05d11d41b408373e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">offset of the plot label from the top [pt].    <br /></td></tr>
+<tr class="separator:a1a68fa82efead9e05d11d41b408373e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82769ae492ebc192147de2efc362f34d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_base_plotter.html#a82769ae492ebc192147de2efc362f34d">getplotLabelFontName</a> () const</td></tr>
 <tr class="memdesc:a82769ae492ebc192147de2efc362f34d"><td class="mdescLeft">&#160;</td><td class="mdescRight">the plot label font name    <br /></td></tr>
 <tr class="separator:a82769ae492ebc192147de2efc362f34d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1880,8 +1886,8 @@ Synchronizing Axis Range &amp; Plot Width</h2>
 <div class="line"> </div>
 <div class="line"><span class="comment">// synchronize y-axis of width/plotResidHist to y-axis of width/plotResid</span></div>
 <div class="line">plotResidHist-&gt;synchronizeToMaster(plotResid, <a class="code hl_enumvalue" href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c">JKQTBasePlotter::sdYAxis</a>, <span class="keyword">true</span>, <span class="keyword">true</span>, <span class="keyword">true</span>);</div>
-<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484">JKQTBasePlotter::sdXAxis</a></div><div class="ttdeci">@ sdXAxis</div><div class="ttdoc">x-axis only</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:1369</div></div>
-<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c">JKQTBasePlotter::sdYAxis</a></div><div class="ttdeci">@ sdYAxis</div><div class="ttdoc">y-axis only</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:1370</div></div>
+<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a39f9cdd2f3105b6baf60e5e6443d4484">JKQTBasePlotter::sdXAxis</a></div><div class="ttdeci">@ sdXAxis</div><div class="ttdoc">x-axis only</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:1371</div></div>
+<div class="ttc" id="aclass_j_k_q_t_base_plotter_html_a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c"><div class="ttname"><a href="class_j_k_q_t_base_plotter.html#a5935d87eae358f89553b84142d61f3a8a4e351676a019681ff4f88111687e614c">JKQTBasePlotter::sdYAxis</a></div><div class="ttdeci">@ sdYAxis</div><div class="ttdoc">y-axis only</div><div class="ttdef"><b>Definition:</b> jkqtpbaseplotter.h:1372</div></div>
 </div><!-- fragment --> This will synchronize the x-axes of the top (<code>plotMain</code> ) and bottom-left plot (<code>plotResid</code> ), as well as the y-axes of the bottom-left (<code>plotResid</code> ) and bottom-right plot (<code>plotResidHist</code> ). After this call they will have the same size in screen pixels and always span the same range in plot coordinates.</li>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#a4be0519635e09e5023651ddd0d575356" title="synchronize the plot x-axis width (and x-zooming) with a given master plotter (master --&gt; slave/this)">synchronizeXToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#a4be0519635e09e5023651ddd0d575356" title="synchronize the plot x-axis width (and x-zooming) with a given master plotter (master --&gt; slave/this)">JKQTBasePlotter::synchronizeXToMaster()</a> like <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">synchronizeToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">JKQTBasePlotter::synchronizeToMaster()</a>, but synchronizes only the x-axes</li>
 <li><a class="el" href="class_j_k_q_t_base_plotter.html#adec8f807ab19fdec1b87122857a5854c" title="synchronize the plot y-axis height (and y-zooming) with a given master plotter (master --&gt; slave/this...">synchronizeYToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#adec8f807ab19fdec1b87122857a5854c" title="synchronize the plot y-axis height (and y-zooming) with a given master plotter (master --&gt; slave/this...">JKQTBasePlotter::synchronizeYToMaster()</a> like <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">synchronizeToMaster()</a> / <a class="el" href="class_j_k_q_t_base_plotter.html#a916184a3a9c8753d25bc3aa6f2f6c456" title="synchronize the plot borders (and zooming) with a given plotter (master --&gt; slave/this)">JKQTBasePlotter::synchronizeToMaster()</a>, but synchronizes only the y-axes</li>
@@ -6047,7 +6053,28 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>offset of the plot label from the next element [pt]. This offset is added below AND above the plot label!   </p>
+<p>offset of the plot label from the next element of the graph, i.e. below the label [pt].   </p>
+<dl class="section see"><dt>See also</dt><dd>plotLabelTopBorder for spacing above   </dd></dl>
+
+</div>
+</div>
+<a id="a1a68fa82efead9e05d11d41b408373e5" name="a1a68fa82efead9e05d11d41b408373e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a68fa82efead9e05d11d41b408373e5">&#9670;&#160;</a></span>getPlotLabelTopBorder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTBasePlotter::getPlotLabelTopBorder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>offset of the plot label from the top [pt].   </p>
+<dl class="section see"><dt>See also</dt><dd>plotLabelOffset for spacing between label and graph   </dd></dl>
 
 </div>
 </div>
@@ -11893,7 +11920,37 @@ Grid invisible</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>offset of the plot label from the next element [pt]. This offset is added below AND above the plot label!   </p>
+<p>offset of the plot label from the next element of the graph, i.e. below the label [pt].   </p>
+<dl class="section see"><dt>See also</dt><dd>plotLabelTopBorder for spacing above   </dd></dl>
+
+</div>
+</div>
+<a id="a46b1514bc770908e7a936475380c931e" name="a46b1514bc770908e7a936475380c931e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46b1514bc770908e7a936475380c931e">&#9670;&#160;</a></span>setPlotLabelTopBorder</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTBasePlotter::setPlotLabelTopBorder </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>__value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>offset of the plot label from the top [pt].   </p>
+<dl class="section see"><dt>See also</dt><dd>plotLabelOffset for spacing between label and graph   </dd></dl>
 
 </div>
 </div>

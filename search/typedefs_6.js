@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['internalbufferimagetype_0',['InternalBufferImageType',['../class_j_k_q_t_plotter.html#aede09a114e065a6360b33b322077abfc',1,'JKQTPlotter']]],
-  ['internallist_1',['InternalList',['../class_j_k_q_t_p_adaptive_function_graph_evaluator.html#a34d55d34d1795aa0d11e0a0f15101c65',1,'JKQTPAdaptiveFunctionGraphEvaluator']]],
-  ['iterator_2',['iterator',['../class_j_k_q_t_p_column.html#a7aefe80cd029a58dcb8682ce6c770a50',1,'JKQTPColumn']]],
-  ['iterator_5fcategory_3',['iterator_category',['../class_j_k_q_t_p_column_iterator.html#aaa5267bf8c0e2cf97760d3fbf186e769',1,'JKQTPColumnIterator::iterator_category()'],['../class_j_k_q_t_p_column_back_inserter.html#a5060263d22c81a4fa03a70520b30073f',1,'JKQTPColumnBackInserter::iterator_category()'],['../class_j_k_q_t_p_column_const_iterator.html#ac367d4b013f61f0832502791a7a47dae',1,'JKQTPColumnConstIterator::iterator_category()']]]
+  ['getboxbrushfunctor_0',['GetBoxBrushFunctor',['../struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html#a04913b930fb0436389ae442ab9d9fcda',1,'JKQTMathTextBoxInstructionNode::InstructionProperties']]],
+  ['getboxpenfunctor_1',['GetBoxPenFunctor',['../struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html#aa8c13f6b28651c381f691737bc142f1a',1,'JKQTMathTextBoxInstructionNode::InstructionProperties']]],
+  ['graphsconstiterator_2',['GraphsConstIterator',['../class_j_k_q_t_base_plotter.html#a85391461af14f96467494faa8d7f2e3d',1,'JKQTBasePlotter']]],
+  ['graphsiterator_3',['GraphsIterator',['../class_j_k_q_t_base_plotter.html#adf5014b714bbc261eee307560d1a2500',1,'JKQTBasePlotter']]],
+  ['graphslist_4',['GraphsList',['../class_j_k_q_t_base_plotter.html#a20ea43f785fd848a902ff5a1da690645',1,'JKQTBasePlotter']]]
 ];
