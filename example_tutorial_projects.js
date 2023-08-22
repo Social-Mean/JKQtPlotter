@@ -41,13 +41,13 @@ var example_tutorial_projects =
     [ "Example (JKQTPlotter): Plotting Parametric Curves", "_j_k_q_t_plotter_parametric_curves.html", null ],
     [ "Example (JKQTPlotter): Plotting Mathematical Functions as Line Graphs", "_j_k_q_t_plotter_function_plots.html", [
       [ "Basics", "_j_k_q_t_plotter_function_plots.html#autotoc_md69", null ],
-      [ "Simple C++ inline function", "_j_k_q_t_plotter_function_plots.html#autotoc_md70", null ],
-      [ "Simple C++ inline function with parameters", "_j_k_q_t_plotter_function_plots.html#autotoc_md71", null ],
-      [ "C++ functors as plot functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md72", null ],
-      [ "Static C functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md73", null ],
-      [ "Predefined \"special\" functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md74", null ],
-      [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md75", null ],
-      [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md76", null ]
+      [ "Simple C++ inline function", "_j_k_q_t_plotter_function_plots.html#autotoc_md71", null ],
+      [ "Simple C++ inline function with parameters", "_j_k_q_t_plotter_function_plots.html#autotoc_md72", null ],
+      [ "C++ functors as plot functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md73", null ],
+      [ "Static C functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md75", null ],
+      [ "Predefined \"special\" functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md76", null ],
+      [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md77", null ],
+      [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md79", null ]
     ] ],
     [ "Example (JKQTPlotter): Plotting Parsed Mathematical Functions as Line Graphs", "_j_k_q_t_plotter_parsed_function_plot.html", [
       [ "Plot Function f(x)", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md85", null ],
@@ -73,9 +73,9 @@ var example_tutorial_projects =
     [ "Example (JKQTPlotter): Plotting Geometric Objects", "_j_k_q_t_plotter_geometric_graphs.html", null ],
     [ "Example (JKQTPlotter): Generating Demo-Plots of Geometric Objects for Documentation", "_j_k_q_t_plotter_geometric_graphs_simple.html", null ],
     [ "Example (JKQTPlotter): Plotting Arrows", "_j_k_q_t_plotter_geometric_arrows.html", [
-      [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md77", null ],
-      [ "Classes with support for arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md78", null ],
-      [ "Screenshot", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md79", null ]
+      [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md70", null ],
+      [ "Classes with support for arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md74", null ],
+      [ "Screenshot", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md78", null ]
     ] ],
     [ "Example (JKQTPlotter): Plot With Axes through Origin", "_j_k_q_t_plotter_geometric_coordinate_axis0.html", null ],
     [ "Example (JKQTPlotter): Line Graph with Logarithmic y-axis", "_j_k_q_t_plotter_log_axes.html", null ],
