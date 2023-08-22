@@ -2,12 +2,12 @@
 \_form#1=10x13:$ f_x(t) $
 \_form#2=10x13:$ f_y(t) $
 \_form#3=10x13:$ t\in\left[t_\text{min}..t_\text{max}\right] $
-\_form#4=10x13:$ [a, b] $
-\_form#5=10x13:\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]
-\_form#6=10x13:$ [x,y]=f_{xy}(t) $
-\_form#7=10x13:$ t_\text{min} $
-\_form#8=10x13:$ t_\text{max} $
-\_form#9=10x13:\[ \Delta t=\frac{N_{\mbox{now}}-N_{\mbox{start}}}{\mbox{\texttt{QueryPerformanceFrequency()}}}\cdot 10^{6} \]
+\_form#4=10x13:\[ \Delta t=\frac{N_{\mbox{now}}-N_{\mbox{start}}}{\mbox{\texttt{QueryPerformanceFrequency()}}}\cdot 10^{6} \]
+\_form#5=10x13:$ [a, b] $
+\_form#6=10x13:\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]
+\_form#7=10x13:$ [x,y]=f_{xy}(t) $
+\_form#8=10x13:$ t_\text{min} $
+\_form#9=10x13:$ t_\text{max} $
 \_form#10=10x13:$ \pi=3.14159... $
 \_form#11=10x13:$ \sqrt{2\pi}=2.50662827463 $
 \_form#12=10x13:$ \mbox{ln}(10)=2.30258509299404568402... $
@@ -90,17 +90,17 @@
 \_form#89=10x13:$ \mbox{firstGroupCenter}\pm2\cdot\mbox{groupWidth}/2 $
 \_form#90=10x13:$ \mbox{firstGroupCenter}\pm3\cdot\mbox{groupWidth}/2 $
 \_form#91=10x13:$ \mbox{round}\left(\frac{x-\mbox{firstGroupCenter}}{\mbox{groupWidth}/2}\right) $
-\_form#92=10x13:$ (c_i,v_i) $
-\_form#93=10x13:$ c_i $
-\_form#94=10x13:$ v_i $
-\_form#95=10x13:$ V_j=\{v_{i}|c_i\equiv c_{\text{out},j}\} $
-\_form#96=10x13:$ c_i\equiv c_{\text{out},j} $
-\_form#97=10x13:$ c_{\text{out},j} $
-\_form#98=10x13:$ c_1 $
-\_form#99=10x13:$ c_N $
-\_form#100=10x13:$ v_1 $
-\_form#101=10x13:$ v_N $
-\_form#102=10x13:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
+\_form#92=10x13:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
+\_form#93=10x13:$ (c_i,v_i) $
+\_form#94=10x13:$ c_i $
+\_form#95=10x13:$ v_i $
+\_form#96=10x13:$ V_j=\{v_{i}|c_i\equiv c_{\text{out},j}\} $
+\_form#97=10x13:$ c_i\equiv c_{\text{out},j} $
+\_form#98=10x13:$ c_{\text{out},j} $
+\_form#99=10x13:$ c_1 $
+\_form#100=10x13:$ c_N $
+\_form#101=10x13:$ v_1 $
+\_form#102=10x13:$ v_N $
 \_form#103=10x13:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
 \_form#104=10x13:$ Y_N $
 \_form#105=10x13:$ (x_i,y_i) $
@@ -203,11 +203,11 @@
 \_form#202=10x13:$ \alpha_{\mbox{left}} $
 \_form#203=10x13:$ \alpha_{\mbox{right}} $
 \_form#204=10x13:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
-\_form#205=10x13:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
-\_form#206=10x13:$ [x,y] $
-\_form#207=10x13:$ [x,y]=f(t) $
-\_form#208=10x13:$ t \in \left[t_\text{min}, t_\text{max}\right] $
-\_form#209=10x13:$ [x,y]=f(t, \vec{p}) $
+\_form#205=10x13:$ [x,y]=f(t) $
+\_form#206=10x13:$ t \in \left[t_\text{min}, t_\text{max}\right] $
+\_form#207=10x13:$ [x,y]=f(t, \vec{p}) $
+\_form#208=10x13:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
+\_form#209=10x13:$ [x,y] $
 \_form#210=10x13:$ [x,y]=f(t), t \in \left[t_\text{min}, t_\text{max}\right] $
 \_form#211=10x13:$ (x,y) $
 \_form#212=10x13:$ \left(x, f(x) \right) $
@@ -232,23 +232,23 @@
 \_form#231=10x13:$ 2\pi $
 \_form#232=10x13:$ 3\pi $
 \_form#233=10x13:$ pi $
-\_form#234=10x13:$ \Delta\mbox{tick} $
-\_form#235=10x13:$ \rho $
-\_form#236=10x13:\[ \Delta\mbox{tick}=f\cdot 10^\rho,\ \ \ \ \ f\in\{1, 2, 2.5, 5\} \]
-\_form#237=10x13:$ \rho_s=\left\lfloor\log_{10}(\mbox{awidth})\right\rfloor+3 $
-\_form#238=10x13:$ \rho=\rho_0 $
-\_form#239=10x13:$ f=10 $
-\_form#240=10x13:$ f\in\{1, 2, 2.5, 5, 10\} $
-\_form#241=10x13:$ \Delta\mbox{tick}=f\cdot 10^\rho $
-\_form#242=10x13:$ \mbox{tickcount}=\mbox{round}\left(\frac{\mbox{awidth}}{\Delta\mbox{tick}}\right) $
-\_form#243=10x13:$ f=1 $
-\_form#244=10x13:$ \rho \leftarrow \rho-1 $
-\_form#245=10x13:$ x=0 $
-\_form#246=10x13:$ y=0 $
-\_form#247=10x13:$ \mbox{Xscale}\cdot\Delta x $
-\_form#248=10x13:$ \Delta x $
-\_form#249=10x13:$ \mbox{Yscale}\cdot\Delta < $
-\_form#250=10x13:$ \Delta < $
+\_form#234=10x13:$ x=0 $
+\_form#235=10x13:$ y=0 $
+\_form#236=10x13:$ \mbox{Xscale}\cdot\Delta x $
+\_form#237=10x13:$ \Delta x $
+\_form#238=10x13:$ \mbox{Yscale}\cdot\Delta < $
+\_form#239=10x13:$ \Delta < $
+\_form#240=10x13:$ \Delta\mbox{tick} $
+\_form#241=10x13:$ \rho $
+\_form#242=10x13:\[ \Delta\mbox{tick}=f\cdot 10^\rho,\ \ \ \ \ f\in\{1, 2, 2.5, 5\} \]
+\_form#243=10x13:$ \rho_s=\left\lfloor\log_{10}(\mbox{awidth})\right\rfloor+3 $
+\_form#244=10x13:$ \rho=\rho_0 $
+\_form#245=10x13:$ f=10 $
+\_form#246=10x13:$ f\in\{1, 2, 2.5, 5, 10\} $
+\_form#247=10x13:$ \Delta\mbox{tick}=f\cdot 10^\rho $
+\_form#248=10x13:$ \mbox{tickcount}=\mbox{round}\left(\frac{\mbox{awidth}}{\Delta\mbox{tick}}\right) $
+\_form#249=10x13:$ f=1 $
+\_form#250=10x13:$ \rho \leftarrow \rho-1 $
 \_form#251=10x13:$ 5\cdot 10^{-6} $
 \_form#252=10x13:$ 3\cdot 10^3 $
 \_form#253=10x13:$ 3\cdot 10^5 $
