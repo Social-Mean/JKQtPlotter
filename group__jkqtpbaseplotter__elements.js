@@ -75,7 +75,7 @@ var group__jkqtpbaseplotter__elements =
       [ "getParentPlotWidth", "class_j_k_q_t_p_coordinate_axis.html#a06ba6eb1730ca1cf0622b5f88a644502", null ],
       [ "getShowZeroAxis", "class_j_k_q_t_p_coordinate_axis.html#aaa615db148f15aa8a479d45dca9c71a8", null ],
       [ "getSize0", "class_j_k_q_t_p_coordinate_axis.html#a8164fee1b7706881d736756e61e57fc2", null ],
-      [ "getSize1", "class_j_k_q_t_p_coordinate_axis.html#a8c27ca22dbcc08e2a73f176b1303ff2b", null ],
+      [ "getSize1", "class_j_k_q_t_p_coordinate_axis.html#a7fa0ff1063a9a65ed4d8c658c2219f9e", null ],
       [ "getSize2", "class_j_k_q_t_p_coordinate_axis.html#a561c0e55a2d4371089d408f02b59cf63", null ],
       [ "getTickColor", "class_j_k_q_t_p_coordinate_axis.html#abab8cb06ecc0826832163ed16fc882ad", null ],
       [ "getTickDateFormat", "class_j_k_q_t_p_coordinate_axis.html#a378a70e646966a216afb924c550e2432", null ],
@@ -226,7 +226,7 @@ var group__jkqtpbaseplotter__elements =
       [ "drawTickLabel1", "class_j_k_q_t_p_horizontal_axis_base.html#a783f0a33c6130c351a83c860ae010b50", null ],
       [ "drawTickLabel2", "class_j_k_q_t_p_horizontal_axis_base.html#a57dbeb7765e828614876d5ab9893a44c", null ],
       [ "getSize0", "class_j_k_q_t_p_horizontal_axis_base.html#a0c902d49253e2d4b464048a8fb3175e0", null ],
-      [ "getSize1", "class_j_k_q_t_p_horizontal_axis_base.html#a1c4910ed2b76efde8c23cf2ccad4195c", null ],
+      [ "getSize1", "class_j_k_q_t_p_horizontal_axis_base.html#a2a3a1ad205d7f5138bb6c9b512b497e8", null ],
       [ "getSize2", "class_j_k_q_t_p_horizontal_axis_base.html#ac9b5a0d9702ce1419fea3926932926ff", null ]
     ] ],
     [ "JKQTPHorizontalIndependentAxis", "class_j_k_q_t_p_horizontal_independent_axis.html", [
@@ -269,7 +269,7 @@ var group__jkqtpbaseplotter__elements =
       [ "drawTickLabel1", "class_j_k_q_t_p_vertical_axis_base.html#a7947766f1faeb4e401944d7b4aaef91d", null ],
       [ "drawTickLabel2", "class_j_k_q_t_p_vertical_axis_base.html#aae099285afaa4e630be45eadf02e8367", null ],
       [ "getSize0", "class_j_k_q_t_p_vertical_axis_base.html#a969fe969ac45758ac0be5d1ac72ef60c", null ],
-      [ "getSize1", "class_j_k_q_t_p_vertical_axis_base.html#a0fb796d6a77ae5e981685362fa3b230e", null ],
+      [ "getSize1", "class_j_k_q_t_p_vertical_axis_base.html#a8d47fc92946f7a19a41a190dcef1d9e5", null ],
       [ "getSize2", "class_j_k_q_t_p_vertical_axis_base.html#ae94a0186beaed120f9f3f457a09af83a", null ]
     ] ],
     [ "JKQTPVerticalIndependentAxis", "class_j_k_q_t_p_vertical_independent_axis.html", [

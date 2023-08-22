@@ -8,6 +8,6 @@ var class_j_k_q_t_p_vertical_axis_base =
     [ "drawTickLabel1", "class_j_k_q_t_p_vertical_axis_base.html#a7947766f1faeb4e401944d7b4aaef91d", null ],
     [ "drawTickLabel2", "class_j_k_q_t_p_vertical_axis_base.html#aae099285afaa4e630be45eadf02e8367", null ],
     [ "getSize0", "class_j_k_q_t_p_vertical_axis_base.html#a969fe969ac45758ac0be5d1ac72ef60c", null ],
-    [ "getSize1", "class_j_k_q_t_p_vertical_axis_base.html#a0fb796d6a77ae5e981685362fa3b230e", null ],
+    [ "getSize1", "class_j_k_q_t_p_vertical_axis_base.html#a8d47fc92946f7a19a41a190dcef1d9e5", null ],
     [ "getSize2", "class_j_k_q_t_p_vertical_axis_base.html#ae94a0186beaed120f9f3f457a09af83a", null ]
 ];

@@ -7,17 +7,17 @@
 \_form#6=10x13:$ [x,y]=f_{xy}(t) $
 \_form#7=10x13:$ t_\text{min} $
 \_form#8=10x13:$ t_\text{max} $
-\_form#9=10x13:$ \pi=3.14159... $
-\_form#10=10x13:$ \sqrt{2\pi}=2.50662827463 $
-\_form#11=10x13:$ \mbox{ln}(10)=2.30258509299404568402... $
-\_form#12=10x13:$ |v|\geq \mbox{absMinV} $
-\_form#13=10x13:\[ f(x,\mu, \sigma)=\frac{1}{\sqrt{2\pi\sigma^2}}\cdot\exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right) \]
-\_form#14=10x13:$ f(x)=\sum\limits_{i=0}^Pp_ix^i $
-\_form#15=10x13:$ p_i $
-\_form#16=10x13:$ p_1 $
-\_form#17=10x13:$ x^0 $
-\_form#18=10x13:$ p_P $
-\_form#19=10x13:\[ \Delta t=\frac{N_{\mbox{now}}-N_{\mbox{start}}}{\mbox{\texttt{QueryPerformanceFrequency()}}}\cdot 10^{6} \]
+\_form#9=10x13:\[ \Delta t=\frac{N_{\mbox{now}}-N_{\mbox{start}}}{\mbox{\texttt{QueryPerformanceFrequency()}}}\cdot 10^{6} \]
+\_form#10=10x13:$ \pi=3.14159... $
+\_form#11=10x13:$ \sqrt{2\pi}=2.50662827463 $
+\_form#12=10x13:$ \mbox{ln}(10)=2.30258509299404568402... $
+\_form#13=10x13:$ |v|\geq \mbox{absMinV} $
+\_form#14=10x13:\[ f(x,\mu, \sigma)=\frac{1}{\sqrt{2\pi\sigma^2}}\cdot\exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right) \]
+\_form#15=10x13:$ f(x)=\sum\limits_{i=0}^Pp_ix^i $
+\_form#16=10x13:$ p_i $
+\_form#17=10x13:$ p_1 $
+\_form#18=10x13:$ x^0 $
+\_form#19=10x13:$ p_P $
 \_form#20=10x13:\[ A\cdot\vec{x}=\vec{b} \]
 \_form#21=10x13:\[ \left[A | \vec{b}\right] \]
 \_form#22=10x13:\[ \left[A | I_L\right] \]
@@ -130,36 +130,36 @@
 \_form#129=10x13:$ b $
 \_form#130=10x13:\[ a=\overline{y}-b\cdot\overline{x} \]
 \_form#131=10x13:\[ b=\frac{\sum x_iy_i-N\cdot\overline{x}\cdot\overline{y}}{\sum x_i^2-N\cdot(\overline{x})^2} \]
-\_form#132=10x13:\[ \tilde{f}(x,y):=\frac{1}{N\cdot\sqrt{\text{bandwidthx}}\cdot\sqrt{\text{bandwidthy}}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{x-x_i}{\text{bandwidthx}},\frac{y-y_i}{\text{bandwidthy}}\right) \]
-\_form#133=10x13:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_iw_i^2\cdot\left(y_i-(a+b\cdot x_i)\right)^2 \]
-\_form#134=10x13:$ w_1 $
-\_form#135=10x13:$ w_N $
-\_form#136=10x13:\[ a=\frac{\overline{y}-b\cdot\overline{x}}{\overline{w^2}} \]
-\_form#137=10x13:\[ b=\frac{\overline{w^2}\cdot\overline{x\cdot y}-\overline{x}\cdot\overline{y}}{\overline{x^2}\cdot\overline{w^2}-\overline{x}^2} \]
-\_form#138=10x13:$ w_i$
-\_form#139=10x13:\[ \overline{x}=\sum\limits_iw_i^2\cdot x_i \]
-\_form#140=10x13:\[ \overline{y}=\sum\limits_iw_i^2\cdot y_i \]
-\_form#141=10x13:\[ \overline{x\cdot y}=\sum\limits_iw_i^2\cdot x_i\cdot y_i \]
-\_form#142=10x13:\[ \overline{x^2}=\sum\limits_iw_i^2\cdot x_i^2 \]
-\_form#143=10x13:\[ \overline{w^2}=\sum\limits_iw_i^2 \]
-\_form#144=10x13:\[ h =  \hat{\sigma} n^{-1/(d+4)},\ \ \ \ \ d=2 \]
-\_form#145=10x13:\[ (a^\ast,b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i|a+b\cdot x_i-y_i|^p \]
-\_form#146=10x13:$ L_p $
-\_form#147=10x13:$ L_p$
-\_form#148=10x13:$ \vec{w} $
-\_form#149=10x13:\[ (a_n,b_n)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i|a+b\cdot x_i-y_i|^{(p-2)}\cdot|a+b\cdot x_i-y_i|^2 \]
-\_form#150=10x13:$ a_0$
-\_form#151=10x13:$ b_0$
-\_form#152=10x13:$ n$
-\_form#153=10x13:$\vec{e}$
-\_form#154=10x13:\[ e_i = a+b\cdot x_i -y_i \]
-\_form#155=10x13:$\vec{w}$
-\_form#156=10x13:\[ w_i=|e_i|^{(p-2)/2} \]
-\_form#157=10x13:$ a_n$
-\_form#158=10x13:$ b_n$
-\_form#159=10x13:$ \vec{x}$
-\_form#160=10x13:$ \vec{y}$
-\_form#161=10x13:$ \vec{w}$
+\_form#132=10x13:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_iw_i^2\cdot\left(y_i-(a+b\cdot x_i)\right)^2 \]
+\_form#133=10x13:$ w_1 $
+\_form#134=10x13:$ w_N $
+\_form#135=10x13:\[ a=\frac{\overline{y}-b\cdot\overline{x}}{\overline{w^2}} \]
+\_form#136=10x13:\[ b=\frac{\overline{w^2}\cdot\overline{x\cdot y}-\overline{x}\cdot\overline{y}}{\overline{x^2}\cdot\overline{w^2}-\overline{x}^2} \]
+\_form#137=10x13:$ w_i$
+\_form#138=10x13:\[ \overline{x}=\sum\limits_iw_i^2\cdot x_i \]
+\_form#139=10x13:\[ \overline{y}=\sum\limits_iw_i^2\cdot y_i \]
+\_form#140=10x13:\[ \overline{x\cdot y}=\sum\limits_iw_i^2\cdot x_i\cdot y_i \]
+\_form#141=10x13:\[ \overline{x^2}=\sum\limits_iw_i^2\cdot x_i^2 \]
+\_form#142=10x13:\[ \overline{w^2}=\sum\limits_iw_i^2 \]
+\_form#143=10x13:\[ (a^\ast,b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i|a+b\cdot x_i-y_i|^p \]
+\_form#144=10x13:$ L_p $
+\_form#145=10x13:$ L_p$
+\_form#146=10x13:$ \vec{w} $
+\_form#147=10x13:\[ (a_n,b_n)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i|a+b\cdot x_i-y_i|^{(p-2)}\cdot|a+b\cdot x_i-y_i|^2 \]
+\_form#148=10x13:$ a_0$
+\_form#149=10x13:$ b_0$
+\_form#150=10x13:$ n$
+\_form#151=10x13:$\vec{e}$
+\_form#152=10x13:\[ e_i = a+b\cdot x_i -y_i \]
+\_form#153=10x13:$\vec{w}$
+\_form#154=10x13:\[ w_i=|e_i|^{(p-2)/2} \]
+\_form#155=10x13:$ a_n$
+\_form#156=10x13:$ b_n$
+\_form#157=10x13:$ \vec{x}$
+\_form#158=10x13:$ \vec{y}$
+\_form#159=10x13:$ \vec{w}$
+\_form#160=10x13:\[ \tilde{f}(x,y):=\frac{1}{N\cdot\sqrt{\text{bandwidthx}}\cdot\sqrt{\text{bandwidthy}}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{x-x_i}{\text{bandwidthx}},\frac{y-y_i}{\text{bandwidthy}}\right) \]
+\_form#161=10x13:\[ h =  \hat{\sigma} n^{-1/(d+4)},\ \ \ \ \ d=2 \]
 \_form#162=10x13:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i\left(y_i-f_{\text{type}}(x_i,a,b)\right)^2 \]
 \_form#163=10x13:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i|y_i-f_{\text{type}}(x_i,a,b)|^p \]
 \_form#164=10x13:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_iw_i^2\left(y_i-f_{\text{type}}(x_i,a,b)\right)^2 \]
@@ -185,24 +185,24 @@
 \_form#184=10x13:$ \{L_i\} $
 \_form#185=10x13:$ y=f(x, \vec{p}) $
 \_form#186=10x13:$ \vec{p} $
-\_form#187=10x13:$ [x,y]=\vec{f}(t) $
-\_form#188=10x13:$ t $
-\_form#189=10x13:$ [x, f(x)] $
-\_form#190=10x13:$ f(y) $
-\_form#191=10x13:$ [f(y), y] $
-\_form#192=10x13:$ \vec{f}(t) $
-\_form#193=10x13:$ gt $
-\_form#194=10x13:$ \alpha_{\mbox{left}} $
-\_form#195=10x13:$ \alpha_{\mbox{right}} $
-\_form#196=10x13:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
-\_form#197=10x13:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $
-\_form#198=10x13:$ p_0, p_1, ... $
-\_form#199=10x13:$ f(x)=p_0+p_1x $
-\_form#200=10x13:$ f(x)=p_0+p_1\cdot\exp(x/p_2) $
-\_form#201=10x13:$ f(x)=p_0\cdot\exp(x/p_1) $
-\_form#202=10x13:$ f(x)=p_0+p_1\cdot x^{p_3} $
-\_form#203=10x13:$ f(x)=p_0\cdot x^{p_1} $
-\_form#204=10x13:$ f(x)= x^{p_0} $
+\_form#187=10x13:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $
+\_form#188=10x13:$ p_0, p_1, ... $
+\_form#189=10x13:$ f(x)=p_0+p_1x $
+\_form#190=10x13:$ f(x)=p_0+p_1\cdot\exp(x/p_2) $
+\_form#191=10x13:$ f(x)=p_0\cdot\exp(x/p_1) $
+\_form#192=10x13:$ f(x)=p_0+p_1\cdot x^{p_3} $
+\_form#193=10x13:$ f(x)=p_0\cdot x^{p_1} $
+\_form#194=10x13:$ f(x)= x^{p_0} $
+\_form#195=10x13:$ [x,y]=\vec{f}(t) $
+\_form#196=10x13:$ t $
+\_form#197=10x13:$ [x, f(x)] $
+\_form#198=10x13:$ f(y) $
+\_form#199=10x13:$ [f(y), y] $
+\_form#200=10x13:$ \vec{f}(t) $
+\_form#201=10x13:$ gt $
+\_form#202=10x13:$ \alpha_{\mbox{left}} $
+\_form#203=10x13:$ \alpha_{\mbox{right}} $
+\_form#204=10x13:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
 \_form#205=10x13:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
 \_form#206=10x13:$ [x,y] $
 \_form#207=10x13:$ [x,y]=f(t) $
@@ -232,23 +232,23 @@
 \_form#231=10x13:$ 2\pi $
 \_form#232=10x13:$ 3\pi $
 \_form#233=10x13:$ pi $
-\_form#234=10x13:$ x=0 $
-\_form#235=10x13:$ y=0 $
-\_form#236=10x13:$ \mbox{Xscale}\cdot\Delta x $
-\_form#237=10x13:$ \Delta x $
-\_form#238=10x13:$ \mbox{Yscale}\cdot\Delta < $
-\_form#239=10x13:$ \Delta < $
-\_form#240=10x13:$ \Delta\mbox{tick} $
-\_form#241=10x13:$ \rho $
-\_form#242=10x13:\[ \Delta\mbox{tick}=f\cdot 10^\rho,\ \ \ \ \ f\in\{1, 2, 2.5, 5\} \]
-\_form#243=10x13:$ \rho_s=\left\lfloor\log_{10}(\mbox{awidth})\right\rfloor+3 $
-\_form#244=10x13:$ \rho=\rho_0 $
-\_form#245=10x13:$ f=10 $
-\_form#246=10x13:$ f\in\{1, 2, 2.5, 5, 10\} $
-\_form#247=10x13:$ \Delta\mbox{tick}=f\cdot 10^\rho $
-\_form#248=10x13:$ \mbox{tickcount}=\mbox{round}\left(\frac{\mbox{awidth}}{\Delta\mbox{tick}}\right) $
-\_form#249=10x13:$ f=1 $
-\_form#250=10x13:$ \rho \leftarrow \rho-1 $
+\_form#234=10x13:$ \Delta\mbox{tick} $
+\_form#235=10x13:$ \rho $
+\_form#236=10x13:\[ \Delta\mbox{tick}=f\cdot 10^\rho,\ \ \ \ \ f\in\{1, 2, 2.5, 5\} \]
+\_form#237=10x13:$ \rho_s=\left\lfloor\log_{10}(\mbox{awidth})\right\rfloor+3 $
+\_form#238=10x13:$ \rho=\rho_0 $
+\_form#239=10x13:$ f=10 $
+\_form#240=10x13:$ f\in\{1, 2, 2.5, 5, 10\} $
+\_form#241=10x13:$ \Delta\mbox{tick}=f\cdot 10^\rho $
+\_form#242=10x13:$ \mbox{tickcount}=\mbox{round}\left(\frac{\mbox{awidth}}{\Delta\mbox{tick}}\right) $
+\_form#243=10x13:$ f=1 $
+\_form#244=10x13:$ \rho \leftarrow \rho-1 $
+\_form#245=10x13:$ x=0 $
+\_form#246=10x13:$ y=0 $
+\_form#247=10x13:$ \mbox{Xscale}\cdot\Delta x $
+\_form#248=10x13:$ \Delta x $
+\_form#249=10x13:$ \mbox{Yscale}\cdot\Delta < $
+\_form#250=10x13:$ \Delta < $
 \_form#251=10x13:$ 5\cdot 10^{-6} $
 \_form#252=10x13:$ 3\cdot 10^3 $
 \_form#253=10x13:$ 3\cdot 10^5 $

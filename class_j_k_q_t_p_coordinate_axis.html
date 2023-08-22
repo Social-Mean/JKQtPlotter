@@ -535,9 +535,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaa615db148f15aa8a479d45dca9c71a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_coordinate_axis.html#aaa615db148f15aa8a479d45dca9c71a8">getShowZeroAxis</a> () const</td></tr>
 <tr class="memdesc:aaa615db148f15aa8a479d45dca9c71a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates whether to draw a thick axis line at x=0 (zero axis)    <br /></td></tr>
 <tr class="separator:aaa615db148f15aa8a479d45dca9c71a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c27ca22dbcc08e2a73f176b1303ff2b"><td class="memItemLeft" align="right" valign="top">virtual QSizeF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_coordinate_axis.html#a8c27ca22dbcc08e2a73f176b1303ff2b">getSize1</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter)=0</td></tr>
-<tr class="memdesc:a8c27ca22dbcc08e2a73f176b1303ff2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the size of the left/bottom axis in pixels  <br /></td></tr>
-<tr class="separator:a8c27ca22dbcc08e2a73f176b1303ff2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fa0ff1063a9a65ed4d8c658c2219f9e"><td class="memItemLeft" align="right" valign="top">virtual QSizeF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_coordinate_axis.html#a7fa0ff1063a9a65ed4d8c658c2219f9e">getSize1</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, double *elongateMin=nullptr, double *elongateMax=nullptr)=0</td></tr>
+<tr class="memdesc:a7fa0ff1063a9a65ed4d8c658c2219f9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the size of the left/bottom axis in pixels  <br /></td></tr>
+<tr class="separator:a7fa0ff1063a9a65ed4d8c658c2219f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a561c0e55a2d4371089d408f02b59cf63"><td class="memItemLeft" align="right" valign="top">virtual QSizeF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_coordinate_axis.html#a561c0e55a2d4371089d408f02b59cf63">getSize2</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter)=0</td></tr>
 <tr class="memdesc:a561c0e55a2d4371089d408f02b59cf63"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the size of the right/top axis in pixels  <br /></td></tr>
 <tr class="separator:a561c0e55a2d4371089d408f02b59cf63"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1107,14 +1107,14 @@ pi-axis scaling (default case)</div></div>
 
 <p>calculates the tick spacing for a linear axis that spans <em>awidth</em> and that should show at least <em><a class="el" href="class_j_k_q_t_p_coordinate_axis_style.html#a0c1d410889cbc56225888bc6ed4f6de8" title="minimum number of axis ticks">JKQTPCoordinateAxisStyle::minTicks</a></em> JKQTPCoordinateAxisStyle::ticks. </p>
 <p>The <b>algorithm</b> used in here works as follows:</p>
-<p>There is only a limited subset of allowed tick distances. These distances are 1 (resulting in 10 JKQTPCoordinateAxisStyle::ticks per decade, i.e. 0,1,2,3,4,...), 2 (5 JKQTPCoordinateAxisStyle::ticks/decade, i.e. 0,2,4,...), 2.5 (4 JKQTPCoordinateAxisStyle::ticks/decade, i.e. 0,2.5,5,...) and 5 (2 JKQTPCoordinateAxisStyle::ticks/decade, i.e. 0,5,10,15,...). So the axis is divided into decades that each is divided into JKQTPCoordinateAxisStyle::ticks, as defined above. With these preconditions the algorithm tries to find a tick increment <picture><source srcset="form_240_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta\mbox{tick} $" src="form_240.png" width="10" height="13"/></picture> which is one of the above distances multiplied by a power <picture><source srcset="form_241_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \rho $" src="form_241.png" width="10" height="13"/></picture> of 10. This increment is determined in a way, that the axis contains at least <em><a class="el" href="class_j_k_q_t_p_coordinate_axis_style.html#a0c1d410889cbc56225888bc6ed4f6de8" title="minimum number of axis ticks">JKQTPCoordinateAxisStyle::minTicks</a></em> JKQTPCoordinateAxisStyle::ticks: </p><p class="formulaDsp">
-<picture><source srcset="form_242_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta\mbox{tick}=f\cdot 10^\rho,\ \ \ \ \ f\in\{1, 2, 2.5, 5\} \]" src="form_242.png" width="10" height="13"/></picture>
+<p>There is only a limited subset of allowed tick distances. These distances are 1 (resulting in 10 JKQTPCoordinateAxisStyle::ticks per decade, i.e. 0,1,2,3,4,...), 2 (5 JKQTPCoordinateAxisStyle::ticks/decade, i.e. 0,2,4,...), 2.5 (4 JKQTPCoordinateAxisStyle::ticks/decade, i.e. 0,2.5,5,...) and 5 (2 JKQTPCoordinateAxisStyle::ticks/decade, i.e. 0,5,10,15,...). So the axis is divided into decades that each is divided into JKQTPCoordinateAxisStyle::ticks, as defined above. With these preconditions the algorithm tries to find a tick increment <picture><source srcset="form_234_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta\mbox{tick} $" src="form_234.png" width="10" height="13"/></picture> which is one of the above distances multiplied by a power <picture><source srcset="form_235_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \rho $" src="form_235.png" width="10" height="13"/></picture> of 10. This increment is determined in a way, that the axis contains at least <em><a class="el" href="class_j_k_q_t_p_coordinate_axis_style.html#a0c1d410889cbc56225888bc6ed4f6de8" title="minimum number of axis ticks">JKQTPCoordinateAxisStyle::minTicks</a></em> JKQTPCoordinateAxisStyle::ticks: </p><p class="formulaDsp">
+<picture><source srcset="form_236_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta\mbox{tick}=f\cdot 10^\rho,\ \ \ \ \ f\in\{1, 2, 2.5, 5\} \]" src="form_236.png" width="10" height="13"/></picture>
 </p>
 <ol type="1">
-<li>The algorithm starts by finding a start exponent <picture><source srcset="form_243_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \rho_s=\left\lfloor\log_{10}(\mbox{awidth})\right\rfloor+3 $" src="form_243.png" width="10" height="13"/></picture>. This is a good (over)estimate for the biggest possible power <picture><source srcset="form_241_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \rho $" src="form_241.png" width="10" height="13"/></picture>.</li>
-<li>now we set <picture><source srcset="form_244_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \rho=\rho_0 $" src="form_244.png" width="10" height="13"/></picture> and <picture><source srcset="form_245_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ f=10 $" src="form_245.png" width="10" height="13"/></picture>.</li>
-<li>now the algorithm cycles through all possible factors <picture><source srcset="form_246_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ f\in\{1, 2, 2.5, 5, 10\} $" src="form_246.png" width="10" height="13"/></picture> (starting from 10) and calculates <picture><source srcset="form_247_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta\mbox{tick}=f\cdot 10^\rho $" src="form_247.png" width="10" height="13"/></picture>. Then it checks whether <picture><source srcset="form_248_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{tickcount}=\mbox{round}\left(\frac{\mbox{awidth}}{\Delta\mbox{tick}}\right) $" src="form_248.png" width="10" height="13"/></picture> is smaller than <em><a class="el" href="class_j_k_q_t_p_coordinate_axis_style.html#a0c1d410889cbc56225888bc6ed4f6de8" title="minimum number of axis ticks">JKQTPCoordinateAxisStyle::minTicks</a></em> (if yes the algorithm reached its end and <picture><source srcset="form_240_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta\mbox{tick} $" src="form_240.png" width="10" height="13"/></picture> can be used.</li>
-<li>if <picture><source srcset="form_249_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ f=1 $" src="form_249.png" width="10" height="13"/></picture> is reached and checked <code>false</code>, then the algorithm decreases the exponent <picture><source srcset="form_250_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \rho \leftarrow \rho-1 $" src="form_250.png" width="10" height="13"/></picture> and returns to step 3. </li>
+<li>The algorithm starts by finding a start exponent <picture><source srcset="form_237_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \rho_s=\left\lfloor\log_{10}(\mbox{awidth})\right\rfloor+3 $" src="form_237.png" width="10" height="13"/></picture>. This is a good (over)estimate for the biggest possible power <picture><source srcset="form_235_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \rho $" src="form_235.png" width="10" height="13"/></picture>.</li>
+<li>now we set <picture><source srcset="form_238_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \rho=\rho_0 $" src="form_238.png" width="10" height="13"/></picture> and <picture><source srcset="form_239_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ f=10 $" src="form_239.png" width="10" height="13"/></picture>.</li>
+<li>now the algorithm cycles through all possible factors <picture><source srcset="form_240_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ f\in\{1, 2, 2.5, 5, 10\} $" src="form_240.png" width="10" height="13"/></picture> (starting from 10) and calculates <picture><source srcset="form_241_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta\mbox{tick}=f\cdot 10^\rho $" src="form_241.png" width="10" height="13"/></picture>. Then it checks whether <picture><source srcset="form_242_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{tickcount}=\mbox{round}\left(\frac{\mbox{awidth}}{\Delta\mbox{tick}}\right) $" src="form_242.png" width="10" height="13"/></picture> is smaller than <em><a class="el" href="class_j_k_q_t_p_coordinate_axis_style.html#a0c1d410889cbc56225888bc6ed4f6de8" title="minimum number of axis ticks">JKQTPCoordinateAxisStyle::minTicks</a></em> (if yes the algorithm reached its end and <picture><source srcset="form_234_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta\mbox{tick} $" src="form_234.png" width="10" height="13"/></picture> can be used.</li>
+<li>if <picture><source srcset="form_243_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ f=1 $" src="form_243.png" width="10" height="13"/></picture> is reached and checked <code>false</code>, then the algorithm decreases the exponent <picture><source srcset="form_244_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \rho \leftarrow \rho-1 $" src="form_244.png" width="10" height="13"/></picture> and returns to step 3. </li>
 </ol>
 
 </div>
@@ -3064,8 +3064,8 @@ pi-axis scaling (default case)</div></div>
 
 </div>
 </div>
-<a id="a8c27ca22dbcc08e2a73f176b1303ff2b" name="a8c27ca22dbcc08e2a73f176b1303ff2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c27ca22dbcc08e2a73f176b1303ff2b">&#9670;&#160;</a></span>getSize1()</h2>
+<a id="a7fa0ff1063a9a65ed4d8c658c2219f9e" name="a7fa0ff1063a9a65ed4d8c658c2219f9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fa0ff1063a9a65ed4d8c658c2219f9e">&#9670;&#160;</a></span>getSize1()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3077,8 +3077,24 @@ pi-axis scaling (default case)</div></div>
           <td class="memname">virtual QSizeF JKQTPCoordinateAxis::getSize1 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;&#160;</td>
-          <td class="paramname"><em>painter</em></td><td>)</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>elongateMin</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>elongateMax</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -3090,7 +3106,7 @@ pi-axis scaling (default case)</div></div>
 
 <p>returns the size of the left/bottom axis in pixels </p>
 
-<p>Implemented in <a class="el" href="class_j_k_q_t_p_vertical_axis_base.html#a0fb796d6a77ae5e981685362fa3b230e">JKQTPVerticalAxisBase</a>, and <a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html#a1c4910ed2b76efde8c23cf2ccad4195c">JKQTPHorizontalAxisBase</a>.</p>
+<p>Implemented in <a class="el" href="class_j_k_q_t_p_vertical_axis_base.html#a8d47fc92946f7a19a41a190dcef1d9e5">JKQTPVerticalAxisBase</a>, and <a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html#a2a3a1ad205d7f5138bb6c9b512b497e8">JKQTPHorizontalAxisBase</a>.</p>
 
 </div>
 </div>
@@ -3229,7 +3245,29 @@ pi-axis scaling (default case)</div></div>
 </div><div class="memdoc">
 
 <p>rotation angle of tick labels [-180..180], i.e. given in degrees, default is 0 (horizontal)   </p>
-
+<p>These images show some example rotations:</p>
+<div class="image">
+<img src="JKQTPCoordinateAxisTickLabelAngle-75Degree.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPCoordinateAxisTickLabelAngle-45Degree.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPCoordinateAxisTickLabelAngle-15Degree.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPCoordinateAxisTickLabelAngle0Degree.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPCoordinateAxisTickLabelAngle15Degree.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPCoordinateAxisTickLabelAngle45Degree.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPCoordinateAxisTickLabelAngle75Degree.png" alt=""/>
+</div>
+  
 </div>
 </div>
 <a id="a753d24164245b88fdb2cf90e11943d9b" name="a753d24164245b88fdb2cf90e11943d9b"></a>
@@ -5473,7 +5511,29 @@ pi-axis scaling (default case)</div></div>
 </div><div class="memdoc">
 
 <p>rotation angle of tick labels [-180..180], i.e. given in degrees, default is 0 (horizontal)   </p>
-
+<p>These images show some example rotations:</p>
+<div class="image">
+<img src="JKQTPCoordinateAxisTickLabelAngle-75Degree.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPCoordinateAxisTickLabelAngle-45Degree.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPCoordinateAxisTickLabelAngle-15Degree.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPCoordinateAxisTickLabelAngle0Degree.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPCoordinateAxisTickLabelAngle15Degree.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPCoordinateAxisTickLabelAngle45Degree.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPCoordinateAxisTickLabelAngle75Degree.png" alt=""/>
+</div>
+  
 </div>
 </div>
 <a id="a0260a1cec0f9375be6e0fe1a1ebab136" name="a0260a1cec0f9375be6e0fe1a1ebab136"></a>
