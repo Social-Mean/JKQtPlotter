@@ -192,9 +192,9 @@ var group__jkqtpplotterclasses =
       [ "getPrintMagnification", "class_j_k_q_t_base_plotter.html#ae272ca6efece3042514c3b32bb875a20", null ],
       [ "getShowKey", "class_j_k_q_t_base_plotter.html#ae6ac92426c3769e69a7c399e2dbef796", null ],
       [ "getShowKeyFrame", "class_j_k_q_t_base_plotter.html#ae2f99d9f37fbd3e144ee9b593d436b7a", null ],
-      [ "getTextSizeDetail", "class_j_k_q_t_base_plotter.html#a8906985166c5cf656ed7e2c47b462d34", null ],
+      [ "getTextSizeDetail", "class_j_k_q_t_base_plotter.html#a1131519a3fea63652f8bcd4031b4dc80", null ],
       [ "getTextSizeDetail", "class_j_k_q_t_base_plotter.html#a40dd8fe3f857c0f6878bd85dfdd629fb", null ],
-      [ "getTextSizeDetail", "class_j_k_q_t_base_plotter.html#a846661a15439d3a9def8dd65bcbad12d", null ],
+      [ "getTextSizeDetail", "class_j_k_q_t_base_plotter.html#aaf79dc2403c983e221ab486192cd3484", null ],
       [ "getTextSizeDetail", "class_j_k_q_t_base_plotter.html#aad421b636966b68f5e452fd1db14dcc5", null ],
       [ "getTextSizeSize", "class_j_k_q_t_base_plotter.html#a8b091de38b83aa05ebefdfa11014e77b", null ],
       [ "getTextSizeSize", "class_j_k_q_t_base_plotter.html#a2b6d907aad5826f4320d7178260f8c0e", null ],
@@ -881,13 +881,6 @@ var group__jkqtpplotterclasses =
       [ "label", "struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#ae75d5b0a0258a492bc851b4290caa174", null ],
       [ "pos", "struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#a3040c7f0b90e093a88ef12ff72e8b1e9", null ],
       [ "title", "struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#a7914115b8ba2888e92b06f56bc6ae9dd", null ]
-    ] ],
-    [ "JKQTBasePlotter::textSizeData", "struct_j_k_q_t_base_plotter_1_1text_size_data.html", [
-      [ "textSizeData", "struct_j_k_q_t_base_plotter_1_1text_size_data.html#af6f681904893393acfbf0ef99298cdcd", null ],
-      [ "ascent", "struct_j_k_q_t_base_plotter_1_1text_size_data.html#a8a4045b19bbd72a81a46b2bb33b38875", null ],
-      [ "descent", "struct_j_k_q_t_base_plotter_1_1text_size_data.html#ad34e93336af126aa5d276606e0f59288", null ],
-      [ "strikeoutPos", "struct_j_k_q_t_base_plotter_1_1text_size_data.html#a3c2c2027cc012ee015104db0a1c49eec", null ],
-      [ "width", "struct_j_k_q_t_base_plotter_1_1text_size_data.html#afa18cd6b6379aee8adea3a19004d9fcb", null ]
     ] ],
     [ "JKQTBasePlotter::textSizeKey", "struct_j_k_q_t_base_plotter_1_1text_size_key.html", [
       [ "textSizeKey", "struct_j_k_q_t_base_plotter_1_1text_size_key.html#a93acbf0ab713902dc72f1a0c309407b5", null ],

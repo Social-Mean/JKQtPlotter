@@ -7,7 +7,9 @@ var class_j_k_q_t_p_horizontal_axis_base =
     [ "drawGrids", "class_j_k_q_t_p_horizontal_axis_base.html#a0a1200bb205b6801119c600a6e97769b", null ],
     [ "drawTickLabel1", "class_j_k_q_t_p_horizontal_axis_base.html#a783f0a33c6130c351a83c860ae010b50", null ],
     [ "drawTickLabel2", "class_j_k_q_t_p_horizontal_axis_base.html#a57dbeb7765e828614876d5ab9893a44c", null ],
-    [ "getSize0", "class_j_k_q_t_p_horizontal_axis_base.html#a0c902d49253e2d4b464048a8fb3175e0", null ],
-    [ "getSize1", "class_j_k_q_t_p_horizontal_axis_base.html#a2a3a1ad205d7f5138bb6c9b512b497e8", null ],
-    [ "getSize2", "class_j_k_q_t_p_horizontal_axis_base.html#ac9b5a0d9702ce1419fea3926932926ff", null ]
+    [ "getQSize1", "class_j_k_q_t_p_horizontal_axis_base.html#a1a3f250aa73b2b6bab67b315a0cc7021", null ],
+    [ "getQSize2", "class_j_k_q_t_p_horizontal_axis_base.html#a5def0270f40d828386b2cb90f8a04bc7", null ],
+    [ "getSize0", "class_j_k_q_t_p_horizontal_axis_base.html#a66c70254a69c404173c51be356f3ca10", null ],
+    [ "getSize1", "class_j_k_q_t_p_horizontal_axis_base.html#a495d65e8b55522efd31bb89f144aa723", null ],
+    [ "getSize2", "class_j_k_q_t_p_horizontal_axis_base.html#abc0c7b22be9a7bf61a1ce2599c563f07", null ]
 ];

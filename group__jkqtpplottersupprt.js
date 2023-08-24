@@ -110,6 +110,8 @@ var group__jkqtpplottersupprt =
       [ "JKQTPLabelMin", "group__jkqtpplottersupprt.html#gga6cb5c7e72efa604416b2ac1ac3fc55cda1fb40f7ba943ef4d30d74a3bc15ca802", null ],
       [ "JKQTPLabelMax", "group__jkqtpplottersupprt.html#gga6cb5c7e72efa604416b2ac1ac3fc55cda205c45e43194ee976b4b9e1a9b2a01c9", null ],
       [ "JKQTPLabelCenter", "group__jkqtpplottersupprt.html#gga6cb5c7e72efa604416b2ac1ac3fc55cda777dd299b885c2031f0a90f8f075f728", null ],
+      [ "JKQTPLabelMinBesides", "group__jkqtpplottersupprt.html#gga6cb5c7e72efa604416b2ac1ac3fc55cdae7bceac99dc6c5909465fda0f8a847ea", null ],
+      [ "JKQTPLabelMaxBesides", "group__jkqtpplottersupprt.html#gga6cb5c7e72efa604416b2ac1ac3fc55cda10b57969dd901b08314e254a8c25d849", null ],
       [ "JKQTPLabelPositionMax", "group__jkqtpplottersupprt.html#gga6cb5c7e72efa604416b2ac1ac3fc55cda5087517a252d16cfe0bc9ac7fa5f00ca", null ]
     ] ],
     [ "JKQTPLabelTickMode", "group__jkqtpplottersupprt.html#gafba2dfd5e979b2a4c063ac2316ce42f1", [

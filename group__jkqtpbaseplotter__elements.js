@@ -1,5 +1,16 @@
 var group__jkqtpbaseplotter__elements =
 [
+    [ "JKQTPCoordinateAxis::Axis0ElementsSizeDescription", "struct_j_k_q_t_p_coordinate_axis_1_1_axis0_elements_size_description.html", [
+      [ "Axis0ElementsSizeDescription", "struct_j_k_q_t_p_coordinate_axis_1_1_axis0_elements_size_description.html#a1442ee2a5fe769c5749ec27a4eafbda3", null ],
+      [ "maxRequiredSize", "struct_j_k_q_t_p_coordinate_axis_1_1_axis0_elements_size_description.html#a809524f67d240206819115871cb19ace", null ],
+      [ "requiredSizeOpposite", "struct_j_k_q_t_p_coordinate_axis_1_1_axis0_elements_size_description.html#ad1ab67e5ca90c821c1146a25af93c20a", null ]
+    ] ],
+    [ "JKQTPCoordinateAxis::AxisElementsSizeDescription", "struct_j_k_q_t_p_coordinate_axis_1_1_axis_elements_size_description.html", [
+      [ "AxisElementsSizeDescription", "struct_j_k_q_t_p_coordinate_axis_1_1_axis_elements_size_description.html#a2cafc43d1d796e9e905f1a79724be7fa", null ],
+      [ "elongateMax", "struct_j_k_q_t_p_coordinate_axis_1_1_axis_elements_size_description.html#af38d9f20050e07c423e8a432f043b22f", null ],
+      [ "elongateMin", "struct_j_k_q_t_p_coordinate_axis_1_1_axis_elements_size_description.html#aebb44e5061a89e6b8eaf2f984e6dccd6", null ],
+      [ "requiredSize", "struct_j_k_q_t_p_coordinate_axis_1_1_axis_elements_size_description.html#aeb06125ba52dc51a1858afc2eaec2c84", null ]
+    ] ],
     [ "JKQTPCoordinateAxis", "class_j_k_q_t_p_coordinate_axis.html", [
       [ "JKQTPCoordinateAxis", "class_j_k_q_t_p_coordinate_axis.html#a00dbfdbd94b92c43e5a6eecf1db835e1", null ],
       [ "~JKQTPCoordinateAxis", "class_j_k_q_t_p_coordinate_axis.html#a5bf03e9a2a48a1766c507eb1b267f440", null ],
@@ -74,9 +85,9 @@ var group__jkqtpbaseplotter__elements =
       [ "getParentPlotOffset", "class_j_k_q_t_p_coordinate_axis.html#a796dcea177762de0c9dd48e7bbdea377", null ],
       [ "getParentPlotWidth", "class_j_k_q_t_p_coordinate_axis.html#a06ba6eb1730ca1cf0622b5f88a644502", null ],
       [ "getShowZeroAxis", "class_j_k_q_t_p_coordinate_axis.html#aaa615db148f15aa8a479d45dca9c71a8", null ],
-      [ "getSize0", "class_j_k_q_t_p_coordinate_axis.html#a8164fee1b7706881d736756e61e57fc2", null ],
-      [ "getSize1", "class_j_k_q_t_p_coordinate_axis.html#a7fa0ff1063a9a65ed4d8c658c2219f9e", null ],
-      [ "getSize2", "class_j_k_q_t_p_coordinate_axis.html#a561c0e55a2d4371089d408f02b59cf63", null ],
+      [ "getSize0", "class_j_k_q_t_p_coordinate_axis.html#a765a21111717d69b24f1964fe2c0ea7f", null ],
+      [ "getSize1", "class_j_k_q_t_p_coordinate_axis.html#ad6a2f188149d74139e903fac02d22b92", null ],
+      [ "getSize2", "class_j_k_q_t_p_coordinate_axis.html#a65e6ba5adcb7ee3d19eba084fdb0c202", null ],
       [ "getTickColor", "class_j_k_q_t_p_coordinate_axis.html#abab8cb06ecc0826832163ed16fc882ad", null ],
       [ "getTickDateFormat", "class_j_k_q_t_p_coordinate_axis.html#a378a70e646966a216afb924c550e2432", null ],
       [ "getTickDateTimeFormat", "class_j_k_q_t_p_coordinate_axis.html#a4014d33b076263d63788bfdd7b7f1f73", null ],
@@ -225,9 +236,11 @@ var group__jkqtpbaseplotter__elements =
       [ "drawGrids", "class_j_k_q_t_p_horizontal_axis_base.html#a0a1200bb205b6801119c600a6e97769b", null ],
       [ "drawTickLabel1", "class_j_k_q_t_p_horizontal_axis_base.html#a783f0a33c6130c351a83c860ae010b50", null ],
       [ "drawTickLabel2", "class_j_k_q_t_p_horizontal_axis_base.html#a57dbeb7765e828614876d5ab9893a44c", null ],
-      [ "getSize0", "class_j_k_q_t_p_horizontal_axis_base.html#a0c902d49253e2d4b464048a8fb3175e0", null ],
-      [ "getSize1", "class_j_k_q_t_p_horizontal_axis_base.html#a2a3a1ad205d7f5138bb6c9b512b497e8", null ],
-      [ "getSize2", "class_j_k_q_t_p_horizontal_axis_base.html#ac9b5a0d9702ce1419fea3926932926ff", null ]
+      [ "getQSize1", "class_j_k_q_t_p_horizontal_axis_base.html#a1a3f250aa73b2b6bab67b315a0cc7021", null ],
+      [ "getQSize2", "class_j_k_q_t_p_horizontal_axis_base.html#a5def0270f40d828386b2cb90f8a04bc7", null ],
+      [ "getSize0", "class_j_k_q_t_p_horizontal_axis_base.html#a66c70254a69c404173c51be356f3ca10", null ],
+      [ "getSize1", "class_j_k_q_t_p_horizontal_axis_base.html#a495d65e8b55522efd31bb89f144aa723", null ],
+      [ "getSize2", "class_j_k_q_t_p_horizontal_axis_base.html#abc0c7b22be9a7bf61a1ce2599c563f07", null ]
     ] ],
     [ "JKQTPHorizontalIndependentAxis", "class_j_k_q_t_p_horizontal_independent_axis.html", [
       [ "JKQTPHorizontalIndependentAxis", "class_j_k_q_t_p_horizontal_independent_axis.html#af6fc6ce26c1772b414a141d2eea91dc5", null ],
@@ -268,9 +281,11 @@ var group__jkqtpbaseplotter__elements =
       [ "drawGrids", "class_j_k_q_t_p_vertical_axis_base.html#a97317c0ac8fca115dc394da8a44701c8", null ],
       [ "drawTickLabel1", "class_j_k_q_t_p_vertical_axis_base.html#a7947766f1faeb4e401944d7b4aaef91d", null ],
       [ "drawTickLabel2", "class_j_k_q_t_p_vertical_axis_base.html#aae099285afaa4e630be45eadf02e8367", null ],
-      [ "getSize0", "class_j_k_q_t_p_vertical_axis_base.html#a969fe969ac45758ac0be5d1ac72ef60c", null ],
-      [ "getSize1", "class_j_k_q_t_p_vertical_axis_base.html#a8d47fc92946f7a19a41a190dcef1d9e5", null ],
-      [ "getSize2", "class_j_k_q_t_p_vertical_axis_base.html#ae94a0186beaed120f9f3f457a09af83a", null ]
+      [ "getQSize1", "class_j_k_q_t_p_vertical_axis_base.html#a03f2248f6ff412599ef36b1bb94afd06", null ],
+      [ "getQSize2", "class_j_k_q_t_p_vertical_axis_base.html#a7a18f02ad5ba37295ab319c525286fc9", null ],
+      [ "getSize0", "class_j_k_q_t_p_vertical_axis_base.html#ae7fa9a5f46c5471602822dfe138853b2", null ],
+      [ "getSize1", "class_j_k_q_t_p_vertical_axis_base.html#a25c824ab13fb036c1c117b41d186b7bf", null ],
+      [ "getSize2", "class_j_k_q_t_p_vertical_axis_base.html#a3180e6fb45943c0d44931dd8272e6e79", null ]
     ] ],
     [ "JKQTPVerticalIndependentAxis", "class_j_k_q_t_p_vertical_independent_axis.html", [
       [ "JKQTPVerticalIndependentAxis", "class_j_k_q_t_p_vertical_independent_axis.html#aaccb460735c74b24d74a9fe9211edabd", null ],

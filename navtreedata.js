@@ -27,12 +27,12 @@ var NAVTREE =
   [ "JKQTPlotter", "index.html", [
     [ "JKQTPlotter - A Qt Plotting Library", "index.html", "index" ],
     [ "Contributor Covenant Code of Conduct", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html", [
-      [ "Our Pledge", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md1", null ],
-      [ "Our Standards", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2", null ],
-      [ "Our Responsibilities", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3", null ],
-      [ "Scope", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4", null ],
-      [ "Enforcement", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5", null ],
-      [ "Attribution", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6", null ]
+      [ "Our Pledge", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2", null ],
+      [ "Our Standards", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3", null ],
+      [ "Our Responsibilities", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4", null ],
+      [ "Scope", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5", null ],
+      [ "Enforcement", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6", null ],
+      [ "Attribution", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md7", null ]
     ] ],
     [ "Contributing", "md__c_o_n_t_r_i_b_u_t_i_n_g.html", [
       [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8", null ],
@@ -117,8 +117,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_j_k_q_t_c_make_link_example.html",
-"class_j_k_q_t_base_plotter.html#a191dde22aceb92813475f07b0bcbcbd5",
-"class_j_k_q_t_base_plotter.html#a8f976893296589382283ae1823ca9521",
+"class_j_k_q_t_base_plotter.html#a18f8eb9bedf6e62c64b774e68184b177",
+"class_j_k_q_t_base_plotter.html#a8f99d792d9ebce22fa0615f5da134542",
 "class_j_k_q_t_base_plotter_1_1_j_k_q_t_p_pen.html#ae22886a81a0d5865992b6550e7c7a191",
 "class_j_k_q_t_f_p_x_range_plot.html#a28a4fcfb42b4ca42c39adc6e659994fa",
 "class_j_k_q_t_fast_plotter.html#a7a0dfecc867b53d9eff12883ee005183",
@@ -135,20 +135,20 @@ var NAVTREEINDEX =
 "class_j_k_q_t_p_geo_text.html#a71413385f3bed5364e297fb2ddf6b146",
 "class_j_k_q_t_p_graph_error_style_mixin.html#ac3dcccba6e7ef34d3aa0b29742abd66c",
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#abc84e2ac4ce19f60abb589fd2a8f2a81",
-"class_j_k_q_t_p_key_style.html#ac23afd0625a2d06e9e6c24ce72147f04",
-"class_j_k_q_t_p_math_parser_1_1jkmp_exception.html#aafdd07b16b720c1400d9f46333f6baf1",
-"class_j_k_q_t_p_r_g_b_math_image.html#a0b52453bdfacef71db8e640a724f52b3",
-"class_j_k_q_t_p_single_column_symbols_graph.html#ab7f61d264bfcb7d1b407be7b16e4b9f7",
-"class_j_k_q_t_p_x_y_function_line_graph_base.html",
-"class_j_k_q_t_plotter.html#a0d78a74ecb83a73e47a03c2a0c3a8d7f",
-"class_j_k_q_t_plotter.html#af0b876017115828f4d14581621808323",
-"group__jkqtmathtext__tools.html#ga50c212be3daed5382824252f58253f5e",
-"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da949418da5804ff500234fe321545769a",
-"group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4a7a1920d61156abc05a60135aefe8bc67",
-"group__jkqtptools__math__parser.html",
-"md__s_e_c_u_r_i_t_y.html#autotoc_md134",
+"class_j_k_q_t_p_key_style.html#ab2ea873180e5a7da68d92d8829597401",
+"class_j_k_q_t_p_math_parser_1_1jkmp_exception.html#a80f90594b92f5e1586baf7af29b96410",
+"class_j_k_q_t_p_r_g_b_math_image.html#a0a00961adf41b423f8e99c672b34c653",
+"class_j_k_q_t_p_single_column_symbols_graph.html#aaab8117aa37c27ba027ad66cd52d0896",
+"class_j_k_q_t_p_x_y_function_line_graph.html#acaf7ee3e8a094edb7a03584b8520c38c",
+"class_j_k_q_t_plotter.html#a0a072ba4e8b5540d42099aaaf1256e25",
+"class_j_k_q_t_plotter.html#aee88d394a2c9aeee61d7d2793fee4729",
+"group__jkqtmathtext__tools.html#ga310b65ae67788f04c1b08ba3e0bd0a65",
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da8e428eb6b3c7a46b8511891b550b44cf",
+"group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f",
+"group__jkqtptools__math__linalg.html#ga9ad3ab299feb81e4ee9ff797dbab8610",
+"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md11",
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html",
-"struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#aaf823d34b71fa0814a9d52c5be3b4dbb"
+"struct_j_k_q_t_plotter_1_1_mouse_drag_action.html#ad8d4e73ce2bbe465d3a262dfe938ec0f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

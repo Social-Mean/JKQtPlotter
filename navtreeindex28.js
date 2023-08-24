@@ -1,5 +1,11 @@
 var NAVTREEINDEX28 =
 {
+"group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eade6607160928e80cb65cbf589bf6f92f":[10,4,1,5,18,16],
+"group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eae49541c78233d54c7311d36b26050187":[10,4,1,5,18,8],
+"group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eae74a5730d5380cdaa3a436b199af2f3c":[10,4,1,5,18,7],
+"group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2eaf0cc2f9560a95eafa3c6e72043724267":[10,4,1,5,18,11],
+"group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4a55f6611cb342565cf0f5002400f53a95":[10,4,1,5,29,6],
+"group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4a68a7f798b01ef4749ee1474fab784648":[10,4,1,5,29,1],
 "group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4a7a1920d61156abc05a60135aefe8bc67":[10,4,1,5,29,0],
 "group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4a82c3c1ab28fb2f206ff98ba172437f1b":[10,4,1,5,29,4],
 "group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4aadf9f772a73f364e4ce6c52b9fae740d":[10,4,1,5,29,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX28 =
 "group__jkqtptools__math__linalg.html#ga68f4af6bad95143a744a1cd99a3ffeec":[10,2,3,17],
 "group__jkqtptools__math__linalg.html#ga79a76a555138167366b4618ef9b02cde":[10,2,3,5],
 "group__jkqtptools__math__linalg.html#ga7e7bc5b270ca97a55d0c755caadb5cc1":[10,2,3,9],
-"group__jkqtptools__math__linalg.html#ga872ca35efd41f7c01c4594cbf940a7fd":[10,2,3,3],
-"group__jkqtptools__math__linalg.html#ga9ad3ab299feb81e4ee9ff797dbab8610":[10,2,3,16],
-"group__jkqtptools__math__linalg.html#gab16a96fa78356ea18584a53a4fe5a9d9":[10,2,3,11],
-"group__jkqtptools__math__linalg.html#gab2a17f4ddff10bdef87b625278238ac2":[10,2,3,12],
-"group__jkqtptools__math__linalg.html#gad513c7870f8d9c7ea57fab1588a1ecab":[10,2,3,1],
-"group__jkqtptools__math__linalg.html#gad5c740ff7f63ca0e781a5a52c491bae9":[10,2,3,4],
-"group__jkqtptools__math__linalg.html#gaf33e8d679515276ac8cf2863ee9f4844":[10,2,3,15]
+"group__jkqtptools__math__linalg.html#ga872ca35efd41f7c01c4594cbf940a7fd":[10,2,3,3]
 };

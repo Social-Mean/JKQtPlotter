@@ -1,5 +1,9 @@
 var NAVTREEINDEX25 =
 {
+"class_j_k_q_t_plotter.html#aee88d394a2c9aeee61d7d2793fee4729":[10,4,1,2,4,113],
+"class_j_k_q_t_plotter.html#aeebdda10f562801c167188c9a2fa395e":[10,4,1,2,4,10],
+"class_j_k_q_t_plotter.html#aefeb870110dc61e7b9efcbe6a3be1c13":[10,4,1,2,4,258],
+"class_j_k_q_t_plotter.html#aeffd28bfa62b225074ad6ae0a95b6710":[10,4,1,2,4,59],
 "class_j_k_q_t_plotter.html#af0b876017115828f4d14581621808323":[10,4,1,2,4,94],
 "class_j_k_q_t_plotter.html#af0bece69703f98fe9f11a1ddcb3c0630":[10,4,1,2,4,4],
 "class_j_k_q_t_plotter.html#af0c0c1b00d172466716d8aee7f063b95":[10,4,1,2,4,50],
@@ -70,15 +74,15 @@ var NAVTREEINDEX25 =
 "example_tutorial_projects.html#jkqtp_extut_plotimagedata":[4,0,3],
 "example_tutorial_projects.html#jkqtp_extut_plotstyles":[4,0,0],
 "example_tutorial_projects.html#jkqtp_extut_tools":[4,3],
-"functions.html":[12,3,0,0],
 "functions.html":[12,3,0],
+"functions.html":[12,3,0,0],
 "functions_b.html":[12,3,0,1],
 "functions_c.html":[12,3,0,2],
 "functions_d.html":[12,3,0,3],
 "functions_e.html":[12,3,0,4],
 "functions_enum.html":[12,3,4],
-"functions_eval.html":[12,3,5],
 "functions_eval.html":[12,3,5,0],
+"functions_eval.html":[12,3,5],
 "functions_eval_b.html":[12,3,5,1],
 "functions_eval_c.html":[12,3,5,2],
 "functions_eval_d.html":[12,3,5,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX25 =
 "group__jkqtmathtext__tools.html#ga283b2bbfea70f11427563f632c2969f1":[10,3,1,3,22],
 "group__jkqtmathtext__tools.html#ga286e3e9afdcb54e615269d175a6c8fab":[10,3,1,3,24],
 "group__jkqtmathtext__tools.html#ga2945436624a52b6b35b3eec07280efbd":[10,3,1,3,19],
-"group__jkqtmathtext__tools.html#ga2fab98d9916942d8ee0f29841ed82448":[10,3,1,3,8],
-"group__jkqtmathtext__tools.html#ga310b65ae67788f04c1b08ba3e0bd0a65":[10,3,1,3,17],
-"group__jkqtmathtext__tools.html#ga47b0e1abb2e5cb1c71fab10789b27e5c":[10,3,1,3,12],
-"group__jkqtmathtext__tools.html#ga4b92fd59d8a4655d76104acac7053726":[10,3,1,3,20],
-"group__jkqtmathtext__tools.html#ga4e470a13a35cd35d031ebe58a19ede25":[10,3,1,3,21]
+"group__jkqtmathtext__tools.html#ga2fab98d9916942d8ee0f29841ed82448":[10,3,1,3,8]
 };

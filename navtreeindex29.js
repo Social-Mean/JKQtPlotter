@@ -1,5 +1,11 @@
 var NAVTREEINDEX29 =
 {
+"group__jkqtptools__math__linalg.html#ga9ad3ab299feb81e4ee9ff797dbab8610":[10,2,3,16],
+"group__jkqtptools__math__linalg.html#gab16a96fa78356ea18584a53a4fe5a9d9":[10,2,3,11],
+"group__jkqtptools__math__linalg.html#gab2a17f4ddff10bdef87b625278238ac2":[10,2,3,12],
+"group__jkqtptools__math__linalg.html#gad513c7870f8d9c7ea57fab1588a1ecab":[10,2,3,1],
+"group__jkqtptools__math__linalg.html#gad5c740ff7f63ca0e781a5a52c491bae9":[10,2,3,4],
+"group__jkqtptools__math__linalg.html#gaf33e8d679515276ac8cf2863ee9f4844":[10,2,3,15],
 "group__jkqtptools__math__parser.html":[10,2,4],
 "group__jkqtptools__math__parser.html#a2b4d49d6734bb936aca30c03cd26e808":[10,2,4,5,0],
 "group__jkqtptools__math__parser.html#a5b1ff4fb042a2eb38919ad7c647cc18d":[10,2,4,10,2],
@@ -236,18 +242,12 @@ var NAVTREEINDEX29 =
 "licensepage.html#extlicense_xits":[5,1,0],
 "licensepage.html#licensesec":[5,0],
 "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html":[1],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md1":[1,0],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2":[1,1],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3":[1,2],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4":[1,3],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5":[1,4],
-"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6":[1,5],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2":[1,0],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3":[1,1],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4":[1,2],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5":[1,3],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6":[1,4],
+"md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md7":[1,5],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html":[2],
-"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10":[2,2],
-"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md11":[2,3],
-"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md12":[2,4],
-"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8":[2,0],
-"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md9":[2,1],
-"md__s_e_c_u_r_i_t_y.html":[9],
-"md__s_e_c_u_r_i_t_y.html#autotoc_md133":[9,0]
+"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10":[2,2]
 };

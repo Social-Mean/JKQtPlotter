@@ -1,6 +1,9 @@
 var hierarchy =
 [
     [ "JKQTBasePlotter::allPlotElements", "struct_j_k_q_t_base_plotter_1_1all_plot_elements.html", null ],
+    [ "JKQTPCoordinateAxis::AxisElementsSizeDescription", "struct_j_k_q_t_p_coordinate_axis_1_1_axis_elements_size_description.html", [
+      [ "JKQTPCoordinateAxis::Axis0ElementsSizeDescription", "struct_j_k_q_t_p_coordinate_axis_1_1_axis0_elements_size_description.html", null ]
+    ] ],
     [ "std::exception", null, [
       [ "JKQTPMathParser::jkmpException", "class_j_k_q_t_p_math_parser_1_1jkmp_exception.html", null ]
     ] ],
@@ -433,7 +436,6 @@ var hierarchy =
     [ "JKQTPXYParametrizedScatterGraph::SymbolDescription", "group__jkqtplotter__linesymbolgraphs__param.html#struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_symbol_description", null ],
     [ "JKQTMathTextSymbolNode::SymbolFullProps", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html", null ],
     [ "JKQTMathTextSymbolNode::SymbolProps", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html", null ],
-    [ "JKQTBasePlotter::textSizeData", "struct_j_k_q_t_base_plotter_1_1text_size_data.html", null ],
     [ "JKQTBasePlotter::textSizeKey", "struct_j_k_q_t_base_plotter_1_1text_size_key.html", null ],
     [ "JKQTMathTextWhitespaceNode::WhitespaceProps", "struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html", null ]
 ];
