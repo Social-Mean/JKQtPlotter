@@ -143,6 +143,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ga593420498f0e0e5a8d71447a7d545c8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">JKQTPImageTools::LUTType</a> <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga593420498f0e0e5a8d71447a7d545c8b">JKQTPBuildColorPaletteLUT</a> (const QMap&lt; double, QRgb &gt; &amp;items, int lut_size=<a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a>)</td></tr>
 <tr class="memdesc:ga593420498f0e0e5a8d71447a7d545c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">like <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga74ec2e64e2c0c0b8cbb428d8f4f3d645" title="build a palette (as a look-up table) with lut_size entries that step between the nodes provided in it...">JKQTPBuildColorPaletteLUTSorted()</a>, but accepts a <code>QMap&lt;double,QRgb&gt;</code> as parameter instead of <code>QList&lt;QPair&lt;double,QRgb&gt;&gt;</code>  <br /></td></tr>
 <tr class="separator:ga593420498f0e0e5a8d71447a7d545c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga23698196cc1dea76e2bcf4d6f8ab87d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">JKQTPImageTools::LUTType</a> <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga23698196cc1dea76e2bcf4d6f8ab87d6">JKQTPBuildColorPaletteLUT</a> (const std::function&lt; float(float)&gt; &amp;rFunc, const std::function&lt; float(float)&gt; &amp;gFunc, const std::function&lt; float(float)&gt; &amp;bFunc, const std::function&lt; float(float)&gt; &amp;aFunc, int lut_size=<a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a>, float vMin=0.0, float vMax=1.0)</td></tr>
+<tr class="memdesc:ga23698196cc1dea76e2bcf4d6f8ab87d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a LUT by evaluating the quadruple RGBA = ( <em>rFunc(v)</em> , <em>gFunc(v)</em> , <em>bFunc(v)</em> ) for <code>v</code> in the range <em>vMin</em> ... <em>vMax</em> at <em>lut_size</em> equally distributed locations.  <br /></td></tr>
+<tr class="separator:ga23698196cc1dea76e2bcf4d6f8ab87d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4de128e20d3b364e7f3698a3d0829b98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">JKQTPImageTools::LUTType</a> <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga4de128e20d3b364e7f3698a3d0829b98">JKQTPBuildColorPaletteLUT</a> (const std::function&lt; float(float)&gt; &amp;rFunc, const std::function&lt; float(float)&gt; &amp;gFunc, const std::function&lt; float(float)&gt; &amp;bFunc, int lut_size=<a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a>, float vMin=0.0, float vMax=1.0)</td></tr>
+<tr class="memdesc:ga4de128e20d3b364e7f3698a3d0829b98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a LUT by evaluating the triple RGB = ( <em>rFunc(v)</em> , <em>gFunc(v)</em> , <em>bFunc(v)</em> ) for <code>v</code> in the range <em>vMin</em> ... <em>vMax</em> at <em>lut_size</em> equally distributed locations.  <br /></td></tr>
+<tr class="separator:ga4de128e20d3b364e7f3698a3d0829b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab07c70e14a9b4b6e808557b648bc847a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">JKQTPImageTools::LUTType</a> <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#gab07c70e14a9b4b6e808557b648bc847a">JKQTPBuildColorPaletteLUT</a> (const std::function&lt; QRgb(float)&gt; &amp;palFunc, int lut_size=<a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a>, float vMin=0.0, float vMax=1.0)</td></tr>
+<tr class="memdesc:gab07c70e14a9b4b6e808557b648bc847a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a LUT by evaluating <em>palFunc(v)</em> for <code>v</code> in the range <em>vMin</em> ... <em>vMax</em> at <em>lut_size</em> equally distributed locations.  <br /></td></tr>
+<tr class="separator:gab07c70e14a9b4b6e808557b648bc847a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga254a1e353446ee3fe1c3b377ac95f82e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">JKQTPImageTools::LUTType</a> <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga254a1e353446ee3fe1c3b377ac95f82e">JKQTPBuildColorPaletteLUT</a> (<a class="el" href="class_j_k_q_t_p_palette_list.html">JKQTPPaletteList</a> items, int lut_size=<a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a>)</td></tr>
 <tr class="memdesc:ga254a1e353446ee3fe1c3b377ac95f82e"><td class="mdescLeft">&#160;</td><td class="mdescRight">like <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#ga74ec2e64e2c0c0b8cbb428d8f4f3d645" title="build a palette (as a look-up table) with lut_size entries that step between the nodes provided in it...">JKQTPBuildColorPaletteLUTSorted()</a>, but sorts <em>items</em> before processing it!  <br /></td></tr>
 <tr class="separator:ga254a1e353446ee3fe1c3b377ac95f82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,7 +220,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ga593420498f0e0e5a8d71447a7d545c8b" name="ga593420498f0e0e5a8d71447a7d545c8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga593420498f0e0e5a8d71447a7d545c8b">&#9670;&#160;</a></span>JKQTPBuildColorPaletteLUT() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga593420498f0e0e5a8d71447a7d545c8b">&#9670;&#160;</a></span>JKQTPBuildColorPaletteLUT() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -251,8 +260,166 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga23698196cc1dea76e2bcf4d6f8ab87d6" name="ga23698196cc1dea76e2bcf4d6f8ab87d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga23698196cc1dea76e2bcf4d6f8ab87d6">&#9670;&#160;</a></span>JKQTPBuildColorPaletteLUT() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">JKQTPImageTools::LUTType</a> <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> JKQTPBuildColorPaletteLUT </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; float(float)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>rFunc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; float(float)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>gFunc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; float(float)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>bFunc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; float(float)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>aFunc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lut_size</em> = <code><a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>vMin</em> = <code>0.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>vMax</em> = <code>1.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Builds a LUT by evaluating the quadruple RGBA = ( <em>rFunc(v)</em> , <em>gFunc(v)</em> , <em>bFunc(v)</em> ) for <code>v</code> in the range <em>vMin</em> ... <em>vMax</em> at <em>lut_size</em> equally distributed locations. </p>
+<dl class="section note"><dt>Note</dt><dd>Each function should return a value between 0 and 1. If the values are larger, the are clipped to this range! </dd></dl>
+
+</div>
+</div>
+<a id="ga4de128e20d3b364e7f3698a3d0829b98" name="ga4de128e20d3b364e7f3698a3d0829b98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4de128e20d3b364e7f3698a3d0829b98">&#9670;&#160;</a></span>JKQTPBuildColorPaletteLUT() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">JKQTPImageTools::LUTType</a> <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> JKQTPBuildColorPaletteLUT </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; float(float)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>rFunc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; float(float)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>gFunc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; float(float)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>bFunc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lut_size</em> = <code><a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>vMin</em> = <code>0.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>vMax</em> = <code>1.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Builds a LUT by evaluating the triple RGB = ( <em>rFunc(v)</em> , <em>gFunc(v)</em> , <em>bFunc(v)</em> ) for <code>v</code> in the range <em>vMin</em> ... <em>vMax</em> at <em>lut_size</em> equally distributed locations. </p>
+<dl class="section note"><dt>Note</dt><dd>Each function should return a value between 0 and 1. If the values are larger, the are clipped to this range! </dd></dl>
+
+</div>
+</div>
+<a id="gab07c70e14a9b4b6e808557b648bc847a" name="gab07c70e14a9b4b6e808557b648bc847a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab07c70e14a9b4b6e808557b648bc847a">&#9670;&#160;</a></span>JKQTPBuildColorPaletteLUT() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4">JKQTPImageTools::LUTType</a> <a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> JKQTPBuildColorPaletteLUT </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; QRgb(float)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>palFunc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lut_size</em> = <code><a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4">JKQTPImageTools::LUTSIZE</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>vMin</em> = <code>0.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>vMax</em> = <code>1.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Builds a LUT by evaluating <em>palFunc(v)</em> for <code>v</code> in the range <em>vMin</em> ... <em>vMax</em> at <em>lut_size</em> equally distributed locations. </p>
+
+</div>
+</div>
 <a id="ga254a1e353446ee3fe1c3b377ac95f82e" name="ga254a1e353446ee3fe1c3b377ac95f82e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga254a1e353446ee3fe1c3b377ac95f82e">&#9670;&#160;</a></span>JKQTPBuildColorPaletteLUT() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga254a1e353446ee3fe1c3b377ac95f82e">&#9670;&#160;</a></span>JKQTPBuildColorPaletteLUT() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

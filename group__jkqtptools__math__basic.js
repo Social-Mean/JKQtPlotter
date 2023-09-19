@@ -41,6 +41,7 @@ var group__jkqtptools__math__basic =
     [ "jkqtp_polynomialModel2Latex", "group__jkqtptools__math__basic.html#ga5024e624b99918ad6b7c52d3474c43cd", null ],
     [ "jkqtp_pow4", "group__jkqtptools__math__basic.html#ga544d652c9f98b44cfc7c39793367db7e", null ],
     [ "jkqtp_pow5", "group__jkqtptools__math__basic.html#gabbbdaf85756a7507b98ab3bde7ede1f7", null ],
+    [ "jkqtp_reversed", "group__jkqtptools__math__basic.html#ga2ba807321e3c6c55e4917089af18d1cf", null ],
     [ "jkqtp_roundTo", "group__jkqtptools__math__basic.html#ga39d6433341d097414cfbafb194af8af1", null ],
     [ "jkqtp_sign", "group__jkqtptools__math__basic.html#ga4d6acd866986b2430276c746692e020b", null ],
     [ "jkqtp_sqr", "group__jkqtptools__math__basic.html#gacb0b84ffd616c54365266f907cedf400", null ],
