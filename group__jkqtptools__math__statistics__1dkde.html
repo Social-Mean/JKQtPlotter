@@ -198,7 +198,7 @@ template&lt;class InputIt &gt; </div>
 
 <p>estimates a bandwidth for a Kernel Density Estimator (KDE) of the given data <em>first</em> ... <em>last</em> </p>
 <p>evaluates </p><p class="formulaDsp">
-<picture><source srcset="form_91_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ h = \left(\frac{4\hat{\sigma}^5}{3n}\right)^{\frac{1}{5}} \approx 1.06 \hat{\sigma} n^{-1/5} \]" src="form_91.png" width="10" height="13"/></picture>
+<picture><source srcset="form_116_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ h = \left(\frac{4\hat{\sigma}^5}{3n}\right)^{\frac{1}{5}} \approx 1.06 \hat{\sigma} n^{-1/5} \]" src="form_116.png" width="10" height="13"/></picture>
 </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -208,8 +208,8 @@ template&lt;class InputIt &gt; </div>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">first</td><td>iterator pointing to the first item in the dataset to use <picture><source srcset="form_68_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_1 $" src="form_68.png" width="10" height="13"/></picture> </td></tr>
-    <tr><td class="paramname">last</td><td>iterator pointing behind the last item in the dataset to use <picture><source srcset="form_69_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_N $" src="form_69.png" width="10" height="13"/></picture> </td></tr>
+    <tr><td class="paramname">first</td><td>iterator pointing to the first item in the dataset to use <picture><source srcset="form_49_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_1 $" src="form_49.png" width="10" height="13"/></picture> </td></tr>
+    <tr><td class="paramname">last</td><td>iterator pointing behind the last item in the dataset to use <picture><source srcset="form_50_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_N $" src="form_50.png" width="10" height="13"/></picture> </td></tr>
   </table>
   </dd>
 </dl>
@@ -273,7 +273,7 @@ template&lt;class InputIt &gt; </div>
 
 <p>evaluates the Kernel Density Estimator (KDE) at a given position </p>
 <p>evaluates </p><p class="formulaDsp">
-<picture><source srcset="form_92_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \tilde{f}(t):=\frac{1}{N\cdot\text{bandwidth}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{t-x_i}{\text{bandwidth}}\right) \]" src="form_92.png" width="10" height="13"/></picture>
+<picture><source srcset="form_117_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \tilde{f}(t):=\frac{1}{N\cdot\text{bandwidth}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{t-x_i}{\text{bandwidth}}\right) \]" src="form_117.png" width="10" height="13"/></picture>
 </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -284,8 +284,8 @@ template&lt;class InputIt &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">t</td><td>where to evaluate the kernel sum </td></tr>
-    <tr><td class="paramname">first</td><td>iterator pointing to the first item in the dataset to use <picture><source srcset="form_68_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_1 $" src="form_68.png" width="10" height="13"/></picture> </td></tr>
-    <tr><td class="paramname">last</td><td>iterator pointing behind the last item in the dataset to use <picture><source srcset="form_69_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_N $" src="form_69.png" width="10" height="13"/></picture> </td></tr>
+    <tr><td class="paramname">first</td><td>iterator pointing to the first item in the dataset to use <picture><source srcset="form_49_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_1 $" src="form_49.png" width="10" height="13"/></picture> </td></tr>
+    <tr><td class="paramname">last</td><td>iterator pointing behind the last item in the dataset to use <picture><source srcset="form_50_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_N $" src="form_50.png" width="10" height="13"/></picture> </td></tr>
     <tr><td class="paramname">kernel</td><td>the kernel function to use (e.g. <a class="el" href="group__jkqtptools__math__statistics__1dkde__kernels.html#gacddebeb94f8449c98b0ed98160e65a24" title="a 1D Gaussian kernel function, e.g. for Kernel Density Estimation">jkqtpstatKernel1DGaussian()</a> ) </td></tr>
     <tr><td class="paramname">bandwidth</td><td>bandwidth used for the KDE </td></tr>
   </table>
@@ -383,8 +383,8 @@ template&lt;class InputIt , class BinsInputIt , class OutputIt &gt; </div>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir"></td><td class="paramname">first</td><td>iterator pointing to the first item in the dataset to use <picture><source srcset="form_68_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_1 $" src="form_68.png" width="10" height="13"/></picture> </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">last</td><td>iterator pointing behind the last item in the dataset to use <picture><source srcset="form_69_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_N $" src="form_69.png" width="10" height="13"/></picture> </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">first</td><td>iterator pointing to the first item in the dataset to use <picture><source srcset="form_49_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_1 $" src="form_49.png" width="10" height="13"/></picture> </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">last</td><td>iterator pointing behind the last item in the dataset to use <picture><source srcset="form_50_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_N $" src="form_50.png" width="10" height="13"/></picture> </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">binsFirst</td><td>iterator pointing to the first item in the set of KDE bins </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">binsLast</td><td>iterator pointing behind the last item in the set of KDE bins </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">KDEXOut</td><td>output iterator that receives x-positions of the KDE bins. Location of this value inside the bin range is defined by <em>binXMode</em> </td></tr>
@@ -493,8 +493,8 @@ template&lt;class InputIt , class OutputIt &gt; </div>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir"></td><td class="paramname">first</td><td>iterator pointing to the first item in the dataset to use <picture><source srcset="form_68_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_1 $" src="form_68.png" width="10" height="13"/></picture> </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">last</td><td>iterator pointing behind the last item in the dataset to use <picture><source srcset="form_69_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_N $" src="form_69.png" width="10" height="13"/></picture> </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">first</td><td>iterator pointing to the first item in the dataset to use <picture><source srcset="form_49_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_1 $" src="form_49.png" width="10" height="13"/></picture> </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">last</td><td>iterator pointing behind the last item in the dataset to use <picture><source srcset="form_50_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_N $" src="form_50.png" width="10" height="13"/></picture> </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">binXLeft</td><td>first x-position, where to evaluate the KDE </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">binXDelta</td><td>distance between two x-positions at which the KDE is evaluated </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">binXRight</td><td>last x-position, where to evaluate the KDE </td></tr>
@@ -592,8 +592,8 @@ template&lt;class InputIt , class OutputIt &gt; </div>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir"></td><td class="paramname">first</td><td>iterator pointing to the first item in the dataset to use <picture><source srcset="form_68_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_1 $" src="form_68.png" width="10" height="13"/></picture> </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">last</td><td>iterator pointing behind the last item in the dataset to use <picture><source srcset="form_69_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_N $" src="form_69.png" width="10" height="13"/></picture> </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">first</td><td>iterator pointing to the first item in the dataset to use <picture><source srcset="form_49_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_1 $" src="form_49.png" width="10" height="13"/></picture> </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">last</td><td>iterator pointing behind the last item in the dataset to use <picture><source srcset="form_50_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_N $" src="form_50.png" width="10" height="13"/></picture> </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">kernel</td><td>the kernel function to use (e.g. <a class="el" href="group__jkqtptools__math__statistics__1dkde__kernels.html#gacddebeb94f8449c98b0ed98160e65a24" title="a 1D Gaussian kernel function, e.g. for Kernel Density Estimation">jkqtpstatKernel1DGaussian()</a> ) </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">bandwidth</td><td>bandwidth used for the KDE </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">KDEXOut</td><td>output iterator that receives x-positions of the KDE bins. Location of this value inside the bin range is defined by <em>binXMode</em> </td></tr>
@@ -691,8 +691,8 @@ template&lt;class InputIt , class OutputIt &gt; </div>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir"></td><td class="paramname">first</td><td>iterator pointing to the first item in the dataset to use <picture><source srcset="form_68_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_1 $" src="form_68.png" width="10" height="13"/></picture> </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">last</td><td>iterator pointing behind the last item in the dataset to use <picture><source srcset="form_69_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_N $" src="form_69.png" width="10" height="13"/></picture> </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">first</td><td>iterator pointing to the first item in the dataset to use <picture><source srcset="form_49_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_1 $" src="form_49.png" width="10" height="13"/></picture> </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">last</td><td>iterator pointing behind the last item in the dataset to use <picture><source srcset="form_50_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_N $" src="form_50.png" width="10" height="13"/></picture> </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">kernel</td><td>the kernel function to use (e.g. <a class="el" href="group__jkqtptools__math__statistics__1dkde__kernels.html#gacddebeb94f8449c98b0ed98160e65a24" title="a 1D Gaussian kernel function, e.g. for Kernel Density Estimation">jkqtpstatKernel1DGaussian()</a> ) </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">bandwidth</td><td>bandwidth used for the KDE </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">KDEXOut</td><td>output iterator that receives x-positions of the KDE bins. Location of this value inside the bin range is defined by <em>binXMode</em> </td></tr>
