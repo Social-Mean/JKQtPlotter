@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['contributing_0',['Contributing',['../md__c_o_n_t_r_i_b_u_t_i_n_g.html',1,'']]],
-  ['contributor_20covenant_20code_20of_20conduct_1',['Contributor Covenant Code of Conduct',['../md__c_o_d_e__o_f__c_o_n_d_u_c_t.html',1,'']]]
+  ['2_20dimensional_20statistics_20with_20jkqtpdatastore_0',['Tutorial (JKQTPDatastore): Advanced 2-Dimensional Statistics with JKQTPDatastore',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html',1,'exampleTutorialProjects']]]
 ];

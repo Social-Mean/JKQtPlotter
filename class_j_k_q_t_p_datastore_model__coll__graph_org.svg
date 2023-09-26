@@ -9,115 +9,136 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 165)">
 <title>JKQTPDatastoreModel</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="QAbstractTableModel descendent that allows to view data in a JKQTPDatastore.">
+<g id="a_Node000001"><a xlink:title="QAbstractTableModel descendent that allows to view data in a JKQTPDatastore.">
 <polygon fill="#999999" stroke="#666666" points="147,-91 0,-91 0,-70 147,-70 147,-91"/>
 <text text-anchor="middle" x="73.5" y="-77.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPDatastoreModel</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:title=" ">
+<g id="a_Node000002"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="143,-161 0,-161 0,-140 143,-140 143,-161"/>
 <text text-anchor="middle" x="71.5" y="-147.4" font-family="Helvetica,sans-Serif" font-size="12.00">QAbstractTableModel</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M72.08,-129.7C72.45,-117.05 72.92,-101.22 73.21,-91.22"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="68.58,-129.66 71.79,-139.76 75.58,-129.86 68.58,-129.66"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_j_k_q_t_p_datastore.html" target="_top" xlink:title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">
+<g id="a_Node000003"><a xlink:href="class_j_k_q_t_p_datastore.html" target="_top" xlink:title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">
 <polygon fill="white" stroke="#666666" points="272,-161 161,-161 161,-140 272,-140 272,-161"/>
 <text text-anchor="middle" x="216.5" y="-147.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPDatastore</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000001_Node000003" class="edge">
 <title>Node3&#45;&gt;Node1</title>
+<g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M183.11,-135.97C172.89,-131.67 161.67,-126.78 151.5,-122 130.37,-112.07 106.64,-99.54 90.96,-91.07"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="181.95,-139.28 192.53,-139.89 184.64,-132.81 181.95,-139.28"/>
-<text text-anchor="middle" x="182" y="-112.4" font-family="Helvetica,sans-Serif" font-size="12.00"> datastore</text>
+</a>
+</g>
+<text text-anchor="middle" x="182" y="-112.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> datastore</text>
 </g>
 <!-- Node5 -->
-<g id="node5" class="node">
+<g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_j_k_q_t_p_column.html" target="_top" xlink:title="internally stores information about one data column. See JKQTPDatastore for more information.">
+<g id="a_Node000005"><a xlink:href="class_j_k_q_t_p_column.html" target="_top" xlink:title="internally stores information about one data column. See JKQTPDatastore for more information.">
 <polygon fill="white" stroke="#666666" points="264.5,-91 166.5,-91 166.5,-70 264.5,-70 264.5,-91"/>
 <text text-anchor="middle" x="215.5" y="-77.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPColumn</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node5 -->
-<g id="edge5" class="edge">
+<g id="edge5_Node000005_Node000003" class="edge">
 <title>Node3&#45;&gt;Node5</title>
+<g id="a_edge5_Node000005_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M216.21,-129.7C216.02,-117.05 215.79,-101.22 215.64,-91.22"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="212.71,-129.81 216.36,-139.76 219.71,-129.71 212.71,-129.81"/>
-<text text-anchor="middle" x="247" y="-112.4" font-family="Helvetica,sans-Serif" font-size="12.00"> datastore</text>
+</a>
+</g>
+<text text-anchor="middle" x="247" y="-112.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> datastore</text>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:title=" ">
+<g id="a_Node000004"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="408,-21 193,-21 193,0 408,0 408,-21"/>
 <text text-anchor="middle" x="300.5" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00">std::unique_ptr&lt; JKQTPColumn &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000003_Node000004" class="edge">
 <title>Node4&#45;&gt;Node3</title>
+<g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M302.45,-31.36C303.71,-55.41 302.17,-95.93 281.5,-122 275.11,-130.06 265.91,-135.8 256.44,-139.86"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="305.93,-31.01 301.7,-21.3 298.95,-31.53 305.93,-31.01"/>
-<text text-anchor="middle" x="354.5" y="-77.4" font-family="Helvetica,sans-Serif" font-size="12.00"> m_invalidColumn</text>
+</a>
+</g>
+<text text-anchor="middle" x="354.5" y="-77.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> m_invalidColumn</text>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
-<g id="edge4" class="edge">
+<g id="edge4_Node000004_Node000005" class="edge">
 <title>Node5&#45;&gt;Node4</title>
+<g id="a_edge4_Node000004_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M234.99,-63.1C243.92,-55.66 254.68,-46.81 264.5,-39 272.13,-32.93 280.82,-26.29 287.75,-21.05"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="232.51,-60.62 227.08,-69.72 237,-65.99 232.51,-60.62"/>
-<text text-anchor="middle" x="275.5" y="-42.4" font-family="Helvetica,sans-Serif" font-size="12.00"> ptr</text>
+</a>
+</g>
+<text text-anchor="middle" x="275.5" y="-42.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> ptr</text>
 </g>
 <!-- Node6 -->
-<g id="node6" class="node">
+<g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:title=" ">
+<g id="a_Node000006"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="564.5,-91 424.5,-91 424.5,-70 564.5,-70 564.5,-91"/>
 <text text-anchor="middle" x="494.5" y="-77.4" font-family="Helvetica,sans-Serif" font-size="12.00">std::unique_ptr&lt; T &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node4 -->
-<g id="edge6" class="edge">
+<g id="edge6_Node000004_Node000006" class="edge">
 <title>Node6&#45;&gt;Node4</title>
+<g id="a_edge6_Node000004_Node000006"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M457.47,-66.52C419.59,-53.24 361.62,-32.92 327.74,-21.05"/>
 <polygon fill="orange" stroke="orange" points="456.52,-69.9 467.12,-69.9 458.84,-63.29 456.52,-69.9"/>
-<text text-anchor="middle" x="472" y="-42.4" font-family="Helvetica,sans-Serif" font-size="12.00"> &lt; JKQTPColumn &gt;</text>
+</a>
+</g>
+<text text-anchor="middle" x="472" y="-42.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> &lt; JKQTPColumn &gt;</text>
 </g>
 <!-- Node7 -->
-<g id="node7" class="node">
+<g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:title=" ">
+<g id="a_Node000007"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="509,-161 480,-161 480,-140 509,-140 509,-161"/>
 <text text-anchor="middle" x="494.5" y="-147.4" font-family="Helvetica,sans-Serif" font-size="12.00">T</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node6 -->
-<g id="edge7" class="edge">
+<g id="edge7_Node000006_Node000007" class="edge">
 <title>Node7&#45;&gt;Node6</title>
+<g id="a_edge7_Node000006_Node000007"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M494.5,-129.7C494.5,-117.05 494.5,-101.22 494.5,-91.22"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="491,-129.76 494.5,-139.76 498,-129.76 491,-129.76"/>
-<text text-anchor="middle" x="505.5" y="-112.4" font-family="Helvetica,sans-Serif" font-size="12.00"> ptr</text>
+</a>
+</g>
+<text text-anchor="middle" x="505.5" y="-112.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> ptr</text>
 </g>
 </g>
 </svg>

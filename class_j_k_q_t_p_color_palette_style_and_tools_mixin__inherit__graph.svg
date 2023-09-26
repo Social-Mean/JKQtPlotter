@@ -6,12 +6,22 @@
 <!-- Title: JKQTPColorPaletteStyleAndToolsMixin Pages: 1 -->
 <svg width="483pt" height="296pt"
  viewBox="0.00 0.00 482.50 296.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" onload="init(evt)">
+<style type="text/css"><![CDATA[
+.node, .edge {opacity: 0.7;}
+.node.selected, .edge.selected {opacity: 1;}
+.edge:hover path { stroke: red; }
+.edge:hover polygon { stroke: red; fill: red; }
+]]></style>
+<script type="application/ecmascript" xlink:href="svg.min.js"/>
+<svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 292)">
 <title>JKQTPColorPaletteStyleAndToolsMixin</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="if a class is derived from this class, it may use color bars">
+<g id="a_Node000001"><a xlink:title="if a class is derived from this class, it may use color bars">
 <polygon fill="#999999" stroke="#666666" points="360.5,-288 182.5,-288 182.5,-254 360.5,-254 360.5,-288"/>
 <text text-anchor="start" x="190.5" y="-274.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPColorPaletteStyleAnd</text>
 <text text-anchor="middle" x="271.5" y="-261.4" font-family="Helvetica,sans-Serif" font-size="12.00">ToolsMixin</text>
@@ -19,9 +29,9 @@
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html" target="_top" xlink:title="if a class is derived from this class, it may use color bars that have 2 axes (one &quot;data&quot;/color axis ...">
+<g id="a_Node000002"><a xlink:href="class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html" target="_top" xlink:title="if a class is derived from this class, it may use color bars that have 2 axes (one &quot;data&quot;/color axis ...">
 <polygon fill="white" stroke="#666666" points="264.5,-218 64.5,-218 64.5,-184 264.5,-184 264.5,-218"/>
 <text text-anchor="start" x="72.5" y="-204.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPColorPaletteWithModifier</text>
 <text text-anchor="middle" x="164.5" y="-191.4" font-family="Helvetica,sans-Serif" font-size="12.00">StyleAndToolsMixin</text>
@@ -29,15 +39,18 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M237.43,-248.35C222.07,-238.59 204.23,-227.25 190.05,-218.24"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="235.83,-251.48 246.14,-253.88 239.58,-245.57 235.83,-251.48"/>
+</a>
+</g>
 </g>
 <!-- Node7 -->
-<g id="node7" class="node">
+<g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html" target="_top" xlink:title="This implements xy scatter plots (like JKQTPXYScatterGraph), but the color and size of the symbols ma...">
+<g id="a_Node000007"><a xlink:href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html" target="_top" xlink:title="This implements xy scatter plots (like JKQTPXYScatterGraph), but the color and size of the symbols ma...">
 <polygon fill="white" stroke="#666666" points="474.5,-218 282.5,-218 282.5,-184 474.5,-184 474.5,-218"/>
 <text text-anchor="start" x="290.5" y="-204.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPXYParametrizedScatter</text>
 <text text-anchor="middle" x="378.5" y="-191.4" font-family="Helvetica,sans-Serif" font-size="12.00">Graph</text>
@@ -45,75 +58,90 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
-<g id="edge6" class="edge">
+<g id="edge6_Node000001_Node000007" class="edge">
 <title>Node1&#45;&gt;Node7</title>
+<g id="a_edge6_Node000001_Node000007"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M305.57,-248.35C320.93,-238.59 338.77,-227.25 352.95,-218.24"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="303.42,-245.57 296.86,-253.88 307.17,-251.48 303.42,-245.57"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_j_k_q_t_p_math_image.html" target="_top" xlink:title="class to plot an image from an 2&#45;dimensional array of values">
+<g id="a_Node000003"><a xlink:href="class_j_k_q_t_p_math_image.html" target="_top" xlink:title="class to plot an image from an 2&#45;dimensional array of values">
 <polygon fill="white" stroke="#666666" points="225,-141.5 104,-141.5 104,-120.5 225,-120.5 225,-141.5"/>
 <text text-anchor="middle" x="164.5" y="-127.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPMathImage</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
+<g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M164.5,-173.72C164.5,-162.56 164.5,-150.24 164.5,-141.89"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="161,-173.88 164.5,-183.88 168,-173.88 161,-173.88"/>
+</a>
+</g>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_j_k_q_t_p_column_math_image.html" target="_top" xlink:title="class to plot an image from an 2&#45;dimensional array of values stored in a column of the datastore">
+<g id="a_Node000004"><a xlink:href="class_j_k_q_t_p_column_math_image.html" target="_top" xlink:title="class to plot an image from an 2&#45;dimensional array of values stored in a column of the datastore">
 <polygon fill="white" stroke="#666666" points="167,-78 0,-78 0,-57 167,-57 167,-78"/>
 <text text-anchor="middle" x="83.5" y="-64.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPColumnMathImage</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
+<g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M143.62,-114.15C128.57,-102.72 108.75,-87.67 96.07,-78.04"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="141.76,-117.13 151.84,-120.39 146,-111.56 141.76,-117.13"/>
+</a>
+</g>
 </g>
 <!-- Node5 -->
-<g id="node5" class="node">
+<g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_j_k_q_t_p_contour_plot.html" target="_top" xlink:title="class for a contour plot">
+<g id="a_Node000005"><a xlink:href="class_j_k_q_t_p_contour_plot.html" target="_top" xlink:title="class for a contour plot">
 <polygon fill="white" stroke="#666666" points="308,-78 185,-78 185,-57 308,-57 308,-78"/>
 <text text-anchor="middle" x="246.5" y="-64.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPContourPlot</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node5 -->
-<g id="edge4" class="edge">
+<g id="edge4_Node000003_Node000005" class="edge">
 <title>Node3&#45;&gt;Node5</title>
+<g id="a_edge4_Node000003_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M185.63,-114.15C200.87,-102.72 220.93,-87.67 233.78,-78.04"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="183.21,-111.59 177.31,-120.39 187.41,-117.19 183.21,-111.59"/>
+</a>
+</g>
 </g>
 <!-- Node6 -->
-<g id="node6" class="node">
+<g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_j_k_q_t_p_column_contour_plot.html" target="_top" xlink:title="class for a contour plots (same as JKQTPContourPlot) of images stored in a JKQTPDatastore column">
+<g id="a_Node000006"><a xlink:href="class_j_k_q_t_p_column_contour_plot.html" target="_top" xlink:title="class for a contour plots (same as JKQTPContourPlot) of images stored in a JKQTPDatastore column">
 <polygon fill="white" stroke="#666666" points="331,-21 162,-21 162,0 331,0 331,-21"/>
 <text text-anchor="middle" x="246.5" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPColumnContourPlot</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
-<g id="edge5" class="edge">
+<g id="edge5_Node000005_Node000006" class="edge">
 <title>Node5&#45;&gt;Node6</title>
+<g id="a_edge5_Node000005_Node000006"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M246.5,-46.86C246.5,-38.2 246.5,-28.42 246.5,-21.34"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="243,-46.92 246.5,-56.92 250,-46.92 243,-46.92"/>
+</a>
+</g>
 </g>
 <!-- Node8 -->
-<g id="node8" class="node">
+<g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="class_j_k_q_t_p_x_y_parametrized_error_scatter_graph.html" target="_top" xlink:title="This implements xy scatter plots (like JKQTPXYScatterGraph), but the color and size of the symbols ma...">
+<g id="a_Node000008"><a xlink:href="class_j_k_q_t_p_x_y_parametrized_error_scatter_graph.html" target="_top" xlink:title="This implements xy scatter plots (like JKQTPXYScatterGraph), but the color and size of the symbols ma...">
 <polygon fill="white" stroke="#666666" points="467.5,-148 289.5,-148 289.5,-114 467.5,-114 467.5,-148"/>
 <text text-anchor="start" x="297.5" y="-134.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTPXYParametrizedError</text>
 <text text-anchor="middle" x="378.5" y="-121.4" font-family="Helvetica,sans-Serif" font-size="12.00">ScatterGraph</text>
@@ -121,10 +149,28 @@
 </g>
 </g>
 <!-- Node7&#45;&gt;Node8 -->
-<g id="edge7" class="edge">
+<g id="edge7_Node000007_Node000008" class="edge">
 <title>Node7&#45;&gt;Node8</title>
+<g id="a_edge7_Node000007_Node000008"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M378.5,-173.67C378.5,-165.19 378.5,-156.03 378.5,-148.47"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="375,-173.88 378.5,-183.88 382,-173.88 375,-173.88"/>
+</a>
 </g>
 </g>
+</g>
+</svg>
+</svg>
+
+<style type='text/css'>
+<![CDATA[
+[data-mouse-over-selected='false'] { opacity: 0.7; }
+[data-mouse-over-selected='true']  { opacity: 1.0; }
+]]>
+</style>
+<script type="application/ecmascript"><![CDATA[
+document.addEventListener('DOMContentLoaded', (event) => {
+  highlightEdges();
+  highlightAdjacentNodes();
+});
+]]></script>
 </svg>

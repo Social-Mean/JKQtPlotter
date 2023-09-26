@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['widgets_20using_20jkqtmathtext_0',['Widgets using JKQTMathText',['../group__jkqtmathtext__widgets.html',1,'']]]
+  ['visible_20class_0',['Usage of JKQTBasePlotter Non-Visible Class',['../group__jkqtplotter__general__usage__jkqtbaseplotter.html',1,'']]]
 ];

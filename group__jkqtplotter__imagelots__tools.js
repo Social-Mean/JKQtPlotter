@@ -215,6 +215,7 @@ var group__jkqtplotter__imagelots__tools =
       [ "JKQTPMathImageIBMColorBlindSafe_STEP", "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da4494623aa0e8911cf1f04044a7cab4c7", null ],
       [ "JKQTPMathImageOkabeIto_STEP", "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72dab7c4a8ff333fd62d7ff4895add21f9a8", null ],
       [ "JKQTPMathImageTol_STEP", "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da5178db52bd3a83e77a67074c855a76d5", null ],
+      [ "JKQTPMathImageTolMuted_STEP", "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da13c4c21f540cdb6c056442d120bc3643", null ],
       [ "JKQTPMathImageTolLight_STEP", "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72daa08d9a4c9e4a37df248af3ceaaee22fb", null ],
       [ "JKQTPMathImageOkabeItoDarker_STEP", "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da5e799906df6fd6f629c59ba41b6f56b8", null ],
       [ "JKQTPMathImageOkabeItoLighter_STEP", "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da59dd604f13974762716bf95e4bc16327", null ],

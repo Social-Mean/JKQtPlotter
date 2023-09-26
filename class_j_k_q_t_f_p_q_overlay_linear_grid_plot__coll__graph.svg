@@ -6,85 +6,125 @@
 <!-- Title: JKQTFPQOverlayLinearGridPlot Pages: 1 -->
 <svg width="335pt" height="220pt"
  viewBox="0.00 0.00 334.50 220.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" onload="init(evt)">
+<style type="text/css"><![CDATA[
+.node, .edge {opacity: 0.7;}
+.node.selected, .edge.selected {opacity: 1;}
+.edge:hover path { stroke: red; }
+.edge:hover polygon { stroke: red; fill: red; }
+]]></style>
+<script type="application/ecmascript" xlink:href="svg.min.js"/>
+<svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 216)">
 <title>JKQTFPQOverlayLinearGridPlot</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="plot a horizontal scale bar">
+<g id="a_Node000001"><a xlink:title="plot a horizontal scale bar">
 <polygon fill="#999999" stroke="#666666" points="200,-21 0,-21 0,0 200,0 200,-21"/>
 <text text-anchor="middle" x="100" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTFPQOverlayLinearGridPlot</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_j_k_q_t_f_p_plot.html" target="_top" xlink:title="base class for all plots that may be plotted by JKQTFastPlotter">
+<g id="a_Node000002"><a xlink:href="class_j_k_q_t_f_p_plot.html" target="_top" xlink:title="base class for all plots that may be plotted by JKQTFastPlotter">
 <polygon fill="white" stroke="#666666" points="141,-79 59,-79 59,-58 141,-58 141,-79"/>
 <text text-anchor="middle" x="100" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTFPPlot</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M100,-47.66C100,-38.66 100,-28.42 100,-21.14"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="96.5,-47.75 100,-57.75 103.5,-47.75 96.5,-47.75"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:title=" ">
+<g id="a_Node000003"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="98.5,-151.5 33.5,-151.5 33.5,-130.5 98.5,-130.5 98.5,-151.5"/>
 <text text-anchor="middle" x="66" y="-137.9" font-family="Helvetica,sans-Serif" font-size="12.00">QObject</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000002_Node000003" class="edge">
 <title>Node3&#45;&gt;Node2</title>
+<g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M75.08,-121.17C81.58,-107.7 90.06,-90.1 95.27,-79.31"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="71.78,-119.96 70.59,-130.49 78.08,-123.01 71.78,-119.96"/>
+</a>
+</g>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_j_k_q_t_fast_plotter.html" target="_top" xlink:title="a speed optimized plotter class">
+<g id="a_Node000004"><a xlink:href="class_j_k_q_t_fast_plotter.html" target="_top" xlink:title="a speed optimized plotter class">
 <polygon fill="white" stroke="#666666" points="225.5,-151.5 116.5,-151.5 116.5,-130.5 225.5,-130.5 225.5,-151.5"/>
 <text text-anchor="middle" x="171" y="-137.9" font-family="Helvetica,sans-Serif" font-size="12.00">JKQTFastPlotter</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node2 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000002_Node000004" class="edge">
 <title>Node4&#45;&gt;Node2</title>
+<g id="a_edge3_Node000002_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M154,-123.12C140.22,-109.44 121.28,-90.63 109.88,-79.31"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="151.86,-125.93 161.42,-130.49 156.79,-120.96 151.86,-125.93"/>
-<text text-anchor="middle" x="160.5" y="-100.4" font-family="Helvetica,sans-Serif" font-size="12.00"> parent</text>
+</a>
+</g>
+<text text-anchor="middle" x="160.5" y="-100.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> parent</text>
 </g>
 <!-- Node4&#45;&gt;Node4 -->
-<g id="edge5" class="edge">
+<g id="edge5_Node000004_Node000004" class="edge">
 <title>Node4&#45;&gt;Node4</title>
+<g id="a_edge5_Node000004_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M235.91,-145.15C240.62,-144.22 243.5,-142.83 243.5,-141 243.5,-138.07 236.12,-136.29 225.7,-135.64"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="235.22,-141.71 225.7,-146.36 236.04,-148.66 235.22,-141.71"/>
-<text text-anchor="middle" x="285" y="-144.4" font-family="Helvetica,sans-Serif" font-size="12.00"> synchronizeX</text>
-<text text-anchor="middle" x="285" y="-131.4" font-family="Helvetica,sans-Serif" font-size="12.00">synchronizeY</text>
+</a>
+</g>
+<text text-anchor="middle" x="285" y="-144.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey"> synchronizeX</text>
+<text text-anchor="middle" x="285" y="-131.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="grey">synchronizeY</text>
 </g>
 <!-- Node5 -->
-<g id="node5" class="node">
+<g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:title=" ">
+<g id="a_Node000005"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="228,-212 114,-212 114,-191 228,-191 228,-212"/>
 <text text-anchor="middle" x="171" y="-198.4" font-family="Helvetica,sans-Serif" font-size="12.00">QOpenGLWidget</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
-<g id="edge4" class="edge">
+<g id="edge4_Node000004_Node000005" class="edge">
 <title>Node5&#45;&gt;Node4</title>
+<g id="a_edge4_Node000004_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M171,-180.8C171,-171.07 171,-159.76 171,-151.87"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="167.5,-180.84 171,-190.84 174.5,-180.84 167.5,-180.84"/>
+</a>
 </g>
 </g>
+</g>
+</svg>
+</svg>
+
+<style type='text/css'>
+<![CDATA[
+[data-mouse-over-selected='false'] { opacity: 0.7; }
+[data-mouse-over-selected='true']  { opacity: 1.0; }
+]]>
+</style>
+<script type="application/ecmascript"><![CDATA[
+document.addEventListener('DOMContentLoaded', (event) => {
+  highlightEdges();
+  highlightAdjacentNodes();
+});
+]]></script>
 </svg>
