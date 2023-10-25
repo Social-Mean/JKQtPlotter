@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_parsed_function_plot.
   <div class="headertitle"><div class="title">Example (JKQTPlotter): Plotting Parsed Mathematical Functions as Line Graphs</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md82"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md85"></a>
 Plot Function f(x)</h1>
 <p>This project (see <code>./examples/parsedfunctionplot/</code>) demonstrates how to plot mathematical functions as line graphs. The functions are defined as strings that will be evaluated with the equation parser, integrated into <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>.</p>
 <p>Note: See the example <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/functionplot">Plotting Mathematical Functions as Line Graphs</a> if you don't want to draw parsed functions, but want to provide a C function, or C++ functor!</p>
@@ -153,18 +153,18 @@ Plot Function f(x)</h1>
 <div class="ttc" id="aclass_j_k_q_t_plotter_html"><div class="ttname"><a href="class_j_k_q_t_plotter.html">JKQTPlotter</a></div><div class="ttdoc">plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)</div><div class="ttdef"><b>Definition</b> jkqtplotter.h:364</div></div>
 </div><!-- fragment --><p>This code snippet results in a plot like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/parsedfunctionplot.png" alt="parsedfunctionplot" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md83"></a>
+<h1><a class="anchor" id="autotoc_md86"></a>
 Plotting with parameters</h1>
 <p>As shown in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/functionplot">Plotting Mathematical Functions as Line Graphs</a> you can also use externally set parameters in a plot function. These parameters can be double numbers and may be set with either as an internal parameter vector, or may be read from a parameter column (as shown in the <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/functionplot">linked example</a>). These parameters are available as variables <code>p1</code>, <code>p2</code>, ... in the function string. Here is a small example:</p>
 <div class="fragment"><div class="line"><a class="code hl_class" href="class_j_k_q_t_p_x_parsed_function_line_graph.html">JKQTPXParsedFunctionLineGraph</a>* <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">parsedFunc</a>=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_x_parsed_function_line_graph.html">JKQTPXParsedFunctionLineGraph</a>(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>);</div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">parsedFunc</a>-&gt;setFunction(<span class="stringliteral">&quot;sin(x*p1)*exp(-x/p2)&quot;</span>);</div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">parsedFunc</a>-&gt;setParamV(<span class="comment">/*p1=*/</span>8, <span class="comment">/*p2=*/</span>4);</div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">parsedFunc</a>-&gt;setTitle(<span class="stringliteral">&quot;user function&quot;</span>);</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md84"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md87"></a>
 Plot Function f(y)</h1>
 <p>If you use the graph class <code><a class="el" href="class_j_k_q_t_p_y_parsed_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function  The function is def...">JKQTPYParsedFunctionLineGraph</a></code> instead of <code><a class="el" href="class_j_k_q_t_p_x_parsed_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function  The function is def...">JKQTPXParsedFunctionLineGraph</a></code>, you can plot functions <code>x=f(y)</code> (instead of <code>y=f(x)</code>). The function from the example above will then ahve to be changed to <code>sin(y*8)*exp(-y/4)</code> and the result will look like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/parsedfunctionplot_fy.png" alt="parsedfunctionplot_fy" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md85"></a>
+<h1><a class="anchor" id="autotoc_md88"></a>
 Properties of the Adaptive Plotting Algorithm</h1>
 <p>The adaptive capabilities of the rendering algorithm can be seen, when plotting <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <code>2/x</code>, which is drawn smoothely, even around the undefined value at <code>x=0</code>:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/parsedfunctionplot_2overx.png" alt="parsedfunctionplot_2overx.png" class="inline"/></p>
@@ -178,7 +178,7 @@ Properties of the Adaptive Plotting Algorithm</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Wed Oct 25 2023 11:30:26 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Oct 25 2023 11:41:30 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

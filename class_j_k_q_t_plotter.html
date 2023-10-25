@@ -827,7 +827,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2f904115d5d2e52684b14911184e7c50"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the currently set global resize delay in milliseconds <em>delayMS</em>. This function is thread-safe!  <br /></td></tr>
 <tr class="separator:a2f904115d5d2e52684b14911184e7c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe85c966963453016b657a4b450714b7" id="r_afe85c966963453016b657a4b450714b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">static</a> <a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7">setGlobalResizeDelay</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">int</a> <a class="el" href="class_j_k_q_t_p_final_act.html">delayMS</a>)</td></tr>
-<tr class="memdesc:afe85c966963453016b657a4b450714b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the global resize delay in milliseconds <em>delayMS</em>. After calling this function all plots will use the new delay. This function is thread-safe!  <br /></td></tr>
+<tr class="memdesc:afe85c966963453016b657a4b450714b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the global resize delay in milliseconds <em>delayMS</em>. After calling this function all plots will use the new delay. Setting the the delay to 0 disables the delayed resize feature. This function is thread-safe!  <br /></td></tr>
 <tr class="separator:afe85c966963453016b657a4b450714b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
@@ -1103,7 +1103,7 @@ Protected Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
 <tr class="memitem:af1508926706b090d38a4117a3b230fbe" id="r_af1508926706b090d38a4117a3b230fbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">static</a> std::atomic&lt; <a class="el" href="class_j_k_q_t_p_final_act.html">int</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#af1508926706b090d38a4117a3b230fbe">jkqtp_RESIZE_DELAY</a></td></tr>
-<tr class="memdesc:af1508926706b090d38a4117a3b230fbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">delay for resizing in milliseconds  <br /></td></tr>
+<tr class="memdesc:af1508926706b090d38a4117a3b230fbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">delay for resizing in milliseconds. If set to 0, resize delay is disabled and resizeTimer is unused.  <br /></td></tr>
 <tr class="separator:af1508926706b090d38a4117a3b230fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -3324,7 +3324,7 @@ template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">class</a> <a cla
 </div><div class="memdoc">
 
 <p>returns the currently set global resize delay in milliseconds <em>delayMS</em>. This function is thread-safe! </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#af1508926706b090d38a4117a3b230fbe" title="delay for resizing in milliseconds">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS. This function is thread-safe!">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#af1508926706b090d38a4117a3b230fbe" title="delay for resizing in milliseconds. If set to 0, resize delay is disabled and resizeTimer is unused.">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS. This function is thread-safe!">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
 
 </div>
 </div>
@@ -4475,7 +4475,7 @@ template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">class</a> <a cla
 </div><div class="memdoc">
 
 <p>returns <code>true</code>, if the <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">JKQTPlotter::resizeTimer</a> is currently running and the widget is waiting for the resize-event to finish </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#af1508926706b090d38a4117a3b230fbe" title="delay for resizing in milliseconds">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS. This function is thread-safe!">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#af1508926706b090d38a4117a3b230fbe" title="delay for resizing in milliseconds. If set to 0, resize delay is disabled and resizeTimer is unused.">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS. This function is thread-safe!">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
 
 </div>
 </div>
@@ -6795,8 +6795,8 @@ Shown Toolbar</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>sets the global resize delay in milliseconds <em>delayMS</em>. After calling this function all plots will use the new delay. This function is thread-safe! </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#af1508926706b090d38a4117a3b230fbe" title="delay for resizing in milliseconds">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS. This function is thread-safe!">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
+<p>sets the global resize delay in milliseconds <em>delayMS</em>. After calling this function all plots will use the new delay. Setting the the delay to 0 disables the delayed resize feature. This function is thread-safe! </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#af1508926706b090d38a4117a3b230fbe" title="delay for resizing in milliseconds. If set to 0, resize delay is disabled and resizeTimer is unused.">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS. This function is thread-safe!">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
 
 </div>
 </div>
@@ -9689,8 +9689,8 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 </table>
 </div><div class="memdoc">
 
-<p>delay for resizing in milliseconds </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#af1508926706b090d38a4117a3b230fbe" title="delay for resizing in milliseconds">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS. This function is thread-safe!">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
+<p>delay for resizing in milliseconds. If set to 0, resize delay is disabled and resizeTimer is unused. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#af1508926706b090d38a4117a3b230fbe" title="delay for resizing in milliseconds. If set to 0, resize delay is disabled and resizeTimer is unused.">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS. This function is thread-safe!">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
 
 </div>
 </div>
@@ -10394,7 +10394,7 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 <div class="image">
 <img src="jkqtplotter_fastresizing.gif" alt=""/>
 </div>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#af1508926706b090d38a4117a3b230fbe" title="delay for resizing in milliseconds">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS. This function is thread-safe!">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#af1508926706b090d38a4117a3b230fbe" title="delay for resizing in milliseconds. If set to 0, resize delay is disabled and resizeTimer is unused.">jkqtp_RESIZE_DELAY</a>, <a class="el" href="class_j_k_q_t_plotter.html#afe85c966963453016b657a4b450714b7" title="sets the global resize delay in milliseconds delayMS. After calling this function all plots will use ...">setGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a2f904115d5d2e52684b14911184e7c50" title="returns the currently set global resize delay in milliseconds delayMS. This function is thread-safe!">getGlobalResizeDelay()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46" title="timer used while the graph is resized to delay the redrawing with new size (in the meantime,...">resizeTimer</a> </dd></dl>
 
 </div>
 </div>
@@ -10432,7 +10432,7 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_plotter.html">JKQTPlotter</a></li>
-    <li class="footer">Generated on Wed Oct 25 2023 11:30:27 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Oct 25 2023 11:41:31 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
