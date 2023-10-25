@@ -12,7 +12,7 @@ var searchData=
   ['generating_20a_20test_20dataset_9',['Generating a test Dataset',['../_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md115',1,'']]],
   ['generating_20columns_20preinitialized_20columns_10',['Generating Columns Preinitialized Columns',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md25',1,'']]],
   ['generating_20demo_20plots_20of_20geometric_20objects_20for_20documentation_11',['Example (JKQTPlotter): Generating Demo-Plots of Geometric Objects for Documentation',['../_j_k_q_t_plotter_geometric_graphs_simple.html',1,'exampleTutorialProjects']]],
-  ['generating_20different_20sets_20of_20random_20numbers_12',['generating different sets of random numbers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48',1,'Generating different sets of random numbers'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md57',1,'Generating different sets of random numbers']]],
+  ['generating_20different_20sets_20of_20random_20numbers_12',['generating different sets of random numbers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md43',1,'Generating different sets of random numbers'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md57',1,'Generating different sets of random numbers']]],
   ['generating_20non_20initialized_20columns_20and_20filling_20them_13',['Generating  Non-Initialized Columns and Filling Them',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md24',1,'']]],
   ['generation_14',['Special QIcon generation',['../group__jkqtptools__icons.html',1,'']]],
   ['generation_20deletion_15',['Column Generation/Deletion',['../class_j_k_q_t_p_datastore.html#jkqtpdatastore_column_management_generation',1,'']]],
@@ -935,7 +935,7 @@ var searchData=
   ['grouped_20statistics_932',['Grouped statistics',['../group__jkqtptools__math__statistics__grouped.html',1,'']]],
   ['grouped_20statistics_20for_20a_20barchart_933',['Calculating Grouped Statistics for a Barchart',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md32',1,'']]],
   ['grouped_20statistics_20for_20a_20boxplot_934',['Calculating Grouped Statistics for a Boxplot',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md33',1,'']]],
-  ['gui_935',['Main Program of the Example (GUI)',['../_j_k_q_t_plotter_image_plot_user_palette.html#autotoc_md88',1,'']]],
+  ['gui_935',['Main Program of the Example (GUI)',['../_j_k_q_t_plotter_image_plot_user_palette.html#autotoc_md82',1,'']]],
   ['gui_20features_936',['User-Interactions/GUI Features',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USERINTERACTION',1,'']]],
   ['gui_20tools_937',['Examples for GUI Tools',['../example_tutorial_projects.html#jkqtp_extut_guitools',1,'']]]
 ];
