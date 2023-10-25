@@ -154,6 +154,8 @@ BREAKING: <a class="el" href="class_j_k_q_t_fast_plotter.html" title="a speed op
 <li>
 BREAKING: The QMake build system is deprecated and will not get the same love and atttention as the recommended CMake system. The QMake scripts might be removed in future versions! </li>
 <li>
+FIXED issue <a href="https://github.com/jkriege2/JKQtPlotter/pull/102">#102: Fix CMake Compile Error: JKQTCommonLib no properly linked in JKQTMath static build</a> (thanks to <a href="https://github.com/Neumann-A">user:Neumann-A</a> for reporting) </li>
+<li>
 CLEANUP (BREAKING) of library structure </li>
 <li>
 NEW: Using precompiled headers in CMake-build to speed up build times </li>
@@ -201,7 +203,31 @@ FIXED: exporting gridPrinting plots when using only a <a class="el" href="class_
 <li>
 FIXED: fixed impleentations of <a class="el" href="class_j_k_q_t_plotter.html#a9cc0200f6afa42d5e1eab038a98909b6" title="returns an iterator to the first graph">JKQTPlotter::beginGraphs()</a>, which actually returned the end-iterator (COPY-PASTE-ERROR!!!) </li>
 <li>
-FIXED issue <a href="https://github.com/jkriege2/JKQtPlotter/pull/99">#99: Clipping of Tick Labels</a>: for horizontal axes, additional space at the left and/or right of the plot is allowed so labels are no longer clipped (thanks to <a href="https://github.com/allenbarnett5">user:allenbarnett5/a&gt; for reporting) FIXED issue #99: Height of one-column key/legend was too large</a> (thanks to <a href="https://github.com/allenbarnett5">user:allenbarnett5/a&gt; for reporting) FIXED/NEW: placement of plot-title (was not centerd in its box, but glued to the bottom) by adding a plotstyle parameter JKQTBasePlotterStyle::plotLabelOffset REORGANIZED: separated line-graphs from jkqtpscatter.h/.cpp into jkqtplines.h/.cpp IMPROVED: QT6-compatibility by removing deprecated warnings IMPROVED: added missing override declarations IMPROVED: JKQTPlotter::jkqtp_RESIZE_DELAY is thread-safe now (atomic) IMPROVED/REWORKED: reworked JKQTPErrorPlotstyle and error indicator plotting so error-inidcators can be specified as ORed combination of flags from JKQTPErrorPlotstyleElements, added additional error indicator styles (half-bars, arrows...) IMPROVED/REWORKED: reworked JKQTPCADrawMode and coordinate axis drawing so the draw mide can be specified as ORed combination of flags from JKQTPCADrawModeElements, added flags to draw arrows at the end of the axis line IMPROVED/REWORKED: coordinate axis code was refactored IMPROVED/REWORKED: zomm/pan by mouse-wheel: now there are modes that support zoomin AND panning by trakpad and mouse-wheel simultaneously! This can only be implemented using heuristics, due to the way that Qt handles track-pad events, but the current solution should at least improve the behaviour seen before. Mainly <code>jkqtpmwaZoomByWheelAndTrackpadPan</code> was introduced into <code>JKQTPMouseWheelActions</code> und is set as default mode: Here JKQTPlotter tries to distinguish the QWheelEvent s sent by an actual mouse wheel and a trackpad. IMPROVED/REWORKED: better example graphs in \link JKQTPlotterStyling. IMPROVED: documentation of styles: automatized doc image generation. NEW: JKQTPFilledCurveXGraph and JKQTPFilledCurveYGraph can now plot wiggle plots with different fill styles above and below the baseline (feature request #68 Wiggle Plots</a> from <a href="https://github.com/xichaoqiang">user:xichaoqiang</a>  </li>
+FIXED issue <a href="https://github.com/jkriege2/JKQtPlotter/pull/99">#99: Clipping of Tick Labels</a>: for horizontal axes, additional space at the left and/or right of the plot is allowed so labels are no longer clipped (thanks to <a href="https://github.com/allenbarnett5">user:allenbarnett5/a&gt; for reporting) FIXED issue #99: Height of one-column key/legend was too large</a> (thanks to <a href="https://github.com/allenbarnett5">user:allenbarnett5/a&gt; for reporting) FIXED/IMPROVED issue #100: Add option to disable resize delay feature by setting the delay to zero</a> (thanks to <a href="https://github.com/fpalazzolo">user:fpalazzolo</a> for reporting) </li>
+<li>
+FIXED/NEW: placement of plot-title (was not centerd in its box, but glued to the bottom) by adding a plotstyle parameter <a class="el" href="class_j_k_q_t_base_plotter_style.html#a1d8f0a02d156d5d50778b799ab20eb05" title="offset of the plot label from the next element of the graph, i.e. below the label [pt].">JKQTBasePlotterStyle::plotLabelOffset</a> </li>
+<li>
+REORGANIZED: separated line-graphs from <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">jkqtpscatter.h</a>/.cpp into <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">jkqtplines.h</a>/.cpp </li>
+<li>
+IMPROVED: QT6-compatibility by removing deprecated warnings </li>
+<li>
+IMPROVED: added missing override declarations </li>
+<li>
+IMPROVED: <a class="el" href="class_j_k_q_t_plotter.html#af1508926706b090d38a4117a3b230fbe" title="delay for resizing in milliseconds. If set to 0, resize delay is disabled and resizeTimer is unused.">JKQTPlotter::jkqtp_RESIZE_DELAY</a> is thread-safe now (atomic) </li>
+<li>
+IMPROVED/REWORKED: reworked JKQTPErrorPlotstyle and error indicator plotting so error-inidcators can be specified as ORed combination of flags from JKQTPErrorPlotstyleElements, added additional error indicator styles (half-bars, arrows...) </li>
+<li>
+IMPROVED/REWORKED: reworked JKQTPCADrawMode and coordinate axis drawing so the draw mide can be specified as ORed combination of flags from JKQTPCADrawModeElements, added flags to draw arrows at the end of the axis line </li>
+<li>
+IMPROVED/REWORKED: coordinate axis code was refactored </li>
+<li>
+IMPROVED/REWORKED: zomm/pan by mouse-wheel: now there are modes that support zoomin AND panning by trakpad and mouse-wheel simultaneously! This can only be implemented using heuristics, due to the way that Qt handles track-pad events, but the current solution should at least improve the behaviour seen before. Mainly <code>jkqtpmwaZoomByWheelAndTrackpadPan</code> was introduced into <code>JKQTPMouseWheelActions</code> und is set as default mode: Here <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> tries to distinguish the QWheelEvent s sent by an actual mouse wheel and a trackpad. </li>
+<li>
+IMPROVED/REWORKED: better example graphs in <a class="el" href="">JKQTPlotterStyling.</a> </li>
+<li>
+IMPROVED: documentation of styles: automatized doc image generation. </li>
+<li>
+NEW: <a class="el" href="class_j_k_q_t_p_filled_curve_x_graph.html" title="This implements filled curve plots where the area is filled between the plot line and the x-Axis.">JKQTPFilledCurveXGraph</a> and <a class="el" href="class_j_k_q_t_p_filled_curve_y_graph.html" title="This implements filled curve plots where the area is filled between the plot line and y-Axis.">JKQTPFilledCurveYGraph</a> can now plot wiggle plots with different fill styles above and below the baseline (feature request <a href="https://github.com/jkriege2/JKQtPlotter/issues/68">#68 Wiggle Plots</a> from <a href="https://github.com/xichaoqiang">user:xichaoqiang</a>  </li>
 <li>
 NEW/BREAKING CHANGE: data tooltip can now also be shown when "just" moving the mouse (so far this was only possible when dragging the mouse with a button pressed). This also removes <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">JKQtPlotter::getActMouseLeftAsToolTip()</a> and adds JKQtPlotter::getActMouseMoveToolTip() instead! Also the default toolbars and context menus changed! </li>
 <li>
@@ -694,7 +720,7 @@ Latest Release/Tag: <a href="https://github.com/jkriege2/JKQtPlotter/releases/ta
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Oct 25 2023 11:41:30 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Oct 25 2023 11:47:37 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

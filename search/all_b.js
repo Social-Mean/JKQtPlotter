@@ -926,7 +926,7 @@ var searchData=
   ['gridprintinglist_923',['gridPrintingList',['../class_j_k_q_t_base_plotter.html#a75d90b3dbf71d210c8814b856468a143',1,'JKQTBasePlotter']]],
   ['gridprintingrows_924',['gridPrintingRows',['../class_j_k_q_t_base_plotter.html#a2ff6a54ace91f5fa32870889de918fdd',1,'JKQTBasePlotter']]],
   ['gridprintingsize_925',['gridPrintingSize',['../class_j_k_q_t_base_plotter.html#a191dde22aceb92813475f07b0bcbcbd5',1,'JKQTBasePlotter']]],
-  ['grids_926',['grids',['../class_j_k_q_t_p_coordinate_axis.html#jkqtplotter_base_grids_baseelemenets',1,'Axis Ticks and Grids'],['../class_j_k_q_t_base_plotter.html#jkqtplotter_base_grids_baseplotter',1,'Axis Ticks and Grids']]],
+  ['grids_926',['grids',['../class_j_k_q_t_base_plotter.html#jkqtplotter_base_grids_baseplotter',1,'Axis Ticks and Grids'],['../class_j_k_q_t_p_coordinate_axis.html#jkqtplotter_base_grids_baseelemenets',1,'Axis Ticks and Grids']]],
   ['gridstyle_927',['gridStyle',['../class_j_k_q_t_fast_plotter.html#a7589dd8910eaac5bfc76215ff192ba1b',1,'JKQTFastPlotter']]],
   ['gridsymbolfractionsize_928',['gridSymbolFractionSize',['../class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a09689674f84d435e036739dcce73a8d5',1,'JKQTPXYParametrizedScatterGraph']]],
   ['gridwidth_929',['gridWidth',['../class_j_k_q_t_fast_plotter.html#a0adc3d128aceffdf652a2b240db7ba9c',1,'JKQTFastPlotter']]],
@@ -935,7 +935,7 @@ var searchData=
   ['grouped_20statistics_932',['Grouped statistics',['../group__jkqtptools__math__statistics__grouped.html',1,'']]],
   ['grouped_20statistics_20for_20a_20barchart_933',['Calculating Grouped Statistics for a Barchart',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md32',1,'']]],
   ['grouped_20statistics_20for_20a_20boxplot_934',['Calculating Grouped Statistics for a Boxplot',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md33',1,'']]],
-  ['gui_935',['Main Program of the Example (GUI)',['../_j_k_q_t_plotter_image_plot_user_palette.html#autotoc_md82',1,'']]],
+  ['gui_935',['Main Program of the Example (GUI)',['../_j_k_q_t_plotter_image_plot_user_palette.html#autotoc_md88',1,'']]],
   ['gui_20features_936',['User-Interactions/GUI Features',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USERINTERACTION',1,'']]],
   ['gui_20tools_937',['Examples for GUI Tools',['../example_tutorial_projects.html#jkqtp_extut_guitools',1,'']]]
 ];

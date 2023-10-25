@@ -34,7 +34,7 @@ var searchData=
   ['horizontal_20violin_20plot_31',['Drawing a horizontal Violin Plot',['../_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md118',1,'']]],
   ['horizontallinebottomrow_32',['horizontalLineBottomRow',['../class_j_k_q_t_math_text_matrix_node.html#abdc918ca7eb040ecc115960557944096',1,'JKQTMathTextMatrixNode']]],
   ['horizontallinetop_33',['horizontalLineTop',['../class_j_k_q_t_math_text_matrix_node.html#a20ac9bc031184edc3a333ed55ef8d200',1,'JKQTMathTextMatrixNode']]],
-  ['how_20it_20works_34',['How it works',['../_j_k_q_t_plotter_mandelbrot.html#autotoc_md84',1,'']]],
+  ['how_20it_20works_34',['How it works',['../_j_k_q_t_plotter_mandelbrot.html#autotoc_md81',1,'']]],
   ['how_20to_20use_20jkqtplotter_20in_20the_20qt_20form_20designer_35',['how to use jkqtplotter in the qt form designer',['../group__jkqtplotter__general__usage__qtcreator.html',1,'How to use JKQTPlotter in the Qt Form Designer'],['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USEQTCREATOR',1,'How to use JKQTPlotter in the Qt Form Designer'],['../_j_k_q_t_plotter_qt_creator.html#autotoc_md94',1,'Instructions on how to use JKQTPlotter in the Qt Form Designer']]],
   ['html_36',['html',['../class_j_k_q_t_math_text.html#JKQTMathTextToHTML',1,'Convert to HTML'],['../struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html#a598e6737c0414dc235e208d60ce62a9d',1,'JKQTMathTextSymbolNode::SymbolFullProps::html']]]
 ];

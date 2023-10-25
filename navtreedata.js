@@ -108,10 +108,10 @@ var NAVTREE =
         [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md76", null ]
       ] ],
       [ "Example (JKQTPlotter): Plotting Parsed Mathematical Functions as Line Graphs", "_j_k_q_t_plotter_parsed_function_plot.html", [
-        [ "Plot Function f(x)", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md85", null ],
-        [ "Plotting with parameters", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md86", null ],
-        [ "Plot Function f(y)", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md87", null ],
-        [ "Properties of the Adaptive Plotting Algorithm", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md88", null ]
+        [ "Plot Function f(x)", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md82", null ],
+        [ "Plotting with parameters", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md83", null ],
+        [ "Plot Function f(y)", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md84", null ],
+        [ "Properties of the Adaptive Plotting Algorithm", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md85", null ]
       ] ],
       [ "Example (JKQTPlotter): Plotting Parametric Mathematical Curves as Line Graphs", "_j_k_q_t_plotter_eval_curves.html", [
         [ "Basics", "_j_k_q_t_plotter_eval_curves.html#autotoc_md64", null ],
@@ -155,9 +155,9 @@ var NAVTREE =
       [ "Example (JKQTPlotter): QImage as a Graph", "_j_k_q_t_plotter_image_plot_q_image_r_g_b.html", null ],
       [ "Example (JKQTPlotter): Simple math image plot", "_j_k_q_t_plotter_image_plot.html", null ],
       [ "Example (JKQTPlotter): Image Plots with Custom Palettes", "_j_k_q_t_plotter_image_plot_user_palette.html", [
-        [ "Build Palettes Programmatically", "_j_k_q_t_plotter_image_plot_user_palette.html#autotoc_md80", null ],
-        [ "Load Palettes from Files", "_j_k_q_t_plotter_image_plot_user_palette.html#autotoc_md81", null ],
-        [ "Main Program of the Example (GUI)", "_j_k_q_t_plotter_image_plot_user_palette.html#autotoc_md82", null ]
+        [ "Build Palettes Programmatically", "_j_k_q_t_plotter_image_plot_user_palette.html#autotoc_md86", null ],
+        [ "Load Palettes from Files", "_j_k_q_t_plotter_image_plot_user_palette.html#autotoc_md87", null ],
+        [ "Main Program of the Example (GUI)", "_j_k_q_t_plotter_image_plot_user_palette.html#autotoc_md88", null ]
       ] ],
       [ "Example (JKQTPlotter): Simple math image plot with modifier datat", "_j_k_q_t_plotter_image_plot_modifier.html", null ],
       [ "Example (JKQTPlotter): Simple math image plot without use of central JKQTdatastore", "_j_k_q_t_plotter_image_plot_no_datastore.html", null ],
@@ -266,8 +266,8 @@ var NAVTREE =
       ] ],
       [ "Example (JKQTPlotter): Plotting a Statistical Distribution of Data", "_j_k_q_t_plotter_distribution_plot.html", null ],
       [ "Example (JKQTPlotter): Mandelbrot Set Explorer", "_j_k_q_t_plotter_mandelbrot.html", [
-        [ "Introduction and Usage", "_j_k_q_t_plotter_mandelbrot.html#autotoc_md83", null ],
-        [ "How it works", "_j_k_q_t_plotter_mandelbrot.html#autotoc_md84", null ]
+        [ "Introduction and Usage", "_j_k_q_t_plotter_mandelbrot.html#autotoc_md80", null ],
+        [ "How it works", "_j_k_q_t_plotter_mandelbrot.html#autotoc_md81", null ]
       ] ],
       [ "Example (JKQTPlotter): CMake Example", "_j_k_q_t_c_make_link_example.html", null ],
       [ "Example (JKQTMathText): A simple usage example", "_j_k_q_t_math_text_simple_example.html", null ],

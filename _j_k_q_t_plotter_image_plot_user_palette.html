@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_image_plot_user_palet
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>This project (see <code>./examples/imageplot_userpal/</code>) demonstrates how to use user-defined color-palettes for image plots. The source code of the main application is (see <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/imageplot_userpal/imageplot_userpal.cpp"><code>imageplot_userpal.cpp</code></a>).</p>
-<h1><a class="anchor" id="autotoc_md80"></a>
+<h1><a class="anchor" id="autotoc_md86"></a>
 Build Palettes Programmatically</h1>
 <p><a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> comes with a large set of predefined color palettes, which are enumerated in <code>JKQTPMathImageColorPalette</code>. In addition you can build your own palettes as simple lookup-tables of type <code><a class="el" href="struct_j_k_q_t_p_image_tools.html#af50d2ee768eaece312b5eb4eeba8c6a4" title="Datatype to store lookup-tables used to map data values (scales to 0..size-1) onto RGB-colors.">JKQTPImageTools::LUTType</a></code> (which is a <code>QVector&lt;QRgb&gt;</code>) and register them in the system (using <code><a class="el" href="struct_j_k_q_t_p_image_tools.html#aa422583662c8dfa952c66fee416448a7" title="registers a new LUT defined by paletteLut and with the given name (computer-readable) for later use,...">JKQTPImageTools::registerPalette()</a></code>). There are several options available for building such a palette:</p><ol type="1">
 <li>you can simply define a palette from single colors:</li>
@@ -165,7 +165,7 @@ Build Palettes Programmatically</h1>
 <div class="ttc" id="aclass_j_k_q_t_p_color_palette_style_and_tools_mixin_html_af4d4684e560361e2a31c503a7ddcae61"><div class="ttname"><a href="class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af4d4684e560361e2a31c503a7ddcae61">JKQTPColorPaletteStyleAndToolsMixin::setColorPalette</a></div><div class="ttdeci">void setColorPalette(int pal)</div><div class="ttdoc">palette for plotting an image</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_column_math_image_html"><div class="ttname"><a href="class_j_k_q_t_p_column_math_image.html">JKQTPColumnMathImage</a></div><div class="ttdoc">class to plot an image from an 2-dimensional array of values stored in a column of the datastore</div><div class="ttdef"><b>Definition</b> jkqtpimage.h:777</div></div>
 <div class="ttc" id="agroup__jkqtplotter__imagelots__tools_html_gaae2f1de8b42bb1734243b4201f4aa72d"><div class="ttname"><a href="group__jkqtplotter__imagelots__tools.html#gaae2f1de8b42bb1734243b4201f4aa72d">JKQTPMathImageColorPalette</a></div><div class="ttdeci">JKQTPMathImageColorPalette</div><div class="ttdoc">available palettes for coloring an image</div><div class="ttdef"><b>Definition</b> jkqtpbasicimagetools.h:82</div></div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md81"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md87"></a>
 Load Palettes from Files</h1>
 <p>In addition to building palettes/LUTs programmatically, as shown above, you can simply load palettes from files using:</p>
 <div class="fragment"><div class="line"><a class="code hl_function" href="struct_j_k_q_t_p_image_tools.html#aff9b8402f7be50b54b125237385c8f99">JKQTPImageTools::registerPalettesFromFile</a>(<span class="stringliteral">&quot;:/usercolorpalettes/palettes/All_idl_cmaps.xml&quot;</span>);</div>
@@ -205,7 +205,7 @@ Load Palettes from Files</h1>
 </div><!-- fragment --><p>By default the palettes are simply read from the files as raw data. Alternatively you can linearly interpolate between the nodes in the file by calling</p>
 <div class="fragment"><div class="line"><a class="code hl_function" href="struct_j_k_q_t_p_image_tools.html#aff9b8402f7be50b54b125237385c8f99">JKQTPImageTools::registerPalettesFromFile</a>(<span class="stringliteral">&quot;:/usercolorpalettes/palettes/All_idl_cmaps.xml&quot;</span>, <span class="keyword">true</span>);</div>
 </div><!-- fragment --><p>Examples for such palette files can be found here: <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/imageplot_userpal/palettes/">/examples/imageplot_userpal/palettes/</a></p>
-<h1><a class="anchor" id="autotoc_md82"></a>
+<h1><a class="anchor" id="autotoc_md88"></a>
 Main Program of the Example (GUI)</h1>
 <p>The rest of the example program <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/imageplot_userpal/imageplot_userpal.cpp"><code>imageplot_userpal.cpp</code></a> just generates a 2D function plot as a color-map and displays it ...</p>
 <div class="fragment"><div class="line"><span class="comment">// 1. create a window containing a plotter and a combobox to select the color palette</span></div>
@@ -322,7 +322,7 @@ Main Program of the Example (GUI)</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Wed Oct 25 2023 11:41:30 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Oct 25 2023 11:47:37 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

@@ -68,7 +68,7 @@ var searchData=
   ['event_20occurs_65',['Actions When a Mouse Wheel Event Occurs',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USERMOUSEINTERACTION_MOUSEWHEEL',1,'']]],
   ['example_66',['QMake-Project of this example',['../_j_k_q_t_plotter_qt_creator.html#autotoc_md95',1,'']]],
   ['example_20code_67',['Example Code',['../class_j_k_q_t_math_text.html#JKQTMathTextUsageExample',1,'']]],
-  ['example_20gui_68',['Main Program of the Example (GUI)',['../_j_k_q_t_plotter_image_plot_user_palette.html#autotoc_md82',1,'']]],
+  ['example_20gui_68',['Main Program of the Example (GUI)',['../_j_k_q_t_plotter_image_plot_user_palette.html#autotoc_md88',1,'']]],
   ['example_20jkqtfastplotter_69',['Example (JKQTFastPlotter)',['../_j_k_q_t_fast_plotter_test.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtmathtext_20_3a_20a_20simple_20usage_20example_70',['Example (JKQTMathText): A simple usage example',['../_j_k_q_t_math_text_simple_example.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtmathtext_20_3a_20a_20test_20application_71',['Example (JKQTMathText): A test application',['../_j_k_q_t_math_text_test_app.html',1,'exampleTutorialProjects']]],
