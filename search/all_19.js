@@ -93,7 +93,7 @@ var searchData=
   ['usexits_90',['useXITS',['../class_j_k_q_t_math_text.html#a8ac20f1e5cc31b54589e0b322f1b7991',1,'JKQTMathText']]],
   ['using_20a_20built_20generated_20with_20cmake_91',['Using a built, generated with CMake',['../page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_USAGE',1,'']]],
   ['using_20a_20jkqtplotter_20inside_20a_20qt_20user_20interface_20designer_20ui_20file_92',['Tutorial (JKQTPlotter): Using a JKQTPlotter inside a Qt User Interface Designer (UI) File',['../_j_k_q_t_plotter_qt_creator.html',1,'exampleTutorialProjects']]],
-  ['using_20c_20stl_20algorithms_93',['Using C++ STL algorithms',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md35',1,'']]],
+  ['using_20c_20stl_20algorithms_93',['Using C++ STL algorithms',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md40',1,'']]],
   ['using_20cmake_94',['Build using CMake',['../page_buildinstructions__c_m_a_k_e.html',1,'page_buildinstructions']]],
   ['using_20data_20from_20one_20column_20to_20calculate_20another_95',['Using Data from one Column to Calculate Another',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md27',1,'']]],
   ['using_20jkqtmathtext_96',['Widgets using JKQTMathText',['../group__jkqtmathtext__widgets.html',1,'']]],
