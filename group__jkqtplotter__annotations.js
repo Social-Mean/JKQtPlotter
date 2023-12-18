@@ -12,7 +12,7 @@ var group__jkqtplotter__annotations =
       [ "JKQTPGeoSymbol", "class_j_k_q_t_p_geo_symbol.html#a82fce5b6763d62fb137d0f166e17c09b", null ],
       [ "JKQTPGeoSymbol", "class_j_k_q_t_p_geo_symbol.html#ad11c65092d06d78ee8a608c8ac24956e", null ],
       [ "draw", "class_j_k_q_t_p_geo_symbol.html#a0bb176a01e3b262d3fe897f83172b952", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_geo_symbol.html#a832a5ebf11bcdaf0a391a1b97390d56e", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_geo_symbol.html#a714a98d0f1430e7e930cbc26b9fb157f", null ],
       [ "getKeyLabelColor", "class_j_k_q_t_p_geo_symbol.html#a01f9fe4859826199ef8369259c00e39a", null ],
       [ "getP", "class_j_k_q_t_p_geo_symbol.html#aed1ffdab3d0b399bc7740ed07164d2bf", null ],
       [ "getX", "class_j_k_q_t_p_geo_symbol.html#ad30e8789441947ecce803b5440703b94", null ],
@@ -34,7 +34,7 @@ var group__jkqtplotter__annotations =
       [ "JKQTPGeoText", "class_j_k_q_t_p_geo_text.html#aecc39545b73779285bd5349d1b56d36e", null ],
       [ "JKQTPGeoText", "class_j_k_q_t_p_geo_text.html#a3b0add71350f1fe62641ae1ef22e3fe7", null ],
       [ "draw", "class_j_k_q_t_p_geo_text.html#a74154b75e92cf9498cd4b6c8feace574", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_geo_text.html#ac0f18d1cefdc35823da38a69f5a2b7ba", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_geo_text.html#a9c865eeecdfe76d8c41f4f811a225784", null ],
       [ "getKeyLabelColor", "class_j_k_q_t_p_geo_text.html#a6076287c6a7b7c797064f59c864e3560", null ],
       [ "getP", "class_j_k_q_t_p_geo_text.html#a71413385f3bed5364e297fb2ddf6b146", null ],
       [ "getPen", "class_j_k_q_t_p_geo_text.html#a7cf4f6d1bd60f12ce2c97ff05cbdc621", null ],
@@ -56,7 +56,7 @@ var group__jkqtplotter__annotations =
       [ "JKQTPHorizontalRange", "class_j_k_q_t_p_horizontal_range.html#a0285dd87efb342c9e8f462066b46d325", null ],
       [ "JKQTPHorizontalRange", "class_j_k_q_t_p_horizontal_range.html#a99a316a4b645575bbe475ee8dbd873f7", null ],
       [ "draw", "class_j_k_q_t_p_horizontal_range.html#a27133a9d29105ce747299ebcac004776", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_horizontal_range.html#a5d32c8a17c167b0f10ac78ea55920136", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_horizontal_range.html#a0886e09ad4154776ab264d078a2f958c", null ],
       [ "getXMinMax", "class_j_k_q_t_p_horizontal_range.html#a56007b0e6aa297c109df0ed2235a99c3", null ],
       [ "getYMinMax", "class_j_k_q_t_p_horizontal_range.html#ab6fed6789d176215164e5d5b380f22c9", null ]
     ] ],
@@ -115,7 +115,7 @@ var group__jkqtplotter__annotations =
       [ "JKQTPVerticalRange", "class_j_k_q_t_p_vertical_range.html#a5a09aa48ddc7242a3ed98c5b7d1c2979", null ],
       [ "JKQTPVerticalRange", "class_j_k_q_t_p_vertical_range.html#a589ce3a45630fcc250c76e5e5132afd9", null ],
       [ "draw", "class_j_k_q_t_p_vertical_range.html#a90de8b40035a3c463ccc536dc382c48f", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_vertical_range.html#a6e3b7e5f8d0aea840138ed62353edea9", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_vertical_range.html#a9e8f85ae92397cf3a592fbe6d5686d25", null ],
       [ "getXMinMax", "class_j_k_q_t_p_vertical_range.html#aae3458ce63a8a2fa007962f7c36ff8fa", null ],
       [ "getYMinMax", "class_j_k_q_t_p_vertical_range.html#a4f6b7213404fa6510a79d4a509ba48f6", null ]
     ] ]

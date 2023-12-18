@@ -7,7 +7,7 @@ var class_j_k_q_t_p_overlay_image =
     [ "copyImagePlotAsImage", "class_j_k_q_t_p_overlay_image.html#a8499e258be0461234e49b295d58c53c7", null ],
     [ "draw", "class_j_k_q_t_p_overlay_image.html#a918e2749cd715eaad8175e912eeff06e", null ],
     [ "drawImage", "class_j_k_q_t_p_overlay_image.html#aa15e6acdd38f61ec0dd93416c78295a3", null ],
-    [ "drawKeyMarker", "class_j_k_q_t_p_overlay_image.html#a65f65e0fd2e5fd58af7f02656d8cc5e2", null ],
+    [ "drawKeyMarker", "class_j_k_q_t_p_overlay_image.html#aebd481da32e76293b327d6ad6eb5af75", null ],
     [ "getData", "class_j_k_q_t_p_overlay_image.html#a17de993f0f992a7452ca7fcd3866edda", null ],
     [ "getDataAsDoubleVector", "class_j_k_q_t_p_overlay_image.html#a8b6f26bcbaa68e0d5a134eaa98a324af", null ],
     [ "getFalseColor", "class_j_k_q_t_p_overlay_image.html#a5c6d7446e311786905ead3c76a09134f", null ],

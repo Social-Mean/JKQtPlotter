@@ -11,7 +11,7 @@ var class_j_k_q_t_p_image =
     [ "copyImagePlotAsImage", "class_j_k_q_t_p_image.html#a740c93f07daf47d3462dfed54c2be185", null ],
     [ "createImageActions", "class_j_k_q_t_p_image.html#af134716bcf56d61c4771aab71a62816c", null ],
     [ "draw", "class_j_k_q_t_p_image.html#a03cdf3327262ecfda785313cbb0dbcb1", null ],
-    [ "drawKeyMarker", "class_j_k_q_t_p_image.html#acec5fe31cda7edf90a398d2c60be49ca", null ],
+    [ "drawKeyMarker", "class_j_k_q_t_p_image.html#a0d5fd328efee87040ed68af8d2b52158", null ],
     [ "getImage", "class_j_k_q_t_p_image.html#ac0c9c804959bcc2d62d4f4666be18707", null ],
     [ "getImage", "class_j_k_q_t_p_image.html#a1cd5651956dcc947dc0bc3a6807f667f", null ],
     [ "saveImagePlotAsImage", "class_j_k_q_t_p_image.html#a34dd7e3fb48fd6ff40a15234c7eb018d", null ],

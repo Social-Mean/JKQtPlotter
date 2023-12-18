@@ -6,7 +6,7 @@ var class_j_k_q_t_p_math_image_base =
     [ "JKQTPMathImageBase", "class_j_k_q_t_p_math_image_base.html#afc93a67fe8fd073a417eb717d529f4e4", null ],
     [ "JKQTPMathImageBase", "class_j_k_q_t_p_math_image_base.html#aceefc24f4fc22d03108ec32904481e01", null ],
     [ "JKQTPMathImageBase", "class_j_k_q_t_p_math_image_base.html#a64f8911ed94c4474d112e35c4d101e32", null ],
-    [ "drawKeyMarker", "class_j_k_q_t_p_math_image_base.html#a2f3846bf8a79cda98af147269dcad47d", null ],
+    [ "drawKeyMarker", "class_j_k_q_t_p_math_image_base.html#a66bcb49a335405c29d27914e312dfb93", null ],
     [ "ensureImageData", "class_j_k_q_t_p_math_image_base.html#ac19c4f5afef0f0fb78fb616e04880380", null ],
     [ "getData", "class_j_k_q_t_p_math_image_base.html#a55de198e49bb4ce1b05b106f3c51efbf", null ],
     [ "getDataAsDoubleVector", "class_j_k_q_t_p_math_image_base.html#a0d5f4eb400b7a1bd4085d9162ac57825", null ],

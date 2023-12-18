@@ -287,12 +287,17 @@ var hierarchy =
       [ "JKQTPXYGraphErrors", "class_j_k_q_t_p_x_y_graph_errors.html", null ],
       [ "JKQTPYGraphErrors", "class_j_k_q_t_p_y_graph_errors.html", null ]
     ] ],
+    [ "JKQTPBaseKey::KeyColumnDescription", "struct_j_k_q_t_p_base_key_1_1_key_column_description.html", null ],
+    [ "JKQTPBaseKey::KeyItemData", "struct_j_k_q_t_p_base_key_1_1_key_item_data.html", null ],
+    [ "JKQTPBaseKey::KeyLayoutDescription", "struct_j_k_q_t_p_base_key_1_1_key_layout_description.html", null ],
+    [ "JKQTPBaseKey::KeySizeDescription", "struct_j_k_q_t_p_base_key_1_1_key_size_description.html", null ],
     [ "JKQTPImageTools::LUTData", "struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html", null ],
     [ "JKQTPXYParametrizedScatterGraph::MappedSymbolFunctor", "struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html", null ],
     [ "JKQTPlotter::MouseDragAction", "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html", null ],
     [ "JKQTPlotter::MouseDragMarker", "struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html", null ],
     [ "JKQTPParsedFunctionLineGraphBase::ParsedFunctionLineGraphFunctionData", "group__jkqtplotter__functiongraphs.html#struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data", null ],
     [ "JKQTPEvaluatedFunctionGraphBase::PlotFunctorSpec", "struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html", null ],
+    [ "JKQTBasePlotter::PlotMargin", "struct_j_k_q_t_base_plotter_1_1_plot_margin.html", null ],
     [ "QAbstractTableModel", null, [
       [ "JKQTPDatastoreModel", "class_j_k_q_t_p_datastore_model.html", null ],
       [ "JKQTPGraphsModel", "class_j_k_q_t_p_graphs_model.html", null ]
@@ -323,6 +328,9 @@ var hierarchy =
     [ "QList", null, [
       [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html", null ]
     ] ],
+    [ "QMap", null, [
+      [ "JKQTBasePlotter::PlotMargins", "class_j_k_q_t_base_plotter_1_1_plot_margins.html", null ]
+    ] ],
     [ "QObject", null, [
       [ "JKQTBasePlotter", "class_j_k_q_t_base_plotter.html", null ],
       [ "JKQTFPPlot", "class_j_k_q_t_f_p_plot.html", [
@@ -342,6 +350,9 @@ var hierarchy =
       [ "JKQTMathText", "class_j_k_q_t_math_text.html", null ],
       [ "JKQTMathTextParser", "class_j_k_q_t_math_text_parser.html", [
         [ "JKQTMathTextLatexParser", "class_j_k_q_t_math_text_latex_parser.html", null ]
+      ] ],
+      [ "JKQTPBaseKey", "class_j_k_q_t_p_base_key.html", [
+        [ "JKQTPMainKey", "class_j_k_q_t_p_main_key.html", null ]
       ] ],
       [ "JKQTPCoordinateAxis", "class_j_k_q_t_p_coordinate_axis.html", [
         [ "JKQTPHorizontalAxisBase", "class_j_k_q_t_p_horizontal_axis_base.html", [

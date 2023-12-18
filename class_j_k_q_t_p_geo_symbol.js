@@ -11,7 +11,7 @@ var class_j_k_q_t_p_geo_symbol =
     [ "JKQTPGeoSymbol", "class_j_k_q_t_p_geo_symbol.html#a82fce5b6763d62fb137d0f166e17c09b", null ],
     [ "JKQTPGeoSymbol", "class_j_k_q_t_p_geo_symbol.html#ad11c65092d06d78ee8a608c8ac24956e", null ],
     [ "draw", "class_j_k_q_t_p_geo_symbol.html#a0bb176a01e3b262d3fe897f83172b952", null ],
-    [ "drawKeyMarker", "class_j_k_q_t_p_geo_symbol.html#a832a5ebf11bcdaf0a391a1b97390d56e", null ],
+    [ "drawKeyMarker", "class_j_k_q_t_p_geo_symbol.html#a714a98d0f1430e7e930cbc26b9fb157f", null ],
     [ "getKeyLabelColor", "class_j_k_q_t_p_geo_symbol.html#a01f9fe4859826199ef8369259c00e39a", null ],
     [ "getP", "class_j_k_q_t_p_geo_symbol.html#aed1ffdab3d0b399bc7740ed07164d2bf", null ],
     [ "getX", "class_j_k_q_t_p_geo_symbol.html#ad30e8789441947ecce803b5440703b94", null ],

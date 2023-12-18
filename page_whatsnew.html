@@ -179,6 +179,8 @@ BREAKING/FIXED: <a class="el" href="class_j_k_q_t_p_x_function_line_graph.html" 
 <li>
 FIXED/BREAKING: graph symbols were not properly applied when reading styles (in fact they were shuffled under some circumstances) </li>
 <li>
+NEW/BREAKING: rework layouting of keys/legends: new classes <a class="el" href="class_j_k_q_t_p_base_key.html" title="base class for drawing a key (or legend)">JKQTPBaseKey</a>, <a class="el" href="class_j_k_q_t_p_main_key.html" title="concrete class for drawing the main plot key (or legend). This class reads the key entries fromm the ...">JKQTPMainKey</a> ... and removed several styling function for the main key from <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a> and <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> (these are now accessible via <a class="el" href="class_j_k_q_t_base_plotter.html#ad82a81593a09f4209c2349f3f41a90e3" title="retuns the main key object">JKQTBasePlotter::getMainKey()</a>  </li>
+<li>
 FIXED issue described in <a href="https://github.com/jkriege2/JKQtPlotter/pull/62">#62: Fix custom labels draw, because giving exactly two label-strings did not display all of them</a>, thanks to <a href="https://github.com/FalsinSoft">user:FalsinSoft</a> </li>
 <li>
 FIXED issue <a href="https://github.com/jkriege2/JKQtPlotter/pull/70">#70: Typo in jkqtplotter/CMakeLists.txt</a>, thanks to <a href="https://github.com/tedlinlab">user:tedlinlab</a> </li>
@@ -224,6 +226,8 @@ IMPROVED/REWORKED: coordinate axis code was refactored </li>
 IMPROVED/REWORKED: zomm/pan by mouse-wheel: now there are modes that support zoomin AND panning by trakpad and mouse-wheel simultaneously! This can only be implemented using heuristics, due to the way that Qt handles track-pad events, but the current solution should at least improve the behaviour seen before. Mainly <code>jkqtpmwaZoomByWheelAndTrackpadPan</code> was introduced into <code>JKQTPMouseWheelActions</code> und is set as default mode: Here <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> tries to distinguish the QWheelEvent s sent by an actual mouse wheel and a trackpad. </li>
 <li>
 IMPROVED/REWORKED: better example graphs in <a class="el" href="">JKQTPlotterStyling.</a> </li>
+<li>
+IMPROVED/REWORKED: legend/key positioning as combination of 3 values, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <code>JKQTPKeyOutsideTop|JKQTPKeyTop|JKQTPKeyRight</code> or <code>JKQTPKeyInside|JKQTPKeyTopJKQTPKeyRight</code> </li>
 <li>
 IMPROVED: documentation of styles: automatized doc image generation. </li>
 <li>
@@ -720,7 +724,7 @@ Latest Release/Tag: <a href="https://github.com/jkriege2/JKQtPlotter/releases/ta
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Nov 21 2023 11:53:32 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Dec 18 2023 21:28:01 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

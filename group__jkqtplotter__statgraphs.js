@@ -101,7 +101,7 @@ var group__jkqtplotter__statgraphs =
       [ "JKQTPBoxplotHorizontalElement", "class_j_k_q_t_p_boxplot_horizontal_element.html#a3ffce198edde671e8eab722802c95343", null ],
       [ "JKQTPBoxplotHorizontalElement", "class_j_k_q_t_p_boxplot_horizontal_element.html#ad33cbb8d47e313cb881160df1b6b0076", null ],
       [ "draw", "class_j_k_q_t_p_boxplot_horizontal_element.html#a2791e54f67e8865de9b63023f055163b", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_boxplot_horizontal_element.html#ac4149fe9e08106489bee829a0c24f6bf", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_boxplot_horizontal_element.html#aa85913eacb80166234a180e9d66f90dd", null ],
       [ "getXMinMax", "class_j_k_q_t_p_boxplot_horizontal_element.html#ab65d416addad1ee09890b06eff1e1a54", null ],
       [ "getYMinMax", "class_j_k_q_t_p_boxplot_horizontal_element.html#a31f68e5897aaba3bee0f6a10843417d4", null ]
     ] ],
@@ -109,7 +109,7 @@ var group__jkqtplotter__statgraphs =
       [ "JKQTPBoxplotHorizontalGraph", "class_j_k_q_t_p_boxplot_horizontal_graph.html#ad9b4b5cf7f3fb689cac8816898c8ec49", null ],
       [ "JKQTPBoxplotHorizontalGraph", "class_j_k_q_t_p_boxplot_horizontal_graph.html#ac7215d6da98bd187fb45489bc3f2c3a3", null ],
       [ "draw", "class_j_k_q_t_p_boxplot_horizontal_graph.html#acb219873eff6b4343b2b6f1cfb4946c3", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_boxplot_horizontal_graph.html#a97c2858094772c3ba5a212a7cb9999ff", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_boxplot_horizontal_graph.html#a34492c75cfaf71a4da6cb0c1e19ac9f5", null ],
       [ "getXMinMax", "class_j_k_q_t_p_boxplot_horizontal_graph.html#afa49b34eecef1c3efbdb174d852f0007", null ],
       [ "getYMinMax", "class_j_k_q_t_p_boxplot_horizontal_graph.html#a976ad802841c0e0825083953362c8c61", null ]
     ] ],
@@ -117,7 +117,7 @@ var group__jkqtplotter__statgraphs =
       [ "JKQTPBoxplotVerticalElement", "class_j_k_q_t_p_boxplot_vertical_element.html#aa65bec64db456a335d25a3bc6ee98ef7", null ],
       [ "JKQTPBoxplotVerticalElement", "class_j_k_q_t_p_boxplot_vertical_element.html#a0014c969ce77c32bd2356090f07db2e1", null ],
       [ "draw", "class_j_k_q_t_p_boxplot_vertical_element.html#ad2f97cab9abaa046af4ade44b40f1e38", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_boxplot_vertical_element.html#a402763beb6d8ebdf110a344a618c7d5e", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_boxplot_vertical_element.html#a2869f182359a9ffac1743e1f51d3b30f", null ],
       [ "getXMinMax", "class_j_k_q_t_p_boxplot_vertical_element.html#aa47e887d1780651935baaa3b175921b4", null ],
       [ "getYMinMax", "class_j_k_q_t_p_boxplot_vertical_element.html#acb37edbc325de16fcfcc27bc2a0cf7e0", null ]
     ] ],
@@ -125,7 +125,7 @@ var group__jkqtplotter__statgraphs =
       [ "JKQTPBoxplotVerticalGraph", "class_j_k_q_t_p_boxplot_vertical_graph.html#a8cad63300b4ce3f36e2b43c2abb7dde3", null ],
       [ "JKQTPBoxplotVerticalGraph", "class_j_k_q_t_p_boxplot_vertical_graph.html#a68e8d266e2a4d18585fe3ee8b3deff29", null ],
       [ "draw", "class_j_k_q_t_p_boxplot_vertical_graph.html#a82c19241ea8ed5ed8aea2d376661e727", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_boxplot_vertical_graph.html#a2e929f4426786091ee694d0b43476f08", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_boxplot_vertical_graph.html#a0d19b7030c3acf8a4d56f3563cc9749f", null ],
       [ "getXMinMax", "class_j_k_q_t_p_boxplot_vertical_graph.html#aa2a2ef557b2688d3bf4e5de1dc78156f", null ],
       [ "getYMinMax", "class_j_k_q_t_p_boxplot_vertical_graph.html#a784733d4afddbbad5eaa0dc4b7af7ed7", null ]
     ] ],
@@ -170,7 +170,7 @@ var group__jkqtplotter__statgraphs =
       [ "JKQTPViolinplotHorizontalElement", "class_j_k_q_t_p_violinplot_horizontal_element.html#a7c867518940cf9cd1eb1414bdd6f460d", null ],
       [ "JKQTPViolinplotHorizontalElement", "class_j_k_q_t_p_violinplot_horizontal_element.html#a888ac70956e747ea1a60ba7f924d0f64", null ],
       [ "draw", "class_j_k_q_t_p_violinplot_horizontal_element.html#a7bb3de667d5fee5c64ab8d0bc27b38fc", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_violinplot_horizontal_element.html#a08824fb0d4e606ca226482ae569a2313", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_violinplot_horizontal_element.html#a84cdd1b69d0356f61ecaf859a68ef8a7", null ],
       [ "getXMinMax", "class_j_k_q_t_p_violinplot_horizontal_element.html#a466d9c7ac8e058f67d06eb1ec78c05ec", null ],
       [ "getYMinMax", "class_j_k_q_t_p_violinplot_horizontal_element.html#aa3224248d99da23b2c027a6c3f3b06e4", null ]
     ] ],
@@ -178,7 +178,7 @@ var group__jkqtplotter__statgraphs =
       [ "JKQTPViolinplotVerticalElement", "class_j_k_q_t_p_violinplot_vertical_element.html#a91b860d6efd7a97b03377bb0fecb8bf7", null ],
       [ "JKQTPViolinplotVerticalElement", "class_j_k_q_t_p_violinplot_vertical_element.html#a531f6aa0d4b692a85d1d42f407e091f8", null ],
       [ "draw", "class_j_k_q_t_p_violinplot_vertical_element.html#ae9d09477c394f3dfef67615db640edef", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_violinplot_vertical_element.html#a4aa9f269ff6fdd5ca0ff958b53e98258", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_violinplot_vertical_element.html#adf45a9c8eb5a44ca1e34d3d842c1d58d", null ],
       [ "getXMinMax", "class_j_k_q_t_p_violinplot_vertical_element.html#a37f814d70f1dd47d6d57b893278e612c", null ],
       [ "getYMinMax", "class_j_k_q_t_p_violinplot_vertical_element.html#a242fac05963227f102dd6ba235ae9eb1", null ]
     ] ]

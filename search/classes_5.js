@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['layoutinfo_0',['layoutinfo',['../struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html',1,'JKQTMathTextMatrixNode::LayoutInfo'],['../struct_j_k_q_t_math_text_text_node_1_1_layout_info.html',1,'JKQTMathTextTextNode::LayoutInfo'],['../struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html',1,'JKQTMathTextVerbatimNode::LayoutInfo'],['../struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html',1,'JKQTMathTextVerticalListNode::LayoutInfo']]],
-  ['lutdata_1',['LUTData',['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html',1,'JKQTPImageTools']]]
+  ['keycolumndescription_0',['KeyColumnDescription',['../struct_j_k_q_t_p_base_key_1_1_key_column_description.html',1,'JKQTPBaseKey']]],
+  ['keyitemdata_1',['KeyItemData',['../struct_j_k_q_t_p_base_key_1_1_key_item_data.html',1,'JKQTPBaseKey']]],
+  ['keylayoutdescription_2',['KeyLayoutDescription',['../struct_j_k_q_t_p_base_key_1_1_key_layout_description.html',1,'JKQTPBaseKey']]],
+  ['keysizedescription_3',['KeySizeDescription',['../struct_j_k_q_t_p_base_key_1_1_key_size_description.html',1,'JKQTPBaseKey']]]
 ];

@@ -7,7 +7,7 @@ var class_j_k_q_t_p_geo_text =
     [ "JKQTPGeoText", "class_j_k_q_t_p_geo_text.html#aecc39545b73779285bd5349d1b56d36e", null ],
     [ "JKQTPGeoText", "class_j_k_q_t_p_geo_text.html#a3b0add71350f1fe62641ae1ef22e3fe7", null ],
     [ "draw", "class_j_k_q_t_p_geo_text.html#a74154b75e92cf9498cd4b6c8feace574", null ],
-    [ "drawKeyMarker", "class_j_k_q_t_p_geo_text.html#ac0f18d1cefdc35823da38a69f5a2b7ba", null ],
+    [ "drawKeyMarker", "class_j_k_q_t_p_geo_text.html#a9c865eeecdfe76d8c41f4f811a225784", null ],
     [ "getKeyLabelColor", "class_j_k_q_t_p_geo_text.html#a6076287c6a7b7c797064f59c864e3560", null ],
     [ "getP", "class_j_k_q_t_p_geo_text.html#a71413385f3bed5364e297fb2ddf6b146", null ],
     [ "getPen", "class_j_k_q_t_p_geo_text.html#a7cf4f6d1bd60f12ce2c97ff05cbdc621", null ],

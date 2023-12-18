@@ -56,7 +56,7 @@ var group__jkqtplotter__basegraphs =
       [ "backtransformY", "class_j_k_q_t_p_plot_element.html#aa2fa48773d126ede3e1d941626e5a94d", null ],
       [ "clearHitTestData", "class_j_k_q_t_p_plot_element.html#a5357f7866d0f84b3438c91a137ea6255", null ],
       [ "draw", "class_j_k_q_t_p_plot_element.html#a398ca9be02ec288d60a5618eeeff4791", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_plot_element.html#a95eb8ce58ccd5992c572a99daf0c9105", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_plot_element.html#a2ab041f3e86c87716dadd24f5a754276", null ],
       [ "drawOutside", "class_j_k_q_t_p_plot_element.html#a6872f3e9b55fec48e5efb45d50404f86", null ],
       [ "formatHitTestDefaultLabel", "class_j_k_q_t_p_plot_element.html#acabb25ef081b70ca56e43cbfe1f2f0a8", null ],
       [ "generateKeyMarker", "class_j_k_q_t_p_plot_element.html#a876c366e561d48c077ce363be567aefe", null ],

@@ -9,7 +9,7 @@ var class_j_k_q_t_p_single_column_symbols_graph =
     [ "JKQTPSingleColumnSymbolsGraph", "class_j_k_q_t_p_single_column_symbols_graph.html#a9a7817039d95b13751a7e8488e7cd9c5", null ],
     [ "JKQTPSingleColumnSymbolsGraph", "class_j_k_q_t_p_single_column_symbols_graph.html#a0958f77ea99713ab7f4928cdb794a3d8", null ],
     [ "draw", "class_j_k_q_t_p_single_column_symbols_graph.html#a29e511cd5ad800ae289a42169f8b35d8", null ],
-    [ "drawKeyMarker", "class_j_k_q_t_p_single_column_symbols_graph.html#adc8a7c45489b275333d2f2c4207179e6", null ],
+    [ "drawKeyMarker", "class_j_k_q_t_p_single_column_symbols_graph.html#ae1f116ede079005b005224578455c0fc", null ],
     [ "getKeyLabelColor", "class_j_k_q_t_p_single_column_symbols_graph.html#a14d7e8d0cc6e359db6d8a05c5a57b523", null ],
     [ "getPosition", "class_j_k_q_t_p_single_column_symbols_graph.html#a0c237694c425350bc2218a80641e6b93", null ],
     [ "getPositionScatterStyle", "class_j_k_q_t_p_single_column_symbols_graph.html#a704d643bb663754c02c0539f4ce1f3a6", null ],

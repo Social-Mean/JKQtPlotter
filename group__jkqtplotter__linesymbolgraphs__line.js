@@ -2,7 +2,7 @@ var group__jkqtplotter__linesymbolgraphs__line =
 [
     [ "JKQTPSpecialLineGraphBase", "class_j_k_q_t_p_special_line_graph_base.html", [
       [ "JKQTPSpecialLineGraphBase", "class_j_k_q_t_p_special_line_graph_base.html#abea7d3d4cc395eb29aa1044d3ffe90ef", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_special_line_graph_base.html#ab107a21c03722d50a296dce8c8212e69", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_special_line_graph_base.html#aef17b5351cda999034984635d79c7498", null ],
       [ "getDrawSymbols", "class_j_k_q_t_p_special_line_graph_base.html#aba111f94248d2f16f09846ae71f80203", null ],
       [ "getKeyLabelColor", "class_j_k_q_t_p_special_line_graph_base.html#a8416751e6f0e4c29018a24ab0e7fa0bf", null ],
       [ "getSpecialLineType", "class_j_k_q_t_p_special_line_graph_base.html#a471f42ce42f919f388761fe974735341", null ],
@@ -40,7 +40,7 @@ var group__jkqtplotter__linesymbolgraphs__line =
       [ "JKQTPXYLineGraph", "class_j_k_q_t_p_x_y_line_graph.html#a1ebe2f2f316ba7dcaf2d013d1b4404e2", null ],
       [ "JKQTPXYLineGraph", "class_j_k_q_t_p_x_y_line_graph.html#a9594904a5c81420c210c5f88a613e2f5", null ],
       [ "draw", "class_j_k_q_t_p_x_y_line_graph.html#accac50ced6cff7d99f902046fc9391fa", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_x_y_line_graph.html#a7d27224a5fdde9ddeae9ac3278ba64e6", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_x_y_line_graph.html#a087b0ec88ae3940c9213776e441bb937", null ],
       [ "getDrawLine", "class_j_k_q_t_p_x_y_line_graph.html#aa4c651036ccede900477008dbb5159b8", null ],
       [ "getDrawLineInForeground", "class_j_k_q_t_p_x_y_line_graph.html#a501e0544460444f1d3c2d677f762a468", null ],
       [ "getKeyLabelColor", "class_j_k_q_t_p_x_y_line_graph.html#ab9681d9352ae84effeed6821e38c4937", null ],

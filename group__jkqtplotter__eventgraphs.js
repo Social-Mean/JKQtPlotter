@@ -4,7 +4,7 @@ var group__jkqtplotter__eventgraphs =
       [ "JKQTPPeakStreamGraph", "class_j_k_q_t_p_peak_stream_graph.html#ad1aaa66d65ee56045124852a65799b87", null ],
       [ "JKQTPPeakStreamGraph", "class_j_k_q_t_p_peak_stream_graph.html#a78a46404f20c6258ebb901bb5b9cc0d0", null ],
       [ "draw", "class_j_k_q_t_p_peak_stream_graph.html#ac092ccdfd018044fd3db149dcd8df97c", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_peak_stream_graph.html#a4fa853d52498ee00a521dfa6d94ef0a4", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_peak_stream_graph.html#a9e3ad328a09f59fbf391b3e5bb1e34e2", null ],
       [ "getBaseline", "class_j_k_q_t_p_peak_stream_graph.html#a013bda9fcaf165b12e4776e42f898bb3", null ],
       [ "getDrawBaseline", "class_j_k_q_t_p_peak_stream_graph.html#ab55cd65d7a0215e81c38462679f81d95", null ],
       [ "getKeyLabelColor", "class_j_k_q_t_p_peak_stream_graph.html#ad372ecb76f10fdff0aa48b82cd19ef53", null ],

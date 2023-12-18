@@ -20,7 +20,7 @@ var searchData=
   ['jkqtperrorplotstyleelements_17',['JKQTPErrorPlotstyleElements',['../group__jkqtplotter__basegraphserrors.html#ga4b3a78b3a037650785eb6b798b5eaf9b',1,'jkqtptools.h']]],
   ['jkqtpgraphsymbols_18',['JKQTPGraphSymbols',['../group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b',1,'jkqtpdrawingtools.h']]],
   ['jkqtpkeylayout_19',['JKQTPKeyLayout',['../group__jkqtpplottersupprt.html#ga12bbc8b1110ac5655e9afcf8ec49b6df',1,'jkqtptools.h']]],
-  ['jkqtpkeyposition_20',['JKQTPKeyPosition',['../group__jkqtpplottersupprt.html#ga53dd9054ccf1f02e17d1867ddab7183f',1,'jkqtptools.h']]],
+  ['jkqtpkeypositions_20',['JKQTPKeyPositions',['../group__jkqtpplottersupprt.html#ga6305332f22055fcefe3875b98a16b828',1,'jkqtptools.h']]],
   ['jkqtplabelposition_21',['JKQTPLabelPosition',['../group__jkqtpplottersupprt.html#ga6cb5c7e72efa604416b2ac1ac3fc55cd',1,'jkqtptools.h']]],
   ['jkqtplabeltickmode_22',['JKQTPLabelTickMode',['../group__jkqtpplottersupprt.html#gafba2dfd5e979b2a4c063ac2316ce42f1',1,'jkqtptools.h']]],
   ['jkqtplinedecoratorstyle_23',['JKQTPLineDecoratorStyle',['../group__jkqtptools__drawing.html#gabd0e8edf2acdfce37eccab000e445c62',1,'jkqtpdrawingtools.h']]],

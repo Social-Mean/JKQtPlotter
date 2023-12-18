@@ -13,6 +13,7 @@ var group__jkqtptools__drawing =
       [ "drawPolylineFast", "class_j_k_q_t_p_enhanced_painter.html#ab75221a5fcac23ae0e15cccad2718fc9", null ],
       [ "drawPolylineFast", "class_j_k_q_t_p_enhanced_painter.html#a81ecfc4f86dcf63bcc3921136fcd6ceb", null ],
       [ "drawPolylineFast", "class_j_k_q_t_p_enhanced_painter.html#af20dbf46cb7eba5c2ba079c9c194569d", null ],
+      [ "drawRoundedRectOrRect", "class_j_k_q_t_p_enhanced_painter.html#a5bc2e7f43cf85e00c6e838c1f845fc01", null ],
       [ "initQEnhacedPainter", "class_j_k_q_t_p_enhanced_painter.html#ad8a2efb65f9f2a46a802cb76cd87b13d", null ],
       [ "painterFlags", "class_j_k_q_t_p_enhanced_painter.html#ab59f389cec712585a684a79b47e7d36a", null ],
       [ "setPainterFlag", "class_j_k_q_t_p_enhanced_painter.html#a2a8ec1e4d301db36a80ea4c8cbe425e9", null ],

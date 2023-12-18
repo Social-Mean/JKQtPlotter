@@ -119,6 +119,16 @@ $(document).ready(function(){initNavTree('page_todo.html',''); initResizable(); 
 <div class="textblock"><p>This page lists several todos and wishes for future version of <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a></p>
 <ul>
 <li>
+General:<ul>
+<li>
+build system: provide general targets <a class="el" href="class_j_k_q_t_plotter.html#a8e0c883816f540a177a6e85999efb5d6" title="class constructor">JKQTPlotter::JKQTPlotter</a>, JKQTPlotter::JKQTMathText, instead of targets which differ by linking option </li>
+<li>
+build system: refactor CMake-Code, so static/dynamic switch is done on compile and only one variant is built </li>
+<li>
+build system: maybe prepare for CMake's <a href="https://cmake.org/cmake/help/latest/module/FetchContent.html">FetchContent</a>-API (+ possibly providing a reduced source-package for each release) </li>
+</ul>
+</li>
+<li>
 <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>:<ul>
 <li>
 data management: allow for other datatypes than double, would be good to have, double, float, ints, bool, string ... as for images </li>
@@ -159,11 +169,7 @@ plot: axis labels above/below/centered around tick </li>
 <li>
 plot: elongated grid to left of tick labels </li>
 <li>
-plot: legend positioning as combination of 3 values: inside|outside + left|center|right + top|vcenter|bottom </li>
-<li>
 plot: refactor print preview/export preview code  </li>
-<li>
-plot: rework layouting of legends: there are some inconsistencies/too large gaps ... </li>
 <li>
 sryling: better styling/more styling options for data-tooltips </li>
 <li>
@@ -200,7 +206,7 @@ add smoothing operations (running average, maybe LOWESS (<a href="https://de.wik
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Nov 21 2023 11:53:32 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Dec 18 2023 21:28:01 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

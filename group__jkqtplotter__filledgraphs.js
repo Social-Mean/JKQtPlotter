@@ -6,7 +6,7 @@ var group__jkqtplotter__filledgraphs =
         [ "TwoColorFilling", "class_j_k_q_t_p_filled_curve_graph_base.html#a1c6ebab82d5a08bd63a0574fc278ff08a265cdb2a9b566d2b83f0bd2529ab6232", null ]
       ] ],
       [ "JKQTPFilledCurveGraphBase", "class_j_k_q_t_p_filled_curve_graph_base.html#a22fc11edaff36269a26ce3df45f78f4b", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_filled_curve_graph_base.html#aa9b716842104b6d4d082067847b0ac2f", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_filled_curve_graph_base.html#a86e90d9096a2447e9f712ef9c41b06ce", null ],
       [ "fillStyleBelow", "class_j_k_q_t_p_filled_curve_graph_base.html#a0f1dfe18bdce384f520b48dfc331bac6", null ],
       [ "fillStyleBelow", "class_j_k_q_t_p_filled_curve_graph_base.html#a91b235f6d9640d4112b7ef3c3311fbb7", null ],
       [ "getFillMode", "class_j_k_q_t_p_filled_curve_graph_base.html#a2a6f3fe9c4ee9811bd7badda03eff5eb", null ],
@@ -66,14 +66,14 @@ var group__jkqtplotter__filledgraphs =
       [ "JKQTPFilledHorizontalRangeGraph", "class_j_k_q_t_p_filled_horizontal_range_graph.html#a59f032eb1a7f3f2c01e53b90855322f2", null ],
       [ "JKQTPFilledHorizontalRangeGraph", "class_j_k_q_t_p_filled_horizontal_range_graph.html#a899465506b5eb1f028df2b0da2e6d5fe", null ],
       [ "draw", "class_j_k_q_t_p_filled_horizontal_range_graph.html#ae7e13bed24e7e957c3b23c0269c373ce", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_filled_horizontal_range_graph.html#ac1055166d3ffc9a955039a6365b98280", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_filled_horizontal_range_graph.html#a3de33ccc8108e5501bc7263b2871ffb9", null ],
       [ "getKeyLabelColor", "class_j_k_q_t_p_filled_horizontal_range_graph.html#acafca8467f1810f4f40f47fcf9d0e81c", null ]
     ] ],
     [ "JKQTPFilledVerticalRangeGraph", "class_j_k_q_t_p_filled_vertical_range_graph.html", [
       [ "JKQTPFilledVerticalRangeGraph", "class_j_k_q_t_p_filled_vertical_range_graph.html#a199503f8a6b5f244390f505d5658e69a", null ],
       [ "JKQTPFilledVerticalRangeGraph", "class_j_k_q_t_p_filled_vertical_range_graph.html#ad7ebdb00b56f0435b9b64925c76c3160", null ],
       [ "draw", "class_j_k_q_t_p_filled_vertical_range_graph.html#ac45008a43730a4f24c46b1076d9944e4", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_filled_vertical_range_graph.html#af1ec6150a578bca4c002969a622be1b9", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_filled_vertical_range_graph.html#a05b7509f7d22d972d75f6f1e658617e9", null ],
       [ "getKeyLabelColor", "class_j_k_q_t_p_filled_vertical_range_graph.html#a970721d45c18c17381e49b2c5b6b4946", null ]
     ] ]
 ];

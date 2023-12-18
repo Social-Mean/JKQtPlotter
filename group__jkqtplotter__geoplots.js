@@ -45,7 +45,7 @@ var group__jkqtplotter__geoplots =
     [ "JKQTPGeoBaseDecoratedHeadLine", "class_j_k_q_t_p_geo_base_decorated_head_line.html", [
       [ "JKQTPGeoBaseDecoratedHeadLine", "class_j_k_q_t_p_geo_base_decorated_head_line.html#a0d069257810943c1f77c7146d38de865", null ],
       [ "JKQTPGeoBaseDecoratedHeadLine", "class_j_k_q_t_p_geo_base_decorated_head_line.html#ad74fd8f9e10c2141cc0e925ee725445a", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_geo_base_decorated_head_line.html#a0328903b1f167c55004610a9d289ae16", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_geo_base_decorated_head_line.html#af7398d94edcc5afe146745166244791f", null ],
       [ "getKeyLabelColor", "class_j_k_q_t_p_geo_base_decorated_head_line.html#a68aee78bf05b236350136ca0a3e11ba2", null ],
       [ "setAlpha", "class_j_k_q_t_p_geo_base_decorated_head_line.html#a86f664595445cf7c42f6e28d9b0f03f5", null ],
       [ "setColor", "class_j_k_q_t_p_geo_base_decorated_head_line.html#a38f10f99ed9405f8a2ec4cc199f5a35d", null ],
@@ -56,7 +56,7 @@ var group__jkqtplotter__geoplots =
     [ "JKQTPGeoBaseDecoratedLine", "class_j_k_q_t_p_geo_base_decorated_line.html", [
       [ "JKQTPGeoBaseDecoratedLine", "class_j_k_q_t_p_geo_base_decorated_line.html#a5dd1bbc413852072bf48dbc30b00e80d", null ],
       [ "JKQTPGeoBaseDecoratedLine", "class_j_k_q_t_p_geo_base_decorated_line.html#ab534716f64b3bcb086483c36793201b0", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_geo_base_decorated_line.html#ac025a046cef9b355d91fc30863255f92", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_geo_base_decorated_line.html#afd458cf2231d6be0a39b906c12c92ebc", null ],
       [ "getKeyLabelColor", "class_j_k_q_t_p_geo_base_decorated_line.html#af9a21c4f7ac25eaaa4e5f6fa66bf7e8d", null ],
       [ "setAlpha", "class_j_k_q_t_p_geo_base_decorated_line.html#ae885aecabb21bedada64538abc094079", null ],
       [ "setColor", "class_j_k_q_t_p_geo_base_decorated_line.html#a680cf84535f5a6c1727d02cda49ca958", null ],
@@ -66,7 +66,7 @@ var group__jkqtplotter__geoplots =
     ] ],
     [ "JKQTPGeoBaseFilled", "class_j_k_q_t_p_geo_base_filled.html", [
       [ "JKQTPGeoBaseFilled", "class_j_k_q_t_p_geo_base_filled.html#a011d5fb190fc572891ff8a60abb26eed", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_geo_base_filled.html#a1ebf72d766fda8eeee92c74edccc4b61", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_geo_base_filled.html#a74a4c738732f3a82bf5a2604c4af7612", null ],
       [ "setAlpha", "class_j_k_q_t_p_geo_base_filled.html#a4da1fdd2321da7efae4db9ceaad8cfc3", null ],
       [ "setAlpha", "class_j_k_q_t_p_geo_base_filled.html#abe5ffe115b682f1c36f12cac54f98930", null ],
       [ "setColor", "class_j_k_q_t_p_geo_base_filled.html#aca2e2ef89c7c956523a2ba4582a4f48d", null ],
@@ -82,7 +82,7 @@ var group__jkqtplotter__geoplots =
     ] ],
     [ "JKQTPGeoBaseLine", "class_j_k_q_t_p_geo_base_line.html", [
       [ "JKQTPGeoBaseLine", "class_j_k_q_t_p_geo_base_line.html#a2132063325ffa2ffd134008c52749b5b", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_geo_base_line.html#a0e401e5058913949aa4863c102bf047e", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_geo_base_line.html#a34e6a4d183d4f356fa57ed74fb360a94", null ],
       [ "getKeyLabelColor", "class_j_k_q_t_p_geo_base_line.html#a6901f39bcc1e1cf3c4ab267763790ef7", null ],
       [ "setAlpha", "class_j_k_q_t_p_geo_base_line.html#ad33f89a54b8877194db32977450714f4", null ],
       [ "setColor", "class_j_k_q_t_p_geo_base_line.html#aa9b9aa77336c194d711945c9e6d2d8e7", null ],

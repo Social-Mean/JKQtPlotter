@@ -20,7 +20,7 @@ var group__jkqtplotter__linesymbolgraphs__param =
       [ "clearSizeColumnFunctor", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#acdb3d6cb1207987659bcdf15b783a6fe", null ],
       [ "clearSymbolColumnFunctor", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#af45c3f771dd6e77b731ef0cc916516dd", null ],
       [ "draw", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a6e7879f815eed2c92e807d765ddcc60a", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a961b359af42f75dc40cfdb2009a0db66", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a42804bdad6aa764f85f69cd743324a04", null ],
       [ "drawOutside", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a42ed5f991ba940fd2a7ff897c6fe6e1e", null ],
       [ "getColorColumn", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a8bb045d1c477a02521114d5d154664a4", null ],
       [ "getColorColumnContainsRGB", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a814b4e99222567a0504e9027f5438c76", null ],

@@ -17,7 +17,7 @@ var group__jkqtplotter__barcharts =
       [ "baselineStyle", "class_j_k_q_t_p_bar_graph_base.html#aa15c4eda245cdf2c95bebf32e9630df6", null ],
       [ "considerForAutoscaling", "class_j_k_q_t_p_bar_graph_base.html#a8bffa2a0a11acd75a6df78db71564ce5", null ],
       [ "constructFillBrushFunctor", "class_j_k_q_t_p_bar_graph_base.html#aa8fa75bdc893f0b0304ee69cf6fb0cb2", null ],
-      [ "drawKeyMarker", "class_j_k_q_t_p_bar_graph_base.html#aa6e46cca71e4abcdb25a0f8be96ee963", null ],
+      [ "drawKeyMarker", "class_j_k_q_t_p_bar_graph_base.html#aef6fdb76fc19f0cc3bc7895d838d988f", null ],
       [ "fillStyleBelow", "class_j_k_q_t_p_bar_graph_base.html#a31a91f661e59b99893a6a16cc3905d30", null ],
       [ "fillStyleBelow", "class_j_k_q_t_p_bar_graph_base.html#a073be1d16234579d1fa72cf0d4cfd889", null ],
       [ "getBarHeightColumn", "class_j_k_q_t_p_bar_graph_base.html#ac5049801f269e906093fa003a64841f5", null ],

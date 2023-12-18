@@ -1,7 +1,7 @@
 var class_j_k_q_t_p_special_line_graph_base =
 [
     [ "JKQTPSpecialLineGraphBase", "class_j_k_q_t_p_special_line_graph_base.html#abea7d3d4cc395eb29aa1044d3ffe90ef", null ],
-    [ "drawKeyMarker", "class_j_k_q_t_p_special_line_graph_base.html#ab107a21c03722d50a296dce8c8212e69", null ],
+    [ "drawKeyMarker", "class_j_k_q_t_p_special_line_graph_base.html#aef17b5351cda999034984635d79c7498", null ],
     [ "getDrawSymbols", "class_j_k_q_t_p_special_line_graph_base.html#aba111f94248d2f16f09846ae71f80203", null ],
     [ "getKeyLabelColor", "class_j_k_q_t_p_special_line_graph_base.html#a8416751e6f0e4c29018a24ab0e7fa0bf", null ],
     [ "getSpecialLineType", "class_j_k_q_t_p_special_line_graph_base.html#a471f42ce42f919f388761fe974735341", null ],

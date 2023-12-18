@@ -10,7 +10,7 @@ var class_j_k_q_t_p_overlay_image_enhanced =
     [ "JKQTPOverlayImageEnhanced", "class_j_k_q_t_p_overlay_image_enhanced.html#a85c20adfd7a31eec174ca607af17dcba", null ],
     [ "JKQTPOverlayImageEnhanced", "class_j_k_q_t_p_overlay_image_enhanced.html#a5c807d07dbfa0b37f6ebd89bd228041d", null ],
     [ "draw", "class_j_k_q_t_p_overlay_image_enhanced.html#acacbb53ca8113728501a67e06bf30bdb", null ],
-    [ "drawKeyMarker", "class_j_k_q_t_p_overlay_image_enhanced.html#ace6b54521be740b0d1d59e66d66b0801", null ],
+    [ "drawKeyMarker", "class_j_k_q_t_p_overlay_image_enhanced.html#a7644f2afc46b5ba597371cd4fca1e8f6", null ],
     [ "getDrawMode", "class_j_k_q_t_p_overlay_image_enhanced.html#aecbba0edf68f58f757accda9c8be12fe", null ],
     [ "getSymbol", "class_j_k_q_t_p_overlay_image_enhanced.html#a6402e7c71d65f6266d7651d28a195531", null ],
     [ "getSymbolFontName", "class_j_k_q_t_p_overlay_image_enhanced.html#a5e0b065067bdccc74d0694a6c3ed26e3", null ],

@@ -4,7 +4,7 @@ var class_j_k_q_t_p_image_base =
     [ "JKQTPImageBase", "class_j_k_q_t_p_image_base.html#a254a0d01b1a5f5f5a2aaaf569ea13845", null ],
     [ "JKQTPImageBase", "class_j_k_q_t_p_image_base.html#ab783384028e360884c5137dd296e2443", null ],
     [ "JKQTPImageBase", "class_j_k_q_t_p_image_base.html#a072d8048ab3ae08b36c5d6e301823095", null ],
-    [ "drawKeyMarker", "class_j_k_q_t_p_image_base.html#ae7be3368fc09ff6a71e4da85b1c3440c", null ],
+    [ "drawKeyMarker", "class_j_k_q_t_p_image_base.html#aaa161ead5b56faddc9297d08d860f74b", null ],
     [ "getHeight", "class_j_k_q_t_p_image_base.html#a8797a8093ade93744c7562422e299324", null ],
     [ "getKeyLabelColor", "class_j_k_q_t_p_image_base.html#a05a1b7eb06e6dc6f923b4400f52205ce", null ],
     [ "getWidth", "class_j_k_q_t_p_image_base.html#a2871a64b01ec6814e60bc61604af66f6", null ],

@@ -16,7 +16,7 @@ var searchData=
   ['layout_13',['layout',['../class_j_k_q_t_p_key_style.html#a6ed2a4c251b8956ffc8405675cd8d5da',1,'JKQTPKeyStyle']]],
   ['ldpix_14',['ldpix',['../struct_j_k_q_t_math_text_t_b_r_data.html#a4f587aefa1c21ae90d4f4329c8852bac',1,'JKQTMathTextTBRData::ldpiX'],['../struct_j_k_q_t_math_text_t_b_r_data_h.html#afd34a1539d994c3254154893df66dacf',1,'JKQTMathTextTBRDataH::ldpiX'],['../struct_j_k_q_t_base_plotter_1_1text_size_key.html#a0e6bdc7db0111fc3dfd0e02772287f05',1,'JKQTBasePlotter::textSizeKey::ldpiX']]],
   ['ldpiy_15',['ldpiy',['../struct_j_k_q_t_math_text_t_b_r_data.html#a08aceade9d72da524cdc2f54578ebbde',1,'JKQTMathTextTBRData::ldpiY'],['../struct_j_k_q_t_math_text_t_b_r_data_h.html#ae795e2f41701279ade9acdf5a134cbdb',1,'JKQTMathTextTBRDataH::ldpiY'],['../struct_j_k_q_t_base_plotter_1_1text_size_key.html#adc2a5f8fb133250c894ce4ffc41b38c5',1,'JKQTBasePlotter::textSizeKey::ldpiY']]],
-  ['left_16',['left',['../class_j_k_q_t_p_math_parser_1_1jkmp_binary_arithmetic_node.html#a661f56f45962d0c8526fd924d750d951',1,'JKQTPMathParser::jkmpBinaryArithmeticNode::left'],['../class_j_k_q_t_p_math_parser_1_1jkmp_binary_bool_node.html#a34373d8170e99323de1411f5b13107ea',1,'JKQTPMathParser::jkmpBinaryBoolNode::left'],['../class_j_k_q_t_p_math_parser_1_1jkmp_compare_node.html#a6367d7027af04e9dad9b3cf2e3d3932d',1,'JKQTPMathParser::jkmpCompareNode::left']]],
+  ['left_16',['left',['../class_j_k_q_t_p_math_parser_1_1jkmp_binary_arithmetic_node.html#a661f56f45962d0c8526fd924d750d951',1,'JKQTPMathParser::jkmpBinaryArithmeticNode::left'],['../class_j_k_q_t_p_math_parser_1_1jkmp_binary_bool_node.html#a34373d8170e99323de1411f5b13107ea',1,'JKQTPMathParser::jkmpBinaryBoolNode::left'],['../class_j_k_q_t_p_math_parser_1_1jkmp_compare_node.html#a6367d7027af04e9dad9b3cf2e3d3932d',1,'JKQTPMathParser::jkmpCompareNode::left'],['../struct_j_k_q_t_base_plotter_1_1_plot_margin.html#ab310386097caa9aa9faf6c51c9e171d9',1,'JKQTBasePlotter::PlotMargin::left']]],
   ['leftpadding_17',['leftPadding',['../struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html#acb3bc95bde4895bfefdef270d642bd89',1,'JKQTMathTextMatrixNode::LayoutInfo']]],
   ['legacynames_18',['legacyNames',['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a83b0664fbfd93fa407676e959c118afe',1,'JKQTPImageTools::LUTData']]],
   ['line_19',['line',['../struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html#a117e241c52e4d6ff1fe5142a82c61109',1,'JKQTPLinePlotStyleWithSymbolSizeComboBox::styleData']]],
@@ -30,10 +30,11 @@ var searchData=
   ['linewidthprintmultiplier_27',['lineWidthPrintMultiplier',['../class_j_k_q_t_base_plotter.html#ad273bd0fadeb4e8ed64fce45c112cae8',1,'JKQTBasePlotter']]],
   ['linewidthzeroaxis_28',['lineWidthZeroAxis',['../class_j_k_q_t_p_coordinate_axis_style.html#a4a82b969f2586dfa9ac3e27a2c27268b',1,'JKQTPCoordinateAxisStyle']]],
   ['list_29',['list',['../class_j_k_q_t_p_math_parser_1_1jkmp_node_list.html#add81266802dbd4800a38cde8e80850f8',1,'JKQTPMathParser::jkmpNodeList']]],
-  ['logaxis_30',['logAxis',['../class_j_k_q_t_p_coordinate_axis.html#a1345158dee5a29d77c61a69d77b4dec1',1,'JKQTPCoordinateAxis']]],
-  ['logaxisbase_31',['logAxisBase',['../class_j_k_q_t_p_coordinate_axis.html#af37326fcbf25c5af9950724783082102',1,'JKQTPCoordinateAxis']]],
-  ['lstadditionalplotteractions_32',['lstAdditionalPlotterActions',['../class_j_k_q_t_base_plotter.html#a9900616812889e3beeab87fd8785a0f3',1,'JKQTBasePlotter']]],
-  ['lut_33',['lut',['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a715a4a4d1051ffd0009fe0325852e244',1,'JKQTPImageTools::LUTData']]],
-  ['lutmutex_34',['lutMutex',['../struct_j_k_q_t_p_image_tools.html#a9d8c2f3d600f5e1b7282e246e55c0e66',1,'JKQTPImageTools']]],
-  ['lutsize_35',['lutsize',['../struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4',1,'JKQTPImageTools::LUTSIZE'],['../class_j_k_q_t_fast_plotter.html#aa980b0c5cfc859e1200af9c4e525ae64',1,'JKQTFastPlotter::LUTSIZE']]]
+  ['localkeystyle_30',['localKeyStyle',['../class_j_k_q_t_p_base_key.html#ae057eba4da7b7b836448c334a1c4b054',1,'JKQTPBaseKey']]],
+  ['logaxis_31',['logAxis',['../class_j_k_q_t_p_coordinate_axis.html#a1345158dee5a29d77c61a69d77b4dec1',1,'JKQTPCoordinateAxis']]],
+  ['logaxisbase_32',['logAxisBase',['../class_j_k_q_t_p_coordinate_axis.html#af37326fcbf25c5af9950724783082102',1,'JKQTPCoordinateAxis']]],
+  ['lstadditionalplotteractions_33',['lstAdditionalPlotterActions',['../class_j_k_q_t_base_plotter.html#a9900616812889e3beeab87fd8785a0f3',1,'JKQTBasePlotter']]],
+  ['lut_34',['lut',['../struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html#a715a4a4d1051ffd0009fe0325852e244',1,'JKQTPImageTools::LUTData']]],
+  ['lutmutex_35',['lutMutex',['../struct_j_k_q_t_p_image_tools.html#a9d8c2f3d600f5e1b7282e246e55c0e66',1,'JKQTPImageTools']]],
+  ['lutsize_36',['lutsize',['../struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4',1,'JKQTPImageTools::LUTSIZE'],['../class_j_k_q_t_fast_plotter.html#aa980b0c5cfc859e1200af9c4e525ae64',1,'JKQTFastPlotter::LUTSIZE']]]
 ];

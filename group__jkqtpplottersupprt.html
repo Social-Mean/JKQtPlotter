@@ -162,6 +162,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga99d4fbc9751197167c79adf4e706cacb" id="r_ga99d4fbc9751197167c79adf4e706cacb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">typedef</a> <a class="el" href="group__jkqtpplottersupprt.html#ga242826d2d6bf5e6c4c09d0060f4cddb2">JKQTPCoordinateAxes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga99d4fbc9751197167c79adf4e706cacb">JKQTPCoordinateAxisRef</a></td></tr>
 <tr class="memdesc:ga99d4fbc9751197167c79adf4e706cacb"><td class="mdescLeft">&#160;</td><td class="mdescRight">type for indexing coordinate axes in a plot  <br /></td></tr>
 <tr class="separator:ga99d4fbc9751197167c79adf4e706cacb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga491a70c800411ae234da869e31134a78" id="r_ga491a70c800411ae234da869e31134a78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">typedef</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QFlags</a>&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga6305332f22055fcefe3875b98a16b828">JKQTPKeyPositions</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga491a70c800411ae234da869e31134a78">JKQTPKeyPosition</a></td></tr>
+<tr class="memdesc:ga491a70c800411ae234da869e31134a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">position of the key  <br /></td></tr>
+<tr class="separator:ga491a70c800411ae234da869e31134a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga165742edb759ef5f4db13df33037affa" id="r_ga165742edb759ef5f4db13df33037affa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">typedef</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QHash</a>&lt; <a class="el" href="class_j_k_q_t_p_final_act.html">QPair</a>&lt; <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">Qt::MouseButton</a>, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">Qt::KeyboardModifiers</a> &gt;, <a class="el" href="group__jkqtpplottersupprt.html#gad4929dc37ab4326c404de91ef6a60f17">JKQTPMouseDoubleClickActions</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga165742edb759ef5f4db13df33037affa">JKQTPMouseDoubleClickActionsHashMap</a></td></tr>
 <tr class="memdesc:ga165742edb759ef5f4db13df33037affa"><td class="mdescLeft">&#160;</td><td class="mdescRight">data structure for storage of assigned JKQTPMouseDoubleClickActions  <br /></td></tr>
 <tr class="separator:ga165742edb759ef5f4db13df33037affa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -292,41 +295,81 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga12bbc8b1110ac5655e9afcf8ec49b6dfa8d6515779d57ef7bd67e8f56918af253">JKQTPKeyLayoutMultiColumn</a>
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga12bbc8b1110ac5655e9afcf8ec49b6dfab26b594e945414b766c7af178ff712f1">JKQTPKeyLayoutMax</a> =JKQTPKeyLayoutMultiColumn
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga12bbc8b1110ac5655e9afcf8ec49b6dfadf40f143f0eb6ac4cd3660ac3ca4afdd">JKQTPKeyLayoutMultiRow</a>
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga12bbc8b1110ac5655e9afcf8ec49b6dfab26b594e945414b766c7af178ff712f1">JKQTPKeyLayoutMax</a> =JKQTPKeyLayoutMultiRow
 <br />
  }</td></tr>
 <tr class="memdesc:ga12bbc8b1110ac5655e9afcf8ec49b6df"><td class="mdescLeft">&#160;</td><td class="mdescRight">layout of the key  <a href="group__jkqtpplottersupprt.html#ga12bbc8b1110ac5655e9afcf8ec49b6df">More...</a><br /></td></tr>
 <tr class="separator:ga12bbc8b1110ac5655e9afcf8ec49b6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga53dd9054ccf1f02e17d1867ddab7183f" id="r_ga53dd9054ccf1f02e17d1867ddab7183f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga53dd9054ccf1f02e17d1867ddab7183f">JKQTPKeyPosition</a> { <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga53dd9054ccf1f02e17d1867ddab7183fa7e4ce2ac9850a307f5fb051a823cd780">JKQTPKeyOutsideTopRight</a> =0
+<tr class="memitem:ga6305332f22055fcefe3875b98a16b828" id="r_ga6305332f22055fcefe3875b98a16b828"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga6305332f22055fcefe3875b98a16b828">JKQTPKeyPositions</a> { <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a827f3e8d4ecc31466152f222bf828c8d">JKQTPKeyInside</a> =0x0001
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga53dd9054ccf1f02e17d1867ddab7183fa7e3b6989effdec6968d0f62b44c94adb">JKQTPKeyOutsideTopLeft</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828aa27488aa79a2565e58c1978f075cb7a1">JKQTPKeyOutsideTop</a> =0x0010
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga53dd9054ccf1f02e17d1867ddab7183fa4b86dc037c73f78be979dcc43c6953ad">JKQTPKeyOutsideLeftTop</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a28f54ebd7a55ce7d67aa95cbcae57dc4">JKQTPKeyOutsideBottom</a> =0x0020
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga53dd9054ccf1f02e17d1867ddab7183fae49789d1650323e3e31054d3ad2acb0a">JKQTPKeyOutsideLeftBottom</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a5ab6a62351b8a0a2508507344fa89492">JKQTPKeyOutsideLeft</a> =0x0040
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga53dd9054ccf1f02e17d1867ddab7183faef06ca55487e0817371b5760aa3d84ae">JKQTPKeyOutsideRightBottom</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828ae2907e6bfeb436d3a467c9531bb7b028">JKQTPKeyOutsideRight</a> =0x0080
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga53dd9054ccf1f02e17d1867ddab7183fade800631d4883f4a0f5643ba26d3e1c8">JKQTPKeyOutsideRightTop</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a0651b4db9d5330864284a481b6f983c6">JKQTPKeyLeft</a> =0x0100
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga53dd9054ccf1f02e17d1867ddab7183faf3cb7db0c51588301dac89c2302615e9">JKQTPKeyOutsideBottomLeft</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a502e6cd560538d745c845f73760440f3">JKQTPKeyHCenter</a> =0x0200
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga53dd9054ccf1f02e17d1867ddab7183fa70b04cd30a7bac3ea8747290388d054a">JKQTPKeyOutsideBottomRight</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828acd2aa98b18c1706f4433c29a4a42ce86">JKQTPKeyRight</a> =0x0400
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga53dd9054ccf1f02e17d1867ddab7183fad2aa253d9711e1df6d09dcab807c6f22">JKQTPKeyInsideTopRight</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a70ee730c6a5164da6282aec66580cdfc">JKQTPKeyTop</a> =0x1000
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga53dd9054ccf1f02e17d1867ddab7183fa97a0dfe03f6ec7a8bd9a88dcda6ab50e">JKQTPKeyInsideTopLeft</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828ace6e1bc8ebfd34388e3104dd46e30a36">JKQTPKeyVCenter</a> =0x2000
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga53dd9054ccf1f02e17d1867ddab7183fa23d6d43b4fe57c692256fe02cccc6da8">JKQTPKeyInsideBottomLeft</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a220b4c3042e1fb43774a669e0d3152f8">JKQTPKeyBottom</a> =0x4000
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga53dd9054ccf1f02e17d1867ddab7183fa7c395ba2a18f7221b937f4b8fb613b1a">JKQTPKeyInsideBottomRight</a>
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a7e4ce2ac9850a307f5fb051a823cd780">JKQTPKeyOutsideTopRight</a> =JKQTPKeyOutsideTop|JKQTPKeyBottom|JKQTPKeyRight
 , <br />
-&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga53dd9054ccf1f02e17d1867ddab7183fa47b62b28c37267dba34fe1abda19b413">JKQTPKeyPositionMax</a> =JKQTPKeyInsideBottomRight
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a7e3b6989effdec6968d0f62b44c94adb">JKQTPKeyOutsideTopLeft</a> =JKQTPKeyOutsideTop|JKQTPKeyBottom|JKQTPKeyLeft
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a7992c0ac79da0bd5992c29a046f2fd56">JKQTPKeyOutsideTopCenter</a> =JKQTPKeyOutsideTop|JKQTPKeyBottom|JKQTPKeyHCenter
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828af3cb7db0c51588301dac89c2302615e9">JKQTPKeyOutsideBottomLeft</a> =JKQTPKeyOutsideBottom|JKQTPKeyTop|JKQTPKeyLeft
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a70b04cd30a7bac3ea8747290388d054a">JKQTPKeyOutsideBottomRight</a> =JKQTPKeyOutsideBottom|JKQTPKeyTop|JKQTPKeyRight
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a0e83b481a63208a3913cd590c84abe3e">JKQTPKeyOutsideBottomCenter</a> =JKQTPKeyOutsideBottom|JKQTPKeyTop|JKQTPKeyHCenter
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a4b86dc037c73f78be979dcc43c6953ad">JKQTPKeyOutsideLeftTop</a> =JKQTPKeyOutsideLeft|JKQTPKeyTop|JKQTPKeyRight
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a9c359c6f3222abd098ba0a31dce4fb4e">JKQTPKeyOutsideLeftCenter</a> =JKQTPKeyOutsideLeft|JKQTPKeyVCenter|JKQTPKeyRight
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828ae49789d1650323e3e31054d3ad2acb0a">JKQTPKeyOutsideLeftBottom</a> =JKQTPKeyOutsideLeft|JKQTPKeyBottom|JKQTPKeyRight
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828aef06ca55487e0817371b5760aa3d84ae">JKQTPKeyOutsideRightBottom</a> =JKQTPKeyOutsideRight|JKQTPKeyBottom|JKQTPKeyLeft
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828ab84513d839cbd619d2f4fc79895333ef">JKQTPKeyOutsideRightCenter</a> =JKQTPKeyOutsideRight|JKQTPKeyVCenter|JKQTPKeyLeft
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828ade800631d4883f4a0f5643ba26d3e1c8">JKQTPKeyOutsideRightTop</a> =JKQTPKeyOutsideRight|JKQTPKeyTop|JKQTPKeyLeft
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828ad2aa253d9711e1df6d09dcab807c6f22">JKQTPKeyInsideTopRight</a> =JKQTPKeyInside|JKQTPKeyTop|JKQTPKeyRight
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a97a0dfe03f6ec7a8bd9a88dcda6ab50e">JKQTPKeyInsideTopLeft</a> =JKQTPKeyInside|JKQTPKeyTop|JKQTPKeyLeft
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a23d6d43b4fe57c692256fe02cccc6da8">JKQTPKeyInsideBottomLeft</a> =JKQTPKeyInside|JKQTPKeyBottom|JKQTPKeyLeft
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a7c395ba2a18f7221b937f4b8fb613b1a">JKQTPKeyInsideBottomRight</a> =JKQTPKeyInside|JKQTPKeyBottom|JKQTPKeyRight
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a567e06d3572cf0c03465a145484491d9">JKQTPKeyInsideTop</a> =JKQTPKeyInside|JKQTPKeyTop|JKQTPKeyHCenter
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828ac3c68ea19ff3637e8b75e33461c14fe7">JKQTPKeyInsideBottom</a> =JKQTPKeyInside|JKQTPKeyBottom|JKQTPKeyHCenter
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a04ead560aedc5b1430c7acef75dd2cd2">JKQTPKeyInsideLeft</a> =JKQTPKeyInside|JKQTPKeyVCenter|JKQTPKeyLeft
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828a88be0e8583e8a3cebde04ddae0185a97">JKQTPKeyInsideRight</a> =JKQTPKeyInside|JKQTPKeyVCenter|JKQTPKeyRight
+, <br />
+&#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6305332f22055fcefe3875b98a16b828ae3391f070aabf3485dc2fd4ed163c201">JKQTPKeyDefaultPosition</a> =JKQTPKeyInsideTopRight
 <br />
  }</td></tr>
-<tr class="memdesc:ga53dd9054ccf1f02e17d1867ddab7183f"><td class="mdescLeft">&#160;</td><td class="mdescRight">position of the key  <a href="group__jkqtpplottersupprt.html#ga53dd9054ccf1f02e17d1867ddab7183f">More...</a><br /></td></tr>
-<tr class="separator:ga53dd9054ccf1f02e17d1867ddab7183f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ga6305332f22055fcefe3875b98a16b828"><td class="mdescLeft">&#160;</td><td class="mdescRight">position of the key  <a href="group__jkqtpplottersupprt.html#ga6305332f22055fcefe3875b98a16b828">More...</a><br /></td></tr>
+<tr class="separator:ga6305332f22055fcefe3875b98a16b828"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6cb5c7e72efa604416b2ac1ac3fc55cd" id="r_ga6cb5c7e72efa604416b2ac1ac3fc55cd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga6cb5c7e72efa604416b2ac1ac3fc55cd">JKQTPLabelPosition</a> { <br />
 &#160;&#160;<a class="el" href="group__jkqtpplottersupprt.html#gga6cb5c7e72efa604416b2ac1ac3fc55cda1fb40f7ba943ef4d30d74a3bc15ca802">JKQTPLabelMin</a> =0
 , <br />
@@ -453,10 +496,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ga25e501758d845305d25a67976bf41bfd" id="r_ga25e501758d845305d25a67976bf41bfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga25e501758d845305d25a67976bf41bfd">JKQTPContextMenuModes2String</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga80d2235c912ead563f404f4e7f331137">JKQTPContextMenuModes</a> <a class="el" href="class_j_k_q_t_p_final_act.html">act</a>)</td></tr>
 <tr class="memdesc:ga25e501758d845305d25a67976bf41bfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a JKQTPContextMenuModes to a <a href="http://doc.qt.io/qt-5/qstring.html">QString</a>  <br /></td></tr>
 <tr class="separator:ga25e501758d845305d25a67976bf41bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga47686dd5a50fb3f312691e370b9a8d9e" id="r_ga47686dd5a50fb3f312691e370b9a8d9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> QList&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga491a70c800411ae234da869e31134a78">JKQTPKeyPosition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga47686dd5a50fb3f312691e370b9a8d9e">JKQTPGetTypicalKeyPositions</a> ()</td></tr>
+<tr class="memdesc:ga47686dd5a50fb3f312691e370b9a8d9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a list of typical positions of the main key  <br /></td></tr>
+<tr class="separator:ga47686dd5a50fb3f312691e370b9a8d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga59156aa00aae9f4fc0ff99b076d9b736" id="r_ga59156aa00aae9f4fc0ff99b076d9b736"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga59156aa00aae9f4fc0ff99b076d9b736">JKQTPKeyLayout2String</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga12bbc8b1110ac5655e9afcf8ec49b6df">JKQTPKeyLayout</a> pos)</td></tr>
 <tr class="memdesc:ga59156aa00aae9f4fc0ff99b076d9b736"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts a JKQTPKeyLayout variable into a human-readable string  <br /></td></tr>
 <tr class="separator:ga59156aa00aae9f4fc0ff99b076d9b736"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga48f82a62d595db530b4c7d0b0d1fa9c6" id="r_ga48f82a62d595db530b4c7d0b0d1fa9c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga48f82a62d595db530b4c7d0b0d1fa9c6">JKQTPKeyPosition2String</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga53dd9054ccf1f02e17d1867ddab7183f">JKQTPKeyPosition</a> pos)</td></tr>
+<tr class="memitem:ga48f82a62d595db530b4c7d0b0d1fa9c6" id="r_ga48f82a62d595db530b4c7d0b0d1fa9c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga48f82a62d595db530b4c7d0b0d1fa9c6">JKQTPKeyPosition2String</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga491a70c800411ae234da869e31134a78">JKQTPKeyPosition</a> pos)</td></tr>
 <tr class="memdesc:ga48f82a62d595db530b4c7d0b0d1fa9c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts a JKQTPLabelPosition variable into a human-readable string  <br /></td></tr>
 <tr class="separator:ga48f82a62d595db530b4c7d0b0d1fa9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga457447641f34eb76652b651a6d41c890" id="r_ga457447641f34eb76652b651a6d41c890"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga457447641f34eb76652b651a6d41c890">JKQTPLabelPosition2String</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga6cb5c7e72efa604416b2ac1ac3fc55cd">JKQTPLabelPosition</a> pos)</td></tr>
@@ -504,7 +550,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga16a37455135c647b354c829cb136b093" id="r_ga16a37455135c647b354c829cb136b093"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="group__jkqtpplottersupprt.html#ga12bbc8b1110ac5655e9afcf8ec49b6df">JKQTPKeyLayout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga16a37455135c647b354c829cb136b093">String2JKQTPKeyLayout</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;pos)</td></tr>
 <tr class="memdesc:ga16a37455135c647b354c829cb136b093"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts a String into a JKQTPKeyLayout  <br /></td></tr>
 <tr class="separator:ga16a37455135c647b354c829cb136b093"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga333d218dffb5ae94faefcca0ddc3c78a" id="r_ga333d218dffb5ae94faefcca0ddc3c78a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="group__jkqtpplottersupprt.html#ga53dd9054ccf1f02e17d1867ddab7183f">JKQTPKeyPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga333d218dffb5ae94faefcca0ddc3c78a">String2JKQTPKeyPosition</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;pos)</td></tr>
+<tr class="memitem:ga333d218dffb5ae94faefcca0ddc3c78a" id="r_ga333d218dffb5ae94faefcca0ddc3c78a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="group__jkqtpplottersupprt.html#ga491a70c800411ae234da869e31134a78">JKQTPKeyPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga333d218dffb5ae94faefcca0ddc3c78a">String2JKQTPKeyPosition</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;pos)</td></tr>
 <tr class="memdesc:ga333d218dffb5ae94faefcca0ddc3c78a"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts a string into a JKQTPLabelPosition  <br /></td></tr>
 <tr class="separator:ga333d218dffb5ae94faefcca0ddc3c78a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga919c1476f937c878ae6c39b8de048e6c" id="r_ga919c1476f937c878ae6c39b8de048e6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="group__jkqtpplottersupprt.html#ga6cb5c7e72efa604416b2ac1ac3fc55cd">JKQTPLabelPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtpplottersupprt.html#ga919c1476f937c878ae6c39b8de048e6c">String2JKQTPLabelPosition</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;pos)</td></tr>
@@ -691,6 +737,24 @@ logic y-position of a graph, relative to the current JKQtPlotter </td></tr>
 </div><div class="memdoc">
 
 <p>type for indexing coordinate axes in a plot </p>
+
+</div>
+</div>
+<a id="ga491a70c800411ae234da869e31134a78" name="ga491a70c800411ae234da869e31134a78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga491a70c800411ae234da869e31134a78">&#9670;&#160;</a></span>JKQTPKeyPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">typedef</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QFlags</a>&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga6305332f22055fcefe3875b98a16b828">JKQTPKeyPositions</a> &gt; <a class="el" href="group__jkqtpplottersupprt.html#ga491a70c800411ae234da869e31134a78">JKQTPKeyPosition</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>position of the key </p>
+<dl class="section note"><dt>Note</dt><dd>The JKQTPKeyPosition type is a typedef for <code><a href="https://doc.qt.io/qt-6/qflags.html">QFlags</a>&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga6305332f22055fcefe3875b98a16b828">JKQTPKeyPositions</a> &gt;</code>. It stores an OR (<code>||</code> ) combination of <a class="el" href="group__jkqtpplottersupprt.html#ga6305332f22055fcefe3875b98a16b828">JKQTPKeyPositions</a> values.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplottersupprt.html#ga6305332f22055fcefe3875b98a16b828" title="position of the key">JKQTPKeyPositions</a>, <a class="el" href="class_j_k_q_t_p_key_style.html" title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">JKQTPKeyStyle</a>, JKQTPKeyBase, <a class="el" href="group__jkqtpplottersupprt.html#ga47686dd5a50fb3f312691e370b9a8d9e" title="returns a list of typical positions of the main key">JKQTPGetTypicalKeyPositions()</a> </dd></dl>
 
 </div>
 </div>
@@ -1099,55 +1163,168 @@ Zooming with the mouse</div></div>
 <p>layout of the key </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfaa392dda89bd8a1f13de455f1200f4ff7" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfaa392dda89bd8a1f13de455f1200f4ff7"></a>JKQTPKeyLayoutOneColumn&#160;</td><td class="fielddoc"><p>the key consists of one column </p>
-</td></tr>
+<div class="image">
+<img src="JKQTPKeyLayout_one_column.png" alt=""/>
+</div>
+ </td></tr>
 <tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfa0a206f9051403ecdc2d888305a53eb99" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfa0a206f9051403ecdc2d888305a53eb99"></a>JKQTPKeyLayoutOneRow&#160;</td><td class="fielddoc"><p>the key consists of one row </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfa8d6515779d57ef7bd67e8f56918af253" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfa8d6515779d57ef7bd67e8f56918af253"></a>JKQTPKeyLayoutMultiColumn&#160;</td><td class="fielddoc"><p>the key consists of multiple columns </p>
-</td></tr>
+<div class="image">
+<img src="JKQTPKeyLayout_one_row.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfa8d6515779d57ef7bd67e8f56918af253" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfa8d6515779d57ef7bd67e8f56918af253"></a>JKQTPKeyLayoutMultiColumn&#160;</td><td class="fielddoc"><p>the key consists of multiple columns, (top-&gt;bottom, top-&gt;bottom, ...) </p>
+<div class="image">
+<img src="JKQTPKeyLayout_multi_column.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfadf40f143f0eb6ac4cd3660ac3ca4afdd" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfadf40f143f0eb6ac4cd3660ac3ca4afdd"></a>JKQTPKeyLayoutMultiRow&#160;</td><td class="fielddoc"><p>the key consists of multiple rows (left-&gt;right,left-&gt;right,...) </p>
+<div class="image">
+<img src="JKQTPKeyLayout_multi_row.png" alt=""/>
+</div>
+ </td></tr>
 <tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfab26b594e945414b766c7af178ff712f1" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfab26b594e945414b766c7af178ff712f1"></a>JKQTPKeyLayoutMax&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<a id="ga53dd9054ccf1f02e17d1867ddab7183f" name="ga53dd9054ccf1f02e17d1867ddab7183f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga53dd9054ccf1f02e17d1867ddab7183f">&#9670;&#160;</a></span>JKQTPKeyPosition</h2>
+<a id="ga6305332f22055fcefe3875b98a16b828" name="ga6305332f22055fcefe3875b98a16b828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6305332f22055fcefe3875b98a16b828">&#9670;&#160;</a></span>JKQTPKeyPositions</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">enum</a> <a class="el" href="group__jkqtpplottersupprt.html#ga53dd9054ccf1f02e17d1867ddab7183f">JKQTPKeyPosition</a></td>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">enum</a> <a class="el" href="group__jkqtpplottersupprt.html#ga6305332f22055fcefe3875b98a16b828">JKQTPKeyPositions</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>position of the key </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplottersupprt.html#ga491a70c800411ae234da869e31134a78" title="position of the key">JKQTPKeyPosition</a>, <a class="el" href="class_j_k_q_t_p_key_style.html" title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">JKQTPKeyStyle</a>, JKQTPKeyBase, <a class="el" href="group__jkqtpplottersupprt.html#ga47686dd5a50fb3f312691e370b9a8d9e" title="returns a list of typical positions of the main key">JKQTPGetTypicalKeyPositions()</a> </dd></dl>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga53dd9054ccf1f02e17d1867ddab7183fa7e4ce2ac9850a307f5fb051a823cd780" name="gga53dd9054ccf1f02e17d1867ddab7183fa7e4ce2ac9850a307f5fb051a823cd780"></a>JKQTPKeyOutsideTopRight&#160;</td><td class="fielddoc"><p>the key is positioned on the right side of the graph </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a827f3e8d4ecc31466152f222bf828c8d" name="gga6305332f22055fcefe3875b98a16b828a827f3e8d4ecc31466152f222bf828c8d"></a>JKQTPKeyInside&#160;</td><td class="fielddoc"><p>key is drawn inside the plot rectangle </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga53dd9054ccf1f02e17d1867ddab7183fa7e3b6989effdec6968d0f62b44c94adb" name="gga53dd9054ccf1f02e17d1867ddab7183fa7e3b6989effdec6968d0f62b44c94adb"></a>JKQTPKeyOutsideTopLeft&#160;</td><td class="fielddoc"><p>the key is positioned on the left side of the graph </p>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828aa27488aa79a2565e58c1978f075cb7a1" name="gga6305332f22055fcefe3875b98a16b828aa27488aa79a2565e58c1978f075cb7a1"></a>JKQTPKeyOutsideTop&#160;</td><td class="fielddoc"><p>key is drawn outside and above of the plot rectangle </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga53dd9054ccf1f02e17d1867ddab7183fa4b86dc037c73f78be979dcc43c6953ad" name="gga53dd9054ccf1f02e17d1867ddab7183fa4b86dc037c73f78be979dcc43c6953ad"></a>JKQTPKeyOutsideLeftTop&#160;</td><td class="fielddoc"><p>the key is positioned above the graph </p>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a28f54ebd7a55ce7d67aa95cbcae57dc4" name="gga6305332f22055fcefe3875b98a16b828a28f54ebd7a55ce7d67aa95cbcae57dc4"></a>JKQTPKeyOutsideBottom&#160;</td><td class="fielddoc"><p>key is drawn outside and below of the plot rectangle </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga53dd9054ccf1f02e17d1867ddab7183fae49789d1650323e3e31054d3ad2acb0a" name="gga53dd9054ccf1f02e17d1867ddab7183fae49789d1650323e3e31054d3ad2acb0a"></a>JKQTPKeyOutsideLeftBottom&#160;</td><td class="fielddoc"><p>the key is positioned below the graph </p>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a5ab6a62351b8a0a2508507344fa89492" name="gga6305332f22055fcefe3875b98a16b828a5ab6a62351b8a0a2508507344fa89492"></a>JKQTPKeyOutsideLeft&#160;</td><td class="fielddoc"><p>key is drawn outside and on the left of the plot rectangle </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga53dd9054ccf1f02e17d1867ddab7183faef06ca55487e0817371b5760aa3d84ae" name="gga53dd9054ccf1f02e17d1867ddab7183faef06ca55487e0817371b5760aa3d84ae"></a>JKQTPKeyOutsideRightBottom&#160;</td><td class="fielddoc"><p>the key is positioned on the right side of the graph </p>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828ae2907e6bfeb436d3a467c9531bb7b028" name="gga6305332f22055fcefe3875b98a16b828ae2907e6bfeb436d3a467c9531bb7b028"></a>JKQTPKeyOutsideRight&#160;</td><td class="fielddoc"><p>key is drawn outside and on the rightof the plot rectangle </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga53dd9054ccf1f02e17d1867ddab7183fade800631d4883f4a0f5643ba26d3e1c8" name="gga53dd9054ccf1f02e17d1867ddab7183fade800631d4883f4a0f5643ba26d3e1c8"></a>JKQTPKeyOutsideRightTop&#160;</td><td class="fielddoc"><p>the key is positioned on the left side of the graph </p>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a0651b4db9d5330864284a481b6f983c6" name="gga6305332f22055fcefe3875b98a16b828a0651b4db9d5330864284a481b6f983c6"></a>JKQTPKeyLeft&#160;</td><td class="fielddoc"><p>key is drawn to the left </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga53dd9054ccf1f02e17d1867ddab7183faf3cb7db0c51588301dac89c2302615e9" name="gga53dd9054ccf1f02e17d1867ddab7183faf3cb7db0c51588301dac89c2302615e9"></a>JKQTPKeyOutsideBottomLeft&#160;</td><td class="fielddoc"><p>the key is positioned above the graph </p>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a502e6cd560538d745c845f73760440f3" name="gga6305332f22055fcefe3875b98a16b828a502e6cd560538d745c845f73760440f3"></a>JKQTPKeyHCenter&#160;</td><td class="fielddoc"><p>key is drawn to the horizontal center </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga53dd9054ccf1f02e17d1867ddab7183fa70b04cd30a7bac3ea8747290388d054a" name="gga53dd9054ccf1f02e17d1867ddab7183fa70b04cd30a7bac3ea8747290388d054a"></a>JKQTPKeyOutsideBottomRight&#160;</td><td class="fielddoc"><p>the key is positioned below the graph </p>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828acd2aa98b18c1706f4433c29a4a42ce86" name="gga6305332f22055fcefe3875b98a16b828acd2aa98b18c1706f4433c29a4a42ce86"></a>JKQTPKeyRight&#160;</td><td class="fielddoc"><p>key is drawn to the right </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga53dd9054ccf1f02e17d1867ddab7183fad2aa253d9711e1df6d09dcab807c6f22" name="gga53dd9054ccf1f02e17d1867ddab7183fad2aa253d9711e1df6d09dcab807c6f22"></a>JKQTPKeyInsideTopRight&#160;</td><td class="fielddoc"><p>the key is positioned inside on the right side of the graph, but inside the graph </p>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a70ee730c6a5164da6282aec66580cdfc" name="gga6305332f22055fcefe3875b98a16b828a70ee730c6a5164da6282aec66580cdfc"></a>JKQTPKeyTop&#160;</td><td class="fielddoc"><p>key is drawn to the top </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga53dd9054ccf1f02e17d1867ddab7183fa97a0dfe03f6ec7a8bd9a88dcda6ab50e" name="gga53dd9054ccf1f02e17d1867ddab7183fa97a0dfe03f6ec7a8bd9a88dcda6ab50e"></a>JKQTPKeyInsideTopLeft&#160;</td><td class="fielddoc"><p>the key is positioned inside on the left side of the graph </p>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828ace6e1bc8ebfd34388e3104dd46e30a36" name="gga6305332f22055fcefe3875b98a16b828ace6e1bc8ebfd34388e3104dd46e30a36"></a>JKQTPKeyVCenter&#160;</td><td class="fielddoc"><p>key is drawn to the vertical center </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga53dd9054ccf1f02e17d1867ddab7183fa23d6d43b4fe57c692256fe02cccc6da8" name="gga53dd9054ccf1f02e17d1867ddab7183fa23d6d43b4fe57c692256fe02cccc6da8"></a>JKQTPKeyInsideBottomLeft&#160;</td><td class="fielddoc"><p>the key is positioned inside on the upper bound of the graph </p>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a220b4c3042e1fb43774a669e0d3152f8" name="gga6305332f22055fcefe3875b98a16b828a220b4c3042e1fb43774a669e0d3152f8"></a>JKQTPKeyBottom&#160;</td><td class="fielddoc"><p>key is drawn to the bottom </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga53dd9054ccf1f02e17d1867ddab7183fa7c395ba2a18f7221b937f4b8fb613b1a" name="gga53dd9054ccf1f02e17d1867ddab7183fa7c395ba2a18f7221b937f4b8fb613b1a"></a>JKQTPKeyInsideBottomRight&#160;</td><td class="fielddoc"><p>the key is positioned inside on the lower bound of the graph </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga53dd9054ccf1f02e17d1867ddab7183fa47b62b28c37267dba34fe1abda19b413" name="gga53dd9054ccf1f02e17d1867ddab7183fa47b62b28c37267dba34fe1abda19b413"></a>JKQTPKeyPositionMax&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a7e4ce2ac9850a307f5fb051a823cd780" name="gga6305332f22055fcefe3875b98a16b828a7e4ce2ac9850a307f5fb051a823cd780"></a>JKQTPKeyOutsideTopRight&#160;</td><td class="fielddoc"><p>the key is positioned above the graph, on the right </p>
+<div class="image">
+<img src="JKQTPKeyOutsideTopRight.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a7e3b6989effdec6968d0f62b44c94adb" name="gga6305332f22055fcefe3875b98a16b828a7e3b6989effdec6968d0f62b44c94adb"></a>JKQTPKeyOutsideTopLeft&#160;</td><td class="fielddoc"><p>the key is positioned above the graph, on the left </p>
+<div class="image">
+<img src="JKQTPKeyOutsideTopLeft.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a7992c0ac79da0bd5992c29a046f2fd56" name="gga6305332f22055fcefe3875b98a16b828a7992c0ac79da0bd5992c29a046f2fd56"></a>JKQTPKeyOutsideTopCenter&#160;</td><td class="fielddoc"><p>the key is positioned above the graph, in the center </p>
+<div class="image">
+<img src="JKQTPKeyOutsideTopCenter.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828af3cb7db0c51588301dac89c2302615e9" name="gga6305332f22055fcefe3875b98a16b828af3cb7db0c51588301dac89c2302615e9"></a>JKQTPKeyOutsideBottomLeft&#160;</td><td class="fielddoc"><p>the key is positioned below the graph, on the left </p>
+<div class="image">
+<img src="JKQTPKeyOutsideBottomLeft.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a70b04cd30a7bac3ea8747290388d054a" name="gga6305332f22055fcefe3875b98a16b828a70b04cd30a7bac3ea8747290388d054a"></a>JKQTPKeyOutsideBottomRight&#160;</td><td class="fielddoc"><p>the key is positioned below the graph, on the right </p>
+<div class="image">
+<img src="JKQTPKeyOutsideBottomRight.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a0e83b481a63208a3913cd590c84abe3e" name="gga6305332f22055fcefe3875b98a16b828a0e83b481a63208a3913cd590c84abe3e"></a>JKQTPKeyOutsideBottomCenter&#160;</td><td class="fielddoc"><p>the key is positioned below the graph, in the center </p>
+<div class="image">
+<img src="JKQTPKeyOutsideBottomCenter.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a4b86dc037c73f78be979dcc43c6953ad" name="gga6305332f22055fcefe3875b98a16b828a4b86dc037c73f78be979dcc43c6953ad"></a>JKQTPKeyOutsideLeftTop&#160;</td><td class="fielddoc"><p>the key is positioned on the left side of the graph, towards the top </p>
+<div class="image">
+<img src="JKQTPKeyOutsideLeftTop.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a9c359c6f3222abd098ba0a31dce4fb4e" name="gga6305332f22055fcefe3875b98a16b828a9c359c6f3222abd098ba0a31dce4fb4e"></a>JKQTPKeyOutsideLeftCenter&#160;</td><td class="fielddoc"><p>the key is positioned on the left side of the graph, in the center </p>
+<div class="image">
+<img src="JKQTPKeyOutsideLeftCenter.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828ae49789d1650323e3e31054d3ad2acb0a" name="gga6305332f22055fcefe3875b98a16b828ae49789d1650323e3e31054d3ad2acb0a"></a>JKQTPKeyOutsideLeftBottom&#160;</td><td class="fielddoc"><p>the key is positioned on the left side of the graph, towards the Bottom </p>
+<div class="image">
+<img src="JKQTPKeyOutsideLeftBottom.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828aef06ca55487e0817371b5760aa3d84ae" name="gga6305332f22055fcefe3875b98a16b828aef06ca55487e0817371b5760aa3d84ae"></a>JKQTPKeyOutsideRightBottom&#160;</td><td class="fielddoc"><p>the key is positioned on the right side of the graph, towards the bottom </p>
+<div class="image">
+<img src="JKQTPKeyOutsideRightBottom.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828ab84513d839cbd619d2f4fc79895333ef" name="gga6305332f22055fcefe3875b98a16b828ab84513d839cbd619d2f4fc79895333ef"></a>JKQTPKeyOutsideRightCenter&#160;</td><td class="fielddoc"><p>the key is positioned on the right side of the graph, in the center </p>
+<div class="image">
+<img src="JKQTPKeyOutsideRightCenter.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828ade800631d4883f4a0f5643ba26d3e1c8" name="gga6305332f22055fcefe3875b98a16b828ade800631d4883f4a0f5643ba26d3e1c8"></a>JKQTPKeyOutsideRightTop&#160;</td><td class="fielddoc"><p>the key is positioned on the left side of the graph, towards the top </p>
+<div class="image">
+<img src="JKQTPKeyOutsideRightTop.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828ad2aa253d9711e1df6d09dcab807c6f22" name="gga6305332f22055fcefe3875b98a16b828ad2aa253d9711e1df6d09dcab807c6f22"></a>JKQTPKeyInsideTopRight&#160;</td><td class="fielddoc"><p>the key is positioned inside on the top-right </p>
+<div class="image">
+<img src="JKQTPKeyInsideTopRight.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a97a0dfe03f6ec7a8bd9a88dcda6ab50e" name="gga6305332f22055fcefe3875b98a16b828a97a0dfe03f6ec7a8bd9a88dcda6ab50e"></a>JKQTPKeyInsideTopLeft&#160;</td><td class="fielddoc"><p>the key is positioned inside on the top-left </p>
+<div class="image">
+<img src="JKQTPKeyInsideTopLeft.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a23d6d43b4fe57c692256fe02cccc6da8" name="gga6305332f22055fcefe3875b98a16b828a23d6d43b4fe57c692256fe02cccc6da8"></a>JKQTPKeyInsideBottomLeft&#160;</td><td class="fielddoc"><p>the key is positioned inside on the bottom-left </p>
+<div class="image">
+<img src="JKQTPKeyInsideBottomLeft.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a7c395ba2a18f7221b937f4b8fb613b1a" name="gga6305332f22055fcefe3875b98a16b828a7c395ba2a18f7221b937f4b8fb613b1a"></a>JKQTPKeyInsideBottomRight&#160;</td><td class="fielddoc"><p>the key is positioned inside on the bottom-right </p>
+<div class="image">
+<img src="JKQTPKeyInsideBottomRight.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a567e06d3572cf0c03465a145484491d9" name="gga6305332f22055fcefe3875b98a16b828a567e06d3572cf0c03465a145484491d9"></a>JKQTPKeyInsideTop&#160;</td><td class="fielddoc"><p>the key is positioned inside on the top-center </p>
+<div class="image">
+<img src="JKQTPKeyInsideTop.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828ac3c68ea19ff3637e8b75e33461c14fe7" name="gga6305332f22055fcefe3875b98a16b828ac3c68ea19ff3637e8b75e33461c14fe7"></a>JKQTPKeyInsideBottom&#160;</td><td class="fielddoc"><p>the key is positioned inside on the bottom-center </p>
+<div class="image">
+<img src="JKQTPKeyInsideBottom.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a04ead560aedc5b1430c7acef75dd2cd2" name="gga6305332f22055fcefe3875b98a16b828a04ead560aedc5b1430c7acef75dd2cd2"></a>JKQTPKeyInsideLeft&#160;</td><td class="fielddoc"><p>the key is positioned inside on the center-left </p>
+<div class="image">
+<img src="JKQTPKeyInsideLeft.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828a88be0e8583e8a3cebde04ddae0185a97" name="gga6305332f22055fcefe3875b98a16b828a88be0e8583e8a3cebde04ddae0185a97"></a>JKQTPKeyInsideRight&#160;</td><td class="fielddoc"><p>the key is positioned inside on the center-right </p>
+<div class="image">
+<img src="JKQTPKeyInsideRight.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="gga6305332f22055fcefe3875b98a16b828ae3391f070aabf3485dc2fd4ed163c201" name="gga6305332f22055fcefe3875b98a16b828ae3391f070aabf3485dc2fd4ed163c201"></a>JKQTPKeyDefaultPosition&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1555,6 +1732,27 @@ Draw Lines User-Action</div></div>
 
 </div>
 </div>
+<a id="ga47686dd5a50fb3f312691e370b9a8d9e" name="ga47686dd5a50fb3f312691e370b9a8d9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga47686dd5a50fb3f312691e370b9a8d9e">&#9670;&#160;</a></span>JKQTPGetTypicalKeyPositions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> QList&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga491a70c800411ae234da869e31134a78">JKQTPKeyPosition</a> &gt; JKQTPGetTypicalKeyPositions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns a list of typical positions of the main key </p>
+<dl class="section note"><dt>Note</dt><dd>The JKQTPKeyPosition type is a typedef for <code><a href="https://doc.qt.io/qt-6/qflags.html">QFlags</a>&lt; <a class="el" href="group__jkqtpplottersupprt.html#ga6305332f22055fcefe3875b98a16b828">JKQTPKeyPositions</a> &gt;</code>. It stores an OR (<code>||</code> ) combination of <a class="el" href="group__jkqtpplottersupprt.html#ga6305332f22055fcefe3875b98a16b828">JKQTPKeyPositions</a> values.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtpplottersupprt.html#ga6305332f22055fcefe3875b98a16b828" title="position of the key">JKQTPKeyPositions</a>, <a class="el" href="class_j_k_q_t_p_key_style.html" title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">JKQTPKeyStyle</a>, JKQTPKeyBase </dd></dl>
+
+</div>
+</div>
 <a id="ga59156aa00aae9f4fc0ff99b076d9b736" name="ga59156aa00aae9f4fc0ff99b076d9b736"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga59156aa00aae9f4fc0ff99b076d9b736">&#9670;&#160;</a></span>JKQTPKeyLayout2String()</h2>
 
@@ -1584,7 +1782,7 @@ Draw Lines User-Action</div></div>
         <tr>
           <td class="memname"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> JKQTPKeyPosition2String </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__jkqtpplottersupprt.html#ga53dd9054ccf1f02e17d1867ddab7183f">JKQTPKeyPosition</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__jkqtpplottersupprt.html#ga491a70c800411ae234da869e31134a78">JKQTPKeyPosition</a>&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1980,7 +2178,7 @@ Draw Lines User-Action</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="group__jkqtpplottersupprt.html#ga53dd9054ccf1f02e17d1867ddab7183f">JKQTPKeyPosition</a> String2JKQTPKeyPosition </td>
+          <td class="memname"><a class="el" href="group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488">JKQTPLOTTER_LIB_EXPORT</a> <a class="el" href="group__jkqtpplottersupprt.html#ga491a70c800411ae234da869e31134a78">JKQTPKeyPosition</a> String2JKQTPKeyPosition </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
@@ -2144,7 +2342,7 @@ Draw Lines User-Action</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Nov 21 2023 11:53:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Dec 18 2023 21:28:02 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
