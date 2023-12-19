@@ -27,8 +27,8 @@ var NAVTREE =
   [ "JKQTPlotter", "index.html", [
     [ "JKQTPlotter - A Qt Plotting Library", "index.html", "index" ],
     [ "Contributor Covenant Code of Conduct", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html", [
-      [ "Our Pledge", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md7", null ],
-      [ "Our Standards", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md8", null ],
+      [ "Our Pledge", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4", null ],
+      [ "Our Standards", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6", null ],
       [ "Our Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md9", null ],
       [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md10", null ],
       [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md11", null ],
@@ -37,9 +37,9 @@ var NAVTREE =
     [ "Contributing", "md__c_o_n_t_r_i_b_u_t_i_n_g.html", [
       [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md2", null ],
       [ "Our Standards", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md3", null ],
-      [ "Our Responsibilities", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md4", null ],
-      [ "Scope", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md5", null ],
-      [ "Enforcement", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md6", null ]
+      [ "Our Responsibilities", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md5", null ],
+      [ "Scope", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md7", null ],
+      [ "Enforcement", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8", null ]
     ] ],
     [ "Build Instructions", "page_buildinstructions.html", [
       [ "Build using CMake", "page_buildinstructions__c_m_a_k_e.html", [
@@ -99,13 +99,13 @@ var NAVTREE =
       [ "Example (JKQTPlotter): Plotting Parametric Curves", "_j_k_q_t_plotter_parametric_curves.html", null ],
       [ "Example (JKQTPlotter): Plotting Mathematical Functions as Line Graphs", "_j_k_q_t_plotter_function_plots.html", [
         [ "Basics", "_j_k_q_t_plotter_function_plots.html#autotoc_md69", null ],
-        [ "Simple C++ inline function", "_j_k_q_t_plotter_function_plots.html#autotoc_md71", null ],
-        [ "Simple C++ inline function with parameters", "_j_k_q_t_plotter_function_plots.html#autotoc_md72", null ],
-        [ "C++ functors as plot functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md74", null ],
-        [ "Static C functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md75", null ],
-        [ "Predefined \"special\" functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md77", null ],
-        [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md78", null ],
-        [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md79", null ]
+        [ "Simple C++ inline function", "_j_k_q_t_plotter_function_plots.html#autotoc_md70", null ],
+        [ "Simple C++ inline function with parameters", "_j_k_q_t_plotter_function_plots.html#autotoc_md71", null ],
+        [ "C++ functors as plot functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md72", null ],
+        [ "Static C functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md73", null ],
+        [ "Predefined \"special\" functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md74", null ],
+        [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md76", null ],
+        [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md77", null ]
       ] ],
       [ "Example (JKQTPlotter): Plotting Parsed Mathematical Functions as Line Graphs", "_j_k_q_t_plotter_parsed_function_plot.html", [
         [ "Plot Function f(x)", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md85", null ],
@@ -122,18 +122,18 @@ var NAVTREE =
       ] ],
       [ "Example (JKQTPlotter): Boxplots", "_j_k_q_t_plotter_boxplots_graphs.html", null ],
       [ "Example (JKQTPlotter): Violin Plots", "_j_k_q_t_plotter_violinplot_graphs.html", [
-        [ "Generating a test Dataset", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md115", null ],
-        [ "Visualizing data as a Rug Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md116", null ],
-        [ "Drawing the (vertical) Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md117", null ],
-        [ "Drawing a horizontal Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md118", null ],
-        [ "Adapters as shortcuts to drawing Violin Plots", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md119", null ]
+        [ "Generating a test Dataset", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md97", null ],
+        [ "Visualizing data as a Rug Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md98", null ],
+        [ "Drawing the (vertical) Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md99", null ],
+        [ "Drawing a horizontal Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md100", null ],
+        [ "Adapters as shortcuts to drawing Violin Plots", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md101", null ]
       ] ],
       [ "Example (JKQTPlotter): Plotting Geometric Objects", "_j_k_q_t_plotter_geometric_graphs.html", null ],
       [ "Example (JKQTPlotter): Generating Demo-Plots of Geometric Objects for Documentation", "_j_k_q_t_plotter_geometric_graphs_simple.html", null ],
       [ "Example (JKQTPlotter): Plotting Arrows", "_j_k_q_t_plotter_geometric_arrows.html", [
-        [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md70", null ],
-        [ "Classes with support for arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md73", null ],
-        [ "Screenshot", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md76", null ]
+        [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md75", null ],
+        [ "Classes with support for arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md78", null ],
+        [ "Screenshot", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md79", null ]
       ] ],
       [ "Example (JKQTPlotter): Plot With Axes through Origin", "_j_k_q_t_plotter_geometric_coordinate_axis0.html", null ],
       [ "Example (JKQTPlotter): Line Graph with Logarithmic y-axis", "_j_k_q_t_plotter_log_axes.html", null ],
@@ -177,25 +177,25 @@ var NAVTREE =
         [ "Form Class <tt>FormWithJKQTPlotter</tt>", "_j_k_q_t_plotter_qt_creator.html#autotoc_md96", null ]
       ] ],
       [ "Tutorial (JKQTPlotter): User-Interactions in JKQtPlotter", "_j_k_q_t_plotter_user_interaction.html", [
-        [ "Basic Description", "_j_k_q_t_plotter_user_interaction.html#autotoc_md97", null ],
-        [ "Inner Workings", "_j_k_q_t_plotter_user_interaction.html#autotoc_md98", null ],
-        [ "Available User-Interactions", "_j_k_q_t_plotter_user_interaction.html#autotoc_md99", [
-          [ "Switching Graph Visibility via Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md100", null ],
-          [ "Toolbar at the top of the Plot", "_j_k_q_t_plotter_user_interaction.html#autotoc_md101", null ],
-          [ "Mouse Position Display", "_j_k_q_t_plotter_user_interaction.html#autotoc_md102", null ],
-          [ "Drag the Plot Viewport", "_j_k_q_t_plotter_user_interaction.html#autotoc_md103", null ],
-          [ "Zooming with the Mouse", "_j_k_q_t_plotter_user_interaction.html#autotoc_md104", null ],
-          [ "Ruler/Measurement Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md105", null ],
-          [ "Data ToolTip Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md106", null ],
-          [ "Drawing Geometrical Forms", "_j_k_q_t_plotter_user_interaction.html#autotoc_md107", [
-            [ "Lines", "_j_k_q_t_plotter_user_interaction.html#autotoc_md108", null ],
-            [ "Rectangles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md109", null ],
-            [ "Circles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md110", null ],
-            [ "Ellipses", "_j_k_q_t_plotter_user_interaction.html#autotoc_md111", null ]
+        [ "Basic Description", "_j_k_q_t_plotter_user_interaction.html#autotoc_md102", null ],
+        [ "Inner Workings", "_j_k_q_t_plotter_user_interaction.html#autotoc_md103", null ],
+        [ "Available User-Interactions", "_j_k_q_t_plotter_user_interaction.html#autotoc_md104", [
+          [ "Switching Graph Visibility via Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md105", null ],
+          [ "Toolbar at the top of the Plot", "_j_k_q_t_plotter_user_interaction.html#autotoc_md106", null ],
+          [ "Mouse Position Display", "_j_k_q_t_plotter_user_interaction.html#autotoc_md107", null ],
+          [ "Drag the Plot Viewport", "_j_k_q_t_plotter_user_interaction.html#autotoc_md108", null ],
+          [ "Zooming with the Mouse", "_j_k_q_t_plotter_user_interaction.html#autotoc_md109", null ],
+          [ "Ruler/Measurement Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md110", null ],
+          [ "Data ToolTip Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md111", null ],
+          [ "Drawing Geometrical Forms", "_j_k_q_t_plotter_user_interaction.html#autotoc_md112", [
+            [ "Lines", "_j_k_q_t_plotter_user_interaction.html#autotoc_md113", null ],
+            [ "Rectangles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md114", null ],
+            [ "Circles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md115", null ],
+            [ "Ellipses", "_j_k_q_t_plotter_user_interaction.html#autotoc_md116", null ]
           ] ],
-          [ "Context Menus", "_j_k_q_t_plotter_user_interaction.html#autotoc_md112", [
-            [ "Standard Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md113", null ],
-            [ "Special Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md114", null ]
+          [ "Context Menus", "_j_k_q_t_plotter_user_interaction.html#autotoc_md117", [
+            [ "Standard Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md118", null ],
+            [ "Special Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md119", null ]
           ] ]
         ] ]
       ] ],
