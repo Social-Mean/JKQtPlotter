@@ -177,10 +177,10 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a3247602e4d697a0f87c0c4d2610890e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">width of the key frame line [pt]  <br /></td></tr>
 <tr class="separator:a3247602e4d697a0f87c0c4d2610890e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ed2a4c251b8956ffc8405675cd8d5da" id="r_a6ed2a4c251b8956ffc8405675cd8d5da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga12bbc8b1110ac5655e9afcf8ec49b6df">JKQTPKeyLayout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_key_style.html#a6ed2a4c251b8956ffc8405675cd8d5da">layout</a></td></tr>
-<tr class="memdesc:a6ed2a4c251b8956ffc8405675cd8d5da"><td class="mdescLeft">&#160;</td><td class="mdescRight">the key layout  <br /></td></tr>
+<tr class="memdesc:a6ed2a4c251b8956ffc8405675cd8d5da"><td class="mdescLeft">&#160;</td><td class="mdescRight">the key layout, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. how the entries are distributed over the available space, see JKQTPKeyLayout for details and examples  <br /></td></tr>
 <tr class="separator:a6ed2a4c251b8956ffc8405675cd8d5da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5da8552fd27e730f625443f9c625a833" id="r_a5da8552fd27e730f625443f9c625a833"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtpplottersupprt.html#ga491a70c800411ae234da869e31134a78">JKQTPKeyPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_key_style.html#a5da8552fd27e730f625443f9c625a833">position</a></td></tr>
-<tr class="memdesc:a5da8552fd27e730f625443f9c625a833"><td class="mdescLeft">&#160;</td><td class="mdescRight">key position  <br /></td></tr>
+<tr class="memdesc:a5da8552fd27e730f625443f9c625a833"><td class="mdescLeft">&#160;</td><td class="mdescRight">key position inside or besides the plot area, see JKQTPKeyPositions for details and examples  <br /></td></tr>
 <tr class="separator:a5da8552fd27e730f625443f9c625a833"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4843fa9bd0bce2b425b6c357e3900254" id="r_a4843fa9bd0bce2b425b6c357e3900254"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_key_style.html#a4843fa9bd0bce2b425b6c357e3900254">sampleHeight</a></td></tr>
 <tr class="memdesc:a4843fa9bd0bce2b425b6c357e3900254"><td class="mdescLeft">&#160;</td><td class="mdescRight">height of a line sample [in units of height of fontName, fontSize]  <br /></td></tr>
@@ -215,10 +215,16 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Support Class for <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a>, which summarizes all properties that define the visual styling of the key in a <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a>. </p>
+<p>With <a class="el" href="class_j_k_q_t_p_key_style.html" title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">JKQTPKeyStyle</a> you can style the appearance of a key/legend:</p>
 <div class="image">
 <img src="plot_key.png" alt=""/>
 </div>
-<dl class="section see"><dt>See also</dt><dd>JKQTPKey, <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a>, <a class="el" href="class_j_k_q_t_base_plotter_style.html" title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">JKQTBasePlotterStyle</a>, <a class="el" href="group__jkqtpplotter__styling.html">Styling System</a> </dd></dl>
+<p>In addition it is possible to set:</p><ul>
+<li>its visiblility with <a class="el" href="class_j_k_q_t_p_key_style.html#ad9cc0d2c32e8d936e95208d4475c745b" title="indicates whether to plot a key">JKQTPKeyStyle::visible</a></li>
+<li>its location within or besides the plot area, using <a class="el" href="class_j_k_q_t_p_key_style.html#a5da8552fd27e730f625443f9c625a833" title="key position inside or besides the plot area, see JKQTPKeyPositions for details and examples">JKQTPKeyStyle::position</a></li>
+<li>its overall layout (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. how the entries are distributed over the available space), using <a class="el" href="class_j_k_q_t_p_key_style.html#a6ed2a4c251b8956ffc8405675cd8d5da" title="the key layout, i.e. how the entries are distributed over the available space, see JKQTPKeyLayout for...">JKQTPKeyStyle::layout</a></li>
+</ul>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_base_key.html" title="base class for drawing a key (or legend)">JKQTPBaseKey</a>, <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a>, <a class="el" href="class_j_k_q_t_base_plotter_style.html" title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">JKQTBasePlotterStyle</a>, <a class="el" href="group__jkqtpplotter__styling.html">Styling System</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2cc522577dd37925e28583878eca4dce" name="a2cc522577dd37925e28583878eca4dce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2cc522577dd37925e28583878eca4dce">&#9670;&#160;</a></span>JKQTPKeyStyle() <span class="overload">[1/2]</span></h2>
@@ -502,7 +508,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>the key layout </p>
+<p>the key layout, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. how the entries are distributed over the available space, see JKQTPKeyLayout for details and examples </p>
 
 </div>
 </div>
@@ -518,7 +524,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>key position </p>
+<p>key position inside or besides the plot area, see JKQTPKeyPositions for details and examples </p>
 
 </div>
 </div>
@@ -692,7 +698,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_key_style.html">JKQTPKeyStyle</a></li>
-    <li class="footer">Generated on Tue Dec 19 2023 10:45:53 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Dec 19 2023 14:25:45 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

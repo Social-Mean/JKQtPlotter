@@ -1162,24 +1162,48 @@ Zooming with the mouse</div></div>
 
 <p>layout of the key </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfaa392dda89bd8a1f13de455f1200f4ff7" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfaa392dda89bd8a1f13de455f1200f4ff7"></a>JKQTPKeyLayoutOneColumn&#160;</td><td class="fielddoc"><p>the key consists of one column </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfaa392dda89bd8a1f13de455f1200f4ff7" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfaa392dda89bd8a1f13de455f1200f4ff7"></a>JKQTPKeyLayoutOneColumn&#160;</td><td class="fielddoc"><p>the key consists of one column. This may overflow the available space, use JKQTPKeyLayoutMultiColumn or JKQTPKeyLayoutMultiRow if you have many entries! </p>
 <div class="image">
 <img src="JKQTPKeyLayout_one_column.png" alt=""/>
 </div>
+ <div class="image">
+<img src="JKQTPKeyLayout_outsidebottom_one_column.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPKeyLayout_outsideright_one_column.png" alt=""/>
+</div>
  </td></tr>
-<tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfa0a206f9051403ecdc2d888305a53eb99" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfa0a206f9051403ecdc2d888305a53eb99"></a>JKQTPKeyLayoutOneRow&#160;</td><td class="fielddoc"><p>the key consists of one row </p>
+<tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfa0a206f9051403ecdc2d888305a53eb99" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfa0a206f9051403ecdc2d888305a53eb99"></a>JKQTPKeyLayoutOneRow&#160;</td><td class="fielddoc"><p>the key consists of one row. This may overflow the available space, use JKQTPKeyLayoutMultiColumn or JKQTPKeyLayoutMultiRow if you have many entries! </p>
 <div class="image">
 <img src="JKQTPKeyLayout_one_row.png" alt=""/>
 </div>
+ <div class="image">
+<img src="JKQTPKeyLayout_outsidebottom_one_row.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPKeyLayout_outsideright_one_row.png" alt=""/>
+</div>
  </td></tr>
-<tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfa8d6515779d57ef7bd67e8f56918af253" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfa8d6515779d57ef7bd67e8f56918af253"></a>JKQTPKeyLayoutMultiColumn&#160;</td><td class="fielddoc"><p>the key consists of multiple columns, (top-&gt;bottom, top-&gt;bottom, ...) </p>
+<tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfa8d6515779d57ef7bd67e8f56918af253" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfa8d6515779d57ef7bd67e8f56918af253"></a>JKQTPKeyLayoutMultiColumn&#160;</td><td class="fielddoc"><p>the key items are distributed over multiple columns that fill the available space, (top-&gt;bottom, top-&gt;bottom, ...) </p>
 <div class="image">
 <img src="JKQTPKeyLayout_multi_column.png" alt=""/>
 </div>
+ <div class="image">
+<img src="JKQTPKeyLayout_outsidebottom_multi_column.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPKeyLayout_outsideright_multi_column.png" alt=""/>
+</div>
  </td></tr>
-<tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfadf40f143f0eb6ac4cd3660ac3ca4afdd" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfadf40f143f0eb6ac4cd3660ac3ca4afdd"></a>JKQTPKeyLayoutMultiRow&#160;</td><td class="fielddoc"><p>the key consists of multiple rows (left-&gt;right,left-&gt;right,...) </p>
+<tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfadf40f143f0eb6ac4cd3660ac3ca4afdd" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfadf40f143f0eb6ac4cd3660ac3ca4afdd"></a>JKQTPKeyLayoutMultiRow&#160;</td><td class="fielddoc"><p>the key items are distributed over multiple rows that fill the available space (left-&gt;right,left-&gt;right,...) </p>
 <div class="image">
 <img src="JKQTPKeyLayout_multi_row.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPKeyLayout_outsidebottom_multi_row.png" alt=""/>
+</div>
+ <div class="image">
+<img src="JKQTPKeyLayout_outsideright_multi_row.png" alt=""/>
 </div>
  </td></tr>
 <tr><td class="fieldname"><a id="gga12bbc8b1110ac5655e9afcf8ec49b6dfab26b594e945414b766c7af178ff712f1" name="gga12bbc8b1110ac5655e9afcf8ec49b6dfab26b594e945414b766c7af178ff712f1"></a>JKQTPKeyLayoutMax&#160;</td><td class="fielddoc"></td></tr>
@@ -2342,7 +2366,7 @@ Draw Lines User-Action</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Dec 19 2023 10:45:52 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Dec 19 2023 14:25:44 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
