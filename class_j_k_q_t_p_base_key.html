@@ -378,23 +378,30 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>base class for drawing a key (or legend) </p>
-<p>This class immplements the basic layouting and drawing of a key/legend:</p>
+<p>The class <a class="el" href="class_j_k_q_t_p_base_key.html" title="base class for drawing a key (or legend)">JKQTPBaseKey</a> implements the basic layouting and drawing of a key/legend. The basic style properties are defined in <a class="el" href="class_j_k_q_t_p_key_style.html" title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">JKQTPKeyStyle</a>.</p>
+<p>The following image shows, which properties of the key may be altered with the style:</p>
 <div class="image">
 <img src="plot_key.png" alt=""/>
 </div>
+<h1><a class="anchor" id="JKQTPBaseKey_Usage"></a>
+Usage</h1>
+<p>The functions in <a class="el" href="class_j_k_q_t_p_base_key.html" title="base class for drawing a key (or legend)">JKQTPBaseKey</a> are mainly used for drawing the main key in a <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a>. The instance representing that main key is accessible via JKQTPBaseKey::getMainKey(). It is not a direct instance of <a class="el" href="class_j_k_q_t_p_base_key.html" title="base class for drawing a key (or legend)">JKQTPBaseKey</a>, which is impossible, as it is pure virtual, but an instance of <a class="el" href="class_j_k_q_t_p_main_key.html" title="concrete class for drawing the main plot key (or legend). This class reads the key entries fromm the ...">JKQTPMainKey</a>, which extends <a class="el" href="class_j_k_q_t_p_base_key.html" title="base class for drawing a key (or legend)">JKQTPBaseKey</a> with access to the titles assigned to each <a class="el" href="class_j_k_q_t_p_plot_element.html" title="this virtual base class of every element, which is part of a JKQTPlotter plot and may appear in its k...">JKQTPPlotElement</a> (see <a class="el" href="class_j_k_q_t_p_plot_element.html#a49f8f0aa273ca8b1cf7dd0f3464a04ff" title="returns the the title of the plot">JKQTPPlotElement::getTitle()</a>, <a class="el" href="class_j_k_q_t_p_plot_element.html#a02a8d7c24cde7768f0134cee1aa1159d" title="sets the title of the plot (for display in key!).">JKQTPPlotElement::setTitle()</a>) and its key-marker (<a class="el" href="class_j_k_q_t_p_plot_element.html#a2ab041f3e86c87716dadd24f5a754276" title="plots a key marker inside the specified rectangle rect">JKQTPPlotElement::drawKeyMarker()</a>).</p>
+<p>Note however that it is also possible to draw additional keys into the graph (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. to show the size/color classes in a parametrized scatter graph), if the corresponding <a class="el" href="class_j_k_q_t_p_plot_element.html" title="this virtual base class of every element, which is part of a JKQTPlotter plot and may appear in its k...">JKQTPPlotElement</a> implements this.</p>
+<h1><a class="anchor" id="JKQTPBaseKey_ImplementationDetails"></a>
+Implementation Details</h1>
 <p>It relies on these protected virtual functions to determine the contents of the legend items:</p><ul>
-<li><a class="el" href="class_j_k_q_t_p_base_key.html#a714bbdd18a24ece46c10777ebd1873d4" title="returns the number of legend entries">getEntryCount()</a></li>
-<li>getEntryTextExtent()</li>
-<li><a class="el" href="class_j_k_q_t_p_base_key.html#a6bcdb415c3de4dead597e960c6d00396" title="returns the label text (my contain markup for a JKQTMathText) of legend entry item &#39;s text part">getEntryText()</a></li>
-<li><a class="el" href="class_j_k_q_t_p_base_key.html#a4d02908644af975db6ee6ca3e89fb3e6" title="draws the sample for legend entry item into the given rect, using the given painter">drawEntrySample()</a></li>
+<li><a class="el" href="class_j_k_q_t_p_base_key.html#a714bbdd18a24ece46c10777ebd1873d4" title="returns the number of legend entries">JKQTPBaseKey::getEntryCount()</a></li>
+<li>JKQTPBaseKey::getEntryTextExtent()</li>
+<li><a class="el" href="class_j_k_q_t_p_base_key.html#a6bcdb415c3de4dead597e960c6d00396" title="returns the label text (my contain markup for a JKQTMathText) of legend entry item &#39;s text part">JKQTPBaseKey::getEntryText()</a></li>
+<li><a class="el" href="class_j_k_q_t_p_base_key.html#a4d02908644af975db6ee6ca3e89fb3e6" title="draws the sample for legend entry item into the given rect, using the given painter">JKQTPBaseKey::drawEntrySample()</a></li>
 </ul>
 <p>So you can derive from <a class="el" href="class_j_k_q_t_p_base_key.html" title="base class for drawing a key (or legend)">JKQTPBaseKey</a> and implement these to provide a new source of data.</p>
 <p>There are additional customization points in this class. You can also override the default implementations of these functions to change the way keys/legends are drawn:</p><ul>
-<li><a class="el" href="class_j_k_q_t_p_base_key.html#a4dd3069ce22b66751fca4c1a23fd40ba" title="draw the key">drawKey()</a></li>
-<li><a class="el" href="class_j_k_q_t_p_base_key.html#aaaed528393fae06124eaddab4622c8d0" title="the key layout">getLayout()</a></li>
-<li><a class="el" href="class_j_k_q_t_p_base_key.html#aa73b103c9edc2ae23d81b289cb6522e7" title="econd stage of size calculation">modifySize()</a></li>
+<li><a class="el" href="class_j_k_q_t_p_base_key.html#a4dd3069ce22b66751fca4c1a23fd40ba" title="draw the key">JKQTPBaseKey::drawKey()</a></li>
+<li><a class="el" href="class_j_k_q_t_p_base_key.html#aaaed528393fae06124eaddab4622c8d0" title="the key layout">JKQTPBaseKey::getLayout()</a></li>
+<li><a class="el" href="class_j_k_q_t_p_base_key.html#aa73b103c9edc2ae23d81b289cb6522e7" title="econd stage of size calculation">JKQTPBaseKey::modifySize()</a></li>
 </ul>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_key_style.html" title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">JKQTPKeyStyle</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_key_style.html" title="Support Class for JKQTBasePlotter, which summarizes all properties that define the visual styling of ...">JKQTPKeyStyle</a>, <a class="el" href="class_j_k_q_t_p_main_key.html" title="concrete class for drawing the main plot key (or legend). This class reads the key entries fromm the ...">JKQTPMainKey</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abc8f47a2108fc68bdc46e4ee1a30e985" name="abc8f47a2108fc68bdc46e4ee1a30e985"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc8f47a2108fc68bdc46e4ee1a30e985">&#9670;&#160;</a></span>JKQTPBaseKey()</h2>
@@ -2355,7 +2362,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_base_key.html">JKQTPBaseKey</a></li>
-    <li class="footer">Generated on Tue Dec 19 2023 09:41:22 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Dec 19 2023 10:20:30 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
