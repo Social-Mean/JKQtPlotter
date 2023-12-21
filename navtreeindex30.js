@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"group__jkqtptools__math__statistics__adaptors.html#ga537af71d26d6606d31e096d17fc8e5a5":[11,2,5,8,46],
 "group__jkqtptools__math__statistics__adaptors.html#ga5a292ba2eb5fdba1915c0dafb8af7f99":[11,2,5,8,7],
 "group__jkqtptools__math__statistics__adaptors.html#ga5a689fb0697b5fc82f722f870c9a494c":[11,2,5,8,35],
 "group__jkqtptools__math__statistics__adaptors.html#ga5c3c190fb942cc14bdccbee7e5c79ba9":[11,2,5,8,3],
@@ -171,15 +172,15 @@ var NAVTREEINDEX30 =
 "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md10":[1,3],
 "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md11":[1,4],
 "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md12":[1,5],
-"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md7":[1,0],
-"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md8":[1,1],
+"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4":[1,0],
+"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md7":[1,1],
 "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md9":[1,2],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html":[2],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md2":[2,0],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md3":[2,1],
-"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md4":[2,2],
-"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md5":[2,3],
-"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md6":[2,4],
+"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md5":[2,2],
+"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md6":[2,3],
+"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8":[2,4],
 "md__s_e_c_u_r_i_t_y.html":[9],
 "md__s_e_c_u_r_i_t_y.html#autotoc_md133":[9,0],
 "md__s_e_c_u_r_i_t_y.html#autotoc_md134":[9,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "struct_j_k_q_t_base_plotter_1_1text_size_key.html#a0e6bdc7db0111fc3dfd0e02772287f05":[11,4,1,2,10,4],
 "struct_j_k_q_t_base_plotter_1_1text_size_key.html#a1906ef6a067f33a707923c3c9ec63e3a":[11,4,1,2,10,1],
 "struct_j_k_q_t_base_plotter_1_1text_size_key.html#a2e0b039ccc46a74723bddf5efb73162e":[11,4,1,2,10,8],
-"struct_j_k_q_t_base_plotter_1_1text_size_key.html#a8b552cd60861e0111b6835aae7c44b04":[11,4,1,2,10,3],
-"struct_j_k_q_t_base_plotter_1_1text_size_key.html#a8bd0e9ec97b559ba947ce6b653290994":[11,4,1,2,10,2]
+"struct_j_k_q_t_base_plotter_1_1text_size_key.html#a8b552cd60861e0111b6835aae7c44b04":[11,4,1,2,10,3]
 };

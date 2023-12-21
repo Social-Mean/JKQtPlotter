@@ -532,6 +532,7 @@ var group__jkqtpplotterclasses =
       [ "copyData", "class_j_k_q_t_plotter.html#a2c9e67821607e49a323764d9b91d7122", null ],
       [ "copyDataMatlab", "class_j_k_q_t_plotter.html#a6843c3688492ad00bd66cb9d749ff08b", null ],
       [ "copyPixelImage", "class_j_k_q_t_plotter.html#ae7d54ad25f1a2200458b06a6a3cc8067", null ],
+      [ "correctZoomRectForPanning", "class_j_k_q_t_plotter.html#af13ae756aa93fe63bd407c085f0f968e", null ],
       [ "createImageBuffer", "class_j_k_q_t_plotter.html#a06dd19cd5446ac79ee2bb9f9bc560c85", null ],
       [ "delayedResizeEvent", "class_j_k_q_t_plotter.html#a45095749cbaea259c936bcb9d79cb334", null ],
       [ "deleteGraph", "class_j_k_q_t_plotter.html#aa4dd7574d0b54e5cc479d7ff10272284", null ],
