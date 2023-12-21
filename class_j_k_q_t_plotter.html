@@ -164,10 +164,10 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:a2c9e67821607e49a323764d9b91d7122" id="r_a2c9e67821607e49a323764d9b91d7122"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a2c9e67821607e49a323764d9b91d7122">copyData</a> ()</td></tr>
-<tr class="memdesc:a2c9e67821607e49a323764d9b91d7122"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy displayed data to cpliboard  <br /></td></tr>
+<tr class="memdesc:a2c9e67821607e49a323764d9b91d7122"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy the data used for the current plot to the clipboard    <br /></td></tr>
 <tr class="separator:a2c9e67821607e49a323764d9b91d7122"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6843c3688492ad00bd66cb9d749ff08b" id="r_a6843c3688492ad00bd66cb9d749ff08b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a6843c3688492ad00bd66cb9d749ff08b">copyDataMatlab</a> ()</td></tr>
-<tr class="memdesc:a6843c3688492ad00bd66cb9d749ff08b"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy displayed data to cpliboard in Matlab syntax  <br /></td></tr>
+<tr class="memdesc:a6843c3688492ad00bd66cb9d749ff08b"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy the data used for the current plot to the clipboard in Matlab format    <br /></td></tr>
 <tr class="separator:a6843c3688492ad00bd66cb9d749ff08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab44205710e575ab5ac0e7fd97cbcbf26" id="r_ab44205710e575ab5ac0e7fd97cbcbf26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#ab44205710e575ab5ac0e7fd97cbcbf26">openContextMenu</a> ()</td></tr>
 <tr class="memdesc:ab44205710e575ab5ac0e7fd97cbcbf26"><td class="mdescLeft">&#160;</td><td class="mdescRight">open the context menu at the mouse position of the last click  <br /></td></tr>
@@ -197,25 +197,58 @@ Public Slots</h2></td></tr>
 <tr class="memdesc:a6b5b3509b00353dfca574c5ffdc1e26d"><td class="mdescLeft">&#160;</td><td class="mdescRight">popuplate the given toolbar <em>toolbar</em> with all actions shown in a toolbar from this class ...  <br /></td></tr>
 <tr class="separator:a6b5b3509b00353dfca574c5ffdc1e26d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab8ccba161a7795c07d48973c5803d32" id="r_aab8ccba161a7795c07d48973c5803d32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#aab8ccba161a7795c07d48973c5803d32">print</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">QPrinter</a> *<a class="el" href="class_j_k_q_t_p_final_act.html">printer</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">nullptr</a>)</td></tr>
-<tr class="memdesc:aab8ccba161a7795c07d48973c5803d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">print the current plot, if printer is <code>nullptr</code> a printer selection dialog is displayed  <br /></td></tr>
+<tr class="memdesc:aab8ccba161a7795c07d48973c5803d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">print the current plot, if printer is <code>nullptr</code> a printer selection dialog is displayed    <br /></td></tr>
 <tr class="separator:aab8ccba161a7795c07d48973c5803d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebce042360ddc51b50472760ed272f7d" id="r_aebce042360ddc51b50472760ed272f7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#aebce042360ddc51b50472760ed272f7d">redrawPlot</a> ()</td></tr>
 <tr class="memdesc:aebce042360ddc51b50472760ed272f7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the plot and the overlays  <br /></td></tr>
 <tr class="separator:aebce042360ddc51b50472760ed272f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ec71e7c748d79131e6ea0ced7016511" id="r_a1ec71e7c748d79131e6ea0ced7016511"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a1ec71e7c748d79131e6ea0ced7016511">saveAsCSV</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">filename</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;))</td></tr>
+<tr class="memdesc:a1ec71e7c748d79131e6ea0ced7016511"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot data as a Comma Separated Values (CSV) file    <br /></td></tr>
+<tr class="separator:a1ec71e7c748d79131e6ea0ced7016511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4796b38a87f246bf434bf8a72549309" id="r_aa4796b38a87f246bf434bf8a72549309"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#aa4796b38a87f246bf434bf8a72549309">saveAsDIF</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">filename</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;))</td></tr>
+<tr class="memdesc:aa4796b38a87f246bf434bf8a72549309"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot data as a DIF file    <br /></td></tr>
+<tr class="separator:aa4796b38a87f246bf434bf8a72549309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0554ca495d6f7b6a3a46df2e1e5cde8c" id="r_a0554ca495d6f7b6a3a46df2e1e5cde8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a0554ca495d6f7b6a3a46df2e1e5cde8c">saveAsGerExcelCSV</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">filename</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;))</td></tr>
+<tr class="memdesc:a0554ca495d6f7b6a3a46df2e1e5cde8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot data as a Semicolon Separated Values (CSV) file for german Excel, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. with comma as decimal separator    <br /></td></tr>
+<tr class="separator:a0554ca495d6f7b6a3a46df2e1e5cde8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b11707f94b037821d27b4582e004983" id="r_a7b11707f94b037821d27b4582e004983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a7b11707f94b037821d27b4582e004983">saveAsMatlab</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">filename</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;))</td></tr>
+<tr class="memdesc:a7b11707f94b037821d27b4582e004983"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot data as a Matlab Script    <br /></td></tr>
+<tr class="separator:a7b11707f94b037821d27b4582e004983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af276a674c635cd6bc254ea3df220c1ee" id="r_af276a674c635cd6bc254ea3df220c1ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#af276a674c635cd6bc254ea3df220c1ee">saveAsPDF</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">filename</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;), <a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">displayPreview</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">true</a>)</td></tr>
+<tr class="memdesc:af276a674c635cd6bc254ea3df220c1ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot as a PDF file, with the current widget aspect ratio, if filename is empty a file selection dialog is displayed    <br /></td></tr>
+<tr class="separator:af276a674c635cd6bc254ea3df220c1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab21b72a5360928634954e8a5bed12021" id="r_ab21b72a5360928634954e8a5bed12021"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#ab21b72a5360928634954e8a5bed12021">saveAsPixelImage</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">filename</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;), <a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">displayPreview</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">true</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QByteArray</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">outputFormat</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QByteArray</a>(), <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QSize</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">outputSizeIncrease</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QSize</a>(0, 0))</td></tr>
+<tr class="memdesc:ab21b72a5360928634954e8a5bed12021"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot as a pixel image image (PNG ...), if filename is empty a file selection dialog is displayed    <br /></td></tr>
+<tr class="separator:ab21b72a5360928634954e8a5bed12021"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aece558aaceb3100e244eaa92468b1837" id="r_aece558aaceb3100e244eaa92468b1837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#aece558aaceb3100e244eaa92468b1837">saveAsSemicolonSV</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">filename</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;))</td></tr>
+<tr class="memdesc:aece558aaceb3100e244eaa92468b1837"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot data as a Semicolon Separated Values (SSV) file    <br /></td></tr>
+<tr class="separator:aece558aaceb3100e244eaa92468b1837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4331c51b4c21d510df0a6c95b1048fbd" id="r_a4331c51b4c21d510df0a6c95b1048fbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a4331c51b4c21d510df0a6c95b1048fbd">saveAsSVG</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">filename</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;), <a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">displayPreview</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">true</a>)</td></tr>
+<tr class="memdesc:a4331c51b4c21d510df0a6c95b1048fbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot as a SVG file, with the current widget aspect ratio, if filename is empty a file selection dialog is displayed    <br /></td></tr>
+<tr class="separator:a4331c51b4c21d510df0a6c95b1048fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe387243dea9fd7109037b5073e7bb90" id="r_abe387243dea9fd7109037b5073e7bb90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#abe387243dea9fd7109037b5073e7bb90">saveAsSYLK</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">filename</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;))</td></tr>
+<tr class="memdesc:abe387243dea9fd7109037b5073e7bb90"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot data as a SYLK spreadsheet file    <br /></td></tr>
+<tr class="separator:abe387243dea9fd7109037b5073e7bb90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a118db5203c741e24cf7aa68d07ca6899" id="r_a118db5203c741e24cf7aa68d07ca6899"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a118db5203c741e24cf7aa68d07ca6899">saveAsTabSV</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">filename</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;))</td></tr>
+<tr class="memdesc:a118db5203c741e24cf7aa68d07ca6899"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot data as a Tabulator Separated Values (CSV) file    <br /></td></tr>
+<tr class="separator:a118db5203c741e24cf7aa68d07ca6899"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5006a00c7eae6c881d4359b79bef906a" id="r_a5006a00c7eae6c881d4359b79bef906a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a5006a00c7eae6c881d4359b79bef906a">saveData</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">filename</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;), <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">format</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;))</td></tr>
-<tr class="memdesc:a5006a00c7eae6c881d4359b79bef906a"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the data used for the current plot. The file format is extracted from the file extension (csv, ...)  <br /></td></tr>
+<tr class="memdesc:a5006a00c7eae6c881d4359b79bef906a"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the data used for the current plot. The file format is extracted from the file extension (csv, ...)    <br /></td></tr>
 <tr class="separator:a5006a00c7eae6c881d4359b79bef906a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2461280014b5ee5ffc7546d1587a9233" id="r_a2461280014b5ee5ffc7546d1587a9233"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a2461280014b5ee5ffc7546d1587a9233">saveImage</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">filename</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;), <a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">displayPreview</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">true</a>)</td></tr>
-<tr class="memdesc:a2461280014b5ee5ffc7546d1587a9233"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot as an image file, with the current widget aspect ratio, if filename is empty a file selection dialog is displayed. The image format is extracted from the file extension (jpeg, tiff, png, pdf, ...)  <br /></td></tr>
-<tr class="separator:a2461280014b5ee5ffc7546d1587a9233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8710bfe5aae1f94dd58104679145d9a2" id="r_a8710bfe5aae1f94dd58104679145d9a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a8710bfe5aae1f94dd58104679145d9a2">saveImage</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">filename</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;), <a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">displayPreview</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">true</a>)</td></tr>
+<tr class="memdesc:a8710bfe5aae1f94dd58104679145d9a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the current plot as an image file, with the current widget aspect ratio, if filename is empty a file selection dialog is displayed. The image format is extracted from the file extension (jpeg, tiff, png, pdf, ...)    <br /></td></tr>
+<tr class="separator:a8710bfe5aae1f94dd58104679145d9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48c261d683b78d962286027fb2d258c2" id="r_a48c261d683b78d962286027fb2d258c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a48c261d683b78d962286027fb2d258c2">setAbsoluteX</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">xminn</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">xmaxx</a>)</td></tr>
-<tr class="memdesc:a48c261d683b78d962286027fb2d258c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets absolutely limiting x-range of the plot  <br /></td></tr>
+<tr class="memdesc:a48c261d683b78d962286027fb2d258c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets absolutely limiting x-range of the plot   <br  />
+  <br /></td></tr>
 <tr class="separator:a48c261d683b78d962286027fb2d258c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90b33a1e53ec8cbd864a672fb5fcaccc" id="r_a90b33a1e53ec8cbd864a672fb5fcaccc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc">setAbsoluteXY</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">xminn</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">xmaxx</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">yminn</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">ymaxx</a>)</td></tr>
-<tr class="memdesc:a90b33a1e53ec8cbd864a672fb5fcaccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets absolutely limiting x- and y-range of the plot  <br /></td></tr>
+<tr class="memdesc:a90b33a1e53ec8cbd864a672fb5fcaccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets absolutely limiting x- and y-range of the plot   <br  />
+  <br /></td></tr>
 <tr class="separator:a90b33a1e53ec8cbd864a672fb5fcaccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acde92b94d19a03cd7020a95965c339a5" id="r_acde92b94d19a03cd7020a95965c339a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#acde92b94d19a03cd7020a95965c339a5">setAbsoluteY</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">yminn</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">ymaxx</a>)</td></tr>
-<tr class="memdesc:acde92b94d19a03cd7020a95965c339a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets absolute minimum and maximum y-value to plot  <br /></td></tr>
+<tr class="memdesc:acde92b94d19a03cd7020a95965c339a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets absolute minimum and maximum y-value to plot   <br  />
+  <br /></td></tr>
 <tr class="separator:acde92b94d19a03cd7020a95965c339a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb409035efbb730bcac593e828961406" id="r_aeb409035efbb730bcac593e828961406"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#aeb409035efbb730bcac593e828961406">setContextMenuMode</a> (<a class="el" href="group__jkqtpplottersupprt.html#ga80d2235c912ead563f404f4e7f331137">JKQTPContextMenuModes</a> mode)</td></tr>
 <tr class="memdesc:aeb409035efbb730bcac593e828961406"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the mode if the standard context menu  <br /></td></tr>
@@ -299,13 +332,16 @@ Public Slots</h2></td></tr>
 <tr class="memdesc:a7251f7a995611dccede9e7c8ecb48f4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">pen for user actions that overlay the plot (typically semi-transparent, like <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. zoom-rectangles)    <br /></td></tr>
 <tr class="separator:a7251f7a995611dccede9e7c8ecb48f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09adcf0afc9e0b2847262c850e18aa5d" id="r_a09adcf0afc9e0b2847262c850e18aa5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a09adcf0afc9e0b2847262c850e18aa5d">setX</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">xminn</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">xmaxx</a>)</td></tr>
-<tr class="memdesc:a09adcf0afc9e0b2847262c850e18aa5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the x-range of the plot (minimum and maximum x-value on the x-axis)  <br /></td></tr>
+<tr class="memdesc:a09adcf0afc9e0b2847262c850e18aa5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the x-range of the plot (minimum and maximum x-value on the x-axis)   <br  />
+  <br /></td></tr>
 <tr class="separator:a09adcf0afc9e0b2847262c850e18aa5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cb1174da67d7d37dabc30c2ca25ed30" id="r_a7cb1174da67d7d37dabc30c2ca25ed30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a7cb1174da67d7d37dabc30c2ca25ed30">setXY</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">xminn</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">xmaxx</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">yminn</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">ymaxx</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">affectsSecondaryAxes</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">false</a>)</td></tr>
-<tr class="memdesc:a7cb1174da67d7d37dabc30c2ca25ed30"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)  <br /></td></tr>
+<tr class="memdesc:a7cb1174da67d7d37dabc30c2ca25ed30"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)   <br  />
+  <br /></td></tr>
 <tr class="separator:a7cb1174da67d7d37dabc30c2ca25ed30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fd546d1ba10a292ce8890744101fe3e" id="r_a0fd546d1ba10a292ce8890744101fe3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a0fd546d1ba10a292ce8890744101fe3e">setY</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">yminn</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">ymaxx</a>)</td></tr>
-<tr class="memdesc:a0fd546d1ba10a292ce8890744101fe3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the y-range of the plot (minimum and maximum y-value on the y-axis)  <br /></td></tr>
+<tr class="memdesc:a0fd546d1ba10a292ce8890744101fe3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the y-range of the plot (minimum and maximum y-value on the y-axis)   <br  />
+  <br /></td></tr>
 <tr class="separator:a0fd546d1ba10a292ce8890744101fe3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea7206f0d58f809805813533b8a9eb9e" id="r_aea7206f0d58f809805813533b8a9eb9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#aea7206f0d58f809805813533b8a9eb9e">synchronizeXAxis</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">newxmin</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">newxmax</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">newymin</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">newymax</a>, <a class="el" href="class_j_k_q_t_plotter.html">JKQTPlotter</a> *<a class="el" href="class_j_k_q_t_p_final_act.html">sender</a>)</td></tr>
 <tr class="memdesc:aea7206f0d58f809805813533b8a9eb9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">may be connected to <a class="el" href="class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082" title="signal: emitted whenever the user selects a new x-y zoom range (by mouse)">zoomChangedLocally()</a> of a different plot and synchronizes the local x-axis to the other x-axis  <br /></td></tr>
@@ -317,16 +353,16 @@ Public Slots</h2></td></tr>
 <tr class="memdesc:a22b28957e36daf8713d9f32aa6f49f0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">may be connected to <a class="el" href="class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082" title="signal: emitted whenever the user selects a new x-y zoom range (by mouse)">zoomChangedLocally()</a> of a different plot and synchronizes the local y-axis to the other y-axis  <br /></td></tr>
 <tr class="separator:a22b28957e36daf8713d9f32aa6f49f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65af4690221e0ec95cb18f8ff73d5866" id="r_a65af4690221e0ec95cb18f8ff73d5866"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a65af4690221e0ec95cb18f8ff73d5866">zoom</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">nxmin</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">nxmax</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">nymin</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">nymax</a>)</td></tr>
-<tr class="memdesc:a65af4690221e0ec95cb18f8ff73d5866"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets x/ymin and x/ymax to the supplied values and replots the graph (zoom operation!)  <br /></td></tr>
+<tr class="memdesc:a65af4690221e0ec95cb18f8ff73d5866"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets x/ymin and x/ymax to the supplied values and replots the graph (zoom operation!)    <br /></td></tr>
 <tr class="separator:a65af4690221e0ec95cb18f8ff73d5866"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d4a8198ef30bbaa6baffdb3d31e4cec" id="r_a6d4a8198ef30bbaa6baffdb3d31e4cec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a6d4a8198ef30bbaa6baffdb3d31e4cec">zoomIn</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">factor</a>=2.0)</td></tr>
-<tr class="memdesc:a6d4a8198ef30bbaa6baffdb3d31e4cec"><td class="mdescLeft">&#160;</td><td class="mdescRight">zooms into the graph (the same as turning the mouse wheel) by the given factor  <br /></td></tr>
+<tr class="memdesc:a6d4a8198ef30bbaa6baffdb3d31e4cec"><td class="mdescLeft">&#160;</td><td class="mdescRight">zooms into the graph (the same as turning the mouse wheel) by the given factor    <br /></td></tr>
 <tr class="separator:a6d4a8198ef30bbaa6baffdb3d31e4cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a982c88440a8337ffb036cd483814d42f" id="r_a982c88440a8337ffb036cd483814d42f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a982c88440a8337ffb036cd483814d42f">zoomOut</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">factor</a>=2.0)</td></tr>
-<tr class="memdesc:a982c88440a8337ffb036cd483814d42f"><td class="mdescLeft">&#160;</td><td class="mdescRight">zooms out of the graph (the same as turning the mouse wheel) by the given factor  <br /></td></tr>
+<tr class="memdesc:a982c88440a8337ffb036cd483814d42f"><td class="mdescLeft">&#160;</td><td class="mdescRight">zooms out of the graph (the same as turning the mouse wheel) by the given factor    <br /></td></tr>
 <tr class="separator:a982c88440a8337ffb036cd483814d42f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ed800587c1f3f5ab36dd5422c101e28" id="r_a0ed800587c1f3f5ab36dd5422c101e28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28">zoomToFit</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">zoomX</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">true</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">zoomY</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">true</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">includeX0</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">false</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">includeY0</a>=<a class="el" href="class_j_k_q_t_p_final_act.html">false</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">scaleX</a>=1.05, <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> <a class="el" href="class_j_k_q_t_p_final_act.html">scaleY</a>=1.05)</td></tr>
-<tr class="memdesc:a0ed800587c1f3f5ab36dd5422c101e28"><td class="mdescLeft">&#160;</td><td class="mdescRight">this method zooms the graph so that all plotted datapoints are visible.  <br /></td></tr>
+<tr class="memdesc:a0ed800587c1f3f5ab36dd5422c101e28"><td class="mdescLeft">&#160;</td><td class="mdescRight">this method zooms the graph so that all plotted datapoints are visible.    <br /></td></tr>
 <tr class="separator:a0ed800587c1f3f5ab36dd5422c101e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
@@ -545,10 +581,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af3e1ef339949636e248d437c6f33b0ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">current style properties for this <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>  <br /></td></tr>
 <tr class="separator:af3e1ef339949636e248d437c6f33b0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae31c276a93cbf7aa8f9c153327aa5b74" id="r_ae31c276a93cbf7aa8f9c153327aa5b74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#ae31c276a93cbf7aa8f9c153327aa5b74">getDatastore</a> ()</td></tr>
-<tr class="memdesc:ae31c276a93cbf7aa8f9c153327aa5b74"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a pointer to the datastore used by this object  <br /></td></tr>
+<tr class="memdesc:ae31c276a93cbf7aa8f9c153327aa5b74"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a pointer to the datastore used by this object   <br  />
+  <br /></td></tr>
 <tr class="separator:ae31c276a93cbf7aa8f9c153327aa5b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a188e9c09e7e7731f2f3ee7fb04de04fd" id="r_a188e9c09e7e7731f2f3ee7fb04de04fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a188e9c09e7e7731f2f3ee7fb04de04fd">getDatastore</a> () <a class="el" href="class_j_k_q_t_p_final_act.html">const</a></td></tr>
-<tr class="memdesc:a188e9c09e7e7731f2f3ee7fb04de04fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a pointer to the datastore used by this object  <br /></td></tr>
+<tr class="memdesc:a188e9c09e7e7731f2f3ee7fb04de04fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a pointer to the datastore used by this object   <br  />
+  <br /></td></tr>
 <tr class="separator:a188e9c09e7e7731f2f3ee7fb04de04fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a999112139473ca7b2ac30a3dafbbca9a" id="r_a999112139473ca7b2ac30a3dafbbca9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_plot_element.html">JKQTPPlotElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a999112139473ca7b2ac30a3dafbbca9a">getGraph</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">size_t</a> <a class="el" href="class_j_k_q_t_p_final_act.html">i</a>)</td></tr>
 <tr class="memdesc:a999112139473ca7b2ac30a3dafbbca9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns description of i'th graph   <br  />
@@ -574,10 +612,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7681f6617f267f17e4897e7a6a56f675"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current magnification factor  <br /></td></tr>
 <tr class="separator:a7681f6617f267f17e4897e7a6a56f675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b1561cb4d009873db3b71e3f8d4e2ac" id="r_a9b1561cb4d009873db3b71e3f8d4e2ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_base_key.html">JKQTPBaseKey</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a9b1561cb4d009873db3b71e3f8d4e2ac">getMainKey</a> ()</td></tr>
-<tr class="memdesc:a9b1561cb4d009873db3b71e3f8d4e2ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the <a class="el" href="class_j_k_q_t_p_base_key.html" title="base class for drawing a key (or legend)">JKQTPBaseKey</a> object representing the main plot key/legend  <br /></td></tr>
+<tr class="memdesc:a9b1561cb4d009873db3b71e3f8d4e2ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">retuns the main key object   <br  />
+  <br /></td></tr>
 <tr class="separator:a9b1561cb4d009873db3b71e3f8d4e2ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf48b340d5c029089b9f5ead6e478bf6" id="r_abf48b340d5c029089b9f5ead6e478bf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_base_key.html">JKQTPBaseKey</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#abf48b340d5c029089b9f5ead6e478bf6">getMainKey</a> () <a class="el" href="class_j_k_q_t_p_final_act.html">const</a></td></tr>
-<tr class="memdesc:abf48b340d5c029089b9f5ead6e478bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the <a class="el" href="class_j_k_q_t_p_base_key.html" title="base class for drawing a key (or legend)">JKQTPBaseKey</a> object representing the main plot key/legend  <br /></td></tr>
+<tr class="memdesc:abf48b340d5c029089b9f5ead6e478bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">retuns the main key object   <br  />
+  <br /></td></tr>
 <tr class="separator:abf48b340d5c029089b9f5ead6e478bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24feeb68cbde3f1635dd1d47f6c2c292" id="r_a24feeb68cbde3f1635dd1d47f6c2c292"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a24feeb68cbde3f1635dd1d47f6c2c292">getMaxTooltipDistance</a> () <a class="el" href="class_j_k_q_t_p_final_act.html">const</a></td></tr>
 <tr class="memdesc:a24feeb68cbde3f1635dd1d47f6c2c292"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum distance at which a tooltip for a point is still displayed, when the user action jkqtpmdaToolTipForClosestDataPoint is executed   <br  />
@@ -817,7 +857,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae2611ae03ab11fa2c0f18503f3e7d330"><td class="mdescLeft">&#160;</td><td class="mdescRight">tells the plotter object to use the given external datastore and treat it as an internal one (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. free it when the plotter object ist destroyed.    <br /></td></tr>
 <tr class="separator:ae2611ae03ab11fa2c0f18503f3e7d330"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fb46a585905eaf33943bf39f1694ed3" id="r_a1fb46a585905eaf33943bf39f1694ed3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a1fb46a585905eaf33943bf39f1694ed3">useExternalDatastore</a> (<a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *<a class="el" href="class_j_k_q_t_p_final_act.html">newStore</a>)</td></tr>
-<tr class="memdesc:a1fb46a585905eaf33943bf39f1694ed3"><td class="mdescLeft">&#160;</td><td class="mdescRight">tells the plotter object to use the given external datastore.  <br /></td></tr>
+<tr class="memdesc:a1fb46a585905eaf33943bf39f1694ed3"><td class="mdescLeft">&#160;</td><td class="mdescRight">tells the plotter object to use the given external datastore.   <br  />
+  <br /></td></tr>
 <tr class="separator:a1fb46a585905eaf33943bf39f1694ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf90e312634ccbb66ed746bc9047edc0" id="r_abf90e312634ccbb66ed746bc9047edc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#abf90e312634ccbb66ed746bc9047edc0">useInternalDatastore</a> ()</td></tr>
 <tr class="memdesc:abf90e312634ccbb66ed746bc9047edc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">tells the plotter object to use an internal datastore. A new internal datastore object is generated only if the current datastore is not internal.    <br /></td></tr>
@@ -1261,7 +1302,7 @@ switch the visibility of the different graphs in the plot </li>
 <div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">labMouseAction</a>-&gt;setText(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">QString</a>(<span class="stringliteral">&quot;contextMenuOpened(x=%1, y=%2)&quot;</span>).arg(x).arg(y));</div>
 <div class="line">}</div>
 <div class="ttc" id="aclass_j_k_q_t_p_final_act_html_af964d2f5e77728dfe65e13964ea9b02a"><div class="ttname"><a href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">JKQTPFinalAct::JKQTPFinalAct</a></div><div class="ttdeci">JKQTPFinalAct(F f) noexcept</div><div class="ttdef"><b>Definition</b> jkqtpcodestructuring.h:50</div></div>
-<div class="ttc" id="aclass_j_k_q_t_plotter_html_a469af1d407505c7d12aed87b6a25ff60"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a469af1d407505c7d12aed87b6a25ff60">JKQTPlotter::contextMenu</a></div><div class="ttdeci">QMenu * contextMenu</div><div class="ttdoc">the context menu object used by this JKQTPlotter</div><div class="ttdef"><b>Definition</b> jkqtplotter.h:1663</div></div>
+<div class="ttc" id="aclass_j_k_q_t_plotter_html_a469af1d407505c7d12aed87b6a25ff60"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a469af1d407505c7d12aed87b6a25ff60">JKQTPlotter::contextMenu</a></div><div class="ttdeci">QMenu * contextMenu</div><div class="ttdoc">the context menu object used by this JKQTPlotter</div><div class="ttdef"><b>Definition</b> jkqtplotter.h:1588</div></div>
 <div class="ttc" id="aclass_j_k_q_t_plotter_html_a6a6347e94b3e03229692f947105b049b"><div class="ttname"><a href="class_j_k_q_t_plotter.html#a6a6347e94b3e03229692f947105b049b">JKQTPlotter::contextMenuOpened</a></div><div class="ttdeci">void contextMenuOpened(double x, double y, QMenu *contextMenu)</div><div class="ttdoc">emitted whenever a context menu is opened. You can modify the menu via the parameter contextMenu!</div></div>
 </div><!-- fragment --></li>
 </ul>
@@ -2218,7 +2259,8 @@ template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">class</a> <a cla
 </table>
 </div><div class="memdoc">
 
-<p>copy displayed data to cpliboard </p>
+<p>copy the data used for the current plot to the clipboard   </p>
+<p>copies data as tab separated data with the system-decimal point.   </p>
 
 </div>
 </div>
@@ -2245,7 +2287,7 @@ template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">class</a> <a cla
 </table>
 </div><div class="memdoc">
 
-<p>copy displayed data to cpliboard in Matlab syntax </p>
+<p>copy the data used for the current plot to the clipboard in Matlab format   </p>
 
 </div>
 </div>
@@ -3271,7 +3313,10 @@ template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">class</a> <a cla
 </table>
 </div><div class="memdoc">
 
-<p>returns a pointer to the datastore used by this object </p>
+<p>returns a pointer to the datastore used by this object   <br  />
+ </p>
+<p><br  />
+ </p>
 
 </div>
 </div>
@@ -3298,7 +3343,10 @@ template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">class</a> <a cla
 </table>
 </div><div class="memdoc">
 
-<p>returns a pointer to the datastore used by this object </p>
+<p>returns a pointer to the datastore used by this object   <br  />
+ </p>
+<p><br  />
+ </p>
 
 </div>
 </div>
@@ -3560,8 +3608,10 @@ template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">class</a> <a cla
 </table>
 </div><div class="memdoc">
 
-<p>returns the <a class="el" href="class_j_k_q_t_p_base_key.html" title="base class for drawing a key (or legend)">JKQTPBaseKey</a> object representing the main plot key/legend </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#ad82a81593a09f4209c2349f3f41a90e3" title="retuns the main key object">JKQTBasePlotter::getMainKey()</a> </dd></dl>
+<p>retuns the main key object   <br  />
+ </p>
+<p><br  />
+ </p>
 
 </div>
 </div>
@@ -3588,8 +3638,10 @@ template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">class</a> <a cla
 </table>
 </div><div class="memdoc">
 
-<p>returns the <a class="el" href="class_j_k_q_t_p_base_key.html" title="base class for drawing a key (or legend)">JKQTPBaseKey</a> object representing the main plot key/legend </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#ad82a81593a09f4209c2349f3f41a90e3" title="retuns the main key object">JKQTBasePlotter::getMainKey()</a> </dd></dl>
+<p>retuns the main key object   <br  />
+ </p>
+<p><br  />
+ </p>
 
 </div>
 </div>
@@ -5886,7 +5938,8 @@ Shown Toolbar</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>print the current plot, if printer is <code>nullptr</code> a printer selection dialog is displayed </p>
+<p>print the current plot, if printer is <code>nullptr</code> a printer selection dialog is displayed   </p>
+<dl class="section note"><dt>Note</dt><dd>This function is only available on platforms with QPrinter support!   </dd></dl>
 
 </div>
 </div>
@@ -6380,6 +6433,404 @@ Shown Toolbar</div></div>
 
 </div>
 </div>
+<a id="a1ec71e7c748d79131e6ea0ced7016511" name="a1ec71e7c748d79131e6ea0ced7016511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ec71e7c748d79131e6ea0ced7016511">&#9670;&#160;</a></span>saveAsCSV</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a> JKQTPlotter::saveAsCSV </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>filename</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;)</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save the current plot data as a Comma Separated Values (CSV) file   </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>the file to save to, if <em>filename</em> is empty, a file open dialog will be shown </td></tr>
+    <tr><td class="paramname">decimalSeparator</td><td>decimal separator for outpu </td></tr>
+    <tr><td class="paramname">commentInitializer</td><td>line-start for comment lines   </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa4796b38a87f246bf434bf8a72549309" name="aa4796b38a87f246bf434bf8a72549309"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4796b38a87f246bf434bf8a72549309">&#9670;&#160;</a></span>saveAsDIF</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a> JKQTPlotter::saveAsDIF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>filename</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;)</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save the current plot data as a DIF file   </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>the file to save to, if <em>filename</em> is empty, a file open dialog will be shown   </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0554ca495d6f7b6a3a46df2e1e5cde8c" name="a0554ca495d6f7b6a3a46df2e1e5cde8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0554ca495d6f7b6a3a46df2e1e5cde8c">&#9670;&#160;</a></span>saveAsGerExcelCSV</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a> JKQTPlotter::saveAsGerExcelCSV </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>filename</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;)</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save the current plot data as a Semicolon Separated Values (CSV) file for german Excel, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. with comma as decimal separator   </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>the file to save to, if <em>filename</em> is empty, a file open dialog will be shown   </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7b11707f94b037821d27b4582e004983" name="a7b11707f94b037821d27b4582e004983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b11707f94b037821d27b4582e004983">&#9670;&#160;</a></span>saveAsMatlab</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a> JKQTPlotter::saveAsMatlab </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>filename</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;)</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save the current plot data as a Matlab Script   </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>the file to save to, if <em>filename</em> is empty, a file open dialog will be shown   </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af276a674c635cd6bc254ea3df220c1ee" name="af276a674c635cd6bc254ea3df220c1ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af276a674c635cd6bc254ea3df220c1ee">&#9670;&#160;</a></span>saveAsPDF</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> JKQTPlotter::saveAsPDF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>filename</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a>&#160;</td>
+          <td class="paramname"><em>displayPreview</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">true</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save the current plot as a PDF file, with the current widget aspect ratio, if filename is empty a file selection dialog is displayed   </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>the filename to save to, if empty a file save dialog is displayed </td></tr>
+    <tr><td class="paramname">displayPreview</td><td>if \C true, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns <code>true</code> if the file was save successfully</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Exporting to PDF requires QPrinter-support, if it is not available on your platform, this function will not be available either!   </dd></dl>
+
+</div>
+</div>
+<a id="ab21b72a5360928634954e8a5bed12021" name="ab21b72a5360928634954e8a5bed12021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab21b72a5360928634954e8a5bed12021">&#9670;&#160;</a></span>saveAsPixelImage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> JKQTPlotter::saveAsPixelImage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>filename</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a>&#160;</td>
+          <td class="paramname"><em>displayPreview</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">true</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QByteArray</a> &amp;&#160;</td>
+          <td class="paramname"><em>outputFormat</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">QByteArray</a>()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QSize</a> &amp;&#160;</td>
+          <td class="paramname"><em>outputSizeIncrease</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">QSize</a>(0,0)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save the current plot as a pixel image image (PNG ...), if filename is empty a file selection dialog is displayed   </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>name of the stored file, if no <em>outputFormat</em> is given, the file format is deduced by the file extension in <em>filename</em> </td></tr>
+    <tr><td class="paramname">displayPreview</td><td>if <code>true</code> a dialog is shown that allows to modify the generated output (zoo, scaling, ...) </td></tr>
+    <tr><td class="paramname">outputFormmat</td><td>specify the file format for the generated file </td></tr>
+    <tr><td class="paramname">outputSizeIncrease</td><td>if given, the size of the generated pixel image is increased by this number of pixels in addition to the required space </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>returns <code>true</code> on success   </dd></dl>
+
+</div>
+</div>
+<a id="aece558aaceb3100e244eaa92468b1837" name="aece558aaceb3100e244eaa92468b1837"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aece558aaceb3100e244eaa92468b1837">&#9670;&#160;</a></span>saveAsSemicolonSV</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a> JKQTPlotter::saveAsSemicolonSV </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>filename</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;)</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save the current plot data as a Semicolon Separated Values (SSV) file   </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>the file to save to, if <em>filename</em> is empty, a file open dialog will be shown </td></tr>
+    <tr><td class="paramname">decimalSeparator</td><td>decimal separator for outpu </td></tr>
+    <tr><td class="paramname">commentInitializer</td><td>line-start for comment lines   </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4331c51b4c21d510df0a6c95b1048fbd" name="a4331c51b4c21d510df0a6c95b1048fbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4331c51b4c21d510df0a6c95b1048fbd">&#9670;&#160;</a></span>saveAsSVG</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> JKQTPlotter::saveAsSVG </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>filename</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a>&#160;</td>
+          <td class="paramname"><em>displayPreview</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">true</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save the current plot as a SVG file, with the current widget aspect ratio, if filename is empty a file selection dialog is displayed   </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>the filename to save to, if empty a file save dialog is displayed </td></tr>
+    <tr><td class="paramname">displayPreview</td><td>if \C true, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns <code>true</code> if the file was save successfully</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Exporting to SVG requires QPrinter-support, if it is not available on your platform, this function will not be available either!   </dd></dl>
+
+</div>
+</div>
+<a id="abe387243dea9fd7109037b5073e7bb90" name="abe387243dea9fd7109037b5073e7bb90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe387243dea9fd7109037b5073e7bb90">&#9670;&#160;</a></span>saveAsSYLK</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a> JKQTPlotter::saveAsSYLK </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>filename</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;)</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save the current plot data as a SYLK spreadsheet file   </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>the file to save to, if <em>filename</em> is empty, a file open dialog will be shown   </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a118db5203c741e24cf7aa68d07ca6899" name="a118db5203c741e24cf7aa68d07ca6899"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a118db5203c741e24cf7aa68d07ca6899">&#9670;&#160;</a></span>saveAsTabSV</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a> JKQTPlotter::saveAsTabSV </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;&#160;</td>
+          <td class="paramname"><em>filename</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;)</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save the current plot data as a Tabulator Separated Values (CSV) file   </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>the file to save to, if <em>filename</em> is empty, a file open dialog will be shown </td></tr>
+    <tr><td class="paramname">decimalSeparator</td><td>decimal separator for outpu </td></tr>
+    <tr><td class="paramname">commentInitializer</td><td>line-start for comment lines   </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a5b05e29e32b7a783f151bae265ba4e82" name="a5b05e29e32b7a783f151bae265ba4e82"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5b05e29e32b7a783f151bae265ba4e82">&#9670;&#160;</a></span>saveCurrentPlotterStyle()</h2>
 
@@ -6459,14 +6910,14 @@ Shown Toolbar</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>save the data used for the current plot. The file format is extracted from the file extension (csv, ...) </p>
+<p>save the data used for the current plot. The file format is extracted from the file extension (csv, ...)   </p>
 <p>The parameter <em>format</em> specifies the export format. if it is empty the format will be choosen according to the file extension, or if <em>filename</em> is also empty the format will be choosen according to what is selected in the file selection dialog.</p>
-<p>If <em>format</em> is <code>"slk"</code> the output will be in SYLK format, if <em>format</em> is <code>"csv"</code> or <em>"dat"</em> the output will be comma separated values and if <em>format</em> is <code>"txt"</code> the output will be tab separated values. </p>
+<p>If <em>format</em> is <code>"slk"</code> the output will be in SYLK format, if <em>format</em> is <code>"csv"</code> or <em>"dat"</em> the output will be comma separated values and if <em>format</em> is <code>"txt"</code> the output will be tab separated values.   </p>
 
 </div>
 </div>
-<a id="a2461280014b5ee5ffc7546d1587a9233" name="a2461280014b5ee5ffc7546d1587a9233"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2461280014b5ee5ffc7546d1587a9233">&#9670;&#160;</a></span>saveImage</h2>
+<a id="a8710bfe5aae1f94dd58104679145d9a2" name="a8710bfe5aae1f94dd58104679145d9a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8710bfe5aae1f94dd58104679145d9a2">&#9670;&#160;</a></span>saveImage</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6475,7 +6926,7 @@ Shown Toolbar</div></div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a> JKQTPlotter::saveImage </td>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> JKQTPlotter::saveImage </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;&#160;</td>
           <td class="paramname"><em>filename</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;)</code>, </td>
@@ -6499,7 +6950,15 @@ Shown Toolbar</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>save the current plot as an image file, with the current widget aspect ratio, if filename is empty a file selection dialog is displayed. The image format is extracted from the file extension (jpeg, tiff, png, pdf, ...) </p>
+<p>save the current plot as an image file, with the current widget aspect ratio, if filename is empty a file selection dialog is displayed. The image format is extracted from the file extension (jpeg, tiff, png, pdf, ...)   </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>the filename to save to, if empty a file save dialog is displayed </td></tr>
+    <tr><td class="paramname">displayPreview</td><td>if \C true, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns <code>true</code> if the file was save successfully   </dd></dl>
 
 </div>
 </div>
@@ -6568,7 +7027,8 @@ Shown Toolbar</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>sets absolutely limiting x-range of the plot </p>
+<p>sets absolutely limiting x-range of the plot   <br  />
+ </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xminn</td><td>absolute minimum of x-axis </td></tr>
@@ -6577,7 +7037,8 @@ Shown Toolbar</div></div>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>if the aspect ratio of this does not fit into the widget, it is possible that you don't see the complete contents!</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#acde92b94d19a03cd7020a95965c339a5" title="sets absolute minimum and maximum y-value to plot">setAbsoluteY()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a60476ed2f4ceca8085010dea1ea4797d" title="sets absolutely limiting x-range of the plot">JKQTBasePlotter::setAbsoluteX()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#acde92b94d19a03cd7020a95965c339a5" title="sets absolute minimum and maximum y-value to plot">setAbsoluteY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a48c261d683b78d962286027fb2d258c2" title="sets absolutely limiting x-range of the plot">JKQTPlotter::setAbsoluteX()</a>   <br  />
+ </dd></dl>
 
 </div>
 </div>
@@ -6627,7 +7088,8 @@ Shown Toolbar</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>sets absolutely limiting x- and y-range of the plot </p>
+<p>sets absolutely limiting x- and y-range of the plot   <br  />
+ </p>
 <p>The user (or programmer) cannot zoom to a viewport that is larger than the range given to this function.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -6639,7 +7101,8 @@ Shown Toolbar</div></div>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>if the aspect ratio of this does not fit into the widget, it is possible that you don't see the complete contents!</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a48c261d683b78d962286027fb2d258c2" title="sets absolutely limiting x-range of the plot">setAbsoluteX()</a>, <a class="el" href="class_j_k_q_t_plotter.html#acde92b94d19a03cd7020a95965c339a5" title="sets absolute minimum and maximum y-value to plot">setAbsoluteY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a0af156a89863d8d7374f4113f7e64750" title="sets absolutely limiting x- and y-range of the plot">JKQTBasePlotter::setAbsoluteXY()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a48c261d683b78d962286027fb2d258c2" title="sets absolutely limiting x-range of the plot">setAbsoluteX()</a>, <a class="el" href="class_j_k_q_t_plotter.html#acde92b94d19a03cd7020a95965c339a5" title="sets absolute minimum and maximum y-value to plot">setAbsoluteY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">JKQTPlotter::setAbsoluteXY()</a>   <br  />
+ </dd></dl>
 
 </div>
 </div>
@@ -6677,7 +7140,8 @@ Shown Toolbar</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>sets absolute minimum and maximum y-value to plot </p>
+<p>sets absolute minimum and maximum y-value to plot   <br  />
+ </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">yminn</td><td>absolute minimum of y-axis </td></tr>
@@ -6686,7 +7150,8 @@ Shown Toolbar</div></div>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>if the aspect ratio of this does not fit into the widget, it is possible that you don't see the complete contents!</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a48c261d683b78d962286027fb2d258c2" title="sets absolutely limiting x-range of the plot">setAbsoluteX()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a8b33aada0f0b1ad446df90e5adf25911" title="sets absolute minimum and maximum y-value to plot">JKQTBasePlotter::setAbsoluteY()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a48c261d683b78d962286027fb2d258c2" title="sets absolutely limiting x-range of the plot">setAbsoluteX()</a>, <a class="el" href="class_j_k_q_t_plotter.html#acde92b94d19a03cd7020a95965c339a5" title="sets absolute minimum and maximum y-value to plot">JKQTPlotter::setAbsoluteY()</a>   <br  />
+ </dd></dl>
 
 </div>
 </div>
@@ -7976,17 +8441,20 @@ Shown Toolbar</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>sets the x-range of the plot (minimum and maximum x-value on the x-axis) </p>
+<p>sets the x-range of the plot (minimum and maximum x-value on the x-axis)   <br  />
+ </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xminn</td><td>absolute minimum of x-axis </td></tr>
-    <tr><td class="paramname">xmaxx</td><td>absolute maximum of x-axis</td></tr>
+    <tr><td class="paramname">xmaxx</td><td>absolute maximum of x-axis </td></tr>
+    <tr><td class="paramname">affectsSecondaryAxes</td><td>if <code>true</code>, the secondary axes are affectedtoo, by using a relative zooming scheme, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. if a major axis range shrinks by 50%, also the secondary ranges shrink by 50% [default: <code>false</code>]</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>You cannot expand the x-range outside the absolute x-range set <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. by <a class="el" href="class_j_k_q_t_plotter.html#a48c261d683b78d962286027fb2d258c2" title="sets absolutely limiting x-range of the plot">setAbsoluteX()</a>! Also the range will be limited to possible values (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. to positive values if you use logarithmic axes).</dd></dl>
-<p>Uppon setting, this function emits the signal <a class="el" href="class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082" title="signal: emitted whenever the user selects a new x-y zoom range (by mouse)">zoomChangedLocally()</a>, if emitting signals is activated at the moment (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. using <a class="el" href="class_j_k_q_t_base_plotter.html#aa47e330e4dce0db6046d8080bcee2bc3" title="specifies whether this class emits signals, like zoomChangedLocally() or beforePlotScalingRecaluclate...">JKQTBasePlotter::setEmittingSignalsEnabled()</a> ).</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a0fd546d1ba10a292ce8890744101fe3e" title="sets the y-range of the plot (minimum and maximum y-value on the y-axis)">setY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a7cb1174da67d7d37dabc30c2ca25ed30" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a8900ece5e255196821e809e445fb79a5" title="sets the y-range of the plot (minimum and maximum y-value on the y-axis)">JKQTBasePlotter::setY()</a> </dd></dl>
+<p>Uppon setting, this function emits the signal <a class="el" href="class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082" title="signal: emitted whenever the user selects a new x-y zoom range (by mouse)">zoomChangedLocally()</a>, if emitting signals is activated at the moment (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. using <a class="el" href="class_j_k_q_t_plotter.html#ac915f20e3f2fc020893024732aa81819" title="specifies whether this class emits signals, like zoomChangedLocally() or beforePlotScalingRecaluclate...">setEmittingSignalsEnabled()</a> ).</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a0fd546d1ba10a292ce8890744101fe3e" title="sets the y-range of the plot (minimum and maximum y-value on the y-axis)">setY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a7cb1174da67d7d37dabc30c2ca25ed30" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a0fd546d1ba10a292ce8890744101fe3e" title="sets the y-range of the plot (minimum and maximum y-value on the y-axis)">JKQTPlotter::setY()</a>   <br  />
+ </dd></dl>
 
 </div>
 </div>
@@ -8042,7 +8510,8 @@ Shown Toolbar</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis) </p>
+<p>sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)   <br  />
+ </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xminn</td><td>absolute minimum of x-axis </td></tr>
@@ -8054,8 +8523,9 @@ Shown Toolbar</div></div>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>You cannot expand the ranges outside the absolute ranges set <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. by <a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>! Also the range will be limited to possible values (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. to positive values if you use logarithmic axes).</dd></dl>
-<p>Uppon setting, this function emits the signal <a class="el" href="class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082" title="signal: emitted whenever the user selects a new x-y zoom range (by mouse)">zoomChangedLocally()</a>, if emitting signals is activated at the moment (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. using <a class="el" href="class_j_k_q_t_base_plotter.html#aa47e330e4dce0db6046d8080bcee2bc3" title="specifies whether this class emits signals, like zoomChangedLocally() or beforePlotScalingRecaluclate...">JKQTBasePlotter::setEmittingSignalsEnabled()</a> ).</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a09adcf0afc9e0b2847262c850e18aa5d" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a09adcf0afc9e0b2847262c850e18aa5d" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTBasePlotter::setXY()</a> </dd></dl>
+<p>Uppon setting, this function emits the signal <a class="el" href="class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082" title="signal: emitted whenever the user selects a new x-y zoom range (by mouse)">zoomChangedLocally()</a>, if emitting signals is activated at the moment (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. using <a class="el" href="class_j_k_q_t_plotter.html#ac915f20e3f2fc020893024732aa81819" title="specifies whether this class emits signals, like zoomChangedLocally() or beforePlotScalingRecaluclate...">setEmittingSignalsEnabled()</a> ).</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a09adcf0afc9e0b2847262c850e18aa5d" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a09adcf0afc9e0b2847262c850e18aa5d" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a7cb1174da67d7d37dabc30c2ca25ed30" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTPlotter::setXY()</a>   <br  />
+ </dd></dl>
 
 </div>
 </div>
@@ -8093,17 +8563,20 @@ Shown Toolbar</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>sets the y-range of the plot (minimum and maximum y-value on the y-axis) </p>
+<p>sets the y-range of the plot (minimum and maximum y-value on the y-axis)   <br  />
+ </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">yminn</td><td>absolute minimum of y-axis </td></tr>
-    <tr><td class="paramname">ymaxx</td><td>absolute maximum of y-axis</td></tr>
+    <tr><td class="paramname">ymaxx</td><td>absolute maximum of y-axis </td></tr>
+    <tr><td class="paramname">affectsSecondaryAxes</td><td>if <code>true</code>, the secondary axes are affectedtoo, by using a relative zooming scheme, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. if a major axis range shrinks by 50%, also the secondary ranges shrink by 50% [default: <code>false</code>]</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>You cannot expand the y-range outside the absolute y-range set <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. by <a class="el" href="class_j_k_q_t_plotter.html#acde92b94d19a03cd7020a95965c339a5" title="sets absolute minimum and maximum y-value to plot">setAbsoluteY()</a>! Also the range will be limited to possible values (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. to positive values if you use logarithmic axes).</dd></dl>
-<p>Uppon setting, this function emits the signal <a class="el" href="class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082" title="signal: emitted whenever the user selects a new x-y zoom range (by mouse)">zoomChangedLocally()</a>, if emitting signals is activated at the moment (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. using <a class="el" href="class_j_k_q_t_base_plotter.html#aa47e330e4dce0db6046d8080bcee2bc3" title="specifies whether this class emits signals, like zoomChangedLocally() or beforePlotScalingRecaluclate...">JKQTBasePlotter::setEmittingSignalsEnabled()</a> ).</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a09adcf0afc9e0b2847262c850e18aa5d" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a7cb1174da67d7d37dabc30c2ca25ed30" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#ad76dc49855ecd3da40e98b30110e51d3" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">JKQTBasePlotter::setX()</a> </dd></dl>
+<p>Uppon setting, this function emits the signal <a class="el" href="class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082" title="signal: emitted whenever the user selects a new x-y zoom range (by mouse)">zoomChangedLocally()</a>, if emitting signals is activated at the moment (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. using <a class="el" href="class_j_k_q_t_plotter.html#ac915f20e3f2fc020893024732aa81819" title="specifies whether this class emits signals, like zoomChangedLocally() or beforePlotScalingRecaluclate...">setEmittingSignalsEnabled()</a> ).</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a09adcf0afc9e0b2847262c850e18aa5d" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a7cb1174da67d7d37dabc30c2ca25ed30" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a09adcf0afc9e0b2847262c850e18aa5d" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">JKQTPlotter::setX()</a>   <br  />
+ </dd></dl>
 
 </div>
 </div>
@@ -8693,8 +9166,10 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 </table>
 </div><div class="memdoc">
 
-<p>tells the plotter object to use the given external datastore. </p>
-<p>If the current datastore is internally managed, this method will free that object and use the supplied datastore with external management. If the current datastore is already external, this method will simply replace it by the new one. </p>
+<p>tells the plotter object to use the given external datastore.   <br  />
+ </p>
+<p>If the current datastore is internally managed, this method will free that object and use the supplied datastore with external management. If the current datastore is already external, this method will simply replace it by the new one.   <br  />
+ </p>
 
 </div>
 </div>
@@ -9177,7 +9652,7 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 </table>
 </div><div class="memdoc">
 
-<p>sets x/ymin and x/ymax to the supplied values and replots the graph (zoom operation!) </p>
+<p>sets x/ymin and x/ymax to the supplied values and replots the graph (zoom operation!)   </p>
 
 </div>
 </div>
@@ -9272,7 +9747,7 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 </table>
 </div><div class="memdoc">
 
-<p>zooms into the graph (the same as turning the mouse wheel) by the given factor </p>
+<p>zooms into the graph (the same as turning the mouse wheel) by the given factor   </p>
 
 </div>
 </div>
@@ -9300,7 +9775,7 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 </table>
 </div><div class="memdoc">
 
-<p>zooms out of the graph (the same as turning the mouse wheel) by the given factor </p>
+<p>zooms out of the graph (the same as turning the mouse wheel) by the given factor   </p>
 
 </div>
 </div>
@@ -9362,15 +9837,15 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 </table>
 </div><div class="memdoc">
 
-<p>this method zooms the graph so that all plotted datapoints are visible. </p>
+<p>this method zooms the graph so that all plotted datapoints are visible.   </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">zoomX</td><td>if set <code>true</code> (default) zooms the x axis </td></tr>
     <tr><td class="paramname">zoomY</td><td>if set <code>true</code> (default) zooms the y axis </td></tr>
-    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_234_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ x=0 $" src="form_234.png" width="41" height="11"/></picture> is visible in the plot (only for non-logx plots, default: false) </td></tr>
-    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_235_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ y=0 $" src="form_235.png" width="39" height="15"/></picture> is visible in the plot (only for non-logy plots, default: false) </td></tr>
-    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <picture><source srcset="form_236_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_236.png" width="81" height="13"/></picture> where <picture><source srcset="form_237_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x $" src="form_237.png" width="23" height="13"/></picture> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">1.05</a>) </td></tr>
-    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <picture><source srcset="form_238_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_238.png" width="88" height="15"/></picture> where <picture><source srcset="form_239_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta &lt; $" src="form_239.png" width="29" height="15"/></picture> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">1.05</a>) </td></tr>
+    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_245_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ x=0 $" src="form_245.png" width="41" height="11"/></picture> is visible in the plot (only for non-logx plots, default: false) </td></tr>
+    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_246_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ y=0 $" src="form_246.png" width="39" height="15"/></picture> is visible in the plot (only for non-logy plots, default: false) </td></tr>
+    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <picture><source srcset="form_247_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_247.png" width="81" height="13"/></picture> where <picture><source srcset="form_248_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x $" src="form_248.png" width="23" height="13"/></picture> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">1.05</a>) </td></tr>
+    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <picture><source srcset="form_249_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_249.png" width="88" height="15"/></picture> where <picture><source srcset="form_250_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta &lt; $" src="form_250.png" width="29" height="15"/></picture> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">1.05</a>)   </td></tr>
   </table>
   </dd>
 </dl>
@@ -10460,7 +10935,7 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_plotter.html">JKQTPlotter</a></li>
-    <li class="footer">Generated on Tue Dec 19 2023 15:24:25 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Dec 21 2023 11:26:34 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

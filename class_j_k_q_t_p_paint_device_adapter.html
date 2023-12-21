@@ -144,12 +144,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:add9ef7371a72f0dd45e8b2a82883cbd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a paint device with a given size in millimeters ... the default implementation call <a class="el" href="class_j_k_q_t_p_paint_device_adapter.html#ac859838104f8ab69578d722e35c9fe82" title="create a paint device with a given size in pt">createPaintdevice()</a>, assuming the standard logical resolution of the desktop!!!)  <br /></td></tr>
 <tr class="separator:add9ef7371a72f0dd45e8b2a82883cbd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bfc80e46759c357a5828b55c998370f" id="r_a8bfc80e46759c357a5828b55c998370f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">virtual</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QStringList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_paint_device_adapter.html#a8bfc80e46759c357a5828b55c998370f">getFileExtension</a> () <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> =0</td></tr>
+<tr class="memdesc:a8bfc80e46759c357a5828b55c998370f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a list (in lower-case) of the file extensions supported by this plugin, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <code>{"jpg"</code>,"jpeg"}  <br /></td></tr>
 <tr class="separator:a8bfc80e46759c357a5828b55c998370f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1beee27f1a4072ecf3d09061dc76b369" id="r_a1beee27f1a4072ecf3d09061dc76b369"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">virtual</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_paint_device_adapter.html#a1beee27f1a4072ecf3d09061dc76b369">getFilter</a> () <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> =0</td></tr>
+<tr class="memdesc:a1beee27f1a4072ecf3d09061dc76b369"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filter-String for a Qt File-Dialog, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <code>"JPEG Files (*.jpg)"</code>  <br /></td></tr>
 <tr class="separator:a1beee27f1a4072ecf3d09061dc76b369"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77c586b60165321555f10e582e42973f" id="r_a77c586b60165321555f10e582e42973f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">virtual</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_paint_device_adapter.html#a77c586b60165321555f10e582e42973f">getFormatID</a> () <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> =0</td></tr>
+<tr class="memdesc:a77c586b60165321555f10e582e42973f"><td class="mdescLeft">&#160;</td><td class="mdescRight">a plugin-ID, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. a unique name for this format plugin, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <code>MyPluginExport_JPEG</code>  <br /></td></tr>
 <tr class="separator:a77c586b60165321555f10e582e42973f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3034dcb3342b2501576b33f302cbadae" id="r_a3034dcb3342b2501576b33f302cbadae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">virtual</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_paint_device_adapter.html#a3034dcb3342b2501576b33f302cbadae">getFormatName</a> () <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> =0</td></tr>
+<tr class="memdesc:a3034dcb3342b2501576b33f302cbadae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Human readable name for the format.  <br /></td></tr>
 <tr class="separator:a3034dcb3342b2501576b33f302cbadae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a172f74d48293029dfef6e5d8f2b268c8" id="r_a172f74d48293029dfef6e5d8f2b268c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">virtual</a> <a class="el" href="class_j_k_q_t_p_final_act.html">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_paint_device_adapter.html#a172f74d48293029dfef6e5d8f2b268c8">getPrintSizeXInMM</a> () <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> =0</td></tr>
 <tr class="separator:a172f74d48293029dfef6e5d8f2b268c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -300,6 +304,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>returns a list (in lower-case) of the file extensions supported by this plugin, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <code>{"jpg"</code>,"jpeg"} </p>
+
 </div>
 </div>
 <a id="a1beee27f1a4072ecf3d09061dc76b369" name="a1beee27f1a4072ecf3d09061dc76b369"></a>
@@ -324,6 +330,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Filter-String for a Qt File-Dialog, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <code>"JPEG Files (*.jpg)"</code> </p>
 
 </div>
 </div>
@@ -350,6 +358,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>a plugin-ID, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. a unique name for this format plugin, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <code>MyPluginExport_JPEG</code> </p>
+
 </div>
 </div>
 <a id="a3034dcb3342b2501576b33f302cbadae" name="a3034dcb3342b2501576b33f302cbadae"></a>
@@ -374,6 +384,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Human readable name for the format. </p>
 
 </div>
 </div>
@@ -487,7 +499,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_paint_device_adapter.html">JKQTPPaintDeviceAdapter</a></li>
-    <li class="footer">Generated on Tue Dec 19 2023 15:24:25 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Dec 21 2023 11:26:34 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
