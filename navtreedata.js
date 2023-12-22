@@ -29,15 +29,15 @@ var NAVTREE =
     [ "Contributor Covenant Code of Conduct", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html", [
       [ "Our Pledge", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2", null ],
       [ "Our Standards", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3", null ],
-      [ "Our Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4", null ],
-      [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5", null ],
-      [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6", null ],
-      [ "Attribution", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md7", null ]
+      [ "Our Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5", null ],
+      [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md7", null ],
+      [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md8", null ],
+      [ "Attribution", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md10", null ]
     ] ],
     [ "Contributing", "md__c_o_n_t_r_i_b_u_t_i_n_g.html", [
-      [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8", null ],
-      [ "Our Standards", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md9", null ],
-      [ "Our Responsibilities", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10", null ],
+      [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md4", null ],
+      [ "Our Standards", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md6", null ],
+      [ "Our Responsibilities", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md9", null ],
       [ "Scope", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md11", null ],
       [ "Enforcement", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md12", null ]
     ] ],
@@ -98,14 +98,14 @@ var NAVTREE =
       [ "Example (JKQTPlotter): Draw an Artistic Image with a Parametrized Scatter Graph", "_j_k_q_t_plotter_param_scatter_image.html", null ],
       [ "Example (JKQTPlotter): Plotting Parametric Curves", "_j_k_q_t_plotter_parametric_curves.html", null ],
       [ "Example (JKQTPlotter): Plotting Mathematical Functions as Line Graphs", "_j_k_q_t_plotter_function_plots.html", [
-        [ "Basics", "_j_k_q_t_plotter_function_plots.html#autotoc_md70", null ],
-        [ "Simple C++ inline function", "_j_k_q_t_plotter_function_plots.html#autotoc_md71", null ],
-        [ "Simple C++ inline function with parameters", "_j_k_q_t_plotter_function_plots.html#autotoc_md73", null ],
-        [ "C++ functors as plot functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md74", null ],
-        [ "Static C functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md76", null ],
-        [ "Predefined \"special\" functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md77", null ],
-        [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md78", null ],
-        [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md79", null ]
+        [ "Basics", "_j_k_q_t_plotter_function_plots.html#autotoc_md69", null ],
+        [ "Simple C++ inline function", "_j_k_q_t_plotter_function_plots.html#autotoc_md70", null ],
+        [ "Simple C++ inline function with parameters", "_j_k_q_t_plotter_function_plots.html#autotoc_md71", null ],
+        [ "C++ functors as plot functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md72", null ],
+        [ "Static C functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md73", null ],
+        [ "Predefined \"special\" functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md74", null ],
+        [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md75", null ],
+        [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md76", null ]
       ] ],
       [ "Example (JKQTPlotter): Plotting Parsed Mathematical Functions as Line Graphs", "_j_k_q_t_plotter_parsed_function_plot.html", [
         [ "Plot Function f(x)", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md85", null ],
@@ -131,9 +131,9 @@ var NAVTREE =
       [ "Example (JKQTPlotter): Plotting Geometric Objects", "_j_k_q_t_plotter_geometric_graphs.html", null ],
       [ "Example (JKQTPlotter): Generating Demo-Plots of Geometric Objects for Documentation", "_j_k_q_t_plotter_geometric_graphs_simple.html", null ],
       [ "Example (JKQTPlotter): Plotting Arrows", "_j_k_q_t_plotter_geometric_arrows.html", [
-        [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md69", null ],
-        [ "Classes with support for arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md72", null ],
-        [ "Screenshot", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md75", null ]
+        [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md77", null ],
+        [ "Classes with support for arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md78", null ],
+        [ "Screenshot", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md79", null ]
       ] ],
       [ "Example (JKQTPlotter): Plot With Axes through Origin", "_j_k_q_t_plotter_geometric_coordinate_axis0.html", null ],
       [ "Example (JKQTPlotter): Line Graph with Logarithmic y-axis", "_j_k_q_t_plotter_log_axes.html", null ],
@@ -220,14 +220,14 @@ var NAVTREE =
         [ "Iterator Interface", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md29", null ]
       ] ],
       [ "Tutorial (JKQTPDatastore): Iterator-Based usage of JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html", [
-        [ "Iterator-based Column Data Access To Existing Rows", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md30", null ],
-        [ "Back-Inserter for Columns", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md31", null ],
-        [ "Using C++ STL algorithms", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md32", null ],
-        [ "Special Properties of the JKQTPDatastore-Iterators", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md35", null ]
+        [ "Iterator-based Column Data Access To Existing Rows", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md31", null ],
+        [ "Back-Inserter for Columns", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md33", null ],
+        [ "Using C++ STL algorithms", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md35", null ],
+        [ "Special Properties of the JKQTPDatastore-Iterators", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md36", null ]
       ] ],
       [ "Tutorial (JKQTPDatastore): Advanced 1-Dimensional Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html", [
         [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md47", null ],
-        [ "Basic Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48", null ],
+        [ "Basic Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md49", null ],
         [ "Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md50", [
           [ "Standard Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md51", null ],
           [ "Boxplots with Outliers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md52", null ]
@@ -243,12 +243,12 @@ var NAVTREE =
         [ "Weighted Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md44", null ],
         [ "Linearizable Regression Models", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md45", null ],
         [ "Polynom Fitting", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md46", null ],
-        [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md49", null ]
+        [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md48", null ]
       ] ],
       [ "Tutorial (JKQTPDatastore): 1-Dimensional Group Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html", [
-        [ "Barcharts & Boxplots from categorized data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md33", [
-          [ "Generating a Dataset for Grouped Barcharts", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md34", null ],
-          [ "Calculating Grouped Statistics for a Barchart", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md36", null ],
+        [ "Barcharts & Boxplots from categorized data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md30", [
+          [ "Generating a Dataset for Grouped Barcharts", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md32", null ],
+          [ "Calculating Grouped Statistics for a Barchart", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md34", null ],
           [ "Calculating Grouped Statistics for a Boxplot", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md37", null ]
         ] ],
         [ "(Scatter-)Graphs with X/Y-errors from Categorized Data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md38", [
@@ -307,19 +307,19 @@ var NAVTREE =
       ] ]
     ] ],
     [ "JKQTPlotter: Screenshots", "md_screenshots_2_r_e_a_d_m_e.html", [
-      [ "Scatter Plots and Boxplots", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md123", null ],
-      [ "Different Types of Barcharts", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md124", null ],
-      [ "Image Plots", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md125", null ],
-      [ "Plotting a user-defined (parsed) function", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md126", null ],
-      [ "Axis-Label styles in LogLog-Plot", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md127", null ],
-      [ "Parametrized Scatter Plots and Data Viewer", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md128", null ],
-      [ "Barcharts", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md129", null ],
-      [ "Screenshots of included LaTeX renderer", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md130", null ],
-      [ "QuickFit 3.0 Screenshots", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md131", null ]
+      [ "Scatter Plots and Boxplots", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md124", null ],
+      [ "Different Types of Barcharts", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md125", null ],
+      [ "Image Plots", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md126", null ],
+      [ "Plotting a user-defined (parsed) function", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md127", null ],
+      [ "Axis-Label styles in LogLog-Plot", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md130", null ],
+      [ "Parametrized Scatter Plots and Data Viewer", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md131", null ],
+      [ "Barcharts", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md132", null ],
+      [ "Screenshots of included LaTeX renderer", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md133", null ],
+      [ "QuickFit 3.0 Screenshots", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md134", null ]
     ] ],
     [ "Security Policy", "md__s_e_c_u_r_i_t_y.html", [
-      [ "Supported Versions", "md__s_e_c_u_r_i_t_y.html#autotoc_md133", null ],
-      [ "Reporting a Vulnerability", "md__s_e_c_u_r_i_t_y.html#autotoc_md134", null ]
+      [ "Supported Versions", "md__s_e_c_u_r_i_t_y.html#autotoc_md128", null ],
+      [ "Reporting a Vulnerability", "md__s_e_c_u_r_i_t_y.html#autotoc_md129", null ]
     ] ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Topics", "topics.html", "topics" ],
@@ -352,7 +352,7 @@ var NAVTREEINDEX =
 [
 "_j_k_q_t_c_make_link_example.html",
 "class_j_k_q_t_base_plotter.html#a1a68fa82efead9e05d11d41b408373e5",
-"class_j_k_q_t_base_plotter.html#a9cd838ac385b2e13d7a79124f6946ab0",
+"class_j_k_q_t_base_plotter.html#a9c00d0ae7d98525ecda10e5b9299da13",
 "class_j_k_q_t_base_plotter_style.html#a4add321568b72edb87afd32e18e8dbc2",
 "class_j_k_q_t_f_p_x_range_plot.html#ab9164385a7ce5586854f52a3d54d92f9",
 "class_j_k_q_t_fast_plotter.html#a8f7a97bce80aaca9c70350318a43dbb9",
@@ -373,16 +373,16 @@ var NAVTREEINDEX =
 "class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49addc12aabeffdf8c8cb4472a7c7e5cae3",
 "class_j_k_q_t_p_plot_element.html#a05f99859e10d874e9a86512cbab9674f",
 "class_j_k_q_t_p_range_base.html#a9dfda65a765a9bab187228ad9ccdb1f2",
-"class_j_k_q_t_p_x_graph_error_data.html#a652cafff9fd79b720a8c6dd55b8897f1",
-"class_j_k_q_t_p_x_y_y_graph.html#a6fdd2928b4ff9889679c21903d4125fe",
-"class_j_k_q_t_plotter.html#aa9a7e0dcbba89a0095ae62183dcbaea2",
-"functions_vars_u.html",
-"group__jkqtplotter__imagelots__tools.html#gga41748f3184681064a61cddade5039b3fa70b86f021f6f515b9c3a226e70a4064b",
-"group__jkqtpplotter__styling__classes.html",
-"group__jkqtptools__drawing.html#ggabd0e8edf2acdfce37eccab000e445c62a1fd70edb616058cb71121d7f268db22d",
-"group__jkqtptools__math__statistics__adaptors.html#ga537af71d26d6606d31e096d17fc8e5a5",
-"struct_j_k_q_t_base_plotter_1_1text_size_key.html#a8bd0e9ec97b559ba947ce6b653290994",
-"struct_j_k_q_t_p_base_key_1_1_key_column_description.html#a478a68370c7c5429e670aa057161eb7a"
+"class_j_k_q_t_p_x_graph_error_data.html#a58fd7a997de8c4d80e809a3c47c1ba3e",
+"class_j_k_q_t_p_x_y_y_graph.html#a36ce50b8001cfa7b6f9795b36984d90e",
+"class_j_k_q_t_plotter.html#aa675dffbbb75f9bb319df603a0f5c920",
+"functions_vars_s.html",
+"group__jkqtplotter__imagelots__tools.html#gga41748f3184681064a61cddade5039b3fa35060ad0b5d4299d52abdf55de3c69c8",
+"group__jkqtplotter__sticks.html",
+"group__jkqtptools__drawing.html#gaf6f3284a106d12dadb42dd5f40138fce",
+"group__jkqtptools__math__statistics__adaptors.html#ga50c215acf0acc235545f96d87328c928",
+"struct_j_k_q_t_base_plotter_1_1text_size_key.html#a2e0b039ccc46a74723bddf5efb73162e",
+"struct_j_k_q_t_p_base_key_1_1_key_column_description.html#a3bddd0cb45dea182d14535f76aaa00f4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

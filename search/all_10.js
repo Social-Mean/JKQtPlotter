@@ -1,7 +1,7 @@
 var searchData=
 [
   ['label_0',['label',['../class_j_k_q_t_f_p_q_scale_bar_x_plot.html#ab1fecb3fec4863430cd2ef3319068304',1,'JKQTFPQScaleBarXPlot::label'],['../struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html#a55b4cd07584a21586633f971a030e357',1,'JKQTPPlotElement::HitTestLocation::label'],['../struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#ae75d5b0a0258a492bc851b4290caa174',1,'JKQTPlotter::MouseDragMarker::label']]],
-  ['label_20styles_20in_20loglog_20plot_1',['Axis-Label styles in LogLog-Plot',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md127',1,'']]],
+  ['label_20styles_20in_20loglog_20plot_1',['Axis-Label styles in LogLog-Plot',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md130',1,'']]],
   ['labelcolor_2',['labelColor',['../class_j_k_q_t_p_coordinate_axis_style.html#ad39d7e9c716f2a43d99bd01217a189d9',1,'JKQTPCoordinateAxisStyle']]],
   ['labeldigits_3',['labelDigits',['../class_j_k_q_t_p_coordinate_axis_style.html#a1d9153efb094fc2cf595d6383120b322',1,'JKQTPCoordinateAxisStyle']]],
   ['labeldistance_4',['labelDistance',['../class_j_k_q_t_p_coordinate_axis_style.html#a7c01f641f25c0e66dc227e10cfd06be3',1,'JKQTPCoordinateAxisStyle']]],
@@ -16,7 +16,7 @@ var searchData=
   ['lastwheelactiontimestamp_13',['lastWheelActionTimestamp',['../class_j_k_q_t_plotter.html#a57489a6b4ad73976113b0687a999701d',1,'JKQTPlotter']]],
   ['lastwheelactiontype_14',['lastWheelActionType',['../class_j_k_q_t_plotter.html#ade1a910f8301c695362ae1f7474147f4',1,'JKQTPlotter']]],
   ['latex_20markup_15',['LaTeX Markup',['../group__jkqtmathtext__general__latex.html',1,'']]],
-  ['latex_20renderer_16',['Screenshots of included LaTeX renderer',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md130',1,'']]],
+  ['latex_20renderer_16',['Screenshots of included LaTeX renderer',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md133',1,'']]],
   ['latex_20renderer_20for_20qt_17',['JKQTMathText LaTeX-Renderer for Qt',['../group__jkqtmathtext.html',1,'']]],
   ['latex_20subset_18',['Supported LaTeX-Subset',['../group__jkqtmathtext__supportedlatex.html',1,'']]],
   ['latex_20symbols_19',['Supported LaTeX-Symbols',['../group__jkqtmathtext__supportedlatexsymbols.html',1,'']]],
@@ -104,7 +104,7 @@ var searchData=
   ['logic_5fxor_101',['LOGIC_XOR',['../class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49ac23d3a2d656de2bdac67aa2c73319e47',1,'JKQTPMathParser']]],
   ['logicalexpression_102',['logicalExpression',['../class_j_k_q_t_p_math_parser.html#a43455e393689f87bdb016b6e88848ae8',1,'JKQTPMathParser']]],
   ['logicalterm_103',['logicalTerm',['../class_j_k_q_t_p_math_parser.html#ac978b245367888852052f8fcf156b2cb',1,'JKQTPMathParser']]],
-  ['loglog_20plot_104',['Axis-Label styles in LogLog-Plot',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md127',1,'']]],
+  ['loglog_20plot_104',['Axis-Label styles in LogLog-Plot',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md130',1,'']]],
   ['lookup_20tables_20for_20palettes_105',['Tool Functions to Build Lookup-Tables for Palettes',['../group__jkqtplotter__imagelots__tools___l_u_t_s.html',1,'']]],
   ['lopand_106',['LOPand',['../class_j_k_q_t_p_math_parser.html#a0aa84cc9ecff7511ed20547c505d3d18a258c693fded75583301d57a968a7b691',1,'JKQTPMathParser']]],
   ['lopnand_107',['LOPnand',['../class_j_k_q_t_p_math_parser.html#a0aa84cc9ecff7511ed20547c505d3d18ab1c85b2c2e3eb499587d968ffa22d59a',1,'JKQTPMathParser']]],
