@@ -60,7 +60,7 @@ var searchData=
   ['usenonvisiblelinecompression_57',['useNonvisibleLineCompression',['../class_j_k_q_t_p_graph_lines_compression_mixin.html#a65917cd23d5ee4a54e85eb9dca8b8605',1,'JKQTPGraphLinesCompressionMixin']]],
   ['usepalettecolors_58',['usePaletteColors',['../class_j_k_q_t_plotter_style.html#af10ea40b87319c9e53217b3ce4d22840',1,'JKQTPlotterStyle']]],
   ['user_20defined_20context_20menu_20of_20jkqtplotter_59',['Special (User-Defined) Context Menu of JKQTPlotter',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_SPECIALCONTEXTMENU',1,'']]],
-  ['user_20defined_20parsed_20function_60',['Plotting a user-defined (parsed) function',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md127',1,'']]],
+  ['user_20defined_20parsed_20function_60',['Plotting a user-defined (parsed) function',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md126',1,'']]],
   ['user_20interactions_61',['Available User-Interactions',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md99',1,'']]],
   ['user_20interactions_20gui_20features_62',['User-Interactions/GUI Features',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USERINTERACTION',1,'']]],
   ['user_20interactions_20in_20jkqtplotter_63',['Tutorial (JKQTPlotter): User-Interactions in JKQtPlotter',['../_j_k_q_t_plotter_user_interaction.html',1,'exampleTutorialProjects']]],
