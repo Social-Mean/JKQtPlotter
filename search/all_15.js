@@ -28,6 +28,6 @@ var searchData=
   ['quantile1spec_25',['quantile1Spec',['../struct_j_k_q_t_p_stat5_number_statistics.html#af008b5b9d9bcdadd35c0953e1fbb5163',1,'JKQTPStat5NumberStatistics']]],
   ['quantile2_26',['quantile2',['../struct_j_k_q_t_p_stat5_number_statistics.html#a4a7d9f917d013f8202cb5abc9aca31c8',1,'JKQTPStat5NumberStatistics']]],
   ['quantile2spec_27',['quantile2Spec',['../struct_j_k_q_t_p_stat5_number_statistics.html#ae9eb38c2b3afa108410ba3252ec033e2',1,'JKQTPStat5NumberStatistics']]],
-  ['quickfit_203_200_20screenshots_28',['QuickFit 3.0 Screenshots',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md133',1,'']]],
+  ['quickfit_203_200_20screenshots_28',['QuickFit 3.0 Screenshots',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md136',1,'']]],
   ['quickfit3_20compatible_20version_29',['v2018.08: Minor Modifications (Final QuickFit3-compatible Version)',['../page_whatsnew.html#page_whatsnew_V2018_08',1,'']]]
 ];

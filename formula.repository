@@ -1,8 +1,8 @@
 \_form#0=10x13:$ \lambda $
-\_form#1=33x18:$ f_x(t) $
-\_form#2=33x18:$ f_y(t) $
-\_form#3=102x18:$ t\in\left[t_\text{min}..t_\text{max}\right] $
-\_form#4=310x39:\[ \Delta t=\frac{N_{\mbox{now}}-N_{\mbox{start}}}{\mbox{\texttt{QueryPerformanceFrequency()}}}\cdot 10^{6} \]
+\_form#1=310x39:\[ \Delta t=\frac{N_{\mbox{now}}-N_{\mbox{start}}}{\mbox{\texttt{QueryPerformanceFrequency()}}}\cdot 10^{6} \]
+\_form#2=33x18:$ f_x(t) $
+\_form#3=33x18:$ f_y(t) $
+\_form#4=102x18:$ t\in\left[t_\text{min}..t_\text{max}\right] $
 \_form#5=31x18:$ [a, b] $
 \_form#6=265x23:\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]
 \_form#7=96x18:$ [x,y]=f_{xy}(t) $
@@ -82,8 +82,8 @@
 \_form#81=429x94:\[ \rho_{x,y}=\text{CorCoeff}_{\text{Pearson}}(x,y)=\frac{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})(y_i-\overline{y})}{\sqrt{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})^2\cdot\sum\limits_{i=0}^{N-1}(y_i-\overline{y})^2}} \]
 \_form#82=93x39:\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]
 \_form#83=223x18:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
-\_form#84=325x37:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
-\_form#85=94x18:$ f(x): \mathbb{R}\rightarrow\mathbb{R} $
+\_form#84=94x18:$ f(x): \mathbb{R}\rightarrow\mathbb{R} $
+\_form#85=325x37:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
 \_form#86=10x8:$ x $
 \_form#87=31x18:$ f(x) $
 \_form#88=115x18:$ f(x)=\mbox{round}(x) $
@@ -124,26 +124,26 @@
 \_form#123=241x50:\[ k(t_x, t_y):=\begin{cases}\frac{1}{4},  & \text{if }t_x,t_y\in [-1;1]\\0, & \text{else}\end{cases} \]
 \_form#124=193x47:\[ h = \left(\frac{4\hat{\sigma}^5}{3n}\right)^{\frac{1}{5}} \approx 1.06 \hat{\sigma} n^{-1/5} \]
 \_form#125=322x49:\[ \tilde{f}(t):=\frac{1}{N\cdot\text{bandwidth}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{t-x_i}{\text{bandwidth}}\right) \]
-\_form#126=567x49:\[ \tilde{f}(x,y):=\frac{1}{N\cdot\sqrt{\text{bandwidthx}}\cdot\sqrt{\text{bandwidthy}}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{x-x_i}{\text{bandwidthx}},\frac{y-y_i}{\text{bandwidthy}}\right) \]
-\_form#127=180x20:\[ h =  \hat{\sigma} n^{-1/(d+4)},\ \ \ \ \ d=2 \]
-\_form#128=109x18:$ f(x)=a+b\cdot x $
-\_form#129=281x36:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i\left(y_i-(a+b\cdot x_i)\right)^2 \]
-\_form#130=8x8:$ a $
-\_form#131=7x13:$ b $
-\_form#132=88x16:\[ a=\overline{y}-b\cdot\overline{x} \]
-\_form#133=154x41:\[ b=\frac{\sum x_iy_i-N\cdot\overline{x}\cdot\overline{y}}{\sum x_i^2-N\cdot(\overline{x})^2} \]
-\_form#134=310x36:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_iw_i^2\cdot\left(y_i-(a+b\cdot x_i)\right)^2 \]
-\_form#135=20x11:$ w_1 $
-\_form#136=24x11:$ w_N $
-\_form#137=89x37:\[ a=\frac{\overline{y}-b\cdot\overline{x}}{\overline{w^2}} \]
-\_form#138=141x41:\[ b=\frac{\overline{w^2}\cdot\overline{x\cdot y}-\overline{x}\cdot\overline{y}}{\overline{x^2}\cdot\overline{w^2}-\overline{x}^2} \]
-\_form#139=18x11:$ w_i$
-\_form#140=102x36:\[ \overline{x}=\sum\limits_iw_i^2\cdot x_i \]
-\_form#141=101x36:\[ \overline{y}=\sum\limits_iw_i^2\cdot y_i \]
-\_form#142=148x36:\[ \overline{x\cdot y}=\sum\limits_iw_i^2\cdot x_i\cdot y_i \]
-\_form#143=112x36:\[ \overline{x^2}=\sum\limits_iw_i^2\cdot x_i^2 \]
-\_form#144=86x36:\[ \overline{w^2}=\sum\limits_iw_i^2 \]
-\_form#145=265x36:\[ (a^\ast,b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i|a+b\cdot x_i-y_i|^p \]
+\_form#126=109x18:$ f(x)=a+b\cdot x $
+\_form#127=281x36:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i\left(y_i-(a+b\cdot x_i)\right)^2 \]
+\_form#128=8x8:$ a $
+\_form#129=7x13:$ b $
+\_form#130=88x16:\[ a=\overline{y}-b\cdot\overline{x} \]
+\_form#131=154x41:\[ b=\frac{\sum x_iy_i-N\cdot\overline{x}\cdot\overline{y}}{\sum x_i^2-N\cdot(\overline{x})^2} \]
+\_form#132=567x49:\[ \tilde{f}(x,y):=\frac{1}{N\cdot\sqrt{\text{bandwidthx}}\cdot\sqrt{\text{bandwidthy}}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{x-x_i}{\text{bandwidthx}},\frac{y-y_i}{\text{bandwidthy}}\right) \]
+\_form#133=310x36:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_iw_i^2\cdot\left(y_i-(a+b\cdot x_i)\right)^2 \]
+\_form#134=20x11:$ w_1 $
+\_form#135=24x11:$ w_N $
+\_form#136=89x37:\[ a=\frac{\overline{y}-b\cdot\overline{x}}{\overline{w^2}} \]
+\_form#137=141x41:\[ b=\frac{\overline{w^2}\cdot\overline{x\cdot y}-\overline{x}\cdot\overline{y}}{\overline{x^2}\cdot\overline{w^2}-\overline{x}^2} \]
+\_form#138=18x11:$ w_i$
+\_form#139=102x36:\[ \overline{x}=\sum\limits_iw_i^2\cdot x_i \]
+\_form#140=101x36:\[ \overline{y}=\sum\limits_iw_i^2\cdot y_i \]
+\_form#141=148x36:\[ \overline{x\cdot y}=\sum\limits_iw_i^2\cdot x_i\cdot y_i \]
+\_form#142=112x36:\[ \overline{x^2}=\sum\limits_iw_i^2\cdot x_i^2 \]
+\_form#143=86x36:\[ \overline{w^2}=\sum\limits_iw_i^2 \]
+\_form#144=265x36:\[ (a^\ast,b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i|a+b\cdot x_i-y_i|^p \]
+\_form#145=180x20:\[ h =  \hat{\sigma} n^{-1/(d+4)},\ \ \ \ \ d=2 \]
 \_form#146=18x18:$ L_p $
 \_form#147=18x18:$ L_p$
 \_form#148=15x13:$ \vec{w} $
@@ -185,29 +185,29 @@
 \_form#184=33x18:$ \{L_i\} $
 \_form#185=78x18:$ y=f(x, \vec{p}) $
 \_form#186=13x16:$ \vec{p} $
-\_form#187=249x20:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $
-\_form#188=59x11:$ p_0, p_1, ... $
-\_form#189=112x18:$ f(x)=p_0+p_1x $
-\_form#190=184x18:$ f(x)=p_0+p_1\cdot\exp(x/p_2) $
-\_form#191=150x18:$ f(x)=p_0\cdot\exp(x/p_1) $
-\_form#192=137x18:$ f(x)=p_0+p_1\cdot x^{p_3} $
-\_form#193=101x18:$ f(x)=p_0\cdot x^{p_1} $
-\_form#194=75x18:$ f(x)= x^{p_0} $
-\_form#195=83x21:$ [x,y]=\vec{f}(t) $
-\_form#196=7x11:$ t $
-\_form#197=55x18:$ [x, f(x)] $
-\_form#198=29x18:$ f(y) $
-\_form#199=54x18:$ [f(y), y] $
-\_form#200=26x21:$ \vec{f}(t) $
-\_form#201=16x15:$ gt $
-\_form#202=33x15:$ \alpha_{\mbox{left}} $
-\_form#203=44x18:$ \alpha_{\mbox{right}} $
-\_form#204=234x31:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
-\_form#205=83x18:$ [x,y]=f(t) $
-\_form#206=101x18:$ t \in \left[t_\text{min}, t_\text{max}\right] $
-\_form#207=179x18:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
-\_form#208=98x18:$ [x,y]=f(t, \vec{p}) $
-\_form#209=33x18:$ [x,y] $
+\_form#187=83x21:$ [x,y]=\vec{f}(t) $
+\_form#188=7x11:$ t $
+\_form#189=55x18:$ [x, f(x)] $
+\_form#190=29x18:$ f(y) $
+\_form#191=54x18:$ [f(y), y] $
+\_form#192=26x21:$ \vec{f}(t) $
+\_form#193=16x15:$ gt $
+\_form#194=33x15:$ \alpha_{\mbox{left}} $
+\_form#195=44x18:$ \alpha_{\mbox{right}} $
+\_form#196=234x31:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
+\_form#197=249x20:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $
+\_form#198=59x11:$ p_0, p_1, ... $
+\_form#199=112x18:$ f(x)=p_0+p_1x $
+\_form#200=184x18:$ f(x)=p_0+p_1\cdot\exp(x/p_2) $
+\_form#201=150x18:$ f(x)=p_0\cdot\exp(x/p_1) $
+\_form#202=137x18:$ f(x)=p_0+p_1\cdot x^{p_3} $
+\_form#203=101x18:$ f(x)=p_0\cdot x^{p_1} $
+\_form#204=75x18:$ f(x)= x^{p_0} $
+\_form#205=179x18:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
+\_form#206=83x18:$ [x,y]=f(t) $
+\_form#207=101x18:$ t \in \left[t_\text{min}, t_\text{max}\right] $
+\_form#208=33x18:$ [x,y] $
+\_form#209=98x18:$ [x,y]=f(t, \vec{p}) $
 \_form#210=190x18:$ [x,y]=f(t), t \in \left[t_\text{min}, t_\text{max}\right] $
 \_form#211=36x18:$ (x,y) $
 \_form#212=59x18:$ \left(x, f(x) \right) $
