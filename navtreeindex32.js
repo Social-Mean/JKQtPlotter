@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#af13853182cb2d85097e08bf1da112224":[11,4,1,1,1,0,7,3],
 "struct_j_k_q_t_p_base_key_1_1_key_column_description.html":[11,4,1,1,3,11],
 "struct_j_k_q_t_p_base_key_1_1_key_column_description.html#a34fd5d6d0f3a63efe82903877760f46b":[11,4,1,1,3,11,3],
 "struct_j_k_q_t_p_base_key_1_1_key_column_description.html#a3bddd0cb45dea182d14535f76aaa00f4":[11,4,1,1,3,11,1],

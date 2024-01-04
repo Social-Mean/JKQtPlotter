@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"class_j_k_q_t_p_datastore_item.html#aca584dc27ff6d11217d63342c390f07c":[11,4,1,0,6,16],
 "class_j_k_q_t_p_datastore_item.html#ad7c3c4cb11ab0b7cf3547bc03586dc36":[11,4,1,0,6,0],
 "class_j_k_q_t_p_datastore_item.html#ad7c3c4cb11ab0b7cf3547bc03586dc36a57dea6f5039281b7fee517fc43bf3110":[11,4,1,0,6,0,2],
 "class_j_k_q_t_p_datastore_item.html#ad7c3c4cb11ab0b7cf3547bc03586dc36aafbf0897a5a83fdd873dfb032ec695d3":[11,4,1,0,6,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "class_j_k_q_t_p_functor_line_graph_base.html#a2180ec0f7d8b4b082747c8c236209c48":[11,4,1,1,1,7,1,3,27],
 "class_j_k_q_t_p_functor_line_graph_base.html#a242766a3888de1d07cae8772f4def807":[11,4,1,1,1,7,1,3,11],
 "class_j_k_q_t_p_functor_line_graph_base.html#a30129024c22a4370831f56f163c505ae":[11,4,1,1,1,7,1,3,3],
-"class_j_k_q_t_p_functor_line_graph_base.html#a45af61ac31bd9e6b26c662ea532920bf":[11,4,1,1,1,7,1,3,21],
-"class_j_k_q_t_p_functor_line_graph_base.html#a50c37f6d16fc25d551c4908286581a60":[11,4,1,1,1,7,1,3,18]
+"class_j_k_q_t_p_functor_line_graph_base.html#a45af61ac31bd9e6b26c662ea532920bf":[11,4,1,1,1,7,1,3,21]
 };

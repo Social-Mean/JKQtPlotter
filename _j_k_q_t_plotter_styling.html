@@ -117,22 +117,22 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_styling.html',''); in
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md89">Basic Description</a></li>
-<li class="level1"><a href="#autotoc_md90">Altering the Default Style</a><ul><li class="level2"><a href="#autotoc_md91">Global/System-wide Settings</a></li>
-<li class="level2"><a href="#autotoc_md92">Apply a new Style to an Existing JKQTPlotter</a></li>
+<ul><li class="level1"><a href="#autotoc_md91">Basic Description</a></li>
+<li class="level1"><a href="#autotoc_md92">Altering the Default Style</a><ul><li class="level2"><a href="#autotoc_md93">Global/System-wide Settings</a></li>
+<li class="level2"><a href="#autotoc_md94">Apply a new Style to an Existing JKQTPlotter</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md93">Some Example Styles</a></li>
+<li class="level1"><a href="#autotoc_md95">Some Example Styles</a></li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="autotoc_md89"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md91"></a>
 Basic Description</h1>
 <p>This project (see <code>./examples/test_styling/</code>) demonstrates different types of user-interactions in <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>.</p>
 <p>It contains a simple plot with two graphs and provides several widgets that allow to modify the plot styling by editing an INI file:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/test_styling.png" alt="" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md90"></a>
+<h1><a class="anchor" id="autotoc_md92"></a>
 Altering the Default Style</h1>
-<h2><a class="anchor" id="autotoc_md91"></a>
+<h2><a class="anchor" id="autotoc_md93"></a>
 Global/System-wide Settings</h2>
 <p>The <code>main()</code>-function can be found in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/test_styling/test_styling_main.cpp"><code>test_styling_main.cpp</code></a>. Here the Qt application is initialized in the usual way and the main window <code>win</code> is created and shown. After instanciating the <code>QApplication</code>, but befor instanciating the window (and thus the <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>), you can already alter the system-wide default styling. It is accessible via the function <code><a class="el" href="group__jkqtpplotter__styling__classes.html#ga4f2d98043e064d97a0cc7df85bf1f969" title="returns the system-wide default JKQTPlotterStyle">JKQTPGetSystemDefaultStyle()</a></code>, which returns a reference to the central style object of type <code><a class="el" href="class_j_k_q_t_plotter_style.html" title="Support Class for JKQTPlotter, which summarizes all properties that define the visual styling of a JK...">JKQTPlotterStyle</a></code>. In the example below, the color of the user-actions (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. of the zooming rectangle, that can be drawn with the mouse) is set to red:</p>
 <div class="fragment"><div class="line"><span class="keywordtype">int</span> <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[])</div>
@@ -160,7 +160,7 @@ Global/System-wide Settings</h2>
 <div class="ttc" id="aclass_j_k_q_t_p_final_act_html_af964d2f5e77728dfe65e13964ea9b02a"><div class="ttname"><a href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">JKQTPFinalAct::JKQTPFinalAct</a></div><div class="ttdeci">JKQTPFinalAct(F f) noexcept</div><div class="ttdef"><b>Definition</b> jkqtpcodestructuring.h:50</div></div>
 <div class="ttc" id="aclass_j_k_q_t_plotter_style_html_ae71643eb568cb84588ef345a03f370a1"><div class="ttname"><a href="class_j_k_q_t_plotter_style.html#ae71643eb568cb84588ef345a03f370a1">JKQTPlotterStyle::loadSettings</a></div><div class="ttdeci">void loadSettings(const QSettings &amp;settings, const QString &amp;group=QString(&quot;plots/&quot;), const JKQTPlotterStyle &amp;defaultStyle=JKQTPlotterStyle())</div><div class="ttdoc">loads the plot properties from a &lt;a href=&quot;http://doc.qt.io/qt-5/qsettings.html&quot;)&quot;&gt;QSettings object</div></div>
 <div class="ttc" id="agroup__jkqtpplotter__styling__classes_html_gad617cbbb3fbc3e988495dc9553042549"><div class="ttname"><a href="group__jkqtpplotter__styling__classes.html#gad617cbbb3fbc3e988495dc9553042549">JKQTPGetSystemDefaultBaseStyle</a></div><div class="ttdeci">JKQTPLOTTER_LIB_EXPORT JKQTBasePlotterStyle &amp; JKQTPGetSystemDefaultBaseStyle()</div><div class="ttdoc">returns the system-wide default JKQTPlotterStyle</div></div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md92"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md94"></a>
 Apply a new Style to an Existing JKQTPlotter</h2>
 <p>The major part of the source code of the main application can be found in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/test_styling/test_styling.cpp"><code>test_styling.cpp</code></a>. It opens a window with a plotter, that contains a set of test graphs to demonstrate the styling. The following function is connected to the "Update Graph"-button and applys the style defined by the INI in the plainTextEdit to the plotter: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">TestStyling::on_btnUpdate_clicked</a>()</div>
 <div class="line">{</div>
@@ -185,7 +185,7 @@ Apply a new Style to an Existing JKQTPlotter</h2>
 <div class="line">    <a class="code hl_function" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">QFile::remove</a>(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">tmpfn</a>);</div>
 <div class="line">    <a class="code hl_function" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">QApplication::restoreOverrideCursor</a>();</div>
 <div class="line">}</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md93"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md95"></a>
 Some Example Styles</h1>
 <p>The following gallery shows a set of example styles:</p>
 <table class="markdownTable">
@@ -219,7 +219,7 @@ Some Example Styles</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Thu Jan 4 2024 23:15:53 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Jan 4 2024 23:29:05 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

@@ -11,12 +11,12 @@ var searchData=
   ['qmake_20dynamic_20library_8',['QMake Dynamic Library',['../page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKEDYNAMIC',1,'']]],
   ['qmake_20in_20qtcreator_9',['QMake in QTCreator',['../page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKEQTCREATOR',1,'']]],
   ['qmake_20include_20project_10',['QMake Include Project',['../page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKEINCLUDE',1,'']]],
-  ['qmake_20project_20of_20this_20example_11',['QMake-Project of this example',['../_j_k_q_t_plotter_qt_creator.html#autotoc_md95',1,'']]],
+  ['qmake_20project_20of_20this_20example_11',['QMake-Project of this example',['../_j_k_q_t_plotter_qt_creator.html#autotoc_md97',1,'']]],
   ['qmake_20static_20library_12',['QMake Static Library',['../page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKESTATIC',1,'']]],
   ['qt_13',['JKQTMathText LaTeX-Renderer for Qt',['../group__jkqtmathtext.html',1,'']]],
   ['qt_20based_20scientific_20plotter_20class_14',['JKQTPlotter: Qt based Scientific Plotter Class',['../group__jkqtplotter.html',1,'']]],
   ['qt_20data_20models_20to_20access_20graphs_20in_20a_20jkqtbaseplotter_20jkqtplotter_15',['Qt Data Models to Access Graphs in a JKQTBasePlotter/JKQTPlotter',['../group__jkqtpgraphsmodel.html',1,'']]],
-  ['qt_20form_20designer_16',['qt form designer',['../group__jkqtplotter__general__usage__qtcreator.html',1,'How to use JKQTPlotter in the Qt Form Designer'],['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USEQTCREATOR',1,'How to use JKQTPlotter in the Qt Form Designer'],['../_j_k_q_t_plotter_qt_creator.html#autotoc_md94',1,'Instructions on how to use JKQTPlotter in the Qt Form Designer']]],
+  ['qt_20form_20designer_16',['qt form designer',['../group__jkqtplotter__general__usage__qtcreator.html',1,'How to use JKQTPlotter in the Qt Form Designer'],['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USEQTCREATOR',1,'How to use JKQTPlotter in the Qt Form Designer'],['../_j_k_q_t_plotter_qt_creator.html#autotoc_md96',1,'Instructions on how to use JKQTPlotter in the Qt Form Designer']]],
   ['qt_20plotting_20library_17',['JKQTPlotter - A Qt Plotting Library',['../index.html',1,'']]],
   ['qt_20s_20clasess_18',['Tools around Qt&apos;s clasess',['../group__jkqtptools__qt.html',1,'']]],
   ['qt_20user_20interface_20designer_20ui_20file_19',['Tutorial (JKQTPlotter): Using a JKQTPlotter inside a Qt User Interface Designer (UI) File',['../_j_k_q_t_plotter_qt_creator.html',1,'exampleTutorialProjects']]],
@@ -28,6 +28,6 @@ var searchData=
   ['quantile1spec_25',['quantile1Spec',['../struct_j_k_q_t_p_stat5_number_statistics.html#af008b5b9d9bcdadd35c0953e1fbb5163',1,'JKQTPStat5NumberStatistics']]],
   ['quantile2_26',['quantile2',['../struct_j_k_q_t_p_stat5_number_statistics.html#a4a7d9f917d013f8202cb5abc9aca31c8',1,'JKQTPStat5NumberStatistics']]],
   ['quantile2spec_27',['quantile2Spec',['../struct_j_k_q_t_p_stat5_number_statistics.html#ae9eb38c2b3afa108410ba3252ec033e2',1,'JKQTPStat5NumberStatistics']]],
-  ['quickfit_203_200_20screenshots_28',['QuickFit 3.0 Screenshots',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md131',1,'']]],
+  ['quickfit_203_200_20screenshots_28',['QuickFit 3.0 Screenshots',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md133',1,'']]],
   ['quickfit3_20compatible_20version_29',['v2018.08: Minor Modifications (Final QuickFit3-compatible Version)',['../page_whatsnew.html#page_whatsnew_V2018_08',1,'']]]
 ];
