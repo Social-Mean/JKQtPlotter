@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"group__jkqtplotter__naming.html":[11,4,0,0],
+"group__jkqtplotter__statgraphs.html":[11,4,1,1,1,9],
 "group__jkqtplotter__sticks.html":[11,4,1,1,1,6],
 "group__jkqtpplotter__styling.html":[11,4,0,4],
 "group__jkqtpplotter__styling__classes.html":[11,4,1,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "group__jkqtptools__drawing.html#gabd0e8edf2acdfce37eccab000e445c62":[11,0,3,5],
 "group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b":[11,0,3,4],
 "group__jkqtptools__drawing.html#gad1b00ff55f388b562baa9053b38a254c":[11,0,3,37],
-"group__jkqtptools__drawing.html#gad21cf595bd2cd93e4205fd7354b474eb":[11,0,3,18],
-"group__jkqtptools__drawing.html#gaddc75a3ec820e937797236719405aca9":[11,0,3,25],
-"group__jkqtptools__drawing.html#gae9410c33b360d17330be5a8891fc9bd8":[11,0,3,26]
+"group__jkqtptools__drawing.html#gad21cf595bd2cd93e4205fd7354b474eb":[11,0,3,18]
 };

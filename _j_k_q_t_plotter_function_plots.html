@@ -117,20 +117,20 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_function_plots.html',
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md69">Basics</a></li>
-<li class="level1"><a href="#autotoc_md70">Simple C++ inline function</a></li>
-<li class="level1"><a href="#autotoc_md71">Simple C++ inline function with parameters</a></li>
-<li class="level1"><a href="#autotoc_md72">C++ functors as plot functions</a></li>
-<li class="level1"><a href="#autotoc_md73">Static C functions</a></li>
-<li class="level1"><a href="#autotoc_md74">Predefined &quot;special&quot; functions</a></li>
-<li class="level1"><a href="#autotoc_md75">Screenshot</a></li>
-<li class="level1"><a href="#autotoc_md76">Notes</a></li>
+<ul><li class="level1"><a href="#autotoc_md72">Basics</a></li>
+<li class="level1"><a href="#autotoc_md73">Simple C++ inline function</a></li>
+<li class="level1"><a href="#autotoc_md74">Simple C++ inline function with parameters</a></li>
+<li class="level1"><a href="#autotoc_md75">C++ functors as plot functions</a></li>
+<li class="level1"><a href="#autotoc_md76">Static C functions</a></li>
+<li class="level1"><a href="#autotoc_md77">Predefined &quot;special&quot; functions</a></li>
+<li class="level1"><a href="#autotoc_md78">Screenshot</a></li>
+<li class="level1"><a href="#autotoc_md79">Notes</a></li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="autotoc_md69"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md72"></a>
 Basics</h1>
 <p>This project (see <code>./examples/functionplot/</code>) demonstrates how to plot mathematical functions as line graphs. The functions may be defined as static C functions, C++ functors or c++ inline functions. See <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/parsedfunctionplot">examples/parsedfunctionplot</a> for an example of how to use an internal equation parser provided with <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> instead of directly defining functions.</p>
-<h1><a class="anchor" id="autotoc_md70"></a>
+<h1><a class="anchor" id="autotoc_md73"></a>
 Simple C++ inline function</h1>
 <p>The first example shows how to plot a C++ inline function: </p><div class="fragment"><div class="line"><a class="code hl_class" href="class_j_k_q_t_p_x_function_line_graph.html">JKQTPXFunctionLineGraph</a>* <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func1</a>=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_x_function_line_graph.html">JKQTPXFunctionLineGraph</a>(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>);</div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func1</a>-&gt;setPlotFunctionFunctor([](<span class="keywordtype">double</span> x) { <span class="keywordflow">return</span> 0.2*x*x-0.015*x*x*x; });</div>
@@ -138,7 +138,7 @@ Simple C++ inline function</h1>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>-&gt;addGraph(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func1</a>);</div>
 <div class="ttc" id="aclass_j_k_q_t_p_final_act_html"><div class="ttname"><a href="class_j_k_q_t_p_final_act.html">JKQTPFinalAct</a></div><div class="ttdoc">C++11 finally construct (executes a callable-object when the edestructor is executed)</div><div class="ttdef"><b>Definition</b> jkqtpcodestructuring.h:48</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_function_line_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_x_function_line_graph.html">JKQTPXFunctionLineGraph</a></div><div class="ttdoc">This implements line plots where the data is taken from a user supplied function .</div><div class="ttdef"><b>Definition</b> jkqtpevaluatedfunction.h:289</div></div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md71"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md74"></a>
 Simple C++ inline function with parameters</h1>
 <p>In any such plot function, you can also use parameters, provided via the second parameter. Usually these are "internal parameters", defined by <code>func2-&gt;setParamsV(p0, p1, ...)</code>: </p><div class="fragment"><div class="line"><a class="code hl_class" href="class_j_k_q_t_p_x_function_line_graph.html">JKQTPXFunctionLineGraph</a>* <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func2</a>=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_x_function_line_graph.html">JKQTPXFunctionLineGraph</a>(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>);</div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func2</a>-&gt;setPlotFunctionFunctor([](<span class="keywordtype">double</span> x, <span class="keyword">const</span> <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">QVector&lt;double&gt;</a>&amp; <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">p</a>) {</div>
@@ -148,7 +148,7 @@ Simple C++ inline function with parameters</h1>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func2</a>-&gt;setTitle(<span class="stringliteral">&quot;C++-inline function with int. params $p_0\\cdot\\sin(x*2.0*\\pi\\cdot p_1)$&quot;</span>);</div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>-&gt;addGraph(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func2</a>);</div>
 <div class="ttc" id="agroup__jkqtptools__math__basic_html_gae96ac530dff57dae111b641b0c7f4eb4"><div class="ttname"><a href="group__jkqtptools__math__basic.html#gae96ac530dff57dae111b641b0c7f4eb4">JKQTPSTATISTICS_PI</a></div><div class="ttdeci">#define JKQTPSTATISTICS_PI</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:48</div></div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md72"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md75"></a>
 C++ functors as plot functions</h1>
 <p>You can also use C++ functors (or function objects): </p><div class="fragment"><div class="line"><span class="keyword">struct </span><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">SincSqr</a> {</div>
 <div class="line"><span class="keyword">public</span>:</div>
@@ -166,7 +166,7 @@ C++ functors as plot functions</h1>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func4</a>-&gt;setPlotFunctionFunctor(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">SincSqr</a>(-8));</div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func4</a>-&gt;setTitle(<span class="stringliteral">&quot;C++ functor $-8*\\sin^2(x)/x^2$&quot;</span>);</div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>-&gt;addGraph(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func4</a>);</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md73"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md76"></a>
 Static C functions</h1>
 <p>You can also plot simple static C functions: </p><div class="fragment"><div class="line"><span class="keywordtype">double</span> <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">sinc</a>(<span class="keywordtype">double</span> x) {</div>
 <div class="line">    <span class="keywordflow">return</span> 10.0*<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">sin</a>(x)/x;</div>
@@ -178,7 +178,7 @@ Static C functions</h1>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func5</a>-&gt;setPlotFunctionFunctor(&amp;<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">sinc</a>);</div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func5</a>-&gt;setTitle(<span class="stringliteral">&quot;static C function $10*\\sin(x)/x$&quot;</span>);</div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>-&gt;addGraph(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func5</a>);</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md74"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md77"></a>
 Predefined "special" functions</h1>
 <p>Finally <code><a class="el" href="class_j_k_q_t_p_x_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPXFunctionLineGraph</a></code> provides a small set of special functions (polynomial <code>p0+p1*x+p2*x^2+...</code>, exponential <code>p0+p1*exp(x/p2)</code>, power-law <code>p0+p1*x^p2</code>, ...), which are parametrized from the internal or external parameters: </p><div class="fragment"><div class="line"><a class="code hl_class" href="class_j_k_q_t_p_x_function_line_graph.html">JKQTPXFunctionLineGraph</a>* <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func6</a>=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_x_function_line_graph.html">JKQTPXFunctionLineGraph</a>(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>);</div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func6</a>-&gt;setSpecialFunction(<a class="code hl_enumvalue" href="class_j_k_q_t_p_functor_line_graph_base.html#a6529405e546569ee0c5cd640759f6efaa344a7c0bdddf73005f775d706519ee79">JKQTPXFunctionLineGraph::Line</a>);</div>
@@ -197,11 +197,11 @@ Predefined "special" functions</h1>
 <div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func7</a>-&gt;setParameterColumn(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">paramCol</a>);</div>
 <div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func7</a>-&gt;setTitle(<span class="stringliteral">&quot;special function: linear&quot;</span>);</div>
 <div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>-&gt;addGraph(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">func7</a>);</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md75"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md78"></a>
 Screenshot</h1>
 <p>This code snippets above result in a plot like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/functionplot.png" alt="functionplot" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md76"></a>
+<h1><a class="anchor" id="autotoc_md79"></a>
 Notes</h1>
 <p>Note that all the different variants to provide parameters can be used with all types of functions!</p>
 <p>Also see the example <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/parsedfunctionplot">Plotting Parsed Mathematical Functions as Line Graphs</a> for details on how the actual plotting algorithm works. That example also shows how to define a function as a string, which is then parsed and evaluated by an expression parser library embedded in <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>.</p>
@@ -216,7 +216,7 @@ Notes</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Fri Dec 22 2023 20:11:54 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Jan 4 2024 23:15:53 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

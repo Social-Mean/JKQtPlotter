@@ -209,6 +209,8 @@ FIXED: fixed impleentations of <a class="el" href="class_j_k_q_t_plotter.html#a9
 <li>
 FIXED issue <a href="https://github.com/jkriege2/JKQtPlotter/pull/99">#99: Clipping of Tick Labels</a>: for horizontal axes, additional space at the left and/or right of the plot is allowed so labels are no longer clipped (thanks to <a href="https://github.com/allenbarnett5">user:allenbarnett5/a&gt; for reporting) FIXED issue #99: Height of one-column key/legend was too large</a> (thanks to <a href="https://github.com/allenbarnett5">user:allenbarnett5/a&gt; for reporting) FIXED issue mentioned in #110: Lock the panning action to certain values: View zooms in, when panning close to AbosluteXY</a> (thanks to <a href="https://github.com/sim186">user:sim186</a> for reporting) </li>
 <li>
+FIXED: <a class="el" href="group__jkqtptools__math__statistics__basic.html#gafbafc72c766fe9c85cc9217b64ce1acb" title="calculates the sum of a given data range first ... last">jkqtpstatSum()</a> and <a class="el" href="group__jkqtptools__math__statistics__basic.html#ga427cf53250740ba657af40fed12c9d28" title="calculates the sum of squares of a given data range first ... last">jkqtpstatSumSqr()</a> did not work, as a non-existing function is called internally </li>
+<li>
 FIXED/IMPROVED issue <a href="https://github.com/jkriege2/JKQtPlotter/issues/100">#100: Add option to disable resize delay feature by setting the delay to zero</a> (thanks to <a href="https://github.com/fpalazzolo">user:fpalazzolo</a> for reporting) </li>
 <li>
 FIXED/NEW: placement of plot-title (was not centerd in its box, but glued to the bottom) by adding a plotstyle parameter <a class="el" href="class_j_k_q_t_base_plotter_style.html#a1d8f0a02d156d5d50778b799ab20eb05" title="offset of the plot label from the next element of the graph, i.e. below the label [pt].">JKQTBasePlotterStyle::plotLabelOffset</a> </li>
@@ -298,6 +300,8 @@ NEW: added <a class="el" href="class_j_k_q_t_base_plotter_style.html#a1ebdc3bf8b
 NEW: Due to addition of <a class="el" href="class_j_k_q_t_math_text.html#ab277fcf69ff145d316039a766aa08b8d" title="set (overwrite) the options applied to the base font">JKQTMathText::setFontOptions()</a> and the matchign extension of <a class="el" href="class_j_k_q_t_math_text.html#ad28ed500ffb2179955db144aee55031c" title="set font(s) from parsing a font specifier">JKQTMathText::setFontSpecial()</a> (see below) you can now add modifiers like <code>+BOLD+ITALIC</code> to any font-name provided to <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> and in style INI-files </li>
 <li>
 NEW: added JKQTPLabelMinBesides and JKQTPLabelMaxBesides to JKQTPLabelPosition, so labels can be set besides the axes </li>
+<li>
+NEW/REWORKED JKQTBasePlottercan be used is re-entrant, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. different instances can be used from different threads in parallel (although there is significant overhead due to shared caches between the threads!). This is demonstrated and discussed in <a class="el" href="_j_k_q_t_plotter_multi_threaded.html">Example (JKQTPlotter): Multi-Threaded (Parallel) Plotting</a> .  </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -707,7 +711,7 @@ Latest Release/Tag: <a href="https://github.com/jkriege2/JKQtPlotter/releases/ta
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Dec 22 2023 20:11:54 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Jan 4 2024 23:15:53 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

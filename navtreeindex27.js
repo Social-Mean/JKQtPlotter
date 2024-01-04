@@ -1,5 +1,7 @@
 var NAVTREEINDEX27 =
 {
+"group__jkqtplotter__imagelots__tools.html#gga28b53692f29935636e2ffee20896c69eadac5ee5e980f4161b8b84a11df29e462":[11,4,1,1,1,8,2,9,3],
+"group__jkqtplotter__imagelots__tools.html#gga41748f3184681064a61cddade5039b3fa1cd97d9b4dff490000e68585a439d028":[11,4,1,1,1,8,2,7,6],
 "group__jkqtplotter__imagelots__tools.html#gga41748f3184681064a61cddade5039b3fa35060ad0b5d4299d52abdf55de3c69c8":[11,4,1,1,1,8,2,7,4],
 "group__jkqtplotter__imagelots__tools.html#gga41748f3184681064a61cddade5039b3fa5d361c16229fc173f679fcac5a76446f":[11,4,1,1,1,8,2,7,1],
 "group__jkqtplotter__imagelots__tools.html#gga41748f3184681064a61cddade5039b3fa70b86f021f6f515b9c3a226e70a4064b":[11,4,1,1,1,8,2,7,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "group__jkqtplotter__linesymbolgraphs__param.html#aa140ce21ec52756206eb13c9445af25a":[11,4,1,1,1,7,0,3,5],
 "group__jkqtplotter__linesymbolgraphs__param.html#struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_symbol_description":[11,4,1,1,1,7,0,3],
 "group__jkqtplotter__linesymbolgraphs__scatter.html":[11,4,1,1,1,7,3],
-"group__jkqtplotter__mixins.html":[11,4,1,1,2],
-"group__jkqtplotter__naming.html":[11,4,0,0],
-"group__jkqtplotter__statgraphs.html":[11,4,1,1,1,9]
+"group__jkqtplotter__mixins.html":[11,4,1,1,2]
 };

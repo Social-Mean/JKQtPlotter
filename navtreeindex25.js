@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"class_j_k_q_t_plotter.html#aa5d516a6e0f34488bf54a699a30442a3":[11,4,1,2,4,196],
 "class_j_k_q_t_plotter.html#aa675dffbbb75f9bb319df603a0f5c920":[11,4,1,2,4,228],
 "class_j_k_q_t_plotter.html#aa8d7304f0e36fb4d7bfa2fb99c15df47":[11,4,1,2,4,258],
 "class_j_k_q_t_plotter.html#aa9a7e0dcbba89a0095ae62183dcbaea2":[11,4,1,2,4,143],
@@ -143,7 +144,7 @@ var NAVTREEINDEX25 =
 "classes.html":[13,1],
 "deprecated.html":[10],
 "example_tutorial_projects.html":[4],
-"example_tutorial_projects.html#jkqtp_extut_cmake_build":[4,0,8],
+"example_tutorial_projects.html#jkqtp_extut_cmake_build":[4,0,9],
 "example_tutorial_projects.html#jkqtp_extut_complexexamples":[4,0,7],
 "example_tutorial_projects.html#jkqtp_extut_datamanagement":[4,0,6],
 "example_tutorial_projects.html#jkqtp_extut_geometric":[4,0,1],
@@ -155,16 +156,17 @@ var NAVTREEINDEX25 =
 "example_tutorial_projects.html#jkqtp_extut_keyaxesstyles":[4,0,2],
 "example_tutorial_projects.html#jkqtp_extut_plotimagedata":[4,0,3],
 "example_tutorial_projects.html#jkqtp_extut_plotstyles":[4,0,0],
+"example_tutorial_projects.html#jkqtp_extut_specialusecasesexamples":[4,0,8],
 "example_tutorial_projects.html#jkqtp_extut_tools":[4,3],
-"functions.html":[13,3,0,0],
 "functions.html":[13,3,0],
+"functions.html":[13,3,0,0],
 "functions_b.html":[13,3,0,1],
 "functions_c.html":[13,3,0,2],
 "functions_d.html":[13,3,0,3],
 "functions_e.html":[13,3,0,4],
 "functions_enum.html":[13,3,4],
-"functions_eval.html":[13,3,5],
 "functions_eval.html":[13,3,5,0],
+"functions_eval.html":[13,3,5],
 "functions_eval_b.html":[13,3,5,1],
 "functions_eval_c.html":[13,3,5,2],
 "functions_eval_d.html":[13,3,5,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX25 =
 "functions_vars_m.html":[13,3,2,12],
 "functions_vars_n.html":[13,3,2,13],
 "functions_vars_o.html":[13,3,2,14],
-"functions_vars_p.html":[13,3,2,15],
-"functions_vars_q.html":[13,3,2,16],
-"functions_vars_r.html":[13,3,2,17]
+"functions_vars_p.html":[13,3,2,15]
 };

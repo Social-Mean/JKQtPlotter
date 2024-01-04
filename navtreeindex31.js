@@ -1,5 +1,7 @@
 var NAVTREEINDEX31 =
 {
+"struct_j_k_q_t_base_plotter_1_1text_size_key.html#a0e6bdc7db0111fc3dfd0e02772287f05":[11,4,1,2,10,4],
+"struct_j_k_q_t_base_plotter_1_1text_size_key.html#a1906ef6a067f33a707923c3c9ec63e3a":[11,4,1,2,10,1],
 "struct_j_k_q_t_base_plotter_1_1text_size_key.html#a2e0b039ccc46a74723bddf5efb73162e":[11,4,1,2,10,8],
 "struct_j_k_q_t_base_plotter_1_1text_size_key.html#a8b552cd60861e0111b6835aae7c44b04":[11,4,1,2,10,3],
 "struct_j_k_q_t_base_plotter_1_1text_size_key.html#a8bd0e9ec97b559ba947ce6b653290994":[11,4,1,2,10,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX31 =
 "struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#a715b6b0e087bb9f7cf787afd5291a7fe":[11,4,1,1,1,0,7,2],
 "struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#a73415a923a10a598070838cc094a7a31":[11,4,1,1,1,0,7,0],
 "struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#a9edf90fda3509a5062f6c0a1a51c9a16":[11,4,1,1,1,0,7,1],
-"struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#af13853182cb2d85097e08bf1da112224":[11,4,1,1,1,0,7,3],
-"struct_j_k_q_t_p_base_key_1_1_key_column_description.html":[11,4,1,1,3,11],
-"struct_j_k_q_t_p_base_key_1_1_key_column_description.html#a34fd5d6d0f3a63efe82903877760f46b":[11,4,1,1,3,11,3]
+"struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#af13853182cb2d85097e08bf1da112224":[11,4,1,1,1,0,7,3]
 };

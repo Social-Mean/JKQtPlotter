@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a4250cd619995a895e99b0336ade036da":[11,4,1,1,2,1,10,102],
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#a4516e2fde70efb3ebdc6d55fcaa0e101":[11,4,1,1,2,1,10,52],
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#a4583be1a2d2e36da4a6b26777d421dda":[11,4,1,1,2,1,10,40],
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#a46b98e86c3a932c5304c2e7c5b296822":[11,4,1,1,2,1,10,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "class_j_k_q_t_p_impulses_horizontal_graph.html#acf00f2bba6b1e22c4c62b7ac3694a109":[11,4,1,1,1,6,2,2],
 "class_j_k_q_t_p_impulses_horizontal_graph.html#ad19441f1303fbfb1fe6171b15d0396e7":[11,4,1,1,1,6,2,7],
 "class_j_k_q_t_p_impulses_horizontal_graph.html#adadfa226bd54d4c8a1f83337a183c84a":[11,4,1,1,1,6,2,6],
-"class_j_k_q_t_p_impulses_horizontal_graph.html#adf1b05d1281725b9ac2a1888adc23f7a":[11,4,1,1,1,6,2,9],
-"class_j_k_q_t_p_impulses_vertical_error_graph.html":[11,4,1,1,1,6,3]
+"class_j_k_q_t_p_impulses_horizontal_graph.html#adf1b05d1281725b9ac2a1888adc23f7a":[11,4,1,1,1,6,2,9]
 };
