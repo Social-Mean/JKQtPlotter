@@ -64,6 +64,5 @@ var searchData=
   ['_3a_20very_20simple_20line_20graph_61',['Example (JKQTPlotter): Very simple line-graph',['../_j_k_q_t_plotter_simple_test.html',1,'exampleTutorialProjects']]],
   ['_3a_20very_20simple_20scatter_20graph_62',['Example (JKQTPlotter): Very simple scatter-graph',['../_j_k_q_t_plotterscatter.html',1,'exampleTutorialProjects']]],
   ['_3a_20violin_20plots_63',['Example (JKQTPlotter): Violin Plots',['../_j_k_q_t_plotter_violinplot_graphs.html',1,'exampleTutorialProjects']]],
-  ['_3a_20wiggle_20plots_64',['Example (JKQTPlotter): Wiggle Plots',['../_j_k_q_t_plotter_wiggle_plots.html',1,'exampleTutorialProjects']]],
-  ['_3aresults_5fend_65',['[comment]:RESULTS_END',['../_j_k_q_t_plotter_multi_threaded.html#autotoc_md86',1,'']]]
+  ['_3a_20wiggle_20plots_64',['Example (JKQTPlotter): Wiggle Plots',['../_j_k_q_t_plotter_wiggle_plots.html',1,'exampleTutorialProjects']]]
 ];

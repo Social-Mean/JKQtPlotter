@@ -1,8 +1,8 @@
 var searchData=
 [
   ['x_0',['x',['../_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md87',1,'Plot Function f(x)'],['../struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html#a56cd13e4ea562f61ba7d2c18c8d0dc37',1,'JKQTMathTextVerticalListNode::LayoutInfo::X'],['../group__jkqtpplottersupprt.html#a43ffe3149168f0cbd3db1ca96ce6eaed',1,'JKQTPGridPrintingItem::x'],['../group__jkqtplotter__linesymbolgraphs__param.html#a9a7ca566e3290302a0156cc81dec8e4f',1,'JKQTPXYParametrizedScatterGraph::SymbolDescription::x'],['../class_j_k_q_t_p_image_base.html#a4516585516a2375c4dc9dca83b536f9e',1,'JKQTPImageBase::x'],['../class_j_k_q_t_p_geo_rectangle.html#a7a66269a7d147988eb5d9063246e2985',1,'JKQTPGeoRectangle::x'],['../class_j_k_q_t_p_geo_arc.html#a7591639baf0e60082808b958adb36fd8',1,'JKQTPGeoArc::x'],['../class_j_k_q_t_p_geo_text.html#a765512434cb7a7302260befbb5e1bbd4',1,'JKQTPGeoText::x'],['../struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#aff4a5a0487bbd6beb9c17cec9ec07ebb',1,'JKQTMathTextVerbatimNode::LayoutInfo::X'],['../class_j_k_q_t_p_single_column_graph.html#aa19dda7808d6a4a161e269e47ea61814a02129bb861061d1a052c592e2dc6b383',1,'JKQTPSingleColumnGraph::X'],['../class_j_k_q_t_p_geo_symbol.html#ae933520f37f0de36e044cd23fc24d5ca',1,'JKQTPGeoSymbol::x'],['../class_j_k_q_t_p_geo_infinite_line.html#af15476624168eb0976e40a9525a0b6c9',1,'JKQTPGeoInfiniteLine::x'],['../class_j_k_q_t_f_p_line_plot.html#a605bd846342767510467ac1694bb66f3',1,'JKQTFPLinePlot::x']]],
-  ['x_20and_20y_20errors_20from_20categorized_20data_1',['Calculating x- and y-Errors from Categorized Data',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md36',1,'']]],
-  ['x_20y_20errors_20from_20categorized_20data_2',['(Scatter-)Graphs with X/Y-errors from Categorized Data',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md34',1,'']]],
+  ['x_20and_20y_20errors_20from_20categorized_20data_1',['Calculating x- and y-Errors from Categorized Data',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md40',1,'']]],
+  ['x_20y_20errors_20from_20categorized_20data_2',['(Scatter-)Graphs with X/Y-errors from Categorized Data',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md38',1,'']]],
   ['x1_3',['x1',['../class_j_k_q_t_p_geo_line.html#adfb756b4c321a0e6bad311791590d54c',1,'JKQTPGeoLine']]],
   ['x2_4',['x2',['../class_j_k_q_t_p_geo_line.html#a5be5aaaa58d833147a9ee648ed92f48b',1,'JKQTPGeoLine']]],
   ['x2p_5',['x2p',['../class_j_k_q_t_fast_plotter.html#a74dcb7d34121e36b7f26ac058ef8f302',1,'JKQTFastPlotter::x2p()'],['../class_j_k_q_t_base_plotter.html#a5603b0bfcc2af031a27a25a616df4fb9',1,'JKQTBasePlotter::x2p()'],['../class_j_k_q_t_p_coordinate_axis.html#ad084d2ad812a300b87d8de1452fdab3f',1,'JKQTPCoordinateAxis::x2p()']]],
@@ -31,6 +31,6 @@ var searchData=
   ['xtickdistance_28',['xTickDistance',['../class_j_k_q_t_fast_plotter.html#ab08639ee1d8f101f10c4665b1f3e1f63',1,'JKQTFastPlotter']]],
   ['xv_29',['xv',['../class_j_k_q_t_f_p_line_plot.html#a656c6ed4304c57e9552d6eaf96d492d2',1,'JKQTFPLinePlot']]],
   ['xwidth_30',['xWidth',['../class_j_k_q_t_fast_plotter.html#ae0f22cf68920fb00a14cb4365d86588e',1,'JKQTFastPlotter']]],
-  ['xy_20scatter_20graphs_31',['Dataset for XY Scatter Graphs',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md35',1,'']]],
+  ['xy_20scatter_20graphs_31',['Dataset for XY Scatter Graphs',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md39',1,'']]],
   ['xzerotick_32',['xZeroTick',['../class_j_k_q_t_fast_plotter.html#a3bc0a487651703abdcebb40f6efe10d3',1,'JKQTFastPlotter']]]
 ];

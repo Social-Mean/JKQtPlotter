@@ -1,6 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"group__jkqtptools__math__statistics__adaptors.html#ga447fe500e98a779bbd5ac634cccc641b":[11,2,5,8,32],
 "group__jkqtptools__math__statistics__adaptors.html#ga4797755e8ed88b52e524f38e49fd396e":[11,2,5,8,39],
 "group__jkqtptools__math__statistics__adaptors.html#ga4d6431fd319ea8517ee85b99fb6437cb":[11,2,5,8,43],
 "group__jkqtptools__math__statistics__adaptors.html#ga50c215acf0acc235545f96d87328c928":[11,2,5,8,15],
@@ -174,8 +173,8 @@ var NAVTREEINDEX30 =
 "licensepage.html#extlicense_xits":[5,1,0],
 "licensepage.html#licensesec":[5,0],
 "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html":[1],
-"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md1":[1,0],
-"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2":[1,1],
+"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2":[1,0],
+"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3":[1,1],
 "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4":[1,2],
 "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5":[1,3],
 "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6":[1,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX30 =
 "struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html":[11,4,1,2,2],
 "struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html#a0858702fc92910f9ea061aacb93bac2f":[11,4,1,2,2,2],
 "struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html#a4b7f73b24fd4e8b36f39232c0ae1ddf4":[11,4,1,2,2,1],
-"struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html#a843b394a87fc97b0337637474e2942ba":[11,4,1,2,2,0]
+"struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html#a843b394a87fc97b0337637474e2942ba":[11,4,1,2,2,0],
+"struct_j_k_q_t_base_plotter_1_1text_size_key.html":[11,4,1,2,10]
 };

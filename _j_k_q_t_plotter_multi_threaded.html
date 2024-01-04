@@ -216,8 +216,7 @@ speedup = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe6
 threads / available = 8 / 16<br  />
 <br  />
 <b>speedup vs. serial = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">3.6x</a></b></p>
-<h1><a class="anchor" id="autotoc_md86"></a>
-[comment]:RESULTS_END</h1>
+<hr  />
 <p>From this data you can observe:</p><ul>
 <li>The plotting parallelizes nicely, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. the speedup ist &gt;7x on a 8-core-machine. This is the speedup calculated as sum of runtimes of each thread, divided by the runtime of all threads in parallel.</li>
 <li>BUT: the speedup of serialized plotting vs. parallel plotting is way smaller: It is only 2-3x. Also the runtime in each thread is about 3x longer than in the serialized example. This can be explained by the (significant) overhead due to shared caches (and therefore synchronization) between the plotters. This may be reworked in future!</li>
@@ -233,7 +232,7 @@ threads / available = 8 / 16<br  />
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Thu Jan 4 2024 23:29:05 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Jan 4 2024 23:42:22 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
