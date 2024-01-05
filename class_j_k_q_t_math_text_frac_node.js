@@ -17,7 +17,6 @@ var class_j_k_q_t_math_text_frac_node =
     [ "JKQTMathTextFracNode", "class_j_k_q_t_math_text_frac_node.html#a3b5287e7839bb42e0596c9d3367b2c4d", null ],
     [ "~JKQTMathTextFracNode", "class_j_k_q_t_math_text_frac_node.html#a5301d8c5ee608cffa04c3a1174207e04", null ],
     [ "draw", "class_j_k_q_t_math_text_frac_node.html#aa839e87701713ba6fed214fa48c31941", null ],
-    [ "fillInstructions", "class_j_k_q_t_math_text_frac_node.html#af91e676b0e3993cfffc812f937adacae", null ],
     [ "FracType2String", "class_j_k_q_t_math_text_frac_node.html#a52eb35dcb4d1d8b193b4b79c34d4f013", null ],
     [ "getFracScalingFactor", "class_j_k_q_t_math_text_frac_node.html#ac9087e2f0cb7afb32c0cb6b43f8bffb3", null ],
     [ "getMode", "class_j_k_q_t_math_text_frac_node.html#a889151aa346d8286137a9c19199f5232", null ],
@@ -25,8 +24,8 @@ var class_j_k_q_t_math_text_frac_node =
     [ "getSizeInternal", "class_j_k_q_t_math_text_frac_node.html#ad898257c20caa83058296cda0e143a89", null ],
     [ "getTypeName", "class_j_k_q_t_math_text_frac_node.html#a288a40d1636c9b3ab2776cd4c5019420", null ],
     [ "InstructionName2FracType", "class_j_k_q_t_math_text_frac_node.html#ad21c5822203ac31ae905a7ad11df9d6a", null ],
+    [ "instructions", "class_j_k_q_t_math_text_frac_node.html#a132776a3c152dc1f11c9ba78d17c5ef0", null ],
     [ "supportsInstructionName", "class_j_k_q_t_math_text_frac_node.html#ac43e3026674c696477ac800e1dd0de83", null ],
     [ "toHtml", "class_j_k_q_t_math_text_frac_node.html#a63550d85ce8be45269bca0bb5b114cc6", null ],
-    [ "instructions", "class_j_k_q_t_math_text_frac_node.html#a7bf8c23e139770176e048f52a4ab456e", null ],
     [ "mode", "class_j_k_q_t_math_text_frac_node.html#a061921f327d6d49b32a0b43fe49c443a", null ]
 ];

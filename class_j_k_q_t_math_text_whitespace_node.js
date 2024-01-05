@@ -22,16 +22,15 @@ var class_j_k_q_t_math_text_whitespace_node =
     [ "JKQTMathTextWhitespaceNode", "class_j_k_q_t_math_text_whitespace_node.html#af432718928924c2b4ba5b16d1d7c31cb", null ],
     [ "~JKQTMathTextWhitespaceNode", "class_j_k_q_t_math_text_whitespace_node.html#a6697d06c4f1452909f83fdaf20393eb3", null ],
     [ "draw", "class_j_k_q_t_math_text_whitespace_node.html#aab689dd0b46b2f960c26d46e3e6e120e", null ],
-    [ "fillSupportedInstructions", "class_j_k_q_t_math_text_whitespace_node.html#aa84ca6927c6f4c2ed3632c6b63ef80f8", null ],
     [ "getSizeInternal", "class_j_k_q_t_math_text_whitespace_node.html#a2157577b66a4115f17ed9dbf8d2366e6", null ],
     [ "getTypeName", "class_j_k_q_t_math_text_whitespace_node.html#ab97c0c0f29ef01e0287ad50be3e0c968", null ],
     [ "getWhitespaceCount", "class_j_k_q_t_math_text_whitespace_node.html#afc69d33240adc5665fead70f531f249a", null ],
     [ "getWhitespaceType", "class_j_k_q_t_math_text_whitespace_node.html#a04b8763a3bf998632812b372774cb15d", null ],
+    [ "supportedInstructions", "class_j_k_q_t_math_text_whitespace_node.html#a1d928187f2d76edcbcc9c12be54f9d41", null ],
     [ "supportsInstructionName", "class_j_k_q_t_math_text_whitespace_node.html#a1f18f9665678bbe4cbafb49b5a2522b5", null ],
     [ "toHtml", "class_j_k_q_t_math_text_whitespace_node.html#ac3c7fd5030d4ec40616a76f78f6fd43f", null ],
     [ "Type2HTML", "class_j_k_q_t_math_text_whitespace_node.html#a623131922646a6f1edf2ad3958a355f6", null ],
     [ "Type2PixelWidth", "class_j_k_q_t_math_text_whitespace_node.html#a3799814554f2efdcd43525bf59b6c969", null ],
     [ "Type2String", "class_j_k_q_t_math_text_whitespace_node.html#a546fa5ee6611c6d2a93b3e2cd57898a2", null ],
-    [ "supportedInstructions", "class_j_k_q_t_math_text_whitespace_node.html#a6f1e09617cab909fd9b20bc9abe79340", null ],
     [ "whitespace", "class_j_k_q_t_math_text_whitespace_node.html#a1bae4098e39c5deca81450f7507ca706", null ]
 ];

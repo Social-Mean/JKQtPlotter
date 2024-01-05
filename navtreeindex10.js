@@ -1,15 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"class_j_k_q_t_p_base_key.html#a850f68652e3cef79c4839be20a382126":[11,4,1,1,3,2,59],
-"class_j_k_q_t_p_base_key.html#a864e2ccb38c33b69f5f9ff71315b94b9":[11,4,1,1,3,2,32],
-"class_j_k_q_t_p_base_key.html#a8838b9427dcbe6c3361cfa410f2dd0ec":[11,4,1,1,3,2,64],
-"class_j_k_q_t_p_base_key.html#a88fc9237265c7598e636c8e0ba4d37ca":[11,4,1,1,3,2,24],
-"class_j_k_q_t_p_base_key.html#a89e6a2ca17af742ccfa11732c45c0c7c":[11,4,1,1,3,2,14],
-"class_j_k_q_t_p_base_key.html#a8b4e337afd1d582e1128235659baab4d":[11,4,1,1,3,2,37],
-"class_j_k_q_t_p_base_key.html#a8f2e835f1973454bdf66c89fe99cc591":[11,4,1,1,3,2,50],
-"class_j_k_q_t_p_base_key.html#a9ea7e01e80026d84d0c29cbb8ea1adb9":[11,4,1,1,3,2,49],
-"class_j_k_q_t_p_base_key.html#a9f33cdd82cb2c9916f5ed4194581d4ba":[11,4,1,1,3,2,26],
-"class_j_k_q_t_p_base_key.html#a9f78d5cc4dd4ee837097a4e7e9ec43b5":[11,4,1,1,3,2,23],
 "class_j_k_q_t_p_base_key.html#aa54aa0b73542b44b424a6cec92b05f6f":[11,4,1,1,3,2,33],
 "class_j_k_q_t_p_base_key.html#aa73b103c9edc2ae23d81b289cb6522e7":[11,4,1,1,3,2,39],
 "class_j_k_q_t_p_base_key.html#aaaed528393fae06124eaddab4622c8d0":[11,4,1,1,3,2,20],
@@ -249,5 +239,15 @@ var NAVTREEINDEX10 =
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af841e5384444e0b3d218cd30683549e7":[11,4,1,1,1,8,2,1,44],
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af8d9c126d33b31edb7c781321095edfa":[11,4,1,1,1,8,2,1,42],
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#afdfcca8b15872eb1ce5b428bef1757f7":[11,4,1,1,1,8,2,1,62],
-"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#affaf4b716b725f11eb49b4ce6d754892":[11,4,1,1,1,8,2,1,8]
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#affaf4b716b725f11eb49b4ce6d754892":[11,4,1,1,1,8,2,1,8],
+"class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html":[11,4,1,1,1,8,2,2],
+"class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html#a01a5953775addb8b2b166e3f2e382ae2":[11,4,1,1,1,8,2,2,20],
+"class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html#a073cc632bf06b2169b2ada9b038006eb":[11,4,1,1,1,8,2,2,27],
+"class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html#a22b5601a82398149ac26bd77761b310a":[11,4,1,1,1,8,2,2,7],
+"class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html#a245fde1f2ec5a711ca0ed54e7e632d21":[11,4,1,1,1,8,2,2,3],
+"class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html#a2defc7a40999cf6e4675cc13460ed181":[11,4,1,1,1,8,2,2,19],
+"class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html#a4164760e44db710178601af37f23f784":[11,4,1,1,1,8,2,2,17],
+"class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html#a43db3f421c346852757856b6a5614ace":[11,4,1,1,1,8,2,2,22],
+"class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html#a46f37cd501fe5cd1198fd1823d17195d":[11,4,1,1,1,8,2,2,10],
+"class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html#a5730e3db12e4e765ad050e2dfcaf44f4":[11,4,1,1,1,8,2,2,23]
 };

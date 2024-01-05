@@ -9,11 +9,10 @@ var class_j_k_q_t_math_text_phantom_node =
     [ "JKQTMathTextPhantomNode", "class_j_k_q_t_math_text_phantom_node.html#a63665a6bf704d9287543eeed61c68d63", null ],
     [ "~JKQTMathTextPhantomNode", "class_j_k_q_t_math_text_phantom_node.html#acbfe066b034ebb262640e5ef513c551b", null ],
     [ "draw", "class_j_k_q_t_math_text_phantom_node.html#a7fc0d3e23af3cb8582c7587518a89598", null ],
-    [ "fillInstructions", "class_j_k_q_t_math_text_phantom_node.html#ab90502f6bd8dce28b51b0f1db7637f48", null ],
     [ "getSizeInternal", "class_j_k_q_t_math_text_phantom_node.html#a85af2917225fce3c658a09bfbc7fdfb3", null ],
     [ "getTypeName", "class_j_k_q_t_math_text_phantom_node.html#a055d88ac3583971d9115242f1c755158", null ],
+    [ "instructions", "class_j_k_q_t_math_text_phantom_node.html#a9fde52f156954d7f99a8167f15691acf", null ],
     [ "Mode2Instruction", "class_j_k_q_t_math_text_phantom_node.html#afa4cceb6cf79b648b883e22c20dde9bd", null ],
     [ "supportsInstructionName", "class_j_k_q_t_math_text_phantom_node.html#a11a354c616e2f83d63e99ce7aa8c125c", null ],
-    [ "toHtml", "class_j_k_q_t_math_text_phantom_node.html#a7140c0fb918fb7570670210cc25aec03", null ],
-    [ "instructions", "class_j_k_q_t_math_text_phantom_node.html#a459af67ce76d3183d2e1098aeb06c7f7", null ]
+    [ "toHtml", "class_j_k_q_t_math_text_phantom_node.html#a7140c0fb918fb7570670210cc25aec03", null ]
 ];

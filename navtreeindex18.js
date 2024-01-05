@@ -1,15 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a4250cd619995a895e99b0336ade036da":[11,4,1,1,2,1,10,102],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a4516e2fde70efb3ebdc6d55fcaa0e101":[11,4,1,1,2,1,10,52],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a4583be1a2d2e36da4a6b26777d421dda":[11,4,1,1,2,1,10,40],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a46b98e86c3a932c5304c2e7c5b296822":[11,4,1,1,2,1,10,19],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a48ea76940ca90bcbff5b351c8a8b2845":[11,4,1,1,2,1,10,64],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a4c85093fc969dc7cf218dd12a897d93c":[11,4,1,1,2,1,10,54],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a4ecc29bcf12215f691a6b7a973a085b0":[11,4,1,1,2,1,10,23],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5013279ceed9efba64bf22f1e13f27ef":[11,4,1,1,2,1,10,38],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a52920ba29d55d589428801d09c3b8611":[11,4,1,1,2,1,10,65],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a551a9f9cdc641537a43ae7510a19f673":[11,4,1,1,2,1,10,29],
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#a56408a7d3730777f7c2b9a1569b9263c":[11,4,1,1,2,1,10,86],
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5938e530f4527fb4d148388f768ae322":[11,4,1,1,2,1,10,32],
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5c0c6b0caf42499da09560f8f1a4d11f":[11,4,1,1,2,1,10,48],
@@ -249,5 +239,15 @@ var NAVTREEINDEX18 =
 "class_j_k_q_t_p_impulses_horizontal_graph.html#acf00f2bba6b1e22c4c62b7ac3694a109":[11,4,1,1,1,6,2,2],
 "class_j_k_q_t_p_impulses_horizontal_graph.html#ad19441f1303fbfb1fe6171b15d0396e7":[11,4,1,1,1,6,2,7],
 "class_j_k_q_t_p_impulses_horizontal_graph.html#adadfa226bd54d4c8a1f83337a183c84a":[11,4,1,1,1,6,2,6],
-"class_j_k_q_t_p_impulses_horizontal_graph.html#adf1b05d1281725b9ac2a1888adc23f7a":[11,4,1,1,1,6,2,9]
+"class_j_k_q_t_p_impulses_horizontal_graph.html#adf1b05d1281725b9ac2a1888adc23f7a":[11,4,1,1,1,6,2,9],
+"class_j_k_q_t_p_impulses_vertical_error_graph.html":[11,4,1,1,1,6,3],
+"class_j_k_q_t_p_impulses_vertical_error_graph.html#a0480422a732d85fe169435cb930ef2e2":[11,4,1,1,1,6,3,3],
+"class_j_k_q_t_p_impulses_vertical_error_graph.html#a0db32044440c6b1cc2c9472cca972a23":[11,4,1,1,1,6,3,7],
+"class_j_k_q_t_p_impulses_vertical_error_graph.html#a13a88febadd6423d0b980e05007972d0":[11,4,1,1,1,6,3,10],
+"class_j_k_q_t_p_impulses_vertical_error_graph.html#a2adb629dc85c8983d86b4d31ef630828":[11,4,1,1,1,6,3,1],
+"class_j_k_q_t_p_impulses_vertical_error_graph.html#a3482200bdd234d72edd625e2f1c2891b":[11,4,1,1,1,6,3,14],
+"class_j_k_q_t_p_impulses_vertical_error_graph.html#a581f6e8fc512746d6d96d2e6e736d46a":[11,4,1,1,1,6,3,13],
+"class_j_k_q_t_p_impulses_vertical_error_graph.html#a5ec98a0e5f11f57f4d0ad5139f06555b":[11,4,1,1,1,6,3,0],
+"class_j_k_q_t_p_impulses_vertical_error_graph.html#a678c80243fdbea35ce8475cd49c69149":[11,4,1,1,1,6,3,8],
+"class_j_k_q_t_p_impulses_vertical_error_graph.html#a697ccf11e7c11593bce3990af3b557a4":[11,4,1,1,1,6,3,2]
 };

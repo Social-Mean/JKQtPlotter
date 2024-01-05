@@ -89,5 +89,7 @@ var searchData=
   ['_7ejkqtpxygrapherrors_86',['~JKQTPXYGraphErrors',['../class_j_k_q_t_p_x_y_graph_errors.html#a4f90d921eb21089eed6ca6ecca041ddf',1,'JKQTPXYGraphErrors']]],
   ['_7ejkqtpygrapherrordata_87',['~JKQTPYGraphErrorData',['../class_j_k_q_t_p_y_graph_error_data.html#a19ed4ac0aca72e15b79b8e1c063db225',1,'JKQTPYGraphErrorData']]],
   ['_7ejkqtpygrapherrors_88',['~JKQTPYGraphErrors',['../class_j_k_q_t_p_y_graph_errors.html#afe6065ce4d38d86e0c734e57280aa2ba',1,'JKQTPYGraphErrors']]],
-  ['_7ejkqtpyparsedfunctionlinegraph_89',['~JKQTPYParsedFunctionLineGraph',['../class_j_k_q_t_p_y_parsed_function_line_graph.html#aee00fd44a814a55eb2e58e58032bc5eb',1,'JKQTPYParsedFunctionLineGraph']]]
+  ['_7ejkqtpyparsedfunctionlinegraph_89',['~JKQTPYParsedFunctionLineGraph',['../class_j_k_q_t_p_y_parsed_function_line_graph.html#aee00fd44a814a55eb2e58e58032bc5eb',1,'JKQTPYParsedFunctionLineGraph']]],
+  ['_7ereadlocker_90',['~ReadLocker',['../class_j_k_q_t_p_synchronized_1_1_read_locker.html#a80497bd5d4694a8ec9bdd2ae3988e8d8',1,'JKQTPSynchronized::ReadLocker']]],
+  ['_7ewritelocker_91',['~WriteLocker',['../class_j_k_q_t_p_synchronized_1_1_write_locker.html#aa34b88c917578c60b1831a0ba69f5ecf',1,'JKQTPSynchronized::WriteLocker']]]
 ];

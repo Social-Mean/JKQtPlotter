@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "JKQTPSynchronized< T >::AdoptLockType", "struct_j_k_q_t_p_synchronized_1_1_adopt_lock_type.html", null ],
     [ "JKQTBasePlotter::allPlotElements", "struct_j_k_q_t_base_plotter_1_1all_plot_elements.html", null ],
     [ "JKQTPCoordinateAxis::AxisElementsSizeDescription", "struct_j_k_q_t_p_coordinate_axis_1_1_axis_elements_size_description.html", [
       [ "JKQTPCoordinateAxis::Axis0ElementsSizeDescription", "struct_j_k_q_t_p_coordinate_axis_1_1_axis0_elements_size_description.html", null ]
@@ -442,11 +443,13 @@ var hierarchy =
     [ "QWidget", null, [
       [ "JKQTPlotter", "class_j_k_q_t_plotter.html", null ]
     ] ],
+    [ "JKQTPSynchronized< T >::ReadLocker", "class_j_k_q_t_p_synchronized_1_1_read_locker.html", null ],
     [ "JKQTPBarGraphBase::SimpleFillBrushFunctorAdaptor", "struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html", null ],
     [ "JKQTPLinePlotStyleWithSymbolSizeComboBox::styleData", "struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html", null ],
     [ "JKQTPXYParametrizedScatterGraph::SymbolDescription", "group__jkqtplotter__linesymbolgraphs__param.html#struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_symbol_description", null ],
     [ "JKQTMathTextSymbolNode::SymbolFullProps", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html", null ],
     [ "JKQTMathTextSymbolNode::SymbolProps", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html", null ],
     [ "JKQTBasePlotter::textSizeKey", "struct_j_k_q_t_base_plotter_1_1text_size_key.html", null ],
-    [ "JKQTMathTextWhitespaceNode::WhitespaceProps", "struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html", null ]
+    [ "JKQTMathTextWhitespaceNode::WhitespaceProps", "struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html", null ],
+    [ "JKQTPSynchronized< T >::WriteLocker", "class_j_k_q_t_p_synchronized_1_1_write_locker.html", null ]
 ];

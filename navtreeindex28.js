@@ -1,5 +1,9 @@
 var NAVTREEINDEX28 =
 {
+"group__jkqtplotter__linesymbolgraphs__param.html#aa140ce21ec52756206eb13c9445af25a":[11,4,1,1,1,7,0,3,5],
+"group__jkqtplotter__linesymbolgraphs__param.html#struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_symbol_description":[11,4,1,1,1,7,0,3],
+"group__jkqtplotter__linesymbolgraphs__scatter.html":[11,4,1,1,1,7,3],
+"group__jkqtplotter__mixins.html":[11,4,1,1,2],
 "group__jkqtplotter__naming.html":[11,4,0,0],
 "group__jkqtplotter__statgraphs.html":[11,4,1,1,1,9],
 "group__jkqtplotter__sticks.html":[11,4,1,1,1,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX28 =
 "group__jkqtptools__drawing.html#gaa61b127666717e9cef2e447fe11631c4":[11,0,3,20],
 "group__jkqtptools__drawing.html#gaac974a28de113bf70c40c52ef047063e":[11,0,3,14],
 "group__jkqtptools__drawing.html#gab19cd278b3c4f201304ba56d6051b858":[11,0,3,32],
-"group__jkqtptools__drawing.html#gab8ffc607cb2b2e7277612e2bbdb49e6c":[11,0,3,17],
-"group__jkqtptools__drawing.html#gabd0e8edf2acdfce37eccab000e445c62":[11,0,3,5],
-"group__jkqtptools__drawing.html#gacdaaac6baeadbfd3677d4d53ea594b5b":[11,0,3,4],
-"group__jkqtptools__drawing.html#gad1b00ff55f388b562baa9053b38a254c":[11,0,3,37],
-"group__jkqtptools__drawing.html#gad21cf595bd2cd93e4205fd7354b474eb":[11,0,3,18]
+"group__jkqtptools__drawing.html#gab8ffc607cb2b2e7277612e2bbdb49e6c":[11,0,3,17]
 };

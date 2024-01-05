@@ -1,5 +1,9 @@
 var NAVTREEINDEX31 =
 {
+"struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html#a0858702fc92910f9ea061aacb93bac2f":[11,4,1,2,2,2],
+"struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html#a4b7f73b24fd4e8b36f39232c0ae1ddf4":[11,4,1,2,2,1],
+"struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html#a843b394a87fc97b0337637474e2942ba":[11,4,1,2,2,0],
+"struct_j_k_q_t_base_plotter_1_1text_size_key.html":[11,4,1,2,10],
 "struct_j_k_q_t_base_plotter_1_1text_size_key.html#a0e6bdc7db0111fc3dfd0e02772287f05":[11,4,1,2,10,4],
 "struct_j_k_q_t_base_plotter_1_1text_size_key.html#a1906ef6a067f33a707923c3c9ec63e3a":[11,4,1,2,10,1],
 "struct_j_k_q_t_base_plotter_1_1text_size_key.html#a2e0b039ccc46a74723bddf5efb73162e":[11,4,1,2,10,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX31 =
 "struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#aa6741abba85ef098bd9e9892df5b88dc":[11,3,1,2,41,2],
 "struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#ab4572b2bac26cea828fac4bbc1d470f2":[11,3,1,2,41,1],
 "struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html#abb1ebab533ebda4f641eacaa93495da4":[11,3,1,2,41,0],
-"struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html":[11,4,1,1,1,0,7],
-"struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#a715b6b0e087bb9f7cf787afd5291a7fe":[11,4,1,1,1,0,7,2],
-"struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#a73415a923a10a598070838cc094a7a31":[11,4,1,1,1,0,7,0],
-"struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#a9edf90fda3509a5062f6c0a1a51c9a16":[11,4,1,1,1,0,7,1],
-"struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html#af13853182cb2d85097e08bf1da112224":[11,4,1,1,1,0,7,3]
+"struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html":[11,4,1,1,1,0,7]
 };

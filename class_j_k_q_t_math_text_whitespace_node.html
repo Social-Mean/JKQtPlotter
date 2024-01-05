@@ -129,7 +129,6 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_math_text_whitespace_nod
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="class_j_k_q_t_math_text_whitespace_node-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">JKQTMathTextWhitespaceNode Class Reference<div class="ingroups"><a class="el" href="group__jkqtmathtext.html">JKQTMathText LaTeX-Renderer for Qt</a> &raquo; <a class="el" href="group__jkqtmathtext__interaltools.html">Library-internal Types and Functions</a> &raquo; <a class="el" href="group__jkqtmathtext__items.html">Render-Tree Items for JKQTMathText</a></div></div></div>
 </div><!--header-->
@@ -298,9 +297,9 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:aa84ca6927c6f4c2ed3632c6b63ef80f8" id="r_aa84ca6927c6f4c2ed3632c6b63ef80f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">static</a> <a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#aa84ca6927c6f4c2ed3632c6b63ef80f8">fillSupportedInstructions</a> ()</td></tr>
-<tr class="memdesc:aa84ca6927c6f4c2ed3632c6b63ef80f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes supportedInstructions  <br /></td></tr>
-<tr class="separator:aa84ca6927c6f4c2ed3632c6b63ef80f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d928187f2d76edcbcc9c12be54f9d41" id="r_a1d928187f2d76edcbcc9c12be54f9d41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">static</a> <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QHash</a>&lt; <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>, <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html">WhitespaceProps</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a1d928187f2d76edcbcc9c12be54f9d41">supportedInstructions</a> ()</td></tr>
+<tr class="memdesc:a1d928187f2d76edcbcc9c12be54f9d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">translation table between latex instruction and <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html" title="describes a whitespace">WhitespaceProps</a>  <br /></td></tr>
+<tr class="separator:a1d928187f2d76edcbcc9c12be54f9d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a623131922646a6f1edf2ad3958a355f6" id="r_a623131922646a6f1edf2ad3958a355f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">static</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a623131922646a6f1edf2ad3958a355f6">Type2HTML</a> (<a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3">Types</a> type)</td></tr>
 <tr class="memdesc:a623131922646a6f1edf2ad3958a355f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts Types <em>type</em> into its HTML representation  <br /></td></tr>
 <tr class="separator:a623131922646a6f1edf2ad3958a355f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -323,12 +322,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:afdec8ae06750ccbc25045c60d0a973e0 inherit pro_attribs_class_j_k_q_t_math_text_node" id="r_afdec8ae06750ccbc25045c60d0a973e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_node.html#afdec8ae06750ccbc25045c60d0a973e0">subSuperscriptAboveBelowNode</a></td></tr>
 <tr class="memdesc:afdec8ae06750ccbc25045c60d0a973e0 inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <code>true</code> then following sub- and/or superscripts are placed below and above the node, not besides it. This is activated when <code>\sum\limits_{sub}^{sup}</code> is used in LaTeX instead of simply <code>\sum_{sub}^{sup}</code>  <br /></td></tr>
 <tr class="separator:afdec8ae06750ccbc25045c60d0a973e0 inherit pro_attribs_class_j_k_q_t_math_text_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a6f1e09617cab909fd9b20bc9abe79340" id="r_a6f1e09617cab909fd9b20bc9abe79340"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">static</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QHash</a>&lt; <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>, <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html">WhitespaceProps</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html#a6f1e09617cab909fd9b20bc9abe79340">supportedInstructions</a></td></tr>
-<tr class="memdesc:a6f1e09617cab909fd9b20bc9abe79340"><td class="mdescLeft">&#160;</td><td class="mdescRight">translation table between latex instruction and <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html" title="describes a whitespace">WhitespaceProps</a>  <br /></td></tr>
-<tr class="separator:a6f1e09617cab909fd9b20bc9abe79340"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>subclass representing one whitepsace node in the syntax tree </p>
@@ -657,33 +650,6 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa84ca6927c6f4c2ed3632c6b63ef80f8" name="aa84ca6927c6f4c2ed3632c6b63ef80f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa84ca6927c6f4c2ed3632c6b63ef80f8">&#9670;&#160;</a></span>fillSupportedInstructions()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">static</a> <a class="el" href="class_j_k_q_t_p_final_act.html">void</a> JKQTMathTextWhitespaceNode::fillSupportedInstructions </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>initializes supportedInstructions </p>
-
-</div>
-</div>
 <a id="a2157577b66a4115f17ed9dbf8d2366e6" name="a2157577b66a4115f17ed9dbf8d2366e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2157577b66a4115f17ed9dbf8d2366e6">&#9670;&#160;</a></span>getSizeInternal()</h2>
 
@@ -796,6 +762,34 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>type of the whitespace represented by this node   </p>
+
+</div>
+</div>
+<a id="a1d928187f2d76edcbcc9c12be54f9d41" name="a1d928187f2d76edcbcc9c12be54f9d41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d928187f2d76edcbcc9c12be54f9d41">&#9670;&#160;</a></span>supportedInstructions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">static</a> <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QHash</a>&lt; <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>, <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html">WhitespaceProps</a> &gt; &amp; JKQTMathTextWhitespaceNode::supportedInstructions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>translation table between latex instruction and <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html" title="describes a whitespace">WhitespaceProps</a> </p>
+<dl class="section note"><dt>Note</dt><dd>This is a customization point for additional whitespace instructions! </dd></dl>
 
 </div>
 </div>
@@ -975,30 +969,6 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6f1e09617cab909fd9b20bc9abe79340" name="a6f1e09617cab909fd9b20bc9abe79340"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f1e09617cab909fd9b20bc9abe79340">&#9670;&#160;</a></span>supportedInstructions</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">QHash</a>&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>, <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html">WhitespaceProps</a>&gt; JKQTMathTextWhitespaceNode::supportedInstructions</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>translation table between latex instruction and <a class="el" href="struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html" title="describes a whitespace">WhitespaceProps</a> </p>
-
-</div>
-</div>
 <a id="a1bae4098e39c5deca81450f7507ca706" name="a1bae4098e39c5deca81450f7507ca706"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1bae4098e39c5deca81450f7507ca706">&#9670;&#160;</a></span>whitespace</h2>
 
@@ -1033,7 +1003,7 @@ Static Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text_whitespace_node.html">JKQTMathTextWhitespaceNode</a></li>
-    <li class="footer">Generated on Thu Jan 4 2024 23:48:02 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Jan 5 2024 22:28:56 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

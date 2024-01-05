@@ -3,7 +3,7 @@ var searchData=
   ['unicodesymbol_0',['unicodesymbol',['../class_j_k_q_t_math_text_symbol_node.html#aa44a8806b9e519d6d5b28a43932901a5',1,'JKQTMathTextSymbolNode::UnicodeSymbol(const QString &amp;symbol, SymbolFlags _flags=AsOutside, double _fontScalingFactor=1.0, double _yShiftFactor=0.0)'],['../class_j_k_q_t_math_text_symbol_node.html#af18b2b7fb7ddfb76c9dd71deb6965a11',1,'JKQTMathTextSymbolNode::UnicodeSymbol(const QString &amp;symbol, const QString &amp;html)']]],
   ['units2pixelwidth_1',['Units2PixelWidth',['../class_j_k_q_t_math_text_empty_box_node.html#a235e9336659b72abf8d63fe9b3b466b3',1,'JKQTMathTextEmptyBoxNode']]],
   ['units2string_2',['Units2String',['../class_j_k_q_t_math_text_empty_box_node.html#ad8812f86da08f6925433e93d594d06f5',1,'JKQTMathTextEmptyBoxNode']]],
-  ['unlock_3',['unlock',['../class_j_k_q_t_p_synchronized.html#afbb4cd2732f000ef07dc782c27730552',1,'JKQTPSynchronized']]],
+  ['unlock_3',['unlock',['../class_j_k_q_t_p_synchronized.html#ab87921285dc61579114ed1e530038383',1,'JKQTPSynchronized']]],
   ['updatecursor_4',['updateCursor',['../class_j_k_q_t_plotter.html#a842f47ae32ea070eb9cd96aeba378e2e',1,'JKQTPlotter']]],
   ['updatedata_5',['updateData',['../class_j_k_q_t_fast_plotter.html#a2142b8edc1c1e2e15d618a0b2f55246e',1,'JKQTFastPlotter']]],
   ['updatedataimmediate_6',['updateDataImmediate',['../class_j_k_q_t_fast_plotter.html#a1c17f4104af325632395eab3c0346d5f',1,'JKQTFastPlotter']]],

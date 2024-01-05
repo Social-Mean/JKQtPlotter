@@ -158,7 +158,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_multi_threaded.html',
 <div class="ttc" id="aclass_j_k_q_t_p_final_act_html"><div class="ttname"><a href="class_j_k_q_t_p_final_act.html">JKQTPFinalAct</a></div><div class="ttdoc">C++11 finally construct (executes a callable-object when the edestructor is executed)</div><div class="ttdef"><b>Definition</b> jkqtpcodestructuring.h:48</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_final_act_html_af964d2f5e77728dfe65e13964ea9b02a"><div class="ttname"><a href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">JKQTPFinalAct::JKQTPFinalAct</a></div><div class="ttdeci">JKQTPFinalAct(F f) noexcept</div><div class="ttdef"><b>Definition</b> jkqtpcodestructuring.h:50</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_line_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_x_y_line_graph.html">JKQTPXYLineGraph</a></div><div class="ttdoc">This implements xy line plots. This also alows to draw symbols at the data points.</div><div class="ttdef"><b>Definition</b> jkqtplines.h:61</div></div>
-<div class="ttc" id="agroup__jkqtptools__drawing_html_ggacdaaac6baeadbfd3677d4d53ea594b5ba5ed6d60f133d1f4f712dba322dff7525"><div class="ttname"><a href="group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba5ed6d60f133d1f4f712dba322dff7525">JKQTPNoSymbol</a></div><div class="ttdeci">@ JKQTPNoSymbol</div><div class="ttdoc">plots no symbol at all (usefull together with error bars)</div><div class="ttdef"><b>Definition</b> jkqtpdrawingtools.h:100</div></div>
+<div class="ttc" id="agroup__jkqtptools__drawing_html_ggacdaaac6baeadbfd3677d4d53ea594b5ba5ed6d60f133d1f4f712dba322dff7525"><div class="ttname"><a href="group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba5ed6d60f133d1f4f712dba322dff7525">JKQTPNoSymbol</a></div><div class="ttdeci">@ JKQTPNoSymbol</div><div class="ttdoc">plots no symbol at all (usefull together with error bars)</div><div class="ttdef"><b>Definition</b> jkqtpdrawingtools.h:101</div></div>
 </div><!-- fragment --><p>The main application in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/multithreaded/multithreaded.cpp"><code>multithreaded.cpp</code></a> then uses this method/thread-class to perform a test: First the function is run several times serially and then an equal amount of times in parallel.</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#define NUM_PLOTS 8</span></div>
 <div class="line"><span class="preprocessor">#define NUM_GRAPHS 6</span></div>
@@ -201,21 +201,22 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_multi_threaded.html',
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">threads</a>.clear();</div>
 </div><!-- fragment --><p>This test results in the following numbers (on my AMD Ryzen5 8/16-core laptop):</p>
 <hr  />
+<p><b>VERSION:</b> 5.0.0 <b>BUILD MODE:</b> Release</p>
 <p><u><b>SERIAL RESULTS:</b></u><br  />
-runtime, overall = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">1822.3ms</a><br  />
-single runtimes = (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">227.7</a> +/- <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">306.8</a>) ms<br  />
+runtime, overall = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">1896.0ms</a><br  />
+single runtimes = (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">236.9</a> +/- <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">379.1</a>) ms<br  />
 speedup = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">1.00x</a><br  />
 threads / available = 1 / 16<br  />
 <br  />
  <br  />
 </p>
 <p><u><b>PARALLEL RESULTS:</b></u><br  />
- runtime, overall = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">811.1ms</a><br  />
-single runtimes = (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">760.8</a> +/- <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">63.8</a>) ms<br  />
-speedup = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">7.50x</a><br  />
+ runtime, overall = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">624.7ms</a><br  />
+single runtimes = (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">564.3</a> +/- <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">107.7</a>) ms<br  />
+speedup = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">7.23x</a><br  />
 threads / available = 8 / 16<br  />
 <br  />
-<b>speedup vs. serial = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">2.2x</a></b></p>
+<b>speedup vs. serial = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">3.0x</a></b></p>
 <hr  />
 <p>From this data you can observe:</p><ul>
 <li>The plotting parallelizes nicely, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. the speedup ist &gt;7x on a 8-core-machine. This is the speedup calculated as sum of runtimes of each thread, divided by the runtime of all threads in parallel.</li>
@@ -232,7 +233,7 @@ threads / available = 8 / 16<br  />
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Thu Jan 4 2024 23:48:01 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Jan 5 2024 22:28:56 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
