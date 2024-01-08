@@ -89,8 +89,6 @@ var hierarchy =
       [ "JKQTMathTextVerbatimNode::LayoutInfo", "struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html", null ],
       [ "JKQTMathTextVerticalListNode::LayoutInfo", "struct_j_k_q_t_math_text_vertical_list_node_1_1_layout_info.html", null ]
     ] ],
-    [ "JKQTMathTextTBRData", "struct_j_k_q_t_math_text_t_b_r_data.html", null ],
-    [ "JKQTMathTextTBRDataH", "struct_j_k_q_t_math_text_t_b_r_data_h.html", null ],
     [ "JKQTPAdaptiveFunctionGraphEvaluator", "class_j_k_q_t_p_adaptive_function_graph_evaluator.html", null ],
     [ "JKQTPArrayScopedPointer< T >", "class_j_k_q_t_p_array_scoped_pointer.html", null ],
     [ "JKQTPColorDerivationMode", "struct_j_k_q_t_p_color_derivation_mode.html", null ],
@@ -115,6 +113,7 @@ var hierarchy =
     [ "JKQTPCoordinateAxisStyle", "class_j_k_q_t_p_coordinate_axis_style.html", [
       [ "JKQTPColorbarCoordinateAxisStyle", "class_j_k_q_t_p_colorbar_coordinate_axis_style.html", null ]
     ] ],
+    [ "JKQTPDataCache< TData, TKey, ThreadSafe, TKeyInSignature >", "struct_j_k_q_t_p_data_cache.html", null ],
     [ "JKQTPDatastore", "class_j_k_q_t_p_datastore.html", null ],
     [ "JKQTPDatastoreItem", "class_j_k_q_t_p_datastore_item.html", null ],
     [ "JKQTPFinalAct< F >", "class_j_k_q_t_p_final_act.html", null ],

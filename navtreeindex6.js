@@ -170,7 +170,7 @@ var NAVTREEINDEX6 =
 "class_j_k_q_t_math_text_brace_node.html#a6185356a40c5a1ff663b6d85a2452722":[11,3,1,2,6,7],
 "class_j_k_q_t_math_text_brace_node.html#a655202771beea82949f63785741831fa":[11,3,1,2,6,9],
 "class_j_k_q_t_math_text_brace_node.html#a88e9f1e64962f2ed732eb65be7e0213e":[11,3,1,2,6,10],
-"class_j_k_q_t_math_text_brace_node.html#ae0da0220c2fb00e51b6f5f4c1722264d":[11,3,1,2,6,2],
+"class_j_k_q_t_math_text_brace_node.html#ac3b63916fc46f36fdb9c2d42af63ae1f":[11,3,1,2,6,2],
 "class_j_k_q_t_math_text_brace_node.html#ae2ef72207f6e204ba235bd7848006316":[11,3,1,2,6,1],
 "class_j_k_q_t_math_text_brace_node.html#ae3dd135a75579d59d51408e5e725cd7a":[11,3,1,2,6,0],
 "class_j_k_q_t_math_text_brace_node.html#aeb9f206459477a7ca99d0b748a06f57f":[11,3,1,2,6,5],

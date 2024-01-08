@@ -890,6 +890,10 @@ Friends</h2></td></tr>
 <li><a class="el" href="group__jkqtmathtext__fonthandling.html">Font Handling</a> for a description of the font handling in <a class="el" href="class_j_k_q_t_math_text_latex_parser.html" title="a LaTeX parser for JKQTMathText">JKQTMathTextLatexParser</a> (which is modelled after LaTeX, but with tweaks especially for use in the context of GUI code)</li>
 <li><a class="el" href="group__jkqtmathtext__supportedlatex.html">Supported LaTeX-Subset</a> for a description of the supported LaTeX subset</li>
 </ul>
+<h1><a class="anchor" id="JKQTMathTextUsageThreadSafety"></a>
+Thread-Safety/Re-Entrancy Guarantees</h1>
+<p>All functions in this class are reentrant. Therefore different instances off JKQTMathtext can be used in parallel in different threads. DO NOT however use the same instance from multiple threads, as the functions are not thread-safe!</p>
+<p>Also note that there are certain caches that reuse information (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. about fonts) from previous runs, which allow different instances (also over different threads) to profit from each other. On the other hand, this strategy requires a bit of overhead due to synchronization, but usually the speedup outweighs the overhead significantly!</p>
 <h1><a class="anchor" id="JKQTMathTextUsage"></a>
 Usage</h1>
 <h2><a class="anchor" id="JKQTMathTextUsageParsing"></a>
@@ -941,7 +945,7 @@ Example Code</h2>
 <div class="line"> </div>
 <div class="line"><span class="comment">// draw the result into a QPixmap</span></div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">QPixmap</a> <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">result</a>=mathText.<a class="code hl_function" href="class_j_k_q_t_math_text.html#ad79581429daab9714ab9ed4a1fd834d0">drawIntoPixmap</a>();</div>
-<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...</div><div class="ttdef"><b>Definition</b> jkqtmathtext.h:181</div></div>
+<div class="ttc" id="aclass_j_k_q_t_math_text_html"><div class="ttname"><a href="class_j_k_q_t_math_text.html">JKQTMathText</a></div><div class="ttdoc">this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...</div><div class="ttdef"><b>Definition</b> jkqtmathtext.h:189</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a33429d4f9fd09a5418995a0a2886c7cd"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd">JKQTMathText::parse</a></div><div class="ttdeci">bool parse(const QString &amp;markup, DefaultParserTypes markupType=DefaultParser, ParseOptions options=DefaultParseOptions)</div><div class="ttdoc">parse the given math markup string with a parser derived from markupType.</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a8ac20f1e5cc31b54589e0b322f1b7991"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a8ac20f1e5cc31b54589e0b322f1b7991">JKQTMathText::useXITS</a></div><div class="ttdeci">bool useXITS(bool mathModeOnly=true, bool useAsFallbackSymbol=true)</div><div class="ttdoc">configures the class to use the XITS fonts in mathmode</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_ad79581429daab9714ab9ed4a1fd834d0"><div class="ttname"><a href="class_j_k_q_t_math_text.html#ad79581429daab9714ab9ed4a1fd834d0">JKQTMathText::drawIntoPixmap</a></div><div class="ttdeci">QPixmap drawIntoPixmap(bool drawBoxes=false, QColor backgroundColor=QColor(Qt::white), int sizeincrease=0, qreal devicePixelRatio=1.0)</div><div class="ttdoc">render the last parse result into a QPixmap</div></div>
@@ -959,7 +963,7 @@ Example Code</h2>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_a280e7032f66c45b5f3b42664056bee19"><div class="ttname"><a href="class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19">JKQTMathText::draw</a></div><div class="ttdeci">void draw(QPainter &amp;painter, QPointF x, bool drawBoxes=false)</div><div class="ttdoc">draw a representation to the object at the specified position x , y</div></div>
 <div class="ttc" id="aclass_j_k_q_t_math_text_html_ab1d748ce748a28204a283bf1b98cb75d"><div class="ttname"><a href="class_j_k_q_t_math_text.html#ab1d748ce748a28204a283bf1b98cb75d">JKQTMathText::getSizeDetail</a></div><div class="ttdeci">void getSizeDetail(QPainter &amp;painter, double &amp;width, double &amp;ascent, double &amp;descent, double &amp;strikeoutPos)</div><div class="ttdoc">return the detailes sizes of the text</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_final_act_html_af964d2f5e77728dfe65e13964ea9b02a"><div class="ttname"><a href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">JKQTPFinalAct::JKQTPFinalAct</a></div><div class="ttdeci">JKQTPFinalAct(F f) noexcept</div><div class="ttdef"><b>Definition</b> jkqtpcodestructuring.h:50</div></div>
-<div class="ttc" id="astruct_j_k_q_t_math_text_node_size_html"><div class="ttname"><a href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a></div><div class="ttdoc">beschreibt die Größe(n) eines Knotens</div><div class="ttdef"><b>Definition</b> jkqtmathtexttools.h:392</div></div>
+<div class="ttc" id="astruct_j_k_q_t_math_text_node_size_html"><div class="ttname"><a href="struct_j_k_q_t_math_text_node_size.html">JKQTMathTextNodeSize</a></div><div class="ttdoc">beschreibt die Größe(n) eines Knotens</div><div class="ttdef"><b>Definition</b> jkqtmathtexttools.h:393</div></div>
 </div><!-- fragment --><h1><a class="anchor" id="JKQTMathTextToHTML"></a>
 Convert to HTML</h1>
 <p>The method <a class="el" href="class_j_k_q_t_math_text.html#a4fd28699b36009ec0177f78c6b4545f7" title="convert LaTeX to HTML. returns ok=true on success and ok=false else.">toHtml()</a> may be used to get a HTML representation of the LaTeX string, if possible (only for simple LaTeX equations!). Whether the transformation was possible is returned as a call by value argument!</p>
@@ -6707,7 +6711,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Fri Jan 5 2024 22:28:56 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jan 8 2024 20:35:50 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

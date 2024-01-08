@@ -203,25 +203,28 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_multi_threaded.html',
 <hr  />
 <p><b>VERSION:</b> 5.0.0 <b>BUILD MODE:</b> Release</p>
 <p><u><b>SERIAL RESULTS:</b></u><br  />
-runtime, overall = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">1896.0ms</a><br  />
-single runtimes = (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">236.9</a> +/- <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">379.1</a>) ms<br  />
+runtime, overall = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">2336.7ms</a><br  />
+single runtimes = (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">97.3</a> +/- <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">158.4</a>) ms<br  />
 speedup = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">1.00x</a><br  />
 threads / available = 1 / 16<br  />
+<br  />
 <br  />
  <br  />
 </p>
 <p><u><b>PARALLEL RESULTS:</b></u><br  />
- runtime, overall = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">624.7ms</a><br  />
-single runtimes = (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">564.3</a> +/- <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">107.7</a>) ms<br  />
-speedup = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">7.23x</a><br  />
+ runtime, overall = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">527.2ms</a><br  />
+single runtimes = (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">166.4</a> +/- <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">8.1</a>) ms<br  />
+speedup = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">7.58x</a><br  />
 threads / available = 8 / 16<br  />
+batch runs = 3<br  />
 <br  />
-<b>speedup vs. serial = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">3.0x</a></b></p>
+<b>speedup vs. serial = <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">4.4x</a></b></p>
 <hr  />
 <p>From this data you can observe:</p><ul>
 <li>The plotting parallelizes nicely, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. the speedup ist &gt;7x on a 8-core-machine. This is the speedup calculated as sum of runtimes of each thread, divided by the runtime of all threads in parallel.</li>
-<li>BUT: the speedup of serialized plotting vs. parallel plotting is way smaller: It is only 2-3x. Also the runtime in each thread is about 3x longer than in the serialized example. This can be explained by the (significant) overhead due to shared caches (and therefore synchronization) between the plotters. This may be reworked in future!</li>
+<li>BUT: the speedup of serialized plotting vs. parallel plotting is a biz smaller: It is only 6-7x. Also the runtime in each thread is a bit longer than in the serialized example. This can be explained by the overhead due to shared caches (and therefore synchronization) between the plotters (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. using <a class="el" href="group__jkqtmathtext__tools.html#ga50ebaa959741b82e784c7afdf2d9e378" title="calculates the bounding rectangle around text (from (using QFontMetricsF::boundingRect()),...">JKQTMathTextGetBoundingRect()</a> within <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a>).</li>
 <li>The variance in runtimes in the (initial) serial test-run is larger than in the parallel run. This is due to filling of the internal caches during the first plotting!</li>
+<li>NOTE: The parallel vs. serial speedup significantly depends on the complexity of the text rendering (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. usage of <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a>). Therefore rendinering more complex textxs with more and more complex LaTeX markup, will result in smalle speedups!</li>
 </ul>
 <p>Finally the application displays the plots:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/multithreaded.png" alt="multithreaded" class="inline"/> </p>
@@ -233,7 +236,7 @@ threads / available = 8 / 16<br  />
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Fri Jan 5 2024 22:28:56 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jan 8 2024 20:35:49 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

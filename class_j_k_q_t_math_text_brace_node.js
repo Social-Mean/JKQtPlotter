@@ -2,7 +2,7 @@ var class_j_k_q_t_math_text_brace_node =
 [
     [ "JKQTMathTextBraceNode", "class_j_k_q_t_math_text_brace_node.html#ae3dd135a75579d59d51408e5e725cd7a", null ],
     [ "~JKQTMathTextBraceNode", "class_j_k_q_t_math_text_brace_node.html#ae2ef72207f6e204ba235bd7848006316", null ],
-    [ "calcBraceSize", "class_j_k_q_t_math_text_brace_node.html#ae0da0220c2fb00e51b6f5f4c1722264d", null ],
+    [ "calcBraceSize", "class_j_k_q_t_math_text_brace_node.html#ac3b63916fc46f36fdb9c2d42af63ae1f", null ],
     [ "calcBraceSizes", "class_j_k_q_t_math_text_brace_node.html#a516157848d66841417c418456c0cb8cb", null ],
     [ "draw", "class_j_k_q_t_math_text_brace_node.html#af1cdad0164cd48364d1f6b30e38a45cb", null ],
     [ "getClosebrace", "class_j_k_q_t_math_text_brace_node.html#aeb9f206459477a7ca99d0b748a06f57f", null ],

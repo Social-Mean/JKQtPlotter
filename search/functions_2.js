@@ -1,7 +1,7 @@
 var searchData=
 [
   ['calcbottom_0',['calcbottom',['../class_j_k_q_t_base_plotter_1_1_plot_margins.html#ad6fea96818af94aeebc4a01700b72db3',1,'JKQTBasePlotter::PlotMargins::calcBottom(PlotMarginUse start, PlotMarginUse stop) const'],['../class_j_k_q_t_base_plotter_1_1_plot_margins.html#ac1431c8ba16d599fa6f478e8dbc57fcd',1,'JKQTBasePlotter::PlotMargins::calcBottom() const']]],
-  ['calcbracesize_1',['calcBraceSize',['../class_j_k_q_t_math_text_brace_node.html#ae0da0220c2fb00e51b6f5f4c1722264d',1,'JKQTMathTextBraceNode']]],
+  ['calcbracesize_1',['calcBraceSize',['../class_j_k_q_t_math_text_brace_node.html#ac3b63916fc46f36fdb9c2d42af63ae1f',1,'JKQTMathTextBraceNode']]],
   ['calcbracesizes_2',['calcBraceSizes',['../class_j_k_q_t_math_text_brace_node.html#a516157848d66841417c418456c0cb8cb',1,'JKQTMathTextBraceNode']]],
   ['calccolumnwidth_3',['calcColumnWidth',['../struct_j_k_q_t_p_base_key_1_1_key_column_description.html#ae6802542dc270e37529552891323d15a',1,'JKQTPBaseKey::KeyColumnDescription']]],
   ['calccontourlines_4',['calcContourLines',['../class_j_k_q_t_p_contour_plot.html#adcd458f8a1374c80d1347f13bce5e466',1,'JKQTPContourPlot']]],

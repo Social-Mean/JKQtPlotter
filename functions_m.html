@@ -169,6 +169,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <h3><a id="index_m" name="index_m"></a>- m -</h3><ul>
 <li>m_baseline&#160;:&#160;<a class="el" href="class_j_k_q_t_p_x_y_baseline_graph.html#ad5658330643e8ec411ec46cd80ace2b3">JKQTPXYBaselineGraph</a></li>
 <li>m_baselineStyle&#160;:&#160;<a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a7c6583d3519c9d0c3219b32f373450a1">JKQTPBarGraphBase</a>, <a class="el" href="class_j_k_q_t_p_impulses_graph_base.html#ab6c7d5be3cd96990ae441b2a54dba165">JKQTPImpulsesGraphBase</a></li>
+<li>m_cache&#160;:&#160;<a class="el" href="struct_j_k_q_t_p_data_cache.html#a7873c14a472b092b8cda2f0b90156ec0">JKQTPDataCache&lt; TData, TKey, ThreadSafe, TKeyInSignature &gt;</a></li>
 <li>m_color&#160;:&#160;<a class="el" href="class_j_k_q_t_base_plotter_1_1_j_k_q_t_p_pen.html#a677f5e2ef52439ec52c4322e196fb6c3">JKQTBasePlotter::JKQTPPen</a></li>
 <li>m_customDrawFunctor&#160;:&#160;<a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a17f4b2bdffef86c071d41ee0953c9a9c">JKQTPBarGraphBase</a></li>
 <li>m_data&#160;:&#160;<a class="el" href="class_j_k_q_t_p_synchronized.html#a4b67fe2ae93fce83ac6c0cf47ee5e6a4">JKQTPSynchronized&lt; T &gt;</a></li>
@@ -195,6 +196,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>m_fillStyleBelow&#160;:&#160;<a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a72cc32b8d269c178d3da7aa3ed8edda4">JKQTPBarGraphBase</a>, <a class="el" href="class_j_k_q_t_p_filled_curve_graph_base.html#a8fac9d458a903a4cf75bacc6057a4890">JKQTPFilledCurveGraphBase</a></li>
 <li>m_flags&#160;:&#160;<a class="el" href="class_j_k_q_t_p_enhanced_painter.html#a76227ad8ed3ba66c3f470c6c7edfa05e">JKQTPEnhancedPainter</a></li>
 <li>m_fontName&#160;:&#160;<a class="el" href="struct_j_k_q_t_math_text_font_specifier.html#a1aace60a312ee4ae88e24253aac1e24c">JKQTMathTextFontSpecifier</a></li>
+<li>m_generateData&#160;:&#160;<a class="el" href="struct_j_k_q_t_p_data_cache.html#a499fcb451de12dcfb5d427f4695ae99d">JKQTPDataCache&lt; TData, TKey, ThreadSafe, TKeyInSignature &gt;</a></li>
 <li>m_headDecoratorSizeFactor&#160;:&#160;<a class="el" href="class_j_k_q_t_p_graph_decorated_head_line_style_mixin.html#a7023ff7a850081f0004eb4a8919f2782">JKQTPGraphDecoratedHeadLineStyleMixin</a>, <a class="el" href="class_j_k_q_t_p_graph_decorated_line_style_mixin.html#ab5c14629aca62259e4498291c86d27b0">JKQTPGraphDecoratedLineStyleMixin</a></li>
 <li>m_headDecoratorStyle&#160;:&#160;<a class="el" href="class_j_k_q_t_p_graph_decorated_head_line_style_mixin.html#a6e28bdf683163d37114ec491ddb0206b">JKQTPGraphDecoratedHeadLineStyleMixin</a>, <a class="el" href="class_j_k_q_t_p_graph_decorated_line_style_mixin.html#aed4d0619561fed21fc0769553d1cf937">JKQTPGraphDecoratedLineStyleMixin</a></li>
 <li>m_highlightingLineColor&#160;:&#160;<a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a92f16605ff836e7a2578e92024de4bf4">JKQTPGraphLineStyleMixin</a></li>
@@ -212,7 +214,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>m_meanSymbolSize&#160;:&#160;<a class="el" href="class_j_k_q_t_p_graph_boxplot_style_mixin.html#a8297d990c0b959a65656715da02f4323">JKQTPGraphBoxplotStyleMixin</a>, <a class="el" href="class_j_k_q_t_p_graph_violinplot_style_mixin.html#ac7ce5b1078e231f9d430fee2498ef9e2">JKQTPGraphViolinplotStyleMixin</a></li>
 <li>m_meanSymbolType&#160;:&#160;<a class="el" href="class_j_k_q_t_p_graph_boxplot_style_mixin.html#af17a047bba384b3a1ab56b4f566dfa43">JKQTPGraphBoxplotStyleMixin</a>, <a class="el" href="class_j_k_q_t_p_graph_violinplot_style_mixin.html#a00053e610e535c280c96dd2f4b42bce0">JKQTPGraphViolinplotStyleMixin</a></li>
 <li>m_medianLinePen&#160;:&#160;<a class="el" href="class_j_k_q_t_p_graph_boxplot_style_mixin.html#a9f9c06a70299d2ad9cecbc7d23e4429d">JKQTPGraphBoxplotStyleMixin</a>, <a class="el" href="class_j_k_q_t_p_graph_violinplot_style_mixin.html#a2246d7bb026552a163eb19c064c97e3c">JKQTPGraphViolinplotStyleMixin</a></li>
-<li>m_mutex&#160;:&#160;<a class="el" href="class_j_k_q_t_p_synchronized.html#a12a86d350e0dacd31b3d1a4681aef150">JKQTPSynchronized&lt; T &gt;</a></li>
+<li>m_mutex&#160;:&#160;<a class="el" href="struct_j_k_q_t_p_data_cache.html#a8a414d20ad64a124e2887809fb307d4c">JKQTPDataCache&lt; TData, TKey, ThreadSafe, TKeyInSignature &gt;</a>, <a class="el" href="class_j_k_q_t_p_synchronized.html#a12a86d350e0dacd31b3d1a4681aef150">JKQTPSynchronized&lt; T &gt;</a></li>
 <li>m_nonvisibleLineCompressionAgressiveness&#160;:&#160;<a class="el" href="class_j_k_q_t_p_graph_lines_compression_mixin.html#a687dbc699b1d00612c2c7919ac8c82c6">JKQTPGraphLinesCompressionMixin</a></li>
 <li>m_plotsModel&#160;:&#160;<a class="el" href="class_j_k_q_t_base_plotter.html#a747355a4352c3b0e65b5dd9aed6ddd4b">JKQTBasePlotter</a></li>
 <li>m_plotter&#160;:&#160;<a class="el" href="class_j_k_q_t_p_graphs_model.html#a5b3668836f54f2e26f86ea673a9dee25">JKQTPGraphsModel</a></li>
@@ -371,7 +373,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>mousePressEvent()&#160;:&#160;<a class="el" href="class_j_k_q_t_fast_plotter.html#ae29810f4d4b8abb351a7db5ee579cf34">JKQTFastPlotter</a>, <a class="el" href="class_j_k_q_t_plotter.html#ac293c271f3c9b217acb4ae1994f76ae3">JKQTPlotter</a></li>
 <li>mouseReleaseEvent()&#160;:&#160;<a class="el" href="class_j_k_q_t_fast_plotter.html#a7a45da0591454649f02ac708741f740c">JKQTFastPlotter</a>, <a class="el" href="class_j_k_q_t_plotter.html#ab331213b9eb768e1875f0a6e06543d48">JKQTPlotter</a></li>
 <li>moveGraphBottom()&#160;:&#160;<a class="el" href="class_j_k_q_t_base_plotter.html#a0499d13499510ff5f7999afec90bceac">JKQTBasePlotter</a>, <a class="el" href="class_j_k_q_t_plotter.html#a3423657c74844d745497f3e78b5084cb">JKQTPlotter</a></li>
-<li>moveGraphDown()&#160;:&#160;<a class="el" href="class_j_k_q_t_base_plotter.html#a938c22972afd92e68bec34d020eae078">JKQTBasePlotter</a>, <a class="el" href="class_j_k_q_t_plotter.html#ac3698a368335196eefe8118e05d1230f">JKQTPlotter</a></li>
+<li>moveGraphDown()&#160;:&#160;<a class="el" href="class_j_k_q_t_base_plotter.html#aa5b4283185c930cd4724d6965ca370f6">JKQTBasePlotter</a>, <a class="el" href="class_j_k_q_t_plotter.html#ac3698a368335196eefe8118e05d1230f">JKQTPlotter</a></li>
 <li>moveGraphTop()&#160;:&#160;<a class="el" href="class_j_k_q_t_base_plotter.html#a5e02e08a8809954aeda77bb1c185d4c6">JKQTBasePlotter</a>, <a class="el" href="class_j_k_q_t_plotter.html#a657f5a73507ac982ce57a9114cd47b43">JKQTPlotter</a></li>
 <li>moveGraphUp()&#160;:&#160;<a class="el" href="class_j_k_q_t_base_plotter.html#ab6a49d7471bad647dec9f3b07a284eed">JKQTBasePlotter</a>, <a class="el" href="class_j_k_q_t_plotter.html#a4564fb1021b9f6d0a9807f6fd09faf18">JKQTPlotter</a></li>
 <li>MTDacute&#160;:&#160;<a class="el" href="class_j_k_q_t_math_text_decorated_node.html#a0807e97e6481b413a0d63fdcf2e3cbc2a9f488546ec01584c814a64c5ecf88eb5">JKQTMathTextDecoratedNode</a></li>
@@ -458,7 +460,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jan 5 2024 22:28:57 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jan 8 2024 20:35:51 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

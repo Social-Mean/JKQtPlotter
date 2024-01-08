@@ -164,6 +164,9 @@ NEW/BREAKING: split jkqtcommon into basic tools and jkqtmath for advanced math t
 <li>
 NEW: When using a MSVC compiler, the generated PDB files are installed to <code>CMAKE_INSTALL_PREFIX/bin/</code>  <br  />
  </li>
+<li>
+NEW: Added CMake option <code>JKQtPlotter_BUILD_WITH_TIMING_INFO_OUTPUT</code>, which activates several runtime-measurement guards of type <a class="el" href="class_j_k_q_t_p_auto_output_timer.html" title="RAII construct that times its lifetime, outputting properly indented qDebug()-message.">JKQTPAutoOutputTimer</a> (output via qDebug()) <br  />
+ </li>
 </ul>
 </li>
 <li>
@@ -301,7 +304,7 @@ NEW: Due to addition of <a class="el" href="class_j_k_q_t_math_text.html#ab277fc
 <li>
 NEW: added JKQTPLabelMinBesides and JKQTPLabelMaxBesides to JKQTPLabelPosition, so labels can be set besides the axes </li>
 <li>
-NEW/REWORKED JKQTBasePlottercan be used is re-entrant, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. different instances can be used from different threads in parallel (although there is significant overhead due to shared caches between the threads!). This is demonstrated and discussed in <a class="el" href="_j_k_q_t_plotter_multi_threaded.html">Example (JKQTPlotter): Multi-Threaded (Parallel) Plotting</a> .  </li>
+NEW/REWORKED all functions in <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a> are re-entrant, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. different instances can be used from different threads in parallel (although there is some overhead due to shared caches between the threads!). This is demonstrated and discussed in <a class="el" href="_j_k_q_t_plotter_multi_threaded.html">Example (JKQTPlotter): Multi-Threaded (Parallel) Plotting</a> .  </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -335,6 +338,8 @@ IMPROVED: rendering of sqrt </li>
 IMPROVED: rendering and size calculation of decorations </li>
 <li>
 IMPROVED: tokenizing and parsing of text in text-mode: now a lot of accents with commands like <code>\"a</code>, <code>\'e</code> and variants (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <code>{\"a}</code>, <code>\"{a}</code>, ...) are supported now </li>
+<li>
+IMPROVED: all fucntions in <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> are re-entrant + diverse speed improvements for parallel use-cases (via caches) </li>
 <li>
 IMPROVED/BREAKING: refactored symbol node <a class="el" href="class_j_k_q_t_math_text_symbol_node.html" title="subclass representing one symbol (e.g. \alpha , \cdot ...) node in the syntax tree">JKQTMathTextSymbolNode</a> and changed font-lookup! </li>
 <li>
@@ -711,7 +716,7 @@ Latest Release/Tag: <a href="https://github.com/jkriege2/JKQtPlotter/releases/ta
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jan 5 2024 22:28:56 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jan 8 2024 20:35:49 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
