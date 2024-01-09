@@ -408,8 +408,8 @@ var group__jkqtpbaseplotter__elements =
       [ "calcRowHeight", "struct_j_k_q_t_p_base_key_1_1_key_layout_description.html#a6dd94a6af1c5d5bc98c61b680425626f", null ],
       [ "countItems", "struct_j_k_q_t_p_base_key_1_1_key_layout_description.html#abfd44aaf9a3997292137d9aaef7702ff", null ],
       [ "redistributeIntoOneColumn", "struct_j_k_q_t_p_base_key_1_1_key_layout_description.html#a8de3c1bf0a2ece1e57d2595195894d1b", null ],
-      [ "redistributeOverColumns", "struct_j_k_q_t_p_base_key_1_1_key_layout_description.html#aec4a3b81372c913cdb5e7f7268fb9085", null ],
-      [ "redistributeOverRows", "struct_j_k_q_t_p_base_key_1_1_key_layout_description.html#ab70846ace19724c4cba3cfdac86f38ab", null ],
+      [ "redistributeOverColumns", "struct_j_k_q_t_p_base_key_1_1_key_layout_description.html#a1bae7b2a78197cc0951ae48306d56a87", null ],
+      [ "redistributeOverRows", "struct_j_k_q_t_p_base_key_1_1_key_layout_description.html#a33e6e75bf167f3475707e3a556595218", null ],
       [ "columns", "struct_j_k_q_t_p_base_key_1_1_key_layout_description.html#a60570ef2ce06475adf5b02f572a3ffd6", null ]
     ] ],
     [ "JKQTPBaseKey::KeySizeDescription", "struct_j_k_q_t_p_base_key_1_1_key_size_description.html", [
