@@ -19,6 +19,7 @@ var group__jkqtptools__math__basic =
     [ "jkqtp_approximatelyUnequal", "group__jkqtptools__math__basic.html#gada89e007601cf061a81709748fa5b05c", null ],
     [ "jkqtp_approximatelyUnequal", "group__jkqtptools__math__basic.html#gab4f1cfb0a0223df8c9921cab6c6140b8", null ],
     [ "jkqtp_bounded", "group__jkqtptools__math__basic.html#ga529458e0c8a51368ccdf29a4bf690d8b", null ],
+    [ "jkqtp_bounded", "group__jkqtptools__math__basic.html#gad607bbbb9b784a9a197929149469c120", null ],
     [ "jkqtp_boundedRoundTo", "group__jkqtptools__math__basic.html#ga5847d0d736eb5a0b01b957f15193ebe2", null ],
     [ "jkqtp_boundedRoundTo", "group__jkqtptools__math__basic.html#gaba414891ee7a449b462aaaff0a35635f", null ],
     [ "jkqtp_ceilTo", "group__jkqtptools__math__basic.html#ga7d3fc545bf6193a1ad76bb2870327843", null ],

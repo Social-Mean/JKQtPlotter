@@ -1,5 +1,6 @@
 var NAVTREEINDEX31 =
 {
+"struct_j_k_q_t_base_plotter_1_1_plot_margin.html#a65cb695a849191199da4c7509223262e":[11,4,1,2,8,1],
 "struct_j_k_q_t_base_plotter_1_1_plot_margin.html#a83b853c85a73e1c3e40512f8402bf206":[11,4,1,2,8,4],
 "struct_j_k_q_t_base_plotter_1_1_plot_margin.html#ab310386097caa9aa9faf6c51c9e171d9":[11,4,1,2,8,3],
 "struct_j_k_q_t_base_plotter_1_1_plot_margin.html#ad42d99a0208bf2db0fe09bdfc157fbbb":[11,4,1,2,8,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX31 =
 "struct_j_k_q_t_p_base_key_1_1_key_column_description.html":[11,4,1,1,3,11],
 "struct_j_k_q_t_p_base_key_1_1_key_column_description.html#a34fd5d6d0f3a63efe82903877760f46b":[11,4,1,1,3,11,3],
 "struct_j_k_q_t_p_base_key_1_1_key_column_description.html#a3bddd0cb45dea182d14535f76aaa00f4":[11,4,1,1,3,11,1],
-"struct_j_k_q_t_p_base_key_1_1_key_column_description.html#a4059fbf5ff4bf0100275e10f08f0cf0e":[11,4,1,1,3,11,4],
-"struct_j_k_q_t_p_base_key_1_1_key_column_description.html#a478a68370c7c5429e670aa057161eb7a":[11,4,1,1,3,11,0]
+"struct_j_k_q_t_p_base_key_1_1_key_column_description.html#a4059fbf5ff4bf0100275e10f08f0cf0e":[11,4,1,1,3,11,4]
 };

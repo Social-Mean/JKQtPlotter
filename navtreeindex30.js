@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"group__jkqtptools__math__statistics__adaptors.html":[11,2,5,8],
 "group__jkqtptools__math__statistics__adaptors.html#ga0903341fc5a3e297a9f6c547df4b222f":[11,2,5,8,10],
 "group__jkqtptools__math__statistics__adaptors.html#ga095221a3ce25aaa2b1de5e4c518d196b":[11,2,5,8,18],
 "group__jkqtptools__math__statistics__adaptors.html#ga09d561a779b7bb36c3190f37b82cb297":[11,2,5,8,45],
@@ -188,17 +189,17 @@ var NAVTREEINDEX30 =
 "licensepage.html#extlicense_xits":[5,1,0],
 "licensepage.html#licensesec":[5,0],
 "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html":[1],
-"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2":[1,0],
-"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3":[1,1],
+"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md1":[1,0],
+"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2":[1,1],
 "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4":[1,2],
 "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5":[1,3],
 "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6":[1,4],
-"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md8":[1,5],
+"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md7":[1,5],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html":[2],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10":[2,2],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md11":[2,3],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md12":[2,4],
-"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md7":[2,0],
+"md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8":[2,0],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md9":[2,1],
 "md__s_e_c_u_r_i_t_y.html":[9],
 "md__s_e_c_u_r_i_t_y.html#autotoc_md135":[9,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "page_whatsnew.html#page_whatsnew_V4_0_0_OVERVIEW":[7,1,0],
 "pages.html":[],
 "struct_j_k_q_t_base_plotter_1_1_plot_margin.html":[11,4,1,2,8],
-"struct_j_k_q_t_base_plotter_1_1_plot_margin.html#a3c14f91fdad800af92e98114f2c81f02":[11,4,1,2,8,0],
-"struct_j_k_q_t_base_plotter_1_1_plot_margin.html#a65cb695a849191199da4c7509223262e":[11,4,1,2,8,1]
+"struct_j_k_q_t_base_plotter_1_1_plot_margin.html#a3c14f91fdad800af92e98114f2c81f02":[11,4,1,2,8,0]
 };
