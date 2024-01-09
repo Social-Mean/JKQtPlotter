@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['random_20numbers_0',['random numbers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md59',1,'Generating different sets of random numbers'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md46',1,'Generating different sets of random numbers']]],
+  ['random_20numbers_0',['random numbers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md59',1,'Generating different sets of random numbers'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md47',1,'Generating different sets of random numbers']]],
   ['randomscatter_1',['RandomScatter',['../class_j_k_q_t_p_single_column_symbols_graph.html#a3631b52ee32dceb1418183aefe7f7ce4a7ce488ba270f450ea4879f7d6f53d6ad',1,'JKQTPSingleColumnSymbolsGraph']]],
   ['range_20plot_20width_2',['Synchronizing Axis Range &amp; Plot Width',['../class_j_k_q_t_base_plotter.html#JKQTBASEPLOTTER_SYNCMULTIPLOT_SYNC',1,'']]],
   ['range_5fend_3',['range_end',['../struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#aa82a3c373d7364ed975f0d20a121f412',1,'JKQTPEvaluatedFunctionGraphBase::PlotFunctorSpec']]],
@@ -20,7 +20,7 @@ var searchData=
   ['readdelim_17',['readDelim',['../class_j_k_q_t_p_math_parser.html#a428e3bbbb7b91d8b11a89d49a22763b1',1,'JKQTPMathParser']]],
   ['readlocker_18',['readlocker',['../class_j_k_q_t_p_synchronized_1_1_read_locker.html#a3bdbd081c96453bef172de5e9005c574',1,'JKQTPSynchronized::ReadLocker::ReadLocker(const JKQTPSynchronized&lt; T &gt; &amp;sync, AdoptLockType) noexcept'],['../class_j_k_q_t_p_synchronized_1_1_read_locker.html#a7348e5aefd84334d185c9b64f060b870',1,'JKQTPSynchronized::ReadLocker::ReadLocker(const JKQTPSynchronized&lt; T &gt; &amp;sync) noexcept'],['../class_j_k_q_t_p_synchronized_1_1_read_locker.html',1,'JKQTPSynchronized&lt; T &gt;::ReadLocker']]],
   ['readuntil_19',['readUntil',['../class_j_k_q_t_math_text_latex_parser.html#abfa3a73dcb8277068cb4514f7bfdbc28',1,'JKQTMathTextLatexParser']]],
-  ['rectangles_20',['rectangles',['../group__jkqtplotter__geoplots.html',1,'Geometric Elements (Lines, Rectangles, ...)'],['../_j_k_q_t_plotter_user_interaction.html#autotoc_md111',1,'Rectangles']]],
+  ['rectangles_20',['rectangles',['../group__jkqtplotter__geoplots.html',1,'Geometric Elements (Lines, Rectangles, ...)'],['../_j_k_q_t_plotter_user_interaction.html#autotoc_md116',1,'Rectangles']]],
   ['rectradiusatbaseline_21',['rectRadiusAtBaseline',['../class_j_k_q_t_p_bar_graph_base.html#a0e14df1397f355b9b6d700766fa6bf99',1,'JKQTPBarGraphBase']]],
   ['rectradiusatvalue_22',['rectRadiusAtValue',['../class_j_k_q_t_p_bar_graph_base.html#a80913f23b5a8a8a25febb77783364fae',1,'JKQTPBarGraphBase']]],
   ['red_20blue_20wiggle_20plot_20using_20tt_20jkqtpfilledcurvexgraph_20tt_23',['Plot red/blue wiggle plot using &lt;tt&gt;JKQTPFilledCurveXGraph&lt;/tt&gt;',['../_j_k_q_t_plotter_wiggle_plots.html#autotoc_md122',1,'']]],
@@ -99,7 +99,7 @@ var searchData=
   ['resizeimagecolumn_96',['resizeImageColumn',['../class_j_k_q_t_p_datastore.html#ab04565d513a6830dcc58d035b685b3fa',1,'JKQTPDatastore']]],
   ['resizetimer_97',['resizeTimer',['../class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46',1,'JKQTPlotter']]],
   ['resizing_20of_20a_20plot_20widget_98',['Fast Resizing of a Plot Widget',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USERMOUSEINTERACTION_FASTRESIZING',1,'']]],
-  ['responsibilities_99',['responsibilities',['../md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4',1,'Our Responsibilities'],['../md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10',1,'Our Responsibilities']]],
+  ['responsibilities_99',['responsibilities',['../md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3',1,'Our Responsibilities'],['../md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10',1,'Our Responsibilities']]],
   ['result_20of_20parsing_20and_20evaluation_3a_100',['result of parsing and evaluation:',['../class_j_k_q_t_p_math_parser.html#jkmp_resultsofparsing',1,'']]],
   ['reverse_101',['reverse',['../class_j_k_q_t_p_palette_list.html#a88d161a6f8887bfa3e20bf36b220818f',1,'JKQTPPaletteList']]],
   ['rework_20of_20the_20library_102',['v2019.11: Major rework of the library',['../page_whatsnew.html#page_whatsnew_V2019_11',1,'']]],
@@ -118,9 +118,9 @@ var searchData=
   ['rowcount_115',['rowcount',['../class_j_k_q_t_p_datastore_model.html#adbb191f9cc0b04563f2586b214d4f782',1,'JKQTPDatastoreModel::rowCount()'],['../class_j_k_q_t_p_graphs_model.html#add5384cc40ef78eab722797e319ec6de',1,'JKQTPGraphsModel::rowCount()']]],
   ['rowheight_116',['rowheight',['../struct_j_k_q_t_math_text_matrix_node_1_1_layout_info.html#ab2e89ede5533489da53801a92ceaba5b',1,'JKQTMathTextMatrixNode::LayoutInfo']]],
   ['rows_117',['rows',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md38',1,'Iterator-based Column Data Access To Existing Rows'],['../struct_j_k_q_t_p_base_key_1_1_key_column_description.html#a4059fbf5ff4bf0100275e10f08f0cf0e',1,'JKQTPBaseKey::KeyColumnDescription::rows'],['../class_j_k_q_t_p_datastore_item.html#abb8afa0743093d0cb661dd1ae8deb92a',1,'JKQTPDatastoreItem::rows']]],
-  ['rug_20plot_118',['Visualizing data as a Rug Plot',['../_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md118',1,'']]],
+  ['rug_20plot_118',['Visualizing data as a Rug Plot',['../_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md100',1,'']]],
   ['rugplot_119',['RugPlot',['../class_j_k_q_t_p_single_column_symbols_graph.html#a3631b52ee32dceb1418183aefe7f7ce4a60c61271a6e7cdee0c8c8f78e4e55a17',1,'JKQTPSingleColumnSymbolsGraph']]],
-  ['ruler_20measurement_20tool_120',['Ruler/Measurement Tool',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md107',1,'']]],
+  ['ruler_20measurement_20tool_120',['Ruler/Measurement Tool',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md112',1,'']]],
   ['rulerdisplayed_121',['rulerDisplayed',['../class_j_k_q_t_plotter.html#ad539ba834dae8a1dea629afc085ad977',1,'JKQTPlotter']]],
   ['running_20a_20build_20with_20cmake_122',['Running a Build with CMake',['../page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_RUN',1,'']]]
 ];
