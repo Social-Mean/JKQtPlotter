@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"functions_vars_l.html":[13,3,2,11],
 "functions_vars_m.html":[13,3,2,12],
 "functions_vars_n.html":[13,3,2,13],
 "functions_vars_o.html":[13,3,2,14],
@@ -223,15 +224,10 @@ var NAVTREEINDEX26 =
 "group__jkqtplotter__eventgraphs.html":[11,4,1,1,1,2],
 "group__jkqtplotter__filledgraphs.html":[11,4,1,1,1,3],
 "group__jkqtplotter__functiongraphs.html":[11,4,1,1,1,7,1],
-"group__jkqtplotter__functiongraphs.html#a60b38e83f11c97234ca3aea39260c482":[11,4,1,1,1,7,1,11,1],
-"group__jkqtplotter__functiongraphs.html#a8a3ccf0f0fb4c1e6a2f72a4dbe94f24f":[11,4,1,1,1,7,1,11,3],
-"group__jkqtplotter__functiongraphs.html#aaa6c4ac51900d4cc6ef24dd404122e97":[11,4,1,1,1,7,1,11,0],
-"group__jkqtplotter__functiongraphs.html#ae4396b45f169af6efb5295c5074cda5c":[11,4,1,1,1,7,1,11,2],
 "group__jkqtplotter__functiongraphs.html#ga300d3eb6ff40a3504fc32cff2b27540a":[11,4,1,1,1,7,1,16],
 "group__jkqtplotter__functiongraphs.html#ga587fa997b67d2bec509cd215c1c4d40b":[11,4,1,1,1,7,1,15],
 "group__jkqtplotter__functiongraphs.html#ga96e3fb13db2ef8ce27e1120630075895":[11,4,1,1,1,7,1,13],
 "group__jkqtplotter__functiongraphs.html#gae58597bbea0fa3cdb33baf424b41d59c":[11,4,1,1,1,7,1,14],
-"group__jkqtplotter__functiongraphs.html#struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data":[11,4,1,1,1,7,1,11],
 "group__jkqtplotter__general.html":[11,4,0],
 "group__jkqtplotter__general__basicplotelements.html":[11,4,0,3],
 "group__jkqtplotter__general__basicplotelements__coordinateaxes.html":[11,4,0,3,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX26 =
 "group__jkqtplotter__imagelots__tools.html":[11,4,1,1,1,8,2],
 "group__jkqtplotter__imagelots__tools.html#ga149685f51fcffb507b86ff7f36f61330":[11,4,1,1,1,8,2,14],
 "group__jkqtplotter__imagelots__tools.html#ga1ad40aeaac5ba265ad6e83a3a9ab1d5c":[11,4,1,1,1,8,2,13],
-"group__jkqtplotter__imagelots__tools.html#ga28b53692f29935636e2ffee20896c69e":[11,4,1,1,1,8,2,9]
+"group__jkqtplotter__imagelots__tools.html#ga28b53692f29935636e2ffee20896c69e":[11,4,1,1,1,8,2,9],
+"group__jkqtplotter__imagelots__tools.html#ga3ee9407f74b2f6434857c9583bd99b2b":[11,4,1,1,1,8,2,18],
+"group__jkqtplotter__imagelots__tools.html#ga41748f3184681064a61cddade5039b3f":[11,4,1,1,1,8,2,7],
+"group__jkqtplotter__imagelots__tools.html#ga694cf42623647814dab984c60d472d28":[11,4,1,1,1,8,2,15],
+"group__jkqtplotter__imagelots__tools.html#ga6aa207dcda3a78402791ff0ac46a64fc":[11,4,1,1,1,8,2,11]
 };

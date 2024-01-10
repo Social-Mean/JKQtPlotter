@@ -115,8 +115,7 @@ $(document).ready(function(){initNavTree('group__jkqtptools__debugging.html','')
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle"><div class="title">Debugging Tools<div class="ingroups"><a class="el" href="group__jkqtptools__jkqtcommon.html">JKQTCommon: Diverse Basic Utilities</a></div></div></div>
 </div><!--header-->
 <div class="contents">
@@ -137,30 +136,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga7936d9f251e6ae31b13fba2bfec93432" id="r_ga7936d9f251e6ae31b13fba2bfec93432"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="class_j_k_q_t_p_final_act.html">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__debugging.html#ga7936d9f251e6ae31b13fba2bfec93432">JKQTPASSERT</a>(<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>)&#160;&#160;&#160;<a class="el" href="group__jkqtptools__debugging.html#ga4ccb9f84b0398f2a1a691822a668287d">jkqtp_assert</a>(<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>, #<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">__FILE__</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">__LINE__</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">__FUNCTION__</a>)</td></tr>
+<tr class="memitem:ga7936d9f251e6ae31b13fba2bfec93432" id="r_ga7936d9f251e6ae31b13fba2bfec93432"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="class_j_k_q_t_p_final_act.html">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__debugging.html#ga7936d9f251e6ae31b13fba2bfec93432">JKQTPASSERT</a>(<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>)&#160;&#160;&#160;{ <a class="el" href="class_j_k_q_t_p_final_act.html">if</a> (!(<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>)) <a class="el" href="class_j_k_q_t_p_final_act.html">throw</a> std::runtime_error(&quot;assertion <a class="el" href="class_j_k_q_t_p_final_act.html">failed</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">expression:</a> &quot;+std::string(#<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>)+&quot;, function: &quot;+std::string(<a class="el" href="class_j_k_q_t_p_final_act.html">__FUNCTION__</a>)+&quot;, file: &quot;+std::string(<a class="el" href="class_j_k_q_t_p_final_act.html">__FILE__</a>)+&quot;:&quot;+std::to_string(<a class="el" href="class_j_k_q_t_p_final_act.html">__LINE__</a>)+&quot;)&quot;); }</td></tr>
 <tr class="memdesc:ga7936d9f251e6ae31b13fba2bfec93432"><td class="mdescLeft">&#160;</td><td class="mdescRight">dynamic assertion, throws an exception with the given <em>message</em>, when the given condition <em>condition</em> evaluates to <code>false</code>  <br /></td></tr>
 <tr class="separator:ga7936d9f251e6ae31b13fba2bfec93432"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4cfb2491eff999bd4c2765a0d9678d60" id="r_ga4cfb2491eff999bd4c2765a0d9678d60"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="class_j_k_q_t_p_final_act.html">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__debugging.html#ga4cfb2491eff999bd4c2765a0d9678d60">JKQTPASSERT_M</a>(<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>,  message)&#160;&#160;&#160;<a class="el" href="group__jkqtptools__debugging.html#ga4ccb9f84b0398f2a1a691822a668287d">jkqtp_assert</a>(<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>, message, #<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">__FILE__</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">__LINE__</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">__FUNCTION__</a>)</td></tr>
+<tr class="memitem:ga4cfb2491eff999bd4c2765a0d9678d60" id="r_ga4cfb2491eff999bd4c2765a0d9678d60"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="class_j_k_q_t_p_final_act.html">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__debugging.html#ga4cfb2491eff999bd4c2765a0d9678d60">JKQTPASSERT_M</a>(<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>,  message)&#160;&#160;&#160;{ <a class="el" href="class_j_k_q_t_p_final_act.html">if</a> (!(<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>)) <a class="el" href="class_j_k_q_t_p_final_act.html">throw</a> std::runtime_error(std::string(message)+&quot; (expression: &quot;+std::string(#<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>)+&quot;, function: &quot;+std::string(<a class="el" href="class_j_k_q_t_p_final_act.html">__FUNCTION__</a>)+&quot;, file: &quot;+std::string(<a class="el" href="class_j_k_q_t_p_final_act.html">__FILE__</a>)+&quot;:&quot;+std::to_string(<a class="el" href="class_j_k_q_t_p_final_act.html">__LINE__</a>)+&quot;)&quot;); }</td></tr>
 <tr class="memdesc:ga4cfb2491eff999bd4c2765a0d9678d60"><td class="mdescLeft">&#160;</td><td class="mdescRight">dynamic assertion, throws an exception with the given <em>message</em>, when the given condition <em>condition</em> evaluates to <code>false</code>  <br /></td></tr>
 <tr class="separator:ga4cfb2491eff999bd4c2765a0d9678d60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:gaace7e75bf4116e9cbf90d8c487012cde" id="r_gaace7e75bf4116e9cbf90d8c487012cde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__debugging.html#gaace7e75bf4116e9cbf90d8c487012cde">jkqtp_assert</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;message)</td></tr>
-<tr class="memdesc:gaace7e75bf4116e9cbf90d8c487012cde"><td class="mdescLeft">&#160;</td><td class="mdescRight">dynamic assertion, throws a <code>std::runtime_error</code> exception if <em>condition</em> is <code>false</code>  <br /></td></tr>
-<tr class="separator:gaace7e75bf4116e9cbf90d8c487012cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4ccb9f84b0398f2a1a691822a668287d" id="r_ga4ccb9f84b0398f2a1a691822a668287d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__debugging.html#ga4ccb9f84b0398f2a1a691822a668287d">jkqtp_assert</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;message, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string <a class="el" href="class_j_k_q_t_p_final_act.html">expression</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">file</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">int</a> line)</td></tr>
-<tr class="memdesc:ga4ccb9f84b0398f2a1a691822a668287d"><td class="mdescLeft">&#160;</td><td class="mdescRight">dynamic assertion, throws a <code>std::runtime_error</code> exception if <em>condition</em> is <code>false</code>  <br /></td></tr>
-<tr class="separator:ga4ccb9f84b0398f2a1a691822a668287d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga552dcb779ce319fb3303cb1d93d894a1" id="r_ga552dcb779ce319fb3303cb1d93d894a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__debugging.html#ga552dcb779ce319fb3303cb1d93d894a1">jkqtp_assert</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;message, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string <a class="el" href="class_j_k_q_t_p_final_act.html">expression</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">file</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">int</a> line, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;function)</td></tr>
-<tr class="memdesc:ga552dcb779ce319fb3303cb1d93d894a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">dynamic assertion, throws a <code>std::runtime_error</code> exception if <em>condition</em> is <code>false</code>  <br /></td></tr>
-<tr class="separator:ga552dcb779ce319fb3303cb1d93d894a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1277618d1f86e84441df576eca388c96" id="r_ga1277618d1f86e84441df576eca388c96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__debugging.html#ga1277618d1f86e84441df576eca388c96">jkqtp_assert</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string <a class="el" href="class_j_k_q_t_p_final_act.html">expression</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">file</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">int</a> line)</td></tr>
-<tr class="memdesc:ga1277618d1f86e84441df576eca388c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">dynamic assertion, throws a <code>std::runtime_error</code> exception if <em>condition</em> is <code>false</code>  <br /></td></tr>
-<tr class="separator:ga1277618d1f86e84441df576eca388c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga299acba0be214f68b0be91fe5f89412b" id="r_ga299acba0be214f68b0be91fe5f89412b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__debugging.html#ga299acba0be214f68b0be91fe5f89412b">jkqtp_assert</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">bool</a> <a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string <a class="el" href="class_j_k_q_t_p_final_act.html">expression</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">file</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">int</a> line, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;function)</td></tr>
-<tr class="memdesc:ga299acba0be214f68b0be91fe5f89412b"><td class="mdescLeft">&#160;</td><td class="mdescRight">dynamic assertion, throws a <code>std::runtime_error</code> exception if <em>condition</em> is <code>false</code>  <br /></td></tr>
-<tr class="separator:ga299acba0be214f68b0be91fe5f89412b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Functions that help during debugging (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. an assert function/macro). </p>
@@ -176,7 +157,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><a class="el" href="class_j_k_q_t_p_final_act.html">condition</a></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__jkqtptools__debugging.html#ga4ccb9f84b0398f2a1a691822a668287d">jkqtp_assert</a>(<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>, #<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">__FILE__</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">__LINE__</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">__FUNCTION__</a>)</td>
+          <td>&#160;&#160;&#160;{ <a class="el" href="class_j_k_q_t_p_final_act.html">if</a> (!(<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>)) <a class="el" href="class_j_k_q_t_p_final_act.html">throw</a> std::runtime_error(&quot;assertion <a class="el" href="class_j_k_q_t_p_final_act.html">failed</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">expression:</a> &quot;+std::string(#<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>)+&quot;, function: &quot;+std::string(<a class="el" href="class_j_k_q_t_p_final_act.html">__FUNCTION__</a>)+&quot;, file: &quot;+std::string(<a class="el" href="class_j_k_q_t_p_final_act.html">__FILE__</a>)+&quot;:&quot;+std::to_string(<a class="el" href="class_j_k_q_t_p_final_act.html">__LINE__</a>)+&quot;)&quot;); }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -206,327 +187,12 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="group__jkqtptools__debugging.html#ga4ccb9f84b0398f2a1a691822a668287d">jkqtp_assert</a>(<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>, message, #<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">__FILE__</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">__LINE__</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">__FUNCTION__</a>)</td>
+          <td></td><td>&#160;&#160;&#160;{ <a class="el" href="class_j_k_q_t_p_final_act.html">if</a> (!(<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>)) <a class="el" href="class_j_k_q_t_p_final_act.html">throw</a> std::runtime_error(std::string(message)+&quot; (expression: &quot;+std::string(#<a class="el" href="class_j_k_q_t_p_final_act.html">condition</a>)+&quot;, function: &quot;+std::string(<a class="el" href="class_j_k_q_t_p_final_act.html">__FUNCTION__</a>)+&quot;, file: &quot;+std::string(<a class="el" href="class_j_k_q_t_p_final_act.html">__FILE__</a>)+&quot;:&quot;+std::to_string(<a class="el" href="class_j_k_q_t_p_final_act.html">__LINE__</a>)+&quot;)&quot;); }</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>dynamic assertion, throws an exception with the given <em>message</em>, when the given condition <em>condition</em> evaluates to <code>false</code> </p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="gaace7e75bf4116e9cbf90d8c487012cde" name="gaace7e75bf4116e9cbf90d8c487012cde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaace7e75bf4116e9cbf90d8c487012cde">&#9670;&#160;</a></span>jkqtp_assert() <span class="overload">[1/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a> jkqtp_assert </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a>&#160;</td>
-          <td class="paramname"><em>condition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;&#160;</td>
-          <td class="paramname"><em>message</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>dynamic assertion, throws a <code>std::runtime_error</code> exception if <em>condition</em> is <code>false</code> </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">condition</td><td>the condition to check </td></tr>
-    <tr><td class="paramname">message</td><td>a user-provided error message</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtptools__debugging.html#ga4cfb2491eff999bd4c2765a0d9678d60" title="dynamic assertion, throws an exception with the given message, when the given condition condition eva...">JKQTPASSERT_M()</a>, <a class="el" href="group__jkqtptools__debugging.html#ga7936d9f251e6ae31b13fba2bfec93432" title="dynamic assertion, throws an exception with the given message, when the given condition condition eva...">JKQTPASSERT()</a> </dd></dl>
-
-</div>
-</div>
-<a id="ga4ccb9f84b0398f2a1a691822a668287d" name="ga4ccb9f84b0398f2a1a691822a668287d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4ccb9f84b0398f2a1a691822a668287d">&#9670;&#160;</a></span>jkqtp_assert() <span class="overload">[2/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a> jkqtp_assert </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a>&#160;</td>
-          <td class="paramname"><em>condition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;&#160;</td>
-          <td class="paramname"><em>message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string&#160;</td>
-          <td class="paramname"><em>expression</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;&#160;</td>
-          <td class="paramname"><em>file</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">int</a>&#160;</td>
-          <td class="paramname"><em>line</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>dynamic assertion, throws a <code>std::runtime_error</code> exception if <em>condition</em> is <code>false</code> </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">condition</td><td>the condition to check </td></tr>
-    <tr><td class="paramname">message</td><td>a user-provided error message </td></tr>
-    <tr><td class="paramname">expression</td><td>the expression (as a string) that was used to calculate <em>condition</em> </td></tr>
-    <tr><td class="paramname">file</td><td>filename where the exception occured </td></tr>
-    <tr><td class="paramname">line</td><td>line in file <em>file</em> where the exception occured</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtptools__debugging.html#ga4cfb2491eff999bd4c2765a0d9678d60" title="dynamic assertion, throws an exception with the given message, when the given condition condition eva...">JKQTPASSERT_M()</a>, <a class="el" href="group__jkqtptools__debugging.html#ga7936d9f251e6ae31b13fba2bfec93432" title="dynamic assertion, throws an exception with the given message, when the given condition condition eva...">JKQTPASSERT()</a> for macros that use this function and automatically stringify the expression and add file and line </dd></dl>
-
-</div>
-</div>
-<a id="ga552dcb779ce319fb3303cb1d93d894a1" name="ga552dcb779ce319fb3303cb1d93d894a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga552dcb779ce319fb3303cb1d93d894a1">&#9670;&#160;</a></span>jkqtp_assert() <span class="overload">[3/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a> jkqtp_assert </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a>&#160;</td>
-          <td class="paramname"><em>condition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;&#160;</td>
-          <td class="paramname"><em>message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string&#160;</td>
-          <td class="paramname"><em>expression</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;&#160;</td>
-          <td class="paramname"><em>file</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">int</a>&#160;</td>
-          <td class="paramname"><em>line</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;&#160;</td>
-          <td class="paramname"><em>function</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>dynamic assertion, throws a <code>std::runtime_error</code> exception if <em>condition</em> is <code>false</code> </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">condition</td><td>the condition to check </td></tr>
-    <tr><td class="paramname">message</td><td>a user-provided error message </td></tr>
-    <tr><td class="paramname">expression</td><td>the expression (as a string) that was used to calculate <em>condition</em> </td></tr>
-    <tr><td class="paramname">file</td><td>filename where the exception occured </td></tr>
-    <tr><td class="paramname">line</td><td>line in file <em>file</em> where the exception occured </td></tr>
-    <tr><td class="paramname">function</td><td>calling function</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtptools__debugging.html#ga4cfb2491eff999bd4c2765a0d9678d60" title="dynamic assertion, throws an exception with the given message, when the given condition condition eva...">JKQTPASSERT_M()</a>, <a class="el" href="group__jkqtptools__debugging.html#ga7936d9f251e6ae31b13fba2bfec93432" title="dynamic assertion, throws an exception with the given message, when the given condition condition eva...">JKQTPASSERT()</a> for macros that use this function and automatically stringify the expression and add file and line </dd></dl>
-
-</div>
-</div>
-<a id="ga1277618d1f86e84441df576eca388c96" name="ga1277618d1f86e84441df576eca388c96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1277618d1f86e84441df576eca388c96">&#9670;&#160;</a></span>jkqtp_assert() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a> jkqtp_assert </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a>&#160;</td>
-          <td class="paramname"><em>condition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string&#160;</td>
-          <td class="paramname"><em>expression</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;&#160;</td>
-          <td class="paramname"><em>file</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">int</a>&#160;</td>
-          <td class="paramname"><em>line</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>dynamic assertion, throws a <code>std::runtime_error</code> exception if <em>condition</em> is <code>false</code> </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">condition</td><td>the condition to check </td></tr>
-    <tr><td class="paramname">expression</td><td>the expression (as a string) that was used to calculate <em>condition</em> </td></tr>
-    <tr><td class="paramname">file</td><td>filename where the exception occured </td></tr>
-    <tr><td class="paramname">line</td><td>line in file <em>file</em> where the exception occured</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtptools__debugging.html#ga4cfb2491eff999bd4c2765a0d9678d60" title="dynamic assertion, throws an exception with the given message, when the given condition condition eva...">JKQTPASSERT_M()</a>, <a class="el" href="group__jkqtptools__debugging.html#ga7936d9f251e6ae31b13fba2bfec93432" title="dynamic assertion, throws an exception with the given message, when the given condition condition eva...">JKQTPASSERT()</a> for macros that use this function and automatically stringify the expression and add file and line </dd></dl>
-
-</div>
-</div>
-<a id="ga299acba0be214f68b0be91fe5f89412b" name="ga299acba0be214f68b0be91fe5f89412b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga299acba0be214f68b0be91fe5f89412b">&#9670;&#160;</a></span>jkqtp_assert() <span class="overload">[5/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">void</a> jkqtp_assert </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">bool</a>&#160;</td>
-          <td class="paramname"><em>condition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string&#160;</td>
-          <td class="paramname"><em>expression</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;&#160;</td>
-          <td class="paramname"><em>file</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">int</a>&#160;</td>
-          <td class="paramname"><em>line</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> std::string &amp;&#160;</td>
-          <td class="paramname"><em>function</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>dynamic assertion, throws a <code>std::runtime_error</code> exception if <em>condition</em> is <code>false</code> </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">condition</td><td>the condition to check </td></tr>
-    <tr><td class="paramname">expression</td><td>the expression (as a string) that was used to calculate <em>condition</em> </td></tr>
-    <tr><td class="paramname">file</td><td>filename where the exception occured </td></tr>
-    <tr><td class="paramname">line</td><td>line in file <em>file</em> where the exception occured </td></tr>
-    <tr><td class="paramname">function</td><td>calling function</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtptools__debugging.html#ga4cfb2491eff999bd4c2765a0d9678d60" title="dynamic assertion, throws an exception with the given message, when the given condition condition eva...">JKQTPASSERT_M()</a>, <a class="el" href="group__jkqtptools__debugging.html#ga7936d9f251e6ae31b13fba2bfec93432" title="dynamic assertion, throws an exception with the given message, when the given condition condition eva...">JKQTPASSERT()</a> for macros that use this function and automatically stringify the expression and add file and line </dd></dl>
 
 </div>
 </div>
@@ -536,7 +202,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 9 2024 21:18:03 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Jan 10 2024 09:37:57 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

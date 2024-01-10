@@ -37,9 +37,10 @@ var group__jkqtptools__math__parser =
       [ "what", "class_j_k_q_t_p_math_parser_1_1jkmp_exception.html#aeb2ee6c47d206c716b73625410a56238", null ],
       [ "errormessage", "class_j_k_q_t_p_math_parser_1_1jkmp_exception.html#aafdd07b16b720c1400d9f46333f6baf1", null ]
     ] ],
-    [ "JKQTPMathParser::jkmpFunctionDescriptor", "group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor", [
-      [ "function", "group__jkqtptools__math__parser.html#a2b4d49d6734bb936aca30c03cd26e808", null ],
-      [ "name", "group__jkqtptools__math__parser.html#a6c9289cfdb89ed3ec6e3e1549eee6f1c", null ]
+    [ "JKQTPMathParser::jkmpFunctionDescriptor", "struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor.html", [
+      [ "jkmpFunctionDescriptor", "struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor.html#a0f7aeb0ba6d33c6e04b7daa9eceb6b1b", null ],
+      [ "function", "struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor.html#a2b4d49d6734bb936aca30c03cd26e808", null ],
+      [ "name", "struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor.html#a6c9289cfdb89ed3ec6e3e1549eee6f1c", null ]
     ] ],
     [ "JKQTPMathParser::jkmpFunctionNode", "class_j_k_q_t_p_math_parser_1_1jkmp_function_node.html", [
       [ "jkmpFunctionNode", "class_j_k_q_t_p_math_parser_1_1jkmp_function_node.html#af501d34d584f8f0d1e4f4e9e224099c6", null ],
@@ -51,6 +52,7 @@ var group__jkqtptools__math__parser =
       [ "n", "class_j_k_q_t_p_math_parser_1_1jkmp_function_node.html#afa64aad4744d9a3e333248f4f4f0ae5f", null ]
     ] ],
     [ "JKQTPMathParser::jkmpNode", "class_j_k_q_t_p_math_parser_1_1jkmp_node.html", [
+      [ "jkmpNode", "class_j_k_q_t_p_math_parser_1_1jkmp_node.html#ac84d8602b4aa2cb03508e97f99fb4aa3", null ],
       [ "~jkmpNode", "class_j_k_q_t_p_math_parser_1_1jkmp_node.html#a88bf875db8f1b7f09c5d84c63129786b", null ],
       [ "evaluate", "class_j_k_q_t_p_math_parser_1_1jkmp_node.html#a9fcc7fe86a5804d7bddf9b8d7a0cd576", null ],
       [ "getParent", "class_j_k_q_t_p_math_parser_1_1jkmp_node.html#a27d246b1d32abeafc7ecfd8805f9e149", null ],
@@ -78,13 +80,14 @@ var group__jkqtptools__math__parser =
       [ "str", "struct_j_k_q_t_p_math_parser_1_1jkmp_result.html#a5f11e295a74cd83eb7b170c1bfa36a32", null ],
       [ "type", "struct_j_k_q_t_p_math_parser_1_1jkmp_result.html#a77733ea1fac8e37c423baa4a0759389e", null ]
     ] ],
-    [ "JKQTPMathParser::jkmpTempVariable", "group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable", [
-      [ "boolean", "group__jkqtptools__math__parser.html#a6fb3f3b7801faa729a1d6c943ad60430", null ],
-      [ "internal", "group__jkqtptools__math__parser.html#a8079b945ca39a79d866001865f3da038", null ],
-      [ "name", "group__jkqtptools__math__parser.html#a5b1ff4fb042a2eb38919ad7c647cc18d", null ],
-      [ "num", "group__jkqtptools__math__parser.html#ab030ceaa586d658eaa3dd6bfe88025c5", null ],
-      [ "str", "group__jkqtptools__math__parser.html#ad7f9b1c36fb6d744671c20f87377e4c2", null ],
-      [ "type", "group__jkqtptools__math__parser.html#aa6ace73bb91eb0252b759c7fc34f194b", null ]
+    [ "JKQTPMathParser::jkmpTempVariable", "struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable.html", [
+      [ "jkmpTempVariable", "struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable.html#ab9a38c810ac23a77785d85aabf30389c", null ],
+      [ "boolean", "struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable.html#a6fb3f3b7801faa729a1d6c943ad60430", null ],
+      [ "internal", "struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable.html#a8079b945ca39a79d866001865f3da038", null ],
+      [ "name", "struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable.html#a5b1ff4fb042a2eb38919ad7c647cc18d", null ],
+      [ "num", "struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable.html#ab030ceaa586d658eaa3dd6bfe88025c5", null ],
+      [ "str", "struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable.html#ad7f9b1c36fb6d744671c20f87377e4c2", null ],
+      [ "type", "struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable.html#aa6ace73bb91eb0252b759c7fc34f194b", null ]
     ] ],
     [ "JKQTPMathParser::jkmpUnaryNode", "class_j_k_q_t_p_math_parser_1_1jkmp_unary_node.html", [
       [ "jkmpUnaryNode", "class_j_k_q_t_p_math_parser_1_1jkmp_unary_node.html#a9e07c38b557e3d78de7a0a779f33bd4e", null ],

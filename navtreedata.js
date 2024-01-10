@@ -27,12 +27,12 @@ var NAVTREE =
   [ "JKQTPlotter", "index.html", [
     [ "JKQTPlotter - A Qt Plotting Library", "index.html", "index" ],
     [ "Contributor Covenant Code of Conduct", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html", [
-      [ "Our Pledge", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2", null ],
-      [ "Our Standards", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3", null ],
-      [ "Our Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4", null ],
-      [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5", null ],
-      [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6", null ],
-      [ "Attribution", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md7", null ]
+      [ "Our Pledge", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md1", null ],
+      [ "Our Standards", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2", null ],
+      [ "Our Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3", null ],
+      [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4", null ],
+      [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5", null ],
+      [ "Attribution", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6", null ]
     ] ],
     [ "Contributing", "md__c_o_n_t_r_i_b_u_t_i_n_g.html", [
       [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8", null ],
@@ -99,14 +99,14 @@ var NAVTREE =
       [ "Example (JKQTPlotter): Draw an Artistic Image with a Parametrized Scatter Graph", "_j_k_q_t_plotter_param_scatter_image.html", null ],
       [ "Example (JKQTPlotter): Plotting Parametric Curves", "_j_k_q_t_plotter_parametric_curves.html", null ],
       [ "Example (JKQTPlotter): Plotting Mathematical Functions as Line Graphs", "_j_k_q_t_plotter_function_plots.html", [
-        [ "Basics", "_j_k_q_t_plotter_function_plots.html#autotoc_md69", null ],
-        [ "Simple C++ inline function", "_j_k_q_t_plotter_function_plots.html#autotoc_md70", null ],
-        [ "Simple C++ inline function with parameters", "_j_k_q_t_plotter_function_plots.html#autotoc_md71", null ],
-        [ "C++ functors as plot functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md72", null ],
-        [ "Static C functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md73", null ],
-        [ "Predefined \"special\" functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md74", null ],
-        [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md75", null ],
-        [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md76", null ]
+        [ "Basics", "_j_k_q_t_plotter_function_plots.html#autotoc_md71", null ],
+        [ "Simple C++ inline function", "_j_k_q_t_plotter_function_plots.html#autotoc_md73", null ],
+        [ "Simple C++ inline function with parameters", "_j_k_q_t_plotter_function_plots.html#autotoc_md74", null ],
+        [ "C++ functors as plot functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md75", null ],
+        [ "Static C functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md76", null ],
+        [ "Predefined \"special\" functions", "_j_k_q_t_plotter_function_plots.html#autotoc_md77", null ],
+        [ "Screenshot", "_j_k_q_t_plotter_function_plots.html#autotoc_md78", null ],
+        [ "Notes", "_j_k_q_t_plotter_function_plots.html#autotoc_md79", null ]
       ] ],
       [ "Example (JKQTPlotter): Plotting Parsed Mathematical Functions as Line Graphs", "_j_k_q_t_plotter_parsed_function_plot.html", [
         [ "Plot Function f(x)", "_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md87", null ],
@@ -132,9 +132,9 @@ var NAVTREE =
       [ "Example (JKQTPlotter): Plotting Geometric Objects", "_j_k_q_t_plotter_geometric_graphs.html", null ],
       [ "Example (JKQTPlotter): Generating Demo-Plots of Geometric Objects for Documentation", "_j_k_q_t_plotter_geometric_graphs_simple.html", null ],
       [ "Example (JKQTPlotter): Plotting Arrows", "_j_k_q_t_plotter_geometric_arrows.html", [
-        [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md77", null ],
-        [ "Classes with support for arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md78", null ],
-        [ "Screenshot", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md79", null ]
+        [ "Different types of arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md69", null ],
+        [ "Classes with support for arrows", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md70", null ],
+        [ "Screenshot", "_j_k_q_t_plotter_geometric_arrows.html#autotoc_md72", null ]
       ] ],
       [ "Example (JKQTPlotter): Plot With Axes through Origin", "_j_k_q_t_plotter_geometric_coordinate_axis0.html", null ],
       [ "Example (JKQTPlotter): Line Graph with Logarithmic y-axis", "_j_k_q_t_plotter_log_axes.html", null ],
@@ -373,18 +373,18 @@ var NAVTREEINDEX =
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#a56408a7d3730777f7c2b9a1569b9263c",
 "class_j_k_q_t_p_impulses_vertical_error_graph.html#a902ac4b308faf4dd202aba44e3787070",
 "class_j_k_q_t_p_math_parser.html#a951068d50ad4eb343ff8b4ea3eca9b1c",
-"class_j_k_q_t_p_plot_element.html#a2959753811bc9a2b7180fbdb938d454c",
-"class_j_k_q_t_p_range_base.html#ae519ed3fcaa3731df0a538feee845c38",
-"class_j_k_q_t_p_x_graph_error_data.html",
-"class_j_k_q_t_p_x_y_y_graph.html",
-"class_j_k_q_t_plotter.html#aa4796b38a87f246bf434bf8a72549309",
-"functions_vars_m.html",
-"group__jkqtplotter__imagelots__tools.html#ga3ee9407f74b2f6434857c9583bd99b2b",
-"group__jkqtplotter__linesymbolgraphs__line.html#gga5e78e9bcb463d22d3fd5d6158a78c8e4a023c2ac7b9889fa17f115d5686f7a90b",
-"group__jkqtptools__drawing.html#ga781e051d47c2ca112dd434a1634edc2b",
-"group__jkqtptools__math__statistics__adaptors.html",
-"struct_j_k_q_t_base_plotter_1_1_plot_margin.html#a65cb695a849191199da4c7509223262e",
-"struct_j_k_q_t_p_base_key_1_1_key_column_description.html#a478a68370c7c5429e670aa057161eb7a"
+"class_j_k_q_t_p_plot_element.html#a27c1c7b84db9c01b2abc524286b79efa",
+"class_j_k_q_t_p_range_base.html#ae32233bbe030b8ad97a48e11ca72b488",
+"class_j_k_q_t_p_x_function_line_graph.html#af0fbb43fc05cf16dea47f7a4077f7f4c",
+"class_j_k_q_t_p_x_y_scatter_graph.html#afe701b9368ffaf220999cada6764d50f",
+"class_j_k_q_t_plotter.html#aa3d1d062d1cd650086d1fdd94a593156",
+"functions_vars_l.html",
+"group__jkqtplotter__imagelots__tools.html#ga7274fd5c480f7d984f751c475385b4d1",
+"group__jkqtplotter__linesymbolgraphs__line.html#gga5e78e9bcb463d22d3fd5d6158a78c8e4a8aa0943d66cf24ac16fd1e712b29482f",
+"group__jkqtptools__drawing.html#gab19cd278b3c4f201304ba56d6051b858",
+"group__jkqtptools__math__statistics__adaptors.html#ga5111d6e22132ad67861ae5637dd7dee3",
+"struct_j_k_q_t_base_plotter_1_1text_size_key.html#a8b552cd60861e0111b6835aae7c44b04",
+"struct_j_k_q_t_p_base_key_1_1_key_size_description.html#a3d19d7ed03a43f56392c7e9e02020a30"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

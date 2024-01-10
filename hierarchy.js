@@ -15,7 +15,7 @@ var hierarchy =
     [ "JKQTMathTextModifiedEnvironmentInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_modified_environment_instruction_node_1_1_instruction_properties.html", null ],
     [ "JKQTMathTextModifiedTextPropsInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_modified_text_props_instruction_node_1_1_instruction_properties.html", null ],
     [ "JKQTMathTextSimpleInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_simple_instruction_node_1_1_instruction_properties.html", null ],
-    [ "JKQTPMathParser::jkmpFunctionDescriptor", "group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor", null ],
+    [ "JKQTPMathParser::jkmpFunctionDescriptor", "struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor.html", null ],
     [ "JKQTPMathParser::jkmpNode", "class_j_k_q_t_p_math_parser_1_1jkmp_node.html", [
       [ "JKQTPMathParser::jkmpBinaryArithmeticNode", "class_j_k_q_t_p_math_parser_1_1jkmp_binary_arithmetic_node.html", null ],
       [ "JKQTPMathParser::jkmpBinaryBoolNode", "class_j_k_q_t_p_math_parser_1_1jkmp_binary_bool_node.html", null ],
@@ -28,7 +28,7 @@ var hierarchy =
       [ "JKQTPMathParser::jkmpVariableNode", "class_j_k_q_t_p_math_parser_1_1jkmp_variable_node.html", null ]
     ] ],
     [ "JKQTPMathParser::jkmpResult", "struct_j_k_q_t_p_math_parser_1_1jkmp_result.html", null ],
-    [ "JKQTPMathParser::jkmpTempVariable", "group__jkqtptools__math__parser.html#struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable", null ],
+    [ "JKQTPMathParser::jkmpTempVariable", "struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable.html", null ],
     [ "JKQTPMathParser::jkmpVariable", "struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html", null ],
     [ "JKQTBasePlotterStyle", "class_j_k_q_t_base_plotter_style.html", null ],
     [ "JKQTGraphsBaseStyle", "class_j_k_q_t_graphs_base_style.html", null ],
@@ -295,7 +295,7 @@ var hierarchy =
     [ "JKQTPXYParametrizedScatterGraph::MappedSymbolFunctor", "struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html", null ],
     [ "JKQTPlotter::MouseDragAction", "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html", null ],
     [ "JKQTPlotter::MouseDragMarker", "struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html", null ],
-    [ "JKQTPParsedFunctionLineGraphBase::ParsedFunctionLineGraphFunctionData", "group__jkqtplotter__functiongraphs.html#struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data", null ],
+    [ "JKQTPParsedFunctionLineGraphBase::ParsedFunctionLineGraphFunctionData", "struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data.html", null ],
     [ "JKQTPEvaluatedFunctionGraphBase::PlotFunctorSpec", "struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html", null ],
     [ "JKQTBasePlotter::PlotMargin", "struct_j_k_q_t_base_plotter_1_1_plot_margin.html", null ],
     [ "QAbstractTableModel", null, [

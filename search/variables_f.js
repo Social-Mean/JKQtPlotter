@@ -14,7 +14,7 @@ var searchData=
   ['parentnode_11',['parentNode',['../class_j_k_q_t_math_text_node.html#a8f1b02c2fbf00ca65c0a5df214f14a6b',1,'JKQTMathTextNode']]],
   ['parentplotstyle_12',['parentPlotStyle',['../class_j_k_q_t_p_plot_element.html#a05f99859e10d874e9a86512cbab9674f',1,'JKQTPPlotElement']]],
   ['parsednode_13',['parsedNode',['../class_j_k_q_t_math_text.html#ae7e86126348905c3b61252f902a35051',1,'JKQTMathText']]],
-  ['parser_14',['parser',['../class_j_k_q_t_p_math_parser_1_1jkmp_node.html#a22c3c650f4b82b484892aafe86c879cc',1,'JKQTPMathParser::jkmpNode::parser'],['../group__jkqtplotter__functiongraphs.html#ae4396b45f169af6efb5295c5074cda5c',1,'JKQTPParsedFunctionLineGraphBase::ParsedFunctionLineGraphFunctionData::parser']]],
+  ['parser_14',['parser',['../class_j_k_q_t_p_math_parser_1_1jkmp_node.html#a22c3c650f4b82b484892aafe86c879cc',1,'JKQTPMathParser::jkmpNode::parser'],['../struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data.html#ae4396b45f169af6efb5295c5074cda5c',1,'JKQTPParsedFunctionLineGraphBase::ParsedFunctionLineGraphFunctionData::parser']]],
   ['parsestring_15',['parseString',['../class_j_k_q_t_math_text_latex_parser.html#af197b0e871689079ee8498a57ec0c4a0',1,'JKQTMathTextLatexParser']]],
   ['parsinginmathtextstyle_16',['parsinginMathTextStyle',['../class_j_k_q_t_math_text_latex_parser.html#ad7ebc9d7ad3b23e45e44be57687755be',1,'JKQTMathTextLatexParser']]],
   ['parsingmathenvironment_17',['parsingMathEnvironment',['../class_j_k_q_t_math_text_latex_parser.html#a796740586e8cc36c5a20cfb6955d7cf7',1,'JKQTMathTextLatexParser']]],

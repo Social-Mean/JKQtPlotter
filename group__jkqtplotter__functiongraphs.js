@@ -245,11 +245,12 @@ var group__jkqtplotter__functiongraphs =
       [ "buildPlotFunctorSpec", "class_j_k_q_t_p_y_parsed_function_line_graph.html#ab03f377912601d993c99971030bef3d2", null ],
       [ "draw", "class_j_k_q_t_p_y_parsed_function_line_graph.html#aee73e3a3a1bc09f77c189b207963ef46", null ]
     ] ],
-    [ "JKQTPParsedFunctionLineGraphBase::ParsedFunctionLineGraphFunctionData", "group__jkqtplotter__functiongraphs.html#struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data", [
-      [ "dependentVariableName", "group__jkqtplotter__functiongraphs.html#aaa6c4ac51900d4cc6ef24dd404122e97", null ],
-      [ "node", "group__jkqtplotter__functiongraphs.html#a60b38e83f11c97234ca3aea39260c482", null ],
-      [ "parser", "group__jkqtplotter__functiongraphs.html#ae4396b45f169af6efb5295c5074cda5c", null ],
-      [ "varcount", "group__jkqtplotter__functiongraphs.html#a8a3ccf0f0fb4c1e6a2f72a4dbe94f24f", null ]
+    [ "JKQTPParsedFunctionLineGraphBase::ParsedFunctionLineGraphFunctionData", "struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data.html", [
+      [ "ParsedFunctionLineGraphFunctionData", "struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data.html#ab3c2eba84e9317aed0df8aaae35a5b8e", null ],
+      [ "dependentVariableName", "struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data.html#aaa6c4ac51900d4cc6ef24dd404122e97", null ],
+      [ "node", "struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data.html#a60b38e83f11c97234ca3aea39260c482", null ],
+      [ "parser", "struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data.html#ae4396b45f169af6efb5295c5074cda5c", null ],
+      [ "varcount", "struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data.html#a8a3ccf0f0fb4c1e6a2f72a4dbe94f24f", null ]
     ] ],
     [ "JKQTPEvaluatedFunctionGraphBase::PlotFunctorSpec", "struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html", [
       [ "PlotFunctorSpec", "struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#a135902dc2513cf2b4e53443ee6f7b01a", null ],
