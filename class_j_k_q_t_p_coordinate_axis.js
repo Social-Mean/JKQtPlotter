@@ -97,6 +97,7 @@ var class_j_k_q_t_p_coordinate_axis =
     [ "getZeroAxisPos", "class_j_k_q_t_p_coordinate_axis.html#aa44118b0114811c893ec2495fdaf2aaf", null ],
     [ "isLinearAxis", "class_j_k_q_t_p_coordinate_axis.html#a12416ec2defcc3445792e35c0f25773d", null ],
     [ "isLogAxis", "class_j_k_q_t_p_coordinate_axis.html#a1b2f88d7d29a273b4fd75e3c5b0d77cb", null ],
+    [ "isSecondaryAxis", "class_j_k_q_t_p_coordinate_axis.html#aea29a2e79cd8ca9e7edab3dfb73e6cee", null ],
     [ "loadCurrentAxisStyle", "class_j_k_q_t_p_coordinate_axis.html#a860ea96786c2c84363e6182429933637", null ],
     [ "loadSettings", "class_j_k_q_t_p_coordinate_axis.html#a676a860657290ee3183b2d0814f4fb8b", null ],
     [ "p2x", "class_j_k_q_t_p_coordinate_axis.html#ad4bb163683de2e637ce196c40f862e40", null ],

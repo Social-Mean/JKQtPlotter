@@ -38,7 +38,7 @@ var searchData=
   ['basic_20usage_20of_20jkqtpdatastore_35',['Tutorial (JKQTPDatastore): Basic Usage of JKQTPDatastore',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html',1,'exampleTutorialProjects']]],
   ['basic_20usage_20of_20jkqtplotter_36',['Basic Usage of JKQTPlotter',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_BASICUSAGE',1,'']]],
   ['basic_20utilities_37',['JKQTCommon: Diverse Basic Utilities',['../group__jkqtptools__jkqtcommon.html',1,'']]],
-  ['basics_38',['basics',['../_j_k_q_t_plotter_function_plots.html#autotoc_md71',1,'Basics'],['../group__jkqtmathtext__renderingmodel.html#jkqtmathtext_renderingmodel_basics',1,'Basics'],['../_j_k_q_t_plotter_eval_curves.html#autotoc_md64',1,'Basics']]],
+  ['basics_38',['basics',['../_j_k_q_t_plotter_function_plots.html#autotoc_md69',1,'Basics'],['../group__jkqtmathtext__renderingmodel.html#jkqtmathtext_renderingmodel_basics',1,'Basics'],['../_j_k_q_t_plotter_eval_curves.html#autotoc_md64',1,'Basics']]],
   ['basis_20for_20jkqtplotter_39',['JKQTBasePlotter as Basis for JKQTPlotter',['../class_j_k_q_t_base_plotter.html#jkqtplotter_usage_baseplotter_in_widget',1,'']]],
   ['beeswarmscatter_40',['BeeSwarmScatter',['../class_j_k_q_t_p_single_column_symbols_graph.html#a3631b52ee32dceb1418183aefe7f7ce4a3f4575e0ea717726636ceb3b856b133f',1,'JKQTPSingleColumnSymbolsGraph']]],
   ['beforeexporting_41',['beforeExporting',['../class_j_k_q_t_base_plotter.html#a405d92984e0a2bb5de7b4fc0c4a3817b',1,'JKQTBasePlotter']]],

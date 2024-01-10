@@ -107,6 +107,7 @@ var class_j_k_q_t_base_plotter =
     [ "getAvailableXAxisRefs", "class_j_k_q_t_base_plotter.html#a6762859ceb92dc6c9c0ea1c4f70946b9", null ],
     [ "getAvailableYAxisRefs", "class_j_k_q_t_base_plotter.html#a7766707345e97babf486fe6fcc78bb70", null ],
     [ "getAxes", "class_j_k_q_t_base_plotter.html#a6ff3c5969e71b313a9186b37bbf32544", null ],
+    [ "getAxes", "class_j_k_q_t_base_plotter.html#a45de35bfd64f65c143ccef5c07b2a347", null ],
     [ "getAxisAspectRatio", "class_j_k_q_t_base_plotter.html#a4210fa15b0dffc820e8d6000c5ffdbc3", null ],
     [ "getBackgroundBrush", "class_j_k_q_t_base_plotter.html#a392a9769672e477ca7c21357af04f95e", null ],
     [ "getBackgroundColor", "class_j_k_q_t_base_plotter.html#ab2b84aae4038b1115ddf80ca02a09501", null ],
