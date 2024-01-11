@@ -82,7 +82,7 @@ var searchData=
   ['jkqtmathtextmodifiedtextpropsinstructionnode_79',['JKQTMathTextModifiedTextPropsInstructionNode',['../class_j_k_q_t_math_text_modified_text_props_instruction_node.html#abae164e6cbd66763439d9420ad373585',1,'JKQTMathTextModifiedTextPropsInstructionNode']]],
   ['jkqtmathtextmultichildnode_80',['JKQTMathTextMultiChildNode',['../class_j_k_q_t_math_text_multi_child_node.html#ad49526ff8fe5a20b705cc3a0924c1d87',1,'JKQTMathTextMultiChildNode']]],
   ['jkqtmathtextnode_81',['jkqtmathtextnode',['../class_j_k_q_t_math_text_node.html#a3ebf243535e42a09dd07a99de9bb4a6f',1,'JKQTMathTextNode::JKQTMathTextNode(const JKQTMathTextNode &amp;)=delete'],['../class_j_k_q_t_math_text_node.html#a29c639b5240e545ddaa0758588f9e9d2',1,'JKQTMathTextNode::JKQTMathTextNode(JKQTMathText *parentMathText)']]],
-  ['jkqtmathtextnodesize_82',['JKQTMathTextNodeSize',['../struct_j_k_q_t_math_text_node_size.html#aaa7f54157287a94f3b6ae58aaf9fea7b',1,'JKQTMathTextNodeSize']]],
+  ['jkqtmathtextnodesize_82',['JKQTMathTextNodeSize',['../struct_j_k_q_t_math_text_node_size.html#ab377b4994bd020764255780d65c4fae0',1,'JKQTMathTextNodeSize']]],
   ['jkqtmathtextnodetree2string_83',['JKQTMathTextNodeTree2String',['../group__jkqtmathtext__items.html#ga85dd69326b461921bfe80f8746585866',1,'jkqtmathtextnodetools.h']]],
   ['jkqtmathtextnondrawingbasenode_84',['JKQTMathTextNonDrawingBaseNode',['../class_j_k_q_t_math_text_non_drawing_base_node.html#a29377c4069017a2ab9bfda86d143eeef',1,'JKQTMathTextNonDrawingBaseNode']]],
   ['jkqtmathtextnoopnode_85',['JKQTMathTextNoopNode',['../class_j_k_q_t_math_text_noop_node.html#a3ac09bd16078d5acf4d1db273411db0b',1,'JKQTMathTextNoopNode']]],
