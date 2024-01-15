@@ -29,7 +29,7 @@ var searchData=
   ['the_20adaptive_20plotting_20algorithm_26',['Properties of the Adaptive Plotting Algorithm',['../_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md90',1,'']]],
   ['the_20default_20style_27',['Altering the Default Style',['../_j_k_q_t_plotter_styling.html#autotoc_md92',1,'']]],
   ['the_20example_20gui_28',['Main Program of the Example (GUI)',['../_j_k_q_t_plotter_image_plot_user_palette.html#autotoc_md82',1,'']]],
-  ['the_20full_20program_29',['the full program',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md37',1,'Screenshot of the full Program'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md54',1,'Screenshot of the full Program'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md56',1,'Screenshot of the full Program'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md63',1,'Screenshot of the full Program']]],
+  ['the_20full_20program_29',['the full program',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md37',1,'Screenshot of the full Program'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md52',1,'Screenshot of the full Program'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md56',1,'Screenshot of the full Program'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md63',1,'Screenshot of the full Program']]],
   ['the_20graph_30',['Appearance &amp; Styling of the Graph',['../class_j_k_q_t_base_plotter.html#jkqtbaseplotter_appearance_and_style',1,'']]],
   ['the_20jkqtpdatastore_31',['the jkqtpdatastore',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md18',1,'Copy Data from a C-array into a Column of the JKQTPDatastore'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md17',1,'Copy Data from a Vector into a column of the JKQTPDatastore'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md20',1,'Reference External Data in a column of the JKQTPDatastore']]],
   ['the_20jkqtpdatastore_20iterators_32',['Special Properties of the JKQTPDatastore-Iterators',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md41',1,'']]],
@@ -176,7 +176,7 @@ var searchData=
   ['types_173',['Types',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3',1,'JKQTMathTextWhitespaceNode']]],
   ['types_20and_20functions_174',['Library-internal Types and Functions',['../group__jkqtmathtext__interaltools.html',1,'']]],
   ['types_20for_20jkqtmathtext_175',['Tool Functions and Types for JKQTMathText',['../group__jkqtmathtext__tools.html',1,'']]],
-  ['types_20of_20arrows_176',['Different types of arrows',['../_j_k_q_t_plotter_geometric_arrows.html#autotoc_md69',1,'']]],
+  ['types_20of_20arrows_176',['Different types of arrows',['../_j_k_q_t_plotter_geometric_arrows.html#autotoc_md77',1,'']]],
   ['types_20of_20barcharts_177',['Different Types of Barcharts',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md126',1,'']]],
   ['types_20of_20errorindicators_178',['Example (JKQTPlotter): Different Types of Errorindicators',['../_j_k_q_t_plotter_error_bar_styles.html',1,'exampleTutorialProjects']]]
 ];
