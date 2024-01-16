@@ -116,39 +116,8 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_simple_test.html','')
   <div class="headertitle"><div class="title">Example (JKQTPlotter): Very simple line-graph</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This project (see <code>./examples/simpletest/</code>) simply creates a <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> widget (as a new window) and adds a single line-graph (a sine-wave). Data is initialized from two QVector&lt;double&gt; objects. The QMake project looks like this (see <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/simpletest/jkqtplotter_simpletest.pro"><code>jkqtplotter_simpletest.pro</code></a>: </p><div class="fragment"><div class="line"># source code for this simple demo</div>
-<div class="line">SOURCES = jkqtplotter_simpletest.cpp </div>
-<div class="line"> </div>
-<div class="line"># configure Qt</div>
-<div class="line">CONFIG += qt</div>
-<div class="line">QT += core gui xml svg</div>
-<div class="line">greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport</div>
-<div class="line"> </div>
-<div class="line"># output executable name</div>
-<div class="line">TARGET = jkqtplotter_simpletest</div>
-<div class="line"> </div>
-<div class="line"># include JKQTPlotter source headers and link against library</div>
-<div class="line">DEPENDPATH += ../../lib  ../../qmake/staticlib/jkqtplotterlib</div>
-<div class="line">INCLUDEPATH += ../../lib</div>
-<div class="line">CONFIG (debug, debug|release) {</div>
-<div class="line">    LIBS += -L../../qmake/staticlib/jkqtplotterlib/debug -ljkqtplotterlib_debug</div>
-<div class="line">} else {</div>
-<div class="line">    LIBS += -L../../qmake/staticlib/jkqtplotterlib/release -ljkqtplotterlib</div>
-<div class="line">}</div>
-</div><!-- fragment --><p>Alternatively to linking agains a <code>libjkqtplotter</code>, you can also directy add the <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> sources to the project: </p><div class="fragment"><div class="line"># source code for this simple demo</div>
-<div class="line">SOURCES = jkqtplotter_simpletest.cpp </div>
-<div class="line"> </div>
-<div class="line"># configure Qt</div>
-<div class="line">CONFIG += qt</div>
-<div class="line">QT += core gui svg</div>
-<div class="line">greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport</div>
-<div class="line"> </div>
-<div class="line"># output executable name</div>
-<div class="line">TARGET = jkqtplotter_simpletest</div>
-<div class="line"> </div>
-<div class="line"># include JKQTPlotter source code</div>
-<div class="line">include(../../lib/jkqtplotter.pri)</div>
-</div><!-- fragment --><p> The source code of the main application is (see <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/simpletest/jkqtplotter_simpletest.cpp"><code>jkqtplotter_simpletest.cpp</code></a>: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;QApplication&gt;</span></div>
+<div class="textblock"><p>This project (see <code>./examples/simpletest/</code>) simply creates a <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> widget (as a new window) and adds a single line-graph (a sine-wave). Data is initialized from two QVector&lt;double&gt; objects.</p>
+<p>The source code of the main application is (see <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/simpletest/jkqtplotter_simpletest.cpp"><code>jkqtplotter_simpletest.cpp</code></a>: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;QApplication&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;jkqtplotter/jkqtplotter.h&quot;</span></div>
 <div class="line"> </div>
 <div class="line"> </div>
@@ -212,7 +181,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_simple_test.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Mon Jan 15 2024 14:08:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Jan 16 2024 12:09:37 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

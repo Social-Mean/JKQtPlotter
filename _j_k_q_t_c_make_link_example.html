@@ -118,60 +118,65 @@ $(document).ready(function(){initNavTree('_j_k_q_t_c_make_link_example.html','')
 <div class="contents">
 <div class="textblock"><p>This project (see <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/cmake_link_example"><code>cmake_link_example</code></a> demonstrates how to link against <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> using CMake. See <a href="http://jkriege2.github.io/JKQtPlotter/page_buildinstructions.html">http://jkriege2.github.io/JKQtPlotter/page_buildinstructions.html</a> for details on how to build <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> with CMake</p>
 <p>This example uses very simple code, which simply displays a plotter and shows some data. The important part of this example is the <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">´CMakeLists.txt</a>`-file: </p><div class="fragment"><div class="line"># set minimum required CMake-Version</div>
-<div class="line">cmake_minimum_required(VERSION 3.20)</div>
+<div class="line">cmake_minimum_required(VERSION 3.23)</div>
 <div class="line"> </div>
 <div class="line"># set Project name</div>
-<div class="line">set(EXAMPLE_NAME simpletest)</div>
-<div class="line">set(EXENAME jkqtptest_${EXAMPLE_NAME})</div>
-<div class="line">project(${EXAMPLE_NAME} LANGUAGES CXX)</div>
+<div class="line">project(simpletest_cmake LANGUAGES CXX)</div>
 <div class="line"> </div>
 <div class="line"># some basic configurations</div>
 <div class="line">set(CMAKE_AUTOMOC ON)</div>
 <div class="line">set(CMAKE_INCLUDE_CURRENT_DIR ON)</div>
-<div class="line">set(CMAKE_CXX_STANDARD 11)    # for Qt5</div>
-<div class="line">#set(CMAKE_CXX_STANDARD 17)   # for QT6</div>
-<div class="line">#set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)</div>
 <div class="line"> </div>
 <div class="line"># Configure project for usage of Qt5/Qt6</div>
 <div class="line">find_package(QT NAMES Qt6 Qt5 COMPONENTS Core Gui Widgets PrintSupport Svg Xml OpenGl REQUIRED)</div>
 <div class="line">find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Gui Widgets PrintSupport Svg Xml OpenGL REQUIRED)</div>
 <div class="line"> </div>
+<div class="line"> </div>
 <div class="line"># include JKQTPlotter</div>
-<div class="line">find_package(JKQTCommonLib REQUIRED)</div>
-<div class="line">find_package(JKQTMathTextLib REQUIRED)</div>
-<div class="line">find_package(JKQTPlotterLib REQUIRED)</div>
+<div class="line">find_package(JKQTPlotter${QT_VERSION_MAJOR} REQUIRED)</div>
 <div class="line"> </div>
 <div class="line"># For Visual Studio, we need to set some additional compiler options</div>
 <div class="line">if(MSVC)</div>
-<div class="line">  add_compile_options(/EHsc)</div>
-<div class="line">  # To enable M_PI, M_E,...</div>
-<div class="line">  add_definitions(/D_USE_MATH_DEFINES)</div>
-<div class="line">  # To Prevent Errors with min() and max()</div>
-<div class="line">  add_definitions(/DNOMINMAX)</div>
-<div class="line">  # To fix error: C2338: va_start argument must not</div>
-<div class="line">  # have reference type and must not be parenthesized</div>
-<div class="line">  add_definitions(/D_CRT_NO_VA_START_VALIDATION)</div>
+<div class="line">    add_compile_options(/EHsc)</div>
+<div class="line">    # To enable M_PI, M_E,...</div>
+<div class="line">    add_definitions(/D_USE_MATH_DEFINES)</div>
+<div class="line">    # To Prevent Errors with min() and max()</div>
+<div class="line">    add_definitions(/DNOMINMAX)</div>
+<div class="line">    # To fix error: C2338: va_start argument must not</div>
+<div class="line">    # have reference type and must not be parenthesized</div>
+<div class="line">    add_definitions(/D_CRT_NO_VA_START_VALIDATION)</div>
 <div class="line">endif()</div>
 <div class="line"> </div>
 <div class="line"># add the example executable </div>
-<div class="line">add_executable(${EXENAME} WIN32 simpletest.cpp)</div>
-<div class="line"># ... link against Qt5 and JKQTPlotterLib</div>
+<div class="line">add_executable(${PROJECT_NAME} WIN32 simpletest.cpp)</div>
+<div class="line"># ... link against Qt5/6 and JKQTPlotterLib</div>
 <div class="line">#    (you could use JKQTPlotterSharedLib if you don&#39;t want to link againast the </div>
 <div class="line">#     static version, but against the shared/DLL version).</div>
-<div class="line">target_link_libraries(${EXENAME} Qt5::Core Qt5::Widgets Qt5::Gui Qt5::PrintSupport Qt5::Svg Qt5::Xml JKQTPlotterLib)</div>
+<div class="line">target_link_libraries(${PROJECT_NAME} Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Gui Qt${QT_VERSION_MAJOR}::PrintSupport Qt${QT_VERSION_MAJOR}::Svg Qt${QT_VERSION_MAJOR}::Xml)</div>
+<div class="line"># ... link against JKQTPlotter: As the Targets contain the Qt-Version-Number in their names, we can</div>
+<div class="line">#     link against &#39;JKQTPlotter${QT_VERSION_MAJOR}::JKQTPlotter${QT_VERSION_MAJOR}&#39; and it works</div>
+<div class="line">#     for Qt5 AND Qt6 ...</div>
+<div class="line">#     if you have a speific Qt-Version, you can also write e.g. &#39;JKQTPlotter6::JKQTPlotter6&#39;</div>
+<div class="line">target_link_libraries(${PROJECT_NAME} JKQTPlotter${QT_VERSION_MAJOR}::JKQTPlotter${QT_VERSION_MAJOR})</div>
+<div class="line"> </div>
 <div class="line"> </div>
 <div class="line"># Installation</div>
-<div class="line">install(TARGETS ${EXENAME} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})</div>
+<div class="line">install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})</div>
+</div><!-- fragment --><p>The important steps here are </p><div class="fragment"><div class="line"># find JKQTPlotter</div>
+<div class="line">find_package(JKQTPlotter${QT_VERSION_MAJOR} REQUIRED)</div>
 <div class="line"> </div>
-<div class="line">#Installation of Qt DLLs on Windows</div>
-<div class="line">include(${CMAKE_CURRENT_SOURCE_DIR}/../../cmake/jkqtplotter_deployqt.cmake)</div>
-<div class="line">jkqtplotter_deployqt(${EXENAME})</div>
+<div class="line"># ...</div>
+<div class="line"> </div>
+<div class="line"># link against JKQtPlotter:</div>
+<div class="line">target_link_libraries(${EXENAME} JKQTPlotter${QT_VERSION_MAJOR}::JKQTPlotter${QT_VERSION_MAJOR})</div>
+</div><!-- fragment --><p>We are using <code>${QT_VERSION_MAJOR}</code> here, as this file is supposed to work with both Qt5 AND Qt6. If you only use say Qt6, you can also write: </p><div class="fragment"><div class="line">find_package(JKQTPlotter6 REQUIRED)</div>
+<div class="line">target_link_libraries(${EXENAME} JKQTPlotter6::JKQTPlotter6)</div>
 </div><!-- fragment --><p>To build this example, you first need to make a subdirectory <code>build</code> and then call CMake form that subdirectory: </p><div class="fragment"><div class="line">$ mkdir build</div>
 <div class="line">$ cd build</div>
-<div class="line">$ cmake .. -G &quot;&lt;GENERATOR&gt;&quot; &quot;-DCMAKE_PREFIX_PATH=&lt;path_to_your_qt_sources&gt; -DCMAKE_MODULE_PATH=&lt;path_to_lib/cmake_dir_of_JKQTPLOTTER&gt;&quot;</div>
+<div class="line">$ cmake .. -G &quot;&lt;GENERATOR&gt;&quot; &quot;-DCMAKE_PREFIX_PATH=&lt;path_to_your_qt_sources&gt;;&lt;path_to_JKQTPlotter_installdir&gt;&quot;</div>
 </div><!-- fragment --><p> The you can use the generated makefiles (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. load them in an editor, or build them jsing <code>make</code>). In the last line above, you need to specify two directories:</p><ul>
 <li><code>&lt;path_to_your_qt_sources&gt;</code> points to you Qt installation</li>
-<li><code>&lt;path_to_lib/cmake_dir_of_JKQTPLOTTER&gt;</code> points to the directory containing the <code><a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">XYZ.cmake</a></code>-files from the <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> build. Typically this is <code>&lt;JKQTPLOTTER_INSTALL_DIR&gt;/lib/cmake</code>, where <code>&lt;JKQTPLOTTER_INSTALL_DIR&gt;</code> is the directory into which you installed <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>. </li>
+<li><code>&lt;path_to_JKQTPlotter_installdir&gt;</code> points to the directory containing the <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> build. Typically this is will conatin a subdirectory<code>&lt;JKQTPLOTTER_INSTALL_DIR&gt;/lib/cmake/JKQtPlottr6</code> with all necessary CMake-scripts. Here <code>&lt;JKQTPLOTTER_INSTALL_DIR&gt;</code> is the directory into which you installed <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>. </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
@@ -181,7 +186,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_c_make_link_example.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Mon Jan 15 2024 14:08:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Jan 16 2024 12:09:37 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

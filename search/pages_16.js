@@ -8,7 +8,7 @@ var searchData=
   ['user_20interface_20designer_20ui_20file_5',['Tutorial (JKQTPlotter): Using a JKQTPlotter inside a Qt User Interface Designer (UI) File',['../_j_k_q_t_plotter_qt_creator.html',1,'exampleTutorialProjects']]],
   ['using_20a_20jkqtplotter_20inside_20a_20qt_20user_20interface_20designer_20ui_20file_6',['Tutorial (JKQTPlotter): Using a JKQTPlotter inside a Qt User Interface Designer (UI) File',['../_j_k_q_t_plotter_qt_creator.html',1,'exampleTutorialProjects']]],
   ['using_20cmake_7',['Build using CMake',['../page_buildinstructions__c_m_a_k_e.html',1,'page_buildinstructions']]],
-  ['using_20qmake_8',['Build using QMake',['../page_buildinstructions__q_m_a_k_e.html',1,'page_buildinstructions']]],
+  ['using_20qmake_8',['DEPRECATED: Build using QMake',['../page_buildinstructions__q_m_a_k_e.html',1,'page_buildinstructions']]],
   ['utility_20jkqtmathtext_5frender_9',['Tool (JKQTMathText): Command-Line Utility jkqtmathtext_render',['../_j_k_q_t_math_text_render_cmd_line_tool.html',1,'exampleTutorialProjects']]],
   ['utility_20jkqtplotter_5fdoc_5fimagegenerator_10',['Tool (JKQTMathText): Command-Line Utility jkqtplotter_doc_imagegenerator',['../_j_k_q_t_plotter_doc_image_render_cmd_line_tool.html',1,'exampleTutorialProjects']]]
 ];

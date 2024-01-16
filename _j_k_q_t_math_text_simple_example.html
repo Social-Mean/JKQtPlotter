@@ -117,20 +117,8 @@ $(document).ready(function(){initNavTree('_j_k_q_t_math_text_simple_example.html
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> is a hand-written LaTeX-renderer for Qt (implemented in native C++, using Qt). It supports a large set of standard LaTeX markup and can render it to a QPainter.</p>
-<p>This project (see <code>./examples/jkqtmathtext_simpletest/</code>) simply creates a QLabel (as a new window) that displays a rendered LaTeX equation (here the time-dependent Schrödinger equation). The QMake project looks like this (see <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/jkqtmathtext_simpletest/jkqtmathtext_simpletest.pro"><code>jkqtmathtext_simpletest.pro</code></a>: </p><div class="fragment"><div class="line"># include JKQTMathText source-code, including the open-source XITS fonts</div>
-<div class="line">include(../../lib/jkqtmathtext_with_xits.pri)</div>
-<div class="line">SOURCES += jkqtmathtext_simpletest.cpp</div>
-<div class="line"> </div>
-<div class="line"># if you don&#39;t want to use the XITS fonts, use this line (and uncomment the </div>
-<div class="line"># last two line!):</div>
-<div class="line">#include(../../lib/jkqtmathtext.pri)</div>
-<div class="line"> </div>
-<div class="line">CONFIG += qt</div>
-<div class="line">QT += core gui</div>
-<div class="line">greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport</div>
-<div class="line"> </div>
-<div class="line">TARGET = jkqtmathtext_simpletest</div>
-</div><!-- fragment --><p> And the source code of the main application is (see <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/jkqtmathtext_simpletest/jkqtmathtext_simpletest.cpp"><code>jkqtmathtext_simpletest.cpp</code></a>: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;QApplication&gt;</span></div>
+<p>This project (see <code>./examples/jkqtmathtext_simpletest/</code>) simply creates a QLabel (as a new window) that displays a rendered LaTeX equation (here the time-dependent Schrödinger equation).</p>
+<p>The source code of the main application is (see <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/jkqtmathtext_simpletest/jkqtmathtext_simpletest.cpp"><code>jkqtmathtext_simpletest.cpp</code></a>: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;QApplication&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;QLabel&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;QPixmap&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;jkqtmathtext/jkqtmathtextlabel.h&quot;</span></div>
@@ -187,7 +175,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_math_text_simple_example.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Mon Jan 15 2024 14:08:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Jan 16 2024 12:09:37 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

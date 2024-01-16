@@ -11,5 +11,5 @@ var searchData=
   ['boxplots_8',['boxplots',['../_j_k_q_t_plotter_boxplots_graphs.html',1,'Example (JKQTPlotter): Boxplots'],['../_j_k_q_t_plotter_boxplot_styling.html',1,'Example (JKQTPlotter): Styling different aspects of boxplots']]],
   ['build_20instructions_9',['Build Instructions',['../page_buildinstructions.html',1,'']]],
   ['build_20using_20cmake_10',['Build using CMake',['../page_buildinstructions__c_m_a_k_e.html',1,'page_buildinstructions']]],
-  ['build_20using_20qmake_11',['Build using QMake',['../page_buildinstructions__q_m_a_k_e.html',1,'page_buildinstructions']]]
+  ['build_20using_20qmake_11',['DEPRECATED: Build using QMake',['../page_buildinstructions__q_m_a_k_e.html',1,'page_buildinstructions']]]
 ];
