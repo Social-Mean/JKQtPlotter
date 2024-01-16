@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['weighted_20linear_20regression_0',['Weighted Linear Regression',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md44',1,'']]],
+  ['weighted_20linear_20regression_0',['Weighted Linear Regression',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md53',1,'']]],
   ['what_1',['what',['../class_j_k_q_t_p_math_parser_1_1jkmp_exception.html#aeb2ee6c47d206c716b73625410a56238',1,'JKQTPMathParser::jkmpException']]],
   ['what_20s_20new_20release_20notes_20versions_2',['What&apos;s New (Release Notes/Versions)',['../page_whatsnew.html',1,'']]],
   ['wheel_20event_20occurs_3',['Actions When a Mouse Wheel Event Occurs',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USERMOUSEINTERACTION_MOUSEWHEEL',1,'']]],
@@ -43,10 +43,10 @@ var searchData=
   ['with_20live_20data_20speed_20test_40',['Example (JKQTPlotter): Simple line-graph with live-data (speed test)',['../_j_k_q_t_plotter_speed_test.html',1,'exampleTutorialProjects']]],
   ['with_20logarithmic_20y_20axis_41',['Example (JKQTPlotter): Line Graph with Logarithmic y-axis',['../_j_k_q_t_plotter_log_axes.html',1,'exampleTutorialProjects']]],
   ['with_20modifier_20datat_42',['Example (JKQTPlotter): Simple math image plot with modifier datat',['../_j_k_q_t_plotter_image_plot_modifier.html',1,'exampleTutorialProjects']]],
-  ['with_20outliers_43',['Boxplots with Outliers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md52',1,'']]],
-  ['with_20parameters_44',['with parameters',['../_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md88',1,'Plotting with parameters'],['../_j_k_q_t_plotter_eval_curves.html#autotoc_md66',1,'Simple C++ inline function with Parameters'],['../_j_k_q_t_plotter_function_plots.html#autotoc_md74',1,'Simple C++ inline function with parameters']]],
+  ['with_20outliers_43',['Boxplots with Outliers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md46',1,'']]],
+  ['with_20parameters_44',['with parameters',['../_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md88',1,'Plotting with parameters'],['../_j_k_q_t_plotter_eval_curves.html#autotoc_md66',1,'Simple C++ inline function with Parameters'],['../_j_k_q_t_plotter_function_plots.html#autotoc_md71',1,'Simple C++ inline function with parameters']]],
   ['with_20parametrized_20symbols_20colors_45',['Example (JKQTPlotter): Scatter Graph with Parametrized Symbols/Colors',['../_j_k_q_t_plotter_param_scatter.html',1,'exampleTutorialProjects']]],
-  ['with_20support_20for_20arrows_46',['Classes with support for arrows',['../_j_k_q_t_plotter_geometric_arrows.html#autotoc_md70',1,'']]],
+  ['with_20support_20for_20arrows_46',['Classes with support for arrows',['../_j_k_q_t_plotter_geometric_arrows.html#autotoc_md78',1,'']]],
   ['with_20the_20mouse_47',['Zooming with the Mouse',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md105',1,'']]],
   ['with_20the_20statistics_20library_48',['Tutorial (JKQTPDatastore): Regression Analysis (with the Statistics Library)',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html',1,'exampleTutorialProjects']]],
   ['with_20transfer_20of_20ownership_49',['Referencing with Transfer of Ownership',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md22',1,'']]],
