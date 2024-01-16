@@ -11,7 +11,7 @@ var searchData=
   ['generating_20a_20test_20dataset_8',['Generating a test Dataset',['../_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md116',1,'']]],
   ['generating_20columns_20preinitialized_20columns_9',['Generating Columns Preinitialized Columns',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md25',1,'']]],
   ['generating_20demo_20plots_20of_20geometric_20objects_20for_20documentation_10',['Example (JKQTPlotter): Generating Demo-Plots of Geometric Objects for Documentation',['../_j_k_q_t_plotter_geometric_graphs_simple.html',1,'exampleTutorialProjects']]],
-  ['generating_20different_20sets_20of_20random_20numbers_11',['generating different sets of random numbers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48',1,'Generating different sets of random numbers'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md59',1,'Generating different sets of random numbers']]],
+  ['generating_20different_20sets_20of_20random_20numbers_11',['generating different sets of random numbers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48',1,'Generating different sets of random numbers'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md57',1,'Generating different sets of random numbers']]],
   ['generating_20non_20initialized_20columns_20and_20filling_20them_12',['Generating  Non-Initialized Columns and Filling Them',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md24',1,'']]],
   ['generation_13',['Special QIcon generation',['../group__jkqtptools__icons.html',1,'']]],
   ['generation_20deletion_14',['Column Generation/Deletion',['../class_j_k_q_t_p_datastore.html#jkqtpdatastore_column_management_generation',1,'']]],

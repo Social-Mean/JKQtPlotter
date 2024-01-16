@@ -94,7 +94,7 @@ var searchData=
   ['map_20into_20a_20jkqtpdatastore_91',['Copy Data from a Map into a JKQTPDatastore',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md19',1,'']]],
   ['mappedsymbolfunctor_92',['mappedsymbolfunctor',['../struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html',1,'JKQTPXYParametrizedScatterGraph::MappedSymbolFunctor'],['../struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#adb2121af0bceda0abbab68d6b5f04911',1,'JKQTPXYParametrizedScatterGraph::MappedSymbolFunctor::MappedSymbolFunctor(const QMap&lt; double, JKQTPGraphSymbols &gt; &amp;mapping_, JKQTPXYParametrizedScatterGraph *graph)']]],
   ['mapping_93',['mapping',['../struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html#af24f3414bcd5a87c676e36924d59e3e0',1,'JKQTPXYParametrizedScatterGraph::MappedSymbolFunctor']]],
-  ['marginal_20statistics_94',['Marginal Statistics',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md60',1,'']]],
+  ['marginal_20statistics_94',['Marginal Statistics',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md58',1,'']]],
   ['markup_95',['LaTeX Markup',['../group__jkqtmathtext__general__latex.html',1,'']]],
   ['markup_20languages_96',['Supported Markup Languages',['../group__jkqtmathtext__general__languages.html',1,'']]],
   ['markup_20parser_20classes_97',['Math Markup Parser Classes',['../group__jkqtmathtext__parser.html',1,'']]],
