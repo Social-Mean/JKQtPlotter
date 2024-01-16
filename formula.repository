@@ -2,12 +2,12 @@
 \_form#1=33x18:$ f_x(t) $
 \_form#2=33x18:$ f_y(t) $
 \_form#3=102x18:$ t\in\left[t_\text{min}..t_\text{max}\right] $
-\_form#4=310x39:\[ \Delta t=\frac{N_{\mbox{now}}-N_{\mbox{start}}}{\mbox{\texttt{QueryPerformanceFrequency()}}}\cdot 10^{6} \]
-\_form#5=31x18:$ [a, b] $
-\_form#6=265x23:\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]
-\_form#7=96x18:$ [x,y]=f_{xy}(t) $
-\_form#8=29x15:$ t_\text{min} $
-\_form#9=31x15:$ t_\text{max} $
+\_form#4=31x18:$ [a, b] $
+\_form#5=265x23:\[ \mbox{minSamples} \cdot 2^{\mbox{maxRefinementDegree}} \]
+\_form#6=96x18:$ [x,y]=f_{xy}(t) $
+\_form#7=29x15:$ t_\text{min} $
+\_form#8=31x15:$ t_\text{max} $
+\_form#9=310x39:\[ \Delta t=\frac{N_{\mbox{now}}-N_{\mbox{start}}}{\mbox{\texttt{QueryPerformanceFrequency()}}}\cdot 10^{6} \]
 \_form#10=99x11:$ \pi=3.14159... $
 \_form#11=156x18:$ \sqrt{2\pi}=2.50662827463 $
 \_form#12=254x18:$ \mbox{ln}(10)=2.30258509299404568402... $
@@ -125,13 +125,13 @@
 \_form#124=193x47:\[ h = \left(\frac{4\hat{\sigma}^5}{3n}\right)^{\frac{1}{5}} \approx 1.06 \hat{\sigma} n^{-1/5} \]
 \_form#125=322x49:\[ \tilde{f}(t):=\frac{1}{N\cdot\text{bandwidth}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{t-x_i}{\text{bandwidth}}\right) \]
 \_form#126=567x49:\[ \tilde{f}(x,y):=\frac{1}{N\cdot\sqrt{\text{bandwidthx}}\cdot\sqrt{\text{bandwidthy}}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{x-x_i}{\text{bandwidthx}},\frac{y-y_i}{\text{bandwidthy}}\right) \]
-\_form#127=109x18:$ f(x)=a+b\cdot x $
-\_form#128=281x36:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i\left(y_i-(a+b\cdot x_i)\right)^2 \]
-\_form#129=8x8:$ a $
-\_form#130=7x13:$ b $
-\_form#131=88x16:\[ a=\overline{y}-b\cdot\overline{x} \]
-\_form#132=154x41:\[ b=\frac{\sum x_iy_i-N\cdot\overline{x}\cdot\overline{y}}{\sum x_i^2-N\cdot(\overline{x})^2} \]
-\_form#133=180x20:\[ h =  \hat{\sigma} n^{-1/(d+4)},\ \ \ \ \ d=2 \]
+\_form#127=180x20:\[ h =  \hat{\sigma} n^{-1/(d+4)},\ \ \ \ \ d=2 \]
+\_form#128=109x18:$ f(x)=a+b\cdot x $
+\_form#129=281x36:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i\left(y_i-(a+b\cdot x_i)\right)^2 \]
+\_form#130=8x8:$ a $
+\_form#131=7x13:$ b $
+\_form#132=88x16:\[ a=\overline{y}-b\cdot\overline{x} \]
+\_form#133=154x41:\[ b=\frac{\sum x_iy_i-N\cdot\overline{x}\cdot\overline{y}}{\sum x_i^2-N\cdot(\overline{x})^2} \]
 \_form#134=310x36:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_iw_i^2\cdot\left(y_i-(a+b\cdot x_i)\right)^2 \]
 \_form#135=20x11:$ w_1 $
 \_form#136=24x11:$ w_N $
@@ -205,8 +205,8 @@
 \_form#204=234x31:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
 \_form#205=83x18:$ [x,y]=f(t) $
 \_form#206=101x18:$ t \in \left[t_\text{min}, t_\text{max}\right] $
-\_form#207=179x18:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
-\_form#208=98x18:$ [x,y]=f(t, \vec{p}) $
+\_form#207=98x18:$ [x,y]=f(t, \vec{p}) $
+\_form#208=179x18:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
 \_form#209=33x18:$ [x,y] $
 \_form#210=190x18:$ [x,y]=f(t), t \in \left[t_\text{min}, t_\text{max}\right] $
 \_form#211=36x18:$ (x,y) $

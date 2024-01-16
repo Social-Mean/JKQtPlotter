@@ -62,7 +62,7 @@ var searchData=
   ['usepalettecolors_59',['usePaletteColors',['../class_j_k_q_t_plotter_style.html#af10ea40b87319c9e53217b3ce4d22840',1,'JKQTPlotterStyle']]],
   ['user_20defined_20context_20menu_20of_20jkqtplotter_60',['Special (User-Defined) Context Menu of JKQTPlotter',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_SPECIALCONTEXTMENU',1,'']]],
   ['user_20defined_20parsed_20function_61',['Plotting a user-defined (parsed) function',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md127',1,'']]],
-  ['user_20interactions_62',['Available User-Interactions',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md105',1,'']]],
+  ['user_20interactions_62',['Available User-Interactions',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md100',1,'']]],
   ['user_20interactions_20gui_20features_63',['User-Interactions/GUI Features',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USERINTERACTION',1,'']]],
   ['user_20interactions_20in_20jkqtplotter_64',['Tutorial (JKQTPlotter): User-Interactions in JKQtPlotter',['../_j_k_q_t_plotter_user_interaction.html',1,'exampleTutorialProjects']]],
   ['user_20interface_20designer_20ui_20file_65',['Tutorial (JKQTPlotter): Using a JKQTPlotter inside a Qt User Interface Designer (UI) File',['../_j_k_q_t_plotter_qt_creator.html',1,'exampleTutorialProjects']]],
