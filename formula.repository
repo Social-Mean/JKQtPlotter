@@ -52,57 +52,57 @@
 \_form#51=112x49:\[ \overline{X}=\frac{1}{N}\cdot\sum\limits_{i=1}^{N}X_i \]
 \_form#52=18x11:$ w_i $
 \_form#53=111x85:\[ \overline{X}=\frac{\sum\limits_{i=1}^{N}w_i\cdot X_i}{\sum\limits_{i=1}^{N}w_i} \]
-\_form#54=94x18:$ f(x): \mathbb{R}\rightarrow\mathbb{R} $
-\_form#55=10x8:$ x $
-\_form#56=31x18:$ f(x) $
-\_form#57=115x18:$ f(x)=\mbox{round}(x) $
-\_form#58=249x49:\[ \sum(X)=\cdot\sum\limits_{i=1}^{N}\mbox{modifierFunctor}(X_i) \]
-\_form#59=122x16:$ \mbox{firstGroupCenter} $
-\_form#60=244x18:$ \mbox{firstGroupCenter}\pm\mbox{groupWidth}/2$
-\_form#61=263x18:$ \mbox{firstGroupCenter}\pm2\cdot\mbox{groupWidth}/2 $
-\_form#62=263x18:$ \mbox{firstGroupCenter}\pm3\cdot\mbox{groupWidth}/2 $
-\_form#63=205x33:$ \mbox{round}\left(\frac{x-\mbox{firstGroupCenter}}{\mbox{groupWidth}/2}\right) $
-\_form#64=124x49:\[ \sum(X)=\cdot\sum\limits_{i=1}^{N}X_i \]
-\_form#65=127x49:\[ \sum(X)=\cdot\sum\limits_{i=1}^{N}X_i^2 \]
-\_form#66=44x18:$ (c_i,v_i) $
-\_form#67=11x11:$ c_i $
-\_form#68=13x11:$ v_i $
-\_form#69=141x18:$ V_j=\{v_{i}|c_i\equiv c_{\text{out},j}\} $
-\_form#70=68x13:$ c_i\equiv c_{\text{out},j} $
-\_form#71=34x13:$ c_{\text{out},j} $
-\_form#72=13x11:$ c_1 $
-\_form#73=18x11:$ c_N $
-\_form#74=15x11:$ v_1 $
-\_form#75=21x11:$ v_N $
-\_form#76=132x50:\[ \sum(X)_j=\cdot\sum\limits_{i=1}^{j}X_i \]
-\_form#77=94x20:$ \sigma_X^2=\mbox{Var}(X) $
-\_form#78=553x60:\[ \sigma_X^2=\text{Var}(X)=\frac{1}{N-1}\cdot\sum\limits_{i=1}^{N}(X_i-\overline{X})^2=\frac{1}{N-1}\cdot\left(\sum_{i=1}^NX_i^2-\frac{1}{N}\cdot\left(\sum_{i=1}^NX_i\right)^2\right) \]
-\_form#79=112x21:$ \sigma_X=\sqrt{\mbox{Var}(X)} $
-\_form#80=232x59:\[ \sigma_X=\sqrt{\frac{1}{N-1}\cdot\sum\limits_{i=1}^{N}(X_i-\overline{X})^2}= \]
-\_form#81=223x85:\[ \sigma_v^2=\text{Var}(v)=\frac{\sum\limits_{i=1}^{N}w_i\cdot (v_i-\overline{v})^2}{\sum\limits_{i=1}^{N}w_i} \]
-\_form#82=174x98:\[ \sigma_v=\sqrt{\frac{\sum\limits_{i=1}^{N}w_i\cdot (v_i-\overline{v})^2}{\sum\limits_{i=1}^{N}w_i}} \]
-\_form#83=125x41:$ \gamma_1=\mathbb{E}\left[\left(\frac{X-\mu}{\sigma}\right)^3\right] $
-\_form#84=16x11:$ \gamma_1 $
-\_form#85=387x52:\[ \gamma_1=\mathbb{E}\left[\left(\frac{X-\mu}{\sigma}\right)^3\right]= \frac{m_3}{m_2^{3/2}}  = \frac{\frac{1}{n} \sum_{i=1}^n (x_i-\overline{x})^3}{\left(\frac{1}{n} \sum_{i=1}^n (x_i-\overline{x})^2\right)^{3/2}} \]
-\_form#86=11x11:$\mu$
-\_form#87=10x8:$\sigma$
-\_form#88=16x13:$X$
-\_form#89=11x11:$\overline{x}$
-\_form#90=15x11:$ x_i$
-\_form#91=75x18:$ \langle (X-\mu)^o\rangle $
-\_form#92=8x8:$ o $
-\_form#93=184x20:\[ \langle (X-\mu)^o\rangle= \mathbb{E}\left[\left(X-\mu\right)^o\right] \]
-\_form#94=33x18:$ \langle X^o\rangle $
-\_form#95=102x18:\[ \langle X^n\rangle= \mathbb{E}\left[X^n\right] \]
-\_form#96=28x13:$ \rho_{x,y} $
-\_form#97=16x16:$ Y_1 $
-\_form#98=20x16:$ X_i $
-\_form#99=15x16:$ Y_i $
-\_form#100=429x94:\[ \rho_{x,y}=\text{CorCoeff}_{\text{Pearson}}(x,y)=\frac{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})(y_i-\overline{y})}{\sqrt{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})^2\cdot\sum\limits_{i=0}^{N-1}(y_i-\overline{y})^2}} \]
-\_form#101=93x39:\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]
-\_form#102=23x16:$ Y_N $
-\_form#103=223x18:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
-\_form#104=325x37:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
+\_form#54=249x49:\[ \sum(X)=\cdot\sum\limits_{i=1}^{N}\mbox{modifierFunctor}(X_i) \]
+\_form#55=124x49:\[ \sum(X)=\cdot\sum\limits_{i=1}^{N}X_i \]
+\_form#56=127x49:\[ \sum(X)=\cdot\sum\limits_{i=1}^{N}X_i^2 \]
+\_form#57=132x50:\[ \sum(X)_j=\cdot\sum\limits_{i=1}^{j}X_i \]
+\_form#58=94x20:$ \sigma_X^2=\mbox{Var}(X) $
+\_form#59=553x60:\[ \sigma_X^2=\text{Var}(X)=\frac{1}{N-1}\cdot\sum\limits_{i=1}^{N}(X_i-\overline{X})^2=\frac{1}{N-1}\cdot\left(\sum_{i=1}^NX_i^2-\frac{1}{N}\cdot\left(\sum_{i=1}^NX_i\right)^2\right) \]
+\_form#60=112x21:$ \sigma_X=\sqrt{\mbox{Var}(X)} $
+\_form#61=232x59:\[ \sigma_X=\sqrt{\frac{1}{N-1}\cdot\sum\limits_{i=1}^{N}(X_i-\overline{X})^2}= \]
+\_form#62=223x85:\[ \sigma_v^2=\text{Var}(v)=\frac{\sum\limits_{i=1}^{N}w_i\cdot (v_i-\overline{v})^2}{\sum\limits_{i=1}^{N}w_i} \]
+\_form#63=174x98:\[ \sigma_v=\sqrt{\frac{\sum\limits_{i=1}^{N}w_i\cdot (v_i-\overline{v})^2}{\sum\limits_{i=1}^{N}w_i}} \]
+\_form#64=125x41:$ \gamma_1=\mathbb{E}\left[\left(\frac{X-\mu}{\sigma}\right)^3\right] $
+\_form#65=16x11:$ \gamma_1 $
+\_form#66=387x52:\[ \gamma_1=\mathbb{E}\left[\left(\frac{X-\mu}{\sigma}\right)^3\right]= \frac{m_3}{m_2^{3/2}}  = \frac{\frac{1}{n} \sum_{i=1}^n (x_i-\overline{x})^3}{\left(\frac{1}{n} \sum_{i=1}^n (x_i-\overline{x})^2\right)^{3/2}} \]
+\_form#67=11x11:$\mu$
+\_form#68=10x8:$\sigma$
+\_form#69=16x13:$X$
+\_form#70=11x11:$\overline{x}$
+\_form#71=15x11:$ x_i$
+\_form#72=75x18:$ \langle (X-\mu)^o\rangle $
+\_form#73=8x8:$ o $
+\_form#74=184x20:\[ \langle (X-\mu)^o\rangle= \mathbb{E}\left[\left(X-\mu\right)^o\right] \]
+\_form#75=33x18:$ \langle X^o\rangle $
+\_form#76=102x18:\[ \langle X^n\rangle= \mathbb{E}\left[X^n\right] \]
+\_form#77=28x13:$ \rho_{x,y} $
+\_form#78=16x16:$ Y_1 $
+\_form#79=20x16:$ X_i $
+\_form#80=15x16:$ Y_i $
+\_form#81=429x94:\[ \rho_{x,y}=\text{CorCoeff}_{\text{Pearson}}(x,y)=\frac{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})(y_i-\overline{y})}{\sqrt{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})^2\cdot\sum\limits_{i=0}^{N-1}(y_i-\overline{y})^2}} \]
+\_form#82=93x39:\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]
+\_form#83=223x18:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
+\_form#84=325x37:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
+\_form#85=94x18:$ f(x): \mathbb{R}\rightarrow\mathbb{R} $
+\_form#86=10x8:$ x $
+\_form#87=31x18:$ f(x) $
+\_form#88=115x18:$ f(x)=\mbox{round}(x) $
+\_form#89=122x16:$ \mbox{firstGroupCenter} $
+\_form#90=244x18:$ \mbox{firstGroupCenter}\pm\mbox{groupWidth}/2$
+\_form#91=263x18:$ \mbox{firstGroupCenter}\pm2\cdot\mbox{groupWidth}/2 $
+\_form#92=263x18:$ \mbox{firstGroupCenter}\pm3\cdot\mbox{groupWidth}/2 $
+\_form#93=205x33:$ \mbox{round}\left(\frac{x-\mbox{firstGroupCenter}}{\mbox{groupWidth}/2}\right) $
+\_form#94=44x18:$ (c_i,v_i) $
+\_form#95=11x11:$ c_i $
+\_form#96=13x11:$ v_i $
+\_form#97=141x18:$ V_j=\{v_{i}|c_i\equiv c_{\text{out},j}\} $
+\_form#98=68x13:$ c_i\equiv c_{\text{out},j} $
+\_form#99=34x13:$ c_{\text{out},j} $
+\_form#100=13x11:$ c_1 $
+\_form#101=18x11:$ c_N $
+\_form#102=15x11:$ v_1 $
+\_form#103=21x11:$ v_N $
+\_form#104=23x16:$ Y_N $
 \_form#105=47x18:$ (x_i,y_i) $
 \_form#106=16x11:$ x_1 $
 \_form#107=21x11:$ x_N $
@@ -125,13 +125,13 @@
 \_form#124=193x47:\[ h = \left(\frac{4\hat{\sigma}^5}{3n}\right)^{\frac{1}{5}} \approx 1.06 \hat{\sigma} n^{-1/5} \]
 \_form#125=322x49:\[ \tilde{f}(t):=\frac{1}{N\cdot\text{bandwidth}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{t-x_i}{\text{bandwidth}}\right) \]
 \_form#126=567x49:\[ \tilde{f}(x,y):=\frac{1}{N\cdot\sqrt{\text{bandwidthx}}\cdot\sqrt{\text{bandwidthy}}}\cdot\sum\limits_{i=0}^{N-1}K\left(\frac{x-x_i}{\text{bandwidthx}},\frac{y-y_i}{\text{bandwidthy}}\right) \]
-\_form#127=180x20:\[ h =  \hat{\sigma} n^{-1/(d+4)},\ \ \ \ \ d=2 \]
-\_form#128=109x18:$ f(x)=a+b\cdot x $
-\_form#129=281x36:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i\left(y_i-(a+b\cdot x_i)\right)^2 \]
-\_form#130=8x8:$ a $
-\_form#131=7x13:$ b $
-\_form#132=88x16:\[ a=\overline{y}-b\cdot\overline{x} \]
-\_form#133=154x41:\[ b=\frac{\sum x_iy_i-N\cdot\overline{x}\cdot\overline{y}}{\sum x_i^2-N\cdot(\overline{x})^2} \]
+\_form#127=109x18:$ f(x)=a+b\cdot x $
+\_form#128=281x36:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_i\left(y_i-(a+b\cdot x_i)\right)^2 \]
+\_form#129=8x8:$ a $
+\_form#130=7x13:$ b $
+\_form#131=88x16:\[ a=\overline{y}-b\cdot\overline{x} \]
+\_form#132=154x41:\[ b=\frac{\sum x_iy_i-N\cdot\overline{x}\cdot\overline{y}}{\sum x_i^2-N\cdot(\overline{x})^2} \]
+\_form#133=180x20:\[ h =  \hat{\sigma} n^{-1/(d+4)},\ \ \ \ \ d=2 \]
 \_form#134=310x36:\[ (a^\ast, b^\ast)=\mathop{\mathrm{arg\;min}}\limits_{a,b}\sum\limits_iw_i^2\cdot\left(y_i-(a+b\cdot x_i)\right)^2 \]
 \_form#135=20x11:$ w_1 $
 \_form#136=24x11:$ w_N $
@@ -183,28 +183,28 @@
 \_form#182=46x18:$ f(x,y) $
 \_form#183=143x18:$ \{(x,y)|f(x,y)\equiv L_i\} $
 \_form#184=33x18:$ \{L_i\} $
-\_form#185=78x18:$ y=f(x, \vec{p}) $
-\_form#186=13x16:$ \vec{p} $
-\_form#187=249x20:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $
-\_form#188=59x11:$ p_0, p_1, ... $
-\_form#189=112x18:$ f(x)=p_0+p_1x $
-\_form#190=184x18:$ f(x)=p_0+p_1\cdot\exp(x/p_2) $
-\_form#191=150x18:$ f(x)=p_0\cdot\exp(x/p_1) $
-\_form#192=137x18:$ f(x)=p_0+p_1\cdot x^{p_3} $
-\_form#193=101x18:$ f(x)=p_0\cdot x^{p_1} $
-\_form#194=75x18:$ f(x)= x^{p_0} $
-\_form#195=83x21:$ [x,y]=\vec{f}(t) $
-\_form#196=7x11:$ t $
-\_form#197=55x18:$ [x, f(x)] $
-\_form#198=29x18:$ f(y) $
-\_form#199=54x18:$ [f(y), y] $
-\_form#200=26x21:$ \vec{f}(t) $
-\_form#201=16x15:$ gt $
-\_form#202=33x15:$ \alpha_{\mbox{left}} $
-\_form#203=44x18:$ \alpha_{\mbox{right}} $
-\_form#204=234x31:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
-\_form#205=179x18:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
-\_form#206=33x18:$ [x,y] $
+\_form#185=83x21:$ [x,y]=\vec{f}(t) $
+\_form#186=7x11:$ t $
+\_form#187=55x18:$ [x, f(x)] $
+\_form#188=29x18:$ f(y) $
+\_form#189=54x18:$ [f(y), y] $
+\_form#190=26x21:$ \vec{f}(t) $
+\_form#191=16x15:$ gt $
+\_form#192=33x15:$ \alpha_{\mbox{left}} $
+\_form#193=44x18:$ \alpha_{\mbox{right}} $
+\_form#194=234x31:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
+\_form#195=78x18:$ y=f(x, \vec{p}) $
+\_form#196=13x16:$ \vec{p} $
+\_form#197=179x18:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
+\_form#198=33x18:$ [x,y] $
+\_form#199=249x20:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $
+\_form#200=59x11:$ p_0, p_1, ... $
+\_form#201=112x18:$ f(x)=p_0+p_1x $
+\_form#202=184x18:$ f(x)=p_0+p_1\cdot\exp(x/p_2) $
+\_form#203=150x18:$ f(x)=p_0\cdot\exp(x/p_1) $
+\_form#204=137x18:$ f(x)=p_0+p_1\cdot x^{p_3} $
+\_form#205=101x18:$ f(x)=p_0\cdot x^{p_1} $
+\_form#206=75x18:$ f(x)= x^{p_0} $
 \_form#207=83x18:$ [x,y]=f(t) $
 \_form#208=101x18:$ t \in \left[t_\text{min}, t_\text{max}\right] $
 \_form#209=98x18:$ [x,y]=f(t, \vec{p}) $

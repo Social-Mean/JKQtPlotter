@@ -146,7 +146,7 @@ trunk/master</h1>
 trunk: Overview</h2>
 <p>Changes, compared to <a class="el" href="page_whatsnew.html#page_whatsnew_V4_0_0">v4.0.0</a> include: </p><ul>
 <li>
-General:<ul>
+<p class="startli">General/Build-System:</p><ul>
 <li>
 BREAKING: renamed library JKQTCommonStatisticsAndMath to JKQTMath. <em>Note: A CMake-ALIAS-Library JKQTCommonStatisticsAndMath was also added to ease transition for users</em> </li>
 <li>
@@ -167,7 +167,20 @@ NEW: When using a MSVC compiler, the generated PDB files are installed to <code>
 <li>
 NEW: Added CMake option <code>JKQtPlotter_BUILD_WITH_TIMING_INFO_OUTPUT</code>, which activates several runtime-measurement guards of type <a class="el" href="class_j_k_q_t_p_auto_output_timer.html" title="RAII construct that times its lifetime, outputting properly indented qDebug()-message.">JKQTPAutoOutputTimer</a> (output via qDebug()) <br  />
  </li>
+<li>
+NEW/BREAKING: provide general targets JKQTPlotter5/6::JKQTPlotter5/6, JKQTPlotter5/6::JKQTMathText5/6, ... which are independent of the type of build (shared/static) <br  />
+ </li>
+<li>
+NEW/BREAKING: refactor CMake-Code, so static/dynamic switch is done via <code>BUILD_SHARED_LIBS</code>, which retires <code>JKQtPlotter_BUILD_STATIC_LIBS</code>, <code>JKQtPlotter_BUILD_SHARED_LIBS</code> and removes the capability to build static and shared libraries in one location (fixes issue #104) <br  />
+ </li>
+<li>
+NEW: prepareed library for CMake's <a href="https://cmake.org/cmake/help/latest/module/FetchContent.html">FetchContent</a>-API <br  />
+ </li>
+<li>
+NEW: the different sub-libraries <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>, <a class="el" href="class_j_k_q_t_fast_plotter.html" title="a speed optimized plotter class">JKQTFastPlotter</a> (DEPRECATED), JKQTMath, <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> can be activated/deactivated with CMake options JKQtPlotter_BUILD_LIB_JKQTPLOTTER, JKQtPlotter_BUILD_LIB_JKQTFASTPLOTTER, JKQtPlotter_BUILD_LIB_JKQTMATHTEXT, JKQtPlotter_BUILD_LIB_JKQTMATH <br  />
+ </li>
 </ul>
+<p class="endli"></p>
 </li>
 <li>
 <p class="startli"><a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>:</p><ul>
@@ -722,7 +735,7 @@ Latest Release/Tag: <a href="https://github.com/jkriege2/JKQtPlotter/releases/ta
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 16 2024 12:28:13 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Jan 16 2024 16:00:50 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
