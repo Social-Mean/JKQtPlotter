@@ -29,8 +29,8 @@ var NAVTREE =
     [ "Contributor Covenant Code of Conduct", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html", [
       [ "Our Pledge", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md1", null ],
       [ "Our Standards", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2", null ],
-      [ "Our Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3", null ],
-      [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4", null ],
+      [ "Our Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4", null ],
+      [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5", null ],
       [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6", null ],
       [ "Attribution", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md7", null ]
     ] ],
@@ -309,19 +309,19 @@ var NAVTREE =
       ] ]
     ] ],
     [ "JKQTPlotter: Screenshots", "md_screenshots_2_r_e_a_d_m_e.html", [
-      [ "Scatter Plots and Boxplots", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md124", null ],
-      [ "Different Types of Barcharts", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md125", null ],
-      [ "Image Plots", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md126", null ],
-      [ "Plotting a user-defined (parsed) function", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md127", null ],
-      [ "Axis-Label styles in LogLog-Plot", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md128", null ],
-      [ "Parametrized Scatter Plots and Data Viewer", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md129", null ],
-      [ "Barcharts", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md130", null ],
-      [ "Screenshots of included LaTeX renderer", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md131", null ],
-      [ "QuickFit 3.0 Screenshots", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md132", null ]
+      [ "Scatter Plots and Boxplots", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md127", null ],
+      [ "Different Types of Barcharts", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md128", null ],
+      [ "Image Plots", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md129", null ],
+      [ "Plotting a user-defined (parsed) function", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md130", null ],
+      [ "Axis-Label styles in LogLog-Plot", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md131", null ],
+      [ "Parametrized Scatter Plots and Data Viewer", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md132", null ],
+      [ "Barcharts", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md133", null ],
+      [ "Screenshots of included LaTeX renderer", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md134", null ],
+      [ "QuickFit 3.0 Screenshots", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md135", null ]
     ] ],
     [ "Security Policy", "md__s_e_c_u_r_i_t_y.html", [
-      [ "Supported Versions", "md__s_e_c_u_r_i_t_y.html#autotoc_md134", null ],
-      [ "Reporting a Vulnerability", "md__s_e_c_u_r_i_t_y.html#autotoc_md135", null ]
+      [ "Supported Versions", "md__s_e_c_u_r_i_t_y.html#autotoc_md125", null ],
+      [ "Reporting a Vulnerability", "md__s_e_c_u_r_i_t_y.html#autotoc_md126", null ]
     ] ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Topics", "topics.html", "topics" ],
