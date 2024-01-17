@@ -684,7 +684,7 @@ var searchData=
   ['jkqtplotter_20_3a_20barchart_20with_20two_20color_20fill_20mode_681',['Example (JKQTPlotter): Barchart With Two-Color Fill-Mode',['../_j_k_q_t_plotter_barcharts_two_color_filling.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20boxplots_682',['Example (JKQTPlotter): Boxplots',['../_j_k_q_t_plotter_boxplots_graphs.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20cmake_20example_683',['Example (JKQTPlotter): CMake Example',['../_j_k_q_t_c_make_link_example.html',1,'exampleTutorialProjects']]],
-  ['jkqtplotter_20_3a_20cmake_20fetchcontent_20example_684',['Example (JKQTPlotter): CMake FetchContent Example',['../_j_k_q_t_c_make_fetch_content_example.html',1,'']]],
+  ['jkqtplotter_20_3a_20cmake_20fetchcontent_20example_684',['Example (JKQTPlotter): CMake FetchContent Example',['../_j_k_q_t_c_make_fetch_content_example.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20contour_20plots_685',['Example (JKQTPlotter): Contour Plots',['../_j_k_q_t_plotter_contour_plot.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20date_20time_20axes_686',['Example (JKQTPlotter): Date/Time Axes',['../_j_k_q_t_plotter_date_time_axes.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20different_20types_20of_20errorindicators_687',['Example (JKQTPlotter): Different Types of Errorindicators',['../_j_k_q_t_plotter_error_bar_styles.html',1,'exampleTutorialProjects']]],

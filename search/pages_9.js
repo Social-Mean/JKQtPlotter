@@ -1,7 +1,7 @@
 var searchData=
 [
   ['für_20future_20releases_20versions_0',['Todo List für Future Releases/Versions',['../page_todo.html',1,'']]],
-  ['fetchcontent_20example_1',['Example (JKQTPlotter): CMake FetchContent Example',['../_j_k_q_t_c_make_fetch_content_example.html',1,'']]],
+  ['fetchcontent_20example_1',['Example (JKQTPlotter): CMake FetchContent Example',['../_j_k_q_t_c_make_fetch_content_example.html',1,'exampleTutorialProjects']]],
   ['file_2',['Tutorial (JKQTPlotter): Using a JKQTPlotter inside a Qt User Interface Designer (UI) File',['../_j_k_q_t_plotter_qt_creator.html',1,'exampleTutorialProjects']]],
   ['fill_20mode_3',['fill mode',['../_j_k_q_t_plotter_barcharts_functor_filling.html',1,'Example (JKQTPlotter): Barchart With Functor Fill-Mode'],['../_j_k_q_t_plotter_barcharts_two_color_filling.html',1,'Example (JKQTPlotter): Barchart With Two-Color Fill-Mode']]],
   ['fill_20styling_4',['Example (JKQTPlotter): Advanced Line and Fill Styling',['../_j_k_q_t_plotter_advanced_line_and_fill_styling.html',1,'exampleTutorialProjects']]],

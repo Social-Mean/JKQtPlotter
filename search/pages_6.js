@@ -6,7 +6,7 @@ var searchData=
   ['cimg_20image_3',['cimg image',['../_j_k_q_t_plotter_image_plot_c_img.html',1,'Example (JKQTPlotter): Simple math image plot, showin a 1-channel CImg image'],['../_j_k_q_t_plotter_image_plot_r_g_b_c_img.html',1,'Example (JKQTPlotter): Simple math image plot, showing a 3-channel CImg image']]],
   ['cmake_4',['Build using CMake',['../page_buildinstructions__c_m_a_k_e.html',1,'page_buildinstructions']]],
   ['cmake_20example_5',['Example (JKQTPlotter): CMake Example',['../_j_k_q_t_c_make_link_example.html',1,'exampleTutorialProjects']]],
-  ['cmake_20fetchcontent_20example_6',['Example (JKQTPlotter): CMake FetchContent Example',['../_j_k_q_t_c_make_fetch_content_example.html',1,'']]],
+  ['cmake_20fetchcontent_20example_6',['Example (JKQTPlotter): CMake FetchContent Example',['../_j_k_q_t_c_make_fetch_content_example.html',1,'exampleTutorialProjects']]],
   ['cmy_20image_20plot_7',['Example (JKQTPlotter): Simple Math RGB/CMY Image Plot',['../_j_k_q_t_plotter_r_g_b_image_plot.html',1,'exampleTutorialProjects']]],
   ['code_20of_20conduct_8',['Contributor Covenant Code of Conduct',['../md__c_o_d_e___o_f___c_o_n_d_u_c_t.html',1,'']]],
   ['color_20fill_20mode_9',['Example (JKQTPlotter): Barchart With Two-Color Fill-Mode',['../_j_k_q_t_plotter_barcharts_two_color_filling.html',1,'exampleTutorialProjects']]],

@@ -13,7 +13,7 @@ var searchData=
   ['_3a_20basic_20usage_20of_20jkqtpdatastore_10',['Tutorial (JKQTPDatastore): Basic Usage of JKQTPDatastore',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html',1,'exampleTutorialProjects']]],
   ['_3a_20boxplots_11',['Example (JKQTPlotter): Boxplots',['../_j_k_q_t_plotter_boxplots_graphs.html',1,'exampleTutorialProjects']]],
   ['_3a_20cmake_20example_12',['Example (JKQTPlotter): CMake Example',['../_j_k_q_t_c_make_link_example.html',1,'exampleTutorialProjects']]],
-  ['_3a_20cmake_20fetchcontent_20example_13',['Example (JKQTPlotter): CMake FetchContent Example',['../_j_k_q_t_c_make_fetch_content_example.html',1,'']]],
+  ['_3a_20cmake_20fetchcontent_20example_13',['Example (JKQTPlotter): CMake FetchContent Example',['../_j_k_q_t_c_make_fetch_content_example.html',1,'exampleTutorialProjects']]],
   ['_3a_20command_20line_20utility_20jkqtmathtext_5frender_14',['Tool (JKQTMathText): Command-Line Utility jkqtmathtext_render',['../_j_k_q_t_math_text_render_cmd_line_tool.html',1,'exampleTutorialProjects']]],
   ['_3a_20command_20line_20utility_20jkqtplotter_5fdoc_5fimagegenerator_15',['Tool (JKQTMathText): Command-Line Utility jkqtplotter_doc_imagegenerator',['../_j_k_q_t_plotter_doc_image_render_cmd_line_tool.html',1,'exampleTutorialProjects']]],
   ['_3a_20contour_20plots_16',['Example (JKQTPlotter): Contour Plots',['../_j_k_q_t_plotter_contour_plot.html',1,'exampleTutorialProjects']]],
