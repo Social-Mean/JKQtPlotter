@@ -6,7 +6,7 @@ var searchData=
   ['sorting_3',['General Algorithms (Sorting ...)',['../group__jkqtptools__algorithms.html',1,'']]],
   ['special_20math_20and_20statistics_20utilities_4',['JKQTMath: Special Math and Statistics Utilities',['../group__jkqtmath.html',1,'']]],
   ['special_20qicon_20generation_5',['Special QIcon generation',['../group__jkqtptools__icons.html',1,'']]],
-  ['speed_20optimized_20plotter_20class_6',['JKQTFastPlotter: Speed-Optimized Plotter class',['../group__jkqtfastplotter.html',1,'']]],
+  ['speed_20optimized_20plotter_20class_6',['DEPRECATED: JKQTFastPlotter: Speed-Optimized Plotter class',['../group__jkqtfastplotter.html',1,'']]],
   ['statistical_20computations_7',['Statistical Computations',['../group__jkqtptools__math__statistics.html',1,'']]],
   ['statistical_20graphs_20e_20g_20boxplots_8',['Statistical Graphs (e.g. Boxplots ...)',['../group__jkqtplotter__statgraphs.html',1,'']]],
   ['statistics_9',['statistics',['../group__jkqtptools__math__statistics__basic.html',1,'Basic statistics'],['../group__jkqtptools__math__statistics__grouped.html',1,'Grouped statistics']]],

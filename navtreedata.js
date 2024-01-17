@@ -27,19 +27,19 @@ var NAVTREE =
   [ "JKQTPlotter", "index.html", [
     [ "JKQTPlotter - A Qt Plotting Library", "index.html", "index" ],
     [ "Contributor Covenant Code of Conduct", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html", [
-      [ "Our Pledge", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md7", null ],
-      [ "Our Standards", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md8", null ],
-      [ "Our Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md9", null ],
-      [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md10", null ],
-      [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md11", null ],
+      [ "Our Pledge", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2", null ],
+      [ "Our Standards", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4", null ],
+      [ "Our Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6", null ],
+      [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md8", null ],
+      [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md10", null ],
       [ "Attribution", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md12", null ]
     ] ],
     [ "Contributing", "md__c_o_n_t_r_i_b_u_t_i_n_g.html", [
-      [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md2", null ],
-      [ "Our Standards", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md3", null ],
-      [ "Our Responsibilities", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md4", null ],
-      [ "Scope", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md5", null ],
-      [ "Enforcement", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md6", null ]
+      [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md3", null ],
+      [ "Our Standards", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md5", null ],
+      [ "Our Responsibilities", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md7", null ],
+      [ "Scope", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md9", null ],
+      [ "Enforcement", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md11", null ]
     ] ],
     [ "Build Instructions", "page_buildinstructions.html", [
       [ "Build using CMake", "page_buildinstructions__c_m_a_k_e.html", [
@@ -49,7 +49,8 @@ var NAVTREE =
           [ "Configuring a Build with CMake", "page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_CONFIG", null ],
           [ "Installing with CMake", "page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_INSTALL", null ]
         ] ],
-        [ "Using a CMake Build", "page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_USAGE", null ]
+        [ "Using a CMake Build", "page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_USAGE", null ],
+        [ "Using JKQTPlotter with CMake's FetchContent-API", "page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_FETCHCONTENT", null ]
       ] ],
       [ "DEPRECATED: Build using QMake", "page_buildinstructions__q_m_a_k_e.html", [
         [ "DEPRECATED: QMake Include Project", "page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKEINCLUDE", null ],
@@ -72,7 +73,7 @@ var NAVTREE =
         [ "Examples for CMake Build System", "example_tutorial_projects.html#jkqtp_extut_cmake_build", null ]
       ] ],
       [ "Examples for JKQTMathText", "example_tutorial_projects.html#jkqtp_extut_jkqtmathtext", null ],
-      [ "Examples for JKQTFastPlotter", "example_tutorial_projects.html#jkqtp_extut_jkqtfastplotter", null ],
+      [ "DEPRECATED: Examples for JKQTFastPlotter", "example_tutorial_projects.html#jkqtp_extut_jkqtfastplotter", null ],
       [ "Tool Programs", "example_tutorial_projects.html#jkqtp_extut_tools", null ],
       [ "Example (JKQTPlotter): Very simple line-graph", "_j_k_q_t_plotter_simple_test.html", null ],
       [ "Example (JKQTPlotter): Very simple scatter-graph", "_j_k_q_t_plotterscatter.html", null ],
@@ -124,11 +125,11 @@ var NAVTREE =
       ] ],
       [ "Example (JKQTPlotter): Boxplots", "_j_k_q_t_plotter_boxplots_graphs.html", null ],
       [ "Example (JKQTPlotter): Violin Plots", "_j_k_q_t_plotter_violinplot_graphs.html", [
-        [ "Generating a test Dataset", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md106", null ],
-        [ "Visualizing data as a Rug Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md108", null ],
-        [ "Drawing the (vertical) Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md110", null ],
-        [ "Drawing a horizontal Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md118", null ],
-        [ "Adapters as shortcuts to drawing Violin Plots", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md119", null ]
+        [ "Generating a test Dataset", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md116", null ],
+        [ "Visualizing data as a Rug Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md117", null ],
+        [ "Drawing the (vertical) Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md118", null ],
+        [ "Drawing a horizontal Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md119", null ],
+        [ "Adapters as shortcuts to drawing Violin Plots", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md120", null ]
       ] ],
       [ "Example (JKQTPlotter): Plotting Geometric Objects", "_j_k_q_t_plotter_geometric_graphs.html", null ],
       [ "Example (JKQTPlotter): Generating Demo-Plots of Geometric Objects for Documentation", "_j_k_q_t_plotter_geometric_graphs_simple.html", null ],
@@ -186,17 +187,17 @@ var NAVTREE =
           [ "Mouse Position Display", "_j_k_q_t_plotter_user_interaction.html#autotoc_md103", null ],
           [ "Drag the Plot Viewport", "_j_k_q_t_plotter_user_interaction.html#autotoc_md104", null ],
           [ "Zooming with the Mouse", "_j_k_q_t_plotter_user_interaction.html#autotoc_md105", null ],
-          [ "Ruler/Measurement Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md107", null ],
-          [ "Data ToolTip Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md109", null ],
-          [ "Drawing Geometrical Forms", "_j_k_q_t_plotter_user_interaction.html#autotoc_md111", [
-            [ "Lines", "_j_k_q_t_plotter_user_interaction.html#autotoc_md112", null ],
-            [ "Rectangles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md113", null ],
-            [ "Circles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md114", null ],
-            [ "Ellipses", "_j_k_q_t_plotter_user_interaction.html#autotoc_md115", null ]
+          [ "Ruler/Measurement Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md106", null ],
+          [ "Data ToolTip Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md107", null ],
+          [ "Drawing Geometrical Forms", "_j_k_q_t_plotter_user_interaction.html#autotoc_md108", [
+            [ "Lines", "_j_k_q_t_plotter_user_interaction.html#autotoc_md109", null ],
+            [ "Rectangles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md110", null ],
+            [ "Circles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md111", null ],
+            [ "Ellipses", "_j_k_q_t_plotter_user_interaction.html#autotoc_md112", null ]
           ] ],
-          [ "Context Menus", "_j_k_q_t_plotter_user_interaction.html#autotoc_md116", [
-            [ "Standard Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md117", null ],
-            [ "Special Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md120", null ]
+          [ "Context Menus", "_j_k_q_t_plotter_user_interaction.html#autotoc_md113", [
+            [ "Standard Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md114", null ],
+            [ "Special Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md115", null ]
           ] ]
         ] ]
       ] ],
@@ -227,24 +228,24 @@ var NAVTREE =
         [ "Special Properties of the JKQTPDatastore-Iterators", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md41", null ]
       ] ],
       [ "Tutorial (JKQTPDatastore): Advanced 1-Dimensional Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html", [
-        [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md46", null ],
-        [ "Basic Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48", null ],
-        [ "Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md50", [
-          [ "Standard Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md51", null ],
-          [ "Boxplots with Outliers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md52", null ]
+        [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md42", null ],
+        [ "Basic Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md43", null ],
+        [ "Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md44", [
+          [ "Standard Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md45", null ],
+          [ "Boxplots with Outliers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md46", null ]
         ] ],
-        [ "Histograms", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md53", null ],
-        [ "Kernel Density Estimates (KDE)", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md54", null ],
-        [ "Cummulative Histograms and KDEs", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md55", null ],
-        [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md56", null ]
+        [ "Histograms", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md47", null ],
+        [ "Kernel Density Estimates (KDE)", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md49", null ],
+        [ "Cummulative Histograms and KDEs", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md51", null ],
+        [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md52", null ]
       ] ],
       [ "Tutorial (JKQTPDatastore): Regression Analysis (with the Statistics Library)", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html", [
-        [ "Simple Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md42", null ],
-        [ "Robust Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md43", null ],
-        [ "Weighted Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md44", null ],
-        [ "Linearizable Regression Models", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md45", null ],
-        [ "Polynom Fitting", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md47", null ],
-        [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md49", null ]
+        [ "Simple Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md48", null ],
+        [ "Robust Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md50", null ],
+        [ "Weighted Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md53", null ],
+        [ "Linearizable Regression Models", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md54", null ],
+        [ "Polynom Fitting", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md55", null ],
+        [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md56", null ]
       ] ],
       [ "Tutorial (JKQTPDatastore): 1-Dimensional Group Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html", [
         [ "Barcharts & Boxplots from categorized data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md30", [
@@ -308,6 +309,7 @@ var NAVTREE =
         [ "v2015.10: Download", "page_whatsnew.html#page_whatsnew_V2015_10_DOWNLOAD", null ]
       ] ]
     ] ],
+    [ "Example (JKQTPlotter): CMake FetchContent Example", "_j_k_q_t_c_make_fetch_content_example.html", null ],
     [ "JKQTPlotter: Screenshots", "md_screenshots_2_r_e_a_d_m_e.html", [
       [ "Scatter Plots and Boxplots", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md124", null ],
       [ "Different Types of Barcharts", "md_screenshots_2_r_e_a_d_m_e.html#autotoc_md125", null ],
@@ -352,40 +354,40 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_j_k_q_t_c_make_link_example.html",
-"class_j_k_q_t_base_plotter.html#a1a68fa82efead9e05d11d41b408373e5",
-"class_j_k_q_t_base_plotter.html#a9bf3f799a8f8f1eebf50752fabb2f9c1",
-"class_j_k_q_t_base_plotter_style.html#a414900e290eeff81c71866a7a53429e8",
-"class_j_k_q_t_f_p_x_range_plot.html#ab2a41a1911b84de37ea26e50a85570ae",
-"class_j_k_q_t_fast_plotter.html#a8f64b1534f08ccb924c566807ae6e0c1",
-"class_j_k_q_t_math_text.html#a68543eadd2749c8092922509d2884f30",
-"class_j_k_q_t_math_text_empty_box_node.html#abb4aaa2b6760573d32be8c4d1a6921f6",
-"class_j_k_q_t_math_text_noop_node.html#a69a58ed23c1b6b354623e7ca31c6e1df",
-"class_j_k_q_t_math_text_whitespace_node.html#a0ab5ff61a9374b278c5e111cbc50565e",
-"class_j_k_q_t_p_base_key.html#aa54aa0b73542b44b424a6cec92b05f6f",
-"class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html#a63dd5f39aba79ff8094ea2428f619811",
-"class_j_k_q_t_p_column_r_g_b_math_image.html#a6eba180ddcbc2f2658d632a3fe732265",
-"class_j_k_q_t_p_coordinate_axis.html#aee0cde7d09e9adc168b9000b03220f08",
-"class_j_k_q_t_p_datastore_model.html",
-"class_j_k_q_t_p_functor_line_graph_base.html#a6529405e546569ee0c5cd640759f6efaaef3ecb1b74dadd7a560195f70583e108",
-"class_j_k_q_t_p_geo_rectangle.html#a9ecd39f29c0506e6c392060b74d2c7d8",
-"class_j_k_q_t_p_graph_error_style_mixin.html#a4a6b4d49f05e48472e15d39043d27dc3",
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a551a9f9cdc641537a43ae7510a19f673",
-"class_j_k_q_t_p_impulses_vertical_error_graph.html#a697ccf11e7c11593bce3990af3b557a4",
-"class_j_k_q_t_p_math_parser.html#a861b289b83de225e61f52477969286d0",
-"class_j_k_q_t_p_plot_element.html#a2474fcf2f944adbab36ad89288aef72f",
-"class_j_k_q_t_p_range_base.html#ae2deb58b13b9da96ff3d69697d91e6cd",
-"class_j_k_q_t_p_x_function_line_graph.html#ae9ac95f45a097cb517fd4228d1169beb",
-"class_j_k_q_t_p_x_y_scatter_graph.html#ae9a71b4e212cb77ea8e16a9960581275",
-"class_j_k_q_t_plotter.html#aa37f5c5b26f27944a3860b2a1bb3a7f4",
-"functions_vars_k.html",
-"group__jkqtplotter__imagelots__tools.html#ga6aa207dcda3a78402791ff0ac46a64fc",
-"group__jkqtplotter__linesymbolgraphs__line.html#gga5e78e9bcb463d22d3fd5d6158a78c8e4a68c0dd656892fc0d765414b8ac1aeb69",
-"group__jkqtptools__drawing.html#gaac974a28de113bf70c40c52ef047063e",
-"group__jkqtptools__math__statistics__adaptors.html#ga50c215acf0acc235545f96d87328c928",
-"struct_j_k_q_t_base_plotter_1_1text_size_key.html#a1906ef6a067f33a707923c3c9ec63e3a",
-"struct_j_k_q_t_p_base_key_1_1_key_layout_description.html#a8de3c1bf0a2ece1e57d2595195894d1b",
-"topics.html"
+"_j_k_q_t_c_make_fetch_content_example.html",
+"class_j_k_q_t_base_plotter.html#a19ff7eb18124c957807dc46e8076e2b7",
+"class_j_k_q_t_base_plotter.html#a9b2ec97c3bf2f8e86b70e278794ab149",
+"class_j_k_q_t_base_plotter_style.html#a3e6d266d588a5e4b1db19c5920e9dc83",
+"class_j_k_q_t_f_p_x_range_plot.html#aae5787fbd736d6e58b8e5b215421391c",
+"class_j_k_q_t_fast_plotter.html#a8f5c3da81211492d603fadf74f472298",
+"class_j_k_q_t_math_text.html#a681b1761c108ebf502449b033d8e9734",
+"class_j_k_q_t_math_text_empty_box_node.html#ab6c1d16b7e7e88e3c59a7c291b3d0e71aa680c9ba147cda97b37930db06892976",
+"class_j_k_q_t_math_text_noop_node.html#a3e1f94331a69c7401d3c3d7c9078e6b3",
+"class_j_k_q_t_math_text_whitespace_node.html#a04b8763a3bf998632812b372774cb15d",
+"class_j_k_q_t_p_base_key.html#a9f78d5cc4dd4ee837097a4e7e9ec43b5",
+"class_j_k_q_t_p_color_palette_with_modifier_style_and_tools_mixin.html#a5730e3db12e4e765ad050e2dfcaf44f4",
+"class_j_k_q_t_p_column_r_g_b_math_image.html#a6de6963906f964d4800deb0c856405f8",
+"class_j_k_q_t_p_coordinate_axis.html#aedadabc5c871eaaf291ee0a2ecb33150",
+"class_j_k_q_t_p_datastore_item.html#af9b87a020b96196c96ef7e8cbab3c1fd",
+"class_j_k_q_t_p_functor_line_graph_base.html#a6529405e546569ee0c5cd640759f6efaa7540ac6617b03f36bb9784979e5faac8",
+"class_j_k_q_t_p_geo_rectangle.html#a9ad0485a69bd6cebe67f8a43b45e4dbb",
+"class_j_k_q_t_p_graph_error_style_mixin.html#a3e2dd181bac88febe3cec78a6eff277e",
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#a52920ba29d55d589428801d09c3b8611",
+"class_j_k_q_t_p_impulses_vertical_error_graph.html#a678c80243fdbea35ce8475cd49c69149",
+"class_j_k_q_t_p_math_parser.html#a86134a418b521d509224a971c10c4f9e",
+"class_j_k_q_t_p_plot_element.html#a209a47acb71fc14068d33aad11beab8d",
+"class_j_k_q_t_p_range_base.html#adec9164df4ac7f83b25842dfc5a46c69",
+"class_j_k_q_t_p_x_function_line_graph.html#adf0b94bd15653fba1cdfdec882c728d2",
+"class_j_k_q_t_p_x_y_scatter_graph.html#a8a35a01162a5ec6b0534605c0a0b7c99",
+"class_j_k_q_t_plotter.html#aa37bad57dd859db9f8d20096017d1e69",
+"functions_vars_j.html",
+"group__jkqtplotter__imagelots__tools.html#ga694cf42623647814dab984c60d472d28",
+"group__jkqtplotter__linesymbolgraphs__line.html#gga5e78e9bcb463d22d3fd5d6158a78c8e4a4e6534f2fd1becefd309284b69ca685b",
+"group__jkqtptools__drawing.html#gaa61b127666717e9cef2e447fe11631c4",
+"group__jkqtptools__math__statistics__adaptors.html#ga4d6431fd319ea8517ee85b99fb6437cb",
+"struct_j_k_q_t_base_plotter_1_1text_size_key.html",
+"struct_j_k_q_t_p_base_key_1_1_key_layout_description.html#a60570ef2ce06475adf5b02f572a3ffd6",
+"struct_j_k_q_t_plotter_drawing_tools.html#aabfecaf7befddb34f77c5f9627b2ba4a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

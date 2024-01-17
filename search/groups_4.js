@@ -4,7 +4,7 @@ var searchData=
   ['charts_20parametrized_20scatter_20graphs_1',['Bubble Charts / Parametrized Scatter Graphs',['../group__jkqtplotter__linesymbolgraphs__param.html',1,'']]],
   ['cimg_20interfaceing_20tools_2',['CImg Interfaceing Tools',['../group__jkqtpinterfacecimg.html',1,'']]],
   ['clasess_3',['Tools around Qt&apos;s clasess',['../group__jkqtptools__qt.html',1,'']]],
-  ['class_4',['class',['../group__jkqtfastplotter.html',1,'JKQTFastPlotter: Speed-Optimized Plotter class'],['../group__jkqtplotter.html',1,'JKQTPlotter: Qt based Scientific Plotter Class'],['../group__jkqtplotter__general__usage__jkqtbaseplotter.html',1,'Usage of JKQTBasePlotter Non-Visible Class']]],
+  ['class_4',['class',['../group__jkqtfastplotter.html',1,'DEPRECATED: JKQTFastPlotter: Speed-Optimized Plotter class'],['../group__jkqtplotter.html',1,'JKQTPlotter: Qt based Scientific Plotter Class'],['../group__jkqtplotter__general__usage__jkqtbaseplotter.html',1,'Usage of JKQTBasePlotter Non-Visible Class']]],
   ['class_20function_20documentation_5',['Type/Class/Function Documentation',['../group__jkqtplotter__classdoc.html',1,'']]],
   ['class_20jkqtmathtext_6',['Math Renderer Class (JKQTMathText)',['../group__jkqtmathtext__render.html',1,'']]],
   ['class_20plotter_20widget_7',['Plotter Class &amp; Plotter Widget',['../group__jkqtpplotterclasses.html',1,'']]],

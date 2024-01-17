@@ -5,7 +5,7 @@ var searchData=
   ['jkqtcommon_2',['Library Facilities for JKQTCommon',['../group__jkqtptools__libfacilities.html',1,'']]],
   ['jkqtcommon_3a_20diverse_20basic_20utilities_3',['JKQTCommon: Diverse Basic Utilities',['../group__jkqtptools__jkqtcommon.html',1,'']]],
   ['jkqtfastplotter_4',['jkqtfastplotter',['../group__jkqtfastplotter___plot_items.html',1,'Plot Elements available in JKQTFastPlotter'],['../group__jkqtfastplotter__tools.html',1,'Tool Functions, Enums, Classes for JKQTFastPlotter']]],
-  ['jkqtfastplotter_3a_20speed_20optimized_20plotter_20class_5',['JKQTFastPlotter: Speed-Optimized Plotter class',['../group__jkqtfastplotter.html',1,'']]],
+  ['jkqtfastplotter_3a_20speed_20optimized_20plotter_20class_5',['DEPRECATED: JKQTFastPlotter: Speed-Optimized Plotter class',['../group__jkqtfastplotter.html',1,'']]],
   ['jkqtmath_6',['Library Facilities for JKQTMath',['../group__jkqtmath__libfacilities.html',1,'']]],
   ['jkqtmath_3a_20special_20math_20and_20statistics_20utilities_7',['JKQTMath: Special Math and Statistics Utilities',['../group__jkqtmath.html',1,'']]],
   ['jkqtmathtext_8',['jkqtmathtext',['../group__jkqtmathtext__general.html',1,'General Information on JKQTMathText'],['../group__jkqtmathtext__libfacilities.html',1,'Library Facilities for JKQTMathText'],['../group__jkqtmathtext__render.html',1,'Math Renderer Class (JKQTMathText)'],['../group__jkqtmathtext__items.html',1,'Render-Tree Items for JKQTMathText'],['../group__jkqtmathtext__tools.html',1,'Tool Functions and Types for JKQTMathText'],['../group__jkqtmathtext__widgets.html',1,'Widgets using JKQTMathText']]],
