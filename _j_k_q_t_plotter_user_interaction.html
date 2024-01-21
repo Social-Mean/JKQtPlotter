@@ -124,16 +124,16 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_user_interaction.html
 <li class="level2"><a href="#autotoc_md103">Mouse Position Display</a></li>
 <li class="level2"><a href="#autotoc_md104">Drag the Plot Viewport</a></li>
 <li class="level2"><a href="#autotoc_md105">Zooming with the Mouse</a></li>
-<li class="level2"><a href="#autotoc_md108">Ruler/Measurement Tool</a></li>
-<li class="level2"><a href="#autotoc_md110">Data ToolTip Tool</a></li>
-<li class="level2"><a href="#autotoc_md111">Drawing Geometrical Forms</a><ul><li class="level3"><a href="#autotoc_md112">Lines</a></li>
-<li class="level3"><a href="#autotoc_md113">Rectangles</a></li>
-<li class="level3"><a href="#autotoc_md115">Circles</a></li>
-<li class="level3"><a href="#autotoc_md117">Ellipses</a></li>
+<li class="level2"><a href="#autotoc_md106">Ruler/Measurement Tool</a></li>
+<li class="level2"><a href="#autotoc_md107">Data ToolTip Tool</a></li>
+<li class="level2"><a href="#autotoc_md108">Drawing Geometrical Forms</a><ul><li class="level3"><a href="#autotoc_md109">Lines</a></li>
+<li class="level3"><a href="#autotoc_md110">Rectangles</a></li>
+<li class="level3"><a href="#autotoc_md111">Circles</a></li>
+<li class="level3"><a href="#autotoc_md112">Ellipses</a></li>
 </ul>
 </li>
-<li class="level2"><a href="#autotoc_md118">Context Menus</a><ul><li class="level3"><a href="#autotoc_md119">Standard Context Menu</a></li>
-<li class="level3"><a href="#autotoc_md120">Special Context Menu</a></li>
+<li class="level2"><a href="#autotoc_md113">Context Menus</a><ul><li class="level3"><a href="#autotoc_md114">Standard Context Menu</a></li>
+<li class="level3"><a href="#autotoc_md115">Special Context Menu</a></li>
 </ul>
 </li>
 </ul>
@@ -217,34 +217,34 @@ Zooming with the Mouse</h2>
  <img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/doc/images/zoomin_mouse_contextmenu.gif" alt="" class="inline"/></li>
 </ul>
 <p>Again these actions are limited to a single axis, if the mouse is above that axis (and not inside the actual plot rectangle).</p>
-<h2><a class="anchor" id="autotoc_md108"></a>
+<h2><a class="anchor" id="autotoc_md106"></a>
 Ruler/Measurement Tool</h2>
 <p><a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> provides a pre-built ruler tool that measures x- and y-distance between the start and end point, as well as the length of the connecting line and the angle of that line.<br  />
 </p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/doc/images/rulertool.gif" alt="" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md110"></a>
+<h2><a class="anchor" id="autotoc_md107"></a>
 Data ToolTip Tool</h2>
 <p><a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> provides a pre-built tool that, while the mouse button is pressed and the cursor is dragged over the plot, finds data points (of most graphs) near the mouse and displays their coordinates (and errors) inside a small tooltip:<br  />
 </p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/doc/images/tooltiptool.gif" alt="" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md111"></a>
+<h2><a class="anchor" id="autotoc_md108"></a>
 Drawing Geometrical Forms</h2>
 <p>You can also use the mouse to draw various geometricals forms. When you finish drawing, a single event is emitted for that form, which contains its size and position:</p>
-<h3><a class="anchor" id="autotoc_md112"></a>
+<h3><a class="anchor" id="autotoc_md109"></a>
 Lines</h3>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/doc/images/draw_line.gif" alt="" class="inline"/></p>
-<h3><a class="anchor" id="autotoc_md113"></a>
+<h3><a class="anchor" id="autotoc_md110"></a>
 Rectangles</h3>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/doc/images/draw_rectangle.gif" alt="" class="inline"/></p>
-<h3><a class="anchor" id="autotoc_md115"></a>
+<h3><a class="anchor" id="autotoc_md111"></a>
 Circles</h3>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/doc/images/draw_circle.gif" alt="" class="inline"/></p>
-<h3><a class="anchor" id="autotoc_md117"></a>
+<h3><a class="anchor" id="autotoc_md112"></a>
 Ellipses</h3>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/doc/images/draw_ellipse.gif" alt="" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md118"></a>
+<h2><a class="anchor" id="autotoc_md113"></a>
 Context Menus</h2>
-<h3><a class="anchor" id="autotoc_md119"></a>
+<h3><a class="anchor" id="autotoc_md114"></a>
 Standard Context Menu</h3>
 <p><a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> contains a standard context menu, which is shown if <code>plot-&gt;setContextMenuMode(jkqtpcmmStandardContextMenu);</code> was set. It contains several standard ways of interacting with the plot, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. save to file, copy to clipboard, print, switch graph visibilities, ...</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/contextmenu_graph_visibility.png" alt="" class="inline"/></p>
@@ -266,7 +266,7 @@ Standard Context Menu</h3>
 <div class="line">}</div>
 </div><!-- fragment --></li>
 </ul>
-<h3><a class="anchor" id="autotoc_md120"></a>
+<h3><a class="anchor" id="autotoc_md115"></a>
 Special Context Menu</h3>
 <p>In addition to the standard context menu, <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> can also be configures to display a special, user-defined context menu. To do so, call <code>plot-&gt;setContextMenuMode(jkqtpcmmSpecialContextMenu);</code> and set your menu, by calling <code>plot-&gt;setSpecialContextMenu(menu)</code>. You can also combine the special menu and the standard menu, by calling <code>plot-&gt;setContextMenuMode(jkqtpcmmStandardAndSpecialContextMenu);</code>. </p>
 </div></div><!-- contents -->
@@ -277,7 +277,7 @@ Special Context Menu</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Sun Jan 21 2024 21:24:43 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Sun Jan 21 2024 21:45:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

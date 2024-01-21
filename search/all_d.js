@@ -109,7 +109,7 @@ var searchData=
   ['inittextstyle_106',['initTextStyle',['../class_j_k_q_t_p_graph_text_style_mixin.html#a4b02a624400a2db5596f533eb0bc810e',1,'JKQTPGraphTextStyleMixin']]],
   ['initviolinplotstyle_107',['initViolinplotStyle',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#af5aff0c7ddda11bedf8e1967b84f4335',1,'JKQTPGraphViolinplotStyleMixin']]],
   ['inline_20function_108',['inline function',['../_j_k_q_t_plotter_function_plots.html#autotoc_md70',1,'Simple C++ inline function'],['../_j_k_q_t_plotter_eval_curves.html#autotoc_md65',1,'Simple C++ inline function']]],
-  ['inline_20function_20with_20parameters_109',['inline function with parameters',['../_j_k_q_t_plotter_function_plots.html#autotoc_md72',1,'Simple C++ inline function with parameters'],['../_j_k_q_t_plotter_eval_curves.html#autotoc_md66',1,'Simple C++ inline function with Parameters']]],
+  ['inline_20function_20with_20parameters_109',['inline function with parameters',['../_j_k_q_t_plotter_function_plots.html#autotoc_md71',1,'Simple C++ inline function with parameters'],['../_j_k_q_t_plotter_eval_curves.html#autotoc_md66',1,'Simple C++ inline function with Parameters']]],
   ['inner_20workings_110',['Inner Workings',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md99',1,'']]],
   ['inserter_20for_20columns_111',['Back-Inserter for Columns',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md39',1,'']]],
   ['inside_20a_20qt_20user_20interface_20designer_20ui_20file_112',['Tutorial (JKQTPlotter): Using a JKQTPlotter inside a Qt User Interface Designer (UI) File',['../_j_k_q_t_plotter_qt_creator.html',1,'exampleTutorialProjects']]],
