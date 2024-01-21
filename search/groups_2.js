@@ -17,6 +17,6 @@ var searchData=
   ['area_20graphs_14',['Filled Polygon/Area Graphs',['../group__jkqtplotter__filledgraphs.html',1,'']]],
   ['around_20qt_20s_20clasess_15',['Tools around Qt&apos;s clasess',['../group__jkqtptools__qt.html',1,'']]],
   ['array_20tools_16',['Data Array Tools',['../group__jkqtptools__math__array.html',1,'']]],
-  ['available_20in_20jkqtfastplotter_17',['Plot Elements available in JKQTFastPlotter',['../group__jkqtfastplotter___plot_items.html',1,'']]],
+  ['available_20in_20jkqtfastplotter_17',['DEPRECATED: Plot Elements available in JKQTFastPlotter',['../group__jkqtfastplotter___plot_items.html',1,'']]],
   ['axes_18',['Coordinate Axes',['../group__jkqtplotter__general__basicplotelements__coordinateaxes.html',1,'']]]
 ];

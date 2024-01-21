@@ -10,7 +10,7 @@ var searchData=
   ['in_20classes_20for_20error_20indicators_7',['Mix-In Classes for Error Indicators',['../group__jkqtplotter__basegraphserrors.html',1,'']]],
   ['in_20classes_20for_20graphs_8',['Mix-in classes for Graphs',['../group__jkqtplotter__mixins.html',1,'']]],
   ['in_20classes_20for_20plot_20styling_9',['Mix-In Classes for Plot Styling',['../group__jkqtplotter__basegraphs__stylemixins.html',1,'']]],
-  ['in_20jkqtfastplotter_10',['Plot Elements available in JKQTFastPlotter',['../group__jkqtfastplotter___plot_items.html',1,'']]],
+  ['in_20jkqtfastplotter_10',['DEPRECATED: Plot Elements available in JKQTFastPlotter',['../group__jkqtfastplotter___plot_items.html',1,'']]],
   ['in_20the_20qt_20form_20designer_11',['How to use JKQTPlotter in the Qt Form Designer',['../group__jkqtplotter__general__usage__qtcreator.html',1,'']]],
   ['indicators_12',['Mix-In Classes for Error Indicators',['../group__jkqtplotter__basegraphserrors.html',1,'']]],
   ['information_13',['General Information',['../group__jkqtplotter__general.html',1,'']]],

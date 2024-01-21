@@ -1,5 +1,12 @@
 var NAVTREEINDEX8 =
 {
+"class_j_k_q_t_math_text_non_drawing_base_node.html#a24d1f560cdaa1852d3a2704054d18854":[11,3,1,2,19,2],
+"class_j_k_q_t_math_text_non_drawing_base_node.html#a29377c4069017a2ab9bfda86d143eeef":[11,3,1,2,19,0],
+"class_j_k_q_t_math_text_non_drawing_base_node.html#a31036630c9601172d3df33a75ae7c4fd":[11,3,1,2,19,3],
+"class_j_k_q_t_math_text_non_drawing_base_node.html#a86bc31becc8d2a17d71c5857e65c53da":[11,3,1,2,19,1],
+"class_j_k_q_t_math_text_non_drawing_base_node.html#af73e7b515cc67524c59d70cd8e01934f":[11,3,1,2,19,4],
+"class_j_k_q_t_math_text_noop_node.html":[11,3,1,2,20],
+"class_j_k_q_t_math_text_noop_node.html#a3ac09bd16078d5acf4d1db273411db0b":[11,3,1,2,20,0],
 "class_j_k_q_t_math_text_noop_node.html#a3e1f94331a69c7401d3c3d7c9078e6b3":[11,3,1,2,20,2],
 "class_j_k_q_t_math_text_noop_node.html#a69a58ed23c1b6b354623e7ca31c6e1df":[11,3,1,2,20,1],
 "class_j_k_q_t_math_text_parser.html":[11,3,1,1,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX8 =
 "class_j_k_q_t_math_text_vertical_list_node.html#aa89ef80aa571e1fac9754f8e8521fb96":[11,3,1,2,31,1],
 "class_j_k_q_t_math_text_vertical_list_node.html#abdcff4aa1226ecc4deec1e65050c36d0":[11,3,1,2,31,2],
 "class_j_k_q_t_math_text_vertical_list_node.html#ace0d44c6bbc8af524bd3800eaea35140":[11,3,1,2,31,5],
-"class_j_k_q_t_math_text_vertical_list_node.html#ad4930d196899ba37f95643f336147e41":[11,3,1,2,31,3],
-"class_j_k_q_t_math_text_vertical_list_node.html#ae0568516acb31e7abe4060c6c1575088":[11,3,1,2,31,22],
-"class_j_k_q_t_math_text_vertical_list_node.html#ae40a19c8f2fb20c9ead29fdf8c87adba":[11,3,1,2,31,9],
-"class_j_k_q_t_math_text_vertical_list_node.html#ae534b664d2444b3931315ac022eb6328":[11,3,1,2,31,18],
-"class_j_k_q_t_math_text_vertical_list_node.html#ae5f006a8be613b9789cd96892be52e74":[11,3,1,2,31,23],
-"class_j_k_q_t_math_text_vertical_list_node.html#ae832fa94edec5f14e294a1ee400bc86d":[11,3,1,2,31,12],
-"class_j_k_q_t_math_text_vertical_list_node.html#af510b70ef51e59e1e2b060bb168c35b5":[11,3,1,2,31,4],
-"class_j_k_q_t_math_text_whitespace_node.html":[11,3,1,2,32]
+"class_j_k_q_t_math_text_vertical_list_node.html#ad4930d196899ba37f95643f336147e41":[11,3,1,2,31,3]
 };

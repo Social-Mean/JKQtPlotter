@@ -3,7 +3,7 @@ var searchData=
   ['fallbacksymbolsfontname_0',['fallbackSymbolsFontName',['../struct_j_k_q_t_math_text_font_specifier.html#a065f546a21f26decca7200ed16d7dfa0',1,'JKQTMathTextFontSpecifier']]],
   ['fillcolor_1',['fillColor',['../class_j_k_q_t_base_plotter_1_1_j_k_q_t_p_pen.html#a391412f5bee81d6954746613f23f49f5',1,'JKQTBasePlotter::JKQTPPen']]],
   ['fillinternalstructfortooltipofclosestdatapoint_2',['fillInternalStructForToolTipOfClosestDataPoint',['../class_j_k_q_t_plotter.html#ae58abe904324c67d95a4c6272f47af8a',1,'JKQTPlotter']]],
-  ['fillstyle_3',['fillStyle',['../class_j_k_q_t_base_plotter_1_1_j_k_q_t_p_pen.html#adf0a51b14a504c8051589e1fa29664ea',1,'JKQTBasePlotter::JKQTPPen']]],
+  ['fillstyle_3',['fillStyle',['../class_j_k_q_t_base_plotter_1_1_j_k_q_t_p_pen.html#aa0e697d296808afcff7b1e6ea13ee22c',1,'JKQTBasePlotter::JKQTPPen']]],
   ['fillstylebelow_4',['fillstylebelow',['../class_j_k_q_t_p_bar_graph_base.html#a31a91f661e59b99893a6a16cc3905d30',1,'JKQTPBarGraphBase::fillStyleBelow()'],['../class_j_k_q_t_p_bar_graph_base.html#a073be1d16234579d1fa72cf0d4cfd889',1,'JKQTPBarGraphBase::fillStyleBelow() const'],['../class_j_k_q_t_p_filled_curve_graph_base.html#a0f1dfe18bdce384f520b48dfc331bac6',1,'JKQTPFilledCurveGraphBase::fillStyleBelow()'],['../class_j_k_q_t_p_filled_curve_graph_base.html#a91b235f6d9640d4112b7ef3c3311fbb7',1,'JKQTPFilledCurveGraphBase::fillStyleBelow() const']]],
   ['filterplotelementbyxaxis_5',['filterPlotElementByXAxis',['../struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html#aaa9428f2a9ef5b23741bbec9424700f7',1,'JKQTBasePlotter::filterPlotElementByXAxis']]],
   ['filterplotelementbyyaxis_6',['filterPlotElementByYAxis',['../struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html#a843b394a87fc97b0337637474e2942ba',1,'JKQTBasePlotter::filterPlotElementByYAxis']]],
@@ -21,6 +21,6 @@ var searchData=
   ['formathittestdefaultlabel_18',['formatHitTestDefaultLabel',['../class_j_k_q_t_p_plot_element.html#acabb25ef081b70ca56e43cbfe1f2f0a8',1,'JKQTPPlotElement']]],
   ['fractype2string_19',['FracType2String',['../class_j_k_q_t_math_text_frac_node.html#a52eb35dcb4d1d8b193b4b79c34d4f013',1,'JKQTMathTextFracNode']]],
   ['fromfontspec_20',['fromFontSpec',['../struct_j_k_q_t_math_text_font_specifier.html#a13d780ab2bbe28aebf8cb0af31e935c3',1,'JKQTMathTextFontSpecifier']]],
-  ['fromstring_21',['fromString',['../struct_j_k_q_t_p_color_derivation_mode.html#a5c32fef2a5e7e52830f2565dac2876a4',1,'JKQTPColorDerivationMode']]],
+  ['fromstring_21',['fromstring',['../class_j_k_q_t_fill_style_summmary.html#a7469b9444c063e197129bd12a4d222b9',1,'JKQTFillStyleSummmary::fromString()'],['../struct_j_k_q_t_p_color_derivation_mode.html#a5c32fef2a5e7e52830f2565dac2876a4',1,'JKQTPColorDerivationMode::fromString()']]],
   ['functionexists_22',['functionExists',['../class_j_k_q_t_p_math_parser.html#a6ee437d931ceb448a4f4660e5032fb18',1,'JKQTPMathParser']]]
 ];

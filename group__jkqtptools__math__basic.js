@@ -44,6 +44,7 @@ var group__jkqtptools__math__basic =
     [ "jkqtp_pow5", "group__jkqtptools__math__basic.html#gabbbdaf85756a7507b98ab3bde7ede1f7", null ],
     [ "jkqtp_reversed", "group__jkqtptools__math__basic.html#ga2ba807321e3c6c55e4917089af18d1cf", null ],
     [ "jkqtp_roundTo", "group__jkqtptools__math__basic.html#ga39d6433341d097414cfbafb194af8af1", null ],
+    [ "jkqtp_roundToDigits", "group__jkqtptools__math__basic.html#ga35b3d496d27020543cd5b9028066218f", null ],
     [ "jkqtp_sign", "group__jkqtptools__math__basic.html#ga4d6acd866986b2430276c746692e020b", null ],
     [ "jkqtp_sqr", "group__jkqtptools__math__basic.html#gacb0b84ffd616c54365266f907cedf400", null ],
     [ "jkqtp_todouble", "group__jkqtptools__math__basic.html#ga99feae906c31cf0bb0d3ce56b47e7e2d", null ],

@@ -13,7 +13,7 @@ var searchData=
   ['for_20graphs_10',['for graphs',['../group__jkqtplotter__basegraphs.html',1,'Baseclasses for Graphs'],['../group__jkqtplotter__mixins.html',1,'Mix-in classes for Graphs']]],
   ['for_20image_20drawing_11',['Tool Functions &amp; Classes for Image Drawing',['../group__jkqtplotter__imagelots__tools.html',1,'']]],
   ['for_20jkqtcommon_12',['Library Facilities for JKQTCommon',['../group__jkqtptools__libfacilities.html',1,'']]],
-  ['for_20jkqtfastplotter_13',['Tool Functions, Enums, Classes for JKQTFastPlotter',['../group__jkqtfastplotter__tools.html',1,'']]],
+  ['for_20jkqtfastplotter_13',['Tool DEPRECATED: Functions, Enums, Classes for JKQTFastPlotter',['../group__jkqtfastplotter__tools.html',1,'']]],
   ['for_20jkqtmath_14',['Library Facilities for JKQTMath',['../group__jkqtmath__libfacilities.html',1,'']]],
   ['for_20jkqtmathtext_15',['for jkqtmathtext',['../group__jkqtmathtext__libfacilities.html',1,'Library Facilities for JKQTMathText'],['../group__jkqtmathtext__items.html',1,'Render-Tree Items for JKQTMathText'],['../group__jkqtmathtext__tools.html',1,'Tool Functions and Types for JKQTMathText']]],
   ['for_20mathematical_20expressions_16',['Parser/Evaluator for Mathematical Expressions',['../group__jkqtptools__math__parser.html',1,'']]],
@@ -27,7 +27,7 @@ var searchData=
   ['functions_24',['functions',['../group__jkqtmathtext__interaltools.html',1,'Library-internal Types and Functions'],['../group__jkqtptools__string.html',1,'String(-Conversion) Functions'],['../group__jkqtpplottersupprt.html',1,'Support Classes and Functions']]],
   ['functions_20and_20types_20for_20jkqtmathtext_25',['Tool Functions and Types for JKQTMathText',['../group__jkqtmathtext__tools.html',1,'']]],
   ['functions_20classes_20for_20image_20drawing_26',['Tool Functions &amp; Classes for Image Drawing',['../group__jkqtplotter__imagelots__tools.html',1,'']]],
-  ['functions_20enums_20classes_20for_20jkqtfastplotter_27',['Tool Functions, Enums, Classes for JKQTFastPlotter',['../group__jkqtfastplotter__tools.html',1,'']]],
+  ['functions_20enums_20classes_20for_20jkqtfastplotter_27',['Tool DEPRECATED: Functions, Enums, Classes for JKQTFastPlotter',['../group__jkqtfastplotter__tools.html',1,'']]],
   ['functions_20to_20build_20lookup_20tables_20for_20palettes_28',['Tool Functions to Build Lookup-Tables for Palettes',['../group__jkqtplotter__imagelots__tools___l_u_t_s.html',1,'']]],
   ['functions_20tools_29',['functions tools',['../group__jkqtptools__general.html',1,'General Functions &amp; Tools'],['../group__jkqtptools__math__basic.html',1,'Mathematical Functions &amp; Tools']]]
 ];

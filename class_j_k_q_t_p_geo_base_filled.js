@@ -7,6 +7,7 @@ var class_j_k_q_t_p_geo_base_filled =
     [ "setColor", "class_j_k_q_t_p_geo_base_filled.html#aca2e2ef89c7c956523a2ba4582a4f48d", null ],
     [ "setStyle", "class_j_k_q_t_p_geo_base_filled.html#a4c7d7ba0684032bf01aeaa0681bc238c", null ],
     [ "setStyle", "class_j_k_q_t_p_geo_base_filled.html#ab4395cae76c2a8356668dc94b15456ec", null ],
+    [ "setStyle", "class_j_k_q_t_p_geo_base_filled.html#a70bdbeca9c0bb20a8c487c0e4a07cbdf", null ],
     [ "setStyle", "class_j_k_q_t_p_geo_base_filled.html#a7e2a198afe5715be0f5ad6b8433cb030", null ],
     [ "setStyle", "class_j_k_q_t_p_geo_base_filled.html#a3ff56d5b0ddeb48c35460e947f0bb8b8", null ],
     [ "setStyle", "class_j_k_q_t_p_geo_base_filled.html#a36cba02798c766f235ce3f4ed0c7e4e6", null ],

@@ -10,6 +10,12 @@ var hierarchy =
     ] ],
     [ "JKQTBasePlotter::filterPlotElementByXAxis", "struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_x_axis.html", null ],
     [ "JKQTBasePlotter::filterPlotElementByYAxis", "struct_j_k_q_t_base_plotter_1_1filter_plot_element_by_y_axis.html", null ],
+    [ "JKQTPCSSParser::GeneralError", "struct_j_k_q_t_p_c_s_s_parser_1_1_general_error.html", [
+      [ "JKQTPCSSParser::UnconvertobleError", "struct_j_k_q_t_p_c_s_s_parser_1_1_unconvertoble_error.html", null ],
+      [ "JKQTPCSSParser::UnexpectedTermError", "struct_j_k_q_t_p_c_s_s_parser_1_1_unexpected_term_error.html", null ],
+      [ "JKQTPCSSParser::UnexpectedTokenError", "struct_j_k_q_t_p_c_s_s_parser_1_1_unexpected_token_error.html", null ],
+      [ "JKQTPCSSParser::WrongNumberOfArgumentError", "struct_j_k_q_t_p_c_s_s_parser_1_1_wrong_number_of_argument_error.html", null ]
+    ] ],
     [ "JKQTPPlotElement::HitTestLocation", "struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html", null ],
     [ "JKQTMathTextBoxInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_box_instruction_node_1_1_instruction_properties.html", null ],
     [ "JKQTMathTextModifiedEnvironmentInstructionNode::InstructionProperties", "struct_j_k_q_t_math_text_modified_environment_instruction_node_1_1_instruction_properties.html", null ],
@@ -31,6 +37,7 @@ var hierarchy =
     [ "JKQTPMathParser::jkmpTempVariable", "struct_j_k_q_t_p_math_parser_1_1jkmp_temp_variable.html", null ],
     [ "JKQTPMathParser::jkmpVariable", "struct_j_k_q_t_p_math_parser_1_1jkmp_variable.html", null ],
     [ "JKQTBasePlotterStyle", "class_j_k_q_t_base_plotter_style.html", null ],
+    [ "JKQTFillStyleSummmary", "class_j_k_q_t_fill_style_summmary.html", null ],
     [ "JKQTGraphsBaseStyle", "class_j_k_q_t_graphs_base_style.html", null ],
     [ "JKQTGraphsSpecificStyleProperties", "class_j_k_q_t_graphs_specific_style_properties.html", [
       [ "JKQTBarchartSpecificStyleProperties", "class_j_k_q_t_barchart_specific_style_properties.html", null ],
@@ -113,9 +120,12 @@ var hierarchy =
     [ "JKQTPCoordinateAxisStyle", "class_j_k_q_t_p_coordinate_axis_style.html", [
       [ "JKQTPColorbarCoordinateAxisStyle", "class_j_k_q_t_p_colorbar_coordinate_axis_style.html", null ]
     ] ],
+    [ "JKQTPCSSParser", "class_j_k_q_t_p_c_s_s_parser.html", null ],
     [ "JKQTPDataCache< TData, TKey, ThreadSafe, TKeyInSignature >", "struct_j_k_q_t_p_data_cache.html", null ],
     [ "JKQTPDatastore", "class_j_k_q_t_p_datastore.html", null ],
     [ "JKQTPDatastoreItem", "class_j_k_q_t_p_datastore_item.html", null ],
+    [ "JKQTPExpected< T, E >", "struct_j_k_q_t_p_expected.html", null ],
+    [ "JKQTPExpectedUnexpectedType", "group__jkqtptools__general.html#struct_j_k_q_t_p_expected_unexpected_type", null ],
     [ "JKQTPFinalAct< F >", "class_j_k_q_t_p_final_act.html", null ],
     [ "JKQTPGraphErrorStyleMixin", "class_j_k_q_t_p_graph_error_style_mixin.html", [
       [ "JKQTPXGraphErrors", "class_j_k_q_t_p_x_graph_errors.html", [
@@ -295,6 +305,7 @@ var hierarchy =
     [ "JKQTPXYParametrizedScatterGraph::MappedSymbolFunctor", "struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html", null ],
     [ "JKQTPlotter::MouseDragAction", "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html", null ],
     [ "JKQTPlotter::MouseDragMarker", "struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html", null ],
+    [ "JKQTPCSSParser::NumberWithUnit", "struct_j_k_q_t_p_c_s_s_parser_1_1_number_with_unit.html", null ],
     [ "JKQTPParsedFunctionLineGraphBase::ParsedFunctionLineGraphFunctionData", "struct_j_k_q_t_p_parsed_function_line_graph_base_1_1_parsed_function_line_graph_function_data.html", null ],
     [ "JKQTPEvaluatedFunctionGraphBase::PlotFunctorSpec", "struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html", null ],
     [ "JKQTBasePlotter::PlotMargin", "struct_j_k_q_t_base_plotter_1_1_plot_margin.html", null ],
@@ -442,6 +453,7 @@ var hierarchy =
     [ "QWidget", null, [
       [ "JKQTPlotter", "class_j_k_q_t_plotter.html", null ]
     ] ],
+    [ "JKQTPCSSParser::RawErrorTag_t", "class_j_k_q_t_p_c_s_s_parser.html#struct_j_k_q_t_p_c_s_s_parser_1_1_raw_error_tag__t", null ],
     [ "JKQTPSynchronized< T >::ReadLocker", "class_j_k_q_t_p_synchronized_1_1_read_locker.html", null ],
     [ "JKQTPBarGraphBase::SimpleFillBrushFunctorAdaptor", "struct_j_k_q_t_p_bar_graph_base_1_1_simple_fill_brush_functor_adaptor.html", null ],
     [ "JKQTPLinePlotStyleWithSymbolSizeComboBox::styleData", "struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html", null ],
@@ -449,6 +461,7 @@ var hierarchy =
     [ "JKQTMathTextSymbolNode::SymbolFullProps", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_full_props.html", null ],
     [ "JKQTMathTextSymbolNode::SymbolProps", "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html", null ],
     [ "JKQTBasePlotter::textSizeKey", "struct_j_k_q_t_base_plotter_1_1text_size_key.html", null ],
+    [ "JKQTPCSSParser::Token", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html", null ],
     [ "JKQTMathTextWhitespaceNode::WhitespaceProps", "struct_j_k_q_t_math_text_whitespace_node_1_1_whitespace_props.html", null ],
     [ "JKQTPSynchronized< T >::WriteLocker", "class_j_k_q_t_p_synchronized_1_1_write_locker.html", null ]
 ];

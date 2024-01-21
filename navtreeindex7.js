@@ -1,5 +1,12 @@
 var NAVTREEINDEX7 =
 {
+"class_j_k_q_t_math_text_empty_box_node.html#a4c9a38f2288ece89330fd084416a501d":[11,3,1,2,9,9],
+"class_j_k_q_t_math_text_empty_box_node.html#a6f1863a15cc8f154b9d6c04d7337f86b":[11,3,1,2,9,7],
+"class_j_k_q_t_math_text_empty_box_node.html#a99c3f090a9e14862364f9d6efb942327":[11,3,1,2,9,16],
+"class_j_k_q_t_math_text_empty_box_node.html#ab354a40b46dec4889777ce026e8fe158":[11,3,1,2,9,11],
+"class_j_k_q_t_math_text_empty_box_node.html#ab47277235a53d19da8499bc202793385":[11,3,1,2,9,4],
+"class_j_k_q_t_math_text_empty_box_node.html#ab6c1d16b7e7e88e3c59a7c291b3d0e71":[11,3,1,2,9,0],
+"class_j_k_q_t_math_text_empty_box_node.html#ab6c1d16b7e7e88e3c59a7c291b3d0e71a730e20507c5568895cbe9f2300549a51":[11,3,1,2,9,0,1],
 "class_j_k_q_t_math_text_empty_box_node.html#ab6c1d16b7e7e88e3c59a7c291b3d0e71aa680c9ba147cda97b37930db06892976":[11,3,1,2,9,0,0],
 "class_j_k_q_t_math_text_empty_box_node.html#abb4aaa2b6760573d32be8c4d1a6921f6":[11,3,1,2,9,1],
 "class_j_k_q_t_math_text_empty_box_node.html#abd9223df0003ea2014aacfca11277933":[11,3,1,2,9,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX7 =
 "class_j_k_q_t_math_text_node.html#af26f91923648b4a06693cd4255ff91af":[11,3,1,2,18,13],
 "class_j_k_q_t_math_text_node.html#af6753f72f52bad706a4b3e3dc8332985":[11,3,1,2,18,20],
 "class_j_k_q_t_math_text_node.html#afdec8ae06750ccbc25045c60d0a973e0":[11,3,1,2,18,25],
-"class_j_k_q_t_math_text_non_drawing_base_node.html":[11,3,1,2,19],
-"class_j_k_q_t_math_text_non_drawing_base_node.html#a24d1f560cdaa1852d3a2704054d18854":[11,3,1,2,19,2],
-"class_j_k_q_t_math_text_non_drawing_base_node.html#a29377c4069017a2ab9bfda86d143eeef":[11,3,1,2,19,0],
-"class_j_k_q_t_math_text_non_drawing_base_node.html#a31036630c9601172d3df33a75ae7c4fd":[11,3,1,2,19,3],
-"class_j_k_q_t_math_text_non_drawing_base_node.html#a86bc31becc8d2a17d71c5857e65c53da":[11,3,1,2,19,1],
-"class_j_k_q_t_math_text_non_drawing_base_node.html#af73e7b515cc67524c59d70cd8e01934f":[11,3,1,2,19,4],
-"class_j_k_q_t_math_text_noop_node.html":[11,3,1,2,20],
-"class_j_k_q_t_math_text_noop_node.html#a3ac09bd16078d5acf4d1db273411db0b":[11,3,1,2,20,0]
+"class_j_k_q_t_math_text_non_drawing_base_node.html":[11,3,1,2,19]
 };

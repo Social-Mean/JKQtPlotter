@@ -1,7 +1,7 @@
 var group__jkqtfastplotter =
 [
-    [ "Plot Elements available in JKQTFastPlotter", "group__jkqtfastplotter___plot_items.html", "group__jkqtfastplotter___plot_items" ],
-    [ "Tool Functions, Enums, Classes for JKQTFastPlotter", "group__jkqtfastplotter__tools.html", "group__jkqtfastplotter__tools" ],
+    [ "DEPRECATED: Plot Elements available in JKQTFastPlotter", "group__jkqtfastplotter___plot_items.html", "group__jkqtfastplotter___plot_items" ],
+    [ "Tool DEPRECATED: Functions, Enums, Classes for JKQTFastPlotter", "group__jkqtfastplotter__tools.html", "group__jkqtfastplotter__tools" ],
     [ "JKQTFastPlotter", "class_j_k_q_t_fast_plotter.html", [
       [ "JKQTFastPlotter", "class_j_k_q_t_fast_plotter.html#aa8f897252b1be7838e83b676cd569387", null ],
       [ "addPlot", "class_j_k_q_t_fast_plotter.html#a1e4b786b00f4c6e2797904e8c4ef8acd", null ],

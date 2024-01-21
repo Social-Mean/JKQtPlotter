@@ -51,7 +51,7 @@ var searchData=
   ['defaultfontname_48',['defaultfontname',['../class_j_k_q_t_base_plotter_style.html#a715787f090345055850aa775806089ba',1,'JKQTBasePlotterStyle::defaultFontName'],['../class_j_k_q_t_annotations_specific_style_properties.html#a4c4d5ac50690b2610f94a40dddfd468c',1,'JKQTAnnotationsSpecificStyleProperties::defaultFontName']]],
   ['defaultfontsize_49',['defaultfontsize',['../class_j_k_q_t_base_plotter_style.html#a77682af31f24f7a560718d6c6574b317',1,'JKQTBasePlotterStyle::defaultFontSize'],['../class_j_k_q_t_annotations_specific_style_properties.html#a704c5de985f4a91a2e5b14802671ed66',1,'JKQTAnnotationsSpecificStyleProperties::defaultFontSize']]],
   ['defaultgraphcolors_50',['defaultGraphColors',['../class_j_k_q_t_graphs_base_style.html#a2b78e95ac6f6414e3d5c3b3df6bbd8dd',1,'JKQTGraphsBaseStyle']]],
-  ['defaultgraphfillstyles_51',['defaultGraphFillStyles',['../class_j_k_q_t_graphs_base_style.html#a96a8ae00aff7e8dbc14248262e82ab70',1,'JKQTGraphsBaseStyle']]],
+  ['defaultgraphfillstyles_51',['defaultGraphFillStyles',['../class_j_k_q_t_graphs_base_style.html#a29c56c73bdafa7932a56210bfb71a6ff',1,'JKQTGraphsBaseStyle']]],
   ['defaultgraphpenstyles_52',['defaultGraphPenStyles',['../class_j_k_q_t_graphs_base_style.html#aac3c30752db9072de252d9b1d8e6929e',1,'JKQTGraphsBaseStyle']]],
   ['defaultgraphstyle_53',['defaultGraphStyle',['../class_j_k_q_t_graphs_base_style.html#a15d123d0b88bce9b22f0c3449308f718',1,'JKQTGraphsBaseStyle']]],
   ['defaultgraphsymbols_54',['defaultGraphSymbols',['../class_j_k_q_t_graphs_base_style.html#ae358671101454d4b8cbd899736d260aa',1,'JKQTGraphsBaseStyle']]],

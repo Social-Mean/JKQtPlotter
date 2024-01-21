@@ -14,7 +14,7 @@ var searchData=
   ['classes_20for_20error_20indicators_11',['Mix-In Classes for Error Indicators',['../group__jkqtplotter__basegraphserrors.html',1,'']]],
   ['classes_20for_20graphs_12',['Mix-in classes for Graphs',['../group__jkqtplotter__mixins.html',1,'']]],
   ['classes_20for_20image_20drawing_13',['Tool Functions &amp; Classes for Image Drawing',['../group__jkqtplotter__imagelots__tools.html',1,'']]],
-  ['classes_20for_20jkqtfastplotter_14',['Tool Functions, Enums, Classes for JKQTFastPlotter',['../group__jkqtfastplotter__tools.html',1,'']]],
+  ['classes_20for_20jkqtfastplotter_14',['Tool DEPRECATED: Functions, Enums, Classes for JKQTFastPlotter',['../group__jkqtfastplotter__tools.html',1,'']]],
   ['classes_20for_20plot_20styling_15',['Mix-In Classes for Plot Styling',['../group__jkqtplotter__basegraphs__stylemixins.html',1,'']]],
   ['code_20structuring_20tools_16',['Code Structuring Tools',['../group__jkqtptools__codestructuring.html',1,'']]],
   ['comboboxes_20for_20properties_20of_20jkqtbaseplotter_20jkqtplotter_17',['Comboboxes for Properties of JKQTBasePlotter/JKQTPlotter',['../group__jkqtpcomboboxes.html',1,'']]],
@@ -25,5 +25,6 @@ var searchData=
   ['contour_20graphs_20based_20on_20image_20data_22',['Contour Graphs (based on Image Data)',['../group__jkqtplotter__imagelots__contour.html',1,'']]],
   ['conventions_3a_20naming_20and_20plot_20construction_23',['Conventions: Naming and Plot Construction',['../group__jkqtplotter__naming.html',1,'']]],
   ['conversion_20functions_24',['String(-Conversion) Functions',['../group__jkqtptools__string.html',1,'']]],
-  ['coordinate_20axes_25',['Coordinate Axes',['../group__jkqtplotter__general__basicplotelements__coordinateaxes.html',1,'']]]
+  ['coordinate_20axes_25',['Coordinate Axes',['../group__jkqtplotter__general__basicplotelements__coordinateaxes.html',1,'']]],
+  ['css_20parsing_20tools_26',['CSS Parsing Tools',['../group__jkqtptools__css.html',1,'']]]
 ];

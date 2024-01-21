@@ -1,5 +1,12 @@
 var group__jkqtptools__math__parser =
 [
+    [ "JKQTPCSSParser::GeneralError", "struct_j_k_q_t_p_c_s_s_parser_1_1_general_error.html", [
+      [ "GeneralError", "struct_j_k_q_t_p_c_s_s_parser_1_1_general_error.html#aa18da2e551d033a2f11b09be0a455e80", null ],
+      [ "GeneralError", "struct_j_k_q_t_p_c_s_s_parser_1_1_general_error.html#a9f1f219657ba8b65f4509f9d8ef41a37", null ],
+      [ "GeneralError", "struct_j_k_q_t_p_c_s_s_parser_1_1_general_error.html#a1ee0ce3f2b42083dcb80fdacbd3ccaab", null ],
+      [ "error", "struct_j_k_q_t_p_c_s_s_parser_1_1_general_error.html#a89f7a7bb5a2ab66164df6034bf256aa1", null ],
+      [ "pos", "struct_j_k_q_t_p_c_s_s_parser_1_1_general_error.html#ae31865e9ebaa169f5112fff66e4641ec", null ]
+    ] ],
     [ "JKQTPMathParser::jkmpBinaryArithmeticNode", "class_j_k_q_t_p_math_parser_1_1jkmp_binary_arithmetic_node.html", [
       [ "jkmpBinaryArithmeticNode", "class_j_k_q_t_p_math_parser_1_1jkmp_binary_arithmetic_node.html#a503f3ec8486eaab86b42f80375e6c945", null ],
       [ "~jkmpBinaryArithmeticNode", "class_j_k_q_t_p_math_parser_1_1jkmp_binary_arithmetic_node.html#ae0a4f963feda87718b59b6e36abdcdea", null ],
@@ -116,6 +123,26 @@ var group__jkqtptools__math__parser =
       [ "evaluate", "class_j_k_q_t_p_math_parser_1_1jkmp_variable_node.html#a1c440c83221aa21293fe6e39fc5ac9e8", null ],
       [ "var", "class_j_k_q_t_p_math_parser_1_1jkmp_variable_node.html#a1568dd80931f2e738695a97064e1a2eb", null ]
     ] ],
+    [ "JKQTPCSSParser", "class_j_k_q_t_p_c_s_s_parser.html", [
+      [ "RawErrorTag_t", "class_j_k_q_t_p_c_s_s_parser.html#struct_j_k_q_t_p_c_s_s_parser_1_1_raw_error_tag__t", null ],
+      [ "JKQTPCSSParser", "class_j_k_q_t_p_c_s_s_parser.html#ae7bfc02e848f6a79b7a18ed644dc5bd9", null ],
+      [ "getCh", "class_j_k_q_t_p_c_s_s_parser.html#a09b103631d1816ae19a6da492990d86a", null ],
+      [ "getToken", "class_j_k_q_t_p_c_s_s_parser.html#ada580a38cad65e21a7fbbd40b11efdad", null ],
+      [ "parseColor", "class_j_k_q_t_p_c_s_s_parser.html#a0cbbd3f2984684e41284b33d2d8d6bd5", null ],
+      [ "parseGradient", "class_j_k_q_t_p_c_s_s_parser.html#a5bde09439bc1cd96baa6a84927f1561f", null ],
+      [ "parseNumberWithUnit", "class_j_k_q_t_p_c_s_s_parser.html#a48a76f973689b49db99fbd87dae44aa1", null ],
+      [ "peekCh", "class_j_k_q_t_p_c_s_s_parser.html#a7d206ec3bf8b822ec40cc70a6079a0a4", null ],
+      [ "peekNextToken", "class_j_k_q_t_p_c_s_s_parser.html#af840997cb85f4311ef5cc2e2f538e42e", null ],
+      [ "putBackCh", "class_j_k_q_t_p_c_s_s_parser.html#aed74d5aba9777996a9420a3d54aefd75", null ],
+      [ "readColor", "class_j_k_q_t_p_c_s_s_parser.html#a53aca23795cb8a4b5618131ec3352129", null ],
+      [ "readGradient", "class_j_k_q_t_p_c_s_s_parser.html#a4937f8e0cceb5c5d7fc8b01489589c27", null ],
+      [ "readNumberWithUnit", "class_j_k_q_t_p_c_s_s_parser.html#a504812a5f8abde23d14569ae57d8be01", null ],
+      [ "textAtEnd", "class_j_k_q_t_p_c_s_s_parser.html#a78f8df2dc15d836a312dfb57e9e5ca6b", null ],
+      [ "CurrentToken", "class_j_k_q_t_p_c_s_s_parser.html#abc2fb166591cb2bb061721e657cec4d8", null ],
+      [ "pos", "class_j_k_q_t_p_c_s_s_parser.html#a6c113870288ea256b0a1f82a051a772b", null ],
+      [ "RawErrorTag", "class_j_k_q_t_p_c_s_s_parser.html#a8f78052bce96d0de6ad724e65828a637", null ],
+      [ "text", "class_j_k_q_t_p_c_s_s_parser.html#a194a1e90167d6232bdaa042811ca1163", null ]
+    ] ],
     [ "JKQTPMathParser", "class_j_k_q_t_p_math_parser.html", [
       [ "jkmpEvaluateFunc", "class_j_k_q_t_p_math_parser.html#ac1c40abe442d0c20ed92b6a4b8250527", null ],
       [ "jkmpexceptionf", "class_j_k_q_t_p_math_parser.html#a309437e953b9581c0954181909553a32", null ],
@@ -226,5 +253,55 @@ var group__jkqtptools__math__parser =
       [ "StringValue", "class_j_k_q_t_p_math_parser.html#aeef0b6d7ffd15344856c7b437e7b3930", null ],
       [ "tempvariables", "class_j_k_q_t_p_math_parser.html#ad29eee6dfc08819f3735ae8918b3f929", null ],
       [ "variables", "class_j_k_q_t_p_math_parser.html#afaf9ea185979d3c371efe3c84abb29ef", null ]
+    ] ],
+    [ "JKQTPCSSParser::NumberWithUnit", "struct_j_k_q_t_p_c_s_s_parser_1_1_number_with_unit.html", [
+      [ "NumberWithUnit", "struct_j_k_q_t_p_c_s_s_parser_1_1_number_with_unit.html#a56f00e1a0aa379556277e2470f796427", null ],
+      [ "normHueNumber", "struct_j_k_q_t_p_c_s_s_parser_1_1_number_with_unit.html#abe241dd602d40dbe61f6ded9f93472a0", null ],
+      [ "normNumber", "struct_j_k_q_t_p_c_s_s_parser_1_1_number_with_unit.html#a2c9d4bff73f393a1336a80c2134d7072", null ],
+      [ "normRGBNumber", "struct_j_k_q_t_p_c_s_s_parser_1_1_number_with_unit.html#aba7509724b878dc43afc6bf8dbd543ed", null ],
+      [ "normUnit", "struct_j_k_q_t_p_c_s_s_parser_1_1_number_with_unit.html#a4a5698a6ea9e341b69f20f00be56041f", null ],
+      [ "operator==", "struct_j_k_q_t_p_c_s_s_parser_1_1_number_with_unit.html#ae1d37f1bfa763a679f1a555f22bde3f9", null ],
+      [ "number", "struct_j_k_q_t_p_c_s_s_parser_1_1_number_with_unit.html#a060c8c15f02f108ccad73e21d3099591", null ],
+      [ "unit", "struct_j_k_q_t_p_c_s_s_parser_1_1_number_with_unit.html#a57b6b0cb6c5d39d10001279ebd6974c1", null ]
+    ] ],
+    [ "JKQTPCSSParser::Token", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html", [
+      [ "TokenType", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#abd2255403ecd72929a73f4f41c9b16f9", [
+        [ "END", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#abd2255403ecd72929a73f4f41c9b16f9ae37f7a8376282b0e6e602c76df26d7e5", null ],
+        [ "NAME", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#abd2255403ecd72929a73f4f41c9b16f9a788d7e2a88feff5011dd55f3067e1a1e", null ],
+        [ "NUMBER", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#abd2255403ecd72929a73f4f41c9b16f9a84fed398efb10f8617710fa308f3f9d2", null ],
+        [ "HEXSTRING", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#abd2255403ecd72929a73f4f41c9b16f9a29bf5fd9d2087ce9580f97a862e923fd", null ],
+        [ "LBRACKET", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#abd2255403ecd72929a73f4f41c9b16f9a1f62e11d0ea4eb10778d7e95fb1ff4ab", null ],
+        [ "RBRACKET", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#abd2255403ecd72929a73f4f41c9b16f9ae255b4972c9273eaf0735f2382bf418c", null ],
+        [ "COMMA", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#abd2255403ecd72929a73f4f41c9b16f9aa641db4ee2c2ccb2b2f58a53762657ca", null ],
+        [ "SLASH", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#abd2255403ecd72929a73f4f41c9b16f9a3964e41dfc434a1f974c6670fd41fbe2", null ]
+      ] ],
+      [ "Token", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#a2e1940a740f18b73dcdb5821dd96b835", null ],
+      [ "Token", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#a330d6f1dc5d980bd97621c5965ec2b9b", null ],
+      [ "Token", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#a5448dee54a91e03c1a2af0801a288455", null ],
+      [ "Token", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#a85c9de0ed4a394d2d0ff7c9fbda36add", null ],
+      [ "getNormString", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#a04e5eb4187c2f9910f85ce65295f574b", null ],
+      [ "is", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#ae1388a66336079064b2d20429039ddad", null ],
+      [ "isNormString", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#a77bc872db68fd27a698d90d81a9b90e3", null ],
+      [ "isNormStringAnyOf", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#a469f92f746801b3c98ecb6aeb8b75c16", null ],
+      [ "toString", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#a253c76fdaabadd351019a14a22631e60", null ],
+      [ "toString", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#a960e283e15d569a02b0dd6dba04ba6cc", null ],
+      [ "NumberValue", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#adb9f97e67c7dc20f1b00c01529784180", null ],
+      [ "StringValue", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#a0a234170ea10425790f09094d0fcc183", null ],
+      [ "type", "struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#a11c503fe06936057fe04fb33157f7fc8", null ]
+    ] ],
+    [ "JKQTPCSSParser::UnconvertobleError", "struct_j_k_q_t_p_c_s_s_parser_1_1_unconvertoble_error.html", [
+      [ "UnconvertobleError", "struct_j_k_q_t_p_c_s_s_parser_1_1_unconvertoble_error.html#a253b395dfd2b8a57c1cbadea0d11b74e", null ]
+    ] ],
+    [ "JKQTPCSSParser::UnexpectedTermError", "struct_j_k_q_t_p_c_s_s_parser_1_1_unexpected_term_error.html", [
+      [ "UnexpectedTermError", "struct_j_k_q_t_p_c_s_s_parser_1_1_unexpected_term_error.html#a33f3aa3006ffaa9b35426858eb0a709a", null ],
+      [ "UnexpectedTermError", "struct_j_k_q_t_p_c_s_s_parser_1_1_unexpected_term_error.html#ad2a155e8ae55baede4812eea9cfacbb0", null ]
+    ] ],
+    [ "JKQTPCSSParser::UnexpectedTokenError", "struct_j_k_q_t_p_c_s_s_parser_1_1_unexpected_token_error.html", [
+      [ "UnexpectedTokenError", "struct_j_k_q_t_p_c_s_s_parser_1_1_unexpected_token_error.html#ad479c59bffec42911c746dd97304602b", null ],
+      [ "UnexpectedTokenError", "struct_j_k_q_t_p_c_s_s_parser_1_1_unexpected_token_error.html#a5de35bfeeb7b1d77fa0a49aa034c8598", null ],
+      [ "UnexpectedTokenError", "struct_j_k_q_t_p_c_s_s_parser_1_1_unexpected_token_error.html#ad3929ffb15bc6142e12a040a3cde3798", null ]
+    ] ],
+    [ "JKQTPCSSParser::WrongNumberOfArgumentError", "struct_j_k_q_t_p_c_s_s_parser_1_1_wrong_number_of_argument_error.html", [
+      [ "WrongNumberOfArgumentError", "struct_j_k_q_t_p_c_s_s_parser_1_1_wrong_number_of_argument_error.html#a6920e1719c268ad41e14deeeee9d2167", null ]
     ] ]
 ];

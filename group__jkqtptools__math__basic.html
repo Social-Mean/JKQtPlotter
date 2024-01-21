@@ -272,6 +272,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga39d6433341d097414cfbafb194af8af1"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__basic.html#ga39d6433341d097414cfbafb194af8af1">jkqtp_roundTo</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">v</a>)</td></tr>
 <tr class="memdesc:ga39d6433341d097414cfbafb194af8af1"><td class="mdescLeft">&#160;</td><td class="mdescRight">round a double <em>v</em> using round() and convert it to a specified type T (static_cast!)  <br /></td></tr>
 <tr class="separator:ga39d6433341d097414cfbafb194af8af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga35b3d496d27020543cd5b9028066218f" id="r_ga35b3d496d27020543cd5b9028066218f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__basic.html#ga35b3d496d27020543cd5b9028066218f">jkqtp_roundToDigits</a> (<a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">v</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">int</a> <a class="el" href="class_j_k_q_t_p_final_act.html">decDigits</a>)</td></tr>
+<tr class="memdesc:ga35b3d496d27020543cd5b9028066218f"><td class="mdescLeft">&#160;</td><td class="mdescRight">round a double <em>v</em> using round() to a given number of decimal digits  <br /></td></tr>
+<tr class="separator:ga35b3d496d27020543cd5b9028066218f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4d6acd866986b2430276c746692e020b" id="r_ga4d6acd866986b2430276c746692e020b"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">class</a> T &gt; </td></tr>
 <tr class="memitem:ga4d6acd866986b2430276c746692e020b"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__basic.html#ga4d6acd866986b2430276c746692e020b">jkqtp_sign</a> (T x)</td></tr>
 <tr class="memdesc:ga4d6acd866986b2430276c746692e020b"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the sign of number <em>x</em> (-1 for x&lt;0 and +1 for x&gt;=0)  <br /></td></tr>
@@ -1678,6 +1681,52 @@ template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">typename</a> T &
 </div><!-- fragment --> 
 </div>
 </div>
+<a id="ga35b3d496d27020543cd5b9028066218f" name="ga35b3d496d27020543cd5b9028066218f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga35b3d496d27020543cd5b9028066218f">&#9670;&#160;</a></span>jkqtp_roundToDigits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">double</a> jkqtp_roundToDigits </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">double</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">int</a>&#160;</td>
+          <td class="paramname"><em>decDigits</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>round a double <em>v</em> using round() to a given number of decimal digits </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>the value to round and cast </td></tr>
+    <tr><td class="paramname">decDigits</td><td>number of decimal digits, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. precision of the result</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>this is equivalent to </p><div class="fragment"><div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">round</a>(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">v</a> * <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">pow</a>(10.0,(<span class="keywordtype">double</span>)<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">decDigits</a>))/<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">pow</a>(10.0,(<span class="keywordtype">double</span>)<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">decDigits</a>);</div>
+</div><!-- fragment --> 
+</div>
+</div>
 <a id="ga4d6acd866986b2430276c746692e020b" name="ga4d6acd866986b2430276c746692e020b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga4d6acd866986b2430276c746692e020b">&#9670;&#160;</a></span>jkqtp_sign()</h2>
 
@@ -1978,7 +2027,7 @@ template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">typename</a> T &
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 17 2024 20:39:08 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Sun Jan 21 2024 21:24:43 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
