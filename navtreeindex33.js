@@ -1,5 +1,9 @@
 var NAVTREEINDEX33 =
 {
+"struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html":[11,4,1,3,0,12],
+"struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html#a0b8f30da0d1083cc3af43279c384c0e3":[11,4,1,3,0,12,2],
+"struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html#a117e241c52e4d6ff1fe5142a82c61109":[11,4,1,3,0,12,1],
+"struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html#a4bd29e686e5d0f9e8b5d2b66c0bb1844":[11,4,1,3,0,12,0],
 "struct_j_k_q_t_p_line_plot_style_with_symbol_size_combo_box_1_1style_data.html#a9c0df875e6699b03020b581584192211":[11,4,1,3,0,12,3],
 "struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor.html":[11,2,4,6],
 "struct_j_k_q_t_p_math_parser_1_1jkmp_function_descriptor.html#a0f7aeb0ba6d33c6e04b7daa9eceb6b1b":[11,2,4,6,0],
@@ -96,8 +100,14 @@ var NAVTREEINDEX33 =
 "struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#ae75d5b0a0258a492bc851b4290caa174":[11,4,1,2,7,4],
 "struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#aed2637d22057ff67a7430d23dabff771":[11,4,1,2,7,0],
 "struct_j_k_q_t_plotter_drawing_tools.html":[11,1,4,1],
+"struct_j_k_q_t_plotter_drawing_tools.html#a26445b0fad2f23e2c9d481c05ac8cbe5":[11,1,4,1,6],
+"struct_j_k_q_t_plotter_drawing_tools.html#a332f3e9f535961dc1ddb7722668d9b85":[11,1,4,1,8],
+"struct_j_k_q_t_plotter_drawing_tools.html#a34d14a2ff972e078e3e6ee3af9063077":[11,1,4,1,7],
 "struct_j_k_q_t_plotter_drawing_tools.html#a6d0b8d3a5388fe62c1a5bcec87608078":[11,1,4,1,1],
+"struct_j_k_q_t_plotter_drawing_tools.html#aa6271f33303a8ec72052fb772cd82ed0":[11,1,4,1,3],
 "struct_j_k_q_t_plotter_drawing_tools.html#aabfecaf7befddb34f77c5f9627b2ba4a":[11,1,4,1,0],
 "struct_j_k_q_t_plotter_drawing_tools.html#ab2f73282b1b10407fa55fdb2883d70e1":[11,1,4,1,2],
+"struct_j_k_q_t_plotter_drawing_tools.html#abfca06934e39ed81168f9bc34c72009f":[11,1,4,1,4],
+"struct_j_k_q_t_plotter_drawing_tools.html#ac2e0ea58f3b756c2a29293fd554a7ece":[11,1,4,1,5],
 "topics.html":[11]
 };

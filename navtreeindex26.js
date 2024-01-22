@@ -1,5 +1,7 @@
 var NAVTREEINDEX26 =
 {
+"functions_g.html":[13,3,0,6],
+"functions_h.html":[13,3,0,7],
 "functions_i.html":[13,3,0,8],
 "functions_j.html":[13,3,0,9],
 "functions_k.html":[13,3,0,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX26 =
 "group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9baefc27e718331d2fe6ef1d70fce52fdb4":[11,4,1,1,2,0,9,12],
 "group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9baf14ae095da10dea4a5dd19b6b6e6ffde":[11,4,1,1,2,0,9,14],
 "group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9baf1743a1b5a00f275e9ead5b9f409391c":[11,4,1,1,2,0,9,16],
-"group__jkqtplotter__classdoc.html":[11,4,1],
-"group__jkqtplotter__concretegraphs.html":[11,4,1,1,1],
-"group__jkqtplotter__elements.html":[11,4,1,1]
+"group__jkqtplotter__classdoc.html":[11,4,1]
 };

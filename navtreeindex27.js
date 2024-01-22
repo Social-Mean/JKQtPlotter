@@ -1,5 +1,7 @@
 var NAVTREEINDEX27 =
 {
+"group__jkqtplotter__concretegraphs.html":[11,4,1,1,1],
+"group__jkqtplotter__elements.html":[11,4,1,1],
 "group__jkqtplotter__eventgraphs.html":[11,4,1,1,1,2],
 "group__jkqtplotter__filledgraphs.html":[11,4,1,1,1,3],
 "group__jkqtplotter__functiongraphs.html":[11,4,1,1,1,7,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "group__jkqtplotter__imagelots__tools.html#ggab8a96386e4f981f6917c20a8f03215bfa49c33543c919e1d860db92c9c9fa1dc2":[11,4,1,1,1,8,2,8,3],
 "group__jkqtplotter__imagelots__tools.html#ggab8a96386e4f981f6917c20a8f03215bfa84e64ef495bbc32ba3fed7aae44c1fb2":[11,4,1,1,1,8,2,8,6],
 "group__jkqtplotter__imagelots__tools.html#ggab8a96386e4f981f6917c20a8f03215bfa96a19a07da737e5662a4bdf290b511cc":[11,4,1,1,1,8,2,8,5],
-"group__jkqtplotter__imagelots__tools.html#ggab8a96386e4f981f6917c20a8f03215bfab7ee1d3f2396572e2eed7bc3a85625e6":[11,4,1,1,1,8,2,8,0],
-"group__jkqtplotter__imagelots__tools.html#ggab8a96386e4f981f6917c20a8f03215bfac6c9cdb407bd70ee7f38a17fd5714413":[11,4,1,1,1,8,2,8,1],
-"group__jkqtplotter__imagelots__tools.html#ggaf78dbe641bbda75a53bc85fef00c22d0a14e37bb834ebb69362f8059be9953864":[11,4,1,1,1,8,2,6,2]
+"group__jkqtplotter__imagelots__tools.html#ggab8a96386e4f981f6917c20a8f03215bfab7ee1d3f2396572e2eed7bc3a85625e6":[11,4,1,1,1,8,2,8,0]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX31 =
 {
+"page_buildinstructions__q_m_a_k_e.html":[3,1],
+"page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKEDYNAMIC":[3,1,2],
+"page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKEINCLUDE":[3,1,0],
+"page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKEQTCREATOR":[3,1,3],
 "page_buildinstructions__q_m_a_k_e.html#page_buildinstructions_QMAKESTATIC":[3,1,1],
 "page_todo.html":[6],
 "page_whatsnew.html":[7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX31 =
 "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#a3505ce6d20f4a63b1bbd4750d4a8ed6b":[11,3,1,2,36,5],
 "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#a4af8d62090c392ebecd10fb42248f9b5":[11,3,1,2,36,4],
 "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#a52c345536cb5c2f3804cbfdf1c55c859":[11,3,1,2,36,0],
-"struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#ac0e6a32c58cbc5673a15de84ef41c206":[11,3,1,2,36,1],
-"struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#ad546ef0ecf0588e2b86bf212cc857b90":[11,3,1,2,36,2],
-"struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#af3719e91b971ac885b362845def9dc8e":[11,3,1,2,36,7],
-"struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html":[11,3,1,2,35],
-"struct_j_k_q_t_math_text_verbatim_node_1_1_layout_info.html#a4d523ee3883be6d2b714d6f0d7ff561d":[11,3,1,2,35,0]
+"struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#ac0e6a32c58cbc5673a15de84ef41c206":[11,3,1,2,36,1]
 };
