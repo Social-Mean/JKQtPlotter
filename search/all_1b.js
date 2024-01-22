@@ -48,7 +48,7 @@ var searchData=
   ['with_20parameters_45',['with parameters',['../_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md88',1,'Plotting with parameters'],['../_j_k_q_t_plotter_function_plots.html#autotoc_md71',1,'Simple C++ inline function with parameters'],['../_j_k_q_t_plotter_eval_curves.html#autotoc_md66',1,'Simple C++ inline function with Parameters']]],
   ['with_20parametrized_20symbols_20colors_46',['Example (JKQTPlotter): Scatter Graph with Parametrized Symbols/Colors',['../_j_k_q_t_plotter_param_scatter.html',1,'exampleTutorialProjects']]],
   ['with_20support_20for_20arrows_47',['Classes with support for arrows',['../_j_k_q_t_plotter_geometric_arrows.html#autotoc_md78',1,'']]],
-  ['with_20the_20mouse_48',['Zooming with the Mouse',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md105',1,'']]],
+  ['with_20the_20mouse_48',['Zooming with the Mouse',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md109',1,'']]],
   ['with_20the_20statistics_20library_49',['Tutorial (JKQTPDatastore): Regression Analysis (with the Statistics Library)',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html',1,'exampleTutorialProjects']]],
   ['with_20transfer_20of_20ownership_50',['Referencing with Transfer of Ownership',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md22',1,'']]],
   ['with_20two_20color_20fill_20mode_51',['Example (JKQTPlotter): Barchart With Two-Color Fill-Mode',['../_j_k_q_t_plotter_barcharts_two_color_filling.html',1,'exampleTutorialProjects']]],
