@@ -59,7 +59,7 @@ var searchData=
   ['without_20use_20of_20central_20jkqtdatastore_56',['Example (JKQTPlotter): Simple math image plot without use of central JKQTdatastore',['../_j_k_q_t_plotter_image_plot_no_datastore.html',1,'exampleTutorialProjects']]],
   ['work_20with_20jkqtplotter_57',['Qt Widgets/Tools to work with JKQTPlotter',['../group__jkqtpqtwidgetsttools.html',1,'']]],
   ['working_58',['Internal Working',['../class_j_k_q_t_p_datastore.html#jkqtpdatastore_internals',1,'']]],
-  ['workings_59',['Inner Workings',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md102',1,'']]],
+  ['workings_59',['Inner Workings',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md103',1,'']]],
   ['works_60',['How it works',['../_j_k_q_t_plotter_mandelbrot.html#autotoc_md84',1,'']]],
   ['write_61',['write',['../class_j_k_q_t_p_auto_output_timer.html#ad099bfdb772461e0c33e3d08fcfd9f95',1,'JKQTPAutoOutputTimer']]],
   ['writelocker_62',['writelocker',['../class_j_k_q_t_p_synchronized_1_1_write_locker.html',1,'JKQTPSynchronized&lt; T &gt;::WriteLocker'],['../class_j_k_q_t_p_synchronized_1_1_write_locker.html#aaf21e71130fa1b510dcf69426d3f761a',1,'JKQTPSynchronized::WriteLocker::WriteLocker(JKQTPSynchronized&lt; T &gt; &amp;sync) noexcept'],['../class_j_k_q_t_p_synchronized_1_1_write_locker.html#a33420a4420a65b32b8262333423b0bcc',1,'JKQTPSynchronized::WriteLocker::WriteLocker(JKQTPSynchronized&lt; T &gt; &amp;sync, AdoptLockType) noexcept']]],
