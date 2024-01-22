@@ -14,6 +14,6 @@ var group__jkqtptools__general =
       [ "m_value", "struct_j_k_q_t_p_expected.html#a7abf77c1c08f6a787a7f5afcd5bd2764", null ]
     ] ],
     [ "JKQTPExpectedUnexpectedType", "group__jkqtptools__general.html#struct_j_k_q_t_p_expected_unexpected_type", null ],
-    [ "jkqtp_checksum", "group__jkqtptools__general.html#gaed72b23b113f4c81675eac606e516a3a", null ],
-    [ "JKQTPUnexpected", "group__jkqtptools__general.html#gafa27ff1deba09db2145c38e16d7f6f66", null ]
+    [ "JKQTPUnexpected", "group__jkqtptools__general.html#ga56691b8c57de8fa0718676b6859b3d70", null ],
+    [ "jkqtp_checksum", "group__jkqtptools__general.html#gaed72b23b113f4c81675eac606e516a3a", null ]
 ];

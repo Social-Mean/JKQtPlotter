@@ -1220,7 +1220,7 @@ var searchData=
   ['jkqtpuamtcircle_1217',['jkqtpuamtCircle',['../group__jkqtpplottersupprt.html#gga6562bedae430e91546399ae1a70cb860a55afdd9635a7987235e5dbfa6549c482',1,'jkqtptools.h']]],
   ['jkqtpuamtcircleandcrosshair_1218',['jkqtpuamtCircleAndCrossHair',['../group__jkqtpplottersupprt.html#gga6562bedae430e91546399ae1a70cb860a1e6be51df5b9a5445bc9816177f545a5',1,'jkqtptools.h']]],
   ['jkqtpuamtcrosshair_1219',['jkqtpuamtCrossHair',['../group__jkqtpplottersupprt.html#gga6562bedae430e91546399ae1a70cb860a24c60810d58a49ffe33160a221c4db66',1,'jkqtptools.h']]],
-  ['jkqtpunexpected_1220',['JKQTPUnexpected',['../group__jkqtptools__general.html#gafa27ff1deba09db2145c38e16d7f6f66',1,'jkqtpexpected.h']]],
+  ['jkqtpunexpected_1220',['JKQTPUnexpected',['../group__jkqtptools__general.html#ga56691b8c57de8fa0718676b6859b3d70',1,'jkqtpexpected.h']]],
   ['jkqtpunifylinestopolygons_1221',['JKQTPUnifyLinesToPolygons',['../group__jkqtptools__drawing.html#ga10b44f813c96e4bcd688ac769842e031',1,'jkqtpgeometrytools.h']]],
   ['jkqtpupdowntriangle_1222',['JKQTPUpDownTriangle',['../group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba2c9c44ce7a413752c04938faaae631b5',1,'jkqtpdrawingtools.h']]],
   ['jkqtpuseractionmarkertype_1223',['JKQTPUserActionMarkerType',['../group__jkqtpplottersupprt.html#ga6562bedae430e91546399ae1a70cb860',1,'jkqtptools.h']]],

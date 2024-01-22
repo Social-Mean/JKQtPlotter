@@ -169,15 +169,15 @@ struct JKQTPExpected&lt; T, E &gt;</div><p>an "expected" datatype, which can eit
 <div class="line">  <span class="keywordtype">bool</span> <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">ok</a>=<span class="keyword">false</span>;</div>
 <div class="line">  <span class="keywordtype">int</span> <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">i</a>=<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">s</a>.toInt(&amp;<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">ok</a>);</div>
 <div class="line">  <span class="keywordflow">if</span> (<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">ok</a>) <span class="keywordflow">return</span> {<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">i</a>}</div>
-<div class="line">  <span class="keywordflow">else</span> <span class="keywordflow">return</span> { <a class="code hl_variable" href="group__jkqtptools__general.html#gafa27ff1deba09db2145c38e16d7f6f66">JKQTPUnexpected</a>, <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">QString</a>(<span class="stringliteral">&quot;cannot convert to int&quot;</span>) };</div>
+<div class="line">  <span class="keywordflow">else</span> <span class="keywordflow">return</span> { <a class="code hl_define" href="group__jkqtptools__general.html#ga56691b8c57de8fa0718676b6859b3d70">JKQTPUnexpected</a>, <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">QString</a>(<span class="stringliteral">&quot;cannot convert to int&quot;</span>) };</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">auto</span> <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">r</a>=<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">toInt</a>(<span class="stringliteral">&quot;1.0a&quot;</span>);</div>
 <div class="line"><span class="keywordflow">if</span> (<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">r</a>.hasValue()) <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">qDebug</a>()&lt;&lt;<span class="stringliteral">&quot;SUCCESS! i=&quot;</span>&lt;&lt;<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">r</a>.value();</div>
 <div class="line"><span class="keywordflow">else</span> <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">qDebug</a>()&lt;&lt;<span class="stringliteral">&quot;FAILURE: &quot;</span>&lt;&lt;<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">r</a>.error();</div>
 <div class="ttc" id="aclass_j_k_q_t_p_final_act_html"><div class="ttname"><a href="class_j_k_q_t_p_final_act.html">JKQTPFinalAct</a></div><div class="ttdoc">C++11 finally construct (executes a callable-object when the edestructor is executed)</div><div class="ttdef"><b>Definition</b> jkqtpcodestructuring.h:48</div></div>
-<div class="ttc" id="agroup__jkqtptools__general_html_gafa27ff1deba09db2145c38e16d7f6f66"><div class="ttname"><a href="group__jkqtptools__general.html#gafa27ff1deba09db2145c38e16d7f6f66">JKQTPUnexpected</a></div><div class="ttdeci">constexpr JKQTPExpectedUnexpectedType JKQTPUnexpected</div><div class="ttdoc">tag for an unexpected/error result in JKQTPExpected</div><div class="ttdef"><b>Definition</b> jkqtpexpected.h:38</div></div>
-</div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtptools__general.html#struct_j_k_q_t_p_expected_unexpected_type" title="tag type for an unexpected/error result in JKQTPExpected">JKQTPExpectedUnexpectedType</a>, <a class="el" href="group__jkqtptools__general.html#gafa27ff1deba09db2145c38e16d7f6f66" title="tag for an unexpected/error result in JKQTPExpected">JKQTPUnexpected</a> </dd></dl>
+<div class="ttc" id="agroup__jkqtptools__general_html_ga56691b8c57de8fa0718676b6859b3d70"><div class="ttname"><a href="group__jkqtptools__general.html#ga56691b8c57de8fa0718676b6859b3d70">JKQTPUnexpected</a></div><div class="ttdeci">#define JKQTPUnexpected</div><div class="ttdoc">tag for an unexpected/error result in JKQTPExpected</div><div class="ttdef"><b>Definition</b> jkqtpexpected.h:38</div></div>
+</div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtptools__general.html#struct_j_k_q_t_p_expected_unexpected_type" title="tag type for an unexpected/error result in JKQTPExpected">JKQTPExpectedUnexpectedType</a>, <a class="el" href="group__jkqtptools__general.html#ga56691b8c57de8fa0718676b6859b3d70" title="tag for an unexpected/error result in JKQTPExpected">JKQTPUnexpected</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae0399113b20a89c6ba6c686ce0865ce4" name="ae0399113b20a89c6ba6c686ce0865ce4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae0399113b20a89c6ba6c686ce0865ce4">&#9670;&#160;</a></span>JKQTPExpected() <span class="overload">[1/4]</span></h2>
@@ -492,7 +492,7 @@ template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">class</a> T , <a
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_j_k_q_t_p_expected.html">JKQTPExpected</a></li>
-    <li class="footer">Generated on Sun Jan 21 2024 21:45:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jan 22 2024 17:22:38 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
