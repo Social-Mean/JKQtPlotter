@@ -6,7 +6,7 @@ var group__jkqtptools__general =
       [ "JKQTPExpected", "struct_j_k_q_t_p_expected.html#ad7d077458a238bc6e74221731820e3d5", null ],
       [ "JKQTPExpected", "struct_j_k_q_t_p_expected.html#aaab44568411bdc227d2b0a2cddfaa24f", null ],
       [ "error", "struct_j_k_q_t_p_expected.html#a3006468a9aed35ee51e37948e23577f8", null ],
-      [ "has_value", "struct_j_k_q_t_p_expected.html#ab2fcf3ab88c85e74d1536177aacced17", null ],
+      [ "has_value", "struct_j_k_q_t_p_expected.html#abd68424f35e151174a546974f8a63db0", null ],
       [ "operator bool", "struct_j_k_q_t_p_expected.html#ad46f1994af8af46070f71839f833d6bc", null ],
       [ "value", "struct_j_k_q_t_p_expected.html#a9e719d4df34bc4c83176b489c9757b1b", null ],
       [ "m_error", "struct_j_k_q_t_p_expected.html#a8975386b07321b4408fff4685f684ecf", null ],

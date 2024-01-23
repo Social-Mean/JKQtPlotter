@@ -35,7 +35,7 @@ var group__jkqtptools__string =
     [ "jkqtp_String2KeyboardModifiers", "group__jkqtptools__string.html#ga8a9414d9c42cd1fd602691c30bab5abd", null ],
     [ "jkqtp_String2MouseButton", "group__jkqtptools__string.html#gac06916683ed6719cbfe5b6643cdbcc26", null ],
     [ "jkqtp_String2QBrushStyle", "group__jkqtptools__string.html#gabb99f0e9759f1f1c38d12816149a824c", null ],
-    [ "jkqtp_String2QBrushStyleExt", "group__jkqtptools__string.html#gae0098b13c26e874a9754e3970a71e7f8", null ],
+    [ "jkqtp_String2QBrushStyleExt", "group__jkqtptools__string.html#gaf2e8e335c54fef4fdc6d20c298b5ecda", null ],
     [ "jkqtp_String2QColor", "group__jkqtptools__string.html#gaf39bceb2e99d604ecb95349a3b047d16", null ],
     [ "jkqtp_String2QPenStyle", "group__jkqtptools__string.html#gaaa2bd2782cba39757c4451886a0f6808", null ],
     [ "jkqtp_strtobool", "group__jkqtptools__string.html#gac5a3d8b66e406c4d2f6f4e9a1a8b8958", null ],

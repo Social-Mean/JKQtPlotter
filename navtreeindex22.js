@@ -1,6 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"class_j_k_q_t_p_range_base.html#a50bb4663b0822d55d701de3f219fa7b7":[11,4,1,1,1,5,3,32],
 "class_j_k_q_t_p_range_base.html#a5799f6963df90d709c90d7d4f0797760":[11,4,1,1,1,5,3,48],
 "class_j_k_q_t_p_range_base.html#a606a5f4cdb9de75444fb4bacfdfd6860":[11,4,1,1,1,5,3,1],
 "class_j_k_q_t_p_range_base.html#a61f657ac6ad05995674ec30e19bf173e":[11,4,1,1,1,5,3,37],
@@ -249,5 +248,6 @@ var NAVTREEINDEX22 =
 "class_j_k_q_t_p_violinplot_element_base.html#ac9e019ceb18ee600b892d7d826704bf8":[11,4,1,1,1,9,6,13],
 "class_j_k_q_t_p_violinplot_element_base.html#acc2c78e1ee03c85362baf82b084e889c":[11,4,1,1,1,9,6,18],
 "class_j_k_q_t_p_violinplot_element_base.html#ad0329ee0111453e8c2e57e9bcb079e6a":[11,4,1,1,1,9,6,17],
-"class_j_k_q_t_p_violinplot_element_base.html#ae3d7b80ce3144744a31f31b9b4fcdd2d":[11,4,1,1,1,9,6,0]
+"class_j_k_q_t_p_violinplot_element_base.html#ae3d7b80ce3144744a31f31b9b4fcdd2d":[11,4,1,1,1,9,6,0],
+"class_j_k_q_t_p_violinplot_element_base.html#af5796dcc28a812365ef247c0935c1618":[11,4,1,1,1,9,6,21]
 };

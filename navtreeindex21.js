@@ -1,6 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"class_j_k_q_t_p_peak_stream_graph.html#a5d78e555af64374777f5b74a561feb46":[11,4,1,1,1,2,0,10],
 "class_j_k_q_t_p_peak_stream_graph.html#a6c27ad785a7301f926a1f400307e2a8b":[11,4,1,1,1,2,0,8],
 "class_j_k_q_t_p_peak_stream_graph.html#a7749c83ca5945061f8fbae60bd85ebe1":[11,4,1,1,1,2,0,13],
 "class_j_k_q_t_p_peak_stream_graph.html#a78a46404f20c6258ebb901bb5b9cc0d0":[11,4,1,1,1,2,0,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX21 =
 "class_j_k_q_t_p_range_base.html#a39bc450cd3cd843b2c480afb47309ad3":[11,4,1,1,1,5,3,21],
 "class_j_k_q_t_p_range_base.html#a3c9f3e9d5b902532f41be10e7a9b68bb":[11,4,1,1,1,5,3,7],
 "class_j_k_q_t_p_range_base.html#a43e33c83a433ce2a3760fe6abd8449e9":[11,4,1,1,1,5,3,0],
-"class_j_k_q_t_p_range_base.html#a457ad5a7f15b35afbb42162745502915":[11,4,1,1,1,5,3,46]
+"class_j_k_q_t_p_range_base.html#a457ad5a7f15b35afbb42162745502915":[11,4,1,1,1,5,3,46],
+"class_j_k_q_t_p_range_base.html#a50bb4663b0822d55d701de3f219fa7b7":[11,4,1,1,1,5,3,32]
 };

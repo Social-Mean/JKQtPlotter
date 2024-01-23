@@ -121,7 +121,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_basic_j_k_q_t_p_datas
 <li class="level1"><a href="#autotoc_md58">Marginal Statistics</a></li>
 <li class="level1"><a href="#autotoc_md59">2D Histogram</a></li>
 <li class="level1"><a href="#autotoc_md60">Kernel Density Estimates (KDE)</a></li>
-<li class="level1"><a href="#autotoc_md62">Screenshot of the full Program</a></li>
+<li class="level1"><a href="#autotoc_md61">Screenshot of the full Program</a></li>
 </ul>
 </div>
 <div class="textblock"><p>This tutorial project (see <code>./examples/datastore_statistics_2d/</code>) explains several advanced functions of <a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a> in combination with the [<a class="el" href="group__jkqtptools__math__statistics.html">JKQTPlotter Statistics Library</a>] conatined in <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>.</p>
@@ -321,7 +321,7 @@ Kernel Density Estimates (KDE)</h1>
 <div class="ttc" id="agroup__jkqtptools__math__statistics__adaptors_html_ga7921c9edeb90d7eba8a36076528db331"><div class="ttname"><a href="group__jkqtptools__math__statistics__adaptors.html#ga7921c9edeb90d7eba8a36076528db331">jkqtpstatAddKDE2DContour</a></div><div class="ttdeci">JKQTPColumnContourPlot * jkqtpstatAddKDE2DContour(JKQTBasePlotter *plotter, InputItX firstX, InputItX lastX, InputItY firstY, InputItY lastY, size_t xbins=10, size_t ybins=10, const std::function&lt; double(double, double)&gt; &amp;kernel=std::function&lt; double(double, double)&gt;(&amp;jkqtpstatKernel2DGaussian), double bandwidthX=1.0, double bandwidthY=1.0, const QString &amp;kdecolumnBaseName=QString(&quot;histogram&quot;), double *oxmin=nullptr, double *oxmax=nullptr, double *oymin=nullptr, double *oymax=nullptr)</div><div class="ttdoc">calculate calculate a 2-dimensional kernel density estimate (KDE) and add a JKQTPColumnContourPlot to...</div><div class="ttdef"><b>Definition</b> jkqtpstatisticsadaptors.h:1697</div></div>
 </div><!-- fragment --><p>These differ in the type of plot that is added <code><a class="el" href="group__jkqtptools__math__statistics__adaptors.html#ga2169e4129730d013f94ad81ccf47209b" title="calculate calculate a 2-dimensional kernel density estimate (KDE) and add a JKQTPColumnMathImage to t...">jkqtpstatAddKDE2DImage()</a></code> adds an image graph (<code><a class="el" href="class_j_k_q_t_p_column_math_image.html" title="class to plot an image from an 2-dimensional array of values stored in a column of the datastore">JKQTPColumnMathImage</a></code>) and <code><a class="el" href="group__jkqtptools__math__statistics__adaptors.html#ga7921c9edeb90d7eba8a36076528db331" title="calculate calculate a 2-dimensional kernel density estimate (KDE) and add a JKQTPColumnContourPlot to...">jkqtpstatAddKDE2DContour()</a></code> adds a contour plot (<code><a class="el" href="class_j_k_q_t_p_column_contour_plot.html" title="class for a contour plots (same as JKQTPContourPlot) of images stored in a JKQTPDatastore column">JKQTPColumnContourPlot</a></code>). the first is shown in the screenshot above, the latter looks like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_statistics_2d_kdecontour.png" alt="datastore_statistics_2d_kdecontour" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md62"></a>
+<h1><a class="anchor" id="autotoc_md61"></a>
 Screenshot of the full Program</h1>
 <p>The output of the full test program <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/datastore_statistics_2d/datastore_statistics_2d.cpp"><code>datastore_statistics_2d.cpp</code></a> looks like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_statistics_2d.png" alt="datastore_statistics_2d" class="inline"/> </p>
@@ -333,7 +333,7 @@ Screenshot of the full Program</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Tue Jan 23 2024 11:10:46 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Jan 23 2024 12:40:40 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
