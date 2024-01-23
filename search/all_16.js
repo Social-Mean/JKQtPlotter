@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['random_20numbers_0',['random numbers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48',1,'Generating different sets of random numbers'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md59',1,'Generating different sets of random numbers']]],
+  ['random_20numbers_0',['random numbers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48',1,'Generating different sets of random numbers'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md58',1,'Generating different sets of random numbers']]],
   ['randomscatter_1',['RandomScatter',['../class_j_k_q_t_p_single_column_symbols_graph.html#a3631b52ee32dceb1418183aefe7f7ce4a7ce488ba270f450ea4879f7d6f53d6ad',1,'JKQTPSingleColumnSymbolsGraph']]],
   ['range_20plot_20width_2',['Synchronizing Axis Range &amp; Plot Width',['../class_j_k_q_t_base_plotter.html#JKQTBASEPLOTTER_SYNCMULTIPLOT_SYNC',1,'']]],
   ['range_5fend_3',['range_end',['../struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#aa82a3c373d7364ed975f0d20a121f412',1,'JKQTPEvaluatedFunctionGraphBase::PlotFunctorSpec']]],
@@ -86,7 +86,7 @@ var searchData=
   ['replot_83',['replot',['../class_j_k_q_t_f_p_plot.html#abb5a8c18ef894f918f8a77b6dc694929',1,'JKQTFPPlot']]],
   ['replotting_84',['replotting',['../class_j_k_q_t_fast_plotter.html#ab076aa06f24049a47f7e53766a988b7d',1,'JKQTFastPlotter']]],
   ['reporting_20a_20vulnerability_85',['Reporting a Vulnerability',['../md__s_e_c_u_r_i_t_y.html#autotoc_md135',1,'']]],
-  ['request_20process_86',['Pull Request Process',['../md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8',1,'']]],
+  ['request_20process_86',['Pull Request Process',['../md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md3',1,'']]],
   ['requiredsize_87',['requiredsize',['../struct_j_k_q_t_p_coordinate_axis_1_1_axis_elements_size_description.html#aeb06125ba52dc51a1858afc2eaec2c84',1,'JKQTPCoordinateAxis::AxisElementsSizeDescription::requiredSize'],['../struct_j_k_q_t_p_base_key_1_1_key_size_description.html#a75fb258e94dac9c49c28fd8b276346a0',1,'JKQTPBaseKey::KeySizeDescription::requiredSize']]],
   ['requiredsizeopposite_88',['requiredSizeOpposite',['../struct_j_k_q_t_p_coordinate_axis_1_1_axis0_elements_size_description.html#ad1ab67e5ca90c821c1146a25af93c20a',1,'JKQTPCoordinateAxis::Axis0ElementsSizeDescription']]],
   ['reservehittestdata_89',['reserveHitTestData',['../class_j_k_q_t_p_plot_element.html#a0fd8e4d7c0235a5ad48da313adbe134c',1,'JKQTPPlotElement']]],
@@ -104,7 +104,7 @@ var searchData=
   ['resizeimagecolumn_101',['resizeImageColumn',['../class_j_k_q_t_p_datastore.html#ab04565d513a6830dcc58d035b685b3fa',1,'JKQTPDatastore']]],
   ['resizetimer_102',['resizeTimer',['../class_j_k_q_t_plotter.html#a492f59ecbc22186e9dd117a124d09a46',1,'JKQTPlotter']]],
   ['resizing_20of_20a_20plot_20widget_103',['Fast Resizing of a Plot Widget',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USERMOUSEINTERACTION_FASTRESIZING',1,'']]],
-  ['responsibilities_104',['responsibilities',['../md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10',1,'Our Responsibilities'],['../md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4',1,'Our Responsibilities']]],
+  ['responsibilities_104',['responsibilities',['../md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md7',1,'Our Responsibilities'],['../md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6',1,'Our Responsibilities']]],
   ['result_20of_20parsing_20and_20evaluation_3a_105',['result of parsing and evaluation:',['../class_j_k_q_t_p_math_parser.html#jkmp_resultsofparsing',1,'']]],
   ['reverse_106',['reverse',['../class_j_k_q_t_p_palette_list.html#a88d161a6f8887bfa3e20bf36b220818f',1,'JKQTPPaletteList']]],
   ['rework_20of_20the_20library_107',['v2019.11: Major rework of the library',['../page_whatsnew.html#page_whatsnew_V2019_11',1,'']]],
