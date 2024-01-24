@@ -126,8 +126,8 @@ Collaboration diagram for CImg Interfaceing Tools:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gae1b39cb60de54f9da34f19f2c1e3a6a2" id="r_gae1b39cb60de54f9da34f19f2c1e3a6a2"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">class</a> T &gt; </td></tr>
-<tr class="memitem:gae1b39cb60de54f9da34f19f2c1e3a6a2"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_final_act.html">size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtpinterfacecimg.html#gae1b39cb60de54f9da34f19f2c1e3a6a2">JKQTPCopyCImgToColumn</a> (<a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *datastore, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">cimg_library::CImg</a>&lt; T &gt; &amp;<a class="el" href="class_j_k_q_t_p_final_act.html">img</a>, <a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;name=<a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;), <a class="el" href="class_j_k_q_t_p_final_act.html">int</a> <a class="el" href="class_j_k_q_t_p_final_act.html">channel</a>=0, <a class="el" href="class_j_k_q_t_p_final_act.html">int</a> <a class="el" href="class_j_k_q_t_p_final_act.html">z</a>=0)</td></tr>
+<tr class="memitem:gae1b39cb60de54f9da34f19f2c1e3a6a2" id="r_gae1b39cb60de54f9da34f19f2c1e3a6a2"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:gae1b39cb60de54f9da34f19f2c1e3a6a2"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtpinterfacecimg.html#gae1b39cb60de54f9da34f19f2c1e3a6a2">JKQTPCopyCImgToColumn</a> (<a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *datastore, const cimg_library::CImg&lt; T &gt; &amp;img, const QString &amp;name=QString(&quot;&quot;), int channel=0, int z=0)</td></tr>
 <tr class="memdesc:gae1b39cb60de54f9da34f19f2c1e3a6a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">add one external column to the datastore. It will be filled with the contents of the CImg image <em>img</em>.  <br /></td></tr>
 <tr class="separator:gae1b39cb60de54f9da34f19f2c1e3a6a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -138,7 +138,7 @@ Functions</h2></td></tr>
 <li><a class="el" href="_j_k_q_t_plotter_image_plot_r_g_b_c_img.html">Example (JKQTPlotter): Simple math image plot, showing a 3-channel CImg image</a></li>
 </ul>
 <p>The CImg-binding itself is header-only (as CImg is itself), and NOT compiled into the JKQtPlotter libraries. Therefore you can simply include the header and use the facilities provided by it.</p>
-<p>The CMake-build system of JKQtPlotter (and its examples) provides facilities to allow for <code>find_package(CImg)</code> to compile against that library. If you want to build the CImg-based JKQtPlotter examples (see list above), you either have to ensure that CMake finds CImg by itself (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. somewhere in the default search paths, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <code>CMAKE_INSTALL_PREFIX</code>), or you can set the CMake variable <code>CImg_DIR</code> so it points to the directory of the <code><a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">CImg.h</a></code> file, or before configuring JKQtPlotter. </p>
+<p>The CMake-build system of JKQtPlotter (and its examples) provides facilities to allow for <code>find_package(CImg)</code> to compile against that library. If you want to build the CImg-based JKQtPlotter examples (see list above), you either have to ensure that CMake finds CImg by itself (i.e. somewhere in the default search paths, e.g. <code>CMAKE_INSTALL_PREFIX</code>), or you can set the CMake variable <code>CImg_DIR</code> so it points to the directory of the <code>CImg.h</code> file, or before configuring JKQtPlotter. </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="gae1b39cb60de54f9da34f19f2c1e3a6a2" name="gae1b39cb60de54f9da34f19f2c1e3a6a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gae1b39cb60de54f9da34f19f2c1e3a6a2">&#9670;&#160;</a></span>JKQTPCopyCImgToColumn()</h2>
@@ -146,13 +146,13 @@ Functions</h2></td></tr>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">class</a> T &gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_j_k_q_t_p_final_act.html">size_t</a> JKQTPCopyCImgToColumn </td>
+          <td class="memname">size_t JKQTPCopyCImgToColumn </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *&#160;</td>
           <td class="paramname"><em>datastore</em>, </td>
@@ -160,25 +160,25 @@ template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">class</a> T &gt;
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">cimg_library::CImg</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramtype">const cimg_library::CImg&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>img</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">const</a> <a class="el" href="class_j_k_q_t_p_final_act.html">QString</a> &amp;&#160;</td>
-          <td class="paramname"><em>name</em> = <code><a class="el" href="class_j_k_q_t_p_final_act.html">QString</a>(&quot;&quot;)</code>, </td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em> = <code>QString(&quot;&quot;)</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>channel</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_final_act.html">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>z</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
@@ -216,7 +216,7 @@ template&lt;<a class="el" href="class_j_k_q_t_p_final_act.html">class</a> T &gt;
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 23 2024 12:40:40 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Jan 24 2024 21:49:20 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

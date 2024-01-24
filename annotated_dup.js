@@ -96,6 +96,8 @@ var annotated_dup =
     [ "JKQTPCoordinateAxisStyle", "class_j_k_q_t_p_coordinate_axis_style.html", "class_j_k_q_t_p_coordinate_axis_style" ],
     [ "JKQTPCSSParser", "class_j_k_q_t_p_c_s_s_parser.html", "class_j_k_q_t_p_c_s_s_parser" ],
     [ "JKQTPDataCache", "struct_j_k_q_t_p_data_cache.html", "struct_j_k_q_t_p_data_cache" ],
+    [ "JKQTPDataCacheNotThreadSafe", "group__jkqtptools__concurrency.html#struct_j_k_q_t_p_data_cache_not_thread_safe", null ],
+    [ "JKQTPDataCacheThreadSafe", "group__jkqtptools__concurrency.html#struct_j_k_q_t_p_data_cache_thread_safe", null ],
     [ "JKQTPDatastore", "class_j_k_q_t_p_datastore.html", "class_j_k_q_t_p_datastore" ],
     [ "JKQTPDatastoreItem", "class_j_k_q_t_p_datastore_item.html", "class_j_k_q_t_p_datastore_item" ],
     [ "JKQTPDatastoreModel", "class_j_k_q_t_p_datastore_model.html", "class_j_k_q_t_p_datastore_model" ],

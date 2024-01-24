@@ -1,5 +1,7 @@
 var NAVTREEINDEX30 =
 {
+"group__jkqtptools__math__statistics__1dkde__kernels.html#ga03d3f789a295039152adec63d4c83e4d":[11,2,5,1,0,0],
+"group__jkqtptools__math__statistics__1dkde__kernels.html#ga0514adae64bbc0a43ccac935321eac03":[11,2,5,1,0,5],
 "group__jkqtptools__math__statistics__1dkde__kernels.html#ga09f4bb356b6697d07daa3111a8d75781":[11,2,5,1,0,6],
 "group__jkqtptools__math__statistics__1dkde__kernels.html#ga60c0e3e662f2ff8fbb3c19cbd5e11822":[11,2,5,1,0,1],
 "group__jkqtptools__math__statistics__1dkde__kernels.html#ga7ccd70b8fe4de2e3ad08a3b0317a298d":[11,2,5,1,0,4],
@@ -201,8 +203,8 @@ var NAVTREEINDEX30 =
 "group__jkqtptools__string.html#gaf39bceb2e99d604ecb95349a3b047d16":[11,1,9,36],
 "group__jkqtptools__string.html#gaf98c03133ebf9e2619a23018568272e6":[11,1,9,48],
 "hierarchy.html":[13,2],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "index.html#jkqtp_main_features":[0,0],
 "index.html#jkqtplottertic":[0,1],
 "licensepage.html":[5],
@@ -211,12 +213,12 @@ var NAVTREEINDEX30 =
 "licensepage.html#extlicense_xits":[5,1,0],
 "licensepage.html#licensesec":[5,0],
 "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html":[1],
-"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md1":[1,0],
-"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2":[1,1],
-"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3":[1,2],
-"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4":[1,3],
-"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5":[1,4],
-"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6":[1,5],
+"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2":[1,0],
+"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3":[1,1],
+"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4":[1,2],
+"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5":[1,3],
+"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6":[1,4],
+"md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md7":[1,5],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html":[2],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md10":[2,2],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md11":[2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX30 =
 "page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_INSTALL":[3,0,0,3],
 "page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_MAKEFILE":[3,0,0,0],
 "page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_RUN":[3,0,0],
-"page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_USAGE":[3,0,1],
-"page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_VSTUDIO":[3,0,0,1],
-"page_buildinstructions__q_m_a_k_e.html":[3,1]
+"page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_USAGE":[3,0,1]
 };

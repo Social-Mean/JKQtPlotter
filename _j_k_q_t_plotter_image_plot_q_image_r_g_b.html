@@ -118,10 +118,10 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_image_plot_q_image_r_
 <div class="contents">
 <div class="textblock"><p>This project (see <code>./examples/rgbimageplot_qt/</code>) simply creates a <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> widget (as a new window) and adds an image plot with an image taken from a <a href="http://doc.qt.io/qt-5/qimage.html">QImage</a> object.</p>
 <p>The source code of the main application is (see <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/rgbimageplot_qt/rgbimageplot_qt.cpp"><code>rgbimageplot_qt.cpp</code></a>. the main parts are: </p><div class="fragment"><div class="line"><span class="comment">// 2. now we open a BMP-file and load it into an OpenCV cv::Mat</span></div>
-<div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">QImage</a> image(<span class="stringliteral">&quot;:/example.bmp&quot;</span>);</div>
+<div class="line">QImage image(<span class="stringliteral">&quot;:/example.bmp&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// 3. create a graph (JKQTPImage) with a pointer to the QImage-object, generated above</span></div>
-<div class="line"><a class="code hl_class" href="class_j_k_q_t_p_image.html">JKQTPImage</a>* graph=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_image.html">JKQTPImage</a>(&amp;<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>);</div>
+<div class="line"><a class="code hl_class" href="class_j_k_q_t_p_image.html">JKQTPImage</a>* graph=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_image.html">JKQTPImage</a>(&amp;plot);</div>
 <div class="line">graph-&gt;<a class="code hl_function" href="class_j_k_q_t_p_image.html#ab7314065e86777bcca55caa47471a78a">setTitle</a>(<span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><span class="comment">// copy the image into the graph (optionally you could also give a pointer to a QImage,</span></div>
 <div class="line"><span class="comment">// but then you need to ensure that the QImage is available as long as the JKQTPImage</span></div>
@@ -135,8 +135,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_image_plot_q_image_r_
 <div class="line">graph-&gt;<a class="code hl_slot" href="class_j_k_q_t_p_image_base.html#a304f101a196b2b7e8a0287c39dd42355">setHeight</a>(image.height());</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// 4. add the graphs to the plot, so it is actually displayed</span></div>
-<div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.addGraph(graph);</div>
-<div class="ttc" id="aclass_j_k_q_t_p_final_act_html"><div class="ttname"><a href="class_j_k_q_t_p_final_act.html">JKQTPFinalAct</a></div><div class="ttdoc">C++11 finally construct (executes a callable-object when the edestructor is executed)</div><div class="ttdef"><b>Definition</b> jkqtpcodestructuring.h:48</div></div>
+<div class="line">plot.addGraph(graph);</div>
 <div class="ttc" id="aclass_j_k_q_t_p_image_base_html_a304f101a196b2b7e8a0287c39dd42355"><div class="ttname"><a href="class_j_k_q_t_p_image_base.html#a304f101a196b2b7e8a0287c39dd42355">JKQTPImageBase::setHeight</a></div><div class="ttdeci">void setHeight(double __value)</div><div class="ttdoc">height of image</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_image_base_html_a6f40e47f3d54070c6040406932b793da"><div class="ttname"><a href="class_j_k_q_t_p_image_base.html#a6f40e47f3d54070c6040406932b793da">JKQTPImageBase::setX</a></div><div class="ttdeci">void setX(double __value)</div><div class="ttdoc">x coordinate of lower left corner</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_image_base_html_ab7dafad9c0f645769850e6285b1d2ad6"><div class="ttname"><a href="class_j_k_q_t_p_image_base.html#ab7dafad9c0f645769850e6285b1d2ad6">JKQTPImageBase::setWidth</a></div><div class="ttdeci">void setWidth(double __value)</div><div class="ttdoc">width of image</div></div>
@@ -148,7 +147,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_image_plot_q_image_r_
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/rgbimageplot_qt_upsidedown.png" alt="imageplot" class="inline"/></p>
 <p>The image is upside-down, because computer images use a coordinate system with 0 at the top-left (left-handed coordinate system) and the <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> has its 0 at the bottom-left (right-handed coordinate system).</p>
 <p>You can modify the program above to display the image in the correct orientation, by adding the line </p><div class="fragment"><div class="line"><span class="comment">// 6.1 invert y-axis, so image is oriented correctly</span></div>
-<div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.getYAxis()-&gt;setInverted(<span class="keyword">true</span>);</div>
+<div class="line">plot.getYAxis()-&gt;setInverted(<span class="keyword">true</span>);</div>
 </div><!-- fragment --><p> This will reorient the y-axis to point from top to bottom (for increasing positive coordinates):</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/rgbimageplot_qt.png" alt="imageplot" class="inline"/> </p>
 </div></div><!-- contents -->
@@ -159,7 +158,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_image_plot_q_image_r_
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Tue Jan 23 2024 12:40:40 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Jan 24 2024 21:49:20 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

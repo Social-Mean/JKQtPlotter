@@ -123,7 +123,7 @@ Collaboration diagram for JKQTMathText Rendering Model:</div>
 </div>
 <h1><a class="anchor" id="jkqtmathtext_renderingmodel_basics"></a>
 Basics</h1>
-<p><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> parses an input string of mathematical markup (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. LaTeX) and in a first step generates a memory representation of the it (cf. <a class="el" href="group__jkqtmathtext__items.html">Render-Tree Items for JKQTMathText</a> ). Then this memory representation is used to draw the represented math using the renndering API of <a href="https://doc.qt.io/qt-6/qpainter.html">QPainter</a>.</p>
+<p><a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> parses an input string of mathematical markup (i.e. LaTeX) and in a first step generates a memory representation of the it (cf. <a class="el" href="group__jkqtmathtext__items.html">Render-Tree Items for JKQTMathText</a> ). Then this memory representation is used to draw the represented math using the renndering API of <a href="https://doc.qt.io/qt-6/qpainter.html">QPainter</a>.</p>
 <p>As an example, we look at the following LaTeX markup, representing the solution to a quadratic equation:</p>
 <div class="fragment"><div class="line">$x_{1/2} = \frac{-b\pm\sqrt{b^2-4ac}}{2a}$</div>
 </div><!-- fragment --><p>LaTeX itself would render this as follows:</p>
@@ -138,9 +138,9 @@ Basics</h1>
 <div class="image">
 <img src="jkqtmathtext_doc_quadraticeq_tree.png" alt=""/>
 </div>
-<dl class="section note"><dt>Note</dt><dd>The memory representation is independent of the actual math markup language (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. LaTeX) which was initially parsed. But of course it is modelled, so the features of the supported markup languages are supported by the memory model.</dd>
+<dl class="section note"><dt>Note</dt><dd>The memory representation is independent of the actual math markup language (e.g. LaTeX) which was initially parsed. But of course it is modelled, so the features of the supported markup languages are supported by the memory model.</dd>
 <dd>
-Also the parser performs optimizations on the tree, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. by removing a <a class="el" href="class_j_k_q_t_math_text_horizontal_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out horizontally">JKQTMathTextHorizontalListNode</a> if it contains only one entry!</dd></dl>
+Also the parser performs optimizations on the tree, e.g. by removing a <a class="el" href="class_j_k_q_t_math_text_horizontal_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out horizontally">JKQTMathTextHorizontalListNode</a> if it contains only one entry!</dd></dl>
 <p>You can see that each node corresponds to a box, if these are overlayed over the rendering:</p>
 <div class="image">
 <img src="jkqtmathtext_doc_quadraticeq_boxes.png" alt=""/>
@@ -151,15 +151,14 @@ Also the parser performs optimizations on the tree, <a class="el" href="class_j_
 </div>
 <h1><a class="anchor" id="jkqtmathtext_renderingmodel_linebreaks"></a>
 Linebreaks and Blocks</h1>
-<p>As described above, <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> represents the mathematicl markup as a tree of boxes. When calling <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">JKQTMathText::parse()</a> without any additional parameters, the base-node is a <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> that can represent several lines of text. A new line is started when a <code>\\</code> or <code>\newline</code> command is found. Automatic line breaking is not performed, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. each line can possibly become very long, also longer than the available space for drawing! Also lineabreaks are only allowed directly in the current context. You cannot write </p><div class="fragment"><div class="line"> .tex </div>
-<div class="line">\textbf{<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">line1</a>\\<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">text2</a>}</div>
-<div class="ttc" id="aclass_j_k_q_t_p_final_act_html"><div class="ttname"><a href="class_j_k_q_t_p_final_act.html">JKQTPFinalAct</a></div><div class="ttdoc">C++11 finally construct (executes a callable-object when the edestructor is executed)</div><div class="ttdef"><b>Definition</b> jkqtpcodestructuring.h:48</div></div>
+<p>As described above, <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> represents the mathematicl markup as a tree of boxes. When calling <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">JKQTMathText::parse()</a> without any additional parameters, the base-node is a <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> that can represent several lines of text. A new line is started when a <code>\\</code> or <code>\newline</code> command is found. Automatic line breaking is not performed, i.e. each line can possibly become very long, also longer than the available space for drawing! Also lineabreaks are only allowed directly in the current context. You cannot write </p><div class="fragment"><div class="line"> .tex </div>
+<div class="line">\textbf{line1\\text2}</div>
 </div><!-- fragment --><p> but have to write </p><div class="fragment"><div class="line"> .tex </div>
-<div class="line">\textbf{<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">line1</a>}\\</div>
-<div class="line">\<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">textbf</a>{<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">line2</a>} </div>
+<div class="line">\textbf{line1}\\</div>
+<div class="line">\textbf{line2} </div>
 </div><!-- fragment --><p>With environment-altering instructions like <code>\bfserie</code> or <code>\it</code> this can be overcome: If you write </p><div class="fragment"><div class="line"> .tex</div>
-<div class="line">\bf <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">line1</a>\\</div>
-<div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">line2</a></div>
+<div class="line">\bf line1\\</div>
+<div class="line">line2</div>
 </div><!-- fragment --><p> both lines are typeset in bold face! </p>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -167,7 +166,7 @@ Linebreaks and Blocks</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 23 2024 12:40:41 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Jan 24 2024 21:49:20 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

@@ -203,7 +203,7 @@ codedefault, \userfont{Arial}{Arial}, \userfont{Comic Sans MS}{Comic Sans MS} )<
 <li><code>\textbb{</code>...} <code>\mathbb{</code>...} : draw the contained text in blackboard font face<div class="image">
 <img src="jkqtmathtext_bb.png" alt=""/>
 </div>
- Blackboard fonts are not widely available on target systems (viable fonts are <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <code>"Double Stroke", "CloisterOpenFace BT", "GoudyHandtooled BT", "Castellar", "MathJax_AMS", "Castellar Standard", "MathJax_AMS Standard", "Colonna MT"</code>). But the most important blackboard characters are usually available in the higher unicode codepoints of Fonts specialized for math (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. XIST, STIX, ASANA). Therefore <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> supports using these characters, or simulating a blackboard font in addition to using one of the fonts above. You can set that by setting <a class="el" href="class_j_k_q_t_math_text.html#af9b124c9bcebfc5a1ff14f9e2d8096b4" title="specifies how to draw blackboard font characters (i.e. \mathbb{N} )">JKQTMathText::setFontBlackboradMode()</a> with one of the options from JKQTMathTextBlackboradDrawingMode:<ul>
+ Blackboard fonts are not widely available on target systems (viable fonts are e.g. <code>"Double Stroke", "CloisterOpenFace BT", "GoudyHandtooled BT", "Castellar", "MathJax_AMS", "Castellar Standard", "MathJax_AMS Standard", "Colonna MT"</code>). But the most important blackboard characters are usually available in the higher unicode codepoints of Fonts specialized for math (e.g. XIST, STIX, ASANA). Therefore <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> supports using these characters, or simulating a blackboard font in addition to using one of the fonts above. You can set that by setting <a class="el" href="class_j_k_q_t_math_text.html#af9b124c9bcebfc5a1ff14f9e2d8096b4" title="specifies how to draw blackboard font characters (i.e. \mathbb{N} )">JKQTMathText::setFontBlackboradMode()</a> with one of the options from JKQTMathTextBlackboradDrawingMode:<ul>
 <li>MTBBDMfontDirectly: use a blackboard font specified by <a class="el" href="class_j_k_q_t_math_text.html#ae8c503adf27d4134311712a36783fc17" title="set the font fontName and it&#39;s encoding encoding to be used for text in the logical font MTEblackboar...">JKQTMathText::setFontBlackboard()</a><div class="image">
 <img src="jkqtmathtext_bb_font_directly.png" alt=""/>
 <div class="caption">
@@ -321,7 +321,7 @@ Text Color</h2>
 </li>
 <li><code>{\color{color}</code>...} : same as above</li>
 </ul>
-<p>You can use all color names like (<code>black</code> , <code>blue</code> , <code>yellow</code> , <code>transparent</code> , ... see <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <a href="https://www.w3.org/TR/SVG11/types.html#ColorKeywords">https://www.w3.org/TR/SVG11/types.html#ColorKeywords</a> or <a href="https://en.wikipedia.org/wiki/Web_colors">https://en.wikipedia.org/wiki/Web_colors</a>) or a color defined via <code>#RGB</code> <code>#RRGGBB</code> <code>#AARRGGBB</code> <code>#RRRGGGBBB</code> <code>#RRRRGGGGBBBB</code> (where R,G,B are HEX-digits)</p>
+<p>You can use all color names like (<code>black</code> , <code>blue</code> , <code>yellow</code> , <code>transparent</code> , ... see e.g. <a href="https://www.w3.org/TR/SVG11/types.html#ColorKeywords">https://www.w3.org/TR/SVG11/types.html#ColorKeywords</a> or <a href="https://en.wikipedia.org/wiki/Web_colors">https://en.wikipedia.org/wiki/Web_colors</a>) or a color defined via <code>#RGB</code> <code>#RRGGBB</code> <code>#AARRGGBB</code> <code>#RRRGGGBBB</code> <code>#RRRRGGGGBBBB</code> (where R,G,B are HEX-digits)</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtptools__string.html#gaf39bceb2e99d604ecb95349a3b047d16" title="converts a QString into a QColor, compatible with jkqtp_QColor2String(QColor color);">jkqtp_String2QColor()</a></dd></dl>
 <h1><a class="anchor" id="JKQTMathTextSuppoertedLaTeXBoxes"></a>
 Boxes</h1>
@@ -411,7 +411,7 @@ Symbols and special characters</h1>
 <img src="jkqtmathtext_upgreek.png" alt=""/>
 </div>
 </li>
-<li><code>\textalpha</code> ... : display the according greek letter with italic style defined by the current environment (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. italic in mathmode or inside <code>\textit{\alpha}</code> and upright in text mode). (see <a class="el" href="group__jkqtmathtext__supportedlatexsymbols.html">Supported LaTeX-Symbols</a> )<div class="image">
+<li><code>\textalpha</code> ... : display the according greek letter with italic style defined by the current environment (i.e. italic in mathmode or inside <code>\textit{\alpha}</code> and upright in text mode). (see <a class="el" href="group__jkqtmathtext__supportedlatexsymbols.html">Supported LaTeX-Symbols</a> )<div class="image">
 <img src="jkqtmathtext_textgreek.png" alt=""/>
 </div>
 </li>
@@ -568,7 +568,7 @@ Environments for Multi-line text</h1>
 Tabular Environments</h1>
 <dl class="section see"><dt>See also</dt><dd>Additional matrix-environments are listed in <a class="el" href="group__jkqtmathtext__supportedlatex.html#JKQTMathTextSuppoertedLaTeXMatrix">Matrix/Array Type Instructions</a></dd></dl>
 <p>For text-mode tables, the <code>tabular</code> -environment is supported:</p><ul>
-<li><code>$\begin{tabular}{COLSPEC} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{tabular}$</code> <code>COLSPEC</code> is a LaTeX column specifier, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. a sequence composed of these parts:<ul>
+<li><code>$\begin{tabular}{COLSPEC} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{tabular}$</code> <code>COLSPEC</code> is a LaTeX column specifier, i.e. a sequence composed of these parts:<ul>
 <li><code>l</code> : left-aligned column</li>
 <li><code>c</code> : centered column</li>
 <li><code>r</code> : right-aligned column</li>
@@ -588,17 +588,16 @@ Tabular Environments</h1>
 <li><code>\hdashline</code> : a single dashed line</li>
 <li><code>\hdashline\hdashline</code> : a double dashed line</li>
 </ul>
-<p>Here is an example: </p><div class="fragment"><div class="line">\begin{<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">tabular</a>}{:<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">l</a>|<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">cr</a>||}</div>
-<div class="line">  \<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">hdashline</a> </div>
-<div class="line">  <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">a1</a>--- &amp; <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">b1</a>--- &amp; <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">c1</a>---\\ </div>
-<div class="line">  <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">a2</a>- &amp; <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">b2</a>- &amp; <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">c2</a>-\\</div>
-<div class="line">  \<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">hline</a> </div>
-<div class="line">  <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">a3</a> &amp; <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">b3</a> &amp; <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">c3</a>\\</div>
-<div class="line">  \<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">hline\hline</a> </div>
-<div class="line">  <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">a4</a> &amp; <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">b4</a> &amp; <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">c4</a>\\</div>
-<div class="line">  \<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">bottomrule</a></div>
-<div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">\end</a>{<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">tabular</a>}</div>
-<div class="ttc" id="aclass_j_k_q_t_p_final_act_html"><div class="ttname"><a href="class_j_k_q_t_p_final_act.html">JKQTPFinalAct</a></div><div class="ttdoc">C++11 finally construct (executes a callable-object when the edestructor is executed)</div><div class="ttdef"><b>Definition</b> jkqtpcodestructuring.h:48</div></div>
+<p>Here is an example: </p><div class="fragment"><div class="line">\begin{tabular}{:l|cr||}</div>
+<div class="line">  \hdashline </div>
+<div class="line">  a1--- &amp; b1--- &amp; c1---\\ </div>
+<div class="line">  a2- &amp; b2- &amp; c2-\\</div>
+<div class="line">  \hline </div>
+<div class="line">  a3 &amp; b3 &amp; c3\\</div>
+<div class="line">  \hline\hline </div>
+<div class="line">  a4 &amp; b4 &amp; c4\\</div>
+<div class="line">  \bottomrule</div>
+<div class="line">\end{tabular}</div>
 </div><!-- fragment --><div class="image">
 <img src="jkqtmathtext_tabular.png" alt=""/>
 </div>
@@ -606,7 +605,7 @@ Tabular Environments</h1>
 Supported Mathematical Constructs</h1>
 <h2><a class="anchor" id="JKQTMathTextSuppoertedLaTeXSubSuper"></a>
 Sub- and Superscript</h2>
-<p>The standard LaTeX sub-/superscript instructions (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. <code>text_{sub}</code> or <code>text^{super}</code> ) are supported:</p><ul>
+<p>The standard LaTeX sub-/superscript instructions (i.e. <code>text_{sub}</code> or <code>text^{super}</code> ) are supported:</p><ul>
 <li><code>^{</code>...} <code>_{</code>...} : display the contents of braces in superscript/subscript<div class="image">
 <img src="jkqtmathtext_supersub.png" alt=""/>
 </div>
@@ -619,7 +618,7 @@ Special subscript/superscript typesetting applies, when the sub/super follows <c
 <img src="jkqtmathtext_limits.png" alt=""/>
 </div>
 </li>
-<li><code>$\substack[lrc]{...\\...}$</code> allows to <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. subset several lines below a <code>\sum</code> using <code>\sum\limits_\substack{a&lt;5\\b&lt;100}</code>:<div class="image">
+<li><code>$\substack[lrc]{...\\...}$</code> allows to e.g. subset several lines below a <code>\sum</code> using <code>\sum\limits_\substack{a&lt;5\\b&lt;100}</code>:<div class="image">
 <img src="jkqtmathtext_substack.png" alt=""/>
 </div>
 </li>
@@ -812,7 +811,7 @@ Matrix/Array Type Instructions</h2>
 <li><code>$\begin{array}{COLSPEC} a &amp; b &amp; ...\\ c &amp; d &amp; ...\end{array}$</code><div class="image">
 <img src="jkqtmathtext_array.png" alt=""/>
 </div>
- <code>COLSPEC</code> is a LaTeX column specifier, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. a sequence composed of these parts: <ul>
+ <code>COLSPEC</code> is a LaTeX column specifier, i.e. a sequence composed of these parts: <ul>
 <li>
 <code>l</code> : left-aligned column </li>
 <li>
@@ -845,7 +844,7 @@ Matrix/Array Type Instructions</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 23 2024 12:40:41 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Jan 24 2024 21:49:20 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

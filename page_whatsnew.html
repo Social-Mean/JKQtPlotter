@@ -182,7 +182,7 @@ NEW: the different sub-libraries <a class="el" href="class_j_k_q_t_plotter.html"
 <li>
 NEW add <a class="el" href="struct_j_k_q_t_p_expected.html" title="an &quot;expected&quot; datatype, which can either represent a function result of type T or an error of type E">JKQTPExpected</a> datatype, <a class="el" href="group__jkqtptools__math__basic.html#ga35b3d496d27020543cd5b9028066218f" title="round a double v using round() to a given number of decimal digits">jkqtp_roundToDigits()</a>, generic RegularExpression functions (<a class="el" href="group__jkqtptools__string.html#gab12db797844ca94310af235a9596c2f9" title="returns true, if text exactly matches the given regular expression regex, starts from offset and opti...">jkqtp_rxExactlyMatches()</a>, <a class="el" href="group__jkqtptools__string.html#ga7e7e4b5018c06dd9e79da1fd4aadb549" title="returns the next match (i.e. its index) of the given regular expression regex within text,...">jkqtp_rxIndexIn()</a>, <a class="el" href="group__jkqtptools__string.html#gac6f77ee8b34a10f26c6db93b4ad65401" title="returns true, if text contains a match to the given regular expression regex, starts from offset and ...">jkqtp_rxContains()</a>, <a class="el" href="group__jkqtptools__string.html#ga3b6b980f4f4f46803c52806ee700aaba" title="returns true, if text partially matches the given regular expression regex, starting from offset (and...">jkqtp_rxPartiallyMatchesAt()</a> ) </li>
 <li>
-NEW CSS-parser <a class="el" href="class_j_k_q_t_p_c_s_s_parser.html" title="A simple parser for certain CSS subsets.">JKQTPCSSParser</a> in order to parse <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <code>linear-gradient</code>() specifications in <a class="el" href="group__jkqtptools__string.html#gaf2e8e335c54fef4fdc6d20c298b5ecda" title="converts a QString into a Qt::BrushStyle. commpared to jkqtp_String2QBrushStyle(),...">jkqtp_String2QBrushStyleExt()</a> </li>
+NEW CSS-parser <a class="el" href="class_j_k_q_t_p_c_s_s_parser.html" title="A simple parser for certain CSS subsets.">JKQTPCSSParser</a> in order to parse e.g. <code>linear-gradient</code>() specifications in <a class="el" href="group__jkqtptools__string.html#gaf2e8e335c54fef4fdc6d20c298b5ecda" title="converts a QString into a Qt::BrushStyle. commpared to jkqtp_String2QBrushStyle(),...">jkqtp_String2QBrushStyleExt()</a> </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -219,7 +219,7 @@ FIXED issue #98: Signal <a class="el" href="class_j_k_q_t_plotter.html#a03df9273
 <li>
 FIXED: first symbol in symbols rotation was never used </li>
 <li>
-FIXED: color palettes with few entries (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. "step"-palettes) were not applied correctly </li>
+FIXED: color palettes with few entries (i.e. "step"-palettes) were not applied correctly </li>
 <li>
 FIXED: fixes strange rendering with distortions (especially in text!), by correcting size calculation of internal image buffer </li>
 <li>
@@ -238,7 +238,7 @@ FIXED/NEW: placement of plot-title (was not centerd in its box, but glued to the
 FIXED/REWORKED issue <a href="https://github.com/jkriege2/JKQtPlotter/issues/111">#111: Can't write to PDF files with JKQTPlotter::saveImage() when passing a filename ending in ".pdf"</a> (thanks to <a href="https://github.com/fpalazzolo">user:fpalazzolo/a&gt; for reporting):<br  />
 While fixing this issue, the functions JKQTBasePlotter::saveImage() etc. gained a bool return value to indicate whether sacing was successful. REWORKED JKQTBasePlotter::saveData() with a more consistent interface and a bool return value to indicate success or failure + improved documentation, added methods to JKQTPSaveDataAdapter that allow to specify file extensions and an ID for the plugin. REORGANIZED: separated line-graphs from jkqtpscatter.h/.cpp into jkqtplines.h/.cpp IMPROVED: QT6-compatibility by removing deprecated warnings IMPROVED: added missing override declarations IMPROVED: JKQTPlotter::jkqtp_RESIZE_DELAY is thread-safe now (atomic) IMPROVED/REWORKED: reworked JKQTPErrorPlotstyle and error indicator plotting so error-inidcators can be specified as ORed combination of flags from JKQTPErrorPlotstyleElements, added additional error indicator styles (half-bars, arrows...) IMPROVED/REWORKED: reworked JKQTPCADrawMode and coordinate axis drawing so the draw mide can be specified as ORed combination of flags from JKQTPCADrawModeElements, added flags to draw arrows at the end of the axis line IMPROVED/REWORKED: coordinate axis code was refactored IMPROVED/REWORKED: zomm/pan by mouse-wheel: now there are modes that support zoomin AND panning by trakpad and mouse-wheel simultaneously! This can only be implemented using heuristics, due to the way that Qt handles track-pad events, but the current solution should at least improve the behaviour seen before. Mainly <code>jkqtpmwaZoomByWheelAndTrackpadPan</code> was introduced into <code>JKQTPMouseWheelActions</code> und is set as default mode: Here JKQTPlotter tries to distinguish the QWheelEvent s sent by an actual mouse wheel and a trackpad. IMPROVED/REWORKED: better example graphs in \link JKQTPlotterStyling. IMPROVED/REWORKED: legend/key positioning as combination of 3 values, e.g. <code>JKQTPKeyOutsideTop|JKQTPKeyTop|JKQTPKeyRight</code> or <code>JKQTPKeyInside|JKQTPKeyTopJKQTPKeyRight</code> IMPROVED/REWORKED: The functions JKQTBasePlotter::saveImage(), JKQTBasePlotter::saveAsPixelImage(), JKQTBasePlotter::saveAsPDF(), JKQTBasePlotter::saveSVG(), ... gained a bool return value to indicate whether sacing was successful. IMPROVED/REWORKED: More <code>save...()</code> functions will appear in the API of JKQTPlotter, so you don't have to go via JKQTPlotter::getPlotter(). These are merely forwarding the call to the internel JKQTBasePlotter instance. IMPROVED: documentation of styles: automatized doc image generation. NEW: JKQTPFilledCurveXGraph and JKQTPFilledCurveYGraph can now plot wiggle plots with different fill styles above and below the baseline (feature request #68 Wiggle Plots</a> from <a href="https://github.com/xichaoqiang">user:xichaoqiang</a>  </li>
 <li>
-NEW/BREAKING CHANGE: data tooltip can now also be shown when "just" moving the mouse (so far this was only possible when dragging the mouse with a button pressed). This also removes <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">JKQtPlotter::getActMouseLeftAsToolTip()</a> and adds JKQtPlotter::getActMouseMoveToolTip() instead! Also the default toolbars and context menus changed! </li>
+NEW/BREAKING CHANGE: data tooltip can now also be shown when "just" moving the mouse (so far this was only possible when dragging the mouse with a button pressed). This also removes JKQtPlotter::getActMouseLeftAsToolTip() and adds JKQtPlotter::getActMouseMoveToolTip() instead! Also the default toolbars and context menus changed! </li>
 <li>
 NEW: new "seaborn" style for plots, see <a class="el" href="group__jkqtpplotter__styling.html">Styling System</a>  </li>
 <li>
@@ -250,11 +250,11 @@ BREAKING: Print-Support can now be switched off with a CMAKE-option JKQtPlotter_
 <li>
 NEW: improved plotting speed for line-graphs by drawing a series of single lines instead of a polyline in some cases </li>
 <li>
-NEW: improved plotting speed for line-graphs by a compression algorithm (see <a class="el" href="class_j_k_q_t_p_graph_lines_compression_mixin.html" title="This Mix-In class provides setter/getter methods, storage and other facilities for a line-graph compr...">JKQTPGraphLinesCompressionMixin</a>) that removes overlaying lines (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. in <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>) </li>
+NEW: improved plotting speed for line-graphs by a compression algorithm (see <a class="el" href="class_j_k_q_t_p_graph_lines_compression_mixin.html" title="This Mix-In class provides setter/getter methods, storage and other facilities for a line-graph compr...">JKQTPGraphLinesCompressionMixin</a>) that removes overlaying lines (e.g. in <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>) </li>
 <li>
 NEW: improved plotting speed for line-graphs by a clipping algorithm (applies to <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>, <a class="el" href="class_j_k_q_t_p_graph_error_style_mixin.html" title="This mix-in class assembles all styling properties applicable to error indicators.">JKQTPGraphErrorStyleMixin</a>, <a class="el" href="class_j_k_q_t_p_special_line_horizontal_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineHorizontalGraph</a>, <a class="el" href="class_j_k_q_t_p_special_line_vertical_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineVerticalGraph</a> and others) </li>
 <li>
-NEW: improved plotting speed for scatter-graphs by not calling draw functions for symbols outside the plot window (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. in <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>) </li>
+NEW: improved plotting speed for scatter-graphs by not calling draw functions for symbols outside the plot window (e.g. in <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a>) </li>
 <li>
 NEW: added <a class="el" href="class_j_k_q_t_base_plotter.html#a6929ec72f61b86dedb6a1f315e3883c7" title="returns a rendering of the current plot as a QImage (pixel image) with the given size">JKQTBasePlotter::grabPixelImage()</a> and <a class="el" href="class_j_k_q_t_plotter.html#ac83a30529824e25e774af566e3a0fb16" title="returns a rendering of the current plot as a QImage (pixel image) with the given size">JKQTPlotter::grabPixelImage()</a>, which grab the plotter into a QImage </li>
 <li>
@@ -280,14 +280,14 @@ NEW: added new error indicator styles JKQTPErrorHalfBarsOutwards, JKQTPErrorHalf
 <li>
 NEW: Added signals <a class="el" href="class_j_k_q_t_base_plotter.html#a405d92984e0a2bb5de7b4fc0c4a3817b" title="emitted just before exporting the current plot as image, or just before the export preview dialog is ...">JKQTBasePlotter::beforeExporting()</a>/JKQTBasePlotter::afterExporting() and JKQTBasePlotterJKQTBasePlotter:beforePrinting()/JKQTBasePlotter::afterPrinting() which allow to modify the plot just before and just after an export/print </li>
 <li>
-NEW: Added new JKQTPCALabelType elements (JKQTPCALTfrac...), so axis label ticks can be displayed as fractions 1/2 instead of <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">0.5</a><br  />
- JKQTPCALTscientific, so axis label ticks can be displayed as numbers in scientific notation like <code><a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">1.2E</a>-34</code> <br  />
+NEW: Added new JKQTPCALabelType elements (JKQTPCALTfrac...), so axis label ticks can be displayed as fractions 1/2 instead of 0.5<br  />
+ JKQTPCALTscientific, so axis label ticks can be displayed as numbers in scientific notation like <code>1.2E-34</code> <br  />
  JKQTPCALTprintf for general formatting with a printf-format string <br  />
  JKQTPCALTformat for general formatting with a std::format-format string (available for C++&gt;=20 only!!!) </li>
 <li>
 NEW: all elements of a coordinate axis may have their own color now  </li>
 <li>
-NEW: added possibility to scale the axis ticks by a factor (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. pi) to generate axes with ticks <code>0pi, 1pi, 2pi ...</code>  </li>
+NEW: added possibility to scale the axis ticks by a factor (e.g. pi) to generate axes with ticks <code>0pi, 1pi, 2pi ...</code>  </li>
 <li>
 NEW: added option to draw a zero axis to <a class="el" href="class_j_k_q_t_p_coordinate_axis.html" title="this virtual class is the base for any type of coordinate axis, to be drawn by JKQTBasePlotter.">JKQTPCoordinateAxis</a>, which draws an axis at the origin of the coordinate system  </li>
 <li>
@@ -305,9 +305,9 @@ NEW: secondary axes: added functionality to manage additional secondary axes in 
 <li>
 NEW: You can use additional syntax derived from CCS to define colors in style.ini.files (or when using <a class="el" href="group__jkqtptools__string.html#gaf39bceb2e99d604ecb95349a3b047d16" title="converts a QString into a QColor, compatible with jkqtp_QColor2String(QColor color);">jkqtp_String2QColor()</a> ): You can use full CSS-color syntax with functions <code>"rgb(R,G,B)"</code>, <code>"rgba(...)"</code>, <code>"hsl(...)"</code>, <code>"hsv(...)"</code>, <code>"gray(...)"</code>, <code>"green(...)"</code>, <code>"red(...)"</code>, <code>"blue(...)"</code>. </li>
 <li>
-NEW: several new color palettes (especially stepped/categorial palettes), <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. JKQTPMathImageColorPalette::JKQTPMathImageOkabeIto_STEP, JKQTPMathImageColorPalette::JKQTPMathImageIBMColorBlindSafe, JKQTPMathImageColorPalette::JKQTPMathImageIBMColorBlindSafe_STEP, ... </li>
+NEW: several new color palettes (especially stepped/categorial palettes), e.g. JKQTPMathImageColorPalette::JKQTPMathImageOkabeIto_STEP, JKQTPMathImageColorPalette::JKQTPMathImageIBMColorBlindSafe, JKQTPMathImageColorPalette::JKQTPMathImageIBMColorBlindSafe_STEP, ... </li>
 <li>
-NEW: add color palettes from Green's HELIX method, see <a href="https://arxiv.org/abs/1108.5083">https://arxiv.org/abs/1108.5083</a>, also see <a href="https://jiffyclub.github.io/palettable/cubehelix/">https://jiffyclub.github.io/palettable/cubehelix/</a>, see <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#gac3c865d92e20411a97b3f38c40b33f1d" title="create color palettes/LUTs by using Green&#39;s CubeHelix method">JKQTPCreateGreensCubeHelixLUT()</a> and <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. JKQTPMathImageCubeHelixClassic, JKQTPMathImageCubeHelix1, ... </li>
+NEW: add color palettes from Green's HELIX method, see <a href="https://arxiv.org/abs/1108.5083">https://arxiv.org/abs/1108.5083</a>, also see <a href="https://jiffyclub.github.io/palettable/cubehelix/">https://jiffyclub.github.io/palettable/cubehelix/</a>, see <a class="el" href="group__jkqtplotter__imagelots__tools___l_u_t_s.html#gac3c865d92e20411a97b3f38c40b33f1d" title="create color palettes/LUTs by using Green&#39;s CubeHelix method">JKQTPCreateGreensCubeHelixLUT()</a> and e.g. JKQTPMathImageCubeHelixClassic, JKQTPMathImageCubeHelix1, ... </li>
 <li>
 NEW: Using Q_SIGNALS/Q_SLOTS instead of signals/slots MOC-keywords ... this allows for interoperability with other signals/slots frameworks, thanks to <a href="https://github.com/nickmontini">user:nickmontini</a> for the proposal </li>
 <li>
@@ -321,11 +321,11 @@ NEW: Due to addition of <a class="el" href="class_j_k_q_t_math_text.html#ab277fc
 <li>
 NEW: added JKQTPLabelMinBesides and JKQTPLabelMaxBesides to JKQTPLabelPosition, so labels can be set besides the axes </li>
 <li>
-NEW/REWORKED all functions in <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a> are re-entrant, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. different instances can be used from different threads in parallel (although there is some overhead due to shared caches between the threads!). This is demonstrated and discussed in <a class="el" href="_j_k_q_t_plotter_multi_threaded.html">Example (JKQTPlotter): Multi-Threaded (Parallel) Plotting</a> .  </li>
+NEW/REWORKED all functions in <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a> are re-entrant, i.e. different instances can be used from different threads in parallel (although there is some overhead due to shared caches between the threads!). This is demonstrated and discussed in <a class="el" href="_j_k_q_t_plotter_multi_threaded.html">Example (JKQTPlotter): Multi-Threaded (Parallel) Plotting</a> .  </li>
 <li>
 NEW: allow linear-gradient(), currentcolor, ... in brush definitions of style.ini-file ... and using it is cyberpunk and dark styles </li>
 <li>
-NEW: style <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">simple_noaxes.ini</a> </li>
+NEW: style simple_noaxes.ini </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -358,7 +358,7 @@ IMPROVED: rendering of sqrt </li>
 <li>
 IMPROVED: rendering and size calculation of decorations </li>
 <li>
-IMPROVED: tokenizing and parsing of text in text-mode: now a lot of accents with commands like <code>\"a</code>, <code>\'e</code> and variants (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <code>{\"a}</code>, <code>\"{a}</code>, ...) are supported now </li>
+IMPROVED: tokenizing and parsing of text in text-mode: now a lot of accents with commands like <code>\"a</code>, <code>\'e</code> and variants (e.g. <code>{\"a}</code>, <code>\"{a}</code>, ...) are supported now </li>
 <li>
 IMPROVED: all fucntions in <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> are re-entrant + diverse speed improvements for parallel use-cases (via caches) </li>
 <li>
@@ -372,7 +372,7 @@ REMOVED/BREAKING: <code>\v</code>[a-zA-Z] and shorthand for <code>\vec{a-zA-Z}</
 <li>
 MODIFIED/BREAKING: new options interface for <a class="el" href="class_j_k_q_t_math_text.html#a33429d4f9fd09a5418995a0a2886c7cd" title="parse the given math markup string with a parser derived from markupType.">JKQTMathText::parse()</a> </li>
 <li>
-EMOVED/BREAKING: removed <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">JKQTMathtext::unparsedNode</a> </li>
+EMOVED/BREAKING: removed JKQTMathtext::unparsedNode </li>
 <li>
 IMPROVED/REWORKED rendering of text in text- and math-mode. Now it is more consistent with the output of LaTeX itself </li>
 <li>
@@ -384,7 +384,7 @@ BREAKING/REWORKED: Separated the LaTeX parser into <a class="el" href="class_j_k
 <li>
 BREAKING/CLEANUP: cleanup: Removed Parameter prevNodeSize from <a class="el" href="class_j_k_q_t_math_text_node.html#aa4ec0fd6ced64f73c383297a52160909" title="draw the contents at the designated position">JKQTMathTextNode::draw()</a> and <a class="el" href="class_j_k_q_t_math_text_node.html#af26f91923648b4a06693cd4255ff91af" title="determine the size of the node, calls getSizeInternal() implementation of the actual type">JKQTMathTextNode::getSize()</a>/JKQTMathTextNode::getSizeInternal(), since it is only really necessary for <a class="el" href="class_j_k_q_t_math_text_subscript_node.html" title="subclass representing an subscript node with exactly one argument in the syntax tree">JKQTMathTextSubscriptNode</a> and <a class="el" href="class_j_k_q_t_math_text_superscript_node.html" title="subclass representing an superscript node with exactly one argument in the syntax tree">JKQTMathTextSuperscriptNode</a> </li>
 <li>
-BREAKING/CLEANUP: using <a class="el" href="struct_j_k_q_t_math_text_node_size.html" title="beschreibt die Größe(n) eines Knotens">JKQTMathTextNodeSize</a> for all size-calculation functions and got rid of all functions that take the output parameters with call-by-reference, additional information can be outut by local size-classes that derive from <a class="el" href="struct_j_k_q_t_math_text_node_size.html" title="beschreibt die Größe(n) eines Knotens">JKQTMathTextNodeSize</a>, see <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_node_size.html" title="return type for getSymbolSize(), extends JKQTMathTextNodeSize with information about x-correction for...">JKQTMathTextSymbolNode::NodeSize</a> and <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a22f1950a96e49e20ef5840a55365a4b2" title="determine the size of the node, calls getSizeInternal() implementation of the actual type">JKQTMathTextSymbolNode::getSymbolSize()</a> </li>
+BREAKING/CLEANUP: using <a class="el" href="struct_j_k_q_t_math_text_node_size.html" title="beschreibt die Größe(n) eines Knotens">JKQTMathTextNodeSize</a> for all size-calculation functions and got rid of all functions that take the output parameters with call-by-reference, additional information can be outut by local size-classes that derive from <a class="el" href="struct_j_k_q_t_math_text_node_size.html" title="beschreibt die Größe(n) eines Knotens">JKQTMathTextNodeSize</a>, see e.g. <a class="el" href="struct_j_k_q_t_math_text_symbol_node_1_1_node_size.html" title="return type for getSymbolSize(), extends JKQTMathTextNodeSize with information about x-correction for...">JKQTMathTextSymbolNode::NodeSize</a> and <a class="el" href="class_j_k_q_t_math_text_symbol_node.html#a22f1950a96e49e20ef5840a55365a4b2" title="determine the size of the node, calls getSizeInternal() implementation of the actual type">JKQTMathTextSymbolNode::getSymbolSize()</a> </li>
 <li>
 NEW: <a class="el" href="class_j_k_q_t_math_text_vertical_list_node.html" title="subclass representing a list of nodes in the syntax tree, layed out vertically">JKQTMathTextVerticalListNode</a> allows to typeset a vertical list of lines </li>
 <li>
@@ -468,7 +468,7 @@ NEW: Added the Fira Math fonts as sans-serif symbol font to the library (as a re
 <li>
 NEW: Added <a class="el" href="class_j_k_q_t_math_text.html#ac4b34640c60fd3d407e185d12d90c487" title="configures the class to be used for GUI output, i.e. tries to find fonts that are harmonious for the ...">JKQTMathText::useGuiFonts()</a> </li>
 <li>
-NEW: Added <a class="el" href="class_j_k_q_t_math_text.html#ab277fcf69ff145d316039a766aa08b8d" title="set (overwrite) the options applied to the base font">JKQTMathText::setFontOptions()</a>, which allows to make fonts initially <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. bold, italic, ... and extended <a class="el" href="class_j_k_q_t_math_text.html#ad28ed500ffb2179955db144aee55031c" title="set font(s) from parsing a font specifier">JKQTMathText::setFontSpecial()</a> accordingly </li>
+NEW: Added <a class="el" href="class_j_k_q_t_math_text.html#ab277fcf69ff145d316039a766aa08b8d" title="set (overwrite) the options applied to the base font">JKQTMathText::setFontOptions()</a>, which allows to make fonts initially e.g. bold, italic, ... and extended <a class="el" href="class_j_k_q_t_math_text.html#ad28ed500ffb2179955db144aee55031c" title="set font(s) from parsing a font specifier">JKQTMathText::setFontSpecial()</a> accordingly </li>
 </ul>
 </li>
 <li>
@@ -530,15 +530,15 @@ renamed/BREAKING change: renamed JKQTPPlotObject-&gt;<a class="el" href="class_j
 <li>
 renamed/BREAKING change: renamed JKQTPColorPaletteStyleAndToolsMixin::setPalette() -&gt; <a class="el" href="class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#af4d4684e560361e2a31c503a7ddcae61" title="palette for plotting an image">JKQTPColorPaletteStyleAndToolsMixin::setColorPalette()</a> </li>
 <li>
-removed/BREAKING change: removed the usage of some deprecated functions and objects (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. QMatrix) </li>
+removed/BREAKING change: removed the usage of some deprecated functions and objects (e.g. QMatrix) </li>
 <li>
 removed/BREAKING change: removed the overlay elements (derived from JKQTPOverlayElement), which were not very well set up and are more confusing than useful. </li>
 <li>
-improved/BREAKING change: geometric objects now use an adaptive drawing algorithm to represent curves (before <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. ellipses were always separated into a fixed number of line-segments) </li>
+improved/BREAKING change: geometric objects now use an adaptive drawing algorithm to represent curves (before e.g. ellipses were always separated into a fixed number of line-segments) </li>
 <li>
 improved/BREAKING change: geometric elements constructor: removed all styling properties, added setStyle()-functions to replace them. This is necessary to better work with the extended Styling system </li>
 <li>
-improved: constructors and access functions for several geometric objects (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. more constructors, additional functions to retrieve parameters in diferent forms, iterators for polygons, ...) </li>
+improved: constructors and access functions for several geometric objects (e.g. more constructors, additional functions to retrieve parameters in diferent forms, iterators for polygons, ...) </li>
 <li>
 improved/BREAKING change: reworked class hierarchy of parsed function plots and declared several setters as slots. </li>
 <li>
@@ -568,13 +568,13 @@ bugfixed/improved: aspect ratio handling in <a class="el" href="class_j_k_q_t_pl
 <li>
 new: switching to semantic versioning ... starting with v4.0.0 </li>
 <li>
-new: Compatibility with Qt <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">5.15</a> and Qt6 </li>
+new: Compatibility with Qt 5.15 and Qt6 </li>
 <li>
 new: added support for high-dpi devices (thanks for <a href="https://github.com/jkriege2/JKQtPlotter/pull/55">PR #55: Enable high-dpi support for plots </a> by <a href="https://github.com/akenmorris">user:akenmorris</a>. </li>
 <li>
 new: added geometric plot objects <a class="el" href="class_j_k_q_t_p_geo_arrow.html" title="This convenience specialisation of JKQTPGeoLine is used to draw a line with decorations (e....">JKQTPGeoArrow</a> to draw arrows (aka lines with added line-end decorators, also extended <a class="el" href="class_j_k_q_t_p_geo_line.html" title="This JKQTPGeometricPlotElement is used to draw a line, optionally line-end decorations (aka arrows) a...">JKQTPGeoLine</a>, <a class="el" href="class_j_k_q_t_p_geo_infinite_line.html" title="This JKQTPGeometricPlotElement is used to draw an infinite line.">JKQTPGeoInfiniteLine</a>, <a class="el" href="class_j_k_q_t_p_geo_poly_lines.html" title="This JKQTPGeometricPlotElement is used to draw a poly line.">JKQTPGeoPolyLines</a> to draw line-end decorator (aka arrows) </li>
 <li>
-new: all geometric objects can either be drawn as graphic element (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. lines are straight line, even on non-linear axes), or as mathematical curve (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">i.e</a>. on non-linear axes, lines become the appropriate curve representing the linear function, connecting the given start/end-points). The only exceptions are ellipses (and the derived arcs,pies,chords), which are always drawn as mathematical curves </li>
+new: all geometric objects can either be drawn as graphic element (i.e. lines are straight line, even on non-linear axes), or as mathematical curve (i.e. on non-linear axes, lines become the appropriate curve representing the linear function, connecting the given start/end-points). The only exceptions are ellipses (and the derived arcs,pies,chords), which are always drawn as mathematical curves </li>
 <li>
 new: a new graph class <a class="el" href="class_j_k_q_t_p_x_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function  The function is eva...">JKQTPXYFunctionLineGraph</a> draws parametric 2D curves ( \f$ [x,y] = f(t) \f$ ), see <a class="el" href="_j_k_q_t_plotter_eval_curves.html">Example (JKQTPlotter): Plotting Parametric Mathematical Curves as Line Graphs</a> for an example </li>
 <li>
@@ -615,15 +615,15 @@ update: refactoring of the library's directory structure  </li>
 <li>
 update: refactoring/renaming of API, including the function anming scheme and class names  </li>
 <li>
-changed: using static const variables instead of <code>#define</code> for fixed default values (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4" title="size of the lookup tables used by JKQTFPimagePlot_array2image()">JKQTPImageTools::LUTSIZE</a>, <a class="el" href="struct_j_k_q_t_p_image_tools.html#adff44153c21d7d9b1d3645c08510af7c" title="Width of the Palette-Icons, generated e.g. by JKQTPImageTools::GetPaletteIcon()">JKQTPImageTools::PALETTE_ICON_WIDTH</a>, JKQTPlotterDrawinTools::ABS_MIN_LINEWIDTH, <a class="el" href="class_j_k_q_t_math_text.html#aca215b542930cdec640f87bd2c45ada5" title="minimum linewidth allowed in a JKQTMathText (given in pt)">JKQTMathText::ABS_MIN_LINEWIDTH</a> ...) </li>
+changed: using static const variables instead of <code>#define</code> for fixed default values (e.g. <a class="el" href="struct_j_k_q_t_p_image_tools.html#ae0bf98fa4c6b14f0a5426c741d8094a4" title="size of the lookup tables used by JKQTFPimagePlot_array2image()">JKQTPImageTools::LUTSIZE</a>, <a class="el" href="struct_j_k_q_t_p_image_tools.html#adff44153c21d7d9b1d3645c08510af7c" title="Width of the Palette-Icons, generated e.g. by JKQTPImageTools::GetPaletteIcon()">JKQTPImageTools::PALETTE_ICON_WIDTH</a>, JKQTPlotterDrawinTools::ABS_MIN_LINEWIDTH, <a class="el" href="class_j_k_q_t_math_text.html#aca215b542930cdec640f87bd2c45ada5" title="minimum linewidth allowed in a JKQTMathText (given in pt)">JKQTMathText::ABS_MIN_LINEWIDTH</a> ...) </li>
 <li>
 Updates to <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>: <ul>
 <li>
-new: added <a class="el" href="class_j_k_q_t_p_single_column_symbols_graph.html" title="plots a 1-column set of data-values with symbols onto a JKQtPlotter/JKQtBasePlotter....">JKQTPSingleColumnSymbolsGraph</a> for single-column data, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. drawn as (random) scatter or bee-swarm or rug plots  </li>
+new: added <a class="el" href="class_j_k_q_t_p_single_column_symbols_graph.html" title="plots a 1-column set of data-values with symbols onto a JKQtPlotter/JKQtBasePlotter....">JKQTPSingleColumnSymbolsGraph</a> for single-column data, e.g. drawn as (random) scatter or bee-swarm or rug plots  </li>
 <li>
 new: stacked barcharts with <a class="el" href="class_j_k_q_t_p_bar_vertical_stackable_graph.html" title="This implements a vertical bar graph with bars between  and  Optionally several graphs of this type m...">JKQTPBarVerticalStackableGraph</a>, <a class="el" href="class_j_k_q_t_p_bar_horizontal_stackable_graph.html" title="This implements a horizontal bar graph with bars between  and  Optionally several graphs of this type...">JKQTPBarHorizontalStackableGraph</a>  </li>
 <li>
-new: use/support of C++11 features (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. \c std::function&lt;&gt; and lambda functions in <a class="el" href="class_j_k_q_t_p_x_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPXFunctionLineGraph</a> / <a class="el" href="class_j_k_q_t_p_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPYFunctionLineGraph</a> ) </li>
+new: use/support of C++11 features (e.g. \c std::function&lt;&gt; and lambda functions in <a class="el" href="class_j_k_q_t_p_x_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPXFunctionLineGraph</a> / <a class="el" href="class_j_k_q_t_p_y_function_line_graph.html" title="This implements line plots where the data is taken from a user supplied function .">JKQTPYFunctionLineGraph</a> ) </li>
 <li>
 new: <a class="el" href="group__jkqtpinterfaceopencv.html">optional OpenCV interface</a>  </li>
 <li>
@@ -667,7 +667,7 @@ changed: removed old selection-code and replaced by general highlighting feature
 <li>
 changed: JKQTPStepHorizontalGraph has been renamed to <a class="el" href="class_j_k_q_t_p_special_line_horizontal_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineHorizontalGraph</a> (vertical variants also) and have gained additional features (baseline for filling and drawing of symbols)  </li>
 <li>
-changed: filled curve graphs (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <a class="el" href="class_j_k_q_t_p_special_line_horizontal_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineHorizontalGraph</a>) are now merely a specializedly initialized <a class="el" href="class_j_k_q_t_p_special_line_horizontal_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineHorizontalGraph</a>  </li>
+changed: filled curve graphs (e.g. <a class="el" href="class_j_k_q_t_p_special_line_horizontal_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineHorizontalGraph</a>) are now merely a specializedly initialized <a class="el" href="class_j_k_q_t_p_special_line_horizontal_graph.html" title="This implements a step plot with values .">JKQTPSpecialLineHorizontalGraph</a>  </li>
 <li>
 removed: Removed datarange-feature  </li>
 <li>
@@ -675,7 +675,7 @@ update: <a class="el" href="class_j_k_q_t_plotter.html#JKQTPLOTTER_USERINTERACTI
 <li>
 update: <a class="el" href="group__jkqtplotter__basegraphserrors.html">reworked error indicator base classes</a>  </li>
 <li>
-update: improvements to contour plots (<a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. highlighting single contour levels, split into a class for simple C-arrays [<a class="el" href="class_j_k_q_t_p_contour_plot.html" title="class for a contour plot">JKQTPContourPlot</a>] and one for image data in a <a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a> column [<a class="el" href="class_j_k_q_t_p_column_contour_plot.html" title="class for a contour plots (same as JKQTPContourPlot) of images stored in a JKQTPDatastore column">JKQTPColumnContourPlot</a>]) + added example, see <a class="el" href="class_j_k_q_t_p_column_contour_plot.html" title="class for a contour plots (same as JKQTPContourPlot) of images stored in a JKQTPDatastore column">JKQTPColumnContourPlot</a> and <a class="el" href="_j_k_q_t_plotter_contour_plot.html">Example (JKQTPlotter): Contour Plots</a>  </li>
+update: improvements to contour plots (e.g. highlighting single contour levels, split into a class for simple C-arrays [<a class="el" href="class_j_k_q_t_p_contour_plot.html" title="class for a contour plot">JKQTPContourPlot</a>] and one for image data in a <a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a> column [<a class="el" href="class_j_k_q_t_p_column_contour_plot.html" title="class for a contour plots (same as JKQTPContourPlot) of images stored in a JKQTPDatastore column">JKQTPColumnContourPlot</a>]) + added example, see <a class="el" href="class_j_k_q_t_p_column_contour_plot.html" title="class for a contour plots (same as JKQTPContourPlot) of images stored in a JKQTPDatastore column">JKQTPColumnContourPlot</a> and <a class="el" href="_j_k_q_t_plotter_contour_plot.html">Example (JKQTPlotter): Contour Plots</a>  </li>
 <li>
 fixed: colorbars at top were positioned over the plot label  </li>
 <li>
@@ -743,7 +743,7 @@ Latest Release/Tag: <a href="https://github.com/jkriege2/JKQtPlotter/releases/ta
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 23 2024 12:40:40 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Jan 24 2024 21:49:20 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

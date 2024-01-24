@@ -122,6 +122,8 @@ var hierarchy =
     ] ],
     [ "JKQTPCSSParser", "class_j_k_q_t_p_c_s_s_parser.html", null ],
     [ "JKQTPDataCache< TData, TKey, ThreadSafe, TKeyInSignature >", "struct_j_k_q_t_p_data_cache.html", null ],
+    [ "JKQTPDataCacheNotThreadSafe", "group__jkqtptools__concurrency.html#struct_j_k_q_t_p_data_cache_not_thread_safe", null ],
+    [ "JKQTPDataCacheThreadSafe", "group__jkqtptools__concurrency.html#struct_j_k_q_t_p_data_cache_thread_safe", null ],
     [ "JKQTPDatastore", "class_j_k_q_t_p_datastore.html", null ],
     [ "JKQTPDatastoreItem", "class_j_k_q_t_p_datastore_item.html", null ],
     [ "JKQTPExpected< T, E >", "struct_j_k_q_t_p_expected.html", null ],

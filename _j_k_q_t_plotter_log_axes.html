@@ -118,35 +118,33 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_log_axes.html',''); i
 <div class="contents">
 <div class="textblock"><p>This project (see <code>./examples/logaxes/</code>) simply creates a <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> widget (as a new window) and several line-graphs of different resonance curves.</p>
 <p>The source code of the main application can be found in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/logaxes/logaxes.cpp"><code>logaxes.cpp</code></a>. Mainly several graphs are generated in a loop and then different line styles are applied to the graphs (set by `<code>graph-&gt;setLineStyle()</code>). The colors are set automtically from an internal default palette. The main loop looks like this:</p>
-<div class="fragment"><div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">QVector&lt;Qt::PenStyle&gt;</a> <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">pens</a> {<a class="code hl_function" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">Qt::SolidLine</a>, <a class="code hl_function" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">Qt::DashLine</a>, <a class="code hl_function" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">Qt::DotLine</a>, <a class="code hl_function" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">Qt::DashDotLine</a>, <a class="code hl_function" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">Qt::DashDotDotLine</a> };</div>
-<div class="line">  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <span class="keywordtype">id</span>=0; <span class="keywordtype">id</span>&lt;<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">D</a>.size(); <span class="keywordtype">id</span>++) {</div>
+<div class="fragment"><div class="line">QVector&lt;Qt::PenStyle&gt; pens {Qt::SolidLine, Qt::DashLine, Qt::DotLine, Qt::DashDotLine, Qt::DashDotDotLine };</div>
+<div class="line">  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <span class="keywordtype">id</span>=0; <span class="keywordtype">id</span>&lt;D.size(); <span class="keywordtype">id</span>++) {</div>
 <div class="line">      <span class="comment">// generate some plot data</span></div>
-<div class="line">      <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">QVector&lt;double&gt;</a> Y;</div>
-<div class="line">      <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">xx</a>: X) {</div>
-<div class="line">          Y&lt;&lt;1.0/<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">sqrt</a>(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">sqr</a>(1-<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">sqr</a>(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">xx</a>))+<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">sqr</a>(2*<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">xx</a>*<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">D</a>[<span class="keywordtype">id</span>]));</div>
+<div class="line">      QVector&lt;double&gt; Y;</div>
+<div class="line">      <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; xx: X) {</div>
+<div class="line">          Y&lt;&lt;1.0/sqrt(sqr(1-sqr(xx))+sqr(2*xx*D[<span class="keywordtype">id</span>]));</div>
 <div class="line">      }</div>
 <div class="line"> </div>
-<div class="line">      <a class="code hl_class" href="class_j_k_q_t_p_x_y_line_graph.html">JKQTPXYLineGraph</a>* graph=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_x_y_line_graph.html">JKQTPXYLineGraph</a>(&amp;<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>);</div>
+<div class="line">      <a class="code hl_class" href="class_j_k_q_t_p_x_y_line_graph.html">JKQTPXYLineGraph</a>* graph=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_x_y_line_graph.html">JKQTPXYLineGraph</a>(&amp;plot);</div>
 <div class="line"> </div>
 <div class="line">      <span class="comment">// copy data into datastore and immediately set the yColumn</span></div>
-<div class="line">      graph-&gt;<a class="code hl_slot" href="class_j_k_q_t_p_x_y_graph.html#a48809679e6f1ba587132608b8dfb903d">setXColumn</a>(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">columnX</a>);</div>
-<div class="line">      graph-&gt;<a class="code hl_slot" href="class_j_k_q_t_p_x_y_graph.html#a462e07fa2a17157b7346d2d993ff2721">setYColumn</a>(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">ds</a>-&gt;addCopiedColumn(Y, <span class="stringliteral">&quot;y&quot;</span>+QString::number(<span class="keywordtype">id</span>)));</div>
+<div class="line">      graph-&gt;<a class="code hl_slot" href="class_j_k_q_t_p_x_y_graph.html#a48809679e6f1ba587132608b8dfb903d">setXColumn</a>(columnX);</div>
+<div class="line">      graph-&gt;<a class="code hl_slot" href="class_j_k_q_t_p_x_y_graph.html#a462e07fa2a17157b7346d2d993ff2721">setYColumn</a>(ds-&gt;addCopiedColumn(Y, <span class="stringliteral">&quot;y&quot;</span>+QString::number(<span class="keywordtype">id</span>)));</div>
 <div class="line"> </div>
 <div class="line">      <span class="comment">// don&#39;t use symbols</span></div>
 <div class="line">      graph-&gt;<a class="code hl_function" href="class_j_k_q_t_p_graph_symbol_style_mixin.html#af278c2bde3ba2b26341d4921748e1923">setSymbolType</a>(<a class="code hl_enumvalue" href="group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba5ed6d60f133d1f4f712dba322dff7525">JKQTPNoSymbol</a>);</div>
 <div class="line">      <span class="comment">// use one of different pens</span></div>
-<div class="line">      graph-&gt;<a class="code hl_function" href="class_j_k_q_t_p_graph_line_style_mixin.html#ad059a4ad6abd7f5099deda0520f96baa">setLineStyle</a>(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">pens</a>[<span class="keywordtype">id</span>%<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">pens</a>.size()]);</div>
+<div class="line">      graph-&gt;<a class="code hl_function" href="class_j_k_q_t_p_graph_line_style_mixin.html#ad059a4ad6abd7f5099deda0520f96baa">setLineStyle</a>(pens[<span class="keywordtype">id</span>%pens.size()]);</div>
 <div class="line">      <span class="comment">// set width of graph line</span></div>
 <div class="line">      graph-&gt;<a class="code hl_function" href="class_j_k_q_t_p_graph_line_style_mixin.html#a2d904165c9b3ca34092730875c3f1d6f">setLineWidth</a>(1.5);</div>
 <div class="line"> </div>
 <div class="line">      <span class="comment">// graph title is made from symbol+penstyle</span></div>
-<div class="line">      graph-&gt;<a class="code hl_slot" href="class_j_k_q_t_p_plot_element.html#a02a8d7c24cde7768f0134cee1aa1159d">setTitle</a>(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">QString</a>(<span class="stringliteral">&quot;D=\\delta/\\omega_0=%1&quot;</span>).<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">arg</a>(<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">D</a>[<span class="keywordtype">id</span>]));</div>
+<div class="line">      graph-&gt;<a class="code hl_slot" href="class_j_k_q_t_p_plot_element.html#a02a8d7c24cde7768f0134cee1aa1159d">setTitle</a>(QString(<span class="stringliteral">&quot;D=\\delta/\\omega_0=%1&quot;</span>).arg(D[<span class="keywordtype">id</span>]));</div>
 <div class="line"> </div>
 <div class="line">      <span class="comment">// add the graph to the plot, so it is actually displayed</span></div>
-<div class="line">      <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.addGraph(graph);</div>
+<div class="line">      plot.addGraph(graph);</div>
 <div class="line">  }</div>
-<div class="ttc" id="aclass_j_k_q_t_p_final_act_html"><div class="ttname"><a href="class_j_k_q_t_p_final_act.html">JKQTPFinalAct</a></div><div class="ttdoc">C++11 finally construct (executes a callable-object when the edestructor is executed)</div><div class="ttdef"><b>Definition</b> jkqtpcodestructuring.h:48</div></div>
-<div class="ttc" id="aclass_j_k_q_t_p_final_act_html_af964d2f5e77728dfe65e13964ea9b02a"><div class="ttname"><a href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">JKQTPFinalAct::JKQTPFinalAct</a></div><div class="ttdeci">JKQTPFinalAct(F f) noexcept</div><div class="ttdef"><b>Definition</b> jkqtpcodestructuring.h:50</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_graph_line_style_mixin_html_a2d904165c9b3ca34092730875c3f1d6f"><div class="ttname"><a href="class_j_k_q_t_p_graph_line_style_mixin.html#a2d904165c9b3ca34092730875c3f1d6f">JKQTPGraphLineStyleMixin::setLineWidth</a></div><div class="ttdeci">void setLineWidth(double __value)</div><div class="ttdoc">set the line width of the graph line (in pt)</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_graph_line_style_mixin_html_ad059a4ad6abd7f5099deda0520f96baa"><div class="ttname"><a href="class_j_k_q_t_p_graph_line_style_mixin.html#ad059a4ad6abd7f5099deda0520f96baa">JKQTPGraphLineStyleMixin::setLineStyle</a></div><div class="ttdeci">void setLineStyle(Qt::PenStyle __value)</div><div class="ttdoc">set the style of the graph line</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_graph_symbol_style_mixin_html_af278c2bde3ba2b26341d4921748e1923"><div class="ttname"><a href="class_j_k_q_t_p_graph_symbol_style_mixin.html#af278c2bde3ba2b26341d4921748e1923">JKQTPGraphSymbolStyleMixin::setSymbolType</a></div><div class="ttdeci">void setSymbolType(JKQTPGraphSymbols __value)</div><div class="ttdoc">set the type of the graph symbol</div></div>
@@ -164,7 +162,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_log_axes.html',''); i
 <div class="line"><span class="comment">//    and loaded in the library). If you don&#39;t use the math-mode modifiers, the default </span></div>
 <div class="line"><span class="comment">//    font of the other rendering text is used, which might not be suitable for</span></div>
 <div class="line"><span class="comment">//    high-quality math rendering.</span></div>
-<div class="line"><a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.addGraph(<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_geo_text.html">JKQTPGeoText</a>(&amp;<a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>, 1.25, 10, <span class="stringliteral">&quot;$\\frac{A}{A_{stat}}=\\frac{1}{\\sqrt{\\left(1-\\eta^2\\right)^2+\\left(2{\\eta}D\\right)^2}}$&quot;</span>, 15, <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">QColor</a>(<span class="stringliteral">&quot;black&quot;</span>)));</div>
+<div class="line">plot.addGraph(<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_geo_text.html">JKQTPGeoText</a>(&amp;plot, 1.25, 10, <span class="stringliteral">&quot;$\\frac{A}{A_{stat}}=\\frac{1}{\\sqrt{\\left(1-\\eta^2\\right)^2+\\left(2{\\eta}D\\right)^2}}$&quot;</span>, 15, QColor(<span class="stringliteral">&quot;black&quot;</span>)));</div>
 <div class="ttc" id="aclass_j_k_q_t_p_geo_text_html"><div class="ttname"><a href="class_j_k_q_t_p_geo_text.html">JKQTPGeoText</a></div><div class="ttdoc">This JKQTPPlotAnnotationElement is used to display text. It uses the JKQTMathText class in order to d...</div><div class="ttdef"><b>Definition</b> jkqtpgeoannotations.h:185</div></div>
 </div><!-- fragment --><p> The difference between not using and using <code>$...$</code> for the equation can be seen here:</p><ul>
 <li>no $-math-mode: <img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/logaxes_lowqmathrendering.png" alt="" class="inline"/> <br  />
@@ -172,33 +170,33 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_log_axes.html',''); i
 <li>using $-math-mode: <img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/logaxes_highqmathrendering.png" alt="" class="inline"/></li>
 </ul>
 <p>Finally the y-axis is switched to logarithmic scaling and the axis labels are set: </p><div class="fragment"><div class="line"><span class="comment">// 5. set y-axis to logarithmic (x-axis would be analogous, but using `plot.getXAxis()`)</span></div>
-<div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.getYAxis()-&gt;setLogAxis(<span class="keyword">true</span>);</div>
+<div class="line">    plot.getYAxis()-&gt;setLogAxis(<span class="keyword">true</span>);</div>
 <div class="line">    <span class="comment">//    now we set the number of label ticks to 9 (you give the count if minor between two majors,</span></div>
 <div class="line">    <span class="comment">//    so if you want ticks for 1,2,3,...,10,20,30,...,100... you need to use 9:</span></div>
-<div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.getYAxis()-&gt;setMinorTicks(9);</div>
+<div class="line">    plot.getYAxis()-&gt;setMinorTicks(9);</div>
 <div class="line">    <span class="comment">//    the minor grid is not shown by default. You can switch it on:</span></div>
-<div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.getYAxis()-&gt;setDrawMinorGrid(<span class="keyword">true</span>);</div>
+<div class="line">    plot.getYAxis()-&gt;setDrawMinorGrid(<span class="keyword">true</span>);</div>
 <div class="line">    <span class="comment">//    usually axis ticks are shown as numbers 0.01, 0.1, 1, 10, ... You can also force the scientific</span></div>
 <div class="line">    <span class="comment">//    power-of-10 notation, using:</span></div>
-<div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.getYAxis()-&gt;setLabelType(<a class="code hl_enumvalue" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11">JKQTPCALTexponent</a>);</div>
+<div class="line">    plot.getYAxis()-&gt;setLabelType(<a class="code hl_enumvalue" href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11">JKQTPCALTexponent</a>);</div>
 <div class="line">    <span class="comment">//    the number of digits in JKQTPCALTexponent determines which labels are drawn in standard-notation,</span></div>
 <div class="line">    <span class="comment">//    as compared to power-notation (e.g. if set to 1, the labels 0.1=10^{-1}, 1, 10 are shown in</span></div>
 <div class="line">    <span class="comment">//    standard notation, the rest in power-notation. This tweak improves readability)</span></div>
-<div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.getYAxis()-&gt;setLabelDigits(0);</div>
+<div class="line">    plot.getYAxis()-&gt;setLabelDigits(0);</div>
 <div class="line">    <span class="comment">// minor tick labels are usually not displayed, but you can switch them on, using</span></div>
 <div class="line">    <span class="comment">//plot.getYAxis()-&gt;setMinorTickLabelsEnabled(true);</span></div>
 <div class="line">    <span class="comment">// the axis font sizes can be set with:</span></div>
-<div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.getYAxis()-&gt;setTickLabelFontSize(10); <span class="comment">// axis tick labels</span></div>
-<div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.getYAxis()-&gt;setMinorTickLabelFontSize(7); <span class="comment">// minor axis tick labels</span></div>
-<div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.getYAxis()-&gt;setLabelFontSize(14); <span class="comment">// axis label size</span></div>
-<div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.getXAxis()-&gt;setTickLabelFontSize(10); <span class="comment">// axis tick labels</span></div>
-<div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.getXAxis()-&gt;setMinorTickLabelFontSize(7); <span class="comment">// minor axis tick labels</span></div>
-<div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.getXAxis()-&gt;setLabelFontSize(14); <span class="comment">// axis label size</span></div>
+<div class="line">    plot.getYAxis()-&gt;setTickLabelFontSize(10); <span class="comment">// axis tick labels</span></div>
+<div class="line">    plot.getYAxis()-&gt;setMinorTickLabelFontSize(7); <span class="comment">// minor axis tick labels</span></div>
+<div class="line">    plot.getYAxis()-&gt;setLabelFontSize(14); <span class="comment">// axis label size</span></div>
+<div class="line">    plot.getXAxis()-&gt;setTickLabelFontSize(10); <span class="comment">// axis tick labels</span></div>
+<div class="line">    plot.getXAxis()-&gt;setMinorTickLabelFontSize(7); <span class="comment">// minor axis tick labels</span></div>
+<div class="line">    plot.getXAxis()-&gt;setLabelFontSize(14); <span class="comment">// axis label size</span></div>
 <div class="line">    <span class="comment">//    ... and finally set axis labels (using LaTeX notation and $...$ to improve rendering)</span></div>
-<div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.getYAxis()-&gt;setAxisLabel(<span class="stringliteral">&quot;Amplitude $A/A_{stat}$&quot;</span>);</div>
-<div class="line">    <a class="code hl_class" href="class_j_k_q_t_p_final_act.html">plot</a>.getXAxis()-&gt;setAxisLabel(<span class="stringliteral">&quot;relative driving frequency $\\eta=\\omega/\\omega_0$&quot;</span>);</div>
+<div class="line">    plot.getYAxis()-&gt;setAxisLabel(<span class="stringliteral">&quot;Amplitude $A/A_{stat}$&quot;</span>);</div>
+<div class="line">    plot.getXAxis()-&gt;setAxisLabel(<span class="stringliteral">&quot;relative driving frequency $\\eta=\\omega/\\omega_0$&quot;</span>);</div>
 <div class="ttc" id="agroup__jkqtpplottersupprt_html_ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11"><div class="ttname"><a href="group__jkqtpplottersupprt.html#ggad58b8a9812defae065b13b76154c8d2ea1075444ab052a6338e9495f667a0eb11">JKQTPCALTexponent</a></div><div class="ttdeci">@ JKQTPCALTexponent</div><div class="ttdoc">show numbers in exponential for, e.g.  ...</div><div class="ttdef"><b>Definition</b> jkqtptools.h:451</div></div>
-</div><!-- fragment --><p>As an alternative <code>JKQTPCALTexponentCharacter</code> does not use the power-of-10 notation, but uses the usual unit-characters, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">e.g</a>. <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">0.001</a>=1m, <a class="el" href="class_j_k_q_t_p_final_act.html#af964d2f5e77728dfe65e13964ea9b02a">0.000001</a>=1µ, 10000=10k, ...</p>
+</div><!-- fragment --><p>As an alternative <code>JKQTPCALTexponentCharacter</code> does not use the power-of-10 notation, but uses the usual unit-characters, e.g. 0.001=1m, 0.000001=1µ, 10000=10k, ...</p>
 <p>The result looks like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/logaxes.png" alt="logaxes" class="inline"/></p>
 <p>Without the logarithmic scaling we would have:</p>
@@ -217,7 +215,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_log_axes.html',''); i
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Tue Jan 23 2024 12:40:40 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Jan 24 2024 21:49:20 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

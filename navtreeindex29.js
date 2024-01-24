@@ -1,5 +1,7 @@
 var NAVTREEINDEX29 =
 {
+"group__jkqtptools__concurrency.html#struct_j_k_q_t_p_data_cache_thread_safe":[11,1,11,3],
+"group__jkqtptools__css.html":[11,1,1],
 "group__jkqtptools__debugging.html":[11,1,3],
 "group__jkqtptools__debugging.html#ga4cfb2491eff999bd4c2765a0d9678d60":[11,1,3,3],
 "group__jkqtptools__debugging.html#ga7936d9f251e6ae31b13fba2bfec93432":[11,1,3,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX29 =
 "group__jkqtptools__math__statistics__1dkde.html#gaa05c4d4be2227655419d02a33bc834f5":[11,2,5,1,2],
 "group__jkqtptools__math__statistics__1dkde.html#gad8e716d280791f5e1b8c7eefdfd8f7aa":[11,2,5,1,5],
 "group__jkqtptools__math__statistics__1dkde.html#gaea1ca0066c61947e8a8a7d8deaa36d3e":[11,2,5,1,3],
-"group__jkqtptools__math__statistics__1dkde__kernels.html":[11,2,5,1,0],
-"group__jkqtptools__math__statistics__1dkde__kernels.html#ga03d3f789a295039152adec63d4c83e4d":[11,2,5,1,0,0],
-"group__jkqtptools__math__statistics__1dkde__kernels.html#ga0514adae64bbc0a43ccac935321eac03":[11,2,5,1,0,5]
+"group__jkqtptools__math__statistics__1dkde__kernels.html":[11,2,5,1,0]
 };

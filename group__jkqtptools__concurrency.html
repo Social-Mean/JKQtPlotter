@@ -132,6 +132,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_j_k_q_t_p_data_cache.html">JKQTPDataCache&lt; TData, TKey, ThreadSafe, TKeyInSignature &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">this class can be used to implement a general cache for values  <a href="struct_j_k_q_t_p_data_cache.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:struct_j_k_q_t_p_data_cache_not_thread_safe" id="r_struct_j_k_q_t_p_data_cache_not_thread_safe"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__concurrency.html#struct_j_k_q_t_p_data_cache_not_thread_safe">JKQTPDataCacheNotThreadSafe</a></td></tr>
+<tr class="memdesc:struct_j_k_q_t_p_data_cache_not_thread_safe"><td class="mdescLeft">&#160;</td><td class="mdescRight">tag type to configure <a class="el" href="struct_j_k_q_t_p_data_cache.html" title="this class can be used to implement a general cache for values">JKQTPDataCache</a> for non thread-safety  <a href="group__jkqtptools__concurrency.html#struct_j_k_q_t_p_data_cache_not_thread_safe">More...</a><br /></td></tr>
+<tr class="separator:struct_j_k_q_t_p_data_cache_not_thread_safe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:struct_j_k_q_t_p_data_cache_thread_safe" id="r_struct_j_k_q_t_p_data_cache_thread_safe"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__concurrency.html#struct_j_k_q_t_p_data_cache_thread_safe">JKQTPDataCacheThreadSafe</a></td></tr>
+<tr class="memdesc:struct_j_k_q_t_p_data_cache_thread_safe"><td class="mdescLeft">&#160;</td><td class="mdescRight">tag type to configure <a class="el" href="struct_j_k_q_t_p_data_cache.html" title="this class can be used to implement a general cache for values">JKQTPDataCache</a> for thread-safety  <a href="group__jkqtptools__concurrency.html#struct_j_k_q_t_p_data_cache_thread_safe">More...</a><br /></td></tr>
+<tr class="separator:struct_j_k_q_t_p_data_cache_thread_safe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_synchronized.html">JKQTPSynchronized&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">template class that wraps any datatype and combines it with a mutex, exposes the <a class="el" href="class_j_k_q_t_p_synchronized.html#adfef7c0f33e1a73a6dce716ef6a2b832" title="locks the internal mutex for writing, until unlock() is called">lock()</a>/unlock() interface, so access to the contained data can be synchronized  <a href="class_j_k_q_t_p_synchronized.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,13 +149,44 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<hr/><h2 class="groupheader">Class Documentation</h2>
+<a name="struct_j_k_q_t_p_data_cache_not_thread_safe" id="struct_j_k_q_t_p_data_cache_not_thread_safe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#struct_j_k_q_t_p_data_cache_not_thread_safe">&#9670;&#160;</a></span>JKQTPDataCacheNotThreadSafe</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct JKQTPDataCacheNotThreadSafe</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"><p>tag type to configure <a class="el" href="struct_j_k_q_t_p_data_cache.html" title="this class can be used to implement a general cache for values">JKQTPDataCache</a> for non thread-safety </p>
+</div>
+</div>
+</div>
+<a name="struct_j_k_q_t_p_data_cache_thread_safe" id="struct_j_k_q_t_p_data_cache_thread_safe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#struct_j_k_q_t_p_data_cache_thread_safe">&#9670;&#160;</a></span>JKQTPDataCacheThreadSafe</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct JKQTPDataCacheThreadSafe</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"><p>tag type to configure <a class="el" href="struct_j_k_q_t_p_data_cache.html" title="this class can be used to implement a general cache for values">JKQTPDataCache</a> for thread-safety </p>
+</div>
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.3-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 23 2024 12:40:41 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Jan 24 2024 21:49:20 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
