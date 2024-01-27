@@ -117,13 +117,13 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_user_interaction.html
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md103">Basic Description</a></li>
-<li class="level1"><a href="#autotoc_md104">Inner Workings</a></li>
-<li class="level1"><a href="#autotoc_md105">Available User-Interactions</a><ul><li class="level2"><a href="#autotoc_md106">Switching Graph Visibility via Context Menu</a></li>
-<li class="level2"><a href="#autotoc_md107">Toolbar at the top of the Plot</a></li>
-<li class="level2"><a href="#autotoc_md108">Mouse Position Display</a></li>
-<li class="level2"><a href="#autotoc_md109">Drag the Plot Viewport</a></li>
-<li class="level2"><a href="#autotoc_md110">Zooming with the Mouse</a></li>
+<ul><li class="level1"><a href="#autotoc_md98">Basic Description</a></li>
+<li class="level1"><a href="#autotoc_md99">Inner Workings</a></li>
+<li class="level1"><a href="#autotoc_md100">Available User-Interactions</a><ul><li class="level2"><a href="#autotoc_md102">Switching Graph Visibility via Context Menu</a></li>
+<li class="level2"><a href="#autotoc_md104">Toolbar at the top of the Plot</a></li>
+<li class="level2"><a href="#autotoc_md106">Mouse Position Display</a></li>
+<li class="level2"><a href="#autotoc_md107">Drag the Plot Viewport</a></li>
+<li class="level2"><a href="#autotoc_md108">Zooming with the Mouse</a></li>
 <li class="level2"><a href="#autotoc_md111">Ruler/Measurement Tool</a></li>
 <li class="level2"><a href="#autotoc_md112">Data ToolTip Tool</a></li>
 <li class="level2"><a href="#autotoc_md113">Drawing Geometrical Forms</a><ul><li class="level3"><a href="#autotoc_md114">Lines</a></li>
@@ -140,12 +140,12 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_user_interaction.html
 </li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="autotoc_md103"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md98"></a>
 Basic Description</h1>
 <p>This project (see <code>./examples/test_user_interaction/</code>) demonstrates different types of user-interactions in <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a>.</p>
 <p>It contains a simple plot with two graphs and provides several widgets that allow to bind different user interactions to different events:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/test_user_interaction.png" alt="" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md104"></a>
+<h1><a class="anchor" id="autotoc_md99"></a>
 Inner Workings</h1>
 <p>The source code of the main application can be found in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/test_user_interaction/test_user_interaction.cpp"><code>test_user_interaction.cpp</code></a>.</p>
 <p>The menu at the top of the window contains several of the QActions provided for user-interaction by <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a>: </p><div class="fragment"><div class="line"><span class="comment">// add some of the default QActions from the JKQTPlotter to the window menu</span></div>
@@ -186,27 +186,27 @@ Inner Workings</h1>
 <div class="line">}</div>
 <div class="ttc" id="agroup__jkqtpplottersupprt_html_ga5d43b30f0132d08b8793ceb2533e315f"><div class="ttname"><a href="group__jkqtpplottersupprt.html#ga5d43b30f0132d08b8793ceb2533e315f">JKQTPMouseDragActions</a></div><div class="ttdeci">JKQTPMouseDragActions</div><div class="ttdoc">Availble action this JKQtPlotter can perform when mouse events occur. This allows you to e....</div><div class="ttdef"><b>Definition</b> jkqtptools.h:108</div></div>
 </div><!-- fragment --><p>As you can see, this QComboBox registers one of the available actions to the event of a left-button single mouse click without having modifiers pressed at the same time. The slot that actually reconfigures the <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> uses the methods <a class="el" href="class_j_k_q_t_plotter.html#aec50d0820bfff22653cc3730e39b5bd1" title="deregisteres the mouse drag action to be executed when a mouse drag operation is initialized with the...">JKQTPlotter::deregisterMouseDragAction()</a> and <a class="el" href="class_j_k_q_t_plotter.html#ac871e1b8092a125093d13ee5a0438910" title="registeres a certain mouse drag action action to be executed when a mouse drag operation is initializ...">JKQTPlotter::registerMouseDragAction()</a> to achieve this effect.</p>
-<h1><a class="anchor" id="autotoc_md105"></a>
+<h1><a class="anchor" id="autotoc_md100"></a>
 Available User-Interactions</h1>
 <p>You can play around with this example to find out about different types of user interactions. SOm of them are illustrated with animations below.</p>
-<h2><a class="anchor" id="autotoc_md106"></a>
+<h2><a class="anchor" id="autotoc_md102"></a>
 Switching Graph Visibility via Context Menu</h2>
 <p>the default context menu contains a sub-menu that allows to switch every graph and and off:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/doc/images/contextmenu_graphvisibility.gif" alt="" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md107"></a>
+<h2><a class="anchor" id="autotoc_md104"></a>
 Toolbar at the top of the Plot</h2>
 <p>Each <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> contains a toolbar that is by default invisible and appears, when the mouse moves over a designated area at the top of the plot:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/doc/images/jkqtvanishtoolbar.gif" alt="" class="inline"/></p>
 <p>You can also use the checkboxes "enable toolbar" to disable this toolbar alltogether and "toolbar 'always on'" to switch the vanishing feature off and make it visible all the time.</p>
-<h2><a class="anchor" id="autotoc_md108"></a>
+<h2><a class="anchor" id="autotoc_md106"></a>
 Mouse Position Display</h2>
 <p>The <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> contains a small text display for the current mouse position (in plot coordinates) at the top of the graph:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/doc/images/mousepositiondisplay.gif" alt="" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md109"></a>
+<h2><a class="anchor" id="autotoc_md107"></a>
 Drag the Plot Viewport</h2>
 <p>You can move the viewport of the graph using the mouse ("jkqtpmdaPanPlotOnMove"-action). If you drag inside the plot window, you can move in both directions, if you drag over one of the coordinate axes, you can change the range of this axis only:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/doc/images/drag_viewport.gif" alt="" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md110"></a>
+<h2><a class="anchor" id="autotoc_md108"></a>
 Zooming with the Mouse</h2>
 <p>There are several options to zoom, using the mouse:</p><ul>
 <li>using the mouse wheel</li>
@@ -275,7 +275,7 @@ Special Context Menu</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Sat Jan 27 2024 13:22:30 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Sat Jan 27 2024 13:45:28 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
