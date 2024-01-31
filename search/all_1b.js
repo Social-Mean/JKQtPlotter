@@ -44,7 +44,7 @@ var searchData=
   ['with_20live_20data_20speed_20test_41',['Example (JKQTPlotter): Simple line-graph with live-data (speed test)',['../_j_k_q_t_plotter_speed_test.html',1,'exampleTutorialProjects']]],
   ['with_20logarithmic_20y_20axis_42',['Example (JKQTPlotter): Line Graph with Logarithmic y-axis',['../_j_k_q_t_plotter_log_axes.html',1,'exampleTutorialProjects']]],
   ['with_20modifier_20datat_43',['Example (JKQTPlotter): Simple math image plot with modifier datat',['../_j_k_q_t_plotter_image_plot_modifier.html',1,'exampleTutorialProjects']]],
-  ['with_20outliers_44',['Boxplots with Outliers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md51',1,'']]],
+  ['with_20outliers_44',['Boxplots with Outliers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md52',1,'']]],
   ['with_20parameters_45',['with parameters',['../_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md88',1,'Plotting with parameters'],['../_j_k_q_t_plotter_function_plots.html#autotoc_md71',1,'Simple C++ inline function with parameters'],['../_j_k_q_t_plotter_eval_curves.html#autotoc_md66',1,'Simple C++ inline function with Parameters']]],
   ['with_20parametrized_20symbols_20colors_46',['Example (JKQTPlotter): Scatter Graph with Parametrized Symbols/Colors',['../_j_k_q_t_plotter_param_scatter.html',1,'exampleTutorialProjects']]],
   ['with_20support_20for_20arrows_47',['Classes with support for arrows',['../_j_k_q_t_plotter_geometric_arrows.html#autotoc_md78',1,'']]],
