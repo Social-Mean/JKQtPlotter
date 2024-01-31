@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['kde_0',['kde',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md60',1,'Kernel Density Estimates (KDE)'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48',1,'Kernel Density Estimates (KDE)']]],
-  ['kdes_1',['Cummulative Histograms and KDEs',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md49',1,'']]],
+  ['kde_0',['kde',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md62',1,'Kernel Density Estimates (KDE)'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md54',1,'Kernel Density Estimates (KDE)']]],
+  ['kdes_1',['Cummulative Histograms and KDEs',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md55',1,'']]],
   ['kernel_20density_20estimates_2',['kernel density estimates',['../group__jkqtptools__math__statistics__1dkde.html',1,'1-dimensional Kernel Density Estimates'],['../group__jkqtptools__math__statistics__2dkde.html',1,'2-dimensional Kernel Density Estimates']]],
-  ['kernel_20density_20estimates_20kde_3',['kernel density estimates kde',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md60',1,'Kernel Density Estimates (KDE)'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48',1,'Kernel Density Estimates (KDE)']]],
+  ['kernel_20density_20estimates_20kde_3',['kernel density estimates kde',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md62',1,'Kernel Density Estimates (KDE)'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md54',1,'Kernel Density Estimates (KDE)']]],
   ['kernels_20for_201_20dimensional_20histograms_4',['Kernels for 1-dimensional Histograms',['../group__jkqtptools__math__statistics__1dkde__kernels.html',1,'']]],
   ['kernels_20for_202_20dimensional_20histograms_5',['Kernels for 2-dimensional Histograms',['../group__jkqtptools__math__statistics__2dkde__kernels.html',1,'']]],
   ['key_20legend_6',['Plot Key/Legend',['../group__jkqtplotter__general__basicplotelements__key.html',1,'']]],
@@ -12,7 +12,7 @@ var searchData=
   ['keyinside_9',['keyInside',['../struct_j_k_q_t_p_base_key_1_1_key_size_description.html#a913a567682e36a02c451a26b98bc9b1aade1ca96379f80df5e5d9e055b9994334',1,'JKQTPBaseKey::KeySizeDescription']]],
   ['keyitemdata_10',['keyitemdata',['../struct_j_k_q_t_p_base_key_1_1_key_item_data.html',1,'JKQTPBaseKey::KeyItemData'],['../struct_j_k_q_t_p_base_key_1_1_key_item_data.html#ac5cd1f77873cf17de21681de94e673c9',1,'JKQTPBaseKey::KeyItemData::KeyItemData()']]],
   ['keylayoutdescription_11',['KeyLayoutDescription',['../struct_j_k_q_t_p_base_key_1_1_key_layout_description.html',1,'JKQTPBaseKey']]],
-  ['keylocation_12',['keylocation',['../struct_j_k_q_t_p_base_key_1_1_key_size_description.html#a2b81cf53b1a7a3dba3bd4a4957d62802',1,'JKQTPBaseKey::KeySizeDescription::keyLocation'],['../struct_j_k_q_t_p_base_key_1_1_key_size_description.html#a913a567682e36a02c451a26b98bc9b1a',1,'JKQTPBaseKey::KeySizeDescription::KeyLocation']]],
+  ['keylocation_12',['keylocation',['../struct_j_k_q_t_p_base_key_1_1_key_size_description.html#a913a567682e36a02c451a26b98bc9b1a',1,'JKQTPBaseKey::KeySizeDescription::KeyLocation'],['../struct_j_k_q_t_p_base_key_1_1_key_size_description.html#a2b81cf53b1a7a3dba3bd4a4957d62802',1,'JKQTPBaseKey::KeySizeDescription::keyLocation']]],
   ['keymarker_13',['keyMarker',['../struct_j_k_q_t_plotter_1_1_mouse_drag_marker.html#a4d372168f19f0eecac86c3703df70ffb',1,'JKQTPlotter::MouseDragMarker']]],
   ['keyoutsidebottom_14',['keyOutsideBottom',['../struct_j_k_q_t_p_base_key_1_1_key_size_description.html#a913a567682e36a02c451a26b98bc9b1aa676d9997574f858d5cfb0eb2c544985a',1,'JKQTPBaseKey::KeySizeDescription']]],
   ['keyoutsideleft_15',['keyOutsideLeft',['../struct_j_k_q_t_p_base_key_1_1_key_size_description.html#a913a567682e36a02c451a26b98bc9b1aa9eff1fa0b129ca20f75f6d02767a0dc1',1,'JKQTPBaseKey::KeySizeDescription']]],

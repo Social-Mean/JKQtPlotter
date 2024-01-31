@@ -21,7 +21,8 @@ var group__jkqtmathtext__parser =
         [ "MTTampersand", "class_j_k_q_t_math_text_latex_parser.html#a5d117614bd6285b2eff58b1a4f2888dea9544a27f8a90ae180dcef464306a9d3e", null ],
         [ "MTThyphen", "class_j_k_q_t_math_text_latex_parser.html#a5d117614bd6285b2eff58b1a4f2888dea5b0420186279a939b6b32db2a8934fde", null ],
         [ "MTTendash", "class_j_k_q_t_math_text_latex_parser.html#a5d117614bd6285b2eff58b1a4f2888dea0ae664cb6cf97c92303ca325abf422b6", null ],
-        [ "MTTemdash", "class_j_k_q_t_math_text_latex_parser.html#a5d117614bd6285b2eff58b1a4f2888dea9e42c163206b73a50640d1e528f62bf8", null ]
+        [ "MTTemdash", "class_j_k_q_t_math_text_latex_parser.html#a5d117614bd6285b2eff58b1a4f2888dea9e42c163206b73a50640d1e528f62bf8", null ],
+        [ "MTTtilde", "class_j_k_q_t_math_text_latex_parser.html#a5d117614bd6285b2eff58b1a4f2888deae1c39a28320c926e91671615d628d5a5", null ]
       ] ],
       [ "JKQTMathTextLatexParser", "class_j_k_q_t_math_text_latex_parser.html#ab09f77f37dfbd7b1b5e13f8bc70f7aa3", null ],
       [ "~JKQTMathTextLatexParser", "class_j_k_q_t_math_text_latex_parser.html#a8306ad5aea381aa553440c2e408d974e", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"group__jkqtplotter__imagelots__tools.html#ggab8a96386e4f981f6917c20a8f03215bfac6c9cdb407bd70ee7f38a17fd5714413":[11,4,1,1,1,8,2,8,1],
 "group__jkqtplotter__imagelots__tools.html#ggaf78dbe641bbda75a53bc85fef00c22d0a14e37bb834ebb69362f8059be9953864":[11,4,1,1,1,8,2,6,2],
 "group__jkqtplotter__imagelots__tools.html#ggaf78dbe641bbda75a53bc85fef00c22d0a18d57ad46e64c6110b211ff05b93fe3f":[11,4,1,1,1,8,2,6,0],
 "group__jkqtplotter__imagelots__tools.html#ggaf78dbe641bbda75a53bc85fef00c22d0a550c401f29ff78b946a1a27d1b078308":[11,4,1,1,1,8,2,6,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "group__jkqtptools__codestructuring.html":[11,1,2],
 "group__jkqtptools__codestructuring.html#ga1fd47d493fdc866fa9abf6873567ab85":[11,1,2,1],
 "group__jkqtptools__codestructuring.html#ga8b9f7b023451bfac73c819eb7bc5f93e":[11,1,2,2],
-"group__jkqtptools__concurrency.html":[11,1,11],
-"group__jkqtptools__concurrency.html#struct_j_k_q_t_p_data_cache_not_thread_safe":[11,1,11,2]
+"group__jkqtptools__concurrency.html":[11,1,11]
 };
