@@ -1,5 +1,7 @@
 var NAVTREEINDEX31 =
 {
+"page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_MAKEFILE":[3,0,0,0],
+"page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_RUN":[3,0,0],
 "page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_USAGE":[3,0,1],
 "page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_VSTUDIO":[3,0,0,1],
 "page_buildinstructions__q_m_a_k_e.html":[3,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX31 =
 "struct_j_k_q_t_math_text_symbol_node_1_1_symbol_props.html#af60a7854b197c0995812c622dc72ad64":[11,3,1,2,40,2],
 "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html":[11,3,1,2,36],
 "struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#a04350392563a4d7f158265c76b9c1b67":[11,3,1,2,36,3],
-"struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#a30754499cc6f368f1fc23e6633e1fa2c":[11,3,1,2,36,6],
-"struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#a3505ce6d20f4a63b1bbd4750d4a8ed6b":[11,3,1,2,36,5],
-"struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#a4af8d62090c392ebecd10fb42248f9b5":[11,3,1,2,36,4]
+"struct_j_k_q_t_math_text_text_node_1_1_layout_info.html#a30754499cc6f368f1fc23e6633e1fa2c":[11,3,1,2,36,6]
 };

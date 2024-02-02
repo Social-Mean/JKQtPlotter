@@ -13,7 +13,6 @@ var group__jkqtptools__string =
     [ "jkqtp_floattostr", "group__jkqtptools__string.html#ga9f5df9dab56e5d56b48935392a487c0e", null ],
     [ "jkqtp_floattounitqstr", "group__jkqtptools__string.html#ga69447d6df21c2c3e5ead4b1d047435c6", null ],
     [ "jkqtp_floattounitstr", "group__jkqtptools__string.html#gabc207446e8aa84e49da2eb519590ecfd", null ],
-    [ "jkqtp_floattounitstr", "group__jkqtptools__string.html#ga413246084f54c07589d58f8a5003a52c", null ],
     [ "jkqtp_format", "group__jkqtptools__string.html#ga9d724f0030c1adb4d464025d93beaba0", null ],
     [ "jkqtp_format", "group__jkqtptools__string.html#ga229ace1d0aba4eaf38b94f5dec06b841", null ],
     [ "jkqtp_format", "group__jkqtptools__string.html#ga020bc1849dd12dd3246e44e2e0013a3e", null ],

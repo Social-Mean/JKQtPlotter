@@ -179,7 +179,7 @@ var searchData=
   ['types_176',['Types',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3',1,'JKQTMathTextWhitespaceNode']]],
   ['types_20and_20functions_177',['Library-internal Types and Functions',['../group__jkqtmathtext__interaltools.html',1,'']]],
   ['types_20for_20jkqtmathtext_178',['Tool Functions and Types for JKQTMathText',['../group__jkqtmathtext__tools.html',1,'']]],
-  ['types_20of_20arrows_179',['Different types of arrows',['../_j_k_q_t_plotter_geometric_arrows.html#autotoc_md77',1,'']]],
+  ['types_20of_20arrows_179',['Different types of arrows',['../_j_k_q_t_plotter_geometric_arrows.html#autotoc_md69',1,'']]],
   ['types_20of_20barcharts_180',['Different Types of Barcharts',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md125',1,'']]],
   ['types_20of_20errorindicators_181',['Example (JKQTPlotter): Different Types of Errorindicators',['../_j_k_q_t_plotter_error_bar_styles.html',1,'exampleTutorialProjects']]]
 ];

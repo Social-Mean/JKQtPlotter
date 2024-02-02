@@ -1,6 +1,7 @@
 var class_j_k_q_t_p_vertical_independent_axis =
 [
     [ "JKQTPVerticalIndependentAxis", "class_j_k_q_t_p_vertical_independent_axis.html#aaccb460735c74b24d74a9fe9211edabd", null ],
+    [ "drawAxes", "class_j_k_q_t_p_vertical_independent_axis.html#a237e2ca43d433430b55944c70b247816", null ],
     [ "getParentOtheraxisInverted", "class_j_k_q_t_p_vertical_independent_axis.html#af15e46c43319756832c7a77720156034", null ],
     [ "getParentOtheraxisOffset", "class_j_k_q_t_p_vertical_independent_axis.html#a989b20265357af0c1ecc8005703c3656", null ],
     [ "getParentOtheraxisWidth", "class_j_k_q_t_p_vertical_independent_axis.html#ab6b10711e63f66a2242a2c887a74a941", null ],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX26 =
 {
+"functions_func_y.html":[13,3,1,24],
+"functions_func_z.html":[13,3,1,25],
+"functions_func_~.html":[13,3,1,26],
 "functions_g.html":[13,3,0,6],
 "functions_h.html":[13,3,0,7],
 "functions_i.html":[13,3,0,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX26 =
 "group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9babd2772758bd613dddda1cbacf67602c6":[11,4,1,1,2,0,9,22],
 "group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9bad754cbc020d9a877c06e77916b6728c8":[11,4,1,1,2,0,9,21],
 "group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9bae1a70b99558f5d8a4231ea1f58470149":[11,4,1,1,2,0,9,17],
-"group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9baefc27e718331d2fe6ef1d70fce52fdb4":[11,4,1,1,2,0,9,12],
-"group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9baf14ae095da10dea4a5dd19b6b6e6ffde":[11,4,1,1,2,0,9,14],
-"group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9baf1743a1b5a00f275e9ead5b9f409391c":[11,4,1,1,2,0,9,16],
-"group__jkqtplotter__classdoc.html":[11,4,1]
+"group__jkqtplotter__basegraphserrors.html#gga4b3a78b3a037650785eb6b798b5eaf9baefc27e718331d2fe6ef1d70fce52fdb4":[11,4,1,1,2,0,9,12]
 };

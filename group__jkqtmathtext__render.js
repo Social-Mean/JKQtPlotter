@@ -27,6 +27,7 @@ var group__jkqtmathtext__render =
       [ "addToErrorList", "class_j_k_q_t_math_text.html#a32a69b6feb42510f57d8d20daab385d5", null ],
       [ "BaseFontOptions2String", "class_j_k_q_t_math_text.html#a31675aea4a2f7035c759db44e8d23126", null ],
       [ "clearErrorList", "class_j_k_q_t_math_text.html#a516f869f9731e91a0f4c96844026e112", null ],
+      [ "deleteParsedNode", "class_j_k_q_t_math_text.html#a319523fb7561b3e718b8f00e68a98409", null ],
       [ "draw", "class_j_k_q_t_math_text.html#a3fc1a926c2c38692a1763ae176389f42", null ],
       [ "draw", "class_j_k_q_t_math_text.html#a280e7032f66c45b5f3b42664056bee19", null ],
       [ "draw", "class_j_k_q_t_math_text.html#a749387fdbf03167d5670f673d2505d19", null ],

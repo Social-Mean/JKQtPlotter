@@ -165,9 +165,6 @@ Functions</h2></td></tr>
 <tr class="memitem:gabc207446e8aa84e49da2eb519590ecfd" id="r_gabc207446e8aa84e49da2eb519590ecfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__string.html#gabc207446e8aa84e49da2eb519590ecfd">jkqtp_floattounitstr</a> (double data, int past_comma=5, bool remove_trail0=false, double belowIsZero=std::numeric_limits&lt; double &gt;::min() *4)</td></tr>
 <tr class="memdesc:gabc207446e8aa84e49da2eb519590ecfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a double to a string, encoding powers of ten as characters, e.g. <code>jkqtp_floattounitstr(1000)</code> will result in "1k"  <br /></td></tr>
 <tr class="separator:gabc207446e8aa84e49da2eb519590ecfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga413246084f54c07589d58f8a5003a52c" id="r_ga413246084f54c07589d58f8a5003a52c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__string.html#ga413246084f54c07589d58f8a5003a52c">jkqtp_floattounitstr</a> (double dataa, const std::string &amp;unitname)</td></tr>
-<tr class="memdesc:ga413246084f54c07589d58f8a5003a52c"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a double to a string, encoding powers of ten as characters, e.g. <code>jkqtp_floattounitstr</code>(1000,"g") will result in "1kg"  <br /></td></tr>
-<tr class="separator:ga413246084f54c07589d58f8a5003a52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9d724f0030c1adb4d464025d93beaba0" id="r_ga9d724f0030c1adb4d464025d93beaba0"><td class="memTemplParams" colspan="2">template&lt;class T1 &gt; </td></tr>
 <tr class="memitem:ga9d724f0030c1adb4d464025d93beaba0"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__string.html#ga9d724f0030c1adb4d464025d93beaba0">jkqtp_format</a> (const std::string &amp;templ, T1 d1)</td></tr>
 <tr class="memdesc:ga9d724f0030c1adb4d464025d93beaba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::string wrapper around sprintf()  <br /></td></tr>
@@ -736,7 +733,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="gabc207446e8aa84e49da2eb519590ecfd" name="gabc207446e8aa84e49da2eb519590ecfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabc207446e8aa84e49da2eb519590ecfd">&#9670;&#160;</a></span>jkqtp_floattounitstr() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc207446e8aa84e49da2eb519590ecfd">&#9670;&#160;</a></span>jkqtp_floattounitstr()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -774,36 +771,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>convert a double to a string, encoding powers of ten as characters, e.g. <code>jkqtp_floattounitstr(1000)</code> will result in "1k" </p>
-
-</div>
-</div>
-<a id="ga413246084f54c07589d58f8a5003a52c" name="ga413246084f54c07589d58f8a5003a52c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga413246084f54c07589d58f8a5003a52c">&#9670;&#160;</a></span>jkqtp_floattounitstr() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> std::string jkqtp_floattounitstr </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>dataa</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>unitname</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>convert a double to a string, encoding powers of ten as characters, e.g. <code>jkqtp_floattounitstr</code>(1000,"g") will result in "1kg" </p>
 
 </div>
 </div>
@@ -1938,7 +1905,7 @@ template&lt;class T1 , class T2 , class T3 , class T4 &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Feb 1 2024 11:16:57 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Feb 2 2024 15:14:00 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

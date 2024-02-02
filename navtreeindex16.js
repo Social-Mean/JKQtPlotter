@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"class_j_k_q_t_p_geo_polygon.html#abdd6ced5cc3de535fa4dec69641804c6":[11,4,1,1,1,4,11,0],
 "class_j_k_q_t_p_geo_polygon.html#ac7702b9353be35ea615807ce05175263":[11,4,1,1,1,4,11,5],
 "class_j_k_q_t_p_geo_polygon.html#ae0329d51b712bc251a019460a9daef29":[11,4,1,1,1,4,11,11],
 "class_j_k_q_t_p_geo_polygon.html#ae3201244a5c08cf187b536f5ccb73181":[11,4,1,1,1,4,11,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "class_j_k_q_t_p_graph_decorated_line_style_mixin.html#a7612a2b77807ddc1ea8e2e4895f74331":[11,4,1,1,2,1,2,0],
 "class_j_k_q_t_p_graph_decorated_line_style_mixin.html#a84d5658917effb157248406606c50156":[11,4,1,1,2,1,2,12],
 "class_j_k_q_t_p_graph_decorated_line_style_mixin.html#a95c006e4422e32606756a7225a5e2c85":[11,4,1,1,2,1,2,2],
-"class_j_k_q_t_p_graph_decorated_line_style_mixin.html#aa410976e0bbf8df2111db92cc4cbe464":[11,4,1,1,2,1,2,3],
-"class_j_k_q_t_p_graph_decorated_line_style_mixin.html#ab5c14629aca62259e4498291c86d27b0":[11,4,1,1,2,1,2,13]
+"class_j_k_q_t_p_graph_decorated_line_style_mixin.html#aa410976e0bbf8df2111db92cc4cbe464":[11,4,1,1,2,1,2,3]
 };

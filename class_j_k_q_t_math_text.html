@@ -423,6 +423,9 @@ Static Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a319523fb7561b3e718b8f00e68a98409" id="r_a319523fb7561b3e718b8f00e68a98409"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#a319523fb7561b3e718b8f00e68a98409">deleteParsedNode</a> ()</td></tr>
+<tr class="memdesc:a319523fb7561b3e718b8f00e68a98409"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function moves a <code>delete parsedNode</code>-call into the cpp-file, as <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a> is "only" forward declared here and therefore, deleting it may cause undefined behaviour  <br /></td></tr>
+<tr class="separator:a319523fb7561b3e718b8f00e68a98409"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa4844a66545f5e3d6a1929737071c42" id="r_afa4844a66545f5e3d6a1929737071c42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_math_text.html#afa4844a66545f5e3d6a1929737071c42">modifyEnvironmentFromFontSettings</a> (<a class="el" href="struct_j_k_q_t_math_text_environment.html">JKQTMathTextEnvironment</a> &amp;ev) const</td></tr>
 <tr class="memdesc:afa4844a66545f5e3d6a1929737071c42"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets all properties of <a class="el" href="struct_j_k_q_t_math_text_environment.html" title="describes the current drawing environment (base fontname ...)">JKQTMathTextEnvironment</a> <em>ev</em> from the fon settings stored in this class (e.g. fontSize, fontOptions, ...)  <br /></td></tr>
 <tr class="separator:afa4844a66545f5e3d6a1929737071c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1295,6 +1298,33 @@ Example Projects</h1>
 </div><div class="memdoc">
 
 <p>clears all registered errors (see error_list) </p>
+
+</div>
+</div>
+<a id="a319523fb7561b3e718b8f00e68a98409" name="a319523fb7561b3e718b8f00e68a98409"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a319523fb7561b3e718b8f00e68a98409">&#9670;&#160;</a></span>deleteParsedNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTMathText::deleteParsedNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>this function moves a <code>delete parsedNode</code>-call into the cpp-file, as <a class="el" href="class_j_k_q_t_math_text_node.html" title="subclass representing one node in the syntax tree">JKQTMathTextNode</a> is "only" forward declared here and therefore, deleting it may cause undefined behaviour </p>
 
 </div>
 </div>
@@ -6710,7 +6740,7 @@ using <code>JKQTMathText::setFontBlackboard</code>("Arial")</div></div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_math_text.html">JKQTMathText</a></li>
-    <li class="footer">Generated on Thu Feb 1 2024 11:16:57 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Feb 2 2024 15:14:00 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

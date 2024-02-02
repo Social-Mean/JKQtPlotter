@@ -1692,8 +1692,8 @@ Secondary Coordinate Axes</h2>
 <div class="line"><span class="comment">// ... and use it for graphs:</span></div>
 <div class="line">graph2-&gt;setXAxis(xAxisRef2);</div>
 <div class="ttc" id="aclass_j_k_q_t_p_coordinate_axis_html_a65945c285e8cead77c39bd914ea4b857"><div class="ttname"><a href="class_j_k_q_t_p_coordinate_axis.html#a65945c285e8cead77c39bd914ea4b857">JKQTPCoordinateAxis::setShowZeroAxis</a></div><div class="ttdeci">void setShowZeroAxis(bool __value)</div><div class="ttdoc">indicates whether to draw a thick axis line at x=0 (zero axis)</div></div>
-<div class="ttc" id="aclass_j_k_q_t_p_horizontal_axis_base_html"><div class="ttname"><a href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a></div><div class="ttdoc">base class for horizontal axes, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoo...</div><div class="ttdef"><b>Definition</b> jkqtpcoordinateaxes.h:1123</div></div>
-<div class="ttc" id="aclass_j_k_q_t_p_horizontal_axis_html"><div class="ttname"><a href="class_j_k_q_t_p_horizontal_axis.html">JKQTPHorizontalAxis</a></div><div class="ttdoc">implements a horizontal axis, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoord...</div><div class="ttdef"><b>Definition</b> jkqtpcoordinateaxes.h:1190</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_horizontal_axis_base_html"><div class="ttname"><a href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a></div><div class="ttdoc">base class for horizontal axes, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoo...</div><div class="ttdef"><b>Definition</b> jkqtpcoordinateaxes.h:1127</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_horizontal_axis_html"><div class="ttname"><a href="class_j_k_q_t_p_horizontal_axis.html">JKQTPHorizontalAxis</a></div><div class="ttdoc">implements a horizontal axis, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoord...</div><div class="ttdef"><b>Definition</b> jkqtpcoordinateaxes.h:1194</div></div>
 <div class="ttc" id="agroup__jkqtpplottersupprt_html_gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525"><div class="ttname"><a href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a></div><div class="ttdeci">@ JKQTPPrimaryAxis</div><div class="ttdef"><b>Definition</b> jkqtpcoordinateaxes.h:43</div></div>
 </div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#ad41d0c48c2c12ec54908d87aabef03ca" title="adds a secondary x-axis">addSecondaryXAxis()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#ae38871a254d8a697cec890267cec9c19" title="adds a secondary y-axis">addSecondaryYAxis()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a29d3b1757c21fb2137de90e67e3028fb" title="returns the x-axis objet of the plot">getXAxis()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#abc5490d66386ada723adb27d9af57c77" title="returns the y-axis objet of the plot">getYAxis()</a></dd></dl>
 <h1><a class="anchor" id="jkqtbaseplotter_appearance_and_style"></a>
@@ -1711,11 +1711,11 @@ Aspect Ratios</h2>
 <p>First note that this functionality is only available and activated if both axes are linear!</p>
 <p>You can set two different aspect ratios:</p><ul>
 <li>The ratio of plotWidth/plotHeight (<a class="el" href="class_j_k_q_t_base_plotter.html#a06364dc4fb497fc42b7b8dbbe32f0638" title="sets the data aspect ratio, enforced with setMaintainApsectRatio(true)">setAspectRatio()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a1360fa41c72a05e4142527e3322e2d61" title="en-/disables the maintaining of the data aspect ratio">setMaintainAspectRatio()</a>) will keep the plots pixel-width and height at a certain value. <p class="formulaDsp">
-<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_215.png" width="182" height="39"/></picture>
+<picture><source srcset="form_214_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_214.png" width="182" height="39"/></picture>
 </p>
 </li>
 <li>The ratio of (xmax-xmin)/(ymax-ymin) (<a class="el" href="class_j_k_q_t_base_plotter.html#a9b2ec97c3bf2f8e86b70e278794ab149" title="sets the axis aspect ratio, enforced with setMaintainAxisApsectRatio(true)">setAxisAspectRatio()</a>, <a class="el" href="class_j_k_q_t_base_plotter.html#a3fdaa585b8b1a150321b19742091ddaa" title="en-/disables the maintaining of the axis aspect ratio">setMaintainAxisAspectRatio()</a>) will keep the displayed axis ranges in a certain ratio. <p class="formulaDsp">
-<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="234" height="41"/></picture>
+<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_215.png" width="234" height="41"/></picture>
 </p>
 </li>
 </ul>
@@ -12591,10 +12591,10 @@ y-axis</td></tr>
   <table class="params">
     <tr><td class="paramname">zoomX</td><td>if set <code>true</code> (default) zooms the x axis </td></tr>
     <tr><td class="paramname">zoomY</td><td>if set <code>true</code> (default) zooms the y axis </td></tr>
-    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_234_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ x=0 $" src="form_234.png" width="41" height="11"/></picture> is visible in the plot (only for non-logx plots, default: false) </td></tr>
-    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_235_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ y=0 $" src="form_235.png" width="39" height="15"/></picture> is visible in the plot (only for non-logy plots, default: false) </td></tr>
-    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <picture><source srcset="form_236_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_236.png" width="81" height="13"/></picture> where <picture><source srcset="form_237_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x $" src="form_237.png" width="23" height="13"/></picture> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
-    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <picture><source srcset="form_238_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_238.png" width="88" height="15"/></picture> where <picture><source srcset="form_239_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta &lt; $" src="form_239.png" width="29" height="15"/></picture> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">includeX0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_217_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ x=0 $" src="form_217.png" width="41" height="11"/></picture> is visible in the plot (only for non-logx plots, default: false) </td></tr>
+    <tr><td class="paramname">includeY0</td><td>if this is <code>true</code> <a class="el" href="class_j_k_q_t_base_plotter.html#a0f8b714129f2f387985231c186f4f618" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a> will ensure that <picture><source srcset="form_218_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ y=0 $" src="form_218.png" width="39" height="15"/></picture> is visible in the plot (only for non-logy plots, default: false) </td></tr>
+    <tr><td class="paramname">scaleX</td><td>the plot will have a width of <picture><source srcset="form_219_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Xscale}\cdot\Delta x $" src="form_219.png" width="81" height="13"/></picture> where <picture><source srcset="form_220_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x $" src="form_220.png" width="23" height="13"/></picture> is the actual x-axis data range For logx plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
+    <tr><td class="paramname">scaleY</td><td>the plot will have a height of <picture><source srcset="form_221_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \mbox{Yscale}\cdot\Delta &lt; $" src="form_221.png" width="88" height="15"/></picture> where <picture><source srcset="form_222_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta &lt; $" src="form_222.png" width="29" height="15"/></picture> is the actual &lt;-axis data range For log&lt; plots we actually use this on the logarithmized data! (default: 1.05) </td></tr>
   </table>
   </dd>
 </dl>
@@ -13005,7 +13005,7 @@ y-axis</td></tr>
 
 <p>the aspect ratio of plotwidth and plotheight to maintain, if <code>maintainAspectRatio==true</code> </p>
 <p class="formulaDsp">
-<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_215.png" width="182" height="39"/></picture>
+<picture><source srcset="form_214_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{aspectRatio}=\frac{\mbox{plotWidth}}{\mbox{plotHeight}} \]" src="form_214.png" width="182" height="39"/></picture>
 </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#af0720a1e655e8f24ef3914874b2dfec8" title="indicates whether the widget should maintain an aspect ratio of plotwidth and plotheight">maintainAspectRatio</a> </dd></dl>
 
@@ -13033,7 +13033,7 @@ y-axis</td></tr>
 
 <p>the aspect ratio of axis widths to maintain, if <code>maintainAxisAspectRatio==true</code> </p>
 <p>When the axis aspect ratio is to be maintained and new axis ranges are set (e.g. when calling <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a> ), the given axis ranges are modified, so </p><p class="formulaDsp">
-<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="234" height="41"/></picture>
+<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_215.png" width="234" height="41"/></picture>
 </p>
 <dl class="section note"><dt>Note</dt><dd>An axis aspect ratio is only well defined for linear axes (if both axes are linear). If both axes a logarithmic, the axis ration is defined for log(axismax)-log(axismin). For other combinations of axes, this function is deactivated</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a137bf3f5fcd473fbb4177290eb53db6d" title="indicates whether the axes should maintain an aspect ratio">maintainAxisAspectRatio</a> </dd></dl>
@@ -14115,7 +14115,7 @@ y-axis</td></tr>
 
 <p>indicates whether the axes should maintain an aspect ratio </p>
 <p>When the axis aspect ratio is to be maintained and new axis ranges are set (e.g. when calling <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">setXY()</a> ), the given axis ranges are modified, so </p><p class="formulaDsp">
-<picture><source srcset="form_216_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_216.png" width="234" height="41"/></picture>
+<picture><source srcset="form_215_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \mbox{axisAspectRatio}=\frac{\left|x_\text{max}-x_\text{min}\right|}{\left|y_\text{max}-y_\text{min}\right|} \]" src="form_215.png" width="234" height="41"/></picture>
 </p>
 <dl class="section note"><dt>Note</dt><dd>An axis aspect ratio is only well defined for linear axes (if both axes are linear). If both axes a logarithmic, the axis ration is defined for log(axismax)-log(axismin). For other combinations of axes, this function is deactivated</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_base_plotter.html#a4664db3c06865c8618dd0c70c7551caf" title="the aspect ratio of axis widths to maintain, if maintainAxisAspectRatio==true">axisAspectRatio</a> </dd></dl>
@@ -14927,7 +14927,7 @@ y-axis</td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a></li>
-    <li class="footer">Generated on Thu Feb 1 2024 11:16:57 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Feb 2 2024 15:14:00 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
