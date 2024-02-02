@@ -154,6 +154,8 @@ BREAKING: <a class="el" href="class_j_k_q_t_fast_plotter.html" title="a speed op
 <li>
 BREAKING: The QMake build system is deprecated and will not get the same love and atttention as the recommended CMake system. The QMake scripts might be removed in future versions! </li>
 <li>
+FIXED/SECURITY not using <code>sprintf()</code> any more ... replaced by e.g. <code>snprintf()</code> , which is more secure. </li>
+<li>
 FIXED issue <a href="https://github.com/jkriege2/JKQtPlotter/pull/102">#102: Fix CMake Compile Error: JKQTCommonLib no properly linked in JKQTMath static build</a> (thanks to <a href="https://github.com/Neumann-A">user:Neumann-A</a> for reporting) </li>
 <li>
 CLEANUP (BREAKING) of library structure </li>
@@ -789,7 +791,7 @@ Latest Release/Tag: <a href="https://github.com/jkriege2/JKQtPlotter/releases/ta
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Feb 2 2024 15:13:59 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Feb 2 2024 15:23:04 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

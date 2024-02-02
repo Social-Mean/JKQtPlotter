@@ -251,7 +251,7 @@ $(document).ready(function(){initNavTree('jkqtplinalgtools_8h_source.html',''); 
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        <span class="keywordflow">for</span> (<span class="keywordtype">long</span> c=0; c&lt;C; c++) {</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>            <span class="keywordflow">if</span> (c&gt;0) ost&lt;&lt;<span class="stringliteral">&quot;, &quot;</span>;</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>            <span class="keywordtype">char</span> buf[500];</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>            sprintf(buf, format.c_str(), <a class="code hl_function" href="group__jkqtptools__math__basic.html#ga966c1a713f60bd026db4f35f7007eb7e">jkqtp_todouble</a>(matrix[<a class="code hl_define" href="group__jkqtptools__math__linalg.html#ga34eac1e10f82c5d67a055a795a51bbed">jkqtplinalgMatIndex</a>(l,c,C)]));</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>            snprintf(buf, 500, format.c_str(), <a class="code hl_function" href="group__jkqtptools__math__basic.html#ga966c1a713f60bd026db4f35f7007eb7e">jkqtp_todouble</a>(matrix[<a class="code hl_define" href="group__jkqtptools__math__linalg.html#ga34eac1e10f82c5d67a055a795a51bbed">jkqtplinalgMatIndex</a>(l,c,C)]));</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>            ost&lt;&lt;buf;</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>            <span class="comment">/*ost.precision(precision);</span></div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="comment">            ost.width(width);</span></div>
@@ -368,14 +368,14 @@ $(document).ready(function(){initNavTree('jkqtplinalgtools_8h_source.html',''); 
 <div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>                    <a class="code hl_function" href="group__jkqtptools__math__linalg.html#ga9ad3ab299feb81e4ee9ff797dbab8610">jkqtplinalgPM1ToRWBColors</a>(valrel, r,g,b);</div>
 <div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>                }</div>
 <div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>                <span class="keywordtype">char</span> buf[500];</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>                sprintf(buf, <span class="stringliteral">&quot; bgcolor=\&quot;#%02X%02X%02X\&quot;&quot;</span>, <span class="keywordtype">int</span>(r), <span class="keywordtype">int</span>(g), <span class="keywordtype">int</span>(b));</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>                snprintf(buf, 500, <span class="stringliteral">&quot; bgcolor=\&quot;#%02X%02X%02X\&quot;&quot;</span>, <span class="keywordtype">int</span>(r), <span class="keywordtype">int</span>(g), <span class="keywordtype">int</span>(b));</div>
 <div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>                cols=buf;</div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>            }</div>
 <div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>            ost&lt;&lt;<span class="stringliteral">&quot;&lt;td align=\&quot;center\&quot; valign=\&quot;middle\&quot; width=\&quot;&quot;</span>&lt;&lt;(100.0/double(C))&lt;&lt;<span class="stringliteral">&quot;%\&quot; &quot;</span>&lt;&lt;cols&lt;&lt;<span class="stringliteral">&quot;&gt;&lt;nobr&gt;&quot;</span>;</div>
 <div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>            ost.precision(precision);</div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>            ost.width(width);</div>
 <div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>            <span class="keywordtype">char</span> buf[500];</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>            sprintf(buf, format.c_str(), val);</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>            snprintf(buf, 500, format.c_str(), val);</div>
 <div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>            ost&lt;&lt;prenumber&lt;&lt;buf&lt;&lt;postnumber;</div>
 <div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>            ost&lt;&lt;<span class="stringliteral">&quot;&lt;/nobr&gt;&lt;/td&gt;&quot;</span>;</div>
 <div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>        }</div>
@@ -409,7 +409,7 @@ $(document).ready(function(){initNavTree('jkqtplinalgtools_8h_source.html',''); 
 <div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>            <a class="code hl_function" href="group__jkqtptools__math__linalg.html#ga9ad3ab299feb81e4ee9ff797dbab8610">jkqtplinalgPM1ToRWBColors</a>(0.5, rcp, gcp, bcp);</div>
 <div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>            <a class="code hl_function" href="group__jkqtptools__math__linalg.html#ga9ad3ab299feb81e4ee9ff797dbab8610">jkqtplinalgPM1ToRWBColors</a>(1, rp, gp, bp);</div>
 <div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>        }</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>        sprintf(buf, <span class="stringliteral">&quot;&lt;table %s cellpadding=\&quot;2\&quot; cellspacing=\&quot;0\&quot; border=\&quot;1\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;table width=\&quot;100%%\&quot; cellpadding=\&quot;3\&quot; cellspacing=\&quot;0\&quot; border=\&quot;0\&quot;&gt;&lt;tr&gt;&quot;</span></div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>        snprintf(buf, 8192, <span class="stringliteral">&quot;&lt;table %s cellpadding=\&quot;2\&quot; cellspacing=\&quot;0\&quot; border=\&quot;1\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;table width=\&quot;100%%\&quot; cellpadding=\&quot;3\&quot; cellspacing=\&quot;0\&quot; border=\&quot;0\&quot;&gt;&lt;tr&gt;&quot;</span></div>
 <div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>                     <span class="stringliteral">&quot;&lt;td bgcolor=\&quot;#%02X%02X%02X\&quot; width=\&quot;20%%\&quot;&gt;&lt;nobr&gt;&amp;nbsp;%9.3lg&amp;nbsp;&lt;/nobr&gt;&lt;/td&gt;&quot;</span></div>
 <div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>                     <span class="stringliteral">&quot;&lt;td bgcolor=\&quot;#%02X%02X%02X\&quot; width=\&quot;20%%\&quot;&gt;&lt;nobr&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;mdash;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/nobr&gt;&lt;/td&gt;&quot;</span></div>
 <div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>                     <span class="stringliteral">&quot;&lt;td bgcolor=\&quot;#%02X%02X%02X\&quot; width=\&quot;20%%\&quot;&gt;&lt;nobr&gt;&amp;nbsp;%9.3lg&amp;nbsp;&lt;/nobr&gt;&lt;/td&gt;&quot;</span></div>
@@ -1056,7 +1056,7 @@ $(document).ready(function(){initNavTree('jkqtplinalgtools_8h_source.html',''); 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_41b64d01ba73fd10a3db4d8d86d562c2.html">jkqtmath</a></li><li class="navelem"><b>jkqtplinalgtools.h</b></li>
-    <li class="footer">Generated on Fri Feb 2 2024 15:13:59 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Feb 2 2024 15:23:04 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
