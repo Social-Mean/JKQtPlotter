@@ -45,7 +45,7 @@ var searchData=
   ['_3a_20scatter_20graph_20with_20parametrized_20symbols_20colors_42',['Example (JKQTPlotter): Scatter Graph with Parametrized Symbols/Colors',['../_j_k_q_t_plotter_param_scatter.html',1,'exampleTutorialProjects']]],
   ['_3a_20secondary_20axes_43',['Example (JKQTPlotter): Secondary Axes',['../_j_k_q_t_plotter_secondary_axes.html',1,'exampleTutorialProjects']]],
   ['_3a_20simple_20barchart_44',['Example (JKQTPlotter): Simple barchart',['../_j_k_q_t_plotter_barcharts.html',1,'exampleTutorialProjects']]],
-  ['_3a_20simple_20graph_20labels_20example_45',['Example (JKQTPlotter): Simple Graph Labels Example',['../_j_k_q_t_plotter_graph_labels.html',1,'']]],
+  ['_3a_20simple_20graph_20labels_20example_45',['Example (JKQTPlotter): Simple Graph Labels Example',['../_j_k_q_t_plotter_graph_labels_example.html',1,'']]],
   ['_3a_20simple_20impulse_20plots_46',['Example (JKQTPlotter): Simple impulse plots',['../_j_k_q_t_plotter_impulse_plots.html',1,'exampleTutorialProjects']]],
   ['_3a_20simple_20line_20graph_20with_20error_20bars_47',['Example (JKQTPlotter): Simple line-graph with error bars',['../_j_k_q_t_plotter_symbols_errors.html',1,'exampleTutorialProjects']]],
   ['_3a_20simple_20line_20graph_20with_20live_20data_20speed_20test_48',['Example (JKQTPlotter): Simple line-graph with live-data (speed test)',['../_j_k_q_t_plotter_speed_test.html',1,'exampleTutorialProjects']]],

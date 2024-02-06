@@ -17,7 +17,7 @@ var searchData=
   ['labeloffsetpx_14',['labelOffsetPx',['../struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#aded6b2ffc604665b7b1b67c00aa397fe',1,'JKQTPGraphValueLabelStyleMixin::LabelGeometry']]],
   ['labeloffsetwithconnector_15',['labelOffsetWithConnector',['../class_j_k_q_t_p_graph_value_label_style_mixin.html#ac7948411ea8f99d5fc7c2a52c0aa834d',1,'JKQTPGraphValueLabelStyleMixin']]],
   ['labelposition_16',['labelposition',['../class_j_k_q_t_p_graph_value_label_style_mixin.html#aba14a82d8b7832903a0785232128cfc6',1,'JKQTPGraphValueLabelStyleMixin::labelPosition'],['../class_j_k_q_t_p_coordinate_axis_style.html#a1089f11863df5d2abd66d62baa217262',1,'JKQTPCoordinateAxisStyle::labelPosition']]],
-  ['labels_20example_17',['Example (JKQTPlotter): Simple Graph Labels Example',['../_j_k_q_t_plotter_graph_labels.html',1,'']]],
+  ['labels_20example_17',['Example (JKQTPlotter): Simple Graph Labels Example',['../_j_k_q_t_plotter_graph_labels_example.html',1,'']]],
   ['labelxpadding_18',['labelXPadding',['../class_j_k_q_t_p_graph_value_label_style_mixin.html#a4b7742a33fd9796e2d23f834f1579978',1,'JKQTPGraphValueLabelStyleMixin']]],
   ['labelypadding_19',['labelYPadding',['../class_j_k_q_t_p_graph_value_label_style_mixin.html#a31e2ba3e88b53a94ade05b5f679d8d6d',1,'JKQTPGraphValueLabelStyleMixin']]],
   ['languages_20',['Supported Markup Languages',['../group__jkqtmathtext__general__languages.html',1,'']]],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['labels_20example_0',['Example (JKQTPlotter): Simple Graph Labels Example',['../_j_k_q_t_plotter_graph_labels.html',1,'']]],
+  ['labels_20example_0',['Example (JKQTPlotter): Simple Graph Labels Example',['../_j_k_q_t_plotter_graph_labels_example.html',1,'']]],
   ['laying_20out_20several_20plots_1',['Example (JKQTPlotter): Laying out Several Plots',['../_j_k_q_t_plotter_multi_plot_layout.html',1,'exampleTutorialProjects']]],
   ['library_2',['library',['../index.html',1,'JKQTPlotter - A Qt Plotting Library'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html',1,'Tutorial (JKQTPDatastore): Regression Analysis (with the Statistics Library)']]],
   ['licensing_20terms_20for_20jkqtplotter_3',['Licensing Terms for JKQTPlotter',['../licensepage.html',1,'']]],
