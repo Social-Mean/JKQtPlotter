@@ -915,6 +915,10 @@ Additional Inherited Members</h2></td></tr>
 <div class="image">
 <img src="JKQTPGLabelAwayFromXAxis.png" alt=""/>
 </div>
+<p>Also other styles of boxes are available:</p>
+<div class="image">
+<img src="JKQTPGLSimpleBoxAndLine.png" alt=""/>
+</div>
 <p>To achieve this, use code like this: </p><div class="fragment"><div class="line"><span class="comment">// create barchart and line-chart to display the data:</span></div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_bar_vertical_graph.html">JKQTPBarVerticalGraph</a>* graph1=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_bar_vertical_graph.html">JKQTPBarVerticalGraph</a>(&amp;plot);</div>
 <div class="line">graph1-&gt;<a class="code hl_slot" href="class_j_k_q_t_p_bar_graph_base.html#a856c3f4d1032e9b1234978cfc6cd6e19">setBarPositionColumn</a>(columnX);</div>
@@ -942,8 +946,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_graph_html_a48809679e6f1ba587132608b8dfb903d"><div class="ttname"><a href="class_j_k_q_t_p_x_y_graph.html#a48809679e6f1ba587132608b8dfb903d">JKQTPXYGraph::setXColumn</a></div><div class="ttdeci">void setXColumn(int __value)</div><div class="ttdoc">the column that contains the x-component of the datapoints</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_graph_html_a5f4350e1800640c3cd746a38773e9890"><div class="ttname"><a href="class_j_k_q_t_p_x_y_graph.html#a5f4350e1800640c3cd746a38773e9890">JKQTPXYGraph::getXColumn</a></div><div class="ttdeci">int getXColumn() const</div><div class="ttdoc">the column that contains the x-component of the datapoints</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_graph_html_a9c752b91813c3f10b812caad3ed60035"><div class="ttname"><a href="class_j_k_q_t_p_x_y_graph.html#a9c752b91813c3f10b812caad3ed60035">JKQTPXYGraph::getYColumn</a></div><div class="ttdeci">int getYColumn() const</div><div class="ttdoc">the column that contains the y-component of the datapoints</div></div>
-<div class="ttc" id="aclass_j_k_q_t_p_x_y_graph_labels_html"><div class="ttname"><a href="class_j_k_q_t_p_x_y_graph_labels.html">JKQTPXYGraphLabels</a></div><div class="ttdoc">This graph plots a series of data labels. This can be used to add number-labels to e....</div><div class="ttdef"><b>Definition</b> jkqtpgraphlabels.h:99</div></div>
-<div class="ttc" id="aclass_j_k_q_t_p_x_y_graph_labels_html_af8ad6790d8e9f46ede0366afac390e8aa0651b0dc3f0fe0f8f65032722765aac0"><div class="ttname"><a href="class_j_k_q_t_p_x_y_graph_labels.html#af8ad6790d8e9f46ede0366afac390e8aa0651b0dc3f0fe0f8f65032722765aac0">JKQTPXYGraphLabels::YValueLabel</a></div><div class="ttdeci">@ YValueLabel</div><div class="ttdoc">generates a label with the y-coordinate only, calls setDefaultYLabelGenerator()</div><div class="ttdef"><b>Definition</b> jkqtpgraphlabels.h:104</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_x_y_graph_labels_html"><div class="ttname"><a href="class_j_k_q_t_p_x_y_graph_labels.html">JKQTPXYGraphLabels</a></div><div class="ttdoc">This graph plots a series of data labels. This can be used to add number-labels to e....</div><div class="ttdef"><b>Definition</b> jkqtpgraphlabels.h:103</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_x_y_graph_labels_html_af8ad6790d8e9f46ede0366afac390e8aa0651b0dc3f0fe0f8f65032722765aac0"><div class="ttname"><a href="class_j_k_q_t_p_x_y_graph_labels.html#af8ad6790d8e9f46ede0366afac390e8aa0651b0dc3f0fe0f8f65032722765aac0">JKQTPXYGraphLabels::YValueLabel</a></div><div class="ttdeci">@ YValueLabel</div><div class="ttdoc">generates a label with the y-coordinate only, calls setDefaultYLabelGenerator()</div><div class="ttdef"><b>Definition</b> jkqtpgraphlabels.h:108</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_line_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_x_y_line_graph.html">JKQTPXYLineGraph</a></div><div class="ttdoc">This implements xy line plots. This also alows to draw symbols at the data points.</div><div class="ttdef"><b>Definition</b> jkqtplines.h:61</div></div>
 <div class="ttc" id="agroup__jkqtplotter__specialgraphs__stylemixins_html_gga155cf285f6f0b6a9e8c4c6b1680aa4f5a206a394d88b838f5410d805296775517"><div class="ttname"><a href="group__jkqtplotter__specialgraphs__stylemixins.html#gga155cf285f6f0b6a9e8c4c6b1680aa4f5a206a394d88b838f5410d805296775517">JKQTPGLabelAwayFromXAxis</a></div><div class="ttdeci">@ JKQTPGLabelAwayFromXAxis</div><div class="ttdoc">all labels pointing away from the x-axis</div><div class="ttdef"><b>Definition</b> jkqtpgraphlabelstylemixin.h:50</div></div>
 </div><!-- fragment --><p>The text shown in the label is determined by a functor of type <a class="el" href="class_j_k_q_t_p_x_y_graph_labels.html#ae4bdbb0824ddc81ad31b742ae31494b8" title="type of a functor that generates a label">JKQTPXYGraphLabels::LabelGenerator</a> that calculates it from the labels position and data-index. This functor can be custimized (set <a class="el" href="class_j_k_q_t_p_x_y_graph_labels.html#abdef2b606ea63e40582482e9af204cca" title="sets a custom label geneator function of type LabelGenerator to use">setCustomLabelGenerator()</a> or the matching constructor), or it may be one of three default immplementations, that display:</p><ul>
@@ -1533,7 +1537,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_x_y_graph_labels.html">JKQTPXYGraphLabels</a></li>
-    <li class="footer">Generated on Tue Feb 6 2024 13:59:17 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Feb 6 2024 14:21:22 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

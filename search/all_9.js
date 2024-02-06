@@ -11,7 +11,7 @@ var searchData=
   ['elements_20available_20in_20jkqtfastplotter_8',['DEPRECATED: Plot Elements available in JKQTFastPlotter',['../group__jkqtfastplotter___plot_items.html',1,'']]],
   ['elements_20lines_20rectangles_9',['Geometric Elements (Lines, Rectangles, ...)',['../group__jkqtplotter__geoplots.html',1,'']]],
   ['ellipse_10',['Ellipse',['../class_j_k_q_t_p_geo_ellipse.html#a2c5c075e41380b153ee3e13aa563ef34a119518c2134c46108179369f0ce81fa2',1,'JKQTPGeoEllipse']]],
-  ['ellipses_11',['Ellipses',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md114',1,'']]],
+  ['ellipses_11',['Ellipses',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md117',1,'']]],
   ['elongatemax_12',['elongateMax',['../struct_j_k_q_t_p_coordinate_axis_1_1_axis_elements_size_description.html#af38d9f20050e07c423e8a432f043b22f',1,'JKQTPCoordinateAxis::AxisElementsSizeDescription']]],
   ['elongatemin_13',['elongateMin',['../struct_j_k_q_t_p_coordinate_axis_1_1_axis_elements_size_description.html#aebb44e5061a89e6b8eaf2f984e6dccd6',1,'JKQTPCoordinateAxis::AxisElementsSizeDescription']]],
   ['emitplotsignals_14',['emitPlotSignals',['../class_j_k_q_t_base_plotter.html#abada203cacc1863d22e1639760a098ec',1,'JKQTBasePlotter']]],

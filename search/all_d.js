@@ -137,7 +137,7 @@ var searchData=
   ['intcolmin_134',['intColMin',['../class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#ad86a607d7380724f02efc6c7acbd6a8b',1,'JKQTPXYParametrizedScatterGraph']]],
   ['inteditingfinished_135',['inteditingfinished',['../class_j_k_q_t_p_enhanced_double_spin_box.html#aa77fed909e9dee8b5f7a15b68382235c',1,'JKQTPEnhancedDoubleSpinBox::intEditingFinished()'],['../class_j_k_q_t_p_enhanced_spin_box.html#aeeaa5f2583a7c3c6e00f5c73f74a684d',1,'JKQTPEnhancedSpinBox::intEditingFinished()']]],
   ['interaction_20in_20jkqtplotter_136',['Mouse-Interaction in JKQTPlotter',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USERMOUSEINTERACTION',1,'']]],
-  ['interactions_137',['Available User-Interactions',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md100',1,'']]],
+  ['interactions_137',['Available User-Interactions',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md101',1,'']]],
   ['interactions_20gui_20features_138',['User-Interactions/GUI Features',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USERINTERACTION',1,'']]],
   ['interactions_20in_20jkqtplotter_139',['Tutorial (JKQTPlotter): User-Interactions in JKQtPlotter',['../_j_k_q_t_plotter_user_interaction.html',1,'exampleTutorialProjects']]],
   ['interface_140',['interface',['../class_j_k_q_t_p_datastore.html#jkqtpdatastore_column_management_iterators',1,'Iterator Interface'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md29',1,'Iterator Interface']]],

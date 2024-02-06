@@ -125,11 +125,11 @@ var NAVTREE =
       ] ],
       [ "Example (JKQTPlotter): Boxplots", "_j_k_q_t_plotter_boxplots_graphs.html", null ],
       [ "Example (JKQTPlotter): Violin Plots", "_j_k_q_t_plotter_violinplot_graphs.html", [
-        [ "Generating a test Dataset", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md109", null ],
-        [ "Visualizing data as a Rug Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md112", null ],
-        [ "Drawing the (vertical) Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md117", null ],
-        [ "Drawing a horizontal Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md119", null ],
-        [ "Adapters as shortcuts to drawing Violin Plots", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md120", null ]
+        [ "Generating a test Dataset", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md100", null ],
+        [ "Visualizing data as a Rug Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md102", null ],
+        [ "Drawing the (vertical) Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md104", null ],
+        [ "Drawing a horizontal Violin Plot", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md107", null ],
+        [ "Adapters as shortcuts to drawing Violin Plots", "_j_k_q_t_plotter_violinplot_graphs.html#autotoc_md109", null ]
       ] ],
       [ "Example (JKQTPlotter): Plotting Geometric Objects", "_j_k_q_t_plotter_geometric_graphs.html", null ],
       [ "Example (JKQTPlotter): Generating Demo-Plots of Geometric Objects for Documentation", "_j_k_q_t_plotter_geometric_graphs_simple.html", null ],
@@ -181,23 +181,23 @@ var NAVTREE =
       [ "Tutorial (JKQTPlotter): User-Interactions in JKQtPlotter", "_j_k_q_t_plotter_user_interaction.html", [
         [ "Basic Description", "_j_k_q_t_plotter_user_interaction.html#autotoc_md98", null ],
         [ "Inner Workings", "_j_k_q_t_plotter_user_interaction.html#autotoc_md99", null ],
-        [ "Available User-Interactions", "_j_k_q_t_plotter_user_interaction.html#autotoc_md100", [
-          [ "Switching Graph Visibility via Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md101", null ],
-          [ "Toolbar at the top of the Plot", "_j_k_q_t_plotter_user_interaction.html#autotoc_md102", null ],
-          [ "Mouse Position Display", "_j_k_q_t_plotter_user_interaction.html#autotoc_md103", null ],
-          [ "Drag the Plot Viewport", "_j_k_q_t_plotter_user_interaction.html#autotoc_md104", null ],
-          [ "Zooming with the Mouse", "_j_k_q_t_plotter_user_interaction.html#autotoc_md105", null ],
-          [ "Ruler/Measurement Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md106", null ],
-          [ "Data ToolTip Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md107", null ],
-          [ "Drawing Geometrical Forms", "_j_k_q_t_plotter_user_interaction.html#autotoc_md108", [
-            [ "Lines", "_j_k_q_t_plotter_user_interaction.html#autotoc_md110", null ],
-            [ "Rectangles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md111", null ],
-            [ "Circles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md113", null ],
-            [ "Ellipses", "_j_k_q_t_plotter_user_interaction.html#autotoc_md114", null ]
+        [ "Available User-Interactions", "_j_k_q_t_plotter_user_interaction.html#autotoc_md101", [
+          [ "Switching Graph Visibility via Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md103", null ],
+          [ "Toolbar at the top of the Plot", "_j_k_q_t_plotter_user_interaction.html#autotoc_md105", null ],
+          [ "Mouse Position Display", "_j_k_q_t_plotter_user_interaction.html#autotoc_md106", null ],
+          [ "Drag the Plot Viewport", "_j_k_q_t_plotter_user_interaction.html#autotoc_md108", null ],
+          [ "Zooming with the Mouse", "_j_k_q_t_plotter_user_interaction.html#autotoc_md110", null ],
+          [ "Ruler/Measurement Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md111", null ],
+          [ "Data ToolTip Tool", "_j_k_q_t_plotter_user_interaction.html#autotoc_md112", null ],
+          [ "Drawing Geometrical Forms", "_j_k_q_t_plotter_user_interaction.html#autotoc_md113", [
+            [ "Lines", "_j_k_q_t_plotter_user_interaction.html#autotoc_md114", null ],
+            [ "Rectangles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md115", null ],
+            [ "Circles", "_j_k_q_t_plotter_user_interaction.html#autotoc_md116", null ],
+            [ "Ellipses", "_j_k_q_t_plotter_user_interaction.html#autotoc_md117", null ]
           ] ],
-          [ "Context Menus", "_j_k_q_t_plotter_user_interaction.html#autotoc_md115", [
-            [ "Standard Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md116", null ],
-            [ "Special Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md118", null ]
+          [ "Context Menus", "_j_k_q_t_plotter_user_interaction.html#autotoc_md118", [
+            [ "Standard Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md119", null ],
+            [ "Special Context Menu", "_j_k_q_t_plotter_user_interaction.html#autotoc_md120", null ]
           ] ]
         ] ]
       ] ],

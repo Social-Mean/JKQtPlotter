@@ -124,7 +124,7 @@ var searchData=
   ['form_20designer_121',['form designer',['../group__jkqtplotter__general__usage__qtcreator.html',1,'How to use JKQTPlotter in the Qt Form Designer'],['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USEQTCREATOR',1,'How to use JKQTPlotter in the Qt Form Designer'],['../_j_k_q_t_plotter_qt_creator.html#autotoc_md96',1,'Instructions on how to use JKQTPlotter in the Qt Form Designer']]],
   ['formathittestdefaultlabel_122',['formatHitTestDefaultLabel',['../class_j_k_q_t_p_plot_element.html#acabb25ef081b70ca56e43cbfe1f2f0a8',1,'JKQTPPlotElement']]],
   ['formatting_123',['Formatting',['../group__jkqtmathtext__supportedlatex.html#JKQTMathTextSuppoertedLaTeXFormatting',1,'']]],
-  ['forms_124',['Drawing Geometrical Forms',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md108',1,'']]],
+  ['forms_124',['Drawing Geometrical Forms',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md113',1,'']]],
   ['forms_20arrows_20annotaions_125',['Examples for Geometric Forms, Arrows, Annotaions ...',['../example_tutorial_projects.html#jkqtp_extut_geometric',1,'']]],
   ['formwithjkqtplotter_20tt_126',['Form Class &lt;tt&gt;FormWithJKQTPlotter&lt;/tt&gt;',['../_j_k_q_t_plotter_qt_creator.html#autotoc_md97',1,'']]],
   ['frac_5ffactor_127',['frac_factor',['../class_j_k_q_t_math_text.html#a5b9daf9148e372061120c0e949a45143',1,'JKQTMathText']]],
