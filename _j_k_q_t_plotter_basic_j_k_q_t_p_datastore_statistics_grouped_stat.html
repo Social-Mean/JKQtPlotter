@@ -117,12 +117,12 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_basic_j_k_q_t_p_datas
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md25">Barcharts &amp; Boxplots from categorized data</a><ul><li class="level2"><a href="#autotoc_md26">Generating a Dataset for Grouped Barcharts</a></li>
-<li class="level2"><a href="#autotoc_md29">Calculating Grouped Statistics for a Barchart</a></li>
-<li class="level2"><a href="#autotoc_md32">Calculating Grouped Statistics for a Boxplot</a></li>
+<ul><li class="level1"><a href="#autotoc_md30">Barcharts &amp; Boxplots from categorized data</a><ul><li class="level2"><a href="#autotoc_md31">Generating a Dataset for Grouped Barcharts</a></li>
+<li class="level2"><a href="#autotoc_md32">Calculating Grouped Statistics for a Barchart</a></li>
+<li class="level2"><a href="#autotoc_md33">Calculating Grouped Statistics for a Boxplot</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md33">(Scatter-)Graphs with X/Y-errors from Categorized Data</a><ul><li class="level2"><a href="#autotoc_md34">Dataset for XY Scatter Graphs</a></li>
+<li class="level1"><a href="#autotoc_md34">(Scatter-)Graphs with X/Y-errors from Categorized Data</a><ul><li class="level2"><a href="#autotoc_md35">Dataset for XY Scatter Graphs</a></li>
 <li class="level2"><a href="#autotoc_md36">Calculating x- and y-Errors from Categorized Data</a></li>
 </ul>
 </li>
@@ -139,9 +139,9 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_basic_j_k_q_t_p_datas
 <li><a class="el" href="_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html">Advanced 2-Dimensional Statistics with JKQTPDatastore</a></li>
 </ul>
 <p>The source code of the main application can be found in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/datastore_groupedstat/datastore_groupedstat.cpp"><code>datastore_groupedstat.cpp</code></a>. This tutorial cites only parts of this code to demonstrate different ways of working with data for the graphs.</p>
-<h1><a class="anchor" id="autotoc_md25"></a>
+<h1><a class="anchor" id="autotoc_md30"></a>
 Barcharts &amp; Boxplots from categorized data</h1>
-<h2><a class="anchor" id="autotoc_md26"></a>
+<h2><a class="anchor" id="autotoc_md31"></a>
 Generating a Dataset for Grouped Barcharts</h2>
 <p>To demonstrate the grouped statistics, we first have to generate a dataset. The datapoints consist of pairs <code>&lt;group,value&gt;</code>, where the groups are encoded by the numbers 1,2,3 and in each group, several measurements are taken: </p><div class="fragment"><div class="line"><span class="keywordtype">size_t</span> colBarRawGroup=datastore1-&gt;addColumn(<span class="stringliteral">&quot;barchart, rawdata, group&quot;</span>);</div>
 <div class="line"><span class="keywordtype">size_t</span> colBarRawValue=datastore1-&gt;addColumn(<span class="stringliteral">&quot;barchart, rawdata, value&quot;</span>);</div>
@@ -177,7 +177,7 @@ Generating a Dataset for Grouped Barcharts</h2>
 <div class="ttc" id="agroup__jkqtptools__drawing_html_ggacdaaac6baeadbfd3677d4d53ea594b5ba7d1d103c92b5fb6152ddf135315f3449"><div class="ttname"><a href="group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba7d1d103c92b5fb6152ddf135315f3449">JKQTPCross</a></div><div class="ttdeci">@ JKQTPCross</div><div class="ttdoc">a X cross</div><div class="ttdef"><b>Definition</b> jkqtpdrawingtools.h:146</div></div>
 </div><!-- fragment --><p>The resulting plot looks like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_groupedstat_barchartrawdata.png" alt="datastore_groupedstat_barchartrawdata" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md29"></a>
+<h2><a class="anchor" id="autotoc_md32"></a>
 Calculating Grouped Statistics for a Barchart</h2>
 <p>Now we want to draw a barchart for every group, which indicates the average in each group. This is done using methods from the statistics library. First we need to group the data using <code><a class="el" href="group__jkqtptools__math__statistics__grouped.html#gad8a5870f70c3e43674f114b30de9ade7" title="groups data from an input range inFirstCat / inFirstValue ... inLastCat / outFirstCat representing pa...">jkqtpstatGroupData()</a></code>, which assembles the data points in each group groupeddataBar </p><div class="fragment"><div class="line">std::map&lt;double, std::vector&lt;double&gt; &gt; groupeddataBar;</div>
 <div class="line"><a class="code hl_function" href="group__jkqtptools__math__statistics__grouped.html#gad8a5870f70c3e43674f114b30de9ade7">jkqtpstatGroupData</a>(datastore1-&gt;begin(colBarRawGroup), datastore1-&gt;end(colBarRawGroup),</div>
@@ -199,7 +199,7 @@ Calculating Grouped Statistics for a Barchart</h2>
 <div class="line">plotbarchart-&gt;addGraph(gBar=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_bar_vertical_error_graph.html">JKQTPBarVerticalErrorGraph</a>(plotbarchart));</div>
 <div class="line">gBar-&gt;<a class="code hl_slot" href="class_j_k_q_t_p_x_y_graph.html#a972ee50c53accadade8880b3bd1110cc">setXYColumns</a>(colBarGroup, colBarAverage);</div>
 <div class="line">gBar-&gt;<a class="code hl_function" href="class_j_k_q_t_p_y_graph_error_data.html#a52350a8da0cbce7a98e6da445ad28b11">setYErrorColumn</a>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(colBarStdDev));</div>
-<div class="ttc" id="aclass_j_k_q_t_p_bar_vertical_error_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_bar_vertical_error_graph.html">JKQTPBarVerticalErrorGraph</a></div><div class="ttdoc">This implements a vertical bar graph with bars between  and  and error indicator.</div><div class="ttdef"><b>Definition</b> jkqtpbarchart.h:137</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_bar_vertical_error_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_bar_vertical_error_graph.html">JKQTPBarVerticalErrorGraph</a></div><div class="ttdoc">This implements a vertical bar graph with bars between  and  and error indicator.</div><div class="ttdef"><b>Definition</b> jkqtpbarchart.h:131</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_y_graph_error_data_html_a52350a8da0cbce7a98e6da445ad28b11"><div class="ttname"><a href="class_j_k_q_t_p_y_graph_error_data.html#a52350a8da0cbce7a98e6da445ad28b11">JKQTPYGraphErrorData::setYErrorColumn</a></div><div class="ttdeci">void setYErrorColumn(int __value)</div><div class="ttdoc">the column that contains the error of the x-component of the datapoints</div></div>
 </div><!-- fragment --><p>The resulting plot looks like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_groupedstat_barchart.png" alt="datastore_groupedstat_barchart" class="inline"/></p>
@@ -215,7 +215,7 @@ Calculating Grouped Statistics for a Barchart</h2>
 <li><code><a class="el" href="group__jkqtptools__math__statistics__adaptors.html#ga2b33aa5d01b1348846c7633ddd2523a7" title="create a JKQTPFilledCurveYErrorGraph with y-direction error bars, calculated from average +/- stddev ...">jkqtpstatAddYErrorFilledCurveGraph()</a></code> / <code><a class="el" href="group__jkqtptools__math__statistics__adaptors.html#gab76d321d6d256d3979e14055cbeb71ed" title="create a JKQTPFilledCurveXErrorGraph with x-direction error bars, calculated from average +/- stddev ...">jkqtpstatAddXErrorFilledCurveGraph()</a></code></li>
 <li><code><a class="el" href="group__jkqtptools__math__statistics__adaptors.html#gaf4fb761320377e7b02ffc10b090acc9b" title="create a plot with y-direction error bars, calculated from average +/- stddev of groups in the input ...">jkqtpstatAddYErrorGraph()</a></code> / <code><a class="el" href="group__jkqtptools__math__statistics__adaptors.html#ga3e9864505e5214b5bd420f039dc494a5" title="create a plot with x-direction error bars, calculated from average +/- stddev of groups in the input ...">jkqtpstatAddXErrorGraph()</a></code></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md32"></a>
+<h2><a class="anchor" id="autotoc_md33"></a>
 Calculating Grouped Statistics for a Boxplot</h2>
 <p>With the methods above we can also calculate more advanced statistics, like e.g. boxplots: </p><div class="fragment"><div class="line"><span class="keywordtype">size_t</span> colBarMedian=datastore1-&gt;addColumn(<span class="stringliteral">&quot;barchart, group-median&quot;</span>);</div>
 <div class="line"><span class="keywordtype">size_t</span> colBarMin=datastore1-&gt;addColumn(<span class="stringliteral">&quot;barchart, group-min&quot;</span>);</div>
@@ -259,9 +259,9 @@ Calculating Grouped Statistics for a Boxplot</h2>
 <li><code><a class="el" href="group__jkqtptools__math__statistics__adaptors.html#gac3ba7bfc7c4b87adce3a8c6f478196cb" title="create vertical boxplots of type JKQTPBoxplotVerticalGraph, from the 5-value-summary of groups in the...">jkqtpstatVAddBoxplots()</a></code> / <code>jkqtpstatHAddBoxplots()</code></li>
 <li><code><a class="el" href="group__jkqtptools__math__statistics__adaptors.html#gaffc04b2246a0cadf14a13c2079181105" title="create horizontal boxplots of type TGraph, from the 5-value-summary of groups in the input data">jkqtpstatAddBoxplots()</a></code></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md33"></a>
+<h1><a class="anchor" id="autotoc_md34"></a>
 (Scatter-)Graphs with X/Y-errors from Categorized Data</h1>
-<h2><a class="anchor" id="autotoc_md34"></a>
+<h2><a class="anchor" id="autotoc_md35"></a>
 Dataset for XY Scatter Graphs</h2>
 <p>First we generate a second dataset, which is going to be used for a scaterplot. The datapoints consist of pairs <code>&lt;x,y&gt;</code>, that are based on a parabula with random deviations, both in x- and y-direction: </p><div class="fragment"><div class="line"><span class="keywordtype">size_t</span> colScatterRawX=datastore1-&gt;addColumn(<span class="stringliteral">&quot;scatterplot, rawdata, x&quot;</span>);</div>
 <div class="line"><span class="keywordtype">size_t</span> colScatterRawY=datastore1-&gt;addColumn(<span class="stringliteral">&quot;scatterplot, rawdata, y&quot;</span>);</div>
@@ -275,14 +275,14 @@ Dataset for XY Scatter Graphs</h2>
 <div class="line">    <span class="keyword">const</span> <span class="keywordtype">double</span> y=<a class="code hl_function" href="group__jkqtptools__math__basic.html#gacb0b84ffd616c54365266f907cedf400">jkqtp_sqr</a>(x)+2.0;</div>
 <div class="line">    datastore1-&gt;appendToColumns(colScatterRawX, colScatterRawY, x+d1(gen), y+d1(gen));</div>
 <div class="line">}</div>
-<div class="ttc" id="agroup__jkqtptools__math__basic_html_gacb0b84ffd616c54365266f907cedf400"><div class="ttname"><a href="group__jkqtptools__math__basic.html#gacb0b84ffd616c54365266f907cedf400">jkqtp_sqr</a></div><div class="ttdeci">T jkqtp_sqr(const T &amp;v)</div><div class="ttdoc">returns the quare of the value v, i.e. v*v</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:324</div></div>
+<div class="ttc" id="agroup__jkqtptools__math__basic_html_gacb0b84ffd616c54365266f907cedf400"><div class="ttname"><a href="group__jkqtptools__math__basic.html#gacb0b84ffd616c54365266f907cedf400">jkqtp_sqr</a></div><div class="ttdeci">T jkqtp_sqr(const T &amp;v)</div><div class="ttdoc">returns the quare of the value v, i.e. v*v</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:325</div></div>
 </div><!-- fragment --><p>This dataset can be visualized: </p><div class="fragment"><div class="line"><a class="code hl_class" href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html">JKQTPXYParametrizedScatterGraph</a>* gScatterRaw;</div>
 <div class="line">plotscattererrors-&gt;addGraph(gScatterRaw=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html">JKQTPXYParametrizedScatterGraph</a>(plotscattererrors));</div>
 <div class="line">gScatterRaw-&gt;<a class="code hl_slot" href="class_j_k_q_t_p_x_y_graph.html#a972ee50c53accadade8880b3bd1110cc">setXYColumns</a>(colScatterRawX, colScatterRawY);</div>
 <div class="line">gScatterRaw-&gt;<a class="code hl_function" href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a2e4da542e348ad0d6353fa91b3859516">setDrawLine</a>(<span class="keyword">false</span>);</div>
 <div class="line">gScatterRaw-&gt;<a class="code hl_function" href="class_j_k_q_t_p_graph_symbol_style_mixin.html#af278c2bde3ba2b26341d4921748e1923">setSymbolType</a>(<a class="code hl_enumvalue" href="group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba7d1d103c92b5fb6152ddf135315f3449">JKQTPCross</a>);</div>
 <div class="line">gScatterRaw-&gt;<a class="code hl_function" href="class_j_k_q_t_p_graph_symbol_style_mixin.html#a7b5bdf1d3b33bcdc2ec82026e6fd55b9">setSymbolSize</a>(5);</div>
-<div class="ttc" id="aclass_j_k_q_t_p_x_y_parametrized_scatter_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html">JKQTPXYParametrizedScatterGraph</a></div><div class="ttdoc">This implements xy scatter plots (like JKQTPXYScatterGraph), but the color and size of the symbols ma...</div><div class="ttdef"><b>Definition</b> jkqtpscatter.h:153</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_x_y_parametrized_scatter_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html">JKQTPXYParametrizedScatterGraph</a></div><div class="ttdoc">This implements xy scatter plots (like JKQTPXYScatterGraph), but the color and size of the symbols ma...</div><div class="ttdef"><b>Definition</b> jkqtpscatter.h:147</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_parametrized_scatter_graph_html_a2e4da542e348ad0d6353fa91b3859516"><div class="ttname"><a href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html#a2e4da542e348ad0d6353fa91b3859516">JKQTPXYParametrizedScatterGraph::setDrawLine</a></div><div class="ttdeci">void setDrawLine(bool __value)</div><div class="ttdoc">indicates whether to draw a line or not</div></div>
 </div><!-- fragment --><p>The resulting plot looks like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_groupedstat_scatterrawdata.png" alt="datastore_groupedstat_scatterrawdata" class="inline"/></p>
@@ -343,7 +343,7 @@ Screenshot of the full Program</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Fri Feb 2 2024 15:23:04 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Feb 6 2024 13:59:16 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

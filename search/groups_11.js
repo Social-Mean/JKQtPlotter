@@ -11,11 +11,10 @@ var searchData=
   ['plot_20elements_8',['plot elements',['../group__jkqtplotter__general__basicplotelements.html',1,'Non-Graph Plot Elements'],['../group__jkqtpbaseplotter__elements.html',1,'Non-Graph Plot Elements']]],
   ['plot_20elements_20available_20in_20jkqtfastplotter_9',['DEPRECATED: Plot Elements available in JKQTFastPlotter',['../group__jkqtfastplotter___plot_items.html',1,'']]],
   ['plot_20key_20legend_10',['Plot Key/Legend',['../group__jkqtplotter__general__basicplotelements__key.html',1,'']]],
-  ['plot_20styling_11',['Mix-In Classes for Plot Styling',['../group__jkqtplotter__basegraphs__stylemixins.html',1,'']]],
-  ['plotter_20class_12',['plotter class',['../group__jkqtfastplotter.html',1,'DEPRECATED: JKQTFastPlotter: Speed-Optimized Plotter class'],['../group__jkqtplotter.html',1,'JKQTPlotter: Qt based Scientific Plotter Class']]],
-  ['plotter_20class_20plotter_20widget_13',['Plotter Class &amp; Plotter Widget',['../group__jkqtpplotterclasses.html',1,'']]],
-  ['plotting_14',['Matrix/Image Plotting',['../group__jkqtplotter__imagelots.html',1,'']]],
-  ['polygon_20area_20graphs_15',['Filled Polygon/Area Graphs',['../group__jkqtplotter__filledgraphs.html',1,'']]],
-  ['polynomial_20fits_20regression_16',['Polynomial Fits/Regression',['../group__jkqtptools__math__statistics__poly.html',1,'']]],
-  ['properties_20of_20jkqtbaseplotter_20jkqtplotter_17',['Comboboxes for Properties of JKQTBasePlotter/JKQTPlotter',['../group__jkqtpcomboboxes.html',1,'']]]
+  ['plotter_20class_11',['plotter class',['../group__jkqtfastplotter.html',1,'DEPRECATED: JKQTFastPlotter: Speed-Optimized Plotter class'],['../group__jkqtplotter.html',1,'JKQTPlotter: Qt based Scientific Plotter Class']]],
+  ['plotter_20class_20plotter_20widget_12',['Plotter Class &amp; Plotter Widget',['../group__jkqtpplotterclasses.html',1,'']]],
+  ['plotting_13',['Matrix/Image Plotting',['../group__jkqtplotter__imagelots.html',1,'']]],
+  ['polygon_20area_20graphs_14',['Filled Polygon/Area Graphs',['../group__jkqtplotter__filledgraphs.html',1,'']]],
+  ['polynomial_20fits_20regression_15',['Polynomial Fits/Regression',['../group__jkqtptools__math__statistics__poly.html',1,'']]],
+  ['properties_20of_20jkqtbaseplotter_20jkqtplotter_16',['Comboboxes for Properties of JKQTBasePlotter/JKQTPlotter',['../group__jkqtpcomboboxes.html',1,'']]]
 ];

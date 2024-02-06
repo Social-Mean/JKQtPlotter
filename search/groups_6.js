@@ -8,7 +8,8 @@ var searchData=
   ['enums_20classes_20for_20jkqtfastplotter_5',['Tool DEPRECATED: Functions, Enums, Classes for JKQTFastPlotter',['../group__jkqtfastplotter__tools.html',1,'']]],
   ['error_20indicators_6',['Mix-In Classes for Error Indicators',['../group__jkqtplotter__basegraphserrors.html',1,'']]],
   ['estimates_7',['estimates',['../group__jkqtptools__math__statistics__1dkde.html',1,'1-dimensional Kernel Density Estimates'],['../group__jkqtptools__math__statistics__2dkde.html',1,'2-dimensional Kernel Density Estimates']]],
-  ['evaluator_20for_20mathematical_20expressions_8',['Parser/Evaluator for Mathematical Expressions',['../group__jkqtptools__math__parser.html',1,'']]],
-  ['event_20graphs_9',['Event Graphs',['../group__jkqtplotter__eventgraphs.html',1,'']]],
-  ['expressions_10',['Parser/Evaluator for Mathematical Expressions',['../group__jkqtptools__math__parser.html',1,'']]]
+  ['etz_8',['Mix-In Classes for Styling Specialized Graphs (Boxplots etz.)',['../group__jkqtplotter__specialgraphs__stylemixins.html',1,'']]],
+  ['evaluator_20for_20mathematical_20expressions_9',['Parser/Evaluator for Mathematical Expressions',['../group__jkqtptools__math__parser.html',1,'']]],
+  ['event_20graphs_10',['Event Graphs',['../group__jkqtplotter__eventgraphs.html',1,'']]],
+  ['expressions_11',['Parser/Evaluator for Mathematical Expressions',['../group__jkqtptools__math__parser.html',1,'']]]
 ];

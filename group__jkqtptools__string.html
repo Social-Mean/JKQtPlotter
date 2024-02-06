@@ -153,9 +153,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ga20cb7f444474678e6b46e652f040a378" id="r_ga20cb7f444474678e6b46e652f040a378"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__string.html#ga20cb7f444474678e6b46e652f040a378">jkqtp_floattolatexstr</a> (double data, int past_comma=5, bool remove_trail0=false, double belowIsZero=1e-16, double minNoExponent=1e-3, double maxNoExponent=1e4, bool ensurePlusMinus=false, const std::string &amp;multOperator=&quot;\\times&quot;)</td></tr>
 <tr class="memdesc:ga20cb7f444474678e6b46e652f040a378"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a double to a string, encoding powers of ten as exponent in LaTeX notation (e.g. <code>-1.23\cdot 10^{-5}</code>)  <br /></td></tr>
 <tr class="separator:ga20cb7f444474678e6b46e652f040a378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7e3bb08e6ac5c2eabb0e707b1f50e9f0" id="r_ga7e3bb08e6ac5c2eabb0e707b1f50e9f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__string.html#ga7e3bb08e6ac5c2eabb0e707b1f50e9f0">jkqtp_floattolatexunitqstr</a> (double data, int past_comma=5, bool remove_trail0=false, double belowIsZero=std::numeric_limits&lt; double &gt;::min() *4)</td></tr>
+<tr class="memdesc:ga7e3bb08e6ac5c2eabb0e707b1f50e9f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a double to a LaTeX-encoded string, encoding powers of ten as characters, e.g. <code>jkqtp_floattounitqstr(1000)</code> will result in "1k"  <br /></td></tr>
+<tr class="separator:ga7e3bb08e6ac5c2eabb0e707b1f50e9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4263d69c0720d2eee0a7ccf2a595f926" id="r_ga4263d69c0720d2eee0a7ccf2a595f926"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__string.html#ga4263d69c0720d2eee0a7ccf2a595f926">jkqtp_floattolatexunitstr</a> (double data, int past_comma=5, bool remove_trail0=false, double belowIsZero=std::numeric_limits&lt; double &gt;::min() *4)</td></tr>
 <tr class="memdesc:ga4263d69c0720d2eee0a7ccf2a595f926"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a double to a LaTeX-encoded string, encoding powers of ten as characters, e.g. <code>jkqtp_floattounitstr(1000)</code> will result in "1k"  <br /></td></tr>
 <tr class="separator:ga4263d69c0720d2eee0a7ccf2a595f926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1fd33290c23f46226b1f354a8735a350" id="r_ga1fd33290c23f46226b1f354a8735a350"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__string.html#ga1fd33290c23f46226b1f354a8735a350">jkqtp_floattoqstr</a> (const QLocale &amp;loc, double data, char format='f', int past_comma=-1, bool remove_trail0=false)</td></tr>
+<tr class="memdesc:ga1fd33290c23f46226b1f354a8735a350"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a float to a string using <em>format</em> (<code>f|e|E|g|G</code> ) with given number of decimals after comma <em>past_comma</em> and optional removal of trailing zeros behind decimal separator <em>remove_trail0</em>. Uses given QLocal <em>loc</em> .  <br /></td></tr>
+<tr class="separator:ga1fd33290c23f46226b1f354a8735a350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac8c599310669d5b2279e857bd58e59f3" id="r_gac8c599310669d5b2279e857bd58e59f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__string.html#gac8c599310669d5b2279e857bd58e59f3">jkqtp_floattoqstr</a> (double data, char format='f', int past_comma=-1, bool remove_trail0=false)</td></tr>
+<tr class="memdesc:gac8c599310669d5b2279e857bd58e59f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a float to a string using <em>format</em> (<code>f|e|E|g|G</code> ) with given number of decimals after comma <em>past_comma</em> and optional removal of trailing zeros behind decimal separator <em>remove_trail0</em>. Uses system local, disables not use Group-Separator  <br /></td></tr>
+<tr class="separator:gac8c599310669d5b2279e857bd58e59f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9f5df9dab56e5d56b48935392a487c0e" id="r_ga9f5df9dab56e5d56b48935392a487c0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__string.html#ga9f5df9dab56e5d56b48935392a487c0e">jkqtp_floattostr</a> (double data, int past_comma=-1, bool remove_trail0=false, double belowIsZero=1e-16)</td></tr>
 <tr class="memdesc:ga9f5df9dab56e5d56b48935392a487c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a double to a string  <br /></td></tr>
 <tr class="separator:ga9f5df9dab56e5d56b48935392a487c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -612,6 +621,48 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga7e3bb08e6ac5c2eabb0e707b1f50e9f0" name="ga7e3bb08e6ac5c2eabb0e707b1f50e9f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7e3bb08e6ac5c2eabb0e707b1f50e9f0">&#9670;&#160;</a></span>jkqtp_floattolatexunitqstr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QString jkqtp_floattolatexunitqstr </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>past_comma</em> = <code>5</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>remove_trail0</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>belowIsZero</em> = <code>std::numeric_limits&lt;&#160;double&#160;&gt;::min()&#160;*4</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>convert a double to a LaTeX-encoded string, encoding powers of ten as characters, e.g. <code>jkqtp_floattounitqstr(1000)</code> will result in "1k" </p>
+
+</div>
+</div>
 <a id="ga4263d69c0720d2eee0a7ccf2a595f926" name="ga4263d69c0720d2eee0a7ccf2a595f926"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga4263d69c0720d2eee0a7ccf2a595f926">&#9670;&#160;</a></span>jkqtp_floattolatexunitstr()</h2>
 
@@ -651,6 +702,96 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>convert a double to a LaTeX-encoded string, encoding powers of ten as characters, e.g. <code>jkqtp_floattounitstr(1000)</code> will result in "1k" </p>
+
+</div>
+</div>
+<a id="ga1fd33290c23f46226b1f354a8735a350" name="ga1fd33290c23f46226b1f354a8735a350"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1fd33290c23f46226b1f354a8735a350">&#9670;&#160;</a></span>jkqtp_floattoqstr() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QString jkqtp_floattoqstr </td>
+          <td>(</td>
+          <td class="paramtype">const QLocale &amp;&#160;</td>
+          <td class="paramname"><em>loc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>format</em> = <code>'f'</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>past_comma</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>remove_trail0</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>convert a float to a string using <em>format</em> (<code>f|e|E|g|G</code> ) with given number of decimals after comma <em>past_comma</em> and optional removal of trailing zeros behind decimal separator <em>remove_trail0</em>. Uses given QLocal <em>loc</em> . </p>
+
+</div>
+</div>
+<a id="gac8c599310669d5b2279e857bd58e59f3" name="gac8c599310669d5b2279e857bd58e59f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac8c599310669d5b2279e857bd58e59f3">&#9670;&#160;</a></span>jkqtp_floattoqstr() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> QString jkqtp_floattoqstr </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>format</em> = <code>'f'</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>past_comma</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>remove_trail0</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>convert a float to a string using <em>format</em> (<code>f|e|E|g|G</code> ) with given number of decimals after comma <em>past_comma</em> and optional removal of trailing zeros behind decimal separator <em>remove_trail0</em>. Uses system local, disables not use Group-Separator </p>
 
 </div>
 </div>
@@ -1905,7 +2046,7 @@ template&lt;class T1 , class T2 , class T3 , class T4 &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Feb 2 2024 15:23:05 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Feb 6 2024 13:59:16 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

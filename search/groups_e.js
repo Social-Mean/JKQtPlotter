@@ -13,7 +13,8 @@ var searchData=
   ['matrix_20overlay_20graphs_10',['Image/Matrix Overlay Graphs',['../group__jkqtplotter__imagelots__overlays.html',1,'']]],
   ['mix_20in_20classes_20for_20error_20indicators_11',['Mix-In Classes for Error Indicators',['../group__jkqtplotter__basegraphserrors.html',1,'']]],
   ['mix_20in_20classes_20for_20graphs_12',['Mix-in classes for Graphs',['../group__jkqtplotter__mixins.html',1,'']]],
-  ['mix_20in_20classes_20for_20plot_20styling_13',['Mix-In Classes for Plot Styling',['../group__jkqtplotter__basegraphs__stylemixins.html',1,'']]],
-  ['model_14',['JKQTMathText Rendering Model',['../group__jkqtmathtext__renderingmodel.html',1,'']]],
-  ['models_20to_20access_20graphs_20in_20a_20jkqtbaseplotter_20jkqtplotter_15',['Qt Data Models to Access Graphs in a JKQTBasePlotter/JKQTPlotter',['../group__jkqtpgraphsmodel.html',1,'']]]
+  ['mix_20in_20classes_20for_20styling_20general_20graphs_13',['Mix-In Classes for Styling General Graphs',['../group__jkqtplotter__basegraphs__stylemixins.html',1,'']]],
+  ['mix_20in_20classes_20for_20styling_20specialized_20graphs_20boxplots_20etz_14',['Mix-In Classes for Styling Specialized Graphs (Boxplots etz.)',['../group__jkqtplotter__specialgraphs__stylemixins.html',1,'']]],
+  ['model_15',['JKQTMathText Rendering Model',['../group__jkqtmathtext__renderingmodel.html',1,'']]],
+  ['models_20to_20access_20graphs_20in_20a_20jkqtbaseplotter_20jkqtplotter_16',['Qt Data Models to Access Graphs in a JKQTBasePlotter/JKQTPlotter',['../group__jkqtpgraphsmodel.html',1,'']]]
 ];

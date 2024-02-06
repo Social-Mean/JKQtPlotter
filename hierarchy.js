@@ -203,6 +203,9 @@ var hierarchy =
           [ "JKQTPSpecialLineVerticalGraph", "class_j_k_q_t_p_special_line_vertical_graph.html", null ]
         ] ]
       ] ],
+      [ "JKQTPGraphValueLabelStyleMixin", "class_j_k_q_t_p_graph_value_label_style_mixin.html", [
+        [ "JKQTPXYGraphLabels", "class_j_k_q_t_p_x_y_graph_labels.html", null ]
+      ] ],
       [ "JKQTPGraphViolinplotStyleMixin", "class_j_k_q_t_p_graph_violinplot_style_mixin.html", [
         [ "JKQTPViolinplotElementBase", "class_j_k_q_t_p_violinplot_element_base.html", [
           [ "JKQTPViolinplotHorizontalElement", "class_j_k_q_t_p_violinplot_horizontal_element.html", null ],
@@ -242,6 +245,7 @@ var hierarchy =
         ] ]
       ] ],
       [ "JKQTPGraphLineAndFillStyleMixin", "class_j_k_q_t_p_graph_line_and_fill_style_mixin.html", null ],
+      [ "JKQTPGraphValueLabelStyleMixin", "class_j_k_q_t_p_graph_value_label_style_mixin.html", null ],
       [ "JKQTPGraphViolinplotStyleMixin", "class_j_k_q_t_p_graph_violinplot_style_mixin.html", null ],
       [ "JKQTPImpulsesGraphBase", "class_j_k_q_t_p_impulses_graph_base.html", [
         [ "JKQTPImpulsesHorizontalGraph", "class_j_k_q_t_p_impulses_horizontal_graph.html", [
@@ -271,7 +275,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "JKQTPGraphTextStyleMixin", "class_j_k_q_t_p_graph_text_style_mixin.html", [
-      [ "JKQTPGeoText", "class_j_k_q_t_p_geo_text.html", null ]
+      [ "JKQTPGeoText", "class_j_k_q_t_p_geo_text.html", null ],
+      [ "JKQTPGraphValueLabelStyleMixin", "class_j_k_q_t_p_graph_value_label_style_mixin.html", null ]
     ] ],
     [ "JKQTPGridPrintingItem", "group__jkqtpplottersupprt.html#struct_j_k_q_t_p_grid_printing_item", null ],
     [ "JKQTPGridStyle", "class_j_k_q_t_p_grid_style.html", null ],
@@ -295,6 +300,9 @@ var hierarchy =
       [ "JKQTPXGraphErrors", "class_j_k_q_t_p_x_graph_errors.html", null ],
       [ "JKQTPXYGraphErrors", "class_j_k_q_t_p_x_y_graph_errors.html", null ]
     ] ],
+    [ "JKQTPXYLabelsGeneratorMixin", "class_j_k_q_t_p_x_y_labels_generator_mixin.html", [
+      [ "JKQTPXYGraphLabels", "class_j_k_q_t_p_x_y_graph_labels.html", null ]
+    ] ],
     [ "JKQTPYGraphErrorData", "class_j_k_q_t_p_y_graph_error_data.html", [
       [ "JKQTPXYGraphErrors", "class_j_k_q_t_p_x_y_graph_errors.html", null ],
       [ "JKQTPYGraphErrors", "class_j_k_q_t_p_y_graph_errors.html", null ]
@@ -303,6 +311,7 @@ var hierarchy =
     [ "JKQTPBaseKey::KeyItemData", "struct_j_k_q_t_p_base_key_1_1_key_item_data.html", null ],
     [ "JKQTPBaseKey::KeyLayoutDescription", "struct_j_k_q_t_p_base_key_1_1_key_layout_description.html", null ],
     [ "JKQTPBaseKey::KeySizeDescription", "struct_j_k_q_t_p_base_key_1_1_key_size_description.html", null ],
+    [ "JKQTPGraphValueLabelStyleMixin::LabelGeometry", "struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html", null ],
     [ "JKQTPImageTools::LUTData", "struct_j_k_q_t_p_image_tools_1_1_l_u_t_data.html", null ],
     [ "JKQTPXYParametrizedScatterGraph::MappedSymbolFunctor", "struct_j_k_q_t_p_x_y_parametrized_scatter_graph_1_1_mapped_symbol_functor.html", null ],
     [ "JKQTPlotter::MouseDragAction", "struct_j_k_q_t_plotter_1_1_mouse_drag_action.html", null ],
@@ -421,6 +430,7 @@ var hierarchy =
               [ "JKQTPImpulsesGraphBase", "class_j_k_q_t_p_impulses_graph_base.html", null ],
               [ "JKQTPSpecialLineGraphBase", "class_j_k_q_t_p_special_line_graph_base.html", null ]
             ] ],
+            [ "JKQTPXYGraphLabels", "class_j_k_q_t_p_x_y_graph_labels.html", null ],
             [ "JKQTPXYLineGraph", "class_j_k_q_t_p_x_y_line_graph.html", null ],
             [ "JKQTPXYParametrizedScatterGraph", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html", null ],
             [ "JKQTPXYScatterGraph", "class_j_k_q_t_p_x_y_scatter_graph.html", null ],

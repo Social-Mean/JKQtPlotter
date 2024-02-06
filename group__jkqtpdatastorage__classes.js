@@ -187,6 +187,8 @@ var group__jkqtpdatastorage__classes =
       [ "~JKQTPDatastore", "class_j_k_q_t_p_datastore.html#a48b43a736f4bb1e9f192d42f13a9a172", null ],
       [ "addCalculatedColumn", "class_j_k_q_t_p_datastore.html#ab2d9a8645b757022356f0027308e43a7", null ],
       [ "addCalculatedColumn", "class_j_k_q_t_p_datastore.html#a91ec09c3006f22da347f6596e4b4c692", null ],
+      [ "addCalculatedColumnFromColumn", "class_j_k_q_t_p_datastore.html#ae8debb9537ffadd6e805ef8123964e08", null ],
+      [ "addCalculatedColumnFromColumn", "class_j_k_q_t_p_datastore.html#adf6885ec3d2aa967719371d820395747", null ],
       [ "addCalculatedImageColumn", "class_j_k_q_t_p_datastore.html#a04e406f2bcec13a3f5bd694c7cb74e54", null ],
       [ "addColumn", "class_j_k_q_t_p_datastore.html#af24ce6b26caa230e0becd88ba951bc52", null ],
       [ "addColumn", "class_j_k_q_t_p_datastore.html#a2a1807fa75877ca1a8aa3387b5234816", null ],

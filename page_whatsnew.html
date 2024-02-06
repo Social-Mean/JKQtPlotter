@@ -235,7 +235,8 @@ FIXED: <a class="el" href="group__jkqtptools__math__statistics__basic.html#gafba
 <li>
 FIXED removed unnecessary operators (&lt;,&gt;,&lt;=,&gt;=) from <a class="el" href="class_j_k_q_t_p_column_iterator.html" title="iterator over the data in the column of a JKQTPDatastore">JKQTPColumnIterator</a> and <a class="el" href="class_j_k_q_t_p_column_const_iterator.html" title="iterator over the data in the column of a JKQTPDatastore">JKQTPColumnConstIterator</a>, which lead to exceptions on some compilers (MSVC) </li>
 <li>
-FIXED/IMPROVED issue <a href="https://github.com/jkriege2/JKQtPlotter/issues/100">#100: Add option to disable resize delay feature by setting the delay to zero</a> (thanks to <a href="https://github.com/fpalazzolo">user:fpalazzolo</a> for reporting) </li>
+FIXED/IMPROVED issue <a href="https://github.com/jkriege2/JKQtPlotter/issu
+    &lt;li&gt;FIXED symmetry when zooming with JKQTBasePlotter::zoomIn() or JKQTBasePlotter::zoomOut() &lt;/li&gt;--es/100">#100: Add option to disable resize delay feature by setting the delay to zero</a> (thanks to <a href="https://github.com/fpalazzolo">user:fpalazzolo</a> for reporting) </li>
 <li>
 FIXED/NEW: placement of plot-title (was not centerd in its box, but glued to the bottom) by adding a plotstyle parameter <a class="el" href="class_j_k_q_t_base_plotter_style.html#a1d8f0a02d156d5d50778b799ab20eb05" title="offset of the plot label from the next element of the graph, i.e. below the label [pt].">JKQTBasePlotterStyle::plotLabelOffset</a> </li>
 <li>
@@ -275,6 +276,8 @@ IMPROVED: documentation of styles: automatized doc image generation. </li>
 IMPROVED: axis labeling: there were some minor differences between compilers </li>
 <li>
 IMPROVED: <a class="el" href="group__jkqtptools__string.html#gabc207446e8aa84e49da2eb519590ecfd" title="convert a double to a string, encoding powers of ten as characters, e.g. jkqtp_floattounitstr(1000) w...">jkqtp_floattounitstr()</a>/jkqtp_floattolatexunitstr(): add all SI-Prefixes from 10^-30...10^30 </li>
+<li>
+RENAMED <a class="el" href="class_j_k_q_t_p_datastore.html#a6454e03bf03d417f6670810a0faaccdd">JKQTPDatastore::addColumnCalculatedFromColumn()</a> to <a class="el" href="class_j_k_q_t_p_datastore.html#ae8debb9537ffadd6e805ef8123964e08" title="add a column with the same number of entries, as in the other column otherColumn ,...">JKQTPDatastore::addCalculatedColumnFromColumn()</a>, which is more in line with the other add...()-function names. Aliases with the old function names remain for compatibility </li>
 <li>
 NEW: <a class="el" href="class_j_k_q_t_p_filled_curve_x_graph.html" title="This implements filled curve plots where the area is filled between the plot line and the x-Axis.">JKQTPFilledCurveXGraph</a> and <a class="el" href="class_j_k_q_t_p_filled_curve_y_graph.html" title="This implements filled curve plots where the area is filled between the plot line and y-Axis.">JKQTPFilledCurveYGraph</a> can now plot wiggle plots with different fill styles above and below the baseline (feature request <a href="https://github.com/jkriege2/JKQtPlotter/issues/68">#68 Wiggle Plots</a> from <a href="https://github.com/xichaoqiang">user:xichaoqiang</a>  </li>
 <li>
@@ -366,6 +369,8 @@ NEW/REWORKED all functions in <a class="el" href="class_j_k_q_t_base_plotter.htm
 NEW: allow linear-gradient(), currentcolor, ... in brush definitions of style.ini-file ... and using it is cyberpunk and dark styles </li>
 <li>
 NEW: style simple_noaxes.ini </li>
+<li>
+NEW: <a class="el" href="class_j_k_q_t_p_x_y_graph_labels.html" title="This graph plots a series of data labels. This can be used to add number-labels to e....">JKQTPXYGraphLabels</a> which can draw a label next to each datapoint in the given x/y-dataset. The labels can be x-/y- or x&amp;y-coordinates or custom, then defined by a user-supplied functor (+example <a class="el" href="_j_k_q_t_plotter_graph_labels.html">Example (JKQTPlotter): Simple Graph Labels Example</a>) </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -791,7 +796,7 @@ Latest Release/Tag: <a href="https://github.com/jkriege2/JKQtPlotter/releases/ta
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Feb 2 2024 15:23:04 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Feb 6 2024 13:59:16 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
