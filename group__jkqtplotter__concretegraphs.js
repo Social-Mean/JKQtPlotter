@@ -10,5 +10,6 @@ var group__jkqtplotter__concretegraphs =
     [ "Labeling Datapoints", "group__jkqtplotter__graphlabels.html", "group__jkqtplotter__graphlabels" ],
     [ "Line/Symbol Graphs", "group__jkqtplotter__linesymbolgraphs.html", "group__jkqtplotter__linesymbolgraphs" ],
     [ "Matrix/Image Plotting", "group__jkqtplotter__imagelots.html", "group__jkqtplotter__imagelots" ],
-    [ "Statistical Graphs (e.g. Boxplots ...)", "group__jkqtplotter__statgraphs.html", "group__jkqtplotter__statgraphs" ]
+    [ "Statistical Graphs (e.g. Boxplots ...)", "group__jkqtplotter__statgraphs.html", "group__jkqtplotter__statgraphs" ],
+    [ "Vector Fields", "group__jkqtplotter__vectorfieldgraphs.html", "group__jkqtplotter__vectorfieldgraphs" ]
 ];

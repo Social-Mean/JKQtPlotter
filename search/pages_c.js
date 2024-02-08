@@ -49,7 +49,7 @@ var searchData=
   ['jkqtplotter_20_3a_20scatter_20graph_20with_20parametrized_20symbols_20colors_46',['Example (JKQTPlotter): Scatter Graph with Parametrized Symbols/Colors',['../_j_k_q_t_plotter_param_scatter.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20secondary_20axes_47',['Example (JKQTPlotter): Secondary Axes',['../_j_k_q_t_plotter_secondary_axes.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20simple_20barchart_48',['Example (JKQTPlotter): Simple barchart',['../_j_k_q_t_plotter_barcharts.html',1,'exampleTutorialProjects']]],
-  ['jkqtplotter_20_3a_20simple_20graph_20labels_20example_49',['Example (JKQTPlotter): Simple Graph Labels Example',['../_j_k_q_t_plotter_graph_labels_example.html',1,'']]],
+  ['jkqtplotter_20_3a_20simple_20graph_20labels_20example_49',['Example (JKQTPlotter): Simple Graph Labels Example',['../_j_k_q_t_plotter_graph_labels_example.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20simple_20impulse_20plots_50',['Example (JKQTPlotter): Simple impulse plots',['../_j_k_q_t_plotter_impulse_plots.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20simple_20line_20graph_20with_20error_20bars_51',['Example (JKQTPlotter): Simple line-graph with error bars',['../_j_k_q_t_plotter_symbols_errors.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20simple_20line_20graph_20with_20live_20data_20speed_20test_52',['Example (JKQTPlotter): Simple line-graph with live-data (speed test)',['../_j_k_q_t_plotter_speed_test.html',1,'exampleTutorialProjects']]],
@@ -67,11 +67,12 @@ var searchData=
   ['jkqtplotter_20_3a_20styling_20different_20aspects_20of_20boxplots_64',['Example (JKQTPlotter): Styling different aspects of boxplots',['../_j_k_q_t_plotter_boxplot_styling.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20user_20interactions_20in_20jkqtplotter_65',['Tutorial (JKQTPlotter): User-Interactions in JKQtPlotter',['../_j_k_q_t_plotter_user_interaction.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20using_20a_20jkqtplotter_20inside_20a_20qt_20user_20interface_20designer_20ui_20file_66',['Tutorial (JKQTPlotter): Using a JKQTPlotter inside a Qt User Interface Designer (UI) File',['../_j_k_q_t_plotter_qt_creator.html',1,'exampleTutorialProjects']]],
-  ['jkqtplotter_20_3a_20very_20simple_20line_20graph_67',['Example (JKQTPlotter): Very simple line-graph',['../_j_k_q_t_plotter_simple_test.html',1,'exampleTutorialProjects']]],
-  ['jkqtplotter_20_3a_20very_20simple_20scatter_20graph_68',['Example (JKQTPlotter): Very simple scatter-graph',['../_j_k_q_t_plotterscatter.html',1,'exampleTutorialProjects']]],
-  ['jkqtplotter_20_3a_20violin_20plots_69',['Example (JKQTPlotter): Violin Plots',['../_j_k_q_t_plotter_violinplot_graphs.html',1,'exampleTutorialProjects']]],
-  ['jkqtplotter_20_3a_20wiggle_20plots_70',['Example (JKQTPlotter): Wiggle Plots',['../_j_k_q_t_plotter_wiggle_plots.html',1,'exampleTutorialProjects']]],
-  ['jkqtplotter_20a_20qt_20plotting_20library_71',['JKQTPlotter - A Qt Plotting Library',['../index.html',1,'']]],
-  ['jkqtplotter_3a_20screenshots_72',['JKQTPlotter: Screenshots',['../md_screenshots_2_r_e_a_d_m_e.html',1,'']]],
-  ['jkqtplotter_5fdoc_5fimagegenerator_73',['Tool (JKQTMathText): Command-Line Utility jkqtplotter_doc_imagegenerator',['../_j_k_q_t_plotter_doc_image_render_cmd_line_tool.html',1,'exampleTutorialProjects']]]
+  ['jkqtplotter_20_3a_20vector_20field_20plot_20example_67',['Example (JKQTPlotter): Vector Field Plot Example',['../_j_k_q_t_plotter_vector_field_example.html',1,'exampleTutorialProjects']]],
+  ['jkqtplotter_20_3a_20very_20simple_20line_20graph_68',['Example (JKQTPlotter): Very simple line-graph',['../_j_k_q_t_plotter_simple_test.html',1,'exampleTutorialProjects']]],
+  ['jkqtplotter_20_3a_20very_20simple_20scatter_20graph_69',['Example (JKQTPlotter): Very simple scatter-graph',['../_j_k_q_t_plotterscatter.html',1,'exampleTutorialProjects']]],
+  ['jkqtplotter_20_3a_20violin_20plots_70',['Example (JKQTPlotter): Violin Plots',['../_j_k_q_t_plotter_violinplot_graphs.html',1,'exampleTutorialProjects']]],
+  ['jkqtplotter_20_3a_20wiggle_20plots_71',['Example (JKQTPlotter): Wiggle Plots',['../_j_k_q_t_plotter_wiggle_plots.html',1,'exampleTutorialProjects']]],
+  ['jkqtplotter_20a_20qt_20plotting_20library_72',['JKQTPlotter - A Qt Plotting Library',['../index.html',1,'']]],
+  ['jkqtplotter_3a_20screenshots_73',['JKQTPlotter: Screenshots',['../md_screenshots_2_r_e_a_d_m_e.html',1,'']]],
+  ['jkqtplotter_5fdoc_5fimagegenerator_74',['Tool (JKQTMathText): Command-Line Utility jkqtplotter_doc_imagegenerator',['../_j_k_q_t_plotter_doc_image_render_cmd_line_tool.html',1,'exampleTutorialProjects']]]
 ];

@@ -14,7 +14,7 @@ var searchData=
   ['showing_20a_203_20channel_20cimg_20image_11',['Example (JKQTPlotter): Simple math image plot, showing a 3-channel CImg image',['../_j_k_q_t_plotter_image_plot_r_g_b_c_img.html',1,'exampleTutorialProjects']]],
   ['showing_20a_203_20channel_20opencv_20cv_3a_3amat_12',['Example (JKQTPlotter): Simple RGB image plot, showing a 3-channel OpenCV cv::Mat',['../_j_k_q_t_plotter_image_plot_r_g_b_open_c_v.html',1,'exampleTutorialProjects']]],
   ['simple_20barchart_13',['Example (JKQTPlotter): Simple barchart',['../_j_k_q_t_plotter_barcharts.html',1,'exampleTutorialProjects']]],
-  ['simple_20graph_20labels_20example_14',['Example (JKQTPlotter): Simple Graph Labels Example',['../_j_k_q_t_plotter_graph_labels_example.html',1,'']]],
+  ['simple_20graph_20labels_20example_14',['Example (JKQTPlotter): Simple Graph Labels Example',['../_j_k_q_t_plotter_graph_labels_example.html',1,'exampleTutorialProjects']]],
   ['simple_20impulse_20plots_15',['Example (JKQTPlotter): Simple impulse plots',['../_j_k_q_t_plotter_impulse_plots.html',1,'exampleTutorialProjects']]],
   ['simple_20line_20graph_16',['Example (JKQTPlotter): Very simple line-graph',['../_j_k_q_t_plotter_simple_test.html',1,'exampleTutorialProjects']]],
   ['simple_20line_20graph_20with_20error_20bars_17',['Example (JKQTPlotter): Simple line-graph with error bars',['../_j_k_q_t_plotter_symbols_errors.html',1,'exampleTutorialProjects']]],

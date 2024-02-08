@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['visible_20class_0',['Usage of JKQTBasePlotter Non-Visible Class',['../group__jkqtplotter__general__usage__jkqtbaseplotter.html',1,'']]]
+  ['vector_20fields_0',['Vector Fields',['../group__jkqtplotter__vectorfieldgraphs.html',1,'']]],
+  ['visible_20class_1',['Usage of JKQTBasePlotter Non-Visible Class',['../group__jkqtplotter__general__usage__jkqtbaseplotter.html',1,'']]]
 ];

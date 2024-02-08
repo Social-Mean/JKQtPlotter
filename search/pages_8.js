@@ -41,7 +41,7 @@ var searchData=
   ['example_20jkqtplotter_20_3a_20scatter_20graph_20with_20parametrized_20symbols_20colors_38',['Example (JKQTPlotter): Scatter Graph with Parametrized Symbols/Colors',['../_j_k_q_t_plotter_param_scatter.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtplotter_20_3a_20secondary_20axes_39',['Example (JKQTPlotter): Secondary Axes',['../_j_k_q_t_plotter_secondary_axes.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtplotter_20_3a_20simple_20barchart_40',['Example (JKQTPlotter): Simple barchart',['../_j_k_q_t_plotter_barcharts.html',1,'exampleTutorialProjects']]],
-  ['example_20jkqtplotter_20_3a_20simple_20graph_20labels_20example_41',['Example (JKQTPlotter): Simple Graph Labels Example',['../_j_k_q_t_plotter_graph_labels_example.html',1,'']]],
+  ['example_20jkqtplotter_20_3a_20simple_20graph_20labels_20example_41',['Example (JKQTPlotter): Simple Graph Labels Example',['../_j_k_q_t_plotter_graph_labels_example.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtplotter_20_3a_20simple_20impulse_20plots_42',['Example (JKQTPlotter): Simple impulse plots',['../_j_k_q_t_plotter_impulse_plots.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtplotter_20_3a_20simple_20line_20graph_20with_20error_20bars_43',['Example (JKQTPlotter): Simple line-graph with error bars',['../_j_k_q_t_plotter_symbols_errors.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtplotter_20_3a_20simple_20line_20graph_20with_20live_20data_20speed_20test_44',['Example (JKQTPlotter): Simple line-graph with live-data (speed test)',['../_j_k_q_t_plotter_speed_test.html',1,'exampleTutorialProjects']]],
@@ -56,10 +56,11 @@ var searchData=
   ['example_20jkqtplotter_20_3a_20simple_20stacked_20barchart_53',['Example (JKQTPlotter): Simple stacked barchart',['../_j_k_q_t_plotter_stacked_bar_chart.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtplotter_20_3a_20step_20line_20plots_20in_20different_20styles_54',['Example (JKQTPlotter): Step Line Plots in Different Styles',['../_j_k_q_t_plotter_special_step_line_plot.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtplotter_20_3a_20styling_20different_20aspects_20of_20boxplots_55',['Example (JKQTPlotter): Styling different aspects of boxplots',['../_j_k_q_t_plotter_boxplot_styling.html',1,'exampleTutorialProjects']]],
-  ['example_20jkqtplotter_20_3a_20very_20simple_20line_20graph_56',['Example (JKQTPlotter): Very simple line-graph',['../_j_k_q_t_plotter_simple_test.html',1,'exampleTutorialProjects']]],
-  ['example_20jkqtplotter_20_3a_20very_20simple_20scatter_20graph_57',['Example (JKQTPlotter): Very simple scatter-graph',['../_j_k_q_t_plotterscatter.html',1,'exampleTutorialProjects']]],
-  ['example_20jkqtplotter_20_3a_20violin_20plots_58',['Example (JKQTPlotter): Violin Plots',['../_j_k_q_t_plotter_violinplot_graphs.html',1,'exampleTutorialProjects']]],
-  ['example_20jkqtplotter_20_3a_20wiggle_20plots_59',['Example (JKQTPlotter): Wiggle Plots',['../_j_k_q_t_plotter_wiggle_plots.html',1,'exampleTutorialProjects']]],
-  ['example_20tutorial_20projects_60',['Example &amp; Tutorial Projects',['../example_tutorial_projects.html',1,'']]],
-  ['explorer_61',['Example (JKQTPlotter): Mandelbrot Set Explorer',['../_j_k_q_t_plotter_mandelbrot.html',1,'exampleTutorialProjects']]]
+  ['example_20jkqtplotter_20_3a_20vector_20field_20plot_20example_56',['Example (JKQTPlotter): Vector Field Plot Example',['../_j_k_q_t_plotter_vector_field_example.html',1,'exampleTutorialProjects']]],
+  ['example_20jkqtplotter_20_3a_20very_20simple_20line_20graph_57',['Example (JKQTPlotter): Very simple line-graph',['../_j_k_q_t_plotter_simple_test.html',1,'exampleTutorialProjects']]],
+  ['example_20jkqtplotter_20_3a_20very_20simple_20scatter_20graph_58',['Example (JKQTPlotter): Very simple scatter-graph',['../_j_k_q_t_plotterscatter.html',1,'exampleTutorialProjects']]],
+  ['example_20jkqtplotter_20_3a_20violin_20plots_59',['Example (JKQTPlotter): Violin Plots',['../_j_k_q_t_plotter_violinplot_graphs.html',1,'exampleTutorialProjects']]],
+  ['example_20jkqtplotter_20_3a_20wiggle_20plots_60',['Example (JKQTPlotter): Wiggle Plots',['../_j_k_q_t_plotter_wiggle_plots.html',1,'exampleTutorialProjects']]],
+  ['example_20tutorial_20projects_61',['Example &amp; Tutorial Projects',['../example_tutorial_projects.html',1,'']]],
+  ['explorer_62',['Example (JKQTPlotter): Mandelbrot Set Explorer',['../_j_k_q_t_plotter_mandelbrot.html',1,'exampleTutorialProjects']]]
 ];

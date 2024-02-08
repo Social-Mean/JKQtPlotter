@@ -242,7 +242,8 @@ var hierarchy =
             [ "JKQTPGeoArrow", "class_j_k_q_t_p_geo_arrow.html", null ]
           ] ],
           [ "JKQTPGeoPolyLines", "class_j_k_q_t_p_geo_poly_lines.html", null ]
-        ] ]
+        ] ],
+        [ "JKQTPVectorFieldGraph", "class_j_k_q_t_p_vector_field_graph.html", null ]
       ] ],
       [ "JKQTPGraphLineAndFillStyleMixin", "class_j_k_q_t_p_graph_line_and_fill_style_mixin.html", null ],
       [ "JKQTPGraphValueLabelStyleMixin", "class_j_k_q_t_p_graph_value_label_style_mixin.html", null ],
@@ -423,6 +424,9 @@ var hierarchy =
           [ "JKQTPXYGraph", "class_j_k_q_t_p_x_y_graph.html", [
             [ "JKQTPXXYGraph", "class_j_k_q_t_p_x_x_y_graph.html", [
               [ "JKQTPFilledHorizontalRangeGraph", "class_j_k_q_t_p_filled_horizontal_range_graph.html", null ]
+            ] ],
+            [ "JKQTPXYAndVectorGraph", "class_j_k_q_t_p_x_y_and_vector_graph.html", [
+              [ "JKQTPVectorFieldGraph", "class_j_k_q_t_p_vector_field_graph.html", null ]
             ] ],
             [ "JKQTPXYBaselineGraph", "class_j_k_q_t_p_x_y_baseline_graph.html", [
               [ "JKQTPBarGraphBase", "class_j_k_q_t_p_bar_graph_base.html", null ],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['yaxisref_0',['yAxisRef',['../class_j_k_q_t_p_plot_element.html#a2c21c5c3c12c096462881488c1df0904',1,'JKQTPPlotElement']]],
-  ['ycolumn_1',['yColumn',['../class_j_k_q_t_p_x_y_graph.html#acc58b3e3a24dae4641c7cb8ac41e780a',1,'JKQTPXYGraph']]],
-  ['ycolumn2_2',['yColumn2',['../class_j_k_q_t_p_x_y_y_graph.html#a704f2ad92a7ce4dd627b6aee482a4d87',1,'JKQTPXYYGraph']]]
+  ['xaxisref_0',['xAxisRef',['../class_j_k_q_t_p_plot_element.html#ad1a93c113b80d274e408d57fd652bb74',1,'JKQTPPlotElement']]],
+  ['xcolumn_1',['xColumn',['../class_j_k_q_t_p_x_y_graph.html#a51dd754e072c0e395aa8abd6924f036a',1,'JKQTPXYGraph']]],
+  ['xcolumn2_2',['xColumn2',['../class_j_k_q_t_p_x_x_y_graph.html#a818a809adfbb9c290b2f4e8967ed4965',1,'JKQTPXXYGraph']]]
 ];

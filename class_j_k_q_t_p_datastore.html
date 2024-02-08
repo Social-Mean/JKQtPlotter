@@ -156,6 +156,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a91ec09c3006f22da347f6596e4b4c692" id="r_a91ec09c3006f22da347f6596e4b4c692"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_datastore.html#a91ec09c3006f22da347f6596e4b4c692">addCalculatedColumn</a> (size_t rows, const std::function&lt; double(size_t, <a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *)&gt; &amp;f, const QString &amp;name=QString(&quot;&quot;))</td></tr>
 <tr class="memdesc:a91ec09c3006f22da347f6596e4b4c692"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a column with <em>rows</em> entries, that is calculated by calling <em>f</em> for each entry  <br /></td></tr>
 <tr class="separator:a91ec09c3006f22da347f6596e4b4c692"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8417163c2246253cc8c6c494c4fde9f0" id="r_a8417163c2246253cc8c6c494c4fde9f0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_datastore.html#a8417163c2246253cc8c6c494c4fde9f0">addCalculatedColumnFromColumn</a> (const std::pair&lt; size_t, size_t &gt; &amp;otherColumn, const std::function&lt; double(double, double)&gt; &amp;f, const QString &amp;name=QString(&quot;&quot;))</td></tr>
+<tr class="separator:a8417163c2246253cc8c6c494c4fde9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8debb9537ffadd6e805ef8123964e08" id="r_ae8debb9537ffadd6e805ef8123964e08"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_datastore.html#ae8debb9537ffadd6e805ef8123964e08">addCalculatedColumnFromColumn</a> (size_t otherColumn, const std::function&lt; double(double)&gt; &amp;f, const QString &amp;name=QString(&quot;&quot;))</td></tr>
 <tr class="memdesc:ae8debb9537ffadd6e805ef8123964e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a column with the same number of entries, as in the other column <em>otherColumn</em> , that are calculated by calling <em>f</em> for each entry in <em>otherColumn</em>  <br /></td></tr>
 <tr class="separator:ae8debb9537ffadd6e805ef8123964e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -631,7 +633,7 @@ Column Generation/Deletion</h2>
 <div class="line">linegraph-&gt;setXColumn(datastore-&gt;addCopiedColumn(X, <span class="stringliteral">&quot;x&quot;</span>));</div>
 <div class="line">linegraph-&gt;setYColumn(datastore-&gt;addCopiedColumn(Y, <span class="stringliteral">&quot;y&quot;</span>));</div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_line_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_x_y_line_graph.html">JKQTPXYLineGraph</a></div><div class="ttdoc">This implements xy line plots. This also alows to draw symbols at the data points.</div><div class="ttdef"><b>Definition</b> jkqtplines.h:61</div></div>
-<div class="ttc" id="agroup__jkqtptools__math__basic_html_gae96ac530dff57dae111b641b0c7f4eb4"><div class="ttname"><a href="group__jkqtptools__math__basic.html#gae96ac530dff57dae111b641b0c7f4eb4">JKQTPSTATISTICS_PI</a></div><div class="ttdeci">#define JKQTPSTATISTICS_PI</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:50</div></div>
+<div class="ttc" id="agroup__jkqtptools__math__basic_html_gae96ac530dff57dae111b641b0c7f4eb4"><div class="ttname"><a href="group__jkqtptools__math__basic.html#gae96ac530dff57dae111b641b0c7f4eb4">JKQTPSTATISTICS_PI</a></div><div class="ttdeci">#define JKQTPSTATISTICS_PI</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:52</div></div>
 </div><!-- fragment --> </li>
 <li>
 <a class="el" href="class_j_k_q_t_p_datastore.html#a5e33ba3499be747d654639e4987c0b52" title="add a column to the datastore that contains rows rows with monotonely increasing value starting at st...">addLinearColumn()</a> adds a column with linearly increasing numbers (in a given range) </li>
@@ -925,8 +927,50 @@ notion of data columns. This class provides a set of interface methods for this 
 
 </div>
 </div>
+<a id="a8417163c2246253cc8c6c494c4fde9f0" name="a8417163c2246253cc8c6c494c4fde9f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8417163c2246253cc8c6c494c4fde9f0">&#9670;&#160;</a></span>addCalculatedColumnFromColumn() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t JKQTPDatastore::addCalculatedColumnFromColumn </td>
+          <td>(</td>
+          <td class="paramtype">const std::pair&lt; size_t, size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>otherColumn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; double(double, double)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em> = <code>QString(&quot;&quot;)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae8debb9537ffadd6e805ef8123964e08" name="ae8debb9537ffadd6e805ef8123964e08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8debb9537ffadd6e805ef8123964e08">&#9670;&#160;</a></span>addCalculatedColumnFromColumn() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8debb9537ffadd6e805ef8123964e08">&#9670;&#160;</a></span>addCalculatedColumnFromColumn() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -967,7 +1011,7 @@ notion of data columns. This class provides a set of interface methods for this 
 </div>
 </div>
 <a id="adf6885ec3d2aa967719371d820395747" name="adf6885ec3d2aa967719371d820395747"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf6885ec3d2aa967719371d820395747">&#9670;&#160;</a></span>addCalculatedColumnFromColumn() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adf6885ec3d2aa967719371d820395747">&#9670;&#160;</a></span>addCalculatedColumnFromColumn() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1475,7 +1519,7 @@ template&lt;typename T &gt; </div>
 <p>Pseudocode: </p><div class="fragment"><div class="line"><span class="keywordflow">for</span> (i=0; i&lt;rows; i+=stride) {</div>
 <div class="line">  newColumn.push_back(<a class="code hl_function" href="group__jkqtptools__math__basic.html#ga966c1a713f60bd026db4f35f7007eb7e">jkqtp_todouble</a>(data[i]));</div>
 <div class="line">}</div>
-<div class="ttc" id="agroup__jkqtptools__math__basic_html_ga966c1a713f60bd026db4f35f7007eb7e"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga966c1a713f60bd026db4f35f7007eb7e">jkqtp_todouble</a></div><div class="ttdeci">constexpr double jkqtp_todouble(const T &amp;d)</div><div class="ttdoc">converts a boolean to a double, is used to convert boolean to double by JKQTPDatastore</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:111</div></div>
+<div class="ttc" id="agroup__jkqtptools__math__basic_html_ga966c1a713f60bd026db4f35f7007eb7e"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga966c1a713f60bd026db4f35f7007eb7e">jkqtp_todouble</a></div><div class="ttdeci">constexpr double jkqtp_todouble(const T &amp;d)</div><div class="ttdoc">converts a boolean to a double, is used to convert boolean to double by JKQTPDatastore</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:113</div></div>
 </div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>This function converts the input array <em>data</em> into an array of double! </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html">Tutorial (JKQTPDatastore): Basic Usage of JKQTPDatastore</a> </dd></dl>
 
@@ -3843,9 +3887,9 @@ template&lt;class TIterator &gt; </div>
 <div class="line">  <a class="code hl_function" href="class_j_k_q_t_p_datastore.html#a4597feb9ac51c2a717e2028ef73e0e8b">set</a>(newColumn, r, <a class="code hl_function" href="class_j_k_q_t_p_datastore.html#af580d8e0eae7972de1b810b06dfb4a7f">get</a>(old_column, r))</div>
 <div class="line">}</div>
 <div class="line"><span class="keywordflow">return</span> newColumn;</div>
-<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a4597feb9ac51c2a717e2028ef73e0e8b"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a4597feb9ac51c2a717e2028ef73e0e8b">JKQTPDatastore::set</a></div><div class="ttdeci">void set(size_t column, size_t row, double value)</div><div class="ttdoc">sets the value at position (column, row). column is the logical column and will be mapped to the acco...</div><div class="ttdef"><b>Definition</b> jkqtpdatastorage.h:2678</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a4597feb9ac51c2a717e2028ef73e0e8b"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a4597feb9ac51c2a717e2028ef73e0e8b">JKQTPDatastore::set</a></div><div class="ttdeci">void set(size_t column, size_t row, double value)</div><div class="ttdoc">sets the value at position (column, row). column is the logical column and will be mapped to the acco...</div><div class="ttdef"><b>Definition</b> jkqtpdatastorage.h:2681</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_ae057eda96c7b754cd42f4380b429a589"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#ae057eda96c7b754cd42f4380b429a589">JKQTPDatastore::addColumn</a></div><div class="ttdeci">size_t addColumn(JKQTPColumn col)</div><div class="ttdoc">add a new column to the datastore and return its ID</div></div>
-<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_af580d8e0eae7972de1b810b06dfb4a7f"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#af580d8e0eae7972de1b810b06dfb4a7f">JKQTPDatastore::get</a></div><div class="ttdeci">double get(size_t column, size_t row) const</div><div class="ttdoc">returns the value at position (column, row). column is the logical column and will be mapped to the a...</div><div class="ttdef"><b>Definition</b> jkqtpdatastorage.h:2653</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_datastore_html_af580d8e0eae7972de1b810b06dfb4a7f"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#af580d8e0eae7972de1b810b06dfb4a7f">JKQTPDatastore::get</a></div><div class="ttdeci">double get(size_t column, size_t row) const</div><div class="ttdoc">returns the value at position (column, row). column is the logical column and will be mapped to the a...</div><div class="ttdef"><b>Definition</b> jkqtpdatastorage.h:2656</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -6429,7 +6473,7 @@ the iterator <em>pos</em> is rendered invalid by this column, as the in some cas
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a></li>
-    <li class="footer">Generated on Tue Feb 6 2024 22:00:04 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Feb 8 2024 21:08:25 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

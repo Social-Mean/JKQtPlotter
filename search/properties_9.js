@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['visible_0',['visible',['../class_j_k_q_t_p_plot_element.html#a1c1c436967a7fe7ee1512478c0baf602',1,'JKQTPPlotElement']]]
+  ['usenonvisiblelinecompression_0',['useNonvisibleLineCompression',['../class_j_k_q_t_p_graph_lines_compression_mixin.html#a65917cd23d5ee4a54e85eb9dca8b8605',1,'JKQTPGraphLinesCompressionMixin']]]
 ];
