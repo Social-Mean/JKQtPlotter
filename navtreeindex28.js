@@ -1,5 +1,9 @@
 var NAVTREEINDEX28 =
 {
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da1201c511a36efcf36479d822fdb16d9d":[10,4,1,1,1,9,2,5,77],
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da1234421bb92597baaa1a4ff51bc12558":[10,4,1,1,1,9,2,5,33],
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da13c4c21f540cdb6c056442d120bc3643":[10,4,1,1,1,9,2,5,60],
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da14f1256db486ce47f26753ccece12a54":[10,4,1,1,1,9,2,5,5],
 "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da15e428099e48d1f1897288a7f8877e7c":[10,4,1,1,1,9,2,5,113],
 "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da161ba3ee312aac8bdea4c72109fb31b9":[10,4,1,1,1,9,2,5,118],
 "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da174f179b59489294cec4f0318a14dde8":[10,4,1,1,1,9,2,5,186],
@@ -245,9 +249,5 @@ var NAVTREEINDEX28 =
 "group__jkqtplotter__specialgraphs__stylemixins.html#gga2cdb6f218aded65f238f19c31865a7deab26efc00778d8e3ecf21caebdf8d1716":[10,4,1,1,2,2,6,0],
 "group__jkqtplotter__specialgraphs__stylemixins.html#gga2cdb6f218aded65f238f19c31865a7deab70702da665a83b4e625a9b0e8cb57c9":[10,4,1,1,2,2,6,1],
 "group__jkqtplotter__specialgraphs__stylemixins.html#gga2cdb6f218aded65f238f19c31865a7deadfa56f4acdeae3cbeca315d8a60c97d7":[10,4,1,1,2,2,6,2],
-"group__jkqtplotter__specialgraphs__stylemixins.html#gga2cdb6f218aded65f238f19c31865a7deaefd7887b58b0fd77a71404e81fb09fcd":[10,4,1,1,2,2,6,4],
-"group__jkqtplotter__specialgraphs__stylemixins.html#ggab17240fa9feb186626e5d9189ea8da4fa4bccb89238dbbc20648c9f4cebe662a0":[10,4,1,1,2,2,5,1],
-"group__jkqtplotter__specialgraphs__stylemixins.html#ggab17240fa9feb186626e5d9189ea8da4fa535912bb99098adecf044189433ee14b":[10,4,1,1,2,2,5,0],
-"group__jkqtplotter__specialgraphs__stylemixins.html#ggab17240fa9feb186626e5d9189ea8da4fadfea35df4fc4ba35c6e831679a3f7cde":[10,4,1,1,2,2,5,2],
-"group__jkqtplotter__statgraphs.html":[10,4,1,1,1,10]
+"group__jkqtplotter__specialgraphs__stylemixins.html#gga2cdb6f218aded65f238f19c31865a7deaefd7887b58b0fd77a71404e81fb09fcd":[10,4,1,1,2,2,6,4]
 };

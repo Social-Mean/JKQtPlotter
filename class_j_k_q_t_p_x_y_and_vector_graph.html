@@ -538,7 +538,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This virtual <a class="el" href="class_j_k_q_t_p_graph.html" title="this virtual base class of the (data-column based) graphs, which are part of a JKQTPlotter plot and w...">JKQTPGraph</a> descendent extends <a class="el" href="class_j_k_q_t_p_x_y_graph.html" title="This virtual JKQTPGraph descendent may be used as base for all graphs that use at least two columns t...">JKQTPXYGraph</a> with two additional columns that encode for a vector starting at (x,y), i.e. either two distances along the x- and y-axis ( <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture>), or a rotation angle <picture><source srcset="form_255_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \alpha $" src="form_255.png" width="10" height="8"/></picture> and a vector length <picture><source srcset="form_256_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \l $" src="form_256.png" width="5" height="13"/></picture> . </p>
-<dl class="section see"><dt>See also</dt><dd></dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html" title="This graph plots a vector field, i.e. a set of vectors (dx,dy) or (angle,length) at positions (x,...">JKQTPVectorFieldGraph</a> </dd></dl>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a358c456f5376228de9be25bb55adafcc" name="a358c456f5376228de9be25bb55adafcc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a358c456f5376228de9be25bb55adafcc">&#9670;&#160;</a></span>VectorDataLayout</h2>
@@ -554,8 +554,10 @@ Additional Inherited Members</h2></td></tr>
 
 <p>values from this enum indicates how to interpret the data columns provided to this graph </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a358c456f5376228de9be25bb55adafccac3890923437560746aba15d1e20c923f" name="a358c456f5376228de9be25bb55adafccac3890923437560746aba15d1e20c923f"></a>DeltaXDeltaYLayout&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a358c456f5376228de9be25bb55adafcca170fd886f2ccbb39b9372554a90b3563" name="a358c456f5376228de9be25bb55adafcca170fd886f2ccbb39b9372554a90b3563"></a>AngleAndLengthLayout&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a358c456f5376228de9be25bb55adafccac3890923437560746aba15d1e20c923f" name="a358c456f5376228de9be25bb55adafccac3890923437560746aba15d1e20c923f"></a>DeltaXDeltaYLayout&#160;</td><td class="fielddoc"><p>Data is given in the form of two vector components (along x- and y-axis) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a358c456f5376228de9be25bb55adafcca170fd886f2ccbb39b9372554a90b3563" name="a358c456f5376228de9be25bb55adafcca170fd886f2ccbb39b9372554a90b3563"></a>AngleAndLengthLayout&#160;</td><td class="fielddoc"><p>Data is given in the form of an angle and a length that describe the vector together. </p>
+</td></tr>
 <tr><td class="fieldname"><a id="a358c456f5376228de9be25bb55adafcca4d6c2a70ff9e1b270b442537b62c3e13" name="a358c456f5376228de9be25bb55adafcca4d6c2a70ff9e1b270b442537b62c3e13"></a>DefaultVectorDataLayout&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -1338,7 +1340,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html">JKQTPXYAndVectorGraph</a></li>
-    <li class="footer">Generated on Fri Feb 9 2024 11:01:24 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Feb 9 2024 12:50:40 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

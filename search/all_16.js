@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['random_20numbers_0',['random numbers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48',1,'Generating different sets of random numbers'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md59',1,'Generating different sets of random numbers']]],
+  ['random_20numbers_0',['random numbers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html#autotoc_md57',1,'Generating different sets of random numbers'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48',1,'Generating different sets of random numbers']]],
   ['randomscatter_1',['RandomScatter',['../class_j_k_q_t_p_single_column_symbols_graph.html#a3631b52ee32dceb1418183aefe7f7ce4a7ce488ba270f450ea4879f7d6f53d6ad',1,'JKQTPSingleColumnSymbolsGraph']]],
   ['range_20plot_20width_2',['Synchronizing Axis Range &amp; Plot Width',['../class_j_k_q_t_base_plotter.html#JKQTBASEPLOTTER_SYNCMULTIPLOT_SYNC',1,'']]],
   ['range_5fend_3',['range_end',['../struct_j_k_q_t_p_evaluated_function_graph_base_1_1_plot_functor_spec.html#aa82a3c373d7364ed975f0d20a121f412',1,'JKQTPEvaluatedFunctionGraphBase::PlotFunctorSpec']]],

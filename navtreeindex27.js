@@ -1,5 +1,9 @@
 var NAVTREEINDEX27 =
 {
+"group__jkqtfastplotter__tools.html#ggaa94a0bca376a39f32a47dbd6f08fc594adbcd05238cb6439fa8d4086dccf77641":[10,0,1,4,1],
+"group__jkqtfastplotter__tools.html#ggaa94a0bca376a39f32a47dbd6f08fc594ae85b8f970cc01c73866fbe00cb261f8a":[10,0,1,4,2],
+"group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7ea0b7de0e3047d0a4e14ee9890dad2b222":[10,0,1,3,13],
+"group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7ea14c7bc89663c6f241bcf1cc578cb506e":[10,0,1,3,15],
 "group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7ea178f89d73854b61139e9dc24cc4447fa":[10,0,1,3,3],
 "group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7ea199ab8d131f8d3769cc90c02ff960396":[10,0,1,3,18],
 "group__jkqtfastplotter__tools.html#ggadd386bcf668dcc0c0607be6e5ddcbb7ea491435a5229de1c8c910b37c21f2ad05":[10,0,1,3,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX27 =
 "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da0f01a30973abc407ed41ae90b41a5bcc":[10,4,1,1,1,9,2,5,72],
 "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da0f75e0203699210671a38fada68c6cc7":[10,4,1,1,1,9,2,5,21],
 "group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da102823685aa4f00fdaed79a7a774c908":[10,4,1,1,1,9,2,5,180],
-"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da10a816a6e226ae6ebe759392ab2c5d70":[10,4,1,1,1,9,2,5,76],
-"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da1201c511a36efcf36479d822fdb16d9d":[10,4,1,1,1,9,2,5,77],
-"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da1234421bb92597baaa1a4ff51bc12558":[10,4,1,1,1,9,2,5,33],
-"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da13c4c21f540cdb6c056442d120bc3643":[10,4,1,1,1,9,2,5,60],
-"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da14f1256db486ce47f26753ccece12a54":[10,4,1,1,1,9,2,5,5]
+"group__jkqtplotter__imagelots__tools.html#ggaae2f1de8b42bb1734243b4201f4aa72da10a816a6e226ae6ebe759392ab2c5d70":[10,4,1,1,1,9,2,5,76]
 };
