@@ -80,28 +80,28 @@
 \_form#79=20x16:$ X_i $
 \_form#80=15x16:$ Y_i $
 \_form#81=429x94:\[ \rho_{x,y}=\text{CorCoeff}_{\text{Pearson}}(x,y)=\frac{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})(y_i-\overline{y})}{\sqrt{\sum\limits_{i=0}^{N-1}(x_i-\overline{x})^2\cdot\sum\limits_{i=0}^{N-1}(y_i-\overline{y})^2}} \]
-\_form#82=94x18:$ f(x): \mathbb{R}\rightarrow\mathbb{R} $
-\_form#83=10x8:$ x $
-\_form#84=31x18:$ f(x) $
-\_form#85=115x18:$ f(x)=\mbox{round}(x) $
-\_form#86=122x16:$ \mbox{firstGroupCenter} $
-\_form#87=244x18:$ \mbox{firstGroupCenter}\pm\mbox{groupWidth}/2$
-\_form#88=263x18:$ \mbox{firstGroupCenter}\pm2\cdot\mbox{groupWidth}/2 $
-\_form#89=263x18:$ \mbox{firstGroupCenter}\pm3\cdot\mbox{groupWidth}/2 $
-\_form#90=205x33:$ \mbox{round}\left(\frac{x-\mbox{firstGroupCenter}}{\mbox{groupWidth}/2}\right) $
-\_form#91=93x39:\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]
-\_form#92=44x18:$ (c_i,v_i) $
-\_form#93=11x11:$ c_i $
-\_form#94=13x11:$ v_i $
-\_form#95=141x18:$ V_j=\{v_{i}|c_i\equiv c_{\text{out},j}\} $
-\_form#96=68x13:$ c_i\equiv c_{\text{out},j} $
-\_form#97=34x13:$ c_{\text{out},j} $
-\_form#98=13x11:$ c_1 $
-\_form#99=18x11:$ c_N $
-\_form#100=15x11:$ v_1 $
-\_form#101=21x11:$ v_N $
-\_form#102=223x18:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
-\_form#103=325x37:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
+\_form#82=93x39:\[ 2\cdot\frac{1.58\cdot \mbox{IQR}}{\sqrt{N}} \]
+\_form#83=223x18:\[ \mbox{MAD}(\vec{x})=\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\} \]
+\_form#84=94x18:$ f(x): \mathbb{R}\rightarrow\mathbb{R} $
+\_form#85=10x8:$ x $
+\_form#86=31x18:$ f(x) $
+\_form#87=325x37:\[ \mbox{NMAD}(\vec{x})=\frac{\mbox{MAD}(\vec{x})}{0.6745}=\frac{\mbox{Med}\left\{|\vec{x}-\mbox{Med}(\vec{x})|\right\}}{0.6745} \]
+\_form#88=115x18:$ f(x)=\mbox{round}(x) $
+\_form#89=122x16:$ \mbox{firstGroupCenter} $
+\_form#90=244x18:$ \mbox{firstGroupCenter}\pm\mbox{groupWidth}/2$
+\_form#91=263x18:$ \mbox{firstGroupCenter}\pm2\cdot\mbox{groupWidth}/2 $
+\_form#92=263x18:$ \mbox{firstGroupCenter}\pm3\cdot\mbox{groupWidth}/2 $
+\_form#93=205x33:$ \mbox{round}\left(\frac{x-\mbox{firstGroupCenter}}{\mbox{groupWidth}/2}\right) $
+\_form#94=44x18:$ (c_i,v_i) $
+\_form#95=11x11:$ c_i $
+\_form#96=13x11:$ v_i $
+\_form#97=141x18:$ V_j=\{v_{i}|c_i\equiv c_{\text{out},j}\} $
+\_form#98=68x13:$ c_i\equiv c_{\text{out},j} $
+\_form#99=34x13:$ c_{\text{out},j} $
+\_form#100=13x11:$ c_1 $
+\_form#101=18x11:$ c_N $
+\_form#102=15x11:$ v_1 $
+\_form#103=21x11:$ v_N $
 \_form#104=23x16:$ Y_N $
 \_form#105=47x18:$ (x_i,y_i) $
 \_form#106=16x11:$ x_1 $
@@ -192,9 +192,9 @@
 \_form#191=16x15:$ gt $
 \_form#192=33x15:$ \alpha_{\mbox{left}} $
 \_form#193=44x18:$ \alpha_{\mbox{right}} $
-\_form#194=78x18:$ y=f(x, \vec{p}) $
-\_form#195=13x16:$ \vec{p} $
-\_form#196=234x31:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
+\_form#194=234x31:\[ \left|\alpha_{\mbox{right}}-\alpha_{\mbox{left}}\right|>\mbox{slopeTolerance} \]
+\_form#195=78x18:$ y=f(x, \vec{p}) $
+\_form#196=13x16:$ \vec{p} $
 \_form#197=179x18:$ \mbox{transform}\left(x, y=f(x, \vec{p})\right) $
 \_form#198=33x18:$ [x,y] $
 \_form#199=249x20:$ f(x)=p_0+p_1x+p_2x^2+p_3x^3+... $

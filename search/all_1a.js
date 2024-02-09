@@ -27,7 +27,7 @@ var searchData=
   ['vector_20fields_24',['Vector Fields',['../group__jkqtplotter__vectorfieldgraphs.html',1,'']]],
   ['vector_20into_20a_20column_20of_20the_20jkqtpdatastore_25',['Copy Data from a Vector into a column of the JKQTPDatastore',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md17',1,'']]],
   ['vectoranchorpoint_26',['VectorAnchorPoint',['../class_j_k_q_t_p_vector_field_graph.html#a69ec779faaca06f6747edf456c9cfd7d',1,'JKQTPVectorFieldGraph']]],
-  ['vectordatalayout_27',['vectordatalayout',['../class_j_k_q_t_p_x_y_and_vector_graph.html#a358c456f5376228de9be25bb55adafcc',1,'JKQTPXYAndVectorGraph::VectorDataLayout'],['../class_j_k_q_t_p_x_y_and_vector_graph.html#a088389f6cc4697255f142418ac9830c4',1,'JKQTPXYAndVectorGraph::vectorDataLayout']]],
+  ['vectordatalayout_27',['vectordatalayout',['../class_j_k_q_t_p_x_y_and_vector_graph.html#a088389f6cc4697255f142418ac9830c4',1,'JKQTPXYAndVectorGraph::vectorDataLayout'],['../class_j_k_q_t_p_x_y_and_vector_graph.html#a358c456f5376228de9be25bb55adafcc',1,'JKQTPXYAndVectorGraph::VectorDataLayout']]],
   ['vectorpainting_28',['VectorPainting',['../class_j_k_q_t_p_enhanced_painter.html#ad6eacc07690b9f7f278df39db5f0c19eabf22c128129e823aea0de0c9b103e105',1,'JKQTPEnhancedPainter']]],
   ['verbatim_20text_29',['Verbatim Text',['../group__jkqtmathtext__supportedlatex.html#JKQTMathTextSuppoertedLaTeXVerbatim',1,'']]],
   ['version_30',['v2018.08: Minor Modifications (Final QuickFit3-compatible Version)',['../page_whatsnew.html#page_whatsnew_V2018_08',1,'']]],
