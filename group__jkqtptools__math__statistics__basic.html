@@ -1286,7 +1286,7 @@ template&lt;class InputIt , class OutputIt &gt; </div>
   </dd>
 </dl>
 <p>This function implements: </p><p class="formulaDsp">
-<picture><source srcset="form_76_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \sum(X)_j=\cdot\sum\limits_{i=1}^{j}X_i \]" src="form_76.png" width="132" height="50"/></picture>
+<picture><source srcset="form_66_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \sum(X)_j=\cdot\sum\limits_{i=1}^{j}X_i \]" src="form_66.png" width="132" height="50"/></picture>
 </p>
 <dl class="section note"><dt>Note</dt><dd>Each value is the specified range is converted to a double using <a class="el" href="group__jkqtptools__math__basic.html#ga966c1a713f60bd026db4f35f7007eb7e" title="converts a boolean to a double, is used to convert boolean to double by JKQTPDatastore">jkqtp_todouble()</a>. Entries in the range that are invalid double (using <a class="el" href="group__jkqtptools__math__basic.html#gaf0ace9f4ac87719798dea6ef64068ff4" title="check whether the dlotaing point number is OK (i.e. non-inf, non-NAN)">JKQTPIsOKFloat()</a> ) are ignored when calculating. </dd></dl>
 
@@ -1842,7 +1842,7 @@ template&lt;class InputIt , class FF &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Sum of modified data returned between <em>first</em> and <em>last</em> (excluding invalid doubles). If the given range <em>first</em> ... <em>last</em> is empty, 0 is returned</dd></dl>
 <p>This function implements: </p><p class="formulaDsp">
-<picture><source srcset="form_63_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \sum(X)=\cdot\sum\limits_{i=1}^{N}\mbox{modifierFunctor}(X_i) \]" src="form_63.png" width="249" height="49"/></picture>
+<picture><source srcset="form_54_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \sum(X)=\cdot\sum\limits_{i=1}^{N}\mbox{modifierFunctor}(X_i) \]" src="form_54.png" width="249" height="49"/></picture>
 </p>
 <p>This function allows to e.g. calculate the sum of squares by calling </p><div class="fragment"><div class="line"><a class="code hl_function" href="group__jkqtptools__math__statistics__basic.html#ga1a5771cf7fcf5dca141cba9c7249b638">jkqtpstatModifiedSum</a>(first, last, [](<span class="keywordtype">double</span> v) { <span class="keywordflow">return</span> v*v; });</div>
 <div class="line"><a class="code hl_function" href="group__jkqtptools__math__statistics__basic.html#ga1a5771cf7fcf5dca141cba9c7249b638">jkqtpstatModifiedSum</a>(first, last, &amp;jkqtp_sqr&lt;double&gt;);</div>
@@ -2274,7 +2274,7 @@ template&lt;class InputIt &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Sum of the data returned between <em>first</em> and <em>last</em> (excluding invalid doubles). If the given range <em>first</em> ... <em>last</em> is empty, 0 is returned</dd></dl>
 <p>This function implements: </p><p class="formulaDsp">
-<picture><source srcset="form_74_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \sum(X)=\cdot\sum\limits_{i=1}^{N}X_i \]" src="form_74.png" width="124" height="49"/></picture>
+<picture><source srcset="form_55_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \sum(X)=\cdot\sum\limits_{i=1}^{N}X_i \]" src="form_55.png" width="124" height="49"/></picture>
 </p>
 <dl class="section note"><dt>Note</dt><dd>Each value is the specified range is converted to a double using <a class="el" href="group__jkqtptools__math__basic.html#ga966c1a713f60bd026db4f35f7007eb7e" title="converts a boolean to a double, is used to convert boolean to double by JKQTPDatastore">jkqtp_todouble()</a>. Entries in the range that are invalid double (using <a class="el" href="group__jkqtptools__math__basic.html#gaf0ace9f4ac87719798dea6ef64068ff4" title="check whether the dlotaing point number is OK (i.e. non-inf, non-NAN)">JKQTPIsOKFloat()</a> ) are ignored when calculating. </dd></dl>
 
@@ -2339,7 +2339,7 @@ template&lt;class InputIt &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Sum of squares of the data returned between <em>first</em> and <em>last</em> (excluding invalid doubles). If the given range <em>first</em> ... <em>last</em> is empty, 0 is returned</dd></dl>
 <p>This function implements: </p><p class="formulaDsp">
-<picture><source srcset="form_75_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \sum(X)=\cdot\sum\limits_{i=1}^{N}X_i^2 \]" src="form_75.png" width="127" height="49"/></picture>
+<picture><source srcset="form_59_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \sum(X)=\cdot\sum\limits_{i=1}^{N}X_i^2 \]" src="form_59.png" width="127" height="49"/></picture>
 </p>
 <dl class="section note"><dt>Note</dt><dd>Each value is the specified range is converted to a double using <a class="el" href="group__jkqtptools__math__basic.html#ga966c1a713f60bd026db4f35f7007eb7e" title="converts a boolean to a double, is used to convert boolean to double by JKQTPDatastore">jkqtp_todouble()</a>. Entries in the range that are invalid double (using <a class="el" href="group__jkqtptools__math__basic.html#gaf0ace9f4ac87719798dea6ef64068ff4" title="check whether the dlotaing point number is OK (i.e. non-inf, non-NAN)">JKQTPIsOKFloat()</a> ) are ignored when calculating. </dd></dl>
 
@@ -2657,7 +2657,7 @@ template&lt;class InputIt , class InputWeightIt &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Feb 9 2024 23:28:47 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Feb 9 2024 23:45:20 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
