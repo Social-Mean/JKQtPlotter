@@ -4,7 +4,7 @@ var searchData=
   ['qactions_20from_20a_20jkqtplotter_1',['QActions from a JKQTPlotter',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_ACTIONS',1,'']]],
   ['qcolorwithalpha_2',['QColorWithAlpha',['../group__jkqtpplotter__styling__classes.html#ga21fc7530be2b55534a14c60cf0a6da9e',1,'jkqtptools.h']]],
   ['qcolorwithalphaf_3',['QColorWithAlphaF',['../group__jkqtpplotter__styling__classes.html#ga4840ec94f56ddc9df4bf5d2c3d0c15ae',1,'jkqtptools.h']]],
-  ['qhash_4',['qhash',['../group__jkqtpplottersupprt.html#ga0434e31a1b052389e981dc8fedc06765',1,'qHash(const Qt::KeyboardModifiers &amp;key, size_t):&#160;jkqtplotter.h'],['../group__jkqtpplottersupprt.html#ga3a969e549641069030f33c0fcc70b0df',1,'qHash(const Qt::MouseButton &amp;key, size_t):&#160;jkqtplotter.h'],['../group__jkqtpplottersupprt.html#gaf7f4d2cbc77fa6bb5446221d595c2183',1,'qHash(const JKQTBasePlotter::textSizeKey &amp;data, size_t):&#160;jkqtpbaseplotter.h'],['../group__jkqtpplottersupprt.html#ga9eb69bab982df82a87cb360af0254c80',1,'qHash(const QPair&lt; Qt::MouseButton, Qt::KeyboardModifiers &gt; &amp;key, size_t):&#160;jkqtplotter.h']]],
+  ['qhash_4',['qhash',['../group__jkqtpplottersupprt.html#ga3a969e549641069030f33c0fcc70b0df',1,'qHash(const Qt::MouseButton &amp;key, size_t):&#160;jkqtplotter.h'],['../group__jkqtpplottersupprt.html#ga0434e31a1b052389e981dc8fedc06765',1,'qHash(const Qt::KeyboardModifiers &amp;key, size_t):&#160;jkqtplotter.h'],['../group__jkqtpplottersupprt.html#ga9eb69bab982df82a87cb360af0254c80',1,'qHash(const QPair&lt; Qt::MouseButton, Qt::KeyboardModifiers &gt; &amp;key, size_t):&#160;jkqtplotter.h'],['../group__jkqtpplottersupprt.html#gaf7f4d2cbc77fa6bb5446221d595c2183',1,'qHash(const JKQTBasePlotter::textSizeKey &amp;data, size_t):&#160;jkqtpbaseplotter.h']]],
   ['qicon_20generation_5',['Special QIcon generation',['../group__jkqtptools__icons.html',1,'']]],
   ['qimage_20as_20a_20graph_6',['Example (JKQTPlotter): QImage as a Graph',['../_j_k_q_t_plotter_image_plot_q_image_r_g_b.html',1,'exampleTutorialProjects']]],
   ['qlabel_20class_20jkqtmathtextlabel_7',['Usage within a QLabel class JKQTMathTextLabel',['../class_j_k_q_t_math_text.html#JKQTMathTextUsageQLabel',1,'']]],
@@ -16,7 +16,7 @@ var searchData=
   ['qt_13',['JKQTMathText LaTeX-Renderer for Qt',['../group__jkqtmathtext.html',1,'']]],
   ['qt_20based_20scientific_20plotter_20class_14',['JKQTPlotter: Qt based Scientific Plotter Class',['../group__jkqtplotter.html',1,'']]],
   ['qt_20data_20models_20to_20access_20graphs_20in_20a_20jkqtbaseplotter_20jkqtplotter_15',['Qt Data Models to Access Graphs in a JKQTBasePlotter/JKQTPlotter',['../group__jkqtpgraphsmodel.html',1,'']]],
-  ['qt_20form_20designer_16',['qt form designer',['../group__jkqtplotter__general__usage__qtcreator.html',1,'How to use JKQTPlotter in the Qt Form Designer'],['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USEQTCREATOR',1,'How to use JKQTPlotter in the Qt Form Designer'],['../_j_k_q_t_plotter_qt_creator.html#autotoc_md96',1,'Instructions on how to use JKQTPlotter in the Qt Form Designer']]],
+  ['qt_20form_20designer_16',['qt form designer',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USEQTCREATOR',1,'How to use JKQTPlotter in the Qt Form Designer'],['../group__jkqtplotter__general__usage__qtcreator.html',1,'How to use JKQTPlotter in the Qt Form Designer'],['../_j_k_q_t_plotter_qt_creator.html#autotoc_md96',1,'Instructions on how to use JKQTPlotter in the Qt Form Designer']]],
   ['qt_20plotting_20library_17',['JKQTPlotter - A Qt Plotting Library',['../index.html',1,'']]],
   ['qt_20s_20clasess_18',['Tools around Qt&apos;s clasess',['../group__jkqtptools__qt.html',1,'']]],
   ['qt_20user_20interface_20designer_20ui_20file_19',['Tutorial (JKQTPlotter): Using a JKQTPlotter inside a Qt User Interface Designer (UI) File',['../_j_k_q_t_plotter_qt_creator.html',1,'exampleTutorialProjects']]],
@@ -28,6 +28,5 @@ var searchData=
   ['quantile1spec_25',['quantile1Spec',['../struct_j_k_q_t_p_stat5_number_statistics.html#af008b5b9d9bcdadd35c0953e1fbb5163',1,'JKQTPStat5NumberStatistics']]],
   ['quantile2_26',['quantile2',['../struct_j_k_q_t_p_stat5_number_statistics.html#a4a7d9f917d013f8202cb5abc9aca31c8',1,'JKQTPStat5NumberStatistics']]],
   ['quantile2spec_27',['quantile2Spec',['../struct_j_k_q_t_p_stat5_number_statistics.html#ae9eb38c2b3afa108410ba3252ec033e2',1,'JKQTPStat5NumberStatistics']]],
-  ['quickfit_203_200_20screenshots_28',['QuickFit 3.0 Screenshots',['../md_screenshots_2_r_e_a_d_m_e.html#autotoc_md132',1,'']]],
-  ['quickfit3_20compatible_20version_29',['v2018.08: Minor Modifications (Final QuickFit3-compatible Version)',['../page_whatsnew.html#page_whatsnew_V2018_08',1,'']]]
+  ['quickfit3_20compatible_20version_28',['v2018.08: Minor Modifications (Final QuickFit3-compatible Version)',['../page_whatsnew.html#page_whatsnew_V2018_08',1,'']]]
 ];

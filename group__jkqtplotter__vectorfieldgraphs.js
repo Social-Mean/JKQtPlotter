@@ -12,16 +12,20 @@ var group__jkqtplotter__vectorfieldgraphs =
       [ "drawKeyMarker", "class_j_k_q_t_p_vector_field_graph.html#aa0b371b3f121a78d593d1d75c27b504f", null ],
       [ "getAnchorPoint", "class_j_k_q_t_p_vector_field_graph.html#abfef7a2fb49af5ff7bf322cdff63ea39", null ],
       [ "getAutoscaleLength", "class_j_k_q_t_p_vector_field_graph.html#aa8e880fde7f99f401261e8853b45d8f2", null ],
+      [ "getAutoscaleLengthFactor", "class_j_k_q_t_p_vector_field_graph.html#a9f6f8efaf8bd6d361a47b3087ffee7bc", null ],
       [ "getKeyLabelColor", "class_j_k_q_t_p_vector_field_graph.html#a3f822448272552be9df841651cfaf744", null ],
       [ "getLengthScaleFactor", "class_j_k_q_t_p_vector_field_graph.html#a572b73603605b9ab7d6c24ea7646e311", null ],
       [ "setAnchorPoint", "class_j_k_q_t_p_vector_field_graph.html#a948ad0a7855a032c344ff967408badad", null ],
       [ "setAutoscaleLength", "class_j_k_q_t_p_vector_field_graph.html#a00eaa9a5d2feac490f89998aadf84020", null ],
+      [ "setAutoscaleLengthFactor", "class_j_k_q_t_p_vector_field_graph.html#abfae076052e9fd0fdb2445cc75e929fd", null ],
       [ "setLengthScaleFactor", "class_j_k_q_t_p_vector_field_graph.html#abe098f674cc17008bd07e728bf0917b1", null ],
       [ "m_anchorPoint", "class_j_k_q_t_p_vector_field_graph.html#a39c9670ee743ca09827da17cab317e5e", null ],
       [ "m_autoscaleLength", "class_j_k_q_t_p_vector_field_graph.html#aaaa3f17fcd44e45fcb803bdb7ac2836b", null ],
+      [ "m_autoscaleLengthFactor", "class_j_k_q_t_p_vector_field_graph.html#addb985fd352a347227b62b8d35d0073d", null ],
       [ "m_lengthScaleFactor", "class_j_k_q_t_p_vector_field_graph.html#a946078c412b47485c5edd2b58c3f4d5b", null ],
       [ "anchorPoint", "class_j_k_q_t_p_vector_field_graph.html#a8d7976e899d35106345e3bfd168f97f8", null ],
       [ "autoscaleLength", "class_j_k_q_t_p_vector_field_graph.html#a479bbcdd716fe4b5083cbb3f9a91ac2e", null ],
+      [ "autoscaleLengthFactor", "class_j_k_q_t_p_vector_field_graph.html#abe37509cd850567249e3eb732ada4b4e", null ],
       [ "lengthScaleFactor", "class_j_k_q_t_p_vector_field_graph.html#ad422d4cec203312630394994e3013f36", null ]
     ] ]
 ];

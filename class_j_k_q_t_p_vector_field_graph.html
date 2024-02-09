@@ -131,7 +131,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_p_vector_field_graph.htm
 </div><!--header-->
 <div class="contents">
 
-<p>This graph plots a vector field, i.e. a set of vectors (dx,dy) or (angle,length) at positions (x,y). This type of plot is sometimes also refered to as quicver plot (e.g. in Matlab or matplotlib)  
+<p>This graph plots a vector field, i.e. a set of vectors (dx,dy) or (angle,length) at positions (x,y). This class immplements the most basic form of vector plot, i.e. the vector are drawn with a length corresponding to their magnitude.  
  <a href="class_j_k_q_t_p_vector_field_graph.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="jkqtpvectorfield_8h_source.html">jkqtpvectorfield.h</a>&gt;</code></p>
@@ -211,6 +211,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa8e880fde7f99f401261e8853b45d8f2" id="r_aa8e880fde7f99f401261e8853b45d8f2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aa8e880fde7f99f401261e8853b45d8f2">getAutoscaleLength</a> () const</td></tr>
 <tr class="memdesc:aa8e880fde7f99f401261e8853b45d8f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">enables or disables the autoscaling of vector lengths    <br /></td></tr>
 <tr class="separator:aa8e880fde7f99f401261e8853b45d8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f6f8efaf8bd6d361a47b3087ffee7bc" id="r_a9f6f8efaf8bd6d361a47b3087ffee7bc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a9f6f8efaf8bd6d361a47b3087ffee7bc">getAutoscaleLengthFactor</a> () const</td></tr>
+<tr class="memdesc:a9f6f8efaf8bd6d361a47b3087ffee7bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">a scaling factor that can be used to modify the result of the autoscaling algorithm (m_autoscaleLength <code>==true</code>)    <br /></td></tr>
+<tr class="separator:a9f6f8efaf8bd6d361a47b3087ffee7bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f822448272552be9df841651cfaf744" id="r_a3f822448272552be9df841651cfaf744"><td class="memItemLeft" align="right" valign="top">virtual QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a3f822448272552be9df841651cfaf744">getKeyLabelColor</a> () const override</td></tr>
 <tr class="memdesc:a3f822448272552be9df841651cfaf744"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the color to be used for the key label  <br /></td></tr>
 <tr class="separator:a3f822448272552be9df841651cfaf744"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,6 +226,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a00eaa9a5d2feac490f89998aadf84020" id="r_a00eaa9a5d2feac490f89998aadf84020"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a00eaa9a5d2feac490f89998aadf84020">setAutoscaleLength</a> (bool newAutoscaleLength)</td></tr>
 <tr class="memdesc:a00eaa9a5d2feac490f89998aadf84020"><td class="mdescLeft">&#160;</td><td class="mdescRight">enables or disables the autoscaling of vector lengths    <br /></td></tr>
 <tr class="separator:a00eaa9a5d2feac490f89998aadf84020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfae076052e9fd0fdb2445cc75e929fd" id="r_abfae076052e9fd0fdb2445cc75e929fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abfae076052e9fd0fdb2445cc75e929fd">setAutoscaleLengthFactor</a> (double newAutoscaleLengthFactor)</td></tr>
+<tr class="memdesc:abfae076052e9fd0fdb2445cc75e929fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">a scaling factor that can be used to modify the result of the autoscaling algorithm (m_autoscaleLength <code>==true</code>)    <br /></td></tr>
+<tr class="separator:abfae076052e9fd0fdb2445cc75e929fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe098f674cc17008bd07e728bf0917b1" id="r_abe098f674cc17008bd07e728bf0917b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abe098f674cc17008bd07e728bf0917b1">setLengthScaleFactor</a> (double newLengthScaleFactor)</td></tr>
 <tr class="memdesc:abe098f674cc17008bd07e728bf0917b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">if m_autoscaleLength <code>==false</code>, this is the scale-factor used to calculate the vector length    <br /></td></tr>
 <tr class="separator:abe098f674cc17008bd07e728bf0917b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -514,6 +520,8 @@ Properties</h2></td></tr>
 <tr class="separator:a8d7976e899d35106345e3bfd168f97f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a479bbcdd716fe4b5083cbb3f9a91ac2e" id="r_a479bbcdd716fe4b5083cbb3f9a91ac2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a479bbcdd716fe4b5083cbb3f9a91ac2e">autoscaleLength</a></td></tr>
 <tr class="separator:a479bbcdd716fe4b5083cbb3f9a91ac2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe37509cd850567249e3eb732ada4b4e" id="r_abe37509cd850567249e3eb732ada4b4e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abe37509cd850567249e3eb732ada4b4e">autoscaleLengthFactor</a></td></tr>
+<tr class="separator:abe37509cd850567249e3eb732ada4b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad422d4cec203312630394994e3013f36" id="r_ad422d4cec203312630394994e3013f36"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#ad422d4cec203312630394994e3013f36">lengthScaleFactor</a></td></tr>
 <tr class="separator:ad422d4cec203312630394994e3013f36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_j_k_q_t_p_x_y_and_vector_graph"><td colspan="2" onclick="javascript:toggleInherit('properties_class_j_k_q_t_p_x_y_and_vector_graph')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html">JKQTPXYAndVectorGraph</a></td></tr>
@@ -585,6 +593,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aaaa3f17fcd44e45fcb803bdb7ac2836b" id="r_aaaa3f17fcd44e45fcb803bdb7ac2836b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aaaa3f17fcd44e45fcb803bdb7ac2836b">m_autoscaleLength</a></td></tr>
 <tr class="memdesc:aaaa3f17fcd44e45fcb803bdb7ac2836b"><td class="mdescLeft">&#160;</td><td class="mdescRight">enables or disables the autoscaling of vector lengths  <br /></td></tr>
 <tr class="separator:aaaa3f17fcd44e45fcb803bdb7ac2836b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addb985fd352a347227b62b8d35d0073d" id="r_addb985fd352a347227b62b8d35d0073d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#addb985fd352a347227b62b8d35d0073d">m_autoscaleLengthFactor</a></td></tr>
+<tr class="memdesc:addb985fd352a347227b62b8d35d0073d"><td class="mdescLeft">&#160;</td><td class="mdescRight">a scaling factor that can be used to modify the result of the autoscaling algorithm (m_autoscaleLength <code>==true</code>)  <br /></td></tr>
+<tr class="separator:addb985fd352a347227b62b8d35d0073d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a946078c412b47485c5edd2b58c3f4d5b" id="r_a946078c412b47485c5edd2b58c3f4d5b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a946078c412b47485c5edd2b58c3f4d5b">m_lengthScaleFactor</a></td></tr>
 <tr class="memdesc:a946078c412b47485c5edd2b58c3f4d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">if m_autoscaleLength <code>==false</code>, this is the scale-factor used to calculate the vector length  <br /></td></tr>
 <tr class="separator:a946078c412b47485c5edd2b58c3f4d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -730,7 +741,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a05f99859e10d874e9a86512cbab9674f inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This graph plots a vector field, i.e. a set of vectors (dx,dy) or (angle,length) at positions (x,y). This type of plot is sometimes also refered to as quicver plot (e.g. in Matlab or matplotlib) </p>
+<div class="textblock"><p>This graph plots a vector field, i.e. a set of vectors (dx,dy) or (angle,length) at positions (x,y). This class immplements the most basic form of vector plot, i.e. the vector are drawn with a length corresponding to their magnitude. </p>
+<dl class="section note"><dt>Note</dt><dd>This type of plot is sometimes also refered to as quiver plot (e.g. in Matlab or matplotlib)</dd></dl>
 <div class="image">
 <img src="JKQTPVectorFieldGraph.png" alt=""/>
 </div>
@@ -757,7 +769,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_aaf018b1c809f2c4a0a0f5fbb26bbc933"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#aaf018b1c809f2c4a0a0f5fbb26bbc933">JKQTPDatastore::addLinearGridColumns</a></div><div class="ttdeci">std::pair&lt; size_t, size_t &gt; addLinearGridColumns(size_t width, double startX, double endX, size_t height, double startY, double endY, const QString &amp;nameX=QString(&quot;&quot;), const QString &amp;nameY=QString(&quot;&quot;))</div><div class="ttdoc">add two columns to the datastore that contains the x- and y- coordinates of a rectangular grid with w...</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_ae8debb9537ffadd6e805ef8123964e08"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#ae8debb9537ffadd6e805ef8123964e08">JKQTPDatastore::addCalculatedColumnFromColumn</a></div><div class="ttdeci">size_t addCalculatedColumnFromColumn(size_t otherColumn, const std::function&lt; double(double)&gt; &amp;f, const QString &amp;name=QString(&quot;&quot;))</div><div class="ttdoc">add a column with the same number of entries, as in the other column otherColumn ,...</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_plot_element_html_a02a8d7c24cde7768f0134cee1aa1159d"><div class="ttname"><a href="class_j_k_q_t_p_plot_element.html#a02a8d7c24cde7768f0134cee1aa1159d">JKQTPPlotElement::setTitle</a></div><div class="ttdeci">virtual void setTitle(const QString &amp;__value)</div><div class="ttdoc">sets the title of the plot (for display in key!).</div></div>
-<div class="ttc" id="aclass_j_k_q_t_p_vector_field_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_vector_field_graph.html">JKQTPVectorFieldGraph</a></div><div class="ttdoc">This graph plots a vector field, i.e. a set of vectors (dx,dy) or (angle,length) at positions (x,...</div><div class="ttdef"><b>Definition</b> jkqtpvectorfield.h:74</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_vector_field_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_vector_field_graph.html">JKQTPVectorFieldGraph</a></div><div class="ttdoc">This graph plots a vector field, i.e. a set of vectors (dx,dy) or (angle,length) at positions (x,...</div><div class="ttdef"><b>Definition</b> jkqtpvectorfield.h:76</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_and_vector_graph_html_ac9d014d0fcf7dc8fe964a2e667ecbfbb"><div class="ttname"><a href="class_j_k_q_t_p_x_y_and_vector_graph.html#ac9d014d0fcf7dc8fe964a2e667ecbfbb">JKQTPXYAndVectorGraph::setDyColumn</a></div><div class="ttdeci">void setDyColumn(int col)</div><div class="ttdoc">the column that contains the delta along the y-axis.</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_and_vector_graph_html_ae93e10dd061faa4757b7116759c0694e"><div class="ttname"><a href="class_j_k_q_t_p_x_y_and_vector_graph.html#ae93e10dd061faa4757b7116759c0694e">JKQTPXYAndVectorGraph::setDxColumn</a></div><div class="ttdeci">void setDxColumn(int col)</div><div class="ttdoc">the column that contains the delta along the x-axis.</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_graph_html_a972ee50c53accadade8880b3bd1110cc"><div class="ttname"><a href="class_j_k_q_t_p_x_y_graph.html#a972ee50c53accadade8880b3bd1110cc">JKQTPXYGraph::setXYColumns</a></div><div class="ttdeci">void setXYColumns(size_t xCol, size_t yCol)</div><div class="ttdoc">sets xColumn and yColumn at the same time</div></div>
@@ -933,6 +945,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>defines where the vector is anchored   </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a69ec779faaca06f6747edf456c9cfd7d">VectorAnchorPoint</a>   </dd></dl>
 
 </div>
 </div>
@@ -952,7 +965,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>enables or disables the autoscaling of vector lengths   </p>
-<p>If disabled (<code>false</code> ) the vector is drawn from (x,y) to (x+dx*m_lengthScaleFactor,y+dy*m_lengthScaleFactor), otherweise to (x+dx*autoscale,y+dy*autoscale)   </p>
+<p>If disabled (<code>false</code> ) the vector is drawn from <code></code>(x,y) to <code></code>(x+dx,y+dy)*m_lengthScaleFactor , otherweise to <code></code>(x+dx,y+dy)*autoscale*m_autoscaleLengthFactor . The autoscaled length is calculated by a siple algorithm that uses the average vector length in the data: <code>autoscale=plotwidth/VectorPerWidth/avgVectorLength</code> .</p>
+<dl class="section see"><dt>See also</dt><dd>m_autoscaleFactor, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#addb985fd352a347227b62b8d35d0073d" title="a scaling factor that can be used to modify the result of the autoscaling algorithm (m_autoscaleLengt...">m_autoscaleLengthFactor</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a00eaa9a5d2feac490f89998aadf84020" title="enables or disables the autoscaling of vector lengths">setAutoscaleLength()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aa8e880fde7f99f401261e8853b45d8f2" title="enables or disables the autoscaling of vector lengths">getAutoscaleLength()</a>   </dd></dl>
+
+</div>
+</div>
+<a id="a9f6f8efaf8bd6d361a47b3087ffee7bc" name="a9f6f8efaf8bd6d361a47b3087ffee7bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f6f8efaf8bd6d361a47b3087ffee7bc">&#9670;&#160;</a></span>getAutoscaleLengthFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPVectorFieldGraph::getAutoscaleLengthFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>a scaling factor that can be used to modify the result of the autoscaling algorithm (m_autoscaleLength <code>==true</code>)   </p>
+<p>The vector length is further scaled by this value. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aaaa3f17fcd44e45fcb803bdb7ac2836b" title="enables or disables the autoscaling of vector lengths">m_autoscaleLength</a>, setAutoscaleFactor(), getAutoscaleFactor()   </dd></dl>
 
 </div>
 </div>
@@ -1001,6 +1035,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if m_autoscaleLength <code>==false</code>, this is the scale-factor used to calculate the vector length   </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abe098f674cc17008bd07e728bf0917b1" title="if m_autoscaleLength ==false, this is the scale-factor used to calculate the vector length">setLengthScaleFactor()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a572b73603605b9ab7d6c24ea7646e311" title="if m_autoscaleLength ==false, this is the scale-factor used to calculate the vector length">getLengthScaleFactor()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aaaa3f17fcd44e45fcb803bdb7ac2836b" title="enables or disables the autoscaling of vector lengths">m_autoscaleLength</a>   </dd></dl>
 
 </div>
 </div>
@@ -1021,6 +1056,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>defines where the vector is anchored   </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a69ec779faaca06f6747edf456c9cfd7d">VectorAnchorPoint</a>   </dd></dl>
 
 </div>
 </div>
@@ -1041,7 +1077,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>enables or disables the autoscaling of vector lengths   </p>
-<p>If disabled (<code>false</code> ) the vector is drawn from (x,y) to (x+dx*m_lengthScaleFactor,y+dy*m_lengthScaleFactor), otherweise to (x+dx*autoscale,y+dy*autoscale)   </p>
+<p>If disabled (<code>false</code> ) the vector is drawn from <code></code>(x,y) to <code></code>(x+dx,y+dy)*m_lengthScaleFactor , otherweise to <code></code>(x+dx,y+dy)*autoscale*m_autoscaleLengthFactor . The autoscaled length is calculated by a siple algorithm that uses the average vector length in the data: <code>autoscale=plotwidth/VectorPerWidth/avgVectorLength</code> .</p>
+<dl class="section see"><dt>See also</dt><dd>m_autoscaleFactor, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#addb985fd352a347227b62b8d35d0073d" title="a scaling factor that can be used to modify the result of the autoscaling algorithm (m_autoscaleLengt...">m_autoscaleLengthFactor</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a00eaa9a5d2feac490f89998aadf84020" title="enables or disables the autoscaling of vector lengths">setAutoscaleLength()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aa8e880fde7f99f401261e8853b45d8f2" title="enables or disables the autoscaling of vector lengths">getAutoscaleLength()</a>   </dd></dl>
+
+</div>
+</div>
+<a id="abfae076052e9fd0fdb2445cc75e929fd" name="abfae076052e9fd0fdb2445cc75e929fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfae076052e9fd0fdb2445cc75e929fd">&#9670;&#160;</a></span>setAutoscaleLengthFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTPVectorFieldGraph::setAutoscaleLengthFactor </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>newAutoscaleLengthFactor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>a scaling factor that can be used to modify the result of the autoscaling algorithm (m_autoscaleLength <code>==true</code>)   </p>
+<p>The vector length is further scaled by this value. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aaaa3f17fcd44e45fcb803bdb7ac2836b" title="enables or disables the autoscaling of vector lengths">m_autoscaleLength</a>, setAutoscaleFactor(), getAutoscaleFactor()   </dd></dl>
 
 </div>
 </div>
@@ -1062,6 +1120,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if m_autoscaleLength <code>==false</code>, this is the scale-factor used to calculate the vector length   </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abe098f674cc17008bd07e728bf0917b1" title="if m_autoscaleLength ==false, this is the scale-factor used to calculate the vector length">setLengthScaleFactor()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a572b73603605b9ab7d6c24ea7646e311" title="if m_autoscaleLength ==false, this is the scale-factor used to calculate the vector length">getLengthScaleFactor()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aaaa3f17fcd44e45fcb803bdb7ac2836b" title="enables or disables the autoscaling of vector lengths">m_autoscaleLength</a>   </dd></dl>
 
 </div>
 </div>
@@ -1087,6 +1146,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>defines where the vector is anchored </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a69ec779faaca06f6747edf456c9cfd7d">VectorAnchorPoint</a> </dd></dl>
 
 </div>
 </div>
@@ -1111,7 +1171,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>enables or disables the autoscaling of vector lengths </p>
-<p>If disabled (<code>false</code> ) the vector is drawn from (x,y) to (x+dx*m_lengthScaleFactor,y+dy*m_lengthScaleFactor), otherweise to (x+dx*autoscale,y+dy*autoscale) </p>
+<p>If disabled (<code>false</code> ) the vector is drawn from <code></code>(x,y) to <code></code>(x+dx,y+dy)*m_lengthScaleFactor , otherweise to <code></code>(x+dx,y+dy)*autoscale*m_autoscaleLengthFactor . The autoscaled length is calculated by a siple algorithm that uses the average vector length in the data: <code>autoscale=plotwidth/VectorPerWidth/avgVectorLength</code> .</p>
+<dl class="section see"><dt>See also</dt><dd>m_autoscaleFactor, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#addb985fd352a347227b62b8d35d0073d" title="a scaling factor that can be used to modify the result of the autoscaling algorithm (m_autoscaleLengt...">m_autoscaleLengthFactor</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a00eaa9a5d2feac490f89998aadf84020" title="enables or disables the autoscaling of vector lengths">setAutoscaleLength()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aa8e880fde7f99f401261e8853b45d8f2" title="enables or disables the autoscaling of vector lengths">getAutoscaleLength()</a> </dd></dl>
+
+</div>
+</div>
+<a id="addb985fd352a347227b62b8d35d0073d" name="addb985fd352a347227b62b8d35d0073d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addb985fd352a347227b62b8d35d0073d">&#9670;&#160;</a></span>m_autoscaleLengthFactor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPVectorFieldGraph::m_autoscaleLengthFactor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>a scaling factor that can be used to modify the result of the autoscaling algorithm (m_autoscaleLength <code>==true</code>) </p>
+<p>The vector length is further scaled by this value. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aaaa3f17fcd44e45fcb803bdb7ac2836b" title="enables or disables the autoscaling of vector lengths">m_autoscaleLength</a>, setAutoscaleFactor(), getAutoscaleFactor() </dd></dl>
 
 </div>
 </div>
@@ -1136,6 +1222,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if m_autoscaleLength <code>==false</code>, this is the scale-factor used to calculate the vector length </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abe098f674cc17008bd07e728bf0917b1" title="if m_autoscaleLength ==false, this is the scale-factor used to calculate the vector length">setLengthScaleFactor()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a572b73603605b9ab7d6c24ea7646e311" title="if m_autoscaleLength ==false, this is the scale-factor used to calculate the vector length">getLengthScaleFactor()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aaaa3f17fcd44e45fcb803bdb7ac2836b" title="enables or disables the autoscaling of vector lengths">m_autoscaleLength</a> </dd></dl>
 
 </div>
 </div>
@@ -1184,6 +1271,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="abe37509cd850567249e3eb732ada4b4e" name="abe37509cd850567249e3eb732ada4b4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe37509cd850567249e3eb732ada4b4e">&#9670;&#160;</a></span>autoscaleLengthFactor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool JKQTPVectorFieldGraph::autoscaleLengthFactor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad422d4cec203312630394994e3013f36" name="ad422d4cec203312630394994e3013f36"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad422d4cec203312630394994e3013f36">&#9670;&#160;</a></span>lengthScaleFactor</h2>
 
@@ -1216,7 +1325,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html">JKQTPVectorFieldGraph</a></li>
-    <li class="footer">Generated on Thu Feb 8 2024 21:08:26 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Feb 9 2024 10:51:06 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

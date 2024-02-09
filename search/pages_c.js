@@ -73,6 +73,5 @@ var searchData=
   ['jkqtplotter_20_3a_20violin_20plots_70',['Example (JKQTPlotter): Violin Plots',['../_j_k_q_t_plotter_violinplot_graphs.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20wiggle_20plots_71',['Example (JKQTPlotter): Wiggle Plots',['../_j_k_q_t_plotter_wiggle_plots.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20a_20qt_20plotting_20library_72',['JKQTPlotter - A Qt Plotting Library',['../index.html',1,'']]],
-  ['jkqtplotter_3a_20screenshots_73',['JKQTPlotter: Screenshots',['../md_screenshots_2_r_e_a_d_m_e.html',1,'']]],
-  ['jkqtplotter_5fdoc_5fimagegenerator_74',['Tool (JKQTMathText): Command-Line Utility jkqtplotter_doc_imagegenerator',['../_j_k_q_t_plotter_doc_image_render_cmd_line_tool.html',1,'exampleTutorialProjects']]]
+  ['jkqtplotter_5fdoc_5fimagegenerator_73',['Tool (JKQTMathText): Command-Line Utility jkqtplotter_doc_imagegenerator',['../_j_k_q_t_plotter_doc_image_render_cmd_line_tool.html',1,'exampleTutorialProjects']]]
 ];
