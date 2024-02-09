@@ -332,7 +332,7 @@ Kernel Density Estimates (KDE)</h1>
 <div class="line">                     datastore1-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#a6d3927a7c56a239d283e42fb6a48d6b7">begin</a>(kdecol),</div>
 <div class="line">                     xmin, xmax, ymin, ymax, Nx, Ny,</div>
 <div class="line">                     &amp;<a class="code hl_function" href="group__jkqtptools__math__statistics__2dkde__kernels.html#ga23d693ecd2ee031496fc14753448f0e0">jkqtpstatKernel2DGaussian</a>, bwx, bwy);</div>
-<div class="ttc" id="agroup__jkqtptools__math__statistics__2dkde__kernels_html_ga23d693ecd2ee031496fc14753448f0e0"><div class="ttname"><a href="group__jkqtptools__math__statistics__2dkde__kernels.html#ga23d693ecd2ee031496fc14753448f0e0">jkqtpstatKernel2DGaussian</a></div><div class="ttdeci">jkqtmath_LIB_EXPORT double jkqtpstatKernel2DGaussian(double tx, double ty)</div><div class="ttdoc">a 1D Gaussian kernel function, e.g. for Kernel Density Estimation</div></div>
+<div class="ttc" id="agroup__jkqtptools__math__statistics__2dkde__kernels_html_ga23d693ecd2ee031496fc14753448f0e0"><div class="ttname"><a href="group__jkqtptools__math__statistics__2dkde__kernels.html#ga23d693ecd2ee031496fc14753448f0e0">jkqtpstatKernel2DGaussian</a></div><div class="ttdeci">jkqtmath_LIB_EXPORT double jkqtpstatKernel2DGaussian(double tx, double ty)</div><div class="ttdoc">a 2D Gaussian kernel function, e.g. for Kernel Density Estimation</div></div>
 <div class="ttc" id="agroup__jkqtptools__math__statistics__2dkde_html_gabea5faa220697a680179e0460ab6a46d"><div class="ttname"><a href="group__jkqtptools__math__statistics__2dkde.html#gabea5faa220697a680179e0460ab6a46d">jkqtpstatKDE2D</a></div><div class="ttdeci">void jkqtpstatKDE2D(InputItX firstX, InputItX lastX, InputItY firstY, InputItY lastY, OutputIt histogramImgOut, double xmin, double xmax, double ymin, double ymax, size_t xbins, size_t ybins, const std::function&lt; double(double, double)&gt; &amp;kernel=std::function&lt; double(double, double)&gt;(&amp;jkqtpstatKernel2DGaussian), double bandwidthX=1.0, double bandwidthY=1.0)</div><div class="ttdoc">calculate an autoranged 2-dimensional Kernel Density Estimation (KDE) from the given data range first...</div><div class="ttdef"><b>Definition</b> jkqtpstatkde.h:502</div></div>
 </div><!-- fragment --><p>Finally the histogram is drawn using a <code><a class="el" href="class_j_k_q_t_p_column_math_image.html" title="class to plot an image from an 2-dimensional array of values stored in a column of the datastore">JKQTPColumnMathImage</a></code>: </p><div class="fragment"><div class="line"><a class="code hl_class" href="class_j_k_q_t_p_column_math_image.html">JKQTPColumnMathImage</a>* gKDE;</div>
 <div class="line">plotkde-&gt;addGraph(gKDE=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_column_math_image.html">JKQTPColumnMathImage</a>(plotkde));</div>
@@ -364,7 +364,7 @@ Screenshot of the full Program</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Fri Feb 9 2024 12:55:32 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Feb 9 2024 23:28:47 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

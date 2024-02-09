@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"class_j_k_q_t_p_base_key.html#a78ddfd52e030b07b0d6d094e45192aaf":[10,4,1,1,3,2,36],
 "class_j_k_q_t_p_base_key.html#a79272d3394e6058b111390f53b03aae1":[10,4,1,1,3,2,7],
 "class_j_k_q_t_p_base_key.html#a7f523a4f13dd7e39f61bd77bc08248ae":[10,4,1,1,3,2,25],
 "class_j_k_q_t_p_base_key.html#a82917d695ae24d39e7a908c0fdd840da":[10,4,1,1,3,2,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#ab40b054a0abe7f76a1bd83753781bfd5":[10,4,1,1,1,9,2,1,77],
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#ab4fed5e8fd0aafc974cdc35ab8923529":[10,4,1,1,1,9,2,1,4],
 "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#aba1984622e6c7fe93b92ef5bf765c6f3":[10,4,1,1,1,9,2,1,23],
-"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#abb165f8df83311dee204096881d2113b":[10,4,1,1,1,9,2,1,50],
-"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#abba3b0bda7c410672eb8c13d05a640b8":[10,4,1,1,1,9,2,1,40]
+"class_j_k_q_t_p_color_palette_style_and_tools_mixin.html#abb165f8df83311dee204096881d2113b":[10,4,1,1,1,9,2,1,50]
 };

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nonvisiblelinecompressionagressiveness_0',['nonvisibleLineCompressionAgressiveness',['../class_j_k_q_t_p_graph_lines_compression_mixin.html#a417f4f83220f52626a2d5b753d1590c0',1,'JKQTPGraphLinesCompressionMixin']]]
+  ['minlinewidth_0',['minLineWidth',['../class_j_k_q_t_p_vector_field_graph.html#a31641f6bee36e3aedc0947af2564047d',1,'JKQTPVectorFieldGraph']]]
 ];

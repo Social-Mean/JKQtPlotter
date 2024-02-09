@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"class_j_k_q_t_p_math_image_color_palette_combo_box.html#af254c526cb22fa86498220c8cf70c229":[10,4,1,3,0,9,3],
 "class_j_k_q_t_p_math_parser.html":[10,2,4,17],
 "class_j_k_q_t_p_math_parser.html#a077b4922e7199de70054f44b1f5ea7bf":[10,2,4,17,50],
 "class_j_k_q_t_p_math_parser.html#a0946fbcde0612b5a93969e4af1b7515d":[10,2,4,17,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "class_j_k_q_t_p_paint_device_adapter.html#a77c586b60165321555f10e582e42973f":[10,4,1,5,1,5],
 "class_j_k_q_t_p_paint_device_adapter.html#a8bfc80e46759c357a5828b55c998370f":[10,4,1,5,1,3],
 "class_j_k_q_t_p_paint_device_adapter.html#a9bf96dcdd15a9ea13f9e8f285de1779f":[10,4,1,5,1,9],
-"class_j_k_q_t_p_paint_device_adapter.html#ac859838104f8ab69578d722e35c9fe82":[10,4,1,5,1,1],
-"class_j_k_q_t_p_paint_device_adapter.html#add9ef7371a72f0dd45e8b2a82883cbd7":[10,4,1,5,1,2]
+"class_j_k_q_t_p_paint_device_adapter.html#ac859838104f8ab69578d722e35c9fe82":[10,4,1,5,1,1]
 };

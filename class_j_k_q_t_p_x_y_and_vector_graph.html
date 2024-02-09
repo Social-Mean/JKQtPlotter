@@ -126,6 +126,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_p_x_y_and_vector_graph.h
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_j_k_q_t_p_x_y_and_vector_graph-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">JKQTPXYAndVectorGraph Class Reference<div class="ingroups"><a class="el" href="group__jkqtplotter.html">JKQTPlotter: Qt based Scientific Plotter Class</a> &raquo; <a class="el" href="group__jkqtplotter__classdoc.html">Type/Class/Function Documentation</a> &raquo; <a class="el" href="group__jkqtplotter__elements.html">Plot Element Classes</a> &raquo; <a class="el" href="group__jkqtplotter__basegraphs.html">Baseclasses for Graphs</a></div></div></div>
@@ -139,7 +140,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_p_x_y_and_vector_graph.h
 <div class="dynheader">
 Inheritance diagram for JKQTPXYAndVectorGraph:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_p_x_y_and_vector_graph__inherit__graph.svg" width="234" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_p_x_y_and_vector_graph__inherit__graph.svg" width="276" height="512"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for JKQTPXYAndVectorGraph:</div>
@@ -423,9 +424,13 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a506bb6b6bfa1a37c116fc6cfc61e506f" id="r_a506bb6b6bfa1a37c116fc6cfc61e506f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a506bb6b6bfa1a37c116fc6cfc61e506f">getIndexRange</a> (int &amp;imin, int &amp;imax) const override</td></tr>
 <tr class="memdesc:a506bb6b6bfa1a37c116fc6cfc61e506f"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines the range of row indexes available in the data columns of this graph  <br /></td></tr>
 <tr class="separator:a506bb6b6bfa1a37c116fc6cfc61e506f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04a0d0af50a39f4e9b5a0cda4334781d" id="r_a04a0d0af50a39f4e9b5a0cda4334781d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a04a0d0af50a39f4e9b5a0cda4334781d">getVectorAngle</a> (int i) const</td></tr>
+<tr class="separator:a04a0d0af50a39f4e9b5a0cda4334781d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65ced6e97f7015746c98fb7f4241efc8" id="r_a65ced6e97f7015746c98fb7f4241efc8"><td class="memItemLeft" align="right" valign="top">QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a65ced6e97f7015746c98fb7f4241efc8">getVectorDxDy</a> (int i) const</td></tr>
 <tr class="memdesc:a65ced6e97f7015746c98fb7f4241efc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function interprets vectorDataLayout together with (dxColumn, dyColumn) or (angleColumn, lengthColumn) or ... and returns the <em>i</em> -th vectors <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture>  <br /></td></tr>
 <tr class="separator:a65ced6e97f7015746c98fb7f4241efc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cce9e410583829efe2936d202e1f6e0" id="r_a6cce9e410583829efe2936d202e1f6e0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a6cce9e410583829efe2936d202e1f6e0">getVectorMagnitude</a> (int i) const</td></tr>
+<tr class="separator:a6cce9e410583829efe2936d202e1f6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_j_k_q_t_p_x_y_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_p_x_y_graph')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_p_x_y_graph.html">JKQTPXYGraph</a></td></tr>
 <tr class="memitem:a85d1f764f38d16ed361dd211b49e551d inherit pro_methods_class_j_k_q_t_p_x_y_graph" id="r_a85d1f764f38d16ed361dd211b49e551d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#a85d1f764f38d16ed361dd211b49e551d">getDataIndex</a> (int i) const</td></tr>
 <tr class="memdesc:a85d1f764f38d16ed361dd211b49e551d inherit pro_methods_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the index of the i-th datapoint (where i is an index into the SORTED datapoints)  <br /></td></tr>
@@ -474,6 +479,15 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a0fd8e4d7c0235a5ad48da313adbe134c inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a0fd8e4d7c0235a5ad48da313adbe134c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a0fd8e4d7c0235a5ad48da313adbe134c">reserveHitTestData</a> (int points)</td></tr>
 <tr class="memdesc:a0fd8e4d7c0235a5ad48da313adbe134c inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">reserve list entries for up to <em>points</em> graph points in the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
 <tr class="separator:a0fd8e4d7c0235a5ad48da313adbe134c inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a2756269c83c06426a219ec48a35428e4" id="r_a2756269c83c06426a219ec48a35428e4"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a2756269c83c06426a219ec48a35428e4">getVectorAngle</a> (const QPointF &amp;v)</td></tr>
+<tr class="memdesc:a2756269c83c06426a219ec48a35428e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the rotation angle (3 o'clock is 0) in radians <picture><source srcset="form_257_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ [0...2\pi] $" src="form_257.png" width="47" height="18"/></picture> of a vector <em>v</em>  <br /></td></tr>
+<tr class="separator:a2756269c83c06426a219ec48a35428e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a621d99c1e27ed1badecc269eb638ae6a" id="r_a621d99c1e27ed1badecc269eb638ae6a"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a621d99c1e27ed1badecc269eb638ae6a">getVectorMagnitude</a> (const QPointF &amp;v)</td></tr>
+<tr class="memdesc:a621d99c1e27ed1badecc269eb638ae6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the magnitude/length of a vector <em>v</em>  <br /></td></tr>
+<tr class="separator:a621d99c1e27ed1badecc269eb638ae6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -538,7 +552,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This virtual <a class="el" href="class_j_k_q_t_p_graph.html" title="this virtual base class of the (data-column based) graphs, which are part of a JKQTPlotter plot and w...">JKQTPGraph</a> descendent extends <a class="el" href="class_j_k_q_t_p_x_y_graph.html" title="This virtual JKQTPGraph descendent may be used as base for all graphs that use at least two columns t...">JKQTPXYGraph</a> with two additional columns that encode for a vector starting at (x,y), i.e. either two distances along the x- and y-axis ( <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture>), or a rotation angle <picture><source srcset="form_255_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \alpha $" src="form_255.png" width="10" height="8"/></picture> and a vector length <picture><source srcset="form_256_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \l $" src="form_256.png" width="5" height="13"/></picture> . </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html" title="This graph plots a vector field, i.e. a set of vectors (dx,dy) or (angle,length) at positions (x,...">JKQTPVectorFieldGraph</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html" title="This graph plots a vector field, i.e. a set of vectors (dx,dy) or (angle,length) at positions (x,...">JKQTPVectorFieldGraph</a>, <a class="el" href="class_j_k_q_t_p_parametrized_vector_field_graph.html" title="This graph plots a vector field, i.e. a set of vectors (dx,dy) or (angle,length) at positions (x,...">JKQTPParametrizedVectorFieldGraph</a> </dd></dl>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a358c456f5376228de9be25bb55adafcc" name="a358c456f5376228de9be25bb55adafcc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a358c456f5376228de9be25bb55adafcc">&#9670;&#160;</a></span>VectorDataLayout</h2>
@@ -601,11 +615,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the column that contains the rotation angle [in radian]   </p>
-<p>An angle of 0 means a right-pointing vector and angle is measured count-clockwise, so angle <picture><source srcset="form_255_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \alpha $" src="form_255.png" width="10" height="8"/></picture> and length <picture><source srcset="form_257_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ l $" src="form_257.png" width="5" height="13"/></picture> can be converted to <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture> via: </p><p class="formulaDsp">
-<picture><source srcset="form_258_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta x = l\cdot \cos\alpha \]" src="form_258.png" width="96" height="13"/></picture>
+<p>An angle of 0 means a right-pointing vector and angle is measured count-clockwise, so angle <picture><source srcset="form_255_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \alpha $" src="form_255.png" width="10" height="8"/></picture> and length <picture><source srcset="form_258_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ l $" src="form_258.png" width="5" height="13"/></picture> can be converted to <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture> via: </p><p class="formulaDsp">
+<picture><source srcset="form_259_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta x = l\cdot \cos\alpha \]" src="form_259.png" width="96" height="13"/></picture>
 </p>
  <p class="formulaDsp">
-<picture><source srcset="form_259_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta y = l\cdot \sin\alpha \]" src="form_259.png" width="93" height="16"/></picture>
+<picture><source srcset="form_260_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta y = l\cdot \sin\alpha \]" src="form_260.png" width="93" height="16"/></picture>
 </p>
 <p> Note that these calculations are performed in the coordinate-axis-space, NOT in screen pixel space!</p>
 <dl class="section note"><dt>Note</dt><dd>Note that this column is only used, when vectorDataLayout is set accordingly to AngleAndLengthLayout! Also note that Setter-functions (e.g. <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a447a16cc3e1d8c66d8ba581bcf0c3264" title="the column that contains the rotation angle [in radian]">setAngleColumn()</a> ) will ensure that vectorDataLayout is set accordingly.</dd></dl>
@@ -719,15 +733,69 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the column that contains the vector length   </p>
-<p>An angle of 0 means a right-pointing vector and angle is measured count-clockwise, so angle <picture><source srcset="form_255_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \alpha $" src="form_255.png" width="10" height="8"/></picture> and length <picture><source srcset="form_257_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ l $" src="form_257.png" width="5" height="13"/></picture> can be converted to <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture> via: </p><p class="formulaDsp">
-<picture><source srcset="form_258_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta x = l\cdot \cos\alpha \]" src="form_258.png" width="96" height="13"/></picture>
+<p>An angle of 0 means a right-pointing vector and angle is measured count-clockwise, so angle <picture><source srcset="form_255_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \alpha $" src="form_255.png" width="10" height="8"/></picture> and length <picture><source srcset="form_258_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ l $" src="form_258.png" width="5" height="13"/></picture> can be converted to <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture> via: </p><p class="formulaDsp">
+<picture><source srcset="form_259_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta x = l\cdot \cos\alpha \]" src="form_259.png" width="96" height="13"/></picture>
 </p>
  <p class="formulaDsp">
-<picture><source srcset="form_259_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta y = l\cdot \sin\alpha \]" src="form_259.png" width="93" height="16"/></picture>
+<picture><source srcset="form_260_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta y = l\cdot \sin\alpha \]" src="form_260.png" width="93" height="16"/></picture>
 </p>
 <p> Note that these calculations are performed in the coordinate-axis-space, NOT in screen pixel space!</p>
 <dl class="section note"><dt>Note</dt><dd>Note that this column is only used, when vectorDataLayout is set accordingly to AngleAndLengthLayout! Also note that Setter-functions (e.g. <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a447a16cc3e1d8c66d8ba581bcf0c3264" title="the column that contains the rotation angle [in radian]">setAngleColumn()</a> ) will ensure that vectorDataLayout is set accordingly.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a447a16cc3e1d8c66d8ba581bcf0c3264" title="the column that contains the rotation angle [in radian]">setAngleColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a094b9ae644d3d75c0093ac3977868658" title="the column that contains the vector length">setLengthColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a3157912e2330bace0e819f6b2cf0bf4e" title="the column that contains the rotation angle [in radian]">getAngleColumn()</a>, <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a31090f9e831f58c654bb7bb904f44d38" title="the column that contains the vector length">getLengthColumn()</a>     </dd></dl>
+
+</div>
+</div>
+<a id="a2756269c83c06426a219ec48a35428e4" name="a2756269c83c06426a219ec48a35428e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2756269c83c06426a219ec48a35428e4">&#9670;&#160;</a></span>getVectorAngle() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static double JKQTPXYAndVectorGraph::getVectorAngle </td>
+          <td>(</td>
+          <td class="paramtype">const QPointF &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>calculates the rotation angle (3 o'clock is 0) in radians <picture><source srcset="form_257_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ [0...2\pi] $" src="form_257.png" width="47" height="18"/></picture> of a vector <em>v</em> </p>
+
+</div>
+</div>
+<a id="a04a0d0af50a39f4e9b5a0cda4334781d" name="a04a0d0af50a39f4e9b5a0cda4334781d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04a0d0af50a39f4e9b5a0cda4334781d">&#9670;&#160;</a></span>getVectorAngle() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPXYAndVectorGraph::getVectorAngle </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -775,6 +843,60 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>this function interprets vectorDataLayout together with (dxColumn, dyColumn) or (angleColumn, lengthColumn) or ... and returns the <em>i</em> -th vectors <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture> </p>
+
+</div>
+</div>
+<a id="a621d99c1e27ed1badecc269eb638ae6a" name="a621d99c1e27ed1badecc269eb638ae6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a621d99c1e27ed1badecc269eb638ae6a">&#9670;&#160;</a></span>getVectorMagnitude() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static double JKQTPXYAndVectorGraph::getVectorMagnitude </td>
+          <td>(</td>
+          <td class="paramtype">const QPointF &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>calculates the magnitude/length of a vector <em>v</em> </p>
+
+</div>
+</div>
+<a id="a6cce9e410583829efe2936d202e1f6e0" name="a6cce9e410583829efe2936d202e1f6e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cce9e410583829efe2936d202e1f6e0">&#9670;&#160;</a></span>getVectorMagnitude() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPXYAndVectorGraph::getVectorMagnitude </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1008,11 +1130,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the column that contains the rotation angle [in radian]   </p>
-<p>An angle of 0 means a right-pointing vector and angle is measured count-clockwise, so angle <picture><source srcset="form_255_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \alpha $" src="form_255.png" width="10" height="8"/></picture> and length <picture><source srcset="form_257_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ l $" src="form_257.png" width="5" height="13"/></picture> can be converted to <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture> via: </p><p class="formulaDsp">
-<picture><source srcset="form_258_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta x = l\cdot \cos\alpha \]" src="form_258.png" width="96" height="13"/></picture>
+<p>An angle of 0 means a right-pointing vector and angle is measured count-clockwise, so angle <picture><source srcset="form_255_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \alpha $" src="form_255.png" width="10" height="8"/></picture> and length <picture><source srcset="form_258_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ l $" src="form_258.png" width="5" height="13"/></picture> can be converted to <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture> via: </p><p class="formulaDsp">
+<picture><source srcset="form_259_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta x = l\cdot \cos\alpha \]" src="form_259.png" width="96" height="13"/></picture>
 </p>
  <p class="formulaDsp">
-<picture><source srcset="form_259_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta y = l\cdot \sin\alpha \]" src="form_259.png" width="93" height="16"/></picture>
+<picture><source srcset="form_260_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta y = l\cdot \sin\alpha \]" src="form_260.png" width="93" height="16"/></picture>
 </p>
 <p> Note that these calculations are performed in the coordinate-axis-space, NOT in screen pixel space!</p>
 <dl class="section note"><dt>Note</dt><dd>Note that this column is only used, when vectorDataLayout is set accordingly to AngleAndLengthLayout! Also note that Setter-functions (e.g. <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a447a16cc3e1d8c66d8ba581bcf0c3264" title="the column that contains the rotation angle [in radian]">setAngleColumn()</a> ) will ensure that vectorDataLayout is set accordingly.</dd></dl>
@@ -1144,11 +1266,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the column that contains the vector length   </p>
-<p>An angle of 0 means a right-pointing vector and angle is measured count-clockwise, so angle <picture><source srcset="form_255_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \alpha $" src="form_255.png" width="10" height="8"/></picture> and length <picture><source srcset="form_257_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ l $" src="form_257.png" width="5" height="13"/></picture> can be converted to <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture> via: </p><p class="formulaDsp">
-<picture><source srcset="form_258_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta x = l\cdot \cos\alpha \]" src="form_258.png" width="96" height="13"/></picture>
+<p>An angle of 0 means a right-pointing vector and angle is measured count-clockwise, so angle <picture><source srcset="form_255_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \alpha $" src="form_255.png" width="10" height="8"/></picture> and length <picture><source srcset="form_258_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ l $" src="form_258.png" width="5" height="13"/></picture> can be converted to <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture> via: </p><p class="formulaDsp">
+<picture><source srcset="form_259_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta x = l\cdot \cos\alpha \]" src="form_259.png" width="96" height="13"/></picture>
 </p>
  <p class="formulaDsp">
-<picture><source srcset="form_259_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta y = l\cdot \sin\alpha \]" src="form_259.png" width="93" height="16"/></picture>
+<picture><source srcset="form_260_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta y = l\cdot \sin\alpha \]" src="form_260.png" width="93" height="16"/></picture>
 </p>
 <p> Note that these calculations are performed in the coordinate-axis-space, NOT in screen pixel space!</p>
 <dl class="section note"><dt>Note</dt><dd>Note that this column is only used, when vectorDataLayout is set accordingly to AngleAndLengthLayout! Also note that Setter-functions (e.g. <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a447a16cc3e1d8c66d8ba581bcf0c3264" title="the column that contains the rotation angle [in radian]">setAngleColumn()</a> ) will ensure that vectorDataLayout is set accordingly.</dd></dl>
@@ -1185,6 +1307,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_j_k_q_t_p_x_y_graph.html#ac8cf4dab6f880b7f5ca3fd32503c23d1">JKQTPXYGraph</a>.</p>
 
+<p>Reimplemented in <a class="el" href="class_j_k_q_t_p_parametrized_vector_field_graph.html#a386b4bd591eddc6118530c06aadd8935">JKQTPParametrizedVectorFieldGraph</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
@@ -1209,11 +1333,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the column that contains the rotation angle [in radian] </p>
-<p>An angle of 0 means a right-pointing vector and angle is measured count-clockwise, so angle <picture><source srcset="form_255_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \alpha $" src="form_255.png" width="10" height="8"/></picture> and length <picture><source srcset="form_257_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ l $" src="form_257.png" width="5" height="13"/></picture> can be converted to <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture> via: </p><p class="formulaDsp">
-<picture><source srcset="form_258_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta x = l\cdot \cos\alpha \]" src="form_258.png" width="96" height="13"/></picture>
+<p>An angle of 0 means a right-pointing vector and angle is measured count-clockwise, so angle <picture><source srcset="form_255_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \alpha $" src="form_255.png" width="10" height="8"/></picture> and length <picture><source srcset="form_258_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ l $" src="form_258.png" width="5" height="13"/></picture> can be converted to <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture> via: </p><p class="formulaDsp">
+<picture><source srcset="form_259_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta x = l\cdot \cos\alpha \]" src="form_259.png" width="96" height="13"/></picture>
 </p>
  <p class="formulaDsp">
-<picture><source srcset="form_259_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta y = l\cdot \sin\alpha \]" src="form_259.png" width="93" height="16"/></picture>
+<picture><source srcset="form_260_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta y = l\cdot \sin\alpha \]" src="form_260.png" width="93" height="16"/></picture>
 </p>
 <p> Note that these calculations are performed in the coordinate-axis-space, NOT in screen pixel space!</p>
 <dl class="section note"><dt>Note</dt><dd>Note that this column is only used, when vectorDataLayout is set accordingly to AngleAndLengthLayout! Also note that Setter-functions (e.g. <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a447a16cc3e1d8c66d8ba581bcf0c3264" title="the column that contains the rotation angle [in radian]">setAngleColumn()</a> ) will ensure that vectorDataLayout is set accordingly.</dd></dl>
@@ -1294,11 +1418,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the column that contains the vector length </p>
-<p>An angle of 0 means a right-pointing vector and angle is measured count-clockwise, so angle <picture><source srcset="form_255_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \alpha $" src="form_255.png" width="10" height="8"/></picture> and length <picture><source srcset="form_257_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ l $" src="form_257.png" width="5" height="13"/></picture> can be converted to <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture> via: </p><p class="formulaDsp">
-<picture><source srcset="form_258_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta x = l\cdot \cos\alpha \]" src="form_258.png" width="96" height="13"/></picture>
+<p>An angle of 0 means a right-pointing vector and angle is measured count-clockwise, so angle <picture><source srcset="form_255_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \alpha $" src="form_255.png" width="10" height="8"/></picture> and length <picture><source srcset="form_258_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ l $" src="form_258.png" width="5" height="13"/></picture> can be converted to <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture> via: </p><p class="formulaDsp">
+<picture><source srcset="form_259_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta x = l\cdot \cos\alpha \]" src="form_259.png" width="96" height="13"/></picture>
 </p>
  <p class="formulaDsp">
-<picture><source srcset="form_259_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta y = l\cdot \sin\alpha \]" src="form_259.png" width="93" height="16"/></picture>
+<picture><source srcset="form_260_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaDsp" alt="\[ \Delta y = l\cdot \sin\alpha \]" src="form_260.png" width="93" height="16"/></picture>
 </p>
 <p> Note that these calculations are performed in the coordinate-axis-space, NOT in screen pixel space!</p>
 <dl class="section note"><dt>Note</dt><dd>Note that this column is only used, when vectorDataLayout is set accordingly to AngleAndLengthLayout! Also note that Setter-functions (e.g. <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a447a16cc3e1d8c66d8ba581bcf0c3264" title="the column that contains the rotation angle [in radian]">setAngleColumn()</a> ) will ensure that vectorDataLayout is set accordingly.</dd></dl>
@@ -1340,7 +1464,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html">JKQTPXYAndVectorGraph</a></li>
-    <li class="footer">Generated on Fri Feb 9 2024 12:55:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Feb 9 2024 23:28:49 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

@@ -9,7 +9,7 @@ var searchData=
   ['parametrized_20symbols_20colors_6',['Example (JKQTPlotter): Scatter Graph with Parametrized Symbols/Colors',['../_j_k_q_t_plotter_param_scatter.html',1,'exampleTutorialProjects']]],
   ['parsed_20mathematical_20functions_20as_20line_20graphs_7',['Example (JKQTPlotter): Plotting Parsed Mathematical Functions as Line Graphs',['../_j_k_q_t_plotter_parsed_function_plot.html',1,'exampleTutorialProjects']]],
   ['plot_8',['plot',['../_j_k_q_t_plotter_image_plot.html',1,'Example (JKQTPlotter): Simple math image plot'],['../_j_k_q_t_plotter_r_g_b_image_plot.html',1,'Example (JKQTPlotter): Simple Math RGB/CMY Image Plot']]],
-  ['plot_20example_9',['Example (JKQTPlotter): Vector Field Plot Example',['../_j_k_q_t_plotter_vector_field_example.html',1,'exampleTutorialProjects']]],
+  ['plot_20example_9',['plot example',['../_j_k_q_t_p_parametrized_vector_field_graph_example.html',1,'Example (JKQTPlotter): Vector Field Plot Example'],['../_j_k_q_t_plotter_vector_field_example.html',1,'Example (JKQTPlotter): Vector Field Plot Example']]],
   ['plot_20showin_20a_201_20channel_20cimg_20image_10',['Example (JKQTPlotter): Simple math image plot, showin a 1-channel CImg image',['../_j_k_q_t_plotter_image_plot_c_img.html',1,'exampleTutorialProjects']]],
   ['plot_20showin_20a_201_20channel_20opencv_20cv_3a_3amat_11',['Example (JKQTPlotter): Simple math image plot, showin a 1-channel OpenCV cv::Mat',['../_j_k_q_t_plotter_image_plot_open_c_v.html',1,'exampleTutorialProjects']]],
   ['plot_20showing_20a_203_20channel_20cimg_20image_12',['Example (JKQTPlotter): Simple math image plot, showing a 3-channel CImg image',['../_j_k_q_t_plotter_image_plot_r_g_b_c_img.html',1,'exampleTutorialProjects']]],

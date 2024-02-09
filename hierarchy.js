@@ -109,6 +109,7 @@ var hierarchy =
           ] ]
         ] ]
       ] ],
+      [ "JKQTPParametrizedVectorFieldGraph", "class_j_k_q_t_p_parametrized_vector_field_graph.html", null ],
       [ "JKQTPXYParametrizedScatterGraph", "class_j_k_q_t_p_x_y_parametrized_scatter_graph.html", [
         [ "JKQTPXYParametrizedErrorScatterGraph", "class_j_k_q_t_p_x_y_parametrized_error_scatter_graph.html", null ]
       ] ]
@@ -243,7 +244,9 @@ var hierarchy =
           ] ],
           [ "JKQTPGeoPolyLines", "class_j_k_q_t_p_geo_poly_lines.html", null ]
         ] ],
-        [ "JKQTPVectorFieldGraph", "class_j_k_q_t_p_vector_field_graph.html", null ]
+        [ "JKQTPVectorFieldGraph", "class_j_k_q_t_p_vector_field_graph.html", [
+          [ "JKQTPParametrizedVectorFieldGraph", "class_j_k_q_t_p_parametrized_vector_field_graph.html", null ]
+        ] ]
       ] ],
       [ "JKQTPGraphLineAndFillStyleMixin", "class_j_k_q_t_p_graph_line_and_fill_style_mixin.html", null ],
       [ "JKQTPGraphValueLabelStyleMixin", "class_j_k_q_t_p_graph_value_label_style_mixin.html", null ],

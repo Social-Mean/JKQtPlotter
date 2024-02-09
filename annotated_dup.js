@@ -185,6 +185,7 @@ var annotated_dup =
     [ "JKQTPOverlayImageEnhanced", "class_j_k_q_t_p_overlay_image_enhanced.html", "class_j_k_q_t_p_overlay_image_enhanced" ],
     [ "JKQTPPaintDeviceAdapter", "class_j_k_q_t_p_paint_device_adapter.html", "class_j_k_q_t_p_paint_device_adapter" ],
     [ "JKQTPPaletteList", "class_j_k_q_t_p_palette_list.html", "class_j_k_q_t_p_palette_list" ],
+    [ "JKQTPParametrizedVectorFieldGraph", "class_j_k_q_t_p_parametrized_vector_field_graph.html", "class_j_k_q_t_p_parametrized_vector_field_graph" ],
     [ "JKQTPParsedFunctionLineGraphBase", "class_j_k_q_t_p_parsed_function_line_graph_base.html", "class_j_k_q_t_p_parsed_function_line_graph_base" ],
     [ "JKQTPPeakStreamGraph", "class_j_k_q_t_p_peak_stream_graph.html", "class_j_k_q_t_p_peak_stream_graph" ],
     [ "JKQTPPlotAnnotationElement", "class_j_k_q_t_p_plot_annotation_element.html", "class_j_k_q_t_p_plot_annotation_element" ],

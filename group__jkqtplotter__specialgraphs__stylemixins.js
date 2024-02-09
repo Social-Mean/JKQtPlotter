@@ -337,7 +337,8 @@ var group__jkqtplotter__specialgraphs__stylemixins =
         [ "BoxLeft", "struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a7a358d5f37d5f4cf6469a3304bda9164ae6b6af01a3daa7ef8bca06b7aa5e7cbc", null ],
         [ "BoxRight", "struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a7a358d5f37d5f4cf6469a3304bda9164ac120d55e9a7d870ba02bc94d63ecc62a", null ],
         [ "BoxTop", "struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a7a358d5f37d5f4cf6469a3304bda9164a16cab177bc472fe603393166992c86df", null ],
-        [ "BoxBottom", "struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a7a358d5f37d5f4cf6469a3304bda9164aedd1a122956afcde0c16a8e1621f634c", null ]
+        [ "BoxBottom", "struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a7a358d5f37d5f4cf6469a3304bda9164aedd1a122956afcde0c16a8e1621f634c", null ],
+        [ "BoxCentered", "struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a7a358d5f37d5f4cf6469a3304bda9164a8ba9e93852a756f2426d51c72dca9ee6", null ]
       ] ],
       [ "LabelGeometry", "struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a0d7efcc8a40fb2c4e6a10ac5e4693ae0", null ],
       [ "boxpos", "struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a4f80ffa80008a0b2926dd81ecb6d4d5e", null ],
@@ -372,6 +373,7 @@ var group__jkqtplotter__specialgraphs__stylemixins =
       [ "JKQTPGLabelLeftHandSide", "group__jkqtplotter__specialgraphs__stylemixins.html#gga155cf285f6f0b6a9e8c4c6b1680aa4f5a1353af8b520435d4c6de131616cc36db", null ],
       [ "JKQTPGLabelTowardsYAxis", "group__jkqtplotter__specialgraphs__stylemixins.html#gga155cf285f6f0b6a9e8c4c6b1680aa4f5a2d7f5e4029c4a4f11e385136048b2358", null ],
       [ "JKQTPGLabelAwayFromYAxis", "group__jkqtplotter__specialgraphs__stylemixins.html#gga155cf285f6f0b6a9e8c4c6b1680aa4f5a00aad7929f986a2494775000876d2e8c", null ],
+      [ "JKQTPGLabelCenteredOnData", "group__jkqtplotter__specialgraphs__stylemixins.html#gga155cf285f6f0b6a9e8c4c6b1680aa4f5a4764478793df4f75ec564beee74a7f5f", null ],
       [ "JKQTPGraphLabelDefault", "group__jkqtplotter__specialgraphs__stylemixins.html#gga155cf285f6f0b6a9e8c4c6b1680aa4f5ab485ea4080b30d09c4d013e59c807dcd", null ]
     ] ],
     [ "JKQTPGraphLabelBoxType2String", "group__jkqtplotter__specialgraphs__stylemixins.html#ga2c18c4338ee8e19593e9fabba5fc6adb", null ],

@@ -56,7 +56,7 @@ var searchData=
   ['example_20jkqtplotter_20_3a_20simple_20stacked_20barchart_53',['Example (JKQTPlotter): Simple stacked barchart',['../_j_k_q_t_plotter_stacked_bar_chart.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtplotter_20_3a_20step_20line_20plots_20in_20different_20styles_54',['Example (JKQTPlotter): Step Line Plots in Different Styles',['../_j_k_q_t_plotter_special_step_line_plot.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtplotter_20_3a_20styling_20different_20aspects_20of_20boxplots_55',['Example (JKQTPlotter): Styling different aspects of boxplots',['../_j_k_q_t_plotter_boxplot_styling.html',1,'exampleTutorialProjects']]],
-  ['example_20jkqtplotter_20_3a_20vector_20field_20plot_20example_56',['Example (JKQTPlotter): Vector Field Plot Example',['../_j_k_q_t_plotter_vector_field_example.html',1,'exampleTutorialProjects']]],
+  ['example_20jkqtplotter_20_3a_20vector_20field_20plot_20example_56',['example jkqtplotter : vector field plot example',['../_j_k_q_t_p_parametrized_vector_field_graph_example.html',1,'Example (JKQTPlotter): Vector Field Plot Example'],['../_j_k_q_t_plotter_vector_field_example.html',1,'Example (JKQTPlotter): Vector Field Plot Example']]],
   ['example_20jkqtplotter_20_3a_20very_20simple_20line_20graph_57',['Example (JKQTPlotter): Very simple line-graph',['../_j_k_q_t_plotter_simple_test.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtplotter_20_3a_20very_20simple_20scatter_20graph_58',['Example (JKQTPlotter): Very simple scatter-graph',['../_j_k_q_t_plotterscatter.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtplotter_20_3a_20violin_20plots_59',['Example (JKQTPlotter): Violin Plots',['../_j_k_q_t_plotter_violinplot_graphs.html',1,'exampleTutorialProjects']]],

@@ -9,5 +9,6 @@ var searchData=
   ['annotation_6',['Annotation',['../group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4a55f6611cb342565cf0f5002400f53a95',1,'jkqtptools.h']]],
   ['asoutside_7',['AsOutside',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca250bec0791a7ccec1d6994fdd037ab71',1,'JKQTMathTextSymbolNode']]],
   ['assign_8',['ASSIGN',['../class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49a8b6585b6b704f00e0be91505010b9b17',1,'JKQTPMathParser']]],
-  ['autoscalelength_9',['AutoscaleLength',['../class_j_k_q_t_p_vector_field_graph.html#a8e27c9c1b426fc298118c8b5c547ab60a6e6c2b62d242b710576d00d88765f00b',1,'JKQTPVectorFieldGraph']]]
+  ['autoscalelength_9',['AutoscaleLength',['../class_j_k_q_t_p_vector_field_graph.html#a8e27c9c1b426fc298118c8b5c547ab60a6e6c2b62d242b710576d00d88765f00b',1,'JKQTPVectorFieldGraph']]],
+  ['autoscalelinewidthfromlength_10',['AutoscaleLineWidthFromLength',['../class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4a9fce1f1d3221734ea3b54925aa3d9c29',1,'JKQTPVectorFieldGraph']]]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"class_j_k_q_t_p_filled_horizontal_range_graph.html#a899465506b5eb1f028df2b0da2e6d5fe":[10,4,1,1,1,3,5,1],
 "class_j_k_q_t_p_filled_horizontal_range_graph.html#acafca8467f1810f4f40f47fcf9d0e81c":[10,4,1,1,1,3,5,4],
 "class_j_k_q_t_p_filled_horizontal_range_graph.html#ae7e13bed24e7e957c3b23c0269c373ce":[10,4,1,1,1,3,5,2],
 "class_j_k_q_t_p_filled_vertical_range_graph.html":[10,4,1,1,1,3,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "class_j_k_q_t_p_geo_polygon.html#a5d92736800544b8ae7b8df9e7de2870f":[10,4,1,1,1,4,11,2],
 "class_j_k_q_t_p_geo_polygon.html#a6349c93a3c375ced694489b345c77842":[10,4,1,1,1,4,11,14],
 "class_j_k_q_t_p_geo_polygon.html#a6a5ce8e0995d0c1c91c44bb03263b4fc":[10,4,1,1,1,4,11,19],
-"class_j_k_q_t_p_geo_polygon.html#a7de0ff12529eeb8a03cd8183ca878c8c":[10,4,1,1,1,4,11,6],
-"class_j_k_q_t_p_geo_polygon.html#a9ae8838c5516821427edfc9e66fe4417":[10,4,1,1,1,4,11,16]
+"class_j_k_q_t_p_geo_polygon.html#a7de0ff12529eeb8a03cd8183ca878c8c":[10,4,1,1,1,4,11,6]
 };

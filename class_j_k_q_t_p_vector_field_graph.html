@@ -124,6 +124,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_p_vector_field_graph.htm
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_j_k_q_t_p_vector_field_graph-members.html">List of all members</a>  </div>
@@ -138,7 +139,7 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_p_vector_field_graph.htm
 <div class="dynheader">
 Inheritance diagram for JKQTPVectorFieldGraph:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_p_vector_field_graph__inherit__graph.svg" width="534" height="436"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_j_k_q_t_p_vector_field_graph__inherit__graph.svg" width="534" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for JKQTPVectorFieldGraph:</div>
@@ -168,6 +169,14 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a8e27c9c1b426fc298118c8b5c547ab60"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates how the drawn vector's length is calculated from the data  <a href="class_j_k_q_t_p_vector_field_graph.html#a8e27c9c1b426fc298118c8b5c547ab60">More...</a><br /></td></tr>
 <tr class="separator:a8e27c9c1b426fc298118c8b5c547ab60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ade7f90f9741ee2626178eceeab4fd4" id="r_a0ade7f90f9741ee2626178eceeab4fd4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4">VectorLineWidthMode</a> { <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4afccc031564c8a51ff67d672a589ae682">DefaultVectorLineWidth</a>
+, <br />
+&#160;&#160;<a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4a9fce1f1d3221734ea3b54925aa3d9c29">AutoscaleLineWidthFromLength</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a0ade7f90f9741ee2626178eceeab4fd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes how the line width scales with the vector properties (or not)  <a href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4">More...</a><br /></td></tr>
+<tr class="separator:a0ade7f90f9741ee2626178eceeab4fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_class_j_k_q_t_p_x_y_and_vector_graph"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_j_k_q_t_p_x_y_and_vector_graph')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html">JKQTPXYAndVectorGraph</a></td></tr>
 <tr class="memitem:a358c456f5376228de9be25bb55adafcc inherit pub_types_class_j_k_q_t_p_x_y_and_vector_graph" id="r_a358c456f5376228de9be25bb55adafcc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a358c456f5376228de9be25bb55adafcc">VectorDataLayout</a> { <br />
 &#160;&#160;<a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a358c456f5376228de9be25bb55adafccac3890923437560746aba15d1e20c923f">DeltaXDeltaYLayout</a>
@@ -211,10 +220,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4ddea65b479cf5e5f5211783afc727db"><td class="mdescLeft">&#160;</td><td class="mdescRight">class constructor  <br /></td></tr>
 <tr class="separator:a4ddea65b479cf5e5f5211783afc727db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1c1f3ae53593fc3e172b420377a0ef5" id="r_ac1c1f3ae53593fc3e172b420377a0ef5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#ac1c1f3ae53593fc3e172b420377a0ef5">draw</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter) override</td></tr>
-<tr class="memdesc:ac1c1f3ae53593fc3e172b420377a0ef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">plots the graph to the plotter object specified as parent  <br /></td></tr>
+<tr class="memdesc:ac1c1f3ae53593fc3e172b420377a0ef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">plots the graph to the plotter object specified as parent    <br /></td></tr>
 <tr class="separator:ac1c1f3ae53593fc3e172b420377a0ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0b371b3f121a78d593d1d75c27b504f" id="r_aa0b371b3f121a78d593d1d75c27b504f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aa0b371b3f121a78d593d1d75c27b504f">drawKeyMarker</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;painter, const QRectF &amp;rect) override</td></tr>
-<tr class="memdesc:aa0b371b3f121a78d593d1d75c27b504f"><td class="mdescLeft">&#160;</td><td class="mdescRight">plots a key marker inside the specified rectangle <em>rect</em>  <br /></td></tr>
+<tr class="memdesc:aa0b371b3f121a78d593d1d75c27b504f"><td class="mdescLeft">&#160;</td><td class="mdescRight">plots a key marker inside the specified rectangle <em>rect</em>    <br /></td></tr>
 <tr class="separator:aa0b371b3f121a78d593d1d75c27b504f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfef7a2fb49af5ff7bf322cdff63ea39" id="r_abfef7a2fb49af5ff7bf322cdff63ea39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a69ec779faaca06f6747edf456c9cfd7d">VectorAnchorPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abfef7a2fb49af5ff7bf322cdff63ea39">getAnchorPoint</a> () const</td></tr>
 <tr class="memdesc:abfef7a2fb49af5ff7bf322cdff63ea39"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines where the vector is anchored    <br /></td></tr>
@@ -223,14 +232,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9f6f8efaf8bd6d361a47b3087ffee7bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">a scaling factor that can be used to modify the result of the autoscaling algorithm (m_vectorLengthMode <code>==AutoscaleLength</code>)    <br /></td></tr>
 <tr class="separator:a9f6f8efaf8bd6d361a47b3087ffee7bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f822448272552be9df841651cfaf744" id="r_a3f822448272552be9df841651cfaf744"><td class="memItemLeft" align="right" valign="top">virtual QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a3f822448272552be9df841651cfaf744">getKeyLabelColor</a> () const override</td></tr>
-<tr class="memdesc:a3f822448272552be9df841651cfaf744"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the color to be used for the key label  <br /></td></tr>
+<tr class="memdesc:a3f822448272552be9df841651cfaf744"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the color to be used for the key label    <br /></td></tr>
 <tr class="separator:a3f822448272552be9df841651cfaf744"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a572b73603605b9ab7d6c24ea7646e311" id="r_a572b73603605b9ab7d6c24ea7646e311"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a572b73603605b9ab7d6c24ea7646e311">getLengthScaleFactor</a> () const</td></tr>
 <tr class="memdesc:a572b73603605b9ab7d6c24ea7646e311"><td class="mdescLeft">&#160;</td><td class="mdescRight">if m_vectorLengthMode <code>==false</code>, this is the scale-factor used to calculate the vector length    <br /></td></tr>
 <tr class="separator:a572b73603605b9ab7d6c24ea7646e311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d5b0af7e76ab57284848c36bd848d39" id="r_a4d5b0af7e76ab57284848c36bd848d39"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a4d5b0af7e76ab57284848c36bd848d39">getMinLineWIdth</a> () const</td></tr>
+<tr class="memdesc:a4d5b0af7e76ab57284848c36bd848d39"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum line-width in pt, used for some modes of m_vectorLineWidthMode    <br /></td></tr>
+<tr class="separator:a4d5b0af7e76ab57284848c36bd848d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d318cc7ec64633f39c7a5f2a01d83bb" id="r_a4d318cc7ec64633f39c7a5f2a01d83bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a8e27c9c1b426fc298118c8b5c547ab60">VectorLengthMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a4d318cc7ec64633f39c7a5f2a01d83bb">getVectorLengthMode</a> () const</td></tr>
 <tr class="memdesc:a4d318cc7ec64633f39c7a5f2a01d83bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates how the length of the drawn vectors are determined from the data    <br /></td></tr>
 <tr class="separator:a4d318cc7ec64633f39c7a5f2a01d83bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7a27e59aeb50ef4220362829dfef8ac" id="r_aa7a27e59aeb50ef4220362829dfef8ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4">VectorLineWidthMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aa7a27e59aeb50ef4220362829dfef8ac">getVectorLineWidthMode</a> () const</td></tr>
+<tr class="memdesc:aa7a27e59aeb50ef4220362829dfef8ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines how the line width of the vectors is derived.    <br /></td></tr>
+<tr class="separator:aa7a27e59aeb50ef4220362829dfef8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a948ad0a7855a032c344ff967408badad" id="r_a948ad0a7855a032c344ff967408badad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a948ad0a7855a032c344ff967408badad">setAnchorPoint</a> (<a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a69ec779faaca06f6747edf456c9cfd7d">VectorAnchorPoint</a> newAnchorPoint)</td></tr>
 <tr class="memdesc:a948ad0a7855a032c344ff967408badad"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines where the vector is anchored    <br /></td></tr>
 <tr class="separator:a948ad0a7855a032c344ff967408badad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,9 +255,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abe098f674cc17008bd07e728bf0917b1" id="r_abe098f674cc17008bd07e728bf0917b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abe098f674cc17008bd07e728bf0917b1">setLengthScaleFactor</a> (double newLengthScaleFactor)</td></tr>
 <tr class="memdesc:abe098f674cc17008bd07e728bf0917b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">if m_vectorLengthMode <code>==false</code>, this is the scale-factor used to calculate the vector length    <br /></td></tr>
 <tr class="separator:abe098f674cc17008bd07e728bf0917b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcae1e625c2a46e04f6f0f7d43903124" id="r_abcae1e625c2a46e04f6f0f7d43903124"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abcae1e625c2a46e04f6f0f7d43903124">setMinLineWidth</a> (double lw)</td></tr>
+<tr class="memdesc:abcae1e625c2a46e04f6f0f7d43903124"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum line-width in pt, used for some modes of m_vectorLineWidthMode    <br /></td></tr>
+<tr class="separator:abcae1e625c2a46e04f6f0f7d43903124"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0db91f3608b3d343a1740eb3b868035e" id="r_a0db91f3608b3d343a1740eb3b868035e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0db91f3608b3d343a1740eb3b868035e">setVectorLengthMode</a> (<a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a8e27c9c1b426fc298118c8b5c547ab60">VectorLengthMode</a> newMode)</td></tr>
 <tr class="memdesc:a0db91f3608b3d343a1740eb3b868035e"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates how the length of the drawn vectors are determined from the data    <br /></td></tr>
 <tr class="separator:a0db91f3608b3d343a1740eb3b868035e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a375fde42f0bafa9149756c2fa48791bf" id="r_a375fde42f0bafa9149756c2fa48791bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a375fde42f0bafa9149756c2fa48791bf">setVectorLineWidthMode</a> (<a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4">VectorLineWidthMode</a> m)</td></tr>
+<tr class="memdesc:a375fde42f0bafa9149756c2fa48791bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines how the line width of the vectors is derived.    <br /></td></tr>
+<tr class="separator:a375fde42f0bafa9149756c2fa48791bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_j_k_q_t_p_x_y_and_vector_graph')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html">JKQTPXYAndVectorGraph</a></td></tr>
 <tr class="memitem:a6aebd7b3b87104baed5f6495d5baad0a inherit pub_methods_class_j_k_q_t_p_x_y_and_vector_graph" id="r_a6aebd7b3b87104baed5f6495d5baad0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a6aebd7b3b87104baed5f6495d5baad0a">JKQTPXYAndVectorGraph</a> (<a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> *<a class="el" href="class_j_k_q_t_p_plot_element.html#a7dcfd87466c520b10078c037527d8918">parent</a>=nullptr)</td></tr>
 <tr class="memdesc:a6aebd7b3b87104baed5f6495d5baad0a inherit pub_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">class constructor  <br /></td></tr>
@@ -525,6 +546,77 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2d904165c9b3ca34092730875c3f1d6f inherit pub_methods_class_j_k_q_t_p_graph_line_style_mixin"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the line width of the graph line (in pt)  <br /></td></tr>
 <tr class="separator:a2d904165c9b3ca34092730875c3f1d6f inherit pub_methods_class_j_k_q_t_p_graph_line_style_mixin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a319ea31ae9b25b915e6782259e519e98" id="r_a319ea31ae9b25b915e6782259e519e98"><td class="memItemLeft" align="right" valign="top">virtual QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a319ea31ae9b25b915e6782259e519e98">getLocalVectorColor</a> (int i, double x, double y, double dx, double dy) const</td></tr>
+<tr class="memdesc:a319ea31ae9b25b915e6782259e519e98"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal color functor, a customization point for derived classes  <br /></td></tr>
+<tr class="separator:a319ea31ae9b25b915e6782259e519e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91fa0d7350df7b3c865d8e70fc900cd5" id="r_a91fa0d7350df7b3c865d8e70fc900cd5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a91fa0d7350df7b3c865d8e70fc900cd5">getMaxVecLen</a> () const</td></tr>
+<tr class="memdesc:a91fa0d7350df7b3c865d8e70fc900cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">acess to internally calculated (before <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#ac1c1f3ae53593fc3e172b420377a0ef5" title="plots the graph to the plotter object specified as parent">draw()</a> actually draws) maximum vector length  <br /></td></tr>
+<tr class="separator:a91fa0d7350df7b3c865d8e70fc900cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff9ef880a8bc9b029bbc8d5bbb817955" id="r_aff9ef880a8bc9b029bbc8d5bbb817955"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aff9ef880a8bc9b029bbc8d5bbb817955">getMinVecLen</a> () const</td></tr>
+<tr class="memdesc:aff9ef880a8bc9b029bbc8d5bbb817955"><td class="mdescLeft">&#160;</td><td class="mdescRight">acess to internally calculated (before <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#ac1c1f3ae53593fc3e172b420377a0ef5" title="plots the graph to the plotter object specified as parent">draw()</a> actually draws) minimum vector length  <br /></td></tr>
+<tr class="separator:aff9ef880a8bc9b029bbc8d5bbb817955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_p_x_y_and_vector_graph')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html">JKQTPXYAndVectorGraph</a></td></tr>
+<tr class="memitem:a506bb6b6bfa1a37c116fc6cfc61e506f inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph" id="r_a506bb6b6bfa1a37c116fc6cfc61e506f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a506bb6b6bfa1a37c116fc6cfc61e506f">getIndexRange</a> (int &amp;imin, int &amp;imax) const override</td></tr>
+<tr class="memdesc:a506bb6b6bfa1a37c116fc6cfc61e506f inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines the range of row indexes available in the data columns of this graph  <br /></td></tr>
+<tr class="separator:a506bb6b6bfa1a37c116fc6cfc61e506f inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04a0d0af50a39f4e9b5a0cda4334781d inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph" id="r_a04a0d0af50a39f4e9b5a0cda4334781d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a04a0d0af50a39f4e9b5a0cda4334781d">getVectorAngle</a> (int i) const</td></tr>
+<tr class="separator:a04a0d0af50a39f4e9b5a0cda4334781d inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65ced6e97f7015746c98fb7f4241efc8 inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph" id="r_a65ced6e97f7015746c98fb7f4241efc8"><td class="memItemLeft" align="right" valign="top">QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a65ced6e97f7015746c98fb7f4241efc8">getVectorDxDy</a> (int i) const</td></tr>
+<tr class="memdesc:a65ced6e97f7015746c98fb7f4241efc8 inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function interprets vectorDataLayout together with (dxColumn, dyColumn) or (angleColumn, lengthColumn) or ... and returns the <em>i</em> -th vectors <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture>  <br /></td></tr>
+<tr class="separator:a65ced6e97f7015746c98fb7f4241efc8 inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cce9e410583829efe2936d202e1f6e0 inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph" id="r_a6cce9e410583829efe2936d202e1f6e0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a6cce9e410583829efe2936d202e1f6e0">getVectorMagnitude</a> (int i) const</td></tr>
+<tr class="separator:a6cce9e410583829efe2936d202e1f6e0 inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_j_k_q_t_p_x_y_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_p_x_y_graph')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_p_x_y_graph.html">JKQTPXYGraph</a></td></tr>
+<tr class="memitem:a85d1f764f38d16ed361dd211b49e551d inherit pro_methods_class_j_k_q_t_p_x_y_graph" id="r_a85d1f764f38d16ed361dd211b49e551d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#a85d1f764f38d16ed361dd211b49e551d">getDataIndex</a> (int i) const</td></tr>
+<tr class="memdesc:a85d1f764f38d16ed361dd211b49e551d inherit pro_methods_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the index of the i-th datapoint (where i is an index into the SORTED datapoints)  <br /></td></tr>
+<tr class="separator:a85d1f764f38d16ed361dd211b49e551d inherit pro_methods_class_j_k_q_t_p_x_y_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c50aaa13227bb11ac1b32054b006a34 inherit pro_methods_class_j_k_q_t_p_x_y_graph" id="r_a0c50aaa13227bb11ac1b32054b006a34"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#a0c50aaa13227bb11ac1b32054b006a34">intSortData</a> ()</td></tr>
+<tr class="memdesc:a0c50aaa13227bb11ac1b32054b006a34 inherit pro_methods_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">sorts data according to the specified criterion in <em>sortData</em> ... The result is stored as a index-map in sorted Indices  <br /></td></tr>
+<tr class="separator:a0c50aaa13227bb11ac1b32054b006a34 inherit pro_methods_class_j_k_q_t_p_x_y_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_j_k_q_t_p_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_p_graph')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_p_graph.html">JKQTPGraph</a></td></tr>
+<tr class="memitem:afb9ea846d23f9693004d5d927300dfa1 inherit pro_methods_class_j_k_q_t_p_graph" id="r_afb9ea846d23f9693004d5d927300dfa1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph.html#afb9ea846d23f9693004d5d927300dfa1">drawErrorsAfter</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;)</td></tr>
+<tr class="memdesc:afb9ea846d23f9693004d5d927300dfa1 inherit pro_methods_class_j_k_q_t_p_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is used to plot error inidcators after plotting the graphs.  <br /></td></tr>
+<tr class="separator:afb9ea846d23f9693004d5d927300dfa1 inherit pro_methods_class_j_k_q_t_p_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fab50ec18f867f5cc630b2acd2c573b inherit pro_methods_class_j_k_q_t_p_graph" id="r_a4fab50ec18f867f5cc630b2acd2c573b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph.html#a4fab50ec18f867f5cc630b2acd2c573b">drawErrorsBefore</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;)</td></tr>
+<tr class="memdesc:a4fab50ec18f867f5cc630b2acd2c573b inherit pro_methods_class_j_k_q_t_p_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is used to plot error inidcators before plotting the graphs.  <br /></td></tr>
+<tr class="separator:a4fab50ec18f867f5cc630b2acd2c573b inherit pro_methods_class_j_k_q_t_p_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabc44fb2c24cee3eb0fcb96d0df86ae2 inherit pro_methods_class_j_k_q_t_p_graph" id="r_aabc44fb2c24cee3eb0fcb96d0df86ae2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph.html#aabc44fb2c24cee3eb0fcb96d0df86ae2">getDataMinMax</a> (int column, double &amp;minx, double &amp;maxx, double &amp;smallestGreaterZero)</td></tr>
+<tr class="memdesc:aabc44fb2c24cee3eb0fcb96d0df86ae2 inherit pro_methods_class_j_k_q_t_p_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the maximum and minimum value of the given column  <br /></td></tr>
+<tr class="separator:aabc44fb2c24cee3eb0fcb96d0df86ae2 inherit pro_methods_class_j_k_q_t_p_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_j_k_q_t_p_plot_element"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_p_plot_element')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_p_plot_element.html">JKQTPPlotElement</a></td></tr>
+<tr class="memitem:ad3b8aaac9bed416135ca1510daf4ac3a inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_ad3b8aaac9bed416135ca1510daf4ac3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#ad3b8aaac9bed416135ca1510daf4ac3a">addHitTestData</a> (const <a class="el" href="struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html">HitTestLocation</a> &amp;loc)</td></tr>
+<tr class="memdesc:ad3b8aaac9bed416135ca1510daf4ac3a inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
+<tr class="separator:ad3b8aaac9bed416135ca1510daf4ac3a inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a996f51400823b01cce1613615946d4fe inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a996f51400823b01cce1613615946d4fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a996f51400823b01cce1613615946d4fe">addHitTestData</a> (const QPointF &amp;pos_, const QString &amp;label_)</td></tr>
+<tr class="memdesc:a996f51400823b01cce1613615946d4fe inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
+<tr class="separator:a996f51400823b01cce1613615946d4fe inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53fd5726bdd01dc5fe854d807a142585 inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a53fd5726bdd01dc5fe854d807a142585"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a53fd5726bdd01dc5fe854d807a142585">addHitTestData</a> (const QPointF &amp;pos_, int index_, const QString &amp;label_)</td></tr>
+<tr class="memdesc:a53fd5726bdd01dc5fe854d807a142585 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
+<tr class="separator:a53fd5726bdd01dc5fe854d807a142585 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7080d346fd4d7bf0a4263b35502dc0f1 inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a7080d346fd4d7bf0a4263b35502dc0f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a7080d346fd4d7bf0a4263b35502dc0f1">addHitTestData</a> (const QPointF &amp;pos_, int index_=-1, <a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *datastore=nullptr)</td></tr>
+<tr class="memdesc:a7080d346fd4d7bf0a4263b35502dc0f1 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>, this variant uses <a class="el" href="class_j_k_q_t_p_plot_element.html#acabb25ef081b70ca56e43cbfe1f2f0a8" title="tool-function for hitTest(), which formats a default label, taking into account the x- and y-position...">formatHitTestDefaultLabel()</a> to auto-generate the label  <br /></td></tr>
+<tr class="separator:a7080d346fd4d7bf0a4263b35502dc0f1 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a423d5e0d058a76cc685a4eae5f534836 inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a423d5e0d058a76cc685a4eae5f534836"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a423d5e0d058a76cc685a4eae5f534836">addHitTestData</a> (double x_, double y_, const QString &amp;label_)</td></tr>
+<tr class="memdesc:a423d5e0d058a76cc685a4eae5f534836 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a new point on the graph to the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
+<tr class="separator:a423d5e0d058a76cc685a4eae5f534836 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a566ed728ab0f75b2d34f796d32abf692 inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a566ed728ab0f75b2d34f796d32abf692"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a566ed728ab0f75b2d34f796d32abf692">addHitTestData</a> (double x_, double y_, int index_, const QString &amp;label_)</td></tr>
+<tr class="memdesc:a566ed728ab0f75b2d34f796d32abf692 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
+<tr class="separator:a566ed728ab0f75b2d34f796d32abf692 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9087bb46a2a6b92d7386f18bf3967f9 inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_af9087bb46a2a6b92d7386f18bf3967f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#af9087bb46a2a6b92d7386f18bf3967f9">addHitTestData</a> (double x_, double y_, int index_=-1, <a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *datastore=nullptr)</td></tr>
+<tr class="memdesc:af9087bb46a2a6b92d7386f18bf3967f9 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a new point on the graph to the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>, this variant uses <a class="el" href="class_j_k_q_t_p_plot_element.html#acabb25ef081b70ca56e43cbfe1f2f0a8" title="tool-function for hitTest(), which formats a default label, taking into account the x- and y-position...">formatHitTestDefaultLabel()</a> to auto-generate the label  <br /></td></tr>
+<tr class="separator:af9087bb46a2a6b92d7386f18bf3967f9 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5357f7866d0f84b3438c91a137ea6255 inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a5357f7866d0f84b3438c91a137ea6255"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a5357f7866d0f84b3438c91a137ea6255">clearHitTestData</a> ()</td></tr>
+<tr class="memdesc:a5357f7866d0f84b3438c91a137ea6255 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
+<tr class="separator:a5357f7866d0f84b3438c91a137ea6255 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acabb25ef081b70ca56e43cbfe1f2f0a8 inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_acabb25ef081b70ca56e43cbfe1f2f0a8"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#acabb25ef081b70ca56e43cbfe1f2f0a8">formatHitTestDefaultLabel</a> (double x, double y, int index=-1, <a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *datastore=nullptr) const</td></tr>
+<tr class="memdesc:acabb25ef081b70ca56e43cbfe1f2f0a8 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool-function for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>, which formats a default label, taking into account the x- and y-position (both provided) and optionally the errors of these positions.  <br /></td></tr>
+<tr class="separator:acabb25ef081b70ca56e43cbfe1f2f0a8 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fd8e4d7c0235a5ad48da313adbe134c inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a0fd8e4d7c0235a5ad48da313adbe134c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a0fd8e4d7c0235a5ad48da313adbe134c">reserveHitTestData</a> (int points)</td></tr>
+<tr class="memdesc:a0fd8e4d7c0235a5ad48da313adbe134c inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">reserve list entries for up to <em>points</em> graph points in the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
+<tr class="separator:a0fd8e4d7c0235a5ad48da313adbe134c inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a8d7976e899d35106345e3bfd168f97f8" id="r_a8d7976e899d35106345e3bfd168f97f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a69ec779faaca06f6747edf456c9cfd7d">VectorAnchorPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a8d7976e899d35106345e3bfd168f97f8">anchorPoint</a></td></tr>
@@ -533,8 +625,12 @@ Properties</h2></td></tr>
 <tr class="separator:abe37509cd850567249e3eb732ada4b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad422d4cec203312630394994e3013f36" id="r_ad422d4cec203312630394994e3013f36"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#ad422d4cec203312630394994e3013f36">lengthScaleFactor</a></td></tr>
 <tr class="separator:ad422d4cec203312630394994e3013f36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31641f6bee36e3aedc0947af2564047d" id="r_a31641f6bee36e3aedc0947af2564047d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a31641f6bee36e3aedc0947af2564047d">minLineWidth</a></td></tr>
+<tr class="separator:a31641f6bee36e3aedc0947af2564047d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75d8ac239b48a44ea3b439db1d3569f8" id="r_a75d8ac239b48a44ea3b439db1d3569f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a8e27c9c1b426fc298118c8b5c547ab60">VectorLengthMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a75d8ac239b48a44ea3b439db1d3569f8">vectorLengthMode</a></td></tr>
 <tr class="separator:a75d8ac239b48a44ea3b439db1d3569f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1198f1869703ae06dcad40915e3ccdff" id="r_a1198f1869703ae06dcad40915e3ccdff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4">VectorLineWidthMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a1198f1869703ae06dcad40915e3ccdff">vectorLineWidthMode</a></td></tr>
+<tr class="separator:a1198f1869703ae06dcad40915e3ccdff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_j_k_q_t_p_x_y_and_vector_graph"><td colspan="2" onclick="javascript:toggleInherit('properties_class_j_k_q_t_p_x_y_and_vector_graph')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html">JKQTPXYAndVectorGraph</a></td></tr>
 <tr class="memitem:a07bdda6fea4a0bd6a583c616d38eaadc inherit properties_class_j_k_q_t_p_x_y_and_vector_graph" id="r_a07bdda6fea4a0bd6a583c616d38eaadc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a07bdda6fea4a0bd6a583c616d38eaadc">angleColumn</a></td></tr>
 <tr class="memdesc:a07bdda6fea4a0bd6a583c616d38eaadc inherit properties_class_j_k_q_t_p_x_y_and_vector_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">the column that contains the rotation angle [in radian]  <br /></td></tr>
@@ -607,9 +703,21 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a946078c412b47485c5edd2b58c3f4d5b" id="r_a946078c412b47485c5edd2b58c3f4d5b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a946078c412b47485c5edd2b58c3f4d5b">m_lengthScaleFactor</a></td></tr>
 <tr class="memdesc:a946078c412b47485c5edd2b58c3f4d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">if m_vectorLengthMode <code>==false</code>, this is the scale-factor used to calculate the vector length  <br /></td></tr>
 <tr class="separator:a946078c412b47485c5edd2b58c3f4d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec3c8f9f6a97259eb55a95323c03f616" id="r_aec3c8f9f6a97259eb55a95323c03f616"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aec3c8f9f6a97259eb55a95323c03f616">m_maxVecLen</a></td></tr>
+<tr class="memdesc:aec3c8f9f6a97259eb55a95323c03f616"><td class="mdescLeft">&#160;</td><td class="mdescRight">internally calculated (before <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#ac1c1f3ae53593fc3e172b420377a0ef5" title="plots the graph to the plotter object specified as parent">draw()</a> actually draws) maximum vector length  <br /></td></tr>
+<tr class="separator:aec3c8f9f6a97259eb55a95323c03f616"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2183032efcd0989b1fb91b02685e4058" id="r_a2183032efcd0989b1fb91b02685e4058"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a2183032efcd0989b1fb91b02685e4058">m_minLineWidth</a></td></tr>
+<tr class="memdesc:a2183032efcd0989b1fb91b02685e4058"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum line-width in pt, used for some modes of m_vectorLineWidthMode  <br /></td></tr>
+<tr class="separator:a2183032efcd0989b1fb91b02685e4058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77bf1c1796f4f2ce5fc349196682624d" id="r_a77bf1c1796f4f2ce5fc349196682624d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a77bf1c1796f4f2ce5fc349196682624d">m_minVecLen</a></td></tr>
+<tr class="memdesc:a77bf1c1796f4f2ce5fc349196682624d"><td class="mdescLeft">&#160;</td><td class="mdescRight">internally calculated (before <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#ac1c1f3ae53593fc3e172b420377a0ef5" title="plots the graph to the plotter object specified as parent">draw()</a> actually draws) minimum vector length  <br /></td></tr>
+<tr class="separator:a77bf1c1796f4f2ce5fc349196682624d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a148b1cd508704ab738156c78e09fd516" id="r_a148b1cd508704ab738156c78e09fd516"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a8e27c9c1b426fc298118c8b5c547ab60">VectorLengthMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a148b1cd508704ab738156c78e09fd516">m_vectorLengthMode</a></td></tr>
 <tr class="memdesc:a148b1cd508704ab738156c78e09fd516"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates how the length of the drawn vectors are determined from the data  <br /></td></tr>
 <tr class="separator:a148b1cd508704ab738156c78e09fd516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90af3103d3b14842812d43e4aca194ed" id="r_a90af3103d3b14842812d43e4aca194ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4">VectorLineWidthMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a90af3103d3b14842812d43e4aca194ed">m_vectorLineWidthMode</a></td></tr>
+<tr class="memdesc:a90af3103d3b14842812d43e4aca194ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines how the line width of the vectors is derived.  <br /></td></tr>
+<tr class="separator:a90af3103d3b14842812d43e4aca194ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -681,61 +789,13 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:a173c0b1106704cdc5e89a8c4e276d46a inherit pub_slots_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets whether the graph is visible in the plot <br  />
   <br /></td></tr>
 <tr class="separator:a173c0b1106704cdc5e89a8c4e276d46a inherit pub_slots_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_p_x_y_and_vector_graph')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html">JKQTPXYAndVectorGraph</a></td></tr>
-<tr class="memitem:a506bb6b6bfa1a37c116fc6cfc61e506f inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph" id="r_a506bb6b6bfa1a37c116fc6cfc61e506f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a506bb6b6bfa1a37c116fc6cfc61e506f">getIndexRange</a> (int &amp;imin, int &amp;imax) const override</td></tr>
-<tr class="memdesc:a506bb6b6bfa1a37c116fc6cfc61e506f inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines the range of row indexes available in the data columns of this graph  <br /></td></tr>
-<tr class="separator:a506bb6b6bfa1a37c116fc6cfc61e506f inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65ced6e97f7015746c98fb7f4241efc8 inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph" id="r_a65ced6e97f7015746c98fb7f4241efc8"><td class="memItemLeft" align="right" valign="top">QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a65ced6e97f7015746c98fb7f4241efc8">getVectorDxDy</a> (int i) const</td></tr>
-<tr class="memdesc:a65ced6e97f7015746c98fb7f4241efc8 inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function interprets vectorDataLayout together with (dxColumn, dyColumn) or (angleColumn, lengthColumn) or ... and returns the <em>i</em> -th vectors <picture><source srcset="form_254_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta x, \Delta y $" src="form_254.png" width="52" height="16"/></picture>  <br /></td></tr>
-<tr class="separator:a65ced6e97f7015746c98fb7f4241efc8 inherit pro_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_class_j_k_q_t_p_x_y_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_p_x_y_graph')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_p_x_y_graph.html">JKQTPXYGraph</a></td></tr>
-<tr class="memitem:a85d1f764f38d16ed361dd211b49e551d inherit pro_methods_class_j_k_q_t_p_x_y_graph" id="r_a85d1f764f38d16ed361dd211b49e551d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#a85d1f764f38d16ed361dd211b49e551d">getDataIndex</a> (int i) const</td></tr>
-<tr class="memdesc:a85d1f764f38d16ed361dd211b49e551d inherit pro_methods_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the index of the i-th datapoint (where i is an index into the SORTED datapoints)  <br /></td></tr>
-<tr class="separator:a85d1f764f38d16ed361dd211b49e551d inherit pro_methods_class_j_k_q_t_p_x_y_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c50aaa13227bb11ac1b32054b006a34 inherit pro_methods_class_j_k_q_t_p_x_y_graph" id="r_a0c50aaa13227bb11ac1b32054b006a34"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#a0c50aaa13227bb11ac1b32054b006a34">intSortData</a> ()</td></tr>
-<tr class="memdesc:a0c50aaa13227bb11ac1b32054b006a34 inherit pro_methods_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">sorts data according to the specified criterion in <em>sortData</em> ... The result is stored as a index-map in sorted Indices  <br /></td></tr>
-<tr class="separator:a0c50aaa13227bb11ac1b32054b006a34 inherit pro_methods_class_j_k_q_t_p_x_y_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_class_j_k_q_t_p_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_p_graph')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_p_graph.html">JKQTPGraph</a></td></tr>
-<tr class="memitem:afb9ea846d23f9693004d5d927300dfa1 inherit pro_methods_class_j_k_q_t_p_graph" id="r_afb9ea846d23f9693004d5d927300dfa1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph.html#afb9ea846d23f9693004d5d927300dfa1">drawErrorsAfter</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;)</td></tr>
-<tr class="memdesc:afb9ea846d23f9693004d5d927300dfa1 inherit pro_methods_class_j_k_q_t_p_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is used to plot error inidcators after plotting the graphs.  <br /></td></tr>
-<tr class="separator:afb9ea846d23f9693004d5d927300dfa1 inherit pro_methods_class_j_k_q_t_p_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fab50ec18f867f5cc630b2acd2c573b inherit pro_methods_class_j_k_q_t_p_graph" id="r_a4fab50ec18f867f5cc630b2acd2c573b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph.html#a4fab50ec18f867f5cc630b2acd2c573b">drawErrorsBefore</a> (<a class="el" href="class_j_k_q_t_p_enhanced_painter.html">JKQTPEnhancedPainter</a> &amp;)</td></tr>
-<tr class="memdesc:a4fab50ec18f867f5cc630b2acd2c573b inherit pro_methods_class_j_k_q_t_p_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is used to plot error inidcators before plotting the graphs.  <br /></td></tr>
-<tr class="separator:a4fab50ec18f867f5cc630b2acd2c573b inherit pro_methods_class_j_k_q_t_p_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabc44fb2c24cee3eb0fcb96d0df86ae2 inherit pro_methods_class_j_k_q_t_p_graph" id="r_aabc44fb2c24cee3eb0fcb96d0df86ae2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_graph.html#aabc44fb2c24cee3eb0fcb96d0df86ae2">getDataMinMax</a> (int column, double &amp;minx, double &amp;maxx, double &amp;smallestGreaterZero)</td></tr>
-<tr class="memdesc:aabc44fb2c24cee3eb0fcb96d0df86ae2 inherit pro_methods_class_j_k_q_t_p_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the maximum and minimum value of the given column  <br /></td></tr>
-<tr class="separator:aabc44fb2c24cee3eb0fcb96d0df86ae2 inherit pro_methods_class_j_k_q_t_p_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_class_j_k_q_t_p_plot_element"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_j_k_q_t_p_plot_element')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_p_plot_element.html">JKQTPPlotElement</a></td></tr>
-<tr class="memitem:ad3b8aaac9bed416135ca1510daf4ac3a inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_ad3b8aaac9bed416135ca1510daf4ac3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#ad3b8aaac9bed416135ca1510daf4ac3a">addHitTestData</a> (const <a class="el" href="struct_j_k_q_t_p_plot_element_1_1_hit_test_location.html">HitTestLocation</a> &amp;loc)</td></tr>
-<tr class="memdesc:ad3b8aaac9bed416135ca1510daf4ac3a inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
-<tr class="separator:ad3b8aaac9bed416135ca1510daf4ac3a inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a996f51400823b01cce1613615946d4fe inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a996f51400823b01cce1613615946d4fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a996f51400823b01cce1613615946d4fe">addHitTestData</a> (const QPointF &amp;pos_, const QString &amp;label_)</td></tr>
-<tr class="memdesc:a996f51400823b01cce1613615946d4fe inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
-<tr class="separator:a996f51400823b01cce1613615946d4fe inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53fd5726bdd01dc5fe854d807a142585 inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a53fd5726bdd01dc5fe854d807a142585"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a53fd5726bdd01dc5fe854d807a142585">addHitTestData</a> (const QPointF &amp;pos_, int index_, const QString &amp;label_)</td></tr>
-<tr class="memdesc:a53fd5726bdd01dc5fe854d807a142585 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
-<tr class="separator:a53fd5726bdd01dc5fe854d807a142585 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7080d346fd4d7bf0a4263b35502dc0f1 inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a7080d346fd4d7bf0a4263b35502dc0f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a7080d346fd4d7bf0a4263b35502dc0f1">addHitTestData</a> (const QPointF &amp;pos_, int index_=-1, <a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *datastore=nullptr)</td></tr>
-<tr class="memdesc:a7080d346fd4d7bf0a4263b35502dc0f1 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>, this variant uses <a class="el" href="class_j_k_q_t_p_plot_element.html#acabb25ef081b70ca56e43cbfe1f2f0a8" title="tool-function for hitTest(), which formats a default label, taking into account the x- and y-position...">formatHitTestDefaultLabel()</a> to auto-generate the label  <br /></td></tr>
-<tr class="separator:a7080d346fd4d7bf0a4263b35502dc0f1 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a423d5e0d058a76cc685a4eae5f534836 inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a423d5e0d058a76cc685a4eae5f534836"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a423d5e0d058a76cc685a4eae5f534836">addHitTestData</a> (double x_, double y_, const QString &amp;label_)</td></tr>
-<tr class="memdesc:a423d5e0d058a76cc685a4eae5f534836 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a new point on the graph to the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
-<tr class="separator:a423d5e0d058a76cc685a4eae5f534836 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a566ed728ab0f75b2d34f796d32abf692 inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a566ed728ab0f75b2d34f796d32abf692"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a566ed728ab0f75b2d34f796d32abf692">addHitTestData</a> (double x_, double y_, int index_, const QString &amp;label_)</td></tr>
-<tr class="memdesc:a566ed728ab0f75b2d34f796d32abf692 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
-<tr class="separator:a566ed728ab0f75b2d34f796d32abf692 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9087bb46a2a6b92d7386f18bf3967f9 inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_af9087bb46a2a6b92d7386f18bf3967f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#af9087bb46a2a6b92d7386f18bf3967f9">addHitTestData</a> (double x_, double y_, int index_=-1, <a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *datastore=nullptr)</td></tr>
-<tr class="memdesc:af9087bb46a2a6b92d7386f18bf3967f9 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a new point on the graph to the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>, this variant uses <a class="el" href="class_j_k_q_t_p_plot_element.html#acabb25ef081b70ca56e43cbfe1f2f0a8" title="tool-function for hitTest(), which formats a default label, taking into account the x- and y-position...">formatHitTestDefaultLabel()</a> to auto-generate the label  <br /></td></tr>
-<tr class="separator:af9087bb46a2a6b92d7386f18bf3967f9 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5357f7866d0f84b3438c91a137ea6255 inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a5357f7866d0f84b3438c91a137ea6255"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a5357f7866d0f84b3438c91a137ea6255">clearHitTestData</a> ()</td></tr>
-<tr class="memdesc:a5357f7866d0f84b3438c91a137ea6255 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
-<tr class="separator:a5357f7866d0f84b3438c91a137ea6255 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acabb25ef081b70ca56e43cbfe1f2f0a8 inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_acabb25ef081b70ca56e43cbfe1f2f0a8"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#acabb25ef081b70ca56e43cbfe1f2f0a8">formatHitTestDefaultLabel</a> (double x, double y, int index=-1, <a class="el" href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a> *datastore=nullptr) const</td></tr>
-<tr class="memdesc:acabb25ef081b70ca56e43cbfe1f2f0a8 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool-function for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>, which formats a default label, taking into account the x- and y-position (both provided) and optionally the errors of these positions.  <br /></td></tr>
-<tr class="separator:acabb25ef081b70ca56e43cbfe1f2f0a8 inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fd8e4d7c0235a5ad48da313adbe134c inherit pro_methods_class_j_k_q_t_p_plot_element" id="r_a0fd8e4d7c0235a5ad48da313adbe134c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_plot_element.html#a0fd8e4d7c0235a5ad48da313adbe134c">reserveHitTestData</a> (int points)</td></tr>
-<tr class="memdesc:a0fd8e4d7c0235a5ad48da313adbe134c inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">reserve list entries for up to <em>points</em> graph points in the internal datastore for <a class="el" href="class_j_k_q_t_p_plot_element.html#a122b7b717c3c578861005aa8db8605e0" title="returns the closest distance of the plot element to the (screen pixel) position pos,...">hitTest()</a>  <br /></td></tr>
-<tr class="separator:a0fd8e4d7c0235a5ad48da313adbe134c inherit pro_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_class_j_k_q_t_p_x_y_and_vector_graph')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html">JKQTPXYAndVectorGraph</a></td></tr>
+<tr class="memitem:a2756269c83c06426a219ec48a35428e4 inherit pro_static_methods_class_j_k_q_t_p_x_y_and_vector_graph" id="r_a2756269c83c06426a219ec48a35428e4"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a2756269c83c06426a219ec48a35428e4">getVectorAngle</a> (const QPointF &amp;v)</td></tr>
+<tr class="memdesc:a2756269c83c06426a219ec48a35428e4 inherit pro_static_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the rotation angle (3 o'clock is 0) in radians <picture><source srcset="form_257_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ [0...2\pi] $" src="form_257.png" width="47" height="18"/></picture> of a vector <em>v</em>  <br /></td></tr>
+<tr class="separator:a2756269c83c06426a219ec48a35428e4 inherit pro_static_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a621d99c1e27ed1badecc269eb638ae6a inherit pro_static_methods_class_j_k_q_t_p_x_y_and_vector_graph" id="r_a621d99c1e27ed1badecc269eb638ae6a"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html#a621d99c1e27ed1badecc269eb638ae6a">getVectorMagnitude</a> (const QPointF &amp;v)</td></tr>
+<tr class="memdesc:a621d99c1e27ed1badecc269eb638ae6a inherit pro_static_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the magnitude/length of a vector <em>v</em>  <br /></td></tr>
+<tr class="separator:a621d99c1e27ed1badecc269eb638ae6a inherit pro_static_methods_class_j_k_q_t_p_x_y_and_vector_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_j_k_q_t_p_x_y_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_j_k_q_t_p_x_y_graph')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_j_k_q_t_p_x_y_graph.html">JKQTPXYGraph</a></td></tr>
 <tr class="memitem:a3d4cdab4a709d064684381ab925e4e03 inherit pro_attribs_class_j_k_q_t_p_x_y_graph" id="r_a3d4cdab4a709d064684381ab925e4e03"><td class="memItemLeft" align="right" valign="top">QVector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_x_y_graph.html#a3d4cdab4a709d064684381ab925e4e03">sortedIndices</a></td></tr>
 <tr class="memdesc:a3d4cdab4a709d064684381ab925e4e03 inherit pro_attribs_class_j_k_q_t_p_x_y_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">this array contains the order of indices, in which to access the data in the data columns  <br /></td></tr>
@@ -780,7 +840,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_aaf018b1c809f2c4a0a0f5fbb26bbc933"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#aaf018b1c809f2c4a0a0f5fbb26bbc933">JKQTPDatastore::addLinearGridColumns</a></div><div class="ttdeci">std::pair&lt; size_t, size_t &gt; addLinearGridColumns(size_t width, double startX, double endX, size_t height, double startY, double endY, const QString &amp;nameX=QString(&quot;&quot;), const QString &amp;nameY=QString(&quot;&quot;))</div><div class="ttdoc">add two columns to the datastore that contains the x- and y- coordinates of a rectangular grid with w...</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_ae8debb9537ffadd6e805ef8123964e08"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#ae8debb9537ffadd6e805ef8123964e08">JKQTPDatastore::addCalculatedColumnFromColumn</a></div><div class="ttdeci">size_t addCalculatedColumnFromColumn(size_t otherColumn, const std::function&lt; double(double)&gt; &amp;f, const QString &amp;name=QString(&quot;&quot;))</div><div class="ttdoc">add a column with the same number of entries, as in the other column otherColumn ,...</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_plot_element_html_a02a8d7c24cde7768f0134cee1aa1159d"><div class="ttname"><a href="class_j_k_q_t_p_plot_element.html#a02a8d7c24cde7768f0134cee1aa1159d">JKQTPPlotElement::setTitle</a></div><div class="ttdeci">virtual void setTitle(const QString &amp;__value)</div><div class="ttdoc">sets the title of the plot (for display in key!).</div></div>
-<div class="ttc" id="aclass_j_k_q_t_p_vector_field_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_vector_field_graph.html">JKQTPVectorFieldGraph</a></div><div class="ttdoc">This graph plots a vector field, i.e. a set of vectors (dx,dy) or (angle,length) at positions (x,...</div><div class="ttdef"><b>Definition</b> jkqtpvectorfield.h:91</div></div>
+<div class="ttc" id="aclass_j_k_q_t_p_vector_field_graph_html"><div class="ttname"><a href="class_j_k_q_t_p_vector_field_graph.html">JKQTPVectorFieldGraph</a></div><div class="ttdoc">This graph plots a vector field, i.e. a set of vectors (dx,dy) or (angle,length) at positions (x,...</div><div class="ttdef"><b>Definition</b> jkqtpvectorfield.h:96</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_and_vector_graph_html_ac9d014d0fcf7dc8fe964a2e667ecbfbb"><div class="ttname"><a href="class_j_k_q_t_p_x_y_and_vector_graph.html#ac9d014d0fcf7dc8fe964a2e667ecbfbb">JKQTPXYAndVectorGraph::setDyColumn</a></div><div class="ttdeci">void setDyColumn(int col)</div><div class="ttdoc">the column that contains the delta along the y-axis.</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_and_vector_graph_html_ae93e10dd061faa4757b7116759c0694e"><div class="ttname"><a href="class_j_k_q_t_p_x_y_and_vector_graph.html#ae93e10dd061faa4757b7116759c0694e">JKQTPXYAndVectorGraph::setDxColumn</a></div><div class="ttdeci">void setDxColumn(int col)</div><div class="ttdoc">the column that contains the delta along the x-axis.</div></div>
 <div class="ttc" id="aclass_j_k_q_t_p_x_y_graph_html_a972ee50c53accadade8880b3bd1110cc"><div class="ttname"><a href="class_j_k_q_t_p_x_y_graph.html#a972ee50c53accadade8880b3bd1110cc">JKQTPXYGraph::setXYColumns</a></div><div class="ttdeci">void setXYColumns(size_t xCol, size_t yCol)</div><div class="ttdoc">sets xColumn and yColumn at the same time</div></div>
@@ -791,8 +851,12 @@ Additional Inherited Members</h2></td></tr>
 <li>You can change the tip shape (and actually also the tail) of the vector by using the methods from <a class="el" href="class_j_k_q_t_p_graph_decorated_line_style_mixin.html" title="This Mix-In class provides setter/getter methods, storage and other facilities for the graph line sty...">JKQTPGraphDecoratedLineStyleMixin</a>, e.g. use <a class="el" href="class_j_k_q_t_p_graph_decorated_line_style_mixin.html#a596a97b84c8d66befe0ce59a0e88f5c0" title="set the head decorator style">JKQTPGraphDecoratedLineStyleMixin::setHeadDecoratorStyle()</a> to set another shape for the vector's tip, or modify <a class="el" href="class_j_k_q_t_p_graph_decorated_line_style_mixin.html#ae4bfd7762c88770e6b94ad0fd788f05d" title="head decorator size-factor, used to calculate the size of the arrow from the line width">JKQTPGraphDecoratedLineStyleMixin::setHeadDecoratorSizeFactor()</a> to modify the size of the vector's head. the vector line width, color etz. can be modified by the methods from <a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html" title="This Mix-In class provides setter/getter methods, storage and other facilities for the graph line sty...">JKQTPGraphLineStyleMixin</a>, like <a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a9b07b91e47013594972a240daa27936b" title="set the color of the graph line">JKQTPGraphLineStyleMixin::setLineColor()</a> or <a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a2d904165c9b3ca34092730875c3f1d6f" title="set the line width of the graph line (in pt)">JKQTPGraphLineStyleMixin::setLineWidth()</a>.</li>
 <li>By default the length of the drawn vectors corresponds to the actual length of the vector data, but is modified by an autoscaling algorithm that should prevent them from overlapping. This behaviour can be changed by <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0db91f3608b3d343a1740eb3b868035e" title="indicates how the length of the drawn vectors are determined from the data">setVectorLengthMode()</a> with the different options described in VectorLengthMode.</li>
 <li>By default, vector start at <code></code>(x,y). But you can also make them be centered around or point to <code></code>(x,y) . This can be set by <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a948ad0a7855a032c344ff967408badad" title="defines where the vector is anchored">setAnchorPoint()</a>.</li>
+<li>Using setVectorLineWidthMode(JKQTPVectorFieldGraph::AutoscaleLineWidthFromLength) you can also scale the line width of each vector by the vector's length. This sometimes gives an easier to read representation of the vector properties, especially if combined with setVectorLengthMode(JKQTPVectorFieldGraph::IgnoreLength) : <div class="image">
+<img src="JKQTPVectorFieldGraphIgnoreLengthAutoscaleLineWidthFromLength.png" alt=""/>
+</div>
+</li>
 </ol>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="_j_k_q_t_plotter_vector_field_example.html">Example (JKQTPlotter): Vector Field Plot Example</a> , <a class="el" href="class_j_k_q_t_p_graph_decorated_line_style_mixin.html" title="This Mix-In class provides setter/getter methods, storage and other facilities for the graph line sty...">JKQTPGraphDecoratedLineStyleMixin</a> , <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html" title="This virtual JKQTPGraph descendent extends JKQTPXYGraph with two additional columns that encode for a...">JKQTPXYAndVectorGraph</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_j_k_q_t_plotter_vector_field_example.html">Example (JKQTPlotter): Vector Field Plot Example</a> , <a class="el" href="class_j_k_q_t_p_graph_decorated_line_style_mixin.html" title="This Mix-In class provides setter/getter methods, storage and other facilities for the graph line sty...">JKQTPGraphDecoratedLineStyleMixin</a> , <a class="el" href="class_j_k_q_t_p_x_y_and_vector_graph.html" title="This virtual JKQTPGraph descendent extends JKQTPXYGraph with two additional columns that encode for a...">JKQTPXYAndVectorGraph</a> and <a class="el" href="class_j_k_q_t_p_parametrized_vector_field_graph.html" title="This graph plots a vector field, i.e. a set of vectors (dx,dy) or (angle,length) at positions (x,...">JKQTPParametrizedVectorFieldGraph</a> for a user-colored alternative </dd></dl>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a69ec779faaca06f6747edf456c9cfd7d" name="a69ec779faaca06f6747edf456c9cfd7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a69ec779faaca06f6747edf456c9cfd7d">&#9670;&#160;</a></span>VectorAnchorPoint</h2>
@@ -855,6 +919,34 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a8e27c9c1b426fc298118c8b5c547ab60ae5559ab0ed3a1ca73db644c29c71c026" name="a8e27c9c1b426fc298118c8b5c547ab60ae5559ab0ed3a1ca73db644c29c71c026"></a>IgnoreLength&#160;</td><td class="fielddoc"><p>all vectors have the same length </p>
 <div class="image">
 <img src="JKQTPVectorFieldGraphAnchorTip.png" alt=""/>
+</div>
+ </td></tr>
+</table>
+
+</div>
+</div>
+<a id="a0ade7f90f9741ee2626178eceeab4fd4" name="a0ade7f90f9741ee2626178eceeab4fd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ade7f90f9741ee2626178eceeab4fd4">&#9670;&#160;</a></span>VectorLineWidthMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4">JKQTPVectorFieldGraph::VectorLineWidthMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>describes how the line width scales with the vector properties (or not) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0ade7f90f9741ee2626178eceeab4fd4afccc031564c8a51ff67d672a589ae682" name="a0ade7f90f9741ee2626178eceeab4fd4afccc031564c8a51ff67d672a589ae682"></a>DefaultVectorLineWidth&#160;</td><td class="fielddoc"><p>line width is equal to <a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a286ded6e04452eff8a7fe48dadc4ef37" title="get the line width of the graph line (in pt)">JKQTPGraphLineStyleMixin::getLineWidth()</a> for all vectors </p>
+<div class="image">
+<img src="JKQTPVectorFieldGraphIgnoreLength.png" alt=""/>
+</div>
+ </td></tr>
+<tr><td class="fieldname"><a id="a0ade7f90f9741ee2626178eceeab4fd4a9fce1f1d3221734ea3b54925aa3d9c29" name="a0ade7f90f9741ee2626178eceeab4fd4a9fce1f1d3221734ea3b54925aa3d9c29"></a>AutoscaleLineWidthFromLength&#160;</td><td class="fielddoc"><p>line width is determined from the vector length. The maximum line width is given by <a class="el" href="class_j_k_q_t_p_graph_line_style_mixin.html#a286ded6e04452eff8a7fe48dadc4ef37" title="get the line width of the graph line (in pt)">JKQTPGraphLineStyleMixin::getLineWidth()</a> and the minim line width by getMinLineWidth() </p>
+<div class="image">
+<img src="JKQTPVectorFieldGraphAutoscaleLengthAutoscaleLineWidthFromLength.png" alt=""/>
 </div>
  </td></tr>
 </table>
@@ -935,9 +1027,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>plots the graph to the plotter object specified as parent </p>
+<p>plots the graph to the plotter object specified as parent   </p>
 
 <p>Implements <a class="el" href="class_j_k_q_t_p_plot_element.html#a398ca9be02ec288d60a5618eeeff4791">JKQTPPlotElement</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_j_k_q_t_p_parametrized_vector_field_graph.html#a95ca805a3b4087bd2ebab4c52a42a857">JKQTPParametrizedVectorFieldGraph</a>.</p>
 
 </div>
 </div>
@@ -975,9 +1069,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>plots a key marker inside the specified rectangle <em>rect</em> </p>
+<p>plots a key marker inside the specified rectangle <em>rect</em>   </p>
 
 <p>Implements <a class="el" href="class_j_k_q_t_p_plot_element.html#a2ab041f3e86c87716dadd24f5a754276">JKQTPPlotElement</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_j_k_q_t_p_parametrized_vector_field_graph.html#a4e15c2194ad44067a82c9686e5cae324">JKQTPParametrizedVectorFieldGraph</a>.</p>
 
 </div>
 </div>
@@ -997,7 +1093,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>defines where the vector is anchored   </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a69ec779faaca06f6747edf456c9cfd7d" title="indicates the position of the point (x,y) relative to the vector">VectorAnchorPoint</a>   </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a69ec779faaca06f6747edf456c9cfd7d" title="indicates the position of the point (x,y) relative to the vector">VectorAnchorPoint</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a948ad0a7855a032c344ff967408badad" title="defines where the vector is anchored">setAnchorPoint()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abfef7a2fb49af5ff7bf322cdff63ea39" title="defines where the vector is anchored">getAnchorPoint()</a>   </dd></dl>
 
 </div>
 </div>
@@ -1044,7 +1140,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns the color to be used for the key label </p>
+<p>returns the color to be used for the key label   </p>
 
 <p>Implements <a class="el" href="class_j_k_q_t_p_plot_element.html#a623fe77049246abda428b0ca8484f434">JKQTPPlotElement</a>.</p>
 
@@ -1067,6 +1163,139 @@ Additional Inherited Members</h2></td></tr>
 
 <p>if m_vectorLengthMode <code>==false</code>, this is the scale-factor used to calculate the vector length   </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abe098f674cc17008bd07e728bf0917b1" title="if m_vectorLengthMode ==false, this is the scale-factor used to calculate the vector length">setLengthScaleFactor()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a572b73603605b9ab7d6c24ea7646e311" title="if m_vectorLengthMode ==false, this is the scale-factor used to calculate the vector length">getLengthScaleFactor()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a148b1cd508704ab738156c78e09fd516" title="indicates how the length of the drawn vectors are determined from the data">m_vectorLengthMode</a>   </dd></dl>
+
+</div>
+</div>
+<a id="a319ea31ae9b25b915e6782259e519e98" name="a319ea31ae9b25b915e6782259e519e98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a319ea31ae9b25b915e6782259e519e98">&#9670;&#160;</a></span>getLocalVectorColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual QColor JKQTPVectorFieldGraph::getLocalVectorColor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>internal color functor, a customization point for derived classes </p>
+<p>Overwrite this in a derived class to be able to color each vector differently </p>
+
+<p>Reimplemented in <a class="el" href="class_j_k_q_t_p_parametrized_vector_field_graph.html#a5ac53e79dce8674a78446d233411dd73">JKQTPParametrizedVectorFieldGraph</a>.</p>
+
+</div>
+</div>
+<a id="a91fa0d7350df7b3c865d8e70fc900cd5" name="a91fa0d7350df7b3c865d8e70fc900cd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91fa0d7350df7b3c865d8e70fc900cd5">&#9670;&#160;</a></span>getMaxVecLen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPVectorFieldGraph::getMaxVecLen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>acess to internally calculated (before <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#ac1c1f3ae53593fc3e172b420377a0ef5" title="plots the graph to the plotter object specified as parent">draw()</a> actually draws) maximum vector length </p>
+
+</div>
+</div>
+<a id="a4d5b0af7e76ab57284848c36bd848d39" name="a4d5b0af7e76ab57284848c36bd848d39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d5b0af7e76ab57284848c36bd848d39">&#9670;&#160;</a></span>getMinLineWIdth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPVectorFieldGraph::getMinLineWIdth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>minimum line-width in pt, used for some modes of m_vectorLineWidthMode   </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abcae1e625c2a46e04f6f0f7d43903124" title="minimum line-width in pt, used for some modes of m_vectorLineWidthMode">setMinLineWidth()</a>, getMinLineWidth(), <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a90af3103d3b14842812d43e4aca194ed" title="determines how the line width of the vectors is derived.">m_vectorLineWidthMode</a>   </dd></dl>
+
+</div>
+</div>
+<a id="aff9ef880a8bc9b029bbc8d5bbb817955" name="aff9ef880a8bc9b029bbc8d5bbb817955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff9ef880a8bc9b029bbc8d5bbb817955">&#9670;&#160;</a></span>getMinVecLen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPVectorFieldGraph::getMinVecLen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>acess to internally calculated (before <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#ac1c1f3ae53593fc3e172b420377a0ef5" title="plots the graph to the plotter object specified as parent">draw()</a> actually draws) minimum vector length </p>
 
 </div>
 </div>
@@ -1100,7 +1329,28 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </li>
 </ul>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a8e27c9c1b426fc298118c8b5c547ab60" title="indicates how the drawn vector&#39;s length is calculated from the data">VectorLengthMode</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0db91f3608b3d343a1740eb3b868035e" title="indicates how the length of the drawn vectors are determined from the data">setVectorLengthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a4d318cc7ec64633f39c7a5f2a01d83bb" title="indicates how the length of the drawn vectors are determined from the data">getVectorLengthMode()</a>, m_autoscaleFactor, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#addb985fd352a347227b62b8d35d0073d" title="a scaling factor that can be used to modify the result of the autoscaling algorithm (m_vectorLengthMo...">m_autoscaleLengthFactor</a>   </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a8e27c9c1b426fc298118c8b5c547ab60" title="indicates how the drawn vector&#39;s length is calculated from the data">VectorLengthMode</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0db91f3608b3d343a1740eb3b868035e" title="indicates how the length of the drawn vectors are determined from the data">setVectorLengthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a4d318cc7ec64633f39c7a5f2a01d83bb" title="indicates how the length of the drawn vectors are determined from the data">getVectorLengthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a946078c412b47485c5edd2b58c3f4d5b" title="if m_vectorLengthMode ==false, this is the scale-factor used to calculate the vector length">m_lengthScaleFactor</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#addb985fd352a347227b62b8d35d0073d" title="a scaling factor that can be used to modify the result of the autoscaling algorithm (m_vectorLengthMo...">m_autoscaleLengthFactor</a>   </dd></dl>
+
+</div>
+</div>
+<a id="aa7a27e59aeb50ef4220362829dfef8ac" name="aa7a27e59aeb50ef4220362829dfef8ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7a27e59aeb50ef4220362829dfef8ac">&#9670;&#160;</a></span>getVectorLineWidthMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4">VectorLineWidthMode</a> JKQTPVectorFieldGraph::getVectorLineWidthMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>determines how the line width of the vectors is derived.   </p>
+<dl class="section note"><dt>Note</dt><dd>the available options are described with VectorLineWidthMode</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a375fde42f0bafa9149756c2fa48791bf" title="determines how the line width of the vectors is derived.">setVectorLineWidthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aa7a27e59aeb50ef4220362829dfef8ac" title="determines how the line width of the vectors is derived.">getVectorLineWidthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4" title="describes how the line width scales with the vector properties (or not)">VectorLineWidthMode</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a2183032efcd0989b1fb91b02685e4058" title="minimum line-width in pt, used for some modes of m_vectorLineWidthMode">m_minLineWidth</a>   </dd></dl>
 
 </div>
 </div>
@@ -1121,7 +1371,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>defines where the vector is anchored   </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a69ec779faaca06f6747edf456c9cfd7d" title="indicates the position of the point (x,y) relative to the vector">VectorAnchorPoint</a>   </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a69ec779faaca06f6747edf456c9cfd7d" title="indicates the position of the point (x,y) relative to the vector">VectorAnchorPoint</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a948ad0a7855a032c344ff967408badad" title="defines where the vector is anchored">setAnchorPoint()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abfef7a2fb49af5ff7bf322cdff63ea39" title="defines where the vector is anchored">getAnchorPoint()</a>   </dd></dl>
 
 </div>
 </div>
@@ -1167,6 +1417,27 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="abcae1e625c2a46e04f6f0f7d43903124" name="abcae1e625c2a46e04f6f0f7d43903124"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcae1e625c2a46e04f6f0f7d43903124">&#9670;&#160;</a></span>setMinLineWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTPVectorFieldGraph::setMinLineWidth </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>lw</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>minimum line-width in pt, used for some modes of m_vectorLineWidthMode   </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abcae1e625c2a46e04f6f0f7d43903124" title="minimum line-width in pt, used for some modes of m_vectorLineWidthMode">setMinLineWidth()</a>, getMinLineWidth(), <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a90af3103d3b14842812d43e4aca194ed" title="determines how the line width of the vectors is derived.">m_vectorLineWidthMode</a>   </dd></dl>
+
+</div>
+</div>
 <a id="a0db91f3608b3d343a1740eb3b868035e" name="a0db91f3608b3d343a1740eb3b868035e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0db91f3608b3d343a1740eb3b868035e">&#9670;&#160;</a></span>setVectorLengthMode()</h2>
 
@@ -1198,7 +1469,29 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </li>
 </ul>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a8e27c9c1b426fc298118c8b5c547ab60" title="indicates how the drawn vector&#39;s length is calculated from the data">VectorLengthMode</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0db91f3608b3d343a1740eb3b868035e" title="indicates how the length of the drawn vectors are determined from the data">setVectorLengthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a4d318cc7ec64633f39c7a5f2a01d83bb" title="indicates how the length of the drawn vectors are determined from the data">getVectorLengthMode()</a>, m_autoscaleFactor, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#addb985fd352a347227b62b8d35d0073d" title="a scaling factor that can be used to modify the result of the autoscaling algorithm (m_vectorLengthMo...">m_autoscaleLengthFactor</a>   </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a8e27c9c1b426fc298118c8b5c547ab60" title="indicates how the drawn vector&#39;s length is calculated from the data">VectorLengthMode</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0db91f3608b3d343a1740eb3b868035e" title="indicates how the length of the drawn vectors are determined from the data">setVectorLengthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a4d318cc7ec64633f39c7a5f2a01d83bb" title="indicates how the length of the drawn vectors are determined from the data">getVectorLengthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a946078c412b47485c5edd2b58c3f4d5b" title="if m_vectorLengthMode ==false, this is the scale-factor used to calculate the vector length">m_lengthScaleFactor</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#addb985fd352a347227b62b8d35d0073d" title="a scaling factor that can be used to modify the result of the autoscaling algorithm (m_vectorLengthMo...">m_autoscaleLengthFactor</a>   </dd></dl>
+
+</div>
+</div>
+<a id="a375fde42f0bafa9149756c2fa48791bf" name="a375fde42f0bafa9149756c2fa48791bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a375fde42f0bafa9149756c2fa48791bf">&#9670;&#160;</a></span>setVectorLineWidthMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTPVectorFieldGraph::setVectorLineWidthMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4">VectorLineWidthMode</a>&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>determines how the line width of the vectors is derived.   </p>
+<dl class="section note"><dt>Note</dt><dd>the available options are described with VectorLineWidthMode</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a375fde42f0bafa9149756c2fa48791bf" title="determines how the line width of the vectors is derived.">setVectorLineWidthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aa7a27e59aeb50ef4220362829dfef8ac" title="determines how the line width of the vectors is derived.">getVectorLineWidthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4" title="describes how the line width scales with the vector properties (or not)">VectorLineWidthMode</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a2183032efcd0989b1fb91b02685e4058" title="minimum line-width in pt, used for some modes of m_vectorLineWidthMode">m_minLineWidth</a>   </dd></dl>
 
 </div>
 </div>
@@ -1224,7 +1517,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>defines where the vector is anchored </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a69ec779faaca06f6747edf456c9cfd7d" title="indicates the position of the point (x,y) relative to the vector">VectorAnchorPoint</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a69ec779faaca06f6747edf456c9cfd7d" title="indicates the position of the point (x,y) relative to the vector">VectorAnchorPoint</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a948ad0a7855a032c344ff967408badad" title="defines where the vector is anchored">setAnchorPoint()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abfef7a2fb49af5ff7bf322cdff63ea39" title="defines where the vector is anchored">getAnchorPoint()</a> </dd></dl>
 
 </div>
 </div>
@@ -1278,6 +1571,79 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aec3c8f9f6a97259eb55a95323c03f616" name="aec3c8f9f6a97259eb55a95323c03f616"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec3c8f9f6a97259eb55a95323c03f616">&#9670;&#160;</a></span>m_maxVecLen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPVectorFieldGraph::m_maxVecLen</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>internally calculated (before <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#ac1c1f3ae53593fc3e172b420377a0ef5" title="plots the graph to the plotter object specified as parent">draw()</a> actually draws) maximum vector length </p>
+
+</div>
+</div>
+<a id="a2183032efcd0989b1fb91b02685e4058" name="a2183032efcd0989b1fb91b02685e4058"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2183032efcd0989b1fb91b02685e4058">&#9670;&#160;</a></span>m_minLineWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPVectorFieldGraph::m_minLineWidth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>minimum line-width in pt, used for some modes of m_vectorLineWidthMode </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#abcae1e625c2a46e04f6f0f7d43903124" title="minimum line-width in pt, used for some modes of m_vectorLineWidthMode">setMinLineWidth()</a>, getMinLineWidth(), <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a90af3103d3b14842812d43e4aca194ed" title="determines how the line width of the vectors is derived.">m_vectorLineWidthMode</a> </dd></dl>
+
+</div>
+</div>
+<a id="a77bf1c1796f4f2ce5fc349196682624d" name="a77bf1c1796f4f2ce5fc349196682624d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77bf1c1796f4f2ce5fc349196682624d">&#9670;&#160;</a></span>m_minVecLen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPVectorFieldGraph::m_minVecLen</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>internally calculated (before <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#ac1c1f3ae53593fc3e172b420377a0ef5" title="plots the graph to the plotter object specified as parent">draw()</a> actually draws) minimum vector length </p>
+
+</div>
+</div>
 <a id="a148b1cd508704ab738156c78e09fd516" name="a148b1cd508704ab738156c78e09fd516"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a148b1cd508704ab738156c78e09fd516">&#9670;&#160;</a></span>m_vectorLengthMode</h2>
 
@@ -1313,7 +1679,33 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </li>
 </ul>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a8e27c9c1b426fc298118c8b5c547ab60" title="indicates how the drawn vector&#39;s length is calculated from the data">VectorLengthMode</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0db91f3608b3d343a1740eb3b868035e" title="indicates how the length of the drawn vectors are determined from the data">setVectorLengthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a4d318cc7ec64633f39c7a5f2a01d83bb" title="indicates how the length of the drawn vectors are determined from the data">getVectorLengthMode()</a>, m_autoscaleFactor, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#addb985fd352a347227b62b8d35d0073d" title="a scaling factor that can be used to modify the result of the autoscaling algorithm (m_vectorLengthMo...">m_autoscaleLengthFactor</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a8e27c9c1b426fc298118c8b5c547ab60" title="indicates how the drawn vector&#39;s length is calculated from the data">VectorLengthMode</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0db91f3608b3d343a1740eb3b868035e" title="indicates how the length of the drawn vectors are determined from the data">setVectorLengthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a4d318cc7ec64633f39c7a5f2a01d83bb" title="indicates how the length of the drawn vectors are determined from the data">getVectorLengthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a946078c412b47485c5edd2b58c3f4d5b" title="if m_vectorLengthMode ==false, this is the scale-factor used to calculate the vector length">m_lengthScaleFactor</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#addb985fd352a347227b62b8d35d0073d" title="a scaling factor that can be used to modify the result of the autoscaling algorithm (m_vectorLengthMo...">m_autoscaleLengthFactor</a> </dd></dl>
+
+</div>
+</div>
+<a id="a90af3103d3b14842812d43e4aca194ed" name="a90af3103d3b14842812d43e4aca194ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90af3103d3b14842812d43e4aca194ed">&#9670;&#160;</a></span>m_vectorLineWidthMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4">VectorLineWidthMode</a> JKQTPVectorFieldGraph::m_vectorLineWidthMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>determines how the line width of the vectors is derived. </p>
+<dl class="section note"><dt>Note</dt><dd>the available options are described with VectorLineWidthMode</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a375fde42f0bafa9149756c2fa48791bf" title="determines how the line width of the vectors is derived.">setVectorLineWidthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#aa7a27e59aeb50ef4220362829dfef8ac" title="determines how the line width of the vectors is derived.">getVectorLineWidthMode()</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4" title="describes how the line width scales with the vector properties (or not)">VectorLineWidthMode</a>, <a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a2183032efcd0989b1fb91b02685e4058" title="minimum line-width in pt, used for some modes of m_vectorLineWidthMode">m_minLineWidth</a> </dd></dl>
 
 </div>
 </div>
@@ -1384,6 +1776,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a31641f6bee36e3aedc0947af2564047d" name="a31641f6bee36e3aedc0947af2564047d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31641f6bee36e3aedc0947af2564047d">&#9670;&#160;</a></span>minLineWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPVectorFieldGraph::minLineWidth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a75d8ac239b48a44ea3b439db1d3569f8" name="a75d8ac239b48a44ea3b439db1d3569f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a75d8ac239b48a44ea3b439db1d3569f8">&#9670;&#160;</a></span>vectorLengthMode</h2>
 
@@ -1406,6 +1820,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a1198f1869703ae06dcad40915e3ccdff" name="a1198f1869703ae06dcad40915e3ccdff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1198f1869703ae06dcad40915e3ccdff">&#9670;&#160;</a></span>vectorLineWidthMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html#a0ade7f90f9741ee2626178eceeab4fd4">VectorLineWidthMode</a> JKQTPVectorFieldGraph::vectorLineWidthMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="jkqtpvectorfield_8h_source.html">jkqtpvectorfield.h</a></li>
 </ul>
@@ -1416,7 +1852,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_vector_field_graph.html">JKQTPVectorFieldGraph</a></li>
-    <li class="footer">Generated on Fri Feb 9 2024 12:55:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Feb 9 2024 23:28:48 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

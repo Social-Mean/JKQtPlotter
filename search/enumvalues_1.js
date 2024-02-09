@@ -12,9 +12,10 @@ var searchData=
   ['bottomleft_9',['BottomLeft',['../class_j_k_q_t_f_p_q_scale_bar_x_plot.html#a580485b92c4f4e9b3e65d43628c3f9afaae1d2f3bae13dd1b5a72807a9b97adbf',1,'JKQTFPQScaleBarXPlot']]],
   ['bottomright_10',['BottomRight',['../class_j_k_q_t_f_p_q_scale_bar_x_plot.html#a580485b92c4f4e9b3e65d43628c3f9afa5dfba4e29872ec1cdef9ce28acb03fd6',1,'JKQTFPQScaleBarXPlot']]],
   ['boxbottom_11',['BoxBottom',['../struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a7a358d5f37d5f4cf6469a3304bda9164aedd1a122956afcde0c16a8e1621f634c',1,'JKQTPGraphValueLabelStyleMixin::LabelGeometry']]],
-  ['boxleft_12',['BoxLeft',['../struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a7a358d5f37d5f4cf6469a3304bda9164ae6b6af01a3daa7ef8bca06b7aa5e7cbc',1,'JKQTPGraphValueLabelStyleMixin::LabelGeometry']]],
-  ['boxplot_13',['Boxplot',['../group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4ae85cad18fa9478297872ee353830ed33',1,'jkqtptools.h']]],
-  ['boxright_14',['BoxRight',['../struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a7a358d5f37d5f4cf6469a3304bda9164ac120d55e9a7d870ba02bc94d63ecc62a',1,'JKQTPGraphValueLabelStyleMixin::LabelGeometry']]],
-  ['boxtop_15',['BoxTop',['../struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a7a358d5f37d5f4cf6469a3304bda9164a16cab177bc472fe603393166992c86df',1,'JKQTPGraphValueLabelStyleMixin::LabelGeometry']]],
-  ['boxviolin_16',['BoxViolin',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a04d55d189bef4e81178f65f5b7416034ac65e3c248743336304b2e61d47dad128',1,'JKQTPGraphViolinplotStyleMixin']]]
+  ['boxcentered_12',['BoxCentered',['../struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a7a358d5f37d5f4cf6469a3304bda9164a8ba9e93852a756f2426d51c72dca9ee6',1,'JKQTPGraphValueLabelStyleMixin::LabelGeometry']]],
+  ['boxleft_13',['BoxLeft',['../struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a7a358d5f37d5f4cf6469a3304bda9164ae6b6af01a3daa7ef8bca06b7aa5e7cbc',1,'JKQTPGraphValueLabelStyleMixin::LabelGeometry']]],
+  ['boxplot_14',['Boxplot',['../group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4ae85cad18fa9478297872ee353830ed33',1,'jkqtptools.h']]],
+  ['boxright_15',['BoxRight',['../struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a7a358d5f37d5f4cf6469a3304bda9164ac120d55e9a7d870ba02bc94d63ecc62a',1,'JKQTPGraphValueLabelStyleMixin::LabelGeometry']]],
+  ['boxtop_16',['BoxTop',['../struct_j_k_q_t_p_graph_value_label_style_mixin_1_1_label_geometry.html#a7a358d5f37d5f4cf6469a3304bda9164a16cab177bc472fe603393166992c86df',1,'JKQTPGraphValueLabelStyleMixin::LabelGeometry']]],
+  ['boxviolin_17',['BoxViolin',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a04d55d189bef4e81178f65f5b7416034ac65e3c248743336304b2e61d47dad128',1,'JKQTPGraphViolinplotStyleMixin']]]
 ];
