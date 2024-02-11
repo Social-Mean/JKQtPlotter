@@ -8,7 +8,7 @@ var searchData=
   ['plot_20adaptors_5',['Statistics To Plot Adaptors',['../group__jkqtptools__math__statistics__adaptors.html',1,'']]],
   ['plot_20construction_6',['Conventions: Naming and Plot Construction',['../group__jkqtplotter__naming.html',1,'']]],
   ['plot_20element_20classes_7',['Plot Element Classes',['../group__jkqtplotter__elements.html',1,'']]],
-  ['plot_20elements_8',['plot elements',['../group__jkqtplotter__general__basicplotelements.html',1,'Non-Graph Plot Elements'],['../group__jkqtpbaseplotter__elements.html',1,'Non-Graph Plot Elements']]],
+  ['plot_20elements_8',['plot elements',['../group__jkqtpbaseplotter__elements.html',1,'Non-Graph Plot Elements'],['../group__jkqtplotter__general__basicplotelements.html',1,'Non-Graph Plot Elements']]],
   ['plot_20elements_20available_20in_20jkqtfastplotter_9',['DEPRECATED: Plot Elements available in JKQTFastPlotter',['../group__jkqtfastplotter___plot_items.html',1,'']]],
   ['plot_20key_20legend_10',['Plot Key/Legend',['../group__jkqtplotter__general__basicplotelements__key.html',1,'']]],
   ['plotter_20class_11',['plotter class',['../group__jkqtfastplotter.html',1,'DEPRECATED: JKQTFastPlotter: Speed-Optimized Plotter class'],['../group__jkqtplotter.html',1,'JKQTPlotter: Qt based Scientific Plotter Class']]],

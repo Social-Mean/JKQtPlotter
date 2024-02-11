@@ -1,10 +1,13 @@
 var searchData=
 [
-  ['randomscatter_0',['RandomScatter',['../class_j_k_q_t_p_single_column_symbols_graph.html#a3631b52ee32dceb1418183aefe7f7ce4a7ce488ba270f450ea4879f7d6f53d6ad',1,'JKQTPSingleColumnSymbolsGraph']]],
-  ['rbracket_1',['rbracket',['../struct_j_k_q_t_p_c_s_s_parser_1_1_token.html#abd2255403ecd72929a73f4f41c9b16f9ae255b4972c9273eaf0735f2382bf418c',1,'JKQTPCSSParser::Token::RBRACKET'],['../class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49a430977b35f86ff891c4791d1316ca07e',1,'JKQTPMathParser::RBRACKET']]],
-  ['replacecolorandtransparency_2',['ReplaceColorAndTransparency',['../struct_j_k_q_t_p_color_derivation_mode.html#a4a8889bb9c209ab75c8bb87310431e22aa4c096740d1ed37acad6a17be0c19b3d',1,'JKQTPColorDerivationMode']]],
-  ['replacecolornottransparency_3',['ReplaceColorNotTransparency',['../struct_j_k_q_t_p_color_derivation_mode.html#a4a8889bb9c209ab75c8bb87310431e22a5685c8bee9d6cdbc1bd0686f91c0523f',1,'JKQTPColorDerivationMode']]],
-  ['replacetransparency_4',['ReplaceTransparency',['../struct_j_k_q_t_p_color_derivation_mode.html#af8a6135aa916c56b55a801a25a765dceaa243e704e54fcceffb9e3ebab1321ffa',1,'JKQTPColorDerivationMode']]],
-  ['rotatesymbol90_5',['RotateSymbol90',['../class_j_k_q_t_math_text_symbol_node.html#a649451b2ed70a5358c14e1c4c3aeb03ca716a09953bef91a5630ec4df756e1b69',1,'JKQTMathTextSymbolNode']]],
-  ['rugplot_6',['RugPlot',['../class_j_k_q_t_p_single_column_symbols_graph.html#a3631b52ee32dceb1418183aefe7f7ce4a60c61271a6e7cdee0c8c8f78e4e55a17',1,'JKQTPSingleColumnSymbolsGraph']]]
+  ['pan_0',['Pan',['../class_j_k_q_t_plotter.html#a1bb83e4dcde949ffd827bfcc824fad46af6d4a17b27da35c2d90ce13801f36782',1,'JKQTPlotter']]],
+  ['parameter_5fdiv_1',['PARAMETER_DIV',['../class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49a2fee9096cfb41f4f6db6b17f4ad9ac57',1,'JKQTPMathParser']]],
+  ['pie_2',['Pie',['../class_j_k_q_t_p_geo_ellipse.html#a2c5c075e41380b153ee3e13aa563ef34a996589a1a7e9604b0dbd63858a59b247',1,'JKQTPGeoEllipse']]],
+  ['pixels_3',['PIXELS',['../struct_j_k_q_t_math_text_environment.html#a29bdf573d817a3da9786e7e81ffd3bbfaf66510326785dd771da336c83e1acdcb',1,'JKQTMathTextEnvironment']]],
+  ['plus_4',['PLUS',['../class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49a9609be2378808ffa9f97f0c90df55244',1,'JKQTPMathParser']]],
+  ['points_5',['POINTS',['../struct_j_k_q_t_math_text_environment.html#a29bdf573d817a3da9786e7e81ffd3bbfa63b196d5ac20b1e34034f08af6220842',1,'JKQTMathTextEnvironment']]],
+  ['polynomial_6',['Polynomial',['../class_j_k_q_t_p_functor_line_graph_base.html#a6529405e546569ee0c5cd640759f6efaaef3ecb1b74dadd7a560195f70583e108',1,'JKQTPFunctorLineGraphBase']]],
+  ['power_7',['POWER',['../class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49a95b421761b5590773b9cd97e33439280',1,'JKQTPMathParser']]],
+  ['powerlaw_8',['powerlaw',['../class_j_k_q_t_p_functor_line_graph_base.html#a6529405e546569ee0c5cd640759f6efaa2519b4cdba12f6ca8e2b7dec136c30d5',1,'JKQTPFunctorLineGraphBase::PowerLaw'],['../group__jkqtptools__math__statistics__regression.html#ggaa798f2573e7f03cb328b15ff76dda335a0421fde669f1f6a68f34f112af7c8809',1,'PowerLaw:&#160;jkqtpstatregression.h']]],
+  ['print_9',['PRINT',['../class_j_k_q_t_p_math_parser.html#a6f3e8a859dbc5724960215d49ae6fc49a09e45cbdb957eaffef2704f0b6c1e223',1,'JKQTPMathParser']]]
 ];

@@ -424,6 +424,9 @@ var hierarchy =
             [ "JKQTPPeakStreamGraph", "class_j_k_q_t_p_peak_stream_graph.html", null ],
             [ "JKQTPSingleColumnSymbolsGraph", "class_j_k_q_t_p_single_column_symbols_graph.html", null ]
           ] ],
+          [ "JKQTPXGraph", "class_j_k_q_t_p_x_graph.html", [
+            [ "JKQTPFinancialGraph", "class_j_k_q_t_p_financial_graph.html", null ]
+          ] ],
           [ "JKQTPXYGraph", "class_j_k_q_t_p_x_y_graph.html", [
             [ "JKQTPXXYGraph", "class_j_k_q_t_p_x_x_y_graph.html", [
               [ "JKQTPFilledHorizontalRangeGraph", "class_j_k_q_t_p_filled_horizontal_range_graph.html", null ]

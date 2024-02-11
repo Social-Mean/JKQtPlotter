@@ -9,7 +9,8 @@ var searchData=
   ['of_20errorindicators_6',['Example (JKQTPlotter): Different Types of Errorindicators',['../_j_k_q_t_plotter_error_bar_styles.html',1,'exampleTutorialProjects']]],
   ['of_20geometric_20objects_20for_20documentation_7',['Example (JKQTPlotter): Generating Demo-Plots of Geometric Objects for Documentation',['../_j_k_q_t_plotter_geometric_graphs_simple.html',1,'exampleTutorialProjects']]],
   ['of_20jkqtpdatastore_8',['of jkqtpdatastore',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html',1,'Tutorial (JKQTPDatastore): Basic Usage of JKQTPDatastore'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html',1,'Tutorial (JKQTPDatastore): Iterator-Based usage of JKQTPDatastore']]],
-  ['opencv_20cv_3a_3amat_9',['opencv cv::mat',['../_j_k_q_t_plotter_image_plot_open_c_v.html',1,'Example (JKQTPlotter): Simple math image plot, showin a 1-channel OpenCV cv::Mat'],['../_j_k_q_t_plotter_image_plot_r_g_b_open_c_v.html',1,'Example (JKQTPlotter): Simple RGB image plot, showing a 3-channel OpenCV cv::Mat']]],
-  ['origin_10',['Example (JKQTPlotter): Plot With Axes through Origin',['../_j_k_q_t_plotter_geometric_coordinate_axis0.html',1,'exampleTutorialProjects']]],
-  ['out_20several_20plots_11',['Example (JKQTPlotter): Laying out Several Plots',['../_j_k_q_t_plotter_multi_plot_layout.html',1,'exampleTutorialProjects']]]
+  ['ohlc_20example_9',['Example (JKQTPlotter): Financial Chart (Candlestick/OHLC) Example',['../_j_k_q_t_plotter_financial_chart_example.html',1,'exampleTutorialProjects']]],
+  ['opencv_20cv_3a_3amat_10',['opencv cv::mat',['../_j_k_q_t_plotter_image_plot_open_c_v.html',1,'Example (JKQTPlotter): Simple math image plot, showin a 1-channel OpenCV cv::Mat'],['../_j_k_q_t_plotter_image_plot_r_g_b_open_c_v.html',1,'Example (JKQTPlotter): Simple RGB image plot, showing a 3-channel OpenCV cv::Mat']]],
+  ['origin_11',['Example (JKQTPlotter): Plot With Axes through Origin',['../_j_k_q_t_plotter_geometric_coordinate_axis0.html',1,'exampleTutorialProjects']]],
+  ['out_20several_20plots_12',['Example (JKQTPlotter): Laying out Several Plots',['../_j_k_q_t_plotter_multi_plot_layout.html',1,'exampleTutorialProjects']]]
 ];

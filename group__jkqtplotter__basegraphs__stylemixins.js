@@ -158,6 +158,7 @@ var group__jkqtplotter__basegraphs__stylemixins =
       [ "setLineCapStyle", "class_j_k_q_t_p_graph_line_style_mixin.html#addb3bf31a04e841438bbe9f09d1ea0c7", null ],
       [ "setLineColor", "class_j_k_q_t_p_graph_line_style_mixin.html#a9b07b91e47013594972a240daa27936b", null ],
       [ "setLineColor", "class_j_k_q_t_p_graph_line_style_mixin.html#a4592764f8544156234a14648ebb5d9fb", null ],
+      [ "setLineColorInvertedFrom", "class_j_k_q_t_p_graph_line_style_mixin.html#a6a3e87cf02bb351c6381d1d11f7ebbd5", null ],
       [ "setLineDashOffset", "class_j_k_q_t_p_graph_line_style_mixin.html#acf88ffe99ec648ece7f9089efc553562", null ],
       [ "setLineDashPattern", "class_j_k_q_t_p_graph_line_style_mixin.html#acb05f42b7c1e3757dacd95d2c18831e9", null ],
       [ "setLineJoinStyle", "class_j_k_q_t_p_graph_line_style_mixin.html#a039e2691dff8217b83a51bdd429408d2", null ],

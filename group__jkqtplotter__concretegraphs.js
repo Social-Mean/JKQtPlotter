@@ -4,6 +4,7 @@ var group__jkqtplotter__concretegraphs =
     [ "Contour Graphs (based on Image Data)", "group__jkqtplotter__imagelots__contour.html", "group__jkqtplotter__imagelots__contour" ],
     [ "Event Graphs", "group__jkqtplotter__eventgraphs.html", "group__jkqtplotter__eventgraphs" ],
     [ "Filled Polygon/Area Graphs", "group__jkqtplotter__filledgraphs.html", "group__jkqtplotter__filledgraphs" ],
+    [ "Financial Graphs", "group__jkqtplotter__financialgraphs.html", "group__jkqtplotter__financialgraphs" ],
     [ "Geometric Elements (Lines, Rectangles, ...)", "group__jkqtplotter__geoplots.html", "group__jkqtplotter__geoplots" ],
     [ "Graph Annotations", "group__jkqtplotter__annotations.html", "group__jkqtplotter__annotations" ],
     [ "Impulse-Charts", "group__jkqtplotter__sticks.html", "group__jkqtplotter__sticks" ],

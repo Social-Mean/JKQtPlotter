@@ -1,16 +1,10 @@
 var searchData=
 [
-  ['wst1em_0',['WST1em',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a8bcda70a0fa21d68518e28e86040dae6',1,'JKQTMathTextWhitespaceNode']]],
-  ['wst1en_1',['WST1en',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a155deecde40aed5965fa66be95685eaa',1,'JKQTMathTextWhitespaceNode']]],
-  ['wsthair_2',['WSThair',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a05582c753a39daf30ee2457d2a83a863',1,'JKQTMathTextWhitespaceNode']]],
-  ['wstmedium_3',['WSTmedium',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a831ca896d74b802621cc303e34ec77d9',1,'JKQTMathTextWhitespaceNode']]],
-  ['wstnegmedium_4',['WSTnegmedium',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a9c288aeccaa04886a2e08331192cf22a',1,'JKQTMathTextWhitespaceNode']]],
-  ['wstnegthick_5',['WSTnegthick',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a939231446a48bae2fd886f3383af3ff5',1,'JKQTMathTextWhitespaceNode']]],
-  ['wstnegthin_6',['WSTnegthin',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a3126279c3b0cb10aadb8ed3fedc9e90e',1,'JKQTMathTextWhitespaceNode']]],
-  ['wstnonbreaking_7',['WSTNonbreaking',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3ad40e181f195266e9ddab463261a44334',1,'JKQTMathTextWhitespaceNode']]],
-  ['wstnormal_8',['WSTNormal',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a8aaa3fcac287c9fd25fb5a96daa0b9fb',1,'JKQTMathTextWhitespaceNode']]],
-  ['wstquad_9',['WSTQuad',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3af5eca7fa18b5bf11c5b44cab4c6c4c4a',1,'JKQTMathTextWhitespaceNode']]],
-  ['wstthick_10',['WSTthick',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3af1d47375ca48c41eb6cfe9d107673cb0',1,'JKQTMathTextWhitespaceNode']]],
-  ['wstthicker_11',['WSTthicker',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a0a14d2982d8e425fcf73e04fcbaa7a27',1,'JKQTMathTextWhitespaceNode']]],
-  ['wstthin_12',['WSTthin',['../class_j_k_q_t_math_text_whitespace_node.html#a5358fe56751560d722a5f3633d79f5d3a9d56a3eb3128ee1795c9509b76c87144',1,'JKQTMathTextWhitespaceNode']]]
+  ['vector_0',['Vector',['../class_j_k_q_t_p_datastore_item.html#ad7c3c4cb11ab0b7cf3547bc03586dc36a57dea6f5039281b7fee517fc43bf3110',1,'JKQTPDatastoreItem']]],
+  ['vectorpainting_1',['VectorPainting',['../class_j_k_q_t_p_enhanced_painter.html#ad6eacc07690b9f7f278df39db5f0c19eabf22c128129e823aea0de0c9b103e105',1,'JKQTPEnhancedPainter']]],
+  ['violinboth_2',['ViolinBoth',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5db2729e0ed862123eca2120bbd35921a943fc9488854eeccf595b08dee7def0d',1,'JKQTPGraphViolinplotStyleMixin']]],
+  ['violinbottom_3',['ViolinBottom',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5db2729e0ed862123eca2120bbd35921a52f003eabee7812ba4fa90c161dd7a60',1,'JKQTPGraphViolinplotStyleMixin']]],
+  ['violinleft_4',['ViolinLeft',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5db2729e0ed862123eca2120bbd35921a6bd18daab955ad865223db0d7e997470',1,'JKQTPGraphViolinplotStyleMixin']]],
+  ['violinright_5',['ViolinRight',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5db2729e0ed862123eca2120bbd35921a2091ed052b8b13f7e4f72fd2d7ff4f26',1,'JKQTPGraphViolinplotStyleMixin']]],
+  ['violintop_6',['ViolinTop',['../class_j_k_q_t_p_graph_violinplot_style_mixin.html#a5db2729e0ed862123eca2120bbd35921afe7f2ecd926e65ac0f6a82f1174056c2',1,'JKQTPGraphViolinplotStyleMixin']]]
 ];
