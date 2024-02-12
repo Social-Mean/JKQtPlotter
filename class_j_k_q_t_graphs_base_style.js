@@ -18,6 +18,7 @@ var class_j_k_q_t_graphs_base_style =
     [ "defaultGraphSymbols", "class_j_k_q_t_graphs_base_style.html#ae358671101454d4b8cbd899736d260aa", null ],
     [ "defaultPalette", "class_j_k_q_t_graphs_base_style.html#a6221744d8324437ce9dbeb397d42f212", null ],
     [ "filledStyle", "class_j_k_q_t_graphs_base_style.html#a0ce91f6cedb168dcaad66efc4ddf7683", null ],
+    [ "financialStyle", "class_j_k_q_t_graphs_base_style.html#aadbebc059ff92937eb3de7fcaa66fbe3", null ],
     [ "geometricStyle", "class_j_k_q_t_graphs_base_style.html#a63e237c6f211c9cc1bbe7b0a524c35c7", null ],
     [ "impulseStyle", "class_j_k_q_t_graphs_base_style.html#afefa89de58fb0476304537e845100c1d", null ],
     [ "useAntiAliasingForGraphs", "class_j_k_q_t_graphs_base_style.html#a620fef0b32190cb4e0fbd7a7ca9c5669", null ]

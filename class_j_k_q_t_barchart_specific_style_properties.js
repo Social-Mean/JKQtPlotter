@@ -10,5 +10,6 @@ var class_j_k_q_t_barchart_specific_style_properties =
     [ "saveSettings", "class_j_k_q_t_barchart_specific_style_properties.html#aab512daa7ed857b270e20e4fc972c55a", null ],
     [ "defaultRectRadiusAtBaseline", "class_j_k_q_t_barchart_specific_style_properties.html#ac6400c96bedd8b4d852a6c8e268884cf", null ],
     [ "defaultRectRadiusAtValue", "class_j_k_q_t_barchart_specific_style_properties.html#a4aefc0d7ef6e5b97363ae16a81fb42ca", null ],
-    [ "drawBaseline", "class_j_k_q_t_barchart_specific_style_properties.html#ab70dffbc93944af60f26565f373d488c", null ]
+    [ "drawBaseline", "class_j_k_q_t_barchart_specific_style_properties.html#ab70dffbc93944af60f26565f373d488c", null ],
+    [ "stackSeparation", "class_j_k_q_t_barchart_specific_style_properties.html#ab01970f59b0f09a3056af7ed92e1e265", null ]
 ];

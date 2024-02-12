@@ -41,6 +41,7 @@ var hierarchy =
     [ "JKQTGraphsBaseStyle", "class_j_k_q_t_graphs_base_style.html", null ],
     [ "JKQTGraphsSpecificStyleProperties", "class_j_k_q_t_graphs_specific_style_properties.html", [
       [ "JKQTBarchartSpecificStyleProperties", "class_j_k_q_t_barchart_specific_style_properties.html", null ],
+      [ "JKQTFinancialSpecificStyleProperties", "class_j_k_q_t_financial_specific_style_properties.html", null ],
       [ "JKQTGeometricSpecificStyleProperties", "class_j_k_q_t_geometric_specific_style_properties.html", [
         [ "JKQTAnnotationsSpecificStyleProperties", "class_j_k_q_t_annotations_specific_style_properties.html", null ]
       ] ],
@@ -98,6 +99,10 @@ var hierarchy =
     ] ],
     [ "JKQTPAdaptiveFunctionGraphEvaluator", "class_j_k_q_t_p_adaptive_function_graph_evaluator.html", null ],
     [ "JKQTPArrayScopedPointer< T >", "class_j_k_q_t_p_array_scoped_pointer.html", null ],
+    [ "JKQTPBarGraphStackInternalInterface", "class_j_k_q_t_p_bar_graph_stack_internal_interface.html", [
+      [ "JKQTPBarHorizontalStackableGraph", "class_j_k_q_t_p_bar_horizontal_stackable_graph.html", null ],
+      [ "JKQTPBarVerticalStackableGraph", "class_j_k_q_t_p_bar_vertical_stackable_graph.html", null ]
+    ] ],
     [ "JKQTPColorDerivationMode", "struct_j_k_q_t_p_color_derivation_mode.html", null ],
     [ "JKQTPColorPaletteSingleColorLinSegment", "struct_j_k_q_t_p_color_palette_single_color_lin_segment.html", null ],
     [ "JKQTPColorPaletteStyleAndToolsMixin", "class_j_k_q_t_p_color_palette_style_and_tools_mixin.html", [

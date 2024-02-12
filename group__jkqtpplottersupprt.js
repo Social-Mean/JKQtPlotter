@@ -177,7 +177,9 @@ var group__jkqtpplottersupprt =
       [ "JKQTPPlotStyleType::Filled", "group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4ad9d586f8c792f8f661052af42536323c", null ],
       [ "JKQTPPlotStyleType::Impulses", "group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4a82c3c1ab28fb2f206ff98ba172437f1b", null ],
       [ "JKQTPPlotStyleType::Geometric", "group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4aadf9f772a73f364e4ce6c52b9fae740d", null ],
-      [ "JKQTPPlotStyleType::Annotation", "group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4a55f6611cb342565cf0f5002400f53a95", null ]
+      [ "JKQTPPlotStyleType::Annotation", "group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4a55f6611cb342565cf0f5002400f53a95", null ],
+      [ "JKQTPPlotStyleType::FinancialPositive", "group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4aba233afaaf67ccef7de2574f114cf90e", null ],
+      [ "JKQTPPlotStyleType::FinancialNegative", "group__jkqtpplottersupprt.html#ggaf0d90444170dd9b4daeabdede17615c4a706d8c51ecee3e8cac8ff48bbc16bc08", null ]
     ] ],
     [ "JKQTPUserActionMarkerType", "group__jkqtpplottersupprt.html#ga6562bedae430e91546399ae1a70cb860", [
       [ "jkqtpuamtCircle", "group__jkqtpplottersupprt.html#gga6562bedae430e91546399ae1a70cb860a55afdd9635a7987235e5dbfa6549c482", null ],

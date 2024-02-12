@@ -136,32 +136,7 @@ Graph Class Structure</h1>
 </ul>
 <p>Usually if writing a new graph, one would not directly derive from <a class="el" href="class_j_k_q_t_p_plot_element.html" title="this virtual base class of every element, which is part of a JKQTPlotter plot and may appear in its k...">JKQTPPlotElement</a>, but from a cass in it's hirarchy of children. These children already provide certain facilities for certain types of graphs.</p>
 <div class="dotgraph">
-<iframe scrolling="no" frameborder="0" src="dot_inline_dotgraph_1.svg" width="1319" height="1411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<h1><a class="anchor" id="jkqtplotter_graphsgroup_classstructure_mixins"></a>
-Mix-In Classes for Graphs</h1>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtplotter__mixins.html">Mix-in classes for Graphs</a></dd></dl>
-<p>In addition there are mix-in classes that are used via multiple inheritance that add additional features and properties to a graph. A prominent example are the classes for <a class="el" href="group__jkqtplotter__basegraphserrors.html">error indicators</a>. With these there are usually two variants of one type of graph: One without error indicators and one with error indicators, e.g.:</p><ul>
-<li><a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a> shows lines+symbols graphs made up from x/y-value pairs for each data point.</li>
-<li><a class="el" href="class_j_k_q_t_p_x_y_line_error_graph.html" title="This implements xy line plots with x and y error indicators.">JKQTPXYLineErrorGraph</a> extends <a class="el" href="class_j_k_q_t_p_x_y_line_graph.html" title="This implements xy line plots. This also alows to draw symbols at the data points.">JKQTPXYLineGraph</a> with error indicator drawing/properties provided by <a class="el" href="class_j_k_q_t_p_x_y_graph_errors.html" title="This class is the base class for graphs that only display error indicators in x- and y-direction.">JKQTPXYGraphErrors</a></li>
-</ul>
-<p>This approach allows to keep interfaces and appearance recognizeable over different graph classes and locates the source code for a feature like error indicators in a single/in few class(es).</p>
-<p>Another example of such a class is <a class="el" href="class_j_k_q_t_p_color_palette_style_and_tools_mixin.html" title="if a class is derived from this class, it may use color bars">JKQTPColorPaletteStyleAndToolsMixin</a>, which provides functions that allow to use color palettes. It is mainly used for the <a class="el" href="group__jkqtplotter__imagelots.html">Image/Matrix graphs</a>, but also by e.g. <a class="el" href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html" title="This implements xy scatter plots (like JKQTPXYScatterGraph), but the color and size of the symbols ma...">JKQTPXYParametrizedScatterGraph</a>.</p>
-<h1><a class="anchor" id="jkqtplotter_graphsgroup_classstructure_basics"></a>
-Graph Class Structure</h1>
-<p>Each type of graph is represented by another class, which has to be derived from <a class="el" href="class_j_k_q_t_p_plot_element.html" title="this virtual base class of every element, which is part of a JKQTPlotter plot and may appear in its k...">JKQTPPlotElement</a>. This class provides a basic virtual interface that allows <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> to draw the graphs represented by them. This interface consists of these functions:</p><ul>
-<li><a class="el" href="class_j_k_q_t_p_plot_element.html#a398ca9be02ec288d60a5618eeeff4791" title="plots the graph to the plotter object specified as parent">JKQTPPlotElement::draw()</a> draws the graph onto a given <a class="el" href="class_j_k_q_t_p_enhanced_painter.html" title="this class extends the QPainter">JKQTPEnhancedPainter</a> (derived from <a href="http://doc.qt.io/qt-5/qpainter.html">QPainter</a>)</li>
-<li><a class="el" href="class_j_k_q_t_p_plot_element.html#a2ab041f3e86c87716dadd24f5a754276" title="plots a key marker inside the specified rectangle rect">JKQTPPlotElement::drawKeyMarker()</a> draws the small marker image in the plot legend</li>
-<li><a class="el" href="class_j_k_q_t_p_plot_element.html#a623fe77049246abda428b0ca8484f434" title="returns the color to be used for the key label">JKQTPPlotElement::getKeyLabelColor()</a> returns a color for the legend entry for the graph</li>
-<li><a class="el" href="class_j_k_q_t_p_plot_element.html#a4fde58faa62550c210ca240ec6bb9a49" title="get the maximum and minimum x-value of the graph">JKQTPPlotElement::getXMinMax()</a> returns the extent of the graph in x-direction (e.g. for auto-zooming)</li>
-<li><a class="el" href="class_j_k_q_t_p_plot_element.html#ae20f858f06ea7cd02cb97def97e027c1" title="get the maximum and minimum y-value of the graph">JKQTPPlotElement::getYMinMax()</a> returns the extent of the graph in Y-direction (e.g. for auto-zooming)</li>
-</ul>
-<p>In addition to these basic functions, there are additional functions that can be used to draw something outside the actual plot rectangle. These are used to e.g. add color-scales to the side of the graph:</p><ul>
-<li><a class="el" href="class_j_k_q_t_p_plot_element.html#aa389c0c4e5e9fa320c765c98c8653faf" title="if the graph plots outside the actual plot field of view (e.g. color bars, scale bars,...">JKQTPPlotElement::getOutsideSize()</a> returns the amount of space required outside the plot rectangle</li>
-<li><a class="el" href="class_j_k_q_t_p_plot_element.html#a6872f3e9b55fec48e5efb45d50404f86" title="plots outside the actual plot field of view (e.g. color bars, scale bars, ...)">JKQTPPlotElement::drawOutside()</a> draws the elements outside the plot rectangle</li>
-</ul>
-<p>Usually if writing a new graph, one would not directly derive from <a class="el" href="class_j_k_q_t_p_plot_element.html" title="this virtual base class of every element, which is part of a JKQTPlotter plot and may appear in its k...">JKQTPPlotElement</a>, but from a cass in it's hirarchy of children. These children already provide certain facilities for certain types of graphs.</p>
-<div class="dotgraph">
-<iframe scrolling="no" frameborder="0" src="dot_inline_dotgraph_2.svg" width="1319" height="1267"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<iframe scrolling="no" frameborder="0" src="dot_inline_dotgraph_1.svg" width="1319" height="1380"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <h1><a class="anchor" id="jkqtplotter_graphsgroup_classstructure_mixins"></a>
 Mix-In Classes for Graphs</h1>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__jkqtplotter__mixins.html">Mix-in classes for Graphs</a></dd></dl>
@@ -177,7 +152,7 @@ Mix-In Classes for Graphs</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Feb 11 2024 18:02:29 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Feb 12 2024 21:23:17 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

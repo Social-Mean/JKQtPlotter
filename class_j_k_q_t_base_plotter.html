@@ -2326,7 +2326,13 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 </div><div class="memdoc">
 
 <p>adds a secondary x-axis </p>
-<p>\params axis the <a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html" title="base class for horizontal axes, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoo...">JKQTPHorizontalAxisBase</a> object to add </p><dl class="section return"><dt>Returns</dt><dd>a reference to this axis</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axis</td><td>the <a class="el" href="class_j_k_q_t_p_horizontal_axis_base.html" title="base class for horizontal axes, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoo...">JKQTPHorizontalAxisBase</a> object to add </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a reference to this axis</dd></dl>
 <p>Usage is simple: </p><div class="fragment"><div class="line"><span class="comment">// construct a new x-axis-object</span></div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_horizontal_axis_base.html">JKQTPHorizontalAxisBase</a>* secXAxis=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_horizontal_axis.html">JKQTPHorizontalAxis</a>(plot.getPlotter(), <a class="code hl_enumvalue" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a>)</div>
 <div class="line"><span class="comment">// add it to the plot</span></div>
@@ -2360,7 +2366,13 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 </div><div class="memdoc">
 
 <p>adds a secondary y-axis </p>
-<p>\params axis the <a class="el" href="class_j_k_q_t_p_vertical_axis_base.html" title="base class for vertical axes, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoord...">JKQTPVerticalAxisBase</a> object to add </p><dl class="section return"><dt>Returns</dt><dd>a reference to this axis</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axis</td><td>the <a class="el" href="class_j_k_q_t_p_vertical_axis_base.html" title="base class for vertical axes, based on JKQTPCoordinateAxis (for most of documentation: see JKQTPCoord...">JKQTPVerticalAxisBase</a> object to add </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a reference to this axis</dd></dl>
 <p>Usage is simple: </p><div class="fragment"><div class="line"><span class="comment">// construct a new y-axis-object</span></div>
 <div class="line"><a class="code hl_class" href="class_j_k_q_t_p_vertical_axis_base.html">JKQTPVerticalAxisBase</a>* secYAxis=<span class="keyword">new</span> <a class="code hl_class" href="class_j_k_q_t_p_vertical_axis.html">JKQTPVerticalAxis</a>(plot.getPlotter(), <a class="code hl_enumvalue" href="group__jkqtpplottersupprt.html#gga242826d2d6bf5e6c4c09d0060f4cddb2a7a39bf95301368d24323487d3914d525">JKQTPPrimaryAxis</a>)</div>
 <div class="line"><span class="comment">// add it to the plot</span></div>
@@ -8495,7 +8507,7 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filename</td><td>the filename to save to, if empty a file save dialog is displayed </td></tr>
-    <tr><td class="paramname">displayPreview</td><td>if \C true, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
+    <tr><td class="paramname">displayPreview</td><td>if <code>true</code>, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
   </table>
   </dd>
 </dl>
@@ -8555,7 +8567,7 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
   <table class="params">
     <tr><td class="paramname">filename</td><td>name of the stored file, if no <em>outputFormat</em> is given, the file format is deduced by the file extension in <em>filename</em> </td></tr>
     <tr><td class="paramname">displayPreview</td><td>if <code>true</code> a dialog is shown that allows to modify the generated output (zoo, scaling, ...) </td></tr>
-    <tr><td class="paramname">outputFormmat</td><td>specify the file format for the generated file </td></tr>
+    <tr><td class="paramname">outputFormat</td><td>specify the file format for the generated file </td></tr>
     <tr><td class="paramname">outputSizeIncrease</td><td>if given, the size of the generated pixel image is increased by this number of pixels in addition to the required space </td></tr>
   </table>
   </dd>
@@ -8693,7 +8705,7 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filename</td><td>the filename to save to, if empty a file save dialog is displayed </td></tr>
-    <tr><td class="paramname">displayPreview</td><td>if \C true, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
+    <tr><td class="paramname">displayPreview</td><td>if <code>true</code>, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
   </table>
   </dd>
 </dl>
@@ -8959,7 +8971,7 @@ template&lt;class TJKQTPGraphContainer &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filename</td><td>the filename to save to, if empty a file save dialog is displayed </td></tr>
-    <tr><td class="paramname">displayPreview</td><td>if \C true, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
+    <tr><td class="paramname">displayPreview</td><td>if <code>true</code>, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
   </table>
   </dd>
 </dl>
@@ -14927,7 +14939,7 @@ y-axis</td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a></li>
-    <li class="footer">Generated on Sun Feb 11 2024 18:02:29 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Feb 12 2024 21:23:17 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

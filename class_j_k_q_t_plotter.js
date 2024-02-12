@@ -253,7 +253,7 @@ var class_j_k_q_t_plotter =
     [ "userScribbleClick", "class_j_k_q_t_plotter.html#a554b40c1d9b2c766c585d00419269a46", null ],
     [ "wheelEvent", "class_j_k_q_t_plotter.html#aabbb1a38b1d1dc36db13d882760cfaef", null ],
     [ "widgetResized", "class_j_k_q_t_plotter.html#ac8003d5392d752847385c2741c292d22", null ],
-    [ "zoom", "class_j_k_q_t_plotter.html#a62982753c38fb0b286a6c1475efb4183", null ],
+    [ "zoom", "class_j_k_q_t_plotter.html#a3d388686059ff0979dea10cb9933391a", null ],
     [ "zoomChangedLocally", "class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082", null ],
     [ "zoomIn", "class_j_k_q_t_plotter.html#a6d4a8198ef30bbaa6baffdb3d31e4cec", null ],
     [ "zoomOut", "class_j_k_q_t_plotter.html#a982c88440a8337ffb036cd483814d42f", null ],

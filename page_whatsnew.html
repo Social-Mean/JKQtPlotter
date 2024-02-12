@@ -203,7 +203,7 @@ BREAKING/FIXED: graph symbols were not properly applied when reading styles (in 
 <li>
 BREAKING/NEW: rework layouting of keys/legends: new classes <a class="el" href="class_j_k_q_t_p_base_key.html" title="base class for drawing a key (or legend)">JKQTPBaseKey</a>, <a class="el" href="class_j_k_q_t_p_main_key.html" title="concrete class for drawing the main plot key (or legend). This class reads the key entries from the g...">JKQTPMainKey</a> ... and removed several styling function for the main key from <a class="el" href="class_j_k_q_t_base_plotter.html" title="base class for 2D plotter classes (used by the plotter widget JKQTPlotter)">JKQTBasePlotter</a> and <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> (these are now accessible via <a class="el" href="class_j_k_q_t_base_plotter.html#ad82a81593a09f4209c2349f3f41a90e3" title="retuns the main key object">JKQTBasePlotter::getMainKey()</a>  </li>
 <li>
-BREAKING/DEPRECATED: deprecated <a class="el" href="class_j_k_q_t_base_plotter.html#a3c00ffffd041e20e789a21087fcbfbd6" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTBasePlotter::zoom()</a> and <a class="el" href="class_j_k_q_t_plotter.html#a62982753c38fb0b286a6c1475efb4183" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTPlotter::zoom()</a>, use <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTBasePlotter::setXY()</a> and <a class="el" href="class_j_k_q_t_plotter.html#a7cb1174da67d7d37dabc30c2ca25ed30" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTPlotter::setXY()</a> instead </li>
+BREAKING/DEPRECATED: deprecated <a class="el" href="class_j_k_q_t_base_plotter.html#a3c00ffffd041e20e789a21087fcbfbd6" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTBasePlotter::zoom()</a> and <a class="el" href="class_j_k_q_t_plotter.html#a3d388686059ff0979dea10cb9933391a" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTPlotter::zoom()</a>, use <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTBasePlotter::setXY()</a> and <a class="el" href="class_j_k_q_t_plotter.html#a7cb1174da67d7d37dabc30c2ca25ed30" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTPlotter::setXY()</a> instead </li>
 <li>
 FIXED issue described in <a href="https://github.com/jkriege2/JKQtPlotter/pull/62">#62: Fix custom labels draw, because giving exactly two label-strings did not display all of them</a>, thanks to <a href="https://github.com/FalsinSoft">user:FalsinSoft</a> </li>
 <li>
@@ -229,7 +229,11 @@ FIXED: exporting gridPrinting plots when using only a <a class="el" href="class_
 <li>
 FIXED: fixed impleentations of <a class="el" href="class_j_k_q_t_plotter.html#a9cc0200f6afa42d5e1eab038a98909b6" title="returns an iterator to the first graph">JKQTPlotter::beginGraphs()</a>, which actually returned the end-iterator (COPY-PASTE-ERROR!!!) </li>
 <li>
-FIXED issue <a href="https://github.com/jkriege2/JKQtPlotter/pull/99">#99: Clipping of Tick Labels</a>: for horizontal axes, additional space at the left and/or right of the plot is allowed so labels are no longer clipped (thanks to <a href="https://github.com/allenbarnett5">user:allenbarnett5/a&gt; for reporting) FIXED issue #99: Height of one-column key/legend was too large</a> (thanks to <a href="https://github.com/allenbarnett5">user:allenbarnett5/a&gt; for reporting) FIXED issue mentioned in #110: Lock the panning action to certain values: View zooms in, when panning close to AbosluteXY</a> (thanks to <a href="https://github.com/sim186">user:sim186</a> for reporting) </li>
+FIXED issue <a href="https://github.com/jkriege2/JKQtPlotter/pull/99">#99: Clipping of Tick Labels</a>: for horizontal axes, additional space at the left and/or right of the plot is allowed so labels are no longer clipped (thanks to <a href="https://github.com/allenbarnett5">user:allenbarnett5</a> for reporting) </li>
+<li>
+FIXED issue <a href="https://github.com/jkriege2/JKQtPlotter/pull/99">#99: Height of one-column key/legend was too large</a> (thanks to <a href="https://github.com/allenbarnett5">user:allenbarnett5</a> for reporting) </li>
+<li>
+FIXED issue mentioned in <a href="https://github.com/jkriege2/JKQtPlotter/pull/110">#110: Lock the panning action to certain values: View zooms in, when panning close to AbosluteXY</a> (thanks to <a href="https://github.com/sim186">user:sim186</a> for reporting) </li>
 <li>
 FIXED: <a class="el" href="group__jkqtptools__math__statistics__basic.html#gafbafc72c766fe9c85cc9217b64ce1acb" title="calculates the sum of a given data range first ... last">jkqtpstatSum()</a> and <a class="el" href="group__jkqtptools__math__statistics__basic.html#ga427cf53250740ba657af40fed12c9d28" title="calculates the sum of squares of a given data range first ... last">jkqtpstatSumSqr()</a> did not work, as a non-existing function is called internally </li>
 <li>
@@ -247,6 +251,8 @@ IMPROVED/FIXED outside space requirements for color bars. Text was sometime too 
 <li>
 REWORKED <a class="el" href="class_j_k_q_t_base_plotter.html#a315af21f554552524f5a478039b72786" title="save the data used for the current plot. The file format is extracted from the file extension (csv,...">JKQTBasePlotter::saveData()</a> with a more consistent interface and a bool return value to indicate success or failure + improved documentation, added methods to <a class="el" href="class_j_k_q_t_p_save_data_adapter.html" title="virtual base-class for exporter classes that can be used to save data inot a file">JKQTPSaveDataAdapter</a> that allow to specify file extensions and an ID for the plugin. </li>
 <li>
+REWORKED: separation and gruping factor for barcharts on autoscaling </li>
+<li>
 REORGANIZED: separated line-graphs from <a class="el" href="jkqtpscatter_8h_source.html">jkqtpscatter.h</a>/.cpp into <a class="el" href="jkqtplines_8h_source.html">jkqtplines.h</a>/.cpp </li>
 <li>
 IMPROVED: QT6-compatibility by removing deprecated warnings </li>
@@ -263,7 +269,7 @@ IMPROVED/REWORKED: coordinate axis code was refactored </li>
 <li>
 IMPROVED/REWORKED: zomm/pan by mouse-wheel: now there are modes that support zoomin AND panning by trakpad and mouse-wheel simultaneously! This can only be implemented using heuristics, due to the way that Qt handles track-pad events, but the current solution should at least improve the behaviour seen before. Mainly <code>jkqtpmwaZoomByWheelAndTrackpadPan</code> was introduced into <code>JKQTPMouseWheelActions</code> und is set as default mode: Here <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> tries to distinguish the QWheelEvent s sent by an actual mouse wheel and a trackpad. </li>
 <li>
-IMPROVED/REWORKED: better example graphs in <a class="el" href="">JKQTPlotterStyling.</a> </li>
+IMPROVED/REWORKED: better example graphs in <a class="el" href="_j_k_q_t_plotter_styling.html">Tutorial (JKQTPlotter): Styling a JKQtPlotter</a> . </li>
 <li>
 IMPROVED/REWORKED: legend/key positioning as combination of 3 values, e.g. <code>JKQTPKeyOutsideTop|JKQTPKeyTop|JKQTPKeyRight</code> or <code>JKQTPKeyInside|JKQTPKeyTopJKQTPKeyRight</code> </li>
 <li>
@@ -379,6 +385,10 @@ NEW: <a class="el" href="class_j_k_q_t_p_vector_field_graph.html" title="This gr
 NEW: <a class="el" href="class_j_k_q_t_p_parametrized_vector_field_graph.html" title="This graph plots a vector field, i.e. a set of vectors (dx,dy) or (angle,length) at positions (x,...">JKQTPParametrizedVectorFieldGraph</a> for drawing color-coded vector fields/quiver plots (+example <a class="el" href="_j_k_q_t_p_parametrized_vector_field_graph_example.html">Example (JKQTPlotter): Vector Field Plot Example</a>) </li>
 <li>
 NEW: <a class="el" href="class_j_k_q_t_p_financial_graph.html" title="This class draws an Open-High-Low-Close (OHLC) or candle-stick graph typically representing financial...">JKQTPFinancialGraph</a> for drawing candlestick or OHLC graphs of financial data, such as stock amrket prices (+example <a class="el" href="_j_k_q_t_plotter_financial_chart_example.html">Example (JKQTPlotter): Financial Chart (Candlestick/OHLC) Example</a>) </li>
+<li>
+NEW: stacked barcharts may have a small separation (default 1pt) </li>
+<li>
+NEW: autoscaling for barcharts works now, also when stacked and unstacked charts are combined in one plot </li>
 </ul>
 <p class="endli"></p>
 </li>
@@ -804,7 +814,7 @@ Latest Release/Tag: <a href="https://github.com/jkriege2/JKQtPlotter/releases/ta
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Feb 11 2024 18:02:28 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Feb 12 2024 21:23:17 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

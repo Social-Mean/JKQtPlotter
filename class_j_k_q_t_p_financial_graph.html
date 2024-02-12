@@ -125,8 +125,10 @@ $(document).ready(function(){initNavTree('class_j_k_q_t_p_financial_graph.html',
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_j_k_q_t_p_financial_graph-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">JKQTPFinancialGraph Class Reference<div class="ingroups"><a class="el" href="group__jkqtplotter.html">JKQTPlotter: Qt based Scientific Plotter Class</a> &raquo; <a class="el" href="group__jkqtplotter__classdoc.html">Type/Class/Function Documentation</a> &raquo; <a class="el" href="group__jkqtplotter__elements.html">Plot Element Classes</a> &raquo; <a class="el" href="group__jkqtplotter__concretegraphs.html">Concrete Graph Classes</a> &raquo; <a class="el" href="group__jkqtplotter__financialgraphs.html">Financial Graphs</a></div></div></div>
@@ -463,6 +465,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa4556f29d05fc52d2560592fdba15d8a inherit pub_methods_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool routine that transforms a y-coordinate (plot coordinate --&gt; pixels) for this plot element, uses the axis referenced in yAxisRef  <br /></td></tr>
 <tr class="separator:aa4556f29d05fc52d2560592fdba15d8a inherit pub_methods_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a96796cbcbdbcb3aac1af75c9559a8c12" id="r_a96796cbcbdbcb3aac1af75c9559a8c12"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_financial_graph.html#a96796cbcbdbcb3aac1af75c9559a8c12">clearColorAssignStore</a> ()</td></tr>
+<tr class="separator:a96796cbcbdbcb3aac1af75c9559a8c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:abc31c57c4313e82e1bb7265df2575335" id="r_abc31c57c4313e82e1bb7265df2575335"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_financial_graph.html#abc31c57c4313e82e1bb7265df2575335">considerForAutoscaling</a> (<a class="el" href="class_j_k_q_t_p_financial_graph.html">JKQTPFinancialGraph</a> *other) const</td></tr>
@@ -552,6 +559,11 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:a05f99859e10d874e9a86512cbab9674f inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal storage for the used parent plot style  <br /></td></tr>
 <tr class="separator:a05f99859e10d874e9a86512cbab9674f inherit pro_attribs_class_j_k_q_t_p_plot_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a1b371bb8a64a2cbcd5807997ccda224b" id="r_a1b371bb8a64a2cbcd5807997ccda224b"><td class="memItemLeft" align="right" valign="top">static QSet&lt; <a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_financial_graph.html#a1b371bb8a64a2cbcd5807997ccda224b">parentsAlreadySeen</a></td></tr>
+<tr class="separator:a1b371bb8a64a2cbcd5807997ccda224b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:afa47abf020fcc15cfaddf911cd94ea9c" id="r_afa47abf020fcc15cfaddf911cd94ea9c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_financial_graph.html#afa47abf020fcc15cfaddf911cd94ea9c">closeColumn</a></td></tr>
@@ -625,17 +637,14 @@ Styling the Financial Graphs</h1>
 <img src="financialgraphs_width.png" alt=""/>
 </div>
 <h1><a class="anchor" id="JKQTPFinancialGraphSideBySide"></a>
-Severyl Financial Graphs side-by-side</h1>
+Several Financial Graphs side-by-side</h1>
 <p>In case you want to display several of these graphs in the same plot, you can make them appear side-by-side, even if they all cover the same x-values and would thus be draw atop each other. We apply the same principles that were used for barcharts in <a class="el" href="class_j_k_q_t_p_bar_graph_base.html" title="This is a base-class for all bar graphs with vertical or horizontal orientation (the orientation is i...">JKQTPBarGraphBase</a> and add a shift-parameter (<a class="el" href="class_j_k_q_t_p_financial_graph.html#aacaa2d053e6185e15726e2888487ebdd" title="the shift of the boxes, relative to the distance between the current and the next x-value">setShift()</a> ) that shifts each element in the available space:</p>
 <div class="image">
-<img src="financialgraphs_basics.png" alt=""/>
+<img src="financialgraphs_shiftwidth.png" alt=""/>
 </div>
 <p>For example for two financial graph elements per x-value one would set: </p><pre class="fragment">*        width=0.4
 *        shift=-0.5 / +0.5
-*  </pre><div class="image">
-<img src="financialgraphs_shiftwidth.png" alt=""/>
-</div>
-<p>Two functions are provided (<a class="el" href="class_j_k_q_t_p_financial_graph.html#aad3b947a87efb86f88fc3ea9304717d2" title="finds all financial charts of the same orientation and determines width and shift,...">JKQTPFinancialGraph::autoscaleBoxWidthAndShift()</a>, <a class="el" href="class_j_k_q_t_p_financial_graph.html#a7958e5f21e3796add6f3459ba0f98507" title="equivalent to autoscaleBoxWidthAndShift(groupWidth,0.8);">JKQTPFinancialGraph::autoscaleBoxWidthAndShiftSeparatedGroups()</a> ) that can be applied to any <a class="el" href="class_j_k_q_t_p_financial_graph.html" title="This class draws an Open-High-Low-Close (OHLC) or candle-stick graph typically representing financial...">JKQTPFinancialGraph</a> in the plot and will calculate all JKQTPFinancialGraphs' shift and width parameter in such a way that the graphs appear tidied up into groups by x-value. With these functions you don't have to calculate the shift and width values by hand! A call always only affects the <a class="el" href="class_j_k_q_t_p_financial_graph.html" title="This class draws an Open-High-Low-Close (OHLC) or candle-stick graph typically representing financial...">JKQTPFinancialGraph</a> in the plot with the same orientation (vertical or horizontal).</p>
+*  </pre><p>Two functions are provided (<a class="el" href="class_j_k_q_t_p_financial_graph.html#aad3b947a87efb86f88fc3ea9304717d2" title="finds all financial charts of the same orientation and determines width and shift,...">JKQTPFinancialGraph::autoscaleBoxWidthAndShift()</a>, <a class="el" href="class_j_k_q_t_p_financial_graph.html#a7958e5f21e3796add6f3459ba0f98507" title="equivalent to autoscaleBoxWidthAndShift(groupWidth,0.8);">JKQTPFinancialGraph::autoscaleBoxWidthAndShiftSeparatedGroups()</a> ) that can be applied to any <a class="el" href="class_j_k_q_t_p_financial_graph.html" title="This class draws an Open-High-Low-Close (OHLC) or candle-stick graph typically representing financial...">JKQTPFinancialGraph</a> in the plot and will calculate all JKQTPFinancialGraphs' shift and width parameter in such a way that the graphs appear tidied up into groups by x-value. With these functions you don't have to calculate the shift and width values by hand! A call always only affects the <a class="el" href="class_j_k_q_t_p_financial_graph.html" title="This class draws an Open-High-Low-Close (OHLC) or candle-stick graph typically representing financial...">JKQTPFinancialGraph</a> in the plot with the same orientation (vertical or horizontal).</p>
 <div class="image">
 <img src="JKQTPFinancialGraphSidyBySide.png" alt=""/>
 </div>
@@ -781,6 +790,31 @@ Severyl Financial Graphs side-by-side</h1>
 </div><div class="memdoc">
 
 <p>equivalent to <code>autoscaleBoxWidthAndShift</code>(groupWidth,0.8); </p>
+
+</div>
+</div>
+<a id="a96796cbcbdbcb3aac1af75c9559a8c12" name="a96796cbcbdbcb3aac1af75c9559a8c12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96796cbcbdbcb3aac1af75c9559a8c12">&#9670;&#160;</a></span>clearColorAssignStore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void JKQTPFinancialGraph::clearColorAssignStore </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2069,6 +2103,28 @@ Severyl Financial Graphs side-by-side</h1>
 
 </div>
 </div>
+<a id="a1b371bb8a64a2cbcd5807997ccda224b" name="a1b371bb8a64a2cbcd5807997ccda224b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b371bb8a64a2cbcd5807997ccda224b">&#9670;&#160;</a></span>parentsAlreadySeen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSet&lt;<a class="el" href="class_j_k_q_t_base_plotter.html">JKQTBasePlotter</a>*&gt; JKQTPFinancialGraph::parentsAlreadySeen</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a73144cf16f49abe50d9d24fcf1ffd8e2" name="a73144cf16f49abe50d9d24fcf1ffd8e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a73144cf16f49abe50d9d24fcf1ffd8e2">&#9670;&#160;</a></span>shift</h2>
 
@@ -2259,7 +2315,7 @@ Severyl Financial Graphs side-by-side</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_financial_graph.html">JKQTPFinancialGraph</a></li>
-    <li class="footer">Generated on Sun Feb 11 2024 18:02:29 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Feb 12 2024 21:23:18 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

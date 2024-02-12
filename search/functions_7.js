@@ -9,7 +9,7 @@ var searchData=
   ['hasfontname_6',['hasFontName',['../struct_j_k_q_t_math_text_font_specifier.html#a845f9b3414ca36dff8d15278fd29df48',1,'JKQTMathTextFontSpecifier']]],
   ['hasmathfontname_7',['hasMathFontName',['../struct_j_k_q_t_math_text_font_specifier.html#ac0407692b58b39e2675bb9785414c824',1,'JKQTMathTextFontSpecifier']]],
   ['hasoverridecolor_8',['hasOverrideColor',['../class_j_k_q_t_p_contour_plot.html#aae98d3d80314992373d765b5c647c511',1,'JKQTPContourPlot']]],
-  ['hasstackparent_9',['hasstackparent',['../class_j_k_q_t_p_bar_vertical_stackable_graph.html#a0a72a869f05fe4ceb4dc663ce38b94a7',1,'JKQTPBarVerticalStackableGraph::hasStackParent()'],['../class_j_k_q_t_p_bar_horizontal_stackable_graph.html#ac3cb3dc4c727c77b4dd267ac20683d6f',1,'JKQTPBarHorizontalStackableGraph::hasStackParent()'],['../class_j_k_q_t_p_bar_graph_base.html#aeba7f96d25791ef888baed0a8b770465',1,'JKQTPBarGraphBase::hasStackParent()']]],
+  ['hasstackparent_9',['hasstackparent',['../class_j_k_q_t_p_bar_vertical_stackable_graph.html#a8f27d36c757cc07d661708f9129c5118',1,'JKQTPBarVerticalStackableGraph::hasStackParent()'],['../class_j_k_q_t_p_bar_horizontal_stackable_graph.html#ac3cb3dc4c727c77b4dd267ac20683d6f',1,'JKQTPBarHorizontalStackableGraph::hasStackParent()'],['../class_j_k_q_t_p_bar_graph_base.html#aeba7f96d25791ef888baed0a8b770465',1,'JKQTPBarGraphBase::hasStackParent()']]],
   ['hassymbol_10',['hasSymbol',['../class_j_k_q_t_math_text_symbol_node.html#a3b9d4b0185538fff523586c981ac254b',1,'JKQTMathTextSymbolNode']]],
   ['hasxaxis_11',['hasXAxis',['../class_j_k_q_t_base_plotter.html#adb88d7f1ff003c8c2d9367ea9bc3af4a',1,'JKQTBasePlotter']]],
   ['hasyaxis_12',['hasYAxis',['../class_j_k_q_t_base_plotter.html#aa5b6b7dcedd674774318750d181b5f6c',1,'JKQTBasePlotter']]],

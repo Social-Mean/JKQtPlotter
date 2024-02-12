@@ -352,10 +352,10 @@ Public Slots</h2></td></tr>
 <tr class="memitem:a22b28957e36daf8713d9f32aa6f49f0f" id="r_a22b28957e36daf8713d9f32aa6f49f0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a22b28957e36daf8713d9f32aa6f49f0f">synchronizeYAxis</a> (double newxmin, double newxmax, double newymin, double newymax, <a class="el" href="class_j_k_q_t_plotter.html">JKQTPlotter</a> *sender)</td></tr>
 <tr class="memdesc:a22b28957e36daf8713d9f32aa6f49f0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">may be connected to <a class="el" href="class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082" title="signal: emitted whenever the user selects a new x-y zoom range (by mouse)">zoomChangedLocally()</a> of a different plot and synchronizes the local y-axis to the other y-axis  <br /></td></tr>
 <tr class="separator:a22b28957e36daf8713d9f32aa6f49f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62982753c38fb0b286a6c1475efb4183" id="r_a62982753c38fb0b286a6c1475efb4183"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a62982753c38fb0b286a6c1475efb4183">zoom</a> (double nxmin, double nxmax, double nymin, double nymax, bool affectsSecondaryAxes=false)</td></tr>
-<tr class="memdesc:a62982753c38fb0b286a6c1475efb4183"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)   <br  />
+<tr class="memitem:a3d388686059ff0979dea10cb9933391a" id="r_a3d388686059ff0979dea10cb9933391a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a3d388686059ff0979dea10cb9933391a">zoom</a> (double xminn, double xmaxn, double yminn, double ymaxn, bool affectsSecondaryAxes=false)</td></tr>
+<tr class="memdesc:a3d388686059ff0979dea10cb9933391a"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)   <br  />
       <br /></td></tr>
-<tr class="separator:a62982753c38fb0b286a6c1475efb4183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a3d388686059ff0979dea10cb9933391a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d4a8198ef30bbaa6baffdb3d31e4cec" id="r_a6d4a8198ef30bbaa6baffdb3d31e4cec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_plotter.html#a6d4a8198ef30bbaa6baffdb3d31e4cec">zoomIn</a> (double factor=2.0)</td></tr>
 <tr class="memdesc:a6d4a8198ef30bbaa6baffdb3d31e4cec"><td class="mdescLeft">&#160;</td><td class="mdescRight">zooms into the graph (the same as turning the mouse wheel) by the given factor    <br /></td></tr>
 <tr class="separator:a6d4a8198ef30bbaa6baffdb3d31e4cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1422,7 +1422,7 @@ Actions After (Double-)Clicks on the Mouse Buttons</h3>
 <p>The reaction to double-clicks of the mouse buttons can be specified separately. The possible actions are listed in JKQTPMouseDoubleClickActions. You can bind one of these actions to a specific click with these functions:</p><ul>
 <li><a class="el" href="class_j_k_q_t_plotter.html#afbe623b378c5510f2947981db3e65304" title="registeres a certain mouse action action to be executed when a mouse double-click occurs with the giv...">registerMouseDoubleClickAction()</a> tells <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> to perform a certain action (selected from JKQTPMouseDoubleClickActions) when a specified mouse button is pushed while a specified (or no) keyborad modifiers (e.g. CTRL,ALT,SHIFT...) is pressed. By default <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> calls this in its constructors: <div class="fragment"><div class="line"><a class="code hl_function" href="class_j_k_q_t_plotter.html#afbe623b378c5510f2947981db3e65304">registerMouseDoubleClickAction</a>(Qt::LeftButton, Qt::NoModifier, <a class="code hl_enumvalue" href="group__jkqtpplottersupprt.html#ggad4929dc37ab4326c404de91ef6a60f17a246957086b98912d86c8e2b672f6bef9">JKQTPMouseDoubleClickActions::jkqtpdcaClickMovesViewport</a>);</div>
 <div class="ttc" id="aclass_j_k_q_t_plotter_html_afbe623b378c5510f2947981db3e65304"><div class="ttname"><a href="class_j_k_q_t_plotter.html#afbe623b378c5510f2947981db3e65304">JKQTPlotter::registerMouseDoubleClickAction</a></div><div class="ttdeci">void registerMouseDoubleClickAction(Qt::MouseButton button, Qt::KeyboardModifiers modifier, JKQTPMouseDoubleClickActions action)</div><div class="ttdoc">registeres a certain mouse action action to be executed when a mouse double-click occurs with the giv...</div></div>
-<div class="ttc" id="agroup__jkqtpplottersupprt_html_ggad4929dc37ab4326c404de91ef6a60f17a246957086b98912d86c8e2b672f6bef9"><div class="ttname"><a href="group__jkqtpplottersupprt.html#ggad4929dc37ab4326c404de91ef6a60f17a246957086b98912d86c8e2b672f6bef9">jkqtpdcaClickMovesViewport</a></div><div class="ttdeci">@ jkqtpdcaClickMovesViewport</div><div class="ttdoc">a double-click centers the x/y-range around the clicked position</div><div class="ttdef"><b>Definition</b> jkqtptools.h:143</div></div>
+<div class="ttc" id="agroup__jkqtpplottersupprt_html_ggad4929dc37ab4326c404de91ef6a60f17a246957086b98912d86c8e2b672f6bef9"><div class="ttname"><a href="group__jkqtpplottersupprt.html#ggad4929dc37ab4326c404de91ef6a60f17a246957086b98912d86c8e2b672f6bef9">jkqtpdcaClickMovesViewport</a></div><div class="ttdeci">@ jkqtpdcaClickMovesViewport</div><div class="ttdoc">a double-click centers the x/y-range around the clicked position</div><div class="ttdef"><b>Definition</b> jkqtptools.h:145</div></div>
 </div><!-- fragment --> Therefore by default you can pan the plot/move the viewport by double clicking a location</li>
 <li><a class="el" href="class_j_k_q_t_plotter.html#a2ad8a16549e7b4e30fcadce9bb690e16" title="deregisteres the mouse action action to be executed when a mouse double-click occurs with the given b...">deregisterMouseDoubleClickAction()</a> deletes a previously defined user-interaction</li>
 <li>clearAllRegisteredMouseDoubleClickAction() deletes all previously specified user-actions</li>
@@ -1436,7 +1436,7 @@ Actions When a Mouse Wheel Event Occurs</h3>
 <p>The actions to be performed when the mouse wheel is operated are specified in JKQTPMouseWheelActions. You can bind one of these actions to the mouse-wheel (under the condition that a specified Qt::KeyboardModifiers is pressed) by using these functions:</p><ul>
 <li><a class="el" href="class_j_k_q_t_plotter.html#af3bc6fa4148a5b5bc8b88a8e35a144b6" title="specifies the action to perform on a mouse wheel event when a given modifier is pressed">registerMouseWheelAction()</a> tells <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> to perform a certain action (selected from JKQTPMouseWheelActions) when a specified mouse button is pushed while a specified (or no) keyborad modifiers (e.g. CTRL,ALT,SHIFT...) is pressed. By default <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> calls this in its constructors: <div class="fragment"><div class="line"><a class="code hl_function" href="class_j_k_q_t_plotter.html#af3bc6fa4148a5b5bc8b88a8e35a144b6">registerMouseWheelAction</a>(Qt::NoModifier, <a class="code hl_enumvalue" href="group__jkqtpplottersupprt.html#gga6617afa61313feda8c490932016ff58fa04e6c07a8561e4f848102c4c3b87ca53">JKQTPMouseWheelActions::jkqtpmwaZoomByWheel</a>);</div>
 <div class="ttc" id="aclass_j_k_q_t_plotter_html_af3bc6fa4148a5b5bc8b88a8e35a144b6"><div class="ttname"><a href="class_j_k_q_t_plotter.html#af3bc6fa4148a5b5bc8b88a8e35a144b6">JKQTPlotter::registerMouseWheelAction</a></div><div class="ttdeci">void registerMouseWheelAction(Qt::KeyboardModifiers modifier, JKQTPMouseWheelActions action)</div><div class="ttdoc">specifies the action to perform on a mouse wheel event when a given modifier is pressed</div></div>
-<div class="ttc" id="agroup__jkqtpplottersupprt_html_gga6617afa61313feda8c490932016ff58fa04e6c07a8561e4f848102c4c3b87ca53"><div class="ttname"><a href="group__jkqtpplottersupprt.html#gga6617afa61313feda8c490932016ff58fa04e6c07a8561e4f848102c4c3b87ca53">jkqtpmwaZoomByWheel</a></div><div class="ttdeci">@ jkqtpmwaZoomByWheel</div><div class="ttdoc">use the mouse-wheel for zooming</div><div class="ttdef"><b>Definition</b> jkqtptools.h:163</div></div>
+<div class="ttc" id="agroup__jkqtpplottersupprt_html_gga6617afa61313feda8c490932016ff58fa04e6c07a8561e4f848102c4c3b87ca53"><div class="ttname"><a href="group__jkqtpplottersupprt.html#gga6617afa61313feda8c490932016ff58fa04e6c07a8561e4f848102c4c3b87ca53">jkqtpmwaZoomByWheel</a></div><div class="ttdeci">@ jkqtpmwaZoomByWheel</div><div class="ttdoc">use the mouse-wheel for zooming</div><div class="ttdef"><b>Definition</b> jkqtptools.h:165</div></div>
 </div><!-- fragment --> Therefore by default you can zoom into and out of the plot, using the mouse wheel.</li>
 <li><a class="el" href="class_j_k_q_t_plotter.html#a5fdf69db18bbffbb1d4fdac53359a451" title="deletes all mouse-wheel actions registered for a given modifier">deregisterMouseWheelAction()</a> deletes a previously defined user-interaction</li>
 <li><a class="el" href="class_j_k_q_t_plotter.html#a72759889dcf65d9ccb88f5ae005fe1f2" title="deletes all mouse-wheel actions">clearAllMouseWheelActions()</a> deletes all previously specified user-actions</li>
@@ -6665,7 +6665,7 @@ Shown Toolbar</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filename</td><td>the filename to save to, if empty a file save dialog is displayed </td></tr>
-    <tr><td class="paramname">displayPreview</td><td>if \C true, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
+    <tr><td class="paramname">displayPreview</td><td>if <code>true</code>, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
   </table>
   </dd>
 </dl>
@@ -6725,7 +6725,7 @@ Shown Toolbar</div></div>
   <table class="params">
     <tr><td class="paramname">filename</td><td>name of the stored file, if no <em>outputFormat</em> is given, the file format is deduced by the file extension in <em>filename</em> </td></tr>
     <tr><td class="paramname">displayPreview</td><td>if <code>true</code> a dialog is shown that allows to modify the generated output (zoo, scaling, ...) </td></tr>
-    <tr><td class="paramname">outputFormmat</td><td>specify the file format for the generated file </td></tr>
+    <tr><td class="paramname">outputFormat</td><td>specify the file format for the generated file </td></tr>
     <tr><td class="paramname">outputSizeIncrease</td><td>if given, the size of the generated pixel image is increased by this number of pixels in addition to the required space </td></tr>
   </table>
   </dd>
@@ -6814,7 +6814,7 @@ Shown Toolbar</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filename</td><td>the filename to save to, if empty a file save dialog is displayed </td></tr>
-    <tr><td class="paramname">displayPreview</td><td>if \C true, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
+    <tr><td class="paramname">displayPreview</td><td>if <code>true</code>, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
   </table>
   </dd>
 </dl>
@@ -7038,7 +7038,7 @@ Shown Toolbar</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filename</td><td>the filename to save to, if empty a file save dialog is displayed </td></tr>
-    <tr><td class="paramname">displayPreview</td><td>if \C true, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
+    <tr><td class="paramname">displayPreview</td><td>if <code>true</code>, a save/print-preview dialog is displayed that allows to make some modifications to the generated image, otherwise the image is saved with default settings. </td></tr>
   </table>
   </dd>
 </dl>
@@ -9696,8 +9696,8 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 
 </div>
 </div>
-<a id="a62982753c38fb0b286a6c1475efb4183" name="a62982753c38fb0b286a6c1475efb4183"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62982753c38fb0b286a6c1475efb4183">&#9670;&#160;</a></span>zoom</h2>
+<a id="a3d388686059ff0979dea10cb9933391a" name="a3d388686059ff0979dea10cb9933391a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d388686059ff0979dea10cb9933391a">&#9670;&#160;</a></span>zoom</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9709,25 +9709,25 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
           <td class="memname">void JKQTPlotter::zoom </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>nxmin</em>, </td>
+          <td class="paramname"><em>xminn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>nxmax</em>, </td>
+          <td class="paramname"><em>xmaxn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>nymin</em>, </td>
+          <td class="paramname"><em>yminn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>nymax</em>, </td>
+          <td class="paramname"><em>ymaxn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -9765,7 +9765,7 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_plotter.html#a09adcf0afc9e0b2847262c850e18aa5d" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a09adcf0afc9e0b2847262c850e18aa5d" title="sets the x-range of the plot (minimum and maximum x-value on the x-axis)">setX()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a0ed800587c1f3f5ab36dd5422c101e28" title="this method zooms the graph so that all plotted datapoints are visible.">zoomToFit()</a>, <a class="el" href="class_j_k_q_t_plotter.html#a90b33a1e53ec8cbd864a672fb5fcaccc" title="sets absolutely limiting x- and y-range of the plot">setAbsoluteXY()</a>   <br  />
    </dd></dl>
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000024">Deprecated:</a></b></dt><dd>The function <a class="el" href="class_j_k_q_t_base_plotter.html#a3c00ffffd041e20e789a21087fcbfbd6" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTBasePlotter::zoom()</a> is deprecated and will be removed in future version, use <a class="el" href="class_j_k_q_t_base_plotter.html#ad7c6f70086ae7762a22c4c35509878e1" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTBasePlotter::setXY()</a> instead! </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000025">Deprecated:</a></b></dt><dd>The function <a class="el" href="class_j_k_q_t_plotter.html#a62982753c38fb0b286a6c1475efb4183" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTPlotter::zoom()</a> is deprecated and will be removed in future version, use <a class="el" href="class_j_k_q_t_plotter.html#a7cb1174da67d7d37dabc30c2ca25ed30" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTPlotter::setXY()</a> instead! </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000025">Deprecated:</a></b></dt><dd>The function <a class="el" href="class_j_k_q_t_plotter.html#a3d388686059ff0979dea10cb9933391a" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTPlotter::zoom()</a> is deprecated and will be removed in future version, use <a class="el" href="class_j_k_q_t_plotter.html#a7cb1174da67d7d37dabc30c2ca25ed30" title="sets the x- and y-range of the plot (minimum and maximum values on the x-/y-axis)">JKQTPlotter::setXY()</a> instead! </dd></dl>
 
 </div>
 </div>
@@ -11048,7 +11048,7 @@ This is a short-cut to <a class="el" href="class_j_k_q_t_plotter.html#a5fad7365a
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_plotter.html">JKQTPlotter</a></li>
-    <li class="footer">Generated on Sun Feb 11 2024 18:02:30 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Feb 12 2024 21:23:18 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

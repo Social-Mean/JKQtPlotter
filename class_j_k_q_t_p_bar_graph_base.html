@@ -200,11 +200,11 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
-<tr class="memitem:a32e4ed5fdd4843c9c4b8c1f4d08492a2" id="r_a32e4ed5fdd4843c9c4b8c1f4d08492a2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a32e4ed5fdd4843c9c4b8c1f4d08492a2">autoscaleBarWidthAndShift</a> (double maxWidth=0.9, double shrinkFactor=0.8)</td></tr>
-<tr class="memdesc:a32e4ed5fdd4843c9c4b8c1f4d08492a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all bar charts of the same orientation and determines width and shift, so they stand side by side  <br /></td></tr>
-<tr class="separator:a32e4ed5fdd4843c9c4b8c1f4d08492a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28d05076f0276d80b0ddc3f400c25371" id="r_a28d05076f0276d80b0ddc3f400c25371"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a28d05076f0276d80b0ddc3f400c25371">autoscaleBarWidthAndShift</a> (double maxWidth=0.75, double shrinkFactor=0.9)</td></tr>
+<tr class="memdesc:a28d05076f0276d80b0ddc3f400c25371"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all bar charts of the same orientation and determines width and shift, so they stand side by side  <br /></td></tr>
+<tr class="separator:a28d05076f0276d80b0ddc3f400c25371"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae38cbe079c4e1d97c93bcc11409920e4" id="r_ae38cbe079c4e1d97c93bcc11409920e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ae38cbe079c4e1d97c93bcc11409920e4">autoscaleBarWidthAndShiftSeparatedGroups</a> (double groupWidth=0.75)</td></tr>
-<tr class="memdesc:ae38cbe079c4e1d97c93bcc11409920e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">equivalent to <code>autoscaleBarWidthAndShift(groupWidth,1)</code>;  <br /></td></tr>
+<tr class="memdesc:ae38cbe079c4e1d97c93bcc11409920e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">equivalent to <code>autoscaleBarWidthAndShift</code>(groupWidth,0.9);  <br /></td></tr>
 <tr class="separator:ae38cbe079c4e1d97c93bcc11409920e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f484689e759e62c4968557e8681fd9e" id="r_a5f484689e759e62c4968557e8681fd9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a5f484689e759e62c4968557e8681fd9e">setBarHeightColumn</a> (int column)</td></tr>
 <tr class="memdesc:a5f484689e759e62c4968557e8681fd9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns xColumn or yColumn, whichever is used for the height of the bars (depending on whether the barchart is vertical or horizontal  <br /></td></tr>
@@ -263,6 +263,9 @@ Public Slots</h2></td></tr>
 <tr class="memitem:a0c9628cdecf4361713cb1a6b024293b7" id="r_a0c9628cdecf4361713cb1a6b024293b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a0c9628cdecf4361713cb1a6b024293b7">setShift</a> (double __value)</td></tr>
 <tr class="memdesc:a0c9628cdecf4361713cb1a6b024293b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">the shift of the bargraphs, relative to the distance between the current and the next x-value    <br /></td></tr>
 <tr class="separator:a0c9628cdecf4361713cb1a6b024293b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6342575f5f17aae377b78f3c45430418" id="r_a6342575f5f17aae377b78f3c45430418"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a6342575f5f17aae377b78f3c45430418">setStackSeparation</a> (double __value)</td></tr>
+<tr class="memdesc:a6342575f5f17aae377b78f3c45430418"><td class="mdescLeft">&#160;</td><td class="mdescRight">separation (in pt) between two bars in a stack of bars    <br /></td></tr>
+<tr class="separator:a6342575f5f17aae377b78f3c45430418"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa036dc91ba95be144dbe336205499c0f" id="r_aa036dc91ba95be144dbe336205499c0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#aa036dc91ba95be144dbe336205499c0f">setUseCustomDrawFunctor</a> (bool enabled)</td></tr>
 <tr class="memdesc:aa036dc91ba95be144dbe336205499c0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">enabled custom drawing by m_customDrawFunctor    <br /></td></tr>
 <tr class="separator:aa036dc91ba95be144dbe336205499c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -379,6 +382,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa9c0015103450d87205739a855c1574e" id="r_aa9c0015103450d87205739a855c1574e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#aa9c0015103450d87205739a855c1574e">getShift</a> () const</td></tr>
 <tr class="memdesc:aa9c0015103450d87205739a855c1574e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the shift of the bargraphs, relative to the distance between the current and the next x-value    <br /></td></tr>
 <tr class="separator:aa9c0015103450d87205739a855c1574e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe93481f05eb8260326523e453ea645a" id="r_afe93481f05eb8260326523e453ea645a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#afe93481f05eb8260326523e453ea645a">getStackSeparation</a> () const</td></tr>
+<tr class="memdesc:afe93481f05eb8260326523e453ea645a"><td class="mdescLeft">&#160;</td><td class="mdescRight">separation (in pt) between two bars in a stack of bars    <br /></td></tr>
+<tr class="separator:afe93481f05eb8260326523e453ea645a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06eafcd3d4b4741a82410e12f02404de" id="r_a06eafcd3d4b4741a82410e12f02404de"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a06eafcd3d4b4741a82410e12f02404de">getWidth</a> () const</td></tr>
 <tr class="memdesc:a06eafcd3d4b4741a82410e12f02404de"><td class="mdescLeft">&#160;</td><td class="mdescRight">the width of the bargraphs, relative to the distance between the current and the next x-value    <br /></td></tr>
 <tr class="separator:a06eafcd3d4b4741a82410e12f02404de"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -682,7 +688,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a8bffa2a0a11acd75a6df78db71564ce5" id="r_a8bffa2a0a11acd75a6df78db71564ce5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a8bffa2a0a11acd75a6df78db71564ce5">considerForAutoscaling</a> (<a class="el" href="class_j_k_q_t_p_bar_graph_base.html">JKQTPBarGraphBase</a> *other) const =0</td></tr>
-<tr class="memdesc:a8bffa2a0a11acd75a6df78db71564ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is used by <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a32e4ed5fdd4843c9c4b8c1f4d08492a2" title="finds all bar charts of the same orientation and determines width and shift, so they stand side by si...">autoscaleBarWidthAndShift()</a> to determine whether a given graph shall be taken into account when autoscaling. Typically this returns <code>true</code> for all JKQTPBarGraphBase-derved objects with the same orientation (horizontal or vertical)  <br /></td></tr>
+<tr class="memdesc:a8bffa2a0a11acd75a6df78db71564ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is used by <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a28d05076f0276d80b0ddc3f400c25371" title="finds all bar charts of the same orientation and determines width and shift, so they stand side by si...">autoscaleBarWidthAndShift()</a> to determine whether a given graph shall be taken into account when autoscaling. Typically this returns <code>true</code> for all JKQTPBarGraphBase-derived objects with the same orientation (horizontal or vertical). For stacked graphs it excludes everything except the bottom of the stack  <br /></td></tr>
 <tr class="separator:a8bffa2a0a11acd75a6df78db71564ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8fa75bdc893f0b0304ee69cf6fb0cb2" id="r_aa8fa75bdc893f0b0304ee69cf6fb0cb2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a710c3aacabf1f5f8d01ce26ddb808530">FillBrushFunctor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#aa8fa75bdc893f0b0304ee69cf6fb0cb2">constructFillBrushFunctor</a> () const</td></tr>
 <tr class="memdesc:aa8fa75bdc893f0b0304ee69cf6fb0cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a FillBrushFunctor that is appropriate for the currently selected m_fillMode  <br /></td></tr>
@@ -781,6 +787,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a80e78369481def770823fe058d310249" id="r_a80e78369481def770823fe058d310249"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_j_k_q_t_p_color_derivation_mode.html">JKQTPColorDerivationMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a80e78369481def770823fe058d310249">m_lineColorDerivationModeForSpecialFill</a></td></tr>
 <tr class="memdesc:a80e78369481def770823fe058d310249"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines how to derive the line color in m_fillMode!=SingleFilling  <br /></td></tr>
 <tr class="separator:a80e78369481def770823fe058d310249"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9606f4d0b71f5e4b03a88c685480dfc" id="r_aa9606f4d0b71f5e4b03a88c685480dfc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#aa9606f4d0b71f5e4b03a88c685480dfc">m_stackSeparation</a></td></tr>
+<tr class="memdesc:aa9606f4d0b71f5e4b03a88c685480dfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">separation (in pt) between two bars in a stack of bars  <br /></td></tr>
+<tr class="separator:aa9606f4d0b71f5e4b03a88c685480dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fffeb2ac33e10526af41e9283fdfe4c" id="r_a0fffeb2ac33e10526af41e9283fdfe4c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a0fffeb2ac33e10526af41e9283fdfe4c">m_useCustomDrawFunctor</a></td></tr>
 <tr class="memdesc:a0fffeb2ac33e10526af41e9283fdfe4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">enabled custom drawing by m_customDrawFunctor  <br /></td></tr>
 <tr class="separator:a0fffeb2ac33e10526af41e9283fdfe4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -879,7 +888,7 @@ several JKQTPBarGraphBase side-by-side</h1>
 <p>By default the shift parameter (see <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a0c9628cdecf4361713cb1a6b024293b7" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">JKQTPBarGraphBase::setShift()</a> ) is, so the bar is centered at the x-value (i.e. <code>shift=0</code> ).</p>
 <p>You can now use shift to separate three <a class="el" href="class_j_k_q_t_p_bar_graph_base.html" title="This is a base-class for all bar graphs with vertical or horizontal orientation (the orientation is i...">JKQTPBarGraphBase</a> in a graph, by setting e.g.: </p><pre class="fragment">*        width=0.3
 *        shift=-0.3 / 0 / +0.3
-*  </pre><p>For convenience, two functions are provided (<a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a32e4ed5fdd4843c9c4b8c1f4d08492a2" title="finds all bar charts of the same orientation and determines width and shift, so they stand side by si...">JKQTPBarGraphBase::autoscaleBarWidthAndShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ae38cbe079c4e1d97c93bcc11409920e4" title="equivalent to autoscaleBarWidthAndShift(groupWidth,1);">JKQTPBarGraphBase::autoscaleBarWidthAndShiftSeparatedGroups()</a> ) that can be applied to any <a class="el" href="class_j_k_q_t_p_bar_graph_base.html" title="This is a base-class for all bar graphs with vertical or horizontal orientation (the orientation is i...">JKQTPBarGraphBase</a> in the plot and will calculate all bargraphs' shift and width parameter in such a way that the graphs appear tidied up into groups as above. With these functions you don't have to calculate the shift and width values by hand! A call always only affects the <a class="el" href="class_j_k_q_t_p_bar_graph_base.html" title="This is a base-class for all bar graphs with vertical or horizontal orientation (the orientation is i...">JKQTPBarGraphBase</a> in the plot with the same orientation (vertical or horizontal).</p>
+*  </pre><p>For convenience, two functions are provided (<a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a28d05076f0276d80b0ddc3f400c25371" title="finds all bar charts of the same orientation and determines width and shift, so they stand side by si...">JKQTPBarGraphBase::autoscaleBarWidthAndShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ae38cbe079c4e1d97c93bcc11409920e4" title="equivalent to autoscaleBarWidthAndShift(groupWidth,0.9);">JKQTPBarGraphBase::autoscaleBarWidthAndShiftSeparatedGroups()</a> ) that can be applied to any <a class="el" href="class_j_k_q_t_p_bar_graph_base.html" title="This is a base-class for all bar graphs with vertical or horizontal orientation (the orientation is i...">JKQTPBarGraphBase</a> in the plot and will calculate all bargraphs' shift and width parameter in such a way that the graphs appear tidied up into groups as above. With these functions you don't have to calculate the shift and width values by hand! A call always only affects the <a class="el" href="class_j_k_q_t_p_bar_graph_base.html" title="This is a base-class for all bar graphs with vertical or horizontal orientation (the orientation is i...">JKQTPBarGraphBase</a> in the plot with the same orientation (vertical or horizontal).</p>
 <p>This results in a bargraph, as shown here:</p>
 <div class="image">
 <img src="JKQTPBarVerticalGraph.png" alt=""/>
@@ -1068,8 +1077,8 @@ Custom Bargraph Drawing</h1>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a32e4ed5fdd4843c9c4b8c1f4d08492a2" name="a32e4ed5fdd4843c9c4b8c1f4d08492a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32e4ed5fdd4843c9c4b8c1f4d08492a2">&#9670;&#160;</a></span>autoscaleBarWidthAndShift</h2>
+<a id="a28d05076f0276d80b0ddc3f400c25371" name="a28d05076f0276d80b0ddc3f400c25371"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28d05076f0276d80b0ddc3f400c25371">&#9670;&#160;</a></span>autoscaleBarWidthAndShift</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1081,13 +1090,13 @@ Custom Bargraph Drawing</h1>
           <td class="memname">virtual void JKQTPBarGraphBase::autoscaleBarWidthAndShift </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>maxWidth</em> = <code>0.9</code>, </td>
+          <td class="paramname"><em>maxWidth</em> = <code>0.75</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>shrinkFactor</em> = <code>0.8</code>&#160;</td>
+          <td class="paramname"><em>shrinkFactor</em> = <code>0.9</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1110,8 +1119,20 @@ Custom Bargraph Drawing</h1>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>This function will scale ALL graphs of the parent plot, which were derived from <a class="el" href="class_j_k_q_t_p_bar_horizontal_graph.html" title="This implements a horizontal bar graph with bars between  and .">JKQTPBarHorizontalGraph</a>, that match in orientation (as returned by isHorizontal() ). </dd></dl>
-
+<dl class="section note"><dt>Note</dt><dd>This function will scale ALL graphs of the parent plot, which were derived from <a class="el" href="class_j_k_q_t_p_bar_horizontal_graph.html" title="This implements a horizontal bar graph with bars between  and .">JKQTPBarHorizontalGraph</a>, that match in orientation (as returned by isHorizontal() ).</dd></dl>
+<p>Using <code>autoscaleBarWidthAndSHift</code>(0.75,1.0) You can separate the different groups by soe distance, but the bars touch each other:</p>
+<div class="image">
+<img src="JKQTPBarVerticalAutoscaleMaxWidthOnly.png" alt=""/>
+</div>
+<p>On the other hand, using the other extreme <code>autoscaleBarWidthAndSHift</code>(1.0,0.9) there is no grouping of the bars, but they have a slight distance between each other.</p>
+<div class="image">
+<img src="JKQTPBarVerticalAutoscaleShrinkOnly.png" alt=""/>
+</div>
+<p>Finally the default parameters <code>autoscaleBarWidthAndSHift</code>(0.75,0.9) will lead to a separation of the bars AND a grouping:</p>
+<div class="image">
+<img src="JKQTPBarVerticalGraph.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="ae38cbe079c4e1d97c93bcc11409920e4" name="ae38cbe079c4e1d97c93bcc11409920e4"></a>
@@ -1138,8 +1159,16 @@ Custom Bargraph Drawing</h1>
 </table>
 </div><div class="memdoc">
 
-<p>equivalent to <code>autoscaleBarWidthAndShift(groupWidth,1)</code>; </p>
-
+<p>equivalent to <code>autoscaleBarWidthAndShift</code>(groupWidth,0.9); </p>
+<p>The default parameters <code>autoscaleBarWidthAndShiftSeparatedGroups</code>(0.75) will lead to a separation of the bars AND a grouping:</p>
+<div class="image">
+<img src="JKQTPBarVerticalGraph.png" alt=""/>
+</div>
+<p>On the other hand, using <code>autoscaleBarWidthAndShiftSeparatedGroups</code>(1.0) there is no grouping of the bars, but they have a slight distance between each other.</p>
+<div class="image">
+<img src="JKQTPBarVerticalAutoscaleShrinkOnly.png" alt=""/>
+</div>
+ 
 </div>
 </div>
 <a id="a31c1020c4a747e70c06a3fb873ffe3ed" name="a31c1020c4a747e70c06a3fb873ffe3ed"></a>
@@ -1206,7 +1235,7 @@ Custom Bargraph Drawing</h1>
 </table>
 </div><div class="memdoc">
 
-<p>this function is used by <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a32e4ed5fdd4843c9c4b8c1f4d08492a2" title="finds all bar charts of the same orientation and determines width and shift, so they stand side by si...">autoscaleBarWidthAndShift()</a> to determine whether a given graph shall be taken into account when autoscaling. Typically this returns <code>true</code> for all JKQTPBarGraphBase-derved objects with the same orientation (horizontal or vertical) </p>
+<p>this function is used by <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a28d05076f0276d80b0ddc3f400c25371" title="finds all bar charts of the same orientation and determines width and shift, so they stand side by si...">autoscaleBarWidthAndShift()</a> to determine whether a given graph shall be taken into account when autoscaling. Typically this returns <code>true</code> for all JKQTPBarGraphBase-derived objects with the same orientation (horizontal or vertical). For stacked graphs it excludes everything except the bottom of the stack </p>
 
 <p>Implemented in <a class="el" href="class_j_k_q_t_p_bar_vertical_graph.html#ae2168205b6bf457ae72183ac07d42c7e">JKQTPBarVerticalGraph</a>, and <a class="el" href="class_j_k_q_t_p_bar_horizontal_graph.html#a001f34cbf7a5ba10a9fa84b9e63a8b35">JKQTPBarHorizontalGraph</a>.</p>
 
@@ -1649,7 +1678,27 @@ setDrawBaseline(false);</div></div>
 <p>See the following graphic to understand this concept: </p><div class="image">
 <img src="bargraph_basics.png" alt=""/>
 </div>
-  
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a0c9628cdecf4361713cb1a6b024293b7" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">setShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#aa9c0015103450d87205739a855c1574e" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">getShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#af6eed994ffc12e3e3aedc4c185ccac87" title="the width of the bargraphs, relative to the distance between the current and the next x-value">setWidth()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a06eafcd3d4b4741a82410e12f02404de" title="the width of the bargraphs, relative to the distance between the current and the next x-value">getWidth()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a28d05076f0276d80b0ddc3f400c25371" title="finds all bar charts of the same orientation and determines width and shift, so they stand side by si...">autoscaleBarWidthAndShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ae38cbe079c4e1d97c93bcc11409920e4" title="equivalent to autoscaleBarWidthAndShift(groupWidth,0.9);">autoscaleBarWidthAndShiftSeparatedGroups()</a>   </dd></dl>
+
+</div>
+</div>
+<a id="afe93481f05eb8260326523e453ea645a" name="afe93481f05eb8260326523e453ea645a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe93481f05eb8260326523e453ea645a">&#9670;&#160;</a></span>getStackSeparation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPBarGraphBase::getStackSeparation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>separation (in pt) between two bars in a stack of bars   </p>
+
 </div>
 </div>
 <a id="a855ee812938acf0832f46cac6e8ef895" name="a855ee812938acf0832f46cac6e8ef895"></a>
@@ -1714,9 +1763,11 @@ setDrawBaseline(false);</div></div>
 
 <p>the width of the bargraphs, relative to the distance between the current and the next x-value   </p>
 <p>See the following graphic to understand this concept: </p><div class="image">
-<img src="bargraph_basics.png" alt=""/>
+<img src="bargraph_basics_width.png" alt=""/>
 </div>
-  
+<dl class="section note"><dt>Note</dt><dd>this parameter can be combined with shift !</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#af6eed994ffc12e3e3aedc4c185ccac87" title="the width of the bargraphs, relative to the distance between the current and the next x-value">setWidth()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a06eafcd3d4b4741a82410e12f02404de" title="the width of the bargraphs, relative to the distance between the current and the next x-value">getWidth()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a0c9628cdecf4361713cb1a6b024293b7" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">setShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#aa9c0015103450d87205739a855c1574e" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">getShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#aef33b5823589e9c2b7510e5c8aaef580" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">shift</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a28d05076f0276d80b0ddc3f400c25371" title="finds all bar charts of the same orientation and determines width and shift, so they stand side by si...">autoscaleBarWidthAndShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ae38cbe079c4e1d97c93bcc11409920e4" title="equivalent to autoscaleBarWidthAndShift(groupWidth,0.9);">autoscaleBarWidthAndShiftSeparatedGroups()</a>   </dd></dl>
+
 </div>
 </div>
 <a id="aeba7f96d25791ef888baed0a8b770465" name="aeba7f96d25791ef888baed0a8b770465"></a>
@@ -1744,7 +1795,7 @@ setDrawBaseline(false);</div></div>
 
 <p>returns <code>true</code>, if a stack parent is set (if available) </p>
 
-<p>Reimplemented in <a class="el" href="class_j_k_q_t_p_bar_vertical_stackable_graph.html#a0a72a869f05fe4ceb4dc663ce38b94a7">JKQTPBarVerticalStackableGraph</a>, and <a class="el" href="class_j_k_q_t_p_bar_horizontal_stackable_graph.html#ac3cb3dc4c727c77b4dd267ac20683d6f">JKQTPBarHorizontalStackableGraph</a>.</p>
+<p>Reimplemented in <a class="el" href="class_j_k_q_t_p_bar_vertical_stackable_graph.html#a8f27d36c757cc07d661708f9129c5118">JKQTPBarVerticalStackableGraph</a>, and <a class="el" href="class_j_k_q_t_p_bar_horizontal_stackable_graph.html#ac3cb3dc4c727c77b4dd267ac20683d6f">JKQTPBarHorizontalStackableGraph</a>.</p>
 
 </div>
 </div>
@@ -2412,7 +2463,36 @@ setDrawBaseline(false);</div></div>
 <p>See the following graphic to understand this concept: </p><div class="image">
 <img src="bargraph_basics.png" alt=""/>
 </div>
-  
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a0c9628cdecf4361713cb1a6b024293b7" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">setShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#aa9c0015103450d87205739a855c1574e" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">getShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#af6eed994ffc12e3e3aedc4c185ccac87" title="the width of the bargraphs, relative to the distance between the current and the next x-value">setWidth()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a06eafcd3d4b4741a82410e12f02404de" title="the width of the bargraphs, relative to the distance between the current and the next x-value">getWidth()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a28d05076f0276d80b0ddc3f400c25371" title="finds all bar charts of the same orientation and determines width and shift, so they stand side by si...">autoscaleBarWidthAndShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ae38cbe079c4e1d97c93bcc11409920e4" title="equivalent to autoscaleBarWidthAndShift(groupWidth,0.9);">autoscaleBarWidthAndShiftSeparatedGroups()</a>   </dd></dl>
+
+</div>
+</div>
+<a id="a6342575f5f17aae377b78f3c45430418" name="a6342575f5f17aae377b78f3c45430418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6342575f5f17aae377b78f3c45430418">&#9670;&#160;</a></span>setStackSeparation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKQTPBarGraphBase::setStackSeparation </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>__value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>separation (in pt) between two bars in a stack of bars   </p>
+
 </div>
 </div>
 <a id="aa036dc91ba95be144dbe336205499c0f" name="aa036dc91ba95be144dbe336205499c0f"></a>
@@ -2470,9 +2550,11 @@ setDrawBaseline(false);</div></div>
 
 <p>the width of the bargraphs, relative to the distance between the current and the next x-value   </p>
 <p>See the following graphic to understand this concept: </p><div class="image">
-<img src="bargraph_basics.png" alt=""/>
+<img src="bargraph_basics_width.png" alt=""/>
 </div>
-  
+<dl class="section note"><dt>Note</dt><dd>this parameter can be combined with shift !</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#af6eed994ffc12e3e3aedc4c185ccac87" title="the width of the bargraphs, relative to the distance between the current and the next x-value">setWidth()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a06eafcd3d4b4741a82410e12f02404de" title="the width of the bargraphs, relative to the distance between the current and the next x-value">getWidth()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a0c9628cdecf4361713cb1a6b024293b7" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">setShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#aa9c0015103450d87205739a855c1574e" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">getShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#aef33b5823589e9c2b7510e5c8aaef580" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">shift</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a28d05076f0276d80b0ddc3f400c25371" title="finds all bar charts of the same orientation and determines width and shift, so they stand side by si...">autoscaleBarWidthAndShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ae38cbe079c4e1d97c93bcc11409920e4" title="equivalent to autoscaleBarWidthAndShift(groupWidth,0.9);">autoscaleBarWidthAndShiftSeparatedGroups()</a>   </dd></dl>
+
 </div>
 </div>
 <a id="ad4c38509915c2ded9a942c5754058854" name="ad4c38509915c2ded9a942c5754058854"></a>
@@ -2704,6 +2786,30 @@ setDrawBaseline(false);</div></div>
 
 </div>
 </div>
+<a id="aa9606f4d0b71f5e4b03a88c685480dfc" name="aa9606f4d0b71f5e4b03a88c685480dfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9606f4d0b71f5e4b03a88c685480dfc">&#9670;&#160;</a></span>m_stackSeparation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double JKQTPBarGraphBase::m_stackSeparation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>separation (in pt) between two bars in a stack of bars </p>
+
+</div>
+</div>
 <a id="a0fffeb2ac33e10526af41e9283fdfe4c" name="a0fffeb2ac33e10526af41e9283fdfe4c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0fffeb2ac33e10526af41e9283fdfe4c">&#9670;&#160;</a></span>m_useCustomDrawFunctor</h2>
 
@@ -2801,7 +2907,8 @@ setDrawBaseline(false);</div></div>
 <p>See the following graphic to understand this concept: </p><div class="image">
 <img src="bargraph_basics.png" alt=""/>
 </div>
- 
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a0c9628cdecf4361713cb1a6b024293b7" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">setShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#aa9c0015103450d87205739a855c1574e" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">getShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#af6eed994ffc12e3e3aedc4c185ccac87" title="the width of the bargraphs, relative to the distance between the current and the next x-value">setWidth()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a06eafcd3d4b4741a82410e12f02404de" title="the width of the bargraphs, relative to the distance between the current and the next x-value">getWidth()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a28d05076f0276d80b0ddc3f400c25371" title="finds all bar charts of the same orientation and determines width and shift, so they stand side by si...">autoscaleBarWidthAndShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ae38cbe079c4e1d97c93bcc11409920e4" title="equivalent to autoscaleBarWidthAndShift(groupWidth,0.9);">autoscaleBarWidthAndShiftSeparatedGroups()</a> </dd></dl>
+
 </div>
 </div>
 <a id="a68a9ac1501313f0e18b57bbf8dde6eef" name="a68a9ac1501313f0e18b57bbf8dde6eef"></a>
@@ -2826,9 +2933,11 @@ setDrawBaseline(false);</div></div>
 
 <p>the width of the bargraphs, relative to the distance between the current and the next x-value </p>
 <p>See the following graphic to understand this concept: </p><div class="image">
-<img src="bargraph_basics.png" alt=""/>
+<img src="bargraph_basics_width.png" alt=""/>
 </div>
- 
+<dl class="section note"><dt>Note</dt><dd>this parameter can be combined with shift !</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_j_k_q_t_p_bar_graph_base.html#af6eed994ffc12e3e3aedc4c185ccac87" title="the width of the bargraphs, relative to the distance between the current and the next x-value">setWidth()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a06eafcd3d4b4741a82410e12f02404de" title="the width of the bargraphs, relative to the distance between the current and the next x-value">getWidth()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a0c9628cdecf4361713cb1a6b024293b7" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">setShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#aa9c0015103450d87205739a855c1574e" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">getShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#aef33b5823589e9c2b7510e5c8aaef580" title="the shift of the bargraphs, relative to the distance between the current and the next x-value">shift</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#a28d05076f0276d80b0ddc3f400c25371" title="finds all bar charts of the same orientation and determines width and shift, so they stand side by si...">autoscaleBarWidthAndShift()</a>, <a class="el" href="class_j_k_q_t_p_bar_graph_base.html#ae38cbe079c4e1d97c93bcc11409920e4" title="equivalent to autoscaleBarWidthAndShift(groupWidth,0.9);">autoscaleBarWidthAndShiftSeparatedGroups()</a> </dd></dl>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -2841,7 +2950,7 @@ setDrawBaseline(false);</div></div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_bar_graph_base.html">JKQTPBarGraphBase</a></li>
-    <li class="footer">Generated on Sun Feb 11 2024 18:02:29 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Feb 12 2024 21:23:18 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

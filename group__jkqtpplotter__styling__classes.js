@@ -24,7 +24,8 @@ var group__jkqtpplotter__styling__classes =
       [ "saveSettings", "class_j_k_q_t_barchart_specific_style_properties.html#aab512daa7ed857b270e20e4fc972c55a", null ],
       [ "defaultRectRadiusAtBaseline", "class_j_k_q_t_barchart_specific_style_properties.html#ac6400c96bedd8b4d852a6c8e268884cf", null ],
       [ "defaultRectRadiusAtValue", "class_j_k_q_t_barchart_specific_style_properties.html#a4aefc0d7ef6e5b97363ae16a81fb42ca", null ],
-      [ "drawBaseline", "class_j_k_q_t_barchart_specific_style_properties.html#ab70dffbc93944af60f26565f373d488c", null ]
+      [ "drawBaseline", "class_j_k_q_t_barchart_specific_style_properties.html#ab70dffbc93944af60f26565f373d488c", null ],
+      [ "stackSeparation", "class_j_k_q_t_barchart_specific_style_properties.html#ab01970f59b0f09a3056af7ed92e1e265", null ]
     ] ],
     [ "JKQTBasePlotterStyle", "class_j_k_q_t_base_plotter_style.html", [
       [ "JKQTBasePlotterStyle", "class_j_k_q_t_base_plotter_style.html#a5fe1c0b258e15ce078be6210a8d4bcb9", null ],
@@ -74,6 +75,21 @@ var group__jkqtpplotter__styling__classes =
       [ "gradient", "class_j_k_q_t_fill_style_summmary.html#a4b48c745ece0eb1e7899b4192a87c429", null ],
       [ "texture", "class_j_k_q_t_fill_style_summmary.html#a53c2d061683c8873bb2b378be8ea117c", null ]
     ] ],
+    [ "JKQTFinancialSpecificStyleProperties", "class_j_k_q_t_financial_specific_style_properties.html", [
+      [ "JKQTFinancialSpecificStyleProperties", "class_j_k_q_t_financial_specific_style_properties.html#a7eaa8d7ffc540a53100dd072031751d7", null ],
+      [ "JKQTFinancialSpecificStyleProperties", "class_j_k_q_t_financial_specific_style_properties.html#acf7f9f1875e0acc24178a851a3b7536b", null ],
+      [ "JKQTFinancialSpecificStyleProperties", "class_j_k_q_t_financial_specific_style_properties.html#abebd01c57af055c53494b06e6c96139d", null ],
+      [ "JKQTFinancialSpecificStyleProperties", "class_j_k_q_t_financial_specific_style_properties.html#a08189a1befd3e2939fbcf32bb6253fda", null ],
+      [ "loadSettings", "class_j_k_q_t_financial_specific_style_properties.html#af39b8a19643d3407d331202c50c6607e", null ],
+      [ "operator=", "class_j_k_q_t_financial_specific_style_properties.html#adffde63dbf82ecf5057aa640e28c3031", null ],
+      [ "operator=", "class_j_k_q_t_financial_specific_style_properties.html#a7a0bbd5a781c36b06653597dda41a35e", null ],
+      [ "saveSettings", "class_j_k_q_t_financial_specific_style_properties.html#a7ffb66c9aa140346c0212b35ef436920", null ],
+      [ "negativeDefaultColor", "class_j_k_q_t_financial_specific_style_properties.html#a93817aaef11d220e429679d5afe3a793", null ],
+      [ "negativeFillStyle", "class_j_k_q_t_financial_specific_style_properties.html#a18e636565e010c37a90b726c6fdb75d6", null ],
+      [ "negativeGraphColorDerivationMode", "class_j_k_q_t_financial_specific_style_properties.html#aee8809aef374d55d2905fd0ce164f8ad", null ],
+      [ "positiveDefaultColor", "class_j_k_q_t_financial_specific_style_properties.html#a59f76838da03746404afb5c68d56ebce", null ],
+      [ "positiveFillStyle", "class_j_k_q_t_financial_specific_style_properties.html#a27901d4b7c428410f90dd7861712c8af", null ]
+    ] ],
     [ "JKQTGeometricSpecificStyleProperties", "class_j_k_q_t_geometric_specific_style_properties.html", [
       [ "JKQTGeometricSpecificStyleProperties", "class_j_k_q_t_geometric_specific_style_properties.html#abb273125478ffb26728df70fdb669e7e", null ],
       [ "JKQTGeometricSpecificStyleProperties", "class_j_k_q_t_geometric_specific_style_properties.html#afb2db895c8753d50336059939a37ba6b", null ],
@@ -109,6 +125,7 @@ var group__jkqtpplotter__styling__classes =
       [ "defaultGraphSymbols", "class_j_k_q_t_graphs_base_style.html#ae358671101454d4b8cbd899736d260aa", null ],
       [ "defaultPalette", "class_j_k_q_t_graphs_base_style.html#a6221744d8324437ce9dbeb397d42f212", null ],
       [ "filledStyle", "class_j_k_q_t_graphs_base_style.html#a0ce91f6cedb168dcaad66efc4ddf7683", null ],
+      [ "financialStyle", "class_j_k_q_t_graphs_base_style.html#aadbebc059ff92937eb3de7fcaa66fbe3", null ],
       [ "geometricStyle", "class_j_k_q_t_graphs_base_style.html#a63e237c6f211c9cc1bbe7b0a524c35c7", null ],
       [ "impulseStyle", "class_j_k_q_t_graphs_base_style.html#afefa89de58fb0476304537e845100c1d", null ],
       [ "useAntiAliasingForGraphs", "class_j_k_q_t_graphs_base_style.html#a620fef0b32190cb4e0fbd7a7ca9c5669", null ]
