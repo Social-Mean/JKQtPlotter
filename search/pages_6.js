@@ -21,7 +21,7 @@ var searchData=
   ['contributor_20covenant_20code_20of_20conduct_18',['Contributor Covenant Code of Conduct',['../md__c_o_d_e___o_f___c_o_n_d_u_c_t.html',1,'']]],
   ['covenant_20code_20of_20conduct_19',['Contributor Covenant Code of Conduct',['../md__c_o_d_e___o_f___c_o_n_d_u_c_t.html',1,'']]],
   ['curve_20plots_20',['Example (JKQTPlotter): Filled Curve Plots',['../_j_k_q_t_plotter_filled_graphs.html',1,'exampleTutorialProjects']]],
-  ['curves_21',['Example (JKQTPlotter): Plotting Parametric Curves',['../_j_k_q_t_plotter_parametric_curves.html',1,'exampleTutorialProjects']]],
+  ['curves_21',['curves',['../_j_k_q_t_plotter_geometric_bezier.html',1,'Example (JKQTPlotter): Plotting Bezier Curves'],['../_j_k_q_t_plotter_parametric_curves.html',1,'Example (JKQTPlotter): Plotting Parametric Curves']]],
   ['curves_20as_20line_20graphs_22',['Example (JKQTPlotter): Plotting Parametric Mathematical Curves as Line Graphs',['../_j_k_q_t_plotter_eval_curves.html',1,'exampleTutorialProjects']]],
   ['custom_20draw_20functor_23',['Example (JKQTPlotter): Barchart With Custom Draw Functor',['../_j_k_q_t_plotter_barcharts_custom_draw_functor.html',1,'exampleTutorialProjects']]],
   ['custom_20palettes_24',['Example (JKQTPlotter): Image Plots with Custom Palettes',['../_j_k_q_t_plotter_image_plot_user_palette.html',1,'exampleTutorialProjects']]],

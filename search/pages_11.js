@@ -23,13 +23,14 @@ var searchData=
   ['plots_20with_20custom_20palettes_20',['Example (JKQTPlotter): Image Plots with Custom Palettes',['../_j_k_q_t_plotter_image_plot_user_palette.html',1,'exampleTutorialProjects']]],
   ['plotting_21',['Example (JKQTPlotter): Multi-Threaded (Parallel) Plotting',['../_j_k_q_t_plotter_multi_threaded.html',1,'exampleTutorialProjects']]],
   ['plotting_20a_20statistical_20distribution_20of_20data_22',['Example (JKQTPlotter): Plotting a Statistical Distribution of Data',['../_j_k_q_t_plotter_distribution_plot.html',1,'exampleTutorialProjects']]],
-  ['plotting_20arrows_23',['plotting arrows',['../_j_k_q_t_plotter_geometric_bezier.html',1,'Example (JKQTPlotter): Plotting Arrows'],['../_j_k_q_t_plotter_geometric_arrows.html',1,'Example (JKQTPlotter): Plotting Arrows']]],
-  ['plotting_20geometric_20objects_24',['Example (JKQTPlotter): Plotting Geometric Objects',['../_j_k_q_t_plotter_geometric_graphs.html',1,'exampleTutorialProjects']]],
-  ['plotting_20library_25',['JKQTPlotter - A Qt Plotting Library',['../index.html',1,'']]],
-  ['plotting_20mathematical_20functions_20as_20line_20graphs_26',['Example (JKQTPlotter): Plotting Mathematical Functions as Line Graphs',['../_j_k_q_t_plotter_function_plots.html',1,'exampleTutorialProjects']]],
-  ['plotting_20parametric_20curves_27',['Example (JKQTPlotter): Plotting Parametric Curves',['../_j_k_q_t_plotter_parametric_curves.html',1,'exampleTutorialProjects']]],
-  ['plotting_20parametric_20mathematical_20curves_20as_20line_20graphs_28',['Example (JKQTPlotter): Plotting Parametric Mathematical Curves as Line Graphs',['../_j_k_q_t_plotter_eval_curves.html',1,'exampleTutorialProjects']]],
-  ['plotting_20parsed_20mathematical_20functions_20as_20line_20graphs_29',['Example (JKQTPlotter): Plotting Parsed Mathematical Functions as Line Graphs',['../_j_k_q_t_plotter_parsed_function_plot.html',1,'exampleTutorialProjects']]],
-  ['policy_30',['Security Policy',['../md__s_e_c_u_r_i_t_y.html',1,'']]],
-  ['projects_31',['Example &amp; Tutorial Projects',['../example_tutorial_projects.html',1,'']]]
+  ['plotting_20arrows_23',['Example (JKQTPlotter): Plotting Arrows',['../_j_k_q_t_plotter_geometric_arrows.html',1,'exampleTutorialProjects']]],
+  ['plotting_20bezier_20curves_24',['Example (JKQTPlotter): Plotting Bezier Curves',['../_j_k_q_t_plotter_geometric_bezier.html',1,'exampleTutorialProjects']]],
+  ['plotting_20geometric_20objects_25',['Example (JKQTPlotter): Plotting Geometric Objects',['../_j_k_q_t_plotter_geometric_graphs.html',1,'exampleTutorialProjects']]],
+  ['plotting_20library_26',['JKQTPlotter - A Qt Plotting Library',['../index.html',1,'']]],
+  ['plotting_20mathematical_20functions_20as_20line_20graphs_27',['Example (JKQTPlotter): Plotting Mathematical Functions as Line Graphs',['../_j_k_q_t_plotter_function_plots.html',1,'exampleTutorialProjects']]],
+  ['plotting_20parametric_20curves_28',['Example (JKQTPlotter): Plotting Parametric Curves',['../_j_k_q_t_plotter_parametric_curves.html',1,'exampleTutorialProjects']]],
+  ['plotting_20parametric_20mathematical_20curves_20as_20line_20graphs_29',['Example (JKQTPlotter): Plotting Parametric Mathematical Curves as Line Graphs',['../_j_k_q_t_plotter_eval_curves.html',1,'exampleTutorialProjects']]],
+  ['plotting_20parsed_20mathematical_20functions_20as_20line_20graphs_30',['Example (JKQTPlotter): Plotting Parsed Mathematical Functions as Line Graphs',['../_j_k_q_t_plotter_parsed_function_plot.html',1,'exampleTutorialProjects']]],
+  ['policy_31',['Security Policy',['../md__s_e_c_u_r_i_t_y.html',1,'']]],
+  ['projects_32',['Example &amp; Tutorial Projects',['../example_tutorial_projects.html',1,'']]]
 ];

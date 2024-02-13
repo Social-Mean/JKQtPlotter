@@ -117,17 +117,17 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_basic_j_k_q_t_p_datas
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md18">Copying Data from External COntainers into JKQTPDatastore</a><ul><li class="level2"><a href="#autotoc_md20">Copy Data from a Vector into a column of the JKQTPDatastore</a></li>
-<li class="level2"><a href="#autotoc_md21">Copy Data from a C-array into a Column of the JKQTPDatastore</a></li>
-<li class="level2"><a href="#autotoc_md23">Copy Data from a Map into a JKQTPDatastore</a></li>
+<ul><li class="level1"><a href="#autotoc_md24">Copying Data from External COntainers into JKQTPDatastore</a><ul><li class="level2"><a href="#autotoc_md25">Copy Data from a Vector into a column of the JKQTPDatastore</a></li>
+<li class="level2"><a href="#autotoc_md26">Copy Data from a C-array into a Column of the JKQTPDatastore</a></li>
+<li class="level2"><a href="#autotoc_md27">Copy Data from a Map into a JKQTPDatastore</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md24">Reference External Data in a column of the JKQTPDatastore</a><ul><li class="level2"><a href="#autotoc_md25">Referencing without transfer of ownership</a></li>
-<li class="level2"><a href="#autotoc_md28">Referencing with Transfer of Ownership</a></li>
+<li class="level1"><a href="#autotoc_md28">Reference External Data in a column of the JKQTPDatastore</a><ul><li class="level2"><a href="#autotoc_md29">Referencing without transfer of ownership</a></li>
+<li class="level2"><a href="#autotoc_md30">Referencing with Transfer of Ownership</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md30">JKQTPDatastore-internal Data Management</a><ul><li class="level2"><a href="#autotoc_md31">Generating  Non-Initialized Columns and Filling Them</a></li>
-<li class="level2"><a href="#autotoc_md32">Generating Columns Preinitialized Columns</a></li>
+<li class="level1"><a href="#autotoc_md31">JKQTPDatastore-internal Data Management</a><ul><li class="level2"><a href="#autotoc_md32">Generating  Non-Initialized Columns and Filling Them</a></li>
+<li class="level2"><a href="#autotoc_md33">Generating Columns Preinitialized Columns</a></li>
 <li class="level2"><a href="#autotoc_md34">Appending to Columns</a></li>
 <li class="level2"><a href="#autotoc_md35">Using Data from one Column to Calculate Another</a></li>
 <li class="level2"><a href="#autotoc_md36">2D-Datasets and Images</a></li>
@@ -152,9 +152,9 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_basic_j_k_q_t_p_datas
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html">JKQTPDatastore</a></div><div class="ttdoc">This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...</div><div class="ttdef"><b>Definition</b> jkqtpdatastorage.h:282</div></div>
 <div class="ttc" id="aclass_j_k_q_t_plotter_html"><div class="ttname"><a href="class_j_k_q_t_plotter.html">JKQTPlotter</a></div><div class="ttdoc">plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)</div><div class="ttdef"><b>Definition</b> jkqtplotter.h:364</div></div>
 <div class="ttc" id="aclass_j_k_q_t_plotter_html_ae31c276a93cbf7aa8f9c153327aa5b74"><div class="ttname"><a href="class_j_k_q_t_plotter.html#ae31c276a93cbf7aa8f9c153327aa5b74">JKQTPlotter::getDatastore</a></div><div class="ttdeci">JKQTPDatastore * getDatastore()</div><div class="ttdoc">returns a pointer to the datastore used by this object</div><div class="ttdef"><b>Definition</b> jkqtplotter.h:611</div></div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md18"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md24"></a>
 Copying Data from External COntainers into JKQTPDatastore</h1>
-<h2><a class="anchor" id="autotoc_md20"></a>
+<h2><a class="anchor" id="autotoc_md25"></a>
 Copy Data from a Vector into a column of the JKQTPDatastore</h2>
 <p>First we fill data into a QVector for a simple plot (a sine curve) and add a plot using this data: </p><div class="fragment"><div class="line">QVector&lt;double&gt; X, Y;</div>
 <div class="line"><span class="keyword">const</span> <span class="keywordtype">int</span> Ndata=100;</div>
@@ -172,7 +172,7 @@ Copy Data from a Vector into a column of the JKQTPDatastore</h2>
 </div><!-- fragment --><p> Note that you could also use a <code>std::vector</code> instead, as <code><a class="el" href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6" title="add one column to the datastore. It will be filled with the values from first ... last">JKQTPDatastore::addCopiedColumn()</a></code> is a template function that only requires the container to support C++ standard iterations (with <code>begin()</code> and <code>end()</code>), as well as the function <code>size()</code> to determine the number of items in the container. Also other datatypes than <code>double</code> are possible, as long as they can be converted to <code>double</code> (the function <code><a class="el" href="group__jkqtptools__math__basic.html#ga966c1a713f60bd026db4f35f7007eb7e" title="converts a boolean to a double, is used to convert boolean to double by JKQTPDatastore">jkqtp_todouble()</a></code> is used to perform the conversion, notably all integer and floating-point types, as well as <code>bool</code> are supported out of the box).</p>
 <p>The plot from the code above looks like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_sine.png" alt="datastore_sine" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md21"></a>
+<h2><a class="anchor" id="autotoc_md26"></a>
 Copy Data from a C-array into a Column of the JKQTPDatastore</h2>
 <p>Of course if you have your data in a C-array, you can use the same syntax: </p><div class="fragment"><div class="line"><span class="preprocessor">#define NDATA 5</span></div>
 <div class="line"><span class="keywordtype">double</span> X[NDATA]= { 1, 2, 3, 4, 5 };</div>
@@ -182,7 +182,7 @@ Copy Data from a C-array into a Column of the JKQTPDatastore</h2>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a3d6b9f2649736b08b6731132f86368f6"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6">JKQTPDatastore::addCopiedColumn</a></div><div class="ttdeci">size_t addCopiedColumn(TIterator first, TIterator last, const QString &amp;name=QString(&quot;&quot;))</div><div class="ttdoc">add one column to the datastore. It will be filled with the values from first ... last</div><div class="ttdef"><b>Definition</b> jkqtpdatastorage.h:871</div></div>
 </div><!-- fragment --><p>The plot from the code above looks like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_linkedcarray.png" alt="datastore_linkedcarray" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md23"></a>
+<h2><a class="anchor" id="autotoc_md27"></a>
 Copy Data from a Map into a JKQTPDatastore</h2>
 <p>Since graphs often display (x,y)-pairs, it may make sense to store them in a map (e.g. for histograms). There there are also functions that copy the contents of a map into a <a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a>, resulting in two columns beeing added: </p><div class="fragment"><div class="line">std::map&lt;int, double&gt; datamap;</div>
 <div class="line">datamap[1]=1.1;</div>
@@ -196,9 +196,9 @@ Copy Data from a Map into a JKQTPDatastore</h2>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a791b38ec8f11db99af05467613e5b69f"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a791b38ec8f11db99af05467613e5b69f">JKQTPDatastore::addCopiedMap</a></div><div class="ttdeci">std::pair&lt; size_t, size_t &gt; addCopiedMap(TIterator first, TIterator last, const QString &amp;nameKey=QString(&quot;map_key&quot;), const QString &amp;nameValue=QString(&quot;map_value&quot;))</div><div class="ttdoc">copies the contents of the map-like container c into two columns of the datastore,...</div><div class="ttdef"><b>Definition</b> jkqtpdatastorage.h:1196</div></div>
 </div><!-- fragment --><p> This code results in a graph like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_map.png" alt="datastore_map" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md24"></a>
+<h1><a class="anchor" id="autotoc_md28"></a>
 Reference External Data in a column of the JKQTPDatastore</h1>
-<h2><a class="anchor" id="autotoc_md25"></a>
+<h2><a class="anchor" id="autotoc_md29"></a>
 Referencing without transfer of ownership</h2>
 <p>As an alternative to the method of copying data (see above), you could also just link the data. For this to work, the data has to reside in a C-array of type <code>double</code>, as this is the internal datatype of the <code><a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a></code>. You can simply replace the two lines with <code><a class="el" href="class_j_k_q_t_p_datastore.html#a3d6b9f2649736b08b6731132f86368f6" title="add one column to the datastore. It will be filled with the values from first ... last">JKQTPDatastore::addCopiedColumn()</a></code> in the example above by (we exploit the fact that <code>QVector&lt;double&gt;::data()</code> returns a pointer to the internal C-array of the vector): </p><div class="fragment"><div class="line">linegraph-&gt;setXColumn(datastore-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#ae057eda96c7b754cd42f4380b429a589">addColumn</a>(X.data(), X.size(), <span class="stringliteral">&quot;x&quot;</span>));</div>
 <div class="line">linegraph-&gt;setYColumn(datastore-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#ae057eda96c7b754cd42f4380b429a589">addColumn</a>(Y.data(), Y.size(), <span class="stringliteral">&quot;Y&quot;</span>));</div>
@@ -212,17 +212,17 @@ Referencing without transfer of ownership</h2>
 <p>Note however that the ownership of the data is not transfered to the <a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a>, i.e. you have to ensure that the data behind the pointer exists, as long as the column references the array and you have to ensure that the data is freed, when you don't need it any more.</p>
 <p>The plot from the code above looks like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_linkedcarray.png" alt="datastore_linkedcarray" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md28"></a>
+<h2><a class="anchor" id="autotoc_md30"></a>
 Referencing with Transfer of Ownership</h2>
 <p>In addition to the variants of <code><a class="el" href="class_j_k_q_t_p_datastore.html#ae057eda96c7b754cd42f4380b429a589" title="add a new column to the datastore and return its ID">JKQTPDatastore::addColumn()</a></code>, that do not transfer ownership of the data to the <code><a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a></code>, you can also use <code><a class="el" href="class_j_k_q_t_p_datastore.html#a638f27f47168cf4cf136875e055d9486" title="add a column with rows entries from the array data, ownership of the memory behind data is transfered...">JKQTPDatastore::addInternalColumn()</a></code>, which tells the <code><a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a></code> to use the external data array and also take over its owner-ship. This implies that the array is freed when the <code><a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a></code> is destroyed, by calling <code>free()</code> in the array. Therefor data for this method needs to be allocated by using <code>malloc()</code> or <code>calloc()</code>: </p><div class="fragment"><div class="line"><span class="preprocessor">#define NDATA 5</span></div>
 <div class="line"><span class="keywordtype">double</span>* XCA=(<span class="keywordtype">double</span>*)malloc(NDATA, <span class="keyword">sizeof</span>(<span class="keywordtype">double</span>));</div>
 <div class="line">...</div>
 <div class="line">linegraph-&gt;setXColumn(datastore-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#a638f27f47168cf4cf136875e055d9486">addInternalColumn</a>(XCA, NDATA, <span class="stringliteral">&quot;x&quot;</span>));</div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a638f27f47168cf4cf136875e055d9486"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a638f27f47168cf4cf136875e055d9486">JKQTPDatastore::addInternalColumn</a></div><div class="ttdeci">size_t addInternalColumn(double *data, size_t rows, const QString &amp;name)</div><div class="ttdoc">add a column with rows entries from the array data, ownership of the memory behind data is transfered...</div></div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md30"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md31"></a>
 JKQTPDatastore-internal Data Management</h1>
 <p>It is also possible to leave the data mangement completely to the <a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a> and just edit the data with access functions from <a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a>.</p>
-<h2><a class="anchor" id="autotoc_md31"></a>
+<h2><a class="anchor" id="autotoc_md32"></a>
 Generating  Non-Initialized Columns and Filling Them</h2>
 <p>The most basic way to generate data for a plot is to generate two non-initialized columns for the x- and y-coordinates of the graph points </p><div class="fragment"><div class="line"><span class="keyword">const</span> <span class="keywordtype">int</span> Ndata=100;</div>
 <div class="line"><span class="keywordtype">size_t</span> colX=datastore-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#ae057eda96c7b754cd42f4380b429a589">addColumn</a>(Ndata, <span class="stringliteral">&quot;x&quot;</span>);</div>
@@ -235,7 +235,7 @@ Generating  Non-Initialized Columns and Filling Them</h2>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a4597feb9ac51c2a717e2028ef73e0e8b"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a4597feb9ac51c2a717e2028ef73e0e8b">JKQTPDatastore::set</a></div><div class="ttdeci">void set(size_t column, size_t row, double value)</div><div class="ttdoc">sets the value at position (column, row). column is the logical column and will be mapped to the acco...</div><div class="ttdef"><b>Definition</b> jkqtpdatastorage.h:2700</div></div>
 </div><!-- fragment --><p>Plotting these two columns versus each other results in a simple sine graph:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_sine.png" alt="datastore_sine" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md32"></a>
+<h2><a class="anchor" id="autotoc_md33"></a>
 Generating Columns Preinitialized Columns</h2>
 <p>For your convenience there are also function that simply create such a linear vector with one call: </p><div class="fragment"><div class="line"><span class="keywordtype">size_t</span> colLinX=datastore-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#a5e33ba3499be747d654639e4987c0b52">addLinearColumn</a>(count, 0, 20, <span class="stringliteral">&quot;x_lin&quot;</span>);</div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a5e33ba3499be747d654639e4987c0b52"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a5e33ba3499be747d654639e4987c0b52">JKQTPDatastore::addLinearColumn</a></div><div class="ttdeci">size_t addLinearColumn(size_t rows, double start, double end, const QString &amp;name=QString(&quot;&quot;))</div><div class="ttdoc">add a column to the datastore that contains rows rows with monotonely increasing value starting at st...</div></div>
@@ -373,7 +373,7 @@ Iterator Interface</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Tue Feb 13 2024 23:06:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Feb 13 2024 23:13:05 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

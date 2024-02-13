@@ -20,7 +20,7 @@ var searchData=
   ['and_20fill_20styling_17',['Example (JKQTPlotter): Advanced Line and Fill Styling',['../_j_k_q_t_plotter_advanced_line_and_fill_styling.html',1,'exampleTutorialProjects']]],
   ['and_20line_20styles_18',['Example (JKQTPlotter): Line Graph with Different Symbols and Line Styles',['../_j_k_q_t_plotter_symbols_and_styles.html',1,'exampleTutorialProjects']]],
   ['application_19',['Example (JKQTMathText): A test application',['../_j_k_q_t_math_text_test_app.html',1,'exampleTutorialProjects']]],
-  ['arrows_20',['arrows',['../_j_k_q_t_plotter_geometric_bezier.html',1,'Example (JKQTPlotter): Plotting Arrows'],['../_j_k_q_t_plotter_geometric_arrows.html',1,'Example (JKQTPlotter): Plotting Arrows']]],
+  ['arrows_20',['Example (JKQTPlotter): Plotting Arrows',['../_j_k_q_t_plotter_geometric_arrows.html',1,'exampleTutorialProjects']]],
   ['artistic_20image_20with_20a_20parametrized_20scatter_20graph_21',['Example (JKQTPlotter): Draw an Artistic Image with a Parametrized Scatter Graph',['../_j_k_q_t_plotter_param_scatter_image.html',1,'exampleTutorialProjects']]],
   ['as_20a_20graph_22',['Example (JKQTPlotter): QImage as a Graph',['../_j_k_q_t_plotter_image_plot_q_image_r_g_b.html',1,'exampleTutorialProjects']]],
   ['as_20line_20graphs_23',['as line graphs',['../_j_k_q_t_plotter_function_plots.html',1,'Example (JKQTPlotter): Plotting Mathematical Functions as Line Graphs'],['../_j_k_q_t_plotter_eval_curves.html',1,'Example (JKQTPlotter): Plotting Parametric Mathematical Curves as Line Graphs'],['../_j_k_q_t_plotter_parsed_function_plot.html',1,'Example (JKQTPlotter): Plotting Parsed Mathematical Functions as Line Graphs']]],
