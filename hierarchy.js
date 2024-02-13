@@ -244,6 +244,7 @@ var hierarchy =
       ] ],
       [ "JKQTPGraphDecoratedLineStyleMixin", "class_j_k_q_t_p_graph_decorated_line_style_mixin.html", [
         [ "JKQTPGeoBaseDecoratedLine", "class_j_k_q_t_p_geo_base_decorated_line.html", [
+          [ "JKQTPGeoBezierCurve", "class_j_k_q_t_p_geo_bezier_curve.html", null ],
           [ "JKQTPGeoLine", "class_j_k_q_t_p_geo_line.html", [
             [ "JKQTPGeoArrow", "class_j_k_q_t_p_geo_arrow.html", null ]
           ] ],

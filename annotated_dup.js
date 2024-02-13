@@ -129,6 +129,7 @@ var annotated_dup =
     [ "JKQTPGeoBaseDecoratedLine", "class_j_k_q_t_p_geo_base_decorated_line.html", "class_j_k_q_t_p_geo_base_decorated_line" ],
     [ "JKQTPGeoBaseFilled", "class_j_k_q_t_p_geo_base_filled.html", "class_j_k_q_t_p_geo_base_filled" ],
     [ "JKQTPGeoBaseLine", "class_j_k_q_t_p_geo_base_line.html", "class_j_k_q_t_p_geo_base_line" ],
+    [ "JKQTPGeoBezierCurve", "class_j_k_q_t_p_geo_bezier_curve.html", "class_j_k_q_t_p_geo_bezier_curve" ],
     [ "JKQTPGeoChord", "class_j_k_q_t_p_geo_chord.html", "class_j_k_q_t_p_geo_chord" ],
     [ "JKQTPGeoEllipse", "class_j_k_q_t_p_geo_ellipse.html", "class_j_k_q_t_p_geo_ellipse" ],
     [ "JKQTPGeoInfiniteLine", "class_j_k_q_t_p_geo_infinite_line.html", "class_j_k_q_t_p_geo_infinite_line" ],

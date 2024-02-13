@@ -39,7 +39,7 @@ var searchData=
   ['jkqtplotter_20_3a_20parametrized_20scatter_20graph_20with_20custom_20symbols_36',['Example (JKQTPlotter): Parametrized Scatter-graph with custom symbols',['../_j_k_q_t_plotterparamscatter_custom_symbol.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20plot_20with_20axes_20through_20origin_37',['Example (JKQTPlotter): Plot With Axes through Origin',['../_j_k_q_t_plotter_geometric_coordinate_axis0.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20plotting_20a_20statistical_20distribution_20of_20data_38',['Example (JKQTPlotter): Plotting a Statistical Distribution of Data',['../_j_k_q_t_plotter_distribution_plot.html',1,'exampleTutorialProjects']]],
-  ['jkqtplotter_20_3a_20plotting_20arrows_39',['Example (JKQTPlotter): Plotting Arrows',['../_j_k_q_t_plotter_geometric_arrows.html',1,'exampleTutorialProjects']]],
+  ['jkqtplotter_20_3a_20plotting_20arrows_39',['jkqtplotter : plotting arrows',['../_j_k_q_t_plotter_geometric_bezier.html',1,'Example (JKQTPlotter): Plotting Arrows'],['../_j_k_q_t_plotter_geometric_arrows.html',1,'Example (JKQTPlotter): Plotting Arrows']]],
   ['jkqtplotter_20_3a_20plotting_20geometric_20objects_40',['Example (JKQTPlotter): Plotting Geometric Objects',['../_j_k_q_t_plotter_geometric_graphs.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20plotting_20mathematical_20functions_20as_20line_20graphs_41',['Example (JKQTPlotter): Plotting Mathematical Functions as Line Graphs',['../_j_k_q_t_plotter_function_plots.html',1,'exampleTutorialProjects']]],
   ['jkqtplotter_20_3a_20plotting_20parametric_20curves_42',['Example (JKQTPlotter): Plotting Parametric Curves',['../_j_k_q_t_plotter_parametric_curves.html',1,'exampleTutorialProjects']]],

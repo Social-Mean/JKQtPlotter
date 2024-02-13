@@ -103,8 +103,8 @@ var searchData=
   ['using_20jkqtmathtext_100',['Widgets using JKQTMathText',['../group__jkqtmathtext__widgets.html',1,'']]],
   ['using_20jkqtplotter_20with_20cmake_20s_20fetchcontent_20api_101',['Using JKQTPlotter with CMake&apos;s FetchContent-API',['../page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_FETCHCONTENT',1,'']]],
   ['using_20qmake_102',['DEPRECATED: Build using QMake',['../page_buildinstructions__q_m_a_k_e.html',1,'page_buildinstructions']]],
-  ['using_20tt_20jkqtpfilledcurvexgraph_20tt_103',['Plot red/blue wiggle plot using &lt;tt&gt;JKQTPFilledCurveXGraph&lt;/tt&gt;',['../_j_k_q_t_plotter_wiggle_plots.html#autotoc_md121',1,'']]],
-  ['using_20tt_20jkqtpfilledcurveygraph_20tt_20in_20a_20seismographic_20style_104',['Plot black/transparent wiggle plot using &lt;tt&gt;JKQTPFilledCurveYGraph&lt;/tt&gt; in a &quot;seismographic style&quot;',['../_j_k_q_t_plotter_wiggle_plots.html#autotoc_md122',1,'']]],
+  ['using_20tt_20jkqtpfilledcurvexgraph_20tt_103',['Plot red/blue wiggle plot using &lt;tt&gt;JKQTPFilledCurveXGraph&lt;/tt&gt;',['../_j_k_q_t_plotter_wiggle_plots.html#autotoc_md116',1,'']]],
+  ['using_20tt_20jkqtpfilledcurveygraph_20tt_20in_20a_20seismographic_20style_104',['Plot black/transparent wiggle plot using &lt;tt&gt;JKQTPFilledCurveYGraph&lt;/tt&gt; in a &quot;seismographic style&quot;',['../_j_k_q_t_plotter_wiggle_plots.html#autotoc_md117',1,'']]],
   ['utilities_105',['utilities',['../group__jkqtptools__jkqtcommon.html',1,'JKQTCommon: Diverse Basic Utilities'],['../group__jkqtmath.html',1,'JKQTMath: Special Math and Statistics Utilities']]],
   ['utility_20jkqtmathtext_5frender_106',['Tool (JKQTMathText): Command-Line Utility jkqtmathtext_render',['../_j_k_q_t_math_text_render_cmd_line_tool.html',1,'exampleTutorialProjects']]],
   ['utility_20jkqtplotter_5fdoc_5fimagegenerator_107',['Tool (JKQTMathText): Command-Line Utility jkqtplotter_doc_imagegenerator',['../_j_k_q_t_plotter_doc_image_render_cmd_line_tool.html',1,'exampleTutorialProjects']]]
