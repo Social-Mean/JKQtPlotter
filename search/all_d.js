@@ -57,7 +57,7 @@ var searchData=
   ['impulsestyle_54',['impulseStyle',['../class_j_k_q_t_graphs_base_style.html#afefa89de58fb0476304537e845100c1d',1,'JKQTGraphsBaseStyle']]],
   ['in_20a_20column_20of_20the_20jkqtpdatastore_55',['Reference External Data in a column of the JKQTPDatastore',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md20',1,'']]],
   ['in_20a_20jkqtbaseplotter_20jkqtplotter_56',['Qt Data Models to Access Graphs in a JKQTBasePlotter/JKQTPlotter',['../group__jkqtpgraphsmodel.html',1,'']]],
-  ['in_20a_20seismographic_20style_57',['Plot black/transparent wiggle plot using &lt;tt&gt;JKQTPFilledCurveYGraph&lt;/tt&gt; in a &quot;seismographic style&quot;',['../_j_k_q_t_plotter_wiggle_plots.html#autotoc_md117',1,'']]],
+  ['in_20a_20seismographic_20style_57',['Plot black/transparent wiggle plot using &lt;tt&gt;JKQTPFilledCurveYGraph&lt;/tt&gt; in a &quot;seismographic style&quot;',['../_j_k_q_t_plotter_wiggle_plots.html#autotoc_md122',1,'']]],
   ['in_20classes_20for_20error_20indicators_58',['Mix-In Classes for Error Indicators',['../group__jkqtplotter__basegraphserrors.html',1,'']]],
   ['in_20classes_20for_20graphs_59',['in classes for graphs',['../group__jkqtplotter__mixins.html',1,'Mix-in classes for Graphs'],['../group__jkqtplotter__graphsgroup__classstructure.html#jkqtplotter_graphsgroup_classstructure_mixins',1,'Mix-In Classes for Graphs']]],
   ['in_20classes_20for_20styling_20general_20graphs_60',['Mix-In Classes for Styling General Graphs',['../group__jkqtplotter__basegraphs__stylemixins.html',1,'']]],
@@ -111,7 +111,7 @@ var searchData=
   ['inline_20function_108',['inline function',['../_j_k_q_t_plotter_eval_curves.html#autotoc_md65',1,'Simple C++ inline function'],['../_j_k_q_t_plotter_function_plots.html#autotoc_md70',1,'Simple C++ inline function']]],
   ['inline_20function_20with_20parameters_109',['inline function with parameters',['../_j_k_q_t_plotter_eval_curves.html#autotoc_md66',1,'Simple C++ inline function with Parameters'],['../_j_k_q_t_plotter_function_plots.html#autotoc_md71',1,'Simple C++ inline function with parameters']]],
   ['inner_20workings_110',['Inner Workings',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md99',1,'']]],
-  ['inserter_20for_20columns_111',['Back-Inserter for Columns',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md39',1,'']]],
+  ['inserter_20for_20columns_111',['Back-Inserter for Columns',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md31',1,'']]],
   ['inside_20a_20qt_20user_20interface_20designer_20ui_20file_112',['Tutorial (JKQTPlotter): Using a JKQTPlotter inside a Qt User Interface Designer (UI) File',['../_j_k_q_t_plotter_qt_creator.html',1,'exampleTutorialProjects']]],
   ['insidemath_113',['insideMath',['../struct_j_k_q_t_math_text_environment.html#ad05fd4e21e1b32e70d3e3164fee713b8',1,'JKQTMathTextEnvironment']]],
   ['insidemathforcedigitsupright_114',['insideMathForceDigitsUpright',['../struct_j_k_q_t_math_text_environment.html#a5737aabd406749982823c7e52f1da06c',1,'JKQTMathTextEnvironment']]],
@@ -229,9 +229,9 @@ var searchData=
   ['items_226',['items',['../class_j_k_q_t_p_datastore.html#a1aa94eca74f04f320dbec8869de676e5',1,'JKQTPDatastore']]],
   ['items_20for_20jkqtmathtext_227',['Render-Tree Items for JKQTMathText',['../group__jkqtmathtext__items.html',1,'']]],
   ['iterator_228',['iterator',['../class_j_k_q_t_p_column.html#a7aefe80cd029a58dcb8682ce6c770a50',1,'JKQTPColumn']]],
-  ['iterator_20based_20column_20data_20access_20to_20existing_20rows_229',['Iterator-based Column Data Access To Existing Rows',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md38',1,'']]],
+  ['iterator_20based_20column_20data_20access_20to_20existing_20rows_229',['Iterator-based Column Data Access To Existing Rows',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md30',1,'']]],
   ['iterator_20based_20usage_20of_20jkqtpdatastore_230',['Tutorial (JKQTPDatastore): Iterator-Based usage of JKQTPDatastore',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html',1,'exampleTutorialProjects']]],
   ['iterator_20interface_231',['iterator interface',['../class_j_k_q_t_p_datastore.html#jkqtpdatastore_column_management_iterators',1,'Iterator Interface'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md29',1,'Iterator Interface']]],
   ['iterator_5fcategory_232',['iterator_category',['../class_j_k_q_t_p_column_iterator.html#aaa5267bf8c0e2cf97760d3fbf186e769',1,'JKQTPColumnIterator::iterator_category'],['../class_j_k_q_t_p_column_back_inserter.html#a5060263d22c81a4fa03a70520b30073f',1,'JKQTPColumnBackInserter::iterator_category'],['../class_j_k_q_t_p_column_const_iterator.html#ac367d4b013f61f0832502791a7a47dae',1,'JKQTPColumnConstIterator::iterator_category']]],
-  ['iterators_233',['Special Properties of the JKQTPDatastore-Iterators',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md41',1,'']]]
+  ['iterators_233',['Special Properties of the JKQTPDatastore-Iterators',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md33',1,'']]]
 ];
