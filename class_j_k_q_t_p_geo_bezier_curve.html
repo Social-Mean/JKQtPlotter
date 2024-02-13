@@ -608,7 +608,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This <a class="el" href="class_j_k_q_t_p_geometric_plot_element.html" title="this is the virtual base class of all JKQTPPlotElement&#39;s in a JKQTPlotter plot that represent geometr...">JKQTPGeometricPlotElement</a> is used to draw a bezier curve. </p>
 <div class="image">
-<img src="JKQTPlotterGeometricBezierGraphic.png" alt=""/>
+<img src="JKQTPGeoBezierCurveGraphic.png" alt=""/>
 <div class="caption">
 drawn with JKQTPGeometricPlotElement::DrawMode::DrawAsGraphicElement</div></div>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="_j_k_q_t_plotter_geometric_bezier.html">Example (JKQTPlotter): Plotting Arrows</a>, <a class="el" href="class_j_k_q_t_p_geo_base_decorated_line.html" title="This JKQTPGeometricPlotElement is used as base class for geometric drawing elements that consist of l...">JKQTPGeoBaseDecoratedLine</a></dd></dl>
@@ -617,11 +617,11 @@ DrawMode for JKQTPGeoBezierCurve</h1>
 <p>This class support <a class="el" href="class_j_k_q_t_p_geometric_plot_element.html#a2947668a58c1c3e9db7b311294dee7d5a6cdb4458289e95342f0caa9c03765b19" title="draw lines as the mathematically correct curve">JKQTPGeometricPlotElement::DrawMode::DrawAsMathematicalCurve</a> , which will only have a significant effect with logarithmic axes. THe image above is the default <a class="el" href="class_j_k_q_t_p_geometric_plot_element.html#a2947668a58c1c3e9db7b311294dee7d5ae1506fad7fe950a93326c1cf87fff3cd" title="draw lines as lines (i.e. graphic elements)">JKQTPGeometricPlotElement::DrawMode::DrawAsGraphicElement</a> on a linear axis.</p>
 <p>On logarithmic axes (x&amp;y) the two modes draw very different shapes:</p>
 <div class="image">
-<img src="JKQTPlotterGeometricBezierLogMath.png" alt=""/>
+<img src="JKQTPGeoBezierCurveLogMath.png" alt=""/>
 <div class="caption">
 drawn with JKQTPGeometricPlotElement::DrawMode::DrawAsMathematicalCurve</div></div>
  <div class="image">
-<img src="JKQTPlotterGeometricBezierLogGraphic.png" alt=""/>
+<img src="JKQTPGeoBezierCurveLogGraphic.png" alt=""/>
 <div class="caption">
 drawn with JKQTPGeometricPlotElement::DrawMode::DrawAsGraphicElement</div></div>
 <p>For DrawAsGraphicElement only the control points are converted to screen-coordinates, but drawing takes place in the (linear) screen-system. For DrawAsMathematicalCurve drawing is done in the log-coordinate system.</p>
@@ -673,7 +673,9 @@ Line-End Decorators for JKQTPGeoBezierCurve</h1>
 
 <p>class constructor with start, end and one control point (i.e. a quadratic bezier curve) </p>
 <pre class="fragment">\param parent the parent plotter object
-\param points points on the polygon
+\param start start point
+\param control1 control-point in between start and end
+\param end end point
 </pre> 
 </div>
 </div>
@@ -717,7 +719,9 @@ Line-End Decorators for JKQTPGeoBezierCurve</h1>
 
 <p>class constructor with start, end and one control point (i.e. a quadratic bezier curve) </p>
 <pre class="fragment">\param parent the parent plotter object
-\param points points on the polygon
+\param start start point
+\param control1 control-point in between start and end
+\param end end point
 </pre> 
 </div>
 </div>
@@ -767,7 +771,10 @@ Line-End Decorators for JKQTPGeoBezierCurve</h1>
 
 <p>class constructor with start, end and two control points (i.e. a cubic bezier curve) </p>
 <pre class="fragment">\param parent the parent plotter object
-\param points points on the polygon
+\param start start point
+\param control1 1st control-point in between start and end
+\param control2 2nd control-point in between start and end
+\param end end point
 </pre> 
 </div>
 </div>
@@ -817,7 +824,10 @@ Line-End Decorators for JKQTPGeoBezierCurve</h1>
 
 <p>class constructor with start, end and two control points (i.e. a cubic bezier curve) </p>
 <pre class="fragment">\param parent the parent plotter object
-\param points points on the polygon
+\param start start point
+\param control1 1st control-point in between start and end
+\param control2 2nd control-point in between start and end
+\param end end point
 </pre> 
 </div>
 </div>
@@ -1354,7 +1364,7 @@ Line-End Decorators for JKQTPGeoBezierCurve</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_j_k_q_t_p_geo_bezier_curve.html">JKQTPGeoBezierCurve</a></li>
-    <li class="footer">Generated on Tue Feb 13 2024 23:00:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Feb 13 2024 23:06:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
