@@ -19,7 +19,7 @@ var searchData=
   ['fontname_16',['fontName',['../struct_j_k_q_t_math_text_font_specifier.html#a035624a9e9d7b9aa4b14b4c6250bce26',1,'JKQTMathTextFontSpecifier']]],
   ['fontsizeunit2string_17',['FontSizeUnit2String',['../struct_j_k_q_t_math_text_environment.html#acaf99e1b802a2447c1cd2871cca36f28',1,'JKQTMathTextEnvironment']]],
   ['forceinternaldatastore_18',['forceinternaldatastore',['../class_j_k_q_t_base_plotter.html#a6bbab200493af62fab5403460f5b726e',1,'JKQTBasePlotter::forceInternalDatastore()'],['../class_j_k_q_t_plotter.html#a97b118afff74ae40929015ac235d4f2d',1,'JKQTPlotter::forceInternalDatastore()']]],
-  ['formathittestdefaultlabel_19',['formatHitTestDefaultLabel',['../class_j_k_q_t_p_plot_element.html#acabb25ef081b70ca56e43cbfe1f2f0a8',1,'JKQTPPlotElement']]],
+  ['formathittestdefaultlabel_19',['formathittestdefaultlabel',['../class_j_k_q_t_p_plot_element.html#a3c2017a29c0eeaf50dbe10e4be56c2fd',1,'JKQTPPlotElement::formatHitTestDefaultLabel()'],['../class_j_k_q_t_p_x_y_and_vector_graph.html#afd736185ba465cb8dc9836fb2866f241',1,'JKQTPXYAndVectorGraph::formatHitTestDefaultLabel()']]],
   ['fractype2string_20',['FracType2String',['../class_j_k_q_t_math_text_frac_node.html#a52eb35dcb4d1d8b193b4b79c34d4f013',1,'JKQTMathTextFracNode']]],
   ['fromfontspec_21',['fromFontSpec',['../struct_j_k_q_t_math_text_font_specifier.html#a13d780ab2bbe28aebf8cb0af31e935c3',1,'JKQTMathTextFontSpecifier']]],
   ['fromstring_22',['fromstring',['../class_j_k_q_t_fill_style_summmary.html#a7469b9444c063e197129bd12a4d222b9',1,'JKQTFillStyleSummmary::fromString()'],['../struct_j_k_q_t_p_color_derivation_mode.html#a5c32fef2a5e7e52830f2565dac2876a4',1,'JKQTPColorDerivationMode::fromString()']]],

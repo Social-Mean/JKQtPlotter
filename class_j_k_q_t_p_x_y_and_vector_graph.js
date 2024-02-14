@@ -6,6 +6,7 @@ var class_j_k_q_t_p_x_y_and_vector_graph =
       [ "DefaultVectorDataLayout", "class_j_k_q_t_p_x_y_and_vector_graph.html#a358c456f5376228de9be25bb55adafcca4d6c2a70ff9e1b270b442537b62c3e13", null ]
     ] ],
     [ "JKQTPXYAndVectorGraph", "class_j_k_q_t_p_x_y_and_vector_graph.html#a6aebd7b3b87104baed5f6495d5baad0a", null ],
+    [ "formatHitTestDefaultLabel", "class_j_k_q_t_p_x_y_and_vector_graph.html#afd736185ba465cb8dc9836fb2866f241", null ],
     [ "getAngleColumn", "class_j_k_q_t_p_x_y_and_vector_graph.html#a3157912e2330bace0e819f6b2cf0bf4e", null ],
     [ "getDxColumn", "class_j_k_q_t_p_x_y_and_vector_graph.html#ae6448660a73bb4c14ebc1422f19007ad", null ],
     [ "getDyColumn", "class_j_k_q_t_p_x_y_and_vector_graph.html#a332f4a19a8506aa401a99102e76c2c12", null ],

@@ -261,6 +261,8 @@ IMPROVED: added missing override declarations </li>
 <li>
 IMPROVED: <a class="el" href="class_j_k_q_t_plotter.html#af1508926706b090d38a4117a3b230fbe" title="delay for resizing in milliseconds. If set to 0, resize delay is disabled and resizeTimer is unused.">JKQTPlotter::jkqtp_RESIZE_DELAY</a> is thread-safe now (atomic) </li>
 <li>
+IMPROVED: Using axis's tick label formating properties to format values in data-tooltips (e.g. dates will appear formated as such) </li>
+<li>
 IMPROVED/REWORKED: reworked JKQTPErrorPlotstyle and error indicator plotting so error-inidcators can be specified as ORed combination of flags from JKQTPErrorPlotstyleElements, added additional error indicator styles (half-bars, arrows...) </li>
 <li>
 IMPROVED/REWORKED: reworked JKQTPCADrawMode and coordinate axis drawing so the draw mide can be specified as ORed combination of flags from JKQTPCADrawModeElements, added flags to draw arrows at the end of the axis line </li>
@@ -431,7 +433,7 @@ IMPROVED: rendering and size calculation of decorations </li>
 <li>
 IMPROVED: tokenizing and parsing of text in text-mode: now a lot of accents with commands like <code>\"a</code>, <code>\'e</code> and variants (e.g. <code>{\"a}</code>, <code>\"{a}</code>, ...) are supported now </li>
 <li>
-IMPROVED: all fucntions in <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> are re-entrant + diverse speed improvements for parallel use-cases (via caches) </li>
+IMPROVED: all functions in <a class="el" href="class_j_k_q_t_math_text.html" title="this class parses a mathematical markup string and can then draw the contained text/equation onto a Q...">JKQTMathText</a> are re-entrant + diverse speed improvements for parallel use-cases (via caches) </li>
 <li>
 IMPROVED/BREAKING: refactored symbol node <a class="el" href="class_j_k_q_t_math_text_symbol_node.html" title="subclass representing one symbol (e.g. \alpha , \cdot ...) node in the syntax tree">JKQTMathTextSymbolNode</a> and changed font-lookup! </li>
 <li>
@@ -816,7 +818,7 @@ Latest Release/Tag: <a href="https://github.com/jkriege2/JKQtPlotter/releases/ta
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 13 2024 23:13:05 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Feb 14 2024 13:04:29 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
