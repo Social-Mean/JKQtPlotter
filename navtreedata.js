@@ -27,12 +27,12 @@ var NAVTREE =
   [ "JKQTPlotter", "index.html", [
     [ "JKQTPlotter - A Qt Plotting Library", "index.html", "index" ],
     [ "Contributor Covenant Code of Conduct", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html", [
-      [ "Our Pledge", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md1", null ],
-      [ "Our Standards", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2", null ],
-      [ "Our Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3", null ],
-      [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4", null ],
-      [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5", null ],
-      [ "Attribution", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6", null ]
+      [ "Our Pledge", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2", null ],
+      [ "Our Standards", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3", null ],
+      [ "Our Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4", null ],
+      [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md5", null ],
+      [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md6", null ],
+      [ "Attribution", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md7", null ]
     ] ],
     [ "Contributing", "md__c_o_n_t_r_i_b_u_t_i_n_g.html", [
       [ "Pull Request Process", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md8", null ],
@@ -233,24 +233,24 @@ var NAVTREE =
         [ "Special Properties of the JKQTPDatastore-Iterators", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md41", null ]
       ] ],
       [ "Tutorial (JKQTPDatastore): Advanced 1-Dimensional Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html", [
-        [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48", null ],
-        [ "Basic Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md49", null ],
-        [ "Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md50", [
-          [ "Standard Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md51", null ],
-          [ "Boxplots with Outliers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md52", null ]
+        [ "Generating different sets of random numbers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md42", null ],
+        [ "Basic Statistics", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md43", null ],
+        [ "Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md44", [
+          [ "Standard Boxplots", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md45", null ],
+          [ "Boxplots with Outliers", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md46", null ]
         ] ],
-        [ "Histograms", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md53", null ],
-        [ "Kernel Density Estimates (KDE)", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md54", null ],
-        [ "Cummulative Histograms and KDEs", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md55", null ],
-        [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md56", null ]
+        [ "Histograms", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md48", null ],
+        [ "Kernel Density Estimates (KDE)", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md49", null ],
+        [ "Cummulative Histograms and KDEs", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md51", null ],
+        [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md52", null ]
       ] ],
       [ "Tutorial (JKQTPDatastore): Regression Analysis (with the Statistics Library)", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html", [
-        [ "Simple Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md42", null ],
-        [ "Robust Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md43", null ],
-        [ "Weighted Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md44", null ],
-        [ "Linearizable Regression Models", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md45", null ],
-        [ "Polynom Fitting", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md46", null ],
-        [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md47", null ]
+        [ "Simple Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md47", null ],
+        [ "Robust Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md50", null ],
+        [ "Weighted Linear Regression", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md53", null ],
+        [ "Linearizable Regression Models", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md54", null ],
+        [ "Polynom Fitting", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md55", null ],
+        [ "Screenshot of the full Program", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md56", null ]
       ] ],
       [ "Tutorial (JKQTPDatastore): 1-Dimensional Group Statistics with JKQTPDatastore", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html", [
         [ "Barcharts & Boxplots from categorized data", "_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md30", [
