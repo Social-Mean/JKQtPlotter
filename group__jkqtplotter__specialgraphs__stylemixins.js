@@ -118,8 +118,8 @@ var group__jkqtplotter__specialgraphs__stylemixins =
     [ "JKQTPGraphValueLabelStyleMixin", "class_j_k_q_t_p_graph_value_label_style_mixin.html", [
       [ "JKQTPGraphValueLabelStyleMixin", "class_j_k_q_t_p_graph_value_label_style_mixin.html#abce4dec7cb43a8c6d7911fcaf36859b6", null ],
       [ "~JKQTPGraphValueLabelStyleMixin", "class_j_k_q_t_p_graph_value_label_style_mixin.html#a393fa9d0f0176f8577cddfae7dd50011", null ],
-      [ "calcLabelGeometry", "class_j_k_q_t_p_graph_value_label_style_mixin.html#a573311cdd26dc5eb7974eeefd209bcbf", null ],
-      [ "drawLabel", "class_j_k_q_t_p_graph_value_label_style_mixin.html#aa982145c0586c7da76c09b1b18fa53e9", null ],
+      [ "calcLabelGeometry", "class_j_k_q_t_p_graph_value_label_style_mixin.html#a72f1f39288ad08af661cf3dd3e8b7faf", null ],
+      [ "drawLabel", "class_j_k_q_t_p_graph_value_label_style_mixin.html#a902ba746fbd403c25c23ffba3f522d5a", null ],
       [ "drawsLabelBoxFrame", "class_j_k_q_t_p_graph_value_label_style_mixin.html#afb14846077664ae14fbb174af036f99f", null ],
       [ "getLabelBoxRounding", "class_j_k_q_t_p_graph_value_label_style_mixin.html#a6e358b4bf4589cc8d92b8a621c17e59b", null ],
       [ "getLabelBoxType", "class_j_k_q_t_p_graph_value_label_style_mixin.html#afa23b3b2f9e62f0031931f6e4e70f6d7", null ],
@@ -374,6 +374,8 @@ var group__jkqtplotter__specialgraphs__stylemixins =
       [ "JKQTPGLabelTowardsYAxis", "group__jkqtplotter__specialgraphs__stylemixins.html#gga155cf285f6f0b6a9e8c4c6b1680aa4f5a2d7f5e4029c4a4f11e385136048b2358", null ],
       [ "JKQTPGLabelAwayFromYAxis", "group__jkqtplotter__specialgraphs__stylemixins.html#gga155cf285f6f0b6a9e8c4c6b1680aa4f5a00aad7929f986a2494775000876d2e8c", null ],
       [ "JKQTPGLabelCenteredOnData", "group__jkqtplotter__specialgraphs__stylemixins.html#gga155cf285f6f0b6a9e8c4c6b1680aa4f5a4764478793df4f75ec564beee74a7f5f", null ],
+      [ "JKQTPGLabelHalfwaysToXAxis", "group__jkqtplotter__specialgraphs__stylemixins.html#gga155cf285f6f0b6a9e8c4c6b1680aa4f5a6a408baaa57ff22563ddb53cb453e262", null ],
+      [ "JKQTPGLabelHalfwaysToYAxis", "group__jkqtplotter__specialgraphs__stylemixins.html#gga155cf285f6f0b6a9e8c4c6b1680aa4f5a15d5347151ea4e039cf2ee87ef96cb7b", null ],
       [ "JKQTPGraphLabelDefault", "group__jkqtplotter__specialgraphs__stylemixins.html#gga155cf285f6f0b6a9e8c4c6b1680aa4f5ab485ea4080b30d09c4d013e59c807dcd", null ]
     ] ],
     [ "JKQTPGraphLabelBoxType2String", "group__jkqtplotter__specialgraphs__stylemixins.html#ga2c18c4338ee8e19593e9fabba5fc6adb", null ],

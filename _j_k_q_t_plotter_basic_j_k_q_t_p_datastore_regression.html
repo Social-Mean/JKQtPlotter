@@ -117,8 +117,8 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_basic_j_k_q_t_p_datas
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md47">Simple Linear Regression</a></li>
-<li class="level1"><a href="#autotoc_md50">Robust Linear Regression</a></li>
+<ul><li class="level1"><a href="#autotoc_md51">Simple Linear Regression</a></li>
+<li class="level1"><a href="#autotoc_md52">Robust Linear Regression</a></li>
 <li class="level1"><a href="#autotoc_md53">Weighted Linear Regression</a></li>
 <li class="level1"><a href="#autotoc_md54">Linearizable Regression Models</a></li>
 <li class="level1"><a href="#autotoc_md55">Polynom Fitting</a></li>
@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_basic_j_k_q_t_p_datas
 <li><a class="el" href="_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html">Advanced 2-Dimensional Statistics with JKQTPDatastore</a></li>
 </ul>
 <p>The source code of the main application can be found in <a href="https://github.com/jkriege2/JKQtPlotter/tree/master/examples/datastore_statistics/datastore_regression.cpp"><code>datastore_regression.cpp</code></a>. This tutorial cites only parts of this code to demonstrate different ways of performing regression analysis.</p>
-<h1><a class="anchor" id="autotoc_md47"></a>
+<h1><a class="anchor" id="autotoc_md51"></a>
 Simple Linear Regression</h1>
 <p>First we generate a set of datapoints (x,y), which scatter randomly around a linear function. </p><div class="fragment"><div class="line">std::random_device rd; <span class="comment">// random number generators:</span></div>
 <div class="line">std::mt19937 gen{rd()};</div>
@@ -176,7 +176,7 @@ Simple Linear Regression</h1>
 </div><!-- fragment --><p> Here the x- and y-columns from the <code><a class="el" href="class_j_k_q_t_p_x_y_graph.html" title="This virtual JKQTPGraph descendent may be used as base for all graphs that use at least two columns t...">JKQTPXYGraph</a></code>-based graph <code>graphD</code> (see above) are used as datasources for the plot.</p>
 <p>The plot resulting from any of the variants above looks like this:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_regression_lin.png" alt="datastore_regression_lin" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md50"></a>
+<h1><a class="anchor" id="autotoc_md52"></a>
 Robust Linear Regression</h1>
 <p>Sometimes data contains outliers that can render the results of a regression analysis inaccurate. For such cases the <a class="el" href="group__jkqtptools__math__statistics.html">JKQTPlotter Statistics Library</a> offers the function <code><a class="el" href="group__jkqtptools__math__statistics__regression.html#ga7da14476c0d4bc417ec104dbcc930bb6" title="calculate the (robust) iteratively reweighted least-squares (IRLS) estimate for the parameters of the...">jkqtpstatRobustIRLSLinearRegression()</a></code>, which is a drop-in replacement for <code><a class="el" href="group__jkqtptools__math__statistics__regression.html#gaf81a452c8e0798f6bb4b8764dd5a2f89" title="calculate the linear regression coefficients for a given data range firstX / firstY ....">jkqtpstatLinearRegression()</a></code> and solves the optimization problem a) in the Lp-norm (which is more robust to outliers) and b) uses the <a href="https://en.wikipedia.org/wiki/Iteratively_reweighted_least_squares">iteratively reweighted least-squares algorithm (IRLS)</a>, which performs a series of regressions, where in each instance the data-points are weighted differently. The method assigns a lower weight to those points that are far from the current best-fit (typically the outliers) and thus slowly comes nearer to an estimate that is not distorted by the outliers.</p>
 <p>To demonstrate this method, we use the same dataset as above, but add a few outliers:</p>
@@ -396,7 +396,7 @@ Screenshot of the full Program</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Thu Feb 15 2024 08:24:01 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Feb 22 2024 20:20:45 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

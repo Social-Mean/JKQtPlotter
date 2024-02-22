@@ -2,8 +2,8 @@ var class_j_k_q_t_p_graph_value_label_style_mixin =
 [
     [ "JKQTPGraphValueLabelStyleMixin", "class_j_k_q_t_p_graph_value_label_style_mixin.html#abce4dec7cb43a8c6d7911fcaf36859b6", null ],
     [ "~JKQTPGraphValueLabelStyleMixin", "class_j_k_q_t_p_graph_value_label_style_mixin.html#a393fa9d0f0176f8577cddfae7dd50011", null ],
-    [ "calcLabelGeometry", "class_j_k_q_t_p_graph_value_label_style_mixin.html#a573311cdd26dc5eb7974eeefd209bcbf", null ],
-    [ "drawLabel", "class_j_k_q_t_p_graph_value_label_style_mixin.html#aa982145c0586c7da76c09b1b18fa53e9", null ],
+    [ "calcLabelGeometry", "class_j_k_q_t_p_graph_value_label_style_mixin.html#a72f1f39288ad08af661cf3dd3e8b7faf", null ],
+    [ "drawLabel", "class_j_k_q_t_p_graph_value_label_style_mixin.html#a902ba746fbd403c25c23ffba3f522d5a", null ],
     [ "drawsLabelBoxFrame", "class_j_k_q_t_p_graph_value_label_style_mixin.html#afb14846077664ae14fbb174af036f99f", null ],
     [ "getLabelBoxRounding", "class_j_k_q_t_p_graph_value_label_style_mixin.html#a6e358b4bf4589cc8d92b8a621c17e59b", null ],
     [ "getLabelBoxType", "class_j_k_q_t_p_graph_value_label_style_mixin.html#afa23b3b2f9e62f0031931f6e4e70f6d7", null ],
