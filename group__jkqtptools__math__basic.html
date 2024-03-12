@@ -254,6 +254,15 @@ Functions</h2></td></tr>
 <tr class="memitem:gaecfd3a8f48b514e8ce878d0b6a3ff488"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__basic.html#gaecfd3a8f48b514e8ce878d0b6a3ff488">jkqtp_inversePropSaveDefault</a> (const T &amp;v)</td></tr>
 <tr class="memdesc:gaecfd3a8f48b514e8ce878d0b6a3ff488"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the inversely proportional value 1/<em>v</em> of <em>v</em> and ensures that <picture><source srcset="form_13_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ |v|\geq \mbox{absMinV} $" src="form_13.png" width="102" height="18"/></picture>, uses <code>absMinV=std::numeric_limits&lt;T&gt;::epsilon()*100</code>.0  <br /></td></tr>
 <tr class="separator:gaecfd3a8f48b514e8ce878d0b6a3ff488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa3d7fcf683d8233f6523f0b1bc415147" id="r_gaa3d7fcf683d8233f6523f0b1bc415147"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__basic.html#gaa3d7fcf683d8233f6523f0b1bc415147">jkqtp_j0</a> (double x)</td></tr>
+<tr class="memdesc:gaa3d7fcf683d8233f6523f0b1bc415147"><td class="mdescLeft">&#160;</td><td class="mdescRight">j0() function (without compiler issues)  <br /></td></tr>
+<tr class="separator:gaa3d7fcf683d8233f6523f0b1bc415147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga40b45b4a1a560a6b9630c803973ecb80" id="r_ga40b45b4a1a560a6b9630c803973ecb80"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__basic.html#ga40b45b4a1a560a6b9630c803973ecb80">jkqtp_j1</a> (double x)</td></tr>
+<tr class="memdesc:ga40b45b4a1a560a6b9630c803973ecb80"><td class="mdescLeft">&#160;</td><td class="mdescRight">j1() function (without compiler issues)  <br /></td></tr>
+<tr class="separator:ga40b45b4a1a560a6b9630c803973ecb80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd16c8433a7b9b5e59f46f5c709d3468" id="r_gacd16c8433a7b9b5e59f46f5c709d3468"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__basic.html#gacd16c8433a7b9b5e59f46f5c709d3468">jkqtp_jn</a> (int n, double x)</td></tr>
+<tr class="memdesc:gacd16c8433a7b9b5e59f46f5c709d3468"><td class="mdescLeft">&#160;</td><td class="mdescRight">jn() function (without compiler issues)  <br /></td></tr>
+<tr class="separator:gacd16c8433a7b9b5e59f46f5c709d3468"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab4c26fbfbca0f7cc2359119282f2c1dd" id="r_gab4c26fbfbca0f7cc2359119282f2c1dd"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:gab4c26fbfbca0f7cc2359119282f2c1dd"><td class="memTemplItemLeft" align="right" valign="top">std::function&lt; T(T)&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__basic.html#gab4c26fbfbca0f7cc2359119282f2c1dd">jkqtp_makeBernstein</a> (int n, int i)</td></tr>
 <tr class="memdesc:gab4c26fbfbca0f7cc2359119282f2c1dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a functor that evaluates the Bernstein polynomial <picture><source srcset="form_22_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ B_i^n(t):=\left(\stackrel{n}{i}\right)\cdot t^i\cdot(1-t)^{n-1},\ \ \ \ 0\leq i\leq n $" src="form_22.png" width="296" height="29"/></picture>  <br /></td></tr>
@@ -305,6 +314,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ga4be9c2092b21829800b2b667fd891b12"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__basic.html#ga4be9c2092b21829800b2b667fd891b12">jkqtp_truncTo</a> (const double &amp;v)</td></tr>
 <tr class="memdesc:ga4be9c2092b21829800b2b667fd891b12"><td class="mdescLeft">&#160;</td><td class="mdescRight">round a double <em>v</em> using trunc() and convert it to a specified type T (static_cast!)  <br /></td></tr>
 <tr class="separator:ga4be9c2092b21829800b2b667fd891b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa7600e18b0f179d0ff32c7242c8a8211" id="r_gaa7600e18b0f179d0ff32c7242c8a8211"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__basic.html#gaa7600e18b0f179d0ff32c7242c8a8211">jkqtp_y0</a> (double x)</td></tr>
+<tr class="memdesc:gaa7600e18b0f179d0ff32c7242c8a8211"><td class="mdescLeft">&#160;</td><td class="mdescRight">y0() function (without compiler issues)  <br /></td></tr>
+<tr class="separator:gaa7600e18b0f179d0ff32c7242c8a8211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0629d281d3475efc82eff234f61e0ca2" id="r_ga0629d281d3475efc82eff234f61e0ca2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__basic.html#ga0629d281d3475efc82eff234f61e0ca2">jkqtp_y1</a> (double x)</td></tr>
+<tr class="memdesc:ga0629d281d3475efc82eff234f61e0ca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">y1() function (without compiler issues)  <br /></td></tr>
+<tr class="separator:ga0629d281d3475efc82eff234f61e0ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf8fb3f47559f1ae155933192291f64cb" id="r_gaf8fb3f47559f1ae155933192291f64cb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__basic.html#gaf8fb3f47559f1ae155933192291f64cb">jkqtp_yn</a> (int n, double x)</td></tr>
+<tr class="memdesc:gaf8fb3f47559f1ae155933192291f64cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">yn() function (without compiler issues)  <br /></td></tr>
+<tr class="separator:gaf8fb3f47559f1ae155933192291f64cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf0ace9f4ac87719798dea6ef64068ff4" id="r_gaf0ace9f4ac87719798dea6ef64068ff4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gaf0ace9f4ac87719798dea6ef64068ff4"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__basic.html#gaf0ace9f4ac87719798dea6ef64068ff4">JKQTPIsOKFloat</a> (T v)</td></tr>
 <tr class="memdesc:gaf0ace9f4ac87719798dea6ef64068ff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether the dlotaing point number is OK (i.e. non-inf, non-NAN)  <br /></td></tr>
@@ -966,7 +984,7 @@ template&lt;class T  = int&gt; </div>
 <div class="line"><span class="comment">//...</span></div>
 <div class="line"><span class="comment">// finally seed contains the combined hash</span></div>
 <div class="ttc" id="agroup__jkqtpplottersupprt_html_gaf7f4d2cbc77fa6bb5446221d595c2183"><div class="ttname"><a href="group__jkqtpplottersupprt.html#gaf7f4d2cbc77fa6bb5446221d595c2183">qHash</a></div><div class="ttdeci">size_t qHash(const JKQTBasePlotter::textSizeKey &amp;data, size_t)</div><div class="ttdoc">qHash()-specialization</div><div class="ttdef"><b>Definition</b> jkqtpbaseplotter.h:2820</div></div>
-<div class="ttc" id="agroup__jkqtptools__math__basic_html_ga9295f8ae4e8323dae175761e8cdfa117"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga9295f8ae4e8323dae175761e8cdfa117">jkqtp_combine_hash</a></div><div class="ttdeci">void jkqtp_combine_hash(std::size_t &amp;seed, std::size_t hsh)</div><div class="ttdoc">can be used to build a hash-values from several hash-values</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:699</div></div>
+<div class="ttc" id="agroup__jkqtptools__math__basic_html_ga9295f8ae4e8323dae175761e8cdfa117"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga9295f8ae4e8323dae175761e8cdfa117">jkqtp_combine_hash</a></div><div class="ttdeci">void jkqtp_combine_hash(std::size_t &amp;seed, std::size_t hsh)</div><div class="ttdoc">can be used to build a hash-values from several hash-values</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:701</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -1375,7 +1393,7 @@ template&lt;class T &gt; </div>
 <div class="line"><a class="code hl_function" href="group__jkqtptools__math__basic.html#ga84503f9b68f7cd5bd2b9b7ed88c2e03e">jkqtp_hash_combine</a>(seed, valB);</div>
 <div class="line"><span class="comment">//...</span></div>
 <div class="line"><span class="comment">// finally seed contains the combined hash</span></div>
-<div class="ttc" id="agroup__jkqtptools__math__basic_html_ga84503f9b68f7cd5bd2b9b7ed88c2e03e"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga84503f9b68f7cd5bd2b9b7ed88c2e03e">jkqtp_hash_combine</a></div><div class="ttdeci">void jkqtp_hash_combine(std::size_t &amp;seed, const T &amp;v)</div><div class="ttdoc">can be used to build a hash-values from several hash-values</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:681</div></div>
+<div class="ttc" id="agroup__jkqtptools__math__basic_html_ga84503f9b68f7cd5bd2b9b7ed88c2e03e"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga84503f9b68f7cd5bd2b9b7ed88c2e03e">jkqtp_hash_combine</a></div><div class="ttdeci">void jkqtp_hash_combine(std::size_t &amp;seed, const T &amp;v)</div><div class="ttdoc">can be used to build a hash-values from several hash-values</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:683</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -1506,6 +1524,100 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns the inversely proportional value 1/<em>v</em> of <em>v</em> and ensures that <picture><source srcset="form_13_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ |v|\geq \mbox{absMinV} $" src="form_13.png" width="102" height="18"/></picture>, uses <code>absMinV=std::numeric_limits&lt;T&gt;::epsilon()*100</code>.0 </p>
+
+</div>
+</div>
+<a id="gaa3d7fcf683d8233f6523f0b1bc415147" name="gaa3d7fcf683d8233f6523f0b1bc415147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa3d7fcf683d8233f6523f0b1bc415147">&#9670;&#160;</a></span>jkqtp_j0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double jkqtp_j0 </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>j0() function (without compiler issues) </p>
+
+</div>
+</div>
+<a id="ga40b45b4a1a560a6b9630c803973ecb80" name="ga40b45b4a1a560a6b9630c803973ecb80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga40b45b4a1a560a6b9630c803973ecb80">&#9670;&#160;</a></span>jkqtp_j1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double jkqtp_j1 </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>j1() function (without compiler issues) </p>
+
+</div>
+</div>
+<a id="gacd16c8433a7b9b5e59f46f5c709d3468" name="gacd16c8433a7b9b5e59f46f5c709d3468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd16c8433a7b9b5e59f46f5c709d3468">&#9670;&#160;</a></span>jkqtp_jn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double jkqtp_jn </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>jn() function (without compiler issues) </p>
 
 </div>
 </div>
@@ -1996,6 +2108,100 @@ template&lt;typename T &gt; </div>
 </div><!-- fragment --> 
 </div>
 </div>
+<a id="gaa7600e18b0f179d0ff32c7242c8a8211" name="gaa7600e18b0f179d0ff32c7242c8a8211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa7600e18b0f179d0ff32c7242c8a8211">&#9670;&#160;</a></span>jkqtp_y0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double jkqtp_y0 </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>y0() function (without compiler issues) </p>
+
+</div>
+</div>
+<a id="ga0629d281d3475efc82eff234f61e0ca2" name="ga0629d281d3475efc82eff234f61e0ca2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0629d281d3475efc82eff234f61e0ca2">&#9670;&#160;</a></span>jkqtp_y1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double jkqtp_y1 </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>y1() function (without compiler issues) </p>
+
+</div>
+</div>
+<a id="gaf8fb3f47559f1ae155933192291f64cb" name="gaf8fb3f47559f1ae155933192291f64cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf8fb3f47559f1ae155933192291f64cb">&#9670;&#160;</a></span>jkqtp_yn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double jkqtp_yn </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>yn() function (without compiler issues) </p>
+
+</div>
+</div>
 <a id="gaf0ace9f4ac87719798dea6ef64068ff4" name="gaf0ace9f4ac87719798dea6ef64068ff4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaf0ace9f4ac87719798dea6ef64068ff4">&#9670;&#160;</a></span>JKQTPIsOKFloat()</h2>
 
@@ -2032,7 +2238,7 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 12 2024 21:02:33 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Mar 12 2024 21:26:30 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
