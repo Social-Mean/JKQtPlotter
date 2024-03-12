@@ -39,9 +39,6 @@ var group__jkqtptools__math__basic =
     [ "jkqtp_inverseProp", "group__jkqtptools__math__basic.html#ga3e426fca61e3af502d5ea80fd7e29d8c", null ],
     [ "jkqtp_inversePropSave", "group__jkqtptools__math__basic.html#gaa6d799314d24d48d0deda117af42e9c9", null ],
     [ "jkqtp_inversePropSaveDefault", "group__jkqtptools__math__basic.html#gaecfd3a8f48b514e8ce878d0b6a3ff488", null ],
-    [ "jkqtp_j0", "group__jkqtptools__math__basic.html#gaa3d7fcf683d8233f6523f0b1bc415147", null ],
-    [ "jkqtp_j1", "group__jkqtptools__math__basic.html#ga40b45b4a1a560a6b9630c803973ecb80", null ],
-    [ "jkqtp_jn", "group__jkqtptools__math__basic.html#gacd16c8433a7b9b5e59f46f5c709d3468", null ],
     [ "jkqtp_makeBernstein", "group__jkqtptools__math__basic.html#gab4c26fbfbca0f7cc2359119282f2c1dd", null ],
     [ "jkqtp_polyEval", "group__jkqtptools__math__basic.html#gaf1f20cb4d30238e749064094e9453289", null ],
     [ "jkqtp_polynomialModel2Latex", "group__jkqtptools__math__basic.html#ga5024e624b99918ad6b7c52d3474c43cd", null ],
@@ -55,8 +52,5 @@ var group__jkqtptools__math__basic =
     [ "jkqtp_todouble", "group__jkqtptools__math__basic.html#ga99feae906c31cf0bb0d3ce56b47e7e2d", null ],
     [ "jkqtp_todouble", "group__jkqtptools__math__basic.html#ga966c1a713f60bd026db4f35f7007eb7e", null ],
     [ "jkqtp_truncTo", "group__jkqtptools__math__basic.html#ga4be9c2092b21829800b2b667fd891b12", null ],
-    [ "jkqtp_y0", "group__jkqtptools__math__basic.html#gaa7600e18b0f179d0ff32c7242c8a8211", null ],
-    [ "jkqtp_y1", "group__jkqtptools__math__basic.html#ga0629d281d3475efc82eff234f61e0ca2", null ],
-    [ "jkqtp_yn", "group__jkqtptools__math__basic.html#gaf8fb3f47559f1ae155933192291f64cb", null ],
     [ "JKQTPIsOKFloat", "group__jkqtptools__math__basic.html#gaf0ace9f4ac87719798dea6ef64068ff4", null ]
 ];
