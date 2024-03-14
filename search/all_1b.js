@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['weighted_20linear_20regression_0',['Weighted Linear Regression',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md53',1,'']]],
+  ['weighted_20linear_20regression_0',['Weighted Linear Regression',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html#autotoc_md44',1,'']]],
   ['what_1',['what',['../class_j_k_q_t_p_math_parser_1_1jkmp_exception.html#aeb2ee6c47d206c716b73625410a56238',1,'JKQTPMathParser::jkmpException']]],
   ['what_20s_20new_20release_20notes_20versions_2',['What&apos;s New (Release Notes/Versions)',['../page_whatsnew.html',1,'']]],
   ['wheel_20event_20occurs_3',['Actions When a Mouse Wheel Event Occurs',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USERMOUSEINTERACTION_MOUSEWHEEL',1,'']]],
@@ -44,7 +44,7 @@ var searchData=
   ['with_20live_20data_20speed_20test_41',['Example (JKQTPlotter): Simple line-graph with live-data (speed test)',['../_j_k_q_t_plotter_speed_test.html',1,'exampleTutorialProjects']]],
   ['with_20logarithmic_20y_20axis_42',['Example (JKQTPlotter): Line Graph with Logarithmic y-axis',['../_j_k_q_t_plotter_log_axes.html',1,'exampleTutorialProjects']]],
   ['with_20modifier_20datat_43',['Example (JKQTPlotter): Simple math image plot with modifier datat',['../_j_k_q_t_plotter_image_plot_modifier.html',1,'exampleTutorialProjects']]],
-  ['with_20outliers_44',['Boxplots with Outliers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md46',1,'']]],
+  ['with_20outliers_44',['Boxplots with Outliers',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html#autotoc_md52',1,'']]],
   ['with_20parameters_45',['with parameters',['../_j_k_q_t_plotter_parsed_function_plot.html#autotoc_md88',1,'Plotting with parameters'],['../_j_k_q_t_plotter_function_plots.html#autotoc_md71',1,'Simple C++ inline function with parameters'],['../_j_k_q_t_plotter_eval_curves.html#autotoc_md66',1,'Simple C++ inline function with Parameters']]],
   ['with_20parametrized_20symbols_20colors_46',['Example (JKQTPlotter): Scatter Graph with Parametrized Symbols/Colors',['../_j_k_q_t_plotter_param_scatter.html',1,'exampleTutorialProjects']]],
   ['with_20support_20for_20arrows_47',['Classes with support for arrows',['../_j_k_q_t_plotter_geometric_arrows.html#autotoc_md78',1,'']]],
@@ -53,7 +53,7 @@ var searchData=
   ['with_20transfer_20of_20ownership_50',['Referencing with Transfer of Ownership',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md22',1,'']]],
   ['with_20two_20color_20fill_20mode_51',['Example (JKQTPlotter): Barchart With Two-Color Fill-Mode',['../_j_k_q_t_plotter_barcharts_two_color_filling.html',1,'exampleTutorialProjects']]],
   ['with_20visual_20studio_20msvc_52',['Configuring&amp;Building with Visual Studio/MSVC',['../page_buildinstructions__c_m_a_k_e.html#page_buildinstructions_CMAKE_VSTUDIO',1,'']]],
-  ['with_20x_20y_20errors_20from_20categorized_20data_53',['(Scatter-)Graphs with X/Y-errors from Categorized Data',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md33',1,'']]],
+  ['with_20x_20y_20errors_20from_20categorized_20data_53',['(Scatter-)Graphs with X/Y-errors from Categorized Data',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html#autotoc_md34',1,'']]],
   ['within_20a_20qlabel_20class_20jkqtmathtextlabel_54',['Usage within a QLabel class JKQTMathTextLabel',['../class_j_k_q_t_math_text.html#JKQTMathTextUsageQLabel',1,'']]],
   ['without_20transfer_20of_20ownership_55',['Referencing without transfer of ownership',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md21',1,'']]],
   ['without_20use_20of_20central_20jkqtdatastore_56',['Example (JKQTPlotter): Simple math image plot without use of central JKQTdatastore',['../_j_k_q_t_plotter_image_plot_no_datastore.html',1,'exampleTutorialProjects']]],

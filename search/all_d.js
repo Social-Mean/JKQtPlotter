@@ -48,7 +48,7 @@ var searchData=
   ['imagenamer_45',['imageNameR',['../class_j_k_q_t_p_r_g_b_math_image.html#a83568e349411a0ff15b46beadbbfd9fa',1,'JKQTPRGBMathImage']]],
   ['imagercolumn_46',['imageRColumn',['../class_j_k_q_t_p_column_r_g_b_math_image.html#a6de6963906f964d4800deb0c856405f8',1,'JKQTPColumnRGBMathImage']]],
   ['imagered_47',['imageRed',['../class_j_k_q_t_f_p_r_g_b_image_overlay_plot.html#a09c73379082e3a4bf8afe1a525da840b',1,'JKQTFPRGBImageOverlayPlot']]],
-  ['images_48',['2D-Datasets and Images',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md32',1,'']]],
+  ['images_48',['2D-Datasets and Images',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md28',1,'']]],
   ['implementation_20details_49',['Implementation Details',['../class_j_k_q_t_p_base_key.html#JKQTPBaseKey_ImplementationDetails',1,'']]],
   ['improvements_20bugfixes_50',['V4.0.0: Qt6 compatibility &amp; diverse improvements + bugfixes',['../page_whatsnew.html#page_whatsnew_V4_0_0',1,'']]],
   ['impulse_20charts_51',['Impulse-Charts',['../group__jkqtplotter__sticks.html',1,'']]],
@@ -138,7 +138,7 @@ var searchData=
   ['interactions_135',['Available User-Interactions',['../_j_k_q_t_plotter_user_interaction.html#autotoc_md100',1,'']]],
   ['interactions_20gui_20features_136',['User-Interactions/GUI Features',['../class_j_k_q_t_plotter.html#JKQTPLOTTER_USERINTERACTION',1,'']]],
   ['interactions_20in_20jkqtplotter_137',['Tutorial (JKQTPlotter): User-Interactions in JKQtPlotter',['../_j_k_q_t_plotter_user_interaction.html',1,'exampleTutorialProjects']]],
-  ['interface_138',['interface',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md37',1,'Iterator Interface'],['../class_j_k_q_t_p_datastore.html#jkqtpdatastore_column_management_iterators',1,'Iterator Interface']]],
+  ['interface_138',['interface',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md29',1,'Iterator Interface'],['../class_j_k_q_t_p_datastore.html#jkqtpdatastore_column_management_iterators',1,'Iterator Interface']]],
   ['interface_20designer_20ui_20file_139',['Tutorial (JKQTPlotter): Using a JKQTPlotter inside a Qt User Interface Designer (UI) File',['../_j_k_q_t_plotter_qt_creator.html',1,'exampleTutorialProjects']]],
   ['interfaceing_20tools_140',['interfaceing tools',['../group__jkqtpinterfacecimg.html',1,'CImg Interfaceing Tools'],['../group__jkqtpinterfaceopencv.html',1,'OpenCV Interfaceing Tools']]],
   ['interfaces_20to_20other_20libraries_141',['Interfaces To Other Libraries',['../group__jkqtpexternalinterfaces.html',1,'']]],
@@ -231,7 +231,7 @@ var searchData=
   ['iterator_228',['iterator',['../class_j_k_q_t_p_column.html#a7aefe80cd029a58dcb8682ce6c770a50',1,'JKQTPColumn']]],
   ['iterator_20based_20column_20data_20access_20to_20existing_20rows_229',['Iterator-based Column Data Access To Existing Rows',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md38',1,'']]],
   ['iterator_20based_20usage_20of_20jkqtpdatastore_230',['Tutorial (JKQTPDatastore): Iterator-Based usage of JKQTPDatastore',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html',1,'exampleTutorialProjects']]],
-  ['iterator_20interface_231',['iterator interface',['../class_j_k_q_t_p_datastore.html#jkqtpdatastore_column_management_iterators',1,'Iterator Interface'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md37',1,'Iterator Interface']]],
+  ['iterator_20interface_231',['iterator interface',['../class_j_k_q_t_p_datastore.html#jkqtpdatastore_column_management_iterators',1,'Iterator Interface'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore.html#autotoc_md29',1,'Iterator Interface']]],
   ['iterator_5fcategory_232',['iterator_category',['../class_j_k_q_t_p_column_iterator.html#aaa5267bf8c0e2cf97760d3fbf186e769',1,'JKQTPColumnIterator::iterator_category'],['../class_j_k_q_t_p_column_back_inserter.html#a5060263d22c81a4fa03a70520b30073f',1,'JKQTPColumnBackInserter::iterator_category'],['../class_j_k_q_t_p_column_const_iterator.html#ac367d4b013f61f0832502791a7a47dae',1,'JKQTPColumnConstIterator::iterator_category']]],
   ['iterators_233',['Special Properties of the JKQTPDatastore-Iterators',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_iterators.html#autotoc_md41',1,'']]]
 ];

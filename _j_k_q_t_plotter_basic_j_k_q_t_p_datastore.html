@@ -128,12 +128,12 @@ $(document).ready(function(){initNavTree('_j_k_q_t_plotter_basic_j_k_q_t_p_datas
 </li>
 <li class="level1"><a href="#autotoc_md23">JKQTPDatastore-internal Data Management</a><ul><li class="level2"><a href="#autotoc_md24">Generating  Non-Initialized Columns and Filling Them</a></li>
 <li class="level2"><a href="#autotoc_md25">Generating Columns Preinitialized Columns</a></li>
-<li class="level2"><a href="#autotoc_md28">Appending to Columns</a></li>
-<li class="level2"><a href="#autotoc_md30">Using Data from one Column to Calculate Another</a></li>
-<li class="level2"><a href="#autotoc_md32">2D-Datasets and Images</a></li>
+<li class="level2"><a href="#autotoc_md26">Appending to Columns</a></li>
+<li class="level2"><a href="#autotoc_md27">Using Data from one Column to Calculate Another</a></li>
+<li class="level2"><a href="#autotoc_md28">2D-Datasets and Images</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md37">Iterator Interface</a></li>
+<li class="level1"><a href="#autotoc_md29">Iterator Interface</a></li>
 </ul>
 </div>
 <div class="textblock"><p>This tutorial project (see <code>./examples/datastore/</code>) explains several options of <a class="el" href="class_j_k_q_t_p_datastore.html" title="This class manages data columns (with entries of type double ), used by JKQTPlotter/JKQTBasePlotter t...">JKQTPDatastore</a>, which is the class used to centrally store the data for (most) graphs on a <a class="el" href="class_j_k_q_t_plotter.html" title="plotter widget for scientific plots (uses JKQTBasePlotter to do the actual drawing)">JKQTPlotter</a> widget.</p>
@@ -246,7 +246,7 @@ Generating Columns Preinitialized Columns</h2>
 </div><!-- fragment --><p>Comparable functions exist for logarithmically spaced columns (<code><a class="el" href="class_j_k_q_t_p_datastore.html#affda1ff5a437385986cbb01a422c73bd" title="add a column to the datastore that contains rows rows with monotonely increasing value starting at st...">JKQTPDatastore::addLogColumn()</a></code> and <code><a class="el" href="class_j_k_q_t_p_datastore.html#a7d6b0adeecd3054ac7cf15e0ce81d71e" title="add a column to the datastore that contains rows rows with monotonely increasing value starting at 10...">JKQTPDatastore::addDecadeLogColumn()</a></code> which only differ in the way the start and end values are specified): </p><div class="fragment"><div class="line"><span class="keywordtype">size_t</span> colLogX=datastore-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#affda1ff5a437385986cbb01a422c73bd">addLogColumn</a>(30, 1, 1000, <span class="stringliteral">&quot;x_log&quot;</span>);</div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_affda1ff5a437385986cbb01a422c73bd"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#affda1ff5a437385986cbb01a422c73bd">JKQTPDatastore::addLogColumn</a></div><div class="ttdeci">size_t addLogColumn(size_t rows, double start, double end, const QString &amp;name=QString(&quot;&quot;))</div><div class="ttdoc">add a column to the datastore that contains rows rows with monotonely increasing value starting at st...</div></div>
 </div><!-- fragment --><p> This call results in a column with these 30 values spanning the range between 1 and 1000: </p><div class="fragment"><div class="line">1, 1.26896, 1.61026, 2.04336, ..., 8.53168, 10.8264, 13.7382, ..., 72.7895, 92.3671, ..., 788.046, 1000</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md28"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md26"></a>
 Appending to Columns</h2>
 <p>You can use the methods <code><a class="el" href="class_j_k_q_t_p_datastore.html#a3a992ac63957ce0c521e48944f704d91" title="adds a value value to the column column. This changes the column length (number of rows).">JKQTPDatastore::appendToColumn()</a></code> and <code><a class="el" href="class_j_k_q_t_p_datastore.html#a0d61f76d5db9974ddde11eaa175f94c2" title="adds a values in container values to the column column. This changes the column length (number of row...">JKQTPDatastore::appendFromContainerToColumn()</a></code> to extend columns with additional values, e.g.: </p><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">double</span> ii=10; ii&lt;=20; ii++) datastore-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#a3a992ac63957ce0c521e48944f704d91">appendToColumn</a>(columnID, ii);</div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a3a992ac63957ce0c521e48944f704d91"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a3a992ac63957ce0c521e48944f704d91">JKQTPDatastore::appendToColumn</a></div><div class="ttdeci">void appendToColumn(size_t column, double value)</div><div class="ttdoc">adds a value value to the column column. This changes the column length (number of rows).</div></div>
@@ -255,7 +255,7 @@ Appending to Columns</h2>
 <div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">double</span> ii=10; ii&lt;=20; ii++) *++it=ii;</div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_a1c8222b11049de01139fcd4603ba272c"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#a1c8222b11049de01139fcd4603ba272c">JKQTPDatastore::backInserter</a></div><div class="ttdeci">JKQTPColumnBackInserter backInserter(int i)</div><div class="ttdoc">returns a back-inserter iterator (JKQTPColumnBackInserter) to the i -th column in the JKQTPDatastore</div></div>
 </div><!-- fragment --><p>This, together with <code><a class="el" href="class_j_k_q_t_p_datastore.html#a6d3927a7c56a239d283e42fb6a48d6b7" title="returns an iterator to the first column in the JKQTPDatastore">JKQTPDatastore::begin()</a></code> and <code>JKQTPDatatstore::end()</code> allows to use <code>JKQTDatastore</code> together with algorithms from the C++ standard template libarary and other templated algorithms based on the same iterator-based interfaces (e.g. in boost).</p>
-<h2><a class="anchor" id="autotoc_md30"></a>
+<h2><a class="anchor" id="autotoc_md27"></a>
 Using Data from one Column to Calculate Another</h2>
 <p>After generating columns, as shown above, you can also use the data in these columns to calculate a second column based on the values in the first. You can do this explicitly: </p><div class="fragment"><div class="line"><span class="keywordtype">size_t</span> colLinX=datastore-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#a5e33ba3499be747d654639e4987c0b52">addLinearColumn</a>(40, 0, 20, <span class="stringliteral">&quot;x_lin&quot;</span>);</div>
 <div class="line"><span class="keywordtype">size_t</span> colFunc1=datastore-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#ae057eda96c7b754cd42f4380b429a589">addColumn</a>(datastore-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#a0efe38a9912c05618c6422a07a8e0751">getRows</a>(colLinX), <span class="stringliteral">&quot;cos(x_lin)*x_lin/20.0&quot;</span>);</div>
@@ -275,7 +275,7 @@ Using Data from one Column to Calculate Another</h2>
 <div class="line">linegraph-&gt;setTitle(QObject::tr(<span class="stringliteral">&quot;calculated column(s)&quot;</span>));</div>
 </div><!-- fragment --><p>results in:</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_calccolumns.png" alt="datastore_calccolumns" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md32"></a>
+<h2><a class="anchor" id="autotoc_md28"></a>
 2D-Datasets and Images</h2>
 <p>There is also a function <code><a class="el" href="class_j_k_q_t_p_datastore.html#aaf018b1c809f2c4a0a0f5fbb26bbc933" title="add two columns to the datastore that contains the x- and y- coordinates of a rectangular grid with w...">JKQTPDatastore::addLinearGridColumns</a>(size_t width, double startX, double endX, size_t height, double startY, double endY, const QString &amp;nameX, const QString &amp;nameY)</code> that generate two columns simultaneously that conatin the x- and y-coordinates of the points on a rectangular grid, in a column-major order: </p><div class="fragment"><div class="line">std::pair&lt;size_t,size_t&gt; colLinXY=datastore-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#aaf018b1c809f2c4a0a0f5fbb26bbc933">addLinearGridColumns</a>(10, 10, 20, 10, 1.5, 3);</div>
 <div class="ttc" id="aclass_j_k_q_t_p_datastore_html_aaf018b1c809f2c4a0a0f5fbb26bbc933"><div class="ttname"><a href="class_j_k_q_t_p_datastore.html#aaf018b1c809f2c4a0a0f5fbb26bbc933">JKQTPDatastore::addLinearGridColumns</a></div><div class="ttdeci">std::pair&lt; size_t, size_t &gt; addLinearGridColumns(size_t width, double startX, double endX, size_t height, double startY, double endY, const QString &amp;nameX=QString(&quot;&quot;), const QString &amp;nameY=QString(&quot;&quot;))</div><div class="ttdoc">add two columns to the datastore that contains the x- and y- coordinates of a rectangular grid with w...</div></div>
@@ -342,7 +342,7 @@ Using Data from one Column to Calculate Another</h2>
 <div class="ttc" id="aclass_j_k_q_t_p_column_math_image_html"><div class="ttname"><a href="class_j_k_q_t_p_column_math_image.html">JKQTPColumnMathImage</a></div><div class="ttdoc">class to plot an image from an 2-dimensional array of values stored in a column of the datastore</div><div class="ttdef"><b>Definition</b> jkqtpimage.h:771</div></div>
 </div><!-- fragment --><p> The result will look like this (<code><a class="el" href="class_j_k_q_t_p_x_y_parametrized_scatter_graph.html" title="This implements xy scatter plots (like JKQTPXYScatterGraph), but the color and size of the symbols ma...">JKQTPXYParametrizedScatterGraph</a></code> on the left and <code><a class="el" href="class_j_k_q_t_p_column_math_image.html" title="class to plot an image from an 2-dimensional array of values stored in a column of the datastore">JKQTPColumnMathImage</a></code> on the right):</p>
 <p><img src="https://raw.githubusercontent.com/jkriege2/JKQtPlotter/master/screenshots/datastore_image.png" alt="datastore_image" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md37"></a>
+<h1><a class="anchor" id="autotoc_md29"></a>
 Iterator Interface</h1>
 <p>Some sections before we discussed a code-fragment </p><div class="fragment"><div class="line"><span class="keywordtype">size_t</span> itXColumn=datastore-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#ae057eda96c7b754cd42f4380b429a589">addColumn</a>(50, <span class="stringliteral">&quot;cos curve: x-data&quot;</span>);</div>
 <div class="line"><span class="keywordtype">size_t</span> itYColumn=datastore-&gt;<a class="code hl_function" href="class_j_k_q_t_p_datastore.html#ae057eda96c7b754cd42f4380b429a589">addColumn</a>(50, <span class="stringliteral">&quot;cos curve: y-data&quot;</span>);</div>
@@ -373,7 +373,7 @@ Iterator Interface</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Tue Mar 12 2024 21:26:30 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Mar 14 2024 09:01:13 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
