@@ -15,5 +15,6 @@ var group__jkqtptools__general =
     ] ],
     [ "JKQTPExpectedUnexpectedType", "group__jkqtptools__general.html#struct_j_k_q_t_p_expected_unexpected_type", null ],
     [ "JKQTPUnexpected", "group__jkqtptools__general.html#ga56691b8c57de8fa0718676b6859b3d70", null ],
+    [ "JKQTPIsInputIteratorTrait", "group__jkqtptools__general.html#gab44b2bd91b4e8ba48690cc0e97b8e3b5", null ],
     [ "jkqtp_checksum", "group__jkqtptools__general.html#gaed72b23b113f4c81675eac606e516a3a", null ]
 ];

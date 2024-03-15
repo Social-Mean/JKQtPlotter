@@ -116,6 +116,7 @@ $(document).ready(function(){initNavTree('group__jkqtptools__general.html',''); 
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">General Functions &amp; Tools<div class="ingroups"><a class="el" href="group__jkqtptools__jkqtcommon.html">JKQTCommon: Diverse Basic Utilities</a></div></div></div>
 </div><!--header-->
@@ -140,6 +141,13 @@ Macros</h2></td></tr>
 <tr class="memitem:ga56691b8c57de8fa0718676b6859b3d70" id="r_ga56691b8c57de8fa0718676b6859b3d70"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__jkqtptools__general.html#ga56691b8c57de8fa0718676b6859b3d70">JKQTPUnexpected</a>&#160;&#160;&#160;<a class="el" href="group__jkqtptools__general.html#struct_j_k_q_t_p_expected_unexpected_type">JKQTPExpectedUnexpectedType</a>()</td></tr>
 <tr class="memdesc:ga56691b8c57de8fa0718676b6859b3d70"><td class="mdescLeft">&#160;</td><td class="mdescRight">tag for an unexpected/error result in <a class="el" href="struct_j_k_q_t_p_expected.html" title="an &quot;expected&quot; datatype, which can either represent a function result of type T or an error of type E">JKQTPExpected</a>  <br /></td></tr>
 <tr class="separator:ga56691b8c57de8fa0718676b6859b3d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:gab44b2bd91b4e8ba48690cc0e97b8e3b5" id="r_gab44b2bd91b4e8ba48690cc0e97b8e3b5"><td class="memTemplParams" colspan="2">template&lt;typename Iterator &gt; </td></tr>
+<tr class="memitem:gab44b2bd91b4e8ba48690cc0e97b8e3b5"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__general.html#gab44b2bd91b4e8ba48690cc0e97b8e3b5">JKQTPIsInputIteratorTrait</a> = typename std::enable_if&lt; std::is_convertible&lt; typename std::iterator_traits&lt; Iterator &gt;::iterator_category, std::input_iterator_tag &gt;::value, bool &gt;::type</td></tr>
+<tr class="memdesc:gab44b2bd91b4e8ba48690cc0e97b8e3b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a given iterator is an input iterator (std::input_iterator_tag)  <br /></td></tr>
+<tr class="separator:gab44b2bd91b4e8ba48690cc0e97b8e3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -183,6 +191,25 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="gab44b2bd91b4e8ba48690cc0e97b8e3b5" name="gab44b2bd91b4e8ba48690cc0e97b8e3b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab44b2bd91b4e8ba48690cc0e97b8e3b5">&#9670;&#160;</a></span>JKQTPIsInputIteratorTrait</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Iterator &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="group__jkqtptools__general.html#gab44b2bd91b4e8ba48690cc0e97b8e3b5">JKQTPIsInputIteratorTrait</a> =  typename std::enable_if&lt;std::is_convertible&lt;typename std::iterator_traits&lt;Iterator&gt;::iterator_category, std::input_iterator_tag&gt;::value, bool&gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks whether a given iterator is an input iterator (std::input_iterator_tag) </p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="gaed72b23b113f4c81675eac606e516a3a" name="gaed72b23b113f4c81675eac606e516a3a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaed72b23b113f4c81675eac606e516a3a">&#9670;&#160;</a></span>jkqtp_checksum()</h2>
@@ -221,7 +248,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Mar 15 2024 09:18:16 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Mar 15 2024 10:38:43 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

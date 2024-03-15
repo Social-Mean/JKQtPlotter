@@ -217,9 +217,17 @@ $(document).ready(function(){initNavTree('jkqttools_8h_source.html',''); initRes
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="comment"> *  \see jkqtp_MouseButton2String()</span></div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="comment"> */</span></div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="group__jkqtptools__general.html#gaed72b23b113f4c81675eac606e516a3a">   96</a></span><a class="code hl_define" href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a> quint16 <a class="code hl_function" href="group__jkqtptools__general.html#gaed72b23b113f4c81675eac606e516a3a">jkqtp_checksum</a>(<span class="keyword">const</span> <span class="keywordtype">void</span>* data, <span class="keywordtype">size_t</span> len);</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="preprocessor">#endif </span><span class="comment">// JKQTTOOLS_H</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="comment"></span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="comment">/** \brief Checks whether a given iterator is an input iterator (std::input_iterator_tag)</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="comment"> *  \ingroup jkqtptools_general</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span><span class="comment"> *</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="comment"> **/</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Iterator&gt;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="group__jkqtptools__general.html#gab44b2bd91b4e8ba48690cc0e97b8e3b5">  103</a></span><span class="keyword">using </span><a class="code hl_typedef" href="group__jkqtptools__general.html#gab44b2bd91b4e8ba48690cc0e97b8e3b5">JKQTPIsInputIteratorTrait</a> = <span class="keyword">typename</span> std::enable_if&lt;std::is_convertible&lt;typename std::iterator_traits&lt;Iterator&gt;::iterator_category, std::input_iterator_tag&gt;::value, <span class="keywordtype">bool</span>&gt;::type;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="preprocessor">#endif </span><span class="comment">// JKQTTOOLS_H</span></div>
+<div class="ttc" id="agroup__jkqtptools__general_html_gab44b2bd91b4e8ba48690cc0e97b8e3b5"><div class="ttname"><a href="group__jkqtptools__general.html#gab44b2bd91b4e8ba48690cc0e97b8e3b5">JKQTPIsInputIteratorTrait</a></div><div class="ttdeci">typename std::enable_if&lt; std::is_convertible&lt; typename std::iterator_traits&lt; Iterator &gt;::iterator_category, std::input_iterator_tag &gt;::value, bool &gt;::type JKQTPIsInputIteratorTrait</div><div class="ttdoc">Checks whether a given iterator is an input iterator (std::input_iterator_tag)</div><div class="ttdef"><b>Definition</b> jkqttools.h:103</div></div>
 <div class="ttc" id="agroup__jkqtptools__general_html_gaed72b23b113f4c81675eac606e516a3a"><div class="ttname"><a href="group__jkqtptools__general.html#gaed72b23b113f4c81675eac606e516a3a">jkqtp_checksum</a></div><div class="ttdeci">JKQTCOMMON_LIB_EXPORT quint16 jkqtp_checksum(const void *data, size_t len)</div><div class="ttdoc">convert a QString (created by jkqtp_MouseButton2String() ) to Qt::MouseButton</div></div>
 <div class="ttc" id="agroup__jkqtptools__libfacilities_html_ga7a5770c49e13362630ad3ab974ba5af1"><div class="ttname"><a href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a></div><div class="ttdeci">#define JKQTCOMMON_LIB_EXPORT</div><div class="ttdef"><b>Definition</b> jkqtcommon_imexport.h:87</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -229,7 +237,7 @@ $(document).ready(function(){initNavTree('jkqttools_8h_source.html',''); initRes
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_9c1c7b82103a20ec9a416a3dfc619ab1.html">jkqtcommon</a></li><li class="navelem"><b>jkqttools.h</b></li>
-    <li class="footer">Generated on Fri Mar 15 2024 09:18:16 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Mar 15 2024 10:38:43 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
